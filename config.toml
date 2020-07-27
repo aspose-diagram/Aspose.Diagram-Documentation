@@ -1,0 +1,4 @@
+baseURL = "https://docs2.aspose.com/diagram/"
+languageCode = "en-us"
+title = "Aspose.Diagram"
+theme = "ace-documentation"
