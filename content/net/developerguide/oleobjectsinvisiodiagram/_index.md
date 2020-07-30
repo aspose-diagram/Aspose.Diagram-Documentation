@@ -1,10 +1,11 @@
-+++
-title = "OLE Objects in Visio Diagram" 
-description = "" 
-weight = 8055 
-+++
-
-Aspose.Diagram for .NET : OLE Objects in Visio Diagram  
+---
+title : "OLE Objects in Visio Diagram" 
+description : "" 
+weight : 8055 
+toc : false
+type: docs
+url: /net/developerguide/oleobjectsinvisiodiagram/
+---
 
 # Aspose.Diagram for .NET : OLE Objects in Visio Diagram
 

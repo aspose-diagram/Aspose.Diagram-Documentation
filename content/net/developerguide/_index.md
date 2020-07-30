@@ -1,10 +1,11 @@
-+++
-title = "Developer Guide" 
-description = "" 
-weight = 4012 
-+++
-
-Aspose.Diagram for .NET : Developer Guide  
+---
+title : "Developer Guide" 
+description : "" 
+weight : 4012 
+toc : false
+type: docs
+url: /net/developerguide/
+---
 
 # Aspose.Diagram for .NET : Developer Guide
 
@@ -12,10 +13,10 @@ Aspose.Diagram for .NET : Developer Guide
 ### Developer Guide
 
 &nbsp;&nbsp;&nbsp;&nbsp;[**Introduction**](https://docs2.aspose.com/diagram/net/developerguide/introduction)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Loading Saving and Converting**](https://docs2.aspose.com/diagram/net/developerguide/loadingsavingandconverting/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Load or Create a Visio Drawing**](https://docs2.aspose.com/diagram/net/developerguide/loadingsavingandconverting/load+or+create+a+visio+drawing)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save a Visio Drawing**](https://docs2.aspose.com/diagram/net/developerguide/loadingsavingandconverting/save+a+visio+drawing)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**How to Convert a Visio Diagram**](https://docs2.aspose.com/diagram/net/developerguide/loadingsavingandconverting/how+to+convert+a+visio+diagram)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Loading Saving and Converting**](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Load or Create a Visio Drawing**](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/load+or+create+a+visio+drawing)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save a Visio Drawing**](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**How to Convert a Visio Diagram**](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/how+to+convert+a+visio+diagram)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Working with Diagrams**](https://docs2.aspose.com/diagram/net/developerguide/workingwithdiagrams/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create Update Layout and Auto-Fit Shapes**](https://docs2.aspose.com/diagram/net/developerguide/workingwithdiagrams/create+update+layout+and+auto-fit+shapes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Retrieve Visio Connectors and Font Information**](https://docs2.aspose.com/diagram/net/developerguide/workingwithdiagrams/retrieve+visio+connectors+and+font+information)    
@@ -55,39 +56,39 @@ Aspose.Diagram for .NET : Developer Guide
 &nbsp;&nbsp;&nbsp;&nbsp;[**Working with Comments**](https://docs2.aspose.com/diagram/net/developerguide/working+with+comments)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**OLE Objects in Visio Diagram**](https://docs2.aspose.com/diagram/net/developerguide/oleobjectsinvisiodiagram/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Manipulate the Embedded OLE Objects in Visio Diagram**](https://docs2.aspose.com/diagram/net/developerguide/oleobjectsinvisiodiagram/manipulate+the+embedded+ole+objects+in+visio+diagram)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Events Section in the ShapeSheet**](https://docs2.aspose.com/diagram/net/developerguide/eventssectionintheshapesheet/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Setting Cells in the Event Section of ShapeSheet**](https://docs2.aspose.com/diagram/net/developerguide/eventssectionintheshapesheet/setting+cells+in+the+event+section+of+shapesheet)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Events Section in the ShapeSheet**](https://docs2.aspose.com/diagram/net/developerguide/eventsinshapesheet/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Setting Cells in the Event Section of ShapeSheet**](https://docs2.aspose.com/diagram/net/developerguide/eventsinshapesheet/setting+cells+in+the+event+section+of+shapesheet)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Visio ActiveX Controls**](https://docs2.aspose.com/diagram/net/developerguide/visioactivexcontrols/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Insert an ActiveX Control in the Visio Diagram**](https://docs2.aspose.com/diagram/net/developerguide/visioactivexcontrols/insert+an+activex+control+in+the+visio+diagram)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Retrieve an ActiveX Control from a Shape Object to Modify Properties**](https://docs2.aspose.com/diagram/net/developerguide/visioactivexcontrols/retrieve+an+activex+control+from+a+shape+object+to+modify+properties)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Visio Shape Gradient Gradient Stops and Gradient Fill**](https://docs2.aspose.com/diagram/net/developerguide/visioshapegradientgradientstopsandgradientfill/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Modify the Gradient of a Visio Shape**](https://docs2.aspose.com/diagram/net/developerguide/visioshapegradientgradientstopsandgradientfill/modify+the+gradient+of+a+visio+shape)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Visio Shape Gradient Gradient Stops and Gradient Fill**](https://docs2.aspose.com/diagram/net/developerguide/visioshapegradient/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Modify the Gradient of a Visio Shape**](https://docs2.aspose.com/diagram/net/developerguide/visioshapegradient/modify+the+gradient+of+a+visio+shape)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Knowledge Base**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**API Limitations**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/api+limitations)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Migrating from Earlier Versions of Aspose.Diagram**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 17.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram17x/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 17.01**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram17x/public+api+changes+in+aspose.diagram+17.01)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 16.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram16xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 16.12.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram16xx/public+api+changes+in+aspose.diagram+16.12.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 16.11.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram16xx/public+api+changes+in+aspose.diagram+16.11.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram6xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram6xx/public+api+changes+in+aspose.diagram+6.8.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.6.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram6xx/public+api+changes+in+aspose.diagram+6.6.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.3.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram6xx/public+api+changes+in+aspose.diagram+6.3.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.0.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram6xx/public+api+changes+in+aspose.diagram+6.0.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram5xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.9.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram5xx/public+api+changes+in+aspose.diagram+5.9.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram5xx/public+api+changes+in+aspose.diagram+5.8.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.7.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram5xx/public+api+changes+in+aspose.diagram+5.7.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.6.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram5xx/public+api+changes+in+aspose.diagram+5.6.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.2.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram5xx/public+api+changes+in+aspose.diagram+5.2.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram4xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.4.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram4xx/public+api+changes+in+aspose.diagram+4.4.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.3.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram4xx/public+api+changes+in+aspose.diagram+4.3.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.2.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram4xx/public+api+changes+in+aspose.diagram+4.2.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.1.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram4xx/public+api+changes+in+aspose.diagram+4.1.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 3.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram3xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 3.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearlierversionsofasposediagram/publicapichangesinasposediagram3xx/public+api+changes+in+aspose.diagram+3.8.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Migrating from Earlier Versions of Aspose.Diagram**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 17.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin17x/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 17.01**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin17x/public+api+changes+in+aspose.diagram+17.01)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 16.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 16.12.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/public+api+changes+in+aspose.diagram+16.12.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 16.11.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/public+api+changes+in+aspose.diagram+16.11.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin6xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin6xx/public+api+changes+in+aspose.diagram+6.8.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.6.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin6xx/public+api+changes+in+aspose.diagram+6.6.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.3.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin6xx/public+api+changes+in+aspose.diagram+6.3.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 6.0.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin6xx/public+api+changes+in+aspose.diagram+6.0.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin5xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.9.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin5xx/public+api+changes+in+aspose.diagram+5.9.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin5xx/public+api+changes+in+aspose.diagram+5.8.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.7.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin5xx/public+api+changes+in+aspose.diagram+5.7.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.6.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin5xx/public+api+changes+in+aspose.diagram+5.6.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 5.2.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin5xx/public+api+changes+in+aspose.diagram+5.2.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin4xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.4.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin4xx/public+api+changes+in+aspose.diagram+4.4.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.3.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin4xx/public+api+changes+in+aspose.diagram+4.3.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.2.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin4xx/public+api+changes+in+aspose.diagram+4.2.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 4.1.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin4xx/public+api+changes+in+aspose.diagram+4.1.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 3.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin3xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 3.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin3xx/public+api+changes+in+aspose.diagram+3.8.0)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Technical Articles**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/technicalarticles/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Use Connection indexes to connect shapes**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/technicalarticles/use+connection+indexes+to+connect+shapes)    
 

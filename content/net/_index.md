@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Diagram for .NET" 
-description = "" 
-weight = 140 
-+++
-
+---
+title : "Aspose.Diagram for .NET" 
+description : "" 
+weight : 140 
+toc : false
+type: docs
+url: /net/
+---
 
 # ![Home Page](https://docs2.aspose.com/diagram/net/images/icons/contenttypes/home_page_16.png) Aspose.Diagram for .NET : Home 
 

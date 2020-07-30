@@ -1,10 +1,11 @@
-+++
-title = "Visio ActiveX Controls" 
-description = "" 
-weight = 8059 
-+++
-
-Aspose.Diagram for .NET : Visio ActiveX Controls  
+---
+title : "Visio ActiveX Controls" 
+description : "" 
+weight : 8059 
+toc : false
+type: docs
+url: /net/developerguide/visioactivexcontrols/
+---
 
 # Aspose.Diagram for .NET : Visio ActiveX Controls
 

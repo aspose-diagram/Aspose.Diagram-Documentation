@@ -1,9 +1,11 @@
-+++
-title = "Aspose.Diagram for Java" 
-description = "" 
-weight = 130 
-+++
-
+---
+title : "Aspose.Diagram for Java" 
+description : "" 
+weight : 130 
+toc : false
+type: docs
+url: /java/
+---
 
 # ![Home Page](https://docs2.aspose.com/diagram/java/images/icons/contenttypes/home_page_16.png) Aspose.Diagram for Java : Home 
 

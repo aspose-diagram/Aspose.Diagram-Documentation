@@ -1,10 +1,11 @@
-+++
-title = "Knowledge Base" 
-description = "" 
-weight = 8065 
-+++
-
-Aspose.Diagram for Java : Knowledge Base  
+---
+title : "Knowledge Base" 
+description : "" 
+weight : 8065 
+toc : false
+type: docs
+url: /java/developerguide/knowledgebase/
+---
 
 # Aspose.Diagram for Java : Knowledge Base
 

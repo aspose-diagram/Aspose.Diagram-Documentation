@@ -1,10 +1,11 @@
-+++
-title = "Getting Started" 
-description = "" 
-weight = 4002 
-+++
-
-Aspose.Diagram for Java : Getting Started  
+---
+title : "Getting Started" 
+description : "" 
+weight : 4002 
+toc : false
+type: docs
+url: /java/gettingstarted/
+---
 
 # Aspose.Diagram for Java : Getting Started
 
@@ -14,8 +15,8 @@ Aspose.Diagram for Java : Getting Started
 &nbsp;&nbsp;&nbsp;&nbsp;[**Product Overview**](https://docs2.aspose.com/diagram/java/gettingstarted/product+overview)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Supported File Formats**](https://docs2.aspose.com/diagram/java/gettingstarted/supported+file+formats)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Feature List**](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for Node.js via Java Features**](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/asposediagramfornodejsviajavafeatures/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for Node.js Examples**](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/asposediagramfornodejsviajavafeatures/aspose.diagram+for+node.js+examples)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for Node.js via Java Features**](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/nodejsviajava/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for Node.js Examples**](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/nodejsviajava/aspose.diagram+for+node.js+examples)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**System Requirements**](https://docs2.aspose.com/diagram/java/gettingstarted/system+requirements)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Installation**](https://docs2.aspose.com/diagram/java/gettingstarted/installation)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Licensing**](https://docs2.aspose.com/diagram/java/gettingstarted/licensing)    

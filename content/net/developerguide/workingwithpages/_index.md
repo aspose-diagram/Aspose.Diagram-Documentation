@@ -1,10 +1,11 @@
-+++
-title = "Working with Pages" 
-description = "" 
-weight = 8031 
-+++
-
-Aspose.Diagram for .NET : Working with Pages  
+---
+title : "Working with Pages" 
+description : "" 
+weight : 8031 
+toc : false
+type: docs
+url: /net/developerguide/workingwithpages/
+---
 
 # Aspose.Diagram for .NET : Working with Pages
 

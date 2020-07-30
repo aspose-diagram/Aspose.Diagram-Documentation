@@ -1,10 +1,11 @@
-+++
-title = "Working with Diagrams" 
-description = "" 
-weight = 8018 
-+++
-
-Aspose.Diagram for .NET : Working with Diagrams  
+---
+title : "Working with Diagrams" 
+description : "" 
+weight : 8018 
+toc : false
+type: docs
+url: /net/developerguide/workingwithdiagrams/
+---
 
 # Aspose.Diagram for .NET : Working with Diagrams
 

@@ -1,10 +1,11 @@
-+++
-title = "Working with Shapes" 
-description = "" 
-weight = 8030 
-+++
-
-Aspose.Diagram for Java : Working with Shapes  
+---
+title : "Working with Shapes" 
+description : "" 
+weight : 8030 
+toc : false
+type: docs
+url: /java/developerguide/workingwithshapes/
+---
 
 # Aspose.Diagram for Java : Working with Shapes
 

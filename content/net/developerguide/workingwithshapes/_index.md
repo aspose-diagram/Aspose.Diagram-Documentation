@@ -1,10 +1,11 @@
-+++
-title = "Working with Shapes" 
-description = "" 
-weight = 8021 
-+++
-
-Aspose.Diagram for .NET : Working with Shapes  
+---
+title : "Working with Shapes" 
+description : "" 
+weight : 8021 
+toc : false
+type: docs
+url: /net/developerguide/workingwithshapes/
+---
 
 # Aspose.Diagram for .NET : Working with Shapes
 

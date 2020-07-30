@@ -1,10 +1,11 @@
-+++
-title = "Aspose.Diagram for Family" 
-description = "" 
-weight = 1 
-+++
-
-Aspose.Diagram Product Family : Home  
+---
+title : "Aspose.Diagram for Family" 
+description : "" 
+weight : 1 
+toc : false
+type: docs
+url: /
+---
 
 # ![Home Page](https://docs2.aspose.com/diagram/java/images/icons/contenttypes/home_page_16.png) Aspose.Diagram Product Family : Home 
 
@@ -61,9 +62,9 @@ Aspose.Diagram for Node.js via Java API offers all the useful features of Aspose
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 *   Aspose.Diagram for Java Online Documentation?(Aspose.Diagram for Node.js via?Java is ported from?Aspose.Diagram for Java. So, you can use the same documentation)
-*   [Aspose.Diagram for Node.js via Java?Features](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/asposediagramfornodejsviajavafeatures/)
+*   [Aspose.Diagram for Node.js via Java?Features](https://docs2.aspose.com/diagram/java/gettingstarted/featurelist/nodejsviajava/)
 *   Aspose.Diagram for Node.js via Java?Limitations and API Differences
-*   [Aspose.Diagram for Node.js via Java?Release Notes](https://docs2.aspose.com/diagram/java/releasenotes/asposediagramfornodejsviajava/)
+*   [Aspose.Diagram for Node.js via Java?Release Notes](https://docs2.aspose.com/diagram/java/releasenotes/nodejsviajava/)
 *   [Aspose.Diagram for Node.js via Java?Product Page](https://products.aspose.com/diagram/nodejs-java)
 *   [Download?Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/diagram/nodejs)
 *   [Aspose.Diagram for Node.js via Java?API Reference Guide](https://apireference.aspose.com/nodejs/diagra)

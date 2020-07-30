@@ -1,18 +1,19 @@
-+++
-title = "Feature List" 
-description = "" 
-weight = 8005 
-+++
-
-Aspose.Diagram for Java : Feature List  
+---
+title : "Feature List" 
+description : "" 
+weight : 8005 
+toc : false
+type: docs
+url: /java/gettingstarted/featurelist/
+---
 
 # Aspose.Diagram for Java : Feature List
 
 
 {{< panel title="Contents Summary" style="primary" >}}
-*   1 [Rich Features](#FeatureList-RichFeatures)
-*   2 [Platform Supported](#FeatureList-PlatformSupported)
-*   3 [Performance and Scalability](#FeatureList-PerformanceandScalability)
+*   1 [Rich Features](#rich-features)
+*   2 [Platform Supported](#platform-supported)
+*   3 [Performance and Scalability](#performance-and-scalability)
 {{< /panel >}}
  
 

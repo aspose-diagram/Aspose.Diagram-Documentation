@@ -1,10 +1,11 @@
-+++
-title = "Working with Pages" 
-description = "" 
-weight = 8025 
-+++
-
-Aspose.Diagram for Java : Working with Pages  
+---
+title : "Working with Pages" 
+description : "" 
+weight : 8025 
+toc : false
+type: docs
+url: /java/developerguide/workingwithpages/
+---
 
 # Aspose.Diagram for Java : Working with Pages
 

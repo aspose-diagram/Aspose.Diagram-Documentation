@@ -1,10 +1,11 @@
-+++
-title = "Technical Articles" 
-description = "" 
-weight = 8058 
-+++
-
-Aspose.Diagram for Java : Technical Articles  
+---
+title : "Technical Articles" 
+description : "" 
+weight : 8058 
+toc : false
+type: docs
+url: /java/developerguide/technicalarticles/
+---
 
 # Aspose.Diagram for Java : Technical Articles
 
