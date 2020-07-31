@@ -61,12 +61,12 @@ There are several [`Diagram.Save`](#) method overloads that accept a `SaveOption
 
 These examples show how to:
 
-*   [Use Diagram Save Options](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing).
-*   [Use PDF Save Options](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing).
-*   [Use HTML Save Options](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing).
-*   [Use Image Save Options](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing).
-*   [Use SVG Save Options](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing).
-*   [Use SWF Save Options](https://docs2.aspose.com/diagram/net/developerguide/ld-sv-cvt/save+a+visio+drawing).
+*   [Use Diagram Save Options](#use-of-the-diagram-save-options).
+*   [Use PDF Save Options](#use-of-the-pdf-save-options).
+*   [Use HTML Save Options](#use-of-the-html-save-options).
+*   [Use Image Save Options](#use-of-the-image-save-options).
+*   [Use SVG Save Options](#use-of-the-svg-save-options).
+*   [Use SWF Save Options](#use-of-the-swf-save-options).
 
 #### Use of the Diagram Save Options
 
@@ -91,12 +91,12 @@ The code below shows how to set save options before saving a document to HTML fi
 The code below shows how to set save options before saving a document to image file format.
 
   
-Use of the SVG Save Options
+#### Use of the SVG Save Options
 
 The code below shows how to set save options before saving a document to SVG format.
 
   
-Use of the SWF Save Options
+#### Use of the SWF Save Options
 
 The code below shows how to set save options before saving a document to SWF format.
 

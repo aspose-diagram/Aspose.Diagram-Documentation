@@ -10,7 +10,7 @@ url: /
 # ![Home Page](https://docs2.aspose.com/diagram/java/images/icons/contenttypes/home_page_16.png) Aspose.Diagram Product Family : Home 
 
 
-Welcome to Aspose.Diagram for Java![](https://docs2.aspose.com/diagram/java/attachments/18612664/18808863.png)
+![](https://docs2.aspose.com/diagram/java/attachments/18612664/18808863.png)Welcome to Aspose.Diagram for Java
 
 Aspose.Diagram is the most flexible and reliable API that allows Java Applications to create and manage Microsoft Office Visio drawings without requiring Microsoft Office Visio to be installed on the system. It?provides better performance and is easier to use to manipulate diagrams and convert files than Microsoft Office Automation.
 
@@ -53,7 +53,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Diagram for .NET Free Support Forum](https://forum.aspose.com/c/diagram)
 *   [Aspose.Diagram for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-**![](https://docs2.aspose.com/diagram/nodejsjava/attachments/thumbnails/105284243/106364960)Welcome to Aspose.Diagram for Node.js via Java**
+**![](https://docs2.aspose.com/diagram/nodejsjava/attachments/thumbnails/105284243/106364960.png)Welcome to Aspose.Diagram for Node.js via Java**
 
 Aspose.Diagram for Node.js via Java API offers all the useful features of Aspose.Diagram for Java using Node.js. The API empowers you to use its powerful features of working with Visio files without the need of any other software applications. It is scalable, rich in features and provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. You can use the API to read a variety of Visio file types that can be saved as other Visio file formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 
