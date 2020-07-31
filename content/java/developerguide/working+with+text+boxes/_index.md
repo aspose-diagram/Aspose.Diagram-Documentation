@@ -63,14 +63,3 @@ The following piece of code sets orientation angle and position of the shape's t
 
 The following piece of code sets orientation angle and position of the shape's text at the right.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Updating-shape-text.003.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808855.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Updating-shape-text.004.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808854.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Apply Different Style on the Each Text Value of a Shape-01.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808860.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Apply Different Style on the Each Text Value of a Shape-02.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808861.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Find and Replace the Text of a Shape-01.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808858.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Find and Replace the Text of a Shape-02.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808859.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-001.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808856.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-002.png](https://docs2.aspose.com/diagram/java/attachments/18612302/18808857.png) (image/png)  
-

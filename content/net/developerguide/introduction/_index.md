@@ -73,9 +73,3 @@ Using Aspose.Diagram for .NET API, developers can detect the format of the Visio
 
 The following sample code illustrates how to detect a file format (using the file path or stream) and check its extension.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Determining Visio version-001.png](https://docs2.aspose.com/diagram/net/attachments/18350195/18546815.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Writing Visio document summary information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350195/18546814.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Writing-Visio-document-summary-information.001.png](https://docs2.aspose.com/diagram/net/attachments/18350195/18546817.png) (image/png)  
-

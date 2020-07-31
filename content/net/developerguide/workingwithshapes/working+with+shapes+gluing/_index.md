@@ -91,14 +91,3 @@ The code below shows how to:
 
 Use the following code in your .NET application to glue group shape inside a container:
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Glue Visio Shapes Through the Connection Points-01.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18546757.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Glue Visio Shapes Through the Connection Points-02.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18546756.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Glue Group Shapes Inside the Container\_01.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18546743.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Glue Group Shapes Inside the Container\_02.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18546742.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [5TJpDwc.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18547243.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [HRRzIEh.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18547242.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [YxCiOgU.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18547241.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Z69f4hg.png](https://docs2.aspose.com/diagram/net/attachments/18350189/18547240.png) (image/png)  
-

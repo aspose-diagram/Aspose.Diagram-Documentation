@@ -85,7 +85,6 @@ url: /java/releasenotes/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Node.js via Java Release Notes - 2020**](https://docs2.aspose.com/diagram/java/releasenotes/nodejsviajava/2020/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for Node.js via Java 20.4 Release Notes**](https://docs2.aspose.com/diagram/java/releasenotes/nodejsviajava/2020/aspose.diagram+for+node.js+via+java+20.4+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

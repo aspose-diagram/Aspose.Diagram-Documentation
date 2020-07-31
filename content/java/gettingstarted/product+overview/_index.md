@@ -67,7 +67,3 @@ This table lists important Aspose.Diagram for Java technical resources.
 |[Aspose.Diagram for Java product documentation](https://docs2.aspose.com/diagram/java/)|Full online documentation that includes this documentation as well as Aspose.Diagram API Reference.|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Aspose-Diagram-for-Java.png](https://docs2.aspose.com/diagram/java/attachments/18612664/18808863.png) (image/png)  
-

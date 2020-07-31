@@ -59,8 +59,3 @@ In Visio, you need to perform following actions to protect any shape:
 
 Use the following code in your Java application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for Java.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Protect and Unprotect Diagrams-001.png](https://docs2.aspose.com/diagram/java/attachments/18612576/18809038.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Protect and Unprotect a Visio Shape-001.png](https://docs2.aspose.com/diagram/java/attachments/18612576/18809039.png) (image/png)  
-

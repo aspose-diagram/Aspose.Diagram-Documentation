@@ -12,6 +12,8 @@ url: /java/developerguide/visioshapegradient/
 
 ### Articles in this section
 
+*    [Modify the Gradient of a Visio Shape](https://docs2.aspose.com/diagram/java/developerguide/visioshapegradient/modify+the+gradient+of+a+visio+shape/)    
+
            
 
  

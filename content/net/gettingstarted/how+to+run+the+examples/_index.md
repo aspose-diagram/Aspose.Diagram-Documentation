@@ -51,8 +51,3 @@ If you like to add or improve an example, we encourage you to contribute to the 
 
 To contribute, you can fork the repository, edit the source code and create a pull request. We will review the changes and include it in the repository if found helpful.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [DiagramN1.png](https://docs2.aspose.com/diagram/net/attachments/18350167/18546854.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [DN2.png](https://docs2.aspose.com/diagram/net/attachments/18350167/18546857.png) (image/png)  
-

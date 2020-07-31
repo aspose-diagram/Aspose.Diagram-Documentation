@@ -101,8 +101,3 @@ The Visio shapes can inherit the parent style and the master shape. Developers m
 
 The following code snippet retrieves the inherited fill data of the shape. Please check this sample code:
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-XForm-data.003.png](https://docs2.aspose.com/diagram/java/attachments/18612231/18809112.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-XForm-data-004.png](https://docs2.aspose.com/diagram/java/attachments/18612231/18809113.png) (image/png)  
-

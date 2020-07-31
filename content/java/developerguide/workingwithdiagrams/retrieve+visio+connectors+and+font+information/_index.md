@@ -53,9 +53,3 @@ The following piece of code retrieves font information from the Visio diagram.
 
 Aspose.Diagram for Java API also allows getting default font directory path using `getDefaultFontDir()` method of `Diagram` Class. The following piece of code retrieves default font directory from the Visio diagram.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving fonts information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612234/18809121.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving fonts information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612234/18809122.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving connectors information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612234/18809120.png) (image/png)  
-

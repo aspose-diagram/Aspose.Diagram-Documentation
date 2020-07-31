@@ -111,7 +111,3 @@ Options.Area = new RectangleF(0, 0, 1, 1);
 diagram.Save(@"c:\temp\area.png", Options);
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving page information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350198/18546849.png) (image/png)  
-

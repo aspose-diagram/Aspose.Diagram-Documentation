@@ -71,12 +71,3 @@ If you have an issue with Aspose.Diagram for Java, follow these simple steps to 
 *   Please try to report one issue per thread. If you have another issue, report it in a separate thread.
     
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Add Reference of the Aspose.Diagram Library-01.png](https://docs2.aspose.com/diagram/java/attachments/18612242/18809108.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Add Reference of the Aspose.Diagram Library-02.png](https://docs2.aspose.com/diagram/java/attachments/18612242/18809107.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Add Reference of the Aspose.Diagram Library-03.png](https://docs2.aspose.com/diagram/java/attachments/18612242/18809106.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Add Reference of the Aspose.Diagram Library-04.png](https://docs2.aspose.com/diagram/java/attachments/18612242/18809105.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Add Reference of the Aspose.Diagram Library-05.png](https://docs2.aspose.com/diagram/java/attachments/18612242/18809110.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [aspose.Note.PNG](https://docs2.aspose.com/diagram/java/attachments/18612242/18809109.png) (image/png)  
-

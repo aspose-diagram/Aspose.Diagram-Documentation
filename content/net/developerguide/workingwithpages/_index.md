@@ -12,9 +12,12 @@ url: /net/developerguide/workingwithpages/
 
 ### Articles in this section
 
+*    [Auto-space a Collection of Shapes in the Visio Page](https://docs2.aspose.com/diagram/net/developerguide/workingwithpages/auto-space+a+collection+of+shapes+in+the+visio+page/)    
+*    [Draw Shapes in Page](https://docs2.aspose.com/diagram/net/developerguide/workingwithpages/draw+shapes+in+page/)    
+*    [Format Visio Pages](https://docs2.aspose.com/diagram/net/developerguide/workingwithpages/format+visio+pages/)    
+*    [Remove Hidden Info](https://docs2.aspose.com/diagram/net/developerguide/workingwithpages/remove+hidden+info/)    
+*    [Retrieve Get Copy and Insert a Page](https://docs2.aspose.com/diagram/net/developerguide/workingwithpages/retrieve+get+copy+and+insert+a+page/)    
+*    [Set Orientation and Control the Export of Hidden Visio Pages on Saving](https://docs2.aspose.com/diagram/net/developerguide/workingwithpages/set+orientation+and+control+the+export+of+hidden+visio+pages+on+saving/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving page information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350208/18546806.png) (image/png)  
 

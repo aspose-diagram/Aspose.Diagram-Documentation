@@ -133,15 +133,3 @@ The `JavaProjectData` property, exposed by the [Diagram](http://www.aspose.com/a
 
 ### Remove All Macros Programming Sample
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [CompactTreeLeftDown.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809131.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [CompactTreeRightDown.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809130.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [CompactTreeDownLeft.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809129.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [CompactTreeDownRight.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809128.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [FlowchartRightLeft.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809127.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [FlowchartLeftRight.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809126.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [FlowchartTopBottom.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809125.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [FlowchartBottomTop.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809124.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [BeforeLayout.png](https://docs2.aspose.com/diagram/java/attachments/18612235/18809123.png) (image/png)  
-

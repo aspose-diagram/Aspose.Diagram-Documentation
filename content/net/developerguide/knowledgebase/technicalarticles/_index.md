@@ -12,6 +12,8 @@ url: /net/developerguide/knowledgebase/technicalarticles/
 
 ### Articles in this section
 
+*    [Use Connection indexes to connect shapes](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/technicalarticles/use+connection+indexes+to+connect+shapes/)    
+
            
 
  

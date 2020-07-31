@@ -215,21 +215,3 @@ Imports Aspose.Diagram
 
 **Example:**
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [BeforeLayout.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546951.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartBottomTop.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546952.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartTopBottom.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546949.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartLeftRight.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546950.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartRightLeft.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546947.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeDownRight.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546948.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeDownLeft.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546945.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeRightDown.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546946.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeLeftDown.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546928.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-001.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546927.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-002.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546926.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-003.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546925.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-004.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546924.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-005.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546923.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-006.png](https://docs2.aspose.com/diagram/net/attachments/18350161/18546922.png) (image/png)  
-

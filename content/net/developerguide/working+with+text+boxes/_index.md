@@ -61,25 +61,3 @@ The following piece of code sets orientation angle and position of the shape's t
 
 The following piece of code sets orientation angle and position of the shape's text at the right.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating shape text-001.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546711.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating shape text-002.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546712.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.001.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546713.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.002.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546714.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.003.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546703.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.004.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546704.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying custom style sheets-001.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546705.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying custom style sheets-002.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546706.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-003.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546707.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-004.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546708.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Input.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546709.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Output.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546710.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-001.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546716.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-002.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546715.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting XForm data-001.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546718.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting XForm data-002.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546717.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data.001.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546720.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data.003.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546719.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data-004.png](https://docs2.aspose.com/diagram/net/attachments/18352991/18546721.png) (image/png)  
-

@@ -256,13 +256,3 @@ The [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class 
 
 #### Get the Parent Shape Programming Sample
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Adding a New Shape-001.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18547039.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Adding a New Shape-002.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18547040.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Adding-a-New-Shape-003.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18547041.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Adding-a-New-Shape-004.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18547021.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving shapes information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18546689.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [kmAKNrx.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18547237.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [2loM7b0.png](https://docs2.aspose.com/diagram/net/attachments/18350785/18547236.png) (image/png)  
-

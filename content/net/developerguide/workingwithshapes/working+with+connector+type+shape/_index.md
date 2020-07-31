@@ -57,7 +57,3 @@ The code below shows how to:
 
 Use the following code in your .NET application to select the rerouting option of the connector shape using Aspose.Diagram for .NET.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [1O70sSA.png](https://docs2.aspose.com/diagram/net/attachments/18350196/18547227.png) (image/png)  
-

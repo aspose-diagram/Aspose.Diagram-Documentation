@@ -56,10 +56,3 @@ The process for setting Height and Width is:
 
 The code snippet below shows how to set the shape's height and width. The code looks for a shape name rectangle, with the shape ID 1, and sets its Height and Width as double.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Connect Sub-shapes of the Groups 001.png](https://docs2.aspose.com/diagram/net/attachments/18350193/18546846.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Connect Sub-shapes of the Groups 002.png](https://docs2.aspose.com/diagram/net/attachments/18350193/18546845.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-002.png](https://docs2.aspose.com/diagram/net/attachments/18350193/18547264.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [cTiNWa7.png](https://docs2.aspose.com/diagram/net/attachments/18350193/18547226.png) (image/png)  
-

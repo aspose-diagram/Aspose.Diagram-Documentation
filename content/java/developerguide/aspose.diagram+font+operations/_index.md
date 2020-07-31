@@ -98,7 +98,3 @@ public class HandleDocumentWarnings implements IWarningCallback {
 }
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving Visio page information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612534/18809093.png) (image/png)  
-

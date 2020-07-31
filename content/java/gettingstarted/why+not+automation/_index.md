@@ -67,7 +67,3 @@ For more information, please navigate to this Internet article:
 
 *   [Considerations for Server-Side Automation of Office](https://support.microsoft.com/en-us/help/257757/considerations-for-server-side-automation-of-office)
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Aspose-Diagram-for-Java.png](https://docs2.aspose.com/diagram/java/attachments/18612326/18808841.png) (image/png)  
-

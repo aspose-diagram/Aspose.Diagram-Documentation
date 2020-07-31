@@ -59,9 +59,3 @@ The [Window](http://www.aspose.com/api/net/diagram/aspose.diagram/window) class 
 
 ### Programming Sample
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Window Elements from the Visio Drawing-001.png](https://docs2.aspose.com/diagram/net/attachments/18350119/18547126.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Show and Hide Grids, Rulers, Guides and Page Breaks-001.png](https://docs2.aspose.com/diagram/net/attachments/18350119/18547127.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Support of Dynamic Grids and Connection Points-001.png](https://docs2.aspose.com/diagram/net/attachments/18350119/18547141.png) (image/png)  
-

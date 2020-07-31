@@ -67,33 +67,3 @@ The `NameU`, `Value.Val` and `Prompt.Value` properties exposed by the `User` cla
 
 Use the following code in your .NET application to retrieve all user-defined cells from shapesheet using Aspose.Diagram for .NET.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving shapes information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547146.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting XForm data-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547145.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting XForm data-002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547144.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data.001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547143.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data.003.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547142.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data-004.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546994.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting Line data-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546993.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting Line data-002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546996.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Line-data-003.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546995.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Line-data-004.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546998.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting Fill data-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546997.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting Fill data-002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547000.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Fill-data-003.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546999.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Fill-data-004.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546986.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Reading shape data-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546985.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Reading shape data-002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546988.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Reading user properties-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546987.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Reading user properties-002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546990.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Hyperlink.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546989.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Hyperlink2.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546992.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18546991.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547009.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Input.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547010.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Output.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547011.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Connect Sub-shapes of the Groups 001.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547012.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Connect Sub-shapes of the Groups 002.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547013.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Select Reroute Options 01.png](https://docs2.aspose.com/diagram/net/attachments/18350135/18547014.png) (image/png)  
-

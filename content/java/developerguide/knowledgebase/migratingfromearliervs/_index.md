@@ -34,7 +34,6 @@ url: /java/developerguide/knowledgebase/migratingfromearliervs/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 2.2.0**](https://docs2.aspose.com/diagram/java/developerguide/knowledgebase/migratingfromearliervs/changesin2xx/public+api+changes+in+aspose.diagram+2.2.0)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 2.1.0**](https://docs2.aspose.com/diagram/java/developerguide/knowledgebase/migratingfromearliervs/changesin2xx/public+api+changes+in+aspose.diagram+2.1.0)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

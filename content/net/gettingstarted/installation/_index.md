@@ -71,10 +71,3 @@ Follow these steps to reference the component using the package manager GUI:
 4.  Type **Aspose.Diagram** into the search box to find Aspose.Diagram for .NET.
 5.  Click **Install/Update** next to the latest version of Aspose.Diagram for .NET
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Referencing the component-001.png](https://docs2.aspose.com/diagram/net/attachments/18353186/18546690.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Referencing the component-002.png](https://docs2.aspose.com/diagram/net/attachments/18353186/18546691.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Referencing the component-003.png](https://docs2.aspose.com/diagram/net/attachments/18353186/18546692.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Referencing the component-004.png](https://docs2.aspose.com/diagram/net/attachments/18353186/18546693.png) (image/png)  
-

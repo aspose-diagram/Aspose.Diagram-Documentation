@@ -60,23 +60,3 @@ In Microsoft Office Visio, user may perform following actions to protect any sha
 
 Use the following code in your .NET application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for .NET.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving connectors information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18546970.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving fonts information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18546975.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [BeforeLayout.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18546976.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartBottomTop.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18546973.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartTopBottom.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18546974.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartLeftRight.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547035.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [FlowchartRightLeft.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547034.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeDownRight.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547037.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeDownLeft.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547036.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeRightDown.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547031.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [CompactTreeLeftDown.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547030.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-001.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547033.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-002.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547032.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-003.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547027.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-004.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547026.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-005.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547029.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagrams to XML formats (VDX, VTX or VSX)-006.png](https://docs2.aspose.com/diagram/net/attachments/18350144/18547028.png) (image/png)  
-

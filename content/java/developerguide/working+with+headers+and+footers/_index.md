@@ -31,7 +31,3 @@ The following piece of code helps to manage Headers and Footers Properties.
 
 #### Programming Samples
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Manage headers and footers text, margins and font props-01.png](https://docs2.aspose.com/diagram/java/attachments/18612549/18809098.png) (image/png)  
-

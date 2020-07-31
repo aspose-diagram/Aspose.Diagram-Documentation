@@ -68,9 +68,3 @@ The [Window](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/w
 
 ### Programming Sample
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Support of Dynamic Grids and Connection Points-001.png](https://docs2.aspose.com/diagram/java/attachments/18612587/18809077.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Window Elements from the Visio Drawing-001.png](https://docs2.aspose.com/diagram/java/attachments/18612587/18809091.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Show and Hide Grids, Rulers, Guides and Page Breaks-Java-001.png](https://docs2.aspose.com/diagram/java/attachments/18612587/18809090.png) (image/png)  
-

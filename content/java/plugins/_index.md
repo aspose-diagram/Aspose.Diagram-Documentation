@@ -164,7 +164,6 @@ url: /java/plugins/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Show and Hide Grids Rulers Guides and Page Breaks of the Visio Diagram in PHP**](https://docs2.aspose.com/diagram/java/plugins/php/guide/windowelements/show+and+hide+grids+rulers+guides+and+page+breaks+of+the+visio+diagram+in+php)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Support Extend and Contribute to Aspose.Diagram in PHP**](https://docs2.aspose.com/diagram/java/plugins/php/support+extend+and+contribute+to+aspose.diagram+in+php)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

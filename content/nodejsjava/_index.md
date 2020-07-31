@@ -28,7 +28,3 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram)
 *   [Aspose.Diagram for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/nodejsjava/images/icons/bullet_blue.gif) [aspose\_diagram-for-nodejs.png](https://docs2.aspose.com/diagram/nodejsjava/attachments/105284243/106364960.png) (image/png)  
-

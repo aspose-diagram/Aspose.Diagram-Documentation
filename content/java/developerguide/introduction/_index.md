@@ -91,8 +91,3 @@ Using Aspose.Diagram for Java API, developers can detect the format of a Visio f
 
 The following sample code illustrates how to detect a file format using an input stream.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Determining Visio version-001.png](https://docs2.aspose.com/diagram/java/attachments/18612593/18809083.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Writing-Visio-document-summary-information.001.png](https://docs2.aspose.com/diagram/java/attachments/18612593/18809080.png) (image/png)  
-

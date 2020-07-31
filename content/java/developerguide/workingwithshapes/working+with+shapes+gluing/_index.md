@@ -91,10 +91,3 @@ The code below shows how to:
 
 Use the following code in your Java application to glue group shape inside a container:
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Visio Shapes Through the Connection Points-01.png](https://docs2.aspose.com/diagram/java/attachments/18612700/18808963.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Visio Shapes Through the Connection Points-02.png](https://docs2.aspose.com/diagram/java/attachments/18612700/18808962.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Group Shapes Inside the Container\_01.png](https://docs2.aspose.com/diagram/java/attachments/18612700/18808961.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Group Shapes Inside the Container\_02.png](https://docs2.aspose.com/diagram/java/attachments/18612700/18808960.png) (image/png)  
-

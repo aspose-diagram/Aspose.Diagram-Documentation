@@ -139,27 +139,3 @@ Microsoft Office Visio adds the text to the shapes. The [Shape](http://www.aspos
 
 The following piece of code iterates through the shapes of the Visio Page and filter plain text without formatting information.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating shape text-001.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547075.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating shape text-002.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547074.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.001.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547081.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.002.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547080.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.003.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547079.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Updating-shape-text.004.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547078.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying custom style sheets-001.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547085.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying custom style sheets-002.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547084.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-003.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547083.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-004.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547082.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Input.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547154.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Output.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547155.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-001.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547156.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-Height-and-Width-002.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547157.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting XForm data-001.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547150.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting XForm data-002.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547151.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data.001.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547152.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data.003.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547153.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Setting-XForm-data-004.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547162.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [lW5xaP0.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547225.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [m33W1Tk.png](https://docs2.aspose.com/diagram/net/attachments/18350112/18547224.png) (image/png)  
-

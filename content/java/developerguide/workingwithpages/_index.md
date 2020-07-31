@@ -17,7 +17,3 @@ url: /java/developerguide/workingwithpages/
 *   [Auto-space a Collection of Shapes in the Visio Page](https://docs2.aspose.com/diagram/java/developerguide/workingwithpages/auto-space+a+collection+of+shapes+in+the+visio+page)
 *   [Format Visio Pages](https://docs2.aspose.com/diagram/java/developerguide/workingwithpages/format+visio+pages)
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving Visio page information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612682/18808990.png) (image/png)  
-

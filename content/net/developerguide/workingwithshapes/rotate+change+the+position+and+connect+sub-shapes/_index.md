@@ -78,10 +78,3 @@ The code below shows how to:
 
 Use the following code in your .NET application to find all the shapes connected to a specific shape using Aspose.Diagram for .NET.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [74rDby5.png](https://docs2.aspose.com/diagram/net/attachments/18350178/18547233.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [c387dZJ.png](https://docs2.aspose.com/diagram/net/attachments/18350178/18547232.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [cThgWnB.png](https://docs2.aspose.com/diagram/net/attachments/18350178/18547245.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Q3QByqe.png](https://docs2.aspose.com/diagram/net/attachments/18350178/18547244.png) (image/png)  
-

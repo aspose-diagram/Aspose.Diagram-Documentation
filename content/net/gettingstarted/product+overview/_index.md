@@ -71,9 +71,3 @@ This table lists important Aspose.Diagram for .NET technical resources.
 |[Aspose.Diagram for .NET product documentation](https://docs2.aspose.com/diagram/net/)|Full online documentation that includes this documentation as well as Aspose.Diagram API Reference.|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Introducing Aspose.Diagram for .NET-001.png](https://docs2.aspose.com/diagram/net/attachments/18350152/18546888.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [imgLogoDiagram128x128.png](https://docs2.aspose.com/diagram/net/attachments/18350152/18546887.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [aspose-Diagram-for-net.png](https://docs2.aspose.com/diagram/net/attachments/18350152/18546886.png) (image/png)  
-

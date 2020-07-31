@@ -55,7 +55,3 @@ The following piece of code helps to get list of `Layers`.
 
 #### Programming Samples
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Configure Shape Object with Layers in Visio-01.png](https://docs2.aspose.com/diagram/java/attachments/18612547/18809096.png) (image/png)  
-

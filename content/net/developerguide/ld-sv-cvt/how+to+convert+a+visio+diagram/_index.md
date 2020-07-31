@@ -319,16 +319,3 @@ To export a Visio drawing with selective shapes:
 
 The code sample shows how to export a drawing with selective Visio shapes.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagram to PDF-001.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547282.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagram to PDF-002.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547223.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Export diagram to PDF-002.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547283.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Ba9ooeR.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547184.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [OJ1jpgh.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547185.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Ba9ooeR.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547186.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [P3gaA34.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547183.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [WOV36ek.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547182.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [XWajazh.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547188.png) (image/png)  
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [YX4BNNq.png](https://docs2.aspose.com/diagram/net/attachments/18354608/18547187.png) (image/png)  
-

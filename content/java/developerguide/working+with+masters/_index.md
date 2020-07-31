@@ -126,7 +126,3 @@ This example work as follows:
 
 The following example shows how to check a master presence by name from Visio drawing.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieve the masters information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612733/18808904.png) (image/png)  
-

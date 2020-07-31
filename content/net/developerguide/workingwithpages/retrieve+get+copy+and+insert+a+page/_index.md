@@ -132,7 +132,3 @@ newPage.MoveTo(2);
 diagram.Save(dataDir + "Drawing1.vsdx", SaveFileFormat.VSDX);
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving page information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350207/18546809.png) (image/png)  
-

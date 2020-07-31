@@ -46,7 +46,3 @@ The following piece of code helps to add `Layer` objects.
 
 The following piece of code helps to get the list of `Layers`.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Configure Shape Object with Layers in Visio-01.png](https://docs2.aspose.com/diagram/net/attachments/18350130/18547149.png) (image/png)  
-

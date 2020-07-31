@@ -12,5 +12,8 @@ url: /java/developerguide/visioactivexcontrols/
 
 ### Articles in this section
 
+*    [Insert an ActiveX Control in the Visio Diagram](https://docs2.aspose.com/diagram/java/developerguide/visioactivexcontrols/insert+an+activex+control+in+the+visio+diagram/)    
+*    [Retrieve an ActiveX Control from a Shape Object to Modify Properties](https://docs2.aspose.com/diagram/java/developerguide/visioactivexcontrols/retrieve+an+activex+control+from+a+shape+object+to+modify+properties/)    
+
            
 

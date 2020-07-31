@@ -68,9 +68,3 @@ The code snippets below reads shape's hyperlink data.
 
 ### Get Hyperlinks Programming Sample
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Get Shape Hyperlink Data From a Visio Drawing-01.png](https://docs2.aspose.com/diagram/java/attachments/18612567/18809025.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Get Shape Hyperlink Data From a Visio Drawing-02.png](https://docs2.aspose.com/diagram/java/attachments/18612567/18809024.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Add Hyperlink to a Visio Shape-01.png](https://docs2.aspose.com/diagram/java/attachments/18612567/18809023.png) (image/png)  
-

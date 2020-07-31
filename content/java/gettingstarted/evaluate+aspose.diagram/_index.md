@@ -17,7 +17,3 @@ To test Aspose.Diagram without the evaluation version limitations, please [reque
 **Aspose.Diagram for Java injects a watermark when working in evaluation mode**  
 ![](https://docs2.aspose.com/diagram/java/attachments/18612329/18808833.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Evaluate-Aspose-Diagram.png](https://docs2.aspose.com/diagram/java/attachments/18612329/18808833.png) (image/png)  
-

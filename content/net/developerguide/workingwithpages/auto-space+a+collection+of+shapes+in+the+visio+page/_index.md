@@ -44,7 +44,3 @@ page.AutoSpaceShapes(page.Shapes, options);
 diagram.Save(@"c:\temp\AutoSpaceShapes_Out.vsdx", SaveFileFormat.VSDX);
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving page information-001.png](https://docs2.aspose.com/diagram/net/attachments/50269043/50528296.png) (image/png)  
-

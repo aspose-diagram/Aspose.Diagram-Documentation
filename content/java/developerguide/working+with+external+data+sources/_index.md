@@ -28,8 +28,3 @@ It's now a common phenomena to link the data of Microsoft Visio diagrams from th
 
 The following piece of code edits a particular data connection and also refresh all the available record sets in the Visio diagram.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Protect and Unprotect Diagrams-001.png](https://docs2.aspose.com/diagram/java/attachments/18612331/18808853.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Protect and Unprotect a Visio Shape-001.png](https://docs2.aspose.com/diagram/java/attachments/18612331/18808852.png) (image/png)  
-

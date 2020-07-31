@@ -144,14 +144,3 @@ Microsoft Office Visio adds the text to the shapes. The [Shape](http://www.aspos
 
 The following piece of code iterates through the shapes of the Visio Page and filter plain text without formatting information.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Updating-shape-text.003.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809017.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Updating-shape-text.004.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809014.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Apply Different Style on the Each Text Value of a Shape-01.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809015.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Apply Different Style on the Each Text Value of a Shape-02.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809012.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Find and Replace the Text of a Shape-01.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809013.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Find and Replace the Text of a Shape-02.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809010.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-001.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809009.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-002.png](https://docs2.aspose.com/diagram/java/attachments/18612570/18809006.png) (image/png)  
-

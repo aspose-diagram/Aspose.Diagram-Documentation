@@ -79,7 +79,3 @@ Aspose.Diagram for .NET API allows developers to apply metered license. It is a 
 
 A new class [Metered](https://apireference.aspose.com/net/diagram/aspose.diagram/metered/) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Evaluate-Aspose-Diagram.png](https://docs2.aspose.com/diagram/net/attachments/18353175/18546694.png) (image/png)  
-

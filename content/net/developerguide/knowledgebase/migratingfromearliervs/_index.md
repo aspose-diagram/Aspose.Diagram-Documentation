@@ -36,7 +36,6 @@ url: /net/developerguide/knowledgebase/migratingfromearliervs/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 3.x.x**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin3xx/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.Diagram 3.8.0**](https://docs2.aspose.com/diagram/net/developerguide/knowledgebase/migratingfromearliervs/changesin3xx/public+api+changes+in+aspose.diagram+3.8.0)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

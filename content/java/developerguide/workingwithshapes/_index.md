@@ -12,34 +12,15 @@ url: /java/developerguide/workingwithshapes/
 
 ### Articles in this section
 
+*    [3D Rotation Effects in a Visio Drawing](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/3d+rotation+effects+in+a+visio+drawing/)    
+*    [Calculate Pin Values and Setting Size of a Shape](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/calculate+pin+values+and+setting+size+of+a+shape/)    
+*    [Configure Visio TimeLine Shapes](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/configure+visio+timeline+shapes/)    
+*    [Group Convert and Verify Shapes](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/group+convert+and+verify+shapes/)    
+*    [Rotate Change the Position and Connect Sub-Shapes](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/rotate+change+the+position+and+connect+sub-shapes/)    
+*    [Set Visio Shapes XForm Line and Fill Data](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/set+visio+shapes+xform+line+and+fill+data/)    
+*    [Working with Connector Type Shape](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/working+with+connector+type+shape/)    
+*    [Working with Shapes Gluing](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/working+with+shapes+gluing/)    
+*    [Working with Visio Shape Data](https://docs2.aspose.com/diagram/java/developerguide/workingwithshapes/working+with+visio+shape+data/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieve Visio shapes information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808995.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-XForm-data.003.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808994.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-XForm-data-004.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808980.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-Line-data-003.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808981.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-Line-data-004.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808982.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-Fill-data-001.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808983.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Setting-Fill-data-002.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808984.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-001.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808985.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Applying-custom-style-sheets-002.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808986.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Reading shape data-001.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808987.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set-Height-and-Width-01.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808972.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set-Height-and-Width-02.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808973.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Change the Position of a Shape-01.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808974.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Change the Position of a Shape-02.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808975.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Connect Sub-shapes of the Groups 001.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808976.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Connect Sub-shapes of the Groups 002.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808977.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Visio Shapes Through the Connection Points-01.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808954.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Visio Shapes Through the Connection Points-02.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808955.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Group Shapes Inside the Container\_01.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808952.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Glue Group Shapes Inside the Container\_02.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18808953.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set Milestone Shape Properties 01.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18809057.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set Milestone Shape Properties 02.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18809056.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set Time Period and Date Format of TimeLine Shape 01.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18809059.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set Time Period and Date Format of TimeLine Shape 02.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18809058.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set Time Period and Date Format of TimeLine Shape 03.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18809053.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Set Time Period and Date Format of TimeLine Shape 04.png](https://docs2.aspose.com/diagram/java/attachments/18612677/18809052.png) (image/png)  
 

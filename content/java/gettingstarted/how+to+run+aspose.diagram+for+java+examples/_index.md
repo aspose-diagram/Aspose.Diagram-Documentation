@@ -60,14 +60,3 @@ If you like to add or improve an example, we encourage you to contribute to the 
 
 To contribute, you can fork the repository, edit the source code and create a pull request. We will review the changes and include it in the repository if found helpful.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram1.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808867.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram2.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808866.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram3.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808865.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [eclipse1.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808864.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram4.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808871.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram5.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808870.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram6.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808869.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram7.png](https://docs2.aspose.com/diagram/java/attachments/18612714/18808868.png) (image/png)  
-

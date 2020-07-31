@@ -82,7 +82,6 @@ url: /net/releasenotes/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for .NET 5.1.0 Release Notes**](https://docs2.aspose.com/diagram/net/releasenotes/2015/aspose.diagram+for+.net+5.1.0+release+notes)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.Diagram for .NET 5.0.0 Release Notes**](https://docs2.aspose.com/diagram/net/releasenotes/2015/aspose.diagram+for+.net+5.0.0+release+notes)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

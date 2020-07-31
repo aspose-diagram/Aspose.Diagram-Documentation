@@ -249,8 +249,3 @@ The code sample shows how to export a drawing with selective Visio shapes.
 
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Export diagram to PDF-001.png](https://docs2.aspose.com/diagram/java/attachments/18612238/18809133.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Export diagram to PDF-002.png](https://docs2.aspose.com/diagram/java/attachments/18612238/18809132.png) (image/png)  
-

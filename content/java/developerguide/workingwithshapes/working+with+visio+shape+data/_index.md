@@ -231,11 +231,3 @@ The [Shape](https://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/
 
 #### Get the Parent Shape Programming Sample
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Adding-a-New-Shape-004.png](https://docs2.aspose.com/diagram/java/attachments/18612227/18809118.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Adding-a-New-Shape-003.png](https://docs2.aspose.com/diagram/java/attachments/18612227/18809114.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [2loM7b0.png](https://docs2.aspose.com/diagram/java/attachments/18612227/18809115.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [kmAKNrx.png](https://docs2.aspose.com/diagram/java/attachments/18612227/18809116.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving shapes information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612227/18809117.png) (image/png)  
-

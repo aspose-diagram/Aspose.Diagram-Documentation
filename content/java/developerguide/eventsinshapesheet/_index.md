@@ -12,5 +12,7 @@ url: /java/developerguide/eventsinshapesheet/
 
 ### Articles in this section
 
+*    [Setting Cells in the Event Section of ShapeSheet](https://docs2.aspose.com/diagram/java/developerguide/eventsinshapesheet/setting+cells+in+the+event+section+of+shapesheet/)    
+
            
 

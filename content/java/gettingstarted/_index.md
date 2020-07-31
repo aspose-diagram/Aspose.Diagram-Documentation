@@ -25,19 +25,6 @@ url: /java/gettingstarted/
 &nbsp;&nbsp;&nbsp;&nbsp;[**How to Run Aspose.Diagram for Java Examples**](https://docs2.aspose.com/diagram/java/gettingstarted/how+to+run+aspose.diagram+for+java+examples)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Hello World Example**](https://docs2.aspose.com/diagram/java/gettingstarted/hello+world+example)    
 
-[Expand all](#)   [Collapse all](#)
 
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Aspose-Diagram-for-Java.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808862.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram1.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808875.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram2.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808874.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram3.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808873.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [eclipse1.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808872.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram4.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808928.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram5.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808929.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram6.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808930.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [diagram7.png](https://docs2.aspose.com/diagram/java/attachments/18612663/18808931.png) (image/png)  
 

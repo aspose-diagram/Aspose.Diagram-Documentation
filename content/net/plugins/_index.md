@@ -29,7 +29,6 @@ url: /net/plugins/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Extract All Images from Shapes in Visio**](https://docs2.aspose.com/diagram/net/plugins/vsto/missingfeaturesinvsto/extract+all+images+from+shapes+in+visio)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Protect Shapes in Visio**](https://docs2.aspose.com/diagram/net/plugins/vsto/missingfeaturesinvsto/protect+shapes+in+visio)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

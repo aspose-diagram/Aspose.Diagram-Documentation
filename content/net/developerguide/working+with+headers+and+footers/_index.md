@@ -31,7 +31,3 @@ The [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clas
 
 The following piece of code helps to manage Headers and Footers properties.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Manage headers and footers text, margins and font props-01.png](https://docs2.aspose.com/diagram/net/attachments/18350133/18547147.png) (image/png)  
-

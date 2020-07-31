@@ -137,7 +137,3 @@ newPage.moveTo(2);
 diagram.save(dataDir + "Drawing1.vsdx", SaveFileFormat.VSDX);
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Retrieving page information-001.png](https://docs2.aspose.com/diagram/java/attachments/18612237/18809119.png) (image/png)  
-

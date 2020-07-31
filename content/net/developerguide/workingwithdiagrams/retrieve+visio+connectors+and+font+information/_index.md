@@ -52,7 +52,3 @@ This method is supported by version 19.6 or greater.
 
 Aspose.Diagram for .NET API also allows getting unused fonts using `GetUnusedStyles()` method of `Diagram` Class. The following piece of code retrieves unused fonts from the Visio diagram.
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/net/images/icons/bullet_blue.gif) [Retrieving connectors information-001.png](https://docs2.aspose.com/diagram/net/attachments/18350164/18546937.png) (image/png)  
-

@@ -66,8 +66,3 @@ Use the following code in your Java application to retrieve all user-defined cel
 
 #### Programming Samples
 
-## Attachments:
-
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Read shape user-defined cells-001.png](https://docs2.aspose.com/diagram/java/attachments/18612579/18809031.png) (image/png)  
-![](https://docs2.aspose.com/diagram/java/images/icons/bullet_blue.gif) [Read shape user-defined cells-002.png](https://docs2.aspose.com/diagram/java/attachments/18612579/18809030.png) (image/png)  
-
