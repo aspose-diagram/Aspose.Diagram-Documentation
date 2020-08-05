@@ -36,7 +36,7 @@ To identify properties in Microsoft Visio:
 4.  Press **OK** button
 
 **A shape's hyperlink data, as seen in Microsoft Visio**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612567/18809023.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612567/18809023.png)
 
 The code snippets below adds shape's hyperlink data.
 
@@ -59,10 +59,10 @@ To identify properties in Microsoft Visio:
     Any existing properties are listed in the dialog.
 
 **A shape's hyperlink data, as seen in Microsoft Visio**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612567/18809025.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612567/18809025.png)
 
 **A console window showing the shape data output**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612567/18809024.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612567/18809024.png)
 
 The code snippets below reads shape's hyperlink data.
 

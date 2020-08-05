@@ -46,7 +46,7 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 *   Aspose.Diagram Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Diagram for Java API maven dependency) and download source code examples of the API for using [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx).
 
 *   This plugin helps you to work with [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx) inside your favorite IntelliJ IDEA.  
-    ![](http://i.imgur.com/KWKGljg.png)  
+    ![image](http://i.imgur.com/KWKGljg.png)  
     **WIZARDS**:  
     The plugin contains two wizards
     

@@ -36,10 +36,10 @@ Aspose.Diagram allows developers to set milestone properties. This article shows
 The [MilestoneHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/milestonehelper) class takes a [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) object while initializing the [MilestoneHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/milestonehelper) object. The code example in this article sets the milestone date, date format, auto update flag and milestone type properties.
 
 **The milestone before update**  
-![](http://i.imgur.com/XulWyBC.png)\\
+![image](http://i.imgur.com/XulWyBC.png)\\
 
 **The milestone after update. Note the changed date format.**  
-![](http://i.imgur.com/cMJQNch.png)\\
+![image](http://i.imgur.com/cMJQNch.png)\\
 
 The process for updating the milestone date, date format, auto update flag and milestone type:
 
@@ -101,16 +101,16 @@ Aspose.Diagram allows developers to configure the timeline programmatically. Thi
 The [TimeLineHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/timelinehelper) class takes a [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) object when initializing the [TimeLineHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/timelinehelper) object. The code example in this article sets the time period start, end and date format values.
 
 **The time period tab of the Visio Configure Timeline dialog**  
-![](http://i.imgur.com/nHth3W8.png)
+![image](http://i.imgur.com/nHth3W8.png)
 
 **The time format tab of the Visio Configure Timeline dialog**  
-![](http://i.imgur.com/TxFKc1K.png)
+![image](http://i.imgur.com/TxFKc1K.png)
 
 **Input diagram**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612696/18808940.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612696/18808940.png)
 
 **The diagram after the values have been changed**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612696/18808941.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612696/18808941.png)
 
 The process for updating time period start, end and date format is:
 

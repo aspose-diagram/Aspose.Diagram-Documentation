@@ -30,17 +30,17 @@ The  plugin is listed on IntelliJ IDEA’s CE [official plugin website](https:/
 **Aspose.Diagram Java for IntelliJ IDEA (Maven)** plugin can be easily installed (without manual downloading) from within IntelliJ IDEA. To do it:
 
 1.  Select **Settings** from the **File** menu.
-2.  Click **Plugins**, then browse the repositories in IntelliJ IDEA. ![](http://i.imgur.com/CTDCnTb.jpg)
+2.  Click **Plugins**, then browse the repositories in IntelliJ IDEA. ![image](http://i.imgur.com/CTDCnTb.jpg)
 
 ### Aspose.Diagram Maven Project Wizard
 
-Installing this plugin will introduce a new project type – ![](http://download-codeplex.sec.s-msft.com/Download/SourceControlFileDownload.ashx?ProjectName=asposediagramjavaintellij&changeSetId=6bf310487f22abe8deaebf186b4fc55583a85b5b&itemId=src%2fresources%2fasposeSmall.png)**Aspose.Diagram Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Diagram Maven based project for using [Aspose.Diagram for Java API.](http://goo.gl/pNOaGJ) . ![](http://i.imgur.com/ZjhvjDU.jpg)
+Installing this plugin will introduce a new project type – ![image](http://download-codeplex.sec.s-msft.com/Download/SourceControlFileDownload.ashx?ProjectName=asposediagramjavaintellij&changeSetId=6bf310487f22abe8deaebf186b4fc55583a85b5b&itemId=src%2fresources%2fasposeSmall.png)**Aspose.Diagram Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Diagram Maven based project for using [Aspose.Diagram for Java API.](http://goo.gl/pNOaGJ) . ![image](http://i.imgur.com/ZjhvjDU.jpg)
 
 ### Aspose.Diagram Example Wizard
 
-An option for creating [Example Source Codes for using Aspose.Diagram for Java API](https://goo.gl/UCIYLO) in the project, will also appear after the installation under "New" menu (using Right Click -> New **OR** File menu->New) – ![](http://download-codeplex.sec.s-msft.com/Download/SourceControlFileDownload.ashx?ProjectName=asposediagramjavaintellij&changeSetId=6bf310487f22abe8deaebf186b4fc55583a85b5b&itemId=src%2fresources%2fasposeSmall.png) **Aspose.Diagram Example**
+An option for creating [Example Source Codes for using Aspose.Diagram for Java API](https://goo.gl/UCIYLO) in the project, will also appear after the installation under "New" menu (using Right Click -> New **OR** File menu->New) – ![image](http://download-codeplex.sec.s-msft.com/Download/SourceControlFileDownload.ashx?ProjectName=asposediagramjavaintellij&changeSetId=6bf310487f22abe8deaebf186b4fc55583a85b5b&itemId=src%2fresources%2fasposeSmall.png) **Aspose.Diagram Example**
 
-![](http://i.imgur.com/68DKzJu.jpg)
+![image](http://i.imgur.com/68DKzJu.jpg)
 
 ## Using
 
@@ -52,25 +52,25 @@ Then follow the steps below:
 
 1\. Select **New Project**.  
 2\. Select **Aspose.Diagram Maven Project**  
-3\. Click **Next**. ![](http://i.imgur.com/ZjhvjDU.jpg)  
+3\. Click **Next**. ![image](http://i.imgur.com/ZjhvjDU.jpg)  
 4\. Provide a **GroupId, ArtifactId** and **Version** for your maven project and click **Next.**
 
-![](http://i.imgur.com/iAiYqcC.jpg)  
+![image](http://i.imgur.com/iAiYqcC.jpg)  
     You can select "Also Download Examples Source Code" checkbox to download the sample usage examples of the API (as shown in above snapshot)
 
 6\. Provide a **Project Name** and **Location** just like when creating any Java application
 
-![](http://i.imgur.com/0gulhIV.jpg)  
+![image](http://i.imgur.com/0gulhIV.jpg)  
 7\. Click **Finish**.  
     This will retrieve the [Aspose.Diagram for Java API](http://goo.gl/pNOaGJ) latest maven dependency reference from Aspose Cloud Maven Repository and configure it in pom.xml  
     If you have selected "Also Download Examples Source Code" checkbox. Downloading of the examples will also begin from the [Aspose.Diagram for Java API GitHub Repository](https://goo.gl/UCIYLO)
 
-![](http://i.imgur.com/9k59ehL.jpg)  
-![](http://i.imgur.com/96qBPax.jpg)
+![image](http://i.imgur.com/9k59ehL.jpg)  
+![image](http://i.imgur.com/96qBPax.jpg)
 
      Congratulations ! ![(thumbs up)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/thumbs_up.png) You have successfully created Aspose.Diagram Maven project for using [Aspose.Diagram for Java API](http://goo.gl/pNOaGJ).
 
-![](http://i.imgur.com/uHrjYHq.jpg)
+![image](http://i.imgur.com/uHrjYHq.jpg)
 
       The created Aspose.Diagram for Java API Maven project is ready to be modified as per your project’s requirements.
 
@@ -82,19 +82,19 @@ To import/ copy [Example Source Codes](https://goo.gl/UCIYLO) into the project u
 
 Then follow the steps below on IntelliJ IDEA:
 
-1\. Select **File** > **New -** As shown below: ![](http://i.imgur.com/N8tT9Q0.jpg)  
-    -OR- **Right Click** (on project window) => **New**  - As shown below: ![](http://i.imgur.com/aUBWkhp.jpg)  
+1\. Select **File** > **New -** As shown below: ![image](http://i.imgur.com/N8tT9Q0.jpg)  
+    -OR- **Right Click** (on project window) => **New**  - As shown below: ![image](http://i.imgur.com/aUBWkhp.jpg)  
 2\. Select **Aspose.Diagram Example** Option from Menu - As shown below:  
-![](http://i.imgur.com/tVGGfhY.jpg)  
+![image](http://i.imgur.com/tVGGfhY.jpg)  
   The wizard will refresh / check for the latest available [Aspose.Diagram for Java API Examples](https://goo.gl/UCIYLO)  
-![](http://i.imgur.com/5PZwsuq.jpg)  
+![image](http://i.imgur.com/5PZwsuq.jpg)  
 3\. **Aspose.Diagram Examples wizard** dialog will appear, where you can select any examples category to create / copy the examples into your project  
     Select any examples category and click **Create** :  
-![](http://i.imgur.com/68DKzJu.jpg)  
+![image](http://i.imgur.com/68DKzJu.jpg)  
 5\. This will create / copy  the selected category examples into the project under **com.aspose.diagram.examples** package.  
     Also any required resources for the execution of the examples will be copied to **src/main/resources** folder - As shown below:
 
-![](http://i.imgur.com/DyAl0u5.jpg)
+![image](http://i.imgur.com/DyAl0u5.jpg)
 
        Congratulations ! ![(thumbs up)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/thumbs_up.png) You have successfully done the following:
 

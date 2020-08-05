@@ -52,10 +52,10 @@ Aspose.Diagram for Java allows developers glue shapes together through the conne
 The `GlueShapes` method exposed by the [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/page) class can be used.
 
 **Input diagram**  
-![](http://i.imgur.com/Z69f4hg.png)
+![image](http://i.imgur.com/Z69f4hg.png)
 
 **The diagram after gluing the shapes**  
-![](http://i.imgur.com/5TJpDwc.png)
+![image](http://i.imgur.com/5TJpDwc.png)
 
 The code below shows how to:
 
@@ -76,10 +76,10 @@ Aspose.Diagram for Java enables developers to glue group shapes inside a contain
 The `GlueShapesInContainer` method exposed by the [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/page) class can be used.
 
 **Input diagram**  
-![](http://i.imgur.com/HRRzIEh.png)
+![image](http://i.imgur.com/HRRzIEh.png)
 
 **The diagram after gluing the group shapes**  
-![](http://i.imgur.com/YxCiOgU.png)
+![image](http://i.imgur.com/YxCiOgU.png)
 
 The code below shows how to:
 

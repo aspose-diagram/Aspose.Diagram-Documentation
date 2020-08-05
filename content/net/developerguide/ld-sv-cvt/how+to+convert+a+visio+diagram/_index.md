@@ -60,7 +60,7 @@ The image below shows the VSD diagram that the code snippets below export PDF. Y
 {{< table style="table-striped" >}}
 |The source file.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547282.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547282.png)|
 {{< /table >}}
 
 To export VSD diagram to PDF:
@@ -73,7 +73,7 @@ Below is an image of the output PDF file.
 {{< table style="table-striped" >}}
 |The output PDF file.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547283.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547283.png)|
 {{< /table >}}
 
 ### Export Microsoft Visio Drawing to PDF
@@ -128,7 +128,7 @@ The image below shows the diagram that is exported in the code snippets below. T
 {{< table style="table-striped" >}}
 |A Microsoft Visio diagram about to be exported.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547188.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547188.png)|
 {{< /table >}}
 
 ### Export VSD to VDX
@@ -143,7 +143,7 @@ To export a VSD diagram to VDX:
 {{< table style="table-striped" >}}
 |The exported VDX file.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547185.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547185.png)|
 {{< /table >}}
 
 ### Export from VSD to VSX
@@ -191,7 +191,7 @@ The code snippets in this article takes the diagram below as an input. You can u
 {{< table style="table-striped" >}}
 |The source document.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547183.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547183.png)|
 {{< /table >}}
 
 To export VSD diagram to PDF:
@@ -217,7 +217,7 @@ The image below shows a VSD file about to be saved to PNG format. You can use ot
 {{< table style="table-striped" >}}
 |Input diagram.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547187.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547187.png)|
 {{< /table >}}
 
 In order to export VSD diagram to HTML, perform the following steps:
@@ -273,7 +273,7 @@ Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) 
 {{< table style="table-striped" >}}
 |Input diagram.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18354608/18547186.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18354608/18547186.png)|
 {{< /table >}}
 
   

@@ -28,7 +28,7 @@ Aspose.Diagram for Java provides mechanisms for retrieving information - ID and 
 The [Connect](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/connect) object represents a connector that joins two shapes on a Visio drawing page. The `Connects` property, exposed by the [`Page`](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Page) class supports a collection of `Aspose.Diagram.Connect` objects. This property can be used to retrieve ID and name information about a connector.
 
 **A console window showing the output from the code below.**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612234/18809120.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612234/18809120.png)
 
 ### Programming Sample
 
@@ -47,7 +47,7 @@ A `Font` object maps a name (for example, "Arial") to the font ID (for example, 
 The following piece of code retrieves font information from the Visio diagram.
 
   
-![](https://docs2.aspose.com/diagram/java/attachments/18612234/18809122.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612234/18809122.png)
 
 ### Getting Default Font Directory
 

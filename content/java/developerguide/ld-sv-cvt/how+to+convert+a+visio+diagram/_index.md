@@ -52,7 +52,7 @@ The image below shows the VSD diagram that the code snippets below export PDF. Y
 
 **The source file.**
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612238/18809133.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612238/18809133.png)
 
 To export VSD diagram to PDF:
 
@@ -62,7 +62,7 @@ To export VSD diagram to PDF:
 Below is an image of the output PDF file.
 
 **The output PDF file.**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612238/18809132.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612238/18809132.png)
 
 ### Exporting to PDF Programming Sample
 
@@ -79,7 +79,7 @@ The [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Di
 The image below shows the diagram that is exported in the code snippets below. The exported file is shown before each code snippet.
 
 **A Microsoft Visio diagram about to be exported.**  
-![](http://i.imgur.com/XWajazh.png)
+![image](http://i.imgur.com/XWajazh.png)
 
 ### Exporting VSD to VDX
 
@@ -91,7 +91,7 @@ To export a VSD diagram to VDX:
 2.  Call the `Diagram` class' `Save` method to write the Visio drawing file to VDX.
 
 **The exported VDX file.**  
-![](http://i.imgur.com/OJ1jpgh.png)
+![image](http://i.imgur.com/OJ1jpgh.png)
 
 ### Exporting from VSD to VSX
 
@@ -105,7 +105,7 @@ To export a VSD diagram to VSX:
 The image below shows the output VSX file. Note that the stencils used in the diagram, not the diagram itself, are exported.
 
 **The exported VSX file.**  
-![](http://i.imgur.com/gkZrxCN.png)
+![image](http://i.imgur.com/gkZrxCN.png)
 
 ### Export VSD to VTX
 
@@ -119,7 +119,7 @@ To export a VSD diagram to VTX:
 The image below shows the output VTX file.
 
 **The output VTX file.**  
-![](http://i.imgur.com/E6pUvGD.jpg)
+![image](http://i.imgur.com/E6pUvGD.jpg)
 
 ### Exporting to XML Programming Sample
 
@@ -129,7 +129,7 @@ This article explains how to export a Microsoft Visio diagram to an image using 
 
 Use the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class' constructor to read the diagram files and the `Save` method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.  
 **The source file. Note that the Arrow and Triangle labels are in bold.**  
-![](http://i.imgur.com/WOV36ek.png)
+![image](http://i.imgur.com/WOV36ek.png)
 
 To export a diagram to an image:
 
@@ -137,7 +137,7 @@ To export a diagram to an image:
 *   Call the `Diagram` class' `Save` method and set the image format you want to export to.The output image file looks like the original file.
 
 **The output PNG file.**  
-![](http://i.imgur.com/WOV36ek.png)
+![image](http://i.imgur.com/WOV36ek.png)
 
 ### Exporting to Image File Programming Sample
 
@@ -151,7 +151,7 @@ Use the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/clas
 The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
 **The source document.**  
-![](http://i.imgur.com/P3gaA34.png)
+![image](http://i.imgur.com/P3gaA34.png)
 
 To export VSD diagram to PDF:
 
@@ -161,7 +161,7 @@ To export VSD diagram to PDF:
 The image below shows the output XPS file.
 
 **The output XPS.**  
-![](http://i.imgur.com/1ESRxSy.png)
+![image](http://i.imgur.com/1ESRxSy.png)
 
 ### Exporting to XPS Programming Sample
 
@@ -177,7 +177,7 @@ Use the [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagra
 The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSDX, VSTM, VSTM, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 
 **Input diagram.**  
-![](http://i.imgur.com/YX4BNNq.png)
+![image](http://i.imgur.com/YX4BNNq.png)
 
 In order to export VSD diagram to HTML, perform the following steps:
 
@@ -187,7 +187,7 @@ In order to export VSD diagram to HTML, perform the following steps:
 The image below shows the output HTML file.
 
 **Output HTML diagram.**  
-![](http://i.imgur.com/syavUqI.png)
+![image](http://i.imgur.com/syavUqI.png)
 
 ### Save resultant HTML in the local storage
 

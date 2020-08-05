@@ -46,7 +46,7 @@ Use the following code in your Java application to set appearance of the connect
 The `ConFixedCode` property exposed by the [Layout](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/layout) class can be used to select reroute option. The `Layout` property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, will be used.
 
 **How to Select Reroute Options**  
-![](http://i.imgur.com/1O70sSA.png)
+![image](http://i.imgur.com/1O70sSA.png)
 
 The code below shows how to:
 

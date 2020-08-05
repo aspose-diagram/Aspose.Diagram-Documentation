@@ -31,7 +31,7 @@ url: /net/developerguide/workingwithshapes/working+with+shapes+gluing/
 
 ### Getting Glued Shapes
 
-The `GluedShapes` method exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class can be used to get a list of the IDs of all the connectors glued to a shape, or, if the shape in question is a connector, the IDs of the shapes it's connected to.The `GetShape` method, exposed by the [ShapeCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/shapecollection Class) class, can then be used to find a shape by its ID.
+The `GluedShapes` method exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class can be used to get a list of the IDs of all the connectors glued to a shape, or, if the shape in question is a connector, the IDs of the shapes it's connected to.The `GetShape` method, exposed by the [ShapeCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/shapecollection) class, can then be used to find a shape by its ID.
 
 The code below shows how to:
 
@@ -52,10 +52,10 @@ Aspose.Diagram for .NET allows developers glue shapes together through the conne
 The `GlueShapes` method exposed by the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class can be used.
 
 **Input diagram**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350189/18547240.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547240.png)
 
 **The diagram after gluing the shapes**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350189/18547243.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547243.png)
 
 The code below shows how to:
 
@@ -76,10 +76,10 @@ Aspose.Diagram for .NET enables developers to glue group shapes inside a contain
 The `GlueShapesInContainer` method exposed by the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class can be used.
 
 **Input diagram**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350189/18547242.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547242.png)
 
 **The diagram after gluing the group shapes**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350189/18547241.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547241.png)
 
 The code below shows how to:
 

@@ -45,10 +45,10 @@ As well as [creating diagrams](https://docs2.aspose.com/diagram/java/developergu
 The `Text` property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the `Aspose.Diagram.Text` object. The property can be used to retrieve or update a shape's text.
 
 **Input diagram**  
-![](http://i.imgur.com/6aEp7h0.png)
+![image](http://i.imgur.com/6aEp7h0.png)
 
 **Diagram after the text in the central shape has been changed from Process to New Text**  
-![](http://i.imgur.com/o977cxw.png)
+![image](http://i.imgur.com/o977cxw.png)
 
 The process for updating a shape's text is straightforward:
 
@@ -68,10 +68,10 @@ Microsoft Visio style sheets store formatting information that can be applied to
 The `TextStyle`, `FillStyle` and `LineStyle` properties exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class support the [Aspose.Diagram.StyleSheet](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/stylesheet) object. The property can be used to retrieve style information and apply custom text, line and fill styles to a diagram.
 
 **Input diagram**  
-![](http://i.imgur.com/feV1x2N.png)
+![image](http://i.imgur.com/feV1x2N.png)
 
 **The diagram after applying a custom style sheet that defines text, line and fill styles**  
-![](http://i.imgur.com/Xk9W0wN.png)
+![image](http://i.imgur.com/Xk9W0wN.png)
 
 ### Custom Styles in Microsoft Visio
 
@@ -104,10 +104,10 @@ The Shape element contains an element called Text, which contains the characters
 ### Adding Shape Text and Styles
 
 **Input diagram**  
-![](http://i.imgur.com/ZqgQPQC.png)
+![image](http://i.imgur.com/ZqgQPQC.png)
 
 **Diagram after adding various text values to a shape with different style on each text value**  
-![](http://i.imgur.com/7UWhFbU.png)
+![image](http://i.imgur.com/7UWhFbU.png)
 
 #### Adding Text and Styles Programming Sample
 
@@ -119,9 +119,9 @@ The [Txt](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt)
 The code examples in this article find and replace the shape's text on the page.
 
 **Input diagram**  
-![](http://i.imgur.com/lW5xaP0.png)  
+![image](http://i.imgur.com/lW5xaP0.png)  
 **The diagram after the shape is edited**  
-![](http://i.imgur.com/m33W1Tk.png)
+![image](http://i.imgur.com/m33W1Tk.png)
 
 The process for changing the shape's text:
 

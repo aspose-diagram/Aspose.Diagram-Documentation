@@ -15,5 +15,5 @@ Developers can easily [download Aspose.Diagram for Java API](https://repository.
 To test Aspose.Diagram without the evaluation version limitations, please [request a 30-day temporary license](https://purchase.aspose.com/temporary-license).
 
 **Aspose.Diagram for Java injects a watermark when working in evaluation mode**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612329/18808833.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612329/18808833.png)
 

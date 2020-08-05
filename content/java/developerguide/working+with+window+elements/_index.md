@@ -32,7 +32,7 @@ The main Visio application window can contain any open Visio files, the same as 
 The [`WindowCollection`](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/windowcollection) object represents a list of [Window](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/window) objects available in the drawing. The `Windows` property, exposed by the `Diagram` class, supports a collection of `Aspose.Diagram.Window` objects. This property can be used to retrieve the window information that is, the Window ID, type, height, width and state.
 
 **A console window showing the output from the code.**  
-![](http://i.imgur.com/zduARGh.png)
+![image](http://i.imgur.com/zduARGh.png)
 
 ### Retrieve Window Elements Programming Sample
 
@@ -53,7 +53,7 @@ The dynamic grid helps you position new shapes vertically and horizontally relat
 The [`Window`](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/window) class offers `DynamicGridEnabled` and `ShowConnectionPoints` properties. These properties can be used to apply settings to support dynamic grids and show connection points options.
 
 **A Visio application showing the options in Visio.**  
-![](http://i.imgur.com/bxsJIwF.png)
+![image](http://i.imgur.com/bxsJIwF.png)
 
 #### Add Support Programming Sample
 
@@ -64,7 +64,7 @@ Microsoft Office Visio has a pair of rulers, a grid, and two types of guides and
 The [Window](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/window) class offers `ShowGrid`, `ShowGuides`, `ShowRulers` and `ShowPageBreaks` properties. These properties can be used to apply settings to show and hide grids, guides, rulers and page breaks.
 
 **A Visio application showing the options in Visio.**  
-![](http://i.imgur.com/E0pvXbP.png)
+![image](http://i.imgur.com/E0pvXbP.png)
 
 ### Programming Sample
 

@@ -32,7 +32,7 @@ Users insert text fields into shapes to display additional information. **User-d
 ### Retrieve the User-defined Cells Fields
 
 Users collection exposed by [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class supports the `Aspose.Diagram.User` object. This property can be used to read the user defined cells of a Visio shape as available in the User-defined Cells section of the shape's ShapeSheet.  
-![](https://docs2.aspose.com/diagram/net/attachments/18350135/18546987.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350135/18546987.png)
 
 #### Retrieve Cells Programming Sample
 
@@ -41,7 +41,7 @@ The following piece of code allows developers to read the user defined cells fie
   
 This image shows the output after running the above code:  
   
-![](https://docs2.aspose.com/diagram/net/attachments/18350135/18546990.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350135/18546990.png)
 
 ## Create User-defined Cell in the ShapeSheet
 

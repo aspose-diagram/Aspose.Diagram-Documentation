@@ -55,21 +55,21 @@ The `Layout` method, exposed by the [`Diagram`](http://www.aspose.com/api/net/di
 The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](https://docs2.aspose.com/diagram/net/developerguide/workingwithdiagrams/create+update+layout+and+auto-fit+shapes) and [compact tree layouts](https://docs2.aspose.com/diagram/net/developerguide/workingwithdiagrams/create+update+layout+and+auto-fit+shapes).
 
 **The source diagram.**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546951.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546951.png)
 
 The code snippets in this article takes the source diagram and applies several types of auto layout to it, saving each in a separate file.
 
 **Layout shapes bottom to top**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546952.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546952.png)
 
 **Layout shapes top to bottom**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546949.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546949.png)
 
 **Layout shapes left to right**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546950.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546950.png)
 
 **Layout shapes right to left**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546947.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546947.png)
 
 To layout shapes in flowchart style:
 
@@ -85,16 +85,16 @@ To layout shapes in flowchart style:
 The compact tree layout style tries to built a tree structure. It uses the same input file as the [example above](https://docs2.aspose.com/diagram/net/developerguide/workingwithdiagrams/create+update+layout+and+auto-fit+shapes) and saves out to several different compact tree styles.
 
 **Compact tree layout - down and right**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546948.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546948.png)
 
 **Compact tree layout - down and left**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546945.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546945.png)
 
 **Compact tree layout - right and down**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546946.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546946.png)
 
 **Compact tree layout - left and down**  
-![](https://docs2.aspose.com/diagram/net/attachments/18350161/18546928.png)
+![image](https://docs2.aspose.com/diagram/net/attachments/18350161/18546928.png)
 
 To layout shapes in the compact tree style:
 

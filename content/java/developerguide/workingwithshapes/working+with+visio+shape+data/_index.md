@@ -52,7 +52,7 @@ To add a new shape:
 {{< table style="table-striped" >}}
 |**The input diagram** |**The diagram with a shape added** |
 |:----|:----|
-|![](https://docs2.aspose.com/diagram/java/attachments/18612227/18809114.png)|![](https://docs2.aspose.com/diagram/java/attachments/18612227/18809118.png)|
+|![image](https://docs2.aspose.com/diagram/java/attachments/18612227/18809114.png)|![image](https://docs2.aspose.com/diagram/java/attachments/18612227/18809118.png)|
 {{< /table >}}
 
 ### Add Programming Sample
@@ -73,7 +73,7 @@ In the console window below, for example, you can see information output for a d
 
 **A console window showing shape information**
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612227/18809117.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612227/18809117.png)
 
 To retrieve Visio page information:
 
@@ -136,13 +136,13 @@ To identify custom properties in Microsoft Visio:
 {{< table style="table-striped" >}}
 |A shape's data, as seen in Microsoft Visio. |
 |:----|
-|![](http://i.imgur.com/2loM7b0.png)|
+|![image](http://i.imgur.com/2loM7b0.png)|
 {{< /table >}}
 
 {{< table style="table-striped" >}}
 |A console window showing the shape data output.|
 |:----|
-|![](http://i.imgur.com/2loM7b0.png)|
+|![image](http://i.imgur.com/2loM7b0.png)|
 {{< /table >}}
 
 #### Read Programming Sample

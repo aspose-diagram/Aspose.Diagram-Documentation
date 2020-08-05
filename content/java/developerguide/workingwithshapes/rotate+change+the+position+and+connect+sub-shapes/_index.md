@@ -39,9 +39,9 @@ The [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/sh
 The Move and MoveTo methods, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, support changing the position of a shape as a part of a group or not.  
 The code examples in this article move a shape on the page.  
 **Input diagram**  
-![](http://i.imgur.com/cThgWnB.png)  
+![image](http://i.imgur.com/cThgWnB.png)  
 **The diagram after the shape is moved**  
-![](http://i.imgur.com/Q3QByqe.png)
+![image](http://i.imgur.com/Q3QByqe.png)
 
 The process for moving a shape is:
 
@@ -61,10 +61,10 @@ This topic elaborates how to connect two sub-shapes of two different group shape
 The `ConnectShapesViaConnector` method exposed by the [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/page) class can be used to connect the shapes by their IDs. The `AddShape` method, exposed by the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class, can be used to add a shape.
 
 **The input diagram**  
-![](http://i.imgur.com/74rDby5.png)
+![image](http://i.imgur.com/74rDby5.png)
 
 **The diagram after the connection of sub-shapes**  
-![](http://i.imgur.com/c387dZJ.png)
+![image](http://i.imgur.com/c387dZJ.png)
 
 The code below shows how to:
 

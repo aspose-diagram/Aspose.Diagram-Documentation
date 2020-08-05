@@ -88,13 +88,13 @@ The Shape element contains an element called Text, which contains the characters
 {{< table style="table-striped" >}}
 |Input diagram|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350112/18547154.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350112/18547154.png)|
 {{< /table >}}
 
 {{< table style="table-striped" >}}
 |Diagram after adding various text values to a shape with different style on each text value|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350112/18547155.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350112/18547155.png)|
 {{< /table >}}
 
 #### Adding Text and Styles Programming Sample
@@ -109,13 +109,13 @@ The code examples in this article find and replace the shape's text on the page.
 {{< table style="table-striped" >}}
 |Input diagram|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350112/18547225.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350112/18547225.png)|
 {{< /table >}}
 
 {{< table style="table-striped" >}}
 |The diagram after the shape is edited|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350112/18547224.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350112/18547224.png)|
 {{< /table >}}
 
 The process for changing the shape's text:

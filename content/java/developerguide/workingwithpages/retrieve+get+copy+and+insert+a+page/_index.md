@@ -41,7 +41,7 @@ Use the `Page.Background` property to determine whether a page is a foreground o
 The image below shows the output from the code snippets in this article.
 
 **A console showing the output.**  
-![](https://docs2.aspose.com/diagram/java/attachments/18612237/18809119.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612237/18809119.png)
 
 ### Retrieve Page Information Programming Sample
 

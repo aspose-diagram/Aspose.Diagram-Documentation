@@ -16,7 +16,7 @@ All examples of Aspose.Diagram for Java are hosted on [Github](https://github.co
 
 Extract the contents of ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808867.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808867.png)
 
 The project uses Maven build system. Any modern IDE can easily open or import the project and its dependencies. Below we show you how to use popular IDEs to build and run the examples.
 
@@ -24,35 +24,35 @@ The project uses Maven build system. Any modern IDE can easily open or import th
 
 Click on the **File** menu and choose **Open**. Browse to the project folder and select the **pom.xml** file.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808866.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808866.png)
 
 It will open the project and download the dependencies automatically. From the Project tab, browse the examples in **src/main/java** folder. To run an example, just right click on the file and choose "Run ..", the example will be executed and the output will be shown in the built in console output window.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808865.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808865.png)
 
 ### Eclipse
 
 Click on **File** menu and choose **Import**. Select **Maven** - Existing Maven Projects.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808864.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808864.png)
 
 Browse to the folder that you cloned or downloaded from GitHub and select **pom.xml** file.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808871.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808871.png)
 
 It will open the project and download the dependencies automatically. From the Package Explorer tab, browse the examples in **src/main/java** folder. To run an example, just right click on the file and choose **Run As** - **Java Application**, the example will be executed and the output will be shown in the built in console output window.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808870.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808870.png)
 
 ### NetBeans
 
 Click on the **File** menu and choose **Open Project**. Browse to the folder that you cloned or downloaded from GitHub. The icon of **Examples** folder will show that its a Maven project. Select Examples and open it.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808869.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808869.png)
 
 It will open the project and download the dependencies automatically. From the Projects tab, browse the examples in **source packages**. To run an example, just right click on the file and choose **Run File**, the example will be executed and the output will be shown in the built in console output window.
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612714/18808868.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612714/18808868.png)
 
 ### Contribute
 

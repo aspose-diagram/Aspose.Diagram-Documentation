@@ -47,11 +47,11 @@ The SetHeight and SetWidth methods, exposed by the [Shape](http://www.aspose.com
 The code examples in this article set the Height and Width to resize the shape on the page.
 
 **Input diagram**  
-![](http://i.imgur.com/cTiNWa7.png)
+![image](http://i.imgur.com/cTiNWa7.png)
 
 **The diagram after the Height and Width**** have been changed**
 
-![](https://docs2.aspose.com/diagram/java/attachments/18612228/18809111.png)
+![image](https://docs2.aspose.com/diagram/java/attachments/18612228/18809111.png)
 
 The process for setting Height and Width is:
 

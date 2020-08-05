@@ -42,7 +42,7 @@ The [Master](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/m
 Use the `Page.Shapes` property to determine which shape has been inherited by the master shape.
 
 **A console window showing the output from the code.**  
-![](http://i.imgur.com/DPn5sP9.png)
+![image](http://i.imgur.com/DPn5sP9.png)
 
 ### Retrieving Master Information Programming Sample
 

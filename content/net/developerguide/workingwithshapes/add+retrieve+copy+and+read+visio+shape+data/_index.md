@@ -56,14 +56,14 @@ To add a new shape:
 {{< table style="table-striped" >}}
 |**The input diagram**  |**The diagram with a shape added** |
 |:---|:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350785/18547041.png)|![](https://docs2.aspose.com/diagram/net/attachments/18350785/18547021.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350785/18547041.png)|![image](https://docs2.aspose.com/diagram/net/attachments/18350785/18547021.png)|
 {{< /table >}}
 
 ### Add Programming Sample
 
 The code snippet below shows how to do each step.
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
+![image](https://docs2.aspose.com/diagram/net/attachments/thumbnails/ri.png)We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
 
 ## Retrieving Shape Information
 
@@ -78,7 +78,7 @@ In the console window below, for example, you can see information output for a d
 {{< table style="table-striped" >}}
 |A console window showing shape information|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350785/18546689.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350785/18546689.png)|
 {{< /table >}}
 
 To retrieve Visio page information:
@@ -110,7 +110,7 @@ This example work as follows:
 
 ### Copy Programming Sample
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
+![image](https://docs2.aspose.com/diagram/net/attachments/thumbnails/ri.png)We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
 
 ## Copy a Visio Shape to another Shape instance
 
@@ -142,13 +142,13 @@ To identify custom properties in Microsoft Visio:
 {{< table style="table-striped" >}}
 |A shape's data, as seen in Microsoft Visio.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350785/18547236.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350785/18547236.png)|
 {{< /table >}}
 
 {{< table style="table-striped" >}}
 |A console window showing the shape data output.|
 |:----|
-|![](https://docs2.aspose.com/diagram/net/attachments/18350785/18547237.png)|
+|![image](https://docs2.aspose.com/diagram/net/attachments/18350785/18547237.png)|
 {{< /table >}}
 
 #### Read Programming Sample
