@@ -31,10 +31,10 @@ url: /java/developerguide/workingwithshapes/set+visio+shapes+xform+line+and+fill
 The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped. The [XForm](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/xform) property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the `Aspose.Diagram.XForm` object. The `XForm` property can be used to retrieve or update a shape's XForm data. The code examples in this article change the `PinX` (X-coordinate) and `PinY` (Y-coordinate) `XForm` values to move the shapes on the page.
 
 **Input diagram**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612231/18809112.png)
+![image](18809112.png)
 
 **The diagram after the** `**PinX**` **and** `**PinY**` **values have been changed**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612231/18809113.png)
+![image](18809113.png)
 
 The process for updating XForm data is:
 

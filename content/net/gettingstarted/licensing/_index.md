@@ -30,7 +30,7 @@ You can easily download Aspose.Diagram for .NET product for evaluation purposes.
 
 The evaluation version of Aspose.Diagram (without a license specified) provides full product functionality, but it inserts an evaluation watermark in the middle of the document on open and save, and limits to read only the first ten shapes of the first page of your Visio diagram.
 
-![image](https://docs2.aspose.com/diagram/net/attachments/18353175/18546694.png)
+![image](18546694.png)
 
 ### Evaluation Version Limitations
 

@@ -29,7 +29,7 @@ Aspose.Diagram for Java allows to configure shape objects with layers in Microso
 The [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) class object offers LayerMember property which allows to add / remove shape objects to / from the layers in Visio drawing. Users can manage these properties programmatically using Aspose.Diagram API as follows:
 
 **Add, remove and move shape objects to / from layers of the diagram.**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612547/18809096.png)
+![image](18809096.png)
 
 The following piece of code helps to add, remove and move shape objects properties.
 

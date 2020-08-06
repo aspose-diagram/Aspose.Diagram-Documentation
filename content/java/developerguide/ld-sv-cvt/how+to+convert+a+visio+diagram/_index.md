@@ -52,7 +52,7 @@ The image below shows the VSD diagram that the code snippets below export PDF. Y
 
 **The source file.**
 
-![image](https://docs2.aspose.com/diagram/java/attachments/18612238/18809133.png)
+![image](18809133.png)
 
 To export VSD diagram to PDF:
 
@@ -62,7 +62,7 @@ To export VSD diagram to PDF:
 Below is an image of the output PDF file.
 
 **The output PDF file.**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612238/18809132.png)
+![image](18809132.png)
 
 ### Exporting to PDF Programming Sample
 

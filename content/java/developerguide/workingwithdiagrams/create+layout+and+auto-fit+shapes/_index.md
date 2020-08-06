@@ -46,21 +46,21 @@ The `Layout` method, exposed by the [`Diagram`](http://www.aspose.com/api/java/d
 The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](https://docs2.aspose.com/diagram/java/developerguide/workingwithdiagrams/create+layout+and+auto-fit+shapes) and [compact tree layouts](https://docs2.aspose.com/diagram/java/developerguide/workingwithdiagrams/create+layout+and+auto-fit+shapes).
 
 **The source diagram.**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809123.png)
+![image](18809123.png)
 
 The code snippets in this article takes the source diagram and applies several types of auto layout to it, saving each in a separate file.
 
 **Layout shapes bottom to top**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809124.png)
+![image](18809124.png)
 
 **Layout shapes top to bottom**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809125.png)
+![image](18809125.png)
 
 **Layout shapes left to right**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809126.png)
+![image](18809126.png)
 
 **Layout shapes right to left**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809127.png)
+![image](18809127.png)
 
 To layout shapes in flowchart style:
 
@@ -76,16 +76,16 @@ To layout shapes in flowchart style:
 The compact tree layout style tries to built a tree structure. It uses the same input file as the [example above](https://docs2.aspose.com/diagram/java/developerguide/workingwithdiagrams/create+layout+and+auto-fit+shapes) and saves out to several different compact tree styles.
 
 **Compact tree layout - down and right**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809128.png)
+![image](18809128.png)
 
 **Compact tree layout - down and left**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809129.png)
+![image](18809129.png)
 
 **Compact tree layout - right and down**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809130.png)
+![image](18809130.png)
 
 **Compact tree layout - left and down**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612235/18809131.png)
+![image](18809131.png)
 
 To layout shapes in the compact tree style:
 

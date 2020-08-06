@@ -7,10 +7,10 @@ type: docs
 url: /net/
 ---
 
-# ![Home Page](https://docs2.aspose.com/diagram/net/images/icons/contenttypes/home_page_16.png) Aspose.Diagram for .NET : Home 
+# ![Home Page](home_page_16.png) Aspose.Diagram for .NET : Home 
 
 
-![image](https://docs2.aspose.com/diagram/net/attachments/18350152/18546886.png)
+![image](18546886.png)
 
 **Welcome to Aspose.Diagram for .NET**
 

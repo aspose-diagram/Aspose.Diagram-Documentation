@@ -107,10 +107,10 @@ The [TimeLineHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/c
 ![image](http://i.imgur.com/TxFKc1K.png)
 
 **Input diagram**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612696/18808940.png)
+![image](18808940.png)
 
 **The diagram after the values have been changed**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612696/18808941.png)
+![image](18808941.png)
 
 The process for updating time period start, end and date format is:
 

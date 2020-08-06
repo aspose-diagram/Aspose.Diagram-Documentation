@@ -52,7 +52,7 @@ To add a new shape:
 {{< table style="table-striped" >}}
 |**The input diagram** |**The diagram with a shape added** |
 |:----|:----|
-|![image](https://docs2.aspose.com/diagram/java/attachments/18612227/18809114.png)|![image](https://docs2.aspose.com/diagram/java/attachments/18612227/18809118.png)|
+|![image](18809114.png)|![image](18809118.png)|
 {{< /table >}}
 
 ### Add Programming Sample
@@ -73,7 +73,7 @@ In the console window below, for example, you can see information output for a d
 
 **A console window showing shape information**
 
-![image](https://docs2.aspose.com/diagram/java/attachments/18612227/18809117.png)
+![image](18809117.png)
 
 To retrieve Visio page information:
 

@@ -19,7 +19,7 @@ url: /net/gettingstarted/product+overview/
 
  
 
-![image](https://docs2.aspose.com/diagram/net/attachments/18350152/18546886.png)
+![image](18546886.png)
 
 **Welcome to Aspose.Diagram for .NET**
 

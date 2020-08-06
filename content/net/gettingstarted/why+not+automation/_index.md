@@ -75,6 +75,6 @@ The best part of purchasing an Aspose component or a component suite is having a
 ### Conclusion
 
 {{< alert style="success" >}}
-![image](https://docs2.aspose.com/diagram/net/attachments/thumbnails/ri.png)While this article has covered many of the key points why Aspose components are a better choice than Office Automation, there are many, many more. This article primarily addresses only the most key points. All of the different Aspose components offer a risk free, no obligation [Evaluation Version](https://www.nuget.org/packages/Aspose.Diagram/). We encourage you to take advantage of that Evaluation in order to better see what Aspose can do for your applications.
+![image](ri.png)While this article has covered many of the key points why Aspose components are a better choice than Office Automation, there are many, many more. This article primarily addresses only the most key points. All of the different Aspose components offer a risk free, no obligation [Evaluation Version](https://www.nuget.org/packages/Aspose.Diagram/). We encourage you to take advantage of that Evaluation in order to better see what Aspose can do for your applications.
 {{< /alert >}}
 

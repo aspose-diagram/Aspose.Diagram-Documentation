@@ -19,7 +19,7 @@ url: /java/gettingstarted/product+overview/
 
  
 
-![image](https://docs2.aspose.com/diagram/java/attachments/18612664/18808863.png)
+![image](18808863.png)
 
 ### Welcome to Aspose.Diagram for Java!
 

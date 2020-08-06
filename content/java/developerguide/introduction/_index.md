@@ -45,7 +45,7 @@ You can also set these properties to change the information in the file.
 The code samples below show how to retrieve information about what created the file as well as when it was created, edited, printed and saved.
 
 **The code output in a console window**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612593/18809083.png)
+![image](18809083.png)
 
 #### Programming Sample
 
@@ -71,7 +71,7 @@ Check the summary information:
 2.  Selecting **Info** from the **File** menu.
 
 **The Info dialog showing the updated summary information**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612593/18809080.png)
+![image](18809080.png)
 
 #### Programming Sample
 

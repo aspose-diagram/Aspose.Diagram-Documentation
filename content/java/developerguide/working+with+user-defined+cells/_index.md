@@ -33,12 +33,12 @@ Users insert text fields into shapes to display additional information. **User-d
 The `Users` collection exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) class supports the `com.aspose.diagram.User` object. The [`User`](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/User) class can be used to read properties. There are a few user-defined cells as you can see in the following image:
 
 **Table showing information about user defined cells**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612579/18809031.png)
+![image](18809031.png)
 
 The following code is used to read user-defined cells.
 
 The following image shows the output after running the code:  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612579/18809030.png)
+![image](18809030.png)
 
 #### Programming Samples
 

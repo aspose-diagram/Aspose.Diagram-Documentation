@@ -51,7 +51,7 @@ The code examples in this article set the Height and Width to resize the shape o
 
 **The diagram after the Height and Width**** have been changed**
 
-![image](https://docs2.aspose.com/diagram/java/attachments/18612228/18809111.png)
+![image](18809111.png)
 
 The process for setting Height and Width is:
 

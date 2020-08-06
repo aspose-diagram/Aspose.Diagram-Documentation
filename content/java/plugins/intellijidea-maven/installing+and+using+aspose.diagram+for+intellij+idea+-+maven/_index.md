@@ -68,7 +68,7 @@ Then follow the steps below:
 ![image](http://i.imgur.com/9k59ehL.jpg)  
 ![image](http://i.imgur.com/96qBPax.jpg)
 
-     Congratulations ! ![(thumbs up)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/thumbs_up.png) You have successfully created Aspose.Diagram Maven project for using [Aspose.Diagram for Java API](http://goo.gl/pNOaGJ).
+     Congratulations ! ![thumbs up](thumbs_up.png) You have successfully created Aspose.Diagram Maven project for using [Aspose.Diagram for Java API](http://goo.gl/pNOaGJ).
 
 ![image](http://i.imgur.com/uHrjYHq.jpg)
 
@@ -96,7 +96,7 @@ Then follow the steps below on IntelliJ IDEA:
 
 ![image](http://i.imgur.com/DyAl0u5.jpg)
 
-       Congratulations ! ![(thumbs up)](s/en_GB-1988229788/4108/b47156ace146e4f759b49ef98258cb637bdd5af8.5/_/images/icons/emoticons/thumbs_up.png) You have successfully done the following:
+       Congratulations ! ![thumbs up](thumbs_up.png) You have successfully done the following:
 
        1. You' have created Aspose.Diagram Maven Project using Aspose.Diagram Maven Project Wizard.
 

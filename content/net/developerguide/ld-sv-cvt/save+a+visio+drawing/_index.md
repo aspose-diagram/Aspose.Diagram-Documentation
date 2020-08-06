@@ -119,7 +119,7 @@ VSTO lets you program with Microsoft Visio files. To save a file to other format
 #### Saving a VSD File with VSTO Programming Sample
 
 {{< alert style="warning" >}}
-![image](https://docs2.aspose.com/diagram/net/attachments/thumbnails/warningmark.png)using Visio = Microsoft.Office.Interop.Visio;    
+![image](warningmark.png)using Visio = Microsoft.Office.Interop.Visio;    
 &nbsp;&nbsp;&nbsp;&nbsp;Imports Visio = Microsoft.Office.Interop.Visio
 {{< /alert >}}
 
@@ -137,7 +137,7 @@ The code snippets below show how to:
 #### Saving VSD File with Aspose.Diagram for .NET Programming Sample
 
 {{< alert style="warning" >}}
-![image](https://docs2.aspose.com/diagram/net/attachments/thumbnails/warningmark.png)using Aspose.Diagram;   
+![image](warningmark.png)using Aspose.Diagram;   
 &nbsp;&nbsp;&nbsp;&nbsp;Imports Aspose.Diagram
 {{< /alert >}}
 

@@ -52,10 +52,10 @@ Aspose.Diagram for .NET allows developers glue shapes together through the conne
 The `GlueShapes` method exposed by the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class can be used.
 
 **Input diagram**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547240.png)
+![image](18547240.png)
 
 **The diagram after gluing the shapes**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547243.png)
+![image](18547243.png)
 
 The code below shows how to:
 
@@ -76,10 +76,10 @@ Aspose.Diagram for .NET enables developers to glue group shapes inside a contain
 The `GlueShapesInContainer` method exposed by the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class can be used.
 
 **Input diagram**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547242.png)
+![image](18547242.png)
 
 **The diagram after gluing the group shapes**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350189/18547241.png)
+![image](18547241.png)
 
 The code below shows how to:
 

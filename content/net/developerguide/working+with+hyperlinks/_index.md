@@ -34,7 +34,7 @@ To identify properties in Microsoft Office Visio:
 4.  Press **OK** button
 
 **A shape's hyperlink data, as seen in Microsoft Visio**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350139/18546954.png)
+![image](18546954.png)
 
 ### Add Hyperlink Programming Sample
 
@@ -53,10 +53,10 @@ To identify properties in Microsoft Office Visio:
 
 Any existing properties are listed in the dialog.  
 **A shape's hyperlink data, as seen in Microsoft Visio**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350139/18546954.png)
+![image](18546954.png)
 
 **A console window showing the shape data output**  
-![image](https://docs2.aspose.com/diagram/net/attachments/18350139/18546953.png)
+![image](18546953.png)
 
 ### Get Hyperlinks Programming Sample
 

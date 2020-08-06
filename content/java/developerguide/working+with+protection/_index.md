@@ -36,7 +36,7 @@ In Microsoft Visio you protect documents this way:
 5.  Click **OK**.
 
 **Please see how we can check or clear options manually.**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612576/18809038.png)
+![image](18809038.png)
 
 Use the code below in a Java application to perform the same tasks – lock and unlock different elements of your diagram – using Aspose.Diagram for Java.
 
@@ -55,7 +55,7 @@ In Visio, you need to perform following actions to protect any shape:
 5.  Click **OK**.
 
 **A shape's protection options, as seen in Microsoft Visio**  
-![image](https://docs2.aspose.com/diagram/java/attachments/18612576/18809039.png)
+![image](18809039.png)
 
 Use the following code in your Java application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for Java.
 
