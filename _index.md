@@ -73,7 +73,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Node.js via Java Limitations and API Differences](https://docs.aspose.com/display/diagramjava/Why+not+Automation)
 - [Aspose.Diagram for Node.js via Java Release Notes](https://docs.aspose.com/diagram/java/aspose-diagram-for-node-js-via-java/)
 - [Aspose.Diagram for Node.js via Java Product Page](https://products.aspose.com/diagram/nodejs-java)
-- [Download Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/cells/diagram)
+- [Download Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/diagram/nodejs)
 - [Aspose.Diagram for Node.js via Java API Reference Guide](https://apireference.aspose.com/nodejs/diagram)
 - [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram)
 - [Aspose.Diagram for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
