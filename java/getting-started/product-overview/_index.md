@@ -15,9 +15,9 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 
 Using Aspose.Diagram for Java in your applications gives you the following benefits:
 
-- [Rich features](/diagram/java/product-overview-html/).
-- [Platform independence](/diagram/java/product-overview-html/).
-- [Performance and scalability](/diagram/java/product-overview-html/).
+- [Rich features](/diagram/java/product-overview/).
+- [Platform independence](/diagram/java/product-overview/).
+- [Performance and scalability](/diagram/java/product-overview/).
 
 {{% /alert %}} 
 ### **Declaration**

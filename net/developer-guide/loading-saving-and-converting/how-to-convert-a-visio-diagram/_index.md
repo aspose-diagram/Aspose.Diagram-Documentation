@@ -95,7 +95,7 @@ This article explains how to export a Microsoft Visio diagram to XML using [Aspo
 - VTX defines an XML template.
 - VSX defines an XML stencil.
 
-The [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class' constructors read a diagram and the Save method is used to save, or export, a diagram in a different file format. The code snippets in this article show how to use the Save method to save a Visio file to [VDX](/diagram/net/how-to-convert-a-visio-diagram-html/), [VTX](/diagram/net/how-to-convert-a-visio-diagram-html/) and [VSX](/diagram/net/how-to-convert-a-visio-diagram-html/).
+The [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class' constructors read a diagram and the Save method is used to save, or export, a diagram in a different file format. The code snippets in this article show how to use the Save method to save a Visio file to [VDX](/diagram/net/how-to-convert-a-visio-diagram/), [VTX](/diagram/net/how-to-convert-a-visio-diagram/) and [VSX](/diagram/net/how-to-convert-a-visio-diagram/).
 
 The image below shows the diagram that is exported in the code snippets below. The exported file is shown before each code snippet.
 
@@ -170,8 +170,8 @@ This article explains how to export a Microsoft Visio diagram to HTML using [Asp
 
 Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format. Developers can save resultant HTML in the local storage or directly to a stream instance.
 
-1. [Save resultant HTML in the local storage](/diagram/net/how-to-convert-a-visio-diagram-html/).
-1. [Save resultant HTML in a stream instance](/diagram/net/how-to-convert-a-visio-diagram-html/).
+1. [Save resultant HTML in the local storage](/diagram/net/how-to-convert-a-visio-diagram/).
+1. [Save resultant HTML in a stream instance](/diagram/net/how-to-convert-a-visio-diagram/).
 
 The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSDX, VSDM, VSTX, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 

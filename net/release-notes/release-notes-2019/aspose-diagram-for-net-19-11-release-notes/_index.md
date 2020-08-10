@@ -14,7 +14,7 @@ This page contains release notes information for Aspose.Diagram for .NET 19.11.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|DIAGRAMNET-50004|Add support to [apply stylesheet](/diagram/net/format-visio-pages-html/) for full page|Enhancement|
+|DIAGRAMNET-50004|Add support to [apply stylesheet](/diagram/net/format-visio-pages/) for full page|Enhancement|
 |DIAGRAMNET-50576|Add support to dispose a Diagram class object|Enhancement|
 |DIAGRAMNET-50098|Set page background color|Bug|
 |DIAGRAMNET-51722|Diagram to SVG - output image has faults|Bug|

@@ -18,10 +18,10 @@ Aspose.Diagram API allows developers to adjust the text position and also rotate
 
 The text transforms section contains the positional information about a shape's text block. These examples show how to adjust shape text positions and orientation angle:
 
-- [Set shape's text position at the top](/diagram/java/working-with-text-boxes-html/).
-- [Set shape's text position at the bottom](/diagram/java/working-with-text-boxes-html/).
-- [Set shape's text position at the left](/diagram/java/working-with-text-boxes-html/).
-- [Set shape's text position at the right](/diagram/java/working-with-text-boxes-html/).
+- [Set shape's text position at the top](/diagram/java/working-with-text-boxes/).
+- [Set shape's text position at the bottom](/diagram/java/working-with-text-boxes/).
+- [Set shape's text position at the left](/diagram/java/working-with-text-boxes/).
+- [Set shape's text position at the right](/diagram/java/working-with-text-boxes/).
 ### **Set shape's text position at the top**
 The following piece of code sets orientation angle and position of the shape's text at the top.
 

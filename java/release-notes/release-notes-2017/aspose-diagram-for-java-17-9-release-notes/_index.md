@@ -37,4 +37,4 @@ diagram.getPages().getPage(0).autoSpaceShapes(diagram.getPages().getPage(0).getS
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Auto-space a Collection of Shapes in the Visio Page](/diagram/java/auto-space-a-collection-of-shapes-in-the-visio-page-html/)
+1. [Auto-space a Collection of Shapes in the Visio Page](/diagram/java/auto-space-a-collection-of-shapes-in-the-visio-page/)

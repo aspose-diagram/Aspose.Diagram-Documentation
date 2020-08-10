@@ -21,11 +21,11 @@ There are several [Diagram.Save](https://apireference.aspose.com/java/diagram/co
 ### **Visio Diagram Save Options**
 These examples show how to:
 
-- [Use Diagram Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/).
-- [Use PDF Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/).
-- [Use HTML Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/).
-- [Use Image Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/).
-- [Use SVG Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/).
+- [Use Diagram Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats/).
+- [Use PDF Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats/).
+- [Use HTML Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats/).
+- [Use Image Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats/).
+- [Use SVG Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats/).
 #### **Use of the Diagram Save Options**
 The code below shows how to set save options before saving a document to Visio format.
 

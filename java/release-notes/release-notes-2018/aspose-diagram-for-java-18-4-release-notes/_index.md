@@ -22,4 +22,4 @@ This page contains release notes for [Aspose.Diagram for Java 18.4](https://repo
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Use Connection indexes to connect shapes](/diagram/java/use-connection-indexes-to-connect-shapes-html/)
+1. [Use Connection indexes to connect shapes](/diagram/java/use-connection-indexes-to-connect-shapes/)

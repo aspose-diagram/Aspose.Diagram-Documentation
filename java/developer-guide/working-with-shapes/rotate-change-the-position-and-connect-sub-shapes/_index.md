@@ -53,7 +53,7 @@ Use the following code in your Java application to connect the sub-shapes of two
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ConnectVisioSubShapes-ConnectVisioSubShapes.java" >}}
 ## **Get the Shapes Connected to a Particular Shape**
-[Add and Connect Visio Shapes](/diagram/java/add-and-connect-visio-shapes-html/) explains how to add a shape and connect it to other shapes in Microsoft Visio diagrams using Aspose.Diagram for Java. It is also possible to find shapes that are connected to a specific shape.
+[Add and Connect Visio Shapes](/diagram/java/add-and-connect-visio-shapes/) explains how to add a shape and connect it to other shapes in Microsoft Visio diagrams using Aspose.Diagram for Java. It is also possible to find shapes that are connected to a specific shape.
 
 The ConnectedShapes method exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class can be used to get the IDs of the shapes connected to a shape. The GetShape method, exposed by the [ShapeCollection](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shapecollection) class, can then be used to find a shape by its ID.
 

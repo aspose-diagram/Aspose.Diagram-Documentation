@@ -6,7 +6,7 @@ url: /java/create-layout-and-auto-fit-shapes/
 ---
 
 ## **Creating a Diagram**
-Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/diagram/java/add-and-connect-visio-shapes-html/) to build up the diagram. Use the default constructor of [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class to create a new diagram.
+Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/diagram/java/add-and-connect-visio-shapes/) to build up the diagram. Use the default constructor of [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class to create a new diagram.
 ### **Programming Sample**
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
 ## **Layout Shapes in Flowchart Style**
@@ -16,7 +16,7 @@ For example, if you're updating a large flowchart to include a new process, you 
 
 The Layout method, exposed by the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class layouts the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an [LayoutOptions](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Layoutoptions) object as an argument. Use the different properties exposed by the LayoutOptions class to automatically layout shapes.
 
-The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/java/create-2c-layout-and-auto-fit-shapes-html/) and [compact tree layouts](/diagram/java/create-2c-layout-and-auto-fit-shapes-html/).
+The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/java/create-2c-layout-and-auto-fit-shapes/) and [compact tree layouts](/diagram/java/create-2c-layout-and-auto-fit-shapes/).
 
 **The source diagram.** 
 
@@ -36,7 +36,7 @@ To layout shapes in flowchart style:
 ### **Flowchart Style Programming Sample**
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInFlowchartStyle-LayOutShapesInFlowchartStyle.java" >}}
 ### **Laying Out Shapes in the Compact Tree Style**
-The compact tree layout style tries to built a tree structure. It uses the same input file as the [example above](/diagram/java/create-2c-layout-and-auto-fit-shapes-html/) and saves out to several different compact tree styles.
+The compact tree layout style tries to built a tree structure. It uses the same input file as the [example above](/diagram/java/create-2c-layout-and-auto-fit-shapes/) and saves out to several different compact tree styles.
 
 |<p>**Compact tree layout - down and right** </p><p>![todo:image_alt_text](create-layout-and-auto-fit-shapes_6.png)</p>|
 | :- |

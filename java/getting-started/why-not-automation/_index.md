@@ -18,11 +18,11 @@ There are two questions that we hear most often here at Aspose:
 
 There are several reasons why Aspose APIs are a better alternative to automation. Some of the key reasons are:
 
-- [Security](/diagram/java/why-not-automation-html/)
-- [Stability](/diagram/java/why-not-automation-html/)
-- [Scalability/Speed](/diagram/java/why-not-automation-html/)
-- [Price](/diagram/java/why-not-automation-html/)
-- [Features](/diagram/java/why-not-automation-html/)
+- [Security](/diagram/java/why-not-automation/)
+- [Stability](/diagram/java/why-not-automation/)
+- [Scalability/Speed](/diagram/java/why-not-automation/)
+- [Price](/diagram/java/why-not-automation/)
+- [Features](/diagram/java/why-not-automation/)
 
 The key points are described below. Also, be sure to visit the links at the end of this section.
 

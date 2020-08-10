@@ -16,7 +16,7 @@ For example, if you're updating a large flowchart to include a new process, you 
 
 The Layout method, exposed by the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class layouts the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an [LayoutOptions](http://www.aspose.com/api/net/diagram/aspose.diagram/layoutoptions) object as an argument. Use the different properties exposed by the LayoutOptions class to automatically layout shapes.
 
-The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/) and [compact tree layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/).
+The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and [compact tree layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/).
 
 **The source diagram.** 
 
@@ -36,7 +36,7 @@ To layout shapes in flowchart style:
 ### **Flowchart Style Programming Sample**
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Diagrams-LayOutShapesInFlowchartStyle-LayOutShapesInFlowchartStyle.cs" >}}
 ### **Laying Out Shapes in the Compact Tree Style**
-The compact tree layout style tries to built a tree structure. It uses the same input file as the [example above](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/) and saves out to several different compact tree styles.
+The compact tree layout style tries to built a tree structure. It uses the same input file as the [example above](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and saves out to several different compact tree styles.
 
 |<p>**Compact tree layout - down and right** </p><p>![todo:image_alt_text](create-update-layout-and-auto-fit-shapes_6.png)</p>|
 | :- |
@@ -80,7 +80,7 @@ Aspose.Diagram for .NET allows developers to remove all macros from the Visio di
 ## **Creating a New Diagram with VSTO**
 [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) lets developers to create and work with Microsoft Office Visio diagrams and incorporate features in their software applications. There are other ways of working with Visio files, most commonly, Microsoft Automation. Unfortunately, that has some limitations. Aspose.Diagram is powerful and fast and works independently without Microsoft Office installation.
 
-This migration article shows how to use first [VSTO](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/) and then [Aspose.Diagram for .NET](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/) to create a new diagram and add some shapes to it. You'll notice that the Aspose.Diagram code is shorter than VSTO code. Feel free to use the code as a base for your own development and enhance it to meet your needs. VSTO lets you program with Microsoft Visio files. To create a new diagram:
+This migration article shows how to use first [VSTO](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and then [Aspose.Diagram for .NET](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) to create a new diagram and add some shapes to it. You'll notice that the Aspose.Diagram code is shorter than VSTO code. Feel free to use the code as a base for your own development and enhance it to meet your needs. VSTO lets you program with Microsoft Visio files. To create a new diagram:
 
 1. Create a Visio application object.
 1. Make the application object invisible.
@@ -121,7 +121,7 @@ Example:
 ## **Update Shape Properties**
 When working with Microsoft Visio diagrams, users can update shape attributes including text, style, position, height and width. As a software developer working with Visio files, you'll be asked to do this programmatically. The good news is that it is possible, either using the mechanisms for programming with Visio files that Microsoft provides, VSTO, or using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx).
 
-Below topic shows how to use [VSTO](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/) and [Aspose.Diagram](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/) to update shape properties. The code snippets below show how to update shape properties for VSTO and Aspose.Diagram for .NET. Feel free to use the code and apply it to your particular situation.
+Below topic shows how to use [VSTO](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and [Aspose.Diagram](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) to update shape properties. The code snippets below show how to update shape properties for VSTO and Aspose.Diagram for .NET. Feel free to use the code and apply it to your particular situation.
 ### **Updating Shape Properties with VSTO**
 VSTO lets you program with Microsoft Visio files. To update shape properties:
 

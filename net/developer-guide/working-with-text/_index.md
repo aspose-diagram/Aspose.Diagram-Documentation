@@ -12,7 +12,7 @@ The following piece of code adds a text shape in the Visio diagram.
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-InsertTextShape-InsertTextShape.cs" >}}
 ## **Update Visio Shape Text**
-As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing-html/), Aspose.Diagram for .NET lets you work with shapes in different ways. This article looks at how to access and update text in shapes. The Text property, exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, supports the Aspose.Diagram.Text object. The property can be used to retrieve or update a shape's text. The process for updating a shape's text is straightforward:
+As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET lets you work with shapes in different ways. This article looks at how to access and update text in shapes. The Text property, exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, supports the Aspose.Diagram.Text object. The property can be used to retrieve or update a shape's text. The process for updating a shape's text is straightforward:
 
 1. Load a diagram.
 1. Find a particular shape.
@@ -45,7 +45,7 @@ After defining custom style sheets in Microsoft Visio, use the following code in
 #### **Apply Custom Styles Programming Sample**
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-ApplyCustomStyleSheets-ApplyCustomStyleSheets.cs" >}}
 ## **Apply Different Style on the Each Text Value of a Shape**
-As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing-html/), Aspose.Diagram for .NET lets you work with shapes in different ways. This article helps to add multiple text values to a shape and apply different style on each text value.
+As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET lets you work with shapes in different ways. This article helps to add multiple text values to a shape and apply different style on each text value.
 
 {{% alert color="primary" %}} 
 

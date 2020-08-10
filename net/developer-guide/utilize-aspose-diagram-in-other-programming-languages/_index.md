@@ -6,11 +6,11 @@ url: /net/utilize-aspose-diagram-in-other-programming-languages/
 ---
 
 ## **Use Aspose.Diagram for .NET via COM Interop**
-The information in this topic applies to scenarios where developers require to use [Aspose.Diagram for .NET](/diagram/net/home-html/) via COM Interop in any supported language.
+The information in this topic applies to scenarios where developers require to use [Aspose.Diagram for .NET](/diagram/net/home/) via COM Interop in any supported language.
 ### **Working with COM Interop**
 Aspose.Diagram for .NET executes under the control of the .NET Framework and this is called managed code. The code written in all of the languages those runs outside the .NET Framework and it is called unmanaged code. Interaction between unmanaged code and Aspose.Diagram occurs via the .NET facility called COM Interop.
 
-Aspose.Diagram objects are .NET objects, but when used via COM Interop, they appear as COM objects in your programming language. Therefore, it is best to make sure you know how to create and use COM objects in your programming language, before you start using [Aspose.Diagram for .NET](/diagram/net/home-html/).
+Aspose.Diagram objects are .NET objects, but when used via COM Interop, they appear as COM objects in your programming language. Therefore, it is best to make sure you know how to create and use COM objects in your programming language, before you start using [Aspose.Diagram for .NET](/diagram/net/home/).
 
 - In COM world we distinguish COM server and COM client. COM server stored COM classes while COM client asks COM server for classes instances, i.e. COM objects.
 - COM client or simply client application can know about COM class contents something or be totally unaware about its methods and properties. Therefore client application can discover COM class structure on compiling/building or only during execution. Process of "discovery" is known as binding and so we have **early binding** and **late binding**.
@@ -86,7 +86,7 @@ Reducing the number of classes and methods that you need to invoke via COM Inter
 ### **Prerequisites**
 Configure your PHP to work with COM. See <http://www.php.net/manual/en/ref.com.php>. For more information, please check the article named [Use Aspose.Diagram for .NET via COM Interop](/pages/createpage.action?spaceKey=diagramnet&title=Use+Aspose.Diagram+for+.NET+via+COM+Interop&linkCreation=true&fromPageId=18350127).
 ### **Creating an Empty Visio Drawing**
-This is a simple application that shows you how to create an empty Visio drawing using [Aspose.Diagram for .NET](/diagram/net/home-html/) in PHP via COM Interop.
+This is a simple application that shows you how to create an empty Visio drawing using [Aspose.Diagram for .NET](/diagram/net/home/) in PHP via COM Interop.
 
 **PHP**
 

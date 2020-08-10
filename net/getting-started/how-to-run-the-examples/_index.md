@@ -12,7 +12,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. Microsoft office visio
 1. NuGet Package Manager installed in Visual Studio. Make sure that latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <http://docs.nuget.org/ndocs/guides/install-nuget>
 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option **nuget.org** is checked
-1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/diagram/net/installation-html/) and manually add reference to Aspose.Diagram.dll in the example project.
+1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/diagram/net/installation/) and manually add reference to Aspose.Diagram.dll in the example project.
 ## **Download from GitHub**
 All examples of Aspose.Diagram for .NET are hosted on [GitHub](https://github.com/aspose-diagram/Aspose.Diagram-for-.NET).
 

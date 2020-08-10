@@ -32,7 +32,7 @@ We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.asp
 
 {{% /alert %}} 
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/net/working-with-diagrams-html/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page-html/), [masters](http://www.aspose.com/docs/display/diagramnet/Working+with+Masters#WorkingwithMasters-RetrievingMasterInformation), [connectors](/diagram/net/retrieving-connector-information-html/) and [fonts](/diagram/net/retrieving-font-information-html/). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/net/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](http://www.aspose.com/docs/display/diagramnet/Working+with+Masters#WorkingwithMasters-RetrievingMasterInformation), [connectors](/diagram/net/retrieving-connector-information/) and [fonts](/diagram/net/retrieving-font-information/). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 
@@ -127,7 +127,7 @@ The code snippet below reads InheritProps of a shape. 
 
 {{< gist "aspose-com-gists" "9dfca011648b40c82e13a8d894532819" "Examples-CSharp-Working-Shapes-InheritProps-InheritProps.cs" >}}
 ## **Add and Connect Visio Shapes**
-Aspose.Diagram for .NET allows you to add customized shapes and connect them in [diagrams you create](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes-html/).
+Aspose.Diagram for .NET allows you to add customized shapes and connect them in [diagrams you create](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/).
 ### **Adding and Connecting Shapes**
 The code in the samples below show how to:
 

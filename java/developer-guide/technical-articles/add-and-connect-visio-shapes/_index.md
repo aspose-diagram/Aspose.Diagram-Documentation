@@ -7,7 +7,7 @@ url: /java/add-and-connect-visio-shapes/
 
 {{% alert color="primary" %}} 
 
-Aspose.Diagram for Java allows you to add customized shapes and connect them in [diagrams you create](/diagram/java/load-or-create-a-visio-drawing-html/).
+Aspose.Diagram for Java allows you to add customized shapes and connect them in [diagrams you create](/diagram/java/load-or-create-a-visio-drawing/).
 
 {{% /alert %}} 
 ### **Adding and Connecting Shapes**

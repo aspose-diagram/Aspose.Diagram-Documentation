@@ -32,7 +32,7 @@ We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.asp
 
 {{% /alert %}} 
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/java/working-with-diagrams-html/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page-html/), [masters](), [connectors](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Connector+Information&linkCreation=true&fromPageId=18612227) and [fonts](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Font+Information&linkCreation=true&fromPageId=18612227). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](), [connectors](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Connector+Information&linkCreation=true&fromPageId=18612227) and [fonts](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Font+Information&linkCreation=true&fromPageId=18612227). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 

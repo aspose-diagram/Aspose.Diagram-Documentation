@@ -7,4 +7,4 @@ url: /java/working-with-headers-and-footers-in-ruby/
 
 **This section includes the following topics:**
 
-- [Manage Headers and Footers of the Visio Diagrams in Ruby](/diagram/java/manage-headers-and-footers-of-the-visio-diagrams-in-ruby-html/)
+- [Manage Headers and Footers of the Visio Diagrams in Ruby](/diagram/java/manage-headers-and-footers-of-the-visio-diagrams-in-ruby/)

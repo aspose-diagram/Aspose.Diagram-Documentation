@@ -12,7 +12,7 @@ The following piece of code adds a text shape in the Visio diagram.
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Text-InsertTextShape-InsertTextShape.java" >}}
 ## **Update Visio Shape Text**
-As well as [creating diagrams](/diagram/java/load-or-create-a-visio-drawing-html/), Aspose.Diagram for Java lets you work with shapes in different ways. This article looks at how to access and update text in shapes.
+As well as [creating diagrams](/diagram/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java lets you work with shapes in different ways. This article looks at how to access and update text in shapes.
 
 The Text property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the Aspose.Diagram.Text object. The property can be used to retrieve or update a shape's text.
 
@@ -67,7 +67,7 @@ To apply custom styles programmatically:
 #### **Apply Custom Styles Programming Sample**
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Text-ApplyCustomStyleSheets-ApplyCustomStyleSheets.java" >}}
 ## **Apply Different Style on the Each Text Value of a Shape**
-As well as [creating diagrams](/diagram/java/load-or-create-a-visio-drawing-html/), Aspose.Diagram for Java lets you work with shapes in different ways. This article helps to add multiple text values to a shape and apply different style on each text value.
+As well as [creating diagrams](/diagram/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java lets you work with shapes in different ways. This article helps to add multiple text values to a shape and apply different style on each text value.
 
 {{% alert color="primary" %}} 
 

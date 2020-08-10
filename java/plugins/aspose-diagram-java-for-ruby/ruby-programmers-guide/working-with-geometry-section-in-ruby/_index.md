@@ -7,4 +7,4 @@ url: /java/working-with-geometry-section-in-ruby/
 
 **This section includes the following topics:**
 
-- [Edit Connector Geometry Section in the ShapeSheet in Ruby](/diagram/java/edit-connector-geometry-section-in-the-shapesheet-in-ruby-html/)
+- [Edit Connector Geometry Section in the ShapeSheet in Ruby](/diagram/java/edit-connector-geometry-section-in-the-shapesheet-in-ruby/)

@@ -24,7 +24,7 @@ Below is the code for retrieving font information:
 ## **Aspose.Diagram**
 {{% alert color="primary" %}} 
 
-Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from [pages](/pages/createpage.action?spaceKey=diagramnet&title=Retrieving+Page+Information&linkCreation=true&fromPageId=18354903), [stencils](/pages/createpage.action?spaceKey=diagramnet&title=Retrieving+Master+Information&linkCreation=true&fromPageId=18354903), [connectors](/diagram/net/retrieving-connector-information-html/) and also fonts. This article shows how to find out which fonts are used in a diagram.
+Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from [pages](/pages/createpage.action?spaceKey=diagramnet&title=Retrieving+Page+Information&linkCreation=true&fromPageId=18354903), [stencils](/pages/createpage.action?spaceKey=diagramnet&title=Retrieving+Master+Information&linkCreation=true&fromPageId=18354903), [connectors](/diagram/net/retrieving-connector-information/) and also fonts. This article shows how to find out which fonts are used in a diagram.
 
 {{% /alert %}} 
 
