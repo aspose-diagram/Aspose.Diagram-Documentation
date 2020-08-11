@@ -1,7 +1,7 @@
----
+﻿---
 title: Aspose.Diagram for .NET 20.7 Release Notes
 type: docs
-weight: 10
+weight: 15
 url: /net/aspose-diagram-for-net-20-7-release-notes/
 ---
 

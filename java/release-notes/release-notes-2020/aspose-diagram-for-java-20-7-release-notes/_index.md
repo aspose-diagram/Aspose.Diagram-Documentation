@@ -1,7 +1,7 @@
 ---
 title: Aspose.Diagram for Java 20.7 Release Notes
 type: docs
-weight: 10
+weight: 15
 url: /java/aspose-diagram-for-java-20-7-release-notes/
 ---
 
