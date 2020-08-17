@@ -26,13 +26,13 @@ The code snippet below shows how to do each step.
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-AddingNewShape-AddingNewShape.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](), [connectors](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Connector+Information&linkCreation=true&fromPageId=18612227) and [fonts](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Font+Information&linkCreation=true&fromPageId=18612227). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](), connectors and [fonts](https://docs.aspose.com/diagram/java/aspose-diagram-font-operations/). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 
@@ -71,11 +71,11 @@ This example work as follows:
 ### **Copy Programming Sample**
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-CopyShape-CopyShape.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Copy a Visio Shape to another Shape instance**
 The copy method of the Shape class takes a shape instance to clone.
 

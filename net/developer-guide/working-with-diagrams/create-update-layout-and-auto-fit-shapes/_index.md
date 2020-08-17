@@ -6,7 +6,7 @@ url: /net/create-update-layout-and-auto-fit-shapes/
 ---
 
 ## **Creating a Diagram**
-Aspose.Diagram for .NET lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/pages/createpage.action?spaceKey=diagramnet&title=Add+and+Connect+Visio+Shapes&linkCreation=true&fromPageId=18350161) to build up the diagram. Use the default constructor of [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class to create a new diagram.
+Aspose.Diagram for .NET lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) to build up the diagram. Use the default constructor of [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class to create a new diagram.
 ### **Programming Sample**
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Diagrams-CreateDiagram-CreateDiagram.cs" >}}
 ## **Layout Shapes in Flowchart Style**
@@ -18,7 +18,7 @@ The Layout method, exposed by the [Diagram](http://www.aspose.com/api/net/diagra
 
 The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and [compact tree layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/).
 
-**The source diagram.** 
+**The source diagram.**
 
 ![todo:image_alt_text](create-update-layout-and-auto-fit-shapes_1.png)
 
@@ -78,7 +78,7 @@ Aspose.Diagram for .NET allows developers to remove all macros from the Visio di
 ### **Remove All Macros Programming Sample**
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Diagrams-RemoveMacrosFromVisio-RemoveMacrosFromVisio.cs" >}}
 ## **Creating a New Diagram with VSTO**
-[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) lets developers to create and work with Microsoft Office Visio diagrams and incorporate features in their software applications. There are other ways of working with Visio files, most commonly, Microsoft Automation. Unfortunately, that has some limitations. Aspose.Diagram is powerful and fast and works independently without Microsoft Office installation.
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) lets developers to create and work with Microsoft Office Visio diagrams and incorporate features in their software applications. There are other ways of working with Visio files, most commonly, Microsoft Automation. Unfortunately, that has some limitations. Aspose.Diagram is powerful and fast and works independently without Microsoft Office installation.
 
 This migration article shows how to use first [VSTO](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and then [Aspose.Diagram for .NET](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) to create a new diagram and add some shapes to it. You'll notice that the Aspose.Diagram code is shorter than VSTO code. Feel free to use the code as a base for your own development and enhance it to meet your needs. VSTO lets you program with Microsoft Visio files. To create a new diagram:
 
@@ -88,12 +88,12 @@ This migration article shows how to use first [VSTO](/diagram/net/create-2c-upda
 1. Add shapes from Visio masters (stencils).
 1. Save the file as VDX.
 ### **Create New Diagram with VSTO Programming Sample**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 using Visio = Microsoft.Office.Interop.Visio;
 Imports Visio = Microsoft.Office.Interop.Visio
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 **Example:**
@@ -108,18 +108,18 @@ To create a new diagram:
 1. Add shapes from Visio masters (stencils).
 1. Save the file as VDX.
 ### **New Diagram with Aspose.Diagram for .NET Programming Sample**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 using Aspose.Diagram;
 Imports Aspose.Diagram
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Example:
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Knowledge-Base-CreatingDiagramWithAspose-CreatingDiagramWithAspose.cs" >}}
 ## **Update Shape Properties**
-When working with Microsoft Visio diagrams, users can update shape attributes including text, style, position, height and width. As a software developer working with Visio files, you'll be asked to do this programmatically. The good news is that it is possible, either using the mechanisms for programming with Visio files that Microsoft provides, VSTO, or using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx).
+When working with Microsoft Visio diagrams, users can update shape attributes including text, style, position, height and width. As a software developer working with Visio files, you'll be asked to do this programmatically. The good news is that it is possible, either using the mechanisms for programming with Visio files that Microsoft provides, VSTO, or using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net).
 
 Below topic shows how to use [VSTO](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and [Aspose.Diagram](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) to update shape properties. The code snippets below show how to update shape properties for VSTO and Aspose.Diagram for .NET. Feel free to use the code and apply it to your particular situation.
 ### **Updating Shape Properties with VSTO**
@@ -132,12 +132,12 @@ VSTO lets you program with Microsoft Visio files. To update shape properties:
 1. Update the shape properties (text, text style, position and size).
 1. Save the file as VDX.
 #### **Updating Shape Properties with VSTO Programming Sample**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 using Visio = Microsoft.Office.Interop.Visio;
 Imports Visio = Microsoft.Office.Interop.Visio
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **Example:**
 
@@ -152,12 +152,12 @@ To update shape properties with Aspose.Diagram for .NET:
 1. Update the shape properties (text, text style, position and size).
 1. Save the file as VDX.
 #### **Updating Shape Properties with Aspose.Diagram for .NET Programming Sample**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 using Aspose.Diagram;
 Imports Aspose.Diagram
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **Example:**
 

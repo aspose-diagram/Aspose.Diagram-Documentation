@@ -6,7 +6,7 @@ url: /net/working-with-protection/
 ---
 
 ## **Set Protection of the Visio Diagram**
-Protecting diagrams allow users to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams. Developers can achieve this using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx).
+Protecting diagrams allow users to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams. Developers can achieve this using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net).
 ### **Edit the Visio Diagram Protection**
 The ProtectBkgnds, ProtectMasters, ProtectShapes and ProtectStyles properties, exposed by the [DocumentSettings](http://www.aspose.com/api/net/diagram/aspose.diagram/documentsettings) class support the Aspose.Diagram.BoolValue object. These properties can be used to protect and unprotect Microsoft Office Visio diagrams. In Microsoft Visio you protect documents in this way:
 
@@ -20,7 +20,7 @@ Use the code below in a .NET application to perform the same tasks like lock and
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Protection-VisioDiagramProtection-VisioDiagramProtection.cs" >}}
 ## **Set Protection of the Visio Shape**
-Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx).
+Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net).
 ### **Edit the Visio Shape Protection**
 **LockAspect**, **LockBegin**, **LockCalcWH**, **LockCrop**, **LockCustProp**, **LockDelete**, **LockEnd**, **LockFormat**, **LockFromGroupFormat**, **LockGroup**, **LockHeight**, **LockMoveX**, **LockMoveY**, **LockRotate**, **LockSelect**, **LockTextEdit**, **LockThemeColors**, **LockThemeEffects**, **LockVtxEdit** and **LockWidth** properties exposed by [**Protection**](http://www.aspose.com/api/net/diagram/aspose.diagram/Protection) class support the **Aspose.Diagram.BoolValue** object. These properties can be used to protect and unprotect shapes.
 

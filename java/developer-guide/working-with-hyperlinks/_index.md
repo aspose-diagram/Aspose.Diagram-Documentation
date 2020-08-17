@@ -19,7 +19,7 @@ To identify properties in Microsoft Visio:
 1. Set existing properties
 1. Press **OK** button
 
-**A shape's hyperlink data, as seen in Microsoft Visio** 
+**A shape's hyperlink data, as seen in Microsoft Visio**
 
 ![todo:image_alt_text](working-with-hyperlinks_1.png)
 
@@ -29,7 +29,7 @@ The code snippets below adds shape's hyperlink data.
 ## **Get Hyperlinks Data of the Visio Shapes**
 It is possible to get a shape's hyperlink data in a similar way that you [reading Visio shape data]().
 
-Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data]() using [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx)
+Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data]() using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java)
 
 In multipage Visio drawings, hyperlinks can move you from one page to another. You also can link your drawing to a web page or a file on your system.
 
@@ -38,14 +38,14 @@ These properties are exposed by the [Shape](http://www.aspose.com/api/java/diagr
 To identify properties in Microsoft Visio:
 
 1. In a diagram, right-click a shape.
-1. Select **Hyperlink.** 
+1. Select **Hyperlink.**
    Any existing properties are listed in the dialog.
 
-**A shape's hyperlink data, as seen in Microsoft Visio** 
+**A shape's hyperlink data, as seen in Microsoft Visio**
 
 ![todo:image_alt_text](working-with-hyperlinks_2.png)
 
-**A console window showing the shape data output** 
+**A console window showing the shape data output**
 
 ![todo:image_alt_text](working-with-hyperlinks_3.png)
 

@@ -70,7 +70,7 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML(dataDir + "out.pdf", hs);
 
 {{< /highlight >}}
 ## **Verify Whether Two Visio Shapes are Connected or Glued**
-Aspose.Diagram for .NET API allows developers to verify that the two Visio shapes are glued or connected. Previously, we have seen that how we can connect or glue two shapes in these help topics: [Add and Connect Visio Shapes](/pages/createpage.action?spaceKey=diagramnet&title=Add+and+Connect+Visio+Shapes&linkCreation=true&fromPageId=18350221) and [Glue Shapes Inside the Container](/diagram/net/working-with-shapes-gluing/).
+Aspose.Diagram for .NET API allows developers to verify that the two Visio shapes are glued or connected. Previously, we have seen that how we can connect or glue two shapes in these help topics: [Add and Connect Visio Shapes](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) and [Glue Shapes Inside the Container](/diagram/net/working-with-shapes-gluing/).
 ### **Verification of the Connected or Glued Shapes**
 The [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class offers IsGlued and IsConnected properties to determine whether two shapes are glued or connected.
 #### **Verification of Connected or Glued Shapes Programming Sample**

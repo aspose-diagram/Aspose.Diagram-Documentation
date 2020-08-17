@@ -17,7 +17,7 @@ To identify properties in Microsoft Office Visio:
 1. Set existing properties
 1. Press **OK** button
 
-**A shape's hyperlink data, as seen in Microsoft Visio** 
+**A shape's hyperlink data, as seen in Microsoft Visio**
 
 ![todo:image_alt_text](working-with-hyperlinks_1.png)
 ### **Add Hyperlink Programming Sample**
@@ -25,7 +25,7 @@ The code snippet below adds shape's hyperlink data.
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.cs" >}}
 ## **Get Hyperlinks Data of the Visio Shapes**
-Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data](/pages/createpage.action?spaceKey=diagramnet&title=Reading+Visio+Shape+Data&linkCreation=true&fromPageId=18350139) using [Aspose.Diagram for .NET API](http://www.aspose.com/.net/diagram-component.aspx)
+Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net).
 
 In the multi page Visio drawing, hyperlinks can navigate you from one shape to many other types of the links. [HyperlinkCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/hyperlinkcollection) exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class allows developers to retrieve hyperlinks.
 
@@ -35,11 +35,11 @@ To identify properties in Microsoft Office Visio:
 1. Select **Hyperlink.**
 
 Any existing properties are listed in the dialog.
-**A shape's hyperlink data, as seen in Microsoft Visio** 
+**A shape's hyperlink data, as seen in Microsoft Visio**
 
 ![todo:image_alt_text](working-with-hyperlinks_1.png)
 
-**A console window showing the shape data output** 
+**A console window showing the shape data output**
 
 ![todo:image_alt_text](working-with-hyperlinks_3.png)
 ### **Get Hyperlinks Programming Sample**

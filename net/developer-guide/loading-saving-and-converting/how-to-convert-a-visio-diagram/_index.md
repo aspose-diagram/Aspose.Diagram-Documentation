@@ -6,15 +6,15 @@ url: /net/how-to-convert-a-visio-diagram/
 ---
 
 ## **Export to PDF**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Diagram for .NET directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to PDF, Aspose.Diagram for .NET populates **Application** field with value 'Aspose.Diagram' and **PDF Producer** field with value, e.g 'Aspose.Diagram 17.9'.
 
 Please note that you cannot instruct Aspose.Diagram for .NET API to change or remove this information from output Documents.
 
-{{% /alert %}} 
+{{% /alert %}}
 
-This article explains how to export a Microsoft Visio diagram to PDF using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
+This article explains how to export a Microsoft Visio diagram to PDF using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API.
 
 Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format.
 
@@ -134,7 +134,7 @@ The code samples show how to export Microsoft Visio Drawing to XML using C#.
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-ExportToXML-ExportToXML.cs" >}}
 ## **Export Diagrams to Image File Formats**
-This article explains how to export a Microsoft Visio diagram to an image using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API. Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format.
+This article explains how to export a Microsoft Visio diagram to an image using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API. Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format.
 
 To export a diagram to an image:
 
@@ -147,7 +147,7 @@ It is also possible to save a particular page to image, instead of the entire do
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-ExportPageToImage-ExportPageToImage.cs" >}}
 ## **Export to XPS**
-This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
+This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API.
 Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.
 
 The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
@@ -166,7 +166,7 @@ The code samples show how to export Microsoft Visio Drawing to XPS using C#.
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-ExportToXPS-ExportToXPS.cs" >}}
 ## **Export Visio to HTML**
-This article explains how to export a Microsoft Visio diagram to HTML using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
+This article explains how to export a Microsoft Visio diagram to HTML using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API.
 
 Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format. Developers can save resultant HTML in the local storage or directly to a stream instance.
 
@@ -242,7 +242,7 @@ The SWF file created by these code snippets include an SWF viewer. Exclude the S
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Diagrams-ExportToSWFWithoutViewer-ExportToSWFWithoutViewer.cs" >}}
 ## **Export a Diagram to XAML**
-This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
+This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API.
 
 Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.
 
@@ -260,7 +260,7 @@ Using Aspose.Diagram API, developers can select a group of shapes to convert a V
 To export a Visio drawing with selective shapes:
 
 1. Create an instance of the Diagram class.
-1. Create an instance of any SaveOption class to specify settings as narrated here: [Specify Visio Save Options](http://www.aspose.com/docs/display/diagramnet/Save+a+Visio+Drawing#SaveaVisioDrawing-SpecifyingVisioSaveOptions)
+1. Create an instance of any SaveOption class to specify settings as narrated here: [Specify Visio Save Options](https://docs.aspose.com/diagram/net/save-a-visio-drawing/#specifying-visio-save-options)
 1. Call Save method of the Diagram class object and pass save option class object as parameter.
 ### **Convert Visio Drawing with Selective Shapes Programming Sample**
 The code sample shows how to export a drawing with selective Visio shapes.

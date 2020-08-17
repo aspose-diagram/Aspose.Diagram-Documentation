@@ -6,13 +6,13 @@ url: /java/how-to-convert-a-visio-diagram/
 ---
 
 ## **Exporting to PDF**
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Diagram for Java directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to PDF, Aspose.Diagram for Java populates **Application** field with value 'Aspose.Diagram' and **PDF Producer** field with a value, e.g 'Aspose.Diagram 17.9'.
 
 Please note that you cannot instruct Aspose.Diagram for Java API to change or remove this information from output Documents.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This article explains how to export a Microsoft Visio diagram to PDF using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API.
 
@@ -31,7 +31,7 @@ To export VSD diagram to PDF:
 
 Below is an image of the output PDF file.
 
-**The output PDF file.** 
+**The output PDF file.**
 
 ![todo:image_alt_text](how-to-convert-a-visio-diagram_2.png)
 ### **Exporting to PDF Programming Sample**
@@ -47,7 +47,7 @@ The [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Di
 
 The image below shows the diagram that is exported in the code snippets below. The exported file is shown before each code snippet.
 
-**A Microsoft Visio diagram about to be exported.** 
+**A Microsoft Visio diagram about to be exported.**
 
 ![todo:image_alt_text](http://i.imgur.com/XWajazh.png)
 ### **Exporting VSD to VDX**
@@ -58,7 +58,7 @@ To export a VSD diagram to VDX:
 1. Create an instance of the Diagram class.
 1. Call the Diagram class' Save method to write the Visio drawing file to VDX.
 
-**The exported VDX file.** 
+**The exported VDX file.**
 
 ![todo:image_alt_text](http://i.imgur.com/OJ1jpgh.png)
 ### **Exporting from VSD to VSX**
@@ -71,7 +71,7 @@ To export a VSD diagram to VSX:
 
 The image below shows the output VSX file. Note that the stencils used in the diagram, not the diagram itself, are exported.
 
-**The exported VSX file.** 
+**The exported VSX file.**
 
 ![todo:image_alt_text](http://i.imgur.com/gkZrxCN.png)
 ### **Export VSD to VTX**
@@ -84,7 +84,7 @@ To export a VSD diagram to VTX:
 
 The image below shows the output VTX file.
 
-**The output VTX file.** 
+**The output VTX file.**
 
 ![todo:image_alt_text](http://i.imgur.com/E6pUvGD.jpg)
 ### **Exporting to XML Programming Sample**
@@ -93,7 +93,7 @@ The image below shows the output VTX file.
 This article explains how to export a Microsoft Visio diagram to an image using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API.
 
 Use the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
-**The source file. Note that the Arrow and Triangle labels are in bold.** 
+**The source file. Note that the Arrow and Triangle labels are in bold.**
 
 ![todo:image_alt_text](http://i.imgur.com/WOV36ek.png)
 
@@ -102,7 +102,7 @@ To export a diagram to an image:
 - Create an instance of the Diagram class.
 - Call the Diagram class' Save method and set the image format you want to export to.The output image file looks like the original file.
 
-**The output PNG file.** 
+**The output PNG file.**
 
 ![todo:image_alt_text](http://i.imgur.com/WOV36ek.png)
 ### **Exporting to Image File Programming Sample**
@@ -117,7 +117,7 @@ Use the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/clas
 
 The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
-**The source document.** 
+**The source document.**
 
 ![todo:image_alt_text](http://i.imgur.com/P3gaA34.png)
 
@@ -128,7 +128,7 @@ To export VSD diagram to PDF:
 
 The image below shows the output XPS file.
 
-**The output XPS.** 
+**The output XPS.**
 
 ![todo:image_alt_text](http://i.imgur.com/1ESRxSy.png)
 ### **Exporting to XPS Programming Sample**
@@ -143,7 +143,7 @@ Use the [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagra
 
 The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSDX, VSTM, VSTM, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 
-**Input diagram.** 
+**Input diagram.**
 
 ![todo:image_alt_text](http://i.imgur.com/YX4BNNq.png)
 
@@ -154,7 +154,7 @@ In order to export VSD diagram to HTML, perform the following steps:
 
 The image below shows the output HTML file.
 
-**Output HTML diagram.** 
+**Output HTML diagram.**
 
 ![todo:image_alt_text](http://i.imgur.com/syavUqI.png)
 ### **Save resultant HTML in the local storage**
@@ -194,16 +194,16 @@ To export a VSD diagram to XAML:
 The code sample show how to export a diagram to XAML using Java.
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
+
 ## **Convert Visio Drawing with Selective Shapes**
 Using Aspose.Diagram API, developers can select a group of shapes to convert a Visio drawing into any other supported format. RenderingSaveOptions class offers a Shapes member to maintain the group of shapes. Each save option class is the extended form of RenderingSaveOptions class.
 
 To export a Visio drawing with selective shapes:
 
 1. Create an instance of the Diagram class.
-1. Create an instance of any SaveOption class to specify settings as narrated here: [Specify Visio Save Options](http://www.aspose.com/docs/display/diagramjava/Save+a+Visio+Drawing+to+PDF%2C+HTML+and+other+formats#SaveaVisioDrawingtoPDF%2CHTMLandotherformats-SpecifyingVisioSaveOptions)
+1. Create an instance of any SaveOption class to specify settings as narrated here: [Specify Visio Save Options](https://docs.aspose.com/diagram/java/save-a-visio-drawing-to-pdf-html-and-other-formats/#specifying-visio-save-options)
 1. Call save method of the Diagram class object and pass save option class object as parameter.
 ### **Convert Visio Drawing with Selective Shapes Programming Sample**
 The code sample shows how to export a drawing with selective Visio shapes.
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ConvertVisioWithSelectiveShapes.Java" >}}
-

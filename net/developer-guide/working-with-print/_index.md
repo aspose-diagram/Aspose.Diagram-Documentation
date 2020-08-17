@@ -57,13 +57,13 @@ The code for the StartJob, CopyJob, WaitForJob and CheckJobStatus methods as wel
 
 The XpsPrint API also provides additional functionality, such as monitoring the job progress, but our XpsPrintHelper is a very simple wrapper and does not expose this functionality. You could add this yourself if you want to.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When you run the project, it prints a sample document on the specified printer. To make results visible, the console window opens. The program displays the success message or the text of an exception if one was thrown.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Printing a Diagram**
-[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) provides four overloads methods for printing of the diagrams. These methods are flexible enough to print the diagram to the default printer or to any of the available printer with customized settings. You only need to select the appropriate print method according to the requirement.
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) provides four overloads methods for printing of the diagrams. These methods are flexible enough to print the diagram to the default printer or to any of the available printer with customized settings. You only need to select the appropriate print method according to the requirement.
 ### **Printing to default printer**
 Printing of the diagram to the default printer is quite simple in Aspose.Diagram for .NET. Perform the following steps in order to print the diagram to default printer:
 

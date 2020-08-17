@@ -6,13 +6,13 @@ url: /net/working-with-comments/
 ---
 
 ## **Add a Page-Level Comment in the Visio**
-[Aspose.Diagram for .NET](https://www.aspose.com/products/diagram/net) API allows developers to place comments anywhere in the Visio drawing page.
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API allows developers to place comments anywhere in the Visio drawing page.
 ### **Add Comment**
 The AddComment method, exposed by the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class, allows developers to add comments to a drawing page. It takes the X and Y coordinates along with a comment string.
 #### **Add Comment Programming Sample**
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Comments-AddPageLevelCommentInVisio-AddPageLevelCommentInVisio.cs" >}}
 ## **Edit a Page-Level Comment in the Visio Diagram**
-Microsoft Visio users add comments to the entire page that are presented by an icon in the upper-left corner of the page. Developers can [add page level comments in the Visio](/pages/createpage.action?spaceKey=diagramnet&title=Add+a+Page-Level+Comment+in+the+Visio&linkCreation=true&fromPageId=18350768). [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API additionally supports to alter the page level comment in the Visio.
+Microsoft Visio users add comments to the entire page that are presented by an icon in the upper-left corner of the page. Developers can [add page level comments in the Visio](/pages/createpage.action?spaceKey=diagramnet&title=Add+a+Page-Level+Comment+in+the+Visio&linkCreation=true&fromPageId=18350768). [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API additionally supports to alter the page level comment in the Visio.
 ### **Edit Comment**
 The Comment property, exposed by the [Annotation](http://www.aspose.com/api/net/diagram/aspose.diagram/annotation) class, allows developers to edit comments in the Visio drawing page.
 #### **Edit Comment Programming Sample**

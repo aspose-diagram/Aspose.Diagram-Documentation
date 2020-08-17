@@ -26,13 +26,13 @@ The code snippet below shows how to do each step.
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-AddingNewShape-AddingNewShape.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/net/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](http://www.aspose.com/docs/display/diagramnet/Working+with+Masters#WorkingwithMasters-RetrievingMasterInformation), [connectors](/diagram/net/retrieving-connector-information/) and [fonts](/diagram/net/retrieving-font-information/). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/net/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](https://docs.aspose.com/diagram/net/working-with-masters/), [connectors](/diagram/net/retrieving-connector-information/) and [fonts](/diagram/net/retrieving-font-information/). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 
@@ -70,11 +70,11 @@ This example work as follows:
 ### **Copy Programming Sample**
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-CopyShape-CopyShape.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Copy a Visio Shape to another Shape instance**
 The Copy method of the Shape class takes a shape instance to clone.
 
