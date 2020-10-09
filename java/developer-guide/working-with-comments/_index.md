@@ -14,7 +14,7 @@ Microsoft Visio users add comments to the entire page that are presented by an i
 #### **Add Comment Programming Sample**
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Comments-AddPageLevelCommentInVisio-AddPageLevelCommentInVisio.java" >}}
 ## **Edit a Page-Level Comment in the Visio Diagram**
-` `[Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API has support of altering the page-level comment on the Visio drawing page which are presented by an icon in the upper-left corner of the page. 
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API has support of altering the page-level comment on the Visio drawing page which are presented by an icon in the upper-left corner of the page. 
 ### **Edit Comment**
 The Comment property, exposed by the Annotation class, allows developers to edit comments in the Visio drawing page.
 #### **Edit Comment Programming Sample**
