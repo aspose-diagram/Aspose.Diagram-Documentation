@@ -16,5 +16,3 @@ This page contains release notes information for Aspose.Diagram for Java 20.11.
 | :- | :- | :- |
 |DIAGRAMJAVA-50703|Provide an ability to insert Ole object such as Words, Cells, Slides, etc. to the Diagram into the single shape with both object data and preview image inside it.|Enhancement|
 
-
-```
