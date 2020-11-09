@@ -3,6 +3,8 @@ title: Product Overview
 type: docs
 weight: 10
 url: /net/product-overview/
+aliases:
+- /diargam/net/product-overview/
 ---
 
 {{% alert color="primary" %}} 
