@@ -6,6 +6,7 @@ url: /net/
 is_root: true
 aliases:
 - /net/home/
+- /diargam/net/
 ---
 
 {{% alert color="primary" %}} 
