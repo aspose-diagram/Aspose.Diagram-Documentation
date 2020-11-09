@@ -1,9 +1,11 @@
-﻿---
+---
 title: Aspose.Diagram for .NET
 type: docs
 weight: 10
 url: /net/
 is_root: true
+aliases:
+- /net/home/
 ---
 
 {{% alert color="primary" %}} 
