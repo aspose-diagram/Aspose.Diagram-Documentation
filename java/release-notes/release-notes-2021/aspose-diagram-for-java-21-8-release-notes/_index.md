@@ -1,7 +1,7 @@
 ---
 title: Aspose.Diagram for Java 21.8 Release Notes
 type: docs
-weight: 6
+weight: 5
 url: /java/aspose-diagram-for-java-21-8-release-notes/
 ---
 
