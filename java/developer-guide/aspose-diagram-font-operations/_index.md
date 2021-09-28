@@ -14,7 +14,7 @@ Aspose.Diagram lets developers to set the font directories for rendering in Visi
 #### **Where Aspose.Diagram Looks for TrueType Fonts on Windows**
 Aspose.Diagram searches for fonts in the **Windows\Fonts** folder. This default setting works most of the time so only specify your own fonts folders if you really need to.
 #### **How to Explicitly Specify a Font Folder**
-Aspose.Diagram APIs has exposed setFontDirs method for the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class to specify the fonts folders as described below.
+Aspose.Diagram APIs has exposed setFontDirs method for the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class to specify the fonts folders as described below.
 
 1. The Diagram.setFontDirs method takes a string array as a parameter, so developer may specify many font directories using this approach.
 

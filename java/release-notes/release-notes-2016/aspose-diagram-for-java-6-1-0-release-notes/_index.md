@@ -23,7 +23,7 @@ The following is a list of changes in this version of Aspose.Diagram for Java.
 |DIAGRAMJava-50298 |VSD to VDX export - the arrows of diagram are misplaced |Bug |
 |DIAGRAMJava-50299 |VSD to VDX export - the text of the shapes goes outside the boundary |Bug |
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

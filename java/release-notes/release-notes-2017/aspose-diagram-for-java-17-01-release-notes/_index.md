@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Diagram for Java 17.1.0](http://ma
 |DIAGRAMJAVA-50456|Partial rendering of the Visio shapes on converting Visio pages to SVGs.|Bug|
 
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds GradientFill, GradientStopCollection and GradientStop Classes**
 These classes help to edit gradient fill formatting values of the Visio shape.
 ### **Adds Shapes property in RenderingSaveOptions class**

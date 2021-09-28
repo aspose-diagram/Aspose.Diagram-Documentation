@@ -8,7 +8,7 @@ url: /java/retrieve-get-copy-and-insert-a-page/
 ## **Retrieving Page Information**
 In Microsoft Visio, pages are either foreground or background pages. To get page information, for example page ID and page name, first establish whether a page is a background or foreground page.
 
-The [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class supports a collection of Aspose.Diagram.Page objects. This property can be used to retrieve page information.
+The [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class supports a collection of Aspose.Diagram.Page objects. This property can be used to retrieve page information.
 
 Use the Page.Background property to determine whether a page is a foreground or background page .
 
@@ -24,7 +24,7 @@ The following piece of code retrieves the pages information from a diagram.
 ## **Get the Visio Page from a Diagram**
 Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram has features that helps them do this.
 
-Aspose.Diagram for Java offers the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of Aspose.Diagram.Page objects. The PageCollection class exposes GetPage method that can be called to get Page object.
+Aspose.Diagram for Java offers the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of Aspose.Diagram.Page objects. The PageCollection class exposes GetPage method that can be called to get Page object.
 ### **Getting a Visio Page Object by ID**
 This example work as follows:
 
@@ -46,7 +46,7 @@ The following example shows how to get a page object by name from Visio drawing.
 ## **Copy a Visio Page into Another Diagram**
 Aspose.Diagram for Java API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
 
-Aspose.Diagram for Java API has the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of Aspose.Diagram.Page objects. The PageCollection class exposes Add method that can be called to add another Page object.
+Aspose.Diagram for Java API has the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of Aspose.Diagram.Page objects. The PageCollection class exposes Add method that can be called to add another Page object.
 
 This example work as follows:
 

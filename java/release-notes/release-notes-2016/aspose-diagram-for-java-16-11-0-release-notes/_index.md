@@ -32,7 +32,7 @@ This page contains release notes for [Aspose.Diagram for Java 16.11.0](http://ma
 |DIAGRAMJAVA-50432|The text items are not aligned on saving a Visio in PDF.|Bug|
 |DIAGRAMJAVA-50433|The width of connector lines is changed on saving a Visio in PDF.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds addText Method in the Page class**
 It allows to add text with PinX and PinY values.
 ### **Adds getActiveXControl Method in the Shape class**

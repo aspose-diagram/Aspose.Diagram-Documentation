@@ -32,7 +32,7 @@ This page contains release notes for [Aspose.Diagram for .NET 17.10](https://www
 |DIAGRAMNET-51371|VSDX to VSDX - additional text items are added|Bug|
 |DIAGRAMNET-51373|Open and save routine of a VSDX drawing is missing an Asian text font|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds SameAsPdfConversionArea in ImageSaveOptions**
 It specifies whether to save area in the same way as PDF.
 

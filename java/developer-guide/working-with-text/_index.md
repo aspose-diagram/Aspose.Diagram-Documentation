@@ -6,7 +6,7 @@ url: /java/working-with-text/
 ---
 
 ## **Insert a Text Shape in the Visio Page**
-Aspose.Diagram API lets developers to insert a text shape anywhere in the Visio page. To achieve this, the addText method of the [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Page) class takes PinX, PinY, width, height and text parameters.
+Aspose.Diagram API lets developers to insert a text shape anywhere in the Visio page. To achieve this, the addText method of the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class takes PinX, PinY, width, height and text parameters.
 ### **Insert a Text Shape Programming Sample**
 The following piece of code adds a text shape in the Visio diagram.
 
@@ -14,7 +14,7 @@ The following piece of code adds a text shape in the Visio diagram.
 ## **Update Visio Shape Text**
 As well as [creating diagrams](/diagram/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java lets you work with shapes in different ways. This article looks at how to access and update text in shapes.
 
-The Text property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the Aspose.Diagram.Text object. The property can be used to retrieve or update a shape's text.
+The Text property, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.Text object. The property can be used to retrieve or update a shape's text.
 
 **Input diagram** 
 
@@ -37,7 +37,7 @@ The following piece of code updates a shape's text. Shapes are identified by the
 ## **Apply Built-in or Custom Stylesheet to a Visio Shape**
 Microsoft Visio style sheets store formatting information that can be applied to shapes for a consistent look and feel. Aspose.Diagram for Java allows you to apply style sheets from inside an application.
 
-The TextStyle, FillStyle and LineStyle properties exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class support the [Aspose.Diagram.StyleSheet](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/stylesheet) object. The property can be used to retrieve style information and apply custom text, line and fill styles to a diagram.
+The TextStyle, FillStyle and LineStyle properties exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class support the [Aspose.Diagram.StyleSheet](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/stylesheet) object. The property can be used to retrieve style information and apply custom text, line and fill styles to a diagram.
 
 **Input diagram** 
 
@@ -87,7 +87,7 @@ The following piece of code add a shape's text and different styles.
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Text-ApplyFontOnText-ApplyFontOnText.java" >}}
 ## **Find and Replace the Text of a Shape**
-The [Txt](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) Class allows you to edit the shape's text. The Replace method, exposed by the [Txt](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) class, support changing the text of a shape.
+The [Txt](https://apireference.aspose.com/diagram/java/com.aspose.diagram/txt) Class allows you to edit the shape's text. The Replace method, exposed by the [Txt](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) class, support changing the text of a shape.
 The code examples in this article find and replace the shape's text on the page.
 
 **Input diagram** 
@@ -112,7 +112,7 @@ The code snippets below show how to modify the shape's text. The code iterate th
 ## **Extract Plain Text from the Visio Diagram Page**
 Aspose.Diagram API allows developers to extract plain text from the Visio diagram page. They can also iterate through the Visio diagram pages to cover the whole Visio diagram text.
 
-Microsoft Office Visio adds the text to the shapes. The [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class contains an element called Text, which contains the characters of the text and special elements (cp, pp, tp, and fld) that mark the end of one run and the beginning of the next.
+Microsoft Office Visio adds the text to the shapes. The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class contains an element called Text, which contains the characters of the text and special elements (cp, pp, tp, and fld) that mark the end of one run and the beginning of the next.
 ### **Extract Plain Text Programming Sample**
 The following piece of code iterates through the shapes of the Visio Page and filter plain text without formatting information.
 

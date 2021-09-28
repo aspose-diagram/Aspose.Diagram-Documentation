@@ -24,7 +24,7 @@ This page contains release notes for [Aspose.Diagram for .NET 18.8](https://www.
 |DIAGRAMNET-51501|Shapes are overlapping in VDX file|Bug|
 |DIAGRAMNET-51505|Dots missing in generated PDF|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Adds Reviewer**
 {{< highlight java >}}
 

@@ -42,7 +42,7 @@ This page contains release notes for [Aspose.Diagram for .NET 18.10](https://www
 |DIAGRAMNET-51559|Text Resizing issue while converting VSDM to SVG|Bug|
 |DIAGRAMNET-51560|Connector Lines become thin after converting to SVG|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Added InheritLine in Shape**
 Contains the  line formatting values for the shape inherit by the parent style and the master shape.
 

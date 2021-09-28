@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Diagram for .NET 17.7](https://www.
 |DIAGRAMNET-51293|VSDX to SVG - an additional mark appears along with shapes.|Bug|
 |DIAGRAMNET-51294|VSDM to SVG - an additional mark appears along with shapes.|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **AddComment Method is added in the Page class**
 An overloaded AddComment method, exposed by the Page class takes a Shape class instance and text string of the comment.
 

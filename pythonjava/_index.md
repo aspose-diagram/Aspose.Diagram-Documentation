@@ -23,5 +23,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Python via Java Product Page](https://products.aspose.com/diagram/python-java)
 - [Download Aspose.Diagram for Python via Java](https://downloads.aspose.com/diagram/python)
 - [Aspose.Diagram for Python via Java API Reference Guide](https://apireference.aspose.com/diagram/python)
-- [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram)
+- [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

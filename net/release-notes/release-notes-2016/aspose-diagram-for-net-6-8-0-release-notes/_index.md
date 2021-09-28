@@ -34,7 +34,7 @@ This page contains release notes for [Aspose.Diagram for .NET 6.8.0](https://www
 |DIAGRAMNET-51006|The bold text formatting is not being preserved on converting a VSDX to PDF.|Bug|
 |DIAGRAMNET-51011|Returns incorrect connections, while retrieving from a VSD.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds AddActiveXControl Method in the Page Class**
 It creates an ActiveX Control in the Visio diagram.
 ### **Adds IsColorChecked Property in the Layer Class**

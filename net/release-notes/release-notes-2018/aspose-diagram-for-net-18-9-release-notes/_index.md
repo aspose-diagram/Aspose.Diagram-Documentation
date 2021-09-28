@@ -27,7 +27,7 @@ This page contains release notes for [Aspose.Diagram for .NET 18.9](https://www.
 |DIAGRAMNET-51511|Additional arrowheads in PNG conversion|Bug|
 |DIAGRAMNET-51512|Additional arrowheads showing in SVG conversion|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Added Combine method in Diagram Class**
 Combines one Diagram object with another Diagram object.
 

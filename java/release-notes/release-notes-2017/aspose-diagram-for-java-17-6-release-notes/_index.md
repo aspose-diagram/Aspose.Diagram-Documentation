@@ -24,7 +24,7 @@ This page contains release notes for [Aspose.Diagram for Java 17.6](http://maven
 |DIAGRAMJAVA-50494|Output VSDX - the connecting lines are not connecting in the mid of process shapes|Bug|
 |DIAGRAMJAVA-50499|VSDX to PNG - a white horizontal line appears at the bottom of shape|Bug|
 ## **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds refreshData Method in the Shape class**
 The Shape.refreshData method allows developers to refresh the data after changing the position of shape, shape's text, Geoms and connections.
 

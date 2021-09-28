@@ -28,7 +28,7 @@ This page contains release notes for [Aspose.Diagram for .NET 19.4](https://www
 |DIAGRAMNET-51631|VSDX to PDF - Background color of shapes is not present in the output|Bug|
 |` `DIAGRAMNET-51632|VSD to SVG - Unable to cast object of type ‘ ’ to type ‘ ’ Exception occurred|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds enum RemoveHiddenInfoItem**
 Specifies the remove hidden info for the diagram.
 ### **Adds RemoveHiddenInfoItem in Diagram**

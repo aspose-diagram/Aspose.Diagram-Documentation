@@ -18,6 +18,6 @@ Using Aspose.Diagram API, developers can define how a shape responds to specific
 
 {{% /alert %}} 
 ## **Setting Event Cells**
-[Event](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
+[Event](https://apireference.aspose.com/diagram/java/com.aspose.diagram/event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-eventsection-SettingEventCells-SettingEventCells.java" >}}

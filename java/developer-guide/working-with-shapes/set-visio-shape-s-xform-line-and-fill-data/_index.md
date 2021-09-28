@@ -6,7 +6,7 @@ url: /java/set-visio-shape-s-xform-line-and-fill-data/
 ---
 
 ## **Setting XForm Data**
-The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped. The [XForm](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/xform) property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the Aspose.Diagram.XForm object. The XForm property can be used to retrieve or update a shape's XForm data. The code examples in this article change the PinX (X-coordinate) and PinY (Y-coordinate) XForm values to move the shapes on the page.
+The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped. The [XForm](https://apireference.aspose.com/diagram/java/com.aspose.diagram/xform) property, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.XForm object. The XForm property can be used to retrieve or update a shape's XForm data. The code examples in this article change the PinX (X-coordinate) and PinY (Y-coordinate) XForm values to move the shapes on the page.
 
 **Input diagram** 
 
@@ -38,7 +38,7 @@ Microsoft Visio lets users format lines in various ways. Aspose.Diagram for Java
 - Beginning and ending arrow sizes: set the arrow sizes.
 - Cap: the rounding of the line ends.
 ### **Change the line color, weight, dash type, transparency, rounding, arrow type and arrow size of a shape's border**
-The [Line](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/line) property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the Aspose.Diagram.Line object. This property can be used to retrieve or update a shape's line data.
+The [Line](https://apireference.aspose.com/diagram/java/com.aspose.diagram/line) property, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.Line object. This property can be used to retrieve or update a shape's line data.
 #### **Line Data Programming Sample**
 The following piece of code updates the line data of shape.
 
@@ -46,14 +46,14 @@ The following piece of code updates the line data of shape.
 ## **Set Visio Shape's Fill Data**
 Shapes can be formatted in several ways. This topic describes how to specify a shape's fill.
 
-Microsoft Office Visio lets users format fills in various ways. The [Fill](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/fill) class of the Aspose.Diagram for Java API supports setting:
+Microsoft Office Visio lets users format fills in various ways. The [Fill](https://apireference.aspose.com/diagram/java/com.aspose.diagram/fill) class of the Aspose.Diagram for Java API supports setting:
 
 - Background and foreground colors.
 - Transparency.
 - Fill patterns.
 - Shadows.
 ### **Setting Fill Values**
-The Fill property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, supports the [Aspose.Diagram.Fill](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/fill) object. The Fill property can be used to retrieve or update a shape's fill data.
+The Fill property, exposed by the Shape class, supports the Aspose.Diagram.Fill object. The Fill property can be used to retrieve or update a shape's fill data.
 
 |<p>**The input diagram** </p><p>![todo:image_alt_text](http://i.imgur.com/OrhEecb.png)</p>|<p>**The diagram after changing the fill color** </p><p>![todo:image_alt_text](http://i.imgur.com/HO0wmZ8.png)</p>|
 | :- | :- |
@@ -62,7 +62,7 @@ The following code snippet updates a shape's fill data. The code looks for a sha
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetFillData-SetFillData.java" >}}
 ### **Retrieve Inherited Fill Data of a Visio Shape**
-The Visio shapes can inherit the parent style and the master shape. Developers may get or set the inherit fill data of a Visio shape. The InheritFill property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, contains the fill formatting values for the shape inherit by the parent style and the master shape.
+The Visio shapes can inherit the parent style and the master shape. Developers may get or set the inherit fill data of a Visio shape. The InheritFill property, exposed by the Shape class, contains the fill formatting values for the shape inherit by the parent style and the master shape.
 #### **Retrieve Inherited Fill Data Programming Sample**
 The following code snippet retrieves the inherited fill data of the shape. Please check this sample code:
 

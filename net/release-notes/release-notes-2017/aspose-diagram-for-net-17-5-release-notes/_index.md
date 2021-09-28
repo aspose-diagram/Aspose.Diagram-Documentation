@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Diagram for .NET 17.5](https://www.
 |DIAGRAMNET-51244|Duplicate page xml error on copying pages from two VSDM drawings|Bug|
 |DIAGRAMNET-51247|Non-print area is also included when converting a VSD to PDF|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds ThreeDFormat Member in Shape Class**
 ThreeDFormat class allows developers to retrieve or set 3D rotation properties of a shape.
 

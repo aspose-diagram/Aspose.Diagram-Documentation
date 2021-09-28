@@ -26,7 +26,7 @@ This page contains release notes for [Aspose.Diagram for .NET 18.3](https://www.
 |DIAGRAMNET-51432|Open and save routine of VSDX does not preserve font cell|Bug|
 |DIAGRAMNET-51433|Cannot retrieve all shape names from a VSDX drawing|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds MoveTo member in Page class**
 The MoveTo member takes the target page index as a parameter to move the position of page in the Visio drawing.
 

@@ -17,7 +17,7 @@ This page contains release notes for [Aspose.Diagram for Java 6.5.0](http://mave
 |DIAGRAMJAVA-50219|Can't retrieve connections from VSS stencil file.|Bug|
 |DIAGRAMJAVA-50324|The position of text items is changed on converting a VSDX to SVG.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

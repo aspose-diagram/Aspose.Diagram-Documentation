@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Diagram for .NET 16.12.0](https://w
 |DIAGRAMNET-51114|Missing an embedded excel in converting a VSD to PDF. -II|Bug|
 |DIAGRAMNET-51117|The text items in the bullets are not aligned well on converting a VSD to PDF.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds AddText Method in the Page class**
 It allows to add text with PinX and PinY values.
 ### **Adds GradientFill, GradientStopCollection and GradientStop Classes**

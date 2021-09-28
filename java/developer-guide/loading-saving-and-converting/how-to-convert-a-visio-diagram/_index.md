@@ -92,7 +92,7 @@ The image below shows the output VTX file.
 ## **Exporting Diagrams to Image File Formats**
 This article explains how to export a Microsoft Visio diagram to an image using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API.
 
-Use the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
+Use the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 **The source file. Note that the Arrow and Triangle labels are in bold.**
 
 ![todo:image_alt_text](http://i.imgur.com/WOV36ek.png)
@@ -113,7 +113,7 @@ It is also possible to save a particular page to image, instead of the entire do
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportPageToImage-ExportPageToImage.java" >}}
 ## **Exporting to XPS**
 This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API.
-Use the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.
+Use the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.
 
 The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 

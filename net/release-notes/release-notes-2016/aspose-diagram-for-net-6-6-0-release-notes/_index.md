@@ -76,7 +76,7 @@ This page contains release notes for [Aspose.Diagram for .NET 6.6.0](https://www
 |DIAGRAMNET-50875|Shapes are misplaced on converting a VSD to PDF.|Bug|
 |DIAGRAMNET-50876|Size of shapes is changed on converting a VSD to PDF.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Adds VSDM, VSSM and VSTM formats in LoadFileFormat class**
 This version adds support of reading macro-enabled Visio formats.
 #### **Adds VSDM, VSSM and VSTM formats in SaveFileFormat class**

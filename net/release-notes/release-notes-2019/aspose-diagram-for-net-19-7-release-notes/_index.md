@@ -28,7 +28,7 @@ This page contains release notes for [Aspose.Diagram for .NET 19.7](https://www
 |DIAGRAMNET-51659|The background goes missing while removing unused themes|Bug|
 |DIAGRAMNET-51660|Shapes get missing after removing the unused theme|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds SplitMultiPages in PdfSaveOptions**
 {{< highlight java >}}
 

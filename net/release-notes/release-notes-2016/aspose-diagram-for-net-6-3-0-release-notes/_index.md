@@ -28,7 +28,7 @@ url: /net/aspose-diagram-for-net-6-3-0-release-notes/
 |DIAGRAMNET-50748 |VSD to PDF export - the text items are misplaced. |Bug |
 |DIAGRAMNET-50763 |VSD to VDX export is throwing the Master element error. |Bug |
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Add FileFormatUtil and FileFormatInfo Classes**
 These classes give programmatic access to detect the Visio file type.
 #### **Adds DetectFileFormat Method in FileFormatUtil Class**

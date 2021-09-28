@@ -23,7 +23,7 @@ This page contains release notes for [Aspose.Diagram for .NET 19.1](https://www
 |DIAGRAMNET-51343|Output VSDX - the shape size is not being changed|Bug|
 |DIAGRAMNET-51579|Read lock present after Save() method is called|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds DrawPolyline in Page**
 The process of drawing polyline.
 

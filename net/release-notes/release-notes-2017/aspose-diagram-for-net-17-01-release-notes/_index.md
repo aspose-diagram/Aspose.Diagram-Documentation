@@ -33,7 +33,7 @@ This page contains release notes for [Aspose.Diagram for .NET 17.01](https://ww
 |DIAGRAMNET-51130|Set custom property does not work.|Bug|
 |DIAGRAMNET-51134|Duplicate hyperlinks are being added while converting a VSD to PDF.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds Shapes property in RenderingSaveOptions class**
 The Shapes property holds a collection of shapes to save into the appropriate output format. Its default value is 0.
 ### **Usage Examples**

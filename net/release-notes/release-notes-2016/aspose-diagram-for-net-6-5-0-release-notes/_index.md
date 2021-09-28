@@ -45,7 +45,7 @@ This page contains release notes for [Aspose.Diagram for .NET 6.5.0](https://www
 |DIAGRAMNET-50787|The position of text items is changed on converting a VSD to PDF.|Bug|
 |DIAGRAMNET-50788|The label text of buttons is missing on converting a VSD to PDF.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

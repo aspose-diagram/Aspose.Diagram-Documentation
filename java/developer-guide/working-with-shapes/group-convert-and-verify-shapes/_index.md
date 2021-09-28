@@ -8,7 +8,7 @@ url: /java/group-convert-and-verify-shapes/
 ## **Group Multiple Shapes Together in the Visio Drawing**
 Aspose.Diagram API allows developers in grouping shapes together to move them all at once. Each shape in a group maintains a unique identity and has its own set of properties. When we change the formatting of a group of shapes, it assigns the new property to each shape.
 ### **How to Group Shapes**
-The Group method exposed by the [ShapeCollection](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shapecollection) class can be used to group shapes together.
+The Group method exposed by the ShapeCollection class can be used to group shapes together.
 
 The code below shows how to:
 
@@ -72,13 +72,13 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 
 {{% alert color="primary" %}} 
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}} 
 ## **Verify Whether Two Visio Shapes are Connected or Glued**
 Aspose.Diagram for Java API allows developers to verify that the two Visio shapes are glued or connected. Previously, we have seen that how we can connect or glue two shapes in these help topics: [Add and Connect Visio Shapes](/diagram/java/add-and-connect-visio-shapes/) and [Glue Shapes Inside the Container](/diagram/java/working-with-shapes-gluing/).
 ### **Verification of the Connected or Glued Shapes**
-The [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class offers IsGlued and IsConnected properties to determine whether two shapes are glued or connected.
+The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class offers IsGlued and IsConnected properties to determine whether two shapes are glued or connected.
 #### **Verification of Connected or Glued Shapes Programming Sample**
 The following piece of code verifies whether two shapes are connected or glued.
 
@@ -86,7 +86,7 @@ The following piece of code verifies whether two shapes are connected or glued.
 ## **Verify Whether the Visio Shape is in a Group of Shapes**
 Aspose.Diagram for Java API allows developers to verify that the Visio shape is in a group of shapes or not.
 ### **Verification of Shape in the Group of Shapes**
-The [Shape](https://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class offers IsInGroup properties to determine whether the Visio shape is in a group shape.
+The Shape class offers IsInGroup properties to determine whether the Visio shape is in a group shape.
 #### **Verification of Shape in the Group of Shapes Programming Sample**
 The following piece of code verifies whether the shape is in a group shape.
 
@@ -94,6 +94,6 @@ The following piece of code verifies whether the shape is in a group shape.
 
 {{% alert color="primary" %}} 
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}}
