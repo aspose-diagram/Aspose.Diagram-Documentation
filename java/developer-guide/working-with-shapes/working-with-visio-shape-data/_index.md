@@ -14,7 +14,7 @@ Use Aspose.Diagram for Java's API to create new shapes and then add these shapes
 
 To add a new shape:
 
-1. **Find the page** - Each Visio diagram contains a collection of pages. Developers may retrieve the page by page ID or Name and store the required page in the [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Page) class object.
+1. **Find the page** - Each Visio diagram contains a collection of pages. Developers may retrieve the page by page ID or Name and store the required page in the [Page](https://apireference.aspose.com/diagram//java/com.aspose.diagram/page) class object.
 1. **Add the require Master of a Shape** - Each Visio diagram contains a collection of masters. Developers may add a Master (by ID or Name) from the existing stencil file (by direct path or file stream).
 1. **Add shape in the Visio diagram** - Developers can place a new shape in the Visio diagram by page index (starting from 0), master name, PinX, PinY, height (optional) and width (optional).
 1. **Set shape properties** - AddShape method of the Diagram class returns the shape ID. Developers can retrieve shape from a Visio diagram by using this ID, and then set its properties, e.g. color, position, alignment and text.
@@ -28,15 +28,15 @@ The code snippet below shows how to do each step.
 
 {{% alert color="primary" %}}
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}}
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page/), [masters](), connectors and [fonts](https://docs.aspose.com/diagram/java/aspose-diagram-font-operations/). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [masters](/diagram/java/working-with-masters/), connectors and [fonts](/diagram/java/aspose-diagram-font-operations/). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 
-A [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) is an object in a Visio drawing. The Shapes property, exposed by the Page class, supports a collection of Aspose.Diagram.Shape objects. The Shapes property can be used to retrieve information about a shape.
+A [Shape](https://apireference.aspose.com/diagram//java/com.aspose.diagram/shape) is an object in a Visio drawing. The Shapes property, exposed by the Page class, supports a collection of Aspose.Diagram.Shape objects. The Shapes property can be used to retrieve information about a shape.
 
 In the console window below, for example, you can see information output for a diagram that contained four shapes: two terminators, a process and a dynamic connector. Each has a unique ID as well as the name of the master (stencil) shape.
 
@@ -73,7 +73,7 @@ This example work as follows:
 
 {{% alert color="primary" %}}
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}}
 ## **Copy a Visio Shape to another Shape instance**
@@ -99,7 +99,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ## **Reading Visio Shape Data**
-The Props collection exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) class supports the [Aspose.Diagram.Prop](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/prop) object. The property can be used to read a shape's data (custom properties).
+The Props collection exposed by the Shape class supports the [Aspose.Diagram.Prop](https://apireference.aspose.com/diagram//java/com.aspose.diagram/prop) object. The property can be used to read a shape's data (custom properties).
 ### **Read All Shape Properties**
 To identify custom properties in Microsoft Visio:
 
@@ -230,6 +230,6 @@ diagram.save("C:\\temp\\Drawing1_out.vsdx", SaveFileFormat.VSDX);
 ## **Retrieve the Parent Shape of a Sub-Shape**
 Aspose.Diagram for Java allows developers to retrieve the parent shape of a sub-shape.
 ### **Get the Parent Shape**
-The [Shape](https://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class offers getParentShape property to retrieve the parent shape.
+The Shape class offers getParentShape property to retrieve the parent shape.
 #### **Get the Parent Shape Programming Sample**
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveTheParentShape-RetrieveTheParentShape.java" >}}
