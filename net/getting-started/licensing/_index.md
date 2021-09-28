@@ -19,11 +19,11 @@ The evaluation version provides all the features except the following:
 
 {{% alert color="primary" %}} 
 
-If you want to try Aspose.Diagram out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) for more information.
+If you want to try Aspose.Diagram out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) for more information.
 
 {{% /alert %}} 
 ## **Applying a License**
-Once you are happy with your [evaluation]() of Aspose.Diagram for .NET, buy a license at the Aspose website: [Purchase Portal](http://www.aspose.com/purchase/default.aspx). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](http://www.aspose.com/corporate/contact/default.aspx) and they'll be happy to help you.
+Once you are happy with your [evaluation](https://downloads.aspose.com/diagram/net) of Aspose.Diagram for .NET, buy a license at the Aspose website: [Purchase Portal](https://purchase.aspose.com/buy). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](https://about.aspose.com/contact) and they'll be happy to help you.
 
 Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. We provide free and unlimited technical support to both licensed and evaluation users.
 
@@ -39,7 +39,7 @@ Follow these simple rules:
 - Do not call SetLicense from within the Page_Load methods since it means the license will be loaded every time a web page is loaded.
 - If you are developing a class library, you call SetLicense from a static constructor of the class that uses Aspose.Diagram. The static constructor executes before an instance of your class is created making sure Aspose.Diagram license is properly set.
 ### **Apply License using File or Stream Object**
-Use the [License.SetLicense](https://apireference.aspose.com/net/diagram/aspose.diagram/license/) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Diagram.dll and specify the filename, without a path, as shown below.
+Use the [License.SetLicense](https://apireference.aspose.com/diagram/net/aspose.diagram/license) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Diagram.dll and specify the filename, without a path, as shown below.
 #### **Loading a License from File**
 This code snippet initializes a license stored in a file or in an embedded resource.
 
@@ -49,8 +49,8 @@ These code snippets initialize the license from stream.
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-ApplyLicense-ApplyLicenseUsingFileStream-ApplyLicenseUsingFileStream.cs" >}}
 ## **Apply Metered License**
-Aspose.Diagram for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](http://www.aspose.com/corporate/purchase/policies/Licensing-Faqs/metered-faq.aspx) section.
+Aspose.Diagram for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://apireference.aspose.com/net/diagram/aspose.diagram/metered/) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [Metered](https://apireference.aspose.com/diagram/net/aspose.diagram/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
 {{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-ApplyLicense-PublicAndPrivateKeys-PublicAndPrivateKeys.cs" >}}
