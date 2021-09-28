@@ -23,7 +23,7 @@ url: /java/aspose-diagram-for-java-6-3-0-release-notes/
 |DIAGRAMJava-50310 |Open and save routine of VSDX changes text font and boldness. |Bug |
 |DIAGRAMJava-50318 |VSD to VDX export is throwing the Master element error. |Bug |
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Add FileFormatUtil and FileFormatInfo Classes.**
 These classes give programmatic access to detect the Visio file type.
 #### **Adds detectFileFormat Method in FileFormatUtil Class.**

@@ -54,7 +54,7 @@ After performing above steps, Aspose.Diagram for Java dependency will finally be
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.
 
-If you need help with Aspose.Diagram for Java, [**visit the Aspose.Forums**](https://forum.aspose.com/). Post your question in the Aspose.Diagram Product Family forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Diagram for Java support team.
+If you need help with Aspose.Diagram for Java, [**visit the Aspose.Forums**](https://forum.aspose.com/c/diagram/17). Post your question in the Aspose.Diagram Product Family forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Diagram for Java support team.
 
 When expecting a reply in the forums, please allow for time zone differences.
 

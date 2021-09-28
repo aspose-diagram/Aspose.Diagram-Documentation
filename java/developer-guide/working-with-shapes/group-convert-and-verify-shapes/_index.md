@@ -72,7 +72,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 
 {{% alert color="primary" %}} 
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}} 
 ## **Verify Whether Two Visio Shapes are Connected or Glued**
@@ -94,6 +94,6 @@ The following piece of code verifies whether the shape is in a group shape.
 
 {{% alert color="primary" %}} 
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-java/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}}

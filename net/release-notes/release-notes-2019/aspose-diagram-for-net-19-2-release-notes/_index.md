@@ -35,7 +35,7 @@ This page contains release notes for [Aspose.Diagram for .NET 19.2](https://www
 |DIAGRAMNET-51605|Update API references and add details about Shape.SetAngle() method|Bug|
 |DIAGRAMNET-51610|VSDX to SVG - text is not rendering in the correct font|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Add InheritProps in Shape**
 Contains the props for the shape inherit by the master shape.
 

@@ -17,7 +17,7 @@ url: /java/aspose-diagram-for-java-6-2-0-release-notes/
 |DIAGRAMJava-50295 |VDX to VSDX export - the Null Reference Exception occurred. |Exception  |
 |DIAGRAMJava-50296 |Zip exception occurred when saving diagram in the VSDX. |Exception  |
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

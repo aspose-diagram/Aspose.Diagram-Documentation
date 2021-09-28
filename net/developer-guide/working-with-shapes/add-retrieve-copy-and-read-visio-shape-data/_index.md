@@ -28,7 +28,7 @@ The code snippet below shows how to do each step.
 
 {{% alert color="primary" %}}
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}}
 ## **Retrieving Shape Information**
@@ -72,7 +72,7 @@ This example work as follows:
 
 {{% alert color="primary" %}}
 
-We welcome your queries and suggestions at [Aspose.Diagram Forum](http://www.aspose.com/community/forums/aspose.diagram-for-.net/489/showforum.aspx). We'll reply promptly.
+We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.aspose.com/c/diagram/17). We'll reply promptly.
 
 {{% /alert %}}
 ## **Copy a Visio Shape to another Shape instance**

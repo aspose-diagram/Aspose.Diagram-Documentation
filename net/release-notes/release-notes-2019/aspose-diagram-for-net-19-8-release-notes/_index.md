@@ -34,7 +34,7 @@ This page contains release notes for [Aspose.Diagram for .NET 19.8](https://www
 |DIAGRAMNET-51678|Visio to HTML - Date Format incorrect when saving as HTML|Bug|
 |DIAGRAMNET-51679|Visio to PDF - Several formatting errors in PDF|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds DrawSpline in Page**
 The following code snippet shows how to draw spline:
 

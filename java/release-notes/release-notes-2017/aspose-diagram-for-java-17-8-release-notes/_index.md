@@ -30,7 +30,7 @@ This page contains release notes for [Aspose.Diagram for Java 17.8](http://maven
 |DIAGRAMJAVA-50531|Output VSDX - the layout of shapes is not according to the width and height in shapesheet.|Bug|
 |DIAGRAMJAVA-50533|Output VSDX - incorrect layout of the connecting line.|Bug|
 ## **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds Quality member in SVGSaveOptions class**
 It gets or sets a value determining the quality of the generated images.
 

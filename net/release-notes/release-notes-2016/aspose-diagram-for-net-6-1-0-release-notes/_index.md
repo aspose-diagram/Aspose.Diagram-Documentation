@@ -37,7 +37,7 @@ This release introduces the features, enhancements and bug fixes as detailed bel
 |DIAGRAMNET-50692 |VSD to VDX export - the text of the shapes goes outside the boundary. |Bug |
 |DIAGRAMNET-50693 |VSD to VDX export, ConnectCollection returns incorrect count of the connects and values. |Bug |
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

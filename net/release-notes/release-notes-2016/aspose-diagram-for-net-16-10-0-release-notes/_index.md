@@ -42,7 +42,7 @@ This page contains release notes for [Aspose.Diagram for .NET 16.10.0](https://w
 |DIAGRAMNET-51070|An argument error occurred while adding the ActiveX button.|Bug|
 |DIAGRAMNET-51079|Improper change in size of a Visio shape on opening and saving in VSDM.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

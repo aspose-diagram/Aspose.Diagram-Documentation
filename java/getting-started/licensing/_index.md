@@ -82,6 +82,6 @@ if (License.isLicensed()) {
 ## **Apply Metered License**
 Aspose.Diagram for Java API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [Metered](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
 {{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-License-PublicAndPrivateKeys-PublicAndPrivateKeys.java" >}}

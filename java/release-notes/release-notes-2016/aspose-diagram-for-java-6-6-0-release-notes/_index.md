@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Diagram for Java 6.6.0](http://mave
 |DIAGRAMJAVA-50329|Add support to import the macro enabled stencil (.VSSM).|New Feature|
 |DIAGRAMJAVA-50326|Diagram exception occurred while loading a VSDX file.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 #### **Adds VSDM, VSSM and VSTM formats in LoadFileFormat class**
 This version adds support of reading macro-enabled Visio formats.
 #### **Adds VSDM, VSSM and VSTM formats in SaveFileFormat class**

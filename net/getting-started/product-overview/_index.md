@@ -34,7 +34,7 @@ Due to the reasons specified above, Aspose .NET components cannot be used on ser
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation.
 
-If you need help with Aspose.Diagram for .NET, [**visit the Aspose.Forums**](https://forum.aspose.com/). Post your question in the Aspose.Diagram for .NET forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Diagram for .NET support team.
+If you need help with Aspose.Diagram for .NET, [**visit the Aspose.Forums**](https://forum.aspose.com/c/diagram/17). Post your question in the Aspose.Diagram for .NET forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Diagram for .NET support team.
 
 When expecting a reply in the forums, please allow for time zone differences.
 
@@ -52,6 +52,6 @@ This table lists important Aspose.Diagram for .NET technical resources.
 |[Aspose.Diagram home page](https://products.aspose.com/diagram/net)|Product home page.|
 |[Aspose.Diagram blog](https://blog.aspose.com/category/aspose-products/aspose-diagram-product-family/)|Check this often for information about new releases and useful tips about Aspose.Diagram.|
 |[Aspose.Diagram for .NET download](https://www.nuget.org/packages/Aspose.Diagram/)|Download the latest version of Aspose.Diagram from here. We release often.|
-|[Aspose.Diagram for .NET support forum](https://forum.aspose.com/)|Post your questions and issues here for a speedy resolution.|
+|[Aspose.Diagram for .NET support forum](https://forum.aspose.com/c/diagram/17)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.Diagram for .NET product documentation](/diagram/net/home/)|Full online documentation that includes this documentation as well as Aspose.Diagram API Reference.|
 

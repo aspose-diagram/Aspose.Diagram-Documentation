@@ -44,7 +44,7 @@ This page contains release notes for [Aspose.Diagram for Java 16.10.0](http://ma
 |DIAGRAMJAVA-50423|Output PDF - Can't modify the text of shape on changing Data1, Data2, and Data3 properties.|Bug|
 |DIAGRAMJAVA-50424|Output PDF - Can't modify the text of shape from another shape text.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 
 {{% alert color="primary" %}} 
 

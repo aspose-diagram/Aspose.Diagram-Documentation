@@ -17,4 +17,4 @@ We are pleased to announce the first public release of Aspose.Diagram for Node.j
 |DIAGRAMNODEJSJAVA-14|Export Visio files to raster images, fixed-layout and HTML formats|` `New Feature |
 |DIAGRAMNODEJSJAVA-15|Print Visio diagrams with high fidelity|` `New Feature |
 |DIAGRAMNODEJSJAVA-16|Protecting diagrams allow you to lock backgrounds, masters (stencils), shapes and styles|` `New Feature |
-From this onwards, we will keep adding new features and enhancements to enrich the API functionality. If you have got any queries or inquiries, feel free to write to us on Aspose.Diagram [forum](https://forum.aspose.com/c/diagram). We'll be glad to assist you further.
+From this onwards, we will keep adding new features and enhancements to enrich the API functionality. If you have got any queries or inquiries, feel free to write to us on Aspose.Diagram [forum](https://forum.aspose.com/c/diagram/17). We'll be glad to assist you further.

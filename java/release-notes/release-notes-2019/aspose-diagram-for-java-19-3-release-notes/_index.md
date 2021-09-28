@@ -21,7 +21,7 @@ This page contains release notes for Aspose.Diagram for Java 19.3
 |DIAGRAMJAVA-50464|The shape has rendered incorrectly while converting VSDX to PNG|Bug|
 |DIAGRAMJAVA-50652|VISIO to PDF - Output PDF shows error in Adobe Reader|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds GetDefaultFontDir in Diagram**
 Get the Default Fonts folder path
 

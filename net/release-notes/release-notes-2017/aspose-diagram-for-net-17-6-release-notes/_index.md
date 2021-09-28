@@ -32,7 +32,7 @@ This page contains release notes for [Aspose.Diagram for .NET 17.6](https://www.
 |DIAGRAMNET-51268|Retrieves incorrect transparency value of an image from VSDM drawing|Bug|
 |DIAGRAMNET-51269|Add virtualization protection|Bug|
 ## **Public API and Backwards Incompatible Changes**
-The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram).
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise them in the [Aspose.Diagram support forum](https://forum.aspose.com/c/diagram/17).
 ### **Adds RefreshData Member in the Shape Class**
 The RefreshData method of the Shape class instance refreshes shape's data, including XForm, TextXForm, Connection and Geom, after changing the shape's text or others.
 

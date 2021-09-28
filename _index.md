@@ -26,7 +26,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for .NET Product Page](https://products.aspose.com/diagram/net)
 - [Install Aspose.Diagram for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Diagram/)
 - [Aspose.Diagram for .NET API Reference Guide](https://apireference.aspose.com/net/diagram)
-- [Aspose.Diagram for .NET Free Support Forum](https://forum.aspose.com/c/diagram)
+- [Aspose.Diagram for .NET Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}} 
@@ -52,7 +52,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Install Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/display/diagramjava/Installation)
 - [Aspose.Diagram for Java API Reference Guide](https://apireference.aspose.com/java/diagram)
 - [Download Examples at GitHub Repository](https://github.com/aspose-diagram/Aspose.Diagram-for-Java)
-- [Aspose.Diagram for Java Free Support Forum](https://forum.aspose.com/c/diagram)
+- [Aspose.Diagram for Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 
@@ -75,7 +75,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Node.js via Java Product Page](https://products.aspose.com/diagram/nodejs-java)
 - [Download Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/diagram/nodejs)
 - [Aspose.Diagram for Node.js via Java API Reference Guide](https://apireference.aspose.com/nodejs/diagram)
-- [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram)
+- [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}} 
@@ -96,5 +96,5 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Python via Java Product Page](https://products.aspose.com/diagram/python-java)
 - [Download Aspose.Diagram for Python via Java](https://downloads.aspose.com/diagram/python)
 - [Aspose.Diagram for Python via Java API Reference Guide](https://apireference.aspose.com/python/diagram)
-- [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram)
+- [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
