@@ -126,7 +126,7 @@ The code snippet below reads a shape property by name (custom property).
 ## **Use Connection indexes to connect shapes**
 Aspose.Diagram for Java API already allows developers to add new connecting points on the shape, and developers can now connect shapes using connection indexes.
 ### **Use Connection indexes to connect shapes**
-The connectShapesViaConnectorIndex member exposed by the [Page](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Page) class can be used to connect shapes using connection indexes. The following code shows how to connect shapes:
+The connectShapesViaConnectorIndex member exposed by the Page class can be used to connect shapes using connection indexes. The following code shows how to connect shapes:
 
 1. Initialize a new drawing.
 1. Place four rectangle shapes
