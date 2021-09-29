@@ -22,7 +22,7 @@ The code below shows how to:
 #### **Group Shapes Programming Sample**
 Use the following code in your .NET application to group shapes together using Aspose.Diagram for .NET API.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-GroupShapes-GroupShapes.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-GroupShapes-GroupShapes.cs" >}}
 ## **Convert a Visio Shape to Other File Formats**
 Aspose.Diagram for .NET API allows developers to convert a single Visio shape to any other supported file format. In this article, we remove all other Visio shapes from the page and customize page setting according to the source Shape size. 
 ### **Converting a Particular Visio Shape**
@@ -38,7 +38,7 @@ This example code work as follows:
 1. Set the page size.
 1. Save the Visio page in any supported file format.
 #### **Convert Shape Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -76,7 +76,7 @@ The [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class of
 #### **Verification of Connected or Glued Shapes Programming Sample**
 The following piece of code verifies whether two shapes are connected or glued.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-VerifyConnectedOrGluedShapes-VerifyConnectedOrGluedShapes.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-VerifyConnectedOrGluedShapes-VerifyConnectedOrGluedShapes.cs" >}}
 ## **Verify Whether the Visio Shape is in a Group of Shapes**
 Aspose.Diagram for .NET API allows developers to verify that the Visio shape is in a group of shapes or not.
 ### **Verification of Shape in the Group of Shapes**
@@ -84,4 +84,4 @@ The [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class 
 #### **Verification of Shape in the Group of Shapes Programming Sample**
 The following piece of code verifies whether the shape is in a group shape.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-VerifyShapeIsInGroup-VerifyShapeIsInGroup.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-VerifyShapeIsInGroup-VerifyShapeIsInGroup.cs" >}}

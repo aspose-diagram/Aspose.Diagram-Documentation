@@ -18,7 +18,7 @@ The code below shows how to:
 #### **Get Connectors Glued Programming Sample**
 Use the following code in your .NET application to find all the connectors glued to a shape using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-Working-with-Shapes-Gluing-GetGluedConnectors-GetGluedConnectors.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Shapes-Gluing-GetGluedConnectors-GetGluedConnectors.cs" >}}
 ## **Glue Visio Shapes Together with Connection Point**
 Aspose.Diagram for .NET allows developers glue shapes together through the connection points.
 ### **Glue Shapes**
@@ -34,7 +34,7 @@ The code below shows how to:
 #### **Glue Visio Shapes Programming Sample**
 Use the following code in your .NET application to glue shapes through the connection points:
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-Working-with-Shapes-Gluing-GlueVisioShapes-GlueVisioShapes.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Shapes-Gluing-GlueVisioShapes-GlueVisioShapes.cs" >}}
 ## **Glue Shapes Inside the Container**
 Aspose.Diagram for .NET enables developers to glue group shapes inside a container.
 ### **Glue Group Shape**
@@ -50,4 +50,4 @@ The code below shows how to:
 #### **Glue Shapes Inside Programming Sample**
 Use the following code in your .NET application to glue group shape inside a container:
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-Working-with-Shapes-Gluing-GlueContainerShape-GlueContainerShape.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Shapes-Gluing-GlueContainerShape-GlueContainerShape.cs" >}}

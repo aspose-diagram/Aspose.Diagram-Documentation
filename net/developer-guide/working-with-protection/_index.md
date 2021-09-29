@@ -18,7 +18,7 @@ The ProtectBkgnds, ProtectMasters, ProtectShapes and ProtectStyles properties, e
 #### **Edit the Diagram Protection Programming Sample**
 Use the code below in a .NET application to perform the same tasks like lock and unlock different elements of the Visio diagram using Aspose.Diagram for .NET API.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Protection-VisioDiagramProtection-VisioDiagramProtection.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-VisioDiagramProtection-VisioDiagramProtection.cs" >}}
 ## **Set Protection of the Visio Shape**
 Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net).
 ### **Edit the Visio Shape Protection**
@@ -34,4 +34,4 @@ In Microsoft Office Visio, user may perform following actions to protect any sha
 ### **Edit the Shape Protection Programming Sample**
 Use the following code in your .NET application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Protection-VisioShapeProtection-VisioShapeProtection.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-VisioShapeProtection-VisioShapeProtection.cs" >}}

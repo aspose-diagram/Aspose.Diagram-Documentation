@@ -12,7 +12,7 @@ Aspose.Diagram for .NET lets you read and create Microsoft Visio diagrams from w
 ### **Create Visio Drawing Programming Sample**
 The code below shows to create a new Microsoft Visio drawing. Please note that the blank drawing contains a single empty page.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-CreateNewVisio-CreateNewVisio.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-CreateNewVisio-CreateNewVisio.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -29,4 +29,4 @@ The supported readable file formats are as follows:
 
 Constructors of the diagram class also offer an optional parameter that defines LoadFileFormat or LoadOptions. It is the pre load information which developers can pass to the Aspose.Diagram API. We recommend passing the realistic information to get an ideal performance.
 #### **Reading Diagram Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-ReadVisioDiagram-ReadVisioDiagram.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ReadVisioDiagram-ReadVisioDiagram.cs" >}}

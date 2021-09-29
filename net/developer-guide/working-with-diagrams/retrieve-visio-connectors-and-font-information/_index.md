@@ -12,7 +12,7 @@ The [Connect](http://www.aspose.com/api/net/diagram/aspose.diagram/connect) obje
 ### **Programming Sample**
 The following piece of code retrieves the information for the connectors in a diagram.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.cs" >}}
 ## **Retrieving Font Information**
 Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from [pages](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [stencils](https://docs.aspose.com/diagram/net/working-with-masters/), [connectors](/diagram/net/retrieving-connector-information/) and also fonts. This article shows how to find out which fonts are used in a diagram.
 
@@ -20,11 +20,11 @@ The [Font](http://www.aspose.com/api/net/diagram/aspose.diagram/font) object rep
 ### **Retrieving Font Programming Sample**
 The following piece of code retrieves font information from the Visio diagram.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Diagrams-RetrieveFontInfo-RetrieveFontInfo.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveFontInfo-RetrieveFontInfo.cs" >}}
 ### **Getting Default Font Directory**
 Aspose.Diagram for .NET API also allows getting default font directory path using GetDefaultFontDir() method of Diagram Class. The following piece of code retrieves default font directory from the Visio diagram.
 
-{{< gist "aspose-com-gists" "9dfca011648b40c82e13a8d894532819" "Examples-CSharp-Working-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.cs" >}}
 ### **Getting Unused Fonts**
 {{% alert color="primary" %}}
 
@@ -34,4 +34,4 @@ This method is supported by version 19.6 or greater.
 
 Aspose.Diagram for .NET API also allows getting unused fonts using GetUnusedStyles() method of Diagram Class. The following piece of code retrieves unused fonts from the Visio diagram.
 
-{{< gist "aspose-com-gists" "9dfca011648b40c82e13a8d894532819" "Examples-CSharp-Working-Diagrams-GetUnusedFonts-1.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-GetUnusedFonts-1.cs" >}}

@@ -27,7 +27,7 @@ Setting the fonts folder using any of the above methods does not ensure that the
 #### **Programming Sample**
 The code example below demonstrates how to set Aspose.Diagram to look in multiple folders for TrueType fonts when rendering or embedding fonts.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
 ### **Receive Notification of Missing Fonts and Font Substitution during Rendering**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Notification of Missing Fonts and Font Substitution Programming Sample**

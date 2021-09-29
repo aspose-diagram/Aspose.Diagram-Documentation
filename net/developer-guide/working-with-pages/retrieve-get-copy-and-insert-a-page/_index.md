@@ -14,7 +14,7 @@ Use the Page.Background property to determine whether a page is a foreground or 
 ### **Retrieve Page Information Programming Sample**
 The following piece of code retrieves the pages information from a diagram.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Pages-RetrievePageInfo-RetrievePageInfo.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-RetrievePageInfo-RetrievePageInfo.cs" >}}
 ## **Get the Visio Page from a Diagram**
 Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram has features that helps them do this.
 
@@ -27,7 +27,7 @@ This example work as follows:
 
 The following example shows how to get a page object by id from Visio drawing.
 #### **Get Page Object by ID Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Pages-GetVisioPagebyID-GetVisioPagebyID.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPagebyID-GetVisioPagebyID.cs" >}}
 ### **Getting a Visio Page Object by Name**
 This example work as follows:
 
@@ -36,7 +36,7 @@ This example work as follows:
 #### **Get Page Object by Name Programming Sample**
 The following example shows how to get a page object by name from Visio drawing.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Pages-GetVisioPagebyName-GetVisioPagebyName.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPagebyName-GetVisioPagebyName.cs" >}}
 ## **Copy a Visio Page into Another Diagram**
 Aspose.Diagram for .NET API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
 
@@ -55,7 +55,7 @@ This example work as follows:
 ### **Copy a Visio Page Programming Sample**
 The code example below shows how to copy a Visio page object into another Visio drawing.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Pages-CopyVisioPage-CopyVisioPage.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-CopyVisioPage-CopyVisioPage.cs" >}}
 ## **Copy Visio Page to another Page instance**
 The Copy method of the Page class takes a page instance to clone.
 
@@ -81,7 +81,7 @@ The Add method, exposed by the Pages collection, allows developers to add a new 
 ### **Insert a Blank Page Programming Sample**
 The following piece of code inserts a blank page in the Visio Drawing:
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.cs" >}}
 ## **Move Page position in the Visio drawing**
 Aspose.Diagram for .NET API can move page position in the Visio drawing. The MoveTo method, exposed by the Page class, helps developers to move the page position.
 ### **Move Page position Programming Sample**

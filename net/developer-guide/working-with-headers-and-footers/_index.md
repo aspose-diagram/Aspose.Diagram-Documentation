@@ -12,4 +12,4 @@ The [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clas
 #### **Programming Sample**
 The following piece of code helps to manage Headers and Footers properties.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Headers-and-Footers-ManageHeadersandFooters-ManageHeadersandFooters.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Headers-and-Footers-ManageHeadersandFooters-ManageHeadersandFooters.cs" >}}

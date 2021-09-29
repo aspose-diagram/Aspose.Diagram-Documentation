@@ -17,8 +17,8 @@ This page contains release notes information for Aspose.Diagram for .NET 21.8.
 |DIAGRAMNET-51127|Incorrect rendering of the colors while converting a VSDX to PNG|Enhancement|
 |DIAGRAMNET-52070|Save as HTML issue|Enhancement|
 |DIAGRAMNET-52071|Problem with generating visio shapes as images|Enhancement|
-|DIAGRAMNET-52075|issue with ¡°Document¡± and ¡°Page¡± properties|Bug|
-|DIAGRAMNET-52077|Strange connecting lines from a graphic when it¡¯s exported to a SVG file|Bug|
+|DIAGRAMNET-52075|issue with "Document" and "Page" properties|Bug|
+|DIAGRAMNET-52077|Strange connecting lines from a graphic when it's exported to a SVG file|Bug|
 |DIAGRAMNET-52094|Graphic shown shifted after export|Bug|
 |DIAGRAMNET-52100|Unable to extract value of user defined cell formula|Bug|
 |DIAGRAMNET-52102|"Parameter is not valid." exception when rendering VSDX to HTML|Bug|

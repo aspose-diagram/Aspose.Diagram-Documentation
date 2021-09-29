@@ -10,4 +10,4 @@ Any shape in Microsoft Office Visio is composed of one or more “geometries”.
 ### **Programming Sample**
 The code snippets below manage geometries of a Shape.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Geometry-Section-EditConnectorGeometry-EditConnectorGeometry.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Geometry-Section-EditConnectorGeometry-EditConnectorGeometry.cs" >}}

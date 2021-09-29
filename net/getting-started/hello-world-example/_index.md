@@ -15,7 +15,7 @@ After [installing Aspose.Diagram for .NET](/diagram/net/installation/) in your
 
 The following code snippet is a Hello World program to exhibit the working of Aspose.Diagram for .NET API. 
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-CreateNewVisio-CreateNewVisio.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-CreateNewVisio-CreateNewVisio.cs" >}}
 
 
 

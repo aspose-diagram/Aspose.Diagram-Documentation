@@ -10,16 +10,16 @@ url: /net/working-with-layers/
 ### **Configure Shape Objects Programming Sample**
 The following piece of code helps to add, remove and move shape object properties.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Layers-ConfigureShapeLayers-ConfigureShapeLayers.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Layers-ConfigureShapeLayers-ConfigureShapeLayers.cs" >}}
 ## **Add a new Layer in the Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically. The [LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) class offers Add method which allows to add a new [Layer](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) in the Visio drawing. Developers can set Layer properties by initializing its class object.
 ### **Add Layer Programming Sample**
 The following piece of code helps to add Layer objects.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Layers-AddLayer-AddLayer.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Layers-AddLayer-AddLayer.cs" >}}
 ## **Retrieve All Layers from the Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) gives access to developers to get the existing layers of a Visio diagram. The [PageSheet](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) property of the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class allows to retrieve the list of available layers from a Visio diagram using [LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) class.
 ### **Retrieve Layers Programming Sample**
 The following piece of code helps to get the list of Layers.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Layers-RetrieveAllLayers-RetrieveAllLayers.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Layers-RetrieveAllLayers-RetrieveAllLayers.cs" >}}

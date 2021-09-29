@@ -12,4 +12,4 @@ It's now a common phenomena to link the data of Microsoft Visio diagrams from th
 #### **Programming Sample**
 The following piece of code edits a particular data connection and also refresh all the available record sets in the Visio diagram.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-External-Data-Sources-EditDataConAndRefreshRecords-EditDataConAndRefreshRecords.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-External-Data-Sources-EditDataConAndRefreshRecords-EditDataConAndRefreshRecords.cs" >}}

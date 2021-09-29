@@ -13,4 +13,4 @@ Developers can add ActiveX controls directly to Microsoft Visio drawings to make
 ## **Insert an ActiveX Control Programming Sample**
 [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class offers AddActiveXControl method and allows developers to insert any type of ActiveX control like command button, combobox, checkbox, listbox, textbox, spin button, radio button, label, image, toggle button and scrollbar.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Visio-ActiveX-Controls-InsertActiveXControl-InsertActiveXControl.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Visio-ActiveX-Controls-InsertActiveXControl-InsertActiveXControl.cs" >}}

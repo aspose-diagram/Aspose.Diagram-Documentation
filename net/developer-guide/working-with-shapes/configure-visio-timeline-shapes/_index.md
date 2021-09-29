@@ -21,7 +21,7 @@ The process for updating the milestone date, date format, auto update flag and m
 1. Set the milestone type
 1. Save the Visio drawing to any supported format.
 #### **Set Milestone Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-SetMilestoneProps-SetMilestoneProps.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-SetMilestoneProps-SetMilestoneProps.cs" >}}
 
 
 Table of date format values:
@@ -73,7 +73,7 @@ The process for updating time period start, end and date format is:
 1. Set a date format.
 1. Save the Visio drawing to any supported format.
 #### **Set Time Period and Date Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-ConfigureTimeLine-ConfigureTimeLine.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-ConfigureTimeLine-ConfigureTimeLine.cs" >}}
 
 
 Table of date format values:
@@ -128,7 +128,7 @@ The code below shows how to:
 #### **Refresh Milestones using TimeLineHelper Programming Sample**
 Use the following code in your .NET application to revive milestones on the timeline using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-RefreshTimeLine-RefreshTimeLine.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-RefreshTimeLine-RefreshTimeLine.cs" >}}
 ### **Refresh Milestones on the Timeline using MilestoneHelper class**
 The RefreshMilestone method exposed by the [MilestoneHelper](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper) class can be used to refresh milestones on the timeline.
 
@@ -145,4 +145,4 @@ The code below shows how to:
 #### **Refresh Milestones using MilestoneHelper Programming Sample**
 Use the following code in your .NET application to refresh milestones on the timeline using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-RefreshMilestoneWithMilestoneHelper-RefreshMilestoneWithMilestoneHelper.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-RefreshMilestoneWithMilestoneHelper-RefreshMilestoneWithMilestoneHelper.cs" >}}

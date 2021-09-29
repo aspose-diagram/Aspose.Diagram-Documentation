@@ -12,7 +12,7 @@ The [Master](http://www.aspose.com/api/net/diagram/aspose.diagram/master) object
 ### **Retrieving Master Information Programming Sample**
 The following piece of code retrieves the masters information from a diagram.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Masters-RetrieveMasterInfo-RetrieveMasterInfo.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Masters-RetrieveMasterInfo-RetrieveMasterInfo.cs" >}}
 ## **Add Master from the Stencil of Shapes**
 A stencil is a collection of shapes associated with a particular Microsoft Office Visio template. With Aspose.Diagram, it is possible to add any shape master to a drawing from a stencil.
 ### **Add Master**
@@ -24,11 +24,11 @@ The [Master](http://www.aspose.com/api/net/diagram/aspose.diagram/master) object
 - Stencil file stream and master name.
 - Add master to diagram from source diagram
 #### **Add Master Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Masters-AddMasterFromStencil-AddMasterFromStencil.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Masters-AddMasterFromStencil-AddMasterFromStencil.cs" >}}
 ## **Create Master from Scratch**
 Aspose.Diagram API allows to create a [Master](http://www.aspose.com/api/net/diagram/aspose.diagram/master) from scratch without any stencil, drawing or template. Developers can customize the creation of Master. The AddMaster method, exposed by the Diagram class, allows to add a master.
 ### **Create Master Programming Sample**
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Load-Save-Convert-CreateMasterFromScratch-CreateMasterFromScratch.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-CreateMasterFromScratch-CreateMasterFromScratch.cs" >}}
 ## **Get a Master from the Visio File**
 Sometimes, developers need to get the details of a Visio drawing's master. The Aspose.Diagram API supports this feature.
 
@@ -41,7 +41,7 @@ This example work as follows:
 #### **Master Object by ID Programming Sample**
 The following example shows how to get a master by ID from a Visio drawing.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Masters-GetMasterbyID-GetMasterbyID.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Masters-GetMasterbyID-GetMasterbyID.cs" >}}
 ### **Getting a Master Object by Name**
 This example work as follows:
 
@@ -50,7 +50,7 @@ This example work as follows:
 #### **Master Object by Name Programming Sample**
 The following example shows how to get a master object by name from a Visio drawing.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Masters-GetMasterbyName-GetMasterbyName.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Masters-GetMasterbyName-GetMasterbyName.cs" >}}
 ## **Check Presence of a Master in the Visio Drawing**
 The Aspose.Diagram API supports checking for the presence of a master in a Visio drawing. With the MasterCollection property, developers can check to see if a master is present by its name or ID.
 
@@ -63,7 +63,7 @@ This example work as follows:
 #### **Master Presence by ID Programming Sample**
 The following example shows how to check presence of a master by ID in a Visio drawing.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Masters-CheckMasterPresencebyID-CheckMasterPresencebyID.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Masters-CheckMasterPresencebyID-CheckMasterPresencebyID.cs" >}}
 ### **Checking a Master Presence by Name**
 This example work as follows:
 
@@ -72,4 +72,4 @@ This example work as follows:
 #### **Master Presence by Name Programming Sample**
 The following example shows how to check a master presence by name from Visio drawing.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Masters-CheckMasterPresencebyName-CheckMasterPresencebyName.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Masters-CheckMasterPresencebyName-CheckMasterPresencebyName.cs" >}}

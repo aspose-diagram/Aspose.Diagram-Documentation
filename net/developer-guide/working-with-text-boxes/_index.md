@@ -12,7 +12,7 @@ The text block format section of the Visio shapesheet contains the formatting in
 ### **Format Text Programming Sample**
 The following piece of code sets direction, alignment, margins, background color, background color transparency, and default tab stop position of the orientation angle and position of the shape's text at the top.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-Boxes-FormatShapeTextBlockSection-FormatShapeTextBlockSection.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-Boxes-FormatShapeTextBlockSection-FormatShapeTextBlockSection.cs" >}}
 ## **Rotate and Set Position of the Visio Shape Text**
 Aspose.Diagram API allows developers to adjust the text position and also rotate text on the Visio Shape. To accomplish this task, the text transforms section on the shapesheet provides TxtPin, TxtLocPin, TxtWidth and TxtHeight properties. Developers can interact with these properties programmatically using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net).
 ### **Rotate and Set Position of the Shape Text**
@@ -20,16 +20,16 @@ The text transforms section contains the positional information about a shape's 
 #### **Set shape's text position at the top**
 The following piece of code sets orientation angle and position of the shape's text at the top.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtTop-SetShapeTextPositionAtTop.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtTop-SetShapeTextPositionAtTop.cs" >}}
 #### **Set shape's text position at the bottom**
 The following piece of code sets orientation angle and position of the shape's text at the bottom.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtBottom-SetShapeTextPositionAtBottom.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtBottom-SetShapeTextPositionAtBottom.cs" >}}
 #### **Set shape's text position at the left**
 The following piece of code sets orientation angle and position of the shape's text at the left.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtLeft-SetShapeTextPositionAtLeft.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtLeft-SetShapeTextPositionAtLeft.cs" >}}
 #### **Set shape's text position at the right**
 The following piece of code sets orientation angle and position of the shape's text at the right.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtRight-SetShapeTextPositionAtRight.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-Boxes-SetShapeTextPositionAtRight-SetShapeTextPositionAtRight.cs" >}}

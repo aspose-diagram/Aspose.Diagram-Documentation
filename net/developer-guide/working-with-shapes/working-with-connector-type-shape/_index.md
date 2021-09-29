@@ -20,7 +20,7 @@ The code below shows how to:
 #### **Set Connector Appearance Programming Sample**
 Use the following code in your .NET application to set appearance of the connector type shape using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-SetConnectorAppearance-SetConnectorAppearance.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetConnectorAppearance-SetConnectorAppearance.cs" >}}
 ## **Select Reroute Option of the Connector Shape**
 The ConFixedCode property exposed by the [Layout](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) class can be used to select reroute option. The Layout property, exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, will be used.
 
@@ -34,4 +34,4 @@ The code below shows how to:
 ### **Select Reroute Option Programming Sample**
 Use the following code in your .NET application to select the rerouting option of the connector shape using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram" "cce69e51f567ea17ef24bc35fef0f689" "Examples-CSharp-Working-Shapes-RerouteConnectors-RerouteConnectors.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-RerouteConnectors-RerouteConnectors.cs" >}}
