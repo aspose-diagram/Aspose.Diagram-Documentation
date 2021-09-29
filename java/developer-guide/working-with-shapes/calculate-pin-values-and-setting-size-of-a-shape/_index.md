@@ -20,7 +20,7 @@ A point specified in local coordinates can be converted into parent coordinates 
 ### **Calculate PinX and PinY Programming Sample**
 Use the following code in your Java application to calculate PinX and PinY values of a sub-shape using Aspose.Diagram for Java API.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-CalculateCenterOfSubShapes-CalculateCenterOfSubShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-CalculateCenterOfSubShapes-CalculateCenterOfSubShapes.java" >}}
 ## **Setting Height and Width of a Shape**
 The [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) Class allows you to control the shape size by specifying height and width of the shape using SetHeight and SetWidth methods.
 
@@ -46,4 +46,4 @@ The process for setting Height and Width is:
 ### **Setting Height and Width Programming Sample**
 The code snippet below shows how to set the shape's height and width. The code looks for a shape name rectangle, with the shape ID 1, and sets its Height and Width as double.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ChangeShapeSize-ChangeShapeSize.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ChangeShapeSize-ChangeShapeSize.java" >}}

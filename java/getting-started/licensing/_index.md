@@ -84,4 +84,4 @@ Aspose.Diagram for Java API allows developers to apply metered license. It is a
 
 A new class [Metered](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-License-PublicAndPrivateKeys-PublicAndPrivateKeys.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-License-PublicAndPrivateKeys-PublicAndPrivateKeys.java" >}}

@@ -27,7 +27,7 @@ The code samples below show how to retrieve information about what created the f
 
 ![todo:image_alt_text](introduction_1.png)
 #### **Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-GetLibraryVersion-GetLibraryVersion.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-GetLibraryVersion-GetLibraryVersion.java" >}}
 ## **Writing Microsoft Visio Document Summary Info**
 Microsoft Visio lets you define a number of document summary information properties to help you and your colleagues identify a diagram. Summary properties, for example title, subject, author and description, makes the file easier to find when searching, and easier to recognize when browsing files.
 
@@ -54,16 +54,16 @@ Check the summary information:
 
 ![todo:image_alt_text](introduction_2.png)
 #### **Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-SetVisioProperties-SetVisioProperties.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-SetVisioProperties-SetVisioProperties.java" >}}
 ## **Detect the Format of a Visio File**
 Using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API, developers can detect the format of Visio file before opening it because the file extension does not guarantee that the file content is appropriate.
 ### **Detect Format Programming Sample**
 The following sample code illustrates how to detect a file format (using the file path or stream) and check its extension.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectVisioFileFormat-DetectVisioFileFormat.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectVisioFileFormat-DetectVisioFileFormat.java" >}}
 ## **Detect the Format of a Visio File from an InputStream**
 Using Aspose.Diagram for Java API, developers can detect the format of a Visio file by passing an input stream. The detectFileFormat method of FileFormatUtil class can be used to achieve this.
 ### **Detect Format from an InputStream Programming Sample**
 The following sample code illustrates how to detect a file format using an input stream.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}

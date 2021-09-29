@@ -12,4 +12,4 @@ The code snippets below manage geometries of a Shape.
 ### **Programming Sample**
 The code snippets below manage geometries of a Shape.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Geometry-EditConnectorGeometry-EditConnectorGeometry.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Geometry-EditConnectorGeometry-EditConnectorGeometry.java" >}}

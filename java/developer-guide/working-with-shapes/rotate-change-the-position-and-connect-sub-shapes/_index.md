@@ -10,7 +10,7 @@ Aspose.Diagram for Java allows you to rotate a shape to any angle. The SetAngle 
 ### **Rotate a Shape Programming Sample**
 Use the following code in your Java application to rotate a shape using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RotateVisioShape-RotateVisioShape.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RotateVisioShape-RotateVisioShape.java" >}}
 ## **Change the Position of a Shape**
 The Shape Class allows you to change the position of a shape. The connector line automatically adjusts when the shape is moved to a different position.
 
@@ -34,7 +34,7 @@ The process for moving a shape is:
 ### **Change Position Programming Sample**
 The code snippet below shows how to move the shape. The code retrieves a Visio page by name and shape by ID 16, and moves its position.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-MoveVisioShape-MoveVisioShape.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-MoveVisioShape-MoveVisioShape.java" >}}
 ## **Connect Sub-shapes of the Groups**
 This topic elaborates how to connect two sub-shapes of two different group shapes in Microsoft Visio diagrams using Aspose.Diagram for Java.
 
@@ -51,7 +51,7 @@ The code below shows how to:
 ### **Connect Sub-shapes Programming Sample**
 Use the following code in your Java application to connect the sub-shapes of two different group shapes using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ConnectVisioSubShapes-ConnectVisioSubShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ConnectVisioSubShapes-ConnectVisioSubShapes.java" >}}
 ## **Get the Shapes Connected to a Particular Shape**
 [Add and Connect Visio Shapes](/diagram/java/add-and-connect-visio-shapes/) explains how to add a shape and connect it to other shapes in Microsoft Visio diagrams using Aspose.Diagram for Java. It is also possible to find shapes that are connected to a specific shape.
 
@@ -65,4 +65,4 @@ The code below shows how to:
 ### **Get Shapes Programming Sample**
 Use the following code in your Java application to find all the shapes connected to a specific shape using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-GetAllConnectedShapes-GetAllConnectedShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-GetAllConnectedShapes-GetAllConnectedShapes.java" >}}

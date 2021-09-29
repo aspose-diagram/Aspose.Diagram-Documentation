@@ -23,7 +23,7 @@ The process for updating the milestone date, date format, auto update flag and m
 1. Set the milestone type
 1. Save the Visio drawing to any supported format.
 #### **Set Milestone Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-SetMilestoneProps-SetMilestoneProps.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-SetMilestoneProps-SetMilestoneProps.java" >}}
 
 
 Table of date format values:
@@ -78,7 +78,7 @@ The process for updating time period start, end and date format is:
 1. Set a date format.
 1. Save the Visio drawing to any supported format.
 #### **Set Time Period and Date Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-ConfigureTimeLine-ConfigureTimeLine.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-ConfigureTimeLine-ConfigureTimeLine.java" >}}
 
 
 Table of date format values:
@@ -133,7 +133,7 @@ The code below shows how to:
 #### **Refresh Milestones using TimeLineHelper Programming Sample**
 Use the following code in your Java application to revive milestones on the timeline using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-RefreshTimeLine-RefreshTimeLine.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-RefreshTimeLine-RefreshTimeLine.java" >}}
 ### **Refresh Milestones on the Timeline using MilestoneHelper class**
 The RefreshMilestone method exposed by the [MilestoneHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper) class can be used to refresh milestones on the timeline.
 
@@ -150,4 +150,4 @@ The code below shows how to:
 #### **Refresh Milestones using MilestoneHelper Programming Sample**
 Use the following code in your Java application to refresh milestones on the timeline using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-RefreshMilestoneWithMilestoneHelper-RefreshMilestoneWithMilestoneHelper.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-RefreshMilestoneWithMilestoneHelper-RefreshMilestoneWithMilestoneHelper.java" >}}

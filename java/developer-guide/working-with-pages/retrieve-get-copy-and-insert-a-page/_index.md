@@ -20,7 +20,7 @@ The image below shows the output from the code snippets in this article.
 ### **Retrieve Page Information Programming Sample**
 The following piece of code retrieves the pages information from a diagram.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Pages-RetrievePageInfo-RetrievePageInfo.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-RetrievePageInfo-RetrievePageInfo.java" >}}
 ## **Get the Visio Page from a Diagram**
 Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram has features that helps them do this.
 
@@ -33,7 +33,7 @@ This example work as follows:
 
 The following example shows how to get a page object by id from Visio drawing.
 #### **Get Page Object by ID Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyID-GetVisioPagebyID.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyID-GetVisioPagebyID.java" >}}
 ### **Getting a Visio Page Object by Name**
 This example work as follows:
 
@@ -42,7 +42,7 @@ This example work as follows:
 #### **Get Page Object by Name Programming Sample**
 The following example shows how to get a page object by name from Visio drawing.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyName-GetVisioPagebyName.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyName-GetVisioPagebyName.java" >}}
 ## **Copy a Visio Page into Another Diagram**
 Aspose.Diagram for Java API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
 
@@ -61,7 +61,7 @@ This example work as follows:
 ### **Copy a Visio Page Programming Sample**
 The code example below shows how to copy a Visio page object into another Visio drawing.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Pages-CopyVisioPage-CopyVisioPage.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-CopyVisioPage-CopyVisioPage.java" >}}
 ## **Copy Visio Page to another Page instance**
 The Copy method of the Page class takes a page instance to clone.
 
@@ -87,7 +87,7 @@ The Add method, exposed by the Pages collection, allows developers to add a new 
 ### **Insert a Blank Page Programming Sample**
 The following piece of code inserts a blank page in the Visio Drawing:
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.java" >}}
 ## **Move Page position in the Visio drawing**
 Aspose.Diagram for Java API can move page position in the Visio drawing. The moveTo method, exposed by the Page class, helps developers to move the page position.
 ### **Move Page position Programming Sample**

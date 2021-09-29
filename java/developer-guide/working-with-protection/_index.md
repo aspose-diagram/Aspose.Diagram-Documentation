@@ -24,7 +24,7 @@ In Microsoft Visio you protect documents this way:
 
 Use the code below in a Java application to perform the same tasks – lock and unlock different elements of your diagram – using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioDiagramProtection-VisioDiagramProtection.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioDiagramProtection-VisioDiagramProtection.java" >}}
 ### **Edit the Visio Shape Protection**
 Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java).
 
@@ -44,4 +44,4 @@ In Visio, you need to perform following actions to protect any shape:
 
 Use the following code in your Java application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioShapeProtection-VisioShapeProtection.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioShapeProtection-VisioShapeProtection.java" >}}

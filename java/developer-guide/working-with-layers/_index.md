@@ -16,7 +16,7 @@ The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shap
 
 The following piece of code helps to add, remove and move shape objects properties.
 #### **Programming Samples**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Layers-ConfigureShapeLayers-ConfigureShapeLayers.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Layers-ConfigureShapeLayers-ConfigureShapeLayers.java" >}}
 ### **Add a Layer in the Visio PageSheet**
 Aspose.Diagram for Java allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically.
 
@@ -24,7 +24,7 @@ The [LayerCollection](https://apireference.aspose.com/diagram/java/com.aspose.di
 
 The following piece of code helps to add Layer objects.
 #### **Programming Samples**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Layers-AddLayer-AddLayer.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Layers-AddLayer-AddLayer.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -36,4 +36,4 @@ The [PageSheet](https://apireference.aspose.com/diagram/java/com.aspose.diagram/
 
 The following piece of code helps to get list of Layers.
 #### **Programming Samples**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Layers-RetrieveAllLayers-RetrieveAllLayers.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Layers-RetrieveAllLayers-RetrieveAllLayers.java" >}}

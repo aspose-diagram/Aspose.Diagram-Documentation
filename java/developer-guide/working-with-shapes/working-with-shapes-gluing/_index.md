@@ -18,7 +18,7 @@ The code below shows how to:
 #### **Get Connectors Glued Programming Sample**
 Use the following code in your Java application to find all the connectors glued to a shape using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GetGluedConnectors-GetGluedConnectors.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GetGluedConnectors-GetGluedConnectors.java" >}}
 ## **Glue Visio Shapes Together with Connection Point**
 Aspose.Diagram for Java allows developers glue shapes together through the connection points.
 ### **Glue Shapes**
@@ -34,7 +34,7 @@ The code below shows how to:
 #### **Glue Visio Shapes Programming Sample**
 Use the following code in your Java application to glue shapes through the connection points:
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueVisioShapes-GlueVisioShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueVisioShapes-GlueVisioShapes.java" >}}
 ## **Glue Shapes Inside the Container**
 Aspose.Diagram for Java enables developers to glue group shapes inside a container.
 ### **Glue Group Shape**
@@ -50,4 +50,4 @@ The code below shows how to:
 #### **Glue Shapes Inside Programming Sample**
 Use the following code in your Java application to glue group shape inside a container:
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueContainerShape-GlueContainerShape.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueContainerShape-GlueContainerShape.java" >}}

@@ -18,4 +18,4 @@ The code in the samples below show how to:
 1. Connect the star and hexagon shapes to the rectangle.
 1. Save the diagram.
 #### **Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-TechnicalArticles-AddConnectShapes-AddConnectShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-TechnicalArticles-AddConnectShapes-AddConnectShapes.java" >}}

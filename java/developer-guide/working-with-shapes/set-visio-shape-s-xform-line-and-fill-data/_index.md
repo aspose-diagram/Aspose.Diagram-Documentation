@@ -23,7 +23,7 @@ The process for updating XForm data is:
 ### **Programming Sample**
 The code snippet below shows how to update a shape's XForm data. The code looks for a shape names process, with the shape ID 1, and sets its X and Y coordinates to 5.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetXFormdata-SetXFormdata.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetXFormdata-SetXFormdata.java" >}}
 ## **Set Visio Shape's Line Data**
 Shapes can be formatted in several ways. This article shows how to specify a line's attributes.
 
@@ -42,7 +42,7 @@ The [Line](https://apireference.aspose.com/diagram/java/com.aspose.diagram/line)
 #### **Line Data Programming Sample**
 The following piece of code updates the line data of shape.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetLineData-SetLineData.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetLineData-SetLineData.java" >}}
 ## **Set Visio Shape's Fill Data**
 Shapes can be formatted in several ways. This topic describes how to specify a shape's fill.
 
@@ -60,10 +60,10 @@ The Fill property, exposed by the Shape class, supports the Aspose.Diagram.Fill 
 #### **Fill Data Programming Sample**
 The following code snippet updates a shape's fill data. The code looks for a shape named rectangle, with the shape ID 1, and sets the fill background and foreground colors.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetFillData-SetFillData.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetFillData-SetFillData.java" >}}
 ### **Retrieve Inherited Fill Data of a Visio Shape**
 The Visio shapes can inherit the parent style and the master shape. Developers may get or set the inherit fill data of a Visio shape. The InheritFill property, exposed by the Shape class, contains the fill formatting values for the shape inherit by the parent style and the master shape.
 #### **Retrieve Inherited Fill Data Programming Sample**
 The following code snippet retrieves the inherited fill data of the shape. Please check this sample code:
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveInheritedFillData-RetrieveInheritedFillData.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveInheritedFillData-RetrieveInheritedFillData.java" >}}

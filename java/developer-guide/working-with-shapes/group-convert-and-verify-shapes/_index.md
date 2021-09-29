@@ -22,7 +22,7 @@ The code below shows how to:
 #### **Group Shapes Programming Sample**
 Use the following code in your Java application to group shapes together using Aspose.Diagram for Java API.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-GroupShapes-GroupShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-GroupShapes-GroupShapes.java" >}}
 ## **Convert a Visio Shape to Other File Formats**
 Aspose.Diagram for Java API allows developers to convert a single Visio shape to any other supported file format. In this article, we remove all other Visio shapes from the page and customize page setting according to the source Shape size. 
 ### **Converting a Particular Visio Shape**
@@ -38,7 +38,7 @@ This example code work as follows:
 1. Set the page size.
 1. Save the Visio page in any supported file format.
 #### **Convert Shape Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -82,7 +82,7 @@ The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shap
 #### **Verification of Connected or Glued Shapes Programming Sample**
 The following piece of code verifies whether two shapes are connected or glued.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-VerifyConnectedOrGluedShapes-VerifyConnectedOrGluedShapes.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-VerifyConnectedOrGluedShapes-VerifyConnectedOrGluedShapes.java" >}}
 ## **Verify Whether the Visio Shape is in a Group of Shapes**
 Aspose.Diagram for Java API allows developers to verify that the Visio shape is in a group of shapes or not.
 ### **Verification of Shape in the Group of Shapes**
@@ -90,7 +90,7 @@ The Shape class offers IsInGroup properties to determine whether the Visio s
 #### **Verification of Shape in the Group of Shapes Programming Sample**
 The following piece of code verifies whether the shape is in a group shape.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-VerifyShapeIsInGroup-VerifyShapeIsInGroup.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-VerifyShapeIsInGroup-VerifyShapeIsInGroup.java" >}}
 
 {{% alert color="primary" %}} 
 

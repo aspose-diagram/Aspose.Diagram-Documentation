@@ -20,7 +20,7 @@ The following image shows the output after running the code:
 
 ![todo:image_alt_text](working-with-user-defined-cells_2.png)
 #### **Programming Samples**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.java" >}}
 ### **Create User-defined Cell**
 The Aspose.Diagram for Java API allows developers to create user-defined cell in the shapesheet. This example topic describes how to add as many user name rows as are needed, assign meaningful names to the rows, and set cell values.
 
@@ -28,7 +28,7 @@ The add method exposed by the Users collection can be used to create user-define
 
 Use the following code in your Java application to create user-defined cell in the shapesheet using Aspose.Diagram for Java.
 #### **Programming Samples**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
 ## **Retrieve User-defined Cells from Shapesheet**
 Aspose.Diagram for Java API allows developers to retrieve user-defined cells from shapesheet. This example topic describes how to retrieve all user names for all shapes in a drawing.
 ### **Retrieve User-defined Cells**
@@ -36,4 +36,4 @@ The getNameU(), getValue().getVal() and getPrompt().getValue() methods exposed b
 #### **Retrieve Cells from Shapesheet Programming Samples**
 Use the following code in your Java application to retrieve all user-defined cells from shapesheet using Aspose.Diagram for Java.
 #### **Programming Samples**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}

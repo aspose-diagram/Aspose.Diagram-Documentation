@@ -13,11 +13,11 @@ Printing of the diagram to the specific printer requires the name of the printer
 - Create an instance of Diagram class to load a diagram that is to be printed
 - Call the Print method of the Diagram class with printer name as string parameter to the Print method
 #### **Printing to Specific Printer Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Print-BySpecificPrinter-BySpecificPrinter.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-BySpecificPrinter-BySpecificPrinter.java" >}}
 ### **Setting Printer and Document Name**
 Aspose.Diagram APIs allows to set the specific printer and document name for a print job. Perform the following steps in order to print the diagram to the desired printer:
 
 - Create an instance of Diagram class to load a diagram that is to be printed
 - Call the Print method of the Diagram class with printer and document name as string parameter to the Print method
 #### **Setting Printer and Document Name Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Print-SetPrintJobAndPrinterName-SetPrintJobAndPrinterName.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-SetPrintJobAndPrinterName-SetPrintJobAndPrinterName.java" >}}

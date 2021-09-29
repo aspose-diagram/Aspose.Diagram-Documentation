@@ -13,4 +13,4 @@ Microsoft Office Visio supports manipulating the OLE objects in the Visio diagra
 ### **Manipulate the Embedded OLE Objects Programming Sample**
 ObjectData property of the ForeignData class allows developers to manipulate with existing OLE objects in Visio diagram. This help topic demonstrates how developers can retrieve an OLE object of the Word document, edit it using [Aspose.Words for Java API](https://products.aspose.com/words/java), and then save back as an OLE object in the Visio diagram.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-OLEObjectsinVisioDiagram-ManipulateEmbeddedOLEObjects-ManipulateEmbeddedOLEObjects.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-OLEObjectsinVisioDiagram-ManipulateEmbeddedOLEObjects-ManipulateEmbeddedOLEObjects.java" >}}

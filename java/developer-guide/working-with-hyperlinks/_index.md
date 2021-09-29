@@ -25,7 +25,7 @@ To identify properties in Microsoft Visio:
 
 The code snippets below adds shape's hyperlink data.
 ### **Add Hyperlink Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.java" >}}
 ## **Get Hyperlinks Data of the Visio Shapes**
 It is possible to get a shape's hyperlink data in a similar way that you [reading Visio shape data]().
 
@@ -51,4 +51,4 @@ To identify properties in Microsoft Visio:
 
 The code snippets below reads shape's hyperlink data.
 ### **Get Hyperlinks Programming Sample**
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Hyperlinks-GetHyperlinks-GetHyperlinks.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Hyperlinks-GetHyperlinks-GetHyperlinks.java" >}}

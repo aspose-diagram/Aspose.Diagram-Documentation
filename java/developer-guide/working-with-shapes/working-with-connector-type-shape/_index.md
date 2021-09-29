@@ -20,7 +20,7 @@ The code below shows how to:
 #### **Set Connector Appearance Programming Sample**
 Use the following code in your Java application to set appearance of the connector type shape using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetConnectorAppearance-SetConnectorAppearance.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetConnectorAppearance-SetConnectorAppearance.java" >}}
 ## **Select Reroute Option of the Connector Shape**
 The ConFixedCode property exposed by the [Layout](https://apireference.aspose.com/diagram/java/com.aspose.diagram/layout) class can be used to select reroute option. The Layout property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, will be used.
 
@@ -36,4 +36,4 @@ The code below shows how to:
 ### **Select Reroute Option Programming Sample**
 Use the following code in your Java application to select the rerouting option of the connector shape using Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram" "92a05cb833bad6d60de2968c96b40ee4" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RerouteConnectors-RerouteConnectors.java" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RerouteConnectors-RerouteConnectors.java" >}}
