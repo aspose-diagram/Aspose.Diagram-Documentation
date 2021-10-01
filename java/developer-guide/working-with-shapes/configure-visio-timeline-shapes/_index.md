@@ -8,7 +8,7 @@ url: /java/configure-visio-timeline-shapes/
 ## **Set Milestone Shape Properties**
 Aspose.Diagram allows developers to set milestone properties. This article shows how to set the milestone date, date format, auto update flag and type.
 ### **Setting Milestone Date, Date Format, Auto Update Flag and Type**
-The [MilestoneHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper) class takes a [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) object while initializing the [MilestoneHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/milestonehelper) object. The code example in this article sets the milestone date, date format, auto update flag and milestone type properties.
+The [MilestoneHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper) class takes a [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) object while initializing the [MilestoneHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper) object. The code example in this article sets the milestone date, date format, auto update flag and milestone type properties.
 
 |<p>**The milestone before update** </p><p>![todo:image_alt_text](http://i.imgur.com/XulWyBC.png)</p><p>\</p>|<p>**The milestone after update. Note the changed date format.** </p><p>![todo:image_alt_text](http://i.imgur.com/cMJQNch.png)</p><p>\</p>|
 | :- | :- |
@@ -63,7 +63,7 @@ Table of date format values:
 ## **Set Time Period and Date Format of Timeline Shape**
 Aspose.Diagram allows developers to configure the timeline programmatically. This explains how to adjust the time period and date format of timeline shapes (block, line, ruler, divided, or cylindrical).
 ### **Setting Time Period and Date Format**
-The [TimeLineHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/timelinehelper) class takes a [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) object when initializing the [TimeLineHelper](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/timelinehelper) object. The code example in this article sets the time period start, end and date format values.
+The [TimeLineHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/timelinehelper) class takes a [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) object when initializing the [TimeLineHelper](https://apireference.aspose.com/diagram/java/com.aspose.diagram/timelinehelper) object. The code example in this article sets the time period start, end and date format values.
 
 |<p>**The time period tab of the Visio Configure Timeline dialog** </p><p>![todo:image_alt_text](http://i.imgur.com/nHth3W8.png)</p>|<p>**The time format tab of the Visio Configure Timeline dialog** </p><p>![todo:image_alt_text](http://i.imgur.com/TxFKc1K.png)</p>|
 | :- | :- |

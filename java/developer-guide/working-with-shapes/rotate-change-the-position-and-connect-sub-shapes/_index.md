@@ -38,7 +38,7 @@ The code snippet below shows how to move the shape. The code retrieves a Visio p
 ## **Connect Sub-shapes of the Groups**
 This topic elaborates how to connect two sub-shapes of two different group shapes in Microsoft Visio diagrams using Aspose.Diagram for Java.
 
-The ConnectShapesViaConnector method exposed by the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) class can be used to connect the shapes by their IDs. The AddShape method, exposed by the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class, can be used to add a shape.
+The ConnectShapesViaConnector method exposed by the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) class can be used to connect the shapes by their IDs. The AddShape method, exposed by the [Diagram](https://apireference.aspose.com/diagram/java) class, can be used to add a shape.
 
 |<p>**The input diagram** </p><p>![todo:image_alt_text](http://i.imgur.com/74rDby5.png)</p>|<p>**The diagram after the connection of sub-shapes** </p><p>![todo:image_alt_text](http://i.imgur.com/c387dZJ.png)</p>|
 | :- | :- |

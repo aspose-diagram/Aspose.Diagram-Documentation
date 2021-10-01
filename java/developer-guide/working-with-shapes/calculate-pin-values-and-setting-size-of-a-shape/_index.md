@@ -22,7 +22,7 @@ Use the following code in your Java application to calculate PinX and PinY value
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-CalculateCenterOfSubShapes-CalculateCenterOfSubShapes.java" >}}
 ## **Setting Height and Width of a Shape**
-The [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Shape) Class allows you to control the shape size by specifying height and width of the shape using SetHeight and SetWidth methods.
+The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) Class allows you to control the shape size by specifying height and width of the shape using SetHeight and SetWidth methods.
 
 The SetHeight and SetWidth methods, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) class, support resizing a shape with the master, without the master or in the form of a group shape.
 

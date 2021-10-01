@@ -8,7 +8,7 @@ url: /java/retrieve-visio-connectors-and-font-information/
 ## **Retrieving Connector Information**
 Aspose.Diagram for Java provides mechanisms for retrieving information - ID and name - about [pages](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page/) and [master](). It also lets you get information about connectors, the elements that link shapes.
 
-The [Connect](https://apireference.aspose.com/diagram/java/com.aspose.diagram/connect) object represents a connector that joins two shapes on a Visio drawing page. The Connects property, exposed by the [Page](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Page) class supports a collection of Aspose.Diagram.Connect objects. This property can be used to retrieve ID and name information about a connector.
+The [Connect](https://apireference.aspose.com/diagram/java/com.aspose.diagram/connect) object represents a connector that joins two shapes on a Visio drawing page. The Connects property, exposed by the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) class supports a collection of Aspose.Diagram.Connect objects. This property can be used to retrieve ID and name information about a connector.
 
 **A console window showing the output from the code below.** 
 

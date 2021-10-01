@@ -20,7 +20,7 @@ The following piece of code helps to add, remove and move shape objects properti
 ### **Add a Layer in the Visio PageSheet**
 Aspose.Diagram for Java allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically.
 
-The [LayerCollection](https://apireference.aspose.com/diagram/java/com.aspose.diagram/LayerCollection) class offers add method which allows to add a new [Layer](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Layer) class object in the Visio drawing. Developers can set Layer properties by initializing its class object.
+The [LayerCollection](https://apireference.aspose.com/diagram/java/com.aspose.diagram/LayerCollection) class offers add method which allows to add a new [Layer](https://apireference.aspose.com/diagram/java/com.aspose.diagram/layer) class object in the Visio drawing. Developers can set Layer properties by initializing its class object.
 
 The following piece of code helps to add Layer objects.
 #### **Programming Samples**
@@ -32,7 +32,7 @@ Aspose.Diagram for Java gives developers access to the existing layers of Visio 
 
 {{% /alert %}} 
 ### **Get All Available Layers**
-The [PageSheet](https://apireference.aspose.com/diagram/java/com.aspose.diagram/PageSheet) property of the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class allows to retrieve the list of available layers from the Visio diagram using [LayerCollection](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/LayerCollection) class.
+The [PageSheet](https://apireference.aspose.com/diagram/java/com.aspose.diagram/PageSheet) property of the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class allows to retrieve the list of available layers from the Visio diagram using [LayerCollection](https://apireference.aspose.com/diagram/java/com.aspose.diagram/layercollection) class.
 
 The following piece of code helps to get list of Layers.
 #### **Programming Samples**

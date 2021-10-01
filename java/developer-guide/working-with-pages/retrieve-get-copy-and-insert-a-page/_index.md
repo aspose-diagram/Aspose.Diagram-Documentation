@@ -8,7 +8,7 @@ url: /java/retrieve-get-copy-and-insert-a-page/
 ## **Retrieving Page Information**
 In Microsoft Visio, pages are either foreground or background pages. To get page information, for example page ID and page name, first establish whether a page is a background or foreground page.
 
-The [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/index) class supports a collection of Aspose.Diagram.Page objects. This property can be used to retrieve page information.
+The [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](https://apireference.aspose.com/diagram/java) class supports a collection of Aspose.Diagram.Page objects. This property can be used to retrieve page information.
 
 Use the Page.Background property to determine whether a page is a foreground or background page .
 

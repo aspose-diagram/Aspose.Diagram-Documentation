@@ -6,7 +6,7 @@ url: /java/create-layout-and-auto-fit-shapes/
 ---
 
 ## **Creating a Diagram**
-Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/diagram/java/add-and-connect-visio-shapes/) to build up the diagram. Use the default constructor of [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/Diagram) class to create a new diagram.
+Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/diagram/java/add-and-connect-visio-shapes/) to build up the diagram. Use the default constructor of [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class to create a new diagram.
 ### **Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
 ## **Layout Shapes in Flowchart Style**
