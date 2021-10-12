@@ -20,12 +20,12 @@ Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.Diagram for .NET Online Documentation](/diagram/net/)
-- [Aspose.Diagram for .NET Features](/diagram/net/product-overview#RichFeatures)
-- [Aspose.Diagram for .NET Limitations](https://docs.aspose.com/display/diagramnet/Why+Not+Automation)
-- [Aspose.Diagram for .NET Release Notes](https://docs.aspose.com/display/diagramnet/Release+Notes)
+- [Aspose.Diagram for .NET Features](/diagram/net/feature-list/)
+- [Aspose.Diagram for .NET Limitations](/diagram/net/why-not-automation/)
+- [Aspose.Diagram for .NET Release Notes](/diagram/net/release-notes/)
 - [Aspose.Diagram for .NET Product Page](https://products.aspose.com/diagram/net)
 - [Install Aspose.Diagram for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Diagram/)
-- [Aspose.Diagram for .NET API Reference Guide](https://apireference.aspose.com/net/diagram)
+- [Aspose.Diagram for .NET API Reference Guide](https://apireference.aspose.com/diagram/net)
 - [Aspose.Diagram for .NET Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -43,14 +43,14 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 ## **Aspose.Diagram for Java Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Diagram for Java Online Documentation](https://docs.aspose.com/display/diagramjava/)
-- [Aspose.Diagram for Java Features](https://docs.aspose.com/display/diagramjava/Product+Overview#ProductOverview-RichFeatures)
-- [Aspose.Diagram for Java Limitations](https://docs.aspose.com/display/diagramjava/Why+not+Automation)
-- [Aspose.Diagram for Java Release Notes](https://docs.aspose.com/display/diagramjava/Release+Notes)
+- [Aspose.Diagram for Java Online Documentation](/diagram/java/)
+- [Aspose.Diagram for Java Features](/diagram/java/feature-list/)
+- [Aspose.Diagram for Java Limitations](/diagram/java/evaluate-aspose-diagram/)
+- [Aspose.Diagram for Java Release Notes](/diagram/java/release-notes/)
 - [Aspose.Diagram for Java Product Page](https://products.aspose.com/diagram/java)
 - [Download Aspose.Diagram for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram)
-- [Install Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/display/diagramjava/Installation)
-- [Aspose.Diagram for Java API Reference Guide](https://apireference.aspose.com/java/diagram)
+- [Install Aspose.Diagram for Java from Aspose Repository](/diagram/java/installation/)
+- [Aspose.Diagram for Java API Reference Guide](https://apireference.aspose.com/diagram/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-diagram/Aspose.Diagram-for-Java)
 - [Aspose.Diagram for Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
@@ -68,13 +68,12 @@ Aspose.Diagram for Node.js via Java API offers all the useful features of Aspose
 ## **Aspose.Diagram for Node.js via Java Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Diagram for Java Online Documentation](https://docs.aspose.com/diagram/java/) (Aspose.Diagram for Node.js via Java is ported from Aspose.Diagram for Java. So, you can use the same documentation)
-- [Aspose.Diagram for Node.js via Java Features](https://docs.aspose.com/display/diagramjava/Product+Overview#ProductOverview-RichFeatures)
-- [Aspose.Diagram for Node.js via Java Limitations and API Differences](https://docs.aspose.com/display/diagramjava/Why+not+Automation)
-- [Aspose.Diagram for Node.js via Java Release Notes](https://docs.aspose.com/diagram/java/aspose-diagram-for-node-js-via-java/)
+- [Aspose.Diagram for Java Online Documentation](/diagram/nodejsjava/)
+- [Aspose.Diagram for Node.js via Java Features](/diagram/java/aspose-diagram-for-node-js-via-java-features/)
+- [Aspose.Diagram for Node.js via Java Release Notes](/diagram/java/release-notes/)
 - [Aspose.Diagram for Node.js via Java Product Page](https://products.aspose.com/diagram/nodejs-java)
 - [Download Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/diagram/nodejs)
-- [Aspose.Diagram for Node.js via Java API Reference Guide](https://apireference.aspose.com/nodejs/diagram)
+- Aspose.Diagram for Node.js via Java API Reference Guide
 - [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -89,12 +88,11 @@ Aspose.Diagram for Python via Java API offers all the useful features of Aspose.
 ## **Aspose.Diagram for Python via Java Resources**
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Diagram for Java Online Documentation](https://docs.aspose.com/diagram/java/) (Aspose.Diagram for Python via Java is ported from Aspose.Diagram for Java. So, you can use the same documentation)
-- [Aspose.Diagram for Python via Java Features](https://docs.aspose.com/display/diagramjava/Product+Overview#ProductOverview-RichFeatures)
-- [Aspose.Diagram for Python via Java Limitations and API Differences](https://docs.aspose.com/display/diagramjava/Why+not+Automation)
-- [Aspose.Diagram for Python via Java Release Notes](https://docs.aspose.com/diagram/java/aspose-diagram-for-python-via-java/)
+- [Aspose.Diagram for Java Online Documentation](/diagram/pythonjava/)
+- [Aspose.Diagram for Python via Java Features](/diagram/java/feature-list/)
+- [Aspose.Diagram for Python via Java Release Notes](/diagram/java/aspose-diagram-for-python-via-java/)
 - [Aspose.Diagram for Python via Java Product Page](https://products.aspose.com/diagram/python-java)
 - [Download Aspose.Diagram for Python via Java](https://downloads.aspose.com/diagram/python)
-- [Aspose.Diagram for Python via Java API Reference Guide](https://apireference.aspose.com/python/diagram)
+- [Aspose.Diagram for Python via Java API Reference Guide](https://apireference.aspose.com/diagram/python)
 - [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
