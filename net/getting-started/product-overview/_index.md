@@ -15,7 +15,7 @@ aliases:
 
 Aspose.Diagram, is a pure .NET API for working with the Microsoft Visio Object Model. Aspose.Diagram provides better performance and is easier to use to manipulate diagrams and convert files than Microsoft Office Automation.
 
-Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft Office Visio to manipulate Visio diagrams on a server. The [Aspose.Diagram API](https://products.aspose.com/diagram/net) is extensible, easy to use, compact and provides all the most common functionality so that developers can write less code.
+Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft Office Visio to manipulate Visio diagrams on a server. The [Aspose.Diagram API](https://products.aspose.com/diagram/net/) is extensible, easy to use, compact and provides all the most common functionality so that developers can write less code.
 
 {{% /alert %}} 
 ## **Declaration**
@@ -49,7 +49,7 @@ This table lists important Aspose.Diagram for .NET technical resources.
 
 |**Resource**|**Description**|
 | :- | :- |
-|[Aspose.Diagram home page](https://products.aspose.com/diagram/net)|Product home page.|
+|[Aspose.Diagram home page](https://products.aspose.com/diagram/net/)|Product home page.|
 |[Aspose.Diagram blog](https://blog.aspose.com/category/aspose-products/aspose-diagram-product-family/)|Check this often for information about new releases and useful tips about Aspose.Diagram.|
 |[Aspose.Diagram for .NET download](https://www.nuget.org/packages/Aspose.Diagram/)|Download the latest version of Aspose.Diagram from here. We release often.|
 |[Aspose.Diagram for .NET support forum](https://forum.aspose.com/c/diagram/17)|Post your questions and issues here for a speedy resolution.|

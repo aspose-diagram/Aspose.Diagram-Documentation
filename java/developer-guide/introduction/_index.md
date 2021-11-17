@@ -56,7 +56,7 @@ Check the summary information:
 #### **Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-SetVisioProperties-SetVisioProperties.java" >}}
 ## **Detect the Format of a Visio File**
-Using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API, developers can detect the format of Visio file before opening it because the file extension does not guarantee that the file content is appropriate.
+Using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API, developers can detect the format of Visio file before opening it because the file extension does not guarantee that the file content is appropriate.
 ### **Detect Format Programming Sample**
 The following sample code illustrates how to detect a file format (using the file path or stream) and check its extension.
 

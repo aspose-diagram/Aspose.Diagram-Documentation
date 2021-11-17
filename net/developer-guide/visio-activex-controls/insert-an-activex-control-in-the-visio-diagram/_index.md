@@ -7,7 +7,7 @@ url: /net/insert-an-activex-control-in-the-visio-diagram/
 
 {{% alert color="primary" %}}
 
-Developers can add ActiveX controls directly to Microsoft Visio drawings to make the Visio diagram interactive by using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net).
+Developers can add ActiveX controls directly to Microsoft Visio drawings to make the Visio diagram interactive by using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
 {{% /alert %}}
 ## **Insert an ActiveX Control Programming Sample**

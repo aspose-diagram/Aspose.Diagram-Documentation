@@ -23,7 +23,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Java Features](/diagram/java/product-overview/#productoverview-richfeatures)
 - [Aspose.Diagram for Java Limitations](/diagram/java/why-not-automation/)
 - [Aspose.Diagram for Java Release Notes](/diagram/java/release-notes/)
-- [Aspose.Diagram for Java Product Page](https://products.aspose.com/diagram/java)
+- [Aspose.Diagram for Java Product Page](https://products.aspose.com/diagram/java/)
 - [Download Aspose.Diagram for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram)
 - [Install Aspose.Diagram for Java from Aspose Repository](/diagram/java/installation/)
 - [Aspose.Diagram for Java API Reference Guide](https://apireference.aspose.com/java/diagram)

@@ -29,7 +29,7 @@ The code snippets below adds shape's hyperlink data.
 ## **Get Hyperlinks Data of the Visio Shapes**
 It is possible to get a shape's hyperlink data in a similar way that you [reading Visio shape data]().
 
-Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data]() using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java)
+Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data]() using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/)
 
 In multipage Visio drawings, hyperlinks can move you from one page to another. You also can link your drawing to a web page or a file on your system.
 

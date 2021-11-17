@@ -81,7 +81,7 @@ newPage.copy(diagram.getPages().getPage("Page-1"));
 
 {{< /highlight >}}
 ## **Insert a Blank Page into a Visio Drawing**
-[Aspose.Diagram for Java](https://products.aspose.com/diagram/java) can insert a new blank page into the Microsoft Office Visio drawing. This example topic describes how to do so.
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) can insert a new blank page into the Microsoft Office Visio drawing. This example topic describes how to do so.
 
 The Add method, exposed by the Pages collection, allows developers to add a new blank page in the Visio diagram. The page ID should be assigned.
 ### **Insert a Blank Page Programming Sample**

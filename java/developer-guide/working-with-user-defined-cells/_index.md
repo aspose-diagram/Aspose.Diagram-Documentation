@@ -6,7 +6,7 @@ url: /java/working-with-user-defined-cells/
 ---
 
 ## **Read User-defined Cells of the Visio Shapes**
-Users insert text fields into shapes to display additional information. **User-defined Cells** is the one branch of these fields and this branch uses information entered in the Value cell of the User-defined Cells section in the shape's ShapeSheet. Developers can insert and read all user defined cells using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java).
+Users insert text fields into shapes to display additional information. **User-defined Cells** is the one branch of these fields and this branch uses information entered in the Value cell of the User-defined Cells section in the shape's ShapeSheet. Developers can insert and read all user defined cells using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
 The Users collection exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) class supports the com.aspose.diagram.User object. The [User](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/User) class can be used to read properties. There are a few user-defined cells as you can see in the following image:
 
