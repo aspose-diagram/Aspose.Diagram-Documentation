@@ -47,6 +47,4 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](http://goo.gl/KxosuA)
-- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/10/ExtractAllImagesFromVisio.Aspose.Diagram.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/ExtractAllImagesFromVisio%20%28Aspose.Diagram%29.zip)
