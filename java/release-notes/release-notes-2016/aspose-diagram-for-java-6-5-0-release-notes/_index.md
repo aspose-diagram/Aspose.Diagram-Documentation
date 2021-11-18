@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-6-5-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 6.5.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-diagram/6.5.0/)
+This page contains release notes for [Aspose.Diagram for Java 6.5.0](https://repository.aspose.com/repo/com/aspose/aspose-diagram/6.5.0/)
 
 {{% /alert %}} 
 ## **Other Improvements and Changes**

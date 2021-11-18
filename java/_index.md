@@ -26,7 +26,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Java Product Page](https://products.aspose.com/diagram/java/)
 - [Download Aspose.Diagram for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram)
 - [Install Aspose.Diagram for Java from Aspose Repository](/diagram/java/installation/)
-- [Aspose.Diagram for Java API Reference Guide](https://apireference.aspose.com/java/diagram)
+- [Aspose.Diagram for Java API Reference Guide](https://apireference.aspose.com/diagram/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-diagram/Aspose.Diagram-for-Java)
 - [Aspose.Diagram for Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

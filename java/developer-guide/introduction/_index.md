@@ -13,11 +13,11 @@ This article explains how to retrieve that information.
 
 {{% /alert %}} 
 ## **Get the Version of the Aspose.Diagram for Java Library**
-The getVersion() memthod exposed by the [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Diagram) class and the getBuildNumberCreated() method exposed by the [DocumentProperties](https://apireference.aspose.com/java/diagram/com.aspose.diagram/DocumentProperties) class are used to determine the version and full build number of the Microsoft Visio instance used to create the document.
+The getVersion() memthod exposed by the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class and the getBuildNumberCreated() method exposed by the [DocumentProperties](https://apireference.aspose.com/diagram/java/com.aspose.diagram/DocumentProperties) class are used to determine the version and full build number of the Microsoft Visio instance used to create the document.
 ### **Determining the Version of Microsoft Visio that's Created, Edited and Saved a Document**
-The getBuildNumberEdited() method exposed by the [DocumentProperties](https://apireference.aspose.com/java/diagram/com.aspose.diagram/DocumentProperties) class is used to determine the full build number of the Microsoft Visio instance used to edit the document.
+The getBuildNumberEdited() method exposed by the [DocumentProperties](https://apireference.aspose.com/diagram/java/com.aspose.diagram/DocumentProperties) class is used to determine the full build number of the Microsoft Visio instance used to edit the document.
 
-The getTimeCreated(), getTimeEdited(), getTimePrinted() and getTimeSaved() methods exposed by the [DocumentProperties](https://apireference.aspose.com/java/diagram/com.aspose.diagram/DocumentProperties) class are used to determine the time that the Microsoft Visio document was created, last edited, last printed and last saved.
+The getTimeCreated(), getTimeEdited(), getTimePrinted() and getTimeSaved() methods exposed by the [DocumentProperties](https://apireference.aspose.com/diagram/java/com.aspose.diagram/DocumentProperties) class are used to determine the time that the Microsoft Visio document was created, last edited, last printed and last saved.
 
 You can also set these properties to change the information in the file.
 
@@ -31,7 +31,7 @@ The code samples below show how to retrieve information about what created the f
 ## **Writing Microsoft Visio Document Summary Info**
 Microsoft Visio lets you define a number of document summary information properties to help you and your colleagues identify a diagram. Summary properties, for example title, subject, author and description, makes the file easier to find when searching, and easier to recognize when browsing files.
 
-The [DocumentProperties](https://apireference.aspose.com/java/diagram/com.aspose.diagram/DocumentProperties) class exposes a number of properties to set or get a Microsoft Visio diagram's summary information. Aspose.Diagram for Java can update the drawing summary information and then write the drawing file back to VDX.
+The [DocumentProperties](https://apireference.aspose.com/diagram/java/com.aspose.diagram/DocumentProperties) class exposes a number of properties to set or get a Microsoft Visio diagram's summary information. Aspose.Diagram for Java can update the drawing summary information and then write the drawing file back to VDX.
 
 {{% alert color="primary" %}} 
 
@@ -41,7 +41,7 @@ Please note that you cannot set values against the **Application** and **Prod
 ### **Writing Microsoft Visio Document Summary Info**
 To update the drawing summary information of an existing VDX or VSD file:
 
-1. Create an instance of the [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Diagram) class.
+1. Create an instance of the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class.
 1. Set properties exposed by Diagram.getDocumentProps() method to define the summary information for the Visio drawing file.
 1. Call the Diagram class' save() method to write the Visio drawing file to VDX.
 

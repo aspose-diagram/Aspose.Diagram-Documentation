@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-16-11-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 16.11.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-diagram/16.11.0/).
+This page contains release notes for [Aspose.Diagram for Java 16.11.0](https://repository.aspose.com/repo/com/aspose/aspose-diagram/16.11.0/).
 
 {{% /alert %}} 
 ## **Other Improvements and Changes**
@@ -40,5 +40,5 @@ It allows to get an ActiveX control from a Shape object and set its properties.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-1. [Insert a Text Shape in the Visio Page](http://www.aspose.com/docs/display/diagramjava/Working+with+Text#WorkingwithText-InsertaTextShapeintheVisioPage)
-1. [Retrieve an ActiveX Control from a Shape Object to Modify Properties](http://www.aspose.com/docs/display/diagramjava/Retrieve+an+ActiveX+Control+from+a+Shape+Object+to+Modify+Properties)
+1. [Insert a Text Shape in the Visio Page](/diagram/java/working-with-text/#insert-a-text-shape-in-the-visio-page)
+1. [Retrieve an ActiveX Control from a Shape Object to Modify Properties](/diagram/java/retrieve-an-activex-control-from-a-shape-object-to-modify-properties/)

@@ -29,6 +29,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for .NET Release Notes](/diagram/net/release-notes/)
 - [Aspose.Diagram for .NET Product Page](https://products.aspose.com/diagram/net/)
 - [Install Aspose.Diagram for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Diagram/)
-- [Aspose.Diagram for .NET API Reference Guide](https://apireference.aspose.com/net/diagram)
+- [Aspose.Diagram for .NET API Reference Guide](https://apireference.aspose.com/diagram/net)
 - [Aspose.Diagram for .NET Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

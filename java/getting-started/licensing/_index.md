@@ -36,7 +36,7 @@ The license can be loaded from a stream or file in the following locations:
 1. Explicit path.
 1. The folder that contains the Aspose.Diagram.jar.
 
-Use the [License.setLicense()](https://apireference.aspose.com/java/diagram/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
+Use the [License.setLicense()](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
 #### **Example 1**
 In this example **Aspose.Diagram** will attempt to find the license file in the folder that contain the JARs of your application.
 
@@ -62,7 +62,7 @@ license.setLicense(new java.io.FileInputStream("Aspose.Diagram.Java.lic"));
 
 {{< /highlight >}}
 ### **Validate the License**
-It is possible to validate if the license has been set properly or not. The [License](https://apireference.aspose.com/java/diagram/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
+It is possible to validate if the license has been set properly or not. The [License](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
 
 **Java**
 
