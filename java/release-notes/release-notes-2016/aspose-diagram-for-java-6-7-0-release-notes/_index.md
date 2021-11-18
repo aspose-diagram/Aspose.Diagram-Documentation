@@ -28,5 +28,5 @@ It detects and returns the information about the format of a stored Visio diagra
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Detect the Format of a Visio File from an InputStream](http://www.aspose.com/docs/display/diagramjava/Introduction#Introduction-DetecttheFormatofaVisioFilefromanInputStream)
-- [Setting Cells in the Event Section of ShapeSheet](http://www.aspose.com/docs/display/diagramjava/Setting+Cells+in+the+Event+Section+of+ShapeSheet)
+- [Detect the Format of a Visio File from an InputStream](/diagram/java/introduction/#Introduction-DetecttheFormatofaVisioFilefromanInputStream)
+- [Setting Cells in the Event Section of ShapeSheet](/diagram/java/setting-cells-in-the-event-section-of-shapesheet/)

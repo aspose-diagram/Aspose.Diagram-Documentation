@@ -52,4 +52,4 @@ There are no public API changes in the version 16.10.0 of Aspose.Diagram for .NE
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Create Master from Scratch](http://www.aspose.com/docs/display/diagramnet/Working+with+Masters#WorkingwithMasters-CreateMasterfromScratch)
+- [Create Master from Scratch](/diagram/net/working-with-masters/#create-master-from-scratch)

@@ -21,9 +21,9 @@ This document describes changes to the Aspose.Diagram API from version 6.0.0 to 
 - **Adds LoadFormat Property in FileFormatInfo** 
   - It gets the detected load format.
 
-Developers can easily detect the format of any Visio file. This help topic illustrates how to detect the Visio file format (using a file path or stream) and check its extension: [Detect the Format of Visio File](http://www.aspose.com/docs/display/diagramjava/Introduction#Introduction-DetecttheFormatofVisioFile)
+Developers can easily detect the format of any Visio file. This help topic illustrates how to detect the Visio file format (using a file path or stream) and check its extension: [Detect the Format of Visio File](/diagram/java/introduction/#Introduction-DetecttheFormatofVisioFile)
 ### **Control the Export of Hidden Visio Pages on Saving**
 ##### **Adds setExportHiddenPage in SVGSaveOptions, XPSSaveOptions, ImageSaveOptions, HTMLSaveOptions and PdfSaveOptions Classes**
 - It defines whether need to export the hidden Visio pages or not.
 
-Developers may include or exclude hidden Visio pages on saving a Visio diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. This help topic illustrates how to do so: [Control the Export of Hidden Visio Pages on Saving](http://www.aspose.com/docs/display/diagramjava/Set+Orientation+and+Control+the+Export+of+Hidden+Visio+Pages+on+Saving#SetOrientationandControltheExportofHiddenVisioPagesonSaving-ControltheExportofHiddenVisioPagesonSaving)
+Developers may include or exclude hidden Visio pages on saving a Visio diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. This help topic illustrates how to do so: [Control the Export of Hidden Visio Pages on Saving](/diagram/java/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/#control-the-export-of-hidden-visio-pages-on-saving)

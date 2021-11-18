@@ -68,9 +68,9 @@ To download IntellliJ IDEA
   - In Search Box type: "Aspose"
   - Select "**Aspose.Diagram Java for IntelliJ IDEA Maven**" plugin to install.
 ## **Installing**
-[Installing Aspose.Diagram for IntelliJ IDEA - Maven](http://www.aspose.com/docs/display/diagramjava/Installing+and+Using+Aspose.Diagram+for+IntelliJ+IDEA+-+Maven#InstallingandUsingAspose.DiagramforIntelliJIDEA-Maven-Installing)
+[Installing Aspose.Diagram for IntelliJ IDEA - Maven](/diagram/java/installing-and-using-aspose-diagram-for-intellij-idea-maven/#installing)
 ## **Using**
-[Using Aspose.Diagram for IntelliJ IDEA - Maven](http://www.aspose.com/docs/display/diagramjava/Installing+and+Using+Aspose.Diagram+for+IntelliJ+IDEA+-+Maven#InstallingandUsingAspose.DiagramforIntelliJIDEA-Maven-Using)
+[Using Aspose.Diagram for IntelliJ IDEA - Maven](/diagram/java/installing-and-using-aspose-diagram-for-intellij-idea-maven/#using)
 ## **Video Demo**
 Please check [the video](https://youtu.be/-xC88uuv4eI) below to see Aspose.Diagram Maven Project Wizard and Aspose.Diagram Example Wizard in action.
 ## **Support, Extend and Contribute**

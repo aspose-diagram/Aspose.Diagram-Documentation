@@ -38,6 +38,6 @@ It contains the fill formatting values for the shape inherit by the parent style
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Add a new Layer in the Visio Page](http://www.aspose.com/docs/display/diagramjava/Working+with+Layers#WorkingwithLayers-AddaLayerintheVisioPageSheet)
-- [Insert an ActiveX Control in the Visio Diagram](http://www.aspose.com/docs/display/diagramjava/Insert+an+ActiveX+Control+in+the+Visio+Diagram)
-- [Read Inherited Fill Data of a Visio Shape](http://www.aspose.com/docs/display/diagramjava/Set+Visio+Shape%27s+XForm%2C+Line+and+Fill+Data#SetVisioShape%27sXForm%2CLineandFillData-RetrieveInheritedFillDataofaVisioShape)
+- [Add a new Layer in the Visio Page](/diagram/java/working-with-layers/#add-a-layer-in-the-visio-pagesheet)
+- [Insert an ActiveX Control in the Visio Diagram](/diagram/java/insert-an-activex-control-in-the-visio-diagram/)
+- [Read Inherited Fill Data of a Visio Shape](/diagram/java/set-visio-shape-s-xform-line-and-fill-data/#retrieve-inherited-fill-data-of-a-visio-shape)
