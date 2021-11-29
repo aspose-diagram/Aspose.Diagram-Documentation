@@ -44,6 +44,6 @@ It contains the fill formatting values for the shape inherit by the parent style
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Insert an ActiveX Control in the Visio Diagram](http://www.aspose.com/docs/display/diagramnet/Insert+an+ActiveX+Control+in+the+Visio+Diagram)
-- [Retrieve Inherited Fill Data of a Visio Shape](http://www.aspose.com/docs/display/diagramnet/Set+Visio+Shape%27s+XForm%2C+Line+and+Fill+Data#SetVisioShape%27sXForm%2CLineandFillData-RetrieveInheritedFillDataofaVisioShape)
-- [Add a new Layer in the Visio Diagram](http://www.aspose.com/docs/display/diagramnet/Working+with+Layers#WorkingwithLayers-AddanewLayerintheVisioDiagram)
+- [Insert an ActiveX Control in the Visio Diagram](/diagram/net/insert-an-activex-control-in-the-visio-diagram/)
+- [Retrieve Inherited Fill Data of a Visio Shape](/diagram/net/set-visio-shape-s-xform-line-and-fill-data/#retrieve-inherited-fill-data-of-a-visio-shape)
+- [Add a new Layer in the Visio Diagram](/diagram/net/working-with-layers/#add-a-new-layer-in-the-visio-diagram)

@@ -42,5 +42,5 @@ It defines whether need to export the hidden Visio pages or not.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Control the Export of Hidden Visio Pages on Saving](http://www.aspose.com/docs/display/diagramnet/Set+Orientation+and+Control+the+Export+of+Hidden+Visio+Pages+on+Saving#SetOrientationandControltheExportofHiddenVisioPagesonSaving-ControltheExportofHiddenVisioPagesonSaving)
-- [Detect the Format of Visio File](http://www.aspose.com/docs/display/diagramnet/Introduction#Introduction-DetecttheFormatofVisioFile)
+- [Control the Export of Hidden Visio Pages on Saving](/diagram/net/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/#control-the-export-of-hidden-visio-pages-on-saving)
+- [Detect the Format of Visio File](/diagram/net/introduction/#detect-the-format-of-visio-file)

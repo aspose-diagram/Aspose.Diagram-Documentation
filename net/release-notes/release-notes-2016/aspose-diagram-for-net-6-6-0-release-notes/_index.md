@@ -88,5 +88,5 @@ It represents an image of ole object as a byte array.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Manipulate the Embedded OLE Objects in Visio Diagram](http://www.aspose.com/docs/display/diagramnet/Manipulate+the+Embedded+OLE+Objects+in+Visio+Diagram)
-- [Modify VBA Module Code in Visio Diagram](http://www.aspose.com/docs/display/diagramnet/Create%2C+Update%2C+Layout+and+Auto-Fit+Shapes#Create%2CUpdate%2CLayoutandAuto-FitShapes-ModifyVBAModuleCodeinVisioDiagram)
+- [Manipulate the Embedded OLE Objects in Visio Diagram](/diagram/net/manipulate-the-embedded-ole-objects-in-visio-diagram/)
+- [Modify VBA Module Code in Visio Diagram](/diagram/net/create-update-layout-and-auto-fit-shapes/#modify-vba-module-code-in-visio-diagram)
