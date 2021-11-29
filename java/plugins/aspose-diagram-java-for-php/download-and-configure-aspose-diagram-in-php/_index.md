@@ -8,7 +8,7 @@ url: /java/download-and-configure-aspose-diagram-in-php/
 ## **Download Required Libraries**
 Download required libraries mentioned below. These are the required for executing Aspose.Diagram Java for Ruby examples.
 
-- [Aspose.Diagram for Java Component](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-diagram/)
+- [Aspose.Diagram for Java Component](https://repository.aspose.com/repo/com/aspose/aspose-diagram/)
 ## **Download Examples from Social Coding Sites**
 Following releases of running examples are available to download on below mentioned social coding sites:
 

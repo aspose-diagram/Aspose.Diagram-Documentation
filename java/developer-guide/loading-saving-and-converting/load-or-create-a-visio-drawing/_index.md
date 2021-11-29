@@ -6,7 +6,7 @@ url: /java/load-or-create-a-visio-drawing/
 ---
 
 ## **Visio Diagram Load Overview**
-The [Diagram](https://apireference.aspose.com/java/diagram/com.aspose.diagram/Diagram) class represents a Microsoft Office Visio diagram loaded into the memory. The Diagram class has several overloaded constructors allowing developers to create a blank drawing or to load one from a file or stream.
+The [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class represents a Microsoft Office Visio diagram loaded into the memory. The Diagram class has several overloaded constructors allowing developers to create a blank drawing or to load one from a file or stream.
 ## **Creating a New Visio Drawing**
 Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then add shapes and connectors to build up the diagram.
 ### **Create Visio Drawing Programming Sample**

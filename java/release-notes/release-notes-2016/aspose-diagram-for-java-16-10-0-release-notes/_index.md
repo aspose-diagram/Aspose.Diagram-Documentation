@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-16-10-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 16.10.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-diagram/16.10.0/)
+This page contains release notes for [Aspose.Diagram for Java 16.10.0](https://repository.aspose.com/repo/com/aspose/aspose-diagram/16.10.0/)
 
 {{% /alert %}} 
 ## **Other Improvements and Changes**
@@ -54,4 +54,4 @@ There are no public API changes in the version 16.10.0 of Aspose.Diagram for Jav
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Create Master from Scratch](http://www.aspose.com/docs/display/diagramjava/Working+with+Masters#WorkingwithMasters-CreateMasterfromScratch)
+- [Create Master from Scratch](/diagram/java/working-with-masters/#create-master-from-scratch)

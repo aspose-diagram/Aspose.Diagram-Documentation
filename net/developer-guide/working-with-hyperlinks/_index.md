@@ -25,7 +25,7 @@ The code snippet below adds shape's hyperlink data.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.cs" >}}
 ## **Get Hyperlinks Data of the Visio Shapes**
-Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net).
+Developers can retrieve all hyperlinks from a Visio shape in the same way as they [read Visio shape data](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
 In the multi page Visio drawing, hyperlinks can navigate you from one shape to many other types of the links. [HyperlinkCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/hyperlinkcollection) exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class allows developers to retrieve hyperlinks.
 

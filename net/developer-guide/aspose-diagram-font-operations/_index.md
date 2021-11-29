@@ -33,10 +33,10 @@ Aspose.Diagram API requires access to the accurate font in order to properly ren
 #### **Notification of Missing Fonts and Font Substitution Programming Sample**
 To be notified of font substitution during rendering:
 
-1. Create a class that implements the [IWarningCallback](https://apireference.aspose.com/net/diagram/aspose.diagram/IWarningCallback)
+1. Create a class that implements the [IWarningCallback](https://apireference.aspose.com/diagram/net/aspose.diagram/IWarningCallback)
 1. Pass it to the PdfSaveOptions.WarningCallback property.
 
-During saving of the drawing the instance of [IWarningCallback](https://apireference.aspose.com/net/diagram/aspose.diagram/IWarningCallback) is called if there are any potential fidelity issues with the drawing. In this case, we choose to only process warnings that are of font substitution and print the warning to the screen. The below example demonstrates how to receive notifications of font substitutions by using [IWarningCallback](https://apireference.aspose.com/net/diagram/aspose.diagram/IWarningCallback).
+During saving of the drawing the instance of [IWarningCallback](https://apireference.aspose.com/diagram/net/aspose.diagram/IWarningCallback) is called if there are any potential fidelity issues with the drawing. In this case, we choose to only process warnings that are of font substitution and print the warning to the screen. The below example demonstrates how to receive notifications of font substitutions by using [IWarningCallback](https://apireference.aspose.com/diagram/net/aspose.diagram/IWarningCallback).
 
 **C#**
 
@@ -66,7 +66,7 @@ diagram.Save(dataDir + "NotificationofMissingFonts_Out.pdf", saveOp);
 
 {{< /highlight >}}
 #### **Implementing the IWarningCallback**
-The last step is to create the class implementing the [IWarningCallback](https://apireference.aspose.com/net/diagram/aspose.diagram/IWarningCallback) interface. This class will print out any warnings of font substitution to the console. The below example demonstrates how to implement the IWarningCallback to be notified of any font substitution during document save.
+The last step is to create the class implementing the [IWarningCallback](https://apireference.aspose.com/diagram/net/aspose.diagram/IWarningCallback) interface. This class will print out any warnings of font substitution to the console. The below example demonstrates how to implement the IWarningCallback to be notified of any font substitution during document save.
 
 **C#**
 

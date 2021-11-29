@@ -6,7 +6,7 @@ url: /java/working-with-text-boxes/
 ---
 
 ## **Format Text in the Visio Shape's Text Block Section**
-Aspose.Diagram API allows developers to control the text direction, alignment, margins, background color, background color transparency, and default tab stop position of text in a shape's text block. They can interact with these properties programmatically using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java).
+Aspose.Diagram API allows developers to control the text direction, alignment, margins, background color, background color transparency, and default tab stop position of text in a shape's text block. They can interact with these properties programmatically using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 ### **Set the direction, alignment, margins, background color, transparency, and default tab stop position of the text in a Shape's Text Block**
 The text block format section of the Visio shape sheet contains the formatting information. The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) class offers [TextBlock](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/TextBlock) property to get or set the visual appearance of the shape's text.
 ### **Format Text Programming Sample**

@@ -17,7 +17,7 @@ If you want to try Aspose.Diagram out without evaluation limitations, request a 
 ## **Applying a License**
 You can download an evaluation version of **Aspose.Diagram** for Java from [Aspose Repository](https://repository.aspose.com/repo/com/aspose/aspose-diagram/). The evaluation version provides absolutely the same capabilities as the licensed version of the product. Furthermore, evaluation version simply becomes licensed when you purchase a license and add a couple of lines of code to apply the license.
 
-Once you are happy with your evaluation of **Aspose.Diagram**, you can [purchase a license](https://purchase.aspose.com/order-online-step-1-of-8.aspx) at the Aspose website. Make yourself familiar with the different subscription types offered. If you have any questions, do not hesitate to contact the Aspose sales team.
+Once you are happy with your evaluation of **Aspose.Diagram**, you can [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different subscription types offered. If you have any questions, do not hesitate to contact the Aspose sales team.
 
 Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
 
@@ -36,7 +36,7 @@ The license can be loaded from a stream or file in the following locations:
 1. Explicit path.
 1. The folder that contains the Aspose.Diagram.jar.
 
-Use the [License.setLicense()](https://apireference.aspose.com/java/diagram/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
+Use the [License.setLicense()](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
 #### **Example 1**
 In this example **Aspose.Diagram** will attempt to find the license file in the folder that contain the JARs of your application.
 
@@ -62,7 +62,7 @@ license.setLicense(new java.io.FileInputStream("Aspose.Diagram.Java.lic"));
 
 {{< /highlight >}}
 ### **Validate the License**
-It is possible to validate if the license has been set properly or not. The [License](https://apireference.aspose.com/java/diagram/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
+It is possible to validate if the license has been set properly or not. The [License](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
 
 **Java**
 

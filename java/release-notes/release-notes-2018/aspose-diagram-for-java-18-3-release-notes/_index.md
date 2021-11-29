@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-18-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 18.3](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-diagram/18.3/).
+This page contains release notes for [Aspose.Diagram for Java 18.3](https://repository.aspose.com/repo/com/aspose/aspose-diagram/18.3/).
 
 {{% /alert %}} 
 ## **Improvements and Changes**

@@ -72,4 +72,4 @@ There are no public API changes in the version 6.7.0 of Aspose.Diagram for .NET.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-- [Setting Cells in the Event Section of ShapeSheet](http://www.aspose.com/docs/display/diagramnet/Setting+Cells+in+the+Event+Section+of+ShapeSheet)
+- [Setting Cells in the Event Section of ShapeSheet](/diagram/net/setting-cells-in-the-event-section-of-shapesheet/)

@@ -47,7 +47,7 @@ diagram.Save(stream, SaveFileFormat.HTML)
 {{< /highlight >}}
 ### **Copy Themes and PageSheet from Another Visio**
 Diagram class offers CopyTheme method and PageSheet class offers Copy method to accomplish the goal of copying a shape and other manipulation tasks.
-Example codes: [Copy Shapes from an Existing Visio](http://www.aspose.com/docs/display/diagramnet/Copy+Shapes+from+an+Existing+Visio)
+Example codes: [Copy Shapes from an Existing Visio](/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)
 ### **VSTX and VSSX Saving Options are added in the SaveFileFormat**
 Previously, Aspose.Diagram API had supported reading and writing VSDX format, but now we have added support of writing diagrams in the VSTX and VSSX formats too. Example codes:
 

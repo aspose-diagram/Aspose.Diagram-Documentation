@@ -63,7 +63,7 @@ When you run the project, it prints a sample document on the specified printer. 
 
 {{% /alert %}}
 ## **Printing a Diagram**
-[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) provides four overloads methods for printing of the diagrams. These methods are flexible enough to print the diagram to the default printer or to any of the available printer with customized settings. You only need to select the appropriate print method according to the requirement.
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) provides four overloads methods for printing of the diagrams. These methods are flexible enough to print the diagram to the default printer or to any of the available printer with customized settings. You only need to select the appropriate print method according to the requirement.
 ### **Printing to default printer**
 Printing of the diagram to the default printer is quite simple in Aspose.Diagram for .NET. Perform the following steps in order to print the diagram to default printer:
 

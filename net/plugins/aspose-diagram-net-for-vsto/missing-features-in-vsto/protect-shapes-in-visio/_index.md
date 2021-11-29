@@ -71,6 +71,4 @@ diagram.Save("ProtectedShapesFile.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](http://goo.gl/CDS9pd)
-- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/10/ProtectUnprotectShapes.Aspose.Diagram.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/ProtectUnprotectShapes%20%28Aspose.Diagram%29.zip)

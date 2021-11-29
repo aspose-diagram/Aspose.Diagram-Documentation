@@ -6,7 +6,7 @@ url: /java/working-with-print/
 ---
 
 ## **Printing a Diagram**
-[Aspose.Diagram for Java](https://products.aspose.com/diagram/java) provides four overloads methods for printing of the diagrams. These methods are flexible enough to print the diagram to the default printer or to any of the available printer with customized settings. You only need to select the appropriate print method according to the requirement.
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) provides four overloads methods for printing of the diagrams. These methods are flexible enough to print the diagram to the default printer or to any of the available printer with customized settings. You only need to select the appropriate print method according to the requirement.
 ### **Printing to specific printer**
 Printing of the diagram to the specific printer requires the name of the printer as parameter to the Print method of the Diagram. Perform the following steps in order to print the diagram to the desired printer:
 

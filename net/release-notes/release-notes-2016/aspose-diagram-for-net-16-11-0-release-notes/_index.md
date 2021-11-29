@@ -42,5 +42,5 @@ It allows to get an ActiveX control from a Shape object and set its properties.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-1. [Insert a Text Shape in the Visio Page](http://www.aspose.com/docs/display/diagramnet/Working+with+Text#WorkingwithText-InsertaTextShapeintheVisioPage)
-1. [Retrieve an ActiveX Control from a Shape to Modify Properties](http://www.aspose.com/docs/display/diagramnet/Retrieve+an+ActiveX+Control+from+a+Shape+Object+to+Modify+Properties)
+1. [Insert a Text Shape in the Visio Page](/diagram/net/working-with-text/#insert-a-text-shape-in-the-visio-page)
+1. [Retrieve an ActiveX Control from a Shape to Modify Properties](/diagram/net/retrieve-an-activex-control-from-a-shape-object-to-modify-properties/)
