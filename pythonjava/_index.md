@@ -17,8 +17,8 @@ Aspose.Diagram for Python via Java API offers all the useful features of Aspose.
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - Aspose.Diagram for Java Online Documentation (Aspose.Diagram for Python via Java is ported from Aspose.Diagram for Java. So, you can use the same documentation)
-- Aspose.Diagram for Python via Java Features
-- Aspose.Diagram for Python via Java Limitations and API Differences
+- Aspose.Diagram for Python via Java Features(https://docs.aspose.com/diagram/java/aspose-diagram-for-python-via-java-features/)
+- Aspose.Diagram for Python via Java Limitations and API Differences(https://docs.aspose.com/diagram/java/aspose-diagram-for-python-via-java-limitations-and-api-differences/)
 - [Aspose.Diagram for Python via Java Release Notes](https://docs.aspose.com/diagram/java/aspose-diagram-for-python-via-java/)
 - [Aspose.Diagram for Python via Java Product Page](https://products.aspose.com/diagram/python-java/)
 - [Download Aspose.Diagram for Python via Java](https://downloads.aspose.com/diagram/python)
