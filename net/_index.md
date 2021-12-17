@@ -1,6 +1,7 @@
 ---
 title: Aspose.Diagram for .NET
 type: docs
+description:Aspose.Diagram, is a pure .NET API for working with the Microsoft Visio Object Model.It provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 weight: 10
 url: /net/
 is_root: true
