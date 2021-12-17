@@ -5,5 +5,5 @@ weight: 10
 url: /java/public-api-changes-in-aspose-diagram-17-x/
 ---
 
-###### **This section includes the following topics:**
+**This section includes the following topics**
 - [Public API Changes in Aspose.Diagram 17.01](/diagram/java/public-api-changes-in-aspose-diagram-17-01/)
