@@ -1,5 +1,6 @@
 ---
 title: Supported File Formats
+description: Aspose Diagram for .NET supports VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 type: docs
 weight: 20
 url: /net/supported-file-formats/

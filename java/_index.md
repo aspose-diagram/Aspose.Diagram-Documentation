@@ -1,6 +1,7 @@
 ﻿---
 title: Aspose.Diagram for Java
 type: docs
+description: Aspose.Diagram is the most flexible and reliable API that allows Java Applications to create and manage Microsoft Office Visio drawings without requiring Microsoft Office Visio to be installed on the system.
 weight: 20
 url: /java/
 is_root: true
