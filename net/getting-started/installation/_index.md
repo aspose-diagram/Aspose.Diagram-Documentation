@@ -45,3 +45,5 @@ Follow these steps to reference the component using the package manager GUI:
 1. Select **online** from the left menu.
 1. Type **Aspose.Diagram** into the search box to find Aspose.Diagram for .NET.
 1. Click **Install/Update** next to the latest version of Aspose.Diagram for .NET
+
+**![Install Aspose Diagram through NuGet](installthroughnuget.png)**
