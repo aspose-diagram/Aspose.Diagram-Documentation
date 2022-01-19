@@ -6,7 +6,7 @@ url: /net/developer-guide/
 ---
 
 This Developer Guide provides information on using Aspose.Diagram in a variety of practical scenarios as MS Visio menu.
-{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="Theme" tabName9="Developer" >}}
+{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Theme" tabName6="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
     <div class="col-md-6">
@@ -42,48 +42,18 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 {{< tab tabNum="2" >}}
 <div class="row">
     <div class="col-md-6">
-        <p><li><a href="/diagram/net/add-and-retrieve-data/">Data</a></p>
+        <p>Data</p>
         <ul>
-		 <li><a href="/diagram/net/accessing-cells-of-a-worksheet/">Accessing Cells of a Worksheet</a></li>
-		 <li><a href="/diagram/net/add-and-retrieve-data/">Add and Retrieve Data</a></li>
-		 <li><a href="diagram/net/manage-worksheets/">Worksheets</a></li>
-		 <li><a href="/diagram/net/rows-and-columns/">Rows and Columns</a></li>
+		 <li><a href="/diagram/net/add-retrieve-copy-and-read-visio-shape-data/">Shape</a></li>
+		 <li><a href="/diagram/net/retrieve-get-copy-and-insert-a-page/">Page</a></li>
+		 <li><a href="/diagram/net/working-with-masters/">Master</a></li>
         </ul>
-        <p><a href="/diagram/net/cells-formatting/">Style</a></p>
+        <p>Style</p>
         <ul>
-		 <li><a href="/diagram/net/cells-number-settings/">Number</a></li>
-		 <li><a href="/diagram/net/cells-alignment-settings/">Alignment</a></li>
-		 <li><a href="/diagram/net/cells-font-settings/">Font</a></li>
-		 <li><a href="/diagram/net/cells-border-settings/">Border</a></li>
-		 <li><a href="/diagram/net/cells-fill-settings/">Fill</a></li>
-        </ul>
-        <p>Conditional Formatting</p>
-        <ul>
-		  <li><a href="/diagram/net/conditional-formatting/">Conditional Formatting</a></li>
-          <li><a href="/diagram/net/apply-advanced-conditional-formatting/">Apply Advanced Conditional Formatting</a></li>
-        </ul>       
-    </div>
-    <div class="col-md-6">        
-        <p>Sort</p>
-        <ul>
-		 <li><a href="/diagram/net/data-sorting/">Data Sorting</a></li>
-         <li><a href="/diagram/net/sort-data-in-column-with-custom-sort-list/">Sort Data in Column with Custom Sort List</a></li>
-		 <li><a href="/diagram/net/specifying-sort-warning-while-sorting-data/">Specifying Sort Warning While Sorting Data</a></li>
-        </ul>
-		 <p>Filter</p>
-        <ul>
-		 <li><a href="/diagram/net/data-filtering/">Data Filtering</a></li>
-         <li><a href="/diagram/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Apply Advanced Filter of Microsoft Excel to Display Records Meeting Complex Criteria</a></li>
-		 <li><a href="/diagram/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Get All Hidden Rows Indices after Refreshing AutoFilter</a></li>
-        </ul>
-        <p>Find&Select</p>
-        <ul>
-		<li><a href="/diagram/net/find-or-search-data/">Find or Search Data</a></li>
-        </ul>
-        <p>Cells</p>
-        <ul>
-		<li><a href="/diagram/net/inserting-and-deleting-rows-and-columns/">Inserting and Deleting Rows and Columns</a></li>
-        </ul>		
+		 <li><a href="/diagram/net/working-with-text/">Font</a></li>
+		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Line</a></li>
+		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Fill</a></li>
+        </ul>          
     </div>
 </div>
 {{< /tab >}}
