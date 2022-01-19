@@ -64,7 +64,7 @@ Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft
 			</ul>	
 			<p>Technical Support</p>
 			<ul>
-				<li><a href="https://forum.aspose.com/c/diagram/9">Aspose.Diagram for .NET Free Support Forum</a></li>
+				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for .NET Free Support Forum</a></li>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Diagram for .NET Paid Support Helpdesk</a></li>
 			</ul>
 	</div>

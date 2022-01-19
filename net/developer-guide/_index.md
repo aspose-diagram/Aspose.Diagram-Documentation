@@ -12,47 +12,29 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
     <div class="col-md-6">
         <p>Info</p>
         <ul>
-            <li><a href="/diagram/net/managing-document-properties/">Document Properties</a></li>
-            <li><a href="/diagram/net/security-features/">Security Features</a></li>
+            <li><a href="/diagram/net/document-properties/">Document Properties</a></li>
         </ul>
         <p>New</p>
         <ul>
-            <li><a href="/diagram/net/your-first-aspose-cells-application-hello-world/#code-sample-creating-a-new-workbook">Creating a New Workbook</a></li>
+            <li><a href="/diagram/net/your-first-aspose-diagram-application-hello-world/#code-sample-creating-a-new-diagram">Creating a New Diagram</a></li>
         </ul>
         <p>Open</p>
         <ul>
-            <li><a href="/diagram/net/different-ways-to-open-files/">Different Ways to Open Files</a></li>
-            <li><a href="/diagram/net/opening-different-microsoft-excel-versions-files/">Opening Different Microsoft Excel Versions Files</a></li>
-            <li><a href="/diagram/net/opening-files-with-different-formats/">Opening Files with Different Formats</a></li>
-            <li><a href="/diagram/net/get-warnings-while-loading-excel-file/">Get Warnings while Loading Excel File</a></li>
-            <li><a href="/diagram/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells</a></li>
-        </ul>
+            <li><a href="/diagram/net/load-or-create-a-visio-drawing/">Different Ways to Open Files</a></li>
+       </ul>
         <p>Save</p>
         <ul>
-            <li><a href="/diagram/net/different-ways-to-save-files/">Different Ways to Save Files</a></li>
-            <li><a href="/diagram/net/encrypting-excel-files/">Encrypting Excel Files</a></li>
-            <li><a href="/diagram/net/save-workbook-to-strict-open-xml-spreadsheet-format/">Save Workbook to Strict Open XML Spreadsheet Format</a></li>
+            <li><a href="/diagram/net/save-a-visio-drawing/">Save a visio drawing</a></li>
         </ul>
     </div>
     <div class="col-md-6">
 	   <p>Print</p>
         <ul>
-            <li><a href="/diagram/net/print-and-preview/">Print and Preview</a></li>
+            <li><a href="/diagram/net/working-with-print/">Print</a></li>
         </ul>
         <p>Export</p>
         <ul>
-            <li><a href="/diagram/net/convert-workbook-to-different-formats/">Convert Workbook to Different Formats</a></li>
-            <li><a href="/diagram/net/convert-excel-workbook-to-pdf/">Convert Excel Workbook to PDF</a></li>
-            <li><a href="/diagram/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convert Excel file to PDF format compatible with PDFA-1a</a></li>
-            <li><a href="/diagram/net/convert-excel-to-image/">Convert Workbook to Different Image Formats</a></li>
-            <li><a href="/diagram/net/track-document-conversion-progress/">Track Document Conversion Progress</a></li>
-            <li><a href="/diagram/net/convert-excel-to-html/">Convert Excel to HTML</a></li>
-            <li><a href="/diagram/net/convert-json-to-csv/">Convert JSON to CSV</a></li>
-            <li><a href="/diagram/net/convert-csv-to-json/">Convert CSV to JSON</a></li>
-        </ul>
-        <p>Options</p>
-        <ul>
-            <li><a href="/diagram/net/workbook-settings/">Workbook Settings</a></li>
+            <li><a href="/diagram/net/how-to-convert-a-visio-diagram/">Convert Diagram to Different Formats</a></li>
         </ul>
     </div>
 </div>
