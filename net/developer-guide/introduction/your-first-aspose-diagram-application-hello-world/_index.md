@@ -16,7 +16,7 @@ This tutorial shows how to create a very first application (Hello World) using A
 The steps below creates the Hello World application using the Aspose.Diagram API:
 
 1. Create an instance of the [Diagram](https://apireference.aspose.com/diagram/net/aspose.diagram/diagram) class.
-1. If you have a license, then [apply it](/net/licensing/).
+1. If you have a license, then [apply it](diagram/net/licensing/).
    If you are using the evaluation version, skip the license related code lines.
 1. Create a new Visio file, or open an existing Visio file.
 1. Create a new text box.
@@ -29,10 +29,10 @@ The implementation of the above steps is demonstrated in the examples below.
 
 The following example creates a new diagram from the scratch, writes Hello World! on the first page and saves the Visio file.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-CreateNewVisio-CreateNewVisio.cs" >}}
 
 ### **Code Sample: Opening an Existing File**
 
 The following example opens an existing Microsoft Visio template file named "Sample.vsdx", inputs "Hello World!" text in the first page and saves the diagram.
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ReadVisioDiagram-ReadVisioDiagram.cs" >}}
