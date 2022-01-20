@@ -6,7 +6,7 @@ url: /net/developer-guide/
 ---
 
 This Developer Guide provides information on using Aspose.Diagram in a variety of practical scenarios as MS Visio menu.
-{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Draw" tabName5="Design" tabName6="Developer" >}}
+{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Design" tabName5="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
     <div class="col-md-6">
@@ -42,7 +42,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 {{< tab tabNum="2" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Font</p>
+        <p>Data</p>
         <ul>
 		 <li><a href="/diagram/net/add-retrieve-copy-and-read-visio-shape-data/">Manage Shape</a></li>
 		 <li><a href="/diagram/net/retrieve-get-copy-and-insert-a-page/">Manage Page</a></li>
@@ -53,7 +53,11 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 		 <li><a href="/diagram/net/working-with-text/">Manage Text Style</a></li>
 		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Manage Line Style</a></li>
 		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Manage Fill Style</a></li>
-        </ul>          
+        </ul>  
+        <p>Layer</p>
+        <ul>
+            <li><a href="/diagram/net/working-with-layers/">Layer</a></li>
+        </ul>                
     </div>
 </div>
 {{< /tab >}}
@@ -73,10 +77,6 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         <p>Master</p>    
         <ul>
             <li><a href="/diagram/net/working-with-masters/">Master</a></li>
-        </ul>
-        <p>Layer</p>
-        <ul>
-            <li><a href="/diagram/net/working-with-layers/">Layer</a></li>
         </ul>
 		   <p>HyperLinks</p>
         <ul>
@@ -102,42 +102,6 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 {{< tab tabNum="4" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Themes</p>
-        <ul>
-        <li><a href="/cells/net/excel-themes-and-colors/">Themes and Colors</a></li>
-        </ul>
-        <p>Page Setup</p>
-        <ul>
-         <li><a href="/cells/net/setting-margins/">Setting Margins</a></li>
-         <li><a href="/cells/net/setting-page-options/">Setting Page Options</a></li>
-         <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
-         <li><a href="/cells/net/managing-page-breaks/">Managing Page Breaks</a></li>
-         <li><a href="/cells/net/set-background-picture-for-a-worksheet/">Set Background Picture for a Worksheet</a></li>
-         <li><a href="/cells/net/get-paper-width-and-height-of-page-setup-of-worksheet/">Get Paper Width and Height of Page Setup of Worksheet</a></li>
-         <li><a href="/cells/net/setting-print-options/">Setting Print Options</a></li>
-         <li><a href="/cells/net/remove-existing-printersettings-of-worksheets-in-excel-file/">Remove Existing PrinterSettings of Worksheets in Excel file</a></li>
-         <li><a href="/cells/net/implement-custom-paper-size-of-worksheet-for-rendering/">Implement Custom Paper Size of Worksheet for Rendering</a></li>
-         <li><a href="/cells/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/">Copy Page Setup Settings</a></li>
-         <li><a href="/cells/net/determine-if-paper-size-of-worksheet-is-automatic/">Determine if Paper Size of Worksheet is Automatic</a></li>
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <p>Scale to Fit</p>
-        <ul>
-		<li><a href="/cells/net/setting-page-options/#scaling-factor">Scale</a></li>
-		<li><a href="/cells/net/setting-page-options/#fittopages-options">Width and Height</a></li>
-        </ul>
-        <p>Sheet Options</p>
-        <ul>
-		<li><a href="/cells/net/show-and-hide-gridlines-and-row-column-headers/">View Gridlines and Heading</a></li>
-		<li><a href="/cells/net/setting-print-options/#set-other-print-options">Print Gridlines and Heading</a></li>
-        </ul>
-    </div>
-</div>
-{{< /tab >}}
-{{< tab tabNum="5" >}}
-<div class="row">
-    <div class="col-md-6">
         <p>Theme</p>
         <ul>
             <li><a href="/diagram/net/apply-theme-to-shape/">Apply Theme To Shape</a></li>
@@ -149,7 +113,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
     </div>
 </div>
 {{< /tab >}}
-{{< tab tabNum="6" >}}
+{{< tab tabNum="5" >}}
 <div class="row">
     <div class="col-md-6">
         <p>Controls</p>
