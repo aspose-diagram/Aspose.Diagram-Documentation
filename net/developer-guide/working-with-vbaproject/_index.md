@@ -75,7 +75,4 @@ You can download the [source Visio file](1.vsdm) and the [output Visio file](1ou
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-ModifyModule.cs" >}}
 
 ## **Advance topics**
-- [Check if Digital Signature of VBA Code is Valid](/diagram/net/check-if-digital-signature-of-vba-code-is-valid/)
 - [Check if VBA Code is Signed](/diagram/net/check-if-vba-code-is-signed/)
-- [Check if VBA Project is Protected and Locked for Viewing](/diagram/net/check-if-vba-project-is-protected-and-locked-for-viewing/)
-- [Find out if VBA Project is Protected](/diagram/net/find-out-if-vba-project-is-protected/)
