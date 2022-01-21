@@ -44,19 +44,19 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
     <div class="col-md-6">
         <p>Data</p>
         <ul>
-		 <li><a href="/diagram/net/add-retrieve-copy-and-read-visio-shape-data/">Manage Shape</a></li>
-		 <li><a href="/diagram/net/retrieve-get-copy-and-insert-a-page/">Manage Page</a></li>
-		 <li><a href="/diagram/net/working-with-masters/">Manage Master</a></li>
+		 <li><a href="/diagram/net/add-retrieve-copy-and-read-visio-shape-data/">Working with Shape</a></li>
+		 <li><a href="/diagram/net/retrieve-get-copy-and-insert-a-page/">Working with Page</a></li>
+		 <li><a href="/diagram/net/working-with-masters/">Working with Master</a></li>
         </ul>
         <p>Style</p>
         <ul>
-		 <li><a href="/diagram/net/working-with-text/">Manage Text Style</a></li>
-		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Manage Line Style</a></li>
-		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Manage Fill Style</a></li>
+		 <li><a href="/diagram/net/working-with-text/">Manageing Text Style</a></li>
+		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Line Style</a></li>
+		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Fill Style</a></li>
         </ul>  
         <p>Layer</p>
         <ul>
-            <li><a href="/diagram/net/working-with-layers/">Layer</a></li>
+            <li><a href="/diagram/net/working-with-layers/">Working with Layer</a></li>
         </ul>                
     </div>
 </div>
@@ -90,11 +90,11 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
     <div class="col-md-6">       
         <p><a href="/diagram/net/ole-objects-in-visio-diagram/">OleObject</a></p>
         <ul>
-            <li><a href="/diagram/net/manipulate-the-embedded-ole-objects-in-visio-diagram">Managing OLE Objects</a></li>
+            <li><a href="/diagram/net/manipulate-the-embedded-ole-objects-in-visio-diagram">Working with OLE Objects</a></li>
         </ul>     
         <p>Header&Footer</p>
         <ul>
-        <li><a href="/diagram/net/working-with-headers-and-footers/">Managiing Headers and Footers</a></li>
+        <li><a href="/diagram/net/working-with-headers-and-footers/">Working with Headers and Footers</a></li>
         </ul>
     </div>
 </div>
@@ -102,14 +102,20 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 {{< tab tabNum="4" >}}
 <div class="row">
     <div class="col-md-6">
+        <p>PageSetup</p>
+        <ul>
+            <li><a href="/diagram/net/setting-print-options/">Setting print Options</a></li>
+            <li><a href="/diagram/net/setting-margins/">Setting Page Margins</a></li>
+            <li><a href="/diagram/net/get-paper-width-and-height-of-page/">Getting Page Width and Height</a></li>
+        </ul>    
         <p>Theme</p>
         <ul>
             <li><a href="/diagram/net/apply-theme-to-shape/">Apply Theme To Shape</a></li>
         </ul>
        <p>AutoLayout</p>
         <ul>
-            <li><a href="/diagram/net/create-update-layout-and-auto-fit-shapes/">AutoLayout</a></li>
-        </ul>
+            <li><a href="/diagram/net/create-update-layout-and-auto-fit-shapes/">AutoLayout Shapes</a></li>
+        </ul>     
     </div>
 </div>
 {{< /tab >}}
