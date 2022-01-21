@@ -50,7 +50,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
         <p>Style</p>
         <ul>
-		 <li><a href="/diagram/net/working-with-text/">Manageing Text Style</a></li>
+		 <li><a href="/diagram/net/working-with-text/">Working with Text Style</a></li>
 		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Line Style</a></li>
 		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Fill Style</a></li>
         </ul>  
@@ -122,10 +122,15 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 {{< tab tabNum="5" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Controls</p>
+        <p>Code</p>
         <ul>
          <li><a href="/diagram/net/working-with-vbaproject/">VBA Project</a></li>
         </ul>
+        <p>shape design</p>
+        <ul>
+         <li><a href="/diagram/net/group-convert-and-verify-shapes/#Group Shapes Programming Sample">Group Shapes</a></li>
+        </ul>
+        
     </div>
 </div>
 {{< /tab >}}
