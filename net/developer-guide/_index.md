@@ -95,7 +95,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
     <div class="col-md-6">       
         <p><a href="/diagram/net/ole-objects-in-visio-diagram/">OleObject</a></p>
         <ul>
-            <li><a href="/diagram/net/manipulate-the-embedded-ole-objects-in-visio-diagram">Working with OLE Objects</a></li>
+            <li><a href="/diagram/net/manipulate-the-embedded-ole-objects-in-visio-diagram/">Working with OLE Objects</a></li>
         </ul>     
         <p>Header&Footer</p>
         <ul>
