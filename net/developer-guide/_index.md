@@ -42,19 +42,24 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
 {{< tab tabNum="2" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Data</p>
+        <p>Font</p>
         <ul>
-		 <li><a href="/diagram/net/add-retrieve-copy-and-read-visio-shape-data/">Working with Shape</a></li>
-		 <li><a href="/diagram/net/retrieve-get-copy-and-insert-a-page/">Working with Page</a></li>
-		 <li><a href="/diagram/net/working-with-masters/">Working with Master</a></li>
+		        <li><a href="/diagram/net/working-with-text/">Working with Text Style</a></li>
         </ul>
-        <p>Style</p>
+       <p>Paragraph</p>
         <ul>
-		 <li><a href="/diagram/net/working-with-text/">Working with Text Style</a></li>
-		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Line Style</a></li>
-		 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Fill Style</a></li>
+		        <li><a href="/diagram/net/working-with-shapes-paragraph/">Working with Paragraph</a></li>
+        </ul>
+       <p>Style</p>
+        <ul>
+					 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Line Style</a></li>
+					 <li><a href="/diagram/net/set-visio-shape-s-xform-line-and-fill-data/">Working with Fill Style</a></li>
         </ul>  
-        <p>Layer</p>
+        <p>Arrangement</p>
+        <ul>
+					 <li><a href="/diagram/net/auto-space-a-collection-of-shapes-in-the-visio-page/">Auto Space Shapes</a></li>
+        </ul>  
+        <p>Edit</p>
         <ul>
             <li><a href="/diagram/net/working-with-layers/">Working with Layer</a></li>
         </ul>                
@@ -126,11 +131,10 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         <ul>
          <li><a href="/diagram/net/working-with-vbaproject/">VBA Project</a></li>
         </ul>
-        <p>shape design</p>
+        <p>Shape design</p>
         <ul>
          <li><a href="/diagram/net/group-convert-and-verify-shapes/#Group Shapes Programming Sample">Group Shapes</a></li>
-        </ul>
-        
+        </ul>        
     </div>
 </div>
 {{< /tab >}}
