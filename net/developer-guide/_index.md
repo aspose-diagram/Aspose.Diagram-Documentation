@@ -85,7 +85,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
 		   <p>HyperLinks</p>
         <ul>
-            <li><a href="/cells/net/working-with-hyperlinks/">Working with Hyperlinks</a></li>
+            <li><a href="/diagram/net/working-with-hyperlinks/">Working with Hyperlinks</a></li>
         </ul>
         <p>Comments</p>
         <ul>

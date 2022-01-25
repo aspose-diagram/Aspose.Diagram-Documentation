@@ -7,7 +7,7 @@ url: /net/manipulate-the-embedded-ole-objects-in-visio-diagram/
 
 {{% alert color="primary" %}}
 
-Microsoft Office Visio supports manipulating the OLE objects in the Visio diagram. If an Excel spreadsheet or any other file resides outside of the Visio drawing and developers need to add a feature in their .NET applications to auto insert these files inside of the drawing, they can achieve this by using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
+Microsoft Office Visio supports manipulating the OLE objects in the Visio diagram. If an visio file resides outside of the Visio drawing and developers need to add a feature in their .NET applications to auto insert these files inside of the drawing, they can achieve this by using [Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
 {{% /alert %}}
 ## **Manipulate the Embedded OLE Objects Programming Sample**
