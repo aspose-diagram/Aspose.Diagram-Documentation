@@ -11,4 +11,4 @@ This document describes changes to the Aspose.Diagram API from version 5.3.0 to 
 
 {{% /alert %}} 
 ### **Refresh Milestones on the Timeline**
-The new RefreshMilestone method in MilestoneHelper class has been added. Following help topic shows, how developers can refresh milestones on the timeline shape: [Refresh Milestones on the Timeline using MilestoneHelper class](/pages/createpage.action?spaceKey=diagramjava&title=Refresh+Milestones+on+the+Timeline+in+Visio&linkCreation=true&fromPageId=18612585)
+The new RefreshMilestone method in MilestoneHelper class has been added. Following help topic shows, how developers can refresh milestones on the timeline shape: [Refresh Milestones on the Timeline using MilestoneHelper class]

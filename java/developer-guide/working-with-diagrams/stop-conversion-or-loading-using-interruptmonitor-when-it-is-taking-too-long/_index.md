@@ -7,11 +7,11 @@ url: /java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-t
 
 ## **Possible Usage Scenarios**
 
-Aspose.Diagram allows you to stop the conversion of Diagram to various formats like PDF, HTML etc. using the [**InterruptMonitor**](https://apireference.aspose.com/diagram/java/aspose.diagram/interruptmonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://apireference.aspose.com/diagram/java/aspose.diagram/interruptmonitor) both for stopping conversion as well as to stop loading huge diagram. Please use [**Diagram.InterruptMonitor**](https://apireference.aspose.com/diagram/java/aspose.diagram/diagram/properties/interruptmonitor) property for stopping conversion and [**LoadOptions.InterruptMonitor**](https://apireference.aspose.com/diagram/java/aspose.diagram/loadoptions/properties/interruptmonitor) property for loading huge diagram.
+Aspose.Diagram allows you to stop the conversion of Diagram to various formats like PDF, HTML etc. using the [**InterruptMonitor**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) object when it is taking too long. The conversion process is often both CPU and Memory intensive and it is often useful to halt it when resources are limited. You can use [**InterruptMonitor**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) both for stopping conversion as well as to stop loading huge diagram. Please use [**Diagram.InterruptMonitor**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor) property for stopping conversion and [**LoadOptions.InterruptMonitor**](https://apireference.aspose.com/diagram/java/aspose.diagram/loadoptions/properties/interruptmonitor) property for loading huge diagram.
 
 ## **Stop conversion or loading using InterruptMonitor when it is taking too long**
 
-The following sample code explains the usage of [**InterruptMonitor**](https://apireference.aspose.com/diagram/java/aspose.diagram/interruptmonitor) object. The code converts quite a large Visio file to PDF. It will take several seconds (i.e. *more than 30 seconds*) to get it converted because of these lines of code.
+The following sample code explains the usage of [**InterruptMonitor**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) object. The code converts quite a large Visio file to PDF. It will take several seconds (i.e. *more than 30 seconds*) to get it converted because of these lines of code.
 
 {{< highlight java >}}
 
