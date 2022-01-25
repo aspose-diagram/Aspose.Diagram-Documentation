@@ -10,19 +10,19 @@ The following table indicates the file formats that Aspose.Diagram for Java can 
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |
-|[VSDX](https://docs.fileformat.com/image/vsdx/)|MS Visio Drawing that uses OPC (Open Packaging Conventions)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VDX](https://docs.fileformat.com/image/vdx/)  |Drawing or chart created with Microsoft Visio|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSD](https://docs.fileformat.com/image/vsd/)|Visio Drawing (Vector Graphics File Format)|{{< emoticons/tick >}}| | |
-|[VSX](https://docs.fileformat.com/image/vsx/)|Visio Stencil XML file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VTX](https://docs.fileformat.com/image/vtx/) |XML for Visio (Template File)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSSX](https://docs.fileformat.com/image/vssx/)|VSSX file that has objects to be included in technical drawings|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSTX](https://docs.fileformat.com/image/vstx/)|MS Visio Drawing Template|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSDM](https://docs.fileformat.com/image/vsdm/)|Visio Macro-Enabled Drawing file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSSM](https://docs.fileformat.com/image/vssm/) |Stores collection of shapes|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSTM](https://docs.fileformat.com/image/vstm/) |VSTM that contains both Drawing template and macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSDX](https://docs.fileformat.com/visio/vsdx/)|MS Visio Drawing that uses OPC (Open Packaging Conventions)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VDX](https://docs.fileformat.com/visio/vdx/)  |Drawing or chart created with Microsoft Visio|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSD](https://docs.fileformat.com/visio/vsd/)|Visio Drawing (Vector Graphics File Format)|{{< emoticons/tick >}}| | |
+|[VSX](https://docs.fileformat.com/visio/vsx/)|Visio Stencil XML file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VTX](https://docs.fileformat.com/visio/vtx/) |XML for Visio (Template File)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSSX](https://docs.fileformat.com/visio/vssx/)|VSSX file that has objects to be included in technical drawings|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSTX](https://docs.fileformat.com/visio/vstx/)|MS Visio Drawing Template|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSDM](https://docs.fileformat.com/visio/vsdm/)|Visio Macro-Enabled Drawing file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSSM](https://docs.fileformat.com/visio/vssm/) |Stores collection of shapes|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM that contains both Drawing template and macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VDW](https://docs.fileformat.com/web/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}| | |
-|[VSS](https://docs.fileformat.com/image/vss/)|The Visio Stencil File Type|{{< emoticons/tick >}}| | |
-|[VST](https://docs.fileformat.com/image/vst/)|VST Template File|{{< emoticons/tick >}}| | |
+|[VSS](https://docs.fileformat.com/visio/vss/)|The Visio Stencil File Type|{{< emoticons/tick >}}| | |
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}| | |
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)| |{{< emoticons/tick >}}| |
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format| |{{< emoticons/tick >}}| |
 |[XAML](https://docs.fileformat.com/web/xaml/)|XAML format| |{{< emoticons/tick >}}| |
