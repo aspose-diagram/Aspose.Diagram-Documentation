@@ -21,7 +21,7 @@ The following table indicates the file formats that Aspose.Diagram for .NET can 
 |[VSDM](https://docs.fileformat.com/visio/vsdm/)|Visio Macro-Enabled Drawing file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSSM](https://docs.fileformat.com/visio/vssm/) |Stores collection of shapes|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM that contains both Drawing template and macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VDW](https://docs.fileformat.com/web/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}| | |
+|[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}| | |
 |[VSS](https://docs.fileformat.com/visio/vss/)|The Visio Stencil File Type|{{< emoticons/tick >}}| | |
 |[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}| | |
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)| |{{< emoticons/tick >}}| |
