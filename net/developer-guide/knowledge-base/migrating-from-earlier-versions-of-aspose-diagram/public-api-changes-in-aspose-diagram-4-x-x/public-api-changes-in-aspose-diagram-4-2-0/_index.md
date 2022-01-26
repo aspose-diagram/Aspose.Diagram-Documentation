@@ -11,6 +11,6 @@ This document describes changes to the Aspose.Diagram API from version 4.1.0 to 
 
 {{% /alert %}} 
 ### **Adds two methods GetMasterByName and IsExist to MasterCollection**
-Developers can now glue group shapes inside the container. Also, this release allows to get Master by its name and check presence of the Master by its name. You can see example topics about these features: [Get Master Object from the Visio](/pages/createpage.action?spaceKey=diagramnet&title=Get+Master+Object+from+Drawing&linkCreation=true&fromPageId=18350110), [Check Presence of a Master in the Visio Drawing](/pages/createpage.action?spaceKey=diagramnet&title=Check+Presence+of+a+Master+in+the+Visio+Drawing&linkCreation=true&fromPageId=18350110)
+Developers can now glue group shapes inside the container. Also, this release allows to get Master by its name and check presence of the Master by its name. You can see example topics about these features: [Get Master Object from the Visio], [Check Presence of a Master in the Visio Drawing]
 ### **Adds a method GlueShapesInContainer to Page**
-Previously, it was working perfect with ungroup shapes. However, there’re many points in the group shapes, it was not supported so well. We have now added group shapes support. Please see an example topic about this feature: [Glue Group Shape Inside the Container](/pages/createpage.action?spaceKey=diagramnet&title=Glue+Shapes+Inside+the+Container&linkCreation=true&fromPageId=18350110)
+Previously, it was working perfect with ungroup shapes. However, there’re many points in the group shapes, it was not supported so well. We have now added group shapes support. Please see an example topic about this feature: [Glue Group Shape Inside the Container]

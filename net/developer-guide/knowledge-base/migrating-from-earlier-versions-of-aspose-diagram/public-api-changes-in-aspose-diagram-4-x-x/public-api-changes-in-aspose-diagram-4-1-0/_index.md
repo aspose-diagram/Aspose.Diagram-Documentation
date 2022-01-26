@@ -11,4 +11,4 @@ This document describes changes to the Aspose.Diagram API from version 4.0.0 to 
 
 {{% /alert %}} 
 ### **Adds a method GlueShapes() to the Page Class**
-Developers can now easily glue shapes through the connection points. You can see an example topic about this feature: [Glue Visio Shapes Through the Connection Points](/pages/createpage.action?spaceKey=diagramnet&title=Glue+Visio+Shapes+Together+with+Connection+Point&linkCreation=true&fromPageId=18350103)
+Developers can now easily glue shapes through the connection points. You can see an example topic about this feature: [Glue Visio Shapes Through the Connection Points]
