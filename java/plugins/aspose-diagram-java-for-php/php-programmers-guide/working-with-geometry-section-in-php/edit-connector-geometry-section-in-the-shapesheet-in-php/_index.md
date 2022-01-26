@@ -91,4 +91,3 @@ print "Updated Connector Geometry Section in the ShapeSheet.".PHP_EOL;
 Download **Edit Connector Geometry Section in the ShapeSheet (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/WorkingwithGeometrySection/ShapeGeometrySection.php)
-- [CodePlex](https://asposediagramjavaphp.codeplex.com/SourceControl/latest#src/aspose/diagram/WorkingwithGeometrySection/ShapeGeometrySection.php)

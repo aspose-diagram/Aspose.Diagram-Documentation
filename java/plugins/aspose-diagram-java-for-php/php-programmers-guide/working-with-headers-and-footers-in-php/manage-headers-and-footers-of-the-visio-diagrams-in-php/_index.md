@@ -65,4 +65,3 @@ print "Done with headers and footers.".PHP_EOL;
 Download **Manage Headers and Footers of the Visio Diagrams (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/WorkingwithHeadersandFooters/HeadersAndFooters.php)
-- [CodePlex](https://asposediagramjavaphp.codeplex.com/SourceControl/latest#src/aspose/diagram/WorkingwithHeadersandFooters/HeadersAndFooters.php)

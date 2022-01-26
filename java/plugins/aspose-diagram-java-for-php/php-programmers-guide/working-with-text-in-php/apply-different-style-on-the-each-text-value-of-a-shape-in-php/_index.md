@@ -105,4 +105,3 @@ print "Added shape text and styles.".PHP_EOL;
 Download **Apply Different Style on the Each Text Value of a Shape (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/WorkingwithText/AddShapeTextAndStyles.php)
-- [CodePlex](https://asposediagramjavaphp.codeplex.com/SourceControl/latest#src/aspose/diagram/WorkingwithText/AddShapeTextAndStyles.php)
