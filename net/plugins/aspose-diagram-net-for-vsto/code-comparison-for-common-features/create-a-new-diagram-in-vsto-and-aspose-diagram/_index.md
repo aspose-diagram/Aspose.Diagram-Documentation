@@ -154,7 +154,6 @@ diagram.Save("Drawing1.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposevsto.codeplex.com/downloads/get/772932)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/6/Create.a.New.Diagram.Aspose.Diagram.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Diagram%20Vs%20VSTO%20Visio/Create%20a%20New%20Diagram%20\(Aspose.Diagram\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20New%20Diagram%20\(Aspose.Diagram\).zip)

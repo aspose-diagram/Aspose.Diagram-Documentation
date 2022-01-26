@@ -84,7 +84,6 @@ diagram.Save("Add Shapes.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Codeplex](https://asposevsto.codeplex.com/downloads/get/787347)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/wiki/Add-Shapes)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Add%20Shapes)
