@@ -1,7 +1,7 @@
 ---
 title: Installation
 type: docs
-weight: 60
+weight: 40
 url: /net/installation/
 ---
 

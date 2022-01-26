@@ -1,16 +1,18 @@
 ---
-title: Product Overview
+title: Overview
+linktitle: Overview
 type: docs
-description: Aspose.Diagram provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 weight: 10
-url: /net/product-overview/
-aliases:
-- /diargam/net/product-overview/
+url: /net/overview/
+lastmod: "2022-01-25"
+description: Overview of key-features and supported formats of Aspose.Diagram for .NET, installation and licensing manual of .NET library.
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
 {{% alert color="primary" %}} 
 
-![todo:image_alt_text](product-overview_1.png)
 
 **Welcome to Aspose.Diagram for .NET**
 
@@ -32,19 +34,7 @@ Internet Service Providers hosting multiple applications from different companie
 - FileIOPermission is restricted. This means you can only access files in your application's virtual directory hierarchy.
 
 Due to the reasons specified above, Aspose .NET components cannot be used on servers granting permission set other than Full Trust. 
-## **Technical Support**
-Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation.
 
-If you need help with Aspose.Diagram for .NET, [**visit the Aspose.Forums**](https://forum.aspose.com/c/diagram/17). Post your question in the Aspose.Diagram for .NET forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Diagram for .NET support team.
-
-When expecting a reply in the forums, please allow for time zone differences.
-
-If you have an issue with Aspose.Diagram for .NET, follow these simple steps to make sure it is resolved in the most efficient way:
-
-- Make sure you use the latest Aspose.Diagram for .NET version before reporting the issue. Refer to the [Aspose.Diagram for .NET download page](https://www.nuget.org/packages/Aspose.Diagram/) to find out about the latest version.
-- Have a look through the forums, this documentation Wiki and the [API Reference](https://apireference.aspose.com/diagram/net) for solutions before reporting the issue. Your question might already have an answer.
-- When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose.Forums since only you and Aspose developers will have access to the attached files.
-- Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 ## **Resources**
 This table lists important Aspose.Diagram for .NET technical resources.
 
@@ -55,4 +45,3 @@ This table lists important Aspose.Diagram for .NET technical resources.
 |[Aspose.Diagram for .NET download](https://www.nuget.org/packages/Aspose.Diagram/)|Download the latest version of Aspose.Diagram from here. We release often.|
 |[Aspose.Diagram for .NET support forum](https://forum.aspose.com/c/diagram/17)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.Diagram for .NET product documentation](/diagram/net/home/)|Full online documentation that includes this documentation as well as Aspose.Diagram API Reference.|
-
