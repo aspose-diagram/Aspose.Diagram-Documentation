@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-19-6-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 19.6](https://repository.aspose.com/repo/com/aspose/aspose-diagram/19.6/)
+This page contains release notes for [Aspose.Diagram for Java 19.6](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-19-6-release-notes/)
 
 {{% /alert %}} 
 ## **Improvements and Changes**

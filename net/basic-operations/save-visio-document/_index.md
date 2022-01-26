@@ -1,8 +1,10 @@
 ---
-title: Save a Visio Drawing
+title: Save Visio document programmatically
+linktitle: Save Visio document
 type: docs
-weight: 20
-url: /net/save-a-visio-drawing/
+weight: 30
+url: /net/save-visio-document/
+description: This page describes how to save Visio document to file, stream with Aspose.Diagram library.
 ---
 
 ## **Visio Drawing Save Overview**

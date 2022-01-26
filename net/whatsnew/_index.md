@@ -1,9 +1,14 @@
 ---
-title: What's new in Aspose.Diagram for .NET
+title: What's new
+linktitle: What's new
 type: docs
-description: "Aspose.Diagram for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 5
-url: /net/what-s-new-in-aspose-diagram-for-net/
+url: /net/whatsnew/
+description: "Aspose.Diagram for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
+sitemap:
+    changefreq: "monthly"
+    priority: 0.8
+lastmod: "2022-01-25"
 ---
 
 This page describes the most interesting new Aspose.Diagram features introduced in recent releases.

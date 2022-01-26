@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-18-3-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 18.3](https://repository.aspose.com/repo/com/aspose/aspose-diagram/18.3/).
+This page contains release notes for [Aspose.Diagram for Java 18.3](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-18-3-release-notes/).
 
 {{% /alert %}} 
 ## **Improvements and Changes**
@@ -40,4 +40,4 @@ diagram.save(dataDir + "Drawing1.vsdx", SaveFileFormat.VSDX);
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Move Page position in the Visio drawing](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page-html/#retrieve-get-copyandinsertapage-movepagepositioninthevisiodrawing)
+1. [Move Page position in the Visio drawing]

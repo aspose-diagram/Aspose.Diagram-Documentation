@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-18-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 18.1](https://repository.aspose.com/repo/com/aspose/aspose-diagram/18.1/).
+This page contains release notes for [Aspose.Diagram for Java 18.1](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-18-1-release-notes/).
 
 {{% /alert %}} 
 ## **Improvements and Changes**
@@ -39,4 +39,4 @@ newPage.copy(diagram.getPages().get(0));
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-1. [Copy Visio Page to another Page instance](/diagram/java/retrieve-2c-get-2c-copy-and-insert-a-page-html/#retrieve-get-copyandinsertapage-copyvisiopagetoanotherpageinstance)
+1. [Copy Visio Page to another Page instance]

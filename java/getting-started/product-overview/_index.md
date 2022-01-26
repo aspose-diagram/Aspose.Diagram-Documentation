@@ -44,7 +44,7 @@ This table lists important Aspose.Diagram for Java technical resources.
 | :- | :- |
 |[Aspose.Diagram home page](https://products.aspose.com/diagram/java/)|Product home page.|
 |[Aspose.Diagram blog](https://blog.aspose.com/category/diagram/)|Check this often for information about new releases and useful tips about Aspose.Diagram.|
-|[Aspose.Diagram for Java download](https://repository.aspose.com/repo/com/aspose/aspose-diagram/)|Download the latest version of Aspose.Diagram from here|
+|[Aspose.Diagram for Java download](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram)|Download the latest version of Aspose.Diagram from here|
 |[Aspose.Diagram for Java support forum](https://forum.aspose.com/c/diagram/17)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.Diagram for Java product documentation](/diagram/java/home/)|Full online documentation that includes this documentation as well as Aspose.Diagram API Reference.|
 

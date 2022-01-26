@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-18-4-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 18.4](https://repository.aspose.com/repo/com/aspose/aspose-diagram/18.4/).
+This page contains release notes for [Aspose.Diagram for Java 18.4](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-18-4-release-notes/).
 
 {{% /alert %}} 
 ## **Improvements and Changes**
