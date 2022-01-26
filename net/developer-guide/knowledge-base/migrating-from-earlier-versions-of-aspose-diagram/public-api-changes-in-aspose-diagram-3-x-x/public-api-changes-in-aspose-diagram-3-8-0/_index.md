@@ -11,4 +11,4 @@ This document describes changes to the Aspose.Diagram API from version 3.7.0 to 
 
 {{% /alert %}} 
 ### **A new Page class constructor is added to pass max page ID**
-Developers can easily calculate a maximum page ID and increment it. The new Page (int ID) constructor allows you to pass the page ID. You can see an example topic about this feature: [Insert a New Blank Page into a Visio Drawing](/pages/createpage.action?spaceKey=diagramnet&title=Insert+a+New+Blank+Page+into+a+Visio+Drawing&linkCreation=true&fromPageId=18350104)
+Developers can easily calculate a maximum page ID and increment it. The new Page (int ID) constructor allows you to pass the page ID. You can see an example topic about this feature: [Insert a New Blank Page into a Visio Drawing]

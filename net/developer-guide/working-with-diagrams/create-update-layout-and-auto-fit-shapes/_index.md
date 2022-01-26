@@ -14,7 +14,7 @@ With certain types of connected drawings, such as flowcharts and network diagram
 
 For example, if you're updating a large flowchart to include a new process, you can add and connect the shapes that make up the process, and then use the layout feature to automatically layout the updated drawing.
 
-The Layout method, exposed by the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class layouts the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an [LayoutOptions](http://www.aspose.com/api/net/diagram/aspose.diagram/layoutoptions) object as an argument. Use the different properties exposed by the LayoutOptions class to automatically layout shapes.
+The Layout method, exposed by the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class layouts the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an [LayoutOptions](https://apireference.aspose.com/diagram/net/aspose.diagram.autolayout/layoutoptions) object as an argument. Use the different properties exposed by the LayoutOptions class to automatically layout shapes.
 
 The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/) and [compact tree layouts](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/).
 
@@ -54,7 +54,7 @@ To layout shapes in the compact tree style:
 #### **Compact Tree Style Programming Sample**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-LayOutShapesInCompactTreeStyle-LayOutShapesInCompactTreeStyle.cs" >}}
 ## **Auto-fit the Visio Diagram**
-Aspose.Diagram API supports auto-fitting of the Visio drawing. This feature operation helps to bring outside shapes inside the Visio page boundary. Aspose.Diagram for .NET API has the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class that represents a Visio drawing. The [DiagramSaveOptions](http://www.aspose.com/api/net/diagram/aspose.diagram/diagramsaveoptions) class exposes AutoFitPageToDrawingContent property to auto fit the Visio drawing.
+Aspose.Diagram API supports auto-fitting of the Visio drawing. This feature operation helps to bring outside shapes inside the Visio page boundary. Aspose.Diagram for .NET API has the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class that represents a Visio drawing. The [DiagramSaveOptions](https://apireference.aspose.com/diagram/net/aspose.diagram.saving/diagramsaveoptions) class exposes AutoFitPageToDrawingContent property to auto fit the Visio drawing.
 
 This example work as follows:
 

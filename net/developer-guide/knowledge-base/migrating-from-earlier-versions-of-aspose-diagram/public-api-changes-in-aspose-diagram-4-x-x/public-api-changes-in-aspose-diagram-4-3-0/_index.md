@@ -11,8 +11,8 @@ This document describes changes to the Aspose.Diagram API from version 4.2.0 to 
 
 {{% /alert %}} 
 ### **Adds two methods GlueShapesInContainer and GlueShapesInContainerByID to Page**
-The Page.GlueShapesInContainer and Page.GlueShapesInContainerByID methods have been added. These methods take connection IDs or Name / NameU as parameters to glue shapes in the container. You can see example topics about these features: [Glue Shapes Inside the Container](/pages/createpage.action?spaceKey=diagramnet&title=Glue+Shapes+Inside+the+Container&linkCreation=true&fromPageId=18350109)
+The Page.GlueShapesInContainer and Page.GlueShapesInContainerByID methods have been added. These methods take connection IDs or Name / NameU as parameters to glue shapes in the container. You can see example topics about these features: [Glue Shapes Inside the Container]
 ### **Overloaded method AddMaster to Diagram**
-The overloaded Diagram.AddMaster method has been added. It takes a master name and the source diagram object as parameters. Please find details of this feature in the following help topic: [Add Master from the Stencil of Shapes](/pages/createpage.action?spaceKey=diagramnet&title=Add+Master+from+the+Stencil+of+Shapes&linkCreation=true&fromPageId=18350109)
+The overloaded Diagram.AddMaster method has been added. It takes a master name and the source diagram object as parameters. Please find details of this feature in the following help topic: [Add Master from the Stencil of Shapes]
 ### **Overloaded method AddShape to Page**
-The Page.AddShape method has been added. It’s used to import a Bitmap image to as a Visio shape. Overview of help topic: [Import Bitmap Image as a Visio Shape](/pages/createpage.action?spaceKey=diagramnet&title=Import+Bitmap+Image+as+a+Visio+Shape&linkCreation=true&fromPageId=18350109)
+The Page.AddShape method has been added. It’s used to import a Bitmap image to as a Visio shape. Overview of help topic: [Import Bitmap Image as a Visio Shape]
