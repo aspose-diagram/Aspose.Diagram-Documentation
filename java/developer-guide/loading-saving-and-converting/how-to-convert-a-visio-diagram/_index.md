@@ -121,10 +121,10 @@ The code snippets in this article takes the diagram below as an input. You can u
 
 ![todo:image_alt_text](http://i.imgur.com/P3gaA34.png)
 
-To export VSD diagram to PDF:
+To export VSD diagram to XPS:
 
 1. Create an instance of the Diagram class.
-1. Call the Diagram class' Save method and set PDF as the output format.
+1. Call the Diagram class' Save method and set XPS as the output format.
 
 The image below shows the output XPS file.
 

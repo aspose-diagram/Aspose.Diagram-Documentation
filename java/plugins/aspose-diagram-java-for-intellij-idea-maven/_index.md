@@ -81,12 +81,10 @@ Please check [the video](https://youtu.be/-xC88uuv4eI) below to see Aspose.Diagr
 
 **Please use any of the following project's issues tracker:**
 
-- [CodePlex](https://asposediagramjavaintellij.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/asposediagram/Aspose.Diagram-for-Java/issues)
 ### **Extend and Contribute**
 **Aspose.Diagram Java for IntelliJ IDEA (Maven)** plugin is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it.
 ### **Source Code**
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://asposediagramjavaintellij.codeplex.com)
-- [Github](https://github.com/asposediagram/Aspose.Diagram-for-Java/tree/master/Plugins/Aspose.Diagram-for-Java_for_IntelliJ%28Maven%29)
+- [Github](https://github.com/aspose-diagram/Aspose.Diagram-for-Java/tree/master/Plugins/Aspose_Diagram_Java_for_IntelliJ(Maven))

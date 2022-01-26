@@ -8,7 +8,7 @@ url: /java/working-with-solutionxml-elements/
 ## **Add SolutionXML Element to the Visio Drawing**
 SolutionXML is well-formed XML contained within a SolutionXML element that provides a standardized means of persisting solution data. Users may store SolutionXML at the Document level, where it is stored immediately in the VisioDocument element. Typically, this is the easiest way to store and retrieve SolutionXML using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
-The [SolutionXML](https://apireference.aspose.com/diagram/java/com.aspose.diagram/SolutionXML) class represents SolutionXML element in Visio drawings. The Add method, exposed by the [SolutionXML](hhttp://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/SolutionXML) class, allows adding a SolutionXML element.
+The [SolutionXML](https://apireference.aspose.com/diagram/java/com.aspose.diagram/SolutionXML) class represents SolutionXML element in Visio drawings. The Add method, exposed by the [SolutionXML](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/SolutionXML) class, allows adding a SolutionXML element.
 ### **Add SolutionXML Element Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-SolutionXML-AddSolutionXMLElement-AddSolutionXMLElement.java" >}}
 ## **Reading XML Values from the SolutionXML Element**
