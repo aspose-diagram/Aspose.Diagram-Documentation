@@ -13,4 +13,3 @@ Download required libraries mentioned below. These are the required for executin
 Following releases of running examples are available to download on below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/tree/master/Plugins/Aspose_Diagram_Java_for_Ruby)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest)

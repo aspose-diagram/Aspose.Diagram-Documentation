@@ -49,4 +49,3 @@ puts "Show and Hide Grids, Rulers, Guides and Page Breaks of the Visio Diagram."
 Download **Show and Hide Grids, Rulers, Guides and Page Breaks of the Visio Diagram (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/WindowElements/showhideproperties.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/WindowElements/showhideproperties.rb)
