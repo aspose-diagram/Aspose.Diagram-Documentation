@@ -1,7 +1,7 @@
 ---
 title: Plugins
 type: docs
-weight: 30
+weight: 80
 url: /java/plugins/
 ---
 

@@ -1,12 +1,11 @@
 ---
 title: Feature List
 type: docs
-weight: 20
+weight: 30
 url: /java/feature-list/
 ---
 
-
-## **Rich Features**
+### **Rich Features**
 **Create**:
 
 - Create diagrams from scratch.
@@ -21,8 +20,8 @@ url: /java/feature-list/
 **Read and write**:
 
 - Read or write Microsoft Visio 2013 VSDX format.
-- Read or write Microsoft Visio 2013 VSTX format.
 - Read or write Microsoft Visio 2013 VSSX format.
+- Read or write Microsoft Visio 2013 VSTX format.
 - Read or write Microsoft Visio 2013 VSDM format.
 - Read or write Microsoft Visio 2013 VSTM format.
 - Read or write Microsoft Visio 2013 VSSM format.
@@ -36,13 +35,11 @@ url: /java/feature-list/
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
-- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to Macromedia Flash File Format (SWF).
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **Print**:
 
 - Print Visio diagrams with high fidelity.
-- Print Visio diagram on a server via XpsPrint API
 
 **Access**:
 
@@ -51,13 +48,9 @@ url: /java/feature-list/
 **Protection**:
 
 - Protecting diagrams allow you to lock backgrounds, masters (stencils), shapes and styles so that they cannot be amended.
-## **Platform Independence**
-Use Aspose.Diagram for Java to build any type of 32-bit or 64-bit Java application including ASPJava, Web Services and WinForms. Aspose.Diagram.dll is CLS compliant, written entirely in Java and contains only safe managed code.
-## **Performance and Scalability**
-Aspose.Diagram for Java is designed to perform well on both a server or client. Aspose.Diagram for Java is a single Java assembly that can be deployed with any Java application by simply copying it. You do not have to worry about other services or modules.
-## **Benefits**
-Using Aspose.Diagram for Java in your applications gives you the following benefits:
-
-- Rich features
-- Platform independence
-- Performance and scalability
+### **Platform Supported**
+- Enterprise Web Application
+- Linux
+- Unix
+### **Performance and Scalability**
+Aspose.Diagram for Java is designed to perform well on both a server or client. Aspose.Diagram for Java assemblies can be deployed with any Java application by simply adding it. You do not have to worry about other services or modules.

@@ -1,56 +1,87 @@
 ---
 title: Licensing
 type: docs
-weight: 50
+weight: 60
 url: /java/licensing/
 ---
 
-## **Evaluate Aspose.Diagram**
-You can easily download Aspose.Diagram for Java product for evaluation purposes. Please refer to the [Aspose.Diagram for Java download page](https://www.nuget.org/packages/Aspose.Diagram/) to find out the latest version. The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
-
-The evaluation version of Aspose.Diagram (without a license specified) provides full product functionality, but it inserts an evaluation watermark in the middle of the document on open and save, and limits to read only the first ten shapes of the first page of your Visio diagram.
-
-![todo:image_alt_text](licensing_1.png)
-### **Evaluation Version Limitations**
+## **Evaluation Version Limitations**
+A free evaluation version of Aspose.Diagram for Java can be downloaded from [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram).
+### **Limitation**
 The evaluation version provides all the features except the following:
 
-- You can read only the first ten shapes of first page of Visio diagram.
-- You will also see evaluation watermark in exported images and PDF files.
+- You can read only the first ten shapes of the first page of your VSD file.
+- You will also see evaluation watermark in exoprted images and PDF files.
+
+If you want to try Aspose.Diagram out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) for more information.
+## **Applying a License**
+You can download an evaluation version of **Aspose.Diagram** for Java from [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). The evaluation version provides absolutely the same capabilities as the licensed version of the product. Furthermore, evaluation version simply becomes licensed when you purchase a license and add a couple of lines of code to apply the license.
+
+Once you are happy with your evaluation of **Aspose.Diagram**, you can [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different subscription types offered. If you have any questions, do not hesitate to contact the Aspose sales team.
+
+Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
 
 {{% alert color="primary" %}} 
 
-If you want to try Aspose.Diagram out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) for more information.
+If you want to test **Aspose.Diagram** without evaluation version limitations, request a 30-day temporary license. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) for more information.
 
 {{% /alert %}} 
-## **Applying a License**
-Once you are happy with your [evaluation](https://downloads.aspose.com/diagram/net) of Aspose.Diagram for Java, buy a license at the Aspose website: [Purchase Portal](https://purchase.aspose.com/buy). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](https://about.aspose.com/contact) and they'll be happy to help you.
+### **Setting a License**
+The license is a plain text XML file that contains details such as the product name, number of developers it is licensed to, subscription expiry date and so on. The file is digitally signed, so do not modify the file; even the inadvertent addition of an extra line break into the file will invalidate it.
 
-Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. We provide free and unlimited technical support to both licensed and evaluation users.
+You need to apply a license before performing any operations with documents. Make sure you do this before creating a Diagram object. You are only required to set a license once per application or process.
 
-The license is a plain text XML file that contains details such as the product name, number of licensed developers, subscription expiry date and so on. The file is digitally signed, so do not modify the file: even adding an extra line break to the file invalidates it.
-### **When to Apply a License**
-Follow these simple rules:
+The license can be loaded from a stream or file in the following locations:
 
-- The license only needs to be set once per application domain.
-- You need to set the license before using any other Aspose.Diagram classes.
-- Calling SetLicense multiple times is not harmful, but wastes processor time.
-- If you are developing a Windows Forms or console application, call SetLicense in the startup code, before using Aspose.Diagram classes.
-- When developing an ASPJava application, call SetLicense from the Global.asax.cs file, in the Aplication_Start protected method. It is called once when the application starts.
-- Do not call SetLicense from within the Page_Load methods since it means the license will be loaded every time a web page is loaded.
-- If you are developing a class library, you call SetLicense from a static constructor of the class that uses Aspose.Diagram. The static constructor executes before an instance of your class is created making sure Aspose.Diagram license is properly set.
-### **Apply License using File or Stream Object**
-Use the [License.SetLicense](https://apireference.aspose.com/diagram/java/aspose.diagram/license) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Diagram.dll and specify the filename, without a path, as shown below.
-#### **Loading a License from File**
-This code snippet initializes a license stored in a file or in an embedded resource.
+1. Explicit path.
+1. The folder that contains the Aspose.Diagram.jar.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-ApplyLicenseByPath-ApplyLicenseByPath.cs" >}}
-#### **Loading a License from a Stream Object**
-These code snippets initialize the license from stream.
+Use the [License.setLicense()](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
+#### **Example 1**
+In this example **Aspose.Diagram** will attempt to find the license file in the folder that contain the JARs of your application.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-ApplyLicenseUsingFileStream-ApplyLicenseUsingFileStream.cs" >}}
+**Java**
+
+{{< highlight csharp >}}
+
+ com.aspose.diagram.License license = new com.aspose.diagram.License();
+
+license.setLicense("Aspose.Diagram.Java.lic");
+
+{{< /highlight >}}
+#### **Example 2**
+Initializes a license from a stream.
+
+**Java**
+
+{{< highlight csharp >}}
+
+ com.aspose.diagram.License license = new com.aspose.diagram.License();
+
+license.setLicense(new java.io.FileInputStream("Aspose.Diagram.Java.lic"));
+
+{{< /highlight >}}
+### **Validate the License**
+It is possible to validate if the license has been set properly or not. The [License](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
+
+**Java**
+
+{{< highlight csharp >}}
+
+ License license = new License();
+
+license.setLicense("Aspose.Diagram.Java.lic");
+
+if (License.isLicensed()) {
+
+    System.out.println("License is Set!");
+
+}
+
+{{< /highlight >}}
 ## **Apply Metered License**
-Aspose.Diagram for Java API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
+Aspose.Diagram for Java API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://apireference.aspose.com/diagram/java/aspose.diagram/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [Metered](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-PublicAndPrivateKeys-PublicAndPrivateKeys.cs" >}}
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-License-PublicAndPrivateKeys-PublicAndPrivateKeys.java" >}}

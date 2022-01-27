@@ -8,7 +8,8 @@ description: Basic operations section describes the possibilities of opening and
 ---
 
 ## **Visio Diagram Load Overview**
-The [Diagram](http://www.aspose.com/api/java/diagram/aspose.diagram/diagram) class represents a Microsoft Office Visio diagram loaded into the memory. The Diagram class has several overloaded constructors allowing developers to create a blank drawing or to load one from a file or stream.
+The [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class represents a Microsoft Office Visio diagram loaded into the memory. The Diagram class has several overloaded constructors allowing developers to create a blank drawing or to load one from a file or stream.
+
 
 **Basic operations** section describes the first and simplest operation with Diagram documents in Aspose.Diagram for Java:
 

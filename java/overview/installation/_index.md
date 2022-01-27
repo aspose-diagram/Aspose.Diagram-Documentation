@@ -1,49 +1,66 @@
 ---
 title: Installation
 type: docs
-weight: 40
+weight: 50
 url: /java/installation/
 ---
 
-## **Installing Aspose.Diagram for Java through NuGet**
-NuGet is a free, open source developer-focused package management system for the Java platform intent on simplifying the process of incorporating third party libraries into a Java application during development. It is a Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects that use the Java Framework. A library or tool can easily be shared with other developers by creating a NuGet package and storing it inside a NuGet repository. When you install the package, NuGet copies files to your solution and automatically makes the necessary changes, such as adding references and changing your app.config or web.config files. If you decide to remove the library, NuGet removes files and reverses whatever changes it made to your project so that no clutter is left.
-### **Referencing Aspose.Diagram for Java**
-Taking benefit of this wonderful feature, we have bundled [Aspose.Diagram for Java](https://www.nuget.org/packages/Aspose.Diagram) libraries into a NuGet package and uploaded it into a NuGet repository. With this option, you benefit from using Aspose.Diagram for Java without installing this component on your system. NuGet runs in Visual Studio 2010 and higher version(s), Visual Web Developer 2010, and Windows Phone Developer Tools 7.1. In our tests, we have tested it with Visual Studio 2015 Ultimate.
+## **Installing Aspose.Diagram for Java from Aspose Repository**
+Aspose hosts all Java APIs on [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.Diagram for Java API directly in your Maven projects with simple configurations.
+### **Specify Aspose Repository Configuration**
+First you need to specify Aspose Repository configuration / location in your Maven pom.xml as follows:
 
-To get started:
+{{< highlight java >}}
 
-1. Open your solution or project in Visual Studio.
-1. Add NuGet Package Manager as a Visual Studio extension:
-   1. Select the **Tools** menu followed by **Extension Manager**.
-   1. Select **Online Gallery** to get a complete list of packages available online.
-   1. Select **NuGet Package Manager**.
-   1. Click **Download**.
-   1. Once the package Manager is installed, restart Visual Studio to bring the changes into effect. 
-      When NuGet Package Manager is installed, you can find, install, remove, and update packages from the **Manage NuGet Packages** window, or by using PowerShell command-line commands in the **Package Manager Console** dedicated Visual Studio window. You can find both options if you select the **Tools** followed by **Library Package Manager**.
-### **Install Package using Package Manager Console**
-To reference the component using the package manager console:
+ <repositories>
 
-1. Open your Java application in Visual Studio.
-1. On the **Tools** menu, select **Library Package Manager** and then **Package Manager Console**.
-1. Type the command “Install-Package Aspose.Diagram” to install the latest full release, or type the command “Install-Package Aspose.Diagram -prerelease” to install the latest release including hot fixes.
-1. Press **Enter**.
-### **Update package using Package Manager Console**
-If you have already referenced the component through NuGet, follow these steps to update the reference to the latest version:
+    <repository>
 
-1. Open you Java application in Visual Studio.
-1. From the **Tools** menu, select **Library Package Manager**, followed by **Package Manager Console** to open the Package Manager console.
-1. Type the command “Update-Package Aspose.Diagram” to reference the latest full release, or type the command “Update-Package Aspose.Diagram -prerelease” to install latest release including hot fixes.
-1. Press **Enter**.
-### **Install Package using the Package Manager GUI**
-Follow these steps to reference the component using the package manager GUI:
+        <id>AsposeJavaAPI</id>
 
-1. Open you Java application in Visual Studio.
-1. From the **Tools** menu, select **Library Package Manager** and **Manage NuGet Packages** from the **Solution** option. 
-   You can also get a similar option from the Solution Explorer:
-   1. Right-click the project name.
-   1. Select **Manage NuGet Packages**.
-1. Select **online** from the left menu.
-1. Type **Aspose.Diagram** into the search box to find Aspose.Diagram for Java.
-1. Click **Install/Update** next to the latest version of Aspose.Diagram for Java
+        <name>Aspose Java API</name>
 
-**![Install Aspose Diagram through NuGet](installthroughnuget.png)**
+        <url>http://repository.aspose.com/repo/</url>
+
+    </repository>
+
+</repositories>
+
+{{< /highlight >}}
+### **Define Aspose.Diagram for Java API Dependency**
+Then define Aspose.Diagram for Java API dependency in your pom.xml as follows:
+
+{{< highlight java >}}
+
+ <dependencies>
+
+    <dependency>
+
+        <groupId>com.aspose</groupId>
+
+        <artifactId>aspose-diagram</artifactId>
+
+        <version>19.9</version>
+
+        <classifier>jdk16</classifier>
+
+    </dependency>
+
+</dependencies>
+
+{{< /highlight >}}
+
+After performing above steps, Aspose.Diagram for Java dependency will finally be defined in your Maven project.
+## **Technical Support**
+Aspose provides unlimited free technical support for all its products. Support is available to all users, including evaluation.
+
+If you need help with Aspose.Diagram for Java, [**visit the Aspose.Forums**](https://forum.aspose.com/c/diagram/17). Post your question in the Aspose.Diagram Product Family forum and it will be answered within a few hours. The questions are answered directly by the Aspose.Diagram for Java support team.
+
+When expecting a reply in the forums, please allow for time zone differences.
+
+If you have an issue with Aspose.Diagram for Java, follow these simple steps to make sure it is resolved in the most efficient way:
+
+- Make sure you use the latest Aspose.Diagram for Java version before reporting the issue. Refer to the [Aspose.Diagram for Java download page](https://downloads.aspose.com/diagram/java) to find out about the latest version.
+- Have a look through the forums, this documentation Wiki and the [API Reference](https://apireference.aspose.com/diagram/java) for solutions before reporting the issue. Your question might already have an answer.
+- When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose.Forums since only you and Aspose developers will have access to the attached files.
+- Please try to report one issue per thread. If you have another issue, report it in a separate thread.
