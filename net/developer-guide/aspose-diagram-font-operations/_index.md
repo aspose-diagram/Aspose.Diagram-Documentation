@@ -3,7 +3,7 @@ title: Aspose.Diagram Font Operations
 type: docs
 weight: 180
 url: /net/aspose-diagram-font-operations/
-description: This page describes how to create Visio document from scratch with Aspose.Diagram library.
+description: This page describes how to manipulate fonts with Aspose.Diagram library.
 ---
 
 ## **How to Specify TrueType Fonts Location**
