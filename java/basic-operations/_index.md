@@ -13,6 +13,6 @@ The [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Di
 
 **Basic operations** section describes the first and simplest operation with Diagram documents in Aspose.Diagram for Java:
 
-- [Create Visio document programmatically](/java/create-visio-document/) -  this article describes how to create Visio file using Java.
-- [Open Visio document programmatically](/java/open-visio-document/) - this article describes a various ways how to open a Visio document in Java application.
-- [Save Visio document programmatically](/java/save-visio-document/) - this article describes a various ways how to save a Visio document to file, stream.
+- [Create Visio document programmatically](/diagram/java/create-visio-document/) -  this article describes how to create Visio file using Java.
+- [Open Visio document programmatically](/diagram/java/open-visio-document/) - this article describes a various ways how to open a Visio document in Java application.
+- [Save Visio document programmatically](/diagram/java/save-visio-document/) - this article describes a various ways how to save a Visio document to file, stream.
