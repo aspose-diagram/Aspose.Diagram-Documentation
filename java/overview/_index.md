@@ -31,7 +31,7 @@ All Aspose Java APIs require Full Trust permission set. The reason is, Aspose Ja
 
 Internet Service Providers hosting multiple applications from different companies mostly enforce Medium Trust security level:
 
-- OleDbPermission is not available. This means you cannot use the ADO.NET managed OLE DB data provider to access databases.
+- OleDbPermission is not available. This means you cannot use the Jdbc managed OLE DB data provider to access databases.
 - EventLogPermission is not available. This means you cannot access the Windows event log.
 - ReflectionPermission is not available. This means you cannot use reflection.
 - RegistryPermission is not available. This means you cannot access the registry.
