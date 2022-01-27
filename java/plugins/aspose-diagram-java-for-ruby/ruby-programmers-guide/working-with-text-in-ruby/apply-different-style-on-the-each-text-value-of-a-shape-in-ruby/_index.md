@@ -105,4 +105,3 @@ puts "Added shape text and styles."
 Download **Apply Different Style on the Each Text Value of a Shape (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Text/addshapetextandstyles.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/Text/addshapetextandstyles.rb)

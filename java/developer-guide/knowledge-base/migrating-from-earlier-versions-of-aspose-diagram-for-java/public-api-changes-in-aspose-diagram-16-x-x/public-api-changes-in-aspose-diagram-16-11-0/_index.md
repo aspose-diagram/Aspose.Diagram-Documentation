@@ -11,7 +11,7 @@ This document describes changes to the Aspose.Diagram API from version 6.8.0 to 
 
 {{% /alert %}} 
 ### **Modify Properties of an ActiveX Control**
-Developers can retrieve an ActiveX control and then modify its properties. We have added ActiveXControl property in the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class. Please check this code example:
+Developers can retrieve an ActiveX control and then modify its properties. We have added ActiveXControl property in the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class. Please check this code example:
 
 **Java**
 
@@ -53,9 +53,9 @@ diagram.save("C:\\temp\\Output.vsdx", SaveFileFormat.VSDX);
 ### **Insert a Text Shape in the Visio Diagram**
 Developers can insert a text shape in the Visio diagram using Aspose.Diagram API. Please check this code example:
 
-**C#**
+**Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
  // create a new diagram
 

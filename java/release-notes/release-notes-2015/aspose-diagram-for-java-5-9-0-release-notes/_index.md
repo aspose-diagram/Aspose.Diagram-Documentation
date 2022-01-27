@@ -12,9 +12,9 @@ DIAGRAMJAVA-50266) -Reading support for new MS Visio Template 2013 VSTX format
 ## **Bugs**
 - DIAGRAMJAVA-50231) -Shape.connectedShapes method is not working as expected
 - DIAGRAMJAVA-50232)-Shape.gluedShapes method is not working as expected
-- DIAGRAMJAVA-50234) -[Output format VDX](/pages/createpage.action?spaceKey=diagramjava&title=Output+format+VDX&linkCreation=true&fromPageId=18612317) - Group Shape is not displayed properly
-- DIAGRAMJAVA-50235) -[Output format HTML](/pages/createpage.action?spaceKey=diagramjava&title=Output+format+HTML&linkCreation=true&fromPageId=18612317) - Can't place a group shape from another Visio diagram
-- DIAGRAMJAVA-50236) - [Output format PDF](/pages/createpage.action?spaceKey=diagramjava&title=Output+format+PDF&linkCreation=true&fromPageId=18612317) - Can't place a group shape from another Visio diagram
+- DIAGRAMJAVA-50234) -[Output format VDX] - Group Shape is not displayed properly
+- DIAGRAMJAVA-50235) -[Output format HTML] - Can't place a group shape from another Visio diagram
+- DIAGRAMJAVA-50236) - [Output format PDF] - Can't place a group shape from another Visio diagram
 - DIAGRAMJAVA-50238) -Output format VDX] - Fill style of the Shapes is not preserved
 - DIAGRAMJAVA-50240) -VSDX to XPS conversion - an illegal error message occurred
 - DIAGRAMJAVA-50256) -Index out of bounds error occurred while loading a VSD diagram
