@@ -3,6 +3,7 @@ title: Retrieve an ActiveX Control from a Shape Object to Modify Properties
 type: docs
 weight: 20
 url: /net/retrieve-an-activex-control-from-a-shape-object-to-modify-properties/
+description: Modify properties of an activeX Control with Aspose.Diagram library.
 ---
 
 {{% alert color="primary" %}} 

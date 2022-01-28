@@ -1,8 +1,14 @@
 ---
-title: Product Overview
+title: Overview
+linktitle: Overview
 type: docs
 weight: 10
-url: /java/product-overview/
+url: /java/overview/
+lastmod: "2022-01-25"
+description: Overview of key-features and supported formats of Aspose.Diagram for Java, installation and licensing manual of Java library.
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
 {{% alert color="primary" %}} 
@@ -25,7 +31,7 @@ All Aspose Java APIs require Full Trust permission set. The reason is, Aspose Ja
 
 Internet Service Providers hosting multiple applications from different companies mostly enforce Medium Trust security level:
 
-- OleDbPermission is not available. This means you cannot use the ADO.NET managed OLE DB data provider to access databases.
+- OleDbPermission is not available. This means you cannot use the Jdbc managed OLE DB data provider to access databases.
 - EventLogPermission is not available. This means you cannot access the Windows event log.
 - ReflectionPermission is not available. This means you cannot use reflection.
 - RegistryPermission is not available. This means you cannot access the registry.
@@ -47,4 +53,3 @@ This table lists important Aspose.Diagram for Java technical resources.
 |[Aspose.Diagram for Java download](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram)|Download the latest version of Aspose.Diagram from here|
 |[Aspose.Diagram for Java support forum](https://forum.aspose.com/c/diagram/17)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.Diagram for Java product documentation](/diagram/java/home/)|Full online documentation that includes this documentation as well as Aspose.Diagram API Reference.|
-

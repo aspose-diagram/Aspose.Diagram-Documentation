@@ -3,6 +3,7 @@ title: Setting Cells in the Event Section of ShapeSheet
 type: docs
 weight: 10
 url: /net/setting-cells-in-the-event-section-of-shapesheet/
+description: Manage event properties of visio files.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: How to Run the Examples
 type: docs
 weight: 80
 url: /net/how-to-run-the-examples/
+description: This page describes how to run the examples of Aspose.Diagram library.
 ---
 
 ## **Software Requirements**

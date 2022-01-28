@@ -3,6 +3,7 @@ title: Hello World Example
 type: docs
 weight: 90
 url: /net/hello-world-example/
+description: This page describes how to create example of hello world with Aspose.Diagram library.
 ---
 
 ## **Hello World Example**

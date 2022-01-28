@@ -3,6 +3,7 @@ title: Installation
 type: docs
 weight: 40
 url: /net/installation/
+description: This page describes how to create new visio with Aspose.Diagram library.
 ---
 
 ## **Installing Aspose.Diagram for .NET through NuGet**

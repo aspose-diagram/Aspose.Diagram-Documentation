@@ -3,6 +3,7 @@ title: Your First Aspose.Diagram Application - Hello World
 type: docs
 weight: 30
 url: /net/your-first-aspose-diagram-application-hello-world/
+description: This page describes how to create first application with Aspose.Diagram library.
 ---
 
 {{% alert color="primary" %}}

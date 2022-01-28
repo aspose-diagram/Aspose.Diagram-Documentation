@@ -3,6 +3,7 @@ title: Introduction
 type: docs
 weight: 10
 url: /net/introduction/
+description: Introduction of Aspose.Diagram library.
 ---
 
 ## **Get the Version of the Aspose.Diagram for .NET Library**

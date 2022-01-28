@@ -3,6 +3,7 @@ title: Insert an ActiveX Control in the Visio Diagram
 type: docs
 weight: 10
 url: /net/insert-an-activex-control-in-the-visio-diagram/
+description: This page describes how to insert an activeX Control with Aspose.Diagram library.
 ---
 
 {{% alert color="primary" %}}
