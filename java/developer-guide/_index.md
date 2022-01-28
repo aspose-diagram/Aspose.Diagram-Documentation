@@ -1,7 +1,7 @@
 ---
 title: Developer Guide
 type: docs
-weight: 20
+weight: 50
 url: /java/developer-guide/
 ---
 

@@ -29,4 +29,3 @@ puts "Page ID : " + page.getName().to_s
 Download **Retrieve Visio Page Information (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Pages/getpageinfo.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/Pages/getpageinfo.rb)

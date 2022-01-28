@@ -87,4 +87,3 @@ puts "Applied custom stylesheet to a visio diagram."
 Download **Apply Custom Style Sheet to a Visio Diagram (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Text/applycustomstylesheet.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/Text/applycustomstylesheet.rb)

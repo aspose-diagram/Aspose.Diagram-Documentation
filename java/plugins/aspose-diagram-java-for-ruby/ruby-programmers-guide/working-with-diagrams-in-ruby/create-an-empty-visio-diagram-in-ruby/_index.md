@@ -29,4 +29,3 @@ puts "Created visio diagram successfully!"
 Download **Create an empty Visio Diagram (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Diagrams/creatediagram.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/Diagrams/creatediagram.rb)

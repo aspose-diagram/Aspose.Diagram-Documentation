@@ -1,8 +1,10 @@
 ---
-title: Save a Visio Drawing to PDF, HTML and other formats
+title: Save Visio document programmatically
+linktitle: Save Visio document
 type: docs
 weight: 30
-url: /java/save-a-visio-drawing-to-pdf-html-and-other-formats/
+url: /java/save-visio-document/
+description: This page describes how to save Visio document to file, stream with Aspose.Diagram library.
 ---
 
 ## **Visio Drawing Save Overview**

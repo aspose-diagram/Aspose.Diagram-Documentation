@@ -11,7 +11,7 @@ This document describes changes to the Aspose.Diagram API from version 16.11.0 t
 
 {{% /alert %}} 
 ### **Modify Properties of a Gradient**
-Developers can retrieve a gradient stop and then modify its properties. We have added [GradientFill](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill) and [GradientStop](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientstop) classes for this purposes. Please check the code example:
+Developers can retrieve a gradient stop and then modify its properties. We have added [GradientFill](https://apireference.aspose.com/diagram/java/com.aspose.diagram/gradientfill) and [GradientStop](https://apireference.aspose.com/diagram/java/com.aspose.diagram/gradientstop) classes for this purposes. Please check the code example:
 
 **Java**
 

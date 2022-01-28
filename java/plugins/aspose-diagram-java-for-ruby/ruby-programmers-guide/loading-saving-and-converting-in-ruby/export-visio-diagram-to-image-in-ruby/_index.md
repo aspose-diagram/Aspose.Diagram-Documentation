@@ -29,4 +29,3 @@ puts "Exported visio diagram to PNG."
 Download **Export Visio Diagram to Image (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Export/exporttoimage.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/Export/exporttoimage.rb)

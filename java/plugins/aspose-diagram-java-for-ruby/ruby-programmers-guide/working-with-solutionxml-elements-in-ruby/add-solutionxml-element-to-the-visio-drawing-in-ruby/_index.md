@@ -45,4 +45,3 @@ puts "Added SolutionXML Element to the Visio Drawing."
 Download **Add SolutionXML Element to the Visio Drawing (Aspose.Diagram)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/SolutionXML/addsolutionxmlelement.rb)
-- [CodePlex](https://asposediagramjavaruby.codeplex.com/SourceControl/latest#lib/asposediagramjava/SolutionXML/addsolutionxmlelement.rb)

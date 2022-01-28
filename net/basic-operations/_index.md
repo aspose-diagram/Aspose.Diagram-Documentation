@@ -12,6 +12,6 @@ The [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clas
 
 **Basic operations** section describes the first and simplest operation with Diagram documents in Aspose.Diagram for .NET:
 
-- [Create Visio document programmatically](/net/create-visio-document/) -  this article describes how to create Visio file using C#.
-- [Open Visio document programmatically](/net/open-visio-document/) - this article describes a various ways how to open a Visio document in .NET application.
-- [Save Visio document programmatically](/net/save-visio-document/) - this article describes a various ways how to save a Visio document to file, stream.
+- [Create Visio document programmatically](/diagram/net/create-visio-document/) -  this article describes how to create Visio file using C#.
+- [Open Visio document programmatically](/diagram/net/open-visio-document/) - this article describes a various ways how to open a Visio document in .NET application.
+- [Save Visio document programmatically](/diagram/net/save-visio-document/) - this article describes a various ways how to save a Visio document to file, stream.

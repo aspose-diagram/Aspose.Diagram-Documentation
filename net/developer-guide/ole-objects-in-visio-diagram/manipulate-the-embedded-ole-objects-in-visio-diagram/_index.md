@@ -3,6 +3,7 @@ title: Manipulate the Embedded OLE Objects in Visio Diagram
 type: docs
 weight: 10
 url: /net/manipulate-the-embedded-ole-objects-in-visio-diagram/
+description: This page describes how to manipulate ole object with Aspose.Diagram library.
 ---
 
 {{% alert color="primary" %}}

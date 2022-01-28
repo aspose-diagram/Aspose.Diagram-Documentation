@@ -3,6 +3,7 @@ title: Modify the Gradient of a Visio Shape
 type: docs
 weight: 10
 url: /net/modify-the-gradient-of-a-visio-shape/
+description: This page describes how to modify gradient color of a visio shape with Aspose.Diagram library.
 ---
 
 {{% alert color="primary" %}} 
