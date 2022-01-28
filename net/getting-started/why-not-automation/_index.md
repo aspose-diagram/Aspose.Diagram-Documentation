@@ -3,6 +3,7 @@ title: Why Not Automation
 type: docs
 weight: 40
 url: /net/why-not-automation/
+description: This page describes why not automation.
 ---
 
 {{% alert color="primary" %}} 

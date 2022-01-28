@@ -3,6 +3,7 @@ title: Utilize Aspose.Diagram in Other Programming Languages
 type: docs
 weight: 120
 url: /net/utilize-aspose-diagram-in-other-programming-languages/
+description: This page describes how to utilize Aspose.Diagram in Other Programming Languages.
 ---
 
 ## **Use Aspose.Diagram for .NET via COM Interop**

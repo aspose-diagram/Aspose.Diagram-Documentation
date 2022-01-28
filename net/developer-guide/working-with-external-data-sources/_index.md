@@ -3,6 +3,7 @@ title: Working with External Data Sources
 type: docs
 weight: 200
 url: /net/working-with-external-data-sources/
+description: This section explains how to working with external data sources with Aspose.Diagram.
 ---
 
 ## **Edit SQL Server Data Connection and Refresh Record Sets**

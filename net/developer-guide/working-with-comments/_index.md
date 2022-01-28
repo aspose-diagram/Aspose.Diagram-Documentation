@@ -3,6 +3,7 @@ title: Working with Comments
 type: docs
 weight: 220
 url: /net/working-with-comments/
+description: This page describes how to add or edit comments with Aspose.Diagram library.
 ---
 
 ## **Add a Page-Level Comment in the Visio**

@@ -3,6 +3,7 @@ title: Create, Update, Layout and Auto-Fit Shapes
 type: docs
 weight: 10
 url: /net/create-update-layout-and-auto-fit-shapes/
+description: Use C# Diagram API to create, update and auto layout shapes in Visio files using C# within your applications. Complete guide with C# code samples.
 ---
 
 ## **Creating a Diagram**

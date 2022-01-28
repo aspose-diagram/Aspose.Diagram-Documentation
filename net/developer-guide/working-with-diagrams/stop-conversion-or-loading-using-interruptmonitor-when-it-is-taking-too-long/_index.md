@@ -3,6 +3,7 @@ title: Stop conversion or loading using InterruptMonitor when it is taking too l
 type: docs
 weight: 30
 url: /net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
+description: This section explains how to stop conversion or loading with Aspose.Diagram.
 ---
 
 ## **Possible Usage Scenarios**

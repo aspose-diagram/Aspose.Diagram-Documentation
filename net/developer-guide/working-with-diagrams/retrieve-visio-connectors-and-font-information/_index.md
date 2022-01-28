@@ -3,6 +3,7 @@ title: Retrieve Visio Connectors and Font Information
 type: docs
 weight: 20
 url: /net/retrieve-visio-connectors-and-font-information/
+description:This section explains how to get visio connectors and font information.
 ---
 
 ## **Retrieving Connector Information**
