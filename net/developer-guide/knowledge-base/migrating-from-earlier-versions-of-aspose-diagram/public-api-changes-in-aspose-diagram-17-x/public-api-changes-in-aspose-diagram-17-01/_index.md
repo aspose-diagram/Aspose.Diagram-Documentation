@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-17-01/
 This document describes changes to the Aspose.Diagram API from version 16.12.0 to 17.1.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Convert Visio Drawing with Selective Shapes**
+## **Convert Visio Drawing with Selective Shapes**
 Developers can select specific shapes to convert the Visio drawing to any other supported format. We have added [Shapes](http://www.aspose.com/api/net/diagram/aspose.diagram.saving/renderingsaveoptions/properties/shapes) member in the [RenderingSaveOptions](http://www.aspose.com/api/net/diagram/aspose.diagram.saving/renderingsaveoptions) class for this purpose. Each save option class is the extended form of RenderingSaveOptions class. Please check the code example:
 
 **C#**
