@@ -3,6 +3,7 @@ title: Apply Theme To Shape
 type: docs
 weight: 70
 url: /net/apply-theme-to-shape/
+description: This section explains how to set theme Properties in a visio shape with Aspose.Diagram.
 ---
 
 ## **Set Theme Color to a Shape in Visio**

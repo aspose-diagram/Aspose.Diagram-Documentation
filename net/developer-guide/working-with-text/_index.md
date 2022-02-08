@@ -3,6 +3,7 @@ title: Working with Text
 type: docs
 weight: 90
 url: /net/working-with-text/
+description: This section explains how to insert a text shape or update shape's text with Aspose.Diagram.
 ---
 
 ## **Insert a Text Shape in the Visio Page**

@@ -3,6 +3,7 @@ title: 3D Rotation Effects in a Visio Drawing
 type: docs
 weight: 90
 url: /net/3d-rotation-effects-in-a-visio-drawing/
+description: This section explains how to set 3D Rotation Properties in Shapesheet with Aspose.Diagram.
 ---
 
 ## **Set 3D Rotation Properties in Shapesheet**

@@ -3,6 +3,7 @@ title: Working with Hyperlinks
 type: docs
 weight: 160
 url: /net/working-with-hyperlinks/
+description: This section explains how to add or get Hyperlink in a Visio Shape with Aspose.Diagram.
 ---
 
 ## **Add Hyperlink to a Visio Shape**

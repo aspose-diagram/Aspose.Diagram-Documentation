@@ -3,6 +3,7 @@ title: Working with Print
 type: docs
 weight: 80
 url: /net/working-with-print/
+description: This section explains how to print a document via XpsPrint with Aspose.Diagram.
 ---
 
 ## **How to Print a Document on a Server via the XpsPrint API**

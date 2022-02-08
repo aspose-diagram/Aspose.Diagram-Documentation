@@ -3,6 +3,7 @@ title: Working with Geometry Section
 type: docs
 weight: 190
 url: /net/working-with-geometry-section/
+description: This section explains how to get geometry of Visio using Aspose.Diagram
 ---
 
 ## **Edit Connector Geometry Section in the ShapeSheet**

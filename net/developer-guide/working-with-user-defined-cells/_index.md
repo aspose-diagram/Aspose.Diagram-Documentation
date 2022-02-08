@@ -3,6 +3,7 @@ title: Working with User-defined Cells
 type: docs
 weight: 150
 url: /net/working-with-user-defined-cells/
+description: This section explains how to read User-defined cells of the visio shapes with Aspose.Diagram.
 ---
 
 ## **Read User-defined Cells of the Visio Shapes**

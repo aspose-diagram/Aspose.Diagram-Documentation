@@ -3,6 +3,7 @@ title: Working with Protection
 type: docs
 weight: 170
 url: /net/working-with-protection/
+description: This section explains how to set protection in the diagram with Aspose.Diagram.
 ---
 
 ## **Set Protection of the Visio Diagram**

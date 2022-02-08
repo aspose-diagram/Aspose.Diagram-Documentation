@@ -3,6 +3,7 @@ title: Setting Margins
 type: docs
 weight: 20
 url: /net/setting-margins/
+description: This section explains how to set visio's page options with Aspose.Diagram.
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,7 @@ title: Working with SolutionXML Elements
 type: docs
 weight: 110
 url: /net/working-with-solutionxml-elements/
+description: This section explains how to  add solutionXml or get xml values from solutionXml element with Aspose.Diagram.
 ---
 
 ## **Add SolutionXML Element to the Visio Drawing**

@@ -3,6 +3,7 @@ title: Setting Print Options
 type: docs
 weight: 10
 url: /net/setting-print-options/
+description: This section explains how to set print options  with Aspose.Diagram.
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,7 @@ title: Format Visio Pages
 type: docs
 weight: 60
 url: /net/format-visio-pages/
+description: This section explains how to apply styles to a visio page with Aspose.Diagram.
 ---
 
 Aspose.Diagram for .NET API allows developers to format pages of a Visio Diagram file. Applying Stylesheets is one such method to format Visio pages.

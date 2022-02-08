@@ -3,6 +3,7 @@ title: Group, Convert and Verify Shapes
 type: docs
 weight: 80
 url: /net/group-convert-and-verify-shapes/
+description: This section explains how to group shapes with Aspose.Diagram.
 ---
 
 ## **Group Multiple Shapes Together in the Visio Drawing**
