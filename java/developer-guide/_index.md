@@ -20,11 +20,11 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
         <p>Open</p>
         <ul>
-            <li><a href="/diagram/java/load-or-create-a-visio-drawing/">Different Ways to Open Files</a></li>
+            <li><a href="/diagram/java/open-visio-document/">Different Ways to Open Files</a></li>
        </ul>
         <p>Save</p>
         <ul>
-            <li><a href="/diagram/java/save-a-visio-drawing/">Save a visio drawing</a></li>
+            <li><a href="/diagram/java/save-visio-document/">Save a visio drawing</a></li>
         </ul>
     </div>
     <div class="col-md-6">
@@ -34,7 +34,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
         <p>Export</p>
         <ul>
-            <li><a href="/diagram/java/how-to-convert-a-visio-diagram/">Convert Diagram to Different Formats</a></li>
+            <li><a href="/diagram/java/converting/">Convert Diagram to Different Formats</a></li>
         </ul>
     </div>
 </div>
