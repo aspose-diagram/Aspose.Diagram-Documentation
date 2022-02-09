@@ -6,7 +6,7 @@ url: /java/developer-guide/
 ---
 
 This Developer Guide provides information on using Aspose.Diagram in a variety of practical scenarios as MS Visio menu.
-{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Design" tabName5="Developer" >}}
+{{< tabs tabTotal="5" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Design" tabName5="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
     <div class="col-md-6">

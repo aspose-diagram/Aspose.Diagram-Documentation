@@ -3,7 +3,7 @@ title: Manage Document Properties
 linktitle: Document Properties
 type: docs
 weight: 80
-url: /net/document-properties/
+url: /java/document-properties/
 aliases: [/java/document-properties/]
 description: Manage document properties of visio files.
 ---
