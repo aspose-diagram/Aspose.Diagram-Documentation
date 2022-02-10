@@ -3,6 +3,7 @@ title: Draw Shapes in Page
 type: docs
 weight: 40
 url: /net/draw-shapes-in-page/
+description: This section explains how to draw shapes in a visio page with Aspose.Diagram.
 ---
 
 ## **Draw Polyline in Page**

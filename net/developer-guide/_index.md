@@ -6,7 +6,7 @@ url: /net/developer-guide/
 ---
 
 This Developer Guide provides information on using Aspose.Diagram in a variety of practical scenarios as MS Visio menu.
-{{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Design" tabName5="Developer" >}}
+{{< tabs tabTotal="5" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Design" tabName5="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
     <div class="col-md-6">
@@ -20,11 +20,11 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
         <p>Open</p>
         <ul>
-            <li><a href="/diagram/net/load-or-create-a-visio-drawing/">Different Ways to Open Files</a></li>
+            <li><a href="/diagram/net/open-visio-document/">Different Ways to Open Files</a></li>
        </ul>
         <p>Save</p>
         <ul>
-            <li><a href="/diagram/net/save-a-visio-drawing/">Save a visio drawing</a></li>
+            <li><a href="/diagram/net/save-visio-document/">Save a visio drawing</a></li>
         </ul>
     </div>
     <div class="col-md-6">
@@ -34,7 +34,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
         <p>Export</p>
         <ul>
-            <li><a href="/diagram/net/how-to-convert-a-visio-diagram/">Convert Diagram to Different Formats</a></li>
+            <li><a href="/diagram/net/converting/">Convert Diagram to Different Formats</a></li>
         </ul>
     </div>
 </div>

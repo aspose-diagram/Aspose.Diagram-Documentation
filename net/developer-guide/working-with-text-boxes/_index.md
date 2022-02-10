@@ -3,6 +3,7 @@ title: Working with Text Boxes
 type: docs
 weight: 210
 url: /net/working-with-text-boxes/
+description: This section explains how to format a text shape with Aspose.Diagram.
 ---
 
 ## **Format Text in the Visio Shape's Text Block Section**

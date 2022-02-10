@@ -3,6 +3,7 @@ title: Working with Masters
 type: docs
 weight: 70
 url: /net/working-with-masters/
+description: This section explains how to add master or get master information with Aspose.Diagram.
 ---
 
 ## **Retrieving Master Information**

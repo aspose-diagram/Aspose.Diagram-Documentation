@@ -3,6 +3,7 @@ title: Set Orientation and Control the Export of Hidden Visio Pages on Saving
 type: docs
 weight: 20
 url: /net/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/
+description: This section explains how to set page's layout with Aspose.Diagram.
 ---
 
 ## **Change a Visio Page Layout to Portrait or Landscape**

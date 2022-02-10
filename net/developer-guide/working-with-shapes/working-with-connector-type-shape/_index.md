@@ -3,6 +3,7 @@ title: Working with Connector Type Shape
 type: docs
 weight: 70
 url: /net/working-with-connector-type-shape/
+description: This section explains how to set Connector Appearance with Aspose.Diagram.
 ---
 
 ## **Set Appearance of the Connector Type Shape in Visio**

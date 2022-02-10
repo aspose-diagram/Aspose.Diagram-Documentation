@@ -3,6 +3,7 @@ title: Working with Window Elements
 type: docs
 weight: 100
 url: /net/working-with-window-elements/
+description: This section explains get property of window elements in visio with Aspose.Diagram.
 ---
 
 ## **Retrieve Window Elements from the Visio Drawing**

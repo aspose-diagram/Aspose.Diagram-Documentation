@@ -3,6 +3,7 @@ title: Rotate, Change the Position and Connect Sub-Shapes
 type: docs
 weight: 30
 url: /net/rotate-change-the-position-and-connect-sub-shapes/
+description: This section explains how to rotate a visio shape with Aspose.Diagram.
 ---
 
 ## **Rotate a Shape with Suitable Angle**

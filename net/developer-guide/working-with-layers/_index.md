@@ -3,6 +3,7 @@ title: Working with Layers
 type: docs
 weight: 130
 url: /net/working-with-layers/
+description: This section explains how to add or get layer information in a visio shape with Aspose.Diagram.
 ---
 
 ## **Configure Shape Objects with Layers in Visio**

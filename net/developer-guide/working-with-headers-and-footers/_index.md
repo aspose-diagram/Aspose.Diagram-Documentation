@@ -3,6 +3,7 @@ title: Working with Headers and Footers
 type: docs
 weight: 140
 url: /net/working-with-headers-and-footers/
+description: This section explains how to set headers and footers of the Microsoft Office Visio with Aspose.Diagram.
 ---
 
 ## **Manage Headers and Footers of the Visio Diagrams**

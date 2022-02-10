@@ -3,6 +3,7 @@ title: Remove Hidden Info
 type: docs
 weight: 50
 url: /net/remove-hidden-info/
+description: This section explains how to remove unusing or hidden info from a diagram with Aspose.Diagram.
 ---
 
 ## **Remove Hidden Info**

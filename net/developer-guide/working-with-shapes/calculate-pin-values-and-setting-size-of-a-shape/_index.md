@@ -3,6 +3,7 @@ title: Calculate Pin Values and Setting Size of a Shape
 type: docs
 weight: 60
 url: /net/calculate-pin-values-and-setting-size-of-a-shape/
+description: This section explains how to calculate PinX and PinY Values of the Sub Shape with Aspose.Diagram.
 ---
 
 ## **Calculate PinX and PinY Values of the Sub Shape**

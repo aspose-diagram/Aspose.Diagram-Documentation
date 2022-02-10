@@ -3,6 +3,7 @@ title: Working with Images
 type: docs
 weight: 60
 url: /net/working-with-images/
+description: This section explains how to insert or get image from a visio page with Aspose.Diagram.
 ---
 
 ## **Extract All Images From a Visio Page**

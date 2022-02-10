@@ -3,6 +3,7 @@ title: Get Paper Width and Height of Page
 type: docs
 weight: 50
 url: /net/get-paper-width-and-height-of-page/
+description: This section explains how to get paper size of the visio page with Aspose.Diagram.
 ---
 
 ## **Possible Usage Scenarios**

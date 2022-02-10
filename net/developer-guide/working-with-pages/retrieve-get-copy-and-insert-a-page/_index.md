@@ -3,6 +3,7 @@ title: Retrieve, Get, Copy and Insert a Page
 type: docs
 weight: 10
 url: /net/retrieve-get-copy-and-insert-a-page/
+description: This section explains how to insert a page, copy a page or get page information with Aspose.Diagram.
 ---
 
 ## **Retrieving Page Information**

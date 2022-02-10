@@ -3,6 +3,7 @@ title: Configure Visio TimeLine Shapes
 type: docs
 weight: 50
 url: /net/configure-visio-timeline-shapes/
+description: This section explains how to set the property of a milestone shape with Aspose.Diagram.
 ---
 
 ## **Set Milestone Shape Properties**

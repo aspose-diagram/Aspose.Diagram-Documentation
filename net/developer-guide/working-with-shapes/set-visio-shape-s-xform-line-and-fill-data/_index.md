@@ -3,6 +3,7 @@ title: Set Visio Shape's XForm, Line and Fill Data
 type: docs
 weight: 20
 url: /net/set-visio-shape-s-xform-line-and-fill-data/
+description: This section explains how to set shape's style including it's line data and fill data with Aspose.Diagram.
 ---
 
 ## **Setting XForm Data**

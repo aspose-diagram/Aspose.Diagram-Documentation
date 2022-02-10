@@ -3,6 +3,7 @@ title: Add, Retrieve, Copy and Read Visio Shape Data
 type: docs
 weight: 10
 url: /net/add-retrieve-copy-and-read-visio-shape-data/
+description: This section explains how to add a shape, set shape's property or copy a shape with Aspose.Diagram.
 ---
 
 ## **Adding a New Shape in Visio**

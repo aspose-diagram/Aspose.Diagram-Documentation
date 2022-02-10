@@ -3,6 +3,7 @@ title: Working with Shapes Gluing
 type: docs
 weight: 40
 url: /net/working-with-shapes-gluing/
+description: This section explains how to get shapes which glued to a particular shape with Aspose.Diagram.
 ---
 
 ## **Get the Connectors Glued to a Particular Shape**

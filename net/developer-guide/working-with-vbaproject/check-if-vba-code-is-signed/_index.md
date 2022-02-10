@@ -3,6 +3,7 @@ title: Check if VBA Code is Signed
 type: docs
 weight: 100
 url: /net/check-if-vba-code-is-signed/
+description: Check if the vba code is signed with Aspose.Diagram library.
 ---
 
 {{% alert color="primary" %}}

@@ -3,6 +3,7 @@ title: Refresh shapes data
 type: docs
 weight: 40
 url: /net/refresh-shapes-data/
+description: This section explains how to refresh shape's data for a visio shape with Aspose.Diagram.
 ---
 
 ## **Refreshes shape's position including xform ,connection and geom when changing shape's text or other's **

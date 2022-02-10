@@ -3,6 +3,7 @@ title: Auto-space a Collection of Shapes in the Visio Page
 type: docs
 weight: 30
 url: /net/auto-space-a-collection-of-shapes-in-the-visio-page/
+description: This section explains how to autospace a collection of shapes in a visio page with Aspose.Diagram.
 ---
 
 ## **Auto-space a Collection of Shapes in the Visio Page**
