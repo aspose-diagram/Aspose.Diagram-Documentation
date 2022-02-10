@@ -119,7 +119,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         </ul>
        <p>AutoLayout</p>
         <ul>
-            <li><a href="/diagram/java/create-update-layout-and-auto-fit-shapes/">AutoLayout Shapes</a></li>
+            <li><a href="/diagram/java/create-layout-and-auto-fit-shapes/">AutoLayout Shapes</a></li>
         </ul>     
     </div>
 </div>
