@@ -33,6 +33,7 @@ VSD to PDF conversion, the right text alignment of the shapes is not preserved
 |DIAGRAMNET-51830|While convert Visio to SVG - Image lost (Missing)|Bug|
 |DIAGRAMNET-51831|Visio to HTML - image and links issues in the output|Bug|
 |DIAGRAMNET-51834|Visio save HTML - wrong connectors|Bug|
+
 ## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Adds IsIntersect  in Shape**
@@ -40,7 +41,7 @@ The following is a list of any changes made to the public API such as added, ren
 
 {{< highlight java >}}
 
- Shape s1 = diagram.Pages[0].Shapes.GetShape(1);
+Shape s1 = diagram.Pages[0].Shapes.GetShape(1);
 
 Shape s2 = diagram.Pages[0].Shapes.GetShape(2);
 

@@ -15,7 +15,7 @@ This page contains release notes information for Aspose.Diagram for .NET 20.1.
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |DIAGRAMNET-51198|Shade on hyperlink button is not rendered correctly on saving VSDM to SVG|Enhancement|
-|` `DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|Enhancement|
+|DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|Enhancement|
 |DIAGRAMNET-51539|The gradient in shapes has lost in output SVG|Enhancement|
 |DIAGRAMNET-50705|VSD to SVG export - Meta type shapes turn into messy symbols|Bug|
 |DIAGRAMNET-51664|File is getting corrupted after removing unused theme|Bug|
@@ -25,6 +25,7 @@ This page contains release notes information for Aspose.Diagram for .NET 20.1.
 |DIAGRAMNET-51737|Visio to Html - image size Issue|Bug|
 |DIAGRAMNET-51743|Removing private information from Visio - the Visio document size issue|Bug|
 |DIAGRAMNET-51745|Strange Error Occurs in WPF application when converting VSD to VSDX|Bug|
+
 ## **Public API and Backward Incompatible Changes**
 - Added Pages to LoadOptions - Specifies the index of the pages to be loaded.
 
@@ -32,7 +33,7 @@ This page contains release notes information for Aspose.Diagram for .NET 20.1.
 
 {{< highlight java >}}
 
- Aspose.Diagram.LoadOptions options = new Aspose.Diagram.LoadOptions(LoadFileFormat.VSDX);
+Aspose.Diagram.LoadOptions options = new Aspose.Diagram.LoadOptions(LoadFileFormat.VSDX);
 
 options.Pages = new ArrayList();
 
@@ -44,7 +45,7 @@ options.Pages.Add(0);
 
 {{< highlight java >}}
 
- Aspose.Diagram.MemoryFontSource sc1 = new Aspose.Diagram.MemoryFontSource(b);
+Aspose.Diagram.MemoryFontSource sc1 = new Aspose.Diagram.MemoryFontSource(b);
 
 Aspose.Diagram.MemoryFontSource sc2 = new Aspose.Diagram.MemoryFontSource(b);
 

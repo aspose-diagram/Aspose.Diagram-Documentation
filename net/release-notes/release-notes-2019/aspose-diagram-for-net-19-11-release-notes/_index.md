@@ -18,19 +18,20 @@ This page contains release notes information for Aspose.Diagram for .NET 19.11.
 |DIAGRAMNET-50576|Add support to dispose a Diagram class object|Enhancement|
 |DIAGRAMNET-50098|Set page background color|Bug|
 |DIAGRAMNET-51722|Diagram to SVG - output image has faults|Bug|
-|` `DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|Bug|
+|DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|Bug|
 |DIAGRAMNET-51725|Retrieve z-index of shapes in Diagram|Bug|
 |DIAGRAMNET-51726|Background Image Missing (PowerPoint is added in the VISIO) while removing unused master shapes and styles|Bug|
 |DIAGRAMNET-51727|CheckBox (CheckBox Control) Missing while removing unused master shapes and styles|Bug|
 |DIAGRAMNET-51728|Line Missing while removing unused master shapes and styles|Bug|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Added ApplyStyle in Page**
 Applies style to full page.
 
 {{< highlight java >}}
 
- StyleSheet st = new StyleSheet();
+StyleSheet st = new StyleSheet();
 
 st.ID = dia.StyleSheets.Count + 1;
 
@@ -61,7 +62,7 @@ foreach (Shape shape in dia.Pages[0].Shapes)
 {
 
      shape.Line.LinePattern.Value = 1;
-
+    
      shape.Fill.FillPattern.Value = 1;
 
 }
