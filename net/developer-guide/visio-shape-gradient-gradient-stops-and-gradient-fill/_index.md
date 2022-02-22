@@ -5,5 +5,5 @@ weight: 260
 url: /net/visio-shape-gradient-gradient-stops-and-gradient-fill/
 ---
 
-### **Articles in this section**
+**Articles in this section**
 

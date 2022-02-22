@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-5-9-0/
 This document describes changes to the Aspose.Diagram API from version 5.8.0 to 5.9.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Save Resultant HTML to a Stream**
+## **Save Resultant HTML to a Stream**
 The new Save method has been added in the Diagram class. It takes two parameters, the stream object and the saving file format.
 Example code:
 
@@ -45,10 +45,10 @@ MemoryStream stream = new MemoryStream()
 diagram.Save(stream, SaveFileFormat.HTML)
 
 {{< /highlight >}}
-### **Copy Themes and PageSheet from Another Visio**
+## **Copy Themes and PageSheet from Another Visio**
 Diagram class offers CopyTheme method and PageSheet class offers Copy method to accomplish the goal of copying a shape and other manipulation tasks.
 Example codes: [Copy Shapes from an Existing Visio](/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)
-### **VSTX and VSSX Saving Options are added in the SaveFileFormat**
+## **VSTX and VSSX Saving Options are added in the SaveFileFormat**
 Previously, Aspose.Diagram API had supported reading and writing VSDX format, but now we have added support of writing diagrams in the VSTX and VSSX formats too. Example codes:
 
 **C#**
@@ -78,7 +78,7 @@ diagram.Save("C:\\temp\\Output.vstx", SaveFileFormat.VSTX)
 diagram.Save("C:\\temp\\Output.vssx", SaveFileFormat.VSSX)
 
 {{< /highlight >}}
-### **VSSX Reading Option is added in the LoadFileFormat**
+## **VSSX Reading Option is added in the LoadFileFormat**
 Previously, Aspose.Diagram API had supported reading and writing VSDX format, but now we have added support of reading VSSX stencil format too. Example codes:
 
 **C#**

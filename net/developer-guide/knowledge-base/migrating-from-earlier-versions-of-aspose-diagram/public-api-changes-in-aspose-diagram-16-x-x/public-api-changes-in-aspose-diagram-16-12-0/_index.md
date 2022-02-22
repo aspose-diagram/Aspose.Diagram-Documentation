@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-16-12-0/
 This document describes changes to the Aspose.Diagram API from version 16.11.0 to 16.12.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Modify Properties of a Gradient**
+## **Modify Properties of a Gradient**
 Developers can retrieve a gradient stop and then modify its properties. We have added [GradientFill](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill) and [GradientStop](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientstop) classes for this purposes. Please check the code example:
 
 **C#**

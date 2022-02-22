@@ -10,11 +10,11 @@ url: /net/public-api-changes-in-aspose-diagram-6-6-0/
 This document describes changes to the Aspose.Diagram API from version 6.3.0 to 6.6.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Adds VSDM, VSSM and VSTM formats in LoadFileFormat class**
+## **Adds VSDM, VSSM and VSTM formats in LoadFileFormat class**
 This version adds support of reading macro-enabled Visio formats.
-### **Adds VSDM, VSSM and VSTM formats in SaveFileFormat class**
+## **Adds VSDM, VSSM and VSTM formats in SaveFileFormat class**
 This version adds support of writing macro-enabled Visio formats.
-### **Modify VBA Module Code in the Visio Diagram**
+## **Modify VBA Module Code in the Visio Diagram**
 We have added VbaModule, VbaModuleCollection, VbaProject, VbaProjectReference and VbaProjectReferenceCollection classes. These classes help to get control over VBA project. Using this new version 6.6.0 or higher, developers can extract and modify VBA module code. Please check this code example:
 
 **C#**
@@ -52,7 +52,7 @@ diagram.Save(@"c:\temp\out.vssm", SaveFileFormat.VSSM);
 {{< /highlight >}}
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
-### **Adds an ImageData property in ForeignData class**
+## **Adds an ImageData property in ForeignData class**
 It represents an image of ole object as a byte array. Besides this, we have also enhanced the manipulation of OLE objects. Developers can now also replace an OLE object in the Visio diagram. Please check this code example:
 
 **C#**
