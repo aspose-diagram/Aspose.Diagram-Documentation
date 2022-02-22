@@ -58,7 +58,8 @@ Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft
 			<hr><p><a href="/diagram/net/developer-guide/">Guide</a></p></hr>
 			<ul>
 				<li><a href="/diagram/net/introduction/">Introduction of Aspose.Diagram for .NET</a></li>
-				<li><a href="/diagram/net/loading-saving-and-converting/">Load and Save</a></li>
+				<li><a href="/diagram/net/open-visio-document/">Load</a></li>
+				<li><a href="/diagram/net/save-visio-document/">Save</a></li>
 				<li><a href="/diagram/net/working-with-print/">Print</a></li>
 				<li><a href="https://apireference.aspose.com/diagram/net">Aspose.Diagram for .NET API Reference Guide</a></li>
 			</ul>	

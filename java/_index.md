@@ -22,8 +22,8 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 		<p><b>About Aspose.Diagram</b></p>
 			<hr><p>Overview</p></hr>
 			<ul>
-				<li><a href="/diagram/java/what-s-new-in-aspose-diagram-for-net/">What's new in Aspose.Diagram for Java</a></li>
-				<li><a href="/diagram/java/product-overview/">Product Overview</a></li>
+				<li><a href="/diagram/java/whatsnew/">What's new in Aspose.Diagram for Java</a></li>
+				<li><a href="/diagram/java/overview/">Product Overview</a></li>
 				<li><a href="/diagram/java/licensing/">Licensing and Subscription</a></li>
 			  <li><a href="/diagram/java/release-notes/">Aspose.Diagram for Java Release Notes</a></li>
 			</ul>            
@@ -44,7 +44,7 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 			</ul>
 			<p>Learn</p>
 			<ul>
-				<li><a href="/diagram/java/how-to-run-the-examples/">How to Run the Examples</a></li>
+				<li><a href="/diagram/java/how-to-run-aspose-diagram-for-java-examples/">How to Run the Examples</a></li>
 				<li><a href="/diagram/java/plugins/">Plugins</a></li>
 			</ul>
 	</div>
@@ -53,7 +53,8 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 			<hr><p><a href="/diagram/java/developer-guide/">Guide</a></p></hr>
 			<ul>
 				<li><a href="/diagram/java/introduction/">Introduction of Aspose.Diagram for Java</a></li>
-				<li><a href="/diagram/java/loading-saving-and-converting/">Load and Save</a></li>
+				<li><a href="/diagram/java/open-visio-document/">Load</a></li>
+				<li><a href="/diagram/java/save-visio-document/">Save</a></li>
 				<li><a href="/diagram/java/working-with-print/">Print</a></li>
 				<li><a href="https://apireference.aspose.com/diagram/java">Aspose.Diagram for Java API Reference Guide</a></li>
 			</ul>	

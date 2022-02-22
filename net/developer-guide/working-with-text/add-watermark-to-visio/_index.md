@@ -3,7 +3,8 @@ title: Add Watermark to Visio
 type: docs
 weight: 10
 url: /net/add-watermark-to-visio/
-description: Use C# Diagram API to add watermark to visio.
+keywords: "watermark, visio"
+description: How to add watermark to visio using .NET Diagram API.
 ---
 
 ## **Creating a Diagram**
