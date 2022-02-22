@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-16-11-0/
 This document describes changes to the Aspose.Diagram API from version 6.8.0 to 16.11.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Modify Properties of an ActiveX Control**
+## **Modify Properties of an ActiveX Control**
 Developers can retrieve an ActiveX control and then modify its properties. We have added ActiveXControl property in the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class. Please check this code example:
 
 **C#**
@@ -52,7 +52,7 @@ diagram.Save(@"C:\temp\Output.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
-### **Insert a Text Shape in the Visio Diagram**
+## **Insert a Text Shape in the Visio Diagram**
 Developers can insert a text shape in the Visio diagram using Aspose.Diagram API. Please check this code example:
 
 **C#**

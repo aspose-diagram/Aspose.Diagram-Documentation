@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-6-0-0/
 This document describes changes to the Aspose.Diagram API from version 5.9.0 to 6.0.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **IsGlued Method is added in the Shape class**
+## **IsGlued Method is added in the Shape class**
 The IsGlued method takes a shape object as a parameter to determine that the two shapes glued or not. 
 Example code:
 
@@ -61,7 +61,7 @@ Dim ShapedTwo As Shape = page.Shapes.GetShape(2)
 Dim glued As Boolean = ShapedOne.IsGlued(ShapedTwo)
 
 {{< /highlight >}}
-### **IsConnected Method is added in the Shape class**
+## **IsConnected Method is added in the Shape class**
 The IsConnected method takes a shape object as a parameter to determine that the two shapes connected or not.
 Example code:
 

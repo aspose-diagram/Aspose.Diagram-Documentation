@@ -14,7 +14,7 @@ The code below shows how to:
 1. Load a sample file.
 1. Access a particular shape.
 1. Refresh shape's data.
-#### **Refresh Shape's data**
+### **Refresh Shape's data**
 Use the following code in your .NET application to refresh a shape using Aspose.Diagram for .NET.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-RefreshData-RefreshData.cs" >}}

@@ -21,10 +21,10 @@ This page contains release notes information for Aspose.Diagram for .NET 21.11.
 |DIAGRAMNET-52345|Header Footer are lost after saving the Diagram file|Bug|
 |DIAGRAMNET-52349|Visio to HTML - Left and right edges are cut|Bug|
 |DIAGRAMNET-52374|ArgumentOutOfRangeException while saving to PDF|Bug|
-|DIAGRAMNET-52386|Why some diagram page can be duplicated and some can¡¯t using Page.Copy()?|Bug|
+|DIAGRAMNET-52386|Why some diagram page can be duplicated and some can't using Page.Copy()?|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
-`?`The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
+## **Public API and Backward Incompatible Changes**
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
 
 ### **Adds PresetTheme in Shape**

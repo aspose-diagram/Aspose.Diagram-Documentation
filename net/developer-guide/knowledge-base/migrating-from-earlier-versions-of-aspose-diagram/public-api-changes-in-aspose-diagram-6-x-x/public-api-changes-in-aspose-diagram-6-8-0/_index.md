@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-6-8-0/
 This document describes changes to the Aspose.Diagram API from version 6.6.0 to 6.8.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Insert an ActiveX Control**
+## **Insert an ActiveX Control**
 Developers may insert an ActiveX control in the Visio diagram. We have added AddActiveXControl method in the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class. Please check this code example:
 
 **C#**
@@ -32,7 +32,7 @@ diagram.Save(@"C:\temp\MyOutput.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
-### **Set the Color CheckBox of Layer**
+## **Set the Color CheckBox of Layer**
 Developers can set or get the Color CheckBox of Layer using Aspose.Diagram API. Please check this code example:
 
 **C#**
@@ -82,7 +82,7 @@ diagram.Save(@"c:\temp\AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
 
 Error rendering macro 'code' : Invalid value specified for parameter lang
-### **Adds InheritFill Property in the Shape Class**
+## **Adds InheritFill Property in the Shape Class**
 Developers may get or set the inherit fill property. We have added InheritFill property in the Shape class. Please check this code example:
 
 **C#**

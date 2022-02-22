@@ -10,7 +10,7 @@ url: /net/public-api-changes-in-aspose-diagram-5-8-0/
 This document describes changes to the Aspose.Diagram API from version 5.7.0 to 5.8.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Diagram.
 
 {{% /alert %}} 
-### **SaveToolBar Option is added in the HTMLSaveOptions**
+## **SaveToolBar Option is added in the HTMLSaveOptions**
 The new SaveToolBar option has been added in the HTMLSaveOptions class. It specifies whether to save toolbar or not. The default value is true. Example codes:
 
 **C#**
@@ -40,7 +40,7 @@ Dim opts As New HTMLSaveOptions()
 opts.SaveToolBar = False
 
 {{< /highlight >}}
-### **VSDX Saving Option is added in the SaveFileFormat**
+## **VSDX Saving Option is added in the SaveFileFormat**
 Previously, Aspose.Diagram API supported reading VSDX format, but now we have added support of writing diagrams in the VSDX format. Example codes:
 
 **C#**
@@ -62,7 +62,7 @@ diagram.Save("C:\\temp\\Output.vsdx", SaveFileFormat.VSDX);
 diagram.Save("C:\temp\Output.vsdx", SaveFileFormat.VSDX)
 
 {{< /highlight >}}
-### **Group Method has been added in the ShapeCollection Class**
+## **Group Method has been added in the ShapeCollection Class**
 Developers can now group multiple shapes together in the Visio diagram using Aspose.Diagram API. Example codes:
 
 **C#**

@@ -11,7 +11,7 @@ This section provides a comparison of the availability of features Aspose.Diagra
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |
 |[VSDX](https://docs.fileformat.com/visio/vsdx/)|MS Visio Drawing that uses OPC (Open Packaging Conventions)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VDX](https://docs.fileformat.com/image/vdx/)|Drawing or chart created with Microsoft Visio|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VDX](https://docs.fileformat.com/visio/vdx/)|Drawing or chart created with Microsoft Visio|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSD](https://docs.fileformat.com/visio/vsd/)|Visio Drawing (Vector Graphics File Format)|{{< emoticons/tick >}}| | |
 |[VSX](https://docs.fileformat.com/visio/vsx/)|Visio Stencil XML file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VTX](https://docs.fileformat.com/visio/vtx/)|XML for Visio (Template File)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
@@ -20,7 +20,7 @@ This section provides a comparison of the availability of features Aspose.Diagra
 |[VSDM](https://docs.fileformat.com/visio/vsdm/)|Visio Macro-Enabled Drawing file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSSM](https://docs.fileformat.com/visio/vssm/)|Stores collection of shapes|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSTM](https://docs.fileformat.com/visio/vstm/)|VSTM that contains both Drawing template and macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VDW](https://docs.fileformat.com/web/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}| | |
+|[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}| | |
 |[VSS](https://docs.fileformat.com/visio/vss/)|The Visio Stencil File Type|{{< emoticons/tick >}}| | |
 |[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}| | |
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)| |{{< emoticons/tick >}}| |

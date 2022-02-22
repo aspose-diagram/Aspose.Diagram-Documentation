@@ -4,6 +4,5 @@ type: docs
 weight: 30
 url: /net/technical-articles/
 ---
-
-### **Articles in this section**
+**Articles in this section**
 

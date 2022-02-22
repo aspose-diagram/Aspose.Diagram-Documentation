@@ -21,6 +21,7 @@ This page contains release notes information for Aspose.Diagram for .NET 21.2.
 |DIAGRAMNET-51981|Convert VSDX to PDF - Shapes are black in the output pdf|Bug|
 |DIAGRAMNET-51985|VSDX to VSDX/VDX conversion: Shape colors change to gradient after saving|Bug|
 |DIAGRAMNET-51989|Visio to HTML - Strange border in the output|Bug|
+
 ## ` `**Public API and Backward Incompatible Changes**
 ` `The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Added ActivePage in Diagram**
