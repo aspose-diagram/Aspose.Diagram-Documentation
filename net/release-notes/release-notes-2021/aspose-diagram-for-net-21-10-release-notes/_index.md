@@ -27,8 +27,8 @@ This page contains release notes information for Aspose.Diagram for .NET 21.10.
 |DIAGRAMNET-52332|App: "System.IO.EndOfStreamException" when loading vsd|Bug|
 
 
-## `?`**Public API and Backward Incompatible Changes**
-`?`The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
+## **Public API and Backward Incompatible Changes**
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
 
 

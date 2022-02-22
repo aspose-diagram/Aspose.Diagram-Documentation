@@ -23,10 +23,10 @@ This page contains release notes information for Aspose.Diagram for .NET 22.1.
 |DIAGRAMNET-51034|The shading of shapes is missing on converting a VSDX to PDF|Bug|
 |DIAGRAMNET-51186|Incorrect layout of meta type shapes on converting a VSD to PDF|Bug|
 |DIAGRAMNET-51226|Aspose.Diagram 17.3.0: Saving to HTML stream do not embed external resources|Bug|
-|DIAGRAMNET-52506|Page.Copy() doesn¡¯t copy over Developer¡¯s changes|Bug|
+|DIAGRAMNET-52506|Page.Copy() doesn't copy over Developer's changes|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
-`?`The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
+## **Public API and Backward Incompatible Changes**
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
 
 ### **Adds SaveAsSingleFile  in HTMLSaveOptions**
