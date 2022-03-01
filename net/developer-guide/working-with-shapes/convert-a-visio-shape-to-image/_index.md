@@ -1,5 +1,5 @@
 ---
-title: Convert shape to image
+title: Convert a Visio Shape To Image
 type: docs
 weight: 10
 url: /net/convert-a-visio-shape-to-image/
