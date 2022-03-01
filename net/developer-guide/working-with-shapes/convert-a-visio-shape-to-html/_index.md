@@ -1,7 +1,7 @@
 ---
 title: Convert a Visio Shape To Html
 type: docs
-weight: 40
+weight: 10
 url: /net/convert-a-visio-shape-to-html/
 description: This section explains how to convert a visio shape to html with Aspose.Diagram.
 ---

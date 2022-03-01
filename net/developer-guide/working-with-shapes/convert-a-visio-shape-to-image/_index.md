@@ -1,7 +1,7 @@
 ---
 title: Convert shape to image
 type: docs
-weight: 70
+weight: 10
 url: /net/convert-a-visio-shape-to-image/
 description: This section explains how to convert a visio shape to image with Aspose.Diagram.
 ---

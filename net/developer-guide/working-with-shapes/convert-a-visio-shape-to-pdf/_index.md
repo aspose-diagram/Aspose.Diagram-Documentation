@@ -1,7 +1,7 @@
 ---
 title: Convert a Visio Shape To Pdf
 type: docs
-weight: 30
+weight: 10
 url: /net/convert-a-visio-shape-to-pdf/
 description: This section explains how to convert a visio shape to pdf with Aspose.Diagram.
 ---
