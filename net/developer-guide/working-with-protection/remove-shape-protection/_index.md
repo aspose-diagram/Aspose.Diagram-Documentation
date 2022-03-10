@@ -15,7 +15,7 @@ In Microsoft Office Visio, user may perform following actions to protect any sha
 
 - Open diagram in Microsoft Office Visio
 - Select any shape
-- Select 'Protection¡­' from the 'Format' menu if you are using Visio 2007 or select 'Protection' from the 'Developer' menu if you are using Visio 2010
+- Select 'Protection' from the 'Format' menu if you are using Visio 2007 or select 'Protection' from the 'Developer' menu if you are using Visio 2010
 - In the 'Protection' window, uncheck any text box to unlock any shape attribute
 - Press 'Ok'
 ### **Remove the Shape Protection Programming Sample**
