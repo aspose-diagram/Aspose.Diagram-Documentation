@@ -134,6 +134,7 @@ This Developer Guide provides information on using Aspose.Diagram in a variety o
         <p>Shape design</p>
         <ul>
          <li><a href="/diagram/net/group-convert-and-verify-shapes/#Group Shapes Programming Sample">Group Shapes</a></li>
+         <li><a href="/diagram/net/working-with-protection/">Protect Shape</a></li>
         </ul>        
     </div>
 </div>
