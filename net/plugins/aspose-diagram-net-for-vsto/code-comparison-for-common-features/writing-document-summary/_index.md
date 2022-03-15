@@ -31,11 +31,11 @@ Microsoft Visio lets you define a number of document summary information propert
 
 {{% /alert %}} 
 ### **Writing Microsoft Visio Document Summary Info**
-The [DocumentProperties](/pages/createpage.action?spaceKey=diagramnet&title=DocumentProperties+Class&linkCreation=true&fromPageId=18354908) class exposes a number of properties to set or get a Microsoft Visio diagram's summary information. Aspose.Diagram for .NET can update the drawing summary information and then write the drawing file back to VDX.
+The [DocumentProperties](https://apireference.aspose.com/diagram/net/aspose.diagram/documentproperties) class exposes a number of properties to set or get a Microsoft Visio diagram's summary information. Aspose.Diagram for .NET can update the drawing summary information and then write the drawing file back to VDX.
 
 To update the drawing summary information of an existing VDX or VSD file:
 
-1. Create an instance of the [Diagram](/pages/createpage.action?spaceKey=diagramnet&title=Diagram+Class&linkCreation=true&fromPageId=18354908) class.
+1. Create an instance of the [Diagram](https://apireference.aspose.com/diagram/net/aspose.diagram/diagram) class.
 1. Set properties exposed by Diagram.DocumentProps to define the summary information for the Visio drawing file.
 1. Call the Diagram class' Save method to write the Visio drawing file to VDX.
 
