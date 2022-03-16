@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-17-3-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 17.3.0](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-17-03-release-notes/).
+This page contains release notes for [Aspose.Diagram for Java 17.3.0](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-17-3-0-release-notes/).
 
 {{% /alert %}} 
 ## **Improvements and Changes**

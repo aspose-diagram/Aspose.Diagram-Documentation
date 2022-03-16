@@ -29,12 +29,12 @@ There are several [Diagram.Save]() method overloads that accept a SaveOptions ob
 ### **Visio Diagram Save Options**
 These examples show how to:
 
-- [Use Diagram Save Options](/diagram/net/save-a-visio-drawing/).
-- [Use PDF Save Options](/diagram/net/save-a-visio-drawing/).
-- [Use HTML Save Options](/diagram/net/save-a-visio-drawing/).
-- [Use Image Save Options](/diagram/net/save-a-visio-drawing/).
-- [Use SVG Save Options](/diagram/net/save-a-visio-drawing/).
-- [Use SWF Save Options](/diagram/net/save-a-visio-drawing/).
+- [Use Diagram Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Use PDF Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Use HTML Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Use Image Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Use SVG Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Use SWF Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
 #### **Use of the Diagram Save Options**
 The code below shows how to set save options before saving a document to Visio format.
 

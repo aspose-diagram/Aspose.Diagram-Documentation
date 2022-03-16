@@ -84,5 +84,5 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML("e:\\out.pdf", hs);
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
 1. [Copy a Visio Shape to another Shape instance](/diagram/net/add-2c-retrieve-2c-copy-and-read-visio-shape-data-html/#add-retrieve-copyandreadvisioshapedata-copyavisioshapetoanothershapeinstance)
-1. [Convert Visio Shape to PDF](/diagram/net/group-2c-convert-and-verify-shapes-html/#group-convertandverifyshapes-convertvisioshapetopdf)
-1. [Convert Visio Shape to HTML](/diagram/net/group-2c-convert-and-verify-shapes-html/#group-convertandverifyshapes-convertvisioshapetohtml)
+1. [Convert Visio Shape to PDF](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
+1. [Convert Visio Shape to HTML](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)
