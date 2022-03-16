@@ -18,7 +18,7 @@ The following piece of code retrieves the information for the connectors in a di
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.java" >}}
 ## **Retrieving Font Information**
-Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [stencils](), [connectors](/pages/createpage.action?spaceKey=diagramjava&title=Retrieving+Connector+Information&linkCreation=true&fromPageId=18612234) and also fonts. This article shows how to find out which fonts are used in a diagram.
+Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [stencils](), [connectors](https://apireference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection) and also fonts. This article shows how to find out which fonts are used in a diagram.
 
 The [Font](https://apireference.aspose.com/diagram/java/com.aspose.diagram/font) object represents a typeface that is either applied to text in a document or available for use on the system.
 

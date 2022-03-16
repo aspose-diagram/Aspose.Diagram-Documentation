@@ -33,7 +33,7 @@ We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.
 
 {{% /alert %}}
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [masters](https://docs.aspose.com/diagram/java/working-with-masters/), [connectors](/diagram/java/retrieving-connector-information/) and [fonts](/diagram/java/retrieving-font-information/). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [masters](https://docs.aspose.com/diagram/java/working-with-masters/), [connectors](https://apireference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection) and [fonts](https://apireference.aspose.com/diagram/java/com.aspose.diagram/FontCollection). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 

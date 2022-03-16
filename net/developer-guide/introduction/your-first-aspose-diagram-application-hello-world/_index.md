@@ -17,7 +17,7 @@ This tutorial shows how to create a very first application (Hello World) using A
 The steps below creates the Hello World application using the Aspose.Diagram API:
 
 1. Create an instance of the [Diagram](https://apireference.aspose.com/diagram/net/aspose.diagram/diagram) class.
-1. If you have a license, then [apply it](diagram/net/licensing/).
+1. If you have a license, then [apply it](https://apireference.aspose.com/diagram/net/aspose.diagram/license).
    If you are using the evaluation version, skip the license related code lines.
 1. Create a new Visio file, or open an existing Visio file.
 1. Create a new text box.

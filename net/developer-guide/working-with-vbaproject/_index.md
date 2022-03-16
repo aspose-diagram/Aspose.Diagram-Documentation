@@ -70,7 +70,7 @@ End Sub
 
 {{< /highlight >}}
 
-You can download the [source Visio file](1.vsdm) and the [output Visio file](1out.vsdm) from the given links.
+You can download the [source Visio file]() and the [output Visio file]() from the given links.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-ModifyModule.cs" >}}
 

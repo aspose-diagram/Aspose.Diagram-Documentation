@@ -34,4 +34,4 @@ The Shapes property holds a collection of shapes to save into the appropriate 
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-1. [Convert Visio Drawing with Selective Shapes](http://docs.asposeptyltd.com/docs/display/diagramjava/How+to+Convert+a+Visio+Diagram#HowtoConvertaVisioDiagram-ConvertVisioDrawingwithSelectiveShapes)
+1. [Convert Visio Drawing with Selective Shapes]()

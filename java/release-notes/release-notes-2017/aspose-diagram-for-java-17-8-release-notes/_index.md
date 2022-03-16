@@ -90,5 +90,5 @@ diagram.save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Use Connection indexes to connect shapes](/diagram/java/working-with-visio-shape-data-html/#workingwithvisioshapedata-useconnectionindexestoconnectshapes)
+1. [Use Connection indexes to connect shapes](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
 1. [Use of the SVG Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/#saveavisiodrawingtopdf-htmlandotherformats-useofthesvgsaveoptions)

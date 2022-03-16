@@ -7,7 +7,7 @@ url: /java/ruby-programmers-guide/
 
 **This section includes the following topics:**
 
-- [Loading, Saving and Converting in Ruby](/diagram/java/loading-2c-saving-and-converting-in-ruby/)
+- [Loading, Saving and Converting in Ruby](https://docs.aspose.com/diagram/java/loading-saving-and-converting-in-ruby/)
 - [Working with Masters in Ruby](/diagram/java/working-with-masters-in-ruby/)
 - [Working with Diagrams in Ruby](/diagram/java/working-with-diagrams-in-ruby/)
 - [Working with Pages in Ruby](/diagram/java/working-with-pages-in-ruby/)

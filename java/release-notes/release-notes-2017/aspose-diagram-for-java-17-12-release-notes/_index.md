@@ -82,8 +82,8 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-1. [Copy a Visio Shape to another Shape instance](/diagram/java/working-with-visio-shape-data-html/#workingwithvisioshapedata-copyavisioshapetoanothershapeinstance)
-1. [Convert Visio Shape to PDF](/diagram/java/group-2c-convert-and-verify-shapes-html/#group-convertandverifyshapes-convertvisioshapetopdf)
-1. [Convert Visio Shape to HTML](/diagram/java/group-2c-convert-and-verify-shapes-html/#group-convertandverifyshapes-convertvisioshapetohtml)
+1. [Copy a Visio Shape to another Shape instance](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
+1. [Convert Visio Shape to PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
+1. [Convert Visio Shape to HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
 
 

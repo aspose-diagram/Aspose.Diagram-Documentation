@@ -13,7 +13,6 @@ Download required libraries mentioned below. These are the required for executin
 Following releases of running examples are available to download on below mentioned social coding sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/tree/master/Plugins/Aspose_Diagram_Java_for_PHP)
-- [CodePlex](https://asposediagramjavaphp.codeplex.com/)
 ## **Installing**
 It is very simple and easy to install Aspose.Diagram Java for PHP, please follow the instructions:
 

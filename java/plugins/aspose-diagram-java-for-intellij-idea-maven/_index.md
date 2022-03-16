@@ -11,10 +11,10 @@ url: /java/aspose-diagram-java-for-intellij-idea-maven/
 
 In a 2010 **Infoworld** report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, NetBeans and Oracle JDeveloper.
 ### **Aspose.Diagram for Java**
-[Aspose.Diagram](http://www.aspose.com/java/diagram-component.aspx) for Java is a Non-Graphical and well-structured API that allows developers to load an existing diagram, create a diagram from scratch, save a diagram in any supported file format and manipulate Microsoft Visio drawings within a Java application without using Microsoft Visio. It provides better performance and is easier to use to manipulate diagrams and convert files than Microsoft Office Automation.
+[Aspose.Diagram](https://products.aspose.com/diagram/java/) for Java is a Non-Graphical and well-structured API that allows developers to load an existing diagram, create a diagram from scratch, save a diagram in any supported file format and manipulate Microsoft Visio drawings within a Java application without using Microsoft Visio. It provides better performance and is easier to use to manipulate diagrams and convert files than Microsoft Office Automation.
 ### **Aspose.Diagram Java for IntelliJ IDEA - Maven**
-- Aspose.Diagram Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Diagram for Java API maven dependency) and download source code examples of the API for using [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx).
-- This plugin helps you to work with [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx) inside your favorite IntelliJ IDEA. 
+- Aspose.Diagram Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i.e. created project contains Aspose.Diagram for Java API maven dependency) and download source code examples of the API for using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
+- This plugin helps you to work with [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/) inside your favorite IntelliJ IDEA. 
 
 ![todo:image_alt_text](http://i.imgur.com/KWKGljg.png)
 
@@ -24,8 +24,8 @@ The plugin contains two wizards -----
 
 **Wizard 1:** Aspose.Diagram Maven Project
 
-- Plugin's **Aspose Maven Project Wizard** lets developers to create [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx) Maven project.
-- The reference of [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and gets added in the pom.xml.
+- Plugin's **Aspose Maven Project Wizard** lets developers to create [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/) Maven project.
+- The reference of [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](hhttps://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram) and gets added in the pom.xml.
 - The created project will always contain most recent available version Maven Dependency for [Aspose.Diagram for Java API](http://www.aspose.com/java/diagram-component.aspx).
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Diagram for Java API](https://github.com/asposediagram/Aspose.Diagram-for-Java/tree/master/Examples)
 
