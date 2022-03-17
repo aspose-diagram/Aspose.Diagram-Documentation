@@ -39,4 +39,4 @@ The Shapes property holds a collection of shapes to save into the appropriate 
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs:
 
-1. [Convert Visio Drawing with Selective Shapes](/diagram/net/how-to-convert-a-visio-diagram/#convert-visio-drawing-with-selective-shapes)
+1. [Convert Visio Drawing with Selective Shapes](https://docs.aspose.com/diagram/net/convert-visio-to-pdf/)

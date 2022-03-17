@@ -14,7 +14,7 @@ This release introduces the features, enhancements and bug fixes as detailed bel
 - DIAGRAMNET-50183-VSD to PDF conversion, incorrect page number sequence
 - DIAGRAMNET-50209-VSD to PDF conversion, incorrect page number sequence 
 - DIAGRAMNET-50209-VSD to PDF conversion, incorrect page number sequence
-- DIAGRAMNET-50224-[SolutionXML elements](/pages/createpage.action?spaceKey=diagramnet&title=SolutionXML+elements&linkCreation=true&fromPageId=18353043) Can't read XmlValue properly
+- DIAGRAMNET-50224-[SolutionXML elements](https://apireference.aspose.com/diagram/net/aspose.diagram/solutionxml) Can't read XmlValue properly
 - DIAGRAMNET-50288-VSD TO XPS conversion, the arrow lines are not much clear
 - DIAGRAMNET-50289-VSDX to PNG conversion, the shapes fill color is not preserved
 - DIAGRAMNET-50291-VSDX to XPS conversion, the shapes fill color is not preserved

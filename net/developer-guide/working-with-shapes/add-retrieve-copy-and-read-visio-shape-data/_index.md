@@ -128,7 +128,7 @@ The code snippet below reads InheritProps of a shape. 
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-InheritProps-InheritProps.cs" >}}
 ## **Add and Connect Visio Shapes**
-Aspose.Diagram for .NET allows you to add customized shapes and connect them in [diagrams you create](/diagram/net/create-2c-update-2c-layout-and-auto-fit-shapes/).
+Aspose.Diagram for .NET allows you to add customized shapes and connect them in [diagrams you create](https://products.aspose.com/diagram/net/).
 ### **Adding and Connecting Shapes**
 The code in the samples below show how to:
 

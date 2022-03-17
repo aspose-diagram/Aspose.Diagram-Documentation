@@ -12,8 +12,8 @@ This article explains how to export a Microsoft Visio diagram to HTML using [Asp
 
 Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format. Developers can save resultant HTML in the local storage or directly to a stream instance.
 
-1. [Save resultant HTML in the local storage](/diagram/net/how-to-convert-a-visio-diagram/).
-1. [Save resultant HTML in a stream instance](/diagram/net/how-to-convert-a-visio-diagram/).
+1. [Save resultant HTML in the local storage](https://docs.aspose.com/diagram/net/convert-visio-to-html/#save-resultant-html-in-the-local-storage).
+1. [Save resultant HTML in a stream instance](https://docs.aspose.com/diagram/net/convert-visio-to-html/#save-resultant-html-in-a-stream-instance).
 
 The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSDX, VSDM, VSTX, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 

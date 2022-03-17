@@ -169,6 +169,6 @@ catch (Exception ex)
 
 {{< /highlight >}}
 ## **Download Sample Code**
-- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Diagram1.0/Update.shape.properties.Aspose.Diagram.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Diagram%20Vs%20VSTO%20Visio/Update%20shape%20properties%20\(Aspose.Diagram\).zip/download)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Update%20shape%20properties%20\(Aspose.Diagram\).zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/tree/master/Aspose.Diagram%20Vs%20VSTO%20Visio/Update%20shape%20properties)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Diagram%20Vs%20VSTO%20Visio/Update%20shape%20properties%20%28Aspose.Diagram%29.zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/src/master/Aspose.Diagram%20Vs%20VSTO%20Visio/Update%20shape%20properties/)

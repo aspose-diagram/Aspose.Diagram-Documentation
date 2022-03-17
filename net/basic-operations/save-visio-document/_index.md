@@ -79,7 +79,7 @@ The code below shows how to set save options before saving a document to SWF for
 
 Sometimes, developers need to save or export Visio diagrams to different file formats programmatically (like VDX, PDF, JPEG and so on).
 ## **Save VSD file to different file formats (VDX, PDF and JPEG)**
-This article provides a code example that illustrates how to use [VSTO](/diagram/net/save-a-visio-drawing/) and [Aspose.Diagram for .NET](/diagram/net/save-a-visio-drawing/) to save a Microsoft Visio VSD file to a VDX file, PDF file or a JPEG file programmatically. Below are parallel code snippets for VSTO and Aspose.Diagram for .NET that explains how to save a VSD file into different file formats. You'll notice that the Aspose.Diagram code is shorter. Feel free to use the code and change it to meet your specific needs.
+This article provides a code example that illustrates how to use [VSTO](https://docs.aspose.com/diagram/net/save-visio-document/) and [Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) to save a Microsoft Visio VSD file to a VDX file, PDF file or a JPEG file programmatically. Below are parallel code snippets for VSTO and Aspose.Diagram for .NET that explains how to save a VSD file into different file formats. You'll notice that the Aspose.Diagram code is shorter. Feel free to use the code and change it to meet your specific needs.
 ### **Saving a VSD File to Other Formats with VSTO**
 VSTO lets you program with Microsoft Visio files. To save a file to other formats:
 

@@ -85,7 +85,7 @@ A good approach is to develop a .NET assembly that references Aspose.Diagram for
 Reducing the number of classes and methods that you need to invoke via COM Interop simplifies the project. Using .NET classes via COM Interop often requires advanced skills. 
 ## **Create an Empty Visio Drawing in PHP using COM Interop**
 ### **Prerequisites**
-Configure your PHP to work with COM. See <http://www.php.net/manual/en/ref.com.php>. For more information, please check the article named [Use Aspose.Diagram for .NET via COM Interop](/pages/createpage.action?spaceKey=diagramnet&title=Use+Aspose.Diagram+for+.NET+via+COM+Interop&linkCreation=true&fromPageId=18350127).
+Configure your PHP to work with COM. See <http://www.php.net/manual/en/ref.com.php>. For more information, please check the article named [Use Aspose.Diagram for .NET via COM Interop](/diagram/net/home/).
 ### **Creating an Empty Visio Drawing**
 This is a simple application that shows you how to create an empty Visio drawing using [Aspose.Diagram for .NET](/diagram/net/home/) in PHP via COM Interop.
 

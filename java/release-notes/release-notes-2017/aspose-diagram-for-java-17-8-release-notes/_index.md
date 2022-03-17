@@ -7,7 +7,7 @@ url: /java/aspose-diagram-for-java-17-8-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Diagram for Java 17.8](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-17-08-release-notes/).
+This page contains release notes for [Aspose.Diagram for Java 17.8](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-17-8-release-notes/).
 
 {{% /alert %}} 
 ## **Improvements and Changes**
@@ -91,4 +91,4 @@ diagram.save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
 1. [Use Connection indexes to connect shapes](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [Use of the SVG Save Options](/diagram/java/save-a-visio-drawing-to-pdf-2c-html-and-other-formats-html/#saveavisiodrawingtopdf-htmlandotherformats-useofthesvgsaveoptions)
+1. [Use of the SVG Save Options](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)

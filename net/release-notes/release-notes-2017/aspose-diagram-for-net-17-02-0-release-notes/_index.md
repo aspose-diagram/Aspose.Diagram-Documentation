@@ -96,4 +96,4 @@ Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
 1. [Set Public and Private Keys to Apply Metered License](/diagram/net/licensing/#licensing-setpublicandprivatekeystoapplymeteredlicense)
 1. [Retrieve the Parent Shape of a Sub-Shape](/diagram/net/add-retrieve-copy-and-read-visio-shape-data/#add-retrieve-copyandreadvisioshapedata-retrievetheparentshapeofasub-shape)
-1. [Verify Whether the Visio Shape is in a Group of Shapes](/diagram/net/group-convert-and-verify-shapes/#group-convertandverifyshapes-verifywhetherthevisioshapeisinagroupofshapes)
+1. [Verify Whether the Visio Shape is in a Group of Shapes](https://docs.aspose.com/diagram/net/group-convert-and-verify-shapes/)

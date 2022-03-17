@@ -29,4 +29,4 @@ This release introduces the features, enhancements and bug fixes as detailed bel
 - DIAGRAMNET-50654-Shape.connectedShapes method returns incorrect shape ids 
 - DIAGRAMNET-50656-Shape.connectedShapes method detects incorrect direction of the shape connectors 
 - DIAGRAMNET-50658-Diagram.Save method call also closes resultant stream 
-- DIAGRAMNET-50662-[output VSDX](/pages/createpage.action?spaceKey=diagramnet&title=output+VSDX&linkCreation=true&fromPageId=18353063) - A missing parts error occurred
+- DIAGRAMNET-50662-[output VSDX](https://docs.aspose.com/diagram/net/convert-visio-to-other-files/) - A missing parts error occurred
