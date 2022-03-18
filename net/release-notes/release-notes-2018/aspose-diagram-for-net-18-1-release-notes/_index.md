@@ -47,4 +47,4 @@ newPage.Copy(diagram.Pages[0]);
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Copy Visio Page to another Page instance](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page-html/#retrieve-get-copyandinsertapage-copyvisiopagetoanotherpageinstance)
+1. [Copy Visio Page to another Page instance](https://docs.aspose.com/diagram/net/retrieve-get-copy-and-insert-a-page/#copy-visio-page-to-another-page-instance)

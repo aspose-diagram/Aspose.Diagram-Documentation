@@ -46,4 +46,4 @@ newPage.MoveTo(2);
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Move Page position in the Visio drawing](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page-html/#retrieve-get-copyandinsertapage-movepagepositioninthevisiodrawing)
+1. [Move Page position in the Visio drawing](https://docs.aspose.com/diagram/net/retrieve-get-copy-and-insert-a-page/#move-page-position-in-the-visio-drawing)

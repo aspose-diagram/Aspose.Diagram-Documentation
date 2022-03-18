@@ -95,5 +95,5 @@ diagram.Save("e:\\area.png", Options);
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Convert Specified Area of the Visio Page to an Image](/diagram/net/working-with-images-html/#workingwithimages-convertspecifiedareaofthevisiopagetoanimage)
+1. [Convert Specified Area of the Visio Page to an Image](https://docs.aspose.com/diagram/net/working-with-images/#convert-specified-area-of-the-visio-page-to-an-image)
 1. [Auto-space a Collection of Shapes in the Visio Page](/diagram/net/auto-space-a-collection-of-shapes-in-the-visio-page/)

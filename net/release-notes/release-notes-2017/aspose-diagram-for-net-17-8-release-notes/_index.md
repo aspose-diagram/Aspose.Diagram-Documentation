@@ -108,5 +108,5 @@ diagram.Save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.Diagram Wiki docs: 
 
-1. [Use Connection indexes to connect shapes](/diagram/net/add-2c-retrieve-2c-copy-and-read-visio-shape-data-html/#add-retrieve-copyandreadvisioshapedata-useconnectionindexestoconnectshapes)
-1. [Use of the SVG Save Options](https://docs.asposeptyltd.com/display/diagramnet/Save+a+Visio+Drawing#SaveaVisioDrawing-SVGSO)
+1. [Use Connection indexes to connect shapes](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/#use-connection-indexes-to-connect-shapes)
+1. [Use of the SVG Save Options](https://docs.aspose.com/diagram/net/save-visio-document/)
