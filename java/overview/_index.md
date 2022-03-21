@@ -5,7 +5,7 @@ type: docs
 weight: 10
 url: /java/overview/
 lastmod: "2022-01-25"
-description: Overview of key-features and supported formats of Visio C# API, installation and licensing manual of Java library.
+description: Overview of key-features and supported formats of Visio Diagram Java API, installation and licensing manual of Java library.
 sitemap:
     changefreq: "weekly"
     priority: 0.7
