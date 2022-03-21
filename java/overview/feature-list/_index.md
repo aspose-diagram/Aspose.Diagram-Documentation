@@ -7,7 +7,7 @@ keywords: Visio Diagram Java API
 description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 
-### **Rich Features**
+## **Rich Features**
 **Create**:
 
 - Create diagrams from scratch.
@@ -50,9 +50,9 @@ description: Visio Diagram Java API feature list include create, read, write, ex
 **Protection**:
 
 - Protecting diagrams allow you to lock backgrounds, masters (stencils), shapes and styles so that they cannot be amended.
-### **Platform Supported**
+## **Platform Supported**
 - Enterprise Web Application
 - Linux
 - Unix
-### **Performance and Scalability**
+## **Performance and Scalability**
 Aspose.Diagram for Java is designed to perform well on both a server or client. Aspose.Diagram for Java assemblies can be deployed with any Java application by simply adding it. You do not have to worry about other services or modules.
