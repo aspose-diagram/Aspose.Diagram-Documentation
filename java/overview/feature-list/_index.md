@@ -3,6 +3,8 @@ title: Feature List
 type: docs
 weight: 30
 url: /java/feature-list/
+keywords: Visio Diagram Java API
+description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 
 ### **Rich Features**
