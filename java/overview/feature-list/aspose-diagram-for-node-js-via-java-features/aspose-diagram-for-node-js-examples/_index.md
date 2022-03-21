@@ -3,6 +3,7 @@ title: Aspose.Diagram for Node.js Examples
 type: docs
 weight: 10
 url: /java/aspose-diagram-for-node-js-examples/
+description: Visio Diagram Node.js via Java API feature list include read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 
 Aspose.Diagram for Node.js is easy to use and lets you work with Visio diagrams without any understanding of underlying file format. You can create Visio VSDX files from scratch using simple lines of code. You can also convert VSDX files to PNG with just a couple of lines of code. In this article, we list some basic examples for working with Visio VSDX files using Aspose.Diagram for Node.js API.
