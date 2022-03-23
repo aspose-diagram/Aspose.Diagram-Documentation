@@ -3,6 +3,7 @@ title: Supported File Formats
 type: docs
 weight: 20
 url: /java/supported-file-formats/
+description: Visio Diagram Java API can load and save variety of formats including VSDX, VDX, VSD, VTX, VSSX, VSDM, VSTM, PDF, XPS, SVG, EMF, JPEG, PNG, BMP, TIFF and HTML. 
 ---
 
 ## **Supported File Formats**

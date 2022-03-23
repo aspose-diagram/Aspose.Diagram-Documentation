@@ -5,7 +5,7 @@ type: docs
 weight: 10
 url: /java/overview/
 lastmod: "2022-01-25"
-description: Overview of key-features and supported formats of Aspose.Diagram for Java, installation and licensing manual of Java library.
+description: Overview of key-features and supported formats of Visio Diagram Java API, installation and licensing manual of Java library.
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -14,7 +14,7 @@ sitemap:
 {{% alert color="primary" %}} 
 
 ![todo:image_alt_text](product-overview_1.png)
-### **Welcome to Aspose.Diagram for Java!**
+## **Welcome to Aspose.Diagram for Java!**
 Aspose.Diagram is the most flexible and reliable API that allows Java Applications to create and manage Microsoft Office Visio drawings without requiring Microsoft Office Visio to be installed on the system. It provides better performance and is easier to use to manipulate diagrams and convert files than Microsoft Office Automation.
 
 Aspose.Diagram takes advantage of advanced functionality provided by Visio services to manipulate Visio documents on a server. The Aspose.Diagram API is extensible, easy to use, compact and provides all the most common functionality so that developers can write less code.
@@ -26,7 +26,7 @@ Using Aspose.Diagram for Java in your applications gives you the following benef
 - [Performance and scalability](/diagram/java/product-overview/).
 
 {{% /alert %}} 
-### **Declaration**
+## **Declaration**
 All Aspose Java APIs require Full Trust permission set. The reason is, Aspose Java APIs need to access registry settings, system files other than virtual directory for certain operations like parsing fonts etc. Moreover, Aspose Java APIs are based on core Java system classes that also require Full Trust permission set in many cases.
 
 Internet Service Providers hosting multiple applications from different companies mostly enforce Medium Trust security level:
@@ -43,7 +43,7 @@ Internet Service Providers hosting multiple applications from different companie
 Due to the reasons specified above, Aspose Java APIs cannot be used on servers granting permission set other than Full Trust.
 
 {{% /alert %}} 
-### **Resources**
+## **Resources**
 This table lists important Aspose.Diagram for Java technical resources.
 
 |**Resource**|**Description**|

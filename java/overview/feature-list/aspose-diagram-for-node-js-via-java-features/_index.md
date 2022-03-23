@@ -3,6 +3,7 @@ title: Aspose.Diagram for Node.js via Java Features
 type: docs
 weight: 10
 url: /java/aspose-diagram-for-node-js-via-java-features/
+description: Visio Diagram Node.js via Java API feature list include read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 
 This section provides a comparison of the availability of features Aspose.Diagram for Node.js via Java.
