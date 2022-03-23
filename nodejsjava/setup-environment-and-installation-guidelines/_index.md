@@ -5,7 +5,7 @@ weight: 20
 url: /nodejsjava/setup-environment-and-installation-guidelines/
 aliases: [/java/aspose-diagram-for-nodejs-via-java-system-requirements/, /nodejsjava/system-requirements/]
 keywords: "nodejs, visio, install"
-description: "setup Aspose.Diagram for Node.js via Java and installation guidelines."
+description: Visio Diagram Node.js is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where Node.js and node-java bridge are installed. It can be installed from NPM and ZIP archive
 ---
 
 ## **System Requirements**

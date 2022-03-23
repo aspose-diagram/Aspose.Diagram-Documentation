@@ -3,6 +3,7 @@ title: Setup Environment and Installation Guidelines
 type: docs
 weight: 20
 url: /java/setup-environment-and-installation-guidelines/
+description: Visio Diagram Node.js via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where Node.js and node-java bridge are installed. It can be installed from NPM and ZIP archive.
 ---
 
 ## **System Requirements**
