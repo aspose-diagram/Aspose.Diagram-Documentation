@@ -1,5 +1,5 @@
 ---
-title: Change Page Size
+title: Check Page Autoexpand
 type: docs
 weight: 10
 url: /net/check-page-autoexpand/
