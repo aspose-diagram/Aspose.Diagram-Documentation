@@ -77,6 +77,12 @@ Some methods have overloads and they will be exposed by COM Interop with a numer
 For more information, see the language-specific articles further in this documentation. 
 
 {{% /alert %}} 
+## **Aspose.Diagram Resources**
+Following are the links to some useful resources you may need to accomplish your tasks.
+- [Aspose.Diagram for Java Online Documentation](https://docs.aspose.com/diagram/java/)
+- [Aspose.Diagram for Node.js via Java Online Documentation](https://docs.aspose.com/diagram/nodejsjava/)
+- [Aspose.Diagram for Python via Java Online Documentation](https://docs.aspose.com/diagram/pythonjava/)
+
 ##### **Creating a Wrapper Assembly**
 If you need to use many of Aspose.Diagram for .NET classes, methods and properties, consider creating a wrapper assembly (using C# or any other .NET programming language). Wrapper assemblies help help to avoid using Aspose.Diagram for .NET directly from unmanaged code.
 
