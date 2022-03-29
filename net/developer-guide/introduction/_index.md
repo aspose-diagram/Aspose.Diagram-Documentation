@@ -6,7 +6,7 @@ url: /net/introduction/
 description: Introduction of Aspose.Diagram library.
 ---
 
-## **Get the Version of the Aspose.Diagram for .NET Library**
+## **Get the Visio Document Information of the Aspose.Diagram for .NET Library**
 Microsoft Visio saves information about actions taken on a diagram within the file. For example, the time and date that the document was created, the last time it was edited, printed or saved, is saved with the file. Information about which version of Microsoft Visio created and last edited the file is also saved.
 
 This article explains how to retrieve that information.

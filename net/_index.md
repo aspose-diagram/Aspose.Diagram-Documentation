@@ -16,9 +16,11 @@ aliases:
 
 **Welcome to Aspose.Diagram for .NET**
 
-Aspose.Diagram, is a pure .NET API for working with the Microsoft Visio Object Model. Aspose.Diagram provides better performance and is easier to use to manipulate diagrams and convert files than Microsoft Office Automation.
+Aspose.Diagram is a pure .NET API class library for working with the Microsoft Visio Object Model. Aspose.Diagram provides better performance and is easier to use to manipulate diagrams and convert files than third party applications Microsoft Office Automation.
 
 Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft Office Visio to manipulate Visio diagrams on a server. Aspose.Diagram API is extensible, easy to use, compact and provides all the most common functionality so that developers can write less code.
+
+With Aspose.Diagram, you can easily turn your flow diagrams into other formats, such as PDF, HTML, various image formats or others. 
 
 {{% /alert %}} 
 
