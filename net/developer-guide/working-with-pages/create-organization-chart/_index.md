@@ -1,5 +1,5 @@
 ---
-title: Connect Shapes
+title: Create Organization Chart
 type: docs
 weight: 100
 url: /net/create-organization-chart/
