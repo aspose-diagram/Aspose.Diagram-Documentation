@@ -1,5 +1,6 @@
 ---
 title: Setup Environment and Installation Guidelines
+second_title: Aspose.Diagram for Node.js via Java
 type: docs
 weight: 20
 url: /nodejsjava/setup-environment-and-installation-guidelines/
