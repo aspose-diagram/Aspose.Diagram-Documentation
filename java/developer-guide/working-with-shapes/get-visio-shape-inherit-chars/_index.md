@@ -2,7 +2,7 @@
 title: Get Visio Shape Inherit Chars
 type: docs
 weight: 101
-url: /net/get-visio-shape-inherit-chars/
+url: /java/get-visio-shape-inherit-chars/
 description: This section explains how to get visio shape's font style inherited from it's parent style and master with Aspose.Diagram.
 ---
 ### **Retrieve Inherited Font Data of a Visio Shape**

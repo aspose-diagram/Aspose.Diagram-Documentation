@@ -2,7 +2,7 @@
 title: Get Visio Shape Inherit Line
 type: docs
 weight: 100
-url: /net/get-visio-shape-inherit-line/
+url: /java/get-visio-shape-inherit-line/
 description: This section explains how to get visio shape's line style inherited from it's parent style and master with Aspose.Diagram.
 ---
 ### **Retrieve Inherited Line Data of a Visio Shape**
