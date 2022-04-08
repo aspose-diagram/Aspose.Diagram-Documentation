@@ -49,6 +49,3 @@ In case you have multiple pages, Aspose.Diagram for Java allows using page savin
 
 #### **TestDiagramPageSavingCallback Class**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-DiagramConversions-DocumentConversionProgress-2.java" >}}
-
-
-}
