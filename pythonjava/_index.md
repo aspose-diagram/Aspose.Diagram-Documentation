@@ -2,7 +2,7 @@
 title: Aspose.Diagram for Python via Java Home
 type: docs
 weight: 40
-url: /pythonjava/
+url: /python-java/
 ---
 
 {{% alert color="primary" %}} 
