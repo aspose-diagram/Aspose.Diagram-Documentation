@@ -2,7 +2,7 @@
 title: Setup Environment and Installation Guidelines
 type: docs
 weight: 20
-url: /pythonjava/setup-environment-and-installation-guidelines/
+url: /python-java/setup-environment-and-installation-guidelines/
 aliases: [/java/aspose-diagram-for-python-via-java-system-requirements/, /pythonjava/system-requirements/]
 keywords: "python, visio, install"
 description: "setup Aspose.Diagram for Python via Java and installation guidelines."
