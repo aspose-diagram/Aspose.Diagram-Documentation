@@ -76,11 +76,9 @@ connection3.getX().getUfe().setF("Width*0.66");
 
 connection3.getY().getUfe().setF("Height*0");
 
-shape1.getConnections().add(connection1);
+connection1.setIX(shape1.getConnections().add(connection1));
 
-shape1.getConnections().add(connection3);
-
-
+connection3.setIX( shape1.getConnections().add(connection3));
 
 // add connector shapes
 
@@ -97,12 +95,9 @@ long connecter2Id = diagram.addShape(connector2, connectorMaster, 0);
 long connecter3Id = diagram.addShape(connector3, connectorMaster, 0);
 
 // connect shapes by index of conneecting points
-
 page.connectShapesViaConnectorIndex(shape1.getID(), 6, shape2.getID(), 3, connecter1Id);
-
 page.connectShapesViaConnectorIndex(shape1.getID(), 1, shape3.getID(), 3, connecter2Id);
 
-page.connectShapesViaConnectorIndex(shape1.getID(), 7, shape4.getID(), 3, connecter3Id);
 
 // save drawing
 
