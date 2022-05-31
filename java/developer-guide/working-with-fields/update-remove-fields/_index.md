@@ -9,7 +9,7 @@ description: This section explains how to update or remve fields.
 ## **Update Field**
 Aspose.Diagram for .NET lets you update and remove [field](https://apireference.aspose.com/diagram/java/com.aspose.diagram/field) to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 
-The [Field](https://apireference.aspose.com/diagram/java/com.aspose.diagram/field) object represents text field in a [text](https://apireference.aspose.com/diagram/java/com.aspose.diagram/text) run. The field property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/shape) class supports a collection of Aspose.Diagram.Field objects.
+The [Field](https://apireference.aspose.com/diagram/java/com.aspose.diagram/field) object represents text field in a [text](https://apireference.aspose.com/diagram/java/com.aspose.diagram/text) run. The field property, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class supports a collection of Aspose.Diagram.Field objects.
 ### **Programming Sample**
 The following piece of code update field in shape.
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
