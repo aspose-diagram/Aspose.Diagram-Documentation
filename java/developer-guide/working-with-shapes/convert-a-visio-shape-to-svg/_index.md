@@ -7,7 +7,7 @@ description: This section explains how to convert a visio shape to svg with Aspo
 ---
 
 ## **Convert a visio shape to svg **
-The ToSvg method exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/shape) class can be used to convert to svg.
+The ToSvg method exposed by the [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) class can be used to convert to svg.
 
 The code below shows how to:
 
