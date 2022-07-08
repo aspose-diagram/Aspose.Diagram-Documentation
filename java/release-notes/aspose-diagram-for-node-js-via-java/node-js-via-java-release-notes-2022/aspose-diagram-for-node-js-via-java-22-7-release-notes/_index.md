@@ -10,7 +10,6 @@ url: /java/aspose-diagram-for-node-js-via-java-22-7-release-notes/
 This page contains release notes information for Aspose.Diagram for Node.js via Java 22.7.
 
 {{% /alert %}}
-{{% /alert %}}
 ## **Improvements and Changes** ##
 
 |**Key**|**Summary**|**Category**|
