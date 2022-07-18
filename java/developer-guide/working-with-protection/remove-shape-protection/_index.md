@@ -9,7 +9,7 @@ description: This section explains how to remove shape protection using Aspose.D
 ## **Remove Protection of the Visio Shape**
 Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 ### **Edit the Visio Shape Protection**
-**LockAspect**, **LockBegin**, **LockCalcWH**, **LockCrop**, **LockCustProp**, **LockDelete**, **LockEnd**, **LockFormat**, **LockFromGroupFormat**, **LockGroup**, **LockHeight**, **LockMoveX**, **LockMoveY**, **LockRotate**, **LockSelect**, **LockTextEdit**, **LockThemeColors**, **LockThemeEffects**, **LockVtxEdit** and **LockWidth** properties exposed by [**Protection**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/protection) class support the **Aspose.Diagram.BoolValue** object. These properties can be used to protect and unprotect shapes.
+**LockAspect**, **LockBegin**, **LockCalcWH**, **LockCrop**, **LockCustProp**, **LockDelete**, **LockEnd**, **LockFormat**, **LockFromGroupFormat**, **LockGroup**, **LockHeight**, **LockMoveX**, **LockMoveY**, **LockRotate**, **LockSelect**, **LockTextEdit**, **LockThemeColors**, **LockThemeEffects**, **LockVtxEdit** and **LockWidth** properties exposed by [**Protection**](https://reference.aspose.com/diagram/java/com.aspose.diagram/protection) class support the **Aspose.Diagram.BoolValue** object. These properties can be used to protect and unprotect shapes.
 
 In Microsoft Office Visio, user may perform following actions to protect any shape:
 

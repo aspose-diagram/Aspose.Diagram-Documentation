@@ -56,7 +56,7 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 				<li><a href="/diagram/java/open-visio-document/">Load</a></li>
 				<li><a href="/diagram/java/save-visio-document/">Save</a></li>
 				<li><a href="/diagram/java/working-with-print/">Print</a></li>
-				<li><a href="https://apireference.aspose.com/diagram/java">Aspose.Diagram for Java API Reference Guide</a></li>
+				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API Reference Guide</a></li>
 			</ul>	
 			<p>Technical Support</p>
 			<ul>

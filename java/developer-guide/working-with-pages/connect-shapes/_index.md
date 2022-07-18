@@ -9,7 +9,7 @@ description: This section explains how to connect two shapes with Aspose.Diagram
 ## **Connect Shapes**
 This section explains how to connect two shapes using Aspose.Diagram for Java.
 ### **Connect Shapes**
-The [connectShapesViaConnector](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long)) method connect two shapes via a connector in the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class.
+The [connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long)) method connect two shapes via a connector in the [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) class.
 
 The code below shows how to:
 

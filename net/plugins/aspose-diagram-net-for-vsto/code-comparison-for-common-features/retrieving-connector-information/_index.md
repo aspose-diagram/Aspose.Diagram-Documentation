@@ -25,11 +25,11 @@ Below is the code to get connector information:
 ## **Aspose.Diagram**
 {{% alert color="primary" %}} 
 
-Aspose.Diagram for .NET provides mechanisms for retrieving information - ID and name - about [pages](https://apireference.aspose.com/diagram/net/aspose.diagram/pagecollection) and [master](https://apireference.aspose.com/diagram/net/aspose.diagram/mastercollection). It also lets you get information about connectors, the elements that link shapes.
+Aspose.Diagram for .NET provides mechanisms for retrieving information - ID and name - about [pages](https://reference.aspose.com/diagram/net/aspose.diagram/pagecollection) and [master](https://reference.aspose.com/diagram/net/aspose.diagram/mastercollection). It also lets you get information about connectors, the elements that link shapes.
 
 {{% /alert %}} 
 
-The [Connect](https://apireference.aspose.com/diagram/net/aspose.diagram/connect) object represents a connector that joins two shapes on a Visio drawing page. The Connects property, exposed by the [Page](https://apireference.aspose.com/diagram/net/aspose.diagram/page) class supports a collection of Aspose.Diagram.Connect objects. This property can be used to retrieve ID and name information about a connector.
+The [Connect](https://reference.aspose.com/diagram/net/aspose.diagram/connect) object represents a connector that joins two shapes on a Visio drawing page. The Connects property, exposed by the [Page](https://reference.aspose.com/diagram/net/aspose.diagram/page) class supports a collection of Aspose.Diagram.Connect objects. This property can be used to retrieve ID and name information about a connector.
 
 Below is the code to get connector information using Aspose.Diagram .NET:
 

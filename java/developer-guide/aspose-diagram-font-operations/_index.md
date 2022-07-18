@@ -14,7 +14,7 @@ Aspose.Diagram lets developers to set the font directories for rendering in Visi
 #### **Where Aspose.Diagram Looks for TrueType Fonts on Windows**
 Aspose.Diagram searches for fonts in the **Windows\Fonts** folder. This default setting works most of the time so only specify your own fonts folders if you really need to.
 #### **How to Explicitly Specify a Font Folder**
-Aspose.Diagram APIs has exposed setFontDirs method for the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class to specify the fonts folders as described below.
+Aspose.Diagram APIs has exposed setFontDirs method for the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class to specify the fonts folders as described below.
 
 1. The Diagram.setFontDirs method takes a string array as a parameter, so developer may specify many font directories using this approach.
 
@@ -38,10 +38,10 @@ Aspose.Diagram API requires access to the accurate font in order to properly ren
 #### **Notification of Missing Fonts and Font Substitution Programming Sample**
 To be notified of font substitution during rendering:
 
-1. Create a class that implements the [IWarningCallback](https://apireference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback)
+1. Create a class that implements the [IWarningCallback](https://reference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback)
 1. Pass it to the PdfSaveOptions.setWarningCallback(com.aspose.diagram.IWarningCallback) property.
 
-During saving of the drawing the instance of [IWarningCallback](https://apireference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback) is called if there are any potential fidelity issues with the drawing. In this case, we choose to only process warnings that are of font substitution and print the warning to the screen. The below example demonstrates how to receive notifications of font substitutions by using [IWarningCallback](https://apireference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback).
+During saving of the drawing the instance of [IWarningCallback](https://reference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback) is called if there are any potential fidelity issues with the drawing. In this case, we choose to only process warnings that are of font substitution and print the warning to the screen. The below example demonstrates how to receive notifications of font substitutions by using [IWarningCallback](https://reference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback).
 
 **Java**
 
@@ -70,7 +70,7 @@ diagram.save("C:\\temp\\Rendering.MissingFontNotification Out.pdf", saveOp);
 
 {{< /highlight >}}
 #### **Implementing the IWarningCallback**
-The last step is to create the class implementing the [IWarningCallback](https://apireference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback) interface. This class will print out any warnings of font substitution to the console. The below example demonstrates how to implement the IWarningCallback to be notified of any font substitution during document save.
+The last step is to create the class implementing the [IWarningCallback](https://reference.aspose.com/diagram/java/com.aspose.diagram/IWarningCallback) interface. This class will print out any warnings of font substitution to the console. The below example demonstrates how to implement the IWarningCallback to be notified of any font substitution during document save.
 
 
 

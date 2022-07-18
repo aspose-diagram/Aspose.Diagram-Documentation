@@ -11,7 +11,7 @@ description: Add VBA Module and Modify VBA or Macro with Aspose.Diagram library.
 ## **Add a VBA Module**
 {{% alert color="primary" %}}
 
-Aspose.Diagram allows you to add a new VBA Module and Macro Code using Aspose.Diagram. Please use the [**Diagram.VbaProject.Modules.Add()**](https://apireference.aspose.com/diagram/net/aspose.diagram.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the diagram
+Aspose.Diagram allows you to add a new VBA Module and Macro Code using Aspose.Diagram. Please use the [**Diagram.VbaProject.Modules.Add()**](https://reference.aspose.com/diagram/net/aspose.diagram.vba/vbamodulecollection/methods/add/index) method to add the new VBA Module inside the diagram
 
 {{% /alert %}}
 

@@ -8,7 +8,7 @@ url: /java/working-with-window-elements/
 ## **Retrieve Window Elements from the Visio Drawing**
 The main Visio application window can contain any open Visio files, the same as modern web browsers allow for multiple tabbed web pages in one window. Developers can retrieve Window objects using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
-The [WindowCollection](https://apireference.aspose.com/diagram/java/com.aspose.diagram/windowcollection) object represents a list of [Window](https://apireference.aspose.com/diagram/java/com.aspose.diagram/window) objects available in the drawing. The Windows property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Window objects. This property can be used to retrieve the window information that is, the Window ID, type, height, width and state.
+The [WindowCollection](https://reference.aspose.com/diagram/java/com.aspose.diagram/windowcollection) object represents a list of [Window](https://reference.aspose.com/diagram/java/com.aspose.diagram/window) objects available in the drawing. The Windows property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Window objects. This property can be used to retrieve the window information that is, the Window ID, type, height, width and state.
 
 **A console window showing the output from the code.**
 

@@ -63,7 +63,7 @@ With Aspose.Diagram, you can easily turn your flow diagrams into other formats, 
 				<li><a href="/diagram/net/open-visio-document/">Load</a></li>
 				<li><a href="/diagram/net/save-visio-document/">Save</a></li>
 				<li><a href="/diagram/net/working-with-print/">Print</a></li>
-				<li><a href="https://apireference.aspose.com/diagram/net">Aspose.Diagram for .NET API Reference Guide</a></li>
+				<li><a href="https://reference.aspose.com/diagram/net">Aspose.Diagram for .NET API Reference Guide</a></li>
 			</ul>	
 			<p>Technical Support</p>
 			<ul>

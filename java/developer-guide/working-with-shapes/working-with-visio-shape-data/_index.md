@@ -14,7 +14,7 @@ Use Aspose.Diagram for Java's API to create new shapes and then add these shapes
 
 To add a new shape:
 
-1. **Find the page** - Each Visio diagram contains a collection of pages. Developers may retrieve the page by page ID or Name and store the required page in the [Page](https://apireference.aspose.com/diagram//java/com.aspose.diagram/page) class object.
+1. **Find the page** - Each Visio diagram contains a collection of pages. Developers may retrieve the page by page ID or Name and store the required page in the [Page](https://reference.aspose.com/diagram//java/com.aspose.diagram/page) class object.
 1. **Add the require Master of a Shape** - Each Visio diagram contains a collection of masters. Developers may add a Master (by ID or Name) from the existing stencil file (by direct path or file stream).
 1. **Add shape in the Visio diagram** - Developers can place a new shape in the Visio diagram by page index (starting from 0), master name, PinX, PinY, height (optional) and width (optional).
 1. **Set shape properties** - AddShape method of the Diagram class returns the shape ID. Developers can retrieve shape from a Visio diagram by using this ID, and then set its properties, e.g. color, position, alignment and text.
@@ -36,7 +36,7 @@ We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 
-A [Shape](https://apireference.aspose.com/diagram//java/com.aspose.diagram/shape) is an object in a Visio drawing. The Shapes property, exposed by the Page class, supports a collection of Aspose.Diagram.Shape objects. The Shapes property can be used to retrieve information about a shape.
+A [Shape](https://reference.aspose.com/diagram//java/com.aspose.diagram/shape) is an object in a Visio drawing. The Shapes property, exposed by the Page class, supports a collection of Aspose.Diagram.Shape objects. The Shapes property can be used to retrieve information about a shape.
 
 In the console window below, for example, you can see information output for a diagram that contained four shapes: two terminators, a process and a dynamic connector. Each has a unique ID as well as the name of the master (stencil) shape.
 
@@ -99,7 +99,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ## **Reading Visio Shape Data**
-The Props collection exposed by the Shape class supports the [Aspose.Diagram.Prop](https://apireference.aspose.com/diagram//java/com.aspose.diagram/prop) object. The property can be used to read a shape's data (custom properties).
+The Props collection exposed by the Shape class supports the [Aspose.Diagram.Prop](https://reference.aspose.com/diagram//java/com.aspose.diagram/prop) object. The property can be used to read a shape's data (custom properties).
 ### **Read All Shape Properties**
 To identify custom properties in Microsoft Visio:
 

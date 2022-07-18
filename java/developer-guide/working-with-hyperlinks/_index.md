@@ -10,7 +10,7 @@ It is an easy approach to add hyperlink to Microsoft Visio shape dynamically.
 
 On multi page Visio drawings, hyperlinks can move you from one page to another. You also can link your drawing to a web page or a file on your system.
 
-These properties are exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) class supports the [com.aspose.diagram.Hyperlink](https://apireference.aspose.com/diagram/java/com.aspose.diagram/hyperlink) object. The add method can be used to add a shape's hyperlink data.
+These properties are exposed by the [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) class supports the [com.aspose.diagram.Hyperlink](https://reference.aspose.com/diagram/java/com.aspose.diagram/hyperlink) object. The add method can be used to add a shape's hyperlink data.
 
 To identify properties in Microsoft Visio:
 
@@ -33,7 +33,7 @@ Developers can retrieve all hyperlinks from a Visio shape in the same way as the
 
 In multipage Visio drawings, hyperlinks can move you from one page to another. You also can link your drawing to a web page or a file on your system.
 
-These properties are exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Shape) class supports the [com.aspose.diagram.Hyperlink](https://apireference.aspose.com/diagram/java/com.aspose.diagram/hyperlink) object. The property can be used to read a shape's hyperlink data.
+These properties are exposed by the [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) class supports the [com.aspose.diagram.Hyperlink](https://reference.aspose.com/diagram/java/com.aspose.diagram/hyperlink) object. The property can be used to read a shape's hyperlink data.
 
 To identify properties in Microsoft Visio:
 

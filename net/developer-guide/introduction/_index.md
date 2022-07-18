@@ -11,9 +11,9 @@ Microsoft Visio saves information about actions taken on a diagram within the fi
 
 This article explains how to retrieve that information.
 ### **Determining the Version of Microsoft Visio that's Created, Edited and Saved a Document**
-The Version property exposed by the [Diagram](https://apireference.aspose.com/diagram/net/aspose.diagram/diagram/) class and the BuildNumberCreated property exposed by the DocumentProperties class is used to determine the version and full build number of the Microsoft Visio instance used to create the document.
+The Version property exposed by the [Diagram](https://reference.aspose.com/diagram/net/aspose.diagram/diagram/) class and the BuildNumberCreated property exposed by the DocumentProperties class is used to determine the version and full build number of the Microsoft Visio instance used to create the document.
 
-The BuildNumberEdited property exposed by the [DocumentProperties](https://apireference.aspose.com/diagram/net/aspose.diagram/documentproperties) class is used to determine the full build number of the Microsoft Visio instance used to edit the document.
+The BuildNumberEdited property exposed by the [DocumentProperties](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties) class is used to determine the full build number of the Microsoft Visio instance used to edit the document.
 
 The TimeCreated, TimeEdited, TimePrinted and TimeSaved properties exposed by the DocumentProperties class is used to determine the time that the Microsoft Visio document was created, last edited, last printed and last saved.
 
@@ -33,8 +33,8 @@ Please note that you cannot set values against the **Application** and **Prod
 
 To update the drawing summary information of an existing VDX or VSD file:
 
-1. Create an instance of the [Diagram](https://apireference.aspose.com/diagram/net/aspose.diagram/diagram/) class.
-1. Set properties exposed by [Diagram.DocumentProps](https://apireference.aspose.com/diagram/net/aspose.diagram/diagram/properties/documentprops) to define the summary information for the Visio drawing file.
+1. Create an instance of the [Diagram](https://reference.aspose.com/diagram/net/aspose.diagram/diagram/) class.
+1. Set properties exposed by [Diagram.DocumentProps](https://reference.aspose.com/diagram/net/aspose.diagram/diagram/properties/documentprops) to define the summary information for the Visio drawing file.
 1. Call the Diagram class' Save method to write the Visio drawing file to VDX.
 
 Check the summary information:

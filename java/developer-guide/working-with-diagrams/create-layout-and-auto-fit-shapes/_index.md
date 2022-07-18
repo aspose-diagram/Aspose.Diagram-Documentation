@@ -6,7 +6,7 @@ url: /java/create-layout-and-auto-fit-shapes/
 ---
 
 ## **Creating a Diagram**
-Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/diagram/java/add-and-connect-visio-shapes/) to build up the diagram. Use the default constructor of [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class to create a new diagram.
+Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](/diagram/java/add-and-connect-visio-shapes/) to build up the diagram. Use the default constructor of [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class to create a new diagram.
 ### **Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
 ## **Layout Shapes in Flowchart Style**
@@ -14,7 +14,7 @@ With certain types of connected drawings, such as flowcharts and network diagram
 
 For example, if you're updating a large flowchart to include a new process, you can add and connect the shapes that make up the process, and then use the layout feature to automatically layout the updated drawing.
 
-The Layout method, exposed by the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class layouts the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an LayoutOptions object as an argument. Use the different properties exposed by the LayoutOptions class to automatically layout shapes.
+The Layout method, exposed by the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class layouts the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an LayoutOptions object as an argument. Use the different properties exposed by the LayoutOptions class to automatically layout shapes.
 
 The image below shows the diagram loaded by the code snippets in this article, before auto layout is applied. The code snippets show how to apply [flowchart layouts](/diagram/java/create-2c-layout-and-auto-fit-shapes/) and [compact tree layouts](/diagram/java/create-2c-layout-and-auto-fit-shapes/).
 
@@ -47,7 +47,7 @@ The compact tree layout style tries to built a tree structure. It uses the same 
 | :- | :- |
 To layout shapes in the compact tree style:
 
-1. Create an instance of the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class.
+1. Create an instance of the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class.
 1. Create an instance of the LayoutOptions class and set compact tree style properties.
 1. Call the Diagram class' Layout method by passing LayoutOptions.
 1. Call the the Diagram class' Save method to write the Visio file.
@@ -80,6 +80,6 @@ Please check this code example:
 ### **Remove All Macros from the Visio Diagram**
 Aspose.Diagram for Java allows developers to remove all macros from the Visio diagram.
 
-The JavaProjectData property, exposed by the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class, allows you to remove all macros from the Visio drawing.
+The JavaProjectData property, exposed by the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class, allows you to remove all macros from the Visio drawing.
 ### **Remove All Macros Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RemoveMacrosFromVisio-RemoveMacrosFromVisio.java" >}}

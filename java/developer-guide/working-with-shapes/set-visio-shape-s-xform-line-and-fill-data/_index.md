@@ -6,7 +6,7 @@ url: /java/set-visio-shape-s-xform-line-and-fill-data/
 ---
 
 ## **Setting XForm Data**
-The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped. The [XForm](https://apireference.aspose.com/diagram/java/com.aspose.diagram/xform) property, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.XForm object. The XForm property can be used to retrieve or update a shape's XForm data. The code examples in this article change the PinX (X-coordinate) and PinY (Y-coordinate) XForm values to move the shapes on the page.
+The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped. The [XForm](https://reference.aspose.com/diagram/java/com.aspose.diagram/xform) property, exposed by the [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.XForm object. The XForm property can be used to retrieve or update a shape's XForm data. The code examples in this article change the PinX (X-coordinate) and PinY (Y-coordinate) XForm values to move the shapes on the page.
 
 **Input diagram** 
 
@@ -38,7 +38,7 @@ Microsoft Visio lets users format lines in various ways. Aspose.Diagram for Java
 - Beginning and ending arrow sizes: set the arrow sizes.
 - Cap: the rounding of the line ends.
 ### **Change the line color, weight, dash type, transparency, rounding, arrow type and arrow size of a shape's border**
-The [Line](https://apireference.aspose.com/diagram/java/com.aspose.diagram/line) property, exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.Line object. This property can be used to retrieve or update a shape's line data.
+The [Line](https://reference.aspose.com/diagram/java/com.aspose.diagram/line) property, exposed by the [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class, supports the Aspose.Diagram.Line object. This property can be used to retrieve or update a shape's line data.
 #### **Line Data Programming Sample**
 The following piece of code updates the line data of shape.
 
@@ -46,7 +46,7 @@ The following piece of code updates the line data of shape.
 ## **Set Visio Shape's Fill Data**
 Shapes can be formatted in several ways. This topic describes how to specify a shape's fill.
 
-Microsoft Office Visio lets users format fills in various ways. The [Fill](https://apireference.aspose.com/diagram/java/com.aspose.diagram/fill) class of the Aspose.Diagram for Java API supports setting:
+Microsoft Office Visio lets users format fills in various ways. The [Fill](https://reference.aspose.com/diagram/java/com.aspose.diagram/fill) class of the Aspose.Diagram for Java API supports setting:
 
 - Background and foreground colors.
 - Transparency.
