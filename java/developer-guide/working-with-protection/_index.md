@@ -8,7 +8,7 @@ url: /java/working-with-protection/
 ## **Set Protection of the Visio Diagram**
 Protecting diagrams allow users to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams. Developers can achieve this using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 ### **Edit Protection of the Visio Diagram**
-The getProtectBkgnds, getProtectMasters, getProtectShapes and getProtectStyles methods, exposed by the [DocumentSettings](https://apireference.aspose.com/diagram/java/com.aspose.diagram/DocumentSettings) class support the com.aspose.diagram.BoolValue object. These properties can be used to protect and unprotect Microsoft Visio diagrams.
+The getProtectBkgnds, getProtectMasters, getProtectShapes and getProtectStyles methods, exposed by the [DocumentSettings](https://reference.aspose.com/diagram/java/com.aspose.diagram/DocumentSettings) class support the com.aspose.diagram.BoolValue object. These properties can be used to protect and unprotect Microsoft Visio diagrams.
 
 In Microsoft Visio you protect documents this way:
 
@@ -28,7 +28,7 @@ Use the code below in a Java application to perform the same tasks – lock and 
 ### **Edit the Visio Shape Protection**
 Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
-The **getLockAspect()**, **getLockBegin()**, **getLockCalcWH()**, **getLockCrop()**, **getLockCustProp()**, **getLockDelete()**, **getLockEnd()**, **getLockFormat()**, **getLockFromGroupFormat()**, **getLockGroup()**, **getLockHeight()**, **getLockMoveX()**, **getLockMoveY()**, **getLockRotate()**, **getLockSelect()**, **getLockTextEdit()**, **getLockThemeColors()**, **getLockThemeEffects()**, **getLockVtxEdit()** and **getLockWidth()** methods exposed by the [Protection](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Protection) class support the com.aspose.diagram.BoolValue object. These methods can be used to protect/unprotect shapes.
+The **getLockAspect()**, **getLockBegin()**, **getLockCalcWH()**, **getLockCrop()**, **getLockCustProp()**, **getLockDelete()**, **getLockEnd()**, **getLockFormat()**, **getLockFromGroupFormat()**, **getLockGroup()**, **getLockHeight()**, **getLockMoveX()**, **getLockMoveY()**, **getLockRotate()**, **getLockSelect()**, **getLockTextEdit()**, **getLockThemeColors()**, **getLockThemeEffects()**, **getLockVtxEdit()** and **getLockWidth()** methods exposed by the [Protection](https://reference.aspose.com/diagram/java/com.aspose.diagram/Protection) class support the com.aspose.diagram.BoolValue object. These methods can be used to protect/unprotect shapes.
 
 In Visio, you need to perform following actions to protect any shape:
 

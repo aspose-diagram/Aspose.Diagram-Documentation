@@ -15,7 +15,7 @@ Aspose.Diagram API allows developers to change 3D rotation values in the shapesh
 
 The **KeepTextFlat** cell value indicates whether a shape’s text will ignore the shape’s rotation in 3-D. It does not apply to 2-D rotation. The **DistanceFromGround** cell value determines the distance the object is raised from the ground in the points when rotated in 3-D. The **Perspective** cell value determines the perspective angle for a perspective rotation, in degrees (0 to 359.9).
 ### **Set 3D Rotation Properties**
-The ThreeDFormat member exposed by the [Shape](https://apireference.aspose.com/diagram/net/aspose.diagram/shape) class can be used to set 3d rotation properties.
+The ThreeDFormat member exposed by the [Shape](https://reference.aspose.com/diagram/net/aspose.diagram/shape) class can be used to set 3d rotation properties.
 
 The code below shows how to:
 

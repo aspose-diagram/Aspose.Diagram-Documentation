@@ -24,6 +24,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Node.js via Java Release Notes](https://docs.aspose.com/display/diagramjava/Aspose.Diagram+for+Node.js+via+Java)
 - [Aspose.Diagram for Node.js via Java Product Page](https://products.aspose.com/diagram/nodejs-java/)
 - [Download Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/diagram/nodejs)
-- [Aspose.Diagram for Node.js via Java API Reference Guide](https://apireference.aspose.com/diagram/nodejs)
+- [Aspose.Diagram for Node.js via Java API Reference Guide](https://reference.aspose.com/diagram/nodejs)
 - [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)

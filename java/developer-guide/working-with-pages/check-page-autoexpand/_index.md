@@ -8,8 +8,8 @@ description: This section explains how to check or change page is auto expand in
 
 ## **Check page AutoExpand**
 
-The [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class supports a collection of Aspose.Diagram.Page objects. 
-The [PageProps](https://apireference.aspose.com/diagram/java/com.aspose.diagram/PageProps) object represents the page attributes, such as the page width, height, and scale. This property can be used to check page's autoexpand.
+The [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class supports a collection of Aspose.Diagram.Page objects. 
+The [PageProps](https://reference.aspose.com/diagram/java/com.aspose.diagram/PageProps) object represents the page attributes, such as the page width, height, and scale. This property can be used to check page's autoexpand.
 
 Use the PageProps property to check page's autoexpand.
 ### **Check Page AutoExpand Programming Sample**

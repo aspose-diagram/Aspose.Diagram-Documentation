@@ -8,11 +8,11 @@ description: This section explains how to get paper size of the visio page with 
 
 ## **Possible Usage Scenarios**
 
-Sometimes, you need to know the width and height of paper size as it has been set in page setup of the page. Please use the [**PageProps.PageWidth**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageWidth) and [**PageProps.PageHeight**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageHeight) properties for this purpose.
+Sometimes, you need to know the width and height of paper size as it has been set in page setup of the page. Please use the [**PageProps.PageWidth**](https://reference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageWidth) and [**PageProps.PageHeight**](https://reference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageHeight) properties for this purpose.
 
 ## **Get Page Width and Height of Page Prop of Page**
 
-The following sample code explains the usage of [**PageProps.PageWidth**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageWidth) and [**PageProps.PageHeight**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageHeight) properties.
+The following sample code explains the usage of [**PageProps.PageWidth**](https://reference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageWidth) and [**PageProps.PageHeight**](https://reference.aspose.com/diagram/java/com.aspose.diagram/pageprops#PageHeight) properties.
 
 ### **Sample Code**
 

@@ -9,7 +9,7 @@ description: This section explains how to connect two shapes with Aspose.Diagram
 ## **Connect Shapes**
 This section explains how to connect two shapes using Aspose.Diagram for .NET.
 ### **Connect Shapes**
-The [ConnectShapesViaConnector](https://apireference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) method connect two shapes via a connector in the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class.
+The [ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) method connect two shapes via a connector in the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class.
 
 The code below shows how to:
 

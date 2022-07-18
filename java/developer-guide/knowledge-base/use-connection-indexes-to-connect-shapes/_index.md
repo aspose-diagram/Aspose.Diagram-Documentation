@@ -8,7 +8,7 @@ url: /java/use-connection-indexes-to-connect-shapes/
 ## **Add new Connections on the shape and use Connection indexes to connect shapes**
 Aspose.Diagram for Java API helps developers to add new connecting points on the shape, and developers can now connect shapes with connection indexes.
 ### **Use Connection indexes to connect shapes**
-The connectShapesViaConnectorIndex member exposed by the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class can be used to connect shapes using connection indexes. The following code shows how to connect shapes:
+The connectShapesViaConnectorIndex member exposed by the [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) class can be used to connect shapes using connection indexes. The following code shows how to connect shapes:
 
 1. Initialize a new drawing.
 1. Place four rectangle shapes

@@ -9,7 +9,7 @@ description: This section explains how to change page's size in a visio file wit
 ## **Change Page Size**
 
 The [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) object represents the drawing area of a foreground page or a background page. The Pages property exposed by the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class supports a collection of Aspose.Diagram.Page objects. 
-The [PageProps](https://apireference.aspose.com/diagram/net/aspose.diagram/pagesheet/properties/pageprops) object represents the page attributes, such as the page width, height, and scale. This property can be used to change page size.
+The [PageProps](https://reference.aspose.com/diagram/net/aspose.diagram/pagesheet/properties/pageprops) object represents the page attributes, such as the page width, height, and scale. This property can be used to change page size.
 
 Use the PageProps property to change page size .
 ### **Set Page Size Programming Sample**
