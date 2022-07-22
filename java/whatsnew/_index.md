@@ -9,12 +9,14 @@ description: "Aspose.Diagram for Java expands and enhances daily. On this page, 
 
 This page describes the most interesting new Aspose.Diagram features introduced in recent releases.
 
-## Aspose.Diagram for Java 22.1
+Starting from 22.6, the Dependency in the pom.xml of the maven project needs to delete the classifier section
 
-* Support to saving html to a Single stream
+## Aspose.Diagram for Java 22.5
 
-## Aspose.Diagram for Java 21.12
+* Support getting DisplayValue of field
+* Support getting inheritParas of shape
 
-* Support to save Foreground Pages Only for printing
-* Support saving raster image separately
+## Aspose.Diagram for Java 22.4
+
+* Support getting the pure text string of a shape.
 
