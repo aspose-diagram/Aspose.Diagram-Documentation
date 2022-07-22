@@ -40,7 +40,7 @@ Follow these simple rules:
 - Do not call SetLicense from within the Page_Load methods since it means the license will be loaded every time a web page is loaded.
 - If you are developing a class library, you call SetLicense from a static constructor of the class that uses Aspose.Diagram. The static constructor executes before an instance of your class is created making sure Aspose.Diagram license is properly set.
 ### **Apply License using File or Stream Object**
-Use the [License.SetLicense](https://apireference.aspose.com/diagram/net/aspose.diagram/license) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Diagram.dll and specify the filename, without a path, as shown below.
+Use the [License.SetLicense](https://reference.aspose.com/diagram/net/aspose.diagram/license) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.Diagram.dll and specify the filename, without a path, as shown below.
 #### **Loading a License from File**
 This code snippet initializes a license stored in a file or in an embedded resource.
 
@@ -52,6 +52,6 @@ These code snippets initialize the license from stream.
 ## **Apply Metered License**
 Aspose.Diagram for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://apireference.aspose.com/diagram/net/aspose.diagram/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [Metered](https://reference.aspose.com/diagram/net/aspose.diagram/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-PublicAndPrivateKeys-PublicAndPrivateKeys.cs" >}}

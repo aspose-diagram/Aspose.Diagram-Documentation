@@ -15,7 +15,7 @@ Use Aspose.Diagram for Java API to create new shapes and then add these shapes t
 
 To add a new shape:
 
-1. **Find the page** - Each Visio diagram contains a collection of pages. Developers may retrieve the page by page ID or Name and store the required page in the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) class object.
+1. **Find the page** - Each Visio diagram contains a collection of pages. Developers may retrieve the page by page ID or Name and store the required page in the [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) class object.
 1. **Add the require Master of a Shape** - Each Visio diagram contains a collection of masters. Developers may add a Master (by ID or Name) from the existing stencil file (by direct path or file stream).
 1. **Add shape in the Visio diagram** - Developers can place a new shape in the Visio diagram by page index (starting from 0), master name, PinX, PinY, height (optional) and width (optional).
 1. **Set shape properties** - AddShape method of the Diagram class returns the shape ID. Developers can retrieve shape from a Visio diagram by using this ID, and then set its properties, e.g. color, position, alignment and text.
@@ -33,7 +33,7 @@ We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.
 
 {{% /alert %}}
 ## **Retrieving Shape Information**
-[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [masters](https://docs.aspose.com/diagram/java/working-with-masters/), [connectors](https://apireference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection) and [fonts](https://apireference.aspose.com/diagram/java/com.aspose.diagram/FontCollection). This article looks at how to retrieve information about shapes in a diagram.
+[Working with Diagrams](/diagram/java/working-with-diagrams/) explains how to create diagrams, add shapes and connectors, and then how to retrieve information about diagram elements such as [pages](/diagram/java/retrieve-get-copy-and-insert-a-page/), [masters](https://docs.aspose.com/diagram/java/working-with-masters/), [connectors](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection) and [fonts](https://reference.aspose.com/diagram/java/com.aspose.diagram/FontCollection). This article looks at how to retrieve information about shapes in a diagram.
 
 Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.
 
@@ -111,7 +111,7 @@ The code snippet below reads a shape property by name (custom property).
 ## **Use Connection indexes to connect shapes**
 Aspose.Diagram for Java API already allows developers to add new connecting points on the shape, and developers can now connect shapes using connection indexes.
 ### **Use Connection indexes to connect shapes**
-The ConnectShapesViaConnectorIndex member exposed by the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) class can be used to connect shapes using connection indexes. 
+The ConnectShapesViaConnectorIndex member exposed by the [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) class can be used to connect shapes using connection indexes. 
 
 1. Initialize a new drawing.
 1. Place four rectangle shapes

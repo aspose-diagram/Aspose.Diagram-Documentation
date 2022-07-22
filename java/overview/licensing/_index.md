@@ -36,7 +36,7 @@ The license can be loaded from a stream or file in the following locations:
 1. Explicit path.
 1. The folder that contains the Aspose.Diagram.jar.
 
-Use the [License.setLicense()](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
+Use the [License.setLicense()](https://reference.aspose.com/diagram/java/com.aspose.diagram/License) method to license the component. Often the easiest way to set a license is to put the license file in the same folder as Aspose.Diagram.jar and specify just the file name without path as shown in the following example:
 #### **Example 1**
 In this example **Aspose.Diagram** will attempt to find the license file in the folder that contain the JARs of your application.
 
@@ -62,7 +62,7 @@ license.setLicense(new java.io.FileInputStream("Aspose.Diagram.Java.lic"));
 
 {{< /highlight >}}
 ### **Validate the License**
-It is possible to validate if the license has been set properly or not. The [License](https://apireference.aspose.com/diagram/java/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
+It is possible to validate if the license has been set properly or not. The [License](https://reference.aspose.com/diagram/java/com.aspose.diagram/License) class has the isLicensed field that will return true if license has been properly set.
 
 **Java**
 
@@ -82,6 +82,6 @@ if (License.isLicensed()) {
 ## **Apply Metered License**
 Aspose.Diagram for Java API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [Metered](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-License-PublicAndPrivateKeys-PublicAndPrivateKeys.java" >}}

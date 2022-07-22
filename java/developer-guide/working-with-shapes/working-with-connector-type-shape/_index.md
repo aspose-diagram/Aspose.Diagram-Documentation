@@ -8,7 +8,7 @@ url: /java/working-with-connector-type-shape/
 ## **Set Appearance of the Connector Type Shape in Visio**
 This topic elaborates how developers can change the appearance of dynamic connector type shape using Aspose.Diagram for Java.
 ### **Set Connector Appearance**
-The SetConnectorsType method exposed by the [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class can be used to set appearance of the connector type shape.
+The SetConnectorsType method exposed by the [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class can be used to set appearance of the connector type shape.
 
 The code below shows how to:
 
@@ -22,7 +22,7 @@ Use the following code in your Java application to set appearance of the connect
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetConnectorAppearance-SetConnectorAppearance.java" >}}
 ## **Select Reroute Option of the Connector Shape**
-The ConFixedCode property exposed by the [Layout](https://apireference.aspose.com/diagram/java/com.aspose.diagram/layout) class can be used to select reroute option. The Layout property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, will be used.
+The ConFixedCode property exposed by the [Layout](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) class can be used to select reroute option. The Layout property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, will be used.
 
 |<p>**How to Select Reroute Options** </p><p>![todo:image_alt_text](http://i.imgur.com/1O70sSA.png)</p>|
 | :- |

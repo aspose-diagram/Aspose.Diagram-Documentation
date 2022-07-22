@@ -9,7 +9,7 @@ description: This section explains how to create a organization chart using Aspo
 ## ** Create a Organization Chart**
 This section explains how to create a organization chart using Aspose.Diagram for Java.
 ### **Create a CompactTree style Organization Chart**
-The Layout method of the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class auto layout the shapes and connectors in the page as a CompactTree  style Organization Chart.
+The Layout method of the [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) class auto layout the shapes and connectors in the page as a CompactTree  style Organization Chart.
 
 The code below shows how to:
 
@@ -28,7 +28,7 @@ Use the following code to Create a CompactTree style Organization Chart using As
 |![CompactTreeChart_out.vsdx](CompactTreeChart.png)|
 
 ### **Create a FlowChart style Organization Chart**
-The Layout method of the [Page](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Page) class auto layout the shapes and connectors in the page as a FlowChart style Organization Chart.
+The Layout method of the [Page](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) class auto layout the shapes and connectors in the page as a FlowChart style Organization Chart.
 
 The code below shows how to:
 

@@ -57,12 +57,12 @@ Please note that you cannot instruct Aspose.Diagram for .NET to change or remove
 
 ### **Accessing Document Properties**
 
-Aspose.Diagram APIs support both types of document properties, built-in and custom. Aspose.Diagram' [**Diagram**](https://apireference.aspose.com/diagram/net/aspose.diagram/Diagram) class represents a Visio file and, like a visio file, the [**Diagram**](https://apireference.aspose.com/diagram/net/aspose.diagram/Diagram) class can contain multiple pages, each represented by the [**Page**](https://apireference.aspose.com/diagram/net/aspose.diagram/page) class whereas the collection of pages is represented by the [**PageCollection**](https://apireference.aspose.com/diagram/net/aspose.diagram/pagecollection) class.
+Aspose.Diagram APIs support both types of document properties, built-in and custom. Aspose.Diagram' [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/Diagram) class represents a Visio file and, like a visio file, the [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/Diagram) class can contain multiple pages, each represented by the [**Page**](https://reference.aspose.com/diagram/net/aspose.diagram/page) class whereas the collection of pages is represented by the [**PageCollection**](https://reference.aspose.com/diagram/net/aspose.diagram/pagecollection) class.
 
-Use the [**Diagram**](https://apireference.aspose.com/diagram/net/aspose.diagram/Diagram) to access the file's document properties as described below.
+Use the [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/Diagram) to access the file's document properties as described below.
 
-- To access built-in document properties, use [**diagram.DocumentProps**](https://apireference.aspose.com/diagram/net/aspose.diagram/documentproperties).
-- To access custom document properties, use [**diagram.DocumentProps.CustomProps**](https://apireference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
+- To access built-in document properties, use [**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
+- To access custom document properties, use [**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AccessingDocumentProperties.cs" >}}
 
@@ -72,12 +72,12 @@ As we have described earlier at the beginning of this topic, developers can't ad
 
 ### **Adding Custom Properties**
 
-Aspose.Diagram APIs have exposed the [**Add**](https://apireference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) method for the [**CustomPropCollection**](https://apireference.aspose.com/diagram/net/aspose.diagram/custompropcollection) class in order to add custom properties to the collection.
+Aspose.Diagram APIs have exposed the [**Add**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) method for the [**CustomPropCollection**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection) class in order to add custom properties to the collection.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AddingCustomProperties.cs" >}}
 
 ### **Removing Custom Properties**
 
-To remove custom properties using Aspose.Diagram, call the [**CustomPropCollection.Remove**](https://apireference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/remove) method and pass the name of the document property to be removed.
+To remove custom properties using Aspose.Diagram, call the [**CustomPropCollection.Remove**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/remove) method and pass the name of the document property to be removed.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RemovingCustomProperties.cs" >}}

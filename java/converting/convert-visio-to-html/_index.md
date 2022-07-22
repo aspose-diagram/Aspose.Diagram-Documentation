@@ -10,7 +10,7 @@ description: This topic show you how to Aspose.Diagram allows to convert Visio t
 ## **Export Visio to HTML**## **Export Visio to HTML**
 This article explains how to export a Microsoft Visio diagram to HTML using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
-Use the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format. Developers can save resultant HTML in the local storage or directly to a stream instance.
+Use the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format. Developers can save resultant HTML in the local storage or directly to a stream instance.
 
 1. [Save resultant HTML in the local storage](/diagram/java/how-to-convert-a-visio-diagram/).
 1. [Save resultant HTML in a stream instance](/diagram/java/how-to-convert-a-visio-diagram/).
