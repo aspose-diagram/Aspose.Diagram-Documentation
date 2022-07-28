@@ -8,7 +8,7 @@ url: /java/working-with-masters/
 ## **Retrieving Master Information**
 A shape master is another name for a Visio stencil. With Aspose.Diagram, it is possible to retrieve information about pages, connectors, and also masters. This article explains how to get the ID and name from a diagram.
 
-The [Master](https://apireference.aspose.com/diagram/java/com.aspose.diagram/master) object represents a [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) object's master in a diagram. The Masters property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Master objects. This property can be used to retrieve the masters’ information that is, the master ID and name.
+The [Master](https://reference.aspose.com/diagram/java/com.aspose.diagram/master) object represents a [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) object's master in a diagram. The Masters property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Master objects. This property can be used to retrieve the masters’ information that is, the master ID and name.
 
 Use the Page.Shapes property to determine which shape has been inherited by the master shape.
 
@@ -40,7 +40,7 @@ Aspose.Diagram API allows to create a Master from scratch without any stencil, d
 ## **Get a Master from the Visio File**
 Sometimes, developers need to get the details of a Visio drawing's master. The Aspose.Diagram API supports this feature.
 
-Aspose.Diagram for Java offers the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class that represents a Visio drawing. The Masters property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Master objects. This property can be used to retrieve a particular master's details. The MasterCollection class exposes the GetMasterByName and GetMaster methods which can be called to get a Master object.
+Aspose.Diagram for Java offers the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class that represents a Visio drawing. The Masters property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Master objects. This property can be used to retrieve a particular master's details. The MasterCollection class exposes the GetMasterByName and GetMaster methods which can be called to get a Master object.
 ### **Getting a Master Object by ID**
 This example work as follows:
 
@@ -62,7 +62,7 @@ The following example shows how to get a master object by name from a Visio draw
 ## **Check Presence of a Master in the Visio Drawing**
 The Aspose.Diagram API supports checking for the presence of a master in a Visio drawing. With the MasterCollection property, developers can check to see if a master is present by its name or ID.
 
-Aspose.Diagram for Java offers the [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class that represents a Visio drawing. The Masters property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Master objects. This property can be used to check for the presence of a particular master. The MasterCollection class exposes the IsExist method which can be called with the master name or ID parameter.
+Aspose.Diagram for Java offers the [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class that represents a Visio drawing. The Masters property, exposed by the Diagram class, supports a collection of Aspose.Diagram.Master objects. This property can be used to check for the presence of a particular master. The MasterCollection class exposes the IsExist method which can be called with the master name or ID parameter.
 ### **Checking a Master Presence by ID**
 This example work as follows:
 

@@ -11,7 +11,7 @@ Aspose.Diagram for Java provides a mechanism for setting headers and footers of 
 
 {{% /alert %}} 
 ### **Setting Headers and Footers Properties**
-The [Diagram](https://apireference.aspose.com/diagram/java/com.aspose.diagram/diagram) class object offers HeaderFooter property which allows to get and set header and footer text, font and margin values. During the print preview of Visio drawing, users can click on "Edit Header & Footer" link button in Microsoft Visio 2013 (in Microsoft Visio 2010 >> "Header & Footer" button). There are a few options to add text as shown in the screenshot below. Users can manage these properties programmatically using Aspose.Diagram API as follows:
+The [Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class object offers HeaderFooter property which allows to get and set header and footer text, font and margin values. During the print preview of Visio drawing, users can click on "Edit Header & Footer" link button in Microsoft Visio 2013 (in Microsoft Visio 2010 >> "Header & Footer" button). There are a few options to add text as shown in the screenshot below. Users can manage these properties programmatically using Aspose.Diagram API as follows:
 
 **Manage Headers and Footers text, margins and font properties.** 
 

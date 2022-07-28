@@ -19,6 +19,6 @@ Using Aspose.Diagram API, developers can define how a shape responds to specific
 
 {{% /alert %}} 
 ## **Setting Event Cells**
-[Event](https://apireference.aspose.com/diagram/net/aspose.diagram/event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
+[Event](https://reference.aspose.com/diagram/net/aspose.diagram/event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Event-Section-SettingCellsInEventSection-SettingCellsInEventSection.cs" >}}

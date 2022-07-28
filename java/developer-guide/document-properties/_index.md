@@ -57,12 +57,12 @@ Please note that you cannot instruct Aspose.Diagram for Java to change or remove
 
 ### **Accessing Document Properties**
 
-Aspose.Diagram APIs support both types of document properties, built-in and custom. Aspose.Diagram' [**Diagram**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class represents a Visio file and, like a visio file, the [**Diagram**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class can contain multiple pages, each represented by the [**Page**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/page) class whereas the collection of pages is represented by the [**PageCollection**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/pagecollection) class.
+Aspose.Diagram APIs support both types of document properties, built-in and custom. Aspose.Diagram' [**Diagram**](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class represents a Visio file and, like a visio file, the [**Diagram**](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class can contain multiple pages, each represented by the [**Page**](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) class whereas the collection of pages is represented by the [**PageCollection**](https://reference.aspose.com/diagram/java/com.aspose.diagram/pagecollection) class.
 
-Use the [**Diagram**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/Diagram) to access the file's document properties as described below.
+Use the [**Diagram**](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) to access the file's document properties as described below.
 
-- To access built-in document properties, use [**diagram.DocumentProps**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/documentproperties).
-- To access custom document properties, use [**diagram.DocumentProps.CustomProps**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/CustomPropCollection).
+- To access built-in document properties, use [**diagram.DocumentProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/documentproperties).
+- To access custom document properties, use [**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/CustomPropCollection).
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
 
@@ -72,12 +72,12 @@ As we have described earlier at the beginning of this topic, developers can't ad
 
 ### **Adding Custom Properties**
 
-Aspose.Diagram APIs have exposed the [**Add**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#add(com.aspose.diagram.CustomProp)) method for the [**CustomPropCollection**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection) class in order to add custom properties to the collection.
+Aspose.Diagram APIs have exposed the [**Add**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#add(com.aspose.diagram.CustomProp)) method for the [**CustomPropCollection**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection) class in order to add custom properties to the collection.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
 
 ### **Removing Custom Properties**
 
-To remove custom properties using Aspose.Diagram, call the [**CustomPropCollection.Remove**](https://apireference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#remove(com.aspose.diagram.CustomProp)) method and pass the name of the document property to be removed.
+To remove custom properties using Aspose.Diagram, call the [**CustomPropCollection.Remove**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#remove(com.aspose.diagram.CustomProp)) method and pass the name of the document property to be removed.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}

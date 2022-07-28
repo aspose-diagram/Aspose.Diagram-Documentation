@@ -8,11 +8,11 @@ description: This section explains how to track conversion progress of visio fil
 
 ## **Possible Usage Scenarios**
 
-Sometimes converting large visio files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Diagram supports tracking document conversion process by providing the **[IPageSavingCallback](https://apireference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback)** interface. The **[IPageSavingCallback](https://apireference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback)** interface provides **[PageStartSaving](https://apireference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback/methods/pagestartsaving)** and **[PageEndSaving](https://apireference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback/methods/pageendsaving)** methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the T*estDiagramPageSavingCallback* custom class.
+Sometimes converting large visio files can take some time. During this time, you might want to show the document conversion progress instead of just a loading screen to enhance the usability of your application. Aspose.Diagram supports tracking document conversion process by providing the **[IPageSavingCallback](https://reference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback)** interface. The **[IPageSavingCallback](https://reference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback)** interface provides **[PageStartSaving](https://reference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback/methods/pagestartsaving)** and **[PageEndSaving](https://reference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback/methods/pageendsaving)** methods that you can implement in your custom class. You may also control which pages are rendered as demonstrated in the T*estDiagramPageSavingCallback* custom class.
 
 ## **Track Document Conversion Progress**
 
-The following code sample loads the [source visio file](Drawing1.vsdx) and prints its conversion progress in the console by using the *TestPageSavingCallback* custom class that implements the **[IPageSavingCallback](https://apireference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback)** interface.
+The following code sample loads the [source visio file](Drawing1.vsdx) and prints its conversion progress in the console by using the *TestPageSavingCallback* custom class that implements the **[IPageSavingCallback](https://reference.aspose.com/diagram/net/aspose.diagram.saving/ipagesavingcallback)** interface.
 
 ## **Sample Code**
 

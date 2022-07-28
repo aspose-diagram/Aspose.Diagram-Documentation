@@ -78,7 +78,7 @@ We welcome your queries and suggestions at [Aspose.Diagram Forum](https://forum.
 ## **Verify Whether Two Visio Shapes are Connected or Glued**
 Aspose.Diagram for Java API allows developers to verify that the two Visio shapes are glued or connected. Previously, we have seen that how we can connect or glue two shapes in these help topics: [Add and Connect Visio Shapes](/diagram/java/add-and-connect-visio-shapes/) and [Glue Shapes Inside the Container](/diagram/java/working-with-shapes-gluing/).
 ### **Verification of the Connected or Glued Shapes**
-The [Shape](https://apireference.aspose.com/diagram/java/com.aspose.diagram/shape) class offers IsGlued and IsConnected properties to determine whether two shapes are glued or connected.
+The [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class offers IsGlued and IsConnected properties to determine whether two shapes are glued or connected.
 #### **Verification of Connected or Glued Shapes Programming Sample**
 The following piece of code verifies whether two shapes are connected or glued.
 

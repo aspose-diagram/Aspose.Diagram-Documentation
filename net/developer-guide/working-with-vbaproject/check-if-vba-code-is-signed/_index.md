@@ -8,11 +8,11 @@ description: Check if the vba code is signed with Aspose.Diagram library.
 
 {{% alert color="primary" %}}
 
-Aspose.Diagram allows the user to check if the VBA code project is signed or not. Please use the [**Diagram.VbaProject.IsSigned**](https://apireference.aspose.com/diagram/net/aspose.diagram.vba/vbaproject/properties/issigned) property to check if the VBA code project is signed or not.
+Aspose.Diagram allows the user to check if the VBA code project is signed or not. Please use the [**Diagram.VbaProject.IsSigned**](https://reference.aspose.com/diagram/net/aspose.diagram.vba/vbaproject/properties/issigned) property to check if the VBA code project is signed or not.
 
 {{% /alert %}}
 
-The following code explains how to check if the VBA code is signed or not using the [**Diagram.VbaProject.IsSigned**](https://apireference.aspose.com/diagram/net/aspose.diagram.vba/vbaproject/properties/issigned) property. You can use any of your visio files to test this code. For testing purposes, you can use [this visio file used in the code](1.vsdm).
+The following code explains how to check if the VBA code is signed or not using the [**Diagram.VbaProject.IsSigned**](https://reference.aspose.com/diagram/net/aspose.diagram.vba/vbaproject/properties/issigned) property. You can use any of your visio files to test this code. For testing purposes, you can use [this visio file used in the code](1.vsdm).
 
 ## Sample Code
 

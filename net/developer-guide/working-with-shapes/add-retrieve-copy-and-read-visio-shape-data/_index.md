@@ -141,7 +141,7 @@ The code in the samples below show how to:
 ## **Use Connection indexes to connect shapes**
 Aspose.Diagram for .NET API already allows developers to add new connecting points on the shape, and developers can now connect shapes using connection indexes.
 ### **Use Connection indexes to connect shapes**
-The ConnectShapesViaConnectorIndex member exposed by the [Page](https://apireference.aspose.com/diagram/net/aspose.diagram/page) class can be used to connect shapes using connection indexes. The following code shows how to connect shapes:
+The ConnectShapesViaConnectorIndex member exposed by the [Page](https://reference.aspose.com/diagram/net/aspose.diagram/page) class can be used to connect shapes using connection indexes. The following code shows how to connect shapes:
 
 1. Initialize a new drawing.
 1. Place four rectangle shapes

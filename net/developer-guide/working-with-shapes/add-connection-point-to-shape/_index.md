@@ -9,7 +9,7 @@ description: This section explains how to add connection point to a visio shape 
 ## **Add Connection Point To a Shape in Visio**
 This topic elaborates how developers can add connection point to a visio shape using Aspose.Diagram for .NET.
 ### **Add Connection Point**
-The [Connections](https://apireference.aspose.com/diagram/net/aspose.diagram/shape/properties/connections) object represents the connection collection in the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class.
+The [Connections](https://reference.aspose.com/diagram/net/aspose.diagram/shape/properties/connections) object represents the connection collection in the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class.
 
 The code below shows how to:
 
