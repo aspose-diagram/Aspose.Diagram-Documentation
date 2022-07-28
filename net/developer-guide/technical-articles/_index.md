@@ -1,8 +1,8 @@
 ---
 title: Technical Articles
 type: docs
-weight: 30
+weight: 280
 url: /net/technical-articles/
 ---
-**Articles in this section**
+
 
