@@ -1,7 +1,7 @@
 ---
 title: Use Connection indexes to connect shapes
 type: docs
-weight: 30
+weight: 20
 url: /java/use-connection-indexes-to-connect-shapes/
 ---
 
