@@ -97,3 +97,22 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Diagram for Python via Java API Reference Guide](https://reference.aspose.com/diagram/python)
 - [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
 - [Aspose.Diagram for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
+{{% alert color="primary" %}}
+**![Aspose.Diagram for Python via .NET Product Logo](home_4.png)**
+
+**Welcome to Aspose.Diagram for Python via .NET**
+
+Aspose.Diagram for Python via .NET API offers all the useful features of Aspose.Diagram for .Net using Python. The API empowers you to use its powerful features of working with Visio files without the need of any other software applications. It is scalable, rich in features and provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. You can use the API to read a variety of Visio file types that can be saved as other Visio file formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
+{{% /alert %}}
+
+## **Aspose.Diagram for Python via .NET Resources**
+
+The following are the links to some useful resources you may need to accomplish your tasks.
+
+- [Aspose.Diagram for Python via .NET Release Notes](/diagram/pythonnet/release-notes/)
+- [Aspose.Diagram for Python via .NET Product Page](https://products.aspose.com/diagram/python-net/)
+- [Download Aspose.Diagram for Python via .NET](https://downloads.aspose.com/diagram/python-net)
+- [Aspose.Diagram for Python via .NET Free Support Forum](https://forum.aspose.com/c/diagram/17)
+- [Aspose.Diagram for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
