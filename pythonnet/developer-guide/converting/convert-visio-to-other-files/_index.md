@@ -95,7 +95,7 @@ The code samples show how to export a diagram to SVG using C#.
 To export a Visio drawing with selective shapes:
 
 1. Create an instance of the Diagram class.
-1. Create an instance of any SaveOption class to specify settings as narrated here: [Specify Visio Save Options](https://docs.aspose.com/diagram/net/save-visio-document/#specifying-visio-save-options)
+1. Create an instance of any SaveOption class to specify settings as narrated here: [Specify Visio Save Options](https://docs.aspose.com/diagram/python-net/save-visio-document/#specifying-visio-save-options)
 1. Call Save method of the Diagram class object and pass save option class object as parameter.
 ### **Convert Visio Drawing with Selective Shapes Programming Sample**
 The code sample shows how to export a drawing with selective Visio shapes.
