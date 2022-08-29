@@ -30,6 +30,6 @@ The implementation of the above steps is demonstrated in the examples below.
 ### **Code Sample: Creating a New Diagram and Writing Hello World!**
 
 The following example opens an existing Microsoft Visio template file named "Basic Shapes.vss", inputs "Hello World!" text in the first page and saves the diagram.
-![Basic_Shapes.vss](Basic_Shapes.vss)
+[Basic_Shapes.vss](Basic_Shapes.vss)
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-CreatingHelloWorldVisioFile.py" >}}
