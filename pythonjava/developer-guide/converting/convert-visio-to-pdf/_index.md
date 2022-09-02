@@ -27,8 +27,6 @@ To export VSD diagram to PDF:
 1. Create an instance of the Diagram class.
 1. Call the Diagram classs Save method and set the output format to PDF.
 
-Below is an image of the output PDF file.
-
 ### **Exporting to PDF Programming Sample**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToPDF.py" >}}
 
