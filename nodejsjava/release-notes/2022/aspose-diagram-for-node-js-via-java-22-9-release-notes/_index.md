@@ -2,7 +2,7 @@
 title: Aspose.Diagram for Node.js via Java 22.9 Release Notes
 type: docs
 weight: 19
-url: /nodejs-java/aspose-diagram-for-node-js-via-java-22-9-release-notes/
+url: /nodejsjava/aspose-diagram-for-node-js-via-java-22-9-release-notes/
 ---
 
 {{% alert color="primary" %}}
