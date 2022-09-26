@@ -15,7 +15,7 @@ This page contains release notes information for Aspose.Diagram for Java 21.2.
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |DIAGRAMJAVA-50710|add a single line to a Viso file, so that if remains editable as a line|Enhancement|
-## `?`**Public API and Backward Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Adds activePage in Diagram**
 - Specifies the active page

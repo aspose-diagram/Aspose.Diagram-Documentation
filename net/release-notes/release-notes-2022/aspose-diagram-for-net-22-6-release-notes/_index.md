@@ -24,8 +24,8 @@ This page contains release notes information for Aspose.Diagram for .NET 22.6.
 |DIAGRAMNET-52849|Raster images not scaled down after conversion|Bug|
 |DIAGRAMNET-52852|VSD Open Error - Aspose.Diagram.DiagramException|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
-`?`The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
+## **Public API and Backwards Incompatible Changes**
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Adds Resolution in HTMLSaveOptions**
 - Gets or sets the resolution for the generated html, in dots per inch.
 

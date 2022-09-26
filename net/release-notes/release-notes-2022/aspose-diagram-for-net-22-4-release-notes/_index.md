@@ -24,8 +24,8 @@ This page contains release notes information for Aspose.Diagram for .NET 22.4.
 |DIAGRAMNET-52762|VSDX to PDF - Image not converted|Bug|
 |DIAGRAMNET-52779|Ellipses do not scale while converting Visio to SVG|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
-`?`The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
+## **Public API and Backwards Incompatible Changes**
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Adds GetPureText in Shape**
 - Get the text string of a shape.
 

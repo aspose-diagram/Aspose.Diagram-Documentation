@@ -24,7 +24,7 @@ This page contains release notes information for Aspose.Diagram for Java 22.5.
 |DIAGRAMJAVA-50951|Resizing the lateral line shape|Bug|
 |DIAGRAMJAVA-50955|Shape.getXForm().getWidth() return wrong value if width is set to use formula|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
 ### **Adds getDisplayValue in Field**

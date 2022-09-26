@@ -19,7 +19,7 @@ This page contains release notes information for Aspose.Diagram for Java 21.11.
 |DIAGRAMJAVA-50501|VSDX to PNG - Incorrect color of shapes|Bug|
 |DIAGRAMJAVA-50631|Shapes are inconsistent after exporting VSDX to PDF|Bug|
 |DIAGRAMJAVA-50804|Connector text is wrapping when drawing connector|Bug|
-## `?`**Public API and Backward Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
 

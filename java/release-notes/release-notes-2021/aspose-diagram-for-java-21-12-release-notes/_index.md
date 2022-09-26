@@ -16,7 +16,7 @@ This page contains release notes information for Aspose.Diagram for Java 21.12.
 | :- | :- | :- |
 |DIAGRAMJAVA-50838|Centering Text on Straight Line Connector|Bug|
 |DIAGRAMJAVA-50839|Need to draw a straight connector in between the shapes|Bug|
-## `?`**Public API and Backward Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
 

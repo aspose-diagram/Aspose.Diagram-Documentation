@@ -23,8 +23,8 @@ This page contains release notes information for Aspose.Diagram for .NET 22.5.
 |DIAGRAMNET-52810|Visio shapes saved as images are wrong|Bug|
 |DIAGRAMNET-52811|Shapes are missing after saving Visio to HTML|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
-`?`The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
+## **Public API and Backwards Incompatible Changes**
+The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for .NET. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 ### **Adds DisplayValue in Field**
 - Gets the formatted string value of this field.
 

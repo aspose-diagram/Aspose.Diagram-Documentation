@@ -19,5 +19,5 @@ This page contains release notes information for Aspose.Diagram for Java 22.8.
 |DIAGRAMJAVA-51005|When the text contains line breaks, recalculating the width of the text is incorrect|Bug|
 |DIAGRAMJAVA-51006|Resizing the lateral line shape [Cont.]|Bug|
 
-## `?`**Public API and Backward Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
