@@ -6,7 +6,7 @@ url: /java/installation/
 ---
 
 ## **Installing Aspose.Diagram for Java from Aspose Repository**
-Aspose hosts all Java APIs on [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.Diagram for Java API directly in your Maven projects with simple configurations.
+Aspose hosts all Java APIs on [Aspose Repository](https://releases.aspose.com/webapp/java/repo/com/aspose/). You can easily use Aspose.Diagram for Java API directly in your Maven projects with simple configurations.
 ### **Specify Aspose Repository Configuration**
 First you need to specify Aspose Repository configuration / location in your Maven pom.xml as follows:
 
@@ -20,7 +20,7 @@ First you need to specify Aspose Repository configuration / location in your Mav
 
         <name>Aspose Java API</name>
 
-        <url>http://repository.aspose.com/repo/</url>
+        <url>https://releases.aspose.com/java/repo/</url>
 
     </repository>
 
