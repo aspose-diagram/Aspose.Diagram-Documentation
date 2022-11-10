@@ -11,12 +11,13 @@ This page describes the most interesting new Aspose.Diagram features introduced 
 
 Starting from 22.6, the Dependency in the pom.xml of the maven project needs to delete the classifier section
 
-## Aspose.Diagram for Java 22.5
+## Aspose.Diagram for Java 22.11
 
-* Support getting DisplayValue of field
-* Support getting inheritParas of shape
+* Support getConnectorRule for a connector
 
-## Aspose.Diagram for Java 22.4
+## Aspose.Diagram for Java 22.10
 
-* Support getting the pure text string of a shape.
+* Support getDisplayText for a shape
+* Support getInheritGeoms for a shape
+
 
