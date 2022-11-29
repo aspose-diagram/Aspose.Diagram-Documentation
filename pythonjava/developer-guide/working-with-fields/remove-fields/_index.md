@@ -12,6 +12,6 @@ Aspose.Diagram for Python via Java lets you remove field to Microsoft Visio diag
 The Field object represents text field in a text run. The field property, exposed by the Shape class supports a collection of Aspose.Diagram.Field objects.
 
 ### **Programming Sample**
-The following piece of code remove field in shape.
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+The following piece of code remove a field in shape.
+{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Fields-RemoveField.py" >}}
 
