@@ -11,7 +11,7 @@ This page contains release notes information for Aspose.Diagram for Python via J
 
 
 {{% /alert %}}
-## **Improvements and Changes** ##
+## **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -21,7 +21,7 @@ This page contains release notes information for Aspose.Diagram for Python via J
 ## `?`**Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Diagram for Java. If you have concerns about any change listed, please raise it on the Aspose.Diagram support forum.
 
-### **Adds setSaveAsSingleFile in HTMLSaveOptions***
+### **Adds setSaveAsSingleFile in HTMLSaveOptions**
 - Indicates whether save the html as single file.
 
 {{< highlight java >}}
