@@ -29,8 +29,8 @@ With Aspose.Diagram, you can easily turn your flow diagrams into other formats, 
 		<p><b>About Aspose.Diagram</b></p>
 			<hr><p>Overview</p></hr>
 			<ul>
-				<li><a href="/diagram/net/what-s-new-in-aspose-diagram-for-net/">What's new in Aspose.Diagram for .NET</a></li>
-				<li><a href="/diagram/net/product-overview/">Product Overview</a></li>
+				<li><a href="/diagram/net/whatsnew/">What's new in Aspose.Diagram for .NET</a></li>
+				<li><a href="/diagram/net/overview/">Product Overview</a></li>
 				<li><a href="/diagram/net/licensing/">Licensing and Subscription</a></li>
 			  <li><a href="/diagram/net/release-notes/">Aspose.Diagram for .NET Release Notes</a></li>
 			</ul>            
