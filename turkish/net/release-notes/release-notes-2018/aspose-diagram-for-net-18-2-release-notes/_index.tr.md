@@ -1,0 +1,25 @@
+﻿---
+title: Aspose.Diagram for .NET 18.2 Sürüm Notları
+type: docs
+weight: 110
+url: /tr/net/aspose-diagram-for-net-18-2-release-notes/
+---
+{{% alert color="primary" %}} 
+
+ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 18.2](https://www.nuget.org/packages/Aspose.Diagram/18.2.0).
+
+{{% /alert %}} 
+## **İyileştirmeler ve Değişiklikler**
+
+|**Anahtar**|**Özet**|**Kategori**|
+|:- |:- |:- |
+|DIAGRAMNET-51425|VSDX'i VDX olarak kaydetmek, bozuk çıktı üretir|Artırma|
+|DIAGRAMNET-50269|VSDX'den PDF'e dönüştürme, dairesel şekil Dolgu rengi değiştirildi|Böcek|
+|DIAGRAMNET-50328   |VSDX'den PDF'e dönüştürme, metin öğeleriyle ilgili yanlış biçimlendirme sorunları|Böcek|
+|DIAGRAMNET-50329|VSDM'i SVG'ye kaydederken başlık metni hizalı değil|Böcek|
+|DIAGRAMNET-50600|VSDX'den PDF'e dönüştürme, şekillerin arka plan rengi yanlış|Böcek|
+|DIAGRAMNET-50605|VSDX'den HTML'ye dönüştürme, şekillerin arka plan rengi yanlış|Böcek|
+|DIAGRAMNET-51175|Başlık metni, bir VSDM'i SVG'ye dönüştürürken yer değiştiriyor|Böcek|
+|DIAGRAMNET-51287|Çıktı VSDX - genişliği değiştirirken şeklin yanlış görüntülenmesi|Böcek|
+
+

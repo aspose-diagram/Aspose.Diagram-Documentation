@@ -1,0 +1,118 @@
+﻿---
+title: احفظ Visio الوثيقة برمجيا
+linktitle: احفظ الوثيقة Visio
+type: docs
+weight: 30
+url: /ar/net/save-visio-document/
+description: تصف هذه الصفحة كيفية حفظ Visio مستند إلى ملف ، دفق باستخدام مكتبة Aspose.Diagram.
+---
+## **Visio نظرة عامة على حفظ الرسم**
+ استخدم ال[Diagram.Save]() طريقة لحفظ رسم Microsoft Visio. هناك حمولات زائدة تسمح بحفظ رسم في ملف. يمكن حفظ الرسم بأي تنسيق حفظ يدعمه Aspose.Diagram. للحصول على قائمة بجميع تنسيقات الحفظ المدعومة ، راجع ملف[SaveFileFormat]() تعداد.
+## **توفير Visio Diagram**
+ تمثل الفئة Diagram من Aspose.Diagram API رسمًا Visio ويمكن للمطورين حفظ كائن Visio diagram بأي تنسيق ملف مدعوم. لحفظ ملف Microsoft Visio ، ما عليك سوى استخدام ملحق[Diagram.Save]()الأسلوب ، فإنه يقبل اسم ملف بمسار كامل أو كائن دفق ملف. يستنتج Aspose.Diagram API تنسيق الحفظ من امتداد الملف ويقدم أيضًا معامل SaveFileFormat إضافيًا لتحديد تنسيق ملف الإخراج.
+### **احفظ Visio Diagram بأي تنسيق ملف مدعوم**
+باستخدام Aspose.Diagram API ، يمكن للمطورين حفظ Visio diagram بأي تنسيق ملف مدعوم كما هو موضح أدناه:
+**VSDX ، VSDM ، VSSX ، VSSM ، VSTX ، VSTM ، VDX ، VSX ، VTX ، TIFF ، PNG ، BMP ، EMF ، JPEG ، PDF ، XPS ، GIF ، HTML ، SVG ، SWF و XAML**
+### **حفظ Diagram عينة البرمجة**
+المثال أدناه يحفظ مستندًا إلى ملف.
+
+{{< highlight "java" >}}
+
+ // Save a Visio diagram
+
+diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+## **تحديد Visio خيارات الحفظ**
+ هناك العديد[Diagram.Save]() الأسلوب الزائد الذي يقبل كائن SaveOptions. يجب أن يكون هذا كائنًا من فئة مشتقة من فئة SaveOptions. يحتوي كل تنسيق حفظ على فئة مقابلة تحتوي على خيارات الحفظ لتنسيق الحفظ هذا. على سبيل المثال ، هناك PdfSaveOptions لتنسيق حفظ SaveFileFormat.PDF.
+### **Visio Diagram حفظ الخيارات**
+توضح هذه الأمثلة كيفية:
+
+- [استخدم Diagram حفظ الخيارات](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [استخدم خيارات حفظ PDF](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [استخدم خيارات حفظ HTML](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [استخدم خيارات حفظ الصورة](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [استخدم SVG Save Options](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [استخدم خيارات حفظ SWF](https://docs.aspose.com/diagram/net/save-visio-document/).
+#### **استخدام Diagram حفظ الخيارات**
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ المستند بتنسيق Visio.
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseDiagramSaveOptions-UseDiagramSaveOptions.cs" >}}
+
+
+
+#### **استخدام خيارات حفظ PDF**
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند إلى تنسيق PDF.
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-UsePDFSaveOptions.cs" >}}
+
+
+
+#### **استخدام خيارات حفظ HTML**
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق ملف HTML.
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseHTMLSaveOptions-UseHTMLSaveOptions.cs" >}}
+
+
+
+#### **استخدام خيارات حفظ الصورة**
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق ملف الصورة.
+
+
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseImageSaveOptions-UseImageSaveOptions.cs" >}}
+
+
+استخدام SVG Save Options
+
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق SVG.
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseSVGSaveOptions-UseSVGSaveOptions.cs" >}}
+
+
+استخدام SWF Save Options
+
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق SWF.
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseSWFSaveOptions-UseSWFSaveOptions.cs" >}}
+
+في بعض الأحيان ، يحتاج المطورون إلى حفظ الرسوم التخطيطية Visio أو تصديرها إلى تنسيقات ملفات مختلفة برمجيًا (مثل VDX و PDF و JPEG وما إلى ذلك).
+## **حفظ VSD الملف بتنسيقات ملفات مختلفة (VDX ، PDF و JPEG)**
+ توفر هذه المقالة مثال رمز يوضح كيفية الاستخدام[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/) و[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) لحفظ ملف Microsoft Visio VSD في ملف VDX أو ملف PDF أو ملف JPEG برمجيًا. فيما يلي مقتطفات التعليمات البرمجية المتوازية لـ VSTO و Aspose.Diagram for .NET التي تشرح كيفية حفظ ملف VSD في تنسيقات ملفات مختلفة. ستلاحظ أن رمز Aspose.Diagram أقصر. لا تتردد في استخدام الرمز وتغييره لتلبية احتياجاتك الخاصة.
+### **حفظ ملف VSD إلى تنسيقات أخرى باستخدام VSTO**
+يتيح لك VSTO البرمجة باستخدام ملفات Microsoft Visio. لحفظ ملف بتنسيقات أخرى:
+
+1. قم بتكوين عنصر تطبيق Visio.
+1. جعل كائن التطبيق غير مرئي.
+1. قم بتحميل diagram.
+1. احفظ في VDX و PDF و JPEG.
+1. قم بإنهاء كائن التطبيق Visio.
+#### **حفظ ملف VSD باستخدام نموذج برمجة VSTO**
+{{% alert color="primary" %}} 
+
+باستخدام Visio = Microsoft.Office.Interop.Visio ؛
+الواردات Visio = Microsoft.Office.Interop.Visio
+
+{{% /alert %}} 
+
+**مثال:**
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Knowledge-Base-SaveDiagramTo-VDX-PDF-JPEG-withVSTO-SaveDiagramTo_VDX_PDF_JPEG_withVSTO.cs" >}}
+### ` `**حفظ VSD الملف إلى تنسيقات أخرى باستخدام Aspose.Diagram for .NET**
+باستخدام Aspose.Diagram ، لا يحتاج المطورون إلى Microsoft Office Visio في الجهاز ، ويمكنهم العمل بشكل مستقل عن Microsoft Office Automation.
+
+توضح مقتطفات التعليمات البرمجية أدناه كيفية:
+
+1. قم بتحميل diagram.
+1. احفظ diagram إلى VSX و PDF و JPEG.
+#### **حفظ VSD ملف باستخدام عينة برمجة Aspose.Diagram for .NET**
+{{% alert color="primary" %}} 
+
+باستخدام Aspose.Diagram ؛
+الواردات Aspose.Diagram
+
+{{% /alert %}} 
+
+**مثال:**
+
+{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Knowledge-Base-SaveDiagramTo-VDX-PDF-JPEG-withAspose-SaveDiagramTo_VDX_PDF_JPEG_withAspose.cs" >}}

@@ -1,0 +1,42 @@
+﻿---
+title: Aspose.Diagram for Java 6.8.0 Notas de la versión
+type: docs
+weight: 40
+url: /es/java/aspose-diagram-for-java-6-8-0-release-notes/
+---
+{{% alert color="primary" %}} 
+
+ Esta página contiene notas de la versión para[Aspose.Diagram for Java 6.8.0](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-6-8-0-release-notes/).
+
+{{% /alert %}} 
+## **Otras mejoras y cambios**
+
+|**Llave**|**Resumen**|**Categoría**|
+|:- |:- |:- |
+|DIAGRAMJAVA-50347|Agregue soporte para insertar controles ActiveX en la página Visio.|Nueva caracteristica|
+|DIAGRAMJAVA-50360|Agregue soporte para establecer la casilla de verificación de color de la capa.|Nueva caracteristica|
+|DIAGRAMJAVA-50348|No se puede copiar una página Visio en el VSDM.|Mejora|
+|DIAGRAMJAVA-50357|La representación incompleta de un gráfico OLE al convertir un VSDX a PDF.|Mejora|
+|DIAGRAMJAVA-50358|No se representa un gráfico OLE al convertir un VSDX a PNG.|Mejora|
+|DIAGRAMJAVA-50207|VSDX a la conversión de PDF, falta el icono del documento de Word incrustado.|Insecto|
+|DIAGRAMJAVA-50346|Recuperación incorrecta de los Connects de un VSD.|Insecto|
+|DIAGRAMJAVA-50349|Devuelve el valor basura del color del patrón de relleno de cada forma.|Insecto|
+|DIAGRAMJAVA-50350|Representación incompleta de un conector dinámico en el VSDM diagram.|Insecto|
+|DIAGRAMJAVA-50354|Se genera un PDF en blanco al convertir un VSDX a PDF.|Insecto|
+|DIAGRAMJAVA-50355|Se produjo un error en la lista de autores al cargar un VSDX.|Insecto|
+|DIAGRAMJAVA-50359|Recupera una dirección inversa del conector de un VSD diagram.|Insecto|
+|DIAGRAMJAVA-50362|Devuelve conexiones incorrectas, mientras se recupera de un VSD.|Insecto|
+### **Public API y cambios incompatibles con versiones anteriores**
+Consulte la lista para conocer los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
+### **Agrega el método addActiveXControl en la clase de página**
+Crea un Control ActiveX en el Visio diagram.
+### **Agrega el método setColorChecked y la propiedad isColorChecked en la clase de capa**
+Una bandera que indica si el elemento ha sido verificado localmente.
+### **Agrega el método getInheritFill en la clase Shape**
+Contiene los valores de formato de relleno para la forma heredada por el estilo principal y la forma maestra.
+### **Ejemplos de uso**
+Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Diagram:
+
+- [Agregue una nueva capa en la página Visio](/diagram/es/java/working-with-layers/#add-a-layer-in-the-visio-pagesheet)
+- [Inserte un Control ActiveX en el Visio Diagram](/diagram/es/java/insert-an-activex-control-in-the-visio-diagram/)
+- [Leer datos de relleno heredados de una forma Visio](/diagram/es/java/set-visio-shape-s-xform-line-and-fill-data/#retrieve-inherited-fill-data-of-a-visio-shape)

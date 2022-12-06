@@ -1,0 +1,67 @@
+﻿---
+title: Aspose.Diagram for Java 21.3 Notas de la versión
+type: docs
+weight: 10
+url: /es/java/aspose-diagram-for-java-21-3-release-notes/
+---
+{{% alert color="primary" %}}
+
+Esta página contiene información sobre las notas de la versión para Aspose.Diagram for Java 21.3.
+
+{{% /alert %}}
+## **Mejoras y Cambios**  ##
+
+|**Llave**|**Resumen**|**Categoría**|
+|:- |:- |:- |
+|DIAGRAMJAVA-50711|NullPointerException lanza cuando intenta guardar el documento VDX como PNG|Mejora|
+|DIAGRAMJAVA-50713|Problema de superposición de texto al convertir VSDX a PDF|Mejora|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Diagram.
+### **Se agregó ConnectShapesViaConnector en la página**
+- Conecte las formas a través del conector.
+
+{{< highlight "java" >}}
+
+page.connectShapesViaConnector(id, "Port7", id, "Port21", id);
+
+{{< /highlight >}}
+### **Agrega GlueShapeToConnectorBeginX en la página**
+- Forma de pegamento usando BeginX
+
+
+
+{{< highlight "java" >}}
+
+page.glueShapeToConnectorBeginX(id, "Port7", id);
+
+{{< /highlight >}}
+### **Agrega GlueShapeToConnectorEndX en la página**
+- Forma de pegamento usando BeginX
+
+
+
+{{< highlight "java" >}}
+
+page.glueShapeToConnectorEndX(id, "Port21", id);
+
+{{< /highlight >}}
+### **Agrega CenterDrawing en la página**
+- Centra las formas de una página con respecto a la extensión de la página.
+
+
+
+{{< highlight "java" >}}
+
+page.centerDrawing();
+
+{{< /highlight >}}
+### **Agrega IsContain en forma**
+- Indica si esta forma contiene otra forma.
+
+
+
+{{< highlight "java" >}}
+
+OLE_Shape.isContain(shape)
+
+{{< /highlight >}}

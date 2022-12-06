@@ -1,0 +1,41 @@
+﻿---
+title: Aspose.Diagram for .NET 19.4 发行说明
+type: docs
+weight: 90
+url: /zh/net/aspose-diagram-for-net-19-4-release-notes/
+---
+{{% alert color="primary" %}} 
+
+此页面包含发行说明[Aspose.Diagram for .NET 19.4](https://www.nuget.org/packages/Aspose.Diagram/19.4.0)
+
+{{% /alert %}} 
+## **改进和变化**
+
+|**钥匙**|**概括**|**类别**|
+|:- |:- |:- |
+|DIAGRAMNET-51602|嵌入式 XSLX 对象在操作后损坏|强化|
+|DIAGRAMNET-51625|.vsdx 文件中的外部 excel 数据在重新保存时被删除 Diagram|强化|
+|DIAGRAMNET-51626|API 不处理excel数据|强化|
+|DIAGRAMNET-51627|基于Dependson公式提取形状数据|强化|
+|DIAGRAMNET-51629|放大页面以适合绘图似乎不起作用|强化|
+|DIAGRAMNET-51176|将 VSDM 转换为 SVG 时，渐变标题栏发生变化|漏洞|
+|DIAGRAMNET-51404|VSD to Image - 形状颜色深|漏洞|
+|DIAGRAMNET-51473|VDX 到 PDF - 不正确的背景颜色|漏洞|
+|DIAGRAMNET-51475|VSDX 到 PDF - 渐变以相反的方式呈现|漏洞|
+|DIAGRAMNET-51616|Visio 到 PDF - 渐变在输出 PDF 中颠倒呈现|漏洞|
+|DIAGRAMNET-51630|VSDX 到 HTML - 输出中不存在形状的背景颜色|漏洞|
+|DIAGRAMNET-51631|VSDX 到 PDF - 输出中不存在形状的背景色|漏洞|
+|DIAGRAMNET-51632|VSD 到 SVG - 无法将类型“”的对象转换为类型“”发生异常|漏洞|
+
+## **公共 API 和向后不兼容的更改**
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在这[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
+### **添加枚举 RemoveHiddenInfoItem**
+指定删除 diagram 的隐藏信息。
+### **在 Diagram 中添加 RemoveHiddenInfoItem**
+删除未使用的信息。
+
+{{< highlight "java" >}}
+
+diagram.RemoveHiddenInformation((int)(RemoveHiddenInfoItem.Shapes | RemoveHiddenInfoItem.Masters));
+
+{{< /highlight >}}

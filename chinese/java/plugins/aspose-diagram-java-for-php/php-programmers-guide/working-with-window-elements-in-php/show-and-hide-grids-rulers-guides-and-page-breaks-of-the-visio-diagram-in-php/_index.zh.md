@@ -1,0 +1,50 @@
+﻿---
+title: 在 PHP 中显示和隐藏 Visio Diagram 的网格、标尺、参考线和分页符
+type: docs
+weight: 40
+url: /zh/java/show-and-hide-grids-rulers-guides-and-page-breaks-of-the-visio-diagram-in-php/
+---
+## **Aspose.Diagram - 显示和隐藏 Visio 的网格、标尺、参考线和分页符 Diagram**
+要显示和隐藏 Visio Diagram 的网格、标尺、参考线和分页符，请使用**Aspose.Diagram Java 用于 PHP** 只需调用**显示隐藏属性**模块。在这里您可以看到示例代码。
+
+**PHP代码**
+
+{{< highlight "php" >}}
+
+ # Create instance of Diagram
+
+$diagram =new Diagram($dataDir."Drawing.vsd");
+
+\# get window object by index
+
+$window=$diagram->getWindows()->get(0);
+
+\# set visibility of grid
+
+$window->setShowGrid(1);
+
+\# set visibility of guides
+
+$window->setShowGuides(1);
+
+\# set visibility of rulers
+
+$window->setShowRulers(1);
+
+\# set visibility of page breaks
+
+$window->setShowPageBreaks(1);
+
+\# save in any supported format
+
+$saveFileFormat=new SaveFileFormat();
+
+$diagram->save($dataDir."ShowHideProperties.vdx", $saveFileFormat->VDX);
+
+print "Show and Hide Grids, Rulers, Guides and Page Breaks of the Visio Diagram.".PHP_EOL;
+
+{{< /highlight >}}
+## **下载运行代码**
+下载**显示和隐藏 Visio Diagram (Aspose.Diagram) 的网格、标尺、参考线和分页符**来自以下任何社交编码网站：
+
+- [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/WorkingwithWindowElements/ShowHideProperties.php)

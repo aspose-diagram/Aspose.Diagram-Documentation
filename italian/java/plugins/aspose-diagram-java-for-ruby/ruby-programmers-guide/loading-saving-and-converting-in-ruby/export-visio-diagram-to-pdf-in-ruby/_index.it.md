@@ -1,0 +1,30 @@
+﻿---
+title: Esporta Visio Diagram in PDF in Ruby
+type: docs
+weight: 40
+url: /it/java/export-visio-diagram-to-pdf-in-ruby/
+---
+## **Aspose.Diagram - Esporta Visio Diagram in PDF**
+ Per esportare Visio Diagram in PDF utilizzando**Aspose.Diagram Java per Rubino** , semplicemente invocare**Esporta in PDF** modulo. Qui puoi vedere il codice di esempio.
+
+**Codice Rubino**
+
+{{< highlight "ruby" >}}
+
+ data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
+
+\# Call the diagram constructor to load diagram from a VSD file
+
+diagram = Rjb::import('com.aspose.diagram.Diagram').new(data_dir + "Drawing.vsd")
+
+\# Save as PDF file format
+
+diagram.save(data_dir + "Diagram.pdf", Rjb::import('com.aspose.diagram.SaveFileFormat').PDF)
+
+puts "Exported visio diagram to pdf."
+
+{{< /highlight >}}
+## **Scarica il codice in esecuzione**
+Scarica**Esporta Visio Diagram in PDF (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
+
+- [Git Hub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Export/exporttopdf.rb)

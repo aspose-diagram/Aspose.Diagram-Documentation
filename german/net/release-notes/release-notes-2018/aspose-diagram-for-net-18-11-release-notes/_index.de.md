@@ -1,0 +1,57 @@
+﻿---
+title: Aspose.Diagram for .NET 18.11 Versionshinweise
+type: docs
+weight: 20
+url: /de/net/aspose-diagram-for-net-18-11-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Diese Seite enthält Versionshinweise für[Aspose.Diagram for .NET 18.11](https://www.nuget.org/packages/Aspose.Diagram/18.11.0)
+
+{{% /alert %}} 
+## **Verbesserungen und Änderungen**
+
+|**Taste**|**Zusammenfassung**|**Kategorie**|
+|:- |:- |:- |
+|DIAGRAMNET-50410|MilestoneHelper – Unterstützung für benutzerdefinierte Formate für Datumszeichenfolgen hinzugefügt|Erweiterung|
+|DIAGRAMNET-51568|Fügen Sie eine Option hinzu, um ViewBox in SaveOptions für SVG festzulegen|Erweiterung|
+|DIAGRAMNET-51580|Aspose.Diagram erstellt SVG mit Richtlinien und MS Visio nicht|Erweiterung|
+|DIAGRAMNET-51556|Shape.ToImage-Methode generiert keine korrekten Bilder|Insekt|
+|DIAGRAMNET-51557|Die Shape.ToImage-Methode gibt leere Bilder zurück, wenn die Seite kopiert wird|Insekt|
+|DIAGRAMNET-51570|Shape.ToImage-Methode generiert keine korrekten Bilder|Insekt|
+|DIAGRAMNET-51576|VSDX zu PDF - Fehlende Textblöcke|Insekt|
+|DIAGRAMNET-51578|VSDX zu Bild führt zu StackOverFlowException|Insekt|
+## **Öffentliche API und rückwärts inkompatible Änderungen**
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
+### **Fügt SVGFitToViewPort in SVGSaveOptions hinzu**
+Wenn diese Eigenschaft wahr ist, passt das generierte SVG zum Ansichtsport.
+
+{{< highlight "java" >}}
+
+ SVGSaveOptions option = new SVGSaveOptions();
+
+option.SVGFitToViewPort = true;
+
+SVGSaveOptions option = new SVGSaveOptions();
+
+option.SVGFitToViewPort = true;
+
+{{< /highlight >}}
+### **Fügt ExportGuideShapes in RenderingSaveOptions hinzu**
+Definiert, ob die Führungsformen exportiert werden müssen oder nicht.
+
+{{< highlight "java" >}}
+
+ Aspose.Diagram.Saving.SVGSaveOptions o = new SVGSaveOptions();
+
+o.ExportGuideShapes = false;
+
+{{< /highlight >}}
+### **Fügt DateFormatString in MilestoneHelper hinzu**
+DateFormat Zeichenfolge der Form
+
+{{< highlight "java" >}}
+
+ milestoneHelper.DateFormatString = "yyyy/mm/dd";
+
+{{< /highlight >}}

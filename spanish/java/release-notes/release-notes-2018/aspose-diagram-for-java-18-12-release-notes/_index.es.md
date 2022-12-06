@@ -1,0 +1,21 @@
+﻿---
+title: Aspose.Diagram for Java 18.12 Notas de la versión
+type: docs
+weight: 10
+url: /es/java/aspose-diagram-for-java-18-12-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Esta página contiene notas de la versión para[Aspose.Diagram for Java 18.12](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-18-12-release-notes/)
+
+{{% /alert %}} 
+## **Mejoras y Cambios**
+
+|**Llave**|**Resumen**|**Categoría**|
+|:- |:- |:- |
+|DIAGRAMJAVA-50634|El contenido del texto no está centralizado en la forma del intervalo del bloque insertado.|Mejora|
+|DIAGRAMJAVA-50635|Conector dinámico que no conecta la forma exacta|Mejora|
+|DIAGRAMJAVA-50117|VTX a conversión de HTML, efecto de doble línea en elementos de texto de formas|Insecto|
+|DIAGRAMJAVA-50277|Exportación de VST a PDF: el PDF resultante tiene dos páginas vacías|Insecto|
+|DIAGRAMJAVA-50637|Archivo dañado generado a partir del código de ejemplo de GitHub|Insecto|
+

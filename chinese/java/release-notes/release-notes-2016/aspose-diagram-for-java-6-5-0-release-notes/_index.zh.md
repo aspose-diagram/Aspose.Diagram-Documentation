@@ -1,0 +1,25 @@
+﻿---
+title: Aspose.Diagram for Java 6.5.0 发行说明
+type: docs
+weight: 70
+url: /zh/java/aspose-diagram-for-java-6-5-0-release-notes/
+---
+{{% alert color="primary" %}} 
+
+此页面包含发行说明[Aspose.Diagram for Java 6.5.0](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-6-5-0-release-notes/)
+
+{{% /alert %}} 
+## **其他改进和变化**
+
+|**钥匙**|**概括**|**类别**|
+|:- |:- |:- |
+|DIAGRAMJAVA-50219|无法从 VSS 模板文件检索连接。|漏洞|
+|DIAGRAMJAVA-50324|将 VSDX 转换为 SVG 时，文本项的位置会发生变化。|漏洞|
+### **公共 API 和向后不兼容的更改**
+请参阅列表以了解对公众 API 所做的任何更改，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
+
+{{% alert color="primary" %}} 
+
+Aspose.Diagram for Java 版本 6.5.0 中没有公开的 API 更改。其次，当我们从 .NET 版本移植 Aspose.Diagram for Java 的代码库时，大部分更改、增强和修复也包含在 Aspose.Diagram for Java 6.来自 Aspose.Diagram for .NET 6.5.0。
+
+{{% /alert %}}

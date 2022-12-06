@@ -1,0 +1,15 @@
+﻿---
+title: Aspose.Diagram for Java 5.1.0 Notas de la versión
+type: docs
+weight: 90
+url: /es/java/aspose-diagram-for-java-5-1-0-release-notes/
+---
+Aspose .Diagram for Java se actualizó a la versión 5.1.0 y nos complace anunciar que esta versión trae nuevas mejoras útiles.
+La siguiente es una lista de cambios en esta versión de Aspose.Diagram for Java.
+# **Otras mejoras y cambios**
+## **Insectos**
+DIAGRAMJAVA-50133- Diagram. El método print() no funciona
+DIAGRAMJAVA-50139: incluir el archivo "Acuerdo de usuario final.html" en paquetes que no son MSI
+DIAGRAMJAVA-50140: se produjo NullReferenceException al obtener el objeto de la página por su nombre
+DIAGRAMJAVA-50141) -VDX La exportación a PDF se bloquea en Red Hat Linux Server
+DIAGRAMJAVA-50142) -VDX La exportación a PNG se bloquea en Red Hat Linux Server

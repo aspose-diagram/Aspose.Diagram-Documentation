@@ -1,0 +1,42 @@
+﻿---
+title:  Visio'i PDF formatına dönüştür
+linktitle: Visio'i PDF'ye dönüştür
+type: docs
+weight: 10
+url: /tr/python-net/convert-visio-to-pdf/
+description: Bu konuda, Aspose.Diagram'in Visio'i PDF biçimlerine dönüştürmeye nasıl izin verdiği gösterilmektedir. VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM'i birkaç satır kodla PDF'ye dönüştürün.
+---
+## **PDF'ye Aktar**
+{{% alert color="primary" %}}
+
+.NET üzerinden Python için Aspose.Diagram, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, bir Çizimi PDF olarak işledikten sonra Aspose.Diagram for .NET**Başvuru** 'Aspose.Diagram' değerine sahip alan ve**PDF Yapımcısı** değeri olan alan, örneğin 'Aspose.Diagram 17.9'.
+
+Lütfen Aspose.Diagram for .NET API'e bu bilgileri çıktı Belgelerinden değiştirme veya kaldırma talimatı veremeyeceğinizi unutmayın.
+
+{{% /alert %}}
+
+ Bu makalede, bir Microsoft Visio diagram'in kullanılarak PDF'ye nasıl aktarılacağı açıklanmaktadır.[.NET üzerinden Python için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
+
+diagram dosyalarını okumak için [Diagram]sınıf oluşturucusunu ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemini kullanın.
+
+Aşağıdaki resim, aşağıdaki kod parçacıklarının PDF'yi dışa aktardığı VSD diagram'i göstermektedir. Diğer diagram formatlarını da (VSS, VSSM, VDX, VST, VSTX, VDX, VTX veya VSX) kullanabilirsiniz.
+
+|**Kaynak dosya.**|
+|:- |
+|![yapılacaklar:resim_alternatif_Metin](how-to-convert-a-visio-diagram_1.png)|
+
+
+VSD diagram'i PDF olarak dışa aktarmak için:
+
+1. Diagram sınıfının bir örneğini oluşturun.
+1. Diagram sınıfının Save yöntemini çağırın ve çıktı formatını PDF olarak ayarlayın.
+
+Aşağıda çıktı PDF dosyasının bir görüntüsü bulunmaktadır.
+
+|**Çıktı PDF dosyası.**|
+|:- |
+|![yapılacaklar:resim_alternatif_Metin](how-to-convert-a-visio-diagram_2.png)|
+### **Microsoft Visio Çizimi PDF'e Aktar**
+Kod örnekleri, Microsoft Visio Çiziminin Python kullanılarak PDF'ye nasıl aktarılacağını gösterir.
+
+{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}

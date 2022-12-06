@@ -1,0 +1,62 @@
+﻿---
+title: Aspose.Diagram for .NET 17.6 Versionshinweise
+type: docs
+weight: 70
+url: /de/net/aspose-diagram-for-net-17-6-release-notes/
+---
+{{% alert color="primary" %}} 
+
+ Diese Seite enthält Versionshinweise für[Aspose.Diagram for .NET 17.6](https://www.nuget.org/packages/Aspose.Diagram/17.6.0).
+
+{{% /alert %}} 
+## **Verbesserungen und Änderungen**
+
+|**Taste**|**Zusammenfassung**|**Kategorie**|
+|:- |:- |:- |
+|DIAGRAMNET-51264|Der Schatten von Formen ist beim Konvertieren von VSDM in SVG schwarz|Erweiterung|
+|DIAGRAMNET-51270|Kann keine Form von VSDX im Visio-Viewer sehen|Erweiterung|
+|DIAGRAMNET-51273|Falsche Formdarstellung im Visio Viewer 2013|Erweiterung|
+|DIAGRAMNET-51249|Das falsche Aussehen der gekrümmten Verbindungslinie in VSDM|Insekt|
+|DIAGRAMNET-51250|Beim Konvertieren von VSD in PDF wird im Text eine zusätzliche linke Klammer hinzugefügt|Insekt|
+|DIAGRAMNET-51251|Die Größe des Symbols wird beim Konvertieren einer VSDM in SVG heruntergestuft|Insekt|
+|DIAGRAMNET-51253|Falsche Farbe von Text und Rahmen in Formen beim Konvertieren von VSDM in SVG|Insekt|
+|DIAGRAMNET-51255|Ein Bild unten wurde beim Konvertieren von VSDM in SVG gestaucht|Insekt|
+|DIAGRAMNET-51258|Routine von VSDM öffnen und speichern - die Länge der Wände wird geändert|Insekt|
+|DIAGRAMNET-51259|Routine von VSDM öffnen und speichern - die Länge der Wände wird geändert|Insekt|
+|DIAGRAMNET-51260|Beim Aufrufen der Layout-Methode der Klasse Diagram ist ein Index-Out-Range-Fehler aufgetreten|Insekt|
+|DIAGRAMNET-51263|Beim Konvertieren einer VSDM in SVG erscheint ein zusätzliches rotes Farb-Tag|Insekt|
+|DIAGRAMNET-51265|Die Schriftart des Titeltexts wird beim Konvertieren von VSDM in SVG geändert|Insekt|
+|DIAGRAMNET-51266|Die Größe des Hintergrundbilds wird reduziert, um eine VSDM in SVG umzuwandeln|Insekt|
+|DIAGRAMNET-51267|Eine Symbolgröße wird beim Konvertieren einer VSDM in SVG heruntergestuft|Insekt|
+|DIAGRAMNET-51268|Ruft einen falschen Transparenzwert eines Bildes aus der Zeichnung VSDM ab|Insekt|
+|DIAGRAMNET-51269|Virtualisierungsschutz hinzufügen|Insekt|
+## **Öffentliche API und rückwärts inkompatible Änderungen**
+Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
+### **Fügt RefreshData Member in der Shape-Klasse hinzu**
+Die RefreshData-Methode der Shape-Klasseninstanz aktualisiert die Daten der Form, einschließlich XForm, TextXForm, Connection und Geom, nachdem der Text der Form oder andere geändert wurden.
+
+{{< highlight "java" >}}
+
+ // Load diagram
+
+Diagram diagram = new Diagram(@"c:\temp\3DShape_Rotation.vsdx");
+
+// get page by name
+
+Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
+
+// get shape by ID
+
+Aspose.Diagram.Shape shape = page.Shapes.GetShape(1);
+
+// set PinX and PinY values
+
+shape.XForm.PinX.Value = 5;
+
+shape.XForm.PinY.Value = 5;
+
+// save diagram to VSDX format
+
+diagram.Save(@"c:\temp\3DShape_Rotation_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}

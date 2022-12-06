@@ -1,0 +1,24 @@
+﻿---
+title: .NET üzerinden Python için Aspose.Diagram 22.9 Sürüm Notları
+type: docs
+weight: 18
+url: /tr/python-net/aspose-diagram-for-python-via-net-22-9-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Bu sayfa, .NET 22.9 aracılığıyla Python için Aspose.Diagram için sürüm notları içerir.
+
+{{% /alert %}} 
+
+|**Anahtar**|**Özet**|**Kategori**|
+|:- |:- |:- |
+|DIAGRAMNET-52969|vsdx dosyasını bir svg'ye aktarın - kutulardaki tüm metinler kutuların satırını aşar.|Artırma|
+|DIAGRAMNET-52974|diagram doğrulama verilerinde görünmeyen Kural Kümeleri|Artırma|
+|DIAGRAMNET-52951|HTML'ye aktarıldıktan sonra yanlış sonuç|Böcek|
+|DIAGRAMNET-52958|Uygulama: vsd'den Vsdx'e kaydediliyor, efekt yanlış|Böcek|
+|DIAGRAMNET-52964|HTML'de görüntü kalitesi|Böcek|
+|DIAGRAMNET-52965|HTML çıktısında sorun|Böcek|
+|DIAGRAMNET-52972|Değer olarak ��0�� döndüren boş özellikler|Böcek|
+
+## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.

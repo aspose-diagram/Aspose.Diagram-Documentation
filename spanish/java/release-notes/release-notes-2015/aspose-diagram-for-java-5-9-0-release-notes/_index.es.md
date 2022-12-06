@@ -1,0 +1,24 @@
+﻿---
+title: Aspose.Diagram for Java 5.9.0 Notas de la versión
+type: docs
+weight: 10
+url: /es/java/aspose-diagram-for-java-5-9-0-release-notes/
+---
+La siguiente es una lista de cambios en esta versión de Aspose.Diagram for Java.
+# **Otras mejoras y cambios**
+## **Nueva caracteristica**
+DIAGRAMJAVA-50266) - Soporte de lectura para el nuevo formato MS Visio Plantilla 2013 VSTX
+## **Insectos**
+- DIAGRAMJAVA-50231) - El método Shape.connectedShapes no funciona como se esperaba
+- DIAGRAMJAVA-50232) - El método Shape.gluedShapes no funciona como se esperaba
+- DIAGRAMJAVA-50234) -[Formato de salida VDX] - La forma del grupo no se muestra correctamente
+- DIAGRAMJAVA-50235) -[Formato de salida HTML] - No se puede colocar una forma de grupo de otra Visio diagram
+- DIAGRAMJAVA-50236) - [Formato de salida PDF] - No se puede colocar una forma de grupo de otra Visio diagram
+- DIAGRAMJAVA-50238) -Formato de salida VDX] - El estilo de relleno de las Formas no se conserva
+- DIAGRAMJAVA-50240) -VSDX a conversión de XPS: se produjo un mensaje de error ilegal
+- DIAGRAMJAVA-50256) -Se produjo un error de índice fuera de los límites al cargar un VSD diagram
+- DIAGRAMJAVA-50261) -VSD a VDX exportación, se cambia la posición de los conectores
+- DIAGRAMJAVA-50262) -Abra y guarde VSDX, faltan las formas del servidor
+- DIAGRAMJAVA-50263) -VDX para exportar PDF, el PDF resultante está en blanco
+- DIAGRAMJAVA-50264) -VDX a la exportación BMP, se produjo una excepción de tamaño de matriz negativo
+- DIAGRAMJAVA-50265) -VDX a la exportación de JPEG, se produjo una excepción de argumento

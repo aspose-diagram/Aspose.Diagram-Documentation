@@ -1,0 +1,28 @@
+﻿---
+title: Aspose.Diagram for .NET 18.12 Примечания к выпуску
+type: docs
+weight: 10
+url: /ru/net/aspose-diagram-for-net-18-12-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Эта страница содержит примечания к выпуску для[Aspose.Diagram for .NET 18.12](https://www.nuget.org/packages/Aspose.Diagram/18.12.0)
+
+{{% /alert %}} 
+## **Улучшения и изменения**
+
+|**Ключ**|**Резюме**|**Категория**|
+|:- |:- |:- |
+|DIAGRAMNET-50663|API имя не отображается снова в поле PDF Producer/Creator при создании PDF из диаграмм VISIO|Улучшение|
+|DIAGRAMNET-51590|Shape.ToImage создает неправильные изображения для некоторых фигур временной шкалы и календаря.|Улучшение|
+|DIAGRAMNET-51556|Экспорт VST в PDF — результирующий PDF имеет две пустые страницы|Ошибка|
+|DIAGRAMNET-51582|VSDX в PDF — неверный цвет текста на выходе|Ошибка|
+|DIAGRAMNET-51583|Фигуры выходят за границы страницы|Ошибка|
+|DIAGRAMNET-51584|VSD в PNG/GIF — параметр недействителен|Ошибка|
+|DIAGRAMNET-51585|Ошибка при загрузке файла Visio|Ошибка|
+|DIAGRAMNET-51586|Ошибка при загрузке файла Visio|Ошибка|
+|DIAGRAMNET-51587|Число было меньше нижней границы|Ошибка|
+|DIAGRAMNET-51588|Индекс выходит за пределы загрузки Visio|Ошибка|
+|DIAGRAMNET-51591|Visio в PDF - отсутствуют фигуры в выходном PDF|Ошибка|
+|DIAGRAMNET-51593|Visio в PDF - неверные формы в выходном PDF|Ошибка|
+

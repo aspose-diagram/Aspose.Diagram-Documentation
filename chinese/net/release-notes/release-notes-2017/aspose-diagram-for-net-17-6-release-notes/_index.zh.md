@@ -1,0 +1,62 @@
+﻿---
+title: Aspose.Diagram for .NET 17.6 发行说明
+type: docs
+weight: 70
+url: /zh/net/aspose-diagram-for-net-17-6-release-notes/
+---
+{{% alert color="primary" %}} 
+
+此页面包含发行说明[Aspose.Diagram for .NET 17.6](https://www.nuget.org/packages/Aspose.Diagram/17.6.0).
+
+{{% /alert %}} 
+## **改进和变化**
+
+|**钥匙**|**概括**|**类别**|
+|:- |:- |:- |
+|DIAGRAMNET-51264|将 VSDM 转换为 SVG 时形状的阴影为黑色|强化|
+|DIAGRAMNET-51270|在 Visio 查看器中看不到 VSDX 的形状|强化|
+|DIAGRAMNET-51273|Visio Viewer 2013 中的形状显示不正确|强化|
+|DIAGRAMNET-51249|VSDM 中连接曲线的不正确外观|漏洞|
+|DIAGRAMNET-51250|在将 VSD 转换为 PDF 时，在文本中添加了一个额外的左括号|漏洞|
+|DIAGRAMNET-51251|将 VSDM 转换为 SVG 时图标的大小会降低|漏洞|
+|DIAGRAMNET-51253|将 VSDM 转换为 SVG 时，形状中的文本和边框颜色不正确|漏洞|
+|DIAGRAMNET-51255|将 VSDM 转换为 SVG 时底部的图像已被压扁|漏洞|
+|DIAGRAMNET-51258|VSDM的打开和保存例程——墙的长度改变了|漏洞|
+|DIAGRAMNET-51259|VSDM的打开和保存例程——墙的长度改变了|漏洞|
+|DIAGRAMNET-51260|调用 Diagram 类的布局方法时发生索引超出范围错误|漏洞|
+|DIAGRAMNET-51263|将 VSDM 转换为 SVG 时会出现一个额外的红色标签|漏洞|
+|DIAGRAMNET-51265|将 VSDM 转换为 SVG 时，标题文本的字体发生了变化|漏洞|
+|DIAGRAMNET-51266|背景图像的大小减小到将 VSDM 转换为 SVG|漏洞|
+|DIAGRAMNET-51267|将 VSDM 转换为 SVG 时图标大小会降低|漏洞|
+|DIAGRAMNET-51268|从 VSDM 绘图中检索图像的不正确透明度值|漏洞|
+|DIAGRAMNET-51269|添加虚拟化保护|漏洞|
+## **公共 API 和向后不兼容的更改**
+以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在这[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
+### **在 Shape 类中添加 RefreshData 成员**
+Shape 类实例的 RefreshData 方法在更改形状的文本或其他内容后刷新形状的数据，包括 XForm、TextXForm、Connection 和 Geom。
+
+{{< highlight "java" >}}
+
+ // Load diagram
+
+Diagram diagram = new Diagram(@"c:\temp\3DShape_Rotation.vsdx");
+
+// get page by name
+
+Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
+
+// get shape by ID
+
+Aspose.Diagram.Shape shape = page.Shapes.GetShape(1);
+
+// set PinX and PinY values
+
+shape.XForm.PinX.Value = 5;
+
+shape.XForm.PinY.Value = 5;
+
+// save diagram to VSDX format
+
+diagram.Save(@"c:\temp\3DShape_Rotation_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}

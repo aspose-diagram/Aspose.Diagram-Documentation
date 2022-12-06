@@ -1,0 +1,37 @@
+﻿---
+title: .NET aracılığıyla Python için Aspose.Diagram 22.10 Sürüm Notları
+type: docs
+weight: 17
+url: /tr/python-net/aspose-diagram-for-python-via-net-22-10-release-notes/
+---
+{{% alert color="primary" %}} 
+
+Bu sayfa, .NET 22.10 aracılığıyla Python için Aspose.Diagram için sürüm notları içerir.
+
+{{% /alert %}} 
+
+|**Anahtar**|**Özet**|**Kategori**|
+|:- |:- |:- |
+|DIAGRAMNET-52988|Grafik, SVG formatına dışa aktarıldığında düşük kalitede görüntüleniyor|Artırma|
+|DIAGRAMNET-53002|Aspose.Diagram ile html'ye dışa aktarırken bağlantı kayboldu|Artırma|
+|DIAGRAMNET-52983|Diagram.Save hatası|Böcek|
+|DIAGRAMNET-52984|VentureLicenser sınıfındaki değerleri değiştirin|Böcek|
+|DIAGRAMNET-52993|vsdx ile svg arasındaki görüşme başarısız oluyor|Böcek|
+|DIAGRAMNET-52995|Uygulama: vsd yüklemesi istisna oluşturuyor|Böcek|
+
+## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
+Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.
+
+### **GetDisplayText'i Şekle Ekler**
+- Arayüzde görüntülenen metni alın
+
+{{< highlight "java" >}}
+String text = shape.GetDisplayText();
+{{< /highlight >}}
+
+### **InheritGeoms in Shape'i ekler**
+- Ana şekil tarafından devralınan şekle ilişkin Geoms değerlerini içerir.
+
+{{< highlight "java" >}}
+int count = shape.InheritGeoms.Count;
+{{< /highlight >}}

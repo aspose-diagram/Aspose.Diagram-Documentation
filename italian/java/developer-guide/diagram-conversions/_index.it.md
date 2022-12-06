@@ -1,0 +1,19 @@
+﻿---
+title: Converti Visio in Pdf, Immagine e altri formati.
+linktitle: Diagram Conversioni
+type: docs
+weight: 65
+url: /it/java/convert-diagram-to-different-formats/
+description: Converti i file Visio in Visio, PDF, CSV, JPG, HTML, BMP, PNG, EMF, SVG, TIFF, XPS e altro ancora.
+---
+{{% alert color="primary" %}}
+
+Aspose.Diagram supporta la conversione tra molti formati. Tecnicamente, la conversione significa caricare un diagram in un formato di file e salvarlo in un altro.
+
+{{% /alert %}}
+
+## **Argomenti avanzati**
+- [Converti Visio in Html](/diagram/it/java/convert-visio-to-html/)
+- [Converti Visio in immagine](/diagram/it/java/convert-visio-to-image/)
+- [Converti Visio in PDF](/diagram/it/java/convert-visio-to-pdf/)
+- [Converti Visio in altri file](/diagram/it/java/convert-visio-to-other-files/)

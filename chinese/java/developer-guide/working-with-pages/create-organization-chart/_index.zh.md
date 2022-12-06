@@ -1,0 +1,46 @@
+﻿---
+title: 创建组织结构图
+type: docs
+weight: 100
+url: /zh/java/create-organization-chart/
+description: 本节介绍如何使用 Aspose.Diagram for Java 创建组织结构图。
+---
+## **创建组织结构图**
+本节介绍如何使用 Aspose.Diagram for Java 创建组织结构图。
+### **创建一个 CompactTree 风格的组织结构图**
+的布局方法[页](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page)类自动将页面中的形状和连接器布局为 CompactTree 样式的组织结构图。
+
+下面的代码显示了如何：
+
+1. 从模板创建一个 diagram。
+1. 将组织节点形状添加到页面。
+1. 将连接器添加到页面以连接形状及其父级。
+1. 通过调用 Layout 方法自动布局
+1. 保存 diagram
+#### **创建一个 CompactTree 风格的组织结构图编程示例**
+使用以下代码使用 Aspose.Diagram for Java 创建 CompactTree 样式组织结构图。
+
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-CompactTreeChart.java" >}}
+
+|**结果**|
+|:- |
+|![CompactTreeChart_out.vsdx](CompactTreeChart.png)|
+
+### **创建流程图样式的组织结构图**
+的布局方法[页](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page)类自动将页面中的形状和连接器布局为流程图样式的组织结构图。
+
+下面的代码显示了如何：
+
+1. 从模板创建一个 diagram。
+1. 将组织节点形状添加到页面。
+1. 将连接器添加到页面以连接形状及其父级。
+1. 通过调用 Layout 方法自动布局
+1. 保存 diagram
+#### **创建流程图样式的组织结构图编程示例**
+使用以下代码使用 Aspose.Diagram for Java 创建流程图样式组织结构图。
+
+{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-FlowChart.java" >}}
+
+|**结果**|
+|:- |
+|![FlowChart_out.vsdx](FlowChart.png)|

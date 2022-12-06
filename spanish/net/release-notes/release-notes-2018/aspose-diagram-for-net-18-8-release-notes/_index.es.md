@@ -1,0 +1,40 @@
+﻿---
+title: Aspose.Diagram for .NET 18.8 Notas de la versión
+type: docs
+weight: 50
+url: /es/net/aspose-diagram-for-net-18-8-release-notes/
+---
+{{% alert color="primary" %}} 
+
+ Esta página contiene notas de la versión para[Aspose.Diagram for .NET 18.8](https://www.nuget.org/packages/Aspose.Diagram/18.8.0).
+
+{{% /alert %}} 
+## **Mejoras y Cambios**
+
+|**Llave**|**Resumen**|**Categoría**|
+|:- |:- |:- |
+|DIAGRAMNET-51500|Problema al renderizar a imagen|Mejora|
+|DIAGRAMNET-51504|Agregar soporte para crear un nuevo revisor|Mejora|
+|DIAGRAMNET-50953|Los elementos de texto se desplazan al convertir un VSDX a PNG|Insecto|
+|DIAGRAMNET-51122|La posición incorrecta de los elementos de texto al convertir un VSD a PDF|Insecto|
+|DIAGRAMNET-51123|El texto de las formas se desplaza al convertir un VSD a PDF|Insecto|
+|DIAGRAMNET-51408|VSD a la imagen: los caracteres se superponen con la línea|Insecto|
+|DIAGRAMNET-51499|Diagram. El método Guardar arroja la excepción OutOfMemoryException|Insecto|
+|DIAGRAMNET-51501|Las formas se superponen en el archivo VDX|Insecto|
+|DIAGRAMNET-51505|Faltan puntos en el PDF generado|Insecto|
+## **Public API y cambios incompatibles con versiones anteriores**
+La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en la[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
+#### **Agrega revisor**
+{{< highlight "java" >}}
+
+             Reviewer viewer = new Reviewer();
+
+            viewer.Name.Value = "test";
+
+            viewer.ReviewerID.Value = 3;
+
+{{< /highlight >}}
+
+
+
+

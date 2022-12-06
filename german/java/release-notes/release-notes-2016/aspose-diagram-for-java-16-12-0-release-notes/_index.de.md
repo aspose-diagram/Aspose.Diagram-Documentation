@@ -1,0 +1,38 @@
+﻿---
+title: Aspose.Diagram for Java 16.12.0 Versionshinweise
+type: docs
+weight: 10
+url: /de/java/aspose-diagram-for-java-16-12-0-release-notes/
+---
+{{% alert color="primary" %}} 
+
+ Diese Seite enthält Versionshinweise für[Aspose.Diagram for Java 16.12.0](https://docs.aspose.com/diagram/java/aspose-diagram-for-java-16-12-0-release-notes/).
+
+{{% /alert %}} 
+## **Andere Verbesserungen und Änderungen**
+
+|**Taste**|**Zusammenfassung**|**Kategorie**|
+|:- |:- |:- |
+|DIAGRAMJAVA-50438|Formen können nicht zum zweiten Mal auf einer Visio-Zeichnungsseite gruppiert werden.|Erweiterung|
+|DIAGRAMJAVA-50445|Der VBA wird aufgrund der Bearbeitung einer VSDM-Zeichnung auf Linux-Systemen nicht initialisiert.|Erweiterung|
+|DIAGRAMJAVA-50434|VSD zum PDF-Export - der zusätzliche Leerraum wird auf der linken Seite der Zeichnung generiert.|Insekt|
+|DIAGRAMJAVA-50435|VSD in den HTML-Export - der zusätzliche Leerraum wird auf der linken Seite der Zeichnung generiert.|Insekt|
+|DIAGRAMJAVA-50436|VSD zum SVG-Export - die Hintergrundfarbe des Containers wird schwarz.|Insekt|
+|DIAGRAMJAVA-50439|Die Gruppenform wird beim Hinzufügen von Kreisformen in einem VSDM unsichtbar.|Insekt|
+|DIAGRAMJAVA-50440|Page.AddShape-Methode zeigt einen ungültigen Fehler beim Hinzufügen eines dynamischen Konnektors.|Insekt|
+|DIAGRAMJAVA-50441|Zusätzlicher Zeilenumbruch und Abstand im Formtext beim Exportieren einer VSDM nach PDF.|Insekt|
+|DIAGRAMJAVA-50442|Der Text der Formen befindet sich beim Exportieren von VSDM in PDF nicht in der Mitte.|Insekt|
+|DIAGRAMJAVA-50443|Beim Bearbeiten einer VSDM-Zeichnung verschwindet ein VBA-Modul auf Linux-Systemen.|Insekt|
+|DIAGRAMJAVA-50444|Die Bearbeitung einer VSDM-Zeichnung zeigt einen Fehler einer falschen Codesyntax auf Linux-Systemen.|Insekt|
+|DIAGRAMJAVA-50448|Die Routine zum Öffnen und Speichern einer VSDX enthält einen zusätzlichen Text.|Insekt|
+|DIAGRAMJAVA-50449|Ein Shape-Text wird in die Dummy-Zeichen konvertiert.|Insekt|
+|DIAGRAMJAVA-50451|Unsachgemäße Größenänderung einer Gruppenform in der Ausgabe VSDM.|Insekt|
+|DIAGRAMJAVA-50452|Die falsche Textposition von Formen beim Speichern im PDF-Format.|Insekt|
+|DIAGRAMJAVA-50453|Die falsche Schriftgröße beim Speichern einer VSDM im PDF-Format.|Insekt|
+|DIAGRAMJAVA-50454|Die Textelemente werden beim Konvertieren von VSD-Seiten in SVGs überlappt.|Insekt|
+### **Öffentliche API und rückwärts inkompatible Änderungen**
+Sehen Sie sich die Liste für alle Änderungen an, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for Java vorgenommen wurden[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
+### **Fügt die Klassen GradientFill, GradientStopCollection und GradientStop hinzu**
+Diese Klassen helfen beim Bearbeiten der Formatierungswerte für Farbverlaufsfüllungen der Form Visio.
+### **Anwendungsbeispiele**
+Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Diagram-Wiki-Dokumenten hinzugefügt wurden:
