@@ -15,7 +15,7 @@ DIAGRAMNET-50434-Kilometre taşı şekil tarihi güncellenemiyor
 - DIAGRAMNET-50520-Sonuç olarak VDX'de konektörler doğru şekilde yönlendirilmiyor
 - DIAGRAMNET-50527-Ön plan sayfası arka plan sayfasına dönüşüyor
 - DIAGRAMNET-50528-Ön plan sayfası arka plan sayfasına dönüşüyor
-- DIAGRAMNET-50529-VSDX'den SVG'ye dönüştürme, metindeki "&" karakteri "&" olarak görünür
-- DIAGRAMNET-50531-VSDX'den SVG'ye dönüştürme, şeklin metin satırları değiştirilir
+- DIAGRAMNET-50529-VSDX'den SVG'e dönüştürme, metindeki "&" karakteri "&" olarak görünür
+- DIAGRAMNET-50531-VSDX'den SVG'e dönüştürme, şeklin metin satırları değiştirilir
 - DIAGRAMNET-50540-Sonuç açılırken uyarı mesajı VDX diagram
 - DIAGRAMNET-50543-VSD diagram'den şeklin adı alınamıyor

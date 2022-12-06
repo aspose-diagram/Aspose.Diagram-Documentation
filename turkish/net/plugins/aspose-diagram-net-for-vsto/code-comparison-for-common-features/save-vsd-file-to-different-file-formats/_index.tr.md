@@ -11,7 +11,7 @@ VSTO, Microsoft Visio dosyalarıyla programlama yapmanızı sağlar. Bir dosyay�
 1. Bir Visio uygulama nesnesi oluşturun.
 1. Uygulama nesnesini görünmez yapın.
 1. diagram'i yükleyin.
-1. VDX, PDF ve JPEG olarak kaydedin.
+1. VDX, PDF ve JPEG'e kaydedin.
 1. Visio uygulama nesnesinden çıkın.
 
 {{< highlight "csharp" >}}
@@ -57,7 +57,7 @@ vsdApp.Quit();
 Aspose.Diagram ile programlama yaparken makinede Microsoft Visio'e gerek yok Microsoft Office Otomasyondan bağımsız çalışabilirsiniz. Aşağıdaki kod parçacıkları şunların nasıl yapıldığını gösterir:
 
 1. diagram yükleyin.
-1. diagram'i VDX, PDF ve JPEG olarak kaydedin.
+1. diagram'i VDX, PDF ve JPEG'e kaydedin.
 
 {{< highlight "csharp" >}}
 

@@ -13,12 +13,12 @@ url: /tr/net/aspose-diagram-for-net-18-3-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-50147|VSD XPS dönüştürme, boş sayfalar kırmızı çarpı resimleriyle oluşturulur|Artırma|
+|DIAGRAMNET-50147|VSD'den XPS'e dönüşüm, kırmızı çarpı resimleri olan boş sayfalar oluşturulur|Artırma|
 |DIAGRAMNET-51431|Sayfa koleksiyonu için MoveTo yöntemi ekleyin|Artırma|
 |DIAGRAMNET-50424  |VSDX'den PDF'e dönüştürme, simge metnin üzerinde duruyor|Böcek|
 |DIAGRAMNET-50459|VSDX'den PDF'e dönüştürme, şekil simgesi orijinal konumundan yanlış yerleştirilmiş|Böcek|
 |DIAGRAMNET-50460|VSDX'den PDF'e dönüştürme, şekil simgesi orijinal konumundan yanlış yerleştirilmiş|Böcek|
-|DIAGRAMNET-50674|Tüm HTML kaynakları özel yola kaydedilmez|Böcek|
+|DIAGRAMNET-50674|Tüm HTML kaynakları özel yola kaydedilmedi|Böcek|
 |DIAGRAMNET-51403|VSD resme - ok başları yanlış yerleştirilmiş|Böcek|
 |DIAGRAMNET-51427|Çıktı VSDX - Şekillerdeki kontroller çalışmıyor|Böcek|
 |DIAGRAMNET-51429|Ürün Sayfası URL'sini NuGet Galerisi üzerinden düzeltin|Böcek|

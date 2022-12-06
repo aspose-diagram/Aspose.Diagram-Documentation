@@ -14,27 +14,27 @@ url: /fr/net/aspose-diagram-for-net-16-10-0-release-notes/
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMNET-50545|Maître-Possibilité d'ajouter des maîtres sans gabarit, diagram ou modèle.|Nouvelle fonctionnalité|
-|DIAGRAMNET-50192|VSD en conversion PDF, le texte de la forme n'apparaît pas en gras.|Punaise|
+|DIAGRAMNET-50192|VSD to PDF conversion, the text of the shape appears not bold.|Punaise|
 |DIAGRAMNET-50524|L'appel de la méthode Shape.GluedShapes ne renvoie pas tous les identifiants de forme.|Punaise|
-|DIAGRAMNET-50578|VSDX en conversion PDF, les lignes de connexion ne sont pas droites-I.|Punaise|
-|DIAGRAMNET-50598|VSDX en conversion PDF, les lignes de connexion ne sont pas droites-II.|Punaise|
-|DIAGRAMNET-50583|VSDX à la conversion HTML, les lignes de connexion ne sont pas droites-I.|Punaise|
-|DIAGRAMNET-50603|VSDX à la conversion HTML, les lignes de connexion ne sont pas droites-II.|Punaise|
-|DIAGRAMNET-51007|Les éléments de texte sont déplacés lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51008|Manque la mise en forme du texte en gras et les sauts de ligne incorrects lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51009|La position incorrecte du texte lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51010|La position incorrecte de divers éléments de texte lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51013|Le texte vertical apparaît comme texte horizontal lors de la conversion d'un VSDX en PNG.|Punaise|
+|DIAGRAMNET-50578|VSDX to PDF conversion, the connecting lines are not straight-I.|Punaise|
+|DIAGRAMNET-50598|VSDX to PDF conversion, the connecting lines are not straight-II.|Punaise|
+|DIAGRAMNET-50583|VSDX to HTML conversion, the connecting lines are not straight-I.|Punaise|
+|DIAGRAMNET-50603|VSDX to HTML conversion, the connecting lines are not straight-II.|Punaise|
+|DIAGRAMNET-51007|The text items are displaced on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51008|Missing the bold text formatting and incorrect line breaks on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51009|The incorrect position of text on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51010|The incorrect position of various text items on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51013|The vertical text appears as horizontal text on converting a VSDX to PNG.|Punaise|
 |DIAGRAMNET-51026|Récupère l'ordre inverse des nœuds entrants et sortants à partir d'un VSDX.|Punaise|
 |DIAGRAMNET-51028|Impossible de récupérer la cellule de relations de la forme de conteneur à partir d'un VSD.|Punaise|
-|DIAGRAMNET-51039|Les numéros supplémentaires sont ajoutés lors de la conversion d'un VSD en SVG.|Punaise|
-|DIAGRAMNET-51042|Les flèches ne sont pas rendues correctement lors de la conversion d'un VSD en SVG.|Punaise|
-|DIAGRAMNET-51047|Mauvais rendu du calendrier lors de la conversion d'un VSD en SVG.|Punaise|
+|DIAGRAMNET-51039|The additional numbers are added while converting a VSD to SVG.|Punaise|
+|DIAGRAMNET-51042|The arrows are not being rendered correctly on converting a VSD to SVG.|Punaise|
+|DIAGRAMNET-51047|Incorrect rendering of the calendar on converting a VSD to SVG.|Punaise|
 |DIAGRAMNET-51050|La méthode Shape.ConnectedShapes renvoie les nœuds dans le sens inverse.|Punaise|
 |DIAGRAMNET-51051|Impossible de récupérer la cellule de relation des formes à partir d'un VSD.|Punaise|
-|DIAGRAMNET-51052|La couleur de fond des pages Visio est noire lors de la conversion d'un VSD en SVG.|Punaise|
+|DIAGRAMNET-51052|The background color of Visio pages is black on converting a VSD to SVG.|Punaise|
 |DIAGRAMNET-51060|Les identifiants de forme indésirable sont récupérés à partir d'un VSD diagram.|Punaise|
-|DIAGRAMNET-51066|Le symbole incorrect apparaît lors de la conversion d'une page VSDX en SVG.|Punaise|
+|DIAGRAMNET-51066|The incorrect symbol appears on converting a VSDX page to SVG.|Punaise|
 |DIAGRAMNET-51067|NullReferenceException s'est produite lors de la conversion d'un VDX en VSDX.|Punaise|
 |DIAGRAMNET-51068|L'option Taille de la page est modifiée en définissant la largeur et la hauteur de la page VSDM.|Punaise|
 |DIAGRAMNET-51069|Impossible de récupérer la chaîne de relation des formes à partir d'un VSD.|Punaise|

@@ -13,6 +13,6 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50683|Visio a SVG: diseño de forma dañado en la salida|Mejora|
-|DIAGRAMJAVA-50684|Admite el formato de caracteres visCaseAllCaps y visCaseInitialCaps en la exportación SVG|Mejora|
+|DIAGRAMJAVA-50683|Visio to SVG - Corrupted shape layout in output|Mejora|
+|DIAGRAMJAVA-50684|Support visCaseAllCaps and visCaseInitialCaps character formatting in SVG export|Mejora|
 

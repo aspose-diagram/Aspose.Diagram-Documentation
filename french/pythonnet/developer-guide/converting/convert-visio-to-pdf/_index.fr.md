@@ -1,42 +1,42 @@
 ﻿---
-title:  Convertir Visio au format PDF
-linktitle: Convertir Visio en PDF
+title: Convert Visio to PDF format 
+linktitle: Convert Visio to PDF
 type: docs
 weight: 10
 url: /fr/python-net/convert-visio-to-pdf/
-description: Cette rubrique vous montre comment Aspose.Diagram permet de convertir Visio en formats PDF. Convertissez VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM en PDF avec quelques lignes de code.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to PDF formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to PDF with a few lines of code.
 ---
-## **Exporter au format PDF**
+## **Export to PDF**
 {{% alert color="primary" %}}
 
-Aspose.Diagram pour Python via .NET écrit directement les informations sur le API et le numéro de version dans les documents de sortie. Par exemple, lors du rendu d'un dessin au format PDF, Aspose.Diagram for .NET remplit**Application** champ avec la valeur 'Aspose.Diagram' et**Producteur PDF** champ avec valeur, par exemple 'Aspose.Diagram 17.9'.
+Aspose.Diagram for Python via .NET directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to PDF, Aspose.Diagram for .NET populates **Application** champ avec la valeur 'Aspose.Diagram' et**PDF Producer** champ avec valeur, par exemple 'Aspose.Diagram 17.9'.
 
 Veuillez noter que vous ne pouvez pas demander au Aspose.Diagram for .NET API de modifier ou de supprimer ces informations des documents de sortie.
 
 {{% /alert %}}
 
- Cet article explique comment exporter un Microsoft Visio diagram au format PDF en utilisant[Aspose.Diagram pour Python via .NET](https://products.aspose.com/diagram/python-net/) API.
+This article explains how to export a Microsoft Visio diagram to PDF using [Aspose.Diagram for Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
 Utilisez le constructeur de classe [Diagram] pour lire les fichiers diagram et la méthode Save pour exporter le diagram vers n'importe quel format d'image pris en charge.
 
-L'image ci-dessous montre le VSD diagram que les extraits de code ci-dessous exportent au format PDF. Vous pouvez également utiliser d'autres formats diagram (VSS, VSSM, VDX, VST, VSTX, VDX, VTX ou VSX).
+The image below shows the VSD diagram that the code snippets below export PDF. You can use other diagram formats (VSS, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 
 |**Le fichier sources.**|
 |:- |
 |![tâche : image_autre_texte](how-to-convert-a-visio-diagram_1.png)|
 
 
-Pour exporter VSD diagram au format PDF :
+To export VSD diagram to PDF:
 
 1. Créez une instance de la classe Diagram.
-1. Appelez la méthode Save des classes Diagram et définissez le format de sortie sur PDF.
+1. Call the Diagram classs Save method and set the output format to PDF.
 
-Vous trouverez ci-dessous une image du fichier PDF de sortie.
+Below is an image of the output PDF file.
 
-|**Le fichier PDF de sortie.**|
+|**Le fichier de sortie PDF.**|
 |:- |
 |![tâche : image_autre_texte](how-to-convert-a-visio-diagram_2.png)|
-### **Exporter Microsoft Visio Dessin au format PDF**
-Les exemples de code montrent comment exporter Microsoft Visio Dessin au format PDF à l'aide de Python.
+### **Export Microsoft Visio Drawing to PDF**
+The code samples show how to export Microsoft Visio Drawing to PDF using Python.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}

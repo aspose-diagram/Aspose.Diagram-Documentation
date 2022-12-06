@@ -4,7 +4,7 @@ linktitle: تحويل Visio إلى صور
 type: docs
 weight: 20
 url: /ar/net/convert-visio-to-image/
-description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى تنسيقات صور مختلفة. تحويل Visio،VSD ، VSS ، VDW ، VST ، VSDX ، VSSX ، VSTX ، VSDM ، VSTM،VSSM إلى صور PNG ، JPEG ، BMP مع بضعة أسطر من التعليمات البرمجية.
+description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى تنسيقات صور مختلفة. تحويل Visio،VSD ، VSS ، VDW ، VST ، VSDX ، VSSX ، VSTX ، VSDM ، VSTM،VSSM إلى PNG ، JPEG ، BMP من الصور.
 ---
 ## **تصدير المخططات إلى تنسيقات ملفات الصور**
  يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى صورة باستخدام[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API. استخدم[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) مُنشئ الفئة لقراءة ملفات diagram وطريقة Save لتصدير diagram إلى أي تنسيق صورة مدعوم.

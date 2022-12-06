@@ -24,7 +24,7 @@ url: /ar/java/aspose-diagram-for-java-17-10-release-notes/
 |DIAGRAMJAVA-50559|VSDM إلى VDX - الخطوط المتصلة غير متصلة بالأشكال|حشرة|
 |DIAGRAMJAVA-50561|الرسم VSDX تالف بعد إضافة عنصر SolutionXML|حشرة|
 ### **يضيف SameAsPdfConversionArea في ImageSaveOptions**
-يحدد ما إذا كان سيتم حفظ المنطقة بنفس طريقة PDF.
+تحدد ما إذا كان سيتم حفظ المنطقة بنفس طريقة حفظ المساحة PDF.
 
 {{< highlight "java" >}}
 

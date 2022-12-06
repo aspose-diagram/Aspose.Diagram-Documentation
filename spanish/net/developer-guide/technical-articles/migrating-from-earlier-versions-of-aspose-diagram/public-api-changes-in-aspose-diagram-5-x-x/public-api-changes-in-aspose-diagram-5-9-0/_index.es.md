@@ -9,7 +9,7 @@ url: /es/net/public-api-changes-in-aspose-diagram-5-9-0/
 Este documento describe los cambios al Aspose.Diagram API de la versión 5.8.0 a la 5.9.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Diagram.
 
 {{% /alert %}} 
-## **Guardar HTML resultante en una secuencia**
+## **Save Resultant HTML to a Stream**
 Se ha agregado el nuevo método Guardar en la clase Diagram. Toma dos parámetros, el objeto de flujo y el formato de archivo de guardado.
 Código de ejemplo:
 

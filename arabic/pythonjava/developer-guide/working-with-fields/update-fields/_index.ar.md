@@ -6,7 +6,7 @@ url: /ar/python-java/update-fields/
 description: يوضح هذا القسم كيفية تحديث الحقول.
 ---
 ## **تحديث الميدان**
- يتيح لك Aspose.Diagram لـ Python عبر Java تحديث الحقل إلى المخططات Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
+يتيح لك Aspose.Diagram لـ Python via Java تحديث الحقل إلى الرسوم البيانية Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
 
 يمثل كائن الحقل الحقل النصي في تشغيل النص. تدعم خاصية الحقل ، المعروضة بواسطة فئة الشكل مجموعة من Aspose.Diagram.Field كائنات.
 

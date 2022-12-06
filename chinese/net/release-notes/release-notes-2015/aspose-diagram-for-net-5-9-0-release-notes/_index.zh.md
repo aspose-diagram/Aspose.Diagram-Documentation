@@ -6,7 +6,7 @@ url: /zh/net/aspose-diagram-for-net-5-9-0-release-notes/
 ---
 此版本引入了如下详述的功能、增强功能和错误修复：
 ## **新功能**
-- DIAGRAMNET-50143-[VSD 到 HTML 转换](https://docs.aspose.com/diagram/net/convert-visio-to-html/)添加支持以将输出 html 保存到流对象
+- DIAGRAMNET-50143-[VSD to HTML conversion](https://docs.aspose.com/diagram/net/convert-visio-to-html/)添加支持以将输出 html 保存到流对象
 - DIAGRAMNET-50564-编写新 MS Visio Stencil 2013 VSSX 格式的支持
 - DIAGRAMNET-50565-编写新的 MS Visio 模板 2013 VSTX 格式的支持
 - DIAGRAMNET-50649-阅读支持新的MS Visio模板2013 VSTX格式
@@ -21,7 +21,7 @@ url: /zh/net/aspose-diagram-for-net-5-9-0-release-notes/
 - DIAGRAMNET-50642-VSD 到 VDX 导出，连接器位置已更改
 - DIAGRAMNET-50643-打开并保存 VSDX，服务器形状丢失
 - DIAGRAMNET-50644-VSD 到 VSDX 导出，CustomProp 类不返回实际值
-- DIAGRAMNET-50645-VDX转PDF导出，生成的PDF为空白
-- DIAGRAMNET-50646-VDX 到 BMP 导出，出现参数异常
-- DIAGRAMNET-50647-VDX 到 JPEG 导出，出现参数异常
-- DIAGRAMNET-50648-VSDX 到 SVG 导出，形状的自定义属性未保留
+- DIAGRAMNET-50645-VDX to PDF export, the resultant PDF is blank 
+- DIAGRAMNET-50646-VDX to BMP export, an argument exception occurred 
+- DIAGRAMNET-50647-VDX to JPEG export, an argument exception occurred 
+- DIAGRAMNET-50648-VSDX to SVG export, the custom properties of the shapes are not preserved

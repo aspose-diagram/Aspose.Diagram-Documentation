@@ -6,7 +6,7 @@ url: /de/python-java/create-insert-fields/
 description: So erstellen Sie Felder mit Java Diagram API .
 ---
 ## **Feld einfügen**
- Mit Aspose.Diagram für Python über Java können Sie Felder in Microsoft Visio Diagramme ohne Microsoft Office Automatisierung aus Ihren eigenen Anwendungen erstellen und einfügen.
+Aspose.Diagram for Python via Java lets you create and insert field to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt fügt ein Feld in shape ein.

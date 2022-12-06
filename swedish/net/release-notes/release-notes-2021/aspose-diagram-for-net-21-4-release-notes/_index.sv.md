@@ -15,7 +15,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |:- |:- |:- |
 |DIAGRAMNET-51732|Former tappar styling/struktur efter "AddShape" på sidan|Förbättring|
 |DIAGRAMNET-52012|Problem med flera rekvisitauppdateringar|Förbättring|
-|DIAGRAMNET-50538|VSD till PDF-konvertering, är bitmappsformen felplacerad för den ursprungliga positionen|Insekt|
+|DIAGRAMNET-50538|VSD till PDF konvertering, bitmappsformen är felplacerad för den ursprungliga positionen|Insekt|
 |DIAGRAMNET-50956|Textobjekten förskjuts vid konvertering av en VSDX till PDF|Insekt|
 |DIAGRAMNET-51126|Felaktig återgivning av färgerna vid konvertering av en VSDX till PDF|Insekt|
 |DIAGRAMNET-52001|VSDX till HTML - Former försvinner efter konvertering|Insekt|

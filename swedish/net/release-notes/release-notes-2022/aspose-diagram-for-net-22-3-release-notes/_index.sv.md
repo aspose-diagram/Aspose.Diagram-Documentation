@@ -21,7 +21,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-52666|Visio till PDF-konvertering - Problem med datagrafik [Forts.]|Insekt|
 |DIAGRAMNET-52684|Undantag vid export till HTML|Insekt|
 |DIAGRAMNET-52685|Undantag vid export till HTML|Insekt|
-|DIAGRAMNET-52692|Diagram.Spara till MemoryStream med PDF-format kastar ett system.NullReferenceException|Insekt|
+|DIAGRAMNET-52692|Diagram.Spara till MemoryStream med PDF Format kastar ett system.NullReferenceException|Insekt|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Diagram.

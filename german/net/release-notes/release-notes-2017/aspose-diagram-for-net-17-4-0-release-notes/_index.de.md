@@ -27,24 +27,24 @@ url: /de/net/aspose-diagram-for-net-17-4-0-release-notes/
 |DIAGRAMNET-51169|Abrufen von und zu einem Teil der Verbindung von VDX nicht möglich|Insekt|
 |DIAGRAMNET-51170|Visio kann VSDX-Datei nicht öffnen, wenn GIF-Bild hinzugefügt wird|Insekt|
 |DIAGRAMNET-51173|Behält den zusammengesetzten Typ der Verbinderform in VSDX nicht bei|Insekt|
-|DIAGRAMNET-51177|Die Pfeilschaltfläche wird beim Konvertieren einer VSDM in SVG nicht korrekt angezeigt|Insekt|
-|DIAGRAMNET-51178|Eine duplizierte Textzeile wird beim Konvertieren einer VSDM in SVG überschrieben|Insekt|
+|DIAGRAMNET-51177|The arrow button is not being displayed correctly on converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51178|A duplicated text line is over-written while converting a VSDM to SVG|Insekt|
 |DIAGRAMNET-51180|Falsches Layout der Konnektoren beim Speichern im Format VSDX|Insekt|
-|DIAGRAMNET-51181|Falsches Layout der Konnektoren beim Speichern im PDF-Format|Insekt|
-|DIAGRAMNET-51182|Fehlende Formen beim Konvertieren einer VSD in PDF|Insekt|
-|DIAGRAMNET-51183|Versetzte Formen beim Konvertieren einer VSD in PDF|Insekt|
+|DIAGRAMNET-51181|Falsches Layout der Konnektoren beim Speichern im Format PDF|Insekt|
+|DIAGRAMNET-51182|Fehlende Formen beim Konvertieren von VSD in PDF|Insekt|
+|DIAGRAMNET-51183|Displaced shapes on converting a VSD to PDF|Insekt|
 |DIAGRAMNET-51187|VDX Datei ist nach dem Speichern beschädigt - II|Insekt|
-|DIAGRAMNET-51191|Das Verantwortungsfeld am unteren Rand der Form ist beim Speichern von VDX in SVG teilweise schattiert|Insekt|
-|DIAGRAMNET-51192|Die Textphrasen werden beim Speichern von VDX in SVG nicht korrekt verteilt|Insekt|
-|DIAGRAMNET-51193|Beim Speichern einer VDX in SVG erschien ein zusätzlicher Text|Insekt|
-|DIAGRAMNET-51200|Die Textelemente überlappen sich beim Speichern von VSDM in SVG|Insekt|
+|DIAGRAMNET-51191|Responsibility box at bottom of the shape is partially shaded on saving a VDX to SVG|Insekt|
+|DIAGRAMNET-51192|The text phrases are not being spaced correctly on saving a VDX to SVG|Insekt|
+|DIAGRAMNET-51193|An additional text appeared on saving a VDX to SVG|Insekt|
+|DIAGRAMNET-51200|The text items are overlapping on saving a VSDM to SVG|Insekt|
 |DIAGRAMNET-51202|ArgumentOutOfRangeException beim Speichern von diagram|Insekt|
 |DIAGRAMNET-51203|Bilder fehlen beim Speichern von VSDX|Insekt|
-|DIAGRAMNET-51205|Versetzter Text und ein fehlendes Zeichen beim Konvertieren von VSDM in SVG|Insekt|
-|DIAGRAMNET-51206|Falsche Anzeige unten beim Konvertieren einer VSDM in SVG|Insekt|
+|DIAGRAMNET-51205|Displaced text and a missing character on converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51206|Incorrect display at the bottom on converting a VSDM to SVG|Insekt|
 |DIAGRAMNET-51207|VDX Datei ist nach dem Speichern beschädigt - I|Insekt|
-|DIAGRAMNET-51209|Beim Speichern einer Zeichnung in PNG ist ein Fehler aufgetreten - I|Insekt|
-|DIAGRAMNET-51210|Beim Speichern einer Zeichnung in PNG - II ist ein Fehler aufgetreten|Insekt|
+|DIAGRAMNET-51209|An error occurred on saving a drawing in PNG - I|Insekt|
+|DIAGRAMNET-51210|An error occurred on saving a drawing in PNG - II|Insekt|
 |DIAGRAMNET-51213|Der genaue Datums- und Uhrzeitwert der letzten Speicherung der Zeichnung kann nicht abgerufen werden|Insekt|
 |DIAGRAMNET-51215|Beim Konvertieren von VSD in JPG wird eine rechteckige Form gerendert|Insekt|
 

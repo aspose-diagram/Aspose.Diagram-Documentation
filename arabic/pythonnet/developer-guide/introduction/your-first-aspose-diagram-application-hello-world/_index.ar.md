@@ -1,12 +1,12 @@
 ﻿---
-title: أول تطبيق Aspose.Diagram لك - أهلاً بالعالم
+title: أول طلب Aspose.Diagram - Hello World
 type: docs
 weight: 30
 url: /ar/python-net/your-first-aspose-diagram-application-hello-world/
 ---
 {{% alert color="primary" %}}
 
-يوضح موضوع المبتدئين هذا كيف يمكن للمطورين إنشاء تطبيق أول بسيط (Hello World) باستخدام Aspose.Diagram 'simple API. يقوم التطبيق بإنشاء ملف Microsoft Visio يحتوي على الكلمات Hello World في الصفحة.
+يوضح موضوع المبتدئين هذا كيف يمكن للمطورين إنشاء تطبيق أول بسيط (Hello World) باستخدام Aspose.Diagram 'بسيط API. يقوم التطبيق بإنشاء ملف Microsoft Visio بالكلمات Hello World في الصفحة.
 
 {{% /alert %}}
 
@@ -19,14 +19,14 @@ url: /ar/python-net/your-first-aspose-diagram-application-hello-world/
  1. إذا كنت قد اشتريت ترخيصًا ، فاستخدم الترخيص الموجود في التطبيق الخاص بك للوصول إلى الوظائف الكاملة Aspose.Diagram
  1. إذا كنت تستخدم الإصدار التقييمي للمكون (إذا كنت تستخدم Aspose.Diagram بدون ترخيص) ، فتخط هذه الخطوة.
 1. قم بتكوين ملف Microsoft Visio جديد ، أو افتح ملفًا موجودًا تريد إضافة / تحديث جزء منه.
-1.  أدخل الكلمات**مرحبا بالعالم!** في الصفحة التي تم الوصول إليها.
+1.  أدخل الكلمات**Hello World!** في الصفحة التي تم الوصول إليها.
 1. قم بإنشاء ملف Microsoft Visio المعدل.
 
 توضح الأمثلة أدناه الخطوات المذكورة أعلاه.
 
 #### **إنشاء Diagram**
 
-المثال التالي ينشئ diagram جديدًا من البداية ، ويكتب الكلمات "Hello World!" في الصفحة الأولى ، ويحفظ الملف.
+ينشئ المثال التالي diagram جديدًا من البداية ، ويكتب الكلمات "Hello World!" في الصفحة الأولى ، ويحفظ الملف.
 
 **قم بإنشاء ملف visio جديد** 
 

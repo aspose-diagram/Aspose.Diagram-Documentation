@@ -17,7 +17,7 @@ url: /ar/net/aspose-diagram-for-net-19-11-release-notes/
 |DIAGRAMNET-50576|أضف دعمًا للتخلص من كائن فئة Diagram|التعزيز|
 |DIAGRAMNET-50098|تعيين لون خلفية الصفحة|حشرة|
 |DIAGRAMNET-51722|Diagram إلى SVG - صورة الإخراج بها عيوب|حشرة|
-|DIAGRAMNET-51724|أخطاء في وحدة تحكم Chrome عند عرض إخراج SVG|حشرة|
+|DIAGRAMNET-51724|أخطاء في وحدة تحكم Chrome عند عرض الإخراج SVG|حشرة|
 |DIAGRAMNET-51725|استرجع z-index للأشكال في Diagram|حشرة|
 |DIAGRAMNET-51726|فقدان صورة الخلفية (تمت إضافة PowerPoint في VISIO) أثناء إزالة الأشكال والأنماط الرئيسية غير المستخدمة|حشرة|
 |DIAGRAMNET-51727|CheckBox (CheckBox Control) مفقود أثناء إزالة الأشكال والأنماط الرئيسية غير المستخدمة|حشرة|

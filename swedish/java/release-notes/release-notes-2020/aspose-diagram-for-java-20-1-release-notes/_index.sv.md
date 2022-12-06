@@ -13,13 +13,13 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50664|Övertoningsfyllning stöds inte vid export till SVG|Förbättring|
+|DIAGRAMJAVA-50664|Gradientfyllning stöds inte vid export till SVG|Förbättring|
 |DIAGRAMJAVA-50670|Tillåt att teckensnitt laddas från minnet|Förbättring|
 |DIAGRAMJAVA-50681|API tar lång tid att ladda diagram fil med stor storlek|Förbättring|
 |DIAGRAMJAVA-50381|Nätverksformerna bevaras inte vid konvertering av en VSDX till PDF|Insekt|
 |DIAGRAMJAVA-50386|Bilderna vänds upp och ner med färgskillnad vid konvertering av en VSD till SVG|Insekt|
-|DIAGRAMJAVA-50679|VSDX till PDF - Anslutningar saknas i utdata|Insekt|
-|DIAGRAMJAVA-50680|Visio till PNG - Utdatabilder beskärs|Insekt|
+|DIAGRAMJAVA-50679|VSDX till PDF - Kontakter saknas i utgången|Insekt|
+|DIAGRAMJAVA-50680|Visio till PNG - Utdatabilder har beskurits ut|Insekt|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram för JAVA. Om du har funderingar på någon av de listade ändringarna, vänligen ta upp det på Aspose.Diagram supportforum.
 

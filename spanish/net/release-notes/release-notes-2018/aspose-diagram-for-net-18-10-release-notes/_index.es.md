@@ -13,33 +13,33 @@ url: /es/net/aspose-diagram-for-net-18-10-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51527|Las imágenes se pierden después de convertir VSDM a SVG|Mejora|
-|DIAGRAMNET-51532|VSD a PDF - La sombra de la imagen no es correcta|Mejora|
-|DIAGRAMNET-51536|La sombra de la forma se eliminó después de la conversión VSDX a SVG|Mejora|
-|DIAGRAMNET-51544|El subrayado se elimina del texto después de convertir VSDM a SVG|Mejora|
+|DIAGRAMNET-51527|Images get lost after converting VSDM to SVG|Mejora|
+|DIAGRAMNET-51532|VSD to PDF - Shadow of the image is not correct|Mejora|
+|DIAGRAMNET-51536|Shadow of the shape got removed after VSDX to SVG Conversion|Mejora|
+|DIAGRAMNET-51544|Underline is removed from text after converting VSDM to SVG|Mejora|
 |DIAGRAMNET-51558|Implementar Getter para Shape.ConnectorsType|Mejora|
-|DIAGRAMNET-51520|VDX a HTML: aparecen líneas adicionales en la salida|Insecto|
+|DIAGRAMNET-51520|VDX to HTML - Extra Lines are appearing in the output|Insecto|
 |DIAGRAMNET-51521|La fuente en diagram obtiene cambios después de guardar VSD como VSDX|Insecto|
-|DIAGRAMNET-51523|VSDX a SVG - Faltan puntas de flecha|Insecto|
-|DIAGRAMNET-51524|VSDM a SVG - Aparecieron cruces azules en el archivo de salida|Insecto|
-|DIAGRAMNET-51525|La forma de decisión cambia de diamante a cuadrado mientras que VSDM a conversión SVG|Insecto|
-|DIAGRAMNET-51528|La forma de decisión cambia de diamante a cuadrado mientras que VSDM a conversión SVG|Insecto|
-|DIAGRAMNET-51529|VSDM a SVG - Líneas punteadas convertidas en líneas rellenas|Insecto|
-|DIAGRAMNET-51531|Las formas se desplazan hacia el lado derecho después de convertir VSDX a SVG|Insecto|
-|DIAGRAMNET-51533|Aparecieron cruces rojas después de la conversión de VISIO a SVG|Insecto|
+|DIAGRAMNET-51523|VSDX to SVG - Arrow heads are missing|Insecto|
+|DIAGRAMNET-51524|VSDM to SVG - Blue Crosses appeared in output file|Insecto|
+|DIAGRAMNET-51525|Shape of decision changes from diamond to square while VSDM to SVG conversion|Insecto|
+|DIAGRAMNET-51528|Shape of decision changes from diamond to square while VSDM to SVG conversion|Insecto|
+|DIAGRAMNET-51529|VSDM to SVG - Dotted lines converted into filled lines|Insecto|
+|DIAGRAMNET-51531|Shapes are being shifted to right side after converting VSDX to SVG|Insecto|
+|DIAGRAMNET-51533|Red Crosses appeared after VISIO to SVG Conversion|Insecto|
 |DIAGRAMNET-51534|Apareció un punto rojo en la esquina inferior izquierda de la forma|Insecto|
-|DIAGRAMNET-51538|Las imágenes se pierden después de convertir VSDX a PDF|Insecto|
-|DIAGRAMNET-51541|El texto se vuelve invisible después de convertir VSDX a SVG|Insecto|
-|DIAGRAMNET-51542|El texto se eliminó después de la conversión VSDX a SVG|Insecto|
-|DIAGRAMNET-51543|El formato de hora y fecha se cambia después de VSDM A SVG|Insecto|
-|DIAGRAMNET-51545|VSDX a SVG: el texto está envuelto en la salida|Insecto|
-|DIAGRAMNET-51546|VSDX a SVG: el texto está envuelto en la salida|Insecto|
-|DIAGRAMNET-51547|VSDX a SVG: el texto está envuelto en la salida|Insecto|
-|DIAGRAMNET-51548|VSDX a SVG: el texto está envuelto en la salida|Insecto|
+|DIAGRAMNET-51538|Pictures are lost after converting VSDX to PDF|Insecto|
+|DIAGRAMNET-51541|Text is being invisible after converting VSDX to SVG|Insecto|
+|DIAGRAMNET-51542|Text got deleted after VSDX to SVG Conversion|Insecto|
+|DIAGRAMNET-51543|Time and date format is changed after VSDM TO SVG|Insecto|
+|DIAGRAMNET-51545|VSDX to SVG - Text is wrapped in output|Insecto|
+|DIAGRAMNET-51546|VSDX to SVG - Text is wrapped in output|Insecto|
+|DIAGRAMNET-51547|VSDX to SVG - Text is wrapped in output|Insecto|
+|DIAGRAMNET-51548|VSDX to SVG - Text is wrapped in output|Insecto|
 |DIAGRAMNET-51551|No se puede obtener el color de tema correcto de las formas|Insecto|
-|DIAGRAMNET-51552|Puntas de flecha invertidas que se muestran en la conversión de SVG|Insecto|
-|DIAGRAMNET-51559|Problema de cambio de tamaño de texto al convertir VSDM a SVG|Insecto|
-|DIAGRAMNET-51560|Las líneas de conexión se vuelven delgadas después de convertir a SVG|Insecto|
+|DIAGRAMNET-51552|Reversed arrowheads showing in SVG conversion|Insecto|
+|DIAGRAMNET-51559|Text Resizing issue while converting VSDM to SVG|Insecto|
+|DIAGRAMNET-51560|Connector Lines become thin after converting to SVG|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en la[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 #### **Se agregó InheritLine en Shape**

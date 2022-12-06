@@ -29,7 +29,7 @@ El siguiente código de ejemplo muestra cómo configurar Aspose.Diagram para bus
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
 ### **Reciba notificaciones de fuentes faltantes y sustitución de fuentes durante el renderizado**
-Aspose.Diagram API requiere acceso a la fuente precisa para representar correctamente el dibujo en formato PDF. Si la fuente requerida no está disponible en la máquina, entonces Aspose.Diagram API representa cualquier instancia de esa fuente utilizando la fuente predeterminada o la fuente más cercana disponible en la máquina, dado que esta sustitución puede cambiar el aspecto del dibujo representado, es posible que los desarrolladores deban ser notificado cuando falta una fuente y con qué fuente será reemplazada.
+Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Ejemplo de programación de notificación de fuentes faltantes y sustitución de fuentes**
 Para ser notificado de la sustitución de fuentes durante el renderizado:
 

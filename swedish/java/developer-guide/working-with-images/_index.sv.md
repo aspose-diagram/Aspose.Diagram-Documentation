@@ -43,5 +43,5 @@ Koden i exemplen nedan visar hur man:
 1. Skaffa Visio sida
 1. Importera en bitmappsbild som en Visio-form
 1. Spara diagram.
-#### **Infoga ett BMP-bildprogrammeringsexempel**
+#### **Infoga ett BMP bildprogrammeringsexempel**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.java" >}}

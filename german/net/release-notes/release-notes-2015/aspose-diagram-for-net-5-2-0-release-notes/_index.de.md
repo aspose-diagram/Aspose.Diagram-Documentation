@@ -11,9 +11,9 @@ Diese Version enthält die unten aufgeführten Funktionen, Verbesserungen und Fe
 ## **Verbesserungen**
 - DIAGRAMNET-50235-Die Zeitachsendaten werden im Visio Viewer nicht aktualisiert
 ## **Leistung**
-- DIAGRAMNET-50378-Leistungsproblem beim Exportieren von VSD in das PDF-Format
+- DIAGRAMNET-50378-Performance issue when exporting VSD to PDF format
 ## **Fehler**
-- DIAGRAMNET-50364-VSDX in PDF-Konvertierung, falsche Darstellung der Textelemente
+- DIAGRAMNET-50364-VSDX to PDF conversion, incorrect rendering of the text items
 - DIAGRAMNET-50386-Form kann nicht ein zweites Mal auf derselben oder einer anderen Seite hinzugefügt werden
 - DIAGRAMNET-50387-Formen können in Microsoft Office 2010/2013 nicht manuell verschoben werden
 - DIAGRAMNET-50388-Unterstützung hinzugefügt, um den Druckauftragsnamen als weiteren Parameter zu übergeben
@@ -22,9 +22,9 @@ Diese Version enthält die unten aufgeführten Funktionen, Verbesserungen und Fe
 - DIAGRAMNET-50394 – Beim Platzieren einer Form ist eine Fehlermeldung „Argument Außerhalb des Bereichs“ aufgetreten
 - DIAGRAMNET-50398-Shape verwendet einen einzelnen Verbindungspunkt anstelle verschiedener Verbindungspunkte
 - DIAGRAMNET-50400-Warnmeldung beim Öffnen der Folge VDX diagram
-- DIAGRAMNET-50401-VSD zu PDF-Konvertierung, Formen sind nicht richtig sichtbar
-- DIAGRAMNET-50402-VSD in PNG-Konvertierung, Formen sind nicht richtig sichtbar
-- DIAGRAMNET-50403-VSD zu SVG-Konvertierung, Formen sind nicht richtig sichtbar
+- DIAGRAMNET-50401-VSD to PDF conversion, shapes are not properly visible
+- DIAGRAMNET-50402-VSD to PNG conversion, shapes are not properly visible
+- DIAGRAMNET-50403-VSD to SVG conversion, shapes are not properly visible
 - DIAGRAMNET-50404-VSD zu VDX Konvertierung, Formen sind nicht richtig sichtbar
 - DIAGRAMNET-50405-VSD in VDX konvertiert, der Text der Form geht über den Rahmen hinaus
 - DIAGRAMNET-50407-Form kann nicht in den Behälter geklebt werden

@@ -20,7 +20,7 @@ Den här sidan innehåller release notes för[Aspose.Diagram for Java 17.1.0](ht
 |DIAGRAMJAVA-50378|Färgen på bildtexter och text bevaras inte vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMJAVA-50379|En Microsoft Sharepoint Workflow-form saknas vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMJAVA-50380|Saknade textobjekt och en överlappning av en form vid konvertering av en VSD till PDF.|Insekt|
-|DIAGRAMJAVA-50406|Ofullständig rendering av de dynamiska kopplingarna vid konvertering av en VSD till HTML.|Insekt|
+|DIAGRAMJAVA-50406|Ofullständig återgivning av de dynamiska kontakterna vid konvertering av en VSD till HTML.|Insekt|
 |DIAGRAMJAVA-50450|En formtext konverteras till dummytecken.|Insekt|
 |DIAGRAMJAVA-50456|Delvis återgivning av Visio-formerna vid konvertering av Visio-sidor till SVG.|Insekt|
 

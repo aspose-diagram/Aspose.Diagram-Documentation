@@ -13,18 +13,18 @@ url: /de/net/aspose-diagram-for-net-18-9-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51509|VSDX zu PNG - Liniendeckkraft geht im Ausgabebild verloren|Erweiterung|
-|DIAGRAMNET-51510|VSDX zu SVG - Liniendeckkraft geht im Ausgabebild verloren|Erweiterung|
+|DIAGRAMNET-51509|VSDX to PNG - Line opacity lost in output image|Erweiterung|
+|DIAGRAMNET-51510|VSDX to SVG - Line opacity lost in output image|Erweiterung|
 |DIAGRAMNET-51516|Führen Sie mehrere VISIO-Dateien zu einer einzigen Ausgabe zusammen|Erweiterung|
-|DIAGRAMNET-50272|VSD in SVG-Konvertierung - Einige Verbindungspunkte haben falsche Position und Größe|Insekt|
-|DIAGRAMNET-50273|VSD zu SVG – Die Ausrichtung von Formtextelementen ist falsch|Insekt|
-|DIAGRAMNET-50487|VSD zu HTML - Schrägstrich zwischen den Werten ist falsch platziert|Insekt|
-|DIAGRAMNET-50975|VSDX als PDF - Hintergrundfarbe der Form ist schwarz|Insekt|
-|DIAGRAMNET-50976|VSDX to HTML - Hintergrundfarbe der Form ist schwarz|Insekt|
-|DIAGRAMNET-50980|VSDX bis PNG - Zahlen in den Rautenformen sind falsch platziert|Insekt|
-|DIAGRAMNET-51129|Die Textelemente werden beim Konvertieren von VSD in PDF nicht richtig ausgerichtet|Insekt|
-|DIAGRAMNET-51511|Zusätzliche Pfeilspitzen bei der PNG-Konvertierung|Insekt|
-|DIAGRAMNET-51512|Zusätzliche Pfeilspitzen, die bei der SVG-Konvertierung angezeigt werden|Insekt|
+|DIAGRAMNET-50272|VSD to SVG conversion - Some connection points have wrong position and size|Insekt|
+|DIAGRAMNET-50273|VSD to SVG - The alignment of shape text items are incorrect|Insekt|
+|DIAGRAMNET-50487|VSD to HTML - Slash character between the value is misplaced|Insekt|
+|DIAGRAMNET-50975|VSDX to PDF - Background color of the shape is black|Insekt|
+|DIAGRAMNET-50976|VSDX to HTML - Background color of the shape is black|Insekt|
+|DIAGRAMNET-50980|VSDX to PNG - Numbers inside the diamond shapes are misplaced|Insekt|
+|DIAGRAMNET-51129|The text items are not aligned properly on converting a VSD to PDF|Insekt|
+|DIAGRAMNET-51511|Additional arrowheads in PNG conversion|Insekt|
+|DIAGRAMNET-51512|Additional arrowheads showing in SVG conversion|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 #### **Combine-Methode in Klasse Diagram hinzugefügt**

@@ -21,26 +21,26 @@ description: 本节介绍如何使用 Aspose.Diagram 设置页面布局。
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-SetVisioPageOrientation-SetVisioPageOrientation.cs" >}}
 ## **控制导出隐藏的 Visio 页面保存**
-[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)API 允许开发人员在将 diagram 保存为 PDF、HTML、图像（PNG、JPEG、GIF）、SVG 和 XPS 文件时包含或排除隐藏的 Visio 页面。甚至他们可能会使用 Aspose.Diagram API 隐藏 Visio 页面，因为它的选项已经通过页面 ShapeSheet 中的单元格 UIVisibility 可用。
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 ### **在 Visio Diagram 隐藏一个页面并设置导出选项**
  Aspose.Diagram for .NET API 有[页](http://www.aspose.com/api/net/diagram/aspose.diagram/page)表示 Visio 绘图页的类。 Page 类公开的 PageSheet 属性也公开了页面属性。页面属性的 UIVisibility 字段允许隐藏页面。然后，开发人员可以使用添加到 SVGSaveOptions、XPSSaveOptions、ImageSaveOptions、HTMLSaveOptions 和 PdfSaveOptions 类中的 ExportHiddenPage 属性。
-#### **设置 PDF 的导出选项**
-下面的代码显示了如何在将 diagram 保存为 PDF 格式之前设置保存选项。
+#### **Set the Export Option for PDF**
+The code below shows how to set save options before saving a diagram to PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToPDF-ExportOfHiddenVisioPagesToPDF.cs" >}}
-#### **设置 HTML 的导出选项**
-下面的代码显示了如何在将 diagram 保存为 HTML 格式之前设置保存选项。
+#### **Set the Export Option for HTML**
+The code below shows how to set save options before saving a diagram to HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToHTML-ExportOfHiddenVisioPagesToHTML.cs" >}}
 #### **设置图像的导出选项**
 下面的代码显示了如何在将 diagram 保存为图像格式之前设置保存选项。
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToImage-ExportOfHiddenVisioPagesToImage.cs" >}}
-#### **设置 SVG 的导出选项**
-下面的代码显示了如何在将 diagram 保存为 SVG 格式之前设置保存选项。
+#### **Set the Export Option for SVG**
+The code below shows how to set save options before saving a diagram to SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToSVG-ExportOfHiddenVisioPagesToSVG.cs" >}}
-#### **设置 XPS 的导出选项**
-下面的代码显示了如何在将 diagram 保存为 XPS 格式之前设置保存选项。
+#### **Set the Export Option for XPS**
+The code below shows how to set save options before saving a diagram to XPS format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToXPS-ExportOfHiddenVisioPagesToXPS.cs" >}}

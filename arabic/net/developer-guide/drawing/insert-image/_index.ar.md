@@ -12,7 +12,7 @@ Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صور
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsVSDX.cs" >}}
 
-## **أدخل صورة في SVG**
+## **أدخل الصورة في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق SVG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsSVG.cs" >}}
@@ -22,8 +22,8 @@ Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صور
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPNG.cs" >}}
 
-## **إدراج صورة في ملف PDF**
-Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الرمز أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PDF.
+## **أدخل الصورة في PDF**
+Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPDF.cs" >}}
 

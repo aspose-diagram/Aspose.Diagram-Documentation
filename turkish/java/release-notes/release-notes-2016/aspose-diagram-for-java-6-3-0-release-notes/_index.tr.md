@@ -12,10 +12,10 @@ url: /tr/java/aspose-diagram-for-java-6-3-0-release-notes/
 | ŞEMAJava-50311| PDF'deki gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
 | ŞEMAJava-50312| HTML'deki gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
 | ŞEMAJava-50313| PNG'deki gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
-| ŞEMAJava-50314| Gizli Visio sayfalarının JPEG olarak dışa aktarılmasını önleyin.| Yeni özellik|
+| ŞEMAJava-50314| JPEG'deki gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
 |ŞEMAJava-50315| SVG'deki gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
 | ŞEMAJava-50316| Gizli Visio sayfalarının GIF'e aktarılmasını önleyin.| Yeni özellik|
-| ŞEMAJava-50317| XPS'de gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
+| ŞEMAJava-50317| XPS'deki gizli Visio sayfalarının dışa aktarılmasını önleyin.| Yeni özellik|
 | ŞEMAJava-50307| VDX ila VSDX dışa aktarma, sayfa kılavuz çizgisi seçeneğini işaretler.| Böcek|
 | ŞEMAJava-50308| VSDX açma ve kaydetme yordamı, metni sahte karakterlere dönüştürür.| Böcek|
 | ŞEMAJava-50309| VSDX açma ve kaydetme rutini noktalı çizgi şeklini değiştirdi.| Böcek|

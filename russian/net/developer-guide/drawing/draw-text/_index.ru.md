@@ -25,7 +25,7 @@ Aspose.Diagram for .NET API позволяет разработчикам рис
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsPNG.cs" >}}
 
-## **Рисовать текст в HTML**
+## **Нарисовать текст в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать текст на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать текст на чертеже Visio и сохранить его в формате HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsHTML.cs" >}}

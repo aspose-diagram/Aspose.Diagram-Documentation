@@ -14,13 +14,13 @@ url: /ru/java/aspose-diagram-for-java-17-12-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50290|Укажите один API, чтобы преобразовать форму Visio в PDF.|Улучшение|
-|DIAGRAMJAVA-50291|Укажите один API, чтобы преобразовать фигуру Visio в HTML.|Улучшение|
+|DIAGRAMJAVA-50291|Укажите один API, чтобы преобразовать форму Visio в HTML.|Улучшение|
 |DIAGRAMJAVA-50572|Метод Shape.connectedShapes не извлекает исходящие узлы|Улучшение|
 |DIAGRAMJAVA-50391|Перевернутые изображения и стрелки генерируются при преобразовании VSD в SVG.|Ошибка|
-|DIAGRAMJAVA-50570|VSD в PDF - добавлены дополнительные текстовые элементы|Ошибка|
+|DIAGRAMJAVA-50570|с VSD по PDF - добавлены дополнительные текстовые элементы|Ошибка|
 |DIAGRAMJAVA-50571|Импорт VSDX - ошибка в элементе формы|Ошибка|
-|DIAGRAMJAVA-50573|VSD в SVG - отсутствуют линии формы группы|Ошибка|
-|DIAGRAMJAVA-50575|VSD в SVG - текстовые элементы отсутствуют|Ошибка|
+|DIAGRAMJAVA-50573|с VSD по SVG - линии формы группы отсутствуют|Ошибка|
+|DIAGRAMJAVA-50575|с VSD по SVG - текстовые элементы отсутствуют|Ошибка|
 |DIAGRAMJAVA-50576|Процедура импорта VDX выдает ошибку элемента страницы|Ошибка|
 ### **Добавляет элемент копирования в класс Shape**
 Элемент копирования принимает экземпляр целевой формы в качестве параметра для клонирования этой формы.
@@ -82,7 +82,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 Пожалуйста, проверьте список разделов справки, добавленных в Aspose.Diagram вики-документы:
 
 1. [Скопируйте фигуру Visio в другой экземпляр фигуры.](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [Конвертировать форму Visio в PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
-1. [Конвертировать форму Visio в HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
+1. [Преобразование формы Visio в форму PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
+1. [Преобразование формы Visio в форму HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
 
 

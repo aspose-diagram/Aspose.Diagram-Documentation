@@ -5,7 +5,7 @@ weight: 160
 url: /ru/python-java/working-with-layers/
 ---
 ### **Настройка объектов Shape со слоями**
-Aspose.Diagram для Python через Java позволяет настраивать объекты формы со слоями в Microsoft Office Visio diagram. Каждая фигура может принадлежать нескольким слоям, поэтому разработчики могут управлять формами в соответствии с потребностями конечного пользователя.
+Aspose.Diagram для Python via Java позволяет настраивать объекты формы со слоями в Microsoft Office Visio diagram. Каждая фигура может принадлежать нескольким слоям, поэтому разработчики могут управлять формами в соответствии с потребностями конечного пользователя.
 
 [Форма](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) Объект класса предлагает свойство LayerMember, которое позволяет добавлять/удалять объекты формы в/из слоев в чертеже Visio. Пользователи могут программно управлять этими свойствами с помощью Aspose.Diagram API следующим образом:
 
@@ -15,7 +15,7 @@ Aspose.Diagram для Python через Java позволяет настраив
 #### **Примеры программирования**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Layers-ConfigureShapeLayers.py" >}}
 ### **Добавьте слой на странице Visio.**
-Aspose.Diagram для Python через Java позволяет разработчикам добавлять новые слои для организации пользовательских категорий фигур, а затем программно назначать фигуры этим слоям.
+Aspose.Diagram для Python via Java позволяет разработчикам добавлять новые слои для организации пользовательских категорий фигур, а затем программно назначать фигуры этим слоям.
 
 [СлойКоллекция](https://reference.aspose.com/diagram/java/com.aspose.diagram/LayerCollection) класс предлагает метод add, который позволяет добавить новый[Слой](https://reference.aspose.com/diagram/java/com.aspose.diagram/layer) объект класса в[чертеж Visio](DrawingFlowChart.vsdx). Разработчики могут устанавливать свойства слоя, инициализируя его объект класса.
 
@@ -25,7 +25,7 @@ Aspose.Diagram для Python через Java позволяет разработ
 
 {{% alert color="primary" %}} 
 
-Aspose.Diagram для Python через Java дает разработчикам доступ к существующим уровням Visio diagram.
+Aspose.Diagram для Python via Java предоставляет разработчикам доступ к существующим уровням Visio diagram.
 
 {{% /alert %}} 
 ### **Получить все доступные слои**

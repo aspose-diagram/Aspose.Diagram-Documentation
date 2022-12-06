@@ -17,7 +17,7 @@ url: /tr/java/aspose-diagram-for-java-18-4-release-notes/
 |DIAGRAMJAVA-50596|Çıkış VSDX - bağlantı hattının yanlış yerleşimi|Böcek|
 |DIAGRAMJAVA-50597|Dosya formatlarının yanlış alınması|Böcek|
 |DIAGRAMJAVA-50598|Dosya formatlarının yanlış alınması|Böcek|
-|DIAGRAMJAVA-50599|VSDX'den SVG'ye - metnin yanlış yazı tipi ailesi|Böcek|
+|DIAGRAMJAVA-50599|VSDX - SVG - metnin yanlış yazı tipi ailesi|Böcek|
 ### **Kullanım Örnekleri**
 Lütfen Aspose.Diagram Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 

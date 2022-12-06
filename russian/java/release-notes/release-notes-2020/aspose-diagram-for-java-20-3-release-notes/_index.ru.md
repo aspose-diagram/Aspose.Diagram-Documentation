@@ -13,6 +13,6 @@ url: /ru/java/aspose-diagram-for-java-20-3-release-notes/
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50683|Visio в SVG — поврежден макет фигуры на выходе|Улучшение|
+|DIAGRAMJAVA-50683|От Visio до SVG — поврежден макет фигуры на выходе.|Улучшение|
 |DIAGRAMJAVA-50684|Поддержка форматирования символов visCaseAllCaps и visCaseInitialCaps при экспорте SVG.|Улучшение|
 

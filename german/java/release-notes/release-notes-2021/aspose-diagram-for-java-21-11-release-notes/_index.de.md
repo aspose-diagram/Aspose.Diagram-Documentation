@@ -14,9 +14,9 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 21.11.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50806|wk: InheridetChar Color|Erweiterung|
-|DIAGRAMJAVA-50385|Beim Konvertieren von VSDX in PDF wird die Farbe von Rahmen und Titeln geändert|Insekt|
-|DIAGRAMJAVA-50501|VSDX zu PNG - Falsche Farbe der Formen|Insekt|
-|DIAGRAMJAVA-50631|Formen sind nach dem Exportieren von VSDX in PDF inkonsistent|Insekt|
+|DIAGRAMJAVA-50385|The color of border and titles is being changed on converting a VSDX to PDF|Insekt|
+|DIAGRAMJAVA-50501|VSDX to PNG - Incorrect color of shapes|Insekt|
+|DIAGRAMJAVA-50631|Shapes are inconsistent after exporting VSDX to PDF|Insekt|
 |DIAGRAMJAVA-50804|Verbindertext wird beim Zeichnen des Verbinders umgebrochen|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for Java vorgenommen wurden das Aspose.Diagram Support-Forum.

@@ -6,7 +6,7 @@ url: /it/python-java/create-insert-fields/
 description: Come creare, inserire campi utilizzando Java Diagram API .
 ---
 ## **Inserisci campo**
- Aspose.Diagram per Python tramite Java consente di creare e inserire diagrammi da campo a Microsoft Visio dall'interno delle proprie applicazioni, senza Microsoft Office Automation.
+Aspose.Diagram for Python via Java lets you create and insert field to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 
 ### **Esempio di programmazione**
 Il seguente pezzo di codice inserisce un campo in shape.

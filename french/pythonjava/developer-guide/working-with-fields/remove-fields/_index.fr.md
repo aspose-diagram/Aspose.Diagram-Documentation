@@ -6,7 +6,7 @@ url: /fr/python-java/remove-fields/
 description: Cette section explique comment supprimer des champs.
 ---
 ## **Supprimer le champ**
- Aspose.Diagram pour Python via Java vous permet de supprimer le champ des diagrammes Microsoft Visio à partir de vos propres applications, sans Microsoft Office Automation.
+Aspose.Diagram for Python via Java lets you remove field to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 
 L'objet Field représente un champ de texte dans une exécution de texte. La propriété field, exposée par la classe Shape prend en charge une collection d'objets Aspose.Diagram.Field.
 

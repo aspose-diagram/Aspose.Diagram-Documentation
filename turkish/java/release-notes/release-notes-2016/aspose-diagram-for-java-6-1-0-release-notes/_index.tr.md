@@ -10,10 +10,10 @@ Aspose.Diagram for Java'in bu sürümündeki değişikliklerin listesi aşağıd
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
 | ŞEMAJava-50281| ImageSaveOptions.setImageBrightness çalışmıyor| Artırma|
-|ŞEMAJava-50293| VSD'den SVG'ye dışa aktarma, şekil kimliklerini korumaz| Artırma|
+|ŞEMAJava-50293| VSD - SVG dışa aktarma, şekil kimliklerini korumaz| Artırma|
 | ŞEMAJava-50294| Çıktı formatı VDX - İki Visio şekli birbirine bağlanamaz| Artırma|
 | ŞEMAJava-50300| PrintPageOrientation özelliği ayarlanarak sayfa yönü değiştirilemiyor| Artırma|
-| ŞEMAJava-50067| VSD'den PDF'e dönüştürme, şeklin metnine "metin" kelimesi eklenir| Böcek|
+| ŞEMAJava-50067|VSD'den PDF'e dönüştürme, şeklin metnine "metin" kelimesi eklenir| Böcek|
 | ŞEMAJava-50124| Bağlayıcı metin konumunun yanlış ayarı| Böcek|
 | ŞEMAJava-50288| Sonuç açıldığında eksik öznitelik uyarısı VDX diagram| Böcek|
 | ŞEMAJava-50289| Shape.connectedShapes yöntemi, gelen bazı şekil kimliklerini algılamıyor| Böcek|

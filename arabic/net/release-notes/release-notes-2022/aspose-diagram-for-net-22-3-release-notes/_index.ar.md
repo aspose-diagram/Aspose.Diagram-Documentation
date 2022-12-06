@@ -21,7 +21,7 @@ url: /ar/net/aspose-diagram-for-net-22-3-release-notes/
 |DIAGRAMNET-52666|Visio لتحويل PDF - مشكلة في رسومات البيانات [تابع]|حشرة|
 |DIAGRAMNET-52684|استثناء عند التصدير إلى HTML|حشرة|
 |DIAGRAMNET-52685|استثناء عند التصدير إلى HTML|حشرة|
-|DIAGRAMNET-52692|Diagram الحفظ في MemoryStream باستخدام تنسيق PDF يلقي بالنظام.|حشرة|
+|DIAGRAMNET-52692|Diagram الحفظ في MemoryStream باستخدام تنسيق PDF يطرح System.NullReferenceException|حشرة|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Diagram for .NET. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Diagram.

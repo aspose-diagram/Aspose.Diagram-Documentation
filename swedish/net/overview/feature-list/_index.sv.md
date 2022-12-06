@@ -15,7 +15,7 @@ description: Den här sidan beskriver funktionslistan för Aspose.Diagram-biblio
 - Läs Microsoft Visio 2003/2007/2010 VSD format.
 - Läs Microsoft Visio 2003/2007/2010 VSS-format.
 - Läs Microsoft Visio 2003/2007/2010 VDW-format.
-- Läs Microsoft Visio 2003/2007/2010 VST-format.
+- Läs Microsoft Visio 2003/2007/2010 VST format.
 
 **Läsa och skriva**:
 
@@ -31,12 +31,12 @@ description: Den här sidan beskriver funktionslistan för Aspose.Diagram-biblio
 
 **Exportera**:
 
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till populära bildformat (,, BMF, JPEG, EMFG och PNG).
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till PDF.
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till HTML.
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till XML Paper Specification (XPS Paper Specification).
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till Macromedia Flash-filformat (SWF).
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX och VSX)
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX och VSX)
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och 076173418 till XML-specifikationen 076173618) (XML-specifikation 076173618)
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX Flash-fil till VSX och VSX Flash-fil3481)3481.
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX och VSX)
 
 **Skriva ut**:
 

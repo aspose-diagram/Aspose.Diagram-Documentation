@@ -17,22 +17,22 @@ url: /zh/net/aspose-diagram-for-net-17-02-0-release-notes/
 |DIAGRAMNET-51110|与仪表集成。|新功能|
 |DIAGRAMNET-51143|能够获得给定形状的组。|新功能|
 |DIAGRAMNET-51144|能够获得给定形状的父级。|新功能|
-|DIAGRAMNET-50149|VSD 到 PDF 转换，组形状的背景颜色阴影正在改变。|漏洞|
-|DIAGRAMNET-50579|VSDX 到 PDF 转换，形状的背景颜色不正确。|漏洞|
-|DIAGRAMNET-50984|将 VSDX 转换为 PNG 时，表格的边框线丢失。|漏洞|
-|DIAGRAMNET-50985|将 VSDX 转换为 PNG 时，文本项未正确对齐。|漏洞|
-|DIAGRAMNET-50999|在将 VSD 转换为 PNG 时呈现不正确的形状颜色。|漏洞|
+|DIAGRAMNET-50149|VSD to PDF conversion, the background color shade of a group shape is getting changed.|漏洞|
+|DIAGRAMNET-50579|VSDX to PDF conversion, incorrect background color of the shape.|漏洞|
+|DIAGRAMNET-50984|The border lines of the table are missing on converting a VSDX to PNG.|漏洞|
+|DIAGRAMNET-50985|The text items are not aligned properly on converting a VSDX to PNG.|漏洞|
+|DIAGRAMNET-50999|Rendering incorrect color of shapes on converting a VSD to PNG.|漏洞|
 |DIAGRAMNET-51002|HTMLSaveOptions.DefaultFont 属性未按预期工作。|漏洞|
-|DIAGRAMNET-51049|将 VSD 转换为 HTML 时，形状颜色未正确呈现。|漏洞|
-|DIAGRAMNET-51080|在 EMF 中保存时形状的文本对齐错误。|漏洞|
-|DIAGRAMNET-51132|将 VSD 转换为 PDF 时，圆角会发生变化。|漏洞|
-|DIAGRAMNET-51133|将 VSD 转换为 PDF 时，动态箭头连接器的布局发生了变化。|漏洞|
-|DIAGRAMNET-51135|Visio 形状在将 VSDX 转换为 PDF 时发生位移。|漏洞|
-|DIAGRAMNET-51136|在将 VSDX 转换为 PDF 时，垂直文本显示为水平文本。|漏洞|
-|DIAGRAMNET-51140|将 VSDX 转换为 PDF 时，垂直文本框悬垂在节点的边缘。|漏洞|
+|DIAGRAMNET-51049|The color of shapes is not being rendered correctly on converting a VSD to HTML.|漏洞|
+|DIAGRAMNET-51080|The wrong text alignment of shapes on saving in EMF.|漏洞|
+|DIAGRAMNET-51132|The rounded shape corners are being changed on converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-51133|The layout of dynamic arrow connector is changed on converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-51135|The Visio shapes are displaced on converting a VSDX to PDF.|漏洞|
+|DIAGRAMNET-51136|The vertical text appears as horizontal text on converting a VSDX to PDF.|漏洞|
+|DIAGRAMNET-51140|Vertical text box is overhanging the edge of the node while converting VSDX to PDF.|漏洞|
 |DIAGRAMNET-51138|VSDX diagram 载入错误。|例外|
-|DIAGRAMNET-51139|将 VSDX 转换为 HTML 时发生无法访问文件错误。|例外|
-|DIAGRAMNET-51148|Diagram 处的 NullReferenceException。将 VSD 转换为 HTML 时保存。|例外|
+|DIAGRAMNET-51139|Can't access file error occurred on converting a VSDX to HTML.|例外|
+|DIAGRAMNET-51148|NullReferenceException at Diagram.Save while converting VSD to HTML.|例外|
 |DIAGRAMNET-51149|NullReferenceException at Diagram.Save when CustomProp.Name property is not set|例外|
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在这[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).

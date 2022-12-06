@@ -27,16 +27,16 @@ description: Esta sección enumera los sistemas operativos compatibles que un de
 ## **Entornos de desarrollo**
 Puede usar Aspose.Diagram for .NET para desarrollar aplicaciones en cualquier entorno de desarrollo que apunte a la plataforma .NET, pero los siguientes entornos son explícitamente compatibles:
 
-- Microsoft estudio visual 2003
-- Microsoft estudio visual 2005
-- Microsoft estudio visual 2008
-- Microsoft estudio visual 2010
-- Microsoft estudio visual 2011
-- Microsoft estudio visual 2012
-- Microsoft estudio visual 2013
-- Microsoft estudio visual 2015
-- Microsoft estudio visual 2017
-- Microsoft estudio visual 2019
+- Microsoft Visual Studio 2003
+- Microsoft Visual Studio 2005
+- Microsoft Visual Studio 2008
+- Microsoft Visual Studio 2010
+- Microsoft Visual Studio 2011
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
 ## **Versiones compatibles .NET Framework**
 Se admiten las siguientes versiones .NET Framework:
 
@@ -55,4 +55,4 @@ Se admiten las siguientes versiones .NET Framework:
 - .NET Framework 4.6.2
 - .NET Framework 4.7
 - .NET Framework 4.7.2
-- .NET Estándar 2.0 (.NET Núcleo 2.0/2.1)
+- .NET Standard 2.0 (.NET Core 2.0/2.1)

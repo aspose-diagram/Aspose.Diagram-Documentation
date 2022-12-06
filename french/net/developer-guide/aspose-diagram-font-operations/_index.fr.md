@@ -29,7 +29,7 @@ L'exemple de code ci-dessous montre comment définir Aspose.Diagram pour recherc
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
 ### **Recevoir une notification des polices manquantes et de la substitution de polices pendant le rendu**
-Aspose.Diagram API nécessite l'accès à la police exacte afin de rendre correctement le dessin au format PDF. Si la police requise n'est pas disponible sur la machine, alors Aspose.Diagram API rend n'importe quelle instance de cette police en utilisant la police par défaut ou la police disponible la plus proche sur la machine, puisque cette substitution peut changer l'apparence du dessin rendu, les développeurs peuvent avoir besoin d'être averti lorsqu'une police est manquante et par quelle police elle sera remplacée.
+Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Notification de polices manquantes et exemple de programmation de substitution de polices**
 Pour être averti de la substitution de polices lors du rendu :
 

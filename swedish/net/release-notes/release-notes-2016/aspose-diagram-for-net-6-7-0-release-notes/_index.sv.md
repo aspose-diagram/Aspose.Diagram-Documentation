@@ -13,16 +13,16 @@ url: /sv/net/aspose-diagram-for-net-6-7-0-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-50136|VSD till PDF-konvertering - bilden med röda korset visas istället för formen.|Förbättring|
-|DIAGRAMNET-50324|VSD till HTML-konvertering - bakgrundsfärgen på formen bevaras inte.|Förbättring|
-|DIAGRAMNET-50500|VSD till PDF-konvertering - formernas färg bevaras inte.|Förbättring|
-|DIAGRAMNET-50536|VSD till PDF-konvertering - tabellposterna är inte bevarade.|Förbättring|
+|DIAGRAMNET-50136|VSD till PDF konvertering - bilden med röda korset visas istället för formen.|Förbättring|
+|DIAGRAMNET-50324|VSD till HTML konvertering - bakgrundsfärgen på formen bevaras inte.|Förbättring|
+|DIAGRAMNET-50500|VSD till PDF konvertering - formernas färg bevaras inte.|Förbättring|
+|DIAGRAMNET-50536|VSD till PDF konvertering - tabellposterna är inte bevarade.|Förbättring|
 |DIAGRAMNET-50680|Skalar inte automatiskt en form på ritningen.|Förbättring|
 |DIAGRAMNET-50681|Dra och släpp de stora Visio-formerna.|Förbättring|
 |DIAGRAMNET-50937|Ladda och spara rutin för en VSDM diagram visar ett krysstecken i stället för knappen.|Förbättring|
 |DIAGRAMNET-50939|Det går inte att ställa in en händelsecell med formen i VSDM.|Förbättring|
-|DIAGRAMNET-50219|VSD till PDF-konvertering - logotypens transparens bevaras inte.|Insekt|
-|DIAGRAMNET-50363|VSD till PDF-konvertering - felaktiga radbrytningar i text.|Insekt|
+|DIAGRAMNET-50219|VSD till PDF konvertering - logotypens transparens bevaras inte.|Insekt|
+|DIAGRAMNET-50363|VSD till PDF konvertering - felaktiga radbrytningar i text.|Insekt|
 |DIAGRAMNET-50878|Skräpläsning av vinkelegenskapen i en VSDX diagram.|Insekt|
 |DIAGRAMNET-50879|Felaktiga avläsningar av inkommande noder i en VSD diagram.|Insekt|
 |DIAGRAMNET-50884|En tabell saknas vid konvertering av en VSDX till PNG - I.|Insekt|

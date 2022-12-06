@@ -14,7 +14,7 @@ El lanzamiento de este mes permite formatear Visio páginas por[aplicar hojas de
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50671|La configuración de la nueva ventana de la hoja de forma no se respeta al convertir a SVG|Mejora|
+|DIAGRAMJAVA-50671|Shape sheet new window setting not respected when converting to SVG|Mejora|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados en el API público, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram para JAVA. Si tiene inquietudes sobre algún cambio en la lista, plantéelo en el foro de soporte Aspose.Diagram.
 ### **Se agregó applyStyle en la página**

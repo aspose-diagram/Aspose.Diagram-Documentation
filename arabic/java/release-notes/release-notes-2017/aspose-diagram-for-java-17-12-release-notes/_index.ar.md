@@ -17,7 +17,7 @@ url: /ar/java/aspose-diagram-for-java-17-12-release-notes/
 |DIAGRAMJAVA-50291|قم بتوفير API المفرد لتحويل شكل Visio إلى HTML|التعزيز|
 |DIAGRAMJAVA-50572|لا يقوم أسلوب Shape.connectedShapes باسترداد العقد الصادرة|التعزيز|
 |DIAGRAMJAVA-50391|يتم إنشاء الصور المعكوسة والأسهم عند تحويل VSD إلى SVG|حشرة|
-|DIAGRAMJAVA-50570|VSD إلى PDF - تمت إضافة عناصر النص الإضافية|حشرة|
+|DIAGRAMJAVA-50570|VSD إلى PDF - تم إضافة بنود النص الإضافية|حشرة|
 |DIAGRAMJAVA-50571|استيراد VSDX - حدث خطأ في عنصر الشكل|حشرة|
 |DIAGRAMJAVA-50573|VSD إلى SVG - خطوط شكل المجموعة مفقودة|حشرة|
 |DIAGRAMJAVA-50575|VSD إلى SVG - عناصر النص مفقودة|حشرة|
@@ -45,7 +45,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ### **يضيف عضو toPdf في فئة Shape**
-يحول عضو toPdf شكلاً إلى تنسيق PDF.
+يقوم عضو toPdf بتحويل شكل إلى تنسيق PDF.
 
 {{< highlight "java" >}}
 
@@ -82,7 +82,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 يرجى التحقق من قائمة مواضيع المساعدة المضافة في Aspose.Diagram مستندات Wiki:
 
 1. [انسخ شكل Visio إلى مثيل Shape آخر](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [تحويل Visio الشكل إلى PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
-1. [تحويل Visio الشكل إلى HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
+1. [حوّل Visio إلى PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
+1. [حوّل Visio إلى HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
 
 

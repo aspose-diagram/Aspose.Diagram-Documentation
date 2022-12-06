@@ -15,21 +15,21 @@ url: /zh/net/aspose-diagram-for-net-18-7-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51480|VDX 从源VSD文件渲染后输出报错|强化|
 |DIAGRAMNET-51494|输出 VSDX - 字体计数不正确|强化|
-|DIAGRAMNET-51496|VSDX 到 PDF - 内容在输出 PDF 中被涂黑|强化|
+|DIAGRAMNET-51496|VSDX to PDF - The content is blacked out in output PDF|强化|
 |DIAGRAMNET-51063|将 VST 转换为 SVG 时缺少形状|漏洞|
-|DIAGRAMNET-51470|VSDX 到 PNG - 连接线的渲染不正确|漏洞|
-|DIAGRAMNET-51471|VSDX 到 SVG - 连接线的渲染不正确|漏洞|
-|DIAGRAMNET-51477|VSD 到 PDF - 形状上的文字包装不正确|漏洞|
-|DIAGRAMNET-51478|VDX 到 PDF - 标题文本已移动|漏洞|
+|DIAGRAMNET-51470|VSDX to PNG - incorrect rendering of the connecting lines|漏洞|
+|DIAGRAMNET-51471|VSDX to SVG - incorrect rendering of the connecting lines|漏洞|
+|DIAGRAMNET-51477|VSD to PDF - Incorrect wrapping of the Words on shape|漏洞|
+|DIAGRAMNET-51478|VDX to PDF - the title text is shifted|漏洞|
 |DIAGRAMNET-51481|输出文档禁用了某些功能|漏洞|
-|DIAGRAMNET-51482|VSD 到 PDF - 血池形状的渲染不正确|漏洞|
-|DIAGRAMNET-51484|VSD 到 PNG - 形状中的附加阴影|漏洞|
-|DIAGRAMNET-51485|VSD 到 SVG - 形状中的附加阴影|漏洞|
+|DIAGRAMNET-51482|VSD to PDF - incorrect rendering of the Blood Pool shape|漏洞|
+|DIAGRAMNET-51484|VSD to PNG - additional shadow in Shapes|漏洞|
+|DIAGRAMNET-51485|VSD to SVG - additional shadow in Shapes|漏洞|
 |DIAGRAMNET-51486|VSD 到 GIF - 形状中的附加阴影|漏洞|
-|DIAGRAMNET-51487|VSD 到 PDF - 形状中的附加阴影|漏洞|
+|DIAGRAMNET-51487|VSD to PDF - additional shadow in Shapes|漏洞|
 |DIAGRAMNET-51488|VSD 至 VSDX - 缺少供应链接形状|漏洞|
-|DIAGRAMNET-51489|VSD 到 PNG - 文本项未对齐|漏洞|
-|DIAGRAMNET-51490|VSD 到 SVG - 文本项未对齐|漏洞|
+|DIAGRAMNET-51489|VSD to PNG - the text items are misaligned|漏洞|
+|DIAGRAMNET-51490|VSD to SVG - the text items are misaligned|漏洞|
 |DIAGRAMNET-51491|VSD 到 GIF - 文本项未对齐|漏洞|
-|DIAGRAMNET-51492|VSD 到 PDF - 文本项未对齐|漏洞|
+|DIAGRAMNET-51492|VSD to PDF - the text items are misaligned|漏洞|
 

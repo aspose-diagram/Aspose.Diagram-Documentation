@@ -16,10 +16,10 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |DIAGRAMNET-51986|Agregue el método centerDrawing presente en la página de interoperabilidad visio|Mejora|
 |DIAGRAMNET-51987|Implementar un método para obtener ActivePage|Mejora|
 |DIAGRAMNET-51978|Convierta VSD a VSDX: no se puede abrir la salida en MS Visio|Insecto|
-|DIAGRAMNET-51980|"Se produjo un error genérico en GDI+". excepción al renderizar al archivo HTML VSDX|Insecto|
-|DIAGRAMNET-51981|Convierta VSDX a PDF: las formas son negras en el pdf de salida|Insecto|
+|DIAGRAMNET-51980|"A generic error occurred in GDI+." exception when rendering to HTML VSDX file|Insecto|
+|DIAGRAMNET-51981|Convert VSDX to PDF - Shapes are black in the output pdf|Insecto|
 |DIAGRAMNET-51985|Conversión de VSDX a VSDX/VDX: los colores de forma cambian a degradado después de guardar|Insecto|
-|DIAGRAMNET-51989|Visio a HTML - Borde extraño en la salida|Insecto|
+|DIAGRAMNET-51989|Visio to HTML - Strange border in the output|Insecto|
 
 ## ` `**Public API y cambios incompatibles con versiones anteriores**
 ` ` La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Diagram.

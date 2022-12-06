@@ -13,8 +13,8 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for Java 19.6](htt
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50119|VTX alla conversione HTML, il colore di riempimento delle forme non viene mantenuto|Insetto|
-|DIAGRAMJAVA-50162|VTX alla conversione HTML, manca il colore di riempimento delle forme|Insetto|
-|DIAGRAMJAVA-50197|Conversione da VDX a PDF, metodo Diagram.setFontDirs usa solo il primo carattere su tutto il diagram|Insetto|
-|DIAGRAMJAVA-50199|Conversione da VDX a PNG, metodo Diagram.setFontDirs usa solo il primo carattere su tutto il diagram|Insetto|
+|DIAGRAMJAVA-50119|VTX to HTML conversion, shapes fill color is not preserved|Insetto|
+|DIAGRAMJAVA-50162|VTX to HTML conversion, the fill color of the shapes is missing|Insetto|
+|DIAGRAMJAVA-50197|VDX to PDF conversion, Diagram.setFontDirs method use only first font over the whole diagram|Insetto|
+|DIAGRAMJAVA-50199|VDX to PNG conversion, Diagram.setFontDirs method use only first font over the whole diagram|Insetto|
 

@@ -15,10 +15,10 @@ url: /ru/net/aspose-diagram-for-net-21-11-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51111|Градиентная заливка кругов неверна при преобразовании VDX в EMF|Улучшение|
 |DIAGRAMNET-52377|Добавлена поддержка загрузки vsd со старой версией 3.|Улучшение|
-|DIAGRAMNET-51364|VSDX в PNG - отсутствует текст объекта OLE Embedded|Ошибка|
-|DIAGRAMNET-52329|VSDX в HTML — эмодзи отсутствуют в выводе|Ошибка|
+|DIAGRAMNET-51364|от VSDX до PNG — отсутствует текст объекта OLE Embedded|Ошибка|
+|DIAGRAMNET-52329|От VSDX до HTML — эмодзи отсутствуют в выводе.|Ошибка|
 |DIAGRAMNET-52345|Нижний колонтитул верхнего колонтитула теряется после сохранения файла Diagram|Ошибка|
-|DIAGRAMNET-52349|Visio в HTML — левый и правый края обрезаны|Ошибка|
+|DIAGRAMNET-52349|с Visio по HTML - Левый и правый края обрезаны|Ошибка|
 |DIAGRAMNET-52374|ArgumentOutOfRangeException при сохранении в PDF|Ошибка|
 |DIAGRAMNET-52386|Почему некоторые страницы diagram могут быть продублированы, а некоторые не могут использовать Page.Copy()?|Ошибка|
 

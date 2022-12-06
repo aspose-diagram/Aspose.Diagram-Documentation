@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Python için Aspose.Diagram 21.12 Sürüm Notları
+title: Python via Java için Aspose.Diagram 21.12 Sürüm Notları
 type: docs
 weight: 4
 url: /tr/java/aspose-diagram-for-python-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 21.12 aracılığıyla Python için Aspose.Diagram için sürüm notları bilgilerini içerir.
+Bu sayfa Aspose.Diagram için Python via Java için sürüm notları bilgilerini içerir 21.12.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##

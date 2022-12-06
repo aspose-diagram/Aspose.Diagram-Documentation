@@ -13,11 +13,11 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|SVG de salida: aplique atributos CSS al texto|Mejora|
+|DIAGRAMNET-51447|Output SVG - Apply CSS attributes to the text|Mejora|
 |DIAGRAMNET-51993|Errores de formato en pdf desde vsd|Mejora|
 |DIAGRAMNET-52020|Problema con el conector dinámico|Mejora|
-|DIAGRAMNET-52044|Visio a HTML: las formas son incorrectas en la salida|Insecto|
-|DIAGRAMNET-52045|Visio a HTML - API arroja System.ArgumentException: 'El parámetro no es válido'.|Insecto|
+|DIAGRAMNET-52044|Visio to HTML - The shapes are incorrect in the output|Insecto|
+|DIAGRAMNET-52045|Visio to HTML - API is throwing System.ArgumentException: 'Parameter is not valid.'|Insecto|
 |DIAGRAMNET-52049|Guardar vsdx en pdf arroja una excepción de memoria insuficiente|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

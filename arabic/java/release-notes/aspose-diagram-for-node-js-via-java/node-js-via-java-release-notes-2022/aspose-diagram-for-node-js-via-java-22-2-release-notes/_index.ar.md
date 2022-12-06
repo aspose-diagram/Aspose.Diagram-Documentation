@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram لـ Node.js عبر Java 22.2 ملاحظات الإصدار
+title: Aspose.Diagram لـ Node.js via Java 22.2 ملاحظات الإصدار
 type: docs
 weight: 26
 url: /ar/java/aspose-diagram-for-node-js-via-java-22-2-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Node.js عبر Java 22.2.
+تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Node.js via Java 22.2.
 
 {{% /alert %}}
 ## **التحسينات والتغييرات**  ##
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50164|VST لتحويل HTML ، صورة الخلفية بأكملها diagram مفقودة|حشرة|
+|DIAGRAMJAVA-50164|VST إلى HTML التحويل ، صورة الخلفية لكامل diagram مفقودة|حشرة|
 
 ## `?`**عام API والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأية تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Diagram for Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Diagram.

@@ -16,7 +16,7 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.1](http
 |DIAGRAMNET-51082|Lägg till stöd för att rita Polyline|Förbättring|
 |DIAGRAMNET-51084|Lägg till stöd för att rita Bezier-former|Förbättring|
 |DIAGRAMNET-51231|Återge kommentarer när du sparar som bild eller HTML|Förbättring|
-|DIAGRAMNET-51597| VISIO till SVG - Använd rektangelelement<path> tagga istället för<Rect>|Förbättring|
+|DIAGRAMNET-51597| VISIO till SVG - Använd rektangulära element<path> tagga istället för<Rect>|Förbättring|
 |DIAGRAMNET-50764|VSDX läsning saknar färgvärdet för olika former|Insekt|
 |DIAGRAMNET-51336|Åtgärda problem i versionen Aspose.Diagram for .NET/Java|Insekt|
 |DIAGRAMNET-51343|Utdata VSDX - formstorleken ändras inte|Insekt|

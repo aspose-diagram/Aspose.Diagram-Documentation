@@ -16,7 +16,7 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for .NET 
 |DIAGRAMNET-50393|Lägg till punkter till den dynamiska kontaktformen|Förbättring|
 |DIAGRAMNET-51744|Formen uppdateras inte enligt Visio/Interop efter text tillagd|Förbättring|
 |DIAGRAMNET-52921|App: Spara vsdx till pdf förlorade en bild i hörnet|Insekt|
-|DIAGRAMNET-52925|Problem med HTML-konvertering|Insekt|
+|DIAGRAMNET-52925|Utgåva i HTML Konvertering|Insekt|
 |DIAGRAMNET-52928|App: Laddar vsd ger undantag|Insekt|
 |DIAGRAMNET-52938|App:spara vsd till vsdx har fastnat|Insekt|
 |DIAGRAMNET-52944|Spara till Diagram till svg - attributbredd: Ett negativt värde är inte giltigt. ("-121752")|Insekt|

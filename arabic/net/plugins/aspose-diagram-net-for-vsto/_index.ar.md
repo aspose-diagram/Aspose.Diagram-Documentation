@@ -23,9 +23,9 @@ url: /ar/net/aspose-diagram-net-for-vsto/
     - [كيفية تكوين شفرة المصدر](#Aspose.Diagram.NETforVSTO-Howtoconfigurethesourcecode)
 - [أمثلة على التعليمات البرمجية النموذجية](#Aspose.Diagram.NETforVSTO-SampleCodeExamples)
 # **ما هو VSTO؟**
-VSTO ، أو Visual Studio Tools لـ Office ، أو Microsoft Visual Studio Tools هي جزء من مجموعة أدوات Visual Studio .NET الخاصة بـ Microsoft وتدعم Microsoft .NET Framework. يتم استخدامه من قبل المطورين لكتابة التعليمات البرمجية التي تربط Microsoft Office تطبيقات Word و Excel و Outlook. يمكن للمطورين الذين يستخدمون VSTO استخدام C# أو لغة Visual Basic. إنه بديل لـ Visual Basic for Applications أو VBA.
+VSTO ، أو Visual Studio Tools لـ Office ، أو Microsoft Visual Studio Tools هي جزء من مجموعة أدوات Microsoft Visual Studio .NET وتدعم Microsoft .NET Framework. ويستخدم من قبل المطورين لكتابة التعليمات البرمجية التي تربط تطبيقات Excel ، Microsoft. يمكن للمطورين الذين يستخدمون VSTO استخدام C# أو لغة Visual Basic. إنه بديل لـ Visual Basic for Applications أو VBA.
 # **Aspose.Diagram لـ .Net**
-Aspose.Diagram هي مكتبة فئة للعمل مع ملفات Microsoft Visio. يسمح للمطورين بالعمل مع ملفات VSD و VSDX و VSS و VST و VSX و VTX و VDW و VDX على تطبيقات الويب C# و VB.NET و ASP.NET وخدمات الويب وتطبيقات Mono و Windows. يسمح لك بفتح الملفات ومعالجة عناصر diagram ، من الخطوط والتعبئة ، إلى العناصر الأكثر تعقيدًا ، ثم التصدير إلى VDX ، VSX ، VTX ، XPS ، HTML ، SVG ، SWF ، XAML ، تنسيقات الصور أو PDF.
+Aspose.Diagram هي مكتبة فئة للعمل مع ملفات Microsoft Visio. يسمح للمطورين بالعمل مع ملفات VSD و VSDX و VSS و VST و VSX و VTX و VDW و VDX على C# و VB.NET و ASP.NET تطبيقات الويب وخدمات الويب و Mono والتطبيقات. يسمح لك بفتح الملفات ومعالجة عناصر diagram ، من الخطوط والتعبئة ، إلى العناصر الأكثر تعقيدًا ، ثم التصدير إلى تنسيقات VDX ، VSX ، VTX ، XPS ، HTML ، SVG ، SWF ، 0761223123348 ، تنسيقات الصور أو XAML.
 # **Aspose.Diagram لـ VSTO**
 ## **مقدمة**
 قد يحتاج المطورون الذين يبحثون عن مكتبات تنسيق الملفات إلى الاطلاع على الميزات التي توفرها المكتبات المتاحة في السوق. بشكل أساسي ، يتم أخذ عاملين في الاعتبار عند اختيار خيار:
@@ -33,15 +33,15 @@ Aspose.Diagram هي مكتبة فئة للعمل مع ملفات Microsoft Visio
 - سمات
 - الجهود المطلوبة لاستخدام المكتبة
 
-إذا كنت مطورًا .NET تبحث عن مكتبة تنسيق ملفات أسرع وسهلة وخفيفة الوزن لمعالجة الملفات ، فقد تحتاج إلى مقارنة VSTO (أداة Visual Studio لـ Office) مع Aspose. في هذه الحالة ، سيساعدك هذا المشروع على مقارنة الميزات ورمز في كلتا المكتبتين.
+إذا كنت مطورًا .NET تبحث عن مكتبة تنسيق ملفات أسرع ، سهلة وخفيفة الوزن لمعالجة الملفات ، فقد تحتاج إلى مقارنة VSTO (أداة Visual Studio لـ Office) بـ Aspose. في هذه الحالة ، سيساعدك هذا المشروع على مقارنة الميزات و كود في كلا المكتبتين.
 ## **متطلبات النظام والأنظمة الأساسية المدعومة**
 ### **متطلبات النظام**
-إصدار واحد أو أكثر من الإصدارات التالية من Visual Studio Tools لـ Office:
+واحد أو أكثر من الإصدارات التالية من Visual Studio أدوات لـ Office:
 
 - Microsoft Visual Studio 2005 أدوات لنظام Microsoft Office
-- Microsoft أدوات Visual Studio 2005 لنظام 2007 Microsoft Office
-- Visual Studio 2008 Professional Edition
-- Visual Studio 2008 Team Suite Edition
+- Microsoft Visual Studio 2005 أدوات لنظام 2007 Microsoft Office
+- Visual Studio 2008 الإصدار المحترف
+- Visual Studio 2008 إصدار جناح الفريق
 - نسخة واحدة من Microsoft Office:
 - Microsoft Office Professional 2003 SP1
 - 2007 Microsoft Office نظام

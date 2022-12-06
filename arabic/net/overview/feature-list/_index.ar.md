@@ -15,7 +15,7 @@ description: تصف هذه الصفحة قائمة ميزات مكتبة Aspose.
 - قراءة Microsoft Visio 2003/2007/2010 VSD تنسيق.
 - قراءة Microsoft Visio 2003/2007/2010 تنسيق VSS.
 - قراءة Microsoft Visio 2003/2007/2010 تنسيق VDW.
-- قراءة Microsoft Visio 2003/2007/2010 تنسيق VST.
+- قراءة Microsoft Visio 2003/2007/2010 VST تنسيق.
 
 **اقرا و اكتب**:
 
@@ -31,17 +31,17 @@ description: تصف هذه الصفحة قائمة ميزات مكتبة Aspose.
 
 **يصدّر**:
 
-- تصدير المخططات (VSD و VSDX و VSS و VSSX و VTX و VDX و VDW و VST و VSTX و VSX) إلى تنسيقات الصور الشائعة (BMP و JPEG و TIFF و EMF و SVG و PNG).
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى PDF.
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى HTML.
+- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى تنسيقات الصور الشائعة (BMP ، JPEG ، TIFF ، VSDX ، VSDX ، VSDX و VSDX)
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى PDF.
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى HTML.
 - تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى مواصفات ورق XML (XPS).
 - تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى تنسيق ملف Macromedia Flash (SWF).
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى XAML.
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى XAML.
 
 **مطبعة**:
 
 - طباعة الرسوم البيانية Visio بدقة عالية.
-- اطبع Visio diagram على الخادم عبر XpsPrint API
+- طباعة Visio diagram على الخادم via XpsPrint API
 
 **وصول**:
 

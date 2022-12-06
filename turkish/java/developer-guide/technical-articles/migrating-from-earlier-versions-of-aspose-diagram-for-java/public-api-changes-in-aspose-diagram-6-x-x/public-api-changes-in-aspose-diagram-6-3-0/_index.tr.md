@@ -25,4 +25,4 @@ Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek Aspose.Diagr
 ### **SVGSaveOptions, XPSSaveOptions, ImageSaveOptions, HTMLSaveOptions ve PdfSaveOptions Sınıflarına setExportHiddenPage ekler**
 - Gizli Visio sayfalarının dışa aktarılması gerekip gerekmediğini tanımlar.
 
- Geliştiriciler, bir Visio diagram'i PDF, HTML, Resim (PNG, JPEG, GIF), SVG ve XPS dosyalarına kaydederken gizli Visio sayfalarını dahil edebilir veya hariç tutabilir. Bu yardım konusu, bunun nasıl yapılacağını gösterir:[Kaydederken Gizli Visio Sayfalarının Dışa Aktarılmasını Kontrol Edin](/diagram/tr/java/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/#control-the-export-of-hidden-visio-pages-on-saving)
+ Geliştiriciler, Visio diagram'i PDF, HTML, Resim (PNG, JPEG, GIF), SVG ve XPS dosyalarına kaydederken gizli Visio sayfalarını dahil edebilir veya hariç tutabilir. Bu yardım konusu, bunun nasıl yapılacağını gösterir:[Kaydederken Gizli Visio Sayfalarının Dışa Aktarılmasını Kontrol Edin](/diagram/tr/java/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/#control-the-export-of-hidden-visio-pages-on-saving)

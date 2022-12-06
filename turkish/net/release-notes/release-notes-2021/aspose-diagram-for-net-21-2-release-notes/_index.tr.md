@@ -17,9 +17,9 @@ Bu sayfa Aspose.Diagram for .NET 21.2 için sürüm notları bilgilerini içerir
 |DIAGRAMNET-51987|ActivePage'i almak için bir yöntem uygulayın|Artırma|
 |DIAGRAMNET-51978|VSD'i VSDX'e dönüştür - MS Visio'de çıktı açılamıyor|Böcek|
 |DIAGRAMNET-51980|"GDI+'da genel bir hata oluştu." HTML VSDX dosyasına dönüştürülürken istisna|Böcek|
-|DIAGRAMNET-51981|VSDX'i PDF'ye dönüştür - PDF çıktısında şekiller siyah|Böcek|
+|DIAGRAMNET-51981|VSDX'i PDF'e dönüştür - PDF çıktısında şekiller siyah|Böcek|
 |DIAGRAMNET-51985|VSDX - VSDX/VDX dönüştürme: Kaydettikten sonra şekil renkleri gradyan olarak değişir|Böcek|
-|DIAGRAMNET-51989|Visio'den HTML'ye - Çıktıda garip kenarlık|Böcek|
+|DIAGRAMNET-51989|Visio - HTML - Çıktıda garip sınır|Böcek|
 
 ## ` `**Genel API ve Geriye Dönük Uyumsuz Değişiklikler**
 ` `Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefonda yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bize bildirin. Aspose.Diagram destek forumu.

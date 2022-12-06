@@ -13,11 +13,11 @@ Bu sayfa Aspose.Diagram for .NET 21.7 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|Çıktı SVG - Metne CSS niteliklerini uygulayın|Artırma|
+|DIAGRAMNET-51447|Çıktı SVG - Metne CSS niteliklerini uygula|Artırma|
 |DIAGRAMNET-51993|vsd'den pdf'deki biçimlendirme hataları|Artırma|
 |DIAGRAMNET-52020|Dinamik bağlayıcıyla ilgili sorun|Artırma|
-|DIAGRAMNET-52044|Visio'den HTML'ye - Çıktıdaki şekiller yanlış|Böcek|
-|DIAGRAMNET-52045|Visio'den HTML'ye - API, System.ArgumentException'ı atıyor: 'Parametre geçerli değil.'|Böcek|
+|DIAGRAMNET-52044|Visio - HTML - Çıktıdaki şekiller yanlış|Böcek|
+|DIAGRAMNET-52045|Visio - HTML - API, System.ArgumentException'ı atıyor: 'Parametre geçerli değil.'|Böcek|
 |DIAGRAMNET-52049|vsdx'i pdf'ye kaydetmek, outofmemory istisnasını atar|Böcek|
 
 ## **Genel API ve Geriye Dönük Uyumsuz Değişiklikler**

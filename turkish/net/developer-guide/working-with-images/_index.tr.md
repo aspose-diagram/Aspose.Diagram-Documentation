@@ -37,14 +37,14 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ReplaceShapePicture-ReplaceShapePicture.cs" >}}
 ## **Bitmap Görüntüsünü Visio Şekli Olarak İçe Aktar**
 Aspose.Diagram for .NET API artık geliştiricilerin bir bitmap görüntüsünü Microsoft Visio şekli olarak içe aktarmasına izin veriyor.
-### **Visio'de bir BMP Görüntüsü ekleyin**
+### **Visio'e bir BMP Görüntüsü ekleyin**
 Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 
 1. Bir diagram oluşturun.
 1. Visio sayfasını edinin
 1. Bir bitmap görüntüsünü Visio şekli olarak içe aktarın
 1. diagram'i kaydedin.
-#### **Bir BMP Görüntü Programlama Örneği Ekleme**
+#### **BMP Görüntü Programlama Örneği ekleyin**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
 ## **Visio Sayfanın Belirtilen Alanını Görüntüye Dönüştür**
 Aspose.Diagram for .NET API ile geliştiriciler, XY koordinatları, genişlik ve yükseklik ile bir alan tanımlayabilir ve ardından bu alanı desteklenen bir görüntü formatına dönüştürebilir.

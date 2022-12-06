@@ -13,9 +13,9 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50487|Elementos de texto desplazados al convertir un VSD a SVG|Mejora|
-|DIAGRAMJAVA-50692|Texto en negrita colocado incorrectamente al guardar VSDX como SVG|Mejora|
-|DIAGRAMJAVA-50693|Las imágenes no están presentes en la salida SVG|Insecto|
+|DIAGRAMJAVA-50487|Displaced text items on converting a VSD to SVG|Mejora|
+|DIAGRAMJAVA-50692|Bold text incorrectly positioned when saving VSDX as SVG|Mejora|
+|DIAGRAMJAVA-50693|Images are not present in output SVG|Insecto|
 |DIAGRAMJAVA-50695|No se puede guardar el archivo VSDX como una imagen: arroja NullPointerException|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados en el API público, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram para JAVA. Si tiene inquietudes sobre algún cambio en la lista, plantéelo en el foro de soporte Aspose.Diagram.

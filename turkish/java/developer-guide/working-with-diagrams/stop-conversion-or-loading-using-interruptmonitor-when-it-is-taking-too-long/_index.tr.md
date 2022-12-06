@@ -6,11 +6,11 @@ url: /tr/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-takin
 ---
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Diagram, Diagram'in PDF, HTML vb. gibi çeşitli biçimlere dönüştürülmesini durdurmanıza olanak tanır.[**Kesinti İzleme**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) çok uzun sürdüğünde itiraz edin. Dönüştürme işlemi genellikle hem CPU hem de Bellek açısından yoğundur ve kaynaklar sınırlı olduğunda genellikle işlemi durdurmak yararlıdır. Kullanabilirsiniz[**Kesinti İzleme**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) hem dönüştürmeyi durdurmak hem de büyük diagram yüklemesini durdurmak için. Lütfen kullanın[**Diagram.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor) dönüştürmeyi durdurma özelliği ve[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor) büyük yükleme özelliği diagram.
+Aspose.Diagram, Diagram'in PDF, HTML gibi çeşitli biçimlere dönüştürülmesini durdurmanıza olanak tanır.[**Kesinti İzleme**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) çok uzun sürdüğünde itiraz edin. Dönüştürme işlemi genellikle hem CPU hem de Bellek açısından yoğundur ve kaynaklar sınırlı olduğunda genellikle işlemi durdurmak yararlıdır. Kullanabilirsiniz[**Kesinti İzleme**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) hem dönüştürmeyi durdurmak hem de büyük diagram yüklemesini durdurmak için. Lütfen kullanın[**Diagram.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor) dönüştürmeyi durdurma özelliği ve[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor) büyük yükleme özelliği diagram.
 
 ## **Çok uzun sürdüğünde InterruptMonitor kullanarak dönüştürmeyi veya yüklemeyi durdurun**
 
-Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) nesne. Kod, oldukça büyük bir Visio dosyasını PDF'ye dönüştürür. Birkaç saniye sürecektir (örn.*30 saniyeden fazla*) bu kod satırları nedeniyle dönüştürülmesini sağlamak için.
+Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) nesne. Kod oldukça büyük bir Visio dosyasını PDF'e dönüştürür. Birkaç saniye sürecektir (örn.*30 saniyeden fazla*) bu kod satırları nedeniyle dönüştürülmesini sağlamak için.
 
 {{< highlight "java" >}}
 

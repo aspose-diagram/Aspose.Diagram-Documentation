@@ -14,27 +14,27 @@ url: /it/net/aspose-diagram-for-net-16-10-0-release-notes/
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMNET-50545|Master-Possibilità di aggiungere master senza stencil, diagram o modello.|Nuova caratteristica|
-|DIAGRAMNET-50192|VSD alla conversione PDF, il testo della forma non appare in grassetto.|Insetto|
+|DIAGRAMNET-50192|VSD to PDF conversion, the text of the shape appears not bold.|Insetto|
 |DIAGRAMNET-50524|La chiamata al metodo Shape.GluedShapes non restituisce tutti gli ID forma.|Insetto|
-|DIAGRAMNET-50578|VSDX alla conversione PDF, le linee di collegamento non sono diritte.|Insetto|
-|DIAGRAMNET-50598|VSDX alla conversione PDF, le linee di collegamento non sono diritte-II.|Insetto|
-|DIAGRAMNET-50583|VSDX alla conversione HTML, le linee di collegamento non sono straight-I.|Insetto|
-|DIAGRAMNET-50603|VSDX alla conversione HTML, le linee di collegamento non sono diritte-II.|Insetto|
-|DIAGRAMNET-51007|Gli elementi di testo vengono spostati durante la conversione di un VSDX in PDF.|Insetto|
-|DIAGRAMNET-51008|Manca la formattazione del testo in grassetto e le interruzioni di riga errate durante la conversione di un VSDX in PDF.|Insetto|
-|DIAGRAMNET-51009|La posizione errata del testo durante la conversione di un file VSDX in PDF.|Insetto|
-|DIAGRAMNET-51010|La posizione errata di vari elementi di testo durante la conversione di un file VSDX in PDF.|Insetto|
-|DIAGRAMNET-51013|Il testo verticale appare come testo orizzontale quando si converte un VSDX in PNG.|Insetto|
+|DIAGRAMNET-50578|VSDX to PDF conversion, the connecting lines are not straight-I.|Insetto|
+|DIAGRAMNET-50598|VSDX to PDF conversion, the connecting lines are not straight-II.|Insetto|
+|DIAGRAMNET-50583|VSDX to HTML conversion, the connecting lines are not straight-I.|Insetto|
+|DIAGRAMNET-50603|VSDX to HTML conversion, the connecting lines are not straight-II.|Insetto|
+|DIAGRAMNET-51007|The text items are displaced on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51008|Missing the bold text formatting and incorrect line breaks on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51009|The incorrect position of text on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51010|The incorrect position of various text items on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51013|The vertical text appears as horizontal text on converting a VSDX to PNG.|Insetto|
 |DIAGRAMNET-51026|Recupera l'ordine inverso dei nodi in entrata e in uscita da un VSDX.|Insetto|
 |DIAGRAMNET-51028|Impossibile recuperare la cella delle relazioni della forma contenitore da un VSD.|Insetto|
-|DIAGRAMNET-51039|I numeri aggiuntivi vengono aggiunti durante la conversione di un VSD in SVG.|Insetto|
-|DIAGRAMNET-51042|Le frecce non vengono visualizzate correttamente durante la conversione di un VSD in SVG.|Insetto|
-|DIAGRAMNET-51047|Rendering errato del calendario durante la conversione di un VSD in SVG.|Insetto|
+|DIAGRAMNET-51039|The additional numbers are added while converting a VSD to SVG.|Insetto|
+|DIAGRAMNET-51042|The arrows are not being rendered correctly on converting a VSD to SVG.|Insetto|
+|DIAGRAMNET-51047|Incorrect rendering of the calendar on converting a VSD to SVG.|Insetto|
 |DIAGRAMNET-51050|Il metodo Shape.ConnectedShapes restituisce i nodi con la direzione inversa.|Insetto|
 |DIAGRAMNET-51051|Impossibile recuperare la cella di relazione delle forme da un VSD.|Insetto|
-|DIAGRAMNET-51052|Il colore di sfondo delle pagine Visio è nero quando si converte un VSD in SVG.|Insetto|
+|DIAGRAMNET-51052|The background color of Visio pages is black on converting a VSD to SVG.|Insetto|
 |DIAGRAMNET-51060|Gli ID della forma indesiderata vengono recuperati da un VSD diagram.|Insetto|
-|DIAGRAMNET-51066|Il simbolo errato appare durante la conversione di una pagina VSDX in SVG.|Insetto|
+|DIAGRAMNET-51066|The incorrect symbol appears on converting a VSDX page to SVG.|Insetto|
 |DIAGRAMNET-51067|NullReferenceException si è verificata durante la conversione di un numero VDX in VSDX.|Insetto|
 |DIAGRAMNET-51068|L'opzione Dimensione pagina viene modificata impostando la larghezza e l'altezza della pagina VSDM.|Insetto|
 |DIAGRAMNET-51069|Impossibile recuperare la stringa di relazione delle forme da un VSD.|Insetto|

@@ -14,24 +14,24 @@ url: /fr/net/aspose-diagram-for-net-16-11-0-release-notes/
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMNET-50221|Ajout de la prise en charge pour insérer des étiquettes de texte.|Nouvelle fonctionnalité|
-|DIAGRAMNET-51000|Problème de performances avec l'exportation d'un VSD au format PDF.|Renforcement|
+|DIAGRAMNET-51000|Performance issue with exporting a VSD to PDF.|Renforcement|
 |DIAGRAMNET-51095|Impossible d'ajouter un élément de menu de forme (action).|Renforcement|
-|DIAGRAMNET-50344|VSDX en conversion PDF, séquence incorrecte des sauts de ligne dans les éléments de texte.|Punaise|
-|DIAGRAMNET-50347|VSDX à l'exportation PDF, police incorrecte des éléments de texte en gras.|Punaise|
-|DIAGRAMNET-50713|VSD vers l'exportation PDF - la couleur du cadre de délimitation des icônes de formulaire est modifiée.|Punaise|
-|DIAGRAMNET-50870|La couleur d'arrière-plan de la forme est modifiée lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50872|La couleur d'arrière-plan des formes est modifiée lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50877|La couleur d'arrière-plan des formes est modifiée lors de l'enregistrement de VSD au format PDF.|Punaise|
-|DIAGRAMNET-50918|VSDX en exportation PDF - Les lignes pleines des formes sont converties en lignes pointillées.|Punaise|
-|DIAGRAMNET-50971|Alignement incorrect du texte de la forme lors de la conversion d'un VSDX en PNG.|Punaise|
+|DIAGRAMNET-50344|VSDX to PDF conversion, incorrect sequence of line breaks in the text items.|Punaise|
+|DIAGRAMNET-50347|VSDX to PDF export, incorrect font of bold text items.|Punaise|
+|DIAGRAMNET-50713|VSD to PDF export - the bounding box color of the form icons is changed.|Punaise|
+|DIAGRAMNET-50870|Background color of the shape is changed on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50872|Background Color of the shapes is changed on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50877|The background color of shapes is changed on saving VSD to PDF.|Punaise|
+|DIAGRAMNET-50918|VSDX to PDF export - Solid lines of shapes are converted to dashed lines.|Punaise|
+|DIAGRAMNET-50971|Incorrect text alignment of the shape on converting a VSDX to PNG.|Punaise|
 |DIAGRAMNET-51053|Les icônes de menu ne sont pas correctement visibles lors de la conversion des pages Visio en SVG.|Punaise|
 |DIAGRAMNET-51059|Les formes deviennent invisibles lors du regroupement et de l'enregistrement en VSDM.|Punaise|
-|DIAGRAMNET-51062|Formes manquantes lors de la conversion d'un VST en PDF.|Punaise|
-|DIAGRAMNET-51089|La couleur de fond de la page n'est pas conservée lors de la conversion d'un VSD en SVG.|Punaise|
+|DIAGRAMNET-51062|Missing shapes on converting a VST to PDF.|Punaise|
+|DIAGRAMNET-51089|The background color of the page is not being preserved on converting a VSD to SVG.|Punaise|
 |DIAGRAMNET-51090|Ouvrez et enregistrez VSDX - les signes croisés apparaissent en place de différentes formes.|Punaise|
 |DIAGRAMNET-51091|Ouvrez et enregistrez VSDX - le texte de la forme se transforme en caractères factices.|Punaise|
-|DIAGRAMNET-51096|Les éléments de texte ne sont pas alignés lors de l'enregistrement d'un Visio au format PDF.|Punaise|
-|DIAGRAMNET-51097|La largeur des lignes de connexion est modifiée lors de l'enregistrement d'un Visio au format PDF.|Punaise|
+|DIAGRAMNET-51096|The text items are not aligned on saving a Visio in PDF.|Punaise|
+|DIAGRAMNET-51097|The width of connector lines is changed on saving a Visio in PDF.|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Consultez la liste des modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 ### **Ajoute la méthode AddText dans la classe Page**

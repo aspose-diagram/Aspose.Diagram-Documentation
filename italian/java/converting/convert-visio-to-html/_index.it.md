@@ -1,43 +1,43 @@
 ﻿---
-title:  Converti Visio in formato HTML
-linktitle: Converti Visio in HTML
+title: Convert Visio to HTML format 
+linktitle: Convert Visio to HTML
 type: docs
 weight: 30
 url: /it/java/convert-visio-to-html/
-description: Questo argomento mostra come Aspose.Diagram consente di convertire Visio in formati html. Converti VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM in html con poche righe di codice.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to html formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to html with a few lines of code.
 ---
-## **Esporta Visio in HTML** **Esporta Visio in HTML**
- Questo articolo spiega come esportare un Microsoft Visio diagram in HTML utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Esporta da Visio a HTML** **Esporta da Visio a HTML**
+This article explains how to export a Microsoft Visio diagram to HTML using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
- Utilizzare il[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) costruttore di classe per leggere i file diagram e il metodo Save per esportare diagram in qualsiasi formato di immagine supportato. Gli sviluppatori possono salvare l'HTML risultante nella memoria locale o direttamente in un'istanza di flusso.
+ Utilizzare il[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class constructor to read the diagram files and the Save method to export the diagram to any supported image format. Developers can save resultant HTML in the local storage or directly to a stream instance.
 
-1. [Salva l'HTML risultante nella memoria locale](/diagram/it/java/how-to-convert-a-visio-diagram/).
-1. [Salva l'HTML risultante in un'istanza di flusso](/diagram/it/java/how-to-convert-a-visio-diagram/).
+1. [Save resultant HTML in the local storage](/diagram/it/java/how-to-convert-a-visio-diagram/).
+1. [Save resultant HTML in a stream instance](/diagram/it/java/how-to-convert-a-visio-diagram/).
 
-L'immagine sotto mostra un file VSD che sta per essere salvato in formato PNG. È possibile utilizzare altri formati diagram (VSDX, VSTM, VSTM, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX o VTX)1
+The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSDX, VSTM, VSTM, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 
 **Inserisci diagram.**
 
 ![cose da fare:immagine_alt_testo](http://i.imgur.com/YX4BNNq.png)
 
-Per esportare VSD diagram in HTML, procedere come segue:
+In order to export VSD diagram to HTML, perform the following steps:
 
 1. Creare un'istanza della classe Diagram.
-1. Chiama il metodo Save della classe Dagram e imposta HTML come formato di output.
+1. Call the Dagram class' Save method and set HTML as the output format.
 
-L'immagine seguente mostra il file HTML di output.
+L'immagine seguente mostra il file di output HTML.
 
-**Uscita HTML diagram.**
+**Output HTML diagram.**
 
 ![cose da fare:immagine_alt_testo](http://i.imgur.com/syavUqI.png)
-### **Salva l'HTML risultante nella memoria locale**
+### **Save resultant HTML in the local storage**
 Il file risultante può essere salvato passando una stringa di percorso completa, inclusi il nome file e l'estensione, ad esempio @"c:\temp\MyOutput.html".
-#### **Salva l'HTML risultante nell'esempio di programmazione dell'archiviazione locale**
+#### **Save Resultant HTML in Local Storage Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToHTML-ExportToHTML.java" >}}
 
 
 
-### **Salva l'HTML risultante in un'istanza di flusso**
-È per caso d'uso salvare l'HTML risultante in un database o in un repository senza memorizzarlo nella memoria locale. Questa funzione incorpora anche altre risorse risultanti dell'HTML, ad esempio caratteri, CSS (contenenti le informazioni sullo stile) e immagini. Poiché salva un singolo file HTML nell'istanza del flusso.
-#### **Salva l'HTML risultante in un esempio di programmazione del flusso**
+### **Save resultant HTML in a stream instance**
+It is for use case to save the resultant HTML in a database or repository without storing it in the local storage. This feature also embeds other resultant resources of the HTML, e.g. fonts, CSS (containing the style information) and images. Since it saves a single HTML file into the stream instance.
+#### **Save Resultant HTML in a Stream Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportHTMLinStream-ExportHTMLinStream.java" >}}

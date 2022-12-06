@@ -15,7 +15,7 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 17.01](htt
 |:- |:- |:- |
 |DIAGRAMNET-50210|Spara endast området med synliga former, inte hela sidan.|Ny funktion|
 |DIAGRAMNET-50262|Exportera endast selektiva Visio-former till SVG-formatet.|Ny funktion|
-|DIAGRAMNET-50195|VSD till PDF-konvertering, felaktigt datumformat i titelformen.|Insekt|
+|DIAGRAMNET-50195|VSD till PDF konvertering, felaktigt datumformat i titelformen.|Insekt|
 |DIAGRAMNET-50779|Bakgrundsfärgen på tabellerna är svart när du sparar VSDX till PDF.|Insekt|
 |DIAGRAMNET-50797|Den genomskinliga bakgrunden av bilder förvandlas till vit färg vid konvertering av VSD till PNG.|Insekt|
 |DIAGRAMNET-51019|Formernas färg bevaras inte vid konvertering av en VSDX till PDF.|Insekt|
@@ -25,7 +25,7 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 17.01](htt
 |DIAGRAMNET-51031|En Microsoft Sharepoint Workflow-form saknas vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMNET-51032|Saknade textobjekt vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMNET-51045|Det går inte att hämta fyllningsfärgen för rektangelformen från en VSDX diagram.|Insekt|
-|DIAGRAMNET-51055|Ofullständig rendering av de dynamiska kopplingarna vid konvertering av en VSD till HTML.|Insekt|
+|DIAGRAMNET-51055|Ofullständig återgivning av de dynamiska kontakterna vid konvertering av en VSD till HTML.|Insekt|
 |DIAGRAMNET-51119|De rundade rektangelformerna ändras vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMNET-51121|Textobjekten förskjuts vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-51124|Funktionerna i det tvärfunktionella flödesschemat saknas när du laddar och sparar ett VSDX.|Insekt|

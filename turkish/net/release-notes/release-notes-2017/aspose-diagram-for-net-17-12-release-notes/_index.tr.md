@@ -14,17 +14,17 @@ url: /tr/net/aspose-diagram-for-net-17-12-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-50016|Bir şekli çoğaltmak / klonlamak için destek ekleyin|Artırma|
-|DIAGRAMNET-50677|Visio şeklini PDF'ye dönüştürmek için tek API'i sağlayın|Artırma|
-|DIAGRAMNET-50678|Visio şeklini HTML'ye dönüştürmek için tek API sağlayın|Artırma|
+|DIAGRAMNET-50677|Visio şeklini PDF'e dönüştürmek için tek API'i sağlayın|Artırma|
+|DIAGRAMNET-50678|Visio şeklini HTML'e dönüştürmek için tek API'i sağlayın|Artırma|
 |DIAGRAMNET-50762|VDX diagram oluşturulurken uzun öznitelik değerinin ayrıştırma hatası oluştu.|Böcek|
 |DIAGRAMNET-51401|Çıktı VSDX - Şekillerdeki kontroller çalışmıyor|Böcek|
 |DIAGRAMNET-51402|VSDX görüntüye - bir OLE nesnesi korunmadı|Böcek|
 |DIAGRAMNET-51406|VSD görüntüye - ek karakterler görünür|Böcek|
-|DIAGRAMNET-51410|VSD'den PDF'ye - sayfa numarası tüm sayfalarda 4 olarak kalır|Böcek|
+|DIAGRAMNET-51410|VSD ila PDF - sayfa numarası tüm sayfalarda 4 olarak kalır|Böcek|
 |DIAGRAMNET-51411|VSD görsele - sayfa numarası tüm sayfalarda 4 kalır|Böcek|
-|DIAGRAMNET-51414|VSDX'den PDF'ye - şekillerin içeriği eksik|Böcek|
-|DIAGRAMNET-51415|VSDX'den PDF'ye - şekillerin yanlış arka plan rengi|Böcek|
-|DIAGRAMNET-51416|VSDX'den HTML'ye - şekillerin yanlış arka plan rengi|Böcek|
+|DIAGRAMNET-51414|VSDX - PDF - şekillerin içeriği eksik|Böcek|
+|DIAGRAMNET-51415|VSDX - PDF - şekillerin arka plan rengi yanlış|Böcek|
+|DIAGRAMNET-51416|VSDX - HTML - şekillerin arka plan rengi yanlış|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen the[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).
 ### **Shape sınıfına Copy üyesi ekler**
@@ -50,7 +50,7 @@ newShape.XForm.PinY.Value = 1;
 
 {{< /highlight >}}
 ### **Shape sınıfına ToPdf üyesi ekler**
-ToPdf üyesi, bir şekli PDF formatına dönüştürür.
+ToPdf üyesi, bir şekli PDF biçimine dönüştürür.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ diagram.Pages[0].Shapes.GetShape(59).ToPdf("e:\\out.pdf");
 
 {{< /highlight >}}
 ### **Shape sınıfına ToHTML üyesi ekler**
-ToHTML üyesi, bir şekli PDF formatına dönüştürür.
+ToHTML üyesi, bir şekli PDF biçimine dönüştürür.
 
 {{< highlight "java" >}}
 
@@ -83,5 +83,5 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML("e:\\out.pdf", hs);
 Lütfen Aspose.Diagram Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
 1. [Visio Shape'i başka bir Shape örneğine kopyalama](/diagram/tr/net/add-2c-retrieve-2c-copy-and-read-visio-shape-data-html/#add-retrieve-copyandreadvisioshapedata-copyavisioshapetoanothershapeinstance)
-1. [Visio Shape'i PDF'ye dönüştür](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
-1. [Visio Shape'i HTML'ye dönüştür](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)
+1. [Visio Şeklini PDF'e dönüştür](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
+1. [Visio Şeklini HTML'e dönüştür](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)

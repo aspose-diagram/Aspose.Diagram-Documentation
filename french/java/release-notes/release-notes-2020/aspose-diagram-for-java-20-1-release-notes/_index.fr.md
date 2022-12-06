@@ -13,13 +13,13 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50664|Remplissage dégradé non pris en charge lors de l'exportation vers SVG|Renforcement|
+|DIAGRAMJAVA-50664|Gradient fill not supported in export to SVG|Renforcement|
 |DIAGRAMJAVA-50670|Autoriser le chargement des polices depuis la mémoire|Renforcement|
 |DIAGRAMJAVA-50681|API prend beaucoup de temps pour charger le fichier diagram de grande taille|Renforcement|
-|DIAGRAMJAVA-50381|Les formes de réseau ne sont pas conservées lors de la conversion d'un VSDX en PDF|Punaise|
-|DIAGRAMJAVA-50386|Les images sont inversées avec une différence de couleur lors de la conversion d'un VSD en SVG|Punaise|
-|DIAGRAMJAVA-50679|VSDX au format PDF - Les connecteurs manquent dans la sortie|Punaise|
-|DIAGRAMJAVA-50680|Visio en PNG - Les images de sortie ont été rognées|Punaise|
+|DIAGRAMJAVA-50381|The network shapes are not being preserved on converting a VSDX to PDF|Punaise|
+|DIAGRAMJAVA-50386|The images are turned upside down with color difference on converting a VSD to SVG|Punaise|
+|DIAGRAMJAVA-50679|VSDX to PDF - Connectors are missing in output|Punaise|
+|DIAGRAMJAVA-50680|Visio to PNG - Output images were cropped out|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au API public, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram pour JAVA. Si vous avez des inquiétudes concernant un changement répertorié, veuillez le signaler sur le forum d'assistance Aspose.Diagram.
 

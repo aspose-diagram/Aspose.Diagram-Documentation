@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /es/java/feature-list/
 keywords: Visio Diagram Java API
-description: Visio Diagram Java API la lista de funciones incluye crear, leer, escribir, exportar, imprimir y acceder Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, 41,3ST V403 formatos
+description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 ## **Características enriquecidas**
 **Crear**:
@@ -16,7 +16,7 @@ description: Visio Diagram Java API la lista de funciones incluye crear, leer, e
 - Lea el formato Microsoft Visio 2003/2007/2010 VSD.
 - Leer Microsoft Visio 2003/2007/2010 formato VSS.
 - Leer Microsoft Visio 2003/2007/2010 formato VDW.
-- Leer Microsoft Visio 2003/2007/2010 formato VST.
+- Lea el formato Microsoft Visio 2003/2007/2010 VST.
 
 **Lee y escribe**:
 
@@ -32,11 +32,11 @@ description: Visio Diagram Java API la lista de funciones incluye crear, leer, e
 
 **Exportar**:
 
-- Exporte diagramas (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX y VSX) a formatos de imagen populares (BMP, JPEG, TIFF, EMF, SVG y PNG).
-- Exportar diagramas (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX y VSX) a PDF.
-- Exportar diagramas (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX y VSX) a HTML.
-- Exporte diagramas (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX y VSX) a XML Paper Specification (XPS).
-- Exporte diagramas (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX y VSX) a XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **Impresión**:
 

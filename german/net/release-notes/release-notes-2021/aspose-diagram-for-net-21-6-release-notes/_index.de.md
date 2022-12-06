@@ -15,11 +15,11 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.6.
 |:- |:- |:- |
 |DIAGRAMNET-52007|Leistung während der Initialisierung eines diagram-Objekts|Erweiterung|
 |DIAGRAMNET-52008|Leistung während der Initialisierung eines diagram-Objekts|Erweiterung|
-|DIAGRAMNET-52027|Die Qualität der Formen in der exportierten SVG-Datei ist nicht gut|Erweiterung|
-|DIAGRAMNET-52033|Problem beim Speichern von Formen in HTML|Insekt|
+|DIAGRAMNET-52027|Quality of shapes is not good in exported SVG file|Erweiterung|
+|DIAGRAMNET-52033|Saving shapes to HTML problem|Insekt|
 |DIAGRAMNET-52035|"Ausnahmslos eof." Ausnahme beim Öffnen der Datei VSDX|Insekt|
 |DIAGRAMNET-52041|Fehler beim Speichern einiger Formen aus der VSS-Datei|Insekt|
-|DIAGRAMNET-52042|"Parameter ist nicht gültig." Ausnahme beim Rendern der Datei VSD in HTML|Insekt|
+|DIAGRAMNET-52042|"Parameter is not valid." exception when rendering VSD file to HTML|Insekt|
 |DIAGRAMNET-52043|"Der Objektverweis wurde nicht auf eine Instanz eines Objekts festgelegt." Ausnahme beim Speichern der Form aus der Datei VSSX|Insekt|
 
 ## **Öffentliche API und rückwärtsinkompatible Änderungen**

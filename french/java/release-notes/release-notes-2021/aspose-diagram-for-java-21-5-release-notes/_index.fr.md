@@ -14,6 +14,6 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50714|API prend beaucoup de temps pour convertir visio diagram en svg|Renforcement|
-|DIAGRAMJAVA-50720|Convertir VSDX en PNG - Les formes sont vides dans l'image de sortie|Renforcement|
-|DIAGRAMJAVA-50721|Contenu manquant dans l'EMF exporté|Punaise|
-|DIAGRAMJAVA-50723|Régression de forme mal placée de 21,2 à 21,3 lors de l'enregistrement au format SVG|Punaise|
+|DIAGRAMJAVA-50720|Convert VSDX to PNG - Shapes are blank in the output Image|Renforcement|
+|DIAGRAMJAVA-50721|Missing content in exported EMF|Punaise|
+|DIAGRAMJAVA-50723|Misplaced shape regression from 21.2 to 21.3 when saving as SVG|Punaise|

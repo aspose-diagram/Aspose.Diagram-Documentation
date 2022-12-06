@@ -14,14 +14,14 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 20.8.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMNET-51886|Erstellen Sie die Möglichkeit, Ole-Objekte wie Wörter, Zellen, Folien usw. in die Diagram in die einzelne Form einzufügen, die sowohl Objektdaten als auch ein Vorschaubild enthält.|Erweiterung|
-|DIAGRAMNET-51888|Visio in PDF - API braucht lange für die Konvertierung|Erweiterung|
+|DIAGRAMNET-51888|Visio to PDF - API is taking long time for conversion|Erweiterung|
 |DIAGRAMNET-51889|Speichern in einer PDF-Schleife von mehr als 20 Minuten|Erweiterung|
-|DIAGRAMNET-51893|Fehlendes viewBox-Attribut nach Konvertierung von VSDX in SVG|Erweiterung|
-|DIAGRAMNET-51851|VSDX in PDF - einige Symbole fehlen und einige werden nicht richtig gerendert|Insekt|
-|DIAGRAMNET-51873|VSDX in PDF - Inhalt wird im Ausgabe-PDF links angezeigt|Insekt|
-|DIAGRAMNET-51874|VSDX nach PDF - Inhalt und Zeilen fehlen in der Ausgabe|Insekt|
-|DIAGRAMNET-51876|VSDX zu PNG - einige Formen sind in der Ausgabe falsch|Insekt|
-|DIAGRAMNET-51879|Visio nach PDF - Ausgabe ist nicht korrekt|Insekt|
+|DIAGRAMNET-51893|Missing viewBox attribute after VSDX to SVG conversion|Erweiterung|
+|DIAGRAMNET-51851|VSDX to PDF - some icons are missing and some not rendered correctly|Insekt|
+|DIAGRAMNET-51873|VSDX to PDF - Content is out on left in the output PDF|Insekt|
+|DIAGRAMNET-51874|VSDX to PDF - content and lines are missing in the output|Insekt|
+|DIAGRAMNET-51876|VSDX to PNG - some shapes are incorrect in the output|Insekt|
+|DIAGRAMNET-51879|Visio to PDF - output is not correct|Insekt|
 |DIAGRAMNET-51894|System.NullReferenceException beim Laden von diagram|Insekt|
 |DIAGRAMNET-51895|Gruppeneigenschaftsdaten wie SelectionModel, DisplayMode können nicht abgerufen werden|Insekt|
 

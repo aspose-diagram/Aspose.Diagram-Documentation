@@ -15,7 +15,7 @@ Aspose.Diagram değerlendirme sürümü (belirtilen bir lisans olmadan) tam ür�
 Değerlendirme sürümü, aşağıdakiler dışında tüm özellikleri sağlar:
 
 - Visio diagram ilk sayfasının sadece ilk on şeklini okuyabilirsiniz.
-- Dışa aktarılan görüntülerde ve PDF dosyalarında da değerlendirme filigranı göreceksiniz.
+- Dışa aktarılan resimlerde ve PDF dosyalarında da değerlendirme filigranı göreceksiniz.
 
 {{% alert color="primary" %}} 
 

@@ -15,10 +15,10 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-52408|problèmes lorsque nous utilisons EmfRederSetting EmfPlusPrefer|Renforcement|
 |DIAGRAMNET-52438|Enregistrer les pages de premier plan uniquement pour l'impression|Renforcement|
-|DIAGRAMNET-52450|Visio vers SVG - Enregistrement séparé de l'image raster|Renforcement|
-|DIAGRAMNET-51171|Rendu partiel des formes lors de l'enregistrement du dessin au format PDF|Punaise|
+|DIAGRAMNET-52450|Visio to SVG - Saving raster image separately|Renforcement|
+|DIAGRAMNET-51171|Partial rendering of the shapes on saving drawing in PDF format|Punaise|
 |DIAGRAMNET-51390|L'objet incorporé n'est pas remplacé correctement|Punaise|
-|DIAGRAMNET-51800|Visio à SVG - Image d'arrière-plan manquante (PowerPoint est ajouté dans le VISIO)|Punaise|
+|DIAGRAMNET-51800|Visio to SVG - Background Image Missing (PowerPoint is added in the VISIO)|Punaise|
 |DIAGRAMNET-52423|Page.Copy() ne copie pas l'objet Excel dans diagram|Punaise|
 |DIAGRAMNET-52443|Formes manquantes lors de l'ouverture et de l'enregistrement MS Visio Diagram|Punaise|
 |DIAGRAMNET-52444|Visio à JPG - Différents résultats générés par le API|Punaise|

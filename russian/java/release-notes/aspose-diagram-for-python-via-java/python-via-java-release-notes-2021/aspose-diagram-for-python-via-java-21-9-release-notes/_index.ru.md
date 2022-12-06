@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram для Python через Java 21.9 Примечания к выпуску
+title: Aspose.Diagram для Python via Java 21.9 Примечания к выпуску
 type: docs
 weight: 6
 url: /ru/java/aspose-diagram-for-python-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит примечания к выпуску для Aspose.Diagram для Python через Java 21.9.
+Эта страница содержит примечания к выпуску для Aspose.Diagram для Python via Java 21.9.
 
 {{% /alert %}}
 ## **Улучшения и изменения**  ##
@@ -14,7 +14,7 @@ url: /ru/java/aspose-diagram-for-python-via-java-21-9-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk: Проверить, подключена ли TextAnnotation к фигуре|Улучшение|
-|DIAGRAMJAVA-50382|Затенение фигур отсутствует при преобразовании VSDX в PDF|Ошибка|
+|DIAGRAMJAVA-50382|Затенение фигур отсутствует при преобразовании VSDX в PDF.|Ошибка|
 |DIAGRAMJAVA-50754|wk - LineColor из InheritLine неверен|Ошибка|
 |DIAGRAMJAVA-50756|wk: PinPos null против центра-центра|Ошибка|
 |DIAGRAMJAVA-50757|WK: неверное значение стрелки getBegin/End.|Ошибка|

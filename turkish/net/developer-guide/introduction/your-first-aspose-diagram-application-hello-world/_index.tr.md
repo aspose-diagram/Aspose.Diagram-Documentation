@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Diagram İlk Başvurunuz - Merhaba Dünya
+title: İlk Başvurunuz Aspose.Diagram - Hello World
 type: docs
 weight: 30
 url: /tr/net/your-first-aspose-diagram-application-hello-world/
@@ -7,11 +7,11 @@ description: Bu sayfada Aspose.Diagram kitaplığı ile ilk uygulamanın nasıl 
 ---
 {{% alert color="primary" %}}
 
-Bu öğretici, Aspose.Diagram' basit API'i kullanarak ilk uygulamanın (Merhaba Dünya) nasıl oluşturulacağını gösterir. Bu basit uygulama, belirli bir Sayfada 'Merhaba Dünya' metnini içeren bir Microsoft Visio dosyası oluşturur.
+Bu öğretici, Aspose.Diagram' basit API'i kullanarak ilk uygulamanın (Hello World) nasıl oluşturulacağını gösterir. Bu basit uygulama, belirli bir Sayfada 'Hello World' metniyle bir Microsoft Visio dosyası oluşturur.
 
 {{% /alert %}}
 
-## **Merhaba Dünya Uygulamasının Oluşturulması**
+## **Hello World Uygulamasını Oluşturma**
 
 Aşağıdaki adımlar, Aspose.Diagram API'i kullanarak Hello World uygulamasını oluşturur:
 
@@ -20,19 +20,19 @@ Aşağıdaki adımlar, Aspose.Diagram API'i kullanarak Hello World uygulamasın�
  Değerlendirme sürümünü kullanıyorsanız, lisansla ilgili kod satırlarını atlayın.
 1. Yeni bir Visio dosyası oluşturun veya mevcut bir Visio dosyasını açın.
 1. Yeni bir metin kutusu oluşturun.
-1.  kelimeleri ekle**Selam Dünya!** bir metin kutusuna.
+1.  kelimeleri ekle**Hello World!** bir metin kutusuna.
 1. Değiştirilen Microsoft Visio dosyasını oluşturun.
 
 Yukarıdaki adımların uygulanması aşağıdaki örneklerde gösterilmektedir.
 
 ### **Kod Örneği: Yeni Bir Diagram Oluşturma**
 
-Aşağıdaki örnek, sıfırdan yeni bir diagram oluşturur, Hello World! ilk sayfada ve Visio dosyasını kaydeder.
+Aşağıdaki örnek sıfırdan yeni bir diagram oluşturur, Hello World yazar! ilk sayfada ve Visio dosyasını kaydeder.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-CreateNewVisio-CreateNewVisio.cs" >}}
 
 ### **Kod Örneği: Mevcut Bir Dosyayı Açma**
 
-Aşağıdaki örnek, "Sample.vsdx" adlı mevcut bir Microsoft Visio şablon dosyasını açar ve "Merhaba Dünya!" girer. metni ilk sayfaya kaydeder ve diagram'i kaydeder.
+Aşağıdaki örnek, "Sample.vsdx" adlı mevcut bir Microsoft Visio şablon dosyasını açar, "Hello World!" girer. metni ilk sayfaya kaydeder ve diagram'i kaydeder.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ReadVisioDiagram-ReadVisioDiagram.cs" >}}

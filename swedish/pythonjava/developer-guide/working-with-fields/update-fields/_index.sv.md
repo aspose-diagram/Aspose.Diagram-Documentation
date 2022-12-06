@@ -6,7 +6,7 @@ url: /sv/python-java/update-fields/
 description: Det här avsnittet förklarar hur du uppdaterar fält.
 ---
 ## **Uppdatera fält**
- Aspose.Diagram för Python via Java låter dig uppdatera fältet till Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation.
+Aspose.Diagram för Python via Java låter dig uppdatera fältet till Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation.
 
 Fältobjektet representerar textfält i en textkörning. Fältegenskapen, exponerad av Shape-klassen stöder en samling Aspose.Diagram.Field-objekt.
 

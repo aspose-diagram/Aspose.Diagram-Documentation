@@ -14,7 +14,7 @@ Page Class 对象表示前景页面或背景页面的绘图区域。 Diagram 类
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ExtractAllImagesFromPage.py" >}}
 ## **获取各种 Visio 形状的图标**
-Aspose.Diagram for Python via Java API 现在允许开发者获取各种图标[Visio 形状](Timeline.vss). 
+Aspose.Diagram for Python via Java API now allows developers to get icons of various [Visio 形状](Timeline.vss). 
 ### **获取形状图标**
 下面示例中的代码显示了如何：
 
@@ -25,7 +25,7 @@ Aspose.Diagram for Python via Java API 现在允许开发者获取各种图标[V
 #### **获取图标编程示例**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-GetShapeIcon.py" >}}
 ## **替换Visio Diagram的图片形状**
-Aspose.Diagram for Python via Java API 允许开发人员访问和替换可用的图片形状[Visio diagram](ExtractAllImagesFromPage.vsd).
+Aspose.Diagram for Python via Java API allows developers to access and replace available picture shapes in [Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **替换图片形状**
 下面示例中的代码显示了如何：
 
@@ -36,7 +36,7 @@ Aspose.Diagram for Python via Java API 允许开发人员访问和替换可用�
 #### **替换图片形状编程示例**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ReplaceShapePicture.py" >}}
 ## **将图像导入为 Visio 形状**
-Aspose.Diagram for Python via Java API 现在允许开发人员将图像导入为 Microsoft Visio 形状。
+Aspose.Diagram for Python via Java API now allows developers to import a image as a Microsoft Visio shape.
 ### **在 Visio 中插入图像**
 下面示例中的代码显示了如何：
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Aspose.Diagram Familia de productos
 type: docs
-description: Aspose.Diagram proporciona conversiones de formatos de archivo Visio a imágenes, formatos PDF, HTML, XML y XAML. Los formatos de archivo populares admitidos incluyen VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM y VSSM.
+description: Aspose.Diagram provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 weight: 10
 url: /es/
 ---
@@ -60,58 +60,58 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **![todo:imagen_texto_alterno](inicio_3.png)**
 
-**Bienvenido a Aspose.Diagram para Node.js a través de Java**
+**Welcome to Aspose.Diagram for Node.js via Java**
 
-Aspose.Diagram para Node.js a través de Java API ofrece todas las funciones útiles de Aspose.Diagram for Java con Node.js. El API le permite utilizar sus potentes funciones para trabajar con archivos Visio sin necesidad de ninguna otra aplicación de software. Es escalable, rico en funciones y proporciona conversiones de formatos de archivo Visio a imágenes, formatos PDF, HTML, XML y XAML. Puede usar API para leer una variedad de tipos de archivos Visio que se pueden guardar como otros formatos de archivo Visio. Los formatos de archivo populares admitidos incluyen VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM y VSSM.
+Aspose.Diagram for Node.js via Java API offers all the useful features of Aspose.Diagram for Java using Node.js. The API empowers you to use its powerful features of working with Visio files without the need of any other software applications. It is scalable, rich in features and provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. You can use the API to read a variety of Visio file types that can be saved as other Visio file formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 
 {{% /alert %}} 
-## **Aspose.Diagram para Node.js a través de Java Recursos**
+## **Aspose.Diagram for Node.js via Java Resources**
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
 - [Aspose.Diagram for Java Documentación en línea](/diagram/es/nodejsjava/)
-- [Aspose.Diagram para Node.js a través de Java Características](/diagram/es/java/aspose-diagram-for-node-js-via-java-features/)
-- [Aspose.Diagram para Node.js a través de Java Notas de la versión](/diagram/es/java/release-notes/)
-- [Aspose.Diagram para Node.js a través de Java Página del producto](https://products.aspose.com/diagram/nodejs-java/)
-- [Descargue Aspose.Diagram para Node.js a través de Java](https://downloads.aspose.com/diagram/nodejs)
-- Aspose.Diagram para Node.js a través de Java API Guía de referencia
-- [Aspose.Diagram para Node.js a través de Java Foro de soporte gratuito](https://forum.aspose.com/c/diagram/17)
-- [Aspose.Diagram para Node.js a través de Java Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Diagram for Node.js via Java Features](/diagram/es/java/aspose-diagram-for-node-js-via-java-features/)
+- [Aspose.Diagram for Node.js via Java Release Notes](/diagram/es/java/release-notes/)
+- [Aspose.Diagram for Node.js via Java Product Page](https://products.aspose.com/diagram/nodejs-java/)
+- [Download Aspose.Diagram for Node.js via Java](https://downloads.aspose.com/diagram/nodejs)
+- Aspose.Diagram for Node.js via Java API Reference Guide
+- [Aspose.Diagram for Node.js via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
+- [Aspose.Diagram for Node.js via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}} 
 
 **![todo:imagen_texto_alterno](inicio_4.png)**
-**Bienvenido a Aspose.Diagram para Python vía Java**
+**Welcome to Aspose.Diagram for Python via Java**
 
-Aspose.Diagram para Python a través de Java API ofrece todas las funciones útiles de Aspose.Diagram for Java usando Python. El API le permite utilizar sus potentes funciones para trabajar con archivos Visio sin necesidad de ninguna otra aplicación de software. Es escalable, rico en funciones y proporciona conversiones de formatos de archivo Visio a imágenes, formatos PDF, HTML, XML y XAML. Puede usar API para leer una variedad de tipos de archivos Visio que se pueden guardar como otros formatos de archivo Visio. Los formatos de archivo populares admitidos incluyen VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM y VSSM.
+Aspose.Diagram for Python via Java API offers all the useful features of Aspose.Diagram for Java using Python. The API empowers you to use its powerful features of working with Visio files without the need of any other software applications. It is scalable, rich in features and provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. You can use the API to read a variety of Visio file types that can be saved as other Visio file formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 
 {{% /alert %}} 
-## **Aspose.Diagram para Python vía Java Recursos**
+## **Aspose.Diagram for Python via Java Resources**
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
 - [Aspose.Diagram for Java Documentación en línea](/diagram/es/pythonjava/)
-- [Aspose.Diagram para Python vía Java Características](/diagram/es/java/feature-list/)
-- [Aspose.Diagram para Python a través de Java Notas de la versión](/diagram/es/java/aspose-diagram-for-python-via-java/)
-- [Aspose.Diagram para Python vía Java Página del producto](https://products.aspose.com/diagram/python-java/)
-- [Descargar Aspose.Diagram para Python vía Java](https://downloads.aspose.com/diagram/python)
-- [Aspose.Diagram para Python a través de Java API Guía de referencia](https://reference.aspose.com/diagram/python)
-- [Aspose.Diagram para Python a través de Java Foro de soporte gratuito](https://forum.aspose.com/c/diagram/17)
-- [Aspose.Diagram para Python a través de Java Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Diagram for Python via Java Features](/diagram/es/java/feature-list/)
+- [Aspose.Diagram for Python via Java Release Notes](/diagram/es/java/aspose-diagram-for-python-via-java/)
+- [Aspose.Diagram for Python via Java Product Page](https://products.aspose.com/diagram/python-java/)
+- [Download Aspose.Diagram for Python via Java](https://downloads.aspose.com/diagram/python)
+- [Aspose.Diagram for Python via Java API Reference Guide](https://reference.aspose.com/diagram/python)
+- [Aspose.Diagram for Python via Java Free Support Forum](https://forum.aspose.com/c/diagram/17)
+- [Aspose.Diagram for Python via Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
-**![Aspose.Diagram para Python a través de .NET Logotipo del producto](home_4.png)**
+**![Aspose.Diagram for Python via .NET Product Logo](home_4.png)**
 
-**Bienvenido a Aspose.Diagram para Python vía .NET**
+**Welcome to Aspose.Diagram for Python via .NET**
 
-Aspose.Diagram para Python a través de .NET API ofrece todas las funciones útiles de Aspose.Diagram para .Net usando Python. El API le permite utilizar sus potentes funciones para trabajar con archivos Visio sin necesidad de ninguna otra aplicación de software. Es escalable, rico en funciones y proporciona conversiones de formatos de archivo Visio a imágenes, formatos PDF, HTML, XML y XAML. Puede usar API para leer una variedad de tipos de archivos Visio que se pueden guardar como otros formatos de archivo Visio. Los formatos de archivo populares admitidos incluyen VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM y VSSM.
+Aspose.Diagram for Python via .NET API offers all the useful features of Aspose.Diagram for .Net using Python. The API empowers you to use its powerful features of working with Visio files without the need of any other software applications. It is scalable, rich in features and provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. You can use the API to read a variety of Visio file types that can be saved as other Visio file formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 {{% /alert %}}
 
-## **Aspose.Diagram para Python vía .NET Recursos**
+## **Aspose.Diagram for Python via .NET Resources**
 
 Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
 
-- [Aspose.Diagram para Python a través de .NET Notas de la versión](/diagram/es/pythonnet/release-notes/)
-- [Aspose.Diagram para Python vía .NET Página del producto](https://products.aspose.com/diagram/python-net/)
-- [Descargar Aspose.Diagram para Python vía .NET](https://downloads.aspose.com/diagram/python-net)
-- [Aspose.Diagram para Python a través de .NET Foro de soporte gratuito](https://forum.aspose.com/c/diagram/17)
-- [Aspose.Diagram para Python a través de .NET Servicio de asistencia técnica de pago](https://helpdesk.aspose.com/)
+- [Aspose.Diagram for Python via .NET Release Notes](/diagram/es/pythonnet/release-notes/)
+- [Aspose.Diagram for Python via .NET Product Page](https://products.aspose.com/diagram/python-net/)
+- [Download Aspose.Diagram for Python via .NET](https://downloads.aspose.com/diagram/python-net)
+- [Aspose.Diagram for Python via .NET Free Support Forum](https://forum.aspose.com/c/diagram/17)
+- [Aspose.Diagram for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 

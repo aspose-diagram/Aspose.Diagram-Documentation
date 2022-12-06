@@ -13,7 +13,7 @@ url: /es/java/aspose-diagram-for-java-17-8-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50412|Faltan formas al convertir un VST a PNG.|Insecto|
+|DIAGRAMJAVA-50412|Missing shapes on converting a VST to PNG.|Insecto|
 |DIAGRAMJAVA-50497|Salida VSDX: diseño incorrecto de todas las líneas de conexión.|Insecto|
 |DIAGRAMJAVA-50500|Salida VSDX: el tamaño de forma agregado manualmente no se cambia.|Insecto|
 |DIAGRAMJAVA-50511|Salida VSDX: texto fuera de lugar del conector dinámico.|Insecto|
@@ -21,7 +21,7 @@ url: /es/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|Salida VSDX: la forma de decisión se está haciendo más grande.|Insecto|
 |DIAGRAMJAVA-50520|No se puede establecer el comportamiento de superposición de las líneas de conexión en un dibujo VSDX.|Insecto|
 |DIAGRAMJAVA-50521|Salida VSDX - diseño incorrecto de la línea del conector.|Insecto|
-|DIAGRAMJAVA-50522|PNG de salida: el texto de la forma sale del límite.|Insecto|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary.|Insecto|
 |DIAGRAMJAVA-50523|Salida VSDX - diseño incorrecto de la línea de conexión.|Insecto|
 |DIAGRAMJAVA-50525|Salida VSDX: la fórmula de ancho de cualquier forma no se conserva.|Insecto|
 |DIAGRAMJAVA-50528|Salida VSDX - tamaño incorrecto de la forma.|Insecto|
@@ -90,4 +90,4 @@ diagram.save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Diagram:
 
 1. [Usar índices de conexión para conectar formas](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [Uso de las opciones de guardado de SVG](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)
+1. [Uso de las opciones de guardado SVG](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)

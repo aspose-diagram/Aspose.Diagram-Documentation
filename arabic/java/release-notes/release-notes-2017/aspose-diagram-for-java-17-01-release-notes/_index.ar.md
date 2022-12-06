@@ -16,11 +16,11 @@ url: /ar/java/aspose-diagram-for-java-17-01-release-notes/
 |DIAGRAMJAVA-50396|لا يمكن استرداد لون التعبئة لشكل مستطيل من VSDX diagram.|التعزيز|
 |DIAGRAMJAVA-50367|لا يتم الاحتفاظ بلون الأشكال عند تحويل VSDX إلى PDF.|حشرة|
 |DIAGRAMJAVA-50370|تنسيق شكل المستطيل مفقود عند تحويل VSDX إلى PNG.|حشرة|
-|DIAGRAMJAVA-50373|لا يتم تقديم ظل الأشكال بشكل صحيح عند تحويل VSD إلى SVG.|حشرة|
+|DIAGRAMJAVA-50373|لم يتم تقديم ظل الأشكال بشكل صحيح عند تحويل VSD إلى SVG.|حشرة|
 |DIAGRAMJAVA-50378|لا يتم الاحتفاظ بلون وسائل الشرح والنص عند تحويل VSDX إلى PNG.|حشرة|
-|DIAGRAMJAVA-50379|شكل Microsoft Sharepoint Workflow مفقود عند تحويل VSDX إلى PNG.|حشرة|
+|DIAGRAMJAVA-50379|شكل Microsoft Sharepoint سير عمل مفقود عند تحويل VSDX إلى PNG.|حشرة|
 |DIAGRAMJAVA-50380|عناصر النص المفقودة وتداخل الشكل عند تحويل VSD إلى PDF.|حشرة|
-|DIAGRAMJAVA-50406|عرض غير كامل للموصلات الديناميكية عند تحويل VSD إلى HTML.|حشرة|
+|DIAGRAMJAVA-50406|عرض غير مكتمل للموصلات الديناميكية عند تحويل VSD إلى HTML.|حشرة|
 |DIAGRAMJAVA-50450|يتم تحويل نص الشكل إلى أحرف وهمية.|حشرة|
 |DIAGRAMJAVA-50456|عرض جزئي لأشكال Visio عند تحويل Visio صفحات إلى SVGs.|حشرة|
 

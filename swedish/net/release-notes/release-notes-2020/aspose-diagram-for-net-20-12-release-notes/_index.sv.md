@@ -16,9 +16,9 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-51953|Exportera VSDX till PDF: Problem med bilder om PdfCompliance är PdfA1a eller PdfA1b|Förbättring|
 |DIAGRAMNET-51959|Det går inte att skriva ut Visio-filen korrekt|Förbättring|
 |DIAGRAMNET-51961|VSDX till PDF - Formateringsfel och saknade former i PDF [Forts.]|Förbättring|
-|DIAGRAMNET-50461|VSDX till PDF-konvertering, formtext är förstörd|Insekt|
-|DIAGRAMNET-50462|VSDX till PDF-konvertering, formtext är förstörd|Insekt|
-|DIAGRAMNET-50464|VSDX till PDF-konvertering, saknade eller ofullständiga formrendering|Insekt|
+|DIAGRAMNET-50461|VSDX till PDF konvertering, formtexten är förstörd|Insekt|
+|DIAGRAMNET-50462|VSDX till PDF konvertering, formtexten är förstörd|Insekt|
+|DIAGRAMNET-50464|VSDX till PDF konvertering, saknade eller ofullständiga formrendering|Insekt|
 |DIAGRAMNET-50959|Borderline för tabellen saknas vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-50960|Tabellens övre kantlinje saknas vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-51902|Visio-filer med versioner under 11 stöds inte undantag när VSS öppnas|Insekt|

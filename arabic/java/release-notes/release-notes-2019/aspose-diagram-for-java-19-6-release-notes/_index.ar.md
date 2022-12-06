@@ -13,8 +13,8 @@ url: /ar/java/aspose-diagram-for-java-19-6-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50119|VTX لتحويل HTML ، لا يتم الاحتفاظ بلون تعبئة الأشكال|حشرة|
-|DIAGRAMJAVA-50162|VTX لتحويل HTML ، لون تعبئة الأشكال مفقود|حشرة|
-|DIAGRAMJAVA-50197|VDX لتحويل PDF ، Diagram.setFontDirs تستخدم طريقة الخط الأول فقط على الكل diagram|حشرة|
-|DIAGRAMJAVA-50199|VDX لتحويل PNG ، Diagram.setFontDirs تستخدم طريقة الخط الأول فقط على الكل diagram|حشرة|
+|DIAGRAMJAVA-50119|من VTX إلى HTML ، لا يتم الاحتفاظ بلون تعبئة الأشكال|حشرة|
+|DIAGRAMJAVA-50162|من VTX إلى HTML ، يكون لون تعبئة الأشكال مفقودًا|حشرة|
+|DIAGRAMJAVA-50197|VDX إلى PDF التحويل ، Diagram. طريقة setFontDirs تستخدم الخط الأول فقط على الكل diagram|حشرة|
+|DIAGRAMJAVA-50199|VDX إلى PNG التحويل ، Diagram. طريقة setFontDirs تستخدم الخط الأول فقط على الكل diagram|حشرة|
 

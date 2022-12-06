@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Diagram für Node.js über Java 21.1 Versionshinweise
+title: Aspose.Diagram for Node.js via Java 21.1 Release Notes
 type: docs
 weight: 12
 url: /de/java/aspose-diagram-for-node-js-via-java-21-1-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Node.js über Java 21.1.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 21.1.
 
 {{% /alert %}}
 ## **Verbesserungen und Änderungen**  ##
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX in HTML-Konvertierung, leeres rechteckiges Feld anstelle des Metadateisymbols|Erweiterung|
+|DIAGRAMJAVA-50118|VTX to HTML conversion, blank rectangle box instead of meta file icon|Erweiterung|

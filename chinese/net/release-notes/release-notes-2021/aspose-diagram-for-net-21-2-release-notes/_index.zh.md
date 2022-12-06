@@ -16,10 +16,10 @@ url: /zh/net/aspose-diagram-for-net-21-2-release-notes/
 |DIAGRAMNET-51986|添加互操作 visio 页面中存在的 centerDrawing 方法|强化|
 |DIAGRAMNET-51987|实现一个获取ActivePage的方法|强化|
 |DIAGRAMNET-51978|将 VSD 转换为 VSDX - 无法在 MS Visio 中打开输出|漏洞|
-|DIAGRAMNET-51980|“GDI+ 中发生一般性错误。”呈现为 HTML VSDX 文件时出现异常|漏洞|
-|DIAGRAMNET-51981|将 VSDX 转换为 PDF - 输出 pdf 中的形状为黑色|漏洞|
+|DIAGRAMNET-51980|"A generic error occurred in GDI+." exception when rendering to HTML VSDX file|漏洞|
+|DIAGRAMNET-51981|Convert VSDX to PDF - Shapes are black in the output pdf|漏洞|
 |DIAGRAMNET-51985|VSDX 到 VSDX/VDX 转换：保存后形状颜色变为渐变|漏洞|
-|DIAGRAMNET-51989|Visio 到 HTML - 输出中出现奇怪的边框|漏洞|
+|DIAGRAMNET-51989|Visio to HTML - Strange border in the output|漏洞|
 
 ## ` `**公共 API 和向后不兼容的更改**
 ` `以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Diagram 支持论坛。

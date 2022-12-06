@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram für Python über Java 21.9 Versionshinweise
+title: Aspose.Diagram for Python via Java 21.9 Release Notes
 type: docs
 weight: 6
 url: /de/java/aspose-diagram-for-python-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Python über Java 21.9.
+This page contains release notes information for Aspose.Diagram for Python via Java 21.9.
 
 {{% /alert %}}
 ## **Verbesserungen und Änderungen**  ##
@@ -14,7 +14,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram für Python über Java
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk: Überprüfen Sie, ob TextAnnotation mit der Form verbunden ist|Erweiterung|
-|DIAGRAMJAVA-50382|Beim Konvertieren einer VSDX in PDF fehlt die Schattierung von Formen|Insekt|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|Insekt|
 |DIAGRAMJAVA-50754|wk - LineColor von InheritLine ist nicht korrekt|Insekt|
 |DIAGRAMJAVA-50756|wk: PinPos null vs Mitte-Mitte|Insekt|
 |DIAGRAMJAVA-50757|WK: getBegin/End Arrow-Wert falsch.|Insekt|

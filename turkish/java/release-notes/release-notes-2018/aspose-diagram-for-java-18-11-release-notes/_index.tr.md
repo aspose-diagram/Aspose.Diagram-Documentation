@@ -13,10 +13,10 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for Java 18.11](https://d
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50615|JpegQuality çıktı JPEG belgesi üzerinde herhangi bir etki yapmaz|Artırma|
-|DIAGRAMJAVA-50627|API adı, VISIO diyagramlarından PDF oluşturulurken PDF Üretici/Oluşturucu alanında tekrar gösterilmiyor|Artırma|
-|DIAGRAMJAVA-50626|VSD'den HTML'ye - Kalite kötü|Böcek|
-|DIAGRAMJAVA-50629|Arka plan ile SVG'ye Visio oluşturulurken istisna|Böcek|
+|DIAGRAMJAVA-50615|JpegQuality, çıktı JPEG belgesi üzerinde herhangi bir etki yapmaz|Artırma|
+|DIAGRAMJAVA-50627|VISIO diyagramlarından PDF oluşturulurken API adı yine PDF Üretici/Yaratıcı alanında görünmüyor|Artırma|
+|DIAGRAMJAVA-50626|VSD - HTML - Kalite kötü|Böcek|
+|DIAGRAMJAVA-50629|Arka plan ile Visio ila SVG oluşturulurken istisna|Böcek|
 |DIAGRAMJAVA-50630|Çıktıda bazı Çince karakterler eksik|Böcek|
-|DIAGRAMJAVA-50632|VSDX'den dönüştürüldükten sonra boş PDF elde ediliyor|Böcek|
+|DIAGRAMJAVA-50632|Boş PDF, VSDX'den dönüştürüldükten sonra elde ediliyor|Böcek|
 

@@ -15,8 +15,8 @@ url: /ar/net/aspose-diagram-for-net-19-1-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51082|إضافة دعم رسم Polyline|التعزيز|
 |DIAGRAMNET-51084|أضف دعمًا لرسم أشكال بيزيير|التعزيز|
-|DIAGRAMNET-51231|اعرض التعليقات عند الحفظ كصورة أو بتنسيق HTML|التعزيز|
-|DIAGRAMNET-51597| VISIO to SVG - استخدام عناصر المستطيل<path> علامة بدلاً من<Rect>|التعزيز|
+|DIAGRAMNET-51231|تقديم التعليقات عند الحفظ كصورة أو HTML|التعزيز|
+|DIAGRAMNET-51597|VISIO إلى SVG - استخدام عناصر المستطيل<path> علامة بدلاً من<Rect>|التعزيز|
 |DIAGRAMNET-50764|قراءة VSDX تفتقد إلى قيمة اللون للأشكال المختلفة|حشرة|
 |DIAGRAMNET-51336|إصلاح المشكلات في إصدار Aspose.Diagram for .NET/Java|حشرة|
 |DIAGRAMNET-51343|الناتج VSDX - لم يتم تغيير حجم الشكل|حشرة|

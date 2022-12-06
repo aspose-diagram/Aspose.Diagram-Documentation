@@ -19,13 +19,13 @@ url: /ar/net/aspose-diagram-for-net-17-7-release-notes/
 |DIAGRAMNET-51297|إدخال VDX - قراءة غير صحيحة لـ SolutionXML.|التعزيز|
 |DIAGRAMNET-51061|أشكال مفقودة عند تحويل VST إلى PNG.|حشرة|
 |DIAGRAMNET-51262|تم إزاحة عناصر النص عند تحويل VSDM إلى SVG.|حشرة|
-|DIAGRAMNET-51276|VSD إلى SVG - كل الأيقونات غير مرئية بشكل صحيح.|حشرة|
+|DIAGRAMNET-51276|VSD إلى SVG - لا تظهر كافة الرموز بشكل صحيح.|حشرة|
 |DIAGRAMNET-51277|VSDM إلى SVG - ظل الأشكال مفقود.|حشرة|
 |DIAGRAMNET-51279|حرف مفقود عند تحويل VSD إلى PDF.|حشرة|
 |DIAGRAMNET-51282|تلف بعض ملفات vdx بعد الحفظ.|حشرة|
 |الرسم البياني - 51284-|يحدث DiagramException عند تحميل ملف vsdx.|حشرة|
 |DIAGRAMNET-51285|VSD إلى PNG - جميع عناصر النص مفقودة.|حشرة|
-|DIAGRAMNET-51286|VSD إلى PNG - العرض الجزئي للشكل.|حشرة|
+|DIAGRAMNET-51286|VSD إلى PNG - التصيير الجزئي لشكل.|حشرة|
 |DIAGRAMNET-51288|خطأ في قيمة اللون غير صالح عند تحويل VSDX إلى PNG.|حشرة|
 |DIAGRAMNET-51289|لا تعرض أيقونة التعليقات على مستوى الصفحة النص.|حشرة|
 |DIAGRAMNET-51290|Aspose.Diagram خطأ في طريقة SetWidth.|حشرة|

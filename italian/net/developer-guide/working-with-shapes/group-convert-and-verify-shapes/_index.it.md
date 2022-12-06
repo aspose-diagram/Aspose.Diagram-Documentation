@@ -26,7 +26,7 @@ Utilizzare il seguente codice nell'applicazione .NET per raggruppare le forme ut
 ## **Converti una forma Visio in altri formati di file**
 Aspose.Diagram for .NET API consente agli sviluppatori di convertire una singola forma Visio in qualsiasi altro formato di file supportato. In questo articolo rimuoviamo tutte le altre forme Visio dalla pagina e personalizziamo le impostazioni della pagina in base alla dimensione della forma di origine.
 ### **Conversione di una particolare forma Visio**
- Gli sviluppatori possono convertire una forma Visio in PDF, HTML, immagine, SVG e SWF tramite**specificando le opzioni di salvataggio Visio**.
+Developers can convert a Visio shape to PDF, HTML, Image, SVG, and SWF by **specificando le opzioni di salvataggio Visio**.
 Questo codice di esempio funziona come segue:
 
 1. Carica una fonte Visio.
@@ -39,8 +39,8 @@ Questo codice di esempio funziona come segue:
 1. Salva la pagina Visio in qualsiasi formato di file supportato.
 #### **Esempio di programmazione di forme convertite**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
-### **Converti Visio Shape in PDF**
-Il metodo ToPdf della classe Shape permette di convertire una forma nel formato PDF.
+### **Convert Visio Shape to PDF**
+The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -53,8 +53,8 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Pages[0].Shapes.GetShape(59).ToPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **Converti la forma Visio in HTML**
-Il metodo ToHTML della classe Shape permette di convertire una forma nel formato HTML.
+### **Convert Visio Shape to HTML**
+The ToHTML method of the Shape class allows to convert a shape into the HTML format.
 
 {{< highlight "java" >}}
 

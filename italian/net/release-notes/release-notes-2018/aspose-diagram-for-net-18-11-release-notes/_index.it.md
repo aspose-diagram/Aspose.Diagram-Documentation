@@ -14,17 +14,17 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for .NET 18.11](ht
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMNET-50410|MilestoneHelper - Aggiunto il supporto del setter del formato della stringa di data personalizzato|Aumento|
-|DIAGRAMNET-51568|Aggiungi un'opzione per impostare ViewBox in SaveOptions per SVG|Aumento|
-|DIAGRAMNET-51580|Aspose.Diagram crea SVG con linee guida e MS Visio no|Aumento|
+|DIAGRAMNET-51568|Add an option to set ViewBox in SaveOptions for SVG|Aumento|
+|DIAGRAMNET-51580|Aspose.Diagram creates SVG with guidelines and MS Visio does not|Aumento|
 |DIAGRAMNET-51556|Il metodo Shape.ToImage non genera immagini corrette|Insetto|
 |DIAGRAMNET-51557|Il metodo Shape.ToImage restituisce immagini vuote in caso di copia della pagina|Insetto|
 |DIAGRAMNET-51570|Il metodo Shape.ToImage non genera immagini corrette|Insetto|
-|DIAGRAMNET-51576|VSDX in PDF - Blocchi di testo mancanti|Insetto|
+|DIAGRAMNET-51576|VSDX to PDF - Missing Text Blocks|Insetto|
 |DIAGRAMNET-51578|VSDX all'immagine risulta in StackOverFlowException|Insetto|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarli in il[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge SVGFitToViewPort in SVGSaveOptions**
-Se questa proprietà è true, l'SVG generato si adatterà alla porta di visualizzazione.
+If this property is true, the generated SVG will fit to view port.
 
 {{< highlight "java" >}}
 

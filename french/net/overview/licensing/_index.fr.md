@@ -15,7 +15,7 @@ La version d'évaluation de Aspose.Diagram (sans licence spécifiée) fournit to
 La version d'évaluation fournit toutes les fonctionnalités à l'exception des suivantes :
 
 - Vous ne pouvez lire que les dix premières formes de la première page de Visio diagram.
-- Vous verrez également un filigrane d'évaluation dans les images exportées et les fichiers PDF.
+- You will also see evaluation watermark in exported images and PDF files.
 
 {{% alert color="primary" %}} 
 

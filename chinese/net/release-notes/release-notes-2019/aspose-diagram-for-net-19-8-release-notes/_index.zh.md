@@ -15,13 +15,13 @@ url: /zh/net/aspose-diagram-for-net-19-8-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50334|添加对 VBA 代码/宏的支持（添加 - 编辑 - 删除）|强化|
 |DIAGRAMNET-51083|添加绘制样条曲线的支持|强化|
-|DIAGRAMNET-51676|Visio 到 HTML - 输出中包含文件名|强化|
+|DIAGRAMNET-51676|Visio to HTML - output contains filename in it|强化|
 |DIAGRAMNET-50263|无法将连接器文本位置设置为公式|漏洞|
-|DIAGRAMNET-50284|VTX 到 HTML 转换，形状填充颜色未保留|漏洞|
-|DIAGRAMNET-50432|VDX 到 PDF 转换，Diagram.setFontDirs 方法仅在整个 diagram 上使用第一个字体|漏洞|
-|DIAGRAMNET-50463|VSDX 到 PDF 转换，缺少或不完整的形状渲染|漏洞|
-|DIAGRAMNET-51033|将 VSDX 转换为 PDF 时未保留网络形状|漏洞|
-|DIAGRAMNET-51303|VSDX 到 PDF - 连接线上文本的颜色已更改|漏洞|
+|DIAGRAMNET-50284|VTX to HTML conversion, shapes fill color is not preserved|漏洞|
+|DIAGRAMNET-50432|VDX to PDF conversion, Diagram.setFontDirs method use only first font over the whole diagram|漏洞|
+|DIAGRAMNET-50463|VSDX to PDF conversion, missing or incomplete shapes rendering|漏洞|
+|DIAGRAMNET-51033|The network shapes are not being preserved on converting a VSDX to PDF|漏洞|
+|DIAGRAMNET-51303|VSDX to PDF - the color of text on connecting lines is changed|漏洞|
 |DIAGRAMNET-51663|将 VSD 转换为 VSDX 时出现未处理的异常|漏洞|
 |DIAGRAMNET-51664|删除未使用的主题后文件已损坏|漏洞|
 |DIAGRAMNET-51665|删除未使用的主题后图像显示为 X|漏洞|
@@ -29,9 +29,9 @@ url: /zh/net/aspose-diagram-for-net-19-8-release-notes/
 |DIAGRAMNET-51668|VISIO 到 JPG - 输出图像格式不正确|漏洞|
 |DIAGRAMNET-51671|删除未使用的主形状和样式时，只有图像有问题|漏洞|
 |DIAGRAMNET-51672|加载和保存时丢失的图片|漏洞|
-|DIAGRAMNET-51677|Visio 到 HTML - 生成的 HTML 中的链接不起作用|漏洞|
-|DIAGRAMNET-51678|Visio 到 HTML - 保存为 HTML 时日期格式不正确|漏洞|
-|DIAGRAMNET-51679|Visio 到 PDF - PDF 中的几个格式错误|漏洞|
+|DIAGRAMNET-51677|Visio to HTML - Link in generated HTML does not work|漏洞|
+|DIAGRAMNET-51678|Visio to HTML - Date Format incorrect when saving as HTML|漏洞|
+|DIAGRAMNET-51679|Visio to PDF - Several formatting errors in PDF|漏洞|
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在这[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
 ### **在页面中添加 DrawSpline**

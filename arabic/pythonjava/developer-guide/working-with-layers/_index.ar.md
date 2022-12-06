@@ -5,7 +5,7 @@ weight: 160
 url: /ar/python-java/working-with-layers/
 ---
 ### **تكوين كائنات الشكل مع الطبقات**
-يسمح Aspose.Diagram لـ Python عبر Java بتكوين كائنات الشكل بطبقات في Microsoft Office Visio diagram. يمكن أن ينتمي كل شكل إلى طبقات متعددة حتى يتمكن المطورون من إدارة الأشكال لتناسب احتياجات المستخدم النهائي.
+يسمح Aspose.Diagram لـ Python via Java بتكوين كائنات الشكل بطبقات في Microsoft Office Visio diagram يمكن أن ينتمي كل شكل إلى طبقات متعددة حتى يتمكن المطورون من إدارة الأشكال لتناسب احتياجات المستخدم النهائي.
 
  ال[شكل](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) يقدم كائن الفئة خاصية LayerMember التي تسمح بإضافة / إزالة كائنات الشكل من / إلى الطبقات في رسم Visio. يمكن للمستخدمين إدارة هذه الخصائص برمجيًا باستخدام Aspose.Diagram API على النحو التالي:
 
@@ -15,7 +15,7 @@ url: /ar/python-java/working-with-layers/
 #### **عينات البرمجة**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Layers-ConfigureShapeLayers.py" >}}
 ### **أضف طبقة في Visio PageSheet**
-يسمح Aspose.Diagram لـ Python عبر Java للمطورين بإضافة طبقات جديدة لتنظيم فئات مخصصة من الأشكال ، ثم تعيين الأشكال لتلك الطبقات برمجيًا.
+Aspose.Diagram لـ Python via Java يسمح للمطورين بإضافة طبقات جديدة لتنظيم فئات مخصصة من الأشكال ، ثم تخصيص أشكال لتلك الطبقات برمجيًا.
 
  ال[LayerCollection](https://reference.aspose.com/diagram/java/com.aspose.diagram/LayerCollection) يقدم class طريقة إضافة تسمح بإضافة ملف[طبقة](https://reference.aspose.com/diagram/java/com.aspose.diagram/layer) كائن فئة في[الرسم Visio](DrawingFlowChart.vsdx). يمكن للمطورين تعيين خصائص الطبقة عن طريق تهيئة كائن الفئة الخاص بها.
 
@@ -25,7 +25,7 @@ url: /ar/python-java/working-with-layers/
 
 {{% alert color="primary" %}} 
 
-يتيح Aspose.Diagram لـ Python عبر Java للمطورين الوصول إلى الطبقات الموجودة Visio diagram.
+Aspose.Diagram لـ Python via Java يمنح المطورين الوصول إلى الطبقات الموجودة Visio diagram.
 
 {{% /alert %}} 
 ### **احصل على جميع الطبقات المتاحة**

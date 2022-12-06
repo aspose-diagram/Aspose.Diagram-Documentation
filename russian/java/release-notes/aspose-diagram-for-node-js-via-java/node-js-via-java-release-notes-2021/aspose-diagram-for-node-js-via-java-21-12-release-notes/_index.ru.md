@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram для Node.js через Java Примечания к выпуску 21.12
+title: Aspose.Diagram для Node.js via Java 21.12 Примечания к выпуску
 type: docs
 weight: 3
 url: /ru/java/aspose-diagram-for-node-js-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит информацию о примечаниях к выпуску для Aspose.Diagram для Node.js через Java 21.12.
+Эта страница содержит информацию о примечаниях к выпуску для Aspose.Diagram для Node.js via Java 21.12.
 
 
 {{% /alert %}}

@@ -13,11 +13,11 @@ url: /ru/net/aspose-diagram-for-net-21-7-release-notes/
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|Вывод SVG — применение атрибутов CSS к тексту|Улучшение|
+|DIAGRAMNET-51447|Вывод SVG — Применить атрибуты CSS к тексту|Улучшение|
 |DIAGRAMNET-51993|Ошибки форматирования в pdf от vsd|Улучшение|
 |DIAGRAMNET-52020|Проблема с динамическим соединителем|Улучшение|
-|DIAGRAMNET-52044|Visio в HTML — фигуры в выводе неверны|Ошибка|
-|DIAGRAMNET-52045|Visio в HTML — API выдает System.ArgumentException: «Параметр недействителен».|Ошибка|
+|DIAGRAMNET-52044|От Visio до HTML — формы в выводе неверны|Ошибка|
+|DIAGRAMNET-52045|Visio — HTML — API выдает System.ArgumentException: «Параметр недействителен».|Ошибка|
 |DIAGRAMNET-52049|Сохранение vsdx в pdf вызывает исключение outofmemory|Ошибка|
 
 ## **Public API и обратно несовместимые изменения**

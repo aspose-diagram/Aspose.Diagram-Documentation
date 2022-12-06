@@ -22,16 +22,16 @@ Die folgende Tabelle zeigt die Dateiformate, die Aspose.Diagram for .NET laden u
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM, die sowohl die Zeichnungsvorlage als auch Makros enthält|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Web-Zeichnungsdateityp|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|Der Schablonendateityp Visio|{{< emoticons/tick >}}|||
-|[VST](https://docs.fileformat.com/visio/vst/)|VST-Vorlagendatei|{{< emoticons/tick >}}|||
-|[Pdf](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)||{{< emoticons/tick >}}||
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS-Format||{{< emoticons/tick >}}||
-|[XAML](https://docs.fileformat.com/web/xaml/)|XAML-Format||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format||{{< emoticons/tick >}}||
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML format||{{< emoticons/tick >}}||
 |[SWF](https://docs.fileformat.com/page-description-language/swf/)|Adobe Flash-Datei||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Skalierbare Vektorgrafiken (ein XML-basiertes Vektorbildformat)||{{< emoticons/tick >}}||
 |[EMF](https://docs.fileformat.com/image/emf/)|Verbesserte MetaDatei||{{< emoticons/tick >}}||
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG-Format||{{< emoticons/tick >}}||
-|[PNG](https://docs.fileformat.com/image/png/)|PNG-Format||{{< emoticons/tick >}}||
-|[BMP](https://docs.fileformat.com/image/bmp/)|BMP-Format||{{< emoticons/tick >}}||
-|[TIFF](https://docs.fileformat.com/image/tiff/)|Ein- oder mehrseitiges TIFF-Bild||{{< emoticons/tick >}}||
-|[HTML](https://docs.fileformat.com/web/html/)|HTML-Format||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Format||{{< emoticons/tick >}}||
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Single or Multi-Page TIFF Image||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Format||{{< emoticons/tick >}}||
 

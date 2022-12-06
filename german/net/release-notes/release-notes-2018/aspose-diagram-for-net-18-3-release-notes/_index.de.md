@@ -13,12 +13,12 @@ url: /de/net/aspose-diagram-for-net-18-3-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-50147|VSD zur XPS-Konvertierung werden die leeren Seiten mit roten Kreuzbildern erstellt|Erweiterung|
+|DIAGRAMNET-50147|VSD to XPS conversion, the empty pages are created having red cross images|Erweiterung|
 |DIAGRAMNET-51431|Fügen Sie die MoveTo-Methode für die Pages-Sammlung hinzu|Erweiterung|
-|DIAGRAMNET-50424  |VSDX in PDF-Konvertierung, das Symbol überlagert den Text|Insekt|
-|DIAGRAMNET-50459|VSDX in PDF-Konvertierung, das Formsymbol ist an seiner ursprünglichen Position falsch platziert|Insekt|
-|DIAGRAMNET-50460|VSDX in PDF-Konvertierung, das Formsymbol ist an seiner ursprünglichen Position falsch platziert|Insekt|
-|DIAGRAMNET-50674|Alle HTML-Ressourcen werden nicht im benutzerdefinierten Pfad gespeichert|Insekt|
+|DIAGRAMNET-50424  |VSDX to PDF conversion, the icon is overlying the text|Insekt|
+|DIAGRAMNET-50459|VSDX to PDF conversion, shape icon is misplaced from its original position|Insekt|
+|DIAGRAMNET-50460|VSDX to PDF conversion, shape icon is misplaced from its original position|Insekt|
+|DIAGRAMNET-50674|All HTML resources are not saved at the custom path|Insekt|
 |DIAGRAMNET-51403|VSD zum Bild - die Pfeilspitzen sind falsch platziert|Insekt|
 |DIAGRAMNET-51427|Ausgabe VSDX - Die Steuerelemente in Shapes funktionieren nicht|Insekt|
 |DIAGRAMNET-51429|Korrigieren Sie die URL der Produktseite über NuGet Galerie|Insekt|

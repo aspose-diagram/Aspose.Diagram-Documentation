@@ -3,7 +3,7 @@ title: Desteklenen Dosya Biçimleri
 type: docs
 weight: 20
 url: /tr/java/supported-file-formats/
-description:  Visio Diagram Java API 07614481, VDX, VSD dahil olmak üzere çeşitli formatları yükleyebilir ve kurtarabilir.
+description:  Visio Diagram Java API can load and save variety of formats including VSDX, VDX, VSD, VTX, VSSX, VSDM, VSTM, PDF, XPS, SVG, EMF, JPEG, PNG, BMP, TIFF and HTML.
 ---
 ## **Desteklenen Dosya Biçimleri**
 Aşağıdaki tablo Aspose.Diagram for Java'in yükleyebileceği ve kaydedebileceği dosya formatlarını göstermektedir.
@@ -24,13 +24,13 @@ Aşağıdaki tablo Aspose.Diagram for Java'in yükleyebileceği ve kaydedebilece
 |[VSS](https://docs.fileformat.com/visio/vss/)|Visio Şablon Dosya Türü|{{< emoticons/tick >}}|||
 |[VST](https://docs.fileformat.com/visio/vst/)|VST Şablon Dosyası|{{< emoticons/tick >}}|||
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Taşınabilir Belge Formatı)||{{< emoticons/tick >}}||
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS formatı||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS biçimi||{{< emoticons/tick >}}||
 |[XAML](https://docs.fileformat.com/web/xaml/)|XAML biçimi||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Ölçeklenebilir Vektör Grafikleri (XML tabanlı bir vektör görüntü formatı)||{{< emoticons/tick >}}||
 |[EMF](https://docs.fileformat.com/image/emf/)|Gelişmiş Meta Dosyası||{{< emoticons/tick >}}||
-|[jpeg](https://docs.fileformat.com/image/jpeg/)|JPEG Biçimi||{{< emoticons/tick >}}||
-|[png](https://docs.fileformat.com/image/png/)|PNG Formatı||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Formatı||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Formatı||{{< emoticons/tick >}}||
 |[BMP](https://docs.fileformat.com/image/bmp/)|BMP Formatı||{{< emoticons/tick >}}||
-|[TIFF](https://docs.fileformat.com/image/tiff/)|Tek veya Çok Sayfalı TIFF Resmi||{{< emoticons/tick >}}||
-|[HTML](https://docs.fileformat.com/web/html/)|HTML Biçimi||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Tek veya Çoklu Sayfa TIFF Resim||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Formatı||{{< emoticons/tick >}}||
 

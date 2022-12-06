@@ -4,7 +4,7 @@ linktitle:  قم بتحويل Visio إلى تنسيقات أخرى
 type: docs
 weight: 40
 url: /ar/java/convert-visio-to-other-files/
-description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى تنسيقات SVG و XPS و XML و XAML. قم بتحويل VSD، VSS، VDW، VST، VSDX، VSSX، VSTX، VSDM، VSTM،VSSM إلى SVG ، XPS ، XML ، XAML مع بضعة أسطر من التعليمات البرمجية.
+description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى SVG،XPS ، XML ، XAML تنسيقات. تحويل VSD، VSS، VDW، VST، VSDX، VSSX، VSTX، VSDM، VSTM،VSSM إلى SVG،XPS، XML، XAML مع بضعة أسطر من التعليمات البرمجية.
 ---
 ## **التصدير إلى XML**
  تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XML باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
@@ -59,8 +59,8 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ![ما يجب القيام به: image_بديل_نص](http://i.imgur.com/E6pUvGD.jpg)
 ### **التصدير إلى نموذج برمجة XML**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
-## **التصدير إلى XPS**
- تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **تصدير الى XPS**
+ يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  استخدم ال[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) مُنشئ class لقراءة ملفات diagram وطريقة Save لتصدير diagram إلى أي تنسيق صورة مدعوم.
 
 تأخذ مقتطفات التعليمات البرمجية في هذه المقالة diagram أدناه كمدخل. يمكنك استخدام تنسيقات diagram أخرى (VSS ، VSSX ، VSSM ، VDX ، VST ، VSTX ، VSTM ، VDX ، VTX أو VSX) أيضًا.
@@ -72,39 +72,39 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 لتصدير VSD diagram إلى XPS:
 
 1. قم بتكوين نسخة من الفئة Diagram.
-1. اتصل بـ Diagram class "Save method" وقم بتعيين XPS كتنسيق الإخراج.
+1. اتصل بـ Diagram class 'Save method وقم بتعيين XPS كتنسيق الإخراج.
 
-توضح الصورة أدناه ملف XPS الناتج.
+توضح الصورة أدناه ملف الإخراج XPS.
 
-**خرج XPS.**
+**الإخراج XPS.**
 
 ![ما يجب القيام به: image_بديل_نص](http://i.imgur.com/1ESRxSy.png)
-### **التصدير إلى نموذج برمجة XPS**
+### **التصدير إلى عينة برمجة XPS**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
 ## **تصدير Diagram إلى SVG**
-تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+ تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  استخدم ال[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) مُنشئ class لقراءة ملفات diagram وطريقة Save لتصدير diagram إلى أي تنسيق صورة مدعوم.
 
 لتصدير VSD diagram إلى SVG ، قم بتنفيذ الخطوات التالية:
 
 1. قم بتكوين نسخة من الفئة Diagram.
-1. قم باستدعاء طريقة Save للفصل وقم بتعيين SVG كتنسيق تصدير.
-### **تصدير Diagram إلى نموذج برمجة SVG**
+1. قم باستدعاء الفئة "Save method" وقم بتعيين SVG كتنسيق التصدير.
+### **تصدير عينة برمجية من Diagram إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام Java.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
 ## **تصدير Diagram إلى XAML**
- تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XAML (لغة ترميز التطبيق الموسعة) باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XAML (لغة ترميز التطبيق الموسعة) باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  استخدم ال[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) مُنشئ class لقراءة ملفات diagram وطريقة Save لتصدير diagram إلى أي تنسيق صورة مدعوم.
 
 لتصدير VSD diagram إلى XAML:
 
 1. قم بتكوين نسخة من الفئة Diagram.
-1. قم باستدعاء طريقة Save للفصل وقم بتعيين XAML كتنسيق تصدير.
-### **التصدير إلى نموذج برمجة XAML**
-يُظهر نموذج التعليمات البرمجية كيفية تصدير diagram إلى XAML باستخدام Java.
+1. قم باستدعاء الفئة "Save method" وقم بتعيين XAML كتنسيق التصدير.
+### **التصدير إلى عينة برمجة XAML**
+يوضح نموذج الكود كيفية تصدير diagram إلى XAML باستخدام Java.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
 

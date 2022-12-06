@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API ermöglicht es Entwicklern, eine quadratische Form a
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsVSDX.cs" >}}
 
 ## **Zeichnen Sie ein Quadrat in SVG**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, ein Quadrat auf der Seite zu zeichnen und im SVG-Format zu speichern. Das folgende Codebeispiel zeigt, wie ein Quadrat in einer Visio-Zeichnung gezeichnet und im SVG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a square in the page and save as SVG format. The code example below shows how to draw a square in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsSVG.cs" >}}
 
-## **Quadrat in PDF zeichnen**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, ein Quadrat auf der Seite zu zeichnen und im PDF-Format zu speichern. Das folgende Codebeispiel zeigt, wie Sie ein Quadrat in einer Visio-Zeichnung zeichnen und im PDF-Format speichern.
+## **Zeichnen Sie ein Quadrat in PDF**
+Aspose.Diagram for .NET API allows developers to draw a square in the page and save as PDF format. The code example below shows how to draw a square in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPDF.cs" >}}
 
 ## **Zeichnen Sie ein Quadrat in PNG**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, ein Quadrat auf der Seite zu zeichnen und im PNG-Format zu speichern. Das folgende Codebeispiel zeigt, wie ein Quadrat in einer Visio-Zeichnung gezeichnet und im PNG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a square in the page and save as PNG format. The code example below shows how to draw a square in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPNG.cs" >}}
 
 ## **Zeichnen Sie ein Quadrat in HTML**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, ein Quadrat auf der Seite zu zeichnen und im HTML-Format zu speichern. Das folgende Codebeispiel zeigt, wie ein Quadrat in einer Visio-Zeichnung gezeichnet und im HTML-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a square in the page and save as HTML format. The code example below shows how to draw a square in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsHTML.cs" >}}

@@ -16,7 +16,7 @@ url: /ar/net/aspose-diagram-for-net-21-2-release-notes/
 |DIAGRAMNET-51986|أضف طريقة الرسم centerDrawing الموجودة في صفحة interop visio|التعزيز|
 |DIAGRAMNET-51987|تنفيذ طريقة للحصول على ActivePage|التعزيز|
 |DIAGRAMNET-51978|تحويل VSD إلى VSDX - غير قادر على فتح الإخراج في MS Visio|حشرة|
-|DIAGRAMNET-51980|"حدث خطأ عام في GDI +." استثناء عند تقديم ملف HTML VSDX|حشرة|
+|DIAGRAMNET-51980|"حدث خطأ عام في GDI +." استثناء عند التقديم إلى ملف HTML VSDX|حشرة|
 |DIAGRAMNET-51981|تحويل VSDX إلى PDF - الأشكال سوداء في ملف pdf الناتج|حشرة|
 |DIAGRAMNET-51985|تحويل VSDX إلى VSDX/VDX: ألوان الشكل تتغير إلى التدرج بعد الحفظ|حشرة|
 |DIAGRAMNET-51989|Visio إلى HTML - حد غريب في المخرجات|حشرة|

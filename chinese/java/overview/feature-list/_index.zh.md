@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/java/feature-list/
 keywords: Visio Diagram Java API
-description: Visio Diagram Java API 功能列表包括创建、读取、写入、导出、打印和访问 Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, 0716ST481, 076173487 格式
+description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 ## **丰富的功能**
 **创造**:
@@ -16,7 +16,7 @@ description: Visio Diagram Java API 功能列表包括创建、读取、写入�
 - 读取 Microsoft Visio 2003/2007/2010 VSD 格式。
 - 读取 Microsoft Visio 2003/2007/2010 VSS 格式。
 - 阅读 Microsoft Visio 2003/2007/2010 VDW 格式。
-- 阅读 Microsoft Visio 2003/2007/2010 VST 格式。
+- 读取 Microsoft Visio 2003/2007/2010 VST 格式。
 
 **读和写**:
 
@@ -32,11 +32,11 @@ description: Visio Diagram Java API 功能列表包括创建、读取、写入�
 
 **出口**:
 
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出为流行的图像格式（BMP、JPEG、TIFF、EMF、SVG 和 PNG）。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出为 PDF。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 HTML。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 XML 纸张规范 (XPS)。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 XAML。
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **打印**:
 

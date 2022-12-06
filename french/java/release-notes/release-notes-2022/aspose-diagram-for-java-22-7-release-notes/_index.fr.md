@@ -14,7 +14,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk : problème de remplissage hérité|Renforcement|
-|DIAGRAMJAVA-50446|L'image de sortie est pixélisée lors de la conversion d'un VSD en HTML|Punaise|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|Punaise|
 |DIAGRAMJAVA-50996|Forme mal affichée - rectangle barré affiché à la place|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

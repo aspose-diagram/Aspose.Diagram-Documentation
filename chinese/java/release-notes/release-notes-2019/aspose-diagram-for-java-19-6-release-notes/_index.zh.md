@@ -13,8 +13,8 @@ url: /zh/java/aspose-diagram-for-java-19-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50119|VTX 到 HTML 转换，形状填充颜色未保留|漏洞|
-|DIAGRAMJAVA-50162|VTX 到 HTML 转换，缺少形状的填充颜色|漏洞|
-|DIAGRAMJAVA-50197|VDX 到 PDF 转换，Diagram.setFontDirs 方法仅在整个 diagram 上使用第一个字体|漏洞|
-|DIAGRAMJAVA-50199|VDX 到 PNG 转换，Diagram.setFontDirs 方法仅在整个 diagram 上使用第一个字体|漏洞|
+|DIAGRAMJAVA-50119|VTX to HTML conversion, shapes fill color is not preserved|漏洞|
+|DIAGRAMJAVA-50162|VTX to HTML conversion, the fill color of the shapes is missing|漏洞|
+|DIAGRAMJAVA-50197|VDX to PDF conversion, Diagram.setFontDirs method use only first font over the whole diagram|漏洞|
+|DIAGRAMJAVA-50199|VDX to PNG conversion, Diagram.setFontDirs method use only first font over the whole diagram|漏洞|
 

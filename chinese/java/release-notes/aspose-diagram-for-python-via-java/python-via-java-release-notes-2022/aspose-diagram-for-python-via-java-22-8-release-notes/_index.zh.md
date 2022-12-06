@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram 为 Python 通过 Java 22.8 发行说明
+title: Aspose.Diagram for Python via Java 22.8 Release Notes
 type: docs
 weight: 20
 url: /zh/java/aspose-diagram-for-python-via-java-22-8-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含 Aspose.Diagram 的发行说明信息，适用于 Python via Java 22.8。
+This page contains release notes information for Aspose.Diagram for Python via Java 22.8.
 
 {{% /alert %}}
 ## **改进和变化**  ##

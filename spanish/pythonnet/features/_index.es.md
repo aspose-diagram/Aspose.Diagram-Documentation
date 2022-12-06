@@ -8,16 +8,16 @@ description: Aspose.Diagram for Python via .NET features
 ---
 {{% alert color="primary" %}} 
 
-Esta página resume Aspose.Diagram para Python a través de .NET funciones.
+This page summarizes Aspose.Diagram for Python via .NET features.
 
 {{% /alert %}} 
 ## **Formatos de archivo y conversiones**
-- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF, and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 ## **Renderizado e Impresión**
-- Renderizar páginas a imágenes vectoriales (EMF)
-- Renderizar páginas a imágenes rasterizadas (TIFF multipágina, GIF)
-- Renderizar páginas a imágenes rasterizadas (PNG, JPEG, etc.)
-- Renderice páginas a PDF con alta fidelidad
+- Render pages to vector images (EMF)
+- Render pages to raster images (Multipage TIFF, GIF)
+- Render pages to raster images (PNG, JPEG, etc.)
+- Render pages to PDF with high fidelity
 ## **Visio Características del contenido**
 - Copie o mueva páginas dentro o entre diagramas
 - Insertar imágenes usando API

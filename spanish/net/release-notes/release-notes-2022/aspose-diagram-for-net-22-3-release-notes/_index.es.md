@@ -19,9 +19,9 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |DIAGRAMNET-52661|No se proporciona ningún ejemplo de agregar marca de agua a visio en la documentación|Insecto|
 |DIAGRAMNET-52663|Detectar estilos de línea personalizados para la forma con maestro nulo|Insecto|
 |DIAGRAMNET-52666|Conversión de Visio a PDF: problema con los gráficos de datos [Cont.]|Insecto|
-|DIAGRAMNET-52684|Excepción al exportar a HTML|Insecto|
-|DIAGRAMNET-52685|Excepción al exportar a HTML|Insecto|
-|DIAGRAMNET-52692|Diagram. Guardar en MemoryStream con formato PDF arroja una excepción System.NullReferenceException|Insecto|
+|DIAGRAMNET-52684|Exception when export to HTML|Insecto|
+|DIAGRAMNET-52685|Exception when export to HTML|Insecto|
+|DIAGRAMNET-52692|Diagram.Save to MemoryStream using PDF Format Throws a System.NullReferenceException|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Diagram.

@@ -13,5 +13,5 @@ Bu sayfa Aspose.Diagram for Java 21.1 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX'den HTML'ye dönüştürme, meta dosya simgesi yerine boş dikdörtgen kutu|Artırma|
+|DIAGRAMJAVA-50118|VTX'den HTML'e dönüştürme, meta dosya simgesi yerine boş dikdörtgen kutu|Artırma|
 

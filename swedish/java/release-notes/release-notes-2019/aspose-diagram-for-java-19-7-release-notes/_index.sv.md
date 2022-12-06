@@ -13,6 +13,6 @@ Den här sidan innehåller release notes för[Aspose.Diagram for Java 19.7](http
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50086|VSD till PDF-konvertering, dataförlust/former saknas|Insekt|
-|DIAGRAMJAVA-50087|VSD till PDF-konvertering, former är felplacerade|Insekt|
+|DIAGRAMJAVA-50086|VSD till PDF konvertering, dataförlust/former saknas|Insekt|
+|DIAGRAMJAVA-50087|VSD till PDF konvertering, former är felplacerade|Insekt|
 

@@ -27,13 +27,13 @@ Aspose.Diagram for Python via Java API allows developers to include or exclude h
 ### **Oculte una página en Visio Diagram y establezca la opción de exportación**
 Aspose.Diagram for Python via Java API has the `Page` class that represents a Visio drawing page. The PageSheet property exposed by the Page class also exposes the page properties. The `UIVisibility` field of the page properties allows to hide the page. Developers can then use `exportHiddenPage` property which is added in the `SVGSaveOptions`, `XPSSaveOptions`, `ImageSaveOptions`, `HTMLSaveOptions` and `PdfSaveOptions` classes.
 
-#### **Establecer la opción de exportación para PDF**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato PDF.
+#### **Set the Export Option for PDF**
+The code below shows how to set save options before saving a diagram to PDF format.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExporToHiddenVisioPagesToPdf.py" >}}
 
-#### **Establecer la opción de exportación para HTML**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato HTML.
+#### **Set the Export Option for HTML**
+The code below shows how to set save options before saving a diagram to HTML format.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToHtml.py" >}}
 
@@ -42,7 +42,7 @@ El siguiente código muestra cómo configurar las opciones de guardado antes de 
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToImage.py" >}}
 
-#### **Establecer la opción de exportación para SVG**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato SVG.
+#### **Set the Export Option for SVG**
+The code below shows how to set save options before saving a diagram to SVG format.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToSVG.py" >}}

@@ -13,6 +13,6 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50383|El tema de las formas no se conserva al convertir un VSDX a PDF|Mejora|
+|DIAGRAMJAVA-50383|Theme of shapes is not being preserved on converting a VSDX to PDF|Mejora|
 |DIAGRAMJAVA-50717|VSD a GIF: se produce java.lang.NullPointerException|Insecto|
-|DIAGRAMJAVA-50718|NullPointerException al convertir VSD/VSDX a PNG|Insecto|
+|DIAGRAMJAVA-50718|NullPointerException when converting VSD/VSDX to PNG|Insecto|

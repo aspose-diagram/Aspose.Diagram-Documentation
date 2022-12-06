@@ -9,7 +9,7 @@ url: /zh/net/public-api-changes-in-aspose-diagram-5-9-0/
 本文档描述了 Aspose.Diagram API 从版本 5.8.0 到 5.9.0 的变化，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对 Aspose.Diagram 中幕后行为的任何更改的描述。
 
 {{% /alert %}} 
-## **将生成的 HTML 保存到流中**
+## **Save Resultant HTML to a Stream**
 新的 Save 方法已添加到 Diagram 类中。它有两个参数，流对象和保存文件格式。
 示例代码：
 

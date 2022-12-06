@@ -13,13 +13,13 @@ url: /tr/java/aspose-diagram-for-java-17-5-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50472|Visio'den PDF'e dönüştürme sırasında yazı tipi değiştirmeyle ilgili uyarıyı oluşturun.|Artırma|
+|DIAGRAMJAVA-50472|Visio'den PDF'e dönüşüm sırasında yazı tipi değişimi hakkında uyarı oluşturun.|Artırma|
 |DIAGRAMJAVA-50480 |VSDX'de bir SolutionXML öğesi eklenemez|Artırma|
 |DIAGRAMJAVA-50473|VDX'i VSDM'e dönüştürürken şekillerin eksik bağlantıları|Böcek|
 |DIAGRAMJAVA-50475|VDX'i VSDM'e dönüştürürken bağlantı hattı diğer şekillerden geçiyor|Böcek|
 |DIAGRAMJAVA-50476|VDX'i VSDM'e dönüştürürken şekillerin eksik bağlantıları|Böcek|
 |DIAGRAMJAVA-50479|Bir VSDX'den Çözüm XML'leri alınamıyor|Böcek|
-|DIAGRAMJAVA-50481|VSDX'i PDF'ye dönüştürürken yanlış dikdörtgen şekli rengi|Böcek|
+|DIAGRAMJAVA-50481|VSDX'i PDF'e dönüştürürken dikdörtgen şeklinin rengi yanlış|Böcek|
 {{% alert color="primary" %}} 
 
 Aspose.Diagram for Java sürümünde API değişiklikleri yoktur. İkincisi, 07613481 for Java'in kod tabanını taşıydığımız gibi, değişikliklerin çoğu, geliştirmeler ve düzeltmelerin çoğu da dahil edilmiştir. 17.5.

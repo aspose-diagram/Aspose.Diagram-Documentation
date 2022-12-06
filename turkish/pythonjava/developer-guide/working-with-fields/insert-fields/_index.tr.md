@@ -6,7 +6,7 @@ url: /tr/python-java/create-insert-fields/
 description: Java Diagram API kullanarak alanlar nasıl oluşturulur, eklenir.
 ---
 ## **Alan ekle**
- Python için Java üzerinden Aspose.Diagram, Microsoft Office Otomasyonu olmadan kendi uygulamalarınızdan Microsoft Visio diyagramlarına alan oluşturmanıza ve eklemenize olanak tanır.
+ Python via Java için Aspose.Diagram, Microsoft Office Otomasyonu olmadan kendi uygulamalarınızdan Microsoft Visio diyagramlarına alan oluşturmanıza ve eklemenize olanak tanır.
 
 ### **Programlama Örneği**
 Aşağıdaki kod parçası, şekle bir alan ekler.

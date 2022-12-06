@@ -27,24 +27,24 @@ url: /tr/net/aspose-diagram-for-net-17-4-0-release-notes/
 |DIAGRAMNET-51169|VDX bağlantısının bağlantısından ve bu bağlantının bir kısmına alınamıyor|Böcek|
 |DIAGRAMNET-51170|Visio, GIF resmi eklendiğinde VSDX dosyasını açamıyor|Böcek|
 |DIAGRAMNET-51173|VSDX'deki konektör şeklinin bileşik tipini korumaz|Böcek|
-|DIAGRAMNET-51177|VSDM'i SVG'ye dönüştürürken ok düğmesi doğru görüntülenmiyor|Böcek|
-|DIAGRAMNET-51178|VSDM'i SVG'ye dönüştürürken yinelenen bir metin satırının üzerine yazılmış|Böcek|
+|DIAGRAMNET-51177|VSDM'i SVG'e dönüştürürken ok düğmesi doğru görüntülenmiyor|Böcek|
+|DIAGRAMNET-51178|VSDM'den SVG'e dönüştürülürken yinelenen bir metin satırının üzerine yazılmış|Böcek|
 |DIAGRAMNET-51180|VSDX biçiminde kaydederken yanlış konektör düzeni|Böcek|
-|DIAGRAMNET-51181|PDF formatında kaydederken hatalı konektör yerleşimi|Böcek|
-|DIAGRAMNET-51182|VSD'i PDF'ye dönüştürmede eksik şekiller|Böcek|
-|DIAGRAMNET-51183|VSD'i PDF'ye dönüştürürken yer değiştiren şekiller|Böcek|
+|DIAGRAMNET-51181|PDF biçiminde kaydederken yanlış konektör düzeni|Böcek|
+|DIAGRAMNET-51182|VSD'i PDF'e dönüştürmede eksik şekiller|Böcek|
+|DIAGRAMNET-51183|VSD'i PDF'e dönüştürürken yer değiştiren şekiller|Böcek|
 |DIAGRAMNET-51187|VDX dosyası kaydedildikten sonra bozuldu - II|Böcek|
-|DIAGRAMNET-51191|Şeklin altındaki sorumluluk kutusu, bir VDX'i SVG'ye kaydederken kısmen gölgelenir|Böcek|
-|DIAGRAMNET-51192|Bir VDX'i SVG'ye kaydederken metin ifadeleri doğru aralıklarla yerleştirilmiyor|Böcek|
-|DIAGRAMNET-51193|VDX'i SVG'ye kaydederken ek bir metin belirdi|Böcek|
-|DIAGRAMNET-51200|Bir VSDM'i SVG'ye kaydederken metin öğeleri çakışıyor|Böcek|
+|DIAGRAMNET-51191|Şeklin altındaki sorumluluk kutusu, VDX'den SVG'e kaydedilirken kısmen gölgelenir|Böcek|
+|DIAGRAMNET-51192|Bir VDX'den SVG'e kaydedilirken metin ifadeleri doğru aralıklarla yerleştirilmiyor|Böcek|
+|DIAGRAMNET-51193|VDX'i SVG'e kaydederken ek bir metin belirdi.|Böcek|
+|DIAGRAMNET-51200|Bir VSDM'den SVG'e kaydedilirken metin öğeleri çakışıyor|Böcek|
 |DIAGRAMNET-51202|diagram kaydetmede ArgumentOutOfRangeException|Böcek|
 |DIAGRAMNET-51203|VSDX kaydetmede resimler eksik|Böcek|
-|DIAGRAMNET-51205|VSDM'i SVG'ye dönüştürürken yer değiştiren metin ve eksik karakter|Böcek|
-|DIAGRAMNET-51206|VSDM'i SVG'ye dönüştürürken altta yanlış görüntü|Böcek|
+|DIAGRAMNET-51205|VSDM'i SVG'e dönüştürürken yer değiştiren metin ve eksik karakter|Böcek|
+|DIAGRAMNET-51206|VSDM'i SVG'e dönüştürürken alttaki yanlış görüntü|Böcek|
 |DIAGRAMNET-51207|VDX dosyası kaydedildikten sonra bozuldu - I|Böcek|
-|DIAGRAMNET-51209|Bir çizim PNG olarak kaydedilirken bir hata oluştu - I|Böcek|
-|DIAGRAMNET-51210|PNG'de bir çizim kaydedilirken bir hata oluştu - II|Böcek|
+|DIAGRAMNET-51209|PNG'de çizim kaydedilirken bir hata oluştu - I|Böcek|
+|DIAGRAMNET-51210|PNG - II'de bir çizim kaydedilirken bir hata oluştu|Böcek|
 |DIAGRAMNET-51213|Çizim en son kaydedildiğinde doğru tarih ve saat değeri alınamıyor|Böcek|
 |DIAGRAMNET-51215|VSD'i JPG'ye dönüştürürken bir dikdörtgen şekli oluşturuluyor|Böcek|
 

@@ -7,8 +7,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie einen Master aus einer
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Aspose.Diagram für Python über Java ermöglicht es Ihnen, Master aus Schablone hinzuzufügen.
-Aspose.Diagram für Python über Java API hat die Master-Klasse, die eine Visio-Zeichnungsformvorlage darstellt.
+Aspose.Diagram for Python via Java allows you to add master from stencil. 
+Aspose.Diagram for Python via Java API has the Master class that represents a Visio drawing shape template.
 Mit der Methode**addMaster** in der Klasse Diagram, um Master aus Schablone hinzuzufügen.
 
 ## **Beispielcode**

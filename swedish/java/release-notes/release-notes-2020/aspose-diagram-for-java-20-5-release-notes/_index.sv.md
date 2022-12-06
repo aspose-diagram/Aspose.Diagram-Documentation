@@ -14,7 +14,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50487|Förskjutna textobjekt vid konvertering av en VSD till SVG|Förbättring|
-|DIAGRAMJAVA-50692|Fet text felaktigt placerad när du sparar VSDX som SVG|Förbättring|
+|DIAGRAMJAVA-50692|Fet text felaktigt placerad när VSDX sparas som SVG|Förbättring|
 |DIAGRAMJAVA-50693|Bilder finns inte i utdata SVG|Insekt|
 |DIAGRAMJAVA-50695|Kan inte spara VSDX-filen som en bild - den kastar NullPointerException|Insekt|
 ## **Offentlig API och bakåtinkompatibla ändringar**

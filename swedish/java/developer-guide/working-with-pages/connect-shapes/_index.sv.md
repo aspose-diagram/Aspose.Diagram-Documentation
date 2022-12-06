@@ -8,7 +8,7 @@ description: Det här avsnittet förklarar hur man kopplar två former med Aspos
 ## **Anslut former**
 Det här avsnittet förklarar hur man ansluter två former med Aspose.Diagram for Java.
 ### **Anslut former**
- De[connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) metod koppla två former via en kontakt i[Sida](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) klass.
+ De[connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) metod koppla två former via en kontakt i[Sida](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) klass.
 
 Koden nedan visar hur man:
 

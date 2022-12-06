@@ -15,12 +15,12 @@ url: /es/java/aspose-diagram-for-java-18-2-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50587|Agregue soporte para recuperar el elemento Char relativo de la parte de texto|Mejora|
 |DIAGRAMJAVA-50478|Las líneas del conector pasan a través de las otras formas al convertir un VDX a VSDM|Insecto|
-|DIAGRAMJAVA-50581|VSDX a PDF - representación incorrecta de las formas|Insecto|
+|DIAGRAMJAVA-50581|VSDX to PDF - incorrect rendering of the shapes|Insecto|
 |DIAGRAMJAVA-50582|Salida VSDX - las líneas de conexión no son rectas|Insecto|
 |DIAGRAMJAVA-50583|VSD importación: se produjo un error en el elemento VisioDocument|Insecto|
 |DIAGRAMJAVA-50584|VDX importación: se produjo un error en el elemento VisioDocument|Insecto|
 |DIAGRAMJAVA-50585|VSD importación: se produjo un error en el elemento VisioDocument|Insecto|
-|DIAGRAMJAVA-50586|VSDX a SVG: color de borde incorrecto de la forma|Insecto|
+|DIAGRAMJAVA-50586|VSDX to SVG - incorrect border color of the shape|Insecto|
 ### **Agrega el método getInheritChars en la clase Shape**
 Contiene los valores de caracteres para la forma heredada por la forma maestra.
 

@@ -13,6 +13,6 @@ Bu sayfa Aspose.Diagram for Java 20.7 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50697|VSDX'den PNG'ye - Çıktıda bir şeklin arka planı ters çevrilir|Böcek|
+|DIAGRAMJAVA-50697|VSDX - PNG - Çıkışta bir şeklin arka planı ters çevrilir|Böcek|
 |DIAGRAMJAVA-50698|Diagram dosyasının bozulması durumunda istisna işlemeyi uygulayın|Böcek|
 

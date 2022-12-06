@@ -13,13 +13,13 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51111|Le remplissage dégradé des cercles est incorrect lors de la conversion d'un VDX en EMF|Renforcement|
+|DIAGRAMNET-51111|Gradient fill of the circles is wrong when converting a VDX to EMF|Renforcement|
 |DIAGRAMNET-52377|Ajout de la prise en charge du chargement vsd avec l'ancienne version 3|Renforcement|
-|DIAGRAMNET-51364|VSDX en PNG - il manque le texte de l'objet OLE Embedded|Punaise|
-|DIAGRAMNET-52329|VSDX en HTML - Les emojis ne sont pas présents dans la sortie|Punaise|
+|DIAGRAMNET-51364|VSDX to PNG - missing the text of OLE Embedded object|Punaise|
+|DIAGRAMNET-52329|VSDX to HTML - Emojis are not present in the output|Punaise|
 |DIAGRAMNET-52345|Les en-têtes de pied de page sont perdus après l'enregistrement du fichier Diagram|Punaise|
-|DIAGRAMNET-52349|Visio en HTML - Les bords gauche et droit sont coupés|Punaise|
-|DIAGRAMNET-52374|ArgumentOutOfRangeException lors de l'enregistrement au format PDF|Punaise|
+|DIAGRAMNET-52349|Visio to HTML - Left and right edges are cut|Punaise|
+|DIAGRAMNET-52374|ArgumentOutOfRangeException while saving to PDF|Punaise|
 |DIAGRAMNET-52386|Pourquoi certaines pages diagram peuvent être dupliquées et d'autres ne peuvent pas utiliser Page.Copy() ?|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

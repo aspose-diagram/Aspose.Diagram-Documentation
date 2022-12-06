@@ -15,12 +15,12 @@ url: /zh/java/aspose-diagram-for-java-18-2-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50587|添加对检索文本部分的相关 Char 元素的支持|强化|
 |DIAGRAMJAVA-50478|在将 VDX 转换为 VSDM 时，连接线穿过其他形状|漏洞|
-|DIAGRAMJAVA-50581|VSDX 到 PDF - 形状渲染不正确|漏洞|
+|DIAGRAMJAVA-50581|VSDX to PDF - incorrect rendering of the shapes|漏洞|
 |DIAGRAMJAVA-50582|输出 VSDX - 连接线不直|漏洞|
 |DIAGRAMJAVA-50583|VSD 导入 - VisioDocument 元素中发生错误|漏洞|
 |DIAGRAMJAVA-50584|VDX 导入 - VisioDocument 元素中发生错误|漏洞|
 |DIAGRAMJAVA-50585|VSD 导入 - VisioDocument 元素中发生错误|漏洞|
-|DIAGRAMJAVA-50586|VSDX 到 SVG - 形状的不正确边框颜色|漏洞|
+|DIAGRAMJAVA-50586|VSDX to SVG - incorrect border color of the shape|漏洞|
 ### **在 Shape 类中添加 getInheritChars 方法**
 它包含由主形状继承的形状的字符值。
 

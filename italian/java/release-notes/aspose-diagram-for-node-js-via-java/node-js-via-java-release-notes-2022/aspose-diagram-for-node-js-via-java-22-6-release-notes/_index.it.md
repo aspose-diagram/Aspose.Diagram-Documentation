@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram per Node.js tramite Java 22.6 Note di rilascio
+title: Aspose.Diagram for Node.js via Java 22.6 Release Notes
 type: docs
 weight: 22
 url: /it/java/aspose-diagram-for-node-js-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram per Node.js tramite Java 22.6.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 22.6.
 
 {{% /alert %}}
 ## **Miglioramenti e modifiche**  ##
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: forma distorta dopo il salvataggio in PNG|Aumento|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|Aumento|
 |DIAGRAMJAVA-50967|Ridimensionamento della forma della linea laterale [Cont.]|Insetto|
 |DIAGRAMJAVA-50972|API non analizza correttamente il file|Insetto|
 |DIAGRAMJAVA-50974|Problema nell'aggiunta di un nuovo punto di connessione|Insetto|

@@ -13,11 +13,11 @@ url: /ar/net/aspose-diagram-for-net-21-7-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|إخراج SVG - تطبيق سمات CSS على النص|التعزيز|
+|DIAGRAMNET-51447|الناتج SVG - تطبيق سمات CSS على النص|التعزيز|
 |DIAGRAMNET-51993|أخطاء التنسيق في pdf من vsd|التعزيز|
 |DIAGRAMNET-52020|مشكلة في الموصل الديناميكي|التعزيز|
 |DIAGRAMNET-52044|Visio إلى HTML - الأشكال غير صحيحة في المخرجات|حشرة|
-|DIAGRAMNET-52045|Visio إلى HTML - يقوم API بإلقاء System.ArgumentException: "المعلمة غير صالحة."|حشرة|
+|DIAGRAMNET-52045|Visio إلى HTML - API يرمي System.ArgumentException: "المعلمة غير صالحة."|حشرة|
 |DIAGRAMNET-52049|يؤدي حفظ vsdx إلى pdf إلى استثناء الذاكرة|حشرة|
 
 ## **عام API والتغييرات غير المتوافقة مع الإصدارات السابقة**

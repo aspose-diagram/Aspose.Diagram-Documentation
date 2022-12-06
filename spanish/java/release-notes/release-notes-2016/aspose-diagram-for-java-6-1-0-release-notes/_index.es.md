@@ -10,10 +10,10 @@ La siguiente es una lista de cambios en esta versión de Aspose.Diagram for Java
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
 | DIAGRAMAJava-50281| ImageSaveOptions.setImageBrightness no funciona| Mejora|
-|DIAGRAMAJava-50293| La exportación de VSD a SVG no conserva los identificadores de forma| Mejora|
+|DIAGRAMAJava-50293|VSD to SVG export does not preserve shape ids | Mejora|
 | DIAGRAMAJava-50294| Formato de salida VDX: no se pueden conectar dos formas Visio| Mejora|
 | DIAGRAMAJava-50300| No se puede cambiar la orientación de la página configurando la propiedad PrintPageOrientation| Mejora|
-| DIAGRAMAJava-50067| VSD a conversión de PDF, se agrega la palabra "texto" en el texto de la forma| Insecto|
+| DIAGRAMAJava-50067|VSD to PDF conversion, the word "text" is added in the shape's text | Insecto|
 | DIAGRAMAJava-50124| Configuración incorrecta de la ubicación del texto del conector| Insecto|
 | DIAGRAMAJava-50288| Aviso de atributo faltante al abrir la resultante VDX diagram| Insecto|
 | DIAGRAMAJava-50289| El método Shape.connectedShapes no detecta algunas identificaciones de formas entrantes| Insecto|

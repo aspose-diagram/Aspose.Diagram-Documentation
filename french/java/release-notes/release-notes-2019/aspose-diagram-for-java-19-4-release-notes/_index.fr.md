@@ -14,10 +14,10 @@ Cette page contient des notes de version pour[Aspose.Diagram for Java 19.4](http
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50648|Problème d'ajout de connexions avec une forme spéciale|Renforcement|
-|DIAGRAMJAVA-50278|Exportation VST vers PNG - Le problème des formes manquantes|Punaise|
-|DIAGRAMJAVA-50279|Exportation VST vers JPG - Le problème des formes manquantes|Punaise|
-|DIAGRAMJAVA-50280|Exportation VST vers GIF - Le problème des formes manquantes|Punaise|
-|DIAGRAMJAVA-50302|VSD vers l'exportation PNG - Les formes de type Meta se transforment en symboles désordonnés|Punaise|
-|DIAGRAMJAVA-50303|VSD vers l'exportation PNG - Les formes de type Meta se transforment en symboles désordonnés|Punaise|
+|DIAGRAMJAVA-50278|VST to PNG export - The missing shapes problem|Punaise|
+|DIAGRAMJAVA-50279|VST to JPG export - The missing shapes problem|Punaise|
+|DIAGRAMJAVA-50280|VST to GIF export - The missing shapes problem|Punaise|
+|DIAGRAMJAVA-50302|VSD to PNG export - Meta type shapes turn into messy symbols|Punaise|
+|DIAGRAMJAVA-50303|VSD to PNG export - Meta type shapes turn into messy symbols|Punaise|
 |DIAGRAMJAVA-50319|VSDX la lecture manque la valeur de couleur de diverses formes|Punaise|
 

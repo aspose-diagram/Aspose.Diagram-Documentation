@@ -15,9 +15,9 @@ Bu sayfa Aspose.Diagram for .NET 21.10 için sürüm notları bilgilerini içeri
 |:- |:- |:- |
 |DIAGRAMNET-52116|"\VisioDocument içindeki VisioDocument öğesinde hata. 11'in altındaki sürümlere sahip Visio dosyaları desteklenmez. Lütfen dosyayı Visio 2003/2007/2010 biçimine dönüştürün." VSD dosyasını açarken istisna|Artırma|
 |DIAGRAMNET-52258|Dışa aktarmadan sonra kaydırılmış olarak gösterilen grafik [DEVAM.]|Artırma|
-|DIAGRAMNET-52284|[Linux]VDW, VSS, VST, IMAGE/HTML'ye boş işleniyor|Artırma|
+|DIAGRAMNET-52284|[Linux]VDW, VSS, VST, IMAGE/HTML'e boş işleniyor|Artırma|
 |DIAGRAMNET-52328|sayfaya yeni bir öğe nasıl yerleştirilir|Artırma|
-|DIAGRAMNET-52330|VSDX'i PdfEncryptionDetails ile PDF olarak kaydederken bağlantılar koptu|Artırma|
+|DIAGRAMNET-52330|VSDX'i PDF'de PdfEncryptionDetails ile kaydederken bağlantılar bozuluyor|Artırma|
 |DIAGRAMNET-52333|Emojiler üstbilgilerde/altbilgilerde, alternatif metinde, yorumlarda, sayfa adlarında, alanlarda doğru şekilde görüntülenmiyor|Artırma|
 |DIAGRAMNET-52272|App:Error "Nesne başvurusu, bir nesnenin örneğine ayarlanmadı." vsdx'i png olarak kaydederken|Böcek|
 |DIAGRAMNET-52273|Uygulama:Hata "CRC hatası: ayıklanan dosya bozuk görünüyor. vsdx png olarak kaydedilirken 0xFFFFFFFF bekleniyor, Gerçek 0xBB4C4551"|Böcek|

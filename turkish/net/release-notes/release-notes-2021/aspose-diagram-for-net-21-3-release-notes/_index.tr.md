@@ -23,14 +23,14 @@ Bu sayfa Aspose.Diagram for .NET 21.3 için sürüm notları bilgilerini içerir
 |DIAGRAMNET-51997|Azure İşlevindeki tüm API'ler için Aspose.Total lisansı kullanılırken, Aspose.Diagram istisnası dışında lisans ayarı başarısız oluyor|Böcek|
 |DIAGRAMNET-51998|şeklin geoms niteliği > 20.3.0 sürümünde boş bir listedir|Böcek|
 |DIAGRAMNET-51999|inheritProps güncellenemiyor|Böcek|
-|DIAGRAMNET-52004|VSDX, SVG olarak dışa aktarılırken bazı kenarlar eksik|Böcek|
+|DIAGRAMNET-52004|VSDX, SVG olarak dışa aktarılıyor, bazı kenarlar eksik|Böcek|
 |DIAGRAMNET-52005|VSD'i VSDX'e dönüştürme sorunu|Böcek|
-|DIAGRAMNET-52009|Visio'i HTML'ye dönüştürürken şekiller eksik|Böcek|
+|DIAGRAMNET-52009|Visio, HTML'e dönüştürülürken şekiller eksik|Böcek|
 
 ## ` `**Genel API ve Geriye Dönük Uyumsuz Değişiklikler**
 ` `Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefonda yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bize bildirin. Aspose.Diagram destek forumu.
 ### **Sayfaya ConnectShapesViaConnector eklendi**
-- Şekilleri bağlayıcı aracılığıyla bağlayın.
+- Şekilleri via konektörünü bağlayın.
 
 {{< highlight "java" >}}
 

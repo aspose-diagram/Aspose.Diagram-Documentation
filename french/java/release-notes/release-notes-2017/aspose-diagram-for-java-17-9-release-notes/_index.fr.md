@@ -15,7 +15,7 @@ url: /fr/java/aspose-diagram-for-java-17-9-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50485|Ajout de la prise en charge des formes d'espacement automatique dans Visio|Renforcement|
 |DIAGRAMJAVA-50521|Sortie VSDX - disposition incorrecte de la ligne de connecteur|Punaise|
-|DIAGRAMJAVA-50522|Sortie PNG - le texte de la forme sort des limites|Punaise|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary|Punaise|
 |DIAGRAMJAVA-50527|Sortie VSDX - la ligne de connexion touche la limite de la forme|Punaise|
 |DIAGRAMJAVA-50540|Sortie VSDX - disposition incorrecte des lignes de connexion|Punaise|
 |DIAGRAMJAVA-50543|Sortie VSDX - mise en page incorrecte et texte mal placé des lignes de connexion|Punaise|

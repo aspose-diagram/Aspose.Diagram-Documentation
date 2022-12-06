@@ -14,8 +14,8 @@ url: /ar/net/aspose-diagram-for-net-18-11-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |DIAGRAMNET-50410|MilestoneHelper - إضافة دعم محدد تنسيق سلسلة التاريخ المخصص|التعزيز|
-|DIAGRAMNET-51568|أضف خيارًا لتعيين ViewBox في SaveOptions لـ SVG|التعزيز|
-|DIAGRAMNET-51580|يقوم Aspose.Diagram بإنشاء SVG بإرشادات بينما MS Visio لا يقوم بذلك|التعزيز|
+|DIAGRAMNET-51568|أضف خيارًا لضبط ViewBox في SaveOptions لـ SVG|التعزيز|
+|DIAGRAMNET-51580|يقوم Aspose.Diagram بإنشاء SVG باستخدام الإرشادات بينما لا يقوم MS Visio بذلك|التعزيز|
 |DIAGRAMNET-51556|طريقة Shape.ToImage لا تولد صورًا صحيحة|حشرة|
 |DIAGRAMNET-51557|تقوم طريقة Shape.ToImage بإرجاع صور فارغة في حالة وجود نسخة من الصفحة|حشرة|
 |DIAGRAMNET-51570|طريقة Shape.ToImage لا تولد صورًا صحيحة|حشرة|
@@ -24,7 +24,7 @@ url: /ar/net/aspose-diagram-for-net-18-11-release-notes/
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Diagram for .NET. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعها في ال[Aspose.Diagram منتدى الدعم](https://forum.aspose.com/c/diagram/17).
 ### **يضيف SVGFitToViewPort في SVGSaveOptions**
-إذا كانت هذه الخاصية صحيحة ، فإن SVG الذي تم إنشاؤه سيكون مناسبًا لعرض المنفذ.
+إذا كانت هذه الخاصية صحيحة ، فسوف يتناسب SVG الذي تم إنشاؤه مع منفذ العرض.
 
 {{< highlight "java" >}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram für Node.js über Java 22.11 Versionshinweise
+title: Aspose.Diagram for Node.js via Java 22.11 Release Notes
 type: docs
 weight: 17
 url: /de/nodejsjava/aspose-diagram-for-node-js-via-java-22-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Node.js über Java 22.11.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 22.11.
 
 {{% /alert %}}
 ## **Verbesserungen und Änderungen**  ##

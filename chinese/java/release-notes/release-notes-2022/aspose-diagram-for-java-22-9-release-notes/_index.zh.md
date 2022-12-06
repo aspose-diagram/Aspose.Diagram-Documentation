@@ -13,7 +13,7 @@ url: /zh/java/aspose-diagram-for-java-22-9-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK：保存为 PNG 后形状变形|强化|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|强化|
 |DIAGRAMJAVA-51015|wk：非英语语言的形状名称|漏洞|
 |DIAGRAMJAVA-51020|wk：带有图层的 Sheet 形状的名称未正确解析|漏洞|
 

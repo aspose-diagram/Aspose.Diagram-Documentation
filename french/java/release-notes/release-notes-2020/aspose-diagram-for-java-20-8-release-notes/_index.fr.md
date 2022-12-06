@@ -13,4 +13,4 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50701|L'en-tête/pied de page n'est pas conservé lors de la conversion de Diagram en PDF, PNG et HTML|Renforcement|
+|DIAGRAMJAVA-50701|Header/Footer are not being preserved while converting Diagram to PDF, PNG and HTML|Renforcement|

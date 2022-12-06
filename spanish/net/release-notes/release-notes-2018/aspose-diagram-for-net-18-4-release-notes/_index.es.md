@@ -15,25 +15,25 @@ url: /es/net/aspose-diagram-for-net-18-4-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51441|Salida VSDX - No se puede copiar una forma|Mejora|
 |DIAGRAMNET-51445|No se puede copiar una forma de otro dibujo VSDX|Mejora|
-|DIAGRAMNET-50475|VSD a conversión de PDF, los caracteres del año de la fecha están fuera de lugar|Insecto|
-|DIAGRAMNET-50476|VSD a conversión de PDF, los elementos de la lista de números no están alineados correctamente|Insecto|
-|DIAGRAMNET-50477|VSD a conversión de PDF, los elementos de la lista de números no están alineados correctamente|Insecto|
-|DIAGRAMNET-50481|VSD a conversión HTML, los elementos de la lista están fuera de lugar|Insecto|
-|DIAGRAMNET-50482|VSD a conversión HTML, los caracteres del año de la fecha están fuera de lugar|Insecto|
-|DIAGRAMNET-50483|VSD a la conversión de HTML, los valores de las columnas de la tabla están fuera de lugar|Insecto|
-|DIAGRAMNET-50484|VSD a conversión HTML, los elementos de la lista de números no están alineados correctamente|Insecto|
-|DIAGRAMNET-50485|VSD a conversión HTML, los elementos de la lista de números no están alineados correctamente|Insecto|
-|DIAGRAMNET-50486|VSD a conversión de PDF, el carácter de barra entre el valor está fuera de lugar|Insecto|
-|DIAGRAMNET-51112|Las formas trapezoidales no se representan correctamente al convertir un VDX a EMF|Insecto|
-|DIAGRAMNET-51113|El texto de los círculos está fuera de lugar al convertir un VDX a EMF|Insecto|
+|DIAGRAMNET-50475|VSD to PDF conversion, the date year characters are misplaced|Insecto|
+|DIAGRAMNET-50476|VSD to PDF conversion, the number list items are not properly aligned|Insecto|
+|DIAGRAMNET-50477|VSD to PDF conversion, the number list items are not properly aligned|Insecto|
+|DIAGRAMNET-50481|VSD to HTML conversion, the list items are misplaced|Insecto|
+|DIAGRAMNET-50482|VSD to HTML conversion, the date year characters are misplaced|Insecto|
+|DIAGRAMNET-50483|VSD to HTML conversion, the table column values are misplaced|Insecto|
+|DIAGRAMNET-50484|VSD to HTML conversion, the number list items are not properly aligned|Insecto|
+|DIAGRAMNET-50485|VSD to HTML conversion, the number list items are not properly aligned|Insecto|
+|DIAGRAMNET-50486|VSD to PDF conversion, slash character between the value is misplaced|Insecto|
+|DIAGRAMNET-51112|Trapezoid shapes are not being rendered properly on converting a VDX to EMF|Insecto|
+|DIAGRAMNET-51113|The text of the circles is misplaced on converting a VDX to EMF|Insecto|
 |DIAGRAMNET-51434|Salida VSDX: los extremos izquierdo y derecho de la forma están hinchados|Insecto|
 |DIAGRAMNET-51435|No se pueden recuperar todos los nombres de formas de un dibujo VSDX|Insecto|
 |DIAGRAMNET-51436|VSDX - no se pueden recuperar los valores de celda|Insecto|
-|DIAGRAMNET-51437|VSDX a PNG: el texto en superíndice está fuera de lugar|Insecto|
-|DIAGRAMNET-51438|VSDX a SVG: el texto en superíndice está fuera de lugar|Insecto|
-|DIAGRAMNET-51439|VSDX a PNG: el salto de línea se agrega en el texto de la forma|Insecto|
+|DIAGRAMNET-51437|VSDX to PNG - the superscript text is misplaced|Insecto|
+|DIAGRAMNET-51438|VSDX to SVG - the superscript text is misplaced|Insecto|
+|DIAGRAMNET-51439|VSDX to PNG - the line break is added in the text of shape|Insecto|
 |DIAGRAMNET-51440|Salida VSDX - Diagram. Guardar arroja un error después de llamar al método CopyTheme|Insecto|
 |DIAGRAMNET-51443|Abrir y guardar la rutina del dibujo VSDX elimina el campo de fecha y hora|Insecto|
 |DIAGRAMNET-51444|Error al eliminar el maestro de diagram|Insecto|
-|DIAGRAMNET-51449|VSD a PNG: falta el color verde superior de la forma|Insecto|
+|DIAGRAMNET-51449|VSD to PNG - the top green color of the shape is missing|Insecto|
 

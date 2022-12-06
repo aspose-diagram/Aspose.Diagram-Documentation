@@ -13,6 +13,6 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50697|Da VSDX a PNG: lo sfondo di una forma viene invertito nell'output|Insetto|
+|DIAGRAMJAVA-50697|VSDX to PNG - Background of one shape is inverted in output|Insetto|
 |DIAGRAMJAVA-50698|Implementa la gestione delle eccezioni in caso di file Diagram danneggiato|Insetto|
 

@@ -15,6 +15,6 @@ url: /tr/java/creating-a-new-visio-drawing-in-php/
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Visio Diagram'i XAML'ye (Aspose.Diagram) aktar**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+ İndirmek**Dışa aktarma Visio Diagram ila XAML (Aspose.Diagram)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/CreatingaNewVisioDrawing.php)

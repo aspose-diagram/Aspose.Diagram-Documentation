@@ -15,10 +15,10 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for .NET 
 |:- |:- |:- |
 |DIAGRAMNET-52603|Visio till PDF-konvertering - Problem med datagrafik|Förbättring|
 |DIAGRAMNET-52637|Bakgrunden blir felplacerad när .VSDX-filen konverteras till .PDF|Förbättring|
-|DIAGRAMNET-50963|Kantlinjerna i tabellen saknas vid konvertering av en VSDX till PNG|Insekt|
+|DIAGRAMNET-50963|Bordslinjerna i tabellen saknas vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-50969|Felaktig justering av texten och formatering av dynamiska kontakter vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-50988|Tabellens övre kantlinje är inte synlig vid konvertering av en VSDX till PNG|Insekt|
-|DIAGRAMNET-50995|Kantlinjerna i tabellen saknas vid konvertering av en VSDX till PNG|Insekt|
+|DIAGRAMNET-50995|Bordslinjerna i tabellen saknas vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-51037|Färgen på ramar och titlar ändras vid konvertering av en VSDX till PDF|Insekt|
 |DIAGRAMNET-52581|Problem med att konvertera VSDX till PDF|Insekt|
 |DIAGRAMNET-52591|App: Fel när vsdx sparades som svg|Insekt|

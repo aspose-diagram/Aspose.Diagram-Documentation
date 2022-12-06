@@ -13,14 +13,14 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for Java 17.02.0](https:/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50037|VSD'den PDF'e dönüştürme, bir grup şeklinin arka plan rengi gölgesi değişiyor.|Böcek|
-|DIAGRAMJAVA-50365|Denklemler içeren bir Visio sayfası PNG'ye dönüştürülürken boş bir sayfa oluşturuluyor.|Böcek|
-|DIAGRAMJAVA-50461|VSDX PNG'ye dönüştürülürken kenarlıklar eksik.|Böcek|
-|DIAGRAMJAVA-50462|VSDX PNG'ye dönüştürülürken sembol kayboluyor.|Böcek|
-|DIAGRAMJAVA-50463|VSDX, SVG'ye dönüştürülürken sembol kayboluyor.|Böcek|
-|DIAGRAMJAVA-50465|VSDX PNG'ye dönüştürülürken metnin rengi farklı.|Böcek|
-|DIAGRAMJAVA-50466|VSD SVG biçimine dönüştürüldüğünde metin konumu yanlış.|Böcek|
-|DIAGRAMJAVA-50237|` `[VSDX'den PDF'ye]- LeagueGothic Normal yazı tipi kullanıldığında hata mesajı oluştu.|İstisna|
+|DIAGRAMJAVA-50037|VSD'den PDF'e dönüşüm, bir grup şeklinin arka plan rengi gölgesi değişiyor.|Böcek|
+|DIAGRAMJAVA-50365|Visio numaralı denklemli bir sayfa PNG'e dönüştürülürken boş bir sayfa oluşuyor.|Böcek|
+|DIAGRAMJAVA-50461|VSDX, PNG'e dönüştürülürken kenarlıklar eksik.|Böcek|
+|DIAGRAMJAVA-50462|VSDX, PNG'e dönüştürülürken sembol kayboluyor.|Böcek|
+|DIAGRAMJAVA-50463|VSDX, SVG'e dönüştürülürken sembol kayboluyor.|Böcek|
+|DIAGRAMJAVA-50465|VSDX'i PNG'e dönüştürürken metnin rengi farklı.|Böcek|
+|DIAGRAMJAVA-50466|VSD, SVG biçimine dönüştürüldüğünde metin konumu yanlıştır.|Böcek|
+|DIAGRAMJAVA-50237|` `[VSDX - PDF]- LeagueGothic Normal yazı tipi kullanıldığında hata mesajı oluştu.|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API'de yapılan tüm değişikliklerin yanı sıra Aspose.Diagram for Java'de yapılan geriye dönük uyumlu olmayan değişiklikler için listeye bakın. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).
 ### **Shape.getParentShape Yöntemini ekler**

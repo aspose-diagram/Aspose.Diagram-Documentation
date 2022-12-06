@@ -13,13 +13,13 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-52872|Visio a SVG genera múltiples etiquetas de patrón|Mejora|
-|DIAGRAMNET-52877|Problema de alineación de texto en ruso durante la conversión de Visio a SVG|Mejora|
-|DIAGRAMNET-52886|Problema de alineación de texto en ruso durante la conversión de Visio a SVG|Mejora|
-|DIAGRAMNET-52861|Problema en la representación HTML|Insecto|
+|DIAGRAMNET-52872|Visio to SVG generates multiple pattern tags|Mejora|
+|DIAGRAMNET-52877|Russian text alignment issue during Visio to SVG conversion|Mejora|
+|DIAGRAMNET-52886|Russian text alignment issue during Visio to SVG conversion|Mejora|
+|DIAGRAMNET-52861|Issue in HTML representation|Insecto|
 |DIAGRAMNET-52871|Algunas formas pierden su curva después de la conversión a svg|Insecto|
 |DIAGRAMNET-52883|Aplicación: guardar vsdx en svg arroja una excepción nula|Insecto|
-|DIAGRAMNET-52897|Falta el contenido de la tabla en PDF|Insecto|
+|DIAGRAMNET-52897|Missing table content in PDF|Insecto|
 |DIAGRAMNET-52900|Aplicación: guardar vsdx en PDF arroja una excepción (relleno maestro de TextureBrush)|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

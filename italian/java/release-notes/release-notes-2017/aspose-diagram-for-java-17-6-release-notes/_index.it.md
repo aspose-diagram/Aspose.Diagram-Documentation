@@ -19,9 +19,9 @@ url: /it/java/aspose-diagram-for-java-17-6-release-notes/
 |DIAGRAMJAVA-50484|Visualizzazione del testo verticale della forma della casella decisionale durante il salvataggio di un disegno nel formato VSDX|Insetto|
 |DIAGRAMJAVA-50486|Visualizzazione del testo verticale della forma di processo predefinita durante il salvataggio di un disegno nel formato VSDX|Insetto|
 |DIAGRAMJAVA-50492|Le formule nelle celle Larghezza e Altezza non vengono mantenute|Insetto|
-|DIAGRAMJAVA-50493|Caratteri mancanti nella conversione di VSD in SVG|Insetto|
+|DIAGRAMJAVA-50493|Missing characters on converting a VSD to SVG|Insetto|
 |DIAGRAMJAVA-50494|Output VSDX - le linee di collegamento non si collegano a metà delle forme di processo|Insetto|
-|DIAGRAMJAVA-50499|VSDX in PNG: una linea orizzontale bianca appare nella parte inferiore della forma|Insetto|
+|DIAGRAMJAVA-50499|VSDX to PNG - a white horizontal line appears at the bottom of shape|Insetto|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for Java. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge il metodo refreshData nella classe Shape**

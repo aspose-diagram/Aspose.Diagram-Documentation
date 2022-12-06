@@ -16,8 +16,8 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |DIAGRAMNET-50004| Ajouter une prise en charge à[appliquer la feuille de style](/diagram/fr/net/format-visio-pages/) pour une pleine page|Renforcement|
 |DIAGRAMNET-50576|Ajout de la prise en charge pour disposer d'un objet de classe Diagram|Renforcement|
 |DIAGRAMNET-50098|Définir la couleur d'arrière-plan de la page|Punaise|
-|DIAGRAMNET-51722|Diagram vers SVG - l'image de sortie présente des défauts|Punaise|
-|DIAGRAMNET-51724|Erreurs dans la console Chrome lors de l'affichage de la sortie SVG|Punaise|
+|DIAGRAMNET-51722|Diagram to SVG - output image has faults|Punaise|
+|DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|Punaise|
 |DIAGRAMNET-51725|Récupérer l'index z des formes dans Diagram|Punaise|
 |DIAGRAMNET-51726|Image d'arrière-plan manquante (PowerPoint est ajouté dans le VISIO) lors de la suppression des formes et des styles principaux inutilisés|Punaise|
 |DIAGRAMNET-51727|CheckBox (CheckBox Control) Manquant lors de la suppression des formes et des styles principaux inutilisés|Punaise|

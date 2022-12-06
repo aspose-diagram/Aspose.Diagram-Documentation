@@ -14,7 +14,7 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: Problema de relleno heredado|Mejora|
-|DIAGRAMJAVA-50446|La imagen de salida se pixela al convertir un VSD a HTML|Insecto|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|Insecto|
 |DIAGRAMJAVA-50996|La forma no se muestra correctamente; en su lugar, se muestra un rectángulo cruzado|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

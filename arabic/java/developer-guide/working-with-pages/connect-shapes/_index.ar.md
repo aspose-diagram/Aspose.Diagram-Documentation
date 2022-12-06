@@ -8,7 +8,7 @@ description: يشرح هذا القسم كيفية توصيل شكلين بـ As
 ## **ربط الأشكال**
 يوضح هذا القسم كيفية توصيل شكلين باستخدام Aspose.Diagram for Java.
 ### **ربط الأشكال**
- ال[connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) طريقة توصيل شكلين عبر موصل في ملف[صفحة](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) صف دراسي.
+ ال[connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) طريقة توصيل شكلين via موصل في[صفحة](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) صف دراسي.
 
 يوضح الكود أدناه كيفية:
 

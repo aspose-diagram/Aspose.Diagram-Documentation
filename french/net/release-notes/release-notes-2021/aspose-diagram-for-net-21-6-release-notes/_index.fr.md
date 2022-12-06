@@ -15,11 +15,11 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-52007|Performance lors de l'initialisation d'un objet diagram|Renforcement|
 |DIAGRAMNET-52008|Performance lors de l'initialisation d'un objet diagram|Renforcement|
-|DIAGRAMNET-52027|La qualité des formes n'est pas bonne dans le fichier SVG exporté|Renforcement|
-|DIAGRAMNET-52033|Enregistrement de formes au problème HTML|Punaise|
+|DIAGRAMNET-52027|Quality of shapes is not good in exported SVG file|Renforcement|
+|DIAGRAMNET-52033|Saving shapes to HTML problem|Punaise|
 |DIAGRAMNET-52035|"Eof sans exception." exception lors de l'ouverture du fichier VSDX|Punaise|
 |DIAGRAMNET-52041|Échec de l'enregistrement de certaines formes à partir du fichier VSS|Punaise|
-|DIAGRAMNET-52042|"Le paramètre n'est pas valide." exception lors du rendu du fichier VSD en HTML|Punaise|
+|DIAGRAMNET-52042|"Parameter is not valid." exception when rendering VSD file to HTML|Punaise|
 |DIAGRAMNET-52043|"La référence d'objet n'est pas définie à une instance d'un objet." exception lors de l'enregistrement de la forme à partir du fichier VSSX|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

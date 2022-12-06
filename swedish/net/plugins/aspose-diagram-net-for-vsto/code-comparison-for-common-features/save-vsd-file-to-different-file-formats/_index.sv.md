@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /sv/net/save-vsd-file-to-different-file-formats/
 ---
-I den här artikeln jämför vi konverteringsfunktionerna för Aspose.Diagram for .NET med VSTO. Den innehåller .NET-kodexempel för att konvertera VSD-filer till VDX-, PDF- och JPEG-filformat.
+I den här artikeln jämför vi konverteringsfunktionerna för Aspose.Diagram for .NET med VSTO. Den innehåller .NET kodexempel för att konvertera VSD filer till VDX, PDF och JPEG filformat.
 ## **VSTO**
 VSTO låter dig programmera med Microsoft Visio filer. Så här sparar du en fil i andra format:
 

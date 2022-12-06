@@ -13,9 +13,9 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.4.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- Testaufzählungspositionen in VSDX -> SVG sind falsch [JAVA]|Erweiterung|
-|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- Testaufzählungspositionen in VSDX -> SVG sind falsch [JAVA]|Erweiterung|
+|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|Erweiterung|
+|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|Erweiterung|
 |DIAGRAMJAVA-50689|DIAGRAMJAVA-50689 – Die Information, dass die Formen und der Container in VSDX irgendwie verknüpft sind, kann nicht abgerufen werden|Erweiterung|
 ## **Öffentliche API und rückwärtsinkompatible Änderungen**
 - SWFSaveOptions entfernt
-- SaveFileFormat.SWF entfernt
+- Removed SaveFileFormat.SWF

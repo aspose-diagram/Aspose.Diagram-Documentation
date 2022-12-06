@@ -25,7 +25,7 @@ Use el siguiente código en su aplicación Java para agrupar formas usando Aspos
 ## **Convierta una forma Visio a otros formatos de archivo**
 Aspose.Diagram for Java API permite a los desarrolladores convertir una sola forma Visio a cualquier otro formato de archivo compatible. En este artículo, eliminamos todas las demás formas Visio de la página y personalizamos la configuración de la página según el tamaño de la forma de origen.
 ### **Convertir una forma particular Visio**
- Los desarrolladores pueden convertir una forma Visio a PDF, HTML, imagen, SVG y SWF mediante[especificando las opciones de guardado Visio]().
+Developers can convert a Visio shape to PDF, HTML, Image, SVG, and SWF by [especificando las opciones de guardado Visio]().
 Este código de ejemplo funciona de la siguiente manera:
 
 1. Cargue una fuente Visio.
@@ -38,8 +38,8 @@ Este código de ejemplo funciona de la siguiente manera:
 1. Guarde la página Visio en cualquier formato de archivo compatible.
 #### **Ejemplo de programación de conversión de formas**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
-### **Convertir Visio Forma a PDF**
-El método ToPdf de la clase Shape permite convertir una forma al formato PDF.
+### **Convert Visio Shape to PDF**
+The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -52,8 +52,8 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **Convertir Visio Forma a HTML**
-El método ToHTML de la clase Shape permite convertir una forma al formato HTML.
+### **Convert Visio Shape to HTML**
+The ToHTML method of the Shape class allows to convert a shape into the HTML format.
 
 {{< highlight "java" >}}
 

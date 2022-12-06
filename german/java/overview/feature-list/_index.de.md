@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /de/java/feature-list/
 keywords: Visio Diagram Java API
-description: Visio Diagram Java API Funktionsliste enthält Erstellen, Lesen, Schreiben, Exportieren, Drucken und Zugriff
+description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 ## **Reichhaltige Funktionen**
 **Schaffen**:
@@ -16,7 +16,7 @@ description: Visio Diagram Java API Funktionsliste enthält Erstellen, Lesen, Sc
 - Lesen Sie das Format Microsoft Visio 2003/2007/2010 VSD.
 - Lesen Sie das VSS-Format Microsoft Visio 2003/2007/2010.
 - Lesen Sie Microsoft Visio 2003/2007/2010 VDW-Format.
-- Lesen Sie Microsoft Visio 2003/2007/2010 VST-Format.
+- Lesen Sie das Format Microsoft Visio 2003/2007/2010 VST.
 
 **Lesen und Schreiben**:
 
@@ -32,11 +32,11 @@ description: Visio Diagram Java API Funktionsliste enthält Erstellen, Lesen, Sc
 
 **Export**:
 
-- Exportieren Sie Diagramme (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX und VSX) in gängige Bildformate (BMP, JPEG, TIFF, EMF, SVG und PNG).
-- Diagramme (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX und VSX) als PDF exportieren.
-- Diagramme (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX und VSX) nach HTML exportieren.
-- Diagramme (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX und VSX) nach XML Paper Specification (XPS) exportieren.
-- Diagramme (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX und VSX) in XAML exportieren.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **Drucken**:
 

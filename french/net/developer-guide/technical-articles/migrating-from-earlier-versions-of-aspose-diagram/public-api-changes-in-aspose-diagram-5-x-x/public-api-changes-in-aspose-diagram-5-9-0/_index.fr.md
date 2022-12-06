@@ -9,7 +9,7 @@ url: /fr/net/public-api-changes-in-aspose-diagram-5-9-0/
 Ce document décrit les modifications apportées au Aspose.Diagram API de la version 5.8.0 à 5.9.0, qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, mais également une description de tout changement de comportement dans les coulisses de Aspose.Diagram.
 
 {{% /alert %}} 
-## **Enregistrer le HTML résultant dans un flux**
+## **Save Resultant HTML to a Stream**
 La nouvelle méthode Save a été ajoutée dans la classe Diagram. Il prend deux paramètres, l'objet flux et le format du fichier d'enregistrement.
 Exemple de code :
 

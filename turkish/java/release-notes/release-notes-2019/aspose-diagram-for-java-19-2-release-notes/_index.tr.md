@@ -16,6 +16,6 @@ Bu sayfa Aspose.Diagram for Java 19.2 için sürüm notları içerir
 |DIAGRAMJAVA-50138|Eğri çizgiler düz çizgiler olarak dışa aktarılır|Artırma|
 |DIAGRAMJAVA-50639|Şekillerin dairesel olması durumunda bağlantılar bağlanmıyor|Böcek|
 |DIAGRAMJAVA-50646|Örnek projedeki problemler|Böcek|
-|DIAGRAMJAVA-50647|Java.lang.NullPointerException'ın nedeni, VSDX'i SVG'ye dönüştürürken oluşuyor|Böcek|
+|DIAGRAMJAVA-50647|Java.lang.NullPointerException'ın nedeni, VSDX'i SVG'e dönüştürürken oluşuyor|Böcek|
 |DIAGRAMJAVA-50649|VSDX dosyası yüklenirken DiagramException oluşuyor|Böcek|
 

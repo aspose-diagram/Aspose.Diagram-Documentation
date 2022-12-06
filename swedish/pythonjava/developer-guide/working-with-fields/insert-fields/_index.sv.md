@@ -6,7 +6,7 @@ url: /sv/python-java/create-insert-fields/
 description: Så här skapar du, infoga fält med Java Diagram API .
 ---
 ## **Infoga fält**
- Aspose.Diagram för Python via Java låter dig skapa och infoga fält till Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation.
+ Aspose.Diagram för Python via Java låter dig skapa och infoga fält till Microsoft Visio diagram från dina egna applikationer, utan Microsoft 081617.
 
 ### **Programmeringsexempel**
 Följande kodbit infogar ett fält i form.

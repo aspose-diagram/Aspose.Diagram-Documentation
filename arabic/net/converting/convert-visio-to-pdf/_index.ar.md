@@ -1,15 +1,15 @@
 ﻿---
-title:  تحويل Visio إلى تنسيق PDF
-linktitle: تحويل Visio إلى PDF
+title:  تحويل Visio إلى PDF تنسيق
+linktitle: حوّل Visio إلى PDF
 type: docs
 weight: 10
 url: /ar/net/convert-visio-to-pdf/
-description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى تنسيقات PDF. قم بتحويل VSD، VSS، VDW، VST، VSDX، VSSX، VSTX، VSDM، VSTM،VSSM إلى PDF ببضعة سطور من التعليمات البرمجية.
+description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل تنسيق Visio إلى PDF. تحويل VSD، VSS، VDW، VST، VSDX، VSSX، VSTX، VSDM، VSTM،VSSM إلى PDF مع بضعة أسطر من التعليمات البرمجية.
 ---
 ## **تصدير إلى PDF**
 {{% alert color="primary" %}}
 
-Aspose.Diagram for .NET يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تحويل رسم إلى PDF ، يتم تعبئة Aspose.Diagram for .NET**طلب** حقل بقيمة "Aspose.Diagram" و**منتج PDF** حقل ذو قيمة ، على سبيل المثال "Aspose.Diagram 17.9".
+ Aspose.Diagram for .NET يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تقديم رسم إلى PDF ، يتم تعبئة Aspose.Diagram for .NET**طلب** حقل بقيمة "Aspose.Diagram" و**PDF منتج** حقل ذو قيمة ، على سبيل المثال "Aspose.Diagram 17.9".
 
 يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Diagram for .NET API لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
 
@@ -19,7 +19,7 @@ Aspose.Diagram for .NET يكتب مباشرة المعلومات حول API ور
 
  استخدم ال[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) مُنشئ الفئة لقراءة ملفات diagram وطريقة Save لتصدير diagram إلى أي تنسيق صورة مدعوم.
 
-توضح الصورة أدناه VSD diagram أن قصاصات التعليمات البرمجية الموجودة أسفل تصدير PDF. يمكنك استخدام تنسيقات diagram أخرى (VSS ، VSSM ، VDX ، VST ، VSTX ، VDX ، VTX أو VSX) أيضًا.
+توضح الصورة أدناه VSD diagram أن مقتطفات الشفرة أدناه تصدير PDF. يمكنك استخدام تنسيقات diagram أخرى (VSS ، VSSM ، VDX ، VST ، VSTX ، VDX ، VTX أو VSX) أيضًا.
 
 |**الملف المصدر.**|
 |:- |
@@ -29,11 +29,11 @@ Aspose.Diagram for .NET يكتب مباشرة المعلومات حول API ور
 لتصدير VSD diagram إلى PDF:
 
 1. قم بتكوين نسخة من الفئة Diagram.
-1. اتصل على Diagram classs Save method واضبط تنسيق الإخراج على PDF.
+1. قم باستدعاء Diagram classs Save method واضبط تنسيق الإخراج على PDF.
 
-يوجد أدناه صورة لملف PDF الناتج.
+يوجد أدناه صورة لملف الإخراج PDF.
 
-|**ملف PDF الناتج.**|
+|**ملف الإخراج PDF.**|
 |:- |
 |![ما يجب القيام به: image_بديل_نص](how-to-convert-a-visio-diagram_2.png)|
 ### **تصدير Microsoft Visio رسم إلى PDF**
@@ -41,11 +41,11 @@ Aspose.Diagram for .NET يكتب مباشرة المعلومات حول API ور
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
 ### **تقسيم عدة صفحات**
-Aspose.Diagram for .NET يسمح بتقسيم صفحات متعددة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الشفرة التالي الوظيفة.
+Aspose.Diagram for .NET يسمح بتقسيم صفحات متعددة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الكود التالي الوظيفة.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.cs" >}}
 ### **استخدم استدعاء حفظ الصفحة**
-في حالة وجود صفحات متعددة ، يسمح Aspose.Diagram for .NET باستخدام خاصية استعادة الصفحة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الشفرة التالي الوظيفة.
+في حالة وجود صفحات متعددة ، يسمح Aspose.Diagram for .NET باستخدام رد اتصال حفظ الصفحة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الشفرة التالي الوظيفة.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-PageSavingCallback.cs" >}}
 #### **فئة TestDiagramPageSavingCallback**

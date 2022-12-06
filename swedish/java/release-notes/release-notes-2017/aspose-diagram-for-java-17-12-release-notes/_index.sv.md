@@ -13,14 +13,14 @@ url: /sv/java/aspose-diagram-for-java-17-12-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50290|Ange den enda API för att konvertera en Visio-form till PDF|Förbättring|
+|DIAGRAMJAVA-50290|Ange singeln API för att konvertera en Visio-form till PDF|Förbättring|
 |DIAGRAMJAVA-50291|Ange singeln API för att konvertera en Visio-form till HTML|Förbättring|
 |DIAGRAMJAVA-50572|Metoden Shape.connectedShapes hämtar inte utgående noder|Förbättring|
 |DIAGRAMJAVA-50391|De vända bilderna och pilarna genereras vid konvertering av en VSD till SVG|Insekt|
 |DIAGRAMJAVA-50570|VSD till PDF - de ytterligare textobjekten läggs till|Insekt|
 |DIAGRAMJAVA-50571|Importera VSDX - ett fel uppstod i formelementet|Insekt|
 |DIAGRAMJAVA-50573|VSD till SVG - linjerna i en gruppform saknas|Insekt|
-|DIAGRAMJAVA-50575|VSD till SVG - textposterna saknas|Insekt|
+|DIAGRAMJAVA-50575|VSD till SVG - textobjekten saknas|Insekt|
 |DIAGRAMJAVA-50576|Import VDX-proceduren ger ett sidelementfel|Insekt|
 ### **Lägger till Copy-medlem i Shape-klassen**
 Kopieringsmedlemmen tar en målforminstans som en parameter för att klona denna form.
@@ -45,7 +45,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ### **Lägger till pdf-medlem i Shape-klassen**
-toPdf-medlemmen konverterar en form till PDF-format.
+toPdf-medlemmen konverterar en form till formatet PDF.
 
 {{< highlight "java" >}}
 
@@ -61,7 +61,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
 ### **Lägger till HTML-medlem i Shape-klassen**
-toHTML-medlemmen konverterar en form till PDF-format.
+toHTML-medlemmen konverterar en form till formatet PDF.
 
 {{< highlight "java" >}}
 

@@ -9,9 +9,9 @@ keywords: nodejs, visio, instal
 description: Visio Diagram Node.js è indipendente dalla piattaforma API e può essere utilizzato su qualsiasi piattaforma (Windows, Linux e MacOS) in cui sono installati Node.js e bridge node-java. Può essere installato dall'archivio NPM e ZIP
 ---
 ## **Requisiti di sistema**
- Aspose.Diagram per Node.js tramite Java è indipendente dalla piattaforma API e può essere utilizzato su qualsiasi piattaforma (Windows, Linux e MacOS) dove[Node.js](https://nodejs.org/en/download/) e[nodo-java](https://github.com/joeferner/node-java) ponte sono installati. La macchina deve disporre di Oracle JDK 7 o versioni successive prima di configurare l'installazione.
+Aspose.Diagram for Node.js via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where [Node.js](https://nodejs.org/en/download/) e[nodo-java](https://github.com/joeferner/node-java) ponte sono installati. La macchina deve disporre di Oracle JDK 7 o versioni successive prima di configurare l'installazione.
 ## **Installa da NPM**
- Puoi facilmente utilizzare Aspose.Diagram per Node.js tramite Java da[NPM](https://www.npmjs.com/package/aspose.diagram) con il seguente comando.
+You can easily use Aspose.Diagram for Node.js via Java from [NPM](https://www.npmjs.com/package/aspose.diagram) con il seguente comando.
 {{< highlight "java" >}}
 
  $ npm install aspose.diagram
@@ -21,7 +21,7 @@ description: Visio Diagram Node.js è indipendente dalla piattaforma API e può 
 In caso di problemi durante il processo di installazione, fare riferimento a https://www.npmjs.com/package/java.
 
 ## **Installa dall'archivio ZIP**
-Per installare e utilizzare Aspose.Diagram per Node.js tramite Java da un archivio ZIP, seguire le seguenti istruzioni:
+To install and use Aspose.Diagram for Node.js via Java from a ZIP archive, follow the following instructions:
 ### **Linux:**
 -  Scarica e installa[Node.js](https://nodejs.org/en/download/).
 - Installa Oracle JDK (1.7 o 1.8) per Linux, configura la variabile di ambiente JAVA_HOME.
@@ -42,7 +42,7 @@ $ npm install java
 
 
 
-- Scarica "Aspose.Diagram per Node.js tramite Java" ed estrailo in "aspose.diagram.js.java/node_modules".
+- Download "Aspose.Diagram for Node.js via Java" and extract it into "aspose.diagram.js.java/node_modules".
 - Crea un file di prova denominato**ciao.js**utilizzando il seguente codice di esempio nella cartella "aspose.diagram.js.java":
 
 {{< highlight "java" >}}
@@ -83,7 +83,7 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Scarica "Aspose.Diagram per Node.js tramite Java" ed estrailo in "aspose.diagram.js.java/node_modules".
+- Download "Aspose.Diagram for Node.js via Java" and extract it into "aspose.diagram.js.java/node_modules".
 -  Crea un file denominato**ciao.js**nella cartella "aspose.diagram.js.java" utilizzando il seguente codice di esempio:
 
 {{< highlight "java" >}}
@@ -139,7 +139,7 @@ console.log("hello world");
 
 `         `$ npm installa java
 
-- Scarica "Aspose.Diagram per Node.js tramite Java" ed estrailo in "aspose.diagram.js.java/node_modules".
+- Download "Aspose.Diagram for Node.js via Java" and extract it into "aspose.diagram.js.java/node_modules".
 -  Crea un file di prova denominato**ciao.js** utilizzando il seguente codice di esempio nella cartella "aspose.diagram.js.java":
 
 {{< highlight "java" >}}

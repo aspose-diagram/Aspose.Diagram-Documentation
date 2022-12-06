@@ -11,5 +11,5 @@ Aspose.Diagram for Java'in bu sürümündeki değişikliklerin listesi aşağıd
 DIAGRAMJAVA-50133- Diagram.print() yöntemi çalışmıyor
 DIAGRAMJAVA-50139 - "Son Kullanıcı Sözleşmesi.html" dosyasını MSI Olmayan paketlere dahil et
 DIAGRAMJAVA-50140 - Adına göre sayfa nesnesi alınırken NullReferenceException oluştu
-DIAGRAMJAVA-50141) -VDX'den PDF'e dışa aktarma, Red Hat Linux Sunucusunda kilitleniyor
-DIAGRAMJAVA-50142) -VDX'den PNG'ye dışa aktarma, Red Hat Linux Sunucusunda kilitleniyor
+DIAGRAMJAVA-50141) -VDX - PDF dışa aktarma Red Hat Linux Sunucusunda kilitleniyor
+DIAGRAMJAVA-50142) -VDX - PNG dışa aktarma Red Hat Linux Sunucusunda kilitleniyor

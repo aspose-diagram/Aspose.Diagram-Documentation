@@ -16,8 +16,8 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |DIAGRAMNET-50004| Aggiungi supporto a[applicare il foglio di stile](/diagram/it/net/format-visio-pages/) per pagina intera|Aumento|
 |DIAGRAMNET-50576|Aggiunto il supporto per eliminare un oggetto di classe Diagram|Aumento|
 |DIAGRAMNET-50098|Imposta il colore di sfondo della pagina|Insetto|
-|DIAGRAMNET-51722|Diagram in SVG - l'immagine di output presenta errori|Insetto|
-|DIAGRAMNET-51724|Errori nella console di Chrome durante la visualizzazione dell'output SVG|Insetto|
+|DIAGRAMNET-51722|Diagram to SVG - output image has faults|Insetto|
+|DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|Insetto|
 |DIAGRAMNET-51725|Recupera l'indice z delle forme in Diagram|Insetto|
 |DIAGRAMNET-51726|Immagine di sfondo mancante (PowerPoint viene aggiunto in VISIO) durante la rimozione di forme e stili principali inutilizzati|Insetto|
 |DIAGRAMNET-51727|CheckBox (controllo CheckBox) Mancante durante la rimozione di forme e stili principali inutilizzati|Insetto|

@@ -8,16 +8,16 @@ description: Den här sidan beskriver hur du använder Aspose.Diagram i andra pr
 ## **Använd Aspose.Diagram for .NET via COM Interop**
  Informationen i det här ämnet gäller scenarier där utvecklare behöver använda[Aspose.Diagram for .NET](/diagram/sv/net/home/) via COM Interop på alla språk som stöds.
 ### **Arbetar med COM Interop**
-Aspose.Diagram for .NET körs under kontroll av .NET Framework och detta kallas hanterad kod. Koden som är skriven på alla språk som körs utanför .NET Framework och den kallas ohanterad kod. Interaktion mellan ohanterad kod och Aspose.Diagram sker via funktionen .NET som kallas COM Interop.
+Aspose.Diagram for .NET körs under kontroll av .NET Framework och detta kallas hanterad kod. Koden som är skriven på alla språk som körs utanför .NET Framework och den kallas ohanterad kod. Interaktion mellan ohanterad kod och Aspose.Diagram sker via .NET-funktionen som kallas COM Interop.
 
-Aspose.Diagram-objekt är .NET-objekt, men när de används via COM Interop visas de som COM-objekt i ditt programmeringsspråk. Därför är det bäst att se till att du vet hur du skapar och använder COM-objekt i ditt programmeringsspråk innan du börjar använda[Aspose.Diagram for .NET](/diagram/sv/net/home/).
+ Aspose.Diagram-objekt är .NET-objekt, men när de används via COM Interop visas de som COM-objekt i ditt programmeringsspråk. Därför är det bäst att se till att du vet hur du skapar och använder COM-objekt i ditt programmeringsspråk innan du börjar använda[Aspose.Diagram for .NET](/diagram/sv/net/home/).
 
 - I COM-världen skiljer vi COM-server och COM-klient. COM-servern lagrade COM-klasser medan COM-klienten frågar COM-servern om klassinstanser, dvs COM-objekt.
 -  COM-klient eller helt enkelt klientapplikation kan känna till något om COM-klassinnehåll eller vara helt omedveten om dess metoder och egenskaper. Därför kan klientapplikationen upptäcka COM-klassstrukturen vid kompilering/byggande eller endast under körning. Processen för "upptäckt" är känd som bindande och så har vi**tidig bindning** och**sen bindning**.
 -  korthet COM-klass är som en svart låda och för att arbeta med den behövs typbibliotek, denna binära fil har beskrivningar av COM-klassmetoder, egenskaper och alla språk på hög nivå som stöder arbete med COM-objekt har ofta syntaxuttryck för att lägga till typbibliotek, för exempel detta är[**#importera**](http://msdn.microsoft.com/en-us/library/8etzzkb6.aspx) på C++.
 - typbibliotek används för tidig bindning.
 -  ett COM-objekt kan exponera sina metoder och egenskaper på två sätt: med hjälp av en**utskickningsgränssnitt** (dispinterface) och i dess**vtabell** (virtuell funktionstabell).
--  inom**dispinterface** , varje metod och egenskap identifieras av en unik medlem; denna medlem är funktionens avsändningsidentifierare (eller**DispID**).
+-  inom**dispgränssnitt** , varje metod och egenskap identifieras av en unik medlem; denna medlem är funktionens avsändningsidentifierare (eller**DispID**).
 - **vtabell** är bara en uppsättning pekare till funktioner som COM-klassgränssnittet stöder.
 -  ett objekt som exponerar sina metoder genom båda gränssnitten stöder en**dubbla gränssnitt**.
 - det finns fördelar med båda typerna av bindning. Tidig bindning ger dig ökad prestanda och syntaxkontroll vid kompilering. Sen bindning är mest fördelaktigt när du skriver kunder som du tänker bli***kompatibel med framtida versioner*** av din COM-klass. Med sen bindning är information från typbiblioteket inte "hårdkopplad" till din klient, så du kan ha större förtroende för att din klient kan arbeta med framtida versioner av COM-klass utan kodändringar.
@@ -33,7 +33,7 @@ Du måste installera Aspose.Diagram for .NET och se till att den är registrerad
 
 För att registrera Aspose.Diagram for .NET för COM Interop manuellt:
 
-1.  Från**Start** menyn, välj**Alla program** , då**Microsoft Visual Studio**, **Visual Studio-verktyg** och slutligen,**Visual Studio Kommandotolk**. I vissa operativsystem är det också tillgängligt på platsen: "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64"
+1.  Från**Start** menyn, välj**Alla program** , då**Microsoft Visual Studio**, **Visual Studio Verktyg** och slutligen,**Visual Studio Kommandotolk**. I vissa operativsystem är det också tillgängligt på platsen: "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64"
 1.  Ange kommandot för att registrera församlingen:
    1. .NET Framework 2.0
 regasm "C:\Program Files\Aspose\Aspose.Diagram for .NET\bin\net2.0\Aspose.Diagram.dll" /codebase
@@ -53,7 +53,7 @@ Var uppmärksam på att /codebase endast är nödvändig om Aspose.Diagram.dll i
 Den kör en kommandotolk med alla nödvändiga miljövariabler inställda.
 
 {{% /alert %}} 
-##### **ProgIDs**
+##### **ProgID**
 ProgID står för "programmatic identifier". Det är namnet på en COM-klass som används för att skapa ett objekt. ProgID består av biblioteksnamnet "Aspose.Diagram" och klassnamnet.
 ##### **Skriv bibliotek**
 Om ditt programmeringsspråk (till exempel Visual Basic eller Delphi) tillåter dig att referera till ett bibliotek av COM-typ, lägg sedan till en referens till Aspose.Diagram.tlb och för att se alla Aspose.Diagram for .NET klasser, metoder, egenskaper och uppräkningar i din objektläsare.
@@ -79,7 +79,7 @@ Vissa metoder har överbelastning och de kommer att exponeras av COM Interop med
 ## **Aspose.Diagram Resurser**
 Följande är länkarna till några användbara resurser som du kan behöva för att utföra dina uppgifter.
 - [Aspose.Diagram for Java Onlinedokumentation](https://docs.aspose.com/diagram/java/)
-- [Aspose.Diagram för Node.js via Java onlinedokumentation](https://docs.aspose.com/diagram/nodejsjava/)
+- [Aspose.Diagram för Node.js via Java Onlinedokumentation](https://docs.aspose.com/diagram/nodejsjava/)
 - [Aspose.Diagram för Python via Java Onlinedokumentation](https://docs.aspose.com/diagram/pythonjava/)
 
 ##### **Skapa en omslagsenhet**
@@ -87,7 +87,7 @@ Om du behöver använda många av Aspose.Diagram for .NET klasser, metoder och e
 
 Ett bra tillvägagångssätt är att utveckla en .NET-sammansättning som refererar till Aspose.Diagram for .NET och gör allt arbete med det, och bara exponerar en minimal uppsättning klasser och metoder för ohanterad kod. Din applikation bör då bara fungera med ditt omslagsbibliotek.
 
- Att minska antalet klasser och metoder som du behöver anropa via COM Interop förenklar projektet. Att använda .NET klasser via COM Interop kräver ofta avancerade färdigheter.
+ Att minska antalet klasser och metoder som du behöver för att anropa via COM Interop förenklar projektet. Att använda .NET-klasser via COM Interop kräver ofta avancerade färdigheter.
 ## **Skapa en tom Visio-ritning i PHP med COM Interop**
 ### **Förutsättningar**
  Konfigurera din PHP för att fungera med COM. Ser<http://www.php.net/manual/en/ref.com.php> . För mer information, vänligen kontrollera artikeln med namnet[Använd Aspose.Diagram for .NET via COM Interop](/diagram/sv/net/home/).

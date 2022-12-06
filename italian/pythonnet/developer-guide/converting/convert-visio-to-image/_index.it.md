@@ -4,7 +4,7 @@ linktitle: Converti Visio in immagini
 type: docs
 weight: 20
 url: /it/python-net/convert-visio-to-image/
-description: Questo argomento mostra come Aspose.Diagram consente di convertire Visio in vari formati di immagini. Converti Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM in immagini PNG, JPEG, BMP con poche righe di codice.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to various images formats. Convert Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to PNG, JPEG, BMP images with a few lines of code.
 ---
 ## **Esporta diagrammi in formati di file immagine**
  Questo articolo spiega come esportare un Microsoft Visio diagram in un'immagine utilizzando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/python-net/) API. Utilizzare il costruttore della classe [Diagram] per leggere i file diagram e il metodo Save per esportare diagram in qualsiasi formato di immagine supportato.

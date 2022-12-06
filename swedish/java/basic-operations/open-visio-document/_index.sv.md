@@ -12,7 +12,7 @@ Aspose.Diagram API stöder att skapa de nya Visio-diagrammen från början och s
 Med hjälp av Aspose.Diagram API kan utvecklare ladda alla Visio filformat som stöds. De tillgängliga konstruktörerna i klassen Diagram tillåter detta och de accepterar en giltig sökvägssträng eller en filström av källfilen Visio.
 
 De läsbara filformaten som stöds är följande:
-**VSDX, VSD.**
+**VSDX, VSD, VSDM, VSS, VSSM, VSSX, VTX, VDX.**
 
 Konstruktörer av klassen diagram erbjuder också en valfri parameter som definierar LoadFileFormat eller LoadOptions. Det är förladdningsinformationen som utvecklare kan skicka till Aspose.Diagram API. Vi rekommenderar att du skickar realistisk information för att få en idealisk prestanda.
 #### **Läsning Diagram Programmeringsexempel**

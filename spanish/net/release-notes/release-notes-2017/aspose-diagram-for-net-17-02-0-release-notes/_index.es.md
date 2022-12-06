@@ -17,22 +17,22 @@ Esta página contiene notas de la versión para[Aspose.Diagram for .NET 17.02.0]
 |DIAGRAMNET-51110|Integrado con medidor.|Nueva caracteristica|
 |DIAGRAMNET-51143|Capacidad para obtener el grupo de una forma dada.|Nueva caracteristica|
 |DIAGRAMNET-51144|Habilidad para obtener el padre de una forma dada.|Nueva caracteristica|
-|DIAGRAMNET-50149|VSD a la conversión de PDF, se cambia el tono de color de fondo de una forma de grupo.|Insecto|
-|DIAGRAMNET-50579|VSDX a conversión de PDF, color de fondo incorrecto de la forma.|Insecto|
-|DIAGRAMNET-50984|Faltan las líneas de borde de la tabla al convertir un VSDX a PNG.|Insecto|
-|DIAGRAMNET-50985|Los elementos de texto no están alineados correctamente al convertir un VSDX a PNG.|Insecto|
-|DIAGRAMNET-50999|Representación del color incorrecto de las formas al convertir un VSD a PNG.|Insecto|
+|DIAGRAMNET-50149|VSD to PDF conversion, the background color shade of a group shape is getting changed.|Insecto|
+|DIAGRAMNET-50579|VSDX to PDF conversion, incorrect background color of the shape.|Insecto|
+|DIAGRAMNET-50984|The border lines of the table are missing on converting a VSDX to PNG.|Insecto|
+|DIAGRAMNET-50985|The text items are not aligned properly on converting a VSDX to PNG.|Insecto|
+|DIAGRAMNET-50999|Rendering incorrect color of shapes on converting a VSD to PNG.|Insecto|
 |DIAGRAMNET-51002|La propiedad HTMLSaveOptions.DefaultFont no funciona como se esperaba.|Insecto|
-|DIAGRAMNET-51049|El color de las formas no se representa correctamente al convertir un VSD a HTML.|Insecto|
-|DIAGRAMNET-51080|La alineación incorrecta del texto de las formas al guardar en EMF.|Insecto|
-|DIAGRAMNET-51132|Las esquinas de forma redondeada se están cambiando al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-51133|El diseño del conector de flecha dinámica se cambia al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-51135|Las formas Visio se desplazan al convertir un VSDX a PDF.|Insecto|
-|DIAGRAMNET-51136|El texto vertical aparece como texto horizontal al convertir un VSDX a PDF.|Insecto|
-|DIAGRAMNET-51140|El cuadro de texto vertical sobresale del borde del nodo al convertir VSDX a PDF.|Insecto|
+|DIAGRAMNET-51049|The color of shapes is not being rendered correctly on converting a VSD to HTML.|Insecto|
+|DIAGRAMNET-51080|The wrong text alignment of shapes on saving in EMF.|Insecto|
+|DIAGRAMNET-51132|The rounded shape corners are being changed on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-51133|The layout of dynamic arrow connector is changed on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-51135|The Visio shapes are displaced on converting a VSDX to PDF.|Insecto|
+|DIAGRAMNET-51136|The vertical text appears as horizontal text on converting a VSDX to PDF.|Insecto|
+|DIAGRAMNET-51140|Vertical text box is overhanging the edge of the node while converting VSDX to PDF.|Insecto|
 |DIAGRAMNET-51138|Ocurrió un error al cargar un VSDX diagram.|Excepción|
-|DIAGRAMNET-51139|No se puede acceder al error de archivo al convertir un VSDX a HTML.|Excepción|
-|DIAGRAMNET-51148|NullReferenceException en Diagram. Guardar al convertir VSD a HTML.|Excepción|
+|DIAGRAMNET-51139|Can't access file error occurred on converting a VSDX to HTML.|Excepción|
+|DIAGRAMNET-51148|NullReferenceException at Diagram.Save while converting VSD to HTML.|Excepción|
 |DIAGRAMNET-51149|NullReferenceException en Diagram. Guardar cuando la propiedad CustomProp.Name no está configurada|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
  La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en la[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).

@@ -21,12 +21,12 @@ url: /es/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50569|Agregue soporte para actualizar el código VBA.|Nueva caracteristica|
 |DIAGRAMNET-50859|Agregue soporte para importar la plantilla habilitada para macros (.VSTM).|Nueva caracteristica|
 |DIAGRAMNET-50860|Agregue soporte para importar la plantilla habilitada para macros (.VSSM).|Nueva caracteristica|
-|DIAGRAMNET-50701|VSDX a exportación de PDF: el color del límite de la forma se superpone a la estructura interna.|Insecto|
+|DIAGRAMNET-50701|VSDX to PDF export - the shape's boundary color overlaps the internal structure.|Insecto|
 |DIAGRAMNET-50790|Se produjo la excepción Diagram al cargar un archivo VSDX.|Insecto|
-|DIAGRAMNET-50793|Faltan elementos de texto al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50794|Faltan los elementos de texto al convertir un VSD a PNG.|Insecto|
+|DIAGRAMNET-50793|The text items are missing on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50794|The text items are missing on converting a VSD to PNG.|Insecto|
 |DIAGRAMNET-50795|Faltan elementos de texto al convertir un VSD a JPG.|Insecto|
-|DIAGRAMNET-50796|El fondo transparente de las imágenes se convierte en color blanco al convertir VSD a PDF.|Insecto|
+|DIAGRAMNET-50796|The transparent background of images turns into white color on converting VSD to PDF.|Insecto|
 |DIAGRAMNET-50798|El fondo transparente de las imágenes se convierte en color blanco al convertir VSD a JPG.|Insecto|
 |DIAGRAMNET-50804|Se produjo la excepción Diagram al guardar el archivo VTX.|Insecto|
 |DIAGRAMNET-50801|Se produjo la excepción Diagram al guardar el archivo VSX - I.|Insecto|
@@ -64,16 +64,16 @@ url: /es/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50854|Las propiedades del diagram no se conservan al abrir y guardar - XIII.|Insecto|
 |DIAGRAMNET-50855|Las propiedades del diagram no se conservan al abrir y guardar - XIV.|Insecto|
 |DIAGRAMNET-50857|Las propiedades del diagram no se conservan al abrir y guardar - XV.|Insecto|
-|DIAGRAMNET-50864|La apariencia de la forma del proceso cambia al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50865|La apariencia de la forma del proceso cambia al convertir un VSD a HTML.|Insecto|
-|DIAGRAMNET-50866|Problema de alineación de texto al convertir un VSDX a PDF - I.|Insecto|
-|DIAGRAMNET-50867|Problema de alineación de texto al convertir un VSDX a PDF - II.|Insecto|
-|DIAGRAMNET-50868|No se conserva una imagen al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50869|Formato incorrecto de la forma al convertir un VSD a PDF - I.|Insecto|
-|DIAGRAMNET-50871|Formato incorrecto de las formas al convertir un VSD a PDF - II.|Insecto|
-|DIAGRAMNET-50874|Se agregan círculos adicionales al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50875|Las formas están fuera de lugar al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50876|El tamaño de las formas se cambia al convertir un VSD a PDF.|Insecto|
+|DIAGRAMNET-50864|The appearance of the process shape is changed on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50865|The appearance of the process shape is changed on converting a VSD to HTML.|Insecto|
+|DIAGRAMNET-50866|Text alignment problem on Converting a VSDX to PDF - I.|Insecto|
+|DIAGRAMNET-50867|Text alignment problem on Converting a VSDX to PDF - II.|Insecto|
+|DIAGRAMNET-50868|An image is not being preserved on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50869|Incorrect formatting of the shape on converting a VSD to PDF - I.|Insecto|
+|DIAGRAMNET-50871|Incorrect formatting of the shapes on converting a VSD to PDF - II.|Insecto|
+|DIAGRAMNET-50874|Extra circles are added while converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50875|Shapes are misplaced on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50876|Size of shapes is changed on converting a VSD to PDF.|Insecto|
 ### **Public API y cambios incompatibles con versiones anteriores**
 Consulte la lista de cambios realizados en el API público, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 #### **Agrega los formatos VSDM, VSSM y VSTM en la clase LoadFileFormat**

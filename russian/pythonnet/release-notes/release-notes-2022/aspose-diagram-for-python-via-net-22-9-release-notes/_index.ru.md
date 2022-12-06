@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram для Python через .NET 22.9 Примечания к выпуску
+title: Aspose.Diagram для Python via .NET 22.9 Примечания к выпуску
 type: docs
 weight: 18
 url: /ru/python-net/aspose-diagram-for-python-via-net-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Diagram для Python через .NET 22.9.
+На этой странице содержатся примечания к версии Aspose.Diagram для Python via .NET 22.9.
 
 {{% /alert %}} 
 
@@ -14,10 +14,10 @@ url: /ru/python-net/aspose-diagram-for-python-via-net-22-9-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52969|vsdx в svg - все тексты в полях выходят за линию полей.|Улучшение|
 |DIAGRAMNET-52974|Наборы правил не отображаются в данных проверки diagram|Улучшение|
-|DIAGRAMNET-52951|Неверный результат после экспорта в HTML|Ошибка|
+|DIAGRAMNET-52951|Неверный результат после экспорта на HTML|Ошибка|
 |DIAGRAMNET-52958|Приложение: при сохранении vsd в Vsdx эффект неправильный|Ошибка|
 |DIAGRAMNET-52964|Качество изображения в HTML|Ошибка|
-|DIAGRAMNET-52965|Проблема с выводом HTML|Ошибка|
+|DIAGRAMNET-52965|Ошибка в выводе HTML|Ошибка|
 |DIAGRAMNET-52972|Пустые свойства, возвращающие ��0�� в качестве значения|Ошибка|
 
 ## **Public API и обратно несовместимые изменения**

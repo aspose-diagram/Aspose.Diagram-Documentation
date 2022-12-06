@@ -13,13 +13,13 @@ Bu sayfa Aspose.Diagram for .NET 22.7 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-52872|Visio'den SVG'ye, birden çok model etiketi oluşturur|Artırma|
-|DIAGRAMNET-52877|Visio'den SVG'ye dönüştürme sırasında Rusça metin hizalama sorunu|Artırma|
-|DIAGRAMNET-52886|Visio'den SVG'ye dönüştürme sırasında Rusça metin hizalama sorunu|Artırma|
+|DIAGRAMNET-52872|Visio ila SVG, birden çok model etiketi oluşturur|Artırma|
+|DIAGRAMNET-52877|Visio'den SVG'e dönüştürme sırasında Rusça metin hizalama sorunu|Artırma|
+|DIAGRAMNET-52886|Visio'den SVG'e dönüştürme sırasında Rusça metin hizalama sorunu|Artırma|
 |DIAGRAMNET-52861|HTML temsilinde sorun|Böcek|
 |DIAGRAMNET-52871|Bazı şekiller svg'ye dönüştürüldükten sonra eğrilerini kaybediyor|Böcek|
 |DIAGRAMNET-52883|Uygulama: vsdx'in svg'ye kaydedilmesi boş istisna oluşturuyor|Böcek|
-|DIAGRAMNET-52897|PDF'de eksik tablo içeriği|Böcek|
+|DIAGRAMNET-52897|PDF'de tablo içeriği eksik|Böcek|
 |DIAGRAMNET-52900|Uygulama: vsdx'i Pdf'ye kaydetmek istisna oluşturuyor (ana TextureBrush dolgusu)|Böcek|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

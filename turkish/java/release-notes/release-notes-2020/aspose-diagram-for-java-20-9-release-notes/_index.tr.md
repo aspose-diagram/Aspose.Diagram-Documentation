@@ -13,4 +13,4 @@ Bu sayfa Aspose.Diagram for Java 20.9 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|VSD PNG'ye dönüştürülürken şekillerin yanlış rengi oluşturuluyor|Artırma|
+|DIAGRAMJAVA-50352|VSD'i PNG'e dönüştürürken şekillerin yanlış renklendirilmesi|Artırma|

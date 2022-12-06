@@ -20,9 +20,9 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-52197|Laddar och sparar vsdx ändra värde för DisplayMode|Förbättring|
 |DIAGRAMNET-52205|Dubbelklickshändelse saknas i form|Förbättring|
 |DIAGRAMNET-51877|Undantaget "Parametern är inte giltig" när VSD-filen renderas|Insekt|
-|DIAGRAMNET-52114|"Parametern är inte giltig." undantag när VSD-filen återges till PNG/JPG|Insekt|
+|DIAGRAMNET-52114|"Parametern är inte giltig." undantag när VSD-filen renderas till PNG/JPG|Insekt|
 |DIAGRAMNET-52124|Sparar Visio som html-problem|Insekt|
-|DIAGRAMNET-52127|Sparar Visio med hjälprader till HTML-problem|Insekt|
+|DIAGRAMNET-52127|Sparar Visio med hjälplinjer till HTML ärendet|Insekt|
 |DIAGRAMNET-52148|VSDX till PDF - Genomstruken text är inte korrekt i PDF|Insekt|
 |DIAGRAMNET-52150|Det går inte att extrahera värdet för den användardefinierade cellformeln CONT.|Insekt|
 |DIAGRAMNET-52229|Användardefinierad cell byts namn|Insekt|

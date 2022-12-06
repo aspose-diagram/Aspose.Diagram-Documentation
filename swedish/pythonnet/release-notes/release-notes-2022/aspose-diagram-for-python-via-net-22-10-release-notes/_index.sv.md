@@ -6,13 +6,13 @@ url: /sv/python-net/aspose-diagram-for-python-via-net-22-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller releasenotes för Aspose.Diagram för Python via .NET 22.10.
+Den här sidan innehåller utgåvor för Aspose.Diagram för Python via .NET 22.10.
 
 {{% /alert %}} 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|En bild visas i dålig kvalitet när den exporteras till SVG-format|Förbättring|
+|DIAGRAMNET-52988|En bild visas i dålig kvalitet när den exporteras till formatet SVG|Förbättring|
 |DIAGRAMNET-53002|Förlorad länk vid export till html med Aspose.Diagram|Förbättring|
 |DIAGRAMNET-52983|Fel i Diagram.Spara|Insekt|
 |DIAGRAMNET-52984|Ändra värden i VentureLicenser-klassen|Insekt|

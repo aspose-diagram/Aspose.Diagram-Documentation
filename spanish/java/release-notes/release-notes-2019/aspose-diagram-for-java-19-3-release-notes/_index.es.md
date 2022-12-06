@@ -14,11 +14,11 @@ Esta página contiene notas de la versión para Aspose.Diagram for Java 19.3
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50339|Agregue soporte para recuperar directorios de fuentes comunes en sistemas operativos|Mejora|
-|DIAGRAMJAVA-50097|VSD a conversión de PDF - Las líneas curvas se convierten en una línea recta|Insecto|
-|DIAGRAMJAVA-50161|Conversión de VTX a HTML: falta la imagen de fondo de todo diagram|Insecto|
-|DIAGRAMJAVA-50301|VSD a exportación de PDF: las formas de metatipo se convierten en símbolos desordenados|Insecto|
-|DIAGRAMJAVA-50464|La forma se ha renderizado incorrectamente al convertir VSDX a PNG|Insecto|
-|DIAGRAMJAVA-50652|VISIO a PDF: el PDF de salida muestra un error en Adobe Reader|Insecto|
+|DIAGRAMJAVA-50097|VSD to PDF conversion - Curved lines become a straight line|Insecto|
+|DIAGRAMJAVA-50161|VTX to HTML conversion - Background picture of the whole diagram is missing|Insecto|
+|DIAGRAMJAVA-50301|VSD to PDF export - Meta type shapes turn into messy symbols|Insecto|
+|DIAGRAMJAVA-50464|The shape has rendered incorrectly while converting VSDX to PNG|Insecto|
+|DIAGRAMJAVA-50652|VISIO to PDF - Output PDF shows error in Adobe Reader|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en la[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 ### **Agrega GetDefaultFontDir en Diagram**

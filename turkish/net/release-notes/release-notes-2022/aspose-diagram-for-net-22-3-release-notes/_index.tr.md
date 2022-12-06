@@ -19,9 +19,9 @@ Bu sayfa Aspose.Diagram for .NET 22.3 için sürüm notları bilgilerini içerir
 |DIAGRAMNET-52661|Dokümantasyonda visio'e filigran ekleme örneği verilmemiştir.|Böcek|
 |DIAGRAMNET-52663|Null master ile şekil için özel çizgi stillerini algıla|Böcek|
 |DIAGRAMNET-52666|Visio'den Pdf'ye dönüştürme - Veri Grafiklerinde Sorun [Devam]|Böcek|
-|DIAGRAMNET-52684|HTML'ye dışa aktarırken istisna|Böcek|
-|DIAGRAMNET-52685|HTML'ye dışa aktarırken istisna|Böcek|
-|DIAGRAMNET-52692|Diagram.PDF Formatını Kullanarak MemoryStream'e Kaydetme Bir System.NullReferenceException Oluşturuyor|Böcek|
+|DIAGRAMNET-52684|HTML'e aktarıldığında istisna|Böcek|
+|DIAGRAMNET-52685|HTML'e aktarıldığında istisna|Böcek|
+|DIAGRAMNET-52692|Diagram.PDF Biçimini Kullanarak MemoryStream'e Kaydetme Bir System.NullReferenceException Oluşturuyor|Böcek|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.

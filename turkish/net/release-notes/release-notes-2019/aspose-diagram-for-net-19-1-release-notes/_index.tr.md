@@ -15,8 +15,8 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 19.1](https://ww
 |:- |:- |:- |
 |DIAGRAMNET-51082|Polyline çizim desteği ekleyin|Artırma|
 |DIAGRAMNET-51084|Bezier şekillerini çizme desteği ekleyin|Artırma|
-|DIAGRAMNET-51231|Görüntü veya HTML olarak kaydederken yorumları işleyin|Artırma|
-|DIAGRAMNET-51597| VISIO'dan SVG'ye - Dikdörtgen öğelerin kullanımı<path> yerine etiketle<Rect>|Artırma|
+|DIAGRAMNET-51231|Resim olarak kaydederken yorumları işle veya HTML|Artırma|
+|DIAGRAMNET-51597| VISIO ila SVG - Dikdörtgen elemanların kullanımı<path> yerine etiketle<Rect>|Artırma|
 |DIAGRAMNET-50764|VSDX okumada çeşitli şekillerin renk değeri eksik|Böcek|
 |DIAGRAMNET-51336|Aspose.Diagram for .NET/Java sürümündeki sorunları düzeltin|Böcek|
 |DIAGRAMNET-51343|Çıktı VSDX - şekil boyutu değişmiyor|Böcek|

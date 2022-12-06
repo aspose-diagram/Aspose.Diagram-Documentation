@@ -10,10 +10,10 @@ Följande är en lista över ändringar i denna version av Aspose.Diagram for Ja
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
 | DIAGRAMJava-50281| ImageSaveOptions.setImageBrightness fungerar inte| Förbättring|
-|DIAGRAMJava-50293| VSD till SVG-export bevarar inte form-ID| Förbättring|
+|DIAGRAMJava-50293| VSD till SVG export bevarar inte form-ID| Förbättring|
 | DIAGRAMJava-50294| Utdataformat VDX - Kan inte ansluta två Visio former| Förbättring|
 | DIAGRAM Java-50300| Det går inte att ändra sidorientering genom att ställa in egenskapen PrintPageOrientation| Förbättring|
-| DIAGRAMJava-50067| VSD till PDF-konvertering, ordet "text" läggs till i formens text| Insekt|
+| DIAGRAMJava-50067| VSD till PDF konvertering, ordet "text" läggs till i formens text| Insekt|
 | DIAGRAMJava-50124| Felaktig inställning av kontakttextens plats| Insekt|
 | DIAGRAMJava-50288| Varning för det saknade attributet när det öppnas resulterande VDX diagram| Insekt|
 | DIAGRAMJava-50289| Metoden Shape.connectedShapes upptäcker inte vissa inkommande form-ID| Insekt|

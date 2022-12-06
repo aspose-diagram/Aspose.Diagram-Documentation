@@ -22,9 +22,9 @@ url: /ar/net/aspose-diagram-for-net-17-12-release-notes/
 |DIAGRAMNET-51406|VSD للصورة - تظهر الحروف الإضافية|حشرة|
 |DIAGRAMNET-51410|VSD إلى PDF - يبقى رقم الصفحة 4 في كل الصفحات|حشرة|
 |DIAGRAMNET-51411|VSD للصورة - يبقى رقم الصفحة 4 في كل الصفحات|حشرة|
-|DIAGRAMNET-51414|VSDX إلى PDF - فقد محتوى الأشكال|حشرة|
-|DIAGRAMNET-51415|VSDX إلى PDF - لون خلفية غير صحيح للأشكال|حشرة|
-|DIAGRAMNET-51416|VSDX إلى HTML - لون خلفية غير صحيح للأشكال|حشرة|
+|DIAGRAMNET-51414|VSDX إلى PDF - فقدان محتوى الأشكال|حشرة|
+|DIAGRAMNET-51415|VSDX إلى PDF - لون خلفية الأشكال غير صحيح|حشرة|
+|DIAGRAMNET-51416|VSDX إلى HTML - لون خلفية الأشكال غير صحيح|حشرة|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Diagram for .NET. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعها في ال[Aspose.Diagram منتدى الدعم](https://forum.aspose.com/c/diagram/17).
 ### **يضيف نسخ العضو في فئة الشكل**
@@ -50,7 +50,7 @@ newShape.XForm.PinY.Value = 1;
 
 {{< /highlight >}}
 ### **يضيف عضو ToPdf في فئة Shape**
-يحول عضو ToPdf شكلاً إلى تنسيق PDF.
+يقوم عضو ToPdf بتحويل شكل إلى تنسيق PDF.
 
 {{< highlight "java" >}}
 
@@ -83,5 +83,5 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML("e:\\out.pdf", hs);
 يرجى التحقق من قائمة مواضيع المساعدة المضافة في Aspose.Diagram مستندات Wiki:
 
 1. [انسخ شكل Visio إلى مثيل Shape آخر](/diagram/ar/net/add-2c-retrieve-2c-copy-and-read-visio-shape-data-html/#add-retrieve-copyandreadvisioshapedata-copyavisioshapetoanothershapeinstance)
-1. [تحويل Visio الشكل إلى PDF](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
-1. [تحويل Visio الشكل إلى HTML](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)
+1. [حوّل Visio إلى PDF](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
+1. [حوّل Visio إلى HTML](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)

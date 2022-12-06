@@ -13,7 +13,7 @@ url: /sv/java/aspose-diagram-for-java-18-5-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50068|VSD till PDF-konvertering, horisontell gradientfyllning istället för mitten|Förbättring|
+|DIAGRAMJAVA-50068|VSD till PDF konvertering, horisontell gradientfyllning istället för mitten|Förbättring|
 |DIAGRAMJAVA-50590|Utgång VSDX - förbättra layouten på anslutningslinjer|Förbättring|
-|DIAGRAMJAVA-50058|VSD till PDF-konvertering, tänk böjd linje tillsammans med felaktig justering av text|Insekt|
+|DIAGRAMJAVA-50058|VSD till PDF konvertering, tänk krökt linje tillsammans med felaktig justering av text|Insekt|
 

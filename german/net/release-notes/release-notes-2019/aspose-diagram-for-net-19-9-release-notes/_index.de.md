@@ -13,28 +13,28 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 19.9.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51683|Visio zu HTML - Link in generiertem HTML funktioniert nicht richtig|Erweiterung|
+|DIAGRAMNET-51683|Visio to HTML - Link in generated HTML does not work correctly|Erweiterung|
 |DIAGRAMNET-51684|Beim Entfernen unbenutzter Masterformen und -stile hat nur das Bild ein Problem|Erweiterung|
 |DIAGRAMNET-51711|Makros können nach der Konvertierung nicht hinzugefügt werden|Erweiterung|
 |DIAGRAMNET-50383|Reduzieren Sie die Größe von Visio diagram|Insekt|
 |DIAGRAMNET-51682|Holen Sie sich den Schriftstil von Diagram|Insekt|
-|DIAGRAMNET-51685|Visio an SVG – es tritt eine Ausnahme auf|Insekt|
-|DIAGRAMNET-51686|Visio zu PNG - Die Ausgabedatei enthält unerwünschte Bilder und Formen|Insekt|
-|DIAGRAMNET-51687|Visio zu PDF - Hintergrundfarbe des Textes fehlt im Ausgabe-PDF|Insekt|
-|DIAGRAMNET-51688|Visio zu PDF - Die Farbe der Formrahmen unterscheidet sich in der Ausgabe|Insekt|
+|DIAGRAMNET-51685|Visio to SVG - an exception occurs|Insekt|
+|DIAGRAMNET-51686|Visio to PNG - Output file has unwanted image and shapes|Insekt|
+|DIAGRAMNET-51687|Visio to PDF - background color of text is absent in output PDF|Insekt|
+|DIAGRAMNET-51688|Visio to PDF - Color of Shape Frames is different in output|Insekt|
 |DIAGRAMNET-51689|Visio zu JPG - Ausgabebild hat nicht das richtige Format|Insekt|
-|DIAGRAMNET-51691|Visio zu PDF - Einige Formen sind nicht korrekt|Insekt|
-|DIAGRAMNET-51692|Visio zu PDF - Einige Formen sind nicht korrekt|Insekt|
-|DIAGRAMNET-51693|Visio zu PDF - Einige Formen sind nicht korrekt|Insekt|
-|DIAGRAMNET-51694|Visio zu PDF - Einige Formen sind nicht korrekt|Insekt|
-|DIAGRAMNET-51697|Visio zu PDF - Einige Formen sind nicht korrekt|Insekt|
-|DIAGRAMNET-51700|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51702|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51706|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51707|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51708|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51709|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51710|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
+|DIAGRAMNET-51691|Visio to PDF - Some shapes are not correct|Insekt|
+|DIAGRAMNET-51692|Visio to PDF - Some shapes are not correct|Insekt|
+|DIAGRAMNET-51693|Visio to PDF - Some shapes are not correct|Insekt|
+|DIAGRAMNET-51694|Visio to PDF - Some shapes are not correct|Insekt|
+|DIAGRAMNET-51697|Visio to PDF - Some shapes are not correct|Insekt|
+|DIAGRAMNET-51700|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51702|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51706|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51707|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51708|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51709|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51710|Visio to PDF - Some shapes/lines are not correct|Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden das Aspose.Diagram Support-Forum.
 

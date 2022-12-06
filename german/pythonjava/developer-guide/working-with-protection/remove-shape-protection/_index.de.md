@@ -3,10 +3,10 @@ title: Formschutz entfernen
 type: docs
 weight: 20
 url: /de/python-java/remove-shape-protection/
-description: In diesem Abschnitt wird erläutert, wie Sie den Formschutz mit Aspose.Diagram für Python über Java entfernen.
+description: This section explains how to remove shape protection using Aspose.Diagram for Python via Java.
 ---
 ## **Entfernen Sie den Schutz der Form Visio**
-Durch das Schützen von Visio-Formen können Benutzer bestimmte Aspekte von Formen sperren. Zu den Aspekten von Formen, die durch Formschutz gesperrt werden können, gehören Breite, Höhe, x-Position, y-Position, Rotation und mehr. Entwickler können dies erreichen, indem sie Aspose.Diagram für Python über Java verwenden.
+Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using Aspose.Diagram for Python via Java.
 ### **Bearbeiten Sie den Formschutz Visio**
 **LockAspect**, **LockBegin**, **LockCalcWH**, **LockCrop**, **LockCustProp**, **SperrenLöschen**, **LockEnd**, **LockFormat**, **LockFromGroupFormat**, **LockGroup**, **LockHeight**, **LockMoveX**, **LockMoveY**, **LockRotate**, **LockSelect**, **LockTextEdit**, **Themenfarben sperren**, **LockThemeEffects**, **LockVtxBearbeiten** und**Sperrbreite** Eigenschaften ausgesetzt durch**Schutz** Klasse unterstützt die**Aspose.Diagram.BoolValue** Objekt. Diese Eigenschaften können zum Schützen und Aufheben des Schutzes von Formen verwendet werden.
 
@@ -19,7 +19,7 @@ In Microsoft Office Visio kann der Benutzer die folgenden Aktionen ausführen, u
 - Drücke OK'
 
 ### **Entfernen Sie das Shape Protection-Programmierbeispiel**
-Verwenden Sie den folgenden Code in Ihrer Anwendung, um dasselbe zu tun (entsperren Sie ein beliebiges Formattribut), indem Sie Aspose.Diagram für Python über Java verwenden.
+Use the following code in your application to do the same thing (unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-RemoveShapeProtection.py" >}}
 

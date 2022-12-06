@@ -1,10 +1,10 @@
 ﻿---
-title: Aspose.Diagram per Python tramite Java Caratteristiche
+title: Aspose.Diagram for Python via Java Features
 type: docs
 weight: 10
 url: /it/java/aspose-diagram-for-python-via-java-features/
 ---
-Questa sezione fornisce un confronto della disponibilità delle funzioni Aspose.Diagram per Python tramite Java.
+This section provides a comparison of the availability of features Aspose.Diagram for Python via Java.
 ## **Formati di file supportati**
 
 |**Formato**|**Descrizione**|**Carico**|**Salva**|**Osservazioni**|
@@ -21,24 +21,24 @@ Questa sezione fornisce un confronto della disponibilità delle funzioni Aspose.
 |[VSTM](https://docs.fileformat.com/visio/vstm/)|VSTM che contiene sia Modello di disegno che macro|{{< emoticons/tick >}}|{{< emoticons/tick >}}|?|
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Tipo di file di disegno Web|{{< emoticons/tick >}}|?|?|
 |[VSS](https://docs.fileformat.com/visio/vss/)|Il tipo di file dello stampino Visio|{{< emoticons/tick >}}|?|?|
-|[VST](https://docs.fileformat.com/visio/vst/)|File modello VST|{{< emoticons/tick >}}|?|?|
-|[PDF](https://docs.fileformat.com/pdf/)|PDF (formato documento portatile)|?|{{< emoticons/tick >}}|?|
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|Formato XPS|?|{{< emoticons/tick >}}|?|
-|[XAML](https://docs.fileformat.com/web/xaml/)|Formato XAML|?|{{< emoticons/tick >}}|?|
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|?|?|
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)|?|{{< emoticons/tick >}}|?|
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format|?|{{< emoticons/tick >}}|?|
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML format|?|{{< emoticons/tick >}}|?|
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Grafica vettoriale scalabile (un formato di immagine vettoriale basato su XML)|?|{{< emoticons/tick >}}|?|
-|[campi elettromagnetici](https://docs.fileformat.com/image/emf/)|MetaFile avanzato|?|{{< emoticons/tick >}}|?|
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|Formato JPEG|?|{{< emoticons/tick >}}|?|
-|[PNG](https://docs.fileformat.com/image/png/)|Formato PNG|?|{{< emoticons/tick >}}|?|
-|[BMP](https://docs.fileformat.com/image/bmp/)|Formato BMP|?|{{< emoticons/tick >}}|?|
-|[TIPO](https://docs.fileformat.com/image/tiff/)|Immagine TIFF singola o multipagina|?|{{< emoticons/tick >}}|?|
-## **Aspose.Diagram per Python tramite Java - Caratteristiche**
+|[EMF](https://docs.fileformat.com/image/emf/)|MetaFile avanzato|?|{{< emoticons/tick >}}|?|
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format|?|{{< emoticons/tick >}}|?|
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Format|?|{{< emoticons/tick >}}|?|
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format|?|{{< emoticons/tick >}}|?|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Single or Multi-Page TIFF Image|?|{{< emoticons/tick >}}|?|
+## **Aspose.Diagram for Python via Java - Features**
 ### **Creare**
 - Crea diagrammi da zero.
 ### **Leggi**
 - Leggi il formato Microsoft Visio 2003/2007/2010 VSD.
 - Leggi il formato VSS Microsoft Visio 2003/2007/2010.
 - Leggi il formato VDW Microsoft Visio 2003/2007/2010.
-- Leggi il formato VST Microsoft Visio 2003/2007/2010.
+- Leggi il formato Microsoft Visio 2003/2007/2010 VST.
 ### **Leggere e scrivere**
 - Leggi o scrivi il formato Microsoft Visio 2013 VSDX.
 - Leggi o scrivi il formato Microsoft Visio 2013 VSSX.
@@ -50,11 +50,11 @@ Questa sezione fornisce un confronto della disponibilità delle funzioni Aspose.
 - Leggere o scrivere il formato Microsoft Visio 2003/2007/2010 VSX.
 - Leggere o scrivere il formato Microsoft Visio 2003/2007/2010 VTX.
 ### **Esportare**
-- Esporta i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) nei formati immagine più diffusi (BMP, JPEG, TIFF, EMF, SVG e PNG).
-- Esporta gli schemi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in PDF.
-- Esporta i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in HTML.
-- Esportare i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in XML Paper Specification (XPS).
-- Esportare i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 ### **Stampa**
 - Stampa Visio diagrammi ad alta fedeltà.
 ### **Accesso**

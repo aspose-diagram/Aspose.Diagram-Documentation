@@ -1,11 +1,11 @@
 ﻿---
-title: Visio Diagram'i Ruby'de XAML'ye aktar
+title: Ruby'de Visio Diagram'i XAML'e dışa aktar
 type: docs
 weight: 60
 url: /tr/java/export-visio-diagram-to-xaml-in-ruby/
 ---
-## **Aspose.Diagram - Visio Diagram'i XAML'ye aktar**
- Kullanarak Visio Diagram'i XAML'ye Dışa Aktarmak için**Yakut için Aspose.Diagram Java** , sadece çağırmak**ExportToXaml** modül. Burada örnek kodu görebilirsiniz.
+## **Aspose.Diagram - İhracat Visio Diagram ila XAML**
+ Visio Diagram'i kullanarak XAML'e dışa aktarmak için**Yakut için Aspose.Diagram Java** , sadece çağırmak**ExportToXaml** modül. Burada örnek kodu görebilirsiniz.
 
 **Yakut Kodu**
 
@@ -25,6 +25,6 @@ puts "Exported visio diagram to XAML."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Visio Diagram'i XAML'ye (Aspose.Diagram) aktar**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+ İndirmek**Dışa aktarma Visio Diagram ila XAML (Aspose.Diagram)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Export/exporttoxaml.rb)

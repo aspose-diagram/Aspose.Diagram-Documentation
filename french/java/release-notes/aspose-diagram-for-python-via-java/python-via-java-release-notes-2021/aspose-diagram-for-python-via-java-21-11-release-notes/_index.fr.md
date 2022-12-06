@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram pour Python via Java 21.11 Notes de mise à jour
+title: Aspose.Diagram for Python via Java 21.11 Release Notes
 type: docs
 weight: 5
 url: /fr/java/aspose-diagram-for-python-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient des informations sur les notes de version pour Aspose.Diagram pour Python via Java 21.11.
+This page contains release notes information for Aspose.Diagram for Python via Java 21.11.
 
 {{% /alert %}}
 ## **Améliorations et changements**  ##
@@ -14,9 +14,9 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50806|wk : InheridetChar Color|Renforcement|
-|DIAGRAMJAVA-50385|La couleur de la bordure et des titres est modifiée lors de la conversion d'un VSDX en PDF|Punaise|
-|DIAGRAMJAVA-50501|VSDX vers PNG - Mauvaise couleur des formes|Punaise|
-|DIAGRAMJAVA-50631|Les formes sont incohérentes après l'exportation de VSDX au format PDF|Punaise|
+|DIAGRAMJAVA-50385|The color of border and titles is being changed on converting a VSDX to PDF|Punaise|
+|DIAGRAMJAVA-50501|VSDX to PNG - Incorrect color of shapes|Punaise|
+|DIAGRAMJAVA-50631|Shapes are inconsistent after exporting VSDX to PDF|Punaise|
 |DIAGRAMJAVA-50804|Le texte du connecteur est renvoyé à la ligne lors du dessin du connecteur|Punaise|
 ## `?`**Public API et modifications incompatibles avec les versions antérieures**
 Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Diagram.

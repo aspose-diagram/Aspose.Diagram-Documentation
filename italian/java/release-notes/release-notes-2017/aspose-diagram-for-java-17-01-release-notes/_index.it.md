@@ -14,13 +14,13 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for Java 17.1.0](h
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50396|Impossibile recuperare il colore di riempimento della forma rettangolare da un VSDX diagram.|Aumento|
-|DIAGRAMJAVA-50367|Il colore delle forme non viene preservato durante la conversione di un VSDX in PDF.|Insetto|
-|DIAGRAMJAVA-50370|La formattazione della forma del rettangolo non è presente nella conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMJAVA-50373|L'ombra delle forme non viene resa correttamente durante la conversione di un VSD in SVG.|Insetto|
-|DIAGRAMJAVA-50378|Il colore dei callout e del testo non viene mantenuto durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMJAVA-50379|Manca una forma del flusso di lavoro Sharepoint Microsoft durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMJAVA-50380|Elementi di testo mancanti e sovrapposizione di una forma durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMJAVA-50406|Rendering incompleto dei connettori dinamici durante la conversione di VSD in HTML.|Insetto|
+|DIAGRAMJAVA-50367|The color of shapes is not being preserved on converting a VSDX to PDF.|Insetto|
+|DIAGRAMJAVA-50370|The formatting of rectangle shape is missing on converting a VSDX to PNG.|Insetto|
+|DIAGRAMJAVA-50373|The shadow of shapes is not being rendered properly on converting a VSD to SVG.|Insetto|
+|DIAGRAMJAVA-50378|The color of callouts and text is not being preserved on converting a VSDX to PNG.|Insetto|
+|DIAGRAMJAVA-50379|A Microsoft Sharepoint Workflow shape is missing on converting a VSDX to PNG.|Insetto|
+|DIAGRAMJAVA-50380|Missing text items and an overlap of a shape on converting a VSD to PDF.|Insetto|
+|DIAGRAMJAVA-50406|Incomplete rendering of the dynamic connectors on converting a VSD to HTML.|Insetto|
 |DIAGRAMJAVA-50450|Un testo forma viene convertito in caratteri fittizi.|Insetto|
 |DIAGRAMJAVA-50456|Rendering parziale delle forme Visio durante la conversione delle pagine Visio in SVG.|Insetto|
 

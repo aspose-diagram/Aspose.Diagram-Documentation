@@ -3,12 +3,12 @@ title: Kurulum Ortamı ve Kurulum Yönergeleri
 type: docs
 weight: 20
 url: /tr/java/setup-environment-and-installation-guidelines/
-description: Visio Diagram Java üzerinden Node.js, platformdan bağımsız API'dir ve Node.js ve node-java köprüsünün kurulu olduğu tüm platformlarda (Windows, Linux ve MacOS) kullanılabilir. NPM ve ZIP arşivinden kurulabilir.
+description: Visio Diagram Node.js via Java, platformdan bağımsız API'dir ve Node.js ve node-java köprüsünün kurulu olduğu tüm platformlarda (Windows, Linux ve MacOS) kullanılabilir. NPM ve ZIP arşivinden kurulabilir.
 ---
 ## **sistem gereksinimleri**
- Java üzerinden Node.js için Aspose.Diagram, platformdan bağımsız API'dir ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Node.js](https://nodejs.org/en/download/) ve[düğüm-java](https://github.com/joeferner/node-java) köprü kurulur. Kurulumu kurmadan önce makinede Oracle JDK 7 veya üzeri sürümler bulunmalıdır.
+ Node.js için Aspose.Diagram via Java, platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Node.js](https://nodejs.org/en/download/) ve[düğüm-java](https://github.com/joeferner/node-java) köprü kurulur. Kurulumu kurmadan önce makinede Oracle JDK 7 veya üzeri sürümler bulunmalıdır.
 ## **NPM'den yükleyin**
- Node.js için Aspose.Diagram'i Java üzerinden rahatlıkla kullanabilirsiniz.[NPM](https://www.npmjs.com/package/aspose.diagram) aşağıdaki komutla.
+ Node.js için Aspose.Diagram via Java adresinden rahatlıkla kullanabilirsiniz.[NPM](https://www.npmjs.com/package/aspose.diagram) aşağıdaki komutla.
 {{< highlight "java" >}}
 
  $ npm install aspose.diagram
@@ -18,7 +18,7 @@ description: Visio Diagram Java üzerinden Node.js, platformdan bağımsız API'
 Yükleme işlemi sırasında herhangi bir sorunla karşılaşırsanız, lütfen https://www.npmjs.com/package/java adresine bakın.
 
 ## **ZIP arşivinden yükleyin**
-Bir ZIP arşivinden Java aracılığıyla Node.js için Aspose.Diagram'i yüklemek ve kullanmak için aşağıdaki talimatları izleyin:
+Bir ZIP arşivinden Aspose.Diagram for Node.js via Java'i yüklemek ve kullanmak için aşağıdaki talimatları izleyin:
 ### **Linux:**
 -  İndirin ve kurun[Node.js](https://nodejs.org/en/download/).
 - Linux için Oracle JDK (1.7 veya 1.8) yükleyin, Java_HOME ortam değişkenini yapılandırın.

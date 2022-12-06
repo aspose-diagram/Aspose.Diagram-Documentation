@@ -19,9 +19,9 @@ url: /zh/java/aspose-diagram-for-java-17-6-release-notes/
 |DIAGRAMJAVA-50484|以VSDX格式保存图纸时决策框形状的竖排文字显示|漏洞|
 |DIAGRAMJAVA-50486|以 VSDX 格式保存图形时预定义过程形状的垂直文本显示|漏洞|
 |DIAGRAMJAVA-50492|宽度和高度单元格中的公式未被保留|漏洞|
-|DIAGRAMJAVA-50493|将 VSD 转换为 SVG 时缺少字符|漏洞|
+|DIAGRAMJAVA-50493|Missing characters on converting a VSD to SVG|漏洞|
 |DIAGRAMJAVA-50494|输出 VSDX - 连接线未在过程形状中间连接|漏洞|
-|DIAGRAMJAVA-50499|VSDX 到 PNG - 形状底部出现一条白色水平线|漏洞|
+|DIAGRAMJAVA-50499|VSDX to PNG - a white horizontal line appears at the bottom of shape|漏洞|
 ## **公共 API 和向后不兼容的更改**
 请参阅列表以了解对公众 API 所做的任何更改，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
 ### **在 Shape 类中添加 refreshData 方法**

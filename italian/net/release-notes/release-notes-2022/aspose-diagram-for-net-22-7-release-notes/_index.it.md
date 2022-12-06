@@ -13,13 +13,13 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-52872|Visio in SVG genera più tag modello|Aumento|
-|DIAGRAMNET-52877|Problema di allineamento del testo russo durante la conversione da Visio a SVG|Aumento|
-|DIAGRAMNET-52886|Problema di allineamento del testo russo durante la conversione da Visio a SVG|Aumento|
-|DIAGRAMNET-52861|Problema nella rappresentazione HTML|Insetto|
+|DIAGRAMNET-52872|Visio to SVG generates multiple pattern tags|Aumento|
+|DIAGRAMNET-52877|Russian text alignment issue during Visio to SVG conversion|Aumento|
+|DIAGRAMNET-52886|Russian text alignment issue during Visio to SVG conversion|Aumento|
+|DIAGRAMNET-52861|Issue in HTML representation|Insetto|
 |DIAGRAMNET-52871|Alcune forme perdono la loro curva dopo la conversione in svg|Insetto|
 |DIAGRAMNET-52883|App: il salvataggio di vsdx in svg genera un'eccezione nulla|Insetto|
-|DIAGRAMNET-52897|Contenuto della tabella mancante nel PDF|Insetto|
+|DIAGRAMNET-52897|Missing table content in PDF|Insetto|
 |DIAGRAMNET-52900|App: il salvataggio di vsdx in Pdf genera un'eccezione (riempimento TextureBrush master)|Insetto|
 
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**

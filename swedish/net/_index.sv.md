@@ -1,7 +1,7 @@
 ﻿---
 title: Aspose.Diagram for .NET
 type: docs
-description: Aspose.Diagram, är en ren .NET API för att arbeta med Microsoft Visio Object Model. Den tillhandahåller Visio filformatskonverteringar till bilder, PDF, HTML, XML och XAML-format. Populära filformat som stöds inkluderar VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM och VSSM.
+description: Aspose.Diagram, är en ren .NET API för att arbeta med Microsoft Visio Object Model. Den tillhandahåller Visio filformatskonverteringar till bilder, PDF, 4816, 4816, XMLs och 30761 XMLs. Populära filformat som stöds inkluderar VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM och 3481,.
 weight: 10
 url: /sv/net/
 is_root: true

@@ -15,14 +15,14 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |:- |:- |:- |
 |DIAGRAMNET-51714|La proprietà AutoFitPageToDrawingContent non funziona come previsto|Aumento|
 |DIAGRAMNET-51719|Supporta la licenza Conholdate Total|Aumento|
-|DIAGRAMNET-51695|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51696|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51698|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51701|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51703|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
+|DIAGRAMNET-51695|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51696|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51698|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51701|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51703|Visio to PDF - Some shapes/lines are not correct|Insetto|
 |DIAGRAMNET-51715|Durante la rimozione di forme e stili principali inutilizzati, solo l'immagine presenta un problema|Insetto|
 |DIAGRAMNET-51716|Il metodo Shape.ToImage genera un'eccezione NullReferenceException|Insetto|
 |DIAGRAMNET-51717|Caricamento del file VSD (Visio 2003-2010) alcuni valori utente delle forme non sono raggiungibili|Insetto|
-|DIAGRAMNET-51720|Durante il salvataggio del file '. VSDX' file in '. Formato SVG'. Viene mostrata un'icona aggiuntiva.|Insetto|
+|DIAGRAMNET-51720|While saving the ‘. VSDX’ file to ‘. SVG’ format. Some extra icon is shown.|Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Nessuno.

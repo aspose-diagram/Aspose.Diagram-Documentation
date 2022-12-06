@@ -16,17 +16,17 @@ url: /es/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|Agregue soporte para convertir el área específica de un dibujo en una imagen|Mejora|
 |DIAGRAMNET-51350|Agregar soporte para recuperar la forma por nombre|Mejora|
 |DIAGRAMNET-51351|Agregue soporte para recuperar la forma de Anotación|Mejora|
-|DIAGRAMNET-51295|VSDX a SVG - la baja calidad de salida SVG|Insecto|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG|Insecto|
 |DIAGRAMNET-51309|DiagramException se produce al guardar el archivo VSDX|Insecto|
-|DIAGRAMNET-51331|VSDM a SVG: los elementos de texto se desplazan hacia arriba|Insecto|
-|DIAGRAMNET-51333|VSDM a SVG: representación incorrecta de los iconos circulares|Insecto|
-|DIAGRAMNET-51339|VSDX a SVG: el truncamiento del texto del lado derecho de cada imagen|Insecto|
+|DIAGRAMNET-51331|VSDM to SVG - the text items are shifted up|Insecto|
+|DIAGRAMNET-51333|VSDM to SVG - incorrect rendering of the circular icons|Insecto|
+|DIAGRAMNET-51339|VSDX to SVG - the truncation of text from the right side of each image|Insecto|
 |DIAGRAMNET-51340|Orden de comentarios incorrecto|Insecto|
 |` `DIAGRAMA-51342|Error de falta de memoria después de usar el método "AddComment" y guardar el archivo en Steam|Insecto|
-|DIAGRAMNET-51344|VSDX a PDF: se produjo un error de argumento fuera de rango|Insecto|
+|DIAGRAMNET-51344|VSDX to PDF - an argument out of range error occurred|Insecto|
 |DIAGRAMNET-51345|El comentario no se elimina junto con la forma.|Insecto|
-|DIAGRAMNET-51346|VSDM a SVG: se degrada la calidad del logotipo|Insecto|
-|DIAGRAMNET-51347|VSDM a SVG: se degrada la calidad del logotipo|Insecto|
+|DIAGRAMNET-51346|VSDM to SVG - the logo quality is downgraded|Insecto|
+|DIAGRAMNET-51347|VSDM to SVG - the logo quality is downgraded|Insecto|
 |DIAGRAMNET-51353|No se puede agregar otro comentario en la página Visio|Insecto|
 |DIAGRAMNET-51354|No se pueden editar comentarios en la página Visio|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**

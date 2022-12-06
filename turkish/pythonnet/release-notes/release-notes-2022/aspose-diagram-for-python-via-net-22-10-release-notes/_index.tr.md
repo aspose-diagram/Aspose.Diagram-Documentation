@@ -1,18 +1,18 @@
 ﻿---
-title: .NET aracılığıyla Python için Aspose.Diagram 22.10 Sürüm Notları
+title: Python via .NET için Aspose.Diagram 22.10 Sürüm Notları
 type: docs
 weight: 17
 url: /tr/python-net/aspose-diagram-for-python-via-net-22-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, .NET 22.10 aracılığıyla Python için Aspose.Diagram için sürüm notları içerir.
+Bu sayfa Aspose.Diagram için Python via .NET için sürüm notları içerir 22.10.
 
 {{% /alert %}} 
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Grafik, SVG formatına dışa aktarıldığında düşük kalitede görüntüleniyor|Artırma|
+|DIAGRAMNET-52988|Bir grafik, SVG biçiminde dışa aktarıldığında düşük kalitede görüntüleniyor|Artırma|
 |DIAGRAMNET-53002|Aspose.Diagram ile html'ye dışa aktarırken bağlantı kayboldu|Artırma|
 |DIAGRAMNET-52983|Diagram.Save hatası|Böcek|
 |DIAGRAMNET-52984|VentureLicenser sınıfındaki değerleri değiştirin|Böcek|

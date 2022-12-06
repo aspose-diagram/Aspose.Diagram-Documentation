@@ -18,8 +18,8 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |DIAGRAMNET-53024|La formule ne rafraîchit pas le champ|Renforcement|
 |DIAGRAMNET-53009|Conversation de vsdx à svg image perdue|Renforcement|
 |DIAGRAMNET-53010|App : Enregistrement de vsdx en formes perdues au format PDF|Punaise|
-|DIAGRAMNET-53013|Visio à SVG - Motifs de lignes personnalisés|Punaise|
-|DIAGRAMNET-53017|La zone liée dans HTML de VSD est passée à la version 22.10.0.0|Punaise|
+|DIAGRAMNET-53013|Visio to SVG - Custom line patterns|Punaise|
+|DIAGRAMNET-53017|Linked area in HTML of VSD has changed to version 22.10.0.0|Punaise|
 |DIAGRAMNET-53018|Bug avec Paras.SpLine|Punaise|
 |DIAGRAMNET-53019|une ligne supplémentaire est tracée en bas à gauche|Punaise|
 |DIAGRAMNET-53033|Les valeurs des cellules ne sont pas calculées correctement|Punaise|

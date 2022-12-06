@@ -10,13 +10,13 @@ Avec Aspose.Diagram, il est simple d'ouvrir des fichiers, par exemple pour récu
 
 {{% /alert %}}
 
-## **Ouvrir un fichier via un chemin**
+## **Opening a File via a Path**
 
  Les développeurs peuvent ouvrir un fichier Microsoft Diagram en utilisant son chemin de fichier sur l'ordinateur local en le spécifiant dans le**Diagram**constructeur de classe. Passez simplement le chemin dans le constructeur en tant que*chaîne de caractères*. Aspose.Diagram détectera automatiquement le type de format de fichier.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaPath.py" >}}
 
-## **Ouvrir un fichier via un flux**
+## **Opening a File via a Stream**
 
  Il est également simple d'ouvrir un fichier Visio en tant que flux. Pour ce faire, utilisez une version surchargée du constructeur qui prend le*BufferStream*objet qui contient le fichier.
 

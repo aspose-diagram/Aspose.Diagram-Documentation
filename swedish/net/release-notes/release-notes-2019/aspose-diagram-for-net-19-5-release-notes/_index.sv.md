@@ -17,11 +17,11 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.5](http
 |DIAGRAMNET-51637|Kapslad form inuti en grupperad behållare bevaras inte korrekt|Förbättring|
 |DIAGRAMNET-51638|Det går inte att få Prop.Value.Val när värdet är ett heltal|Förbättring|
 |DIAGRAMNET-51640|Bestäm oanvända stilar i en Visio-fil|Förbättring|
-|DIAGRAMNET-50051|VSDX till PDF-konvertering, anslutningspil saknas tillsammans med felplacerad text|Insekt|
-|DIAGRAMNET-50052|VSDX till PDF-konvertering, former med felaktig teckenfärg|Insekt|
+|DIAGRAMNET-50051|VSDX till PDF konvertering, anslutningspil saknas tillsammans med felplacerad text|Insekt|
+|DIAGRAMNET-50052|VSDX till PDF konvertering, former med felaktig teckensnittstextfärg|Insekt|
 |DIAGRAMNET-51179|Felaktig skuggning över en e-postknapp vid konvertering av en VSDM till SVG|Insekt|
-|DIAGRAMNET-51190|Felaktig visning av hyperlänkad form när en VDX sparades till SVG|Insekt|
-|DIAGRAMNET-51194|Felaktig återgivning av en ikon när en VDX sparades till SVG|Insekt|
+|DIAGRAMNET-51190|Felaktig visning av hyperlänkad form när du sparar en VDX till SVG|Insekt|
+|DIAGRAMNET-51194|Felaktig återgivning av en ikon när du sparar en VDX till SVG|Insekt|
 |DIAGRAMNET-51254|Felaktig skuggning i det översta fältet vid konvertering av en VSDM till SVG|Insekt|
 |DIAGRAMNET-51618|Visio till PDF - Dåligt datumformat och saknade data|Insekt|
 |DIAGRAMNET-51628|Felaktigt textvärde för raderad standardtext i .vsdx-diagram|Insekt|

@@ -13,21 +13,21 @@ url: /tr/net/aspose-diagram-for-net-17-6-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51264|VSDM'i SVG'ye dönüştürürken şekillerin gölgesi siyahtır|Artırma|
+|DIAGRAMNET-51264|VSDM'i SVG'e dönüştürürken şekillerin gölgesi siyahtır|Artırma|
 |DIAGRAMNET-51270|Visio Viewer'da VSDX şekli görülemiyor|Artırma|
 |DIAGRAMNET-51273|Visio Viewer 2013'te şeklin yanlış görüntülenmesi|Artırma|
 |DIAGRAMNET-51249|VSDM'de bağlanan kavisli hattın yanlış görünümü|Böcek|
-|DIAGRAMNET-51250|VSD'i PDF'ye dönüştürürken metne ek bir sol parantez eklenir|Böcek|
-|DIAGRAMNET-51251|Bir VSDM, SVG'ye dönüştürülürken simgenin boyutu düşürüldü|Böcek|
-|DIAGRAMNET-51253|VSDM'i SVG'ye dönüştürürken şekillerdeki metin ve kenarlıkların yanlış rengi|Böcek|
-|DIAGRAMNET-51255|VSDM, SVG'ye dönüştürülürken alttaki bir resim ezildi|Böcek|
+|DIAGRAMNET-51250|VSD'i PDF'e dönüştürürken metne ek bir sol parantez eklenir|Böcek|
+|DIAGRAMNET-51251|VSDM'den SVG'e dönüştürülürken simgenin boyutu küçülür|Böcek|
+|DIAGRAMNET-51253|VSDM'i SVG'e dönüştürürken şekillerdeki metin ve kenarlıkların yanlış rengi|Böcek|
+|DIAGRAMNET-51255|VSDM'den SVG'e dönüştürülürken alttaki bir resim ezildi|Böcek|
 |DIAGRAMNET-51258|VSDM rutinini açın ve kaydedin - duvarların uzunluğu değiştirilir|Böcek|
 |DIAGRAMNET-51259|VSDM rutinini açın ve kaydedin - duvarların uzunluğu değiştirilir|Böcek|
 |DIAGRAMNET-51260|Diagram sınıfının düzen yöntemi çağrılırken dizin çıkış aralığı hatası oluştu|Böcek|
-|DIAGRAMNET-51263|VSDM'i SVG'ye dönüştürürken ek bir kırmızı renk etiketi görünür|Böcek|
-|DIAGRAMNET-51265|Başlık metninin yazı tipi, bir VSDM'in SVG'ye dönüştürülmesinde değiştirilir|Böcek|
-|DIAGRAMNET-51266|Arka plan görüntüsünün boyutu, VSDM'i SVG'ye dönüştürmek için azaltıldı|Böcek|
-|DIAGRAMNET-51267|VSDM, SVG'ye dönüştürülürken bir simge boyutu küçültülür|Böcek|
+|DIAGRAMNET-51263|VSDM'i SVG'e dönüştürürken ek bir kırmızı renk etiketi görünür.|Böcek|
+|DIAGRAMNET-51265|Başlık metninin yazı tipi, VSDM'den SVG'e dönüştürülürken değiştirilir|Böcek|
+|DIAGRAMNET-51266|Arka plan resminin boyutu, VSDM'i SVG'e dönüştürmek için azaltılır|Böcek|
+|DIAGRAMNET-51267|VSDM'den SVG'e dönüştürülürken simge boyutu küçültülür|Böcek|
 |DIAGRAMNET-51268|VSDM çiziminden bir görüntünün yanlış saydamlık değerini alır|Böcek|
 |DIAGRAMNET-51269|Sanallaştırma koruması ekleyin|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

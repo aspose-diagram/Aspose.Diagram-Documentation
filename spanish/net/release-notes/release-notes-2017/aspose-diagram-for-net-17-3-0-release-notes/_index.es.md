@@ -14,9 +14,9 @@ url: /es/net/aspose-diagram-for-net-17-3-0-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMNET-51153|Diagram. El método AddShape no coloca las formas en las posiciones correctas.|Mejora|
-|DIAGRAMNET-51156|Faltan las formas del cilindro azul al convertir un VSD a PDF.|Mejora|
+|DIAGRAMNET-51156|The blue cylinder shapes are missing on converting a VSD to PDF.|Mejora|
 |DIAGRAMNET-51158|No se puede agregar un hipervínculo a una forma en el VSDM.|Mejora|
-|DIAGRAMNET-51154|Los elementos de texto se desplazan ligeramente al convertir un VSD a PDF.|Insecto|
+|DIAGRAMNET-51154|The text items are displaced slightly on converting a VSD to PDF.|Insecto|
 |DIAGRAMNET-51155|Cálculo incorrecto de la altura al agrupar formas en VSDX.|Insecto|
 |DIAGRAMNET-51157 |Diseño incorrecto de los conectores al mover una forma de grupo dentro de VSDX.|Insecto|
 |DIAGRAMNET-51159|Error al abrir y guardar un dibujo VSDM.|Insecto|

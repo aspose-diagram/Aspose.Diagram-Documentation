@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /sv/java/aspose-diagram-for-python-via-java-features/
 ---
-Det här avsnittet ger en jämförelse av tillgängligheten för funktionerna Aspose.Diagram för Python via Java.
+Det här avsnittet ger en jämförelse av tillgängligheten för funktioner Aspose.Diagram för Python via Java.
 ## **Filformat som stöds**
 
 |**Formatera**|**Beskrivning**|**Ladda**|**Spara**|**Anmärkningar**|
@@ -21,16 +21,16 @@ Det här avsnittet ger en jämförelse av tillgängligheten för funktionerna As
 |[VSTM](https://docs.fileformat.com/visio/vstm/)|VSTM som innehåller både ritmall och makron|{{< emoticons/tick >}}|{{< emoticons/tick >}}|?|
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Filtyp för webbritning|{{< emoticons/tick >}}|?|?|
 |[VSS](https://docs.fileformat.com/visio/vss/)|Stencilfiltypen Visio|{{< emoticons/tick >}}|?|?|
-|[VST](https://docs.fileformat.com/visio/vst/)|VST-mallfil|{{< emoticons/tick >}}|?|?|
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Mallfil|{{< emoticons/tick >}}|?|?|
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)|?|{{< emoticons/tick >}}|?|
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS-format|?|{{< emoticons/tick >}}|?|
-|[XAML](https://docs.fileformat.com/web/xaml/)|XAML-format|?|{{< emoticons/tick >}}|?|
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format|?|{{< emoticons/tick >}}|?|
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML format|?|{{< emoticons/tick >}}|?|
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Skalbar vektorgrafik (ett XML-baserat vektorbildformat)|?|{{< emoticons/tick >}}|?|
 |[EMF](https://docs.fileformat.com/image/emf/)|Förbättrad MetaFile|?|{{< emoticons/tick >}}|?|
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG-format|?|{{< emoticons/tick >}}|?|
-|[PNG](https://docs.fileformat.com/image/png/)|PNG-format|?|{{< emoticons/tick >}}|?|
-|[BMP](https://docs.fileformat.com/image/bmp/)|BMP-format|?|{{< emoticons/tick >}}|?|
-|[TIFF](https://docs.fileformat.com/image/tiff/)|Enkel eller flersidig TIFF-bild|?|{{< emoticons/tick >}}|?|
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format|?|{{< emoticons/tick >}}|?|
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Format|?|{{< emoticons/tick >}}|?|
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format|?|{{< emoticons/tick >}}|?|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Enkel eller flersidig TIFF bild|?|{{< emoticons/tick >}}|?|
 ## **Aspose.Diagram för Python via Java - Funktioner**
 ### **Skapa**
 - Skapa diagram från grunden.
@@ -38,7 +38,7 @@ Det här avsnittet ger en jämförelse av tillgängligheten för funktionerna As
 - Läs Microsoft Visio 2003/2007/2010 VSD format.
 - Läs Microsoft Visio 2003/2007/2010 VSS-format.
 - Läs Microsoft Visio 2003/2007/2010 VDW-format.
-- Läs Microsoft Visio 2003/2007/2010 VST-format.
+- Läs Microsoft Visio 2003/2007/2010 VST format.
 ### **Läsa och skriva**
 - Läs eller skriv Microsoft Visio 2013 VSDX format.
 - Läs eller skriv Microsoft Visio 2013 VSSX format.
@@ -50,11 +50,11 @@ Det här avsnittet ger en jämförelse av tillgängligheten för funktionerna As
 - Läs eller skriv Microsoft Visio 2003/2007/2010 VSX format.
 - Läs eller skriv Microsoft Visio 2003/2007/2010 VTX format.
 ### **Exportera**
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till populära bildformat (,, BMF, JPEG, EMFG och PNG).
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till PDF.
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till HTML.
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till XML Paper Specification (XPS Paper Specification).
-- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX) till XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX och VSX)
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX och VSX)
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och 076173418 till XML-specifikationen 076173618) (XML-specifikation 076173618)
+- Exportera diagram (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX och VSX och VSX)
 ### **Skriva ut**
 - Skriv ut Visio diagram med hög kvalitet.
 ### **Tillgång**

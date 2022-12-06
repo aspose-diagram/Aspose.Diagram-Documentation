@@ -55,4 +55,4 @@ description: В этом разделе перечислены поддержи�
 - .NET Framework 4.6.2
 - .NET Framework 4.7
 - .NET Framework 4.7.2
-- .NET Стандарт 2.0 (.NET Core 2.0/2.1)
+- .NET Standard 2.0 (.NET Core 2.0/2.1)

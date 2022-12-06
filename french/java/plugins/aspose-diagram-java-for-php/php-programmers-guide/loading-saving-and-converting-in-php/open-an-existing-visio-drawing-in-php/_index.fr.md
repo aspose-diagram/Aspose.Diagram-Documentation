@@ -17,6 +17,6 @@ $diagram = new Diagram($dataDir . "Drawing.vsd");
 
 {{< /highlight >}}
 ## **Télécharger le code d'exécution**
- Télécharger**Exporter Visio Diagram vers XPS (Aspose.Diagram)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+ Télécharger**Export Visio Diagram to XPS (Aspose.Diagram)**à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/OpenanExistingVisioDrawing.php)

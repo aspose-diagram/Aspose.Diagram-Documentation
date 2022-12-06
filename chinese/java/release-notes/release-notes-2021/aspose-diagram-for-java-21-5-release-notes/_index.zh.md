@@ -14,6 +14,6 @@ url: /zh/java/aspose-diagram-for-java-21-5-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50714|API 需要很长时间才能将 visio diagram 转换为 svg|强化|
-|DIAGRAMJAVA-50720|将 VSDX 转换为 PNG - 输出图像中的形状为空白|强化|
-|DIAGRAMJAVA-50721|导出的 EMF 中缺少内容|漏洞|
-|DIAGRAMJAVA-50723|另存为 SVG 时，错位的形状回归从 21.2 到 21.3|漏洞|
+|DIAGRAMJAVA-50720|Convert VSDX to PNG - Shapes are blank in the output Image|强化|
+|DIAGRAMJAVA-50721|Missing content in exported EMF|漏洞|
+|DIAGRAMJAVA-50723|Misplaced shape regression from 21.2 to 21.3 when saving as SVG|漏洞|

@@ -15,16 +15,16 @@ url: /es/net/aspose-diagram-for-net-18-1-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50494|Agregar soporte para duplicar/clonar una página diagram|Mejora|
 |DIAGRAMNET-51057|Falta el botón de comando después de eliminar una página de VSDM|Mejora|
-|DIAGRAMNET-51422|VSDX a PDF: las sombras se ignoran en las formas del proceso|Mejora|
-|DIAGRAMNET-50467|VSD a conversión de PDF, el logotipo corporativo de la empresa está fuera de lugar|Insecto|
-|DIAGRAMNET-50469|Conversión de VSD a PDF, el texto de la forma de radio está ligeramente más arriba de lo habitual|Insecto|
-|DIAGRAMNET-51199|El texto del título no está alineado al guardar un VSDM en SVG|Insecto|
+|DIAGRAMNET-51422|VSDX to PDF - the shadows are being ignored on process shapes|Mejora|
+|DIAGRAMNET-50467|VSD to PDF conversion, the company corporate logo is misplaced|Insecto|
+|DIAGRAMNET-50469|VSD to PDF conversion, the radio shape text is slightly up than usual|Insecto|
+|DIAGRAMNET-51199|Title text is not aligned on saving a VSDM to SVG|Insecto|
 |DIAGRAMNET-51388|Problemas con la carga y el guardado de archivos vsdx|Insecto|
-|DIAGRAMNET-51398|VSD a PNG: la posición del texto es incorrecta|Insecto|
-|DIAGRAMNET-51407|VSD a JPEG: los elementos de texto están fuera de lugar|Insecto|
+|DIAGRAMNET-51398|VSD to PNG - the text position is incorrect|Insecto|
+|DIAGRAMNET-51407|VSD to JPEG - the text items are misplaced|Insecto|
 |DIAGRAMNET-51419|Las formas no se redimensionan correctamente en el archivo vsdx|Insecto|
 |DIAGRAMNET-51420|El archivo VSDX se corrompe después de cargarlo y guardarlo|Insecto|
-|DIAGRAMNET-51421|VSDX a PDF - color de fuente incorrecto del texto|Insecto|
+|DIAGRAMNET-51421|VSDX to PDF - incorrect font color of the text|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en la[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 ### **Agrega miembro de copia en la clase de página**

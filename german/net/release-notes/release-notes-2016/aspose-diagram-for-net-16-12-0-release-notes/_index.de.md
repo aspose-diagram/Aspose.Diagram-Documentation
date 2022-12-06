@@ -19,15 +19,15 @@ url: /de/net/aspose-diagram-for-net-16-12-0-release-notes/
 |DIAGRAMNET-51109|Verbesserung zum Festlegen der Gradientenstopp-Eigenschaften.|Erweiterung|
 |DIAGRAMNET-51073|Unvollständige Darstellung der Kreisform beim Speichern in VDX. - I|Insekt|
 |DIAGRAMNET-51077|Unvollständige Darstellung der Kreisform beim Speichern in VDX. - II|Insekt|
-|DIAGRAMNET-51098|VSD zum PDF-Export - der zusätzliche Leerraum wird auf der linken Seite der Zeichnung generiert.|Insekt|
-|DIAGRAMNET-51099|VSD in den HTML-Export - der zusätzliche Leerraum wird auf der linken Seite der Zeichnung generiert.|Insekt|
-|DIAGRAMNET-51100|VSD zum SVG-Export - die Hintergrundfarbe des Containers wird schwarz.|Insekt|
+|DIAGRAMNET-51098|VSD to PDF export - the extra white space is generated on the left side of the drawing.|Insekt|
+|DIAGRAMNET-51099|VSD to HTML export - the extra white space is generated on the left side of the drawing.|Insekt|
+|DIAGRAMNET-51100|VSD to SVG export - the background color of container turns into black.|Insekt|
 |DIAGRAMNET-51101|Formen können nicht zum zweiten Mal auf einer Visio-Zeichnungsseite gruppiert werden.|Insekt|
 |DIAGRAMNET-51102|Die Gruppenform wird beim Hinzufügen von Kreisformen in einem VSDM unsichtbar.|Insekt|
 |DIAGRAMNET-51103|Page.AddShape-Methode zeigt einen ungültigen Fehler beim Hinzufügen eines dynamischen Konnektors.|Insekt|
-|DIAGRAMNET-51105|Fehlendes eingebettetes Excel beim Konvertieren von VSD in PDF. - ICH|Insekt|
-|DIAGRAMNET-51114|Fehlendes eingebettetes Excel beim Konvertieren von VSD in PDF. -II|Insekt|
-|DIAGRAMNET-51117|Die Textelemente in den Aufzählungszeichen werden beim Konvertieren von VSD in PDF nicht gut ausgerichtet.|Insekt|
+|DIAGRAMNET-51105|Missing an embedded excel in converting a VSD to PDF. - I|Insekt|
+|DIAGRAMNET-51114|Missing an embedded excel in converting a VSD to PDF. -II|Insekt|
+|DIAGRAMNET-51117|The text items in the bullets are not aligned well on converting a VSD to PDF.|Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Sehen Sie sich die Liste für alle Änderungen an, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 ### **Fügt die AddText-Methode in der Page-Klasse hinzu**

@@ -14,7 +14,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 21.9.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk: Überprüfen Sie, ob TextAnnotation mit der Form verbunden ist|Erweiterung|
-|DIAGRAMJAVA-50382|Beim Konvertieren einer VSDX in PDF fehlt die Schattierung von Formen|Insekt|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|Insekt|
 |DIAGRAMJAVA-50754|wk - LineColor von InheritLine ist nicht korrekt|Insekt|
 |DIAGRAMJAVA-50756|wk: PinPos null vs Mitte-Mitte|Insekt|
 |DIAGRAMJAVA-50757|WK: getBegin/End Arrow-Wert falsch.|Insekt|

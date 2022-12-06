@@ -27,24 +27,24 @@ url: /zh/net/aspose-diagram-for-net-17-4-0-release-notes/
 |DIAGRAMNET-51169|无法从 VDX 的连接中检索到部分连接|漏洞|
 |DIAGRAMNET-51170|Visio 添加GIF图片时无法打开VSDX文件|漏洞|
 |DIAGRAMNET-51173|不保留 VSDX 中连接器形状的复合类型|漏洞|
-|DIAGRAMNET-51177|将 VSDM 转换为 SVG 时，箭头按钮未正确显示|漏洞|
-|DIAGRAMNET-51178|将 VSDM 转换为 SVG 时重复的文本行被覆盖|漏洞|
+|DIAGRAMNET-51177|The arrow button is not being displayed correctly on converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51178|A duplicated text line is over-written while converting a VSDM to SVG|漏洞|
 |DIAGRAMNET-51180|以 VSDX 格式保存时连接器布局不正确|漏洞|
 |DIAGRAMNET-51181|以 PDF 格式保存时连接器布局不正确|漏洞|
 |DIAGRAMNET-51182|将 VSD 转换为 PDF 时缺少形状|漏洞|
-|DIAGRAMNET-51183|将 VSD 转换为 PDF 时的位移形状|漏洞|
+|DIAGRAMNET-51183|Displaced shapes on converting a VSD to PDF|漏洞|
 |DIAGRAMNET-51187|VDX 保存后文件损坏 - II|漏洞|
-|DIAGRAMNET-51191|将 VDX 保存到 SVG 时，形状底部的责任框会部分变暗|漏洞|
-|DIAGRAMNET-51192|将 VDX 保存为 SVG 时文本短语的间距不正确|漏洞|
-|DIAGRAMNET-51193|将 VDX 保存到 SVG 时出现附加文本|漏洞|
-|DIAGRAMNET-51200|文本项在将 VSDM 保存到 SVG 时重叠|漏洞|
+|DIAGRAMNET-51191|Responsibility box at bottom of the shape is partially shaded on saving a VDX to SVG|漏洞|
+|DIAGRAMNET-51192|The text phrases are not being spaced correctly on saving a VDX to SVG|漏洞|
+|DIAGRAMNET-51193|An additional text appeared on saving a VDX to SVG|漏洞|
+|DIAGRAMNET-51200|The text items are overlapping on saving a VSDM to SVG|漏洞|
 |DIAGRAMNET-51202|diagram 保存时出现 ArgumentOutOfRangeException|漏洞|
 |DIAGRAMNET-51203|保存时缺少图像 VSDX|漏洞|
-|DIAGRAMNET-51205|将 VSDM 转换为 SVG 时出现移位文本和缺失字符|漏洞|
-|DIAGRAMNET-51206|将 VSDM 转换为 SVG 时底部显示不正确|漏洞|
+|DIAGRAMNET-51205|Displaced text and a missing character on converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51206|Incorrect display at the bottom on converting a VSDM to SVG|漏洞|
 |DIAGRAMNET-51207|VDX 保存后文件损坏 - I|漏洞|
-|DIAGRAMNET-51209|以 PNG 格式保存绘图时发生错误 - I|漏洞|
-|DIAGRAMNET-51210|以 PNG - II 格式保存绘图时出错|漏洞|
+|DIAGRAMNET-51209|An error occurred on saving a drawing in PNG - I|漏洞|
+|DIAGRAMNET-51210|An error occurred on saving a drawing in PNG - II|漏洞|
 |DIAGRAMNET-51213|无法检索上次保存图形时的准确日期和时间值|漏洞|
 |DIAGRAMNET-51215|将 VSD 转换为 JPG 时呈现矩形形状|漏洞|
 

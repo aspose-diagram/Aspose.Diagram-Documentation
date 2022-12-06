@@ -19,15 +19,15 @@ url: /zh/net/aspose-diagram-for-net-16-12-0-release-notes/
 |DIAGRAMNET-51109|设置渐变停止属性的改进。|强化|
 |DIAGRAMNET-51073|在 VDX 中保存时圆形的不完整渲染。-我|漏洞|
 |DIAGRAMNET-51077|在 VDX 中保存时圆形的不完整渲染。- II|漏洞|
-|DIAGRAMNET-51098|VSD 到 PDF 导出 - 在绘图的左侧生成额外的空白区域。|漏洞|
-|DIAGRAMNET-51099|VSD 到 HTML 导出 - 在绘图的左侧生成额外的空白区域。|漏洞|
-|DIAGRAMNET-51100|VSD 到 SVG 导出 - 容器的背景颜色变为黑色。|漏洞|
+|DIAGRAMNET-51098|VSD to PDF export - the extra white space is generated on the left side of the drawing.|漏洞|
+|DIAGRAMNET-51099|VSD to HTML export - the extra white space is generated on the left side of the drawing.|漏洞|
+|DIAGRAMNET-51100|VSD to SVG export - the background color of container turns into black.|漏洞|
 |DIAGRAMNET-51101|无法在 Visio 绘图页中第二次对形状进行分组。|漏洞|
 |DIAGRAMNET-51102|在 VSDM 中添加圆形时，组形状变得不可见。|漏洞|
 |DIAGRAMNET-51103|Page.AddShape 方法在添加动态连接器时显示无效错误。|漏洞|
-|DIAGRAMNET-51105|在将 VSD 转换为 PDF 时缺少嵌入式 Excel。 - 我|漏洞|
-|DIAGRAMNET-51114|在将 VSD 转换为 PDF 时缺少嵌入式 Excel。 -Ⅱ|漏洞|
-|DIAGRAMNET-51117|在将 VSD 转换为 PDF 时，项目符号中的文本项未对齐。|漏洞|
+|DIAGRAMNET-51105|Missing an embedded excel in converting a VSD to PDF. - I|漏洞|
+|DIAGRAMNET-51114|Missing an embedded excel in converting a VSD to PDF. -II|漏洞|
+|DIAGRAMNET-51117|The text items in the bullets are not aligned well on converting a VSD to PDF.|漏洞|
 ### **公共 API 和向后不兼容的更改**
 请参阅列表以了解对公众 API 所做的任何更改，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
 ### **在 Page 类中添加 AddText 方法**

@@ -13,9 +13,9 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686: las posiciones de las viñetas de prueba en VSDX -> SVG son incorrectas [JAVA]|Mejora|
-|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688: las posiciones de las viñetas de prueba en VSDX -> SVG son incorrectas [JAVA]|Mejora|
+|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|Mejora|
+|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|Mejora|
 |DIAGRAMJAVA-50689|DIAGRAMJAVA-50689: no se puede obtener la información de que las formas y el contenedor están vinculados de alguna manera en VSDX|Mejora|
 ## **Public API y cambios incompatibles con versiones anteriores**
 - Eliminado SWFSaveOptions
-- Se eliminó SaveFileFormat.SWF
+- Removed SaveFileFormat.SWF

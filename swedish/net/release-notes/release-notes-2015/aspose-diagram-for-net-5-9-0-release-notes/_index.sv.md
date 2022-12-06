@@ -6,7 +6,7 @@ url: /sv/net/aspose-diagram-for-net-5-9-0-release-notes/
 ---
 Den här versionen introducerar funktionerna, förbättringarna och buggfixarna som beskrivs nedan:
 ## **Ny funktion**
-- DIAGRAMNET-50143-[VSD till HTML-konvertering](https://docs.aspose.com/diagram/net/convert-visio-to-html/) Lägg till stöd för att spara utdata-html till ett strömobjekt
+- DIAGRAMNET-50143-[VSD till HTML konvertering](https://docs.aspose.com/diagram/net/convert-visio-to-html/) Lägg till stöd för att spara utdata-html till ett strömobjekt
 - DIAGRAMNET-50564-Skrivstöd för nya MS Visio Stencil 2013 VSSX format
 - DIAGRAMNET-50565-Skrivstöd för nya MS Visio Mall 2013 VSTX format
 - DIAGRAMNET-50649-Lässtöd för nya MS Visio-mall 2013 VSTX-format
@@ -21,7 +21,7 @@ Den här versionen introducerar funktionerna, förbättringarna och buggfixarna 
 - DIAGRAMNET-50642-VSD till VDX export, kontakternas position har ändrats
 - DIAGRAMNET-50643-Öppna och spara VSDX, serverformerna saknas
 - DIAGRAMNET-50644-VSD till VSDX export, CustomProp-klassen returnerar inte ett verkligt värde
-- DIAGRAMNET-50645-VDX till PDF-export, den resulterande PDF-filen är tom
-- DIAGRAMNET-50646-VDX till BMP-export, ett argumentundantag inträffade
-- DIAGRAMNET-50647-VDX till JPEG-export, ett argumentundantag inträffade
-- DIAGRAMNET-50648-VSDX till SVG-export, de anpassade egenskaperna för formerna bevaras inte
+- DIAGRAMNET-50645-VDX till PDF export, den resulterande PDF är tom
+- DIAGRAMNET-50646-VDX till BMP export, ett argumentundantag inträffade
+- DIAGRAMNET-50647-VDX till JPEG export, ett argumentundantag inträffade
+- DIAGRAMNET-50648-VSDX till SVG export, de anpassade egenskaperna för formerna bevaras inte

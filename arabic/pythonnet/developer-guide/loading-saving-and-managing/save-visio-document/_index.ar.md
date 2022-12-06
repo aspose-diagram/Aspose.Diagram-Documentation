@@ -12,7 +12,7 @@ description: تصف هذه الصفحة كيفية حفظ Visio مستند إل�
  تمثل الفئة Diagram من Aspose.Diagram API رسمًا Visio ويمكن للمطورين حفظ كائن Visio diagram بأي تنسيق ملف مدعوم. لحفظ ملف Microsoft Visio ، ما عليك سوى استخدام ملحق[Diagram.Save]()الأسلوب ، فإنه يقبل اسم ملف بمسار كامل أو كائن دفق ملف. يستنتج Aspose.Diagram API تنسيق الحفظ من امتداد الملف ويقدم أيضًا معامل SaveFileFormat إضافيًا لتحديد تنسيق ملف الإخراج.
 ### **احفظ Visio Diagram بأي تنسيق ملف مدعوم**
 باستخدام Aspose.Diagram API ، يمكن للمطورين حفظ Visio diagram بأي تنسيق ملف مدعوم كما هو موضح أدناه:
-**VSDX ، VSDM ، VSSX ، VSSM ، VSTX ، VSTM ، VDX ، VSX ، VTX ، TIFF ، PNG ، BMP ، EMF ، JPEG ، PDF ، XPS ، GIF ، HTML ، SVG ، SWF و XAML**
+**VSDX و VSDM و VSSX و VSSM و VSTX و VSTM و VDX و VSX و VTX و TIFF و PNG و BMP و EMF و JPEG و 07611531183 و EMF و 07611331183 و EMF و JPEG**
 ### **حفظ Diagram عينة البرمجة**
 المثال أدناه يحفظ مستندًا إلى ملف.
 
@@ -29,11 +29,11 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 توضح هذه الأمثلة كيفية:
 
 - [استخدم Diagram حفظ الخيارات](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [استخدم خيارات حفظ PDF](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [استخدم خيارات حفظ HTML](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [استخدم PDF حفظ الخيارات](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [استخدم HTML حفظ الخيارات](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 - [استخدم خيارات حفظ الصورة](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [استخدم SVG Save Options](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [استخدم خيارات حفظ SWF](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [استخدم SVG حفظ الخيارات](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [استخدم SWF حفظ الخيارات](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 #### **استخدام Diagram حفظ الخيارات**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ المستند بتنسيق Visio.
 
@@ -41,14 +41,14 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 
 
-#### **استخدام خيارات حفظ PDF**
-يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند إلى تنسيق PDF.
+#### **استخدام PDF حفظ الخيارات**
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق PDF.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UsePdfSaveOptions.py" >}}
 
 
 
-#### **استخدام خيارات حفظ HTML**
+#### **استخدام HTML حفظ الخيارات**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق ملف HTML.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseHtmlSaveOptions.py" >}}
@@ -63,22 +63,22 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseImageSaveOptions.py" >}}
 
 
-استخدام SVG Save Options
+استخدام SVG حفظ الخيارات
 
-يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق SVG.
+يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ المستند بتنسيق SVG.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseSvgSaveOptions.py" >}}
 
 في بعض الأحيان ، يحتاج المطورون إلى حفظ الرسوم التخطيطية Visio أو تصديرها إلى تنسيقات ملفات مختلفة برمجيًا (مثل VDX و PDF و JPEG وما إلى ذلك).
 
-### ` `**حفظ VSD الملف إلى تنسيقات أخرى باستخدام Aspose.Diagram لـ Python عبر .NET**
+### ` `**حفظ VSD الملف في تنسيقات أخرى باستخدام Aspose.Diagram ل Python via .NET**
 باستخدام Aspose.Diagram ، لا يحتاج المطورون إلى Microsoft Office Visio في الجهاز ، ويمكنهم العمل بشكل مستقل عن Microsoft Office Automation.
 
 توضح مقتطفات التعليمات البرمجية أدناه كيفية:
 
 1. قم بتحميل diagram.
 1. احفظ diagram إلى VSX و PDF و JPEG.
-#### **حفظ VSD ملف مع Aspose.Diagram ل Python عبر .NET عينة البرمجة**
+#### **حفظ VSD الملف مع Aspose.Diagram ل Python via .NET عينة البرمجة**
 {{% alert color="primary" %}} 
 
 استيراد كهدف

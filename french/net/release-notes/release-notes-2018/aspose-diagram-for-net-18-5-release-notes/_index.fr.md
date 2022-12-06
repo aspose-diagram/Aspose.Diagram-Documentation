@@ -13,22 +13,22 @@ url: /fr/net/aspose-diagram-for-net-18-5-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-50189|Conversion VSD en PDF, remplissage dégradé horizontal au lieu du centre|Renforcement|
-|DIAGRAMNET-50927|Le motif de dégradé de couleur de la forme est modifié lors de la conversion d'un VSD en PDF|Renforcement|
-|DIAGRAMNET-50929|Le motif de dégradé de couleur de la forme est modifié lors de la conversion d'un VSD en SVG|Renforcement|
+|DIAGRAMNET-50189|VSD to PDF conversion, horizontal gradient fill instead of center|Renforcement|
+|DIAGRAMNET-50927|The gradient color pattern of shape is changed on converting a VSD to PDF|Renforcement|
+|DIAGRAMNET-50929|The gradient color pattern of shape is changed on converting a VSD to SVG|Renforcement|
 |DIAGRAMNET-51405|VSD à Image - les caractères du texte sont agrandis|Renforcement|
-|DIAGRAMNET-51412|VSD en PDF - un objet OLE est manquant|Renforcement|
+|DIAGRAMNET-51412|VSD to PDF - an OLE object is missing|Renforcement|
 |DIAGRAMNET-51413|VSD à l'image - un objet OLE est manquant|Renforcement|
-|DIAGRAMNET-50185 |Conversion VSD en PDF, ligne courbe épaisse et alignement incorrect du texte|Punaise|
-|DIAGRAMNET-50588|VSDX en conversion PDF, la couleur de remplissage modifiée des formes|Punaise|
-|DIAGRAMNET-50593|VSDX en conversion HTML, la couleur de remplissage modifiée des formes|Punaise|
-|DIAGRAMNET-50873|Les flèches des connecteurs se transforment en lignes droites lors de la conversion d'un VSDX en EMF|Punaise|
-|DIAGRAMNET-50926|La couleur transparente de la forme du conteneur est devenue noire lors de la conversion d'un VSDX en PDF|Punaise|
+|DIAGRAMNET-50185 |VSD to PDF conversion, thick curved line along with incorrect alignment of text|Punaise|
+|DIAGRAMNET-50588|VSDX to PDF conversion, the changed fill color of the shapes|Punaise|
+|DIAGRAMNET-50593|VSDX to HTML conversion, the changed fill color of the shapes|Punaise|
+|DIAGRAMNET-50873|Arrows of connectors turn into straight lines on converting a VSDX to EMF|Punaise|
+|DIAGRAMNET-50926|The transparent color of container shape turned into black while converting a VSDX to PDF|Punaise|
 |DIAGRAMNET-51452|Entrée VSDX - exportation incorrecte de la forme vers l'image|Punaise|
 |DIAGRAMNET-51453|Entrée VSDX - lecture incohérente des propriétés de la forme|Punaise|
-|DIAGRAMNET-51458|VSDX en PNG - la couleur des formes est modifiée|Punaise|
-|DIAGRAMNET-51459|VSDX en SVG - la couleur des formes est modifiée|Punaise|
-|DIAGRAMNET-51460|VSDX à PNG - les parties manquantes des lignes de connexion|Punaise|
-|DIAGRAMNET-51461|VSDX à SVG - les parties manquantes des lignes de connexion|Punaise|
-|DIAGRAMNET-51463|VSDX en PDF - les données indésirables sont générées|Punaise|
+|DIAGRAMNET-51458|VSDX to PNG - the color of shapes is being changed|Punaise|
+|DIAGRAMNET-51459|VSDX to SVG - the color of shapes is being changed|Punaise|
+|DIAGRAMNET-51460|VSDX to PNG - the missing parts of connecting lines|Punaise|
+|DIAGRAMNET-51461|VSDX to SVG - the missing parts of connecting lines|Punaise|
+|DIAGRAMNET-51463|VSDX to PDF - the junk data is being generated|Punaise|
 

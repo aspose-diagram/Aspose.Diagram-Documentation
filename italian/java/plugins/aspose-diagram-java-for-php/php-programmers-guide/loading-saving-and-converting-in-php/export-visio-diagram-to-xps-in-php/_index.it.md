@@ -1,11 +1,11 @@
 ﻿---
-title: Esporta Visio Diagram in XPS in PHP
+title: Export Visio Diagram to XPS in PHP
 type: docs
 weight: 80
 url: /it/java/export-visio-diagram-to-xps-in-php/
 ---
-## **Aspose.Diagram - Esporta Visio Diagram in XPS**
- Per esportare Visio Diagram in XPS utilizzando**Aspose.Diagram Java per PHP** , semplicemente invocare**ExportToXps** modulo. Qui puoi vedere il codice di esempio.
+## **Aspose.Diagram - Export Visio Diagram to XPS**
+To Export Visio Diagram to XPS using **Aspose.Diagram Java per PHP** , semplicemente invocare**ExportToXps** modulo. Qui puoi vedere il codice di esempio.
 
 **Codice PHP**
 
@@ -25,6 +25,6 @@ print "Exported visio diagram to XPS.".PHP_EOL;
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Esporta Visio Diagram in XPS (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scarica**Export Visio Diagram to XPS (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/ExportToXps.php)

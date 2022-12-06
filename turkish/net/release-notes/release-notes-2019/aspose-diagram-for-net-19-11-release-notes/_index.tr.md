@@ -17,7 +17,7 @@ Bu sayfa Aspose.Diagram for .NET 19.11 için sürüm notları bilgilerini içeri
 |DIAGRAMNET-50576|Diagram sınıf nesnesini elden çıkarmak için destek ekleyin|Artırma|
 |DIAGRAMNET-50098|Sayfa arka plan rengini ayarla|Böcek|
 |DIAGRAMNET-51722|Diagram - SVG - çıktı görüntüsünde hatalar var|Böcek|
-|DIAGRAMNET-51724|Çıkış SVG'sini görüntülerken Chrome konsolundaki hatalar|Böcek|
+|DIAGRAMNET-51724|SVG çıkışını görüntülerken Chrome konsolundaki hatalar|Böcek|
 |DIAGRAMNET-51725|Diagram'deki şekillerin z-endeksini al|Böcek|
 |DIAGRAMNET-51726|Kullanılmayan ana şekiller ve stiller kaldırılırken Arka Plan Görüntüsü Eksik (PowerPoint VISIO'ya eklenir)|Böcek|
 |DIAGRAMNET-51727|CheckBox (CheckBox Kontrolü) Kullanılmayan ana şekiller ve stiller kaldırılırken eksik|Böcek|

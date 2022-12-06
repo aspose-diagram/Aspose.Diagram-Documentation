@@ -7,8 +7,8 @@ description: 本节介绍如何从模板添加母版
 ---
 ## **可能的使用场景**
 
-Aspose.Diagram 为 Python 通过 Java 允许您从模板添加母版。
-Aspose.Diagram for Python via Java API 具有代表 Visio 绘图形状模板的大师类。
+Aspose.Diagram for Python via Java allows you to add master from stencil. 
+Aspose.Diagram for Python via Java API has the Master class that represents a Visio drawing shape template.
 使用方法**添加Master**在 Diagram 类中从模板添加母版。
 
 ## **示例代码**

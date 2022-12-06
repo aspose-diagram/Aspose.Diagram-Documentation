@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Python için Aspose.Diagram 21.9 Sürüm Notları
+title: Python via Java için Aspose.Diagram 21.9 Sürüm Notları
 type: docs
 weight: 6
 url: /tr/java/aspose-diagram-for-python-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 21.9 üzerinden Python için Aspose.Diagram için sürüm notları bilgilerini içerir.
+Bu sayfa Aspose.Diagram için Python via Java için sürüm notları bilgilerini içerir 21.9.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##
@@ -14,7 +14,7 @@ Bu sayfa, Java 21.9 üzerinden Python için Aspose.Diagram için sürüm notlar�
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk: TextAnnotation'ın şekle bağlı olup olmadığını kontrol edin|Artırma|
-|DIAGRAMJAVA-50382|VSDX'i PDF'ye dönüştürürken şekillerin gölgelenmesi eksik|Böcek|
+|DIAGRAMJAVA-50382|VSDX'i PDF'e dönüştürürken şekillerin gölgelenmesi eksik|Böcek|
 |DIAGRAMJAVA-50754|wk - InheritLine'dan LineColor doğru değil|Böcek|
 |DIAGRAMJAVA-50756|hafta: PinPos boş vs merkez merkez|Böcek|
 |DIAGRAMJAVA-50757|WK: getBegin/End Arrow değeri yanlış.|Böcek|

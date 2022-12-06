@@ -20,10 +20,10 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |DIAGRAMNET-52197|Cargando y guardando vsdx cambia el valor de DisplayMode|Mejora|
 |DIAGRAMNET-52205|Falta el evento de doble clic en la forma|Mejora|
 |DIAGRAMNET-51877|Excepción "El parámetro no es válido" al renderizar el archivo VSD|Insecto|
-|DIAGRAMNET-52114|"El parámetro no es válido". excepción al renderizar el archivo VSD a PNG/JPG|Insecto|
+|DIAGRAMNET-52114|"Parameter is not valid." exception when rendering VSD file to PNG/JPG|Insecto|
 |DIAGRAMNET-52124|Guardando Visio como problema html|Insecto|
-|DIAGRAMNET-52127|Guardando Visio con líneas de ayuda para el problema de HTML|Insecto|
-|DIAGRAMNET-52148|VSDX a PDF: el texto tachado no es correcto en PDF|Insecto|
+|DIAGRAMNET-52127|Saving Visio with helper lines to HTML issue|Insecto|
+|DIAGRAMNET-52148|VSDX to PDF - Strikethrough text is not correct in PDF|Insecto|
 |DIAGRAMNET-52150|No se puede extraer el valor de la fórmula de celda definida por el usuario CONT.|Insecto|
 |DIAGRAMNET-52229|La celda definida por el usuario se renombra|Insecto|
 |DIAGRAMNET-52231|Se pierde la opción "pegamento" del conector para dar forma|Insecto|

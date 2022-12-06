@@ -23,9 +23,9 @@ url: /sv/net/aspose-diagram-net-for-vsto/
     - [Hur man konfigurerar källkoden](#Aspose.Diagram.NETforVSTO-Howtoconfigurethesourcecode)
 - [Exempel på kodexempel](#Aspose.Diagram.NETforVSTO-SampleCodeExamples)
 # **Vad är VSTO?**
-VSTO, eller Visual Studio Tools för Office, eller Microsoft Visual Studio Tools är en del av Microsoft:s Visual Studio .NET verktygssvit och stöder Microsoft .NET Microsoft svit för 616348 och 4163481, 07616348 och 416163481 .NET 07616348 används av 616348-utvecklare 61.708. Utvecklare som använder VSTO kan använda C# eller Visual Basic-språk. Det är ett alternativ till Visual Basic for Applications, eller VBA.
+VSTO, OR Visual Studio Verktyg för Office, eller Microsoft Visual Studio Verktyg är en del av Microsoft: Utvecklare som använder VSTO kan använda C# eller Visual Basic-språk. Det är ett alternativ till Visual Basic for Applications, eller VBA.
 # **Aspose.Diagram för .Net**
-Aspose.Diagram är ett klassbibliotek för att arbeta med Microsoft Visio filer. Det gör det möjligt för utvecklare att arbeta med VSD, VSDX, VSS, VST, VSX, VTX, VDW och VDX filer på C#, VB0761930481, 80s1 webbapplikation, 80s1 webbapplikation, 80s1, 81s1, 40s1, 40s1, 80s1, 80s1 och 40s1 webbapplikation. Det låter dig öppna filer och manipulera elementen i diagram, från linjer och fyllningar, till mer komplexa element, och sedan exportera till VDX, VSX, VTX, XPS, HTML, SVG, SWF, XAML, bild eller bild.
+Aspose.Diagram är ett klassbibliotek för att arbeta med Microsoft Visio filer. Det gör det möjligt för utvecklare att arbeta med VSD, VSDX, VSS, VST, VSX, VTX, VDW och VDX FILES på C#, VB071111110348, ASP01111131113111111111111111111111111111111 Det låter dig öppna filer och manipulera elementen i diagram, från linjer och fyllningar, till mer komplexa element, och sedan exportera till VDX, VSX, VTX, XPS, HTML, 071203483481111111, 0.
 # **Aspose.Diagram för VSTO**
 ## **Introduktion**
 Utvecklare som letar efter filformatsbibliotek kan behöva gå igenom funktionerna som tillhandahålls av de bibliotek som finns på marknaden. Huvudsakligen beaktas två faktorer när du väljer ett alternativ:
@@ -33,10 +33,10 @@ Utvecklare som letar efter filformatsbibliotek kan behöva gå igenom funktioner
 - Funktioner
 - Ansträngningar som krävs för att använda biblioteket
 
-Om du är en .NET-utvecklare som letar efter snabbare, enklare och lätta filformatsbibliotek för att bearbeta filer, kan du behöva jämföra VSTO (Visual Studio-verktyg för Office) med Aspose. I det här fallet kommer det här projektet att hjälpa dig att jämföra funktioner och kod i båda biblioteken.
+Om du är en .NET-utvecklare som letar efter ett snabbare, enkelt och lätt filformatsbibliotek för att bearbeta filer, kan du behöva jämföra VSTO(Visual Studio-verktyget för Office) med Aspose. I det här fallet kommer det här projektet att hjälpa dig att jämföra funktioner och kod i båda biblioteken.
 ## **Systemkrav och plattformar som stöds**
 ### **Systemkrav**
-En eller flera av följande utgåvor av Visual Studio Tools för Office:
+En eller flera av följande utgåvor av Visual Studio Verktyg för Office:
 
 - Microsoft Visual Studio 2005 Verktyg för Microsoft Office-systemet
 - Microsoft Visual Studio 2005 Verktyg för 2007 Microsoft Office System

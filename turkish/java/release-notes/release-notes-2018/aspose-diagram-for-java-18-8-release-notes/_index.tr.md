@@ -14,7 +14,7 @@ url: /tr/java/aspose-diagram-for-java-18-8-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50611|API ile yerel ayar desteği|Artırma|
-|DIAGRAMJAVA-50606|VSDX'den SVG'ye - okların yanlış işlenmesi|Böcek|
+|DIAGRAMJAVA-50606|VSDX - SVG - okların yanlış işlenmesi|Böcek|
 |DIAGRAMJAVA-50610|Çıkış VSDX dosyasında Bağlayıcılardaki Metnin konumu yanlış|Böcek|
 |DIAGRAMJAVA-50612|VDX çıktı dosyası Visio Viewer 2010 Professional ile açılamıyor|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

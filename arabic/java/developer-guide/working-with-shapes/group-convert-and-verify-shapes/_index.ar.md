@@ -38,7 +38,7 @@ Aspose.Diagram for Java API يسمح للمطورين بتحويل شكل Visio 
 1. احفظ الصفحة Visio بأي تنسيق ملف مدعوم.
 #### **تحويل نموذج برمجة الشكل**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
-### **تحويل Visio الشكل إلى PDF**
+### **حوّل Visio إلى PDF**
 تسمح طريقة ToPdf لفئة الشكل بتحويل شكل إلى تنسيق PDF.
 
 {{< highlight "java" >}}
@@ -52,7 +52,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **تحويل Visio الشكل إلى HTML**
+### **حوّل Visio إلى HTML**
 تسمح طريقة ToHTML لفئة الشكل بتحويل شكل إلى تنسيق HTML.
 
 {{< highlight "java" >}}

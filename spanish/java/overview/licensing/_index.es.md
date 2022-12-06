@@ -10,7 +10,7 @@ url: /es/java/licensing/
 La versión de evaluación proporciona todas las características excepto las siguientes:
 
 - Solo puede leer las primeras diez formas de la primera página de su archivo VSD.
-- También verá una marca de agua de evaluación en imágenes extraídas y archivos PDF.
+- You will also see evaluation watermark in exoprted images and PDF files.
 
  Si desea probar Aspose.Diagram sin limitaciones de evaluación, solicite una licencia temporal de 30 días. Por favor refiérase a[¿Cómo obtener una Licencia Temporal?](https://purchase.aspose.com/temporary-license) para más información.
 ## **Aplicar una licencia**

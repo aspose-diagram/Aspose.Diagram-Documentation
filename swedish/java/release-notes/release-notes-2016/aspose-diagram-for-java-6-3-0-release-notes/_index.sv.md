@@ -9,7 +9,7 @@ url: /sv/java/aspose-diagram-for-java-6-3-0-release-notes/
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
 | DIAGRAMJava-50306| Lägg till stöd för att detektera typen Visio diagram.| Ny funktion|
-| DIAGRAMJava-50311| Förhindra export av de dolda Visio-sidorna i PDF-filen.| Ny funktion|
+| DIAGRAMJava-50311| Förhindra export av de dolda Visio-sidorna i PDF.| Ny funktion|
 | DIAGRAMJava-50312| Förhindra export av de dolda Visio-sidorna i HTML.| Ny funktion|
 | DIAGRAM Java-50313| Förhindra export av de dolda Visio-sidorna i PNG.| Ny funktion|
 | DIAGRAMJava-50314| Förhindra export av de dolda Visio-sidorna i JPEG.| Ny funktion|

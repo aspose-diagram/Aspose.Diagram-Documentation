@@ -13,4 +13,4 @@ url: /ar/java/aspose-diagram-for-java-20-9-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|عرض ألوان غير صحيحة للأشكال عند تحويل VSD إلى PNG|التعزيز|
+|DIAGRAMJAVA-50352|تحويل لون أشكال غير صحيح عند تحويل VSD إلى PNG|التعزيز|

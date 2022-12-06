@@ -8,9 +8,9 @@ description: Bu sayfada Aspose.Diagram kitaplığı örneklerinin nasıl çalı�
 ## **yazılım gereksinimleri**
 Örnekleri indirip çalıştırmadan önce lütfen aşağıdaki gereksinimleri karşıladığınızdan emin olun.
 
-1. Visual Studio 2010 veya üzeri
+1. Visual Studio 2010 veya üstü
 1. Microsoft office visio
-1.  NuGet Visual Studio'da kurulu Paket Yöneticisi. Visual Studio'da en son NuGet API sürümünün kurulu olduğundan emin olun. NuGet paket yöneticisinin nasıl kurulacağı ile ilgili ayrıntılar için lütfen kontrol edin<http://docs.nuget.org/ndocs/guides/install-nuget>
+1. NuGet Paket Yöneticisi Visual Studio'de kurulu. Visual Studio'de en son NuGet API sürümünün kurulu olduğundan emin olun. NuGet paket yöneticisinin nasıl kurulacağına ilişkin ayrıntılar için lütfen kontrol edin<http://docs.nuget.org/ndocs/guides/install-nuget>
 1.  Araçlar->Seçenekler->NuGet Paket Yöneticisi->Paket Kaynakları'na gidin ve seçeneğin etkin olduğundan emin olun.**nuget.org** kontrol edildi
 1.  Örnek proje NuGet Otomatik Paket Geri Yükleme özelliğini kullanıyor, bu nedenle aktif bir internet bağlantınızın olması gerekiyor. Örneklerin çalışılacağı makinede aktif internet bağlantınız yoksa lütfen kontrol ediniz.[Kurulum](/diagram/tr/net/installation/) ve örnek projede Aspose.Diagram.dll'ye manuel olarak referans ekleyin.
 ## **GitHub'dan indirin**
@@ -18,10 +18,10 @@ description: Bu sayfada Aspose.Diagram kitaplığı örneklerinin nasıl çalı�
 
 -  Favori GitHub istemcinizi kullanarak depoyu klonlayabilir veya ZIP dosyasını adresinden indirebilirsiniz.[burada](https://github.com/aspose-diagram/Aspose.Diagram-for-.NET/archive/master.zip).
 -  ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre çıkarın. Tüm örnekler şu adreste yer almaktadır:**örnekler** dosya.
-- C# için bir Visual Studio çözüm dosyası vardır.
-- Projeler Visual Studio 2013'te oluşturulmuştur, ancak çözüm dosyası Visual Studio 2010 SP1 ve üstü ile uyumludur.
-- Çözüm dosyasını Visual Studio'da açın ve projeyi oluşturun.
-- İlk çalıştırmada bağımlılıklar otomatik olarak NuGet üzerinden indirilecektir.
+- C# için bir adet Visual Studio çözüm dosyası vardır.
+- Projeler Visual Studio 2013'te oluşturulmuştur ancak çözüm dosyası Visual Studio 2010 SP1 ve üzeri ile uyumludur.
+- Çözüm dosyasını Visual Studio'de açın ve projeyi oluşturun.
+- İlk çalıştırmada bağımlılıklar otomatik olarak indirilecektir via NuGet.
 - **Veri** kök klasöründeki klasör**örnekler** CSharp örneklerinin kullandığı giriş dosyalarını içerir. indirmeniz zorunludur.**Veri** örnekler proje ile birlikte klasör.
 - RunExamples.cs'yi açın; tüm örnekler buradan çağrılır.
 - Proje içinden çalıştırmak istediğiniz örneklerin açıklamasını kaldırın.

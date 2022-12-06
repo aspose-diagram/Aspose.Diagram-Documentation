@@ -6,7 +6,7 @@ url: /ar/python-java/create-insert-fields/
 description: كيفية إنشاء وإدخال الحقول باستخدام Java Diagram API.
 ---
 ## **أدخل الحقل**
- يتيح لك Aspose.Diagram لـ Python عبر Java إنشاء وإدراج حقل للرسومات التخطيطية Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
+ يتيح لك Aspose.Diagram لـ Python via Java إنشاء وإدراج حقل للرسومات التخطيطية Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
 
 ### **عينة البرمجة**
 الجزء التالي من التعليمات البرمجية إدراج حقل في الشكل.

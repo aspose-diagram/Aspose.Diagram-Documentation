@@ -14,13 +14,13 @@ url: /zh/java/aspose-diagram-for-java-17-01-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50396|无法从 VSDX diagram 中检索矩形形状的填充颜色。|强化|
-|DIAGRAMJAVA-50367|将 VSDX 转换为 PDF 时不会保留形状的颜色。|漏洞|
-|DIAGRAMJAVA-50370|将 VSDX 转换为 PNG 时缺少矩形格式。|漏洞|
-|DIAGRAMJAVA-50373|将 VSD 转换为 SVG 时，形状的阴影未正确呈现。|漏洞|
-|DIAGRAMJAVA-50378|将 VSDX 转换为 PNG 时，不会保留标注和文本的颜色。|漏洞|
-|DIAGRAMJAVA-50379|将 VSDX 转换为 PNG 时缺少 Microsoft Sharepoint 工作流形状。|漏洞|
-|DIAGRAMJAVA-50380|将 VSD 转换为 PDF 时缺少文本项和形状重叠。|漏洞|
-|DIAGRAMJAVA-50406|将 VSD 转换为 HTML 时动态连接器的呈现不完整。|漏洞|
+|DIAGRAMJAVA-50367|The color of shapes is not being preserved on converting a VSDX to PDF.|漏洞|
+|DIAGRAMJAVA-50370|The formatting of rectangle shape is missing on converting a VSDX to PNG.|漏洞|
+|DIAGRAMJAVA-50373|The shadow of shapes is not being rendered properly on converting a VSD to SVG.|漏洞|
+|DIAGRAMJAVA-50378|The color of callouts and text is not being preserved on converting a VSDX to PNG.|漏洞|
+|DIAGRAMJAVA-50379|A Microsoft Sharepoint Workflow shape is missing on converting a VSDX to PNG.|漏洞|
+|DIAGRAMJAVA-50380|Missing text items and an overlap of a shape on converting a VSD to PDF.|漏洞|
+|DIAGRAMJAVA-50406|Incomplete rendering of the dynamic connectors on converting a VSD to HTML.|漏洞|
 |DIAGRAMJAVA-50450|形状文本正在转换为虚拟字符。|漏洞|
 |DIAGRAMJAVA-50456|在将 Visio 页面转换为 SVG 时部分呈现 Visio 形状。|漏洞|
 

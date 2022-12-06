@@ -1,6 +1,6 @@
 ﻿---
 title: Formati di file supportati
-description: Aspose Diagram for .NET Supporta VSD, VSS, VDW, VST, VDX
+description: Aspose Diagram for .NET supports VSD, VSS, VDW, VST, VDX,VSX,VTX,VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 type: docs
 weight: 10
 url: /it/net/supported-file-formats/
@@ -22,16 +22,16 @@ La seguente tabella indica i formati di file che Aspose.Diagram for .NET può ca
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM che contiene sia Modello di disegno che macro|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Tipo di file di disegno Web|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|Il tipo di file dello stampino Visio|{{< emoticons/tick >}}|||
-|[VST](https://docs.fileformat.com/visio/vst/)|File modello VST|{{< emoticons/tick >}}|||
-|[PDF](https://docs.fileformat.com/pdf/)|PDF (formato documento portatile)||{{< emoticons/tick >}}||
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|Formato XPS||{{< emoticons/tick >}}||
-|[XAML](https://docs.fileformat.com/web/xaml/)|Formato XAML||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format||{{< emoticons/tick >}}||
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML format||{{< emoticons/tick >}}||
 |[SWF](https://docs.fileformat.com/page-description-language/swf/)|File AdobeFlash||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Grafica vettoriale scalabile (un formato di immagine vettoriale basato su XML)||{{< emoticons/tick >}}||
-|[campi elettromagnetici](https://docs.fileformat.com/image/emf/)|MetaFile avanzato||{{< emoticons/tick >}}||
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|Formato JPEG||{{< emoticons/tick >}}||
-|[PNG](https://docs.fileformat.com/image/png/)|Formato PNG||{{< emoticons/tick >}}||
-|[BMP](https://docs.fileformat.com/image/bmp/)|Formato BMP||{{< emoticons/tick >}}||
-|[TIPO](https://docs.fileformat.com/image/tiff/)|Immagine TIFF singola o multipagina||{{< emoticons/tick >}}||
-|[HTML](https://docs.fileformat.com/web/html/)|Formato HTML||{{< emoticons/tick >}}||
+|[EMF](https://docs.fileformat.com/image/emf/)|MetaFile avanzato||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Format||{{< emoticons/tick >}}||
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Single or Multi-Page TIFF Image||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Format||{{< emoticons/tick >}}||
 

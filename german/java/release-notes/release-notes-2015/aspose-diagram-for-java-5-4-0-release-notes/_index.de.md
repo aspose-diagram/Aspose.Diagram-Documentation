@@ -7,31 +7,31 @@ url: /de/java/aspose-diagram-for-java-5-4-0-release-notes/
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Diagram for Java.
 # **Andere Verbesserungen und Änderungen**
 ## **Fehler**
-- DIAGRAMJAVA-50017) - VSD in PDF-Konvertierung, schwarze Box statt Bild
-- DIAGRAMJAVA-50132) -VSD zum PDF-Export, die Ausgabe-PDF ist beschädigt/beschädigt
-- DIAGRAMJAVA-50168) -VSD in PDF-Konvertierung ist ein Seitenverarbeitungsfehler aufgetreten
-- DIAGRAMJAVA-50169) -VSD zur PDF-Konvertierung werden die leeren Seiten generiert
-- DIAGRAMJAVA-50170) -VSD in eine PDF-Konvertierung, das ausgegebene PDF-Dokument ist leer
-- DIAGRAMJAVA-50171) -VSD in HTML-Konvertierung, das ausgegebene HTML-Dokument ist leer
-- DIAGRAMJAVA-50172) -VSD in BMP-Konvertierung, das ausgegebene BMP-Bild ist leer
-- DIAGRAMJAVA-50173) -VSD in JPEG-Konvertierung, das ausgegebene JPEG-Bild ist leer
-- DIAGRAMJAVA-50174) -VSD in JPEG-Konvertierung, die Hintergrundfarbe der Seite wird geändert
-- DIAGRAMJAVA-50175) -VSD in PNG-Konvertierung, das ausgegebene PNG-Bild ist leer
-- DIAGRAMJAVA-50176) - Konvertierung von VDW in PDF, das ausgegebene PDF-Dokument ist leer
-- DIAGRAMJAVA-50177) - Konvertierung von VDW in HTML, das ausgegebene HTML-Dokument ist leer
-- DIAGRAMJAVA-50178) - Konvertierung von VDW in BMP, das ausgegebene BMP-Bild ist leer
-- DIAGRAMJAVA-50179) - Konvertierung von VDW in JPEG, das ausgegebene JPEG-Bild ist leer
-- DIAGRAMJAVA-50180) - Konvertierung von VDW in JPEG, die Hintergrundfarbe der Seite wird geändert
-- DIAGRAMJAVA-50181) - Konvertierung von VDW in PNG, das ausgegebene PNG-Bild ist leer
-- DIAGRAMJAVA-50182) - VST-zu-PDF-Konvertierung, das ausgegebene PDF-Dokument ist leer
-- (DIAGRAMJAVA-50183) - VST-zu-HTML-Konvertierung, das ausgegebene HTML-Dokument ist leer
-- DIAGRAMJAVA-50184) - Konvertierung von VST in BMP, das ausgegebene BMP-Bild ist leer
-- DIAGRAMJAVA-50185) - Konvertierung von VST in JPEG, das ausgegebene JPEG-Bild ist leer
-- DIAGRAMJAVA-50186) - Konvertierung von VST in JPEG, die Hintergrundfarbe der Seite wird geändert
-- DIAGRAMJAVA-50187) - Konvertierung von VST in PNG, das ausgegebene PNG-Bild ist leer
-- DIAGRAMJAVA-50188) - VSS-zu-PDF-Konvertierung, das ausgegebene PDF-Dokument ist leer
-- DIAGRAMJAVA-50189) - VSS-zu-HTML-Konvertierung, das ausgegebene HTML-Dokument ist leer
-- DIAGRAMJAVA-50190) - VSS-zu-BMP-Konvertierung, das ausgegebene BMP-Bild ist leer
-- DIAGRAMJAVA-50191) - VSS-zu-JPEG-Konvertierung, das ausgegebene JPEG-Bild ist leer
-- DIAGRAMJAVA-50192) - Konvertierung von VSS in JPEG, die Hintergrundfarbe der Seite wird geändert
-- DIAGRAMJAVA-50193) - Konvertierung von VSS in PNG, das ausgegebene PNG-Bild ist leer
+- DIAGRAMJAVA-50017) - VSD to PDF conversion, black box instead of a picture
+- DIAGRAMJAVA-50132) -VSD to PDF export, the output PDF is corrupted/damaged
+- DIAGRAMJAVA-50168) -VSD to PDF conversion, the page processing error ocurred
+- DIAGRAMJAVA-50169) -VSD to PDF conversion, the empty pages are generated
+- DIAGRAMJAVA-50170) -VSD to PDF conversion, the output PDF document is blank
+- DIAGRAMJAVA-50171) -VSD to HTML conversion, the output html document is blank
+- DIAGRAMJAVA-50172) -VSD to BMP conversion, the output bmp picture is empty
+- DIAGRAMJAVA-50173) -VSD to JPEG conversion, the output JPEG picture is empty
+- DIAGRAMJAVA-50174) -VSD to JPEG conversion, the page background color is changed
+- DIAGRAMJAVA-50175) -VSD to PNG conversion, the output png picture is empty
+- DIAGRAMJAVA-50176) -VDW to PDF conversion, the output PDF document is blank
+- DIAGRAMJAVA-50177) -VDW to HTML conversion, the output html document is blank
+- DIAGRAMJAVA-50178) -VDW to BMP conversion, the output bmp picture is empty
+- DIAGRAMJAVA-50179) -VDW to JPEG conversion, the output JPEG picture is empty
+- DIAGRAMJAVA-50180) -VDW to JPEG conversion, the page background color is changed
+- DIAGRAMJAVA-50181) -VDW to PNG conversion, the output png picture is empty
+- DIAGRAMJAVA-50182) -VST to PDF conversion, the output PDF document is blank
+- (DIAGRAMJAVA-50183) -VST to HTML conversion, the output html document is blank
+- DIAGRAMJAVA-50184) -VST to BMP conversion, the output bmp picture is empty
+- DIAGRAMJAVA-50185) -VST to JPEG conversion, the output JPEG picture is empty
+- DIAGRAMJAVA-50186) -VST to JPEG conversion, the page background color is changed
+- DIAGRAMJAVA-50187) -VST to PNG conversion, the output png picture is empty
+- DIAGRAMJAVA-50188) -VSS to PDF conversion, the output PDF document is blank
+- DIAGRAMJAVA-50189) -VSS to HTML conversion, the output html document is blank
+- DIAGRAMJAVA-50190) -VSS to BMP conversion, the output bmp picture is empty
+- DIAGRAMJAVA-50191) -VSS to JPEG conversion, the output JPEG picture is empty
+- DIAGRAMJAVA-50192) -VSS to JPEG conversion, the page background color is changed
+- DIAGRAMJAVA-50193) -VSS to PNG conversion, the output png picture is empty

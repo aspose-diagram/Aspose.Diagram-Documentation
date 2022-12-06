@@ -13,7 +13,7 @@ url: /ar/java/aspose-diagram-for-java-17-5-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50472|قم بإنشاء تحذير حول استبدال الخط أثناء تحويل Visio إلى PDF.|التعزيز|
+|DIAGRAMJAVA-50472|قم بتكوين التحذير الخاص باستبدال الخط أثناء تحويل Visio إلى PDF.|التعزيز|
 |DIAGRAMJAVA-50480 |لا يمكن إضافة عنصر SolutionXML في VSDX|التعزيز|
 |DIAGRAMJAVA-50473|وصلات غير كاملة للأشكال عند تحويل VDX إلى VSDM|حشرة|
 |DIAGRAMJAVA-50475|يمر خط الموصل عبر الأشكال الأخرى عند تحويل VDX إلى VSDM|حشرة|

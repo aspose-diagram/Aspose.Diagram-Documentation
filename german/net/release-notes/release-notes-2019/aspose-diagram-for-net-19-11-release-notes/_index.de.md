@@ -16,8 +16,8 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 19.11.
 |DIAGRAMNET-50004| Unterstützung hinzufügen[Stylesheet anwenden](/diagram/de/net/format-visio-pages/) für ganze Seite|Erweiterung|
 |DIAGRAMNET-50576|Unterstützung zum Verwerfen eines Diagram-Klassenobjekts hinzugefügt|Erweiterung|
 |DIAGRAMNET-50098|Legen Sie die Hintergrundfarbe der Seite fest|Insekt|
-|DIAGRAMNET-51722|Diagram zu SVG - Ausgabebild ist fehlerhaft|Insekt|
-|DIAGRAMNET-51724|Fehler in der Chrome-Konsole beim Anzeigen von Ausgabe-SVG|Insekt|
+|DIAGRAMNET-51722|Diagram to SVG - output image has faults|Insekt|
+|DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|Insekt|
 |DIAGRAMNET-51725|Rufen Sie den Z-Index von Formen in Diagram ab|Insekt|
 |DIAGRAMNET-51726|Hintergrundbild fehlt (PowerPoint wird in VISIO hinzugefügt), während unbenutzte Masterformen und -stile entfernt werden|Insekt|
 |DIAGRAMNET-51727|CheckBox (CheckBox-Steuerelement) Fehlt beim Entfernen nicht verwendeter Masterformen und -stile|Insekt|

@@ -15,5 +15,5 @@ url: /ar/java/aspose-diagram-for-java-18-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50621|الاتصالات بين الأشكال الدائرية غير صحيحة|التعزيز|
 |DIAGRAMJAVA-50623|نص شكل الموصل ليس في الموضع الصحيح|حشرة|
-|DIAGRAMJAVA-50624|VDX إلى HTML - تظهر السطور الإضافية في الإخراج|حشرة|
+|DIAGRAMJAVA-50624|VDX إلى HTML - تظهر خطوط إضافية في الإخراج|حشرة|
 

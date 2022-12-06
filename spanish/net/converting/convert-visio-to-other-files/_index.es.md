@@ -4,11 +4,11 @@ linktitle:  Convertir Visio a otros formatos
 type: docs
 weight: 40
 url: /es/net/convert-visio-to-other-files/
-description: Este tema le muestra cómo Aspose.Diagram permite convertir Visio a formatos SVG, XPS, XML, XAML. Convierta VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM a SVG,XPS,XML,XAML con unas pocas líneas de código.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to SVG,XPS,XML,XAML formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to SVG,XPS,XML,XAML with a few lines of code.
 ---
 ## **Exportar a XML**
-### **Exportar Microsoft Visio Dibujo a PDF**
-Los ejemplos de código muestran cómo exportar el dibujo Microsoft Visio a PDF usando C#.
+### **Export Microsoft Visio Drawing to PDF**
+The code samples show how to export Microsoft Visio Drawing to PDF using C#.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
 
@@ -57,43 +57,43 @@ Los ejemplos de código muestran cómo exportar Microsoft Visio Dibujo a XML usa
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXML-ExportToXML.cs" >}}
 
-## **Exportar a XPS**
- Este artículo explica cómo exportar un Microsoft Visio diagram a XPS usando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
+## **Export to XPS**
+This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
  Utilizar el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) constructor de clase para leer los archivos diagram y el método Guardar para exportar el diagram a cualquier formato de imagen compatible.
 
-Los fragmentos de código de este artículo toman el diagram a continuación como entrada. También puede usar otros formatos diagram (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX o VSX).
+The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 
 |**El documento fuente.**|
 |:- |
 |![todo:imagen_alternativa_texto](how-to-convert-a-visio-diagram_5.png)|
 
 
-Para exportar VSD diagram a XPS:
+To export VSD diagram to XPS:
 
 1. Cree una instancia de la clase Diagram.
-1. Llame al método Guardar de la clase Diagram y establezca XPS como formato de salida.
-### **Exportar Microsoft Visio Dibujo a XPS**
-Los ejemplos de código muestran cómo exportar el dibujo Microsoft Visio a XPS usando C#.
+1. Call the Diagram class' Save method and set XPS as the output format.
+### **Export Microsoft Visio Drawing to XPS**
+The code samples show how to export Microsoft Visio Drawing to XPS using C#.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXPS-ExportToXPS.cs" >}}
 
-## **Exportar un Diagram a SVG**
-Este artículo explica cómo exportar un Microsoft Visio diagram a SVG (Scalable Vector Graphics) usando[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
+## **Export a Diagram to SVG**
+This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
  Utilizar el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) constructor de clase para leer los archivos diagram y el método Guardar para exportar el diagram a cualquier formato de imagen compatible.
 
-Para exportar VSD diagram a SVG, realice los siguientes pasos:
+To export VSD diagram to SVG, perform the following steps:
 
 1. Cree una instancia de la clase Diagram.
-1. Llame al método Guardar de la clase y establezca SVG como formato de exportación.
-### **Exportar Microsoft Visio Dibujo a SVG**
-Los ejemplos de código muestran cómo exportar un diagram a SVG usando C#.
+1. Call the class' Save method and set SVG as the export format.
+### **Export Microsoft Visio Drawing to SVG**
+The code samples show how to export a diagram to SVG using C#.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSVG-ExportToSVG.cs" >}}
-## **Exportar a SWF**
- Este artículo explica cómo exportar un Microsoft Visio diagram a SWF usando[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
+## **Export to SWF**
+This article explains how to export a Microsoft Visio diagram to SWF using [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
- Utilizar el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)constructores de la clase para leer los archivos diagram y luego el método Guardar de la clase Diagram para exportar el diagram a formato SWF. La siguiente imagen muestra el archivo de entrada VSD que el código representa en SWF. También puede usar otros formatos diagram (VSS, VSSX, VSSM, VDW, VDX, VST, VSTX, VSTM, VDX, VTX o VSX).
+ Utilizar el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class' constructors to read the diagram files and then the Diagram class' Save method to export the diagram to SWF format. The image below shows the input VSD file that the code renders to SWF. You can use other diagram formats (VSS, VSSX, VSSM, VDW, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
 |**Entrada diagram.**|
 |:- |
@@ -101,27 +101,27 @@ Los ejemplos de código muestran cómo exportar un diagram a SVG usando C#.
 
 Después del código, hay una imagen de la salida.
 
-Para exportar VSD diagram a SWF:
+To export VSD diagram to SWF::
 
 - Cree una instancia de la clase Diagram.
-- Llame al método Guardar de la clase Diagram y proporcione el formato SWF para exportar su diagram a SWF.
+- Call the Diagram class' Save method and provide SWF format to export your diagram to SWF.
 ### **Ejemplo de programación de visor integrado**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSWF-ExportToSWF.cs" >}}
 ### **Muestra de programación sin visor**
-El archivo SWF creado por estos fragmentos de código incluye un visor SWF. Excluya el visor SWF del archivo mediante el siguiente código.
+The SWF file created by these code snippets include an SWF viewer. Exclude the SWF viewer from the file using the following code.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-ExportToSWFWithoutViewer-ExportToSWFWithoutViewer.cs" >}}
-## **Exportar un Diagram a XAML**
- Este artículo explica cómo exportar un Microsoft Visio diagram a XAML (lenguaje de marcado de aplicación extensible) usando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
+## **Export a Diagram to XAML**
+This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
 
  Utilizar el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) constructor de clase para leer los archivos diagram y el método Guardar para exportar el diagram a cualquier formato de imagen compatible.
 
 Para exportar un VSD diagram a XAML:
 
 1. Cree una instancia de la clase Diagram.
-1. Llame al método Save de la clase y establezca XAML como formato de exportación.
-### **Exportar Microsoft Visio Dibujo a XAML**
-El ejemplo de código muestra cómo exportar un diagram a XAML usando C#.
+1. Call the class' Save method and set XAML as the export format.
+### **Export Microsoft Visio Drawing to XAML**
+The code sample show how to export a diagram to XAML using C#.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXAML-ExportToXAML.cs" >}}
 ## **Convert Visio Dibujo con formas selectivas**

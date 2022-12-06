@@ -16,12 +16,12 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-51886|Skapa möjlighet att infoga Ole-objekt som Words, Cells, Slides, etc. till Diagram i den enda formen med både objektdata och förhandsgranskningsbild inuti den.|Förbättring|
 |DIAGRAMNET-51888|Visio till PDF - API tar lång tid att konvertera|Förbättring|
 |DIAGRAMNET-51889|Spara till pdf som loopar mer än 20 minuter|Förbättring|
-|DIAGRAMNET-51893|ViewBox-attribut saknas efter VSDX till SVG-konvertering|Förbättring|
-|DIAGRAMNET-51851|VSDX till PDF - vissa ikoner saknas och andra inte renderade korrekt|Insekt|
-|DIAGRAMNET-51873|VSDX till PDF - Innehåll finns till vänster i utdata-PDF|Insekt|
+|DIAGRAMNET-51893|ViewBox-attribut saknas efter konvertering från VSDX till SVG|Förbättring|
+|DIAGRAMNET-51851|VSDX till PDF - vissa ikoner saknas och vissa inte renderade korrekt|Insekt|
+|DIAGRAMNET-51873|VSDX till PDF - Innehållet finns ute till vänster i utgången PDF|Insekt|
 |DIAGRAMNET-51874|VSDX till PDF - innehåll och rader saknas i utdata|Insekt|
 |DIAGRAMNET-51876|VSDX till PNG - vissa former är felaktiga i utdata|Insekt|
-|DIAGRAMNET-51879|Visio till PDF - utdata är inte korrekt|Insekt|
+|DIAGRAMNET-51879|Visio till PDF - utgången är inte korrekt|Insekt|
 |DIAGRAMNET-51894|System.NullReferenceException när diagram laddas|Insekt|
 |DIAGRAMNET-51895|Det gick inte att hämta gruppegenskapsdata som SelectionModel, DisplayMode|Insekt|
 

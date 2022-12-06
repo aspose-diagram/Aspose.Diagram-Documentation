@@ -7,8 +7,8 @@ description: Esta sección explica cómo agregar patrón desde la plantilla.
 ---
 ## **Posibles escenarios de uso**
 
- Aspose.Diagram para Python a través de Java le permite agregar maestro desde la plantilla.
-Aspose.Diagram para Python a través de Java API tiene la clase maestra que representa una plantilla de forma de dibujo Visio.
+Aspose.Diagram for Python via Java allows you to add master from stencil. 
+Aspose.Diagram for Python via Java API has the Master class that represents a Visio drawing shape template.
 Usando el método**añadirMaster** en la clase Diagram para agregar maestro desde la plantilla.
 
 ## **Código de muestra**

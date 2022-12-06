@@ -15,7 +15,7 @@ description: 本页介绍 Aspose.Diagram 库的功能列表。
 - 读取 Microsoft Visio 2003/2007/2010 VSD 格式。
 - 读取 Microsoft Visio 2003/2007/2010 VSS 格式。
 - 阅读 Microsoft Visio 2003/2007/2010 VDW 格式。
-- 阅读 Microsoft Visio 2003/2007/2010 VST 格式。
+- 读取 Microsoft Visio 2003/2007/2010 VST 格式。
 
 **读和写**:
 
@@ -31,17 +31,17 @@ description: 本页介绍 Aspose.Diagram 库的功能列表。
 
 **出口**:
 
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出为流行的图像格式（BMP、JPEG、TIFF、EMF、SVG 和 PNG）。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出为 PDF。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 HTML。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 XML 纸张规范 (XPS)。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 Macromedia Flash 文件格式 (SWF)。
-- 将图表（VSD、VSDX、VSS、VSSX、VTX、VDX、VDW、VST、VSTX 和 VSX）导出到 XAML。
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to Macromedia Flash File Format (SWF).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **打印**:
 
 - 打印 Visio 高保真图表。
-- 通过 XpsPrint API 在服务器上打印 Visio diagram
+- Print Visio diagram on a server via XpsPrint API
 
 **使用权**:
 

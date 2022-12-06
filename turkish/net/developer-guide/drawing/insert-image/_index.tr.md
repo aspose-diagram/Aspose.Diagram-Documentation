@@ -12,22 +12,22 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesi
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsVSDX.cs" >}}
 
-## **SVG'ye Görüntü Ekle**
-Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve SVG formatında kaydedileceğini gösterir.
+## **SVG'e Resim Ekle**
+Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsSVG.cs" >}}
 
-## **PNG'ye Resim Ekle**
-Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PNG formatında kaydedileceğini gösterir.
+## **PNG'e Resim Ekle**
+Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPNG.cs" >}}
 
-## **PDF'ye Resim Ekle**
-Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PDF formatında kaydedileceğini gösterir.
+## **PDF'e Resim Ekle**
+Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPDF.cs" >}}
 
-## **HTML'ye Resim Ekle**
-Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve HTML formatında kaydedileceğini gösterir.
+## **HTML'e Resim Ekle**
+Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsHTML.cs" >}}

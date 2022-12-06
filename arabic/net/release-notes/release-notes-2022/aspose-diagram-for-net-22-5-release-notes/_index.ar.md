@@ -16,7 +16,7 @@ url: /ar/net/aspose-diagram-for-net-22-5-release-notes/
 |DIAGRAMNET-52802|الصيغة / القيمة لا تقوم بتحديث الحقول|التعزيز|
 |DIAGRAMNET-52803|VSDX إلى HTML: ملف الإخراج لا يتم حفظه بطريقة Async حتى يتم تنفيذ البرنامج بالكامل|التعزيز|
 |DIAGRAMNET-52793|API لا يعمل مع إصدار 22.4 ترخيص صالح|حشرة|
-|DIAGRAMNET-52806|مسافة بادئة مغيرة في PDF من VSDX|حشرة|
+|DIAGRAMNET-52806|تم تغيير المسافة البادئة في PDF من VSDX|حشرة|
 |DIAGRAMNET-52807|تتم إزالة النص الموجود في الجدول أثناء تحويل ملف .vsdx إلى pdf [CONT.]|حشرة|
 |DIAGRAMNET-52808|مشكلة في تحويل VSDX إلى PDF [CONT.]|حشرة|
 |DIAGRAMNET-52810|Visio الأشكال المحفوظة كصور خاطئة|حشرة|

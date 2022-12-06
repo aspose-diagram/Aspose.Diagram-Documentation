@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API permite a los desarrolladores dibujar una forma de r
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-DrawRectangle.cs" >}}
 
 ## **Dibujar rectángulo en SVG**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un rectángulo en la página y guardarlo como formato SVG. El siguiente código de ejemplo muestra cómo dibujar un rectángulo en un dibujo Visio y guardarlo como formato SVG.
+Aspose.Diagram for .NET API allows developers to draw a rectangle in the page and save as SVG format. The code example below shows how to draw a rectangle in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsSVG.cs" >}}
 
-## **Dibujar Rectángulo en PDF**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un rectángulo en la página y guardarlo como formato PDF. El siguiente código de ejemplo muestra cómo dibujar un rectángulo en un dibujo Visio y guardarlo como formato PDF.
+## **Dibujar rectángulo en PDF**
+Aspose.Diagram for .NET API allows developers to draw a rectangle in the page and save as PDF format. The code example below shows how to draw a rectangle in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsPDF.cs" >}}
 
 ## **Dibujar rectángulo en PNG**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un rectángulo en la página y guardarlo como formato PNG. El siguiente código de ejemplo muestra cómo dibujar un rectángulo en un dibujo Visio y guardarlo como formato PNG.
+Aspose.Diagram for .NET API allows developers to draw a rectangle in the page and save as PNG format. The code example below shows how to draw a rectangle in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsPNG.cs" >}}
 
 ## **Dibujar rectángulo en HTML**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un rectángulo en la página y guardarlo como formato HTML. El siguiente ejemplo de código muestra cómo dibujar un rectángulo en un dibujo Visio y guardarlo como formato HTML.
+Aspose.Diagram for .NET API allows developers to draw a rectangle in the page and save as HTML format. The code example below shows how to draw a rectangle in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsHTML.cs" >}}

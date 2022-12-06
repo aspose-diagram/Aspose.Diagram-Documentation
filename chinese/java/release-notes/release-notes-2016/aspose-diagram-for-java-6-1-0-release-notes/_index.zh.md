@@ -10,10 +10,10 @@ url: /zh/java/aspose-diagram-for-java-6-1-0-release-notes/
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
 |图表Java-50281| ImageSaveOptions.setImageBrightness 不起作用|强化|
-|图表Java-50293| VSD 到 SVG 导出不保留形状 ID|强化|
+|图表Java-50293|VSD to SVG export does not preserve shape ids |强化|
 |图表Java-50294|输出格式 VDX - 无法连接两个 Visio 形状|强化|
 |图表Java-50300|无法通过设置 PrintPageOrientation 属性更改页面方向|强化|
-|图表Java-50067| VSD 转PDF，形状文字中添加“文字”字样|漏洞|
+|图表Java-50067|VSD to PDF conversion, the word "text" is added in the shape's text |漏洞|
 |图表Java-50124|连接器文本位置设置不正确|漏洞|
 |图表Java-50288|打开结果时缺少属性的警告 VDX diagram|漏洞|
 |图表Java-50289| Shape.connectedShapes 方法未检测到某些传入的形状 ID|漏洞|

@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Diagram 为 Python 通过 .NET 22.10 发行说明
+title: Aspose.Diagram for Python via .NET 22.10 Release Notes
 type: docs
 weight: 17
 url: /zh/python-net/aspose-diagram-for-python-via-net-22-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Diagram 的发行说明，适用于 Python via .NET 22.10。
+This page contains release notes for Aspose.Diagram for Python via .NET 22.10.
 
 {{% /alert %}} 
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|图形导出为 SVG 格式时显示质量不佳|强化|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|强化|
 |DIAGRAMNET-53002|使用 Aspose.Diagram 导出到 html 时链接丢失|强化|
 |DIAGRAMNET-52983|Diagram 错误。保存|漏洞|
 |DIAGRAMNET-52984|更改 VentureLicenser 类中的值|漏洞|

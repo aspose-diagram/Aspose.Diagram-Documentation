@@ -11,19 +11,19 @@ Bu sürüm, aşağıda ayrıntılı olarak açıklanan özellikleri, geliştirme
 |:- |:- |:- |
 |DIAGRAMNET-50570 | Visio diagram'de yorumları değiştirmek için destek ekleyin.| Artırma|
 |DIAGRAMNET-50665 | ImageSaveOptions.ImageBrightness özelliği çalışmıyor.| Artırma|
-|DIAGRAMNET-50684 | VSD'den SVG'ye dışa aktarma, şekil kimliklerini korumaz.| Artırma|
-|DIAGRAMNET-50188 | VSD'den PDF'ye dışa aktarma, şeklin metnine fazladan bir "metin" sözcüğü ekler.| Böcek|
+|DIAGRAMNET-50684 | VSD ila SVG dışa aktarma, şekil kimliklerini korumaz.| Artırma|
+|DIAGRAMNET-50188 | VSD ila PDF dışa aktarma, şeklin metnine fazladan bir "metin" sözcüğü ekler.| Böcek|
 |DIAGRAMNET-50309 | Bağlayıcı metin konumunun yanlış ayarı| Böcek|
 |DIAGRAMNET-50448 | VSD'den VDX'e dönüşüm, dinamik konektör düzgün şekilde bağlanmıyor| Böcek|
-|DIAGRAMNET-50502 | VSD'den PDF'e dönüştürme, bağlayıcı metin öğeleri yanlış yerleştirilmiş| Böcek|
-|DIAGRAMNET-50503 | VSD'den HTML'ye dönüştürme, bağlayıcı metin öğeleri yanlış yerleştirilmiş| Böcek|
-|DIAGRAMNET-50597 | VSDX'den PDF'e dönüştürme, şeklin metin öğesi eksik.| Böcek|
+|DIAGRAMNET-50502 | VSD - PDF dönüşümü, bağlayıcı metin öğeleri yanlış yerleştirilmiş| Böcek|
+|DIAGRAMNET-50503 | VSD - HTML dönüşümü, bağlayıcı metin öğeleri yanlış yerleştirilmiş| Böcek|
+|DIAGRAMNET-50597 |VSDX'den PDF'e dönüştürme, şeklin metin öğesi eksik.| Böcek|
 |DIAGRAMNET-50599 | VSDX'den PDF'e dönüştürme, şeklin metin konumu biraz yanlış yerleştirilmiş.| Böcek|
-|DIAGRAMNET-50602 | VSDX'den HTML'ye dönüştürme, şeklin metin öğesi eksik| Böcek|
-|DIAGRAMNET-50604 | VSDX'den HTML'ye dönüştürme, şeklin metin konumu biraz yanlış yerleştirilmiş.| Böcek|
+|DIAGRAMNET-50602 | VSDX'den HTML'e dönüştürme, şeklin metin öğesi eksik| Böcek|
+|DIAGRAMNET-50604 | VSDX'den HTML'e dönüştürme, şeklin metin konumu biraz yanlış yerleştirilmiş.| Böcek|
 |DIAGRAMNET-50655 | Shape.GluedShapes yöntemi yanlış şekil kimlikleri döndürür.| Böcek|
-|DIAGRAMNET-50660 | VSD'den PDF dışa aktarmaya, metin öğeleri eksik.| Böcek|
-|DIAGRAMNET-50664 |VSD'den PDF'e dönüştürme, tarih dizileri tam sayılara dönüşür.| Böcek|
+|DIAGRAMNET-50660 | VSD ila PDF dışa aktarma, metin öğeleri eksik.| Böcek|
+|DIAGRAMNET-50664 | VSD'den PDF'e dönüşüm, tarih dizileri tam sayılara dönüşür.| Böcek|
 |DIAGRAMNET-50672 | Aspose.Diagram API, alt şekillerin Name ve NameU özelliklerini korumaz.| Böcek|
 |DIAGRAMNET-50675 | Ortaya çıkan VDX diagram açıldığında eksik özelliğin uyarısı.| Böcek|
 |DIAGRAMNET-50676 | Shape.connectedShapes yöntemi, gelen bazı şekil kimliklerini algılamaz.| Böcek|

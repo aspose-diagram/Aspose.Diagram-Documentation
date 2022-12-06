@@ -13,12 +13,12 @@ url: /zh/java/aspose-diagram-for-java-21-3-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50711|尝试将 VDX 文档另存为 PNG 时抛出 NullPointerException|强化|
-|DIAGRAMJAVA-50713|将 VSDX 转换为 PDF 时出现文本重叠问题|强化|
+|DIAGRAMJAVA-50711|NullPointerException throws when try to save VDX document as PNG|强化|
+|DIAGRAMJAVA-50713|Text overlapping issue when converting VSDX to PDF|强化|
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Diagram 支持论坛。
 ### **在页面中添加 ConnectShapesViaConnector**
-- 通过连接器连接形状。
+- Connect shapes via connector.
 
 {{< highlight "java" >}}
 

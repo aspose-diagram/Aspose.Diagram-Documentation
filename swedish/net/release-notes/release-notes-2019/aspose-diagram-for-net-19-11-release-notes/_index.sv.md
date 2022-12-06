@@ -17,7 +17,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-50576|Lägg till stöd för att kassera ett Diagram klassobjekt|Förbättring|
 |DIAGRAMNET-50098|Ställ in sidans bakgrundsfärg|Insekt|
 |DIAGRAMNET-51722|Diagram till SVG - utdatabilden har fel|Insekt|
-|DIAGRAMNET-51724|Fel i Chrome-konsolen vid visning av SVG-utgång|Insekt|
+|DIAGRAMNET-51724|Fel i Chrome-konsolen vid visning av utdata SVG|Insekt|
 |DIAGRAMNET-51725|Hämta z-index av former i Diagram|Insekt|
 |DIAGRAMNET-51726|Bakgrundsbild saknas (PowerPoint läggs till i VISIO) samtidigt som oanvända masterformer och stilar tas bort|Insekt|
 |DIAGRAMNET-51727|CheckBox (CheckBox Control) Saknas när oanvända masterformer och stilar tas bort|Insekt|

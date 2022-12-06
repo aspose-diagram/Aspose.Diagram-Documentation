@@ -13,7 +13,7 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: forma distorta dopo il salvataggio in PNG|Aumento|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|Aumento|
 |DIAGRAMJAVA-50967|Ridimensionamento della forma della linea laterale [Cont.]|Insetto|
 |DIAGRAMJAVA-50972|API non analizza correttamente il file|Insetto|
 |DIAGRAMJAVA-50974|Problema nell'aggiunta di un nuovo punto di connessione|Insetto|

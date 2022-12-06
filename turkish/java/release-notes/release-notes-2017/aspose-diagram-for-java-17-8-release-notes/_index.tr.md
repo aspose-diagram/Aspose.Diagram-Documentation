@@ -13,7 +13,7 @@ url: /tr/java/aspose-diagram-for-java-17-8-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50412|Bir VST'yi PNG'ye dönüştürmede eksik şekiller.|Böcek|
+|DIAGRAMJAVA-50412|VST'i PNG'e dönüştürürken eksik şekiller.|Böcek|
 |DIAGRAMJAVA-50497|Çıktı VSDX - tüm bağlantı hatlarının yanlış yerleşimi.|Böcek|
 |DIAGRAMJAVA-50500|Çıktı VSDX - manuel olarak eklenen şekil boyutu değiştirilmiyor.|Böcek|
 |DIAGRAMJAVA-50511|Çıkış VSDX - dinamik bağlayıcının yanlış yerleştirilmiş metni.|Böcek|
@@ -21,7 +21,7 @@ url: /tr/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|Çıktı VSDX - karar şekli büyüyor.|Böcek|
 |DIAGRAMJAVA-50520|VSDX çiziminde bağlantı çizgilerinin üst üste binme davranışı ayarlanamıyor.|Böcek|
 |DIAGRAMJAVA-50521|Çıkış VSDX - bağlantı hattının yanlış yerleşimi.|Böcek|
-|DIAGRAMJAVA-50522|Çıktı PNG - şeklin metni sınırın dışına çıkar.|Böcek|
+|DIAGRAMJAVA-50522|Çıktı PNG - şeklin metni sınırın dışına çıkıyor.|Böcek|
 |DIAGRAMJAVA-50523|Çıkış VSDX - bağlantı hattının yanlış yerleşimi.|Böcek|
 |DIAGRAMJAVA-50525|Çıktı VSDX - herhangi bir şeklin genişlik formülü korunmaz.|Böcek|
 |DIAGRAMJAVA-50528|Çıktı VSDX - şeklin yanlış boyutu.|Böcek|

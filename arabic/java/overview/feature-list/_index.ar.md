@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ar/java/feature-list/
 keywords: Visio Diagram Java API
-description: Visio Diagram Java API تتضمن قائمة الميزات إنشاء ، قراءة ، كتابة ، تصدير ، طباعة والوصول Microsoft Visio 2003 ، 2007 ، 2010 ، 2013 ، VSD ، VSSM ، VSTX ، VSSM ، تنسيقات VST.
+description: Visio Diagram Java API تتضمن قائمة الميزات إنشاء وقراءة وكتابة وتصدير وطباعة والوصول إلى تنسيقات Microsoft Visio 2003 و 2007 و 2010 و 2013 و VSD و VSSM و VSTX و VSSM و VST.
 ---
 ## **ميزات غنية**
 **خلق**:
@@ -16,7 +16,7 @@ description: Visio Diagram Java API تتضمن قائمة الميزات إنش�
 - قراءة Microsoft Visio 2003/2007/2010 VSD تنسيق.
 - قراءة Microsoft Visio 2003/2007/2010 تنسيق VSS.
 - قراءة Microsoft Visio 2003/2007/2010 تنسيق VDW.
-- قراءة Microsoft Visio 2003/2007/2010 تنسيق VST.
+- قراءة Microsoft Visio 2003/2007/2010 VST تنسيق.
 
 **اقرا و اكتب**:
 
@@ -32,11 +32,11 @@ description: Visio Diagram Java API تتضمن قائمة الميزات إنش�
 
 **يصدّر**:
 
-- تصدير المخططات (VSD و VSDX و VSS و VSSX و VTX و VDX و VDW و VST و VSTX و VSX) إلى تنسيقات الصور الشائعة (BMP و JPEG و TIFF و EMF و SVG و PNG).
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى PDF.
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى HTML.
+- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى تنسيقات الصور الشائعة (BMP ، JPEG ، TIFF ، VSDX ، VSDX ، VSDX و VSDX)
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى PDF.
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى HTML.
 - تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى مواصفات ورق XML (XPS).
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى XAML.
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى XAML.
 
 **مطبعة**:
 

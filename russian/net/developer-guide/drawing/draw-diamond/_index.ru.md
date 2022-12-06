@@ -10,22 +10,22 @@ Aspose.Diagram for .NET API позволяет разработчикам рис
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsVSDX.cs" >}}
 
-## **Нарисовать ромб в SVG**
+## **Нарисуйте алмаз в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать ромб на странице и сохранять в формате SVG. В приведенном ниже примере кода показано, как нарисовать ромб на чертеже Visio и сохранить его в формате SVG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsSVG.cs" >}}
 
-## **Нарисовать алмаз в PDF**
+## **Нарисуйте алмаз в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать ромб на странице и сохранять в формате PDF. В приведенном ниже примере кода показано, как нарисовать ромб на чертеже Visio и сохранить его в формате PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsPDF.cs" >}}
 
-## **Нарисовать алмаз в PNG**
+## **Нарисуйте алмаз в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать ромб на странице и сохранять в формате PNG. В приведенном ниже примере кода показано, как нарисовать ромб на чертеже Visio и сохранить его в формате PNG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsPNG.cs" >}}
 
-## **Нарисовать ромб в HTML**
+## **Нарисуйте алмаз в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать ромб на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать ромб на чертеже Visio и сохранить его в формате HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsHTML.cs" >}}

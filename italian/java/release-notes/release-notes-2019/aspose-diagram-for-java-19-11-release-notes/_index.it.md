@@ -14,7 +14,7 @@ La versione di questo mese consente di formattare Visio pagine per[applicare i f
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50671|L'impostazione della nuova finestra del foglio di forma non viene rispettata durante la conversione in SVG|Aumento|
+|DIAGRAMJAVA-50671|Shape sheet new window setting not respected when converting to SVG|Aumento|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram per JAVA. In caso di dubbi su qualsiasi modifica elencata, segnalarla al forum di supporto Aspose.Diagram.
 ### **Aggiunto applyStyle in Page**

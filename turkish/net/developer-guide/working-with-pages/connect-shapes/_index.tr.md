@@ -8,7 +8,7 @@ description: Bu bölümde, iki şeklin Aspose.Diagram ile nasıl bağlanacağı 
 ## **Şekilleri Bağlayın**
 Bu bölümde, Aspose.Diagram for .NET kullanılarak iki şeklin nasıl birleştirileceği açıklanmaktadır.
 ### **Şekilleri Bağlayın**
- bu[ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) yöntem, iki şekli bir konektör aracılığıyla birbirine bağlar.[Sayfa](http://www.aspose.com/api/net/diagram/aspose.diagram/page) sınıf.
+ bu[ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) yöntem iki şekli birleştirir via bir konektör[Sayfa](http://www.aspose.com/api/net/diagram/aspose.diagram/page) sınıf.
 
 Aşağıdaki kod nasıl yapılacağını gösterir:
 

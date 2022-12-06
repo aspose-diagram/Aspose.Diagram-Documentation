@@ -10,22 +10,22 @@ Aspose.Diagram for .NET API tillåter utvecklare att rita en kvadratisk form på
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsVSDX.cs" >}}
 
-## **Rita fyrkant i SVG**
+## **Rita Square på SVG**
 Aspose.Diagram for .NET API låter utvecklare rita en kvadrat på sidan och spara som SVG-format. Kodexemplet nedan visar hur man ritar en kvadrat i en Visio-ritning och sparar som SVG-format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsSVG.cs" >}}
 
-## **Rita fyrkant i PDF**
+## **Rita Square på PDF**
 Aspose.Diagram for .NET API låter utvecklare rita en kvadrat på sidan och spara som PDF-format. Kodexemplet nedan visar hur man ritar en kvadrat i en Visio-ritning och sparar som PDF-format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPDF.cs" >}}
 
-## **Rita fyrkant i PNG**
+## **Rita Square på PNG**
 Aspose.Diagram for .NET API låter utvecklare rita en kvadrat på sidan och spara som PNG-format. Kodexemplet nedan visar hur man ritar en kvadrat i en Visio-ritning och sparar som PNG-format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPNG.cs" >}}
 
-## **Rita kvadrat i HTML**
+## **Rita Square på HTML**
 Aspose.Diagram for .NET API låter utvecklare rita en kvadrat på sidan och spara som HTML-format. Kodexemplet nedan visar hur man ritar en kvadrat i en Visio-ritning och sparar som HTML-format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsHTML.cs" >}}

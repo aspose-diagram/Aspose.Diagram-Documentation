@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API consente agli sviluppatori di disegnare una forma pe
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsVSDX.cs" >}}
 
 ## **Disegna il Pentagono in SVG**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un pentagono nella pagina e salvare come formato SVG. L'esempio di codice seguente mostra come disegnare un pentagono in un disegno Visio e salvarlo come formato SVG.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as SVG format. The code example below shows how to draw a pentagon in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsSVG.cs" >}}
 
-## **Disegna Pentagono in PDF**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un pentagono nella pagina e salvarlo in formato PDF. L'esempio di codice seguente mostra come disegnare un pentagono in un disegno Visio e salvarlo in formato PDF.
+## **Disegna il Pentagono in PDF**
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as PDF format. The code example below shows how to draw a pentagon in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsPDF.cs" >}}
 
 ## **Disegna il Pentagono in PNG**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un pentagono nella pagina e salvare come formato PNG. L'esempio di codice seguente mostra come disegnare un pentagono in un disegno Visio e salvarlo come formato PNG.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as PNG format. The code example below shows how to draw a pentagon in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsPNG.cs" >}}
 
 ## **Disegna il Pentagono in HTML**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un pentagono nella pagina e salvare come formato HTML. L'esempio di codice seguente mostra come disegnare un pentagono in un disegno Visio e salvarlo in formato HTML.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as HTML format. The code example below shows how to draw a pentagon in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsHTML.cs" >}}

@@ -14,7 +14,7 @@ url: /fr/java/aspose-diagram-for-java-6-5-0-release-notes/
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50219|Impossible de récupérer les connexions à partir du fichier de gabarit VSS.|Punaise|
-|DIAGRAMJAVA-50324|La position des éléments de texte est modifiée lors de la conversion d'un VSDX en SVG.|Punaise|
+|DIAGRAMJAVA-50324|The position of text items is changed on converting a VSDX to SVG.|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Consultez la liste des modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 

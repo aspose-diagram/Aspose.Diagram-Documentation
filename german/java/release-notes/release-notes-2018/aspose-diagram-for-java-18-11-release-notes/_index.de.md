@@ -13,10 +13,10 @@ Diese Seite enthält Versionshinweise für[Aspose.Diagram for Java 18.11](https:
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50615|JPEGQuality wirkt sich nicht auf das ausgegebene JPEG-Dokument aus|Erweiterung|
-|DIAGRAMJAVA-50627|API Der Name wird beim Generieren von PDF aus VISIO-Diagrammen nicht im Feld PDF-Ersteller/Ersteller angezeigt|Erweiterung|
-|DIAGRAMJAVA-50626|VSD an HTML - Qualität ist schlecht|Insekt|
-|DIAGRAMJAVA-50629|Ausnahme beim Generieren von Visio in SVG mit Hintergrund|Insekt|
+|DIAGRAMJAVA-50615|JpegQuality does not make any effect on output JPEG document|Erweiterung|
+|DIAGRAMJAVA-50627|API name is not showing agains PDF Producer/Creator field while generating PDF from VISIO diagrams|Erweiterung|
+|DIAGRAMJAVA-50626|VSD to HTML - Quality is bad|Insekt|
+|DIAGRAMJAVA-50629|Exception when generating Visio to SVG with background|Insekt|
 |DIAGRAMJAVA-50630|Einige chinesische Zeichen fehlen in der Ausgabe|Insekt|
-|DIAGRAMJAVA-50632|Nach der Konvertierung von VSDX wird ein leeres PDF erhalten|Insekt|
+|DIAGRAMJAVA-50632|Blank PDF is being obtained after converting from VSDX|Insekt|
 

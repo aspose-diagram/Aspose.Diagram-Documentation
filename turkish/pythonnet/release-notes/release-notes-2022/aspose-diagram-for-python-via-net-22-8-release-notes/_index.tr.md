@@ -1,12 +1,12 @@
 ﻿---
-title: .NET üzerinden Python için Aspose.Diagram 22.8 Sürüm Notları
+title: Python via .NET için Aspose.Diagram 22.8 Sürüm Notları
 type: docs
 weight: 19
 url: /tr/python-net/aspose-diagram-for-python-via-net-22-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa, .NET 22.8 üzerinden Python için Aspose.Diagram için sürüm notları içerir.
+Bu sayfa Aspose.Diagram için Python via .NET için sürüm notları içerir 22.8.
 
 {{% /alert %}} 
 

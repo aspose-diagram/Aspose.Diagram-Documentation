@@ -14,5 +14,5 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50683|Visio till SVG - Korrupt formlayout i utdata|Förbättring|
-|DIAGRAMJAVA-50684|Stöd visCaseAllCaps och visCaseInitialCaps teckenformatering i SVG-export|Förbättring|
+|DIAGRAMJAVA-50684|Stöd för visCaseAllCaps och visCaseInitialCaps teckenformatering i SVG export|Förbättring|
 

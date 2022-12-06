@@ -1,32 +1,32 @@
 ﻿---
-title: Su primera aplicación Aspose.Diagram - Hola mundo
+title: Your First Aspose.Diagram Application - Hello World
 type: docs
 weight: 30
 url: /es/python-net/your-first-aspose-diagram-application-hello-world/
 ---
 {{% alert color="primary" %}}
 
-Este tema para principiantes muestra cómo los desarrolladores pueden crear una primera aplicación simple (Hello World) usando Aspose.Diagram' simple API. La aplicación crea un archivo Microsoft Visio con las palabras Hello World en la página.
+This beginner's topic shows how developers can create a simple first application (Hello World) using Aspose.Diagram' simple API. The application creates a Microsoft Visio file with the words Hello World in the page.
 
 {{% /alert %}}
 
-### **Creación de la aplicación Hello World**
+### **Creating the Hello World Application**
 
-Para crear la aplicación Hello World usando Aspose.Diagram API:
+To create the Hello World application using Aspose.Diagram API:
 
 1. Cree una instancia de la clase Workbook.
 1. Aplicar la licencia:
  1. Si ha comprado una licencia, use la licencia en su aplicación para obtener acceso a la funcionalidad completa de Aspose.Diagram
  1. Si está utilizando la versión de evaluación del componente (si está utilizando Aspose.Diagram sin licencia), omita este paso.
 1. Cree un nuevo archivo Microsoft Visio o abra un archivo existente en el que desee agregar/actualizar algún texto.
-1.  Inserta las palabras**Hola Mundo!** en la página accedida.
+1.  Inserta las palabras**Hello World!** en la página accedida.
 1. Genere el archivo Microsoft Visio modificado.
 
 Los siguientes ejemplos demuestran los pasos anteriores.
 
 #### **Creando un Diagram**
 
-El siguiente ejemplo crea un nuevo diagram desde cero, escribe las palabras "¡Hola mundo!" en la primera página y guarda el archivo.
+The following example creates a new diagram from scratch, writes the words "Hello World!" on the first page, and saves the file.
 
 **Crear nuevo archivo visio** 
 
@@ -36,6 +36,6 @@ El siguiente ejemplo crea un nuevo diagram desde cero, escribe las palabras "¡H
 
 #### **Abrir un archivo existente**
 
-El siguiente ejemplo abre un archivo de plantilla Microsoft Visio existente, escribe las palabras "¡Hola mundo!" en la primera página y guarda el diagram como un archivo nuevo.
+The following example opens an existing Microsoft Visio template file, writes the words "Hello World!" in the first page, and saves the diagram as a new file.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingHelloWorldVisioFile.py" >}}

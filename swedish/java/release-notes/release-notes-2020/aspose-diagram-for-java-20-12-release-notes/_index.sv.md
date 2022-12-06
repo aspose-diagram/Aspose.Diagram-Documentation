@@ -16,5 +16,5 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMJAVA-50574|VSD till SVG - textobjekten är felplacerade|Insekt|
 |DIAGRAMJAVA-50705|Regression i Diagram - Borsttyp som inte stöds|Insekt|
 |DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException vid konvertering av VSD till SVG|Insekt|
-|DIAGRAMJAVA-50707|VSDX till PDF: Fel i element Shapes|Insekt|
+|DIAGRAMJAVA-50707|VSDX till PDF: Fel i elementformer|Insekt|
 

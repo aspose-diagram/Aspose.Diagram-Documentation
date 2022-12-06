@@ -13,4 +13,4 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50701|Intestazione/piè di pagina non vengono conservati durante la conversione di Diagram in PDF, PNG e HTML|Aumento|
+|DIAGRAMJAVA-50701|Header/Footer are not being preserved while converting Diagram to PDF, PNG and HTML|Aumento|

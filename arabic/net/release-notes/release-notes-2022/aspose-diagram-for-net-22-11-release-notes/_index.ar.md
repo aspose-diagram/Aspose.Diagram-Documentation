@@ -18,8 +18,8 @@ url: /ar/net/aspose-diagram-for-net-22-11-release-notes/
 |DIAGRAMNET-53024|الصيغة لا مجال منعش|التعزيز|
 |DIAGRAMNET-53009|محادثة من vsdx إلى svg lost image|التعزيز|
 |DIAGRAMNET-53010|التطبيق: حفظ vsdx إلى Pdf الأشكال المفقودة|حشرة|
-|DIAGRAMNET-53013|Visio إلى SVG - نماذج خط مخصصة|حشرة|
-|DIAGRAMNET-53017|تم تغيير المنطقة المرتبطة في HTML VSD إلى الإصدار 22.10.0.0|حشرة|
+|DIAGRAMNET-53013|Visio إلى SVG - نماذج الخط المخصصة|حشرة|
+|DIAGRAMNET-53017|تم تغيير المنطقة المرتبطة في HTML من VSD إلى الإصدار 22.10.0.0|حشرة|
 |DIAGRAMNET-53018|علة مع Paras.SpLine|حشرة|
 |DIAGRAMNET-53019|يتم رسم خط إضافي في أسفل اليسار|حشرة|
 |DIAGRAMNET-53033|لم يتم حساب قيم الخلايا بشكل صحيح|حشرة|

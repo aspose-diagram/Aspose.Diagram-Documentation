@@ -15,10 +15,10 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-52969|vsdx fichier en svg - tous les textes dans les cases dépassent la ligne des cases.|Renforcement|
 |DIAGRAMNET-52974|Les ensembles de règles n'apparaissent pas dans les données de validation diagram|Renforcement|
-|DIAGRAMNET-52951|Résultat incorrect après exportation au format HTML|Punaise|
+|DIAGRAMNET-52951|Incorrect result after export to HTML|Punaise|
 |DIAGRAMNET-52958|Application : enregistrer vsd à Vsdx l'effet est faux|Punaise|
-|DIAGRAMNET-52964|Qualité d'image en HTML|Punaise|
-|DIAGRAMNET-52965|Problème dans la sortie HTML|Punaise|
+|DIAGRAMNET-52964|Image quality in HTML|Punaise|
+|DIAGRAMNET-52965|Issue in HTML output|Punaise|
 |DIAGRAMNET-52972|Propriétés vides renvoyées en tant que valeur|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

@@ -11,7 +11,7 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfada baklava şekli çizme
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsVSDX.cs" >}}
 
 ## **SVG'de Elmas Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir elmas çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir elmasın nasıl çizileceğini ve SVG formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir elmas çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir elmasın nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsSVG.cs" >}}
 
@@ -26,6 +26,6 @@ Aspose.Diagram for .NET API, geliştiricilerin sayfada bir elmas çizmesine ve P
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsPNG.cs" >}}
 
 ## **HTML'de Elmas Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada elmas çizmesine ve HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir elmasın nasıl çizileceğini ve HTML formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir elmas çizmesine ve HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir elmasın nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsHTML.cs" >}}

@@ -44,7 +44,7 @@ Koden i exemplen nedan visar hur man:
 1. Skaffa Visio sida
 1. Importera en bitmappsbild som en Visio-form
 1. Spara diagram.
-#### **Infoga ett BMP-bildprogrammeringsexempel**
+#### **Infoga ett BMP bildprogrammeringsexempel**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
 ## **Konvertera specificerat område på Visio-sidan till en bild**
 Med Aspose.Diagram for .NET API kan utvecklare definiera ett område med XY-koordinater, bredd och höjd och sedan konvertera detta område till ett bildformat som stöds.

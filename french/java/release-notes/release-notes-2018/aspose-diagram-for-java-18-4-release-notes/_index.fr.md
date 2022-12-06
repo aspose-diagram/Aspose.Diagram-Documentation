@@ -17,7 +17,7 @@ url: /fr/java/aspose-diagram-for-java-18-4-release-notes/
 |DIAGRAMJAVA-50596|Sortie VSDX - disposition incorrecte de la ligne de connexion|Punaise|
 |DIAGRAMJAVA-50597|Récupération incorrecte des formats de fichiers|Punaise|
 |DIAGRAMJAVA-50598|Récupération incorrecte des formats de fichiers|Punaise|
-|DIAGRAMJAVA-50599|VSDX en SVG - famille de polices incorrecte du texte|Punaise|
+|DIAGRAMJAVA-50599|VSDX to SVG - incorrect font family of the text|Punaise|
 ### **Exemples d'utilisation**
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Diagram :
 

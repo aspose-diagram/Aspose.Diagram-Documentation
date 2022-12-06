@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Python عبر .NET 22.10 ملاحظات الإصدار
+title: Aspose.Diagram لـ Python via .NET 22.10 ملاحظات الإصدار
 type: docs
 weight: 17
 url: /ar/python-net/aspose-diagram-for-python-via-net-22-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Diagram لـ Python عبر .NET 22.10.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Diagram لـ Python via .NET 22.10.
 
 {{% /alert %}} 
 

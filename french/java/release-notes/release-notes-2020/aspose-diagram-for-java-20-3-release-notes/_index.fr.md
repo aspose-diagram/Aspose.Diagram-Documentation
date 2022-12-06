@@ -13,6 +13,6 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50683|Visio vers SVG - Disposition de forme corrompue dans la sortie|Renforcement|
-|DIAGRAMJAVA-50684|Prise en charge du formatage des caractères visCaseAllCaps et visCaseInitialCaps dans l'exportation SVG|Renforcement|
+|DIAGRAMJAVA-50683|Visio to SVG - Corrupted shape layout in output|Renforcement|
+|DIAGRAMJAVA-50684|Support visCaseAllCaps and visCaseInitialCaps character formatting in SVG export|Renforcement|
 

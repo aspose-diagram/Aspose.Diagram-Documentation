@@ -4,5 +4,5 @@ linktitle: Dokument Visio konvertieren
 type: docs
 weight: 40
 url: /de/python-java/converting/
-description: Dieser Abschnitt enthält eine Beschreibung aller möglichen Optionen zum Konvertieren von Visio-Dokumenten mit Aspose.Diagram für Python über Java.
+description: This section contains a description of all possible options for converting Visio documents using Aspose.Diagram for Python via Java.
 ---

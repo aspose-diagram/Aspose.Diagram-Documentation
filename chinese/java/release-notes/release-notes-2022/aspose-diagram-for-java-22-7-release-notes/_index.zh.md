@@ -14,7 +14,7 @@ url: /zh/java/aspose-diagram-for-java-22-7-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk：继承填充问题|强化|
-|DIAGRAMJAVA-50446|输出图像在将 VSD 转换为 HTML 时像素化|漏洞|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|漏洞|
 |DIAGRAMJAVA-50996|形状未正确显示 - 而是显示交叉矩形|漏洞|
 
 ## **公共 API 和向后不兼容的更改**

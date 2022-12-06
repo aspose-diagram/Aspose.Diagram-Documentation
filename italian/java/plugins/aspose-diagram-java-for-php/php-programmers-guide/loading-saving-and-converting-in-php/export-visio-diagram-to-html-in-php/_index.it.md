@@ -1,11 +1,11 @@
 ﻿---
-title: Esporta Visio Diagram in HTML in PHP
+title: Export Visio Diagram to HTML in PHP
 type: docs
 weight: 20
 url: /it/java/export-visio-diagram-to-html-in-php/
 ---
-## **Aspose.Diagram - Esporta Visio Diagram in HTML**
- Per esportare Visio Diagram in HTML utilizzando**Aspose.Diagram Java per PHP** , semplicemente invocare**Esporta in Html** modulo. Qui puoi vedere il codice di esempio.
+## **Aspose.Diagram - Export Visio Diagram to HTML**
+To Export Visio Diagram to HTML using **Aspose.Diagram Java per PHP** , semplicemente invocare**Esporta in Html** modulo. Qui puoi vedere il codice di esempio.
 
 **Codice PHP**
 
@@ -25,6 +25,6 @@ print "Exported visio diagram to HTML.".PHP_EOL;
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Esporta Visio Diagram in HTML (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scarica**Export Visio Diagram to HTML (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/ExportToHtml.php)

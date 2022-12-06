@@ -15,12 +15,12 @@ url: /ar/net/aspose-diagram-for-net-18-7-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51480|يقوم الإخراج VDX بالإبلاغ عن خطأ بعد التحويل من الملف المصدر VSD|التعزيز|
 |DIAGRAMNET-51494|الإخراج VSDX - عدد الخطوط غير صحيح|التعزيز|
-|DIAGRAMNET-51496|VSDX إلى PDF - المحتوى محجوب في PDF الناتج|التعزيز|
+|DIAGRAMNET-51496|VSDX إلى PDF - المحتوى معتم في الإخراج PDF|التعزيز|
 |DIAGRAMNET-51063|أشكال مفقودة عند تحويل VST إلى SVG|حشرة|
 |DIAGRAMNET-51470|VSDX إلى PNG - عرض غير صحيح للخطوط المتصلة|حشرة|
 |DIAGRAMNET-51471|VSDX إلى SVG - عرض غير صحيح للخطوط المتصلة|حشرة|
-|DIAGRAMNET-51477|VSD to PDF - التفاف غير صحيح للكلمات على الشكل|حشرة|
-|DIAGRAMNET-51478|VDX إلى PDF - يتم إزاحة نص العنوان|حشرة|
+|DIAGRAMNET-51477|VSD إلى PDF - تغليف غير صحيح للكلمات على الشكل|حشرة|
+|DIAGRAMNET-51478|VDX إلى PDF - تم إزاحة نص العنوان|حشرة|
 |DIAGRAMNET-51481|تم تعطيل بعض الميزات في المستند الناتج|حشرة|
 |DIAGRAMNET-51482|VSD إلى PDF - عرض غير صحيح لشكل Blood Pool|حشرة|
 |DIAGRAMNET-51484|VSD إلى PNG - ظل إضافي في الأشكال|حشرة|

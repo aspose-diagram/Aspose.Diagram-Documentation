@@ -13,7 +13,7 @@ url: /zh/net/aspose-diagram-for-net-22-10-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|图形导出为 SVG 格式时显示质量不佳|强化|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|强化|
 |DIAGRAMNET-53002|使用 Aspose.Diagram 导出到 html 时链接丢失|强化|
 |DIAGRAMNET-52983|Diagram 错误。保存|漏洞|
 |DIAGRAMNET-52984|更改 VentureLicenser 类中的值|漏洞|

@@ -17,8 +17,8 @@ url: /ar/net/aspose-diagram-for-net-22-9-release-notes/
 |DIAGRAMNET-52974|لا تظهر RuleSets في diagram بيانات التحقق من الصحة|التعزيز|
 |DIAGRAMNET-52951|نتيجة غير صحيحة بعد التصدير إلى HTML|حشرة|
 |DIAGRAMNET-52958|التطبيق: حفظ vsd إلى Vsdx التأثير خاطئ|حشرة|
-|DIAGRAMNET-52964|جودة الصورة بتنسيق HTML|حشرة|
-|DIAGRAMNET-52965|مشكلة في إخراج HTML|حشرة|
+|DIAGRAMNET-52964|جودة الصورة في HTML|حشرة|
+|DIAGRAMNET-52965|إصدار HTML الإخراج|حشرة|
 |DIAGRAMNET-52972|إرجاع الخصائص الفارغة كقيمة|حشرة|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

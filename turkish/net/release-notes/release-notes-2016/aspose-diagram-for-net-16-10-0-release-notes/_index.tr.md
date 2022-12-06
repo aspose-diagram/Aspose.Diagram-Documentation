@@ -16,25 +16,25 @@ url: /tr/net/aspose-diagram-for-net-16-10-0-release-notes/
 |DIAGRAMNET-50545|Master-Kalıp, diagram veya şablon olmadan master ekleme yeteneği.|Yeni özellik|
 |DIAGRAMNET-50192|VSD'den PDF'e dönüştürme, şeklin metni kalın görünmüyor.|Böcek|
 |DIAGRAMNET-50524|Shape.GluedShapes yöntem çağrısı, tüm şekil kimliklerini döndürmüyor.|Böcek|
-|DIAGRAMNET-50578|VSDX'den PDF'e dönüştürme, bağlantı hatları düz değil.|Böcek|
-|DIAGRAMNET-50598|VSDX'den PDF'e dönüştürme, bağlantı hatları düz değil-II.|Böcek|
-|DIAGRAMNET-50583|VSDX'den HTML'ye dönüştürme, bağlantı çizgileri düz değil.|Böcek|
-|DIAGRAMNET-50603|VSDX'den HTML'ye dönüştürme, bağlantı çizgileri düz-II değil.|Böcek|
-|DIAGRAMNET-51007|Metin öğeleri, bir VSDX'i PDF'ye dönüştürürken yer değiştirir.|Böcek|
-|DIAGRAMNET-51008|Bir VSDX'i PDF'ye dönüştürürken kalın metin biçimlendirmesi ve yanlış satır sonları eksik.|Böcek|
-|DIAGRAMNET-51009|VSDX'i PDF'ye dönüştürürken metnin yanlış konumu.|Böcek|
-|DIAGRAMNET-51010|VSDX'i PDF'ye dönüştürürken çeşitli metin öğelerinin yanlış konumu.|Böcek|
-|DIAGRAMNET-51013|VSDX PNG'ye dönüştürüldüğünde dikey metin yatay metin olarak görünür.|Böcek|
+|DIAGRAMNET-50578|VSDX'den PDF'e dönüştürme, bağlantı hatları düz-I değildir.|Böcek|
+|DIAGRAMNET-50598|VSDX'den PDF'e dönüştürme, bağlantı hatları düz II değil.|Böcek|
+|DIAGRAMNET-50583|VSDX'den HTML'e dönüştürme, bağlantı hatları düz-I değildir.|Böcek|
+|DIAGRAMNET-50603|VSDX'den HTML'e dönüştürme, bağlantı hatları düz II değil.|Böcek|
+|DIAGRAMNET-51007|Bir VSDX'den PDF'e dönüştürülürken metin öğelerinin yeri değiştirilir.|Böcek|
+|DIAGRAMNET-51008|VSDX'i PDF'e dönüştürürken kalın metin biçimlendirmesi ve yanlış satır sonları eksik.|Böcek|
+|DIAGRAMNET-51009|VSDX'i PDF'e dönüştürürken metnin yanlış konumu.|Böcek|
+|DIAGRAMNET-51010|VSDX'i PDF'e dönüştürürken çeşitli metin öğelerinin yanlış konumu.|Böcek|
+|DIAGRAMNET-51013|VSDX, PNG'e dönüştürüldüğünde dikey metin yatay metin olarak görünür.|Böcek|
 |DIAGRAMNET-51026|Bir VSDX'den gelen ve giden düğümlerin ters sırasını alır.|Böcek|
 |DIAGRAMNET-51028|Bir VSD'den kapsayıcı şeklinin ilişkiler hücresi alınamıyor.|Böcek|
-|DIAGRAMNET-51039|VSD, SVG'ye dönüştürülürken ek numaralar eklenir.|Böcek|
-|DIAGRAMNET-51042|Bir VSD'i SVG'ye dönüştürürken oklar doğru şekilde oluşturulmuyor.|Böcek|
-|DIAGRAMNET-51047|VSD'i SVG'ye dönüştürürken takvimin yanlış oluşturulması.|Böcek|
+|DIAGRAMNET-51039|VSD, SVG'e dönüştürülürken ek numaralar eklenir.|Böcek|
+|DIAGRAMNET-51042|Bir VSD'in SVG'e dönüştürülmesinde oklar doğru şekilde oluşturulmuyor.|Böcek|
+|DIAGRAMNET-51047|VSD'i SVG'e dönüştürürken takvimin yanlış oluşturulması.|Böcek|
 |DIAGRAMNET-51050|Shape.ConnectedShapes yöntemi, düğümleri ters yönde döndürür.|Böcek|
 |DIAGRAMNET-51051|VSD'den şekillerin ilişki hücresi alınamıyor.|Böcek|
-|DIAGRAMNET-51052|Visio sayfalarının arka plan rengi, VSD'i SVG'ye dönüştürürken siyahtır.|Böcek|
+|DIAGRAMNET-51052|Visio sayfalarının arka plan rengi, VSD'i SVG'e dönüştürürken siyahtır.|Böcek|
 |DIAGRAMNET-51060|Bir VSD diagram numaralı telefondan önemsiz şekil kimlikleri alınıyor.|Böcek|
-|DIAGRAMNET-51066|VSDX sayfası SVG'ye dönüştürülürken yanlış sembol görünüyor.|Böcek|
+|DIAGRAMNET-51066|VSDX sayfası SVG'e dönüştürülürken yanlış sembol görünüyor.|Böcek|
 |DIAGRAMNET-51067|Bir VDX, VSDX'e dönüştürülürken NullReferenceException oluştu.|Böcek|
 |DIAGRAMNET-51068|Sayfa boyutu seçeneği VSDM sayfanın genişlik ve yüksekliği ayarlanarak değiştirilmektedir.|Böcek|
 |DIAGRAMNET-51069|VSD'den şekillerin ilişki dizesi alınamıyor.|Böcek|

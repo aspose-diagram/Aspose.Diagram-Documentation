@@ -14,12 +14,12 @@ Cette page contient des notes de version pour[Aspose.Diagram for .NET 19.7](http
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMNET-51219|Obtenir des images à partir de l'aperçu avant impression d'une page Visio|Renforcement|
-|DIAGRAMNET-51615|Diviser Diagram en plusieurs pages lors de la génération d'un document PDF|Renforcement|
+|DIAGRAMNET-51615|Split Diagram to Multiple Pages while generating PDF Document|Renforcement|
 |DIAGRAMNET-51656|Ajout de la prise en charge de la surveillance de la progression de la conversion des documents|Renforcement|
-|DIAGRAMNET-50045|Sauts de ligne incorrects lors de la conversion de VSD au format PDF|Punaise|
-|DIAGRAMNET-50075|Conversion de VSD en PDF, police de texte incorrecte|Punaise|
-|DIAGRAMNET-50201|VSD en conversion PDF, les formes sont mal placées|Punaise|
-|DIAGRAMNET-50274|VSDX à la conversion SVG, les dispositions de connexion sont incorrectes|Punaise|
+|DIAGRAMNET-50045|Incorrect line breaks when converting VSD to PDF format|Punaise|
+|DIAGRAMNET-50075|VSD to PDF conversion, incorrect text font|Punaise|
+|DIAGRAMNET-50201|VSD to PDF conversion, shapes are misplaced|Punaise|
+|DIAGRAMNET-50274|VSDX to SVG conversion, the connection layouts are incorrect|Punaise|
 |DIAGRAMNET-51172|Ne redimensionne pas correctement la forme lors de l'enregistrement dans un format d'image|Punaise|
 |DIAGRAMNET-51613|La propriété AutoFitPageToDrawingContent ne fonctionne pas comme prévu|Punaise|
 |DIAGRAMNET-51657|VISIO vers JPG - l'image de sortie n'est pas au bon format|Punaise|

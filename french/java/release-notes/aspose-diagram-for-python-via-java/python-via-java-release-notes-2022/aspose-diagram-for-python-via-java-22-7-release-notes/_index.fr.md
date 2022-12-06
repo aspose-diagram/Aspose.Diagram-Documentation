@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram pour Python via Java 22.7 Notes de mise à jour
+title: Aspose.Diagram for Python via Java 22.7 Release Notes
 type: docs
 weight: 21
 url: /fr/java/aspose-diagram-for-python-via-java-22-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient des informations sur les notes de version pour Aspose.Diagram pour Python via Java 22.7.
+This page contains release notes information for Aspose.Diagram for Python via Java 22.7.
 
 {{% /alert %}}
 ## **Améliorations et changements**  ##
@@ -14,7 +14,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk : problème de remplissage hérité|Renforcement|
-|DIAGRAMJAVA-50446|L'image de sortie est pixélisée lors de la conversion d'un VSD en HTML|Punaise|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|Punaise|
 |DIAGRAMJAVA-50996|Forme mal affichée - rectangle barré affiché à la place|Punaise|
 
 ## `?`**Public API et modifications incompatibles avec les versions antérieures**

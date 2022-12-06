@@ -16,10 +16,10 @@ Bu sayfa Aspose.Diagram for .NET 21.6 için sürüm notları bilgilerini içerir
 |DIAGRAMNET-52007|Bir diagram nesnesinin başlatılması sırasındaki performans|Artırma|
 |DIAGRAMNET-52008|Bir diagram nesnesinin başlatılması sırasındaki performans|Artırma|
 |DIAGRAMNET-52027|Dışa aktarılan SVG dosyasındaki şekillerin kalitesi iyi değil|Artırma|
-|DIAGRAMNET-52033|Şekilleri HTML sorununa kaydetme|Böcek|
+|DIAGRAMNET-52033|Şekiller HTML sorununa kaydediliyor|Böcek|
 |DIAGRAMNET-52035|"Beklenmedik eof." VSDX dosyasını açarken istisna|Böcek|
 |DIAGRAMNET-52041|VSS dosyasından bazı şekiller kaydedilemedi|Böcek|
-|DIAGRAMNET-52042|"Parametre geçerli değil." VSD dosyasını HTML'ye dönüştürürken istisna|Böcek|
+|DIAGRAMNET-52042|"Parametre geçerli değil." VSD dosyasını HTML olarak işlerken istisna|Böcek|
 |DIAGRAMNET-52043|"Nesne referansı bir nesnenin örneğine atanmadı." VSSX dosyasından şekli kaydederken istisna|Böcek|
 
 ## **Genel API ve Geriye Dönük Uyumsuz Değişiklikler**

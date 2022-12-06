@@ -9,9 +9,9 @@ url: /tr/java/aspose-diagram-for-java-6-4-0-release-notes/
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
 | ŞEMAJava-50060| VSD'den PDF'e dönüştürme, şekillerdeki metnin yanlış yerleşimi.| Böcek|
-| ŞEMAJava-50070| VSD'den PDF'e dönüştürme, şekillerin metni kalın değil.| Böcek|
+| ŞEMAJava-50070| VSD'den PDF'e dönüşüm, şekillerin metni kalın değil.| Böcek|
 | ŞEMAJava-50071| VSD'den PDF'e dönüştürme, şekillerin metni italik değildir.| Böcek|
-| ŞEMAJava-50072| VSD PDF dönüştürme, şekillerdeki metnin yazı tipi boyutu değiştirilir.| Böcek|
+| ŞEMAJava-50072| VSD'den PDF'e dönüştürme, şekillerdeki metnin yazı tipi boyutu değiştirilir.| Böcek|
 | ŞEMAJava-50320| Bir VSDX diagram açma ve kaydetme rutini, şekillerin temasını kaybetti.| Böcek|
 | ŞEMAJava-50321| Bir VSDX diagram açma ve kaydetme yordamı, konektörlerin oklarını kaybetti.| Böcek|
 | ŞEMAJava-50322|Bir VSDX diagram açma ve kaydetme yordamı kesikli bir çizgi konumunu değiştirdi.| Böcek|

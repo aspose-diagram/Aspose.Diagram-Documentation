@@ -13,10 +13,10 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50073|VSD till PDF-konvertering, textpositionen för former ändras|Förbättring|
+|DIAGRAMJAVA-50073|VSD till PDF konvertering, textpositionen för former ändras|Förbättring|
 |DIAGRAMJAVA-50739|Wk - Problem med form till bild (2)|Insekt|
-|DIAGRAMJAVA-50740|Wk - VSDX till PDF-anslutningspilar problem|Insekt|
-|DIAGRAMJAVA-50741|Wk - VSDX till PDF vissa rader är FET|Insekt|
+|DIAGRAMJAVA-50740|Wk - VSDX till PDF problem med kontaktpilar|Insekt|
+|DIAGRAMJAVA-50741|Wk - VSDX till PDF vissa rader är fetstil|Insekt|
 |DIAGRAMJAVA-50742|Wk - VSDX till PNG fel färg|Insekt|
 |DIAGRAMJAVA-50747|Visio till PNG - Tomma sidor i utdata och duk kan inte tas bort|Insekt|
 ## **Offentlig API och bakåtinkompatibla ändringar**

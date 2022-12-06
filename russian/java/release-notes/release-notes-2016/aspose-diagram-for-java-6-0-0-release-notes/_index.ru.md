@@ -13,21 +13,21 @@ url: /ru/java/aspose-diagram-for-java-6-0-0-release-notes/
 - DIAGRAMJAVA-50196) Преобразование -VSD в VDX, кривые динамические разъемы превращаются в прямые
 - DIAGRAMJAVA-50229) — Геометрия форм разъема неверна.
 - DIAGRAMJAVA-50230) - Неправильная геометрия форм разъема.
-- DIAGRAMJAVA-50241) -VSDX преобразование в EMF - создается файл EMF с нулевыми байтами
+- DIAGRAMJAVA-50241) -VSDX преобразование в EMF - создается файл с нулевыми байтами EMF
 - DIAGRAMJAVA-50242) - Копирование операции страницы Visio diagram не сохраняет стиль фигур
 - DIAGRAMJAVA-50243) - Формат вывода PDF Копирование формы из VSDX - генерируется пустой PDF
-- DIAGRAMJAVA-50244) -Формат вывода EMF Copying Shape from the VSDX - генерируется пустой EMF
+- DIAGRAMJAVA-50244) - Формат вывода EMF Копирование формы из VSDX - генерируется пустой EMF
 - DIAGRAMJAVA-50245) - Формат вывода JPEG Копирование формы из VSDX - генерируется пустой JPEG
 - DIAGRAMJAVA-50246) - Формат вывода PNG Копирование формы из VSDX - генерируется пустой PNG
 - DIAGRAMJAVA-50247) -Формат вывода GIF Копирование формы из VSDX - генерируется пустой GIF
 - DIAGRAMJAVA-50248) - Формат вывода SVG Копирование формы из VSDX - генерируется пустой SVG
-- DIAGRAMJAVA-50249) - Формат вывода TIFF Copying Shape from the VSDX - произошла ошибка
+- DIAGRAMJAVA-50249) -Формат вывода TIFF Копирование формы из VSDX - произошла ошибка
 - DIAGRAMJAVA-50250) - Формат вывода XPS Копирование формы из VSDX - генерируется пустой XPS
-- DIAGRAMJAVA-50251) - Формат вывода XAML Копирование формы из VSDX - создается пустой XAML
+- DIAGRAMJAVA-50251) - Формат вывода XAML Копирование формы из VSDX - генерируется пустой XAML
 - DIAGRAMJAVA-50252) - Формат вывода HTML Копирование формы из VSDX - генерируется пустой HTML
 - DIAGRAMJAVA-50253) - Копирование страницы Visio diagram не сохраняет формы полностью
 - DIAGRAMJAVA-50254) - Копирование страницы Visio diagram не сохраняет формы полностью
-- DIAGRAMJAVA-50255) -VSDX преобразование в TIFF - ошибка при сохранении в формат TIFF
+- DIAGRAMJAVA-50255) Преобразование -VSDX в TIFF - ошибка при сохранении в формате Tiff
 - DIAGRAMJAVA-50258) экспорт -VDX в VDX, текст формы не жирный
 - DIAGRAMJAVA-50260) -VSD экспорт в VDX, отсутствует тень фигур
 - DIAGRAMJAVA-50268) -Source VSD — класс ConnectCollection возвращает дополнительные идентификаторы соединения и неверные формы

@@ -4,7 +4,7 @@ linktitle: دعم فني
 type: docs
 weight: 60
 url: /ar/net/technical-support/
-description: يوفر Aspose.Diagram تحويل تنسيقات ملفات Visio إلى تنسيقات الصور و PDF و HTML و XML و XAML. تتضمن تنسيقات الملفات الشائعة المدعومة VSD و VSS و VDW و VST و VSDX و VSSX و VSTX و VSDM و VSTM و VSSM.
+description: يوفر Aspose.Diagram تحويلات تنسيقات ملفات Visio للصور وتنسيقات PDF و HTML و XML و XAML. تتضمن تنسيقات الملفات الشائعة المدعومة VSD و VSS و VDW و VST و VSDX و VSSX و VSTX و VSDM و VSTM و VSSM.
 ---
 توفر Aspose دعمًا فنيًا مجانيًا غير محدود لجميع منتجاتها. الدعم متاح لجميع المستخدمين ، بما في ذلك التقييم.
 

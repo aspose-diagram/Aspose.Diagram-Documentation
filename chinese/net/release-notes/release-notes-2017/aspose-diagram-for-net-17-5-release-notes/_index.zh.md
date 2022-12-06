@@ -15,11 +15,11 @@ url: /zh/net/aspose-diagram-for-net-17-5-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51104|添加对形状 3D 旋转属性的支持|新功能|
 |DIAGRAMNET-51229|VSDM 的打开和保存过程去除了SolutionXMLs|强化|
-|DIAGRAMNET-50283|VTX 到 HTML 转换，形状文本项上的双线效果|漏洞|
-|DIAGRAMNET-51195|将 VDX 保存为 SVG 时信封图标呈现不正确|漏洞|
-|DIAGRAMNET-51196|将 VDX 保存为 SVG 时文本对齐方式不正确|漏洞|
+|DIAGRAMNET-50283|VTX to HTML conversion, double line effect on shapes text items|漏洞|
+|DIAGRAMNET-51195|Incorrect rendering of an envelope icon on saving a VDX to SVG|漏洞|
+|DIAGRAMNET-51196|Incorrect text alignment on saving a VDX to SVG|漏洞|
 |DIAGRAMNET-51225|检索 VSDM 的形状数据的不正确日历值|漏洞|
-|DIAGRAMNET-51226|保存到 HTML 流不嵌入外部资源|漏洞|
+|DIAGRAMNET-51226|Saving to HTML stream do not embed external resources|漏洞|
 |DIAGRAMNET-51227|无法设置 VSDM 的 TimeSaved 值|漏洞|
 |DIAGRAMNET-51228|文本项在 VSDM 中设置形状数据时被置换|漏洞|
 |DIAGRAMNET-51234|无法在 VSDM 中删除和添加同名主控|漏洞|
@@ -28,11 +28,11 @@ url: /zh/net/aspose-diagram-for-net-17-5-release-notes/
 |DIAGRAMNET-51237|无法在 VSDM 中保存 Geoms 的 Del 和 NoQuickDrag 值|漏洞|
 |DIAGRAMNET-51238|保存 Visio 绘图时设置 TimeSaved 值|漏洞|
 |DIAGRAMNET-51239|VSDM的打开和保存过程去掉了Solution XML的关系部分|漏洞|
-|DIAGRAMNET-51240|将 VSD 转换为 PDF 时移位的文本|漏洞|
+|DIAGRAMNET-51240|Displaced text on converting a VSD to PDF|漏洞|
 |DIAGRAMNET-51242|VSDM 各种形状不能添加形状数据|漏洞|
 |DIAGRAMNET-51243|用户单元 UFEV 值未正确保存在 VSDM 中|漏洞|
 |DIAGRAMNET-51244|从两个 VSDM 绘图复制页面时出现重复页面 xml 错误|漏洞|
-|DIAGRAMNET-51247|将 VSD 转换为 PDF 时，也包括非打印区域|漏洞|
+|DIAGRAMNET-51247|Non-print area is also included when converting a VSD to PDF|漏洞|
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在这[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
 ### **在 Shape 类中添加 ThreeDFormat 成员**

@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfada üçgen şekli çizme
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsVSDX.cs" >}}
 
 ## **SVG'de Üçgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde nasıl üçgen çizileceğini ve SVG formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizip SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir üçgenin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsSVG.cs" >}}
 
 ## **PDF'de Üçgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizmesine ve PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde nasıl üçgen çizileceğini ve PDF formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizip PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir üçgenin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsPDF.cs" >}}
 
 ## **PNG'de Üçgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizmesine ve PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde nasıl üçgen çizileceğini ve PNG formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizip PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir üçgenin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsPNG.cs" >}}
 
 ## **HTML'de Üçgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizmesine ve HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir üçgenin nasıl çizileceğini ve HTML formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir üçgen çizip HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir üçgenin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsHTML.cs" >}}

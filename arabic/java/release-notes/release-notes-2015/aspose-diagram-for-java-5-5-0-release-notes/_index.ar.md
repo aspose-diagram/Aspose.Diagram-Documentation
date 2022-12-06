@@ -7,12 +7,12 @@ url: /ar/java/aspose-diagram-for-java-5-5-0-release-notes/
 فيما يلي قائمة بالتغييرات في هذا الإصدار Aspose.Diagram for Java.
 # **تحسينات وتغييرات أخرى**
 ## **البق**
-- DIAGRAMJAVA-50011) -VSD لتحويل PDF ، تسلسل رقمي غير صحيح للصفحة
-- DIAGRAMJAVA-50013) -VSD لتحويل PDF ، حد من النوع الصلب للأشكال بدلاً من نوع الشرطة
-- DIAGRAMJAVA-50014) -VSD لتحويل PDF ، تسلسل رقمي غير صحيح للصفحة
-- DIAGRAMJAVA-50078) -VSD إلى تحويل PDF ، حدث خطأ أثناء فتح إخراج PDF
+- DIAGRAMJAVA-50011) -VSD إلى PDF التحويل ، تسلسل رقم الصفحة غير صحيح
+- DIAGRAMJAVA-50013) -VSD إلى PDF التحويل ، حدود النوع المصمت للأشكال بدلاً من نوع الشرطة
+- DIAGRAMJAVA-50014) -VSD إلى PDF التحويل ، تسلسل رقم الصفحة غير صحيح
+- DIAGRAMJAVA-50078) -VSD إلى PDF التحويل ، خطأ أثناء فتح الإخراج PDF
 - DIAGRAMJAVA-50195) -VSD إلى VDX تحويل ، الأشكال تتحول إلى شكل عبث
 - DIAGRAMJAVA-50203) -Diagram حدث استثناء أثناء تحميل ملف VSD
-- DIAGRAMJAVA-50204) -VSD لتحويل PDF ، جميع الأشكال لها خلفية سوداء
-- DIAGRAMJAVA-50205) -VSD لتحويل HTML ، جميع الأشكال لها خلفية سوداء
-- DIAGRAMJAVA-50206) -VSDX لتحويل PDF ، تتحول الأشكال إلى لون أسود عادي
+- DIAGRAMJAVA-50204) -VSD إلى PDF التحويل ، جميع الأشكال لها خلفية سوداء
+- DIAGRAMJAVA-50205) -VSD إلى HTML التحويل ، جميع الأشكال لها خلفية سوداء
+- DIAGRAMJAVA-50206) -VSDX إلى PDF ، تتحول الأشكال إلى لون أسود عادي

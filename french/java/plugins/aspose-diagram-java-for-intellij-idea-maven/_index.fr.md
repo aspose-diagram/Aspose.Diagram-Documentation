@@ -6,7 +6,7 @@ url: /fr/java/aspose-diagram-java-for-intellij-idea-maven/
 ---
 ## **Introduction**
 ### **IDÉE IntelliJ**
-**IDÉE IntelliJ** est un environnement de développement intégré (IDE) Java pour les développeurs de logiciels. Il est développé par JetBrains. Créé à l'origine for Java, il prend actuellement en charge une grande variété de langages, notamment JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure et Kotlin.
+**IDÉE IntelliJ** is a Java integrated development environment (IDE) for software developers. It is developed by JetBrains. Originally created for Java, it currently supports a wide variety of languages, including JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure, and Kotlin.
 
  Dans un 2010**Infomonde** rapport, IntelliJ a reçu le score le plus élevé du centre de test parmi les quatre meilleurs outils de programmation Java : Eclipse, IntelliJ IDEA, NetBeans et Oracle JDeveloper.
 ### **Aspose.Diagram for Java**

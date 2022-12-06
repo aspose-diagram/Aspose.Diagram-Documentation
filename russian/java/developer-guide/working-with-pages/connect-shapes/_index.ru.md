@@ -8,7 +8,7 @@ description: В этом разделе объясняется, как соед�
 ## **Соедините фигуры**
 В этом разделе объясняется, как соединить две фигуры с помощью Aspose.Diagram for Java.
 ### **Соедините фигуры**
-[connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) способ соединить две фигуры через соединитель в[Страница](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) учебный класс.
+[connectShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) способ соединения двух форм via разъема в[Страница](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) учебный класс.
 
 В приведенном ниже коде показано, как:
 

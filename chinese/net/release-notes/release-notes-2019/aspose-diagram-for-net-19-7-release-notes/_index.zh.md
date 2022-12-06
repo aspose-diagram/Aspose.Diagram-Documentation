@@ -14,12 +14,12 @@ url: /zh/net/aspose-diagram-for-net-19-7-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMNET-51219|从 Visio 页面的打印预览中获取图像|强化|
-|DIAGRAMNET-51615|生成 PDF 文档时将 Diagram 拆分为多页|强化|
+|DIAGRAMNET-51615|Split Diagram to Multiple Pages while generating PDF Document|强化|
 |DIAGRAMNET-51656|添加对监控文档转换进度的支持|强化|
-|DIAGRAMNET-50045|VSD 转PDF格式时换行不正确|漏洞|
-|DIAGRAMNET-50075|VSD 转PDF，文字字体不正确|漏洞|
-|DIAGRAMNET-50201|VSD 转PDF，形状错位|漏洞|
-|DIAGRAMNET-50274|VSDX 到 SVG 转换，连接布局不正确|漏洞|
+|DIAGRAMNET-50045|Incorrect line breaks when converting VSD to PDF format|漏洞|
+|DIAGRAMNET-50075|VSD to PDF conversion, incorrect text font|漏洞|
+|DIAGRAMNET-50201|VSD to PDF conversion, shapes are misplaced|漏洞|
+|DIAGRAMNET-50274|VSDX to SVG conversion, the connection layouts are incorrect|漏洞|
 |DIAGRAMNET-51172|以图像格式保存时不能正确调整形状大小|漏洞|
 |DIAGRAMNET-51613|AutoFitPageToDrawingContent 属性未按预期工作|漏洞|
 |DIAGRAMNET-51657|VISIO 到 JPG - 输出图像格式不正确|漏洞|

@@ -13,7 +13,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK : Forme déformée après l'enregistrement au format PNG|Renforcement|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|Renforcement|
 |DIAGRAMJAVA-51015|wk : nom de la forme dans une langue autre que l'anglais|Punaise|
 |DIAGRAMJAVA-51020|wk : le nom de la forme de feuille avec un calque n'est pas résolu correctement|Punaise|
 

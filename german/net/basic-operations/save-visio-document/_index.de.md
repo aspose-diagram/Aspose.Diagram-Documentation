@@ -12,7 +12,7 @@ description: Auf dieser Seite wird beschrieben, wie Sie das Visio-Dokument in ei
  Die Diagram-Klasse des Aspose.Diagram API stellt eine Visio-Zeichnung dar, und Entwickler können ihr Visio diagram-Objekt in jedem unterstützten Dateiformat speichern. Um eine Microsoft Visio-Datei zu speichern, verwenden Sie einfach die[Diagram.Save]()-Methode akzeptiert sie einen Dateinamen mit vollständigem Pfad oder ein Dateistromobjekt. Aspose.Diagram API leitet das Speicherformat aus der Dateierweiterung ab und bietet außerdem einen zusätzlichen SaveFileFormat-Parameter zur Angabe des Ausgabedateiformats.
 ### **Speichern Sie eine Visio Diagram in einem beliebigen unterstützten Dateiformat**
 Mit Aspose.Diagram API können Entwickler Visio diagram in jedem unterstützten Dateiformat speichern, wie unten aufgeführt:
-**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF**
+**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF and XAML**
 ### **Diagram Programmierbeispiel speichern**
 Das folgende Beispiel speichert ein Dokument in einer Datei.
 
@@ -24,16 +24,16 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
 ## **Festlegen von Visio Speicheroptionen**
- Es gibt einige[Diagram.Save]() Methodenüberladungen, die ein SaveOptions-Objekt akzeptieren. Dies sollte ein Objekt einer Klasse sein, die von der Klasse SaveOptions abgeleitet ist. Jedes Speicherformat hat eine entsprechende Klasse, die Speicheroptionen für dieses Speicherformat enthält. Beispielsweise gibt es PdfSaveOptions für das Speicherformat SaveFileFormat.PDF.
+ Es gibt einige[Diagram.Save]() method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format. For example, there is PdfSaveOptions for the SaveFileFormat.PDF save format.
 ### **Visio Diagram Speicheroptionen**
 Diese Beispiele zeigen, wie Sie:
 
 - [Verwenden Sie Diagram Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
-- [Verwenden Sie die PDF-Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
-- [Verwenden Sie HTML-Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Verwenden Sie PDF Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Verwenden Sie HTML Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
 - [Verwenden Sie Bildspeicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
-- [Verwenden Sie die SVG-Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
-- [Verwenden Sie die SWF-Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Verwenden Sie SVG Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
+- [Verwenden Sie SWF Speicheroptionen](https://docs.aspose.com/diagram/net/save-visio-document/).
 #### **Verwendung der Diagram-Speicheroptionen**
 Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im Format Visio gespeichert wird.
 
@@ -42,14 +42,14 @@ Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokum
 
 
 #### **Verwendung der PDF-Speicheroptionen**
-Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im PDF-Format gespeichert wird.
+The code below shows how to set save options before saving a document to a PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-UsePDFSaveOptions.cs" >}}
 
 
 
 #### **Verwendung der HTML-Speicheroptionen**
-Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im HTML-Dateiformat gespeichert wird.
+The code below shows how to set save options before saving a document to HTML file format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseHTMLSaveOptions-UseHTMLSaveOptions.cs" >}}
 
@@ -65,27 +65,27 @@ Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokum
 
 Verwendung der SVG-Speicheroptionen
 
-Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im SVG-Format gespeichert wird.
+Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im Format SVG gespeichert wird.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseSVGSaveOptions-UseSVGSaveOptions.cs" >}}
 
 
 Verwendung der SWF-Speicheroptionen
 
-Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im SWF-Format gespeichert wird.
+Der folgende Code zeigt, wie Speicheroptionen festgelegt werden, bevor ein Dokument im Format SWF gespeichert wird.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseSWFSaveOptions-UseSWFSaveOptions.cs" >}}
 
-Manchmal müssen Entwickler Visio-Diagramme programmgesteuert speichern oder in verschiedene Dateiformate exportieren (wie VDX, PDF, JPEG usw.).
-## **VSD-Datei in verschiedenen Dateiformaten speichern (VDX, PDF und JPEG)**
- Dieser Artikel enthält ein Codebeispiel, das die Verwendung veranschaulicht[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/) und[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) um eine Microsoft Visio VSD-Datei programmgesteuert in einer VDX-Datei, PDF-Datei oder JPEG-Datei zu speichern. Unten finden Sie parallele Codeausschnitte für VSTO und Aspose.Diagram for .NET, die erklären, wie eine VSD-Datei in verschiedenen Dateiformaten gespeichert wird. Sie werden feststellen, dass der Code Aspose.Diagram kürzer ist. Fühlen Sie sich frei, den Code zu verwenden und ihn an Ihre spezifischen Bedürfnisse anzupassen.
+Sometimes, developers need to save or export Visio diagrams to different file formats programmatically (like VDX, PDF, JPEG and so on).
+## **Save VSD file to different file formats (VDX, PDF and JPEG)**
+ Dieser Artikel enthält ein Codebeispiel, das die Verwendung veranschaulicht[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/) und[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) to save a Microsoft Visio VSD file to a VDX file, PDF file or a JPEG file programmatically. Below are parallel code snippets for VSTO and Aspose.Diagram for .NET that explains how to save a VSD file into different file formats. You'll notice that the Aspose.Diagram code is shorter. Feel free to use the code and change it to meet your specific needs.
 ### **Speichern einer VSD-Datei in anderen Formaten mit VSTO**
 Mit VSTO können Sie mit Microsoft Visio-Dateien programmieren. So speichern Sie eine Datei in anderen Formaten:
 
 1. Erstellen Sie ein Visio-Anwendungsobjekt.
 1. Machen Sie das Anwendungsobjekt unsichtbar.
 1. Laden Sie die diagram.
-1. Speichern unter VDX, PDF und JPEG.
+1. Save to VDX, PDF and JPEG.
 1. Beenden Sie das Anwendungsobjekt Visio.
 #### **Speichern einer VSD-Datei mit VSTO-Programmierbeispiel**
 {{% alert color="primary" %}} 
@@ -104,7 +104,7 @@ Mit Aspose.Diagram brauchen Entwickler Microsoft Office Visio nicht in der Masch
 Die folgenden Code-Snippets zeigen, wie Sie:
 
 1. Laden Sie eine diagram.
-1. Speichern Sie die diagram bis VSX, PDF und JPEG.
+1. Save the diagram to VSX, PDF and JPEG.
 #### **Speichern der VSD-Datei mit Aspose.Diagram for .NET Programmierbeispiel**
 {{% alert color="primary" %}} 
 

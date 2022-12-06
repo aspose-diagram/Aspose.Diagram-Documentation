@@ -13,4 +13,4 @@ Den här sidan innehåller information om release notes för Aspose.Diagram för
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX till HTML-konvertering, tom rektangelruta istället för metafilikon|Förbättring|
+|DIAGRAMJAVA-50118|VTX till HTML konvertering, tom rektangelruta istället för metafilikon|Förbättring|

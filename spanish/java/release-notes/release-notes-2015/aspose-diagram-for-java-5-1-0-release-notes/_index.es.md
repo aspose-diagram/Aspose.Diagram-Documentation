@@ -11,5 +11,5 @@ La siguiente es una lista de cambios en esta versión de Aspose.Diagram for Java
 DIAGRAMJAVA-50133- Diagram. El método print() no funciona
 DIAGRAMJAVA-50139: incluir el archivo "Acuerdo de usuario final.html" en paquetes que no son MSI
 DIAGRAMJAVA-50140: se produjo NullReferenceException al obtener el objeto de la página por su nombre
-DIAGRAMJAVA-50141) -VDX La exportación a PDF se bloquea en Red Hat Linux Server
-DIAGRAMJAVA-50142) -VDX La exportación a PNG se bloquea en Red Hat Linux Server
+DIAGRAMJAVA-50141) -VDX to PDF export hangs on Red Hat Linux Server
+DIAGRAMJAVA-50142) -VDX to PNG export hangs on Red Hat Linux Server

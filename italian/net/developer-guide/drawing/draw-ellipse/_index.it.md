@@ -10,23 +10,23 @@ Aspose.Diagram for .NET API consente agli sviluppatori di disegnare una forma ci
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-DrawEllipse.cs" >}}
 
-## **Disegna cerchio in SVG**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un cerchio nella pagina e salvare come formato SVG. L'esempio di codice seguente mostra come disegnare un cerchio in un disegno Visio e salvarlo in formato SVG.
+## **Disegna un cerchio in SVG**
+Aspose.Diagram for .NET API allows developers to draw a circle in the page and save as SVG format. The code example below shows how to draw a circle in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsSVG.cs" >}}
 
-## **Disegna cerchio in PDF**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un cerchio nella pagina e salvare in formato PDF. L'esempio di codice seguente mostra come disegnare un cerchio in un disegno Visio e salvarlo in formato PDF.
+## **Disegna un cerchio in PDF**
+Aspose.Diagram for .NET API allows developers to draw a circle in the page and save as PDF format. The code example below shows how to draw a circle in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPDF.cs" >}}
 
-## **Disegna cerchio in PNG**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un cerchio nella pagina e salvare come formato PNG. L'esempio di codice seguente mostra come disegnare un cerchio in un disegno Visio e salvarlo come formato PNG.
+## **Disegna un cerchio in PNG**
+Aspose.Diagram for .NET API allows developers to draw a circle in the page and save as PNG format. The code example below shows how to draw a circle in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPNG.cs" >}}
 
-## **Disegna cerchio in HTML**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un cerchio nella pagina e salvare come formato HTML. L'esempio di codice seguente mostra come disegnare un cerchio in un disegno Visio e salvarlo in formato HTML.
+## **Disegna un cerchio in HTML**
+Aspose.Diagram for .NET API allows developers to draw a circle in the page and save as HTML format. The code example below shows how to draw a circle in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsHTML.cs" >}}
 
@@ -35,23 +35,23 @@ Aspose.Diagram for .NET API consente agli sviluppatori di disegnare una forma ov
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsVSDX.cs" >}}
 
-## **Disegna ovale in SVG**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un ovale nella pagina e salvare come formato SVG. L'esempio di codice seguente mostra come disegnare un ovale in un disegno Visio e salvarlo come formato SVG.
+## **Disegna Oval in SVG**
+Aspose.Diagram for .NET API allows developers to draw a oval in the page and save as SVG format. The code example below shows how to draw a oval in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsSVG.cs" >}}
 
-## **Disegna Ovale in PDF**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un ovale nella pagina e salvarlo in formato PDF. L'esempio di codice seguente mostra come disegnare un ovale in un disegno Visio e salvarlo in formato PDF.
+## **Disegna Oval in PDF**
+Aspose.Diagram for .NET API allows developers to draw a oval in the page and save as PDF format. The code example below shows how to draw a oval in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPDF.cs" >}}
 
-## **Disegna ovale in PNG**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un ovale nella pagina e salvare come formato PNG. L'esempio di codice seguente mostra come disegnare un ovale in un disegno Visio e salvarlo come formato PNG.
+## **Disegna Oval in PNG**
+Aspose.Diagram for .NET API allows developers to draw a oval in the page and save as PNG format. The code example below shows how to draw a oval in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPNG.cs" >}}
 
-## **Disegna ovale in HTML**
-Aspose.Diagram for .NET API consente agli sviluppatori di disegnare un ovale nella pagina e salvare come formato HTML. L'esempio di codice seguente mostra come disegnare un ovale in un disegno Visio e salvarlo in formato HTML.
+## **Disegna Oval in HTML**
+Aspose.Diagram for .NET API allows developers to draw a oval in the page and save as HTML format. The code example below shows how to draw a oval in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsHTML.cs" >}}
 

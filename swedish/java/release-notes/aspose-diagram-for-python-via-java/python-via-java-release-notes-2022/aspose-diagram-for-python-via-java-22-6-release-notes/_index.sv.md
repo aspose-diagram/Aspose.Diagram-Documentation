@@ -6,14 +6,14 @@ url: /sv/java/aspose-diagram-for-python-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller information om release notes för Aspose.Diagram för Python via Java 22.6.
+Den här sidan innehåller information om utgåvor för Aspose.Diagram för Python via Java 22.6.
 
 {{% /alert %}}
 ## **Förbättringar och förändringar**  ##
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: Form förvrängd efter att ha sparats till PNG|Förbättring|
+|DIAGRAMJAVA-50963|WK: Formen förvrängd efter att ha sparats till PNG|Förbättring|
 |DIAGRAMJAVA-50967|Ändra storlek på sidolinjeformen [Forts.]|Insekt|
 |DIAGRAMJAVA-50972|API analyserar inte filen korrekt|Insekt|
 |DIAGRAMJAVA-50974|Problem med att lägga till ny anslutningspunkt|Insekt|

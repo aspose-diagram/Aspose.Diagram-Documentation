@@ -13,10 +13,10 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|L'ombreggiatura sul pulsante del collegamento ipertestuale non viene visualizzata correttamente durante il salvataggio di VSDM in SVG|Aumento|
-|DIAGRAMNET-51526|VSDX in PDF - Riempimento sfumato per punte di freccia perse nel PDF risultante|Aumento|
-|DIAGRAMNET-51539|Il gradiente nelle forme ha perso nell'output SVG|Aumento|
-|DIAGRAMNET-50705|Esportazione da VSD a SVG: le forme di tipo Meta si trasformano in simboli disordinati|Insetto|
+|DIAGRAMNET-51198|Shade on hyperlink button is not rendered correctly on saving VSDM to SVG|Aumento|
+|DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|Aumento|
+|DIAGRAMNET-51539|The gradient in shapes has lost in output SVG|Aumento|
+|DIAGRAMNET-50705|VSD to SVG export - Meta type shapes turn into messy symbols|Insetto|
 |DIAGRAMNET-51664|Il file viene danneggiato dopo aver rimosso il tema inutilizzato|Insetto|
 |DIAGRAMNET-51665|Le immagini vengono mostrate come X dopo aver rimosso i temi inutilizzati|Insetto|
 |DIAGRAMNET-51684|Durante la rimozione di forme e stili principali inutilizzati, solo l'immagine presenta un problema|Insetto|

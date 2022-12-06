@@ -1,12 +1,12 @@
 ﻿---
-title: Привет, мир, пример
+title: Hello World Пример
 type: docs
 weight: 90
 url: /ru/net/hello-world-example/
 description: На этой странице описывается, как создать пример hello world с библиотекой Aspose.Diagram.
 ---
-## **Привет, мир, пример**
-Aspose.Diagram for .NET имеет широкие возможности для создания, открытия, редактирования и преобразования Microsoft Visio файлов с использованием C# и других .NET языков. Он поддерживает широкий набор форматов файлов Visio, включая VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, VSTM, VDWSS и VDWSS. Кроме того, он предоставляет возможность конвертировать Visio диаграммы в ряд форматов, таких как PDF, HTML, XML, SVG и XAML.
+## **Hello World Пример**
+Aspose.Diagram for .NET имеет широкие возможности для создания, открытия, редактирования и преобразования Microsoft Visio файлов с использованием C# и других .NET языков. It supports a wide set of Visio file formats including VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, VSTM, VDW, VSS, and VST. In addition, it provides the capability to convert Visio Diagrams to a number of форматы, такие как PDF, HTML, XML, SVG и XAML.
 
 После[установка Aspose.Diagram for .NET](/diagram/ru/net/installation/)в вашей среде можно использовать следующие шаги, чтобы увидеть, как Aspose.Diagram API используется в приложениях .NET.
 

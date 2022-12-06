@@ -17,22 +17,22 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 17.02.0](h
 |DIAGRAMNET-51110|Integrerad med mätare.|Ny funktion|
 |DIAGRAMNET-51143|Förmåga att få gruppen av en given form.|Ny funktion|
 |DIAGRAMNET-51144|Förmåga att få föräldern till en given form.|Ny funktion|
-|DIAGRAMNET-50149|VSD till PDF-konvertering ändras bakgrundsfärgen för en gruppform.|Insekt|
-|DIAGRAMNET-50579|VSDX till PDF-konvertering, felaktig bakgrundsfärg på formen.|Insekt|
+|DIAGRAMNET-50149|VSD till PDF konvertering ändras bakgrundsfärgen för en gruppform.|Insekt|
+|DIAGRAMNET-50579|VSDX till PDF konvertering, felaktig bakgrundsfärg på formen.|Insekt|
 |DIAGRAMNET-50984|Bordslinjerna i tabellen saknas vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMNET-50985|Textobjekten är inte korrekt justerade vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMNET-50999|Återger felaktig färg på former vid konvertering av en VSD till PNG.|Insekt|
 |DIAGRAMNET-51002|HTMLSaveOptions.DefaultFont-egenskapen fungerar inte som förväntat.|Insekt|
-|DIAGRAMNET-51049|Färgen på former renderas inte korrekt vid konvertering av en VSD till HTML.|Insekt|
+|DIAGRAMNET-51049|Formernas färg återges inte korrekt vid konvertering av en VSD till HTML.|Insekt|
 |DIAGRAMNET-51080|Fel textjustering av former vid lagring i EMF.|Insekt|
 |DIAGRAMNET-51132|De rundade hörnen ändras vid konvertering av en VSD till PDF.|Insekt|
-|DIAGRAMNET-51133|Layouten för dynamisk pilkontakt ändras vid konvertering av en VSD till PDF.|Insekt|
+|DIAGRAMNET-51133|Layouten för den dynamiska pilanslutningen ändras vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-51135|Visio-formerna förskjuts vid konvertering av en VSDX till PDF.|Insekt|
 |DIAGRAMNET-51136|Den vertikala texten visas som horisontell text vid konvertering av en VSDX till PDF.|Insekt|
 |DIAGRAMNET-51140|Vertikal textruta hänger över kanten på noden när VSDX konverteras till PDF.|Insekt|
 |DIAGRAMNET-51138|Ett fel uppstod vid inläsning av en VSDX diagram.|Undantag|
 |DIAGRAMNET-51139|Kan inte komma åt filen fel uppstod vid konvertering av en VSDX till HTML.|Undantag|
-|DIAGRAMNET-51148|NullReferenceException vid Diagram.Spara medan VSD konverteras till HTML.|Undantag|
+|DIAGRAMNET-51148|NullReferenceException på Diagram.Spara medan VSD konverteras till HTML.|Undantag|
 |DIAGRAMNET-51149|NullReferenceException vid Diagram.Spara när egenskapen CustomProp.Name inte är inställd|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
  Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for .NET. Om du har frågor om någon ändring i listan, vänligen ta upp dem i de[Aspose.Diagram supportforum](https://forum.aspose.com/c/diagram/17).

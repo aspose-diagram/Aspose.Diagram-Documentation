@@ -12,7 +12,7 @@ Aspose.Diagram API, yeni Visio diyagramlarının sıfırdan oluşturulmasını v
 Geliştiriciler, Aspose.Diagram API'i kullanarak desteklenen tüm Visio dosya biçimlerini yükleyebilir. Diagram sınıfının mevcut oluşturucuları buna izin verir ve geçerli bir dosya yolu dizesini veya kaynak Visio dosyasının dosya akışını kabul eder.
 
 Desteklenen okunabilir dosya biçimleri aşağıdaki gibidir:
-**VSDX, VSD, VSDM, VSS, VSSX, VSSM, VTX, VSTM, VDX, VDW, VST, VSTX ve VSX**
+**VSDX, VSD, VSDM, VSS, VSSX, VSSM, VTX, VSTM, VDX, VDW, VST, VSTX ve 078111034**
 
 diagram sınıfının yapıcıları ayrıca LoadFileFormat veya LoadOptions'ı tanımlayan isteğe bağlı bir parametre sunar. Geliştiricilerin Aspose.Diagram API'e iletebilecekleri ön yükleme bilgisidir. İdeal bir performans elde etmek için gerçekçi bilgileri iletmenizi öneririz.
 ## **Okuma Diagram Programlama Örneği**

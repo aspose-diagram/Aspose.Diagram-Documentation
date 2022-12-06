@@ -26,7 +26,7 @@ Använd följande kod i din .NET-applikation för att gruppera former med Aspose
 ## **Konvertera en Visio Shape till andra filformat**
 Aspose.Diagram for .NET API tillåter utvecklare att konvertera en enda Visio-form till vilket annat filformat som helst. I den här artikeln tar vi bort alla andra Visio-former från sidan och anpassar sidinställningarna efter källans formstorlek.
 ### **Konvertera en viss Visio-form**
- Utvecklare kan konvertera en Visio-form till PDF, HTML, bild, SVG och SWF genom att**ange Visio sparalternativ**.
+ Utvecklare kan konvertera en Visio-form till PDF, HTML, Image, SVG och SWF med**ange Visio sparalternativ**.
 Den här exempelkoden fungerar enligt följande:
 
 1. Ladda en källa Visio.
@@ -40,7 +40,7 @@ Den här exempelkoden fungerar enligt följande:
 #### **Konvertera formprogrammeringsexempel**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
 ### **Konvertera Visio Shape till PDF**
-ToPdf-metoden i Shape-klassen gör det möjligt att konvertera en form till PDF-format.
+ToPdf-metoden för Shape-klassen gör det möjligt att konvertera en form till formatet PDF.
 
 {{< highlight "java" >}}
 
@@ -54,7 +54,7 @@ diagram.Pages[0].Shapes.GetShape(59).ToPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
 ### **Konvertera Visio Shape till HTML**
-ToHTML-metoden för Shape-klassen gör det möjligt att konvertera en form till HTML-formatet.
+ToHTML-metoden för Shape-klassen gör det möjligt att konvertera en form till formatet HTML.
 
 {{< highlight "java" >}}
 

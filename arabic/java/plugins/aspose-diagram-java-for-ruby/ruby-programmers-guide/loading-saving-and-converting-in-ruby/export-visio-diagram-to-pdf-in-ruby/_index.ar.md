@@ -1,5 +1,5 @@
 ﻿---
-title: تصدير Visio Diagram إلى PDF في Ruby
+title: تصدير Visio Diagram إلى PDF في روبي
 type: docs
 weight: 40
 url: /ar/java/export-visio-diagram-to-pdf-in-ruby/

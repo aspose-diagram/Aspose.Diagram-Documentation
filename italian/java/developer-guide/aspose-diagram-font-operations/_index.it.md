@@ -33,7 +33,7 @@ L'esempio di codice seguente mostra come impostare Aspose.Diagram per cercare in
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Fonts-SpecifyFontLocation-SpecifyFontLocation.java" >}}
 ### **Ricevi notifica di caratteri mancanti e sostituzione di caratteri durante il rendering**
-Aspose.Diagram API richiede l'accesso al carattere accurato per rendere correttamente il disegno in formato PDF. Se il font richiesto non è disponibile sulla macchina, Aspose.Diagram API esegue il rendering di qualsiasi istanza di quel font utilizzando il font predefinito o il font più vicino disponibile sulla macchina, poiché questa sostituzione può modificare l'aspetto del disegno renderizzato, gli sviluppatori potrebbero dover essere notificato quando manca un carattere e con quale carattere verrà sostituito.
+Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Notifica di caratteri mancanti e esempio di programmazione per la sostituzione dei caratteri**
 Per essere avvisati della sostituzione del carattere durante il rendering:
 

@@ -13,10 +13,10 @@ Bu sayfa Aspose.Diagram for .NET 20.1 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|Köprü düğmesindeki gölge, VSDM'i SVG'ye kaydederken doğru şekilde oluşturulmuyor|Artırma|
-|DIAGRAMNET-51526|VSDX'den PDF'e - Ortaya çıkan PDF'de kaybolan ok uçları için degrade dolgu|Artırma|
-|DIAGRAMNET-51539|Şekillerdeki gradyan, çıktı SVG'sinde kayboldu|Artırma|
-|DIAGRAMNET-50705|VSD'den SVG'ye dışa aktarma - Meta tipi şekiller dağınık sembollere dönüşüyor|Böcek|
+|DIAGRAMNET-51198|VSDM'i SVG'e kaydederken köprü düğmesindeki gölge doğru şekilde oluşturulmuyor|Artırma|
+|DIAGRAMNET-51526|VSDX ila PDF - Ortaya çıkan PDF'de kaybolan ok uçları için gradyan dolgusu|Artırma|
+|DIAGRAMNET-51539|Şekillerdeki gradyan çıktıda kayboldu SVG|Artırma|
+|DIAGRAMNET-50705|VSD - SVG dışa aktarma - Meta tipi şekiller dağınık sembollere dönüşüyor|Böcek|
 |DIAGRAMNET-51664|Kullanılmayan temayı kaldırdıktan sonra dosya bozuluyor|Böcek|
 |DIAGRAMNET-51665|Kullanılmayan temalar kaldırıldıktan sonra resimler X olarak gösterilir|Böcek|
 |DIAGRAMNET-51684|Kullanılmayan ana şekiller ve stiller kaldırılırken yalnızca görüntüde sorun var|Böcek|

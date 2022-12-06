@@ -13,14 +13,14 @@ Bu sayfa Aspose.Diagram for .NET 21.8 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51127|VSDX'i PNG'ye dönüştürürken renklerin yanlış oluşturulması|Artırma|
+|DIAGRAMNET-51127|VSDX'den PNG'e dönüştürülürken renklerin yanlış oluşturulması|Artırma|
 |DIAGRAMNET-52070|HTML sorunu olarak kaydet|Artırma|
 |DIAGRAMNET-52071|visio şekillerini görüntü olarak oluşturma sorunu|Artırma|
 |DIAGRAMNET-52075|"Belge" ve "Sayfa" özellikleriyle ilgili sorun|Böcek|
-|DIAGRAMNET-52077|Bir SVG dosyasına dışa aktarıldığında grafikteki garip bağlantı çizgileri|Böcek|
+|DIAGRAMNET-52077|SVG dosyasına dışa aktarıldığında grafikteki garip bağlantı çizgileri|Böcek|
 |DIAGRAMNET-52094|Dışa aktarmadan sonra kaydırılmış olarak gösterilen grafik|Böcek|
 |DIAGRAMNET-52100|Kullanıcı tanımlı hücre formülünün değeri çıkarılamıyor|Böcek|
-|DIAGRAMNET-52102|"Parametre geçerli değil." VSDX'i HTML'ye dönüştürürken istisna|Böcek|
+|DIAGRAMNET-52102|"Parametre geçerli değil." VSDX'den HTML'e işlenirken istisna|Böcek|
 |DIAGRAMNET-52106|Kullanıcı tanımlı hücre formülünün değeri çıkarılamıyor CONT.|Böcek|
 
 ## **Genel API ve Geriye Dönük Uyumsuz Değişiklikler**

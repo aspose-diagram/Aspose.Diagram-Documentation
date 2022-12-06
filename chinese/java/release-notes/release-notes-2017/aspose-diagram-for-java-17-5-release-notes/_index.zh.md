@@ -13,13 +13,13 @@ url: /zh/java/aspose-diagram-for-java-17-5-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50472|在 Visio 到 PDF 转换期间生成有关字体替换的警告。|强化|
+|DIAGRAMJAVA-50472|Generate the warning about font substitution during Visio to PDF conversion.|强化|
 |DIAGRAMJAVA-50480 |无法在 VSDX 中添加 SolutionXML 元素|强化|
 |DIAGRAMJAVA-50473|将 VDX 转换为 VSDM 时形状连接不完整|漏洞|
 |DIAGRAMJAVA-50475|在将 VDX 转换为 VSDM 时，连接线穿过其他形状|漏洞|
 |DIAGRAMJAVA-50476|将 VDX 转换为 VSDM 时形状连接不完整|漏洞|
 |DIAGRAMJAVA-50479|无法从 VSDX 检索解决方案 XML|漏洞|
-|DIAGRAMJAVA-50481|将 VSDX 转换为 PDF 时矩形颜色不正确|漏洞|
+|DIAGRAMJAVA-50481|Incorrect color of rectangle shape on converting a VSDX to PDF|漏洞|
 {{% alert color="primary" %}} 
 
 版本17.5 of Aspose.Diagram for Java中没有公共API。其次，当我们将代码基础Aspose.Diagram for Java移植到其.NET版本中，大多数更改，增强功能，增强功能和修复。 17.5。

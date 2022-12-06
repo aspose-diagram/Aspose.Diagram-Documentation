@@ -13,7 +13,7 @@ Bu sayfa Aspose.Diagram for .NET 22.10 için sürüm notları bilgilerini içeri
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Grafik, SVG formatına dışa aktarıldığında düşük kalitede görüntüleniyor|Artırma|
+|DIAGRAMNET-52988|Bir grafik, SVG biçiminde dışa aktarıldığında düşük kalitede görüntüleniyor|Artırma|
 |DIAGRAMNET-53002|Aspose.Diagram ile html'ye dışa aktarırken bağlantı kayboldu|Artırma|
 |DIAGRAMNET-52983|Diagram.Save hatası|Böcek|
 |DIAGRAMNET-52984|VentureLicenser sınıfındaki değerleri değiştirin|Böcek|

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Diagram pour Python via .Net Accueil
+title: Aspose.Diagram for Python via .Net Home
 type: docs
 weight: 40
 url: /fr/python-net/
@@ -7,16 +7,16 @@ url: /fr/python-net/
 {{% alert color="primary" %}} 
 
 
-**Bienvenue au Aspose.Diagram pour Python via .Net**
+**Welcome to Aspose.Diagram for Python via .Net**
 
-Aspose.Diagram pour Python via .Net API offre toutes les fonctionnalités utiles de Aspose.Diagram pour .Net en utilisant Python. Le API vous permet d'utiliser ses puissantes fonctionnalités de travail avec des fichiers Visio sans avoir besoin d'autres applications logicielles. Il est évolutif, riche en fonctionnalités et fournit des conversions de formats de fichiers Visio aux formats images, PDF, HTML, XML et XAML. Vous pouvez utiliser le API pour lire une variété de types de fichiers Visio qui peuvent être enregistrés sous d'autres formats de fichiers Visio. Les formats de fichiers populaires pris en charge incluent VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM et VSSM.
+Aspose.Diagram for Python via .Net API offers all the useful features of Aspose.Diagram for .Net using Python. The API empowers you to use its powerful features of working with Visio files without the need of any other software applications. It is scalable, rich in features and provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. You can use the API to read a variety of Visio file types that can be saved as other Visio file formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 
 {{% /alert %}} 
-## **Aspose.Diagram pour Python via .Net**
+## **Aspose.Diagram for Python via .Net**
 Vous trouverez ci-dessous des liens vers des ressources utiles dont vous pourriez avoir besoin pour accomplir vos tâches.
 
-- Aspose.Diagram pour la documentation en ligne .Net (Aspose.Diagram pour Python via .Net est porté à partir de Aspose.Diagram pour .Net. Vous pouvez donc utiliser la même documentation)
-- [Aspose.Diagram pour Python via la page produit .Net](https://products.aspose.com/diagram/python-net/)
-- [Télécharger Aspose.Diagram pour Python via .Net](https://releases.aspose.com/diagram/python-net/)
-- [Aspose.Diagram pour Python via le forum de support gratuit .Net](https://forum.aspose.com/c/diagram/17)
-- [Aspose.Diagram pour Python via .Net Payed Support Helpdesk](https://helpdesk.aspose.com/)
+- Aspose.Diagram for .Net Online Documentation (Aspose.Diagram for Python via .Net is ported from Aspose.Diagram for .Net. So, you can use the same documentation)
+- [Aspose.Diagram for Python via .Net Product Page](https://products.aspose.com/diagram/python-net/)
+- [Download Aspose.Diagram for Python via .Net](https://releases.aspose.com/diagram/python-net/)
+- [Aspose.Diagram for Python via .Net Free Support Forum](https://forum.aspose.com/c/diagram/17)
+- [Aspose.Diagram for Python via .Net Paid Support Helpdesk](https://helpdesk.aspose.com/)

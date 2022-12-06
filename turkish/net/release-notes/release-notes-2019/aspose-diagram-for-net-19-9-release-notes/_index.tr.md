@@ -13,28 +13,28 @@ Bu sayfa Aspose.Diagram for .NET 19.9 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51683|Visio'den HTML'ye - Oluşturulan HTML'deki bağlantı düzgün çalışmıyor|Artırma|
+|DIAGRAMNET-51683|Visio - HTML - Oluşturulan HTML'deki bağlantı düzgün çalışmıyor|Artırma|
 |DIAGRAMNET-51684|Kullanılmayan ana şekiller ve stiller kaldırılırken yalnızca görüntüde sorun var|Artırma|
 |DIAGRAMNET-51711|Dönüştürmeden sonra makro eklenemiyor|Artırma|
 |DIAGRAMNET-50383|Visio diagram boyutunu küçültün|Böcek|
 |DIAGRAMNET-51682|Diagram'den yazı tipi stilini alın|Böcek|
-|DIAGRAMNET-51685|Visio'den SVG'ye - bir istisna oluşur|Böcek|
-|DIAGRAMNET-51686|Visio'den PNG'ye - Çıktı dosyasında istenmeyen görüntü ve şekiller var|Böcek|
-|DIAGRAMNET-51687|Visio'den PDF'ye - çıktı PDF'sinde metnin arka plan rengi yok|Böcek|
-|DIAGRAMNET-51688|Visio'den PDF'ye - Şekil Çerçevelerinin rengi çıktıda farklı|Böcek|
+|DIAGRAMNET-51685|Visio ila SVG - bir istisna oluşur|Böcek|
+|DIAGRAMNET-51686|Visio - PNG - Çıktı dosyasında istenmeyen görüntü ve şekiller var|Böcek|
+|DIAGRAMNET-51687|Visio ila PDF - PDF çıktısında metnin arka plan rengi yok|Böcek|
+|DIAGRAMNET-51688|Visio - PDF - Şekil Çerçevelerinin rengi çıktıda farklı|Böcek|
 |DIAGRAMNET-51689|Visio'den JPG'ye - çıktı resmi doğru biçimde değil|Böcek|
 |DIAGRAMNET-51691|Visio - PDF - Bazı şekiller doğru değil|Böcek|
 |DIAGRAMNET-51692|Visio - PDF - Bazı şekiller doğru değil|Böcek|
 |DIAGRAMNET-51693|Visio - PDF - Bazı şekiller doğru değil|Böcek|
 |DIAGRAMNET-51694|Visio - PDF - Bazı şekiller doğru değil|Böcek|
 |DIAGRAMNET-51697|Visio - PDF - Bazı şekiller doğru değil|Böcek|
-|DIAGRAMNET-51700|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51702|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51706|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51707|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51708|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51709|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51710|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51700|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51702|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51706|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51707|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51708|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51709|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51710|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.
 

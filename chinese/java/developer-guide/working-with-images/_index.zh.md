@@ -36,12 +36,12 @@ Aspose.Diagram for Java API 允许开发人员访问和替换 Visio diagram 中�
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ReplaceShapePicture-ReplaceShapePicture.java" >}}
 ## **将位图图像导入为 Visio 形状**
 Aspose.Diagram for Java API 现在允许开发人员将位图图像导入为 Microsoft Visio 形状。
-### **在 Visio 中插入 BMP 图片**
+### **Insert a BMP Image in Visio**
 下面示例中的代码显示了如何：
 
 1. 创建一个 diagram。
 1. 获取 Visio 页
 1. 将位图图像导入为 Visio 形状
 1. 保存 diagram。
-#### **插入 BMP 图像编程示例**
+#### **Insert a BMP Image Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.java" >}}

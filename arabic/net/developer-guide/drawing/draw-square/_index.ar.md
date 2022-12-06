@@ -15,7 +15,7 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في ا�
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsSVG.cs" >}}
 
-## **ارسم مربعًا في ملف PDF**
+## **ارسم مربعًا في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في الصفحة وحفظه بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio وحفظه بتنسيق PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPDF.cs" >}}
@@ -25,7 +25,7 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في ا�
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPNG.cs" >}}
 
-## **ارسم مربعًا بتنسيق HTML**
+## **ارسم مربعًا في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio وحفظه بتنسيق HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsHTML.cs" >}}

@@ -13,39 +13,39 @@ url: /fr/net/aspose-diagram-for-net-17-8-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51295|VSDX en SVG - la faible qualité de la sortie SVG.|Renforcement|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG.|Renforcement|
 |DIAGRAMNET-51298|SVGSaveOptions - ajoute le support pour contrôler le niveau de compression bitmap.|Renforcement|
 |DIAGRAMNET-51300|Ajout de la prise en charge des formes de connexion avec index de connexion.|Renforcement|
-|DIAGRAMNET-50577|VSDX en conversion PDF, le texte de la forme circulaire est mal placé - I.|Punaise|
-|DIAGRAMNET-50582|VSDX en conversion HTML, le texte de la forme circulaire est mal placé - I.|Punaise|
-|DIAGRAMNET-50601|VSDX en conversion PDF, le texte de la forme circulaire est mal placé - II.|Punaise|
-|DIAGRAMNET-50606|VSDX à la conversion HTML, le texte de la forme circulaire est mal placé - II.|Punaise|
-|DIAGRAMNET-51197|Les formes de triangle d'avertissement ne sont pas rendues correctement lors de l'enregistrement de VSDM au format SVG.|Punaise|
-|DIAGRAMNET-51245|Éléments de texte déplacés lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-51246|Polices incorrectes appliquées au texte lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-51296|VSDM en SVG - l'image est tronquée.|Punaise|
-|DIAGRAMNET-51301|VSDX en PDF - la couleur du texte sur les lignes de connexion est modifiée.|Punaise|
-|DIAGRAMNET-51302|VSDX au format PDF - éléments graphiques manquants.|Punaise|
-|DIAGRAMNET-51304|VSDX au format PDF - rendu incomplet de l'organigramme.|Punaise|
-|DIAGRAMNET-51305|VSDX au format PDF - éléments graphiques manquants.|Punaise|
-|DIAGRAMNET-51306|VSDX en PDF - la couleur du texte sur les lignes de connexion est modifiée.|Punaise|
-|DIAGRAMNET-51307|VSDX au format PDF - éléments graphiques manquants.|Punaise|
+|DIAGRAMNET-50577|VSDX to PDF conversion, the circular shape's text is misplaced - I.|Punaise|
+|DIAGRAMNET-50582|VSDX to HTML conversion, the circular shape's text is misplaced - I.|Punaise|
+|DIAGRAMNET-50601|VSDX to PDF conversion, the circular shape's text is misplaced - II.|Punaise|
+|DIAGRAMNET-50606|VSDX to HTML conversion, the circular shape's text is misplaced - II.|Punaise|
+|DIAGRAMNET-51197|Warning triangle shapes are not rendered correctly in saving VSDM to SVG.|Punaise|
+|DIAGRAMNET-51245|Displaced text items on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-51246|Incorrect fonts applied to text when converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-51296|VSDM to SVG - the image is truncated.|Punaise|
+|DIAGRAMNET-51301|VSDX to PDF - the color of text on connecting lines is changed.|Punaise|
+|DIAGRAMNET-51302|VSDX to PDF - missing graphic elements.|Punaise|
+|DIAGRAMNET-51304|VSDX to PDF - incomplete rendering of the flow chart.|Punaise|
+|DIAGRAMNET-51305|VSDX to PDF - missing graphic elements.|Punaise|
+|DIAGRAMNET-51306|VSDX to PDF - the color of text on connecting lines is changed.|Punaise|
+|DIAGRAMNET-51307|VSDX to PDF - missing graphic elements.|Punaise|
 |DIAGRAMNET-51313|La routine d'ouverture et de sauvegarde d'un dessin VSDX génère un fichier de sortie corrompu.|Punaise|
-|DIAGRAMNET-51314|VSDX en SVG - positionnement incorrect du texte.|Punaise|
-|DIAGRAMNET-51317|VSDX au format PDF - le texte des lignes de connexion est manquant.|Punaise|
-|DIAGRAMNET-51318|VSDX au format PDF - le texte en gras des formes rectangulaires est manquant.|Punaise|
-|DIAGRAMNET-51319|VSDM à SVG - l'opération arithmétique a entraîné une erreur de débordement.|Punaise|
+|DIAGRAMNET-51314|VSDX to SVG - incorrect positioning of the text.|Punaise|
+|DIAGRAMNET-51317|VSDX to PDF - the text of connecting lines is missing.|Punaise|
+|DIAGRAMNET-51318|VSDX to PDF - the bold formatted text of rectangle shapes is missing.|Punaise|
+|DIAGRAMNET-51319|VSDM to SVG - the arithmetic operation resulted in an overflow error.|Punaise|
 |DIAGRAMNET-51320|Erreur dans l'élément de forme lors du chargement d'un VSDM.|Punaise|
-|DIAGRAMNET-51323|VSDM à SVG - toutes les lignes de connexion sont manquantes.|Punaise|
-|DIAGRAMNET-51324|VSDM à SVG - style de bordure incorrect et couleur de bordure de différentes formes.|Punaise|
+|DIAGRAMNET-51323|VSDM to SVG - all connecting lines are missing.|Punaise|
+|DIAGRAMNET-51324|VSDM to SVG - incorrect border style and border color of various shapes.|Punaise|
 |DIAGRAMNET-51326|Problème après l'ajout de deux commentaires à la forme.|Punaise|
 |DIAGRAMNET-51327|Problème après l'utilisation de la méthode "AddComment" lors de l'ajout de commentaires à diverses formes.|Punaise|
 |DIAGRAMNET-51328|Aspose Diagram importe incorrectement la forme dans le document.|Punaise|
-|DIAGRAMNET-51330|VSDM en SVG - un texte de filigrane supplémentaire est ajouté.|Punaise|
-|DIAGRAMNET-51332|VSDM en SVG - rendu incorrect d'une icône.|Punaise|
-|DIAGRAMNET-51334|VSDM en SVG - texte déplacé dans le coin supérieur droit.|Punaise|
-|DIAGRAMNET-51335|VSDM en SVG - rendu incorrect de l'image d'arrière-plan.|Punaise|
-|DIAGRAMNET-51337|VSD en HTML - format non valide de l'erreur de chaîne d'entrée.|Punaise|
+|DIAGRAMNET-51330|VSDM to SVG - an additional watermark text is added.|Punaise|
+|DIAGRAMNET-51332|VSDM to SVG - incorrect rendering of an icon.|Punaise|
+|DIAGRAMNET-51334|VSDM to SVG - displaced text at the top right corner.|Punaise|
+|DIAGRAMNET-51335|VSDM to SVG - incorrect rendering of the background image.|Punaise|
+|DIAGRAMNET-51337|VSD to HTML - invalid format of the input string error.|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez les signaler dans la[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 ### **Ajoute un membre Quality dans la classe SVGSaveOptions**
@@ -108,4 +108,4 @@ diagram.Save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Diagram :
 
 1. [Utiliser les index de connexion pour connecter des formes](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/#use-connection-indexes-to-connect-shapes)
-1. [Utilisation des options d'enregistrement SVG](https://docs.aspose.com/diagram/net/save-visio-document/)
+1. [Utilisation des options de sauvegarde SVG](https://docs.aspose.com/diagram/net/save-visio-document/)

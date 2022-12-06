@@ -17,22 +17,22 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 17.02.0](https:/
 |DIAGRAMNET-51110|Metre ile entegre.|Yeni özellik|
 |DIAGRAMNET-51143|Belirli bir şeklin grubunu elde etme yeteneği.|Yeni özellik|
 |DIAGRAMNET-51144|Belirli bir şeklin ebeveynini alma yeteneği.|Yeni özellik|
-|DIAGRAMNET-50149|VSD'den PDF'e dönüştürme, bir grup şeklinin arka plan rengi gölgesi değişiyor.|Böcek|
+|DIAGRAMNET-50149|VSD'den PDF'e dönüşüm, bir grup şeklinin arka plan rengi gölgesi değişiyor.|Böcek|
 |DIAGRAMNET-50579|VSDX'den PDF'e dönüştürme, şeklin arka plan rengi yanlış.|Böcek|
-|DIAGRAMNET-50984|Bir VSDX PNG'ye dönüştürülürken tablonun sınır çizgileri eksik.|Böcek|
-|DIAGRAMNET-50985|Bir VSDX PNG'ye dönüştürülürken metin öğeleri düzgün hizalanmıyor.|Böcek|
-|DIAGRAMNET-50999|Bir VSD'i PNG'ye dönüştürürken şekillerin yanlış rengi oluşturuluyor.|Böcek|
+|DIAGRAMNET-50984|Bir VSDX, PNG'e dönüştürülürken tablonun sınır çizgileri eksik.|Böcek|
+|DIAGRAMNET-50985|Bir VSDX'den PNG'e dönüştürülürken metin öğeleri düzgün hizalanmıyor.|Böcek|
+|DIAGRAMNET-50999|VSD'den PNG'e dönüştürülürken şekillerin yanlış rengi oluşturuluyor.|Böcek|
 |DIAGRAMNET-51002|HTMLSaveOptions.DefaultFont özelliği beklendiği gibi çalışmıyor.|Böcek|
-|DIAGRAMNET-51049|VSD'i HTML'ye dönüştürürken şekillerin rengi doğru şekilde oluşturulmuyor.|Böcek|
-|DIAGRAMNET-51080|EMF'ye kaydetme sırasında şekillerin yanlış metin hizalaması.|Böcek|
-|DIAGRAMNET-51132|Bir VSD PDF'ye dönüştürülürken yuvarlak şekil köşeleri değiştiriliyor.|Böcek|
-|DIAGRAMNET-51133|VSD, PDF'ye dönüştürülürken dinamik ok konektörünün düzeni değişir.|Böcek|
-|DIAGRAMNET-51135|Visio şekilleri, bir VSDX'i PDF'ye dönüştürürken değiştirilir.|Böcek|
-|DIAGRAMNET-51136|Dikey metin, VSDX'i PDF'ye dönüştürürken yatay metin olarak görünür.|Böcek|
-|DIAGRAMNET-51140|VSDX'i PDF'ye dönüştürürken dikey metin kutusu düğümün kenarından sarkıyor.|Böcek|
+|DIAGRAMNET-51049|VSD'den HTML'e dönüştürülürken şekillerin rengi doğru şekilde oluşturulmuyor.|Böcek|
+|DIAGRAMNET-51080|EMF'de kaydetme sırasında şekillerin yanlış metin hizalaması.|Böcek|
+|DIAGRAMNET-51132|VSD'den PDF'e dönüştürülürken yuvarlatılmış şekil köşeleri değiştiriliyor.|Böcek|
+|DIAGRAMNET-51133|Bir VSD'in PDF'e dönüştürülmesiyle dinamik ok konektörünün düzeni değişir.|Böcek|
+|DIAGRAMNET-51135|Visio şekilleri, VSDX'i PDF'e dönüştürürken değiştirilir.|Böcek|
+|DIAGRAMNET-51136|VSDX, PDF'e dönüştürüldüğünde dikey metin yatay metin olarak görünür.|Böcek|
+|DIAGRAMNET-51140|VSDX'i PDF'e dönüştürürken dikey metin kutusu düğümün kenarından sarkıyor.|Böcek|
 |DIAGRAMNET-51138|VSDX diagram yüklenirken bir hata oluştu.|İstisna|
-|DIAGRAMNET-51139|VSDX, HTML'ye dönüştürülürken dosyaya erişilemiyor hatası oluştu.|İstisna|
-|DIAGRAMNET-51148|Diagram'de NullReferenceException. VSD'i HTML'ye dönüştürürken kaydedin.|İstisna|
+|DIAGRAMNET-51139|VSDX, HTML'e dönüştürülürken dosyaya erişilemiyor hatası oluştu.|İstisna|
+|DIAGRAMNET-51148|Diagram'de NullReferenceException. VSD'i HTML'e dönüştürürken kaydedin.|İstisna|
 |DIAGRAMNET-51149|CustomProp.Name özelliği ayarlanmadığında Diagram.Save adresindeki NullReferenceException|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
  Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen the[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).

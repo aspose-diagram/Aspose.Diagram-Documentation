@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Python عبر .NET 22.11 ملاحظات الإصدار
+title: Aspose.Diagram لـ Python via .NET 22.11 ملاحظات الإصدار
 type: docs
 weight: 16
 url: /ar/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Diagram لـ Python عبر .NET 22.11.
+تحتوي هذه الصفحة على ملاحظات إصدار Aspose.Diagram لـ Python via .NET 22.11.
 
 {{% /alert %}} 
 
@@ -17,8 +17,8 @@ url: /ar/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 |DIAGRAMNET-53024|الصيغة لا مجال منعش|التعزيز|
 |DIAGRAMNET-53009|محادثة من vsdx إلى svg lost image|التعزيز|
 |DIAGRAMNET-53010|التطبيق: حفظ vsdx إلى Pdf الأشكال المفقودة|حشرة|
-|DIAGRAMNET-53013|Visio إلى SVG - نماذج خط مخصصة|حشرة|
-|DIAGRAMNET-53017|تم تغيير المنطقة المرتبطة في HTML VSD إلى الإصدار 22.10.0.0|حشرة|
+|DIAGRAMNET-53013|Visio إلى SVG - نماذج الخط المخصصة|حشرة|
+|DIAGRAMNET-53017|تم تغيير المنطقة المرتبطة في HTML من VSD إلى الإصدار 22.10.0.0|حشرة|
 |DIAGRAMNET-53018|علة مع Paras.SpLine|حشرة|
 |DIAGRAMNET-53019|يتم رسم خط إضافي في أسفل اليسار|حشرة|
 |DIAGRAMNET-53033|لم يتم حساب قيم الخلايا بشكل صحيح|حشرة|

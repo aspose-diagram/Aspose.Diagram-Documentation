@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram per Node.js tramite Java 21.9 Note di rilascio
+title: Aspose.Diagram for Node.js via Java 21.9 Release Notes
 type: docs
 weight: 5
 url: /it/java/aspose-diagram-for-node-js-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram per Node.js tramite Java 21.9.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 21.9.
 
 {{% /alert %}}
 ## **Miglioramenti e modifiche**  ##
@@ -14,7 +14,7 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram pe
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk: controlla se TextAnnotation è connesso alla forma|Aumento|
-|DIAGRAMJAVA-50382|L'ombreggiatura delle forme manca durante la conversione di un VSDX in PDF|Insetto|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|Insetto|
 |DIAGRAMJAVA-50754|wk - LineColor da InheritLine non è corretto|Insetto|
 |DIAGRAMJAVA-50756|wk: PinPos null vs centro-centro|Insetto|
 |DIAGRAMJAVA-50757|WK: valore getBegin/End Arrow errato.|Insetto|

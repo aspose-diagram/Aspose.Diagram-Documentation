@@ -16,7 +16,7 @@ url: /de/java/aspose-diagram-for-java-18-3-release-notes/
 |DIAGRAMJAVA-50592|Unterstützung der NewValue-Verarbeitungsanweisungen hinzufügen|Erweiterung|
 |DIAGRAMJAVA-50150|Auf Form-TabsCollection-Objekte kann nicht zugegriffen werden|Insekt|
 |DIAGRAMJAVA-50588|Ausgabe VSDX - eine große Form wird hinzugefügt|Insekt|
-|DIAGRAMJAVA-50593|VSDX zu SVG - falsche Text- und Hintergrundfarben|Insekt|
+|DIAGRAMJAVA-50593|VSDX to SVG - incorrect text and background colors|Insekt|
 |DIAGRAMJAVA-50595|Diagram wird beim Speichern des VSDX-Dokuments schwarzweiß|Insekt|
 ### **Fügt moveTo-Member in der Page-Klasse hinzu**
 Der moveTo-Member verwendet den Index der Zielseite als Parameter, um die Position der Seite in der Zeichnung Visio zu verschieben.

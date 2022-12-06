@@ -11,9 +11,9 @@ url: /zh/net/aspose-diagram-for-net-5-2-0-release-notes/
 ## **增强功能**
 - DIAGRAMNET-50235 - 时间线数据未在 Visio 查看器中更新
 ## **表现**
-- DIAGRAMNET-50378 - 将 VSD 导出为 PDF 格式时出现性能问题
+- DIAGRAMNET-50378-Performance issue when exporting VSD to PDF format
 ## **虫子**
-- DIAGRAMNET-50364-VSDX 到 PDF 转换，文本项呈现不正确
+- DIAGRAMNET-50364-VSDX to PDF conversion, incorrect rendering of the text items
 - DIAGRAMNET-50386-无法在同一页面或其他页面中第二次添加形状
 - DIAGRAMNET-50387-无法在 Microsoft Office 2010/2013 中手动移动形状
 - DIAGRAMNET-50388-添加支持以将打印作业名称作为另一个参数传递
@@ -22,9 +22,9 @@ url: /zh/net/aspose-diagram-for-net-5-2-0-release-notes/
 - DIAGRAMNET-50394 - 放置形状时出现参数超出范围错误消息
 - DIAGRAMNET-50398-Shape 使用单个连接点而不是不同的连接点
 - DIAGRAMNET-50400-打开结果时出现警告消息 VDX diagram
-- DIAGRAMNET-50401-VSD 到 PDF 转换，形状不正确可见
-- DIAGRAMNET-50402-VSD 到 PNG 转换，形状不正确可见
-- DIAGRAMNET-50403-VSD 到 SVG 转换，形状不正确可见
+- DIAGRAMNET-50401-VSD to PDF conversion, shapes are not properly visible
+- DIAGRAMNET-50402-VSD to PNG conversion, shapes are not properly visible
+- DIAGRAMNET-50403-VSD to SVG conversion, shapes are not properly visible
 - DIAGRAMNET-50404-VSD 到 VDX 转换，形状不正确可见
 - DIAGRAMNET-50405-VSD 到 VDX 转换，形状的文本超出边界
 - DIAGRAMNET-50407 - 无法在容器内粘贴形状

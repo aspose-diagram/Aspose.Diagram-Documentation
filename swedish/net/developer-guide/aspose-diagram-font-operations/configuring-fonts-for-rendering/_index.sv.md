@@ -6,7 +6,7 @@ url: /sv/net/configuring-fonts-for-rendering/
 ---
 ## **Möjliga användningsscenarier**
 
-Aspose.Diagram API:er ger möjlighet att rendera sidor i bildformat samt konvertera dem till PDF- och XPS-format. För att maximera omvandlingstroheten är det nödvändigt att teckensnitten som används i kalkylarket är tillgängliga i operativsystemets standardtypsnittskatalog. Om de nödvändiga typsnitten inte finns kommer API:erna Aspose.Diagram att försöka ersätta de nödvändiga typsnitten med de tillgängliga.
+Aspose.Diagram API:er ger möjlighet att rendera sidor i bildformat samt konvertera dem till PDF och XPS format. För att maximera omvandlingstroheten är det nödvändigt att teckensnitten som används i kalkylarket är tillgängliga i operativsystemets standardtypsnittskatalog. Om de nödvändiga typsnitten inte finns kommer API:erna Aspose.Diagram att försöka ersätta de nödvändiga typsnitten med de tillgängliga.
 
 ## **Val av teckensnitt**
 

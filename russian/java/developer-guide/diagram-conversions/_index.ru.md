@@ -4,7 +4,7 @@ linktitle: Diagram Преобразования
 type: docs
 weight: 65
 url: /ru/java/convert-diagram-to-different-formats/
-description: Конвертируйте Visio файлов в Visio, PDF, CSV, JPG, HTML, BMP, PNG, EMF, SVG, TIFF, XPS и другие.
+description: Конвертируйте файлы Visio в Visio, PDF, CSV, JPG, HTML, BMP, PNG, EMF, SVG, TIFF, XPS и другие.
 ---
 {{% alert color="primary" %}}
 

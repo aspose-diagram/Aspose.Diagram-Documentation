@@ -13,21 +13,21 @@ url: /zh/net/aspose-diagram-for-net-17-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-51264|将 VSDM 转换为 SVG 时形状的阴影为黑色|强化|
+|DIAGRAMNET-51264|The shadow of shapes is black on converting a VSDM to SVG|强化|
 |DIAGRAMNET-51270|在 Visio 查看器中看不到 VSDX 的形状|强化|
 |DIAGRAMNET-51273|Visio Viewer 2013 中的形状显示不正确|强化|
 |DIAGRAMNET-51249|VSDM 中连接曲线的不正确外观|漏洞|
-|DIAGRAMNET-51250|在将 VSD 转换为 PDF 时，在文本中添加了一个额外的左括号|漏洞|
-|DIAGRAMNET-51251|将 VSDM 转换为 SVG 时图标的大小会降低|漏洞|
-|DIAGRAMNET-51253|将 VSDM 转换为 SVG 时，形状中的文本和边框颜色不正确|漏洞|
-|DIAGRAMNET-51255|将 VSDM 转换为 SVG 时底部的图像已被压扁|漏洞|
+|DIAGRAMNET-51250|An additional left parenthesis is added in text on converting a VSD to PDF|漏洞|
+|DIAGRAMNET-51251|The size of the icon is downgraded on converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51253|Incorrect color of text and borders in shapes when converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51255|An image at the bottom has been squashed on converting a VSDM to SVG|漏洞|
 |DIAGRAMNET-51258|VSDM的打开和保存例程——墙的长度改变了|漏洞|
 |DIAGRAMNET-51259|VSDM的打开和保存例程——墙的长度改变了|漏洞|
 |DIAGRAMNET-51260|调用 Diagram 类的布局方法时发生索引超出范围错误|漏洞|
-|DIAGRAMNET-51263|将 VSDM 转换为 SVG 时会出现一个额外的红色标签|漏洞|
-|DIAGRAMNET-51265|将 VSDM 转换为 SVG 时，标题文本的字体发生了变化|漏洞|
-|DIAGRAMNET-51266|背景图像的大小减小到将 VSDM 转换为 SVG|漏洞|
-|DIAGRAMNET-51267|将 VSDM 转换为 SVG 时图标大小会降低|漏洞|
+|DIAGRAMNET-51263|An additional red color tag appears on converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51265|The font of title text is changed on converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51266|The size of background image is reduced to converting a VSDM to SVG|漏洞|
+|DIAGRAMNET-51267|An icon size is downgraded on converting a VSDM to SVG|漏洞|
 |DIAGRAMNET-51268|从 VSDM 绘图中检索图像的不正确透明度值|漏洞|
 |DIAGRAMNET-51269|添加虚拟化保护|漏洞|
 ## **公共 API 和向后不兼容的更改**

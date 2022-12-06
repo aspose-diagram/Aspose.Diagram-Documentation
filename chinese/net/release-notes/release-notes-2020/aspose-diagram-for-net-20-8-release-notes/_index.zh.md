@@ -14,14 +14,14 @@ url: /zh/net/aspose-diagram-for-net-20-8-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMNET-51886|创建将 Ole 对象（如单词、单元格、幻灯片等）插入到 Diagram 的单个形状中的能力，其中包含对象数据和预览图像。|强化|
-|DIAGRAMNET-51888|Visio 到 PDF - API 需要很长时间才能转换|强化|
+|DIAGRAMNET-51888|Visio to PDF - API is taking long time for conversion|强化|
 |DIAGRAMNET-51889|循环保存到 pdf 超过 20 分钟|强化|
-|DIAGRAMNET-51893|VSDX 到 SVG 转换后缺少 viewBox 属性|强化|
-|DIAGRAMNET-51851|VSDX 到 PDF - 一些图标丢失，一些未正确呈现|漏洞|
-|DIAGRAMNET-51873|VSDX 到 PDF - 内容在输出 PDF 的左侧|漏洞|
-|DIAGRAMNET-51874|VSDX 到 PDF - 输出中缺少内容和行|漏洞|
-|DIAGRAMNET-51876|VSDX 到 PNG - 输出中的某些形状不正确|漏洞|
-|DIAGRAMNET-51879|Visio 到 PDF - 输出不正确|漏洞|
+|DIAGRAMNET-51893|Missing viewBox attribute after VSDX to SVG conversion|强化|
+|DIAGRAMNET-51851|VSDX to PDF - some icons are missing and some not rendered correctly|漏洞|
+|DIAGRAMNET-51873|VSDX to PDF - Content is out on left in the output PDF|漏洞|
+|DIAGRAMNET-51874|VSDX to PDF - content and lines are missing in the output|漏洞|
+|DIAGRAMNET-51876|VSDX to PNG - some shapes are incorrect in the output|漏洞|
+|DIAGRAMNET-51879|Visio to PDF - output is not correct|漏洞|
 |DIAGRAMNET-51894|加载 diagram 时出现 System.NullReferenceException|漏洞|
 |DIAGRAMNET-51895|无法检索组属性数据，如 SelectionModel、DisplayMode|漏洞|
 

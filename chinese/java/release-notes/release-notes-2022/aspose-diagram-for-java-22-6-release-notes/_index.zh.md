@@ -13,7 +13,7 @@ url: /zh/java/aspose-diagram-for-java-22-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK：保存为 PNG 后形状变形|强化|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|强化|
 |DIAGRAMJAVA-50967|调整侧线形状 [续]|漏洞|
 |DIAGRAMJAVA-50972|API 没有正确解析文件|漏洞|
 |DIAGRAMJAVA-50974|添加新连接点的问题|漏洞|

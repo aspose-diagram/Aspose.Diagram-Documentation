@@ -14,6 +14,6 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for Java 19.5](htt
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50653|Errore durante la generazione del file di anteprima con Aspose sul server Linux|Aumento|
-|DIAGRAMJAVA-50656|VSD in PNG non riesce in un particolare ambiente|Aumento|
+|DIAGRAMJAVA-50656|VSD to PNG fails in particular environment|Aumento|
 |DIAGRAMJAVA-50657|API non riesce a caricare il file VSD e il programma non finisce mai|Aumento|
 

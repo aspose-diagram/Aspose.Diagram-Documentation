@@ -16,21 +16,21 @@ url: /it/net/aspose-diagram-for-net-6-8-0-release-notes/
 |DIAGRAMNET-50946|Aggiunto il supporto per l'inserimento di controlli ActiveX nella pagina Visio.|Nuova caratteristica|
 |DIAGRAMNET-51003|Aggiungi il supporto per impostare la casella di controllo del colore del livello.|Nuova caratteristica|
 |DIAGRAMNET-50026|Le forme mancano dal disegno VSDX.|Insetto|
-|DIAGRAMNET-50781|Mancano le piccole icone delle tabelle salvando un VSDX in PDF.|Insetto|
+|DIAGRAMNET-50781|The small icons of the tables are missing on saving a VSDX to PDF.|Insetto|
 |DIAGRAMNET-50941|Recupero errato dei Connect da uno VSD.|Insetto|
-|DIAGRAMNET-50942|Viene impostato un DPI errato durante il salvataggio nel TIFF.|Insetto|
+|DIAGRAMNET-50942|An incorrect DPI is being set on saving in the TIFF.|Insetto|
 |DIAGRAMNET-50943|La connessione del connettore dinamico non viene mantenuta nelle forme di raggruppamento.|Insetto|
-|DIAGRAMNET-50945|Un quadrato extra viene aggiunto attorno alla forma del cerchio durante la conversione di un VDX in PDF.|Insetto|
+|DIAGRAMNET-50945|An extra square is added around the circle shape on converting a VDX to PDF.|Insetto|
 |DIAGRAMNET-50948|Impossibile copiare una pagina Visio nella pagina VSDM.|Insetto|
 |DIAGRAMNET-50950|Impossibile impostare intestazioni e piè di pagina di un VSDX diagram.|Insetto|
 |DIAGRAMNET-50951|Microsoft Visio Il visualizzatore 2013 non visualizza VSDX diagram.|Insetto|
-|DIAGRAMNET-50957|Manca una tabella durante la conversione di un VSDX in PNG.|Insetto|
+|DIAGRAMNET-50957|A table is missing on converting a VSDX to PNG.|Insetto|
 |DIAGRAMNET-50978|Rendering incompleto di un connettore dinamico nel VSDM diagram.|Insetto|
 |DIAGRAMNET-50998|Si è verificato un errore di riferimento null durante l'inserimento di un'immagine.|Insetto|
 |DIAGRAMNET-51001|Recupera una direzione inversa del connettore da un VSD diagram.|Insetto|
-|DIAGRAMNET-51004|Il problema di allineamento del testo durante la conversione di un file VSDX in PDF.|Insetto|
-|DIAGRAMNET-51005|I problemi di allineamento e formattazione del testo durante la conversione di un file VSDX in PDF.|Insetto|
-|DIAGRAMNET-51006|La formattazione del testo in grassetto non viene conservata durante la conversione di un VSDX in PDF.|Insetto|
+|DIAGRAMNET-51004|The text alignment problem on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51005|The text alignment and formatting problems on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51006|The bold text formatting is not being preserved on converting a VSDX to PDF.|Insetto|
 |DIAGRAMNET-51011|Restituisce connessioni errate, durante il recupero da un VSD.|Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).

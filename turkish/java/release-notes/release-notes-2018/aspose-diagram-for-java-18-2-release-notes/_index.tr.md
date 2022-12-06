@@ -15,7 +15,7 @@ url: /tr/java/aspose-diagram-for-java-18-2-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50587|Metin bölümünün göreli Char öğesini alma desteği ekleyin|Artırma|
 |DIAGRAMJAVA-50478|Bir VDX'i VSDM'e dönüştürürken bağlantı çizgileri diğer şekillerden geçiyor|Böcek|
-|DIAGRAMJAVA-50581|VSDX'den PDF'ye - şekillerin yanlış işlenmesi|Böcek|
+|DIAGRAMJAVA-50581|VSDX - PDF - şekillerin yanlış işlenmesi|Böcek|
 |DIAGRAMJAVA-50582|Çıkış VSDX - bağlantı hatları düz değil|Böcek|
 |DIAGRAMJAVA-50583|VSD içe aktarma - VisioDocument öğesinde bir hata oluştu|Böcek|
 |DIAGRAMJAVA-50584|VDX içe aktarma - VisioDocument öğesinde bir hata oluştu|Böcek|

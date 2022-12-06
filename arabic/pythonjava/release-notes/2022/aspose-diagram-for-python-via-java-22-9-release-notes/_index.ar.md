@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Python عبر Java 22.9 ملاحظات الإصدار
+title: Aspose.Diagram لـ Python via Java 22.9 ملاحظات الإصدار
 type: docs
 weight: 19
 url: /ar/python-java/aspose-diagram-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Python عبر Java 22.9.
+تحتوي هذه الصفحة على معلومات ملاحظات الإصدار لـ Aspose.Diagram لـ Python via Java 22.9.
 
 {{% /alert %}}
 ## **التحسينات والتغييرات**  ##

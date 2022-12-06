@@ -1,7 +1,7 @@
 ﻿---
 title: Aspose.Diagram for .NET
 type: docs
-description: Aspose.Diagram, Microsoft Visio Nesne Modeli ile çalışmak için saf bir .NET API'dir. Visio dosya formatlarını resimlere, PDF, HTML, XML ve XAML formatlarına dönüştürme sağlar. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM yer alır.
+description: Aspose.Diagram, Microsoft Visio Nesne Modeli ile çalışmak için saf bir .NET API'dir. Visio dosya formatlarını görsellere dönüştürme, PDF, HTML, XML ve XAML formatlarını sağlar. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
 weight: 10
 url: /tr/net/
 is_root: true
@@ -19,7 +19,7 @@ Aspose.Diagram, Microsoft Visio Nesne Modeli ile çalışmak için saf bir .NET 
 
 Aspose.Diagram, bir sunucuda Visio diyagramını işlemek için Microsoft Office Visio tarafından sağlanan gelişmiş işlevlerden yararlanır. Aspose.Diagram API genişletilebilir, kullanımı kolay, kompakttır ve geliştiricilerin daha az kod yazabilmesi için en yaygın işlevlerin tümünü sağlar.
 
-Aspose.Diagram ile akış şemalarınızı kolayca PDF, HTML, çeşitli görüntü formatları veya diğerleri gibi diğer formatlara dönüştürebilirsiniz.
+ Aspose.Diagram ile akış şemalarınızı PDF, HTML gibi çeşitli resim formatlarına veya diğer formatlara kolayca çevirebilirsiniz.
 
 {{% /alert %}} 
 

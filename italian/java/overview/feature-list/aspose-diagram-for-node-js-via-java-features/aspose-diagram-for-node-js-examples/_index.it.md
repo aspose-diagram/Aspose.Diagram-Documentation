@@ -3,9 +3,9 @@ title: Aspose.Diagram per Node.js Esempi
 type: docs
 weight: 10
 url: /it/java/aspose-diagram-for-node-js-examples/
-description: Viso Diagram Node.js API ti consente di lavorare con i diagrammi Visio senza alcuna comprensione del formato di file sottostante. Puoi creare file Visio VSDX da zero e convertire i file VSDX in PNG con solo un paio di righe di codice.
+description: Viso Diagram Node.js API lets you work with Visio diagrams without any understanding of underlying file format. You can create Visio VSDX files from scratch and convert VSDX files to PNG with just a couple of lines of code.
 ---
-Aspose.Diagram per Node.js è facile da usare e ti consente di lavorare con i diagrammi Visio senza alcuna comprensione del formato di file sottostante. Puoi creare file Visio VSDX da zero utilizzando semplici righe di codice. Puoi anche convertire i file VSDX in PNG con solo un paio di righe di codice. In questo articolo, elenchiamo alcuni esempi di base per lavorare con i file Visio VSDX utilizzando Aspose.Diagram per Node.js API.
+Aspose.Diagram for Node.js is easy to use and lets you work with Visio diagrams without any understanding of underlying file format. You can create Visio VSDX files from scratch using simple lines of code. You can also convert VSDX files to PNG with just a couple of lines of code. In this article, we list some basic examples for working with Visio VSDX files using Aspose.Diagram for Node.js API.
 ## **Crea Visio VSDX da zero usando Node.js**
 {{< highlight "java" >}}
 
@@ -18,7 +18,7 @@ var diagram = new aspose.diagram.Diagram();
 diagram.save("output.vsdx", aspose.diagram.SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-## **Esporta la pagina del file Visio VSDX in formato PNG**
+## **Export Page of Visio VSDX File to PNG Format**
 {{< highlight "java" >}}
 
  var aspose = aspose || {};

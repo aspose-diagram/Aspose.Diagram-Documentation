@@ -13,13 +13,13 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.1.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50664|Verlaufsfüllung wird beim Export nach SVG nicht unterstützt|Erweiterung|
+|DIAGRAMJAVA-50664|Gradient fill not supported in export to SVG|Erweiterung|
 |DIAGRAMJAVA-50670|Laden von Schriftarten aus dem Speicher zulassen|Erweiterung|
 |DIAGRAMJAVA-50681|API dauert lange, um diagram-Datei mit großer Größe zu laden|Erweiterung|
-|DIAGRAMJAVA-50381|Die Netzwerkformen bleiben beim Konvertieren von VSDX in PDF nicht erhalten|Insekt|
-|DIAGRAMJAVA-50386|Die Bilder werden beim Konvertieren von VSD in SVG mit Farbunterschieden auf den Kopf gestellt|Insekt|
-|DIAGRAMJAVA-50679|VSDX zu PDF - Konnektoren fehlen in der Ausgabe|Insekt|
-|DIAGRAMJAVA-50680|Visio zu PNG - Ausgabebilder wurden abgeschnitten|Insekt|
+|DIAGRAMJAVA-50381|The network shapes are not being preserved on converting a VSDX to PDF|Insekt|
+|DIAGRAMJAVA-50386|The images are turned upside down with color difference on converting a VSD to SVG|Insekt|
+|DIAGRAMJAVA-50679|VSDX to PDF - Connectors are missing in output|Insekt|
+|DIAGRAMJAVA-50680|Visio to PNG - Output images were cropped out|Insekt|
 ## **Öffentliche API und rückwärtsinkompatible Änderungen**
 Das Folgende ist eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram für JAVA vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Diagram-Supportforum.
 

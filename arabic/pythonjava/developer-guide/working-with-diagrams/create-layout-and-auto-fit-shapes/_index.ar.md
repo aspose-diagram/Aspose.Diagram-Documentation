@@ -5,7 +5,7 @@ weight: 10
 url: /ar/python-java/create-layout-and-auto-fit-shapes/
 ---
 ## **إنشاء Diagram**
- يتيح لك Aspose.Diagram لـ Python عبر Java قراءة وإنشاء رسومات تخطيطية Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](/diagram/ar/python-java/add-and-connect-visio-shapes/) لبناء diagram. استخدم المُنشئ الافتراضي للفئة Diagram لتكوين diagram جديد.
+ يسمح لك Aspose.Diagram لـ Python via Java بقراءة وإنشاء المخططات Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](/diagram/ar/python-java/add-and-connect-visio-shapes/) لبناء diagram. استخدم المُنشئ الافتراضي للفئة Diagram لتكوين diagram جديد.
 ### **عينة البرمجة**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
 ## **أشكال التخطيط في نمط المخطط الانسيابي**
@@ -55,7 +55,7 @@ url: /ar/python-java/create-layout-and-auto-fit-shapes/
 ## **احتواء تلقائي Visio Diagram**
 Aspose.Diagram API يدعم التركيب التلقائي للرسم Visio. تساعد عملية الميزة هذه على إحضار الأشكال الخارجية داخل حدود الصفحة Visio.
 
-Aspose.Diagram لـ Python عبر Java API به فئة Diagram التي تمثل رسم Visio. تعرض الفئة DiagramSaveOptions خاصية AutoFitPageToDrawingContent لتلائم رسم Visio تلقائيًا.
+Aspose.Diagram لـ Python via Java API له فئة Diagram التي تمثل رسم Visio. تعرض الفئة DiagramSaveOptions خاصية AutoFitPageToDrawingContent لتلائم رسم Visio تلقائيًا.
 
 هذا المثال يعمل على النحو التالي:
 
@@ -69,7 +69,7 @@ Aspose.Diagram لـ Python عبر Java API به فئة Diagram التي تمثل
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
 ## **العمل مع مشروع VBA**
 ### **تعديل كود وحدة VBA في Visio Diagram**
-توضح هذه المقالة كيفية تعديل رمز وحدة VBA تلقائيًا باستخدام Aspose.Diagram لـ Python عبر Java.
+توضح هذه المقالة كيفية تعديل رمز الوحدة النمطية لـ VBA تلقائيًا باستخدام Aspose.Diagram لـ Python via Java.
 
 لقد أضفنا فئات VbaModule و VbaModuleCollection و VbaProject و VbaProjectReference و VbaProjectReferenceCollection. تساعد هذه الفئات في التحكم في مشروع VBA. يمكن للمطورين استخراج وتعديل رمز الوحدة النمطية لـ VBA.
 ### **تعديل نموذج برمجة رمز الوحدة النمطية لـ VBA**
@@ -77,7 +77,7 @@ Aspose.Diagram لـ Python عبر Java API به فئة Diagram التي تمثل
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
 ### **قم بإزالة كافة وحدات الماكرو من Visio Diagram**
-Aspose.Diagram لـ Python عبر Java يسمح للمطورين بإزالة كافة وحدات الماكرو من Visio diagram.
+Aspose.Diagram لـ Python via Java يسمح للمطورين بإزالة كافة وحدات الماكرو من Visio diagram.
 
 تتيح لك خاصية JavaProjectData ، التي تم الكشف عنها بواسطة فئة Diagram ، إزالة كافة وحدات الماكرو من الرسم Visio.
 ### **قم بإزالة كافة نماذج برمجة وحدات الماكرو**

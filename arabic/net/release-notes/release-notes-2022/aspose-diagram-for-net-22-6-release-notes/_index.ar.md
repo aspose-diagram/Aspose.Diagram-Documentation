@@ -15,10 +15,10 @@ url: /ar/net/aspose-diagram-for-net-22-6-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52826|رابط مقطوع عند حفظ VSDM إلى PDF|التعزيز|
 |DIAGRAMNET-52851|تفقد بعض الأشكال منحنىها بعد التحويل إلى svg|التعزيز|
-|DIAGRAMNET-52858|جودة الصورة بتنسيق HTML|التعزيز|
-|DIAGRAMNET-52825|مشكلة في التصدير إلى HTML|حشرة|
-|DIAGRAMNET-52832|Visio إلى PDF / SVG - تم تغيير موضع النص المستدير|حشرة|
-|DIAGRAMNET-52840|تم تعتيم العناصر في معاينة HTML|حشرة|
+|DIAGRAMNET-52858|جودة الصورة في HTML|التعزيز|
+|DIAGRAMNET-52825|تصدير لمشكلة HTML|حشرة|
+|DIAGRAMNET-52832|Visio إلى PDF/SVG - تم تغيير موضع النص المستدير|حشرة|
+|DIAGRAMNET-52840|تم تعتيم العناصر الموجودة في معاينة HTML|حشرة|
 |DIAGRAMNET-52842|صفحة الاحتواء التلقائي لا تناسب تلقائي|حشرة|
 |DIAGRAMNET-52849|الصور النقطية لم يتم تصغيرها بعد التحويل|حشرة|
 |DIAGRAMNET-52852|VSD فتح خطأ - Aspose.Diagram.DiagramException|حشرة|

@@ -13,7 +13,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 22.9.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: Form nach dem Speichern in PNG verzerrt|Erweiterung|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|Erweiterung|
 |DIAGRAMJAVA-51015|wk: Formname in einer anderen Sprache als Englisch|Insekt|
 |DIAGRAMJAVA-51020|wk: Name für die Blattform mit einer Ebene wird nicht korrekt aufgelöst|Insekt|
 

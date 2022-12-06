@@ -13,21 +13,21 @@ Aspose.Diagram for .NET API позволяет разработчикам вст
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsVSDX.cs" >}}
 
 ## **Вставить изображение в SVG**
-Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить его в формате SVG.
+Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате SVG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsSVG.cs" >}}
 
-## **Вставить изображение в формате PNG**
-Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить его в формате PNG.
+## **Вставить изображение в PNG**
+Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате PNG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPNG.cs" >}}
 
 ## **Вставить изображение в PDF**
-Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить его в формате PDF.
+Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPDF.cs" >}}
 
 ## **Вставить изображение в HTML**
-Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить его в формате HTML.
+Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsHTML.cs" >}}

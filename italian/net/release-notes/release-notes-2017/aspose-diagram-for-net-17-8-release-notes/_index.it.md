@@ -13,39 +13,39 @@ url: /it/net/aspose-diagram-for-net-17-8-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51295|VSDX a SVG - la bassa qualità dell'output SVG.|Aumento|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG.|Aumento|
 |DIAGRAMNET-51298|SVGSaveOptions: aggiunge il supporto per controllare il livello di compressione bitmap.|Aumento|
 |DIAGRAMNET-51300|Aggiunto il supporto per la connessione di forme con l'indice di connessione.|Aumento|
-|DIAGRAMNET-50577|VSDX alla conversione in PDF, il testo della forma circolare è fuori posto - I.|Insetto|
-|DIAGRAMNET-50582|VSDX alla conversione HTML, il testo della forma circolare è fuori luogo - I.|Insetto|
-|DIAGRAMNET-50601|VSDX alla conversione in PDF, il testo della forma circolare è fuori posto - II.|Insetto|
-|DIAGRAMNET-50606|VSDX alla conversione HTML, il testo della forma circolare è fuori luogo - II.|Insetto|
-|DIAGRAMNET-51197|Le forme dei triangoli di avviso non vengono visualizzate correttamente durante il salvataggio di VSDM in SVG.|Insetto|
-|DIAGRAMNET-51245|Elementi di testo spostati durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMNET-51246|Caratteri errati applicati al testo durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMNET-51296|VSDM in SVG: l'immagine viene troncata.|Insetto|
-|DIAGRAMNET-51301|VSDX in PDF: il colore del testo sulle linee di collegamento viene modificato.|Insetto|
-|DIAGRAMNET-51302|VSDX in PDF - elementi grafici mancanti.|Insetto|
-|DIAGRAMNET-51304|VSDX in PDF - resa incompleta del diagramma di flusso.|Insetto|
-|DIAGRAMNET-51305|VSDX in PDF - elementi grafici mancanti.|Insetto|
-|DIAGRAMNET-51306|VSDX in PDF: il colore del testo sulle linee di collegamento viene modificato.|Insetto|
-|DIAGRAMNET-51307|VSDX in PDF - elementi grafici mancanti.|Insetto|
+|DIAGRAMNET-50577|VSDX to PDF conversion, the circular shape's text is misplaced - I.|Insetto|
+|DIAGRAMNET-50582|VSDX to HTML conversion, the circular shape's text is misplaced - I.|Insetto|
+|DIAGRAMNET-50601|VSDX to PDF conversion, the circular shape's text is misplaced - II.|Insetto|
+|DIAGRAMNET-50606|VSDX to HTML conversion, the circular shape's text is misplaced - II.|Insetto|
+|DIAGRAMNET-51197|Warning triangle shapes are not rendered correctly in saving VSDM to SVG.|Insetto|
+|DIAGRAMNET-51245|Displaced text items on converting a VSD to PDF.|Insetto|
+|DIAGRAMNET-51246|Incorrect fonts applied to text when converting a VSD to PDF.|Insetto|
+|DIAGRAMNET-51296|VSDM to SVG - the image is truncated.|Insetto|
+|DIAGRAMNET-51301|VSDX to PDF - the color of text on connecting lines is changed.|Insetto|
+|DIAGRAMNET-51302|VSDX to PDF - missing graphic elements.|Insetto|
+|DIAGRAMNET-51304|VSDX to PDF - incomplete rendering of the flow chart.|Insetto|
+|DIAGRAMNET-51305|VSDX to PDF - missing graphic elements.|Insetto|
+|DIAGRAMNET-51306|VSDX to PDF - the color of text on connecting lines is changed.|Insetto|
+|DIAGRAMNET-51307|VSDX to PDF - missing graphic elements.|Insetto|
 |DIAGRAMNET-51313|La routine di apertura e salvataggio di un disegno VSDX genera un file di output corrotto.|Insetto|
-|DIAGRAMNET-51314|VSDX a SVG - posizionamento errato del testo.|Insetto|
-|DIAGRAMNET-51317|VSDX in PDF - manca il testo delle linee di collegamento.|Insetto|
-|DIAGRAMNET-51318|VSDX in PDF: manca il testo formattato in grassetto delle forme rettangolari.|Insetto|
-|DIAGRAMNET-51319|VSDM a SVG: l'operazione aritmetica ha provocato un errore di overflow.|Insetto|
+|DIAGRAMNET-51314|VSDX to SVG - incorrect positioning of the text.|Insetto|
+|DIAGRAMNET-51317|VSDX to PDF - the text of connecting lines is missing.|Insetto|
+|DIAGRAMNET-51318|VSDX to PDF - the bold formatted text of rectangle shapes is missing.|Insetto|
+|DIAGRAMNET-51319|VSDM to SVG - the arithmetic operation resulted in an overflow error.|Insetto|
 |DIAGRAMNET-51320|Errore nell'elemento della forma durante il caricamento di un VSDM.|Insetto|
-|DIAGRAMNET-51323|VSDM a SVG - mancano tutte le linee di collegamento.|Insetto|
-|DIAGRAMNET-51324|VSDM in SVG - stile del bordo errato e colore del bordo di varie forme.|Insetto|
+|DIAGRAMNET-51323|VSDM to SVG - all connecting lines are missing.|Insetto|
+|DIAGRAMNET-51324|VSDM to SVG - incorrect border style and border color of various shapes.|Insetto|
 |DIAGRAMNET-51326|Problema dopo l'aggiunta di due commenti alla forma.|Insetto|
 |DIAGRAMNET-51327|Problema dopo l'utilizzo del metodo "AddComment" durante l'aggiunta di commenti a varie forme.|Insetto|
 |DIAGRAMNET-51328|Aspose Diagram importa erroneamente la forma nel documento.|Insetto|
-|DIAGRAMNET-51330|VSDM a SVG: viene aggiunto un ulteriore testo di filigrana.|Insetto|
-|DIAGRAMNET-51332|VSDM in SVG - rendering errato di un'icona.|Insetto|
-|DIAGRAMNET-51334|VSDM in SVG - testo spostato nell'angolo in alto a destra.|Insetto|
-|DIAGRAMNET-51335|VSDM in SVG - resa errata dell'immagine di sfondo.|Insetto|
-|DIAGRAMNET-51337|VSD in HTML - formato non valido dell'errore della stringa di input.|Insetto|
+|DIAGRAMNET-51330|VSDM to SVG - an additional watermark text is added.|Insetto|
+|DIAGRAMNET-51332|VSDM to SVG - incorrect rendering of an icon.|Insetto|
+|DIAGRAMNET-51334|VSDM to SVG - displaced text at the top right corner.|Insetto|
+|DIAGRAMNET-51335|VSDM to SVG - incorrect rendering of the background image.|Insetto|
+|DIAGRAMNET-51337|VSD to HTML - invalid format of the input string error.|Insetto|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarli in il[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge un membro Quality nella classe SVGSaveOptions**

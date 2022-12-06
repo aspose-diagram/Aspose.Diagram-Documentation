@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram 为 Python 通过 .NET 22.11 发行说明
+title: Aspose.Diagram for Python via .NET 22.11 Release Notes
 type: docs
 weight: 16
 url: /zh/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-此页面包含 Aspose.Diagram 的发行说明，适用于 Python via .NET 22.11。
+This page contains release notes for Aspose.Diagram for Python via .NET 22.11.
 
 {{% /alert %}} 
 
@@ -17,8 +17,8 @@ url: /zh/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 |DIAGRAMNET-53024|公式不刷新字段|强化|
 |DIAGRAMNET-53009|从 vsdx 到 svg 丢失图像的对话|强化|
 |DIAGRAMNET-53010|应用程序：将 vsdx 保存到 Pdf 丢失的形状|漏洞|
-|DIAGRAMNET-53013|Visio 到 SVG - 自定义线条图案|漏洞|
-|DIAGRAMNET-53017|VSD HTML 中的链接区域已更改为版本 22.10.0.0|漏洞|
+|DIAGRAMNET-53013|Visio to SVG - Custom line patterns|漏洞|
+|DIAGRAMNET-53017|Linked area in HTML of VSD has changed to version 22.10.0.0|漏洞|
 |DIAGRAMNET-53018|Paras.SpLine 错误|漏洞|
 |DIAGRAMNET-53019|在左下角绘制了额外的线|漏洞|
 |DIAGRAMNET-53033|单元格的值计算不正确|漏洞|

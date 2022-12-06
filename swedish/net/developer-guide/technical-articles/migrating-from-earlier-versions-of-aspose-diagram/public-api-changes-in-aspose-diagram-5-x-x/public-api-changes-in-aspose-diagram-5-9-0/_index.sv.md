@@ -9,7 +9,7 @@ url: /sv/net/public-api-changes-in-aspose-diagram-5-9-0/
 Det här dokumentet beskriver ändringar av Aspose.Diagram API från version 5.8.0 till 5.9.0, som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Diagram.
 
 {{% /alert %}} 
-## **Spara resulterande HTML i en ström**
+## **Spara resultatet HTML till en ström**
 Den nya Spara-metoden har lagts till i klassen Diagram. Det krävs två parametrar, strömobjektet och filformatet för att spara.
 Exempelkod:
 

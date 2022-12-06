@@ -6,7 +6,7 @@ url: /zh/net/configuring-fonts-for-rendering/
 ---
 ## **可能的使用场景**
 
-Aspose.Diagram API 提供了以图像格式呈现页面以及将它们转换为 PDF 和 XPS 格式的工具。为了最大限度地提高转换保真度，电子表格中使用的字体必须在操作系统的默认字体目录中可用。如果所需字体不存在，则 Aspose.Diagram API 将尝试用可用字体替换所需字体。
+Aspose.Diagram APIs provide the facility to render pages in image formats as well as convert them to PDF & XPS formats. In order to maximize the conversion fidelity, it is necessary that the fonts used in the spreadsheet should be available in the operating system's default font directory. In case the required fonts are not present then the Aspose.Diagram APIs will try to substitute the required fonts with the ones available.
 
 ## **字体选择**
 

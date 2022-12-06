@@ -13,7 +13,7 @@ url: /de/java/aspose-diagram-for-java-18-7-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50414|Fehlende Formen beim Konvertieren eines VST in SVG|Erweiterung|
+|DIAGRAMJAVA-50414|Fehlende Formen beim Konvertieren von VST in SVG|Erweiterung|
 |DIAGRAMJAVA-50603|Die VDX-Ausgabe meldet einen Fehler nach dem Rendern aus der VSD-Quelldatei|Erweiterung|
 |DIAGRAMJAVA-50604|Im Ausgabedokument sind einige Funktionen deaktiviert|Insekt|
 |DIAGRAMJAVA-50605|Nach dem Festlegen der Verlaufsfarbe ist ein Nullzeigerfehler aufgetreten|Insekt|

@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API ermöglicht es Entwicklern, eine Rautenform auf eine
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsVSDX.cs" >}}
 
 ## **Zeichnen Sie Diamant in SVG**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen einer Raute auf der Seite und das Speichern im SVG-Format. Das folgende Codebeispiel zeigt, wie ein Diamant in einer Visio-Zeichnung gezeichnet und im SVG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as SVG format. The code example below shows how to draw a diamond in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsSVG.cs" >}}
 
-## **Diamant im PDF zeichnen**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen einer Raute auf der Seite und das Speichern im PDF-Format. Das folgende Codebeispiel zeigt, wie ein Diamant in einer Visio-Zeichnung gezeichnet und im PDF-Format gespeichert wird.
+## **Zeichnen Sie Diamant in PDF**
+Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as PDF format. The code example below shows how to draw a diamond in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsPDF.cs" >}}
 
 ## **Zeichnen Sie Diamant in PNG**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen einer Raute auf der Seite und das Speichern im PNG-Format. Das folgende Codebeispiel zeigt, wie ein Diamant in einer Visio-Zeichnung gezeichnet und im PNG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as PNG format. The code example below shows how to draw a diamond in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsPNG.cs" >}}
 
-## **Diamant in HTML zeichnen**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, eine Raute in die Seite zu zeichnen und im HTML-Format zu speichern. Das folgende Codebeispiel zeigt, wie ein Diamant in einer Visio-Zeichnung gezeichnet und im HTML-Format gespeichert wird.
+## **Zeichnen Sie Diamant in HTML**
+Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as HTML format. The code example below shows how to draw a diamond in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsHTML.cs" >}}

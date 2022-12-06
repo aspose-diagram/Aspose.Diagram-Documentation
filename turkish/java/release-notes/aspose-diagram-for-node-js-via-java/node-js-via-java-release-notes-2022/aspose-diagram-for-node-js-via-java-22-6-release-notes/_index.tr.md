@@ -1,19 +1,19 @@
 ﻿---
-title: Java aracılığıyla Node.js için Aspose.Diagram 22.6 Sürüm Notları
+title: Node.js için Aspose.Diagram via Java 22.6 Sürüm Notları
 type: docs
 weight: 22
 url: /tr/java/aspose-diagram-for-node-js-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 22.6 aracılığıyla Node.js için Aspose.Diagram sürüm notları bilgilerini içerir.
+Bu sayfa, Node.js via Java 22.6 için Aspose.Diagram sürüm notları bilgilerini içerir.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: PNG'ye kaydettikten sonra şekil bozuk|Artırma|
+|DIAGRAMJAVA-50963|WK: PNG'e kaydedildikten sonra şekil bozuldu|Artırma|
 |DIAGRAMJAVA-50967|Yanal çizgi şeklini yeniden boyutlandırma [Devam]|Böcek|
 |DIAGRAMJAVA-50972|API dosyayı doğru şekilde ayrıştırmıyor|Böcek|
 |DIAGRAMJAVA-50974|Yeni bağlantı noktası ekleme sorunu|Böcek|

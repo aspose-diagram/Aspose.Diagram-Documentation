@@ -4,14 +4,14 @@ type: docs
 weight: 10
 url: /zh/net/save-vsd-file-to-different-file-formats/
 ---
-在这篇文章中，我们比较了Aspose.Diagram for .NET与VSTO的转换特性。它包含 .NET 代码示例，可将 VSD 文件转换为 VDX、PDF 和 JPEG 文件格式。
+In this article, we compare the conversion features of Aspose.Diagram for .NET with VSTO. It contains .NET code samples to convert VSD files to VDX, PDF, and JPEG file formats.
 ## **VSTO**
 VSTO 允许您使用 Microsoft Visio 文件进行编程。要将文件保存为其他格式：
 
 1. 创建一个 Visio 应用程序对象。
 1. 使应用程序对象不可见。
 1. 加载 diagram。
-1. 保存为 VDX、PDF 和 JPEG。
+1. Save to VDX, PDF, and JPEG.
 1. 退出 Visio 应用程序对象。
 
 {{< highlight "csharp" >}}
@@ -57,7 +57,7 @@ vsdApp.Quit();
 用Aspose.Diagram编程时，机器上不需要Microsoft Visio，可以独立于Microsoft Office自动化工作。下面的代码片段展示了如何：
 
 1. 加载一个 diagram。
-1. 将 diagram 保存为 VDX、PDF 和 JPEG。
+1. Save the diagram to VDX, PDF, and JPEG.
 
 {{< highlight "csharp" >}}
 

@@ -13,6 +13,6 @@ url: /ar/java/aspose-diagram-for-java-20-3-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50683|Visio إلى SVG - تخطيط شكل تالف في المخرجات|التعزيز|
+|DIAGRAMJAVA-50683|Visio إلى SVG - تخطيط الشكل تالف في الإخراج|التعزيز|
 |DIAGRAMJAVA-50684|دعم تنسيق أحرف visCaseAllCaps و visCaseInitialCaps في تصدير SVG|التعزيز|
 

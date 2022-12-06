@@ -15,12 +15,12 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.3](http
 |:- |:- |:- |
 |DIAGRAMNET-50930|Lägg till stöd för att hämta vanliga teckensnittskataloger på operativsystem|Förbättring|
 |DIAGRAMNET-51614|Få alla rekvisitavärden för en form|Förbättring|
-|DIAGRAMNET-50214|VSD till PDF-konvertering - Böjda linjer blir en rak linje|Insekt|
-|DIAGRAMNET-50240|VSD till PDF-konvertering - Fel layout av dynamiska kontakter|Insekt|
-|DIAGRAMNET-50703|VSDX till PDF-export - En dynamisk anslutning saknas|Insekt|
-|DIAGRAMNET-50704|VSD till PDF-export - Metatyper förvandlas till röriga symboler|Insekt|
-|DIAGRAMNET-51535|VSDM till SVG - Teckensnitt ändras från Sans till Serif i SVG|Insekt|
-|DIAGRAMNET-51574|VSDX till PNG - Vissa former renderas felaktigt i utdata-PNG|Insekt|
+|DIAGRAMNET-50214|VSD till PDF konvertering - Böjda linjer blir en rak linje|Insekt|
+|DIAGRAMNET-50240|VSD till PDF konvertering - Fel layout av dynamiska kontakter|Insekt|
+|DIAGRAMNET-50703|VSDX till PDF export - saknar en dynamisk anslutning|Insekt|
+|DIAGRAMNET-50704|VSD till PDF export - Metatyper förvandlas till röriga symboler|Insekt|
+|DIAGRAMNET-51535|VSDM till SVG - Teckensnittsändringar från Sans till Serif i SVG|Insekt|
+|DIAGRAMNET-51574|VSDX till PNG - Vissa former har gjorts felaktiga i utdata PNG|Insekt|
 |DIAGRAMNET-51608|Textomslutning fungerar inte som förväntat|Insekt|
 |DIAGRAMNET-51609|Former flyttas till vänster sida när Diagram kopieras till PowerPoint Slide|Insekt|
 |DIAGRAMNET-51617|Visio till PDF - Externa datadrivna värden visas inte korrekt|Insekt|

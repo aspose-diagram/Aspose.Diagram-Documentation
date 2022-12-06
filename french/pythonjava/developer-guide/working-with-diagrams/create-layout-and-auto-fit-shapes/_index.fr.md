@@ -5,7 +5,7 @@ weight: 10
 url: /fr/python-java/create-layout-and-auto-fit-shapes/
 ---
 ## **Création d'un Diagram**
- Aspose.Diagram pour Python via Java vous permet de lire et de créer des diagrammes Microsoft Visio à partir de vos propres applications, sans Microsoft Office Automation. La première étape lors de la création de nouveaux documents, est de créer un diagram. Ensuite[ajouter des formes et des connecteurs](/diagram/fr/python-java/add-and-connect-visio-shapes/) pour construire le diagram. Utilisez le constructeur par défaut de la classe Diagram pour créer un nouveau diagram.
+Aspose.Diagram for Python via Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [ajouter des formes et des connecteurs](/diagram/fr/python-java/add-and-connect-visio-shapes/) pour construire le diagram. Utilisez le constructeur par défaut de la classe Diagram pour créer un nouveau diagram.
 ### **Exemple de programmation**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
 ## **Formes de mise en page dans le style d'organigramme**
@@ -55,7 +55,7 @@ Pour disposer des formes dans le style d'arborescence compacte :
 ## **Ajustement automatique du Visio Diagram**
 Aspose.Diagram API prend en charge l'ajustement automatique du dessin Visio. Cette opération de fonctionnalité permet d'amener des formes extérieures à l'intérieur de la limite de page Visio.
 
-Aspose.Diagram pour Python via Java API a la classe Diagram qui représente un dessin Visio. La classe DiagramSaveOptions expose la propriété AutoFitPageToDrawingContent pour ajuster automatiquement le dessin Visio.
+Aspose.Diagram for Python via Java API has the Diagram class that represents a Visio drawing. The DiagramSaveOptions class exposes AutoFitPageToDrawingContent property to auto fit the Visio drawing.
 
 Cet exemple fonctionne comme suit :
 
@@ -69,7 +69,7 @@ L'exemple de code suivant montre comment ajuster automatiquement les formes dans
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
 ## **Travailler avec le projet VBA**
 ### **Modifier le code du module VBA dans Visio Diagram**
-Cet article montre comment modifier automatiquement un code de module VBA en utilisant Aspose.Diagram pour Python via Java.
+This article demonstrates how to modify a VBA module code automatically using Aspose.Diagram for Python via Java.
 
 Nous avons ajouté les classes VbaModule, VbaModuleCollection, VbaProject, VbaProjectReference et VbaProjectReferenceCollection. Ces classes aident à prendre le contrôle du projet VBA. Les développeurs peuvent extraire et modifier le code du module VBA.
 ### **Modifier l'exemple de programmation de code de module VBA**
@@ -77,7 +77,7 @@ Veuillez vérifier cet exemple de code :
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
 ### **Supprimer toutes les macros du Visio Diagram**
-Aspose.Diagram pour Python via Java permet aux développeurs de supprimer toutes les macros du Visio diagram.
+Aspose.Diagram for Python via Java allows developers to remove all macros from the Visio diagram.
 
 La propriété JavaProjectData, exposée par la classe Diagram, vous permet de supprimer toutes les macros du dessin Visio.
 ### **Exemple de programmation de suppression de toutes les macros**

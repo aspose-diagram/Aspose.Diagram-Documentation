@@ -13,7 +13,7 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: forma distorta dopo il salvataggio in PNG|Aumento|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|Aumento|
 |DIAGRAMJAVA-51015|wk: nome della forma in una lingua diversa dall'inglese|Insetto|
 |DIAGRAMJAVA-51020|wk: il nome della forma del foglio con un livello non viene risolto correttamente|Insetto|
 

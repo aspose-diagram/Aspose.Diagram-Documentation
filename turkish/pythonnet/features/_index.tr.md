@@ -4,20 +4,20 @@ type: docs
 weight: 5
 url: /tr/python-net/features/
 keywords: python, visio, api, feature
-description: Aspose.Diagram for Python via .NET features
+description: Python via .NET özellikleri için Aspose.Diagram
 ---
 {{% alert color="primary" %}} 
 
-Bu sayfa Aspose.Diagram'i Python üzerinden .NET özellikleri için özetlemektedir.
+Bu sayfa Aspose.Diagram için Python via .NET özelliklerini özetlemektedir.
 
 {{% /alert %}} 
 ## **Dosya Biçimleri ve Dönüşümler**
-- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim formatları.
+- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF, and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 ## **Oluşturma ve Yazdırma**
 - Sayfaları vektör görüntülere dönüştür (EMF)
-- Sayfaları raster görüntülere dönüştür (Çok Sayfalı TIFF, GIF)
+- Sayfaları raster görüntülere dönüştür (Multipage TIFF, GIF)
 - Sayfaları raster görüntülere dönüştürün (PNG, JPEG, vb.)
-- Sayfaları yüksek doğrulukla PDF'ye dönüştürün
+- Sayfaları yüksek doğrulukla PDF olarak oluşturun
 ## **Visio İçerik Özellikleri**
 - Diyagramlar içinde veya diyagramlar arasında sayfaları kopyalama veya taşıma
 - API kullanarak resimleri ekleyin

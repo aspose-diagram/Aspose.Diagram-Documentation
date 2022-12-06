@@ -13,9 +13,9 @@ url: /ar/net/aspose-diagram-for-net-18-12-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMNET-50663|API الاسم لا يظهر مرة أخرى في حقل PDF Producer / Creator أثناء إنشاء PDF من الرسوم البيانية VISIO|التعزيز|
+|DIAGRAMNET-50663|API الاسم لا يظهر مرة أخرى PDF حقل المنتج / المنشئ أثناء توليد PDF من الرسوم البيانية VISIO|التعزيز|
 |DIAGRAMNET-51590|ينشئ Shape.ToImage صورًا غير صحيحة لبعض أشكال المخطط الزمني والتقويم|التعزيز|
-|DIAGRAMNET-51556|تصدير VST إلى PDF - يحتوي ملف PDF الناتج على صفحتين فارغتين|حشرة|
+|DIAGRAMNET-51556|تصدير VST إلى PDF - الناتج PDF به صفحتان فارغتان|حشرة|
 |DIAGRAMNET-51582|VSDX إلى PDF - لون النص غير صحيح في الإخراج|حشرة|
 |DIAGRAMNET-51583|الأشكال تخرج من حدود الصفحة|حشرة|
 |DIAGRAMNET-51584|VSD إلى PNG / GIF - المعلمة غير صالحة|حشرة|
@@ -23,6 +23,6 @@ url: /ar/net/aspose-diagram-for-net-18-12-release-notes/
 |DIAGRAMNET-51586|فشل تحميل الملف Visio|حشرة|
 |DIAGRAMNET-51587|الرقم أقل من الحد الأدنى|حشرة|
 |DIAGRAMNET-51588|الفهرس خارج الحدود تحميل Visio|حشرة|
-|DIAGRAMNET-51591|Visio إلى PDF - الأشكال المفقودة في PDF الناتج|حشرة|
-|DIAGRAMNET-51593|Visio إلى PDF - أشكال غير صحيحة في إخراج PDF|حشرة|
+|DIAGRAMNET-51591|Visio إلى PDF - الأشكال المفقودة في الإخراج PDF|حشرة|
+|DIAGRAMNET-51593|Visio إلى PDF - أشكال غير صحيحة في الإخراج PDF|حشرة|
 

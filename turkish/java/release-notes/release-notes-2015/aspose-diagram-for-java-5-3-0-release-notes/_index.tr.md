@@ -9,12 +9,12 @@ Aspose.Diagram for Java'in bu sürümündeki değişikliklerin listesi aşağıd
 ## **Hatalar**
 (DIAGRAMJAVA-50074) - VSD'den PDF'e dönüştürme, şekil metninin metin-yazı tipi ve altı çizili efekti değiştirildi
 
-(DIAGRAMJAVA-50099) - VSD'den PDF'ye dönüştürme sırasında başlık şeklinde yanlış tarih biçimi
+(DIAGRAMJAVA-50099) - VSD - PDF dönüşümü sırasında başlık şeklinde yanlış tarih biçimi
 
 (DIAGRAMJAVA-50153) - VSD - VDX dönüştürme, Geçersiz XML hatası oluştu
 
-(DIAGRAMJAVA-50155) - VSDX'den SVG'ye dönüştürme, köprülerin yanlış oluşturulması
+(DIAGRAMJAVA-50155) - VSDX'den SVG'e dönüştürme, köprülerin hatalı oluşturulması
 
 (DIAGRAMJAVA-50156) - Java ZIP Paketinden Örnek Panoyu Kaldır
 
-(DIAGRAMJAVA-50159) - VST'den VDX'e dönüştürme, makro modülleri korunmaz
+(DIAGRAMJAVA-50159) - VST - VDX dönüştürme, makro modülleri korunmaz

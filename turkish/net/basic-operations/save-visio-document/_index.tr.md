@@ -12,7 +12,7 @@ description: Bu sayfada Visio belgesinin dosyaya nasıl kaydedileceği, Aspose.D
  Aspose.Diagram API'in Diagram sınıfı, bir Visio çizimini temsil eder ve geliştiriciler, Visio diagram nesnesini desteklenen herhangi bir dosya biçiminde kaydedebilir. Microsoft Visio dosyasını kaydetmek için[Diagram.Save]()yönteminde, tam yolu olan bir dosya adını veya bir dosya akış nesnesini kabul eder. Aspose.Diagram API, dosya uzantısından kaydetme biçimini çıkarır ve ayrıca çıktı dosyası biçimini belirtmek için ek bir SaveFileFormat parametresi sunar.
 ### **Visio Diagram'i herhangi bir Desteklenen Dosya Formatında kaydedin**
 Geliştiriciler, Aspose.Diagram API'i kullanarak bir Visio diagram'i aşağıda listelenen desteklenen herhangi bir dosya biçiminde kaydedebilir:
-**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, XVG, SWG, SW**
+**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF and XAML**
 ### **Diagram Programlama Örneği kaydediliyor**
 Aşağıdaki örnek, bir belgeyi bir dosyaya kaydeder.
 
@@ -49,7 +49,7 @@ Aşağıdaki kod, bir belgeyi PDF biçiminde kaydetmeden önce kaydetme seçenek
 
 
 #### **HTML Kaydetme Seçeneklerinin Kullanımı**
-Aşağıdaki kod, bir belgeyi HTML dosya biçimine kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+Aşağıdaki kod, bir belgeyi HTML dosya biçiminde kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseHTMLSaveOptions-UseHTMLSaveOptions.cs" >}}
 
@@ -76,9 +76,9 @@ Aşağıdaki kod, bir belgeyi SWF biçiminde kaydetmeden önce kaydetme seçenek
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseSWFSaveOptions-UseSWFSaveOptions.cs" >}}
 
-Bazen, geliştiricilerin Visio diyagramlarını programlı olarak farklı dosya biçimlerine (VDX, PDF, JPEG vb.) kaydetmesi veya dışa aktarması gerekir.
+Bazen, geliştiricilerin Visio diyagramlarını programlı olarak farklı dosya biçimlerine kaydetmesi veya dışa aktarması gerekir (VDX, PDF, JPEG vb.).
 ## **VSD dosyasını farklı dosya biçimlerine kaydedin (VDX, PDF ve JPEG)**
- Bu makale, nasıl kullanılacağını gösteren bir kod örneği sağlar.[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/) ve[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) Microsoft Visio VSD dosyasını VDX dosyasına, PDF dosyasına veya bir JPEG dosyasına programlı olarak kaydetmek için. Aşağıda, bir VSD dosyasının farklı dosya biçimlerine nasıl kaydedileceğini açıklayan VSTO ve Aspose.Diagram for .NET için paralel kod parçacıkları bulunmaktadır. Aspose.Diagram kodunun daha kısa olduğunu fark edeceksiniz. Kodu kullanmaktan ve özel ihtiyaçlarınızı karşılamak için değiştirmekten çekinmeyin.
+ Bu makale, nasıl kullanılacağını gösteren bir kod örneği sağlar.[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/) ve[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) Microsoft Visio VSD dosyasını VDX dosyasına, PDF dosyasına veya JPEG dosyasına programlı olarak kaydetmek için. Aşağıda, bir VSD dosyasının farklı dosya biçimlerine nasıl kaydedileceğini açıklayan VSTO ve Aspose.Diagram for .NET için paralel kod parçacıkları bulunmaktadır. Aspose.Diagram kodunun daha kısa olduğunu fark edeceksiniz. Kodu kullanmaktan ve özel ihtiyaçlarınızı karşılamak için değiştirmekten çekinmeyin.
 ### **VSD Dosyasını VSTO ile Diğer Formatlara Kaydetme**
 VSTO, Microsoft Visio dosyalarıyla programlama yapmanızı sağlar. Bir dosyayı başka formatlara kaydetmek için:
 
@@ -104,7 +104,7 @@ Aspose.Diagram kullanarak geliştiriciler makinede Microsoft Office Visio'e ihti
 Aşağıdaki kod parçacıkları şunların nasıl yapıldığını gösterir:
 
 1. diagram yükleyin.
-1. diagram'i VSX, PDF ve JPEG olarak kaydedin.
+1. diagram'i VSX, PDF ve JPEG'e kaydedin.
 #### **VSD Dosyasını Aspose.Diagram for .NET Programlama Örneği ile Kaydetme**
 {{% alert color="primary" %}} 
 

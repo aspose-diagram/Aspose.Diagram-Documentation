@@ -4,7 +4,7 @@ linktitle: 将 Visio 转换为图像
 type: docs
 weight: 20
 url: /zh/net/convert-visio-to-image/
-description: 本主题向您展示如何将 Aspose.Diagram 允许将 Visio 转换为各种图像格式。使用几行代码将 Visio、VSD、VSS、VDW、VST、VSDX、VSSX、VSTX、VSDM、VSTM、VSSM 转换为 PNG、JPEG、BMP 图像。
+description: This topic show you how to Aspose.Diagram allows to convert Visio to various images formats. Convert Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to PNG, JPEG, BMP images with a few lines of code.
 ---
 ## **将图表导出为图像文件格式**
 本文介绍了如何使用 将 Microsoft Visio diagram 导出到图像[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)API. 使用[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)类构造函数读取 diagram 文件和 Save 方法将 diagram 导出为任何支持的图像格式。

@@ -15,11 +15,11 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |:- |:- |:- |
 |DIAGRAMNET-52007|Prestazioni durante l'inizializzazione di un oggetto diagram|Aumento|
 |DIAGRAMNET-52008|Prestazioni durante l'inizializzazione di un oggetto diagram|Aumento|
-|DIAGRAMNET-52027|La qualità delle forme non è buona nel file SVG esportato|Aumento|
-|DIAGRAMNET-52033|Problema di salvataggio delle forme in HTML|Insetto|
+|DIAGRAMNET-52027|Quality of shapes is not good in exported SVG file|Aumento|
+|DIAGRAMNET-52033|Saving shapes to HTML problem|Insetto|
 |DIAGRAMNET-52035|"Senza eccezioni." eccezione quando si apre il file VSDX|Insetto|
 |DIAGRAMNET-52041|Impossibile salvare alcune forme dal file VSS|Insetto|
-|DIAGRAMNET-52042|"Parametro non valido." eccezione durante il rendering del file VSD in HTML|Insetto|
+|DIAGRAMNET-52042|"Parameter is not valid." exception when rendering VSD file to HTML|Insetto|
 |DIAGRAMNET-52043|"Il riferimento non impostato su un'istanza di un oggetto." eccezione durante il salvataggio della forma dal file VSSX|Insetto|
 
 ## **Public API e modifiche incompatibili con le versioni precedenti**

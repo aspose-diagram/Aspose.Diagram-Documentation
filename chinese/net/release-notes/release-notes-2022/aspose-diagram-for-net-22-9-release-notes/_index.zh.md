@@ -15,10 +15,10 @@ url: /zh/net/aspose-diagram-for-net-22-9-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52969|vsdx 文件到 svg - 框中的所有文本都超过了框线。|强化|
 |DIAGRAMNET-52974|规则集未出现在 diagram 验证数据中|强化|
-|DIAGRAMNET-52951|导出为 HTML 后结果不正确|漏洞|
+|DIAGRAMNET-52951|Incorrect result after export to HTML|漏洞|
 |DIAGRAMNET-52958|App:存vsd到Vsdx效果不对|漏洞|
-|DIAGRAMNET-52964|HTML 中的图像质量|漏洞|
-|DIAGRAMNET-52965|HTML 输出中的问题|漏洞|
+|DIAGRAMNET-52964|Image quality in HTML|漏洞|
+|DIAGRAMNET-52965|Issue in HTML output|漏洞|
 |DIAGRAMNET-52972|作为值返回的空属性|漏洞|
 
 ## **公共 API 和向后不兼容的更改**

@@ -18,8 +18,8 @@ Bu sayfa Aspose.Diagram for .NET 22.11 için sürüm notları bilgilerini içeri
 |DIAGRAMNET-53024|Formül alanı yenilenmiyor|Artırma|
 |DIAGRAMNET-53009|vsdx'den svg kayıp görüntüye görüşme|Artırma|
 |DIAGRAMNET-53010|Uygulama:vsdx'i kayıp şekilleri PDF'ye kaydetme|Böcek|
-|DIAGRAMNET-53013|Visio'den SVG'ye - Özel çizgi desenleri|Böcek|
-|DIAGRAMNET-53017|VSD HTML'sindeki bağlantılı alan 22.10.0.0 sürümüne değiştirildi|Böcek|
+|DIAGRAMNET-53013|Visio - SVG - Özel çizgi desenleri|Böcek|
+|DIAGRAMNET-53017|VSD'in HTML'indeki bağlantılı alan 22.10.0.0 sürümüne değiştirildi|Böcek|
 |DIAGRAMNET-53018|Paras.SpLine ile ilgili hata|Böcek|
 |DIAGRAMNET-53019|sol altta fazladan çizgi çizilir|Böcek|
 |DIAGRAMNET-53033|Hücrelerin değerleri düzgün hesaplanmamış|Böcek|

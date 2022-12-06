@@ -23,9 +23,9 @@ url: /zh/net/aspose-diagram-net-for-vsto/
     - [如何配置源代码](#Aspose.Diagram.NETforVSTO-Howtoconfigurethesourcecode)
 - [示例代码示例](#Aspose.Diagram.NETforVSTO-SampleCodeExamples)
 # **什么是VSTO？**
-VSTO, or Visual Studio Tools for Office, or Microsoft Visual Studio Tools是Microsoft的Visual Studio .NET工具套件的一部分，支持Microsoft .NET Framework。开发者用它编写代码连接Microsoft Office Word和Excel应用程序。使用 VSTO 的开发人员可以使用 C# 或 Visual Basic 语言。它是 Visual Basic for Applications 或 VBA 的替代品。
+VSTO, or Visual Studio Tools for Office, or Microsoft Visual Studio Tools is part of Microsoft's Visual Studio .NET tools suite and supports the Microsoft .NET Framework. It is used by developers to write code connecting Microsoft Office Word, Excel and Outlook applications. Developers using VSTO can employ C# or Visual Basic languages. It is an alternative to Visual Basic for Applications, or VBA.
 # **.Net 的 Aspose.Diagram**
-Aspose.Diagram 是用于处理 Microsoft Visio 文件的类库。它允许开发人员在 C#、VB.NET、ASP.NET Web 应用程序、Web 服务、0761113488112 和 0471113461112.3它允许您打开文件并操作 diagram 的元素，从线条和填充到更复杂的元素，然后导出为 VDX、VSX、VTX、XPS、HTML、SVG、SWF、XAML、图像或 PDF 格式。
+Aspose.Diagram is a class library for working with Microsoft Visio files. It allows developers to work with VSD, VSDX, VSS, VST, VSX, VTX, VDW and VDX files on C#, VB.NET, ASP.NET web applications, web services, Mono and Windows applications. It allows you to open files and manipulate the elements of the diagram, from lines and fills, to more complex elements, and then export to VDX, VSX, VTX, XPS, HTML, SVG, SWF, XAML, image or PDF formats.
 # **Aspose.Diagram 用于 VSTO**
 ## **介绍**
 寻找文件格式库的开发人员可能需要浏览市场上可用的库提供的功能。选择选项时主要考虑两个因素：
@@ -33,15 +33,15 @@ Aspose.Diagram 是用于处理 Microsoft Visio 文件的类库。它允许开发
 - 特征
 - 使用图书馆所需的努力
 
-如果您是 .NET 开发人员，正在寻找更快、更简单和轻量级的文件格式库来处理文件，您可能需要将 VSTO（Visual Studio 工具，用于 Office）与 Aspose 进行比较。在这种情况下，此项目将帮助您比较功能和两个库中的代码。
+If you are a .NET developer looking for faster,easy and light-weight file format library to process files, you may need to compare VSTO(Visual Studio tool for Office) with Aspose. In this case, this project will help you to compare features and code in both libraries.
 ## **系统要求和支持的平台**
 ### **系统要求**
-适用于 Office 的以下一个或多个 Visual Studio Tools 版本：
+One or more of the following editions of Visual Studio Tools for Office:
 
-- Microsoft 用于 Microsoft Office 系统的 Visual Studio 2005 工具
+- Microsoft Visual Studio 2005 Tools for the Microsoft Office System
 - Microsoft Visual Studio 2005 Tools for the 2007 Microsoft Office System
-- Visual Studio 2008 专业版
-- Visual Studio 2008 团队套件版
+- Visual Studio 2008 Professional Edition
+- Visual Studio 2008 Team Suite Edition
 - 一个版本Microsoft Office：
 - Microsoft Office 专业版 2003 SP1
 - 2007 Microsoft Office系统
@@ -81,7 +81,7 @@ Aspose.Diagram for .Net 和 VSTO 源代码的比较代码可在下面列出的�
 请按照这些简单的步骤开始
 
 - 下载/克隆源代码。
-- 打开 Visual Studio 2010 并选择“文件”>“打开项目”。
+- Open Visual Studio 2010 and Choose File > Open Project.
 - 浏览到您下载的最新源代码并打开 .sln 文件。
 # **示例代码示例**
 本节包括以下主题

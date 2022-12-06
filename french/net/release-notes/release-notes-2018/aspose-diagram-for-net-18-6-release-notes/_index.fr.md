@@ -13,21 +13,21 @@ url: /fr/net/aspose-diagram-for-net-18-6-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51457|Ajouter la prise en charge du noyau .NET|Renforcement|
-|DIAGRAMNET-50198|Conversion VSD en PDF, l'image du réservoir n'a pas les structures internes en ligne droite|Punaise|
-|DIAGRAMNET-50205|Conversion VSD en PDF, remplissage dégradé horizontal au lieu du centre|Punaise|
-|DIAGRAMNET-50651|VSD à l'exportation SVG, la sortie de la page au format SVG devient floue|Punaise|
-|DIAGRAMNET-50666|VSDX vers export PDF - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMNET-50667|VSDX vers export HTML - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMNET-50668|VSDX vers export XPS - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMNET-50669|VSDX vers export JPEG - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMNET-50670|VSDX vers export PNG - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMNET-50671|VSDX vers export SVG - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMNET-50706|VSDX vers exportation PDF - des rectangles de couleur verte sont ajoutés|Punaise|
-|DIAGRAMNET-50707|VSDX vers exportation PDF - la couleur de la police du texte de la forme est modifiée|Punaise|
-|DIAGRAMNET-50708|VSDX vers exportation PDF - le texte de la forme est manquant|Punaise|
-|DIAGRAMNET-51041|Les lignes de couleur noires ne sont pas visibles lors de la conversion d'un VSD en SVG|Punaise|
+|DIAGRAMNET-51457|Add Support of .NET Core|Renforcement|
+|DIAGRAMNET-50198|VSD to PDF conversion, tank image doesn't have the internal straight line structures|Punaise|
+|DIAGRAMNET-50205|VSD to PDF conversion, horizontal gradient fill instead of center|Punaise|
+|DIAGRAMNET-50651|VSD to SVG export, the page output in SVG format is coming blurred|Punaise|
+|DIAGRAMNET-50666|VSDX to PDF export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMNET-50667|VSDX to HTML export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMNET-50668|VSDX to XPS export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMNET-50669|VSDX to JPEG export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMNET-50670|VSDX to PNG export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMNET-50671|VSDX to SVG export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMNET-50706|VSDX to PDF export - green color rectangles are added|Punaise|
+|DIAGRAMNET-50707|VSDX to PDF export - the font color of the shape text is changed|Punaise|
+|DIAGRAMNET-50708|VSDX to PDF export - the shape text is missing|Punaise|
+|DIAGRAMNET-51041|The black color lines are not visible on converting a VSD to SVG|Punaise|
 |DIAGRAMNET-51466|Connecteur manquant dans Diagram|Punaise|
-|DIAGRAMNET-51468|VSDX en PNG - l'espace vertical des mots est manquant|Punaise|
+|DIAGRAMNET-51468|VSDX to PNG - the vertical space of words is missing|Punaise|
 |DIAGRAMNET-51469|Sortie VSDX - rendu incorrect du texte|Punaise|
 

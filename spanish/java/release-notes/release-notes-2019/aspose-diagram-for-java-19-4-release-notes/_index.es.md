@@ -14,10 +14,10 @@ Esta página contiene notas de la versión para[Aspose.Diagram for Java 19.4](ht
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50648|Problema al agregar conexiones con una forma especial|Mejora|
-|DIAGRAMJAVA-50278|Exportación de VST a PNG: el problema de las formas que faltan|Insecto|
-|DIAGRAMJAVA-50279|Exportación de VST a JPG: el problema de las formas que faltan|Insecto|
-|DIAGRAMJAVA-50280|Exportación de VST a GIF: el problema de las formas que faltan|Insecto|
-|DIAGRAMJAVA-50302|VSD a exportación PNG: las formas de metatipo se convierten en símbolos desordenados|Insecto|
-|DIAGRAMJAVA-50303|VSD a exportación PNG: las formas de metatipo se convierten en símbolos desordenados|Insecto|
+|DIAGRAMJAVA-50278|VST to PNG export - The missing shapes problem|Insecto|
+|DIAGRAMJAVA-50279|VST to JPG export - The missing shapes problem|Insecto|
+|DIAGRAMJAVA-50280|VST to GIF export - The missing shapes problem|Insecto|
+|DIAGRAMJAVA-50302|VSD to PNG export - Meta type shapes turn into messy symbols|Insecto|
+|DIAGRAMJAVA-50303|VSD to PNG export - Meta type shapes turn into messy symbols|Insecto|
 |DIAGRAMJAVA-50319|VSDX a la lectura le falta el valor de color de varias formas|Insecto|
 

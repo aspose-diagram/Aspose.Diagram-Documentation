@@ -15,25 +15,25 @@ url: /zh/net/aspose-diagram-for-net-18-4-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51441|输出 VSDX - 无法复制形状|强化|
 |DIAGRAMNET-51445|无法从另一个 VSDX 绘图复制形状|强化|
-|DIAGRAMNET-50475|VSD 转PDF，日期年份字符错位|漏洞|
-|DIAGRAMNET-50476|VSD 到PDF转换，数字列表项没有正确对齐|漏洞|
-|DIAGRAMNET-50477|VSD 到PDF转换，数字列表项没有正确对齐|漏洞|
-|DIAGRAMNET-50481|VSD 转换成HTML，列表项错位|漏洞|
-|DIAGRAMNET-50482|VSD 到HTML转换，日期年份字符错位|漏洞|
-|DIAGRAMNET-50483|VSD 转换为HTML，表格列值错位|漏洞|
-|DIAGRAMNET-50484|VSD 到 HTML 转换，数字列表项没有正确对齐|漏洞|
-|DIAGRAMNET-50485|VSD 到 HTML 转换，数字列表项没有正确对齐|漏洞|
-|DIAGRAMNET-50486|VSD 转PDF，值之间的斜杠字符错位|漏洞|
-|DIAGRAMNET-51112|将 VDX 转换为 EMF 时梯形未正确呈现|漏洞|
-|DIAGRAMNET-51113|将 VDX 转换为 EMF 时，圆圈的文本放错了位置|漏洞|
+|DIAGRAMNET-50475|VSD to PDF conversion, the date year characters are misplaced|漏洞|
+|DIAGRAMNET-50476|VSD to PDF conversion, the number list items are not properly aligned|漏洞|
+|DIAGRAMNET-50477|VSD to PDF conversion, the number list items are not properly aligned|漏洞|
+|DIAGRAMNET-50481|VSD to HTML conversion, the list items are misplaced|漏洞|
+|DIAGRAMNET-50482|VSD to HTML conversion, the date year characters are misplaced|漏洞|
+|DIAGRAMNET-50483|VSD to HTML conversion, the table column values are misplaced|漏洞|
+|DIAGRAMNET-50484|VSD to HTML conversion, the number list items are not properly aligned|漏洞|
+|DIAGRAMNET-50485|VSD to HTML conversion, the number list items are not properly aligned|漏洞|
+|DIAGRAMNET-50486|VSD to PDF conversion, slash character between the value is misplaced|漏洞|
+|DIAGRAMNET-51112|Trapezoid shapes are not being rendered properly on converting a VDX to EMF|漏洞|
+|DIAGRAMNET-51113|The text of the circles is misplaced on converting a VDX to EMF|漏洞|
 |DIAGRAMNET-51434|输出 VSDX - 形状的左右两端是气球状的|漏洞|
 |DIAGRAMNET-51435|无法从 VSDX 绘图中检索所有形状名称|漏洞|
 |DIAGRAMNET-51436|VSDX - 无法检索单元格值|漏洞|
-|DIAGRAMNET-51437|VSDX 到 PNG - 上标文本错位|漏洞|
-|DIAGRAMNET-51438|VSDX 到 SVG - 上标文本错位|漏洞|
-|DIAGRAMNET-51439|VSDX 到 PNG - 在形状的文本中添加换行符|漏洞|
+|DIAGRAMNET-51437|VSDX to PNG - the superscript text is misplaced|漏洞|
+|DIAGRAMNET-51438|VSDX to SVG - the superscript text is misplaced|漏洞|
+|DIAGRAMNET-51439|VSDX to PNG - the line break is added in the text of shape|漏洞|
 |DIAGRAMNET-51440|输出 VSDX - Diagram.Save 在调用 CopyTheme 方法后抛出错误|漏洞|
 |DIAGRAMNET-51443|VSDX 绘图打开和保存例程删除日期时间字段|漏洞|
 |DIAGRAMNET-51444|从 diagram 删除 master 时出错|漏洞|
-|DIAGRAMNET-51449|VSD 到 PNG - 缺少形状的顶部绿色|漏洞|
+|DIAGRAMNET-51449|VSD to PNG - the top green color of the shape is missing|漏洞|
 

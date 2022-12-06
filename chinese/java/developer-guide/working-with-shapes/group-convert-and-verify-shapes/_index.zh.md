@@ -25,7 +25,7 @@ ShapeCollection 类公开的 Group 方法可用于将形状组合在一起。
 ## **将 Visio 形状转换为其他文件格式**
 Aspose.Diagram for Java API 允许开发人员将单个 Visio 形状转换为任何其他支持的文件格式。在本文中，我们从页面中删除所有其他 Visio 形状，并根据源形状大小自定义页面设置。
 ### **转换特定的 Visio 形状**
-开发人员可以将 Visio 形状转换为 PDF、HTML、图像、SVG 和 SWF，方法是[指定 Visio 保存选项]().
+Developers can convert a Visio shape to PDF, HTML, Image, SVG, and SWF by [指定 Visio 保存选项]().
 此示例代码的工作方式如下：
 
 1. 加载源 Visio。
@@ -38,8 +38,8 @@ Aspose.Diagram for Java API 允许开发人员将单个 Visio 形状转换为任
 1. 以任何支持的文件格式保存 Visio 页面。
 #### **转换形状编程示例**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
-### **将 Visio 形状转换为 PDF**
-Shape 类的 ToPdf 方法允许将形状转换为 PDF 格式。
+### **Convert Visio Shape to PDF**
+The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -52,8 +52,8 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **将 Visio 形状转换为 HTML**
-Shape 类的 ToHTML 方法允许将形状转换为 HTML 格式。
+### **Convert Visio Shape to HTML**
+The ToHTML method of the Shape class allows to convert a shape into the HTML format.
 
 {{< highlight "java" >}}
 

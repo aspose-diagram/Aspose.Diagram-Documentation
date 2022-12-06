@@ -15,19 +15,19 @@ url: /tr/java/aspose-diagram-for-java-16-12-0-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50438|Visio Çizim sayfasında şekiller ikinci kez gruplandırılamıyor.|Artırma|
 |DIAGRAMJAVA-50445|Linux Sistemlerinde bir VSDM çiziminin düzenlenmesi nedeniyle VBA başlatılamıyor.|Artırma|
-|DIAGRAMJAVA-50434|VSD'den PDF'e dışa aktarma - çizimin sol tarafında fazladan boşluk oluşturulur.|Böcek|
-|DIAGRAMJAVA-50435|VSD'den HTML'ye dışa aktarma - çizimin sol tarafında fazladan boşluk oluşturulur.|Böcek|
-|DIAGRAMJAVA-50436|VSD'den SVG dışa aktarmaya - kapsayıcının arka plan rengi siyaha döner.|Böcek|
+|DIAGRAMJAVA-50434|VSD ila PDF dışa aktarma - çizimin sol tarafında fazladan boşluk oluşturulur.|Böcek|
+|DIAGRAMJAVA-50435|VSD ila HTML dışa aktarma - çizimin sol tarafında fazladan boşluk oluşturulur.|Böcek|
+|DIAGRAMJAVA-50436|VSD ila SVG dışa aktarma - kapsayıcının arka plan rengi siyaha döner.|Böcek|
 |DIAGRAMJAVA-50439|VSDM'de dairesel şekiller eklendiğinde grup şekli görünmez hale gelir.|Böcek|
 |DIAGRAMJAVA-50440|Page.AddShape yöntemi, dinamik bağlayıcı eklenirken geçersiz bir hata gösteriyor.|Böcek|
-|DIAGRAMJAVA-50441|VSDM'i PDF'ye dışa aktarırken şekil metninde ek Satır sonu ve mesafe.|Böcek|
-|DIAGRAMJAVA-50442|Bir VSDM'i PDF'ye dışa aktarırken şekillerin metni orta konumda değil.|Böcek|
+|DIAGRAMJAVA-50441|VSDM'den PDF'e dışa aktarmada şekil metninde ek Satır sonu ve mesafe.|Böcek|
+|DIAGRAMJAVA-50442|Bir VSDM'den PDF'e dışa aktarılırken şekillerin metni orta konumda değil.|Böcek|
 |DIAGRAMJAVA-50443|VSDM çiziminin düzenlenmesi, Linux Sistemlerinde bir VBA modülünü ortadan kaldırır.|Böcek|
 |DIAGRAMJAVA-50444|VSDM çiziminin düzenlenmesi, Linux Sistemlerinde yanlış kod sözdizimi hatası gösteriyor.|Böcek|
 |DIAGRAMJAVA-50448|Bir VSDX açma ve kaydetme yordamı ek bir metin içerir.|Böcek|
 |DIAGRAMJAVA-50449|Bir şekil metni, sahte karakterlere dönüştürülüyor.|Böcek|
 |DIAGRAMJAVA-50451|VSDM çıktısında bir grup şeklinin yanlış yeniden boyutlandırılması.|Böcek|
-|DIAGRAMJAVA-50452|PDF biçiminde kaydederken şekillerin yanlış metin konumu.|Böcek|
+|DIAGRAMJAVA-50452|PDF biçiminde kaydetme sırasında şekillerin yanlış metin konumu.|Böcek|
 |DIAGRAMJAVA-50453|VSDM'i PDF biçiminde kaydederken yanlış yazı tipi boyutu.|Böcek|
 |DIAGRAMJAVA-50454|Bir VSD sayfası SVG'lere dönüştürülürken metin öğeleri çakışıyor.|Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

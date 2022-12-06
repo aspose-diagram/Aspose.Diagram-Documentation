@@ -4,20 +4,20 @@ type: docs
 weight: 5
 url: /ar/python-net/features/
 keywords: python, visio, api, feature
-description: Aspose.Diagram لـ Python عبر ميزات .NET
+description: Aspose.Diagram لـ Python via .NET ميزات
 ---
 {{% alert color="primary" %}} 
 
-تلخص هذه الصفحة Aspose.Diagram لـ Python عبر ميزات .NET.
+تلخص هذه الصفحة Aspose.Diagram لـ Python via .NET الميزات.
 
 {{% /alert %}} 
 ## **تنسيقات الملفات والتحويلات**
-- VSD ، VSX،VTX ، VDX ، VSDX ، VSTX ، VSSX ، VSTM ، VSSM ، HTML ، XPS ، PDF ، وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+- VSD ، VSX،VTX ، VDX ، VSDX ، VSTX ، VSSX ، VSTM ، VSSM ، HTML ، XPS ، PDF ، وتنسيقات الصور الشائعة ، بما في ذلك 07481123481 ، PDF ،
 ## **التقديم والطباعة**
-- تجسيد الصفحات إلى صور متجهة (EMF)
+- تجسيد الصفحات للصور المتجهة (EMF)
 - تجسيد الصفحات إلى صور نقطية (Multipage TIFF، GIF)
 - تجسيد الصفحات للصور النقطية (PNG ، JPEG ، إلخ.)
-- تجسيد الصفحات إلى PDF بدقة عالية
+- جعل الصفحات إلى PDF بدقة عالية
 ## **Visio ميزات المحتوى**
 - نسخ أو نقل الصفحات داخل الرسوم التخطيطية أو بينها
 - أدخل الصور باستخدام API

@@ -22,16 +22,16 @@ url: /zh/net/supported-file-formats/
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |包含绘图模板和宏的 VSTM|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Web 绘图文件类型|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|Visio 模板文件类型|{{< emoticons/tick >}}|||
-|[威斯特](https://docs.fileformat.com/visio/vst/)|VST 模板文件|{{< emoticons/tick >}}|||
-|[PDF](https://docs.fileformat.com/pdf/)|PDF（便携式文档格式）||{{< emoticons/tick >}}||
-|[聚苯乙烯](https://docs.fileformat.com/page-description-language/xps/)|XPS格式||{{< emoticons/tick >}}||
-|[XAML](https://docs.fileformat.com/web/xaml/)|XAML格式||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format||{{< emoticons/tick >}}||
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML format||{{< emoticons/tick >}}||
 |[SWF](https://docs.fileformat.com/page-description-language/swf/)|Adobe 闪存文件||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|可缩放矢量图形（一种基于 XML 的矢量图像格式）||{{< emoticons/tick >}}||
-|[电磁场](https://docs.fileformat.com/image/emf/)|增强元文件||{{< emoticons/tick >}}||
-|[JPEG格式](https://docs.fileformat.com/image/jpeg/)|JPEG格式||{{< emoticons/tick >}}||
-|[PNG](https://docs.fileformat.com/image/png/)|PNG格式||{{< emoticons/tick >}}||
-|[骨形态发生蛋白](https://docs.fileformat.com/image/bmp/)|BMP格式||{{< emoticons/tick >}}||
-|[国际电影节](https://docs.fileformat.com/image/tiff/)|单页或多页 TIFF 图像||{{< emoticons/tick >}}||
-|[HTML](https://docs.fileformat.com/web/html/)|HTML 格式||{{< emoticons/tick >}}||
+|[EMF](https://docs.fileformat.com/image/emf/)|增强元文件||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Format||{{< emoticons/tick >}}||
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Single or Multi-Page TIFF Image||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Format||{{< emoticons/tick >}}||
 

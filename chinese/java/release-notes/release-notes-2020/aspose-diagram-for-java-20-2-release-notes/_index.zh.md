@@ -13,8 +13,8 @@ url: /zh/java/aspose-diagram-for-java-20-2-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50361|将 VST 转换为 PNG 时未保留形状前景色|强化|
-|DIAGRAMJAVA-50504|VSD 到 PDF - 线条颜色已更改|强化|
+|DIAGRAMJAVA-50361|The shape foreground color is not being preserved on converting a VST to PNG|强化|
+|DIAGRAMJAVA-50504|VSD to PDF - the color of lines is changed|强化|
 ## ` `**公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Diagram 支持论坛。
 ### **在 ImageSaveOptions 中添加了 enlargePage**

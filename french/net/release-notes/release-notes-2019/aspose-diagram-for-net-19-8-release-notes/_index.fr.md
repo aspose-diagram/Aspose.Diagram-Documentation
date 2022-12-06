@@ -15,13 +15,13 @@ Cette page contient des notes de version pour[Aspose.Diagram for .NET 19.8](http
 |:- |:- |:- |
 |DIAGRAMNET-50334|Ajout du support des codes VBA / Macros (ajouter - modifier - supprimer)|Renforcement|
 |DIAGRAMNET-51083|Ajout de la prise en charge du dessin Spline|Renforcement|
-|DIAGRAMNET-51676|Visio en HTML - la sortie contient le nom du fichier|Renforcement|
+|DIAGRAMNET-51676|Visio to HTML - output contains filename in it|Renforcement|
 |DIAGRAMNET-50263|Impossible de définir l'emplacement du texte du connecteur en tant que formules|Punaise|
-|DIAGRAMNET-50284|VTX en conversion HTML, la couleur de remplissage des formes n'est pas conservée|Punaise|
-|DIAGRAMNET-50432|Conversion de VDX en PDF, la méthode Diagram.setFontDirs utilise uniquement la première police sur l'ensemble diagram|Punaise|
-|DIAGRAMNET-50463|Conversion VSDX en PDF, rendu des formes manquantes ou incomplètes|Punaise|
-|DIAGRAMNET-51033|Les formes de réseau ne sont pas conservées lors de la conversion d'un VSDX en PDF|Punaise|
-|DIAGRAMNET-51303|VSDX en PDF - la couleur du texte sur les lignes de connexion est modifiée|Punaise|
+|DIAGRAMNET-50284|VTX to HTML conversion, shapes fill color is not preserved|Punaise|
+|DIAGRAMNET-50432|VDX to PDF conversion, Diagram.setFontDirs method use only first font over the whole diagram|Punaise|
+|DIAGRAMNET-50463|VSDX to PDF conversion, missing or incomplete shapes rendering|Punaise|
+|DIAGRAMNET-51033|The network shapes are not being preserved on converting a VSDX to PDF|Punaise|
+|DIAGRAMNET-51303|VSDX to PDF - the color of text on connecting lines is changed|Punaise|
 |DIAGRAMNET-51663|Une exception non gérée se produit lors de la conversion de VSD en VSDX|Punaise|
 |DIAGRAMNET-51664|Le fichier est corrompu après la suppression d'un thème inutilisé|Punaise|
 |DIAGRAMNET-51665|Les images sont affichées sous forme de X après la suppression des thèmes inutilisés|Punaise|
@@ -29,9 +29,9 @@ Cette page contient des notes de version pour[Aspose.Diagram for .NET 19.8](http
 |DIAGRAMNET-51668|VISIO vers JPG - l'image de sortie n'est pas au bon format|Punaise|
 |DIAGRAMNET-51671|Lors de la suppression des formes et des styles principaux inutilisés, seule l'image a un problème|Punaise|
 |DIAGRAMNET-51672|Photos perdues lors du chargement et de la sauvegarde|Punaise|
-|DIAGRAMNET-51677|Visio vers HTML - Le lien dans le HTML généré ne fonctionne pas|Punaise|
-|DIAGRAMNET-51678|Visio en HTML - Format de date incorrect lors de l'enregistrement au format HTML|Punaise|
-|DIAGRAMNET-51679|Visio en PDF - Plusieurs erreurs de formatage en PDF|Punaise|
+|DIAGRAMNET-51677|Visio to HTML - Link in generated HTML does not work|Punaise|
+|DIAGRAMNET-51678|Visio to HTML - Date Format incorrect when saving as HTML|Punaise|
+|DIAGRAMNET-51679|Visio to PDF - Several formatting errors in PDF|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez les signaler dans la[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 ### **Ajoute DrawSpline dans la page**

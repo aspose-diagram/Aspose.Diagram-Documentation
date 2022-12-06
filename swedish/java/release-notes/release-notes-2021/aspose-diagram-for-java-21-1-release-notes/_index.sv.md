@@ -13,5 +13,5 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for Java 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX till HTML-konvertering, tom rektangelruta istället för metafilikon|Förbättring|
+|DIAGRAMJAVA-50118|VTX till HTML konvertering, tom rektangelruta istället för metafilikon|Förbättring|
 

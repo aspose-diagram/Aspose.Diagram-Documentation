@@ -18,8 +18,8 @@ Bu sayfa Aspose.Diagram for .NET 19.10 için sürüm notları bilgilerini içeri
 |DIAGRAMNET-51695|Visio - PDF - Bazı şekiller doğru değil|Böcek|
 |DIAGRAMNET-51696|Visio - PDF - Bazı şekiller doğru değil|Böcek|
 |DIAGRAMNET-51698|Visio - PDF - Bazı şekiller doğru değil|Böcek|
-|DIAGRAMNET-51701|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
-|DIAGRAMNET-51703|Visio'den PDF'ye - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51701|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
+|DIAGRAMNET-51703|Visio - PDF - Bazı şekiller/çizgiler doğru değil|Böcek|
 |DIAGRAMNET-51715|Kullanılmayan ana şekiller ve stiller kaldırılırken yalnızca görüntüde sorun var|Böcek|
 |DIAGRAMNET-51716|Shape.ToImage yöntemi NullReferenceException İstisna atıyor|Böcek|
 |DIAGRAMNET-51717|VSD (Visio 2003-2010) dosyası yükleniyor, şekillerin bazı kullanıcı değerlerine ulaşılamıyor|Böcek|

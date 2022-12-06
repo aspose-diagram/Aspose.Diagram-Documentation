@@ -17,9 +17,9 @@ Il seguente pezzo di codice recupera le informazioni sulle pagine da un diagram.
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-RetrievePageInfo.py" >}}
 
 ## **Ottieni la pagina Visio da uno Diagram**
-A volte, gli sviluppatori devono ottenere i dettagli della pagina di un disegno Visio. Aspose.Diagram per Python tramite Java ha caratteristiche che li aiutano a farlo.
+Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram for Python via Java has features that helps them do this.
 
-Aspose.Diagram per Python tramite Java offre la classe `Diagram` che rappresenta un disegno Visio. La proprietà Pages esposta dalla classe Diagram supporta una raccolta di oggetti `Page`. La classe PageCollection espone il metodo `getPage` che può essere chiamato per ottenere l'oggetto Page.
+Aspose.Diagram for Python via Java offers the `Diagram` class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of `Page` objects. The PageCollection class exposes `getPage` method that can be called to get Page object.
 
 ### **Ottenere un oggetto pagina Visio per ID**
 Questo esempio funziona come segue:
@@ -44,9 +44,9 @@ L'esempio seguente mostra come ottenere un oggetto pagina per nome dal disegno V
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyName.py" >}}
 
 ## **Copia una pagina Visio in un'altra Diagram**
-Aspose.Diagram per Python tramite Java API consente agli sviluppatori di copiare e aggiungere il proprio contenuto da uno Visio diagram a un altro. Questo argomento della guida spiega come eseguire questa operazione.
+Aspose.Diagram for Python via Java API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
 
-Aspose.Diagram per Python tramite Java API ha la classe `Diagram` che rappresenta un disegno Visio. La proprietà Pages esposta dalla classe Diagram supporta una raccolta di oggetti `Page`. La classe PageCollection espone il metodo `add` che può essere chiamato per aggiungere un altro oggetto Page.
+Aspose.Diagram for Python via Java API has the `Diagram` class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of `Page` objects. The PageCollection class exposes `add` method that can be called to add another Page object.
 
 Questo esempio funziona come segue:
 
@@ -81,7 +81,7 @@ newPage.copy(diagram.getPages().getPage("Page-1"))
 ```
 
 ## **Inserisci una pagina vuota in un disegno Visio**
-Aspose.Diagram per Python tramite Java può inserire una nuova pagina vuota nel disegno Microsoft Office Visio. Questo argomento di esempio descrive come farlo.
+Aspose.Diagram for Python via Java can insert a new blank page into the Microsoft Office Visio drawing. This example topic describes how to do so.
 
 Il metodo `add`, esposto dalla raccolta Pages, consente agli sviluppatori di aggiungere una nuova pagina vuota in Visio diagram. L'ID pagina deve essere assegnato.
 
@@ -91,7 +91,7 @@ La seguente parte di codice inserisce una pagina vuota nel disegno Visio:
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-InsertBlankPageInVisio.py" >}}
 
 ## **Sposta la posizione della pagina nel disegno Visio**
-Aspose.Diagram per Python tramite Java API può spostare la posizione della pagina nel disegno Visio. Il metodo `moveTo`, esposto dalla classe `Page`, aiuta gli sviluppatori a spostare la posizione della pagina.
+Aspose.Diagram for Python via Java API can move page position in the Visio drawing. The `moveTo` method, exposed by the `Page` class, helps developers to move the page position.
 
 ### **Sposta Posizione pagina Esempio di programmazione**
 Il membro MoveTo utilizza l'indice della pagina di destinazione come parametro per spostare la posizione della pagina nel disegno Visio:

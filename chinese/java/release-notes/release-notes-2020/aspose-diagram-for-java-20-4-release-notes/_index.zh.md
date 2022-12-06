@@ -13,9 +13,9 @@ url: /zh/java/aspose-diagram-for-java-20-4-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- VSDX 中的测试项目符号位置 -> SVG 不正确 [JAVA]|强化|
-|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- VSDX 中的测试项目符号位置 -> SVG 不正确 [JAVA]|强化|
+|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|强化|
+|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|强化|
 |DIAGRAMJAVA-50689|DIAGRAMJAVA-50689- 无法获取形状和容器以某种方式链接的信息 VSDX|强化|
 ## **公共 API 和向后不兼容的更改**
 - 删除了 SWFSaveOptions
-- 删除了 SaveFileFormat.SWF
+- Removed SaveFileFormat.SWF

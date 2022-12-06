@@ -27,14 +27,14 @@ description: 本节列出了开发人员成功使用 Aspose.Diagram for .NET 所
 ## **开发环境**
 您可以使用 Aspose.Diagram for .NET 在任何针对 .NET 平台的开发环境中开发应用程序，但明确支持以下环境：
 
-- Microsoft 视觉工作室 2003
-- Microsoft 视觉工作室 2005
-- Microsoft 视觉工作室 2008
+- Microsoft Visual Studio 2003
+- Microsoft Visual Studio 2005
+- Microsoft Visual Studio 2008
 - Microsoft Visual Studio 2010
 - Microsoft Visual Studio 2011
-- Microsoft 视觉工作室 2012
-- Microsoft 视觉工作室 2013
-- Microsoft 视觉工作室 2015
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
 ## **支持 .NET Framework 版本**
@@ -55,4 +55,4 @@ description: 本节列出了开发人员成功使用 Aspose.Diagram for .NET 所
 - .NET Framework 4.6.2
 - .NET Framework 4.7
 - .NET Framework 4.7.2
-- .NET 标准 2.0 (.NET 核心 2.0/2.1)
+- .NET Standard 2.0 (.NET Core 2.0/2.1)

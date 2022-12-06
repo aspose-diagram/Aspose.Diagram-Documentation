@@ -16,5 +16,5 @@ url: /tr/java/aspose-diagram-for-java-18-9-release-notes/
 |DIAGRAMJAVA-50617|API kullanılarak Şeklin PinPos'u ayarlanamıyor|Artırma|
 |DIAGRAMJAVA-50544|Çıktı VSDX - şeklin genişlik formülü korunmaz|Böcek|
 |DIAGRAMJAVA-50614|Şekiller arasındaki bağlantılar doğru değil|Böcek|
-|DIAGRAMJAVA-50618|VSD'i SVG'ye dönüştürürken şekillerin ipucu çalışmıyor|Böcek|
+|DIAGRAMJAVA-50618|VSD'i SVG'e dönüştürürken şekillerin ipucu çalışmıyor|Böcek|
 

@@ -14,11 +14,11 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 19.7](https://ww
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-51219|Bir Visio Sayfasının baskı önizlemesinden resimler alın|Artırma|
-|DIAGRAMNET-51615|PDF Belgesi oluştururken Diagram'i Birden Çok Sayfaya Böl|Artırma|
+|DIAGRAMNET-51615|PDF Belgesi oluşturulurken Diagram'i Birden Çok Sayfaya Böl|Artırma|
 |DIAGRAMNET-51656|Belge dönüştürme ilerlemesini izlemek için destek ekleyin|Artırma|
-|DIAGRAMNET-50045|VSD'i PDF formatına dönüştürürken yanlış satır sonları|Böcek|
-|DIAGRAMNET-50075|VSD'den PDF'e dönüştürme, yanlış metin yazı tipi|Böcek|
-|DIAGRAMNET-50201|VSD'den PDF'e dönüştürme, şekiller yanlış yerleştirilmiş|Böcek|
+|DIAGRAMNET-50045|VSD formatını PDF formatına dönüştürürken yanlış satır sonları|Böcek|
+|DIAGRAMNET-50075|VSD - PDF dönüştürme, yanlış metin yazı tipi|Böcek|
+|DIAGRAMNET-50201|VSD - PDF dönüştürme, şekiller yanlış yerleştirilmiş|Böcek|
 |DIAGRAMNET-50274|VSDX - SVG dönüşümü, bağlantı düzenleri yanlış|Böcek|
 |DIAGRAMNET-51172|Görüntü biçiminde kaydederken şekli düzgün şekilde yeniden boyutlandırmıyor|Böcek|
 |DIAGRAMNET-51613|AutoFitPageToDrawingContent özelliği beklendiği gibi çalışmıyor|Böcek|

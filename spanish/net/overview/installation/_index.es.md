@@ -6,38 +6,38 @@ url: /es/net/installation/
 description: Esta página describe cómo crear un nuevo visio con la biblioteca Aspose.Diagram.
 ---
 ## **Instalación Aspose.Diagram for .NET a NuGet**
-NuGet es un sistema de gestión de paquetes gratuito y de código abierto centrado en el desarrollador para la plataforma .NET que pretende simplificar el proceso de incorporación de bibliotecas de terceros en una aplicación .NET durante el desarrollo. Es una extensión de Visual Studio que facilita agregar, eliminar y actualizar bibliotecas y herramientas en proyectos de Visual Studio que usan .NET Framework. Una biblioteca o herramienta se puede compartir fácilmente con otros desarrolladores creando un paquete NuGet y almacenándolo dentro un repositorio NuGet. Cuando instala el paquete, NuGet copia los archivos en su solución y automáticamente realiza los cambios necesarios, como agregar referencias y cambiar sus archivos app.config o web.config. Si decide eliminar la biblioteca, NuGet elimina los archivos y revierte los cambios realizados en su proyecto para que no quede desorden.
+NuGet is a free, open source developer-focused package management system for the .NET platform intent on simplifying the process of incorporating third party libraries into a .NET application during development. It is a Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects that use the .NET Framework. A library or tool can easily be shared with other developers by creating a NuGet package and storing it inside a NuGet repository. When you install the package, NuGet copies files to your solution and automatically makes the necessary changes, such as adding references and changing your app.config or web.config files. If you decide to remove the library, NuGet removes files and reverses whatever changes it made to your project so that no clutter is left.
 ### **Referencia Aspose.Diagram for .NET**
-Aprovechando esta maravillosa función, hemos incluido[Aspose.Diagram for .NET](https://www.nuget.org/packages/Aspose.Diagram)bibliotecas en un paquete NuGet y lo cargó en un repositorio NuGet. Con esta opción, se beneficia de usar Aspose.Diagram for .NET sin instalar este componente en su sistema. NuGet se ejecuta en Visual Studio 2010 y versiones superiores, Visual Web Developer 2010 y Windows Phone Developer Tools 7.1. En nuestras pruebas, lo hemos probado con Visual Studio 2015 Ultimate.
+Aprovechando esta maravillosa función, hemos incluido[Aspose.Diagram for .NET](https://www.nuget.org/packages/Aspose.Diagram) libraries into a NuGet package and uploaded it into a NuGet repository. With this option, you benefit from using Aspose.Diagram for .NET without installing this component on your system. NuGet runs in Visual Studio 2010 and higher version(s), Visual Web Developer 2010, and Windows Phone Developer Tools 7.1. In our tests, we have tested it with Visual Studio 2015 Ultimate.
 
 Para empezar:
 
-1. Abra su solución o proyecto en Visual Studio.
-1. Agregue NuGet Package Manager como una extensión de Visual Studio:
+1. Open your solution or project in Visual Studio.
+1. Add NuGet Package Manager as a Visual Studio extension:
  1. Seleccione el**Instrumentos**menú seguido de**administrador de extensiones**.
  1. Seleccione**Galería en línea**para obtener una lista completa de los paquetes disponibles en línea.
  1. Seleccione**NuGet Administrador de paquetes**.
  1. Haga clic en**Descargar**.
- 1. Una vez que el Administrador de paquetes esté instalado, reinicie Visual Studio para que los cambios surtan efecto.
-Cuando NuGet Package Manager está instalado, puede buscar, instalar, eliminar y actualizar paquetes desde el**Administrar NuGet Paquetes**o mediante los comandos de línea de comandos de PowerShell en el**Consola del administrador de paquetes**ventana dedicada de Visual Studio. Puedes encontrar ambas opciones si seleccionas la**Instrumentos**seguido por**Administrador de paquetes de biblioteca**.
+   1. Once the package Manager is installed, restart Visual Studio to bring the changes into effect. 
+Cuando NuGet Package Manager está instalado, puede buscar, instalar, eliminar y actualizar paquetes desde el**Administrar NuGet Paquetes**o mediante los comandos de línea de comandos de PowerShell en el**Consola del administrador de paquetes** dedicated Visual Studio window. You can find both options if you select the **Instrumentos**seguido por**Administrador de paquetes de biblioteca**.
 ### **Instalar el paquete usando la consola del administrador de paquetes**
 Para hacer referencia al componente usando la consola del administrador de paquetes:
 
-1. Abra su aplicación .NET en Visual Studio.
+1. Open your .NET application in Visual Studio.
 1. Sobre el**Instrumentos**menú, seleccione**Administrador de paquetes de biblioteca**y entonces**Consola del administrador de paquetes**.
 1. Escriba el comando "Install-Package Aspose.Diagram" para instalar la última versión completa, o escriba el comando "Install-Package Aspose.Diagram -prerelease" para instalar la última versión, incluidas las revisiones.
 1. Prensa**Ingresar**.
 ### **Actualizar paquete usando la Consola del administrador de paquetes**
 Si ya hizo referencia al componente a través de NuGet, siga estos pasos para actualizar la referencia a la última versión:
 
-1. Abra su aplicación .NET en Visual Studio.
+1. Open you .NET application in Visual Studio.
 1. Desde el**Instrumentos**menú, seleccione**Administrador de paquetes de biblioteca**, seguido por**Consola del administrador de paquetes**para abrir la consola del Administrador de paquetes.
 1. Escriba el comando "Update-Package Aspose.Diagram" para hacer referencia a la última versión completa, o escriba el comando "Update-Package Aspose.Diagram -prerelease" para instalar la última versión, incluidas las revisiones.
 1. Prensa**Ingresar**.
 ### **Instalar el paquete usando la interfaz gráfica de usuario del administrador de paquetes**
 Siga estos pasos para hacer referencia al componente utilizando la GUI del administrador de paquetes:
 
-1. Abra su aplicación .NET en Visual Studio.
+1. Open you .NET application in Visual Studio.
 1. Desde el**Instrumentos**menú, seleccione**Administrador de paquetes de biblioteca**y**Administrar NuGet Paquetes**desde el**Solución**opción.
  También puede obtener una opción similar desde el Explorador de soluciones:
  1. Haga clic derecho en el nombre del proyecto.

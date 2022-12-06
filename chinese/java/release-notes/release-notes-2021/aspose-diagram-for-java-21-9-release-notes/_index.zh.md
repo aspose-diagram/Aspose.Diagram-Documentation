@@ -14,7 +14,7 @@ url: /zh/java/aspose-diagram-for-java-21-9-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk：检查 TextAnnotation 是否连接到形状|强化|
-|DIAGRAMJAVA-50382|将 VSDX 转换为 PDF 时缺少形状的阴影|漏洞|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|漏洞|
 |DIAGRAMJAVA-50754|wk - InheritLine 的 LineColor 不正确|漏洞|
 |DIAGRAMJAVA-50756|wk：PinPos null 与 center-center|漏洞|
 |DIAGRAMJAVA-50757|WK：getBegin/End Arrow 值不正确。|漏洞|

@@ -1,5 +1,5 @@
 ﻿---
-title: Экспорт Visio Diagram в SVG на Ruby
+title: Экспорт Visio Diagram в SVG в Ruby
 type: docs
 weight: 50
 url: /ru/java/export-visio-diagram-to-svg-in-ruby/

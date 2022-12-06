@@ -16,8 +16,8 @@ url: /sv/net/aspose-diagram-for-net-18-1-release-notes/
 |DIAGRAMNET-50494|Lägg till stöd för att duplicera / klona en diagram-sida|Förbättring|
 |DIAGRAMNET-51057|Kommandoknappen saknas efter att ha tagit bort en sida från VSDM|Förbättring|
 |DIAGRAMNET-51422|VSDX till PDF - skuggorna ignoreras på processformer|Förbättring|
-|DIAGRAMNET-50467|VSD till PDF-konvertering, företagets logotyp är felplacerad|Insekt|
-|DIAGRAMNET-50469|VSD till PDF-konvertering, radioformtexten är något högre än vanligt|Insekt|
+|DIAGRAMNET-50467|VSD till PDF konvertering, företagets företagslogotyp är felplacerad|Insekt|
+|DIAGRAMNET-50469|VSD till PDF konvertering, radioformtexten är något högre än vanligt|Insekt|
 |DIAGRAMNET-51199|Rubriktexten är inte justerad när du sparar en VSDM till SVG|Insekt|
 |DIAGRAMNET-51388|Problem med att ladda och spara vsdx-filer|Insekt|
 |DIAGRAMNET-51398|VSD till PNG - textpositionen är felaktig|Insekt|

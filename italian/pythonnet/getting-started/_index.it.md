@@ -5,17 +5,17 @@ type: docs
 weight: 4
 url: /it/python-net/getting-started/ 
 keywords: python, visio, instal
-description: Configurazione Aspose.Diagram per Python tramite .NET e linee guida per l'installazione.
+description: Setup Aspose.Diagram for Python via .NET and installation guidelines.
 ---
 ## **Requisiti di sistema**
- Aspose.Diagram per Python tramite .NET è indipendente dalla piattaforma API e può essere utilizzato su qualsiasi piattaforma (Windows e Linux) dove[Python](https://www.python.org/downloads/) è installato.
+Aspose.Diagram for Python via .NET is platform-independent API and can be used on any platform (Windows and Linux) where [Python](https://www.python.org/downloads/) è installato.
 
 ## **Python Versione**
 - Python 3.6 o superiore
 
 ## **Installazione**
 ### **Windows:**
- Puoi facilmente utilizzare Aspose.Diagram per Python tramite .NET da[pypi](https://pypi.org/project/aspose-diagram-python/) con il seguente comando.
+You can easily use Aspose.Diagram for Python via .NET from [pypi](https://pypi.org/project/aspose-diagram-python/) con il seguente comando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-diagram-python
@@ -23,14 +23,14 @@ description: Configurazione Aspose.Diagram per Python tramite .NET e linee guida
 {{< /highlight >}}
 
 ### **Linux:**
- Puoi facilmente utilizzare Aspose.Diagram per Python tramite .NET da[pypi](https://pypi.org/project/aspose-diagram-python/) con il seguente comando.
+You can easily use Aspose.Diagram for Python via .NET from [pypi](https://pypi.org/project/aspose-diagram-python/) con il seguente comando.
 {{< highlight "NET" >}}
 
  $ pip install aspose-diagram-python
 
 {{< /highlight >}}
 
-## **Creazione dell'applicazione Hello World**
+## **Creating the Hello World Application**
 
 -  Crea un file denominato**Creazione di NewVisioFile.py** e utilizzare il seguente codice di esempio:
 

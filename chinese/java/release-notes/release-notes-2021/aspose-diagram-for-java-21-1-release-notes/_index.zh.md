@@ -13,5 +13,5 @@ url: /zh/java/aspose-diagram-for-java-21-1-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX 到 HTML 转换，空白矩形框而不是元文件图标|强化|
+|DIAGRAMJAVA-50118|VTX to HTML conversion, blank rectangle box instead of meta file icon|强化|
 

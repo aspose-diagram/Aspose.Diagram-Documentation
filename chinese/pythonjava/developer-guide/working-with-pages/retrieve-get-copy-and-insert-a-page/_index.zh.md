@@ -17,9 +17,9 @@ url: /zh/python-java/retrieve-get-copy-and-insert-a-page/
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-RetrievePageInfo.py" >}}
 
 ## **从 Diagram 获取 Visio 页面**
-有时，开发人员需要获取 Visio 图的页面详细信息。 Aspose.Diagram for Python via Java 具有帮助他们做到这一点的功能。
+Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram for Python via Java has features that helps them do this.
 
-Aspose.Diagram for Python via Java 提供代表 Visio 绘图的 `Diagram` 类。 Diagram 类公开的 Pages 属性支持 `Page` 对象的集合。 PageCollection 类公开了可以调用以获取 Page 对象的 `getPage` 方法。
+Aspose.Diagram for Python via Java offers the `Diagram` class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of `Page` objects. The PageCollection class exposes `getPage` method that can be called to get Page object.
 
 ### **通过 ID 获取 Visio 页面对象**
 这个例子的工作原理如下：
@@ -44,9 +44,9 @@ Aspose.Diagram for Python via Java 提供代表 Visio 绘图的 `Diagram` 类。
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyName.py" >}}
 
 ## **将 Visio 页面复制到另一个 Diagram**
-Aspose.Diagram for Python via Java API 允许开发人员将其内容从一个 Visio diagram 复制并添加到另一个。此帮助主题说明了如何完成此任务。
+Aspose.Diagram for Python via Java API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
 
-Aspose.Diagram for Python via Java API 具有代表 Visio 绘图的 `Diagram` 类。 Diagram 类公开的 Pages 属性支持 `Page` 对象的集合。 PageCollection 类公开了 `add` 方法，可以调用该方法来添加另一个 Page 对象。
+Aspose.Diagram for Python via Java API has the `Diagram` class that represents a Visio drawing. The Pages property exposed by the Diagram class supports a collection of `Page` objects. The PageCollection class exposes `add` method that can be called to add another Page object.
 
 这个例子的工作原理如下：
 
@@ -81,7 +81,7 @@ newPage.copy(diagram.getPages().getPage("Page-1"))
 ```
 
 ## **在 Visio 绘图中插入空白页**
-Aspose.Diagram for Python via Java 可以在Microsoft Office Visio图纸中插入一个新的空白页。本示例主题描述了如何执行此操作。
+Aspose.Diagram for Python via Java can insert a new blank page into the Microsoft Office Visio drawing. This example topic describes how to do so.
 
 `add` 方法，由 Pages 集合公开，允许开发者在 Visio diagram 中添加一个新的空白页面。页面 ID 应该被分配。
 
@@ -91,7 +91,7 @@ Aspose.Diagram for Python via Java 可以在Microsoft Office Visio图纸中插�
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-InsertBlankPageInVisio.py" >}}
 
 ## **在 Visio 绘图中移动页面位置**
-Aspose.Diagram for Python via Java API 可以移动Visio绘图中的页面位置。 `Page`类暴露`moveTo`方法，帮助开发者移动页面位置。
+Aspose.Diagram for Python via Java API can move page position in the Visio drawing. The `moveTo` method, exposed by the `Page` class, helps developers to move the page position.
 
 ### **移动页面位置编程示例**
 MoveTo成员以目标页面索引为参数，移动页面在Visio图中的位置：

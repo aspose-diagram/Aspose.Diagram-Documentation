@@ -1,18 +1,18 @@
 ﻿---
-title: Aspose.Diagram pour Python via .NET 22.10 Notes de mise à jour
+title: Aspose.Diagram for Python via .NET 22.10 Release Notes
 type: docs
 weight: 17
 url: /fr/python-net/aspose-diagram-for-python-via-net-22-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Cette page contient les notes de version pour Aspose.Diagram pour Python via .NET 22.10.
+This page contains release notes for Aspose.Diagram for Python via .NET 22.10.
 
 {{% /alert %}} 
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Un graphique s'affiche en mauvaise qualité lorsqu'il est exporté au format SVG|Renforcement|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|Renforcement|
 |DIAGRAMNET-53002|Perte de lien lors de l'export en html avec Aspose.Diagram|Renforcement|
 |DIAGRAMNET-52983|Erreur dans Diagram.Enregistrer|Punaise|
 |DIAGRAMNET-52984|Modifier les valeurs dans la classe VentureLicenser|Punaise|

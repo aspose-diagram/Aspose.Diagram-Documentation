@@ -13,7 +13,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 22.10.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Eine Grafik wird beim Export in das SVG-Format in schlechter Qualität angezeigt|Erweiterung|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|Erweiterung|
 |DIAGRAMNET-53002|Verbindungsverlust beim Exportieren in HTML mit Aspose.Diagram|Erweiterung|
 |DIAGRAMNET-52983|Fehler in Diagram.Speichern|Insekt|
 |DIAGRAMNET-52984|Ändern Sie die Werte in der VentureLicenser-Klasse|Insekt|

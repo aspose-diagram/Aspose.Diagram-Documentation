@@ -13,12 +13,12 @@ url: /zh/net/aspose-diagram-for-net-18-3-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-50147|VSD 到 XPS 转换，创建的空白页面有红叉图像|强化|
+|DIAGRAMNET-50147|VSD to XPS conversion, the empty pages are created having red cross images|强化|
 |DIAGRAMNET-51431|为 Pages 集合添加 MoveTo 方法|强化|
-|DIAGRAMNET-50424  |VSDX 转PDF，图标覆盖文字|漏洞|
-|DIAGRAMNET-50459|VSDX 到 PDF 转换，形状图标从其原始位置错位|漏洞|
-|DIAGRAMNET-50460|VSDX 到 PDF 转换，形状图标从其原始位置错位|漏洞|
-|DIAGRAMNET-50674|所有 HTML 资源都没有保存在自定义路径|漏洞|
+|DIAGRAMNET-50424  |VSDX to PDF conversion, the icon is overlying the text|漏洞|
+|DIAGRAMNET-50459|VSDX to PDF conversion, shape icon is misplaced from its original position|漏洞|
+|DIAGRAMNET-50460|VSDX to PDF conversion, shape icon is misplaced from its original position|漏洞|
+|DIAGRAMNET-50674|All HTML resources are not saved at the custom path|漏洞|
 |DIAGRAMNET-51403|VSD 到图像 - 箭头错位|漏洞|
 |DIAGRAMNET-51427|输出 VSDX - Shapes 中的控件不起作用|漏洞|
 |DIAGRAMNET-51429|修复产品页面 URL 超过 NuGet 图库|漏洞|

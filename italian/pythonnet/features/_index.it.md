@@ -4,20 +4,20 @@ type: docs
 weight: 5
 url: /it/python-net/features/
 keywords: python, visio, api, feature
-description: Aspose.Diagram per Python tramite .NET caratteristiche
+description: Aspose.Diagram for Python via .NET features
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina riassume le caratteristiche di Aspose.Diagram per Python tramite .NET.
+This page summarizes Aspose.Diagram for Python via .NET features.
 
 {{% /alert %}} 
 ## **Formati di file e conversioni**
-- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF e formati di immagine popolari tra cui TIFF, JPG, PNG, BMP e SVG.
+- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF, and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 ## **Rendering e stampa**
-- Rendering delle pagine in immagini vettoriali (EMF)
-- Rendering delle pagine in immagini raster (TIFF multipagina, GIF)
-- Renderizza le pagine in immagini raster (PNG, JPEG, ecc.)
-- Renderizza le pagine in PDF con alta fedeltà
+- Render pages to vector images (EMF)
+- Render pages to raster images (Multipage TIFF, GIF)
+- Render pages to raster images (PNG, JPEG, etc.)
+- Render pages to PDF with high fidelity
 ## **Visio Caratteristiche del contenuto**
 - Copiare o spostare le pagine all'interno o tra i diagrammi
 - Inserisci le immagini utilizzando API

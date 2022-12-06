@@ -14,27 +14,27 @@ url: /es/net/aspose-diagram-for-net-16-10-0-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMNET-50545|Maestro: capacidad para agregar maestros sin plantilla, diagram o plantilla.|Nueva caracteristica|
-|DIAGRAMNET-50192|VSD a la conversión de PDF, el texto de la forma no aparece en negrita.|Insecto|
+|DIAGRAMNET-50192|VSD to PDF conversion, the text of the shape appears not bold.|Insecto|
 |DIAGRAMNET-50524|La llamada al método Shape.GluedShapes no devuelve todos los ID de forma.|Insecto|
-|DIAGRAMNET-50578|VSDX a la conversión de PDF, las líneas de conexión no son rectas-I.|Insecto|
-|DIAGRAMNET-50598|VSDX a conversión de PDF, las líneas de conexión no son rectas-II.|Insecto|
-|DIAGRAMNET-50583|VSDX a la conversión de HTML, las líneas de conexión no son rectas-I.|Insecto|
-|DIAGRAMNET-50603|VSDX a la conversión de HTML, las líneas de conexión no son rectas-II.|Insecto|
-|DIAGRAMNET-51007|Los elementos de texto se desplazan al convertir un VSDX a PDF.|Insecto|
-|DIAGRAMNET-51008|Falta el formato de texto en negrita y los saltos de línea incorrectos al convertir un VSDX a PDF.|Insecto|
-|DIAGRAMNET-51009|La posición incorrecta del texto al convertir un VSDX a PDF.|Insecto|
-|DIAGRAMNET-51010|La posición incorrecta de varios elementos de texto al convertir un VSDX a PDF.|Insecto|
-|DIAGRAMNET-51013|El texto vertical aparece como texto horizontal al convertir un VSDX a PNG.|Insecto|
+|DIAGRAMNET-50578|VSDX to PDF conversion, the connecting lines are not straight-I.|Insecto|
+|DIAGRAMNET-50598|VSDX to PDF conversion, the connecting lines are not straight-II.|Insecto|
+|DIAGRAMNET-50583|VSDX to HTML conversion, the connecting lines are not straight-I.|Insecto|
+|DIAGRAMNET-50603|VSDX to HTML conversion, the connecting lines are not straight-II.|Insecto|
+|DIAGRAMNET-51007|The text items are displaced on converting a VSDX to PDF.|Insecto|
+|DIAGRAMNET-51008|Missing the bold text formatting and incorrect line breaks on converting a VSDX to PDF.|Insecto|
+|DIAGRAMNET-51009|The incorrect position of text on converting a VSDX to PDF.|Insecto|
+|DIAGRAMNET-51010|The incorrect position of various text items on converting a VSDX to PDF.|Insecto|
+|DIAGRAMNET-51013|The vertical text appears as horizontal text on converting a VSDX to PNG.|Insecto|
 |DIAGRAMNET-51026|Recupera el orden inverso de los nodos entrantes y salientes de un VSDX.|Insecto|
 |DIAGRAMNET-51028|No se puede recuperar la celda de relaciones de la forma del contenedor de un VSD.|Insecto|
-|DIAGRAMNET-51039|Los números adicionales se agregan al convertir un VSD a SVG.|Insecto|
-|DIAGRAMNET-51042|Las flechas no se representan correctamente al convertir un VSD a SVG.|Insecto|
-|DIAGRAMNET-51047|Representación incorrecta del calendario al convertir un VSD a SVG.|Insecto|
+|DIAGRAMNET-51039|The additional numbers are added while converting a VSD to SVG.|Insecto|
+|DIAGRAMNET-51042|The arrows are not being rendered correctly on converting a VSD to SVG.|Insecto|
+|DIAGRAMNET-51047|Incorrect rendering of the calendar on converting a VSD to SVG.|Insecto|
 |DIAGRAMNET-51050|El método Shape.ConnectedShapes devuelve nodos con la dirección inversa.|Insecto|
 |DIAGRAMNET-51051|No se puede recuperar la celda de relación de las formas de un VSD.|Insecto|
-|DIAGRAMNET-51052|El color de fondo de las páginas Visio es negro al convertir un VSD a SVG.|Insecto|
+|DIAGRAMNET-51052|The background color of Visio pages is black on converting a VSD to SVG.|Insecto|
 |DIAGRAMNET-51060|Los ID de formas no deseadas se están recuperando de un VSD diagram.|Insecto|
-|DIAGRAMNET-51066|El símbolo incorrecto aparece al convertir una página VSDX a SVG.|Insecto|
+|DIAGRAMNET-51066|The incorrect symbol appears on converting a VSDX page to SVG.|Insecto|
 |DIAGRAMNET-51067|NullReferenceException ocurrió al convertir un VDX a VSDX.|Insecto|
 |DIAGRAMNET-51068|La opción Tamaño de página se cambia configurando el ancho y el alto de la página VSDM.|Insecto|
 |DIAGRAMNET-51069|No se puede recuperar la cadena de relación de las formas de un VSD.|Insecto|

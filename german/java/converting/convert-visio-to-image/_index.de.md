@@ -4,12 +4,12 @@ linktitle: Konvertieren Sie Visio in Bilder
 type: docs
 weight: 20
 url: /de/java/convert-visio-to-image/
-description: Dieses Thema zeigt Ihnen, wie Sie mit Aspose.Diagram Visio in verschiedene Bildformate konvertieren können. Konvertieren Sie Visio, VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM in PNG-, JPEG-, BMP-Bilder mit ein paar Zeilen Code.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to various images formats. Convert Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to PNG, JPEG, BMP images with a few lines of code.
 ---
 ## **Diagramme in Bilddateiformate exportieren**
  In diesem Artikel wird erläutert, wie Sie ein Microsoft Visio diagram mithilfe von in ein Bild exportieren[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
- Verwenden Sie die[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram)class'-Konstruktor, um die diagram-Dateien zu lesen, und die Save-Methode, um die diagram in ein beliebiges unterstütztes Bildformat zu exportieren. Das folgende Bild zeigt eine VSD-Datei, die gerade im PNG-Format gespeichert werden soll. Sie können auch andere diagram-Formate (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX oder VSX) verwenden.
+ Verwenden Sie die[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 **Die Quelldatei. Beachten Sie, dass die Pfeil- und Dreiecksbeschriftungen fett gedruckt sind.**
 
 ![todo: Bild_alt_Text](http://i.imgur.com/WOV36ek.png)
@@ -19,7 +19,7 @@ So exportieren Sie eine diagram in ein Bild:
 - Erstellen Sie eine Instanz der Klasse Diagram.
 - Rufen Sie die Save-Methode der Diagram-Klasse auf und legen Sie das Bildformat fest, in das Sie exportieren möchten. Die Ausgabebilddatei sieht aus wie die Originaldatei.
 
-**Die ausgegebene PNG-Datei.**
+**Die Ausgabedatei PNG.**
 
 ![todo: Bild_alt_Text](http://i.imgur.com/WOV36ek.png)
 ### **Exportieren in eine Bilddatei Programmierbeispiel**

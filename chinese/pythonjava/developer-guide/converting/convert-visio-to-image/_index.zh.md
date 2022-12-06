@@ -4,12 +4,12 @@ linktitle: 将 Visio 转换为图像
 type: docs
 weight: 20
 url: /zh/python-java/convert-visio-to-image/
-description: This topic show you how to convert Visio to various images formats using Aspose.Diagram for Python via Java. Convert Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM to PNG, JPEG, BMP images with a几行代码。
+description: This topic show you how to convert Visio to various images formats using Aspose.Diagram for Python via Java. Convert Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM to PNG, JPEG, BMP images with a few lines of code.
 ---
 ## **将图表导出为图像文件格式**
-本文介绍如何通过 Java 将 Microsoft Visio diagram 导出为使用 Aspose.Diagram for Python 的图像。
+This article explains how to export a Microsoft Visio diagram to an image using Aspose.Diagram for Python via Java.
 
-使用 Diagram 类的构造函数读取 diagram 文件，并使用 Save 方法将 diagram 导出为任何支持的图像格式。下图显示了一个即将保存为 PNG 格式的 VSD 文件。您也可以使用其他 diagram 格式（VSS、VSSX、VSSM、VDX、VST、VSTX、VSTM、VDX、VTX 或 VSX）。
+Use the Diagram class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
 **[示例 VSD 文件。](ExportToImage.vsd)**
 

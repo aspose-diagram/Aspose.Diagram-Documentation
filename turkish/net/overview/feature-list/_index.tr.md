@@ -31,17 +31,17 @@ description: Bu sayfada Aspose.Diagram kitaplığının özellik listesi açıkl
 
 **İhracat**:
 
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) popüler görüntü formatlarına (BMP, JPEG, TIFF, EMF, SVG ve PNG) aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) PDF olarak dışa aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) HTML'ye aktarın.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSTX ve VSX) PDF'e aktarın.
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSTX ve VSX) HTML'e aktarın.
 - Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) XML Kağıt Spesifikasyonuna (XPS) aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) Macromedia Flash Dosya Biçimine (SWF) dışa aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) XAML'ye aktarın.
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) Macromedia Flash Dosya Biçimine (SWF) aktarın.
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSTX ve VSX) XAML'e aktarın.
 
 **Yazdır**:
 
 - Visio diyagramlarını yüksek doğrulukla yazdırın.
-- XpsPrint API aracılığıyla bir sunucuda Visio diagram yazdırın
+- Bir sunucuda Visio diagram yazdırın via XpsPrint API
 
 **Erişim**:
 

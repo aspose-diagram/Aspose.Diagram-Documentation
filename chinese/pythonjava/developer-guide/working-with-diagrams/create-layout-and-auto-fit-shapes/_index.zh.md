@@ -5,7 +5,7 @@ weight: 10
 url: /zh/python-java/create-layout-and-auto-fit-shapes/
 ---
 ## **创建一个 Diagram**
-Aspose.Diagram for Python via Java 允许您从自己的应用程序中读取和创建 Microsoft Visio 图表，无需 Microsoft Office 自动化。创建新文档的第一步是创建一个 diagram。然后[添加形状和连接器](/diagram/zh/python-java/add-and-connect-visio-shapes/)构建 diagram。使用 Diagram 类的默认构造函数创建一个新的 diagram。
+Aspose.Diagram for Python via Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [添加形状和连接器](/diagram/zh/python-java/add-and-connect-visio-shapes/)构建 diagram。使用 Diagram 类的默认构造函数创建一个新的 diagram。
 ### **编程范例**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
 ## **流程图样式的布局形状**
@@ -55,7 +55,7 @@ Diagram 类公开的 Layout 方法布局形状和/或重新路由所有 diagram 
 ## **自动适配 Visio Diagram**
 Aspose.Diagram API 支持自动适配Visio图。此功能操作有助于将外部形状带入 Visio 页面边界内。
 
-Aspose.Diagram for Python via Java API 具有代表 Visio 绘图的 Diagram 类。 DiagramSaveOptions 类公开 AutoFitPageToDrawingContent 属性以自动适应 Visio 绘图。
+Aspose.Diagram for Python via Java API has the Diagram class that represents a Visio drawing. The DiagramSaveOptions class exposes AutoFitPageToDrawingContent property to auto fit the Visio drawing.
 
 这个例子的工作原理如下：
 
@@ -69,7 +69,7 @@ Aspose.Diagram for Python via Java API 具有代表 Visio 绘图的 Diagram 类�
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
 ## **使用 VBA 项目**
 ### **Visio Diagram 修改VBA模块代码**
-本文演示如何通过Java为Python自动使用Aspose.Diagram修改一个VBA模块代码。
+This article demonstrates how to modify a VBA module code automatically using Aspose.Diagram for Python via Java.
 
 我们添加了 VbaModule、VbaModuleCollection、VbaProject、VbaProjectReference 和 VbaProjectReferenceCollection 类。这些类有助于控制 VBA 项目。开发人员可以提取和修改 VBA 模块代码。
 ### **修改VBA模块代码编程范例**
@@ -77,7 +77,7 @@ Aspose.Diagram for Python via Java API 具有代表 Visio 绘图的 Diagram 类�
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
 ### **从 Visio Diagram 中删除所有宏**
-Aspose.Diagram for Python via Java 允许开发人员从 Visio diagram 中删除所有宏。
+Aspose.Diagram for Python via Java allows developers to remove all macros from the Visio diagram.
 
 Diagram 类公开的 JavaProjectData 属性允许您从 Visio 绘图中删除所有宏。
 ### **删除所有宏编程示例**

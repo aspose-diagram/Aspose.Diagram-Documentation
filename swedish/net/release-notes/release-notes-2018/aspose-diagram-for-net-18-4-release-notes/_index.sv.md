@@ -15,15 +15,15 @@ url: /sv/net/aspose-diagram-for-net-18-4-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51441|Utdata VSDX - Kan inte kopiera en form|Förbättring|
 |DIAGRAMNET-51445|Det går inte att kopiera en form från en annan VSDX-ritning|Förbättring|
-|DIAGRAMNET-50475|VSD till PDF-konvertering, datumårstecken är felplacerade|Insekt|
-|DIAGRAMNET-50476|VSD till PDF-konvertering, är nummerlistan inte korrekt justerad|Insekt|
-|DIAGRAMNET-50477|VSD till PDF-konvertering, är nummerlistan inte korrekt justerad|Insekt|
-|DIAGRAMNET-50481|VSD till HTML-konvertering, listobjekten är felplacerade|Insekt|
-|DIAGRAMNET-50482|VSD till HTML-konvertering, datumårstecken är felplacerade|Insekt|
-|DIAGRAMNET-50483|VSD till HTML-konvertering, är tabellkolumnvärdena felplacerade|Insekt|
-|DIAGRAMNET-50484|VSD till HTML-konvertering är nummerlistans objekt inte korrekt justerade|Insekt|
-|DIAGRAMNET-50485|VSD till HTML-konvertering är nummerlistans objekt inte korrekt justerade|Insekt|
-|DIAGRAMNET-50486|VSD till PDF-konvertering, snedstreck mellan värdet är felplacerat|Insekt|
+|DIAGRAMNET-50475|VSD till PDF konvertering, datumårstecken är felplacerade|Insekt|
+|DIAGRAMNET-50476|VSD till PDF omvandling, nummerlistans objekt är inte korrekt justerade|Insekt|
+|DIAGRAMNET-50477|VSD till PDF omvandling, nummerlistans objekt är inte korrekt justerade|Insekt|
+|DIAGRAMNET-50481|VSD till HTML konvertering, listobjekten är felplacerade|Insekt|
+|DIAGRAMNET-50482|VSD till HTML konvertering, datumårstecken är felplacerade|Insekt|
+|DIAGRAMNET-50483|VSD till HTML konvertering, tabellkolumnvärdena är felplacerade|Insekt|
+|DIAGRAMNET-50484|VSD till HTML omvandling, nummerlistans objekt är inte korrekt justerade|Insekt|
+|DIAGRAMNET-50485|VSD till HTML omvandling, nummerlistans objekt är inte korrekt justerade|Insekt|
+|DIAGRAMNET-50486|VSD till PDF konvertering, snedstreck mellan värdet är felplacerat|Insekt|
 |DIAGRAMNET-51112|Trapetsformer renderas inte korrekt vid konvertering av en VDX till EMF|Insekt|
 |DIAGRAMNET-51113|Texten i cirklarna är felplacerad vid konvertering av en VDX till EMF|Insekt|
 |DIAGRAMNET-51434|Utgång VSDX - vänster och höger ände av formen är ballongformade|Insekt|

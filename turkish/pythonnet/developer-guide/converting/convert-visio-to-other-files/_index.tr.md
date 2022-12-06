@@ -4,15 +4,15 @@ linktitle:  Visio'i diğer formatlara dönüştürün
 type: docs
 weight: 40
 url: /tr/python-net/convert-visio-to-other-files/
-description: Bu konu, Aspose.Diagram'in Visio'i SVG,XPS,XML,XAML biçimlerine dönüştürmeye nasıl izin verdiğini gösterir. VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM'i birkaç satır kodla SVG,XPS,XML,XAML'ye dönüştürün.
+description: Bu konu, Aspose.Diagram'in Visio'i SVG,XPS,XML,XAML biçimlerine dönüştürmeye nasıl izin verdiğini gösterir. VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM'i SVG,XPS,15,0761,XML'ye dönüştürün.
 ---
 ## **XML'e Aktar**
-### **Microsoft Visio Çizimi PDF'e Aktar**
-Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak PDF'ye nasıl aktarılacağını gösterir.
+### **İhracat Microsoft Visio Çizimi PDF'e**
+Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak PDF'e nasıl aktarılacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
 
- Bu makalede, bir Microsoft Visio diagram kullanarak XML'e nasıl dışa aktarılacağı açıklanmaktadır.[.NET üzerinden Python için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
+ Bu makalede, bir Microsoft Visio diagram kullanarak XML'e nasıl dışa aktarılacağı açıklanmaktadır.[Python via .NET için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
 
 - VDX, bir XML diagram tanımlar.
 - VTX, bir XML şablonu tanımlar.
@@ -57,8 +57,8 @@ Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XML'e nasıl aktarı
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXml.py" >}}
 
-## **XPS'e Aktar**
- Bu makalede, bir Microsoft Visio diagram kullanarak XPS'ye nasıl dışa aktarılacağı açıklanmaktadır.[.NET üzerinden Python için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
+## **XPS'e aktar**
+ Bu makalede, bir Microsoft Visio diagram'in XPS kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Python via .NET için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
 diagram dosyalarını okumak için [Diagram]sınıf yapıcısını ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemini kullanın.
 
 Bu makaledeki kod parçacıkları aşağıdaki diagram'i girdi olarak alır. Diğer diagram formatlarını da (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX veya VSX) kullanabilirsiniz.
@@ -68,26 +68,26 @@ Bu makaledeki kod parçacıkları aşağıdaki diagram'i girdi olarak alır. Di�
 |![yapılacaklar:resim_alternatif_Metin](how-to-convert-a-visio-diagram_5.png)|
 
 
-VSD diagram'i XPS'ye dışa aktarmak için:
+VSD diagram'i XPS'e dışa aktarmak için:
 
 1. Diagram sınıfının bir örneğini oluşturun.
-1. Diagram sınıfının Save yöntemini çağırın ve çıkış formatı olarak XPS'yi ayarlayın.
-### **Microsoft Visio Çizimi XPS'e Aktar**
-Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XPS'ye nasıl aktarılacağını gösterir.
+1. Diagram sınıfının Save yöntemini çağırın ve çıkış formatı olarak XPS'i ayarlayın.
+### **İhracat Microsoft Visio Çizimi XPS'e**
+Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XPS'e nasıl aktarılacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
 
-## **Diagram'i SVG'ye dışa aktarın**
-Bu makalede, bir Microsoft Visio diagram'in SVG'ye (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[.NET üzerinden Python için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
+## **Diagram'i SVG'e dışa aktarın**
+ Bu makalede, bir Microsoft Visio diagram'in SVG'e (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Python via .NET için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
 
 diagram dosyalarını okumak için [Diagram]sınıf yapıcısını ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemini kullanın.
 
-VSD diagram'i SVG'ye aktarmak için aşağıdaki adımları gerçekleştirin:
+VSD diagram'i SVG'e aktarmak için aşağıdaki adımları gerçekleştirin:
 
 1. Diagram sınıfının bir örneğini oluşturun.
-1. Sınıfın Save yöntemini çağırın ve dışa aktarma formatı olarak SVG'yi ayarlayın.
-### **Microsoft Visio Çizimi SVG'ye Aktar**
-Kod örnekleri, diagram'in C# kullanılarak SVG'ye nasıl aktarılacağını gösterir.
+1. Sınıfın Save yöntemini çağırın ve dışa aktarma formatı olarak SVG'i ayarlayın.
+### **İhracat Microsoft Visio Çizimi SVG'e**
+Kod örnekleri, C# kullanarak bir diagram'in SVG'e nasıl aktarılacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToSvg.py" >}}
 

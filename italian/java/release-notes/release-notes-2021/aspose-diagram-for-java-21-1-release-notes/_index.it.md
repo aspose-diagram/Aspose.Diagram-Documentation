@@ -13,5 +13,5 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|Conversione da VTX a HTML, casella rettangolare vuota invece dell'icona del meta file|Aumento|
+|DIAGRAMJAVA-50118|VTX to HTML conversion, blank rectangle box instead of meta file icon|Aumento|
 

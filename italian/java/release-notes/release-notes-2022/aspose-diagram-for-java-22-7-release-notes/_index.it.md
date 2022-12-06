@@ -14,7 +14,7 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: eredita il problema di riempimento|Aumento|
-|DIAGRAMJAVA-50446|L'immagine di output viene pixelata durante la conversione di un VSD in HTML|Insetto|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|Insetto|
 |DIAGRAMJAVA-50996|Forma non visualizzata correttamente: al suo posto viene visualizzato un rettangolo barrato|Insetto|
 
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**

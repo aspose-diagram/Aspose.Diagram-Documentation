@@ -8,35 +8,35 @@ url: /fr/net/aspose-diagram-for-net-6-4-0-release-notes/
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-|DIAGRAMNET-50766 | VSD vers exportation PDF - la couleur des cercles à l'intérieur des boîtes de signalisation n'est pas conservée.| Renforcement|
-|DIAGRAMNET-50767 | VSD vers exportation PDF - Les lignes pointillées sont converties en lignes pleines.| Renforcement|
-|DIAGRAMNET-50044 | Texte mal placé ou sauts de ligne incorrects lors de la conversion de VSD au format PDF.| Punaise|
-|DIAGRAMNET-50178 | VSD en conversion PDF, texte de Shape avec habillage/mise en page incorrect.| Punaise|
-|DIAGRAMNET-50186 | VSD en conversion PDF, mise en page incorrecte du texte dans les formes.| Punaise|
-|DIAGRAMNET-50275 | VSD en conversion SVG, sous-formes manquantes ou positions incorrectes.| Punaise|
-|DIAGRAMNET-50287 | VSD à la conversion SVG, les éléments de texte sont mal placés.| Punaise|
-|DIAGRAMNET-50294 | VSDX à la conversion SVG, les éléments de texte sont mal placés.| Punaise|
-|DIAGRAMNET-50452 | Conversion VDW en PDF, les éléments de texte sont foirés.| Punaise|
-|DIAGRAMNET-50468 | VSD en conversion PDF, la forme du texte est mal placée.| Punaise|
-|DIAGRAMNET-50499 | VSD en conversion PDF, les éléments de texte ne sont pas conservés.| Punaise|
-|DIAGRAMNET-50514 | VSDX en conversion PDF, l'icône du document Word intégré est manquante.| Punaise|
-|DIAGRAMNET-50548 |VSD en conversion PDF, les éléments du tableau ne sont pas conservés.| Punaise|
-|DIAGRAMNET-50661 | VSD à l'exportation PDF, la ligne horizontale de type tiret se transforme en ligne continue.| Punaise|
-|DIAGRAMNET-50673 | VSDX à l'exportation PDF, les formes circulaires de type métafichier sont manquantes.| Punaise|
-|DIAGRAMNET-50726 | VSD à l'exportation PDF rend le formatage incorrect des puces.| Punaise|
-|DIAGRAMNET-50727 | VSD vers l'exportation HTML rend le formatage incorrect des puces.| Punaise|
-|DIAGRAMNET-50728 | VSD à l'exportation PDF rend le formatage incorrect des puces.| Punaise|
-|DIAGRAMNET-50729 | VSD vers l'exportation HTML rend le formatage incorrect des puces.| Punaise|
-|DIAGRAMNET-50733 | VSD vers l'exportation HTML rend le formatage incorrect des puces.| Punaise|
-|DIAGRAMNET-50736 | VSD vers l'exportation PDF aligne incorrectement le texte de la forme.| Punaise|
-|DIAGRAMNET-50737 | VSD à l'exportation HTML aligne incorrectement le texte de la forme.| Punaise|
-|DIAGRAMNET-50768 | VSD à l'export PDF - le mot "STOP" est perdu.| Punaise|
-|DIAGRAMNET-50769 | VSD vers PDF EXPORT - le caractère "N" dans la flèche nord est perdu.| Punaise|
+|DIAGRAMNET-50766 |VSD to PDF export - the color of circles inside the traffic signal boxes is not preserved. | Renforcement|
+|DIAGRAMNET-50767 |VSD to PDF export - Dashed lines are converted to solid lines. | Renforcement|
+|DIAGRAMNET-50044 |Misplaced text or incorrect line breaks when converting VSD to PDF format. | Punaise|
+|DIAGRAMNET-50178 |VSD to PDF conversion, Shape's text with incorrect wrapping/layout. | Punaise|
+|DIAGRAMNET-50186 |VSD to PDF conversion, incorrect layout of the text in shapes. | Punaise|
+|DIAGRAMNET-50275 |VSD to SVG conversion, missing sub shapes or incorrect positions. | Punaise|
+|DIAGRAMNET-50287 |VSD to SVG conversion, text items are misplaced. | Punaise|
+|DIAGRAMNET-50294 |VSDX to SVG conversion, text items are misplaced. | Punaise|
+|DIAGRAMNET-50452 |VDW to PDF conversion, the text items are messed up. | Punaise|
+|DIAGRAMNET-50468 |VSD to PDF conversion, the text shape is misplaced. | Punaise|
+|DIAGRAMNET-50499 |VSD to PDF conversion, the text items are not preserved. | Punaise|
+|DIAGRAMNET-50514 |VSDX to PDF conversion, the embedded word document icon is missing. | Punaise|
+|DIAGRAMNET-50548 |VSD to PDF conversion, table items are not preserved. | Punaise|
+|DIAGRAMNET-50661 |VSD to PDF export, the dash type horizontal line turns into the solid line. | Punaise|
+|DIAGRAMNET-50673 |VSDX to PDF export, the circular shapes of type metafile are missing. | Punaise|
+|DIAGRAMNET-50726 |VSD to PDF export renders incorrect formatting of the bullets. | Punaise|
+|DIAGRAMNET-50727 |VSD to HTML export renders incorrect formatting of the bullets. | Punaise|
+|DIAGRAMNET-50728 |VSD to PDF export renders incorrect formatting of the bullets. | Punaise|
+|DIAGRAMNET-50729 |VSD to HTML export renders incorrect formatting of the bullets. | Punaise|
+|DIAGRAMNET-50733 |VSD to HTML export renders incorrect formatting of the bullets. | Punaise|
+|DIAGRAMNET-50736 |VSD to PDF export aligns the shape's text incorrectly. | Punaise|
+|DIAGRAMNET-50737 |VSD to HTML export aligns the shape's text incorrectly. | Punaise|
+|DIAGRAMNET-50768 |VSD to PDF export - the word "STOP" is lost. | Punaise|
+|DIAGRAMNET-50769 |VSD to PDF EXPORT - the "N" character in the North Arrow is lost. | Punaise|
 |DIAGRAMNET-50770 | Ouvrir et enregistrer la routine d'un VSDX diagram a perdu le thème des formes.| Punaise|
 |DIAGRAMNET-50771 | La routine d'ouverture et de sauvegarde d'un VSDX diagram a perdu les flèches des connecteurs.| Punaise|
 |DIAGRAMNET-50772 |La routine d'ouverture et de sauvegarde d'un VSDX diagram a changé la position d'une ligne pointillée.| Punaise|
 |DIAGRAMNET-50773 | NullReferenceException s'est produit lors de la création d'un VSDX diagram vide.| Punaise|
-|DIAGRAMNET-50774 | Une exception d'argument hors plage se produit lors de l'exportation d'un VSDX au format PDF.| Punaise|
+|DIAGRAMNET-50774 |Argument out of range exception occurs while exporting a VSDX to PDF. | Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Consultez la liste des modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 

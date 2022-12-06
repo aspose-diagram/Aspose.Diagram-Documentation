@@ -16,7 +16,7 @@ Med Aspose.Diagram är det enkelt att öppna filer, till exempel för att hämta
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaPath.py" >}}
 
-## **Öppna en fil via en ström**
+## **Öppna en fil via a Stream**
 
  Det är också enkelt att öppna en Visio-fil som en stream. För att göra det, använd en överbelastad version av konstruktorn som tar*BufferStream*objekt som innehåller filen.
 

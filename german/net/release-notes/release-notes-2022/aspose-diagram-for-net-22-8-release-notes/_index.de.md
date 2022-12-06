@@ -16,7 +16,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 22.8.
 |DIAGRAMNET-50393|Fügen Sie der dynamischen Verbinderform Punkte hinzu|Erweiterung|
 |DIAGRAMNET-51744|Form wird nicht gemäß Visio/Interop aktualisiert, nachdem Text hinzugefügt wurde|Erweiterung|
 |DIAGRAMNET-52921|App: Beim Speichern von vsdx als PDF ging ein Bild in der Ecke verloren|Insekt|
-|DIAGRAMNET-52925|Problem bei der HTML-Konvertierung|Insekt|
+|DIAGRAMNET-52925|Issue in HTML Conversion|Insekt|
 |DIAGRAMNET-52928|App: Beim Laden von vsd wird eine Ausnahme ausgelöst|Insekt|
 |DIAGRAMNET-52938|App:speichern vsd bis vsdx stecken|Insekt|
 |DIAGRAMNET-52944|Save to Diagram to svg - Attribut width: Ein negativer Wert ist nicht gültig. ("-121752")|Insekt|

@@ -13,8 +13,8 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50574|VSD in SVG: gli elementi di testo sono fuori posto|Insetto|
+|DIAGRAMJAVA-50574|VSD to SVG - the text items are misplaced|Insetto|
 |DIAGRAMJAVA-50705|Regressione in Diagram - Tipo di pennello non supportato|Insetto|
-|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException durante la conversione di VSD in SVG|Insetto|
-|DIAGRAMJAVA-50707|VSDX in PDF: errore nelle forme degli elementi|Insetto|
+|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException while converting VSD to SVG|Insetto|
+|DIAGRAMJAVA-50707|VSDX to PDF: Error in element Shapes|Insetto|
 

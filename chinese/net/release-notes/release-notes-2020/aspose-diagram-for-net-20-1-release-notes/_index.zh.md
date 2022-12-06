@@ -13,10 +13,10 @@ url: /zh/net/aspose-diagram-for-net-20-1-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|将 VSDM 保存到 SVG 时，超链接按钮上的阴影未正确呈现|强化|
-|DIAGRAMNET-51526|VSDX 到 PDF - 箭头的渐变填充在生成的 PDF 中丢失|强化|
-|DIAGRAMNET-51539|形状渐变在输出 SVG 中丢失|强化|
-|DIAGRAMNET-50705|VSD 到 SVG 导出 - 元类型形状变成混乱的符号|漏洞|
+|DIAGRAMNET-51198|Shade on hyperlink button is not rendered correctly on saving VSDM to SVG|强化|
+|DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|强化|
+|DIAGRAMNET-51539|The gradient in shapes has lost in output SVG|强化|
+|DIAGRAMNET-50705|VSD to SVG export - Meta type shapes turn into messy symbols|漏洞|
 |DIAGRAMNET-51664|删除未使用的主题后文件损坏|漏洞|
 |DIAGRAMNET-51665|删除未使用的主题后图像显示为 X|漏洞|
 |DIAGRAMNET-51684|删除未使用的主形状和样式时，只有图像有问题|漏洞|

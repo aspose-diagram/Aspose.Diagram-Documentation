@@ -8,7 +8,7 @@ description: Cette section explique comment connecter deux formes avec Aspose.Di
 ## **Connecter les formes**
 Cette section explique comment connecter deux formes en utilisant Aspose.Diagram for .NET.
 ### **Connecter les formes**
- La[ConnectShapesViaConnectorConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) méthode connecter deux formes via un connecteur dans le[Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) classer.
+ La[ConnectShapesViaConnectorConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) method connect two shapes via a connector in the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) classer.
 
 Le code ci-dessous montre comment :
 

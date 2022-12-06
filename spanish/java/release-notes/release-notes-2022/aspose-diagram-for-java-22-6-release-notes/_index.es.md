@@ -13,7 +13,7 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: forma distorsionada después de guardar en PNG|Mejora|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|Mejora|
 |DIAGRAMJAVA-50967|Cambiar el tamaño de la forma de la línea lateral [Cont.]|Insecto|
 |DIAGRAMJAVA-50972|API no está analizando el archivo correctamente|Insecto|
 |DIAGRAMJAVA-50974|Problema al agregar un nuevo punto de conexión|Insecto|

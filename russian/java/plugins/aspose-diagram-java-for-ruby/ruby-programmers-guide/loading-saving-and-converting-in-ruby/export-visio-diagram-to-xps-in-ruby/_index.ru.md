@@ -1,11 +1,11 @@
 ﻿---
-title: Экспорт Visio Diagram в XPS на Ruby
+title: Экспорт Visio Diagram в XPS в Ruby
 type: docs
 weight: 80
 url: /ru/java/export-visio-diagram-to-xps-in-ruby/
 ---
-## **Aspose.Diagram — Экспорт Visio Diagram в XPS**
- Чтобы экспортировать Visio Diagram в XPS с помощью**Aspose.Diagram Java для рубина** , просто вызовите**Экспорттокспс** модуль. Здесь вы можете увидеть пример кода.
+## **Aspose.Diagram - Экспорт Visio Diagram в XPS**
+ Чтобы экспортировать Visio Diagram в XPS, используя**Aspose.Diagram Java для рубина** , просто вызовите**Экспорттокспс** модуль. Здесь вы можете увидеть пример кода.
 
 **Рубиновый код**
 

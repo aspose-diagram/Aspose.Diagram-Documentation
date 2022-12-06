@@ -6,7 +6,7 @@ url: /de/python-java/remove-fields/
 description: In diesem Abschnitt wird erläutert, wie Felder entfernt werden.
 ---
 ## **Feld entfernen**
- Mit Aspose.Diagram für Python über Java können Sie Felder zu Microsoft Visio Diagrammen aus Ihren eigenen Anwendungen entfernen, ohne Microsoft Office Automatisierung.
+Aspose.Diagram for Python via Java lets you remove field to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 
 Das Field-Objekt repräsentiert ein Textfeld in einem Textlauf. Die field-Eigenschaft, die von der Shape-Klasse verfügbar gemacht wird, unterstützt eine Sammlung von Aspose.Diagram.Field-Objekten.
 

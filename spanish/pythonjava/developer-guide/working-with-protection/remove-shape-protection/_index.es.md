@@ -3,10 +3,10 @@ title: Eliminar protección de forma
 type: docs
 weight: 20
 url: /es/python-java/remove-shape-protection/
-description: Esta sección explica cómo eliminar la protección de forma usando Aspose.Diagram para Python a través de Java.
+description: This section explains how to remove shape protection using Aspose.Diagram for Python via Java.
 ---
 ## **Eliminar la protección de la forma Visio**
-La protección de formas Visio permite a los usuarios bloquear aspectos específicos de las formas. Los aspectos de las formas que se pueden bloquear a través de la protección de formas incluyen el ancho, la altura, la posición x, la posición y, la rotación y más. Los desarrolladores pueden lograr esto usando Aspose.Diagram para Python a través de Java.
+Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using Aspose.Diagram for Python via Java.
 ### **Edite la protección de forma Visio**
 **Bloquear aspecto**, **LockBegin**, **BloquearCalcWH**, **BloquearRecortar**, **LockCustProp**, **BloquearBorrar**, **LockEnd**, **formato de bloqueo**, **LockFromGroupFormat**, **Grupo de bloqueo**, **Altura de bloqueo**, **BloquearMoverX**, **LockMoveY**, **Bloquear Rotar**, **BloquearSeleccionar**, **BloquearTextoEditar**, **LockThemeColors**, **Efectos de tema de bloqueo**, **BloquearVtxEditar** y**ancho de bloqueo** propiedades expuestas por**Proteccion** apoyo de la clase**Aspose.Diagram.BoolValue** objeto. Estas propiedades se pueden utilizar para proteger y desproteger formas.
 
@@ -19,7 +19,7 @@ En Microsoft Office Visio, el usuario puede realizar las siguientes acciones par
 - Presiona OK'
 
 ### **Eliminar la muestra de programación de protección de forma**
-Use el siguiente código en su aplicación para hacer lo mismo (desbloquear cualquier atributo de forma) usando Aspose.Diagram para Python a través de Java.
+Use the following code in your application to do the same thing (unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-RemoveShapeProtection.py" >}}
 

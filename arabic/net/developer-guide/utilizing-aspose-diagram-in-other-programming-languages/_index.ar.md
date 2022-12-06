@@ -5,12 +5,12 @@ weight: 120
 url: /ar/net/utilizing-aspose-diagram-in-other-programming-languages/
 description: توضح هذه الصفحة كيفية استخدام Aspose.Diagram في لغات البرمجة الأخرى.
 ---
-## **استخدم Aspose.Diagram for .NET عبر COM Interop**
- تنطبق المعلومات الواردة في هذا الموضوع على السيناريوهات التي يطلب المطورون استخدامها[Aspose.Diagram for .NET](/diagram/ar/net/home/) عبر COM Interop بأي لغة مدعومة.
+## **استخدم Aspose.Diagram for .NET via COM Interop**
+ تنطبق المعلومات الواردة في هذا الموضوع على السيناريوهات التي يطلب المطورون استخدامها[Aspose.Diagram for .NET](/diagram/ar/net/home/) via COM Interop بأي لغة مدعومة.
 ### **العمل مع COM Interop**
-يتم تنفيذ Aspose.Diagram for .NET تحت سيطرة .NET Framework ويسمى هذا الرمز المدار. الكود المكتوب بجميع اللغات التي تعمل خارج .NET Framework ويسمى رمز غير مُدار. يحدث التفاعل بين الكود غير المُدار و Aspose.Diagram عبر منشأة .NET تسمى COM Interop.
+يتم تنفيذ Aspose.Diagram for .NET تحت سيطرة .NET Framework ويسمى هذا الرمز المدار. الكود المكتوب بجميع اللغات التي تعمل خارج .NET Framework ويسمى رمز غير مُدار. يحدث التفاعل بين الكود غير المُدار و Aspose.Diagram via في منشأة .NET تسمى COM Interop.
 
-كائنات Aspose.Diagram هي .NET كائنات ، ولكن عند استخدامها عبر COM Interop ، فإنها تظهر ككائنات COM في لغة البرمجة الخاصة بك. لذلك ، من الأفضل التأكد من معرفة كيفية إنشاء واستخدام كائنات COM في لغة البرمجة الخاصة بك ، قبل البدء في استخدام[Aspose.Diagram for .NET](/diagram/ar/net/home/).
+ كائنات Aspose.Diagram هي .NET كائنات ، ولكن عند استخدامها via COM Interop ، فإنها تظهر ككائنات COM في لغة البرمجة الخاصة بك. لذلك ، من الأفضل التأكد من معرفة كيفية إنشاء واستخدام كائنات COM في لغة البرمجة الخاصة بك ، قبل البدء في استخدام[Aspose.Diagram for .NET](/diagram/ar/net/home/).
 
 - في عالم COM ، نميز خادم COM وعميل COM. قام خادم COM بتخزين فئات COM بينما يطلب عميل COM خادم COM لمثيلات الفئات ، أي كائنات COM.
 -  يمكن لعميل COM أو تطبيق العميل ببساطة معرفة محتويات فئة COM أو أن يكون غير مدرك تمامًا لأساليبها وخصائصها. لذلك يمكن لتطبيق العميل اكتشاف بنية فئة COM عند التجميع / البناء أو أثناء التنفيذ فقط. تُعرف عملية "الاكتشاف" بالربط ولذا لدينا**الربط المبكر** و**الربط المتأخر**.
@@ -33,7 +33,7 @@ description: توضح هذه الصفحة كيفية استخدام Aspose.Diagr
 
 لتسجيل Aspose.Diagram for .NET لـ COM Interop يدويًا:
 
-1.  من**بداية** القائمة ، حدد**كل البرامج** ، ومن بعد**Microsoft Visual Studio**, **أدوات Visual Studio** وأخيرا**موجه أوامر Visual Studio**. في بعض أنظمة التشغيل ، يتوفر أيضًا في الموقع: "C: \ Program Files (x86) \ Microsoft SDKs \ Windows \ v7.0A \ bin \ x64"
+1.  من**بداية** القائمة ، حدد**كل البرامج** ، ومن بعد**Microsoft Visual Studio**, **Visual Studio أدوات** وأخيرا**Visual Studio موجه الأوامر**. في بعض أنظمة التشغيل ، يتوفر أيضًا في الموقع: "C: \ Program Files (x86) \ Microsoft SDKs \ Windows \ v7.0A \ bin \ x64"
 1.  أدخل الأمر لتسجيل التجمع:
    1. .NET Framework 2.0
 regasm "C: \ Program Files \ Aspose \ Aspose.Diagram for .NET \ bin \ net2.0 \ Aspose.Diagram.dll" / codebase
@@ -49,7 +49,7 @@ regasm "C: \ Program Files \ Aspose \ Aspose.Diagram for .NET \ bin \ net2.0 \ A
 {{% /alert %}} {{% alert color="primary" %}} 
 
  regasm.exe أداة مضمنة في .NET Framework SDK. توجد جميع أدوات SDK .NET Framework في*\ Microsoft .NET \ Framevork \ <FrameworkVersion>* الدليل ، على سبيل المثال*ج: \ Windows \ Microsoft .NET \ Framework \ v4.0.30319*. إذا كنت تستخدم Visual Studio .NET:
- من**بداية** القائمة ، حدد**البرامج** ، تليها**Microsoft Visual Studio .NET** ، ومن بعد**أدوات Visual Studio .NET** وأخيرا**موجه الأوامر المرئي .NET 2003**.
+ من**بداية** القائمة ، حدد**البرامج** ، تليها**Microsoft Visual Studio .NET** ، ومن بعد**Visual Studio .NET أدوات** وأخيرا**Visual Studio .NET 2003 موجه الأوامر**.
 يقوم بتشغيل موجه الأوامر مع مجموعة متغيرات البيئة الضرورية.
 
 {{% /alert %}} 
@@ -79,20 +79,20 @@ regasm "C: \ Program Files \ Aspose \ Aspose.Diagram for .NET \ bin \ net4.0 \ A
 ## **Aspose.Diagram الموارد**
 فيما يلي روابط لبعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
 - [Aspose.Diagram for Java التوثيق عبر الإنترنت](https://docs.aspose.com/diagram/java/)
-- [Aspose.Diagram لـ Node.js عبر التوثيق عبر الإنترنت Java](https://docs.aspose.com/diagram/nodejsjava/)
-- [Aspose.Diagram لـ Python عبر Java التوثيق عبر الإنترنت](https://docs.aspose.com/diagram/pythonjava/)
+- [Aspose.Diagram لـ Node.js via Java التوثيق عبر الإنترنت](https://docs.aspose.com/diagram/nodejsjava/)
+- [Aspose.Diagram لـ Python via Java التوثيق عبر الإنترنت](https://docs.aspose.com/diagram/pythonjava/)
 
 ##### **إنشاء مجموعة غلاف**
 إذا كنت بحاجة إلى استخدام العديد من فئات وطرق وخصائص Aspose.Diagram for .NET ، ففكر في إنشاء مجموعة مجمعة (باستخدام C# أو أي لغة برمجة .NET أخرى). تساعد تجميعات الغلاف على تجنب استخدام Aspose.Diagram for .NET مباشرةً من التعليمات البرمجية غير المُدارة.
 
 تتمثل إحدى الطرق الجيدة في تطوير مجموعة .NET تشير إلى Aspose.Diagram for .NET وتقوم بكل العمل معها ، ولا تعرض سوى مجموعة قليلة من الفئات والطرق للتعليمات البرمجية غير المُدارة. يجب أن يعمل التطبيق الخاص بك مع مكتبة الغلاف الخاصة بك فقط.
 
- يؤدي تقليل عدد الفئات والطرق التي تحتاج إلى استدعاؤها عبر COM Interop إلى تبسيط المشروع. غالبًا ما يتطلب استخدام فئات .NET عبر COM Interop مهارات متقدمة.
+يؤدي تقليل عدد الفئات والطرق التي تحتاجها لاستدعاء via COM Interop إلى تبسيط المشروع. غالبًا ما يتطلب استخدام فئات .NET via COM Interop مهارات متقدمة.
 ## **قم بإنشاء رسم Visio فارغ في PHP باستخدام COM Interop**
 ### **المتطلبات الأساسية**
- قم بتكوين PHP الخاص بك للعمل مع COM. نرى<http://www.php.net/manual/en/ref.com.php> . لمزيد من المعلومات ، يرجى مراجعة المقالة المسماة[استخدم Aspose.Diagram for .NET عبر COM Interop](/diagram/ar/net/home/).
+ قم بتكوين PHP الخاص بك للعمل مع COM. نرى<http://www.php.net/manual/en/ref.com.php> . لمزيد من المعلومات ، يرجى مراجعة المقالة المسماة[استخدم Aspose.Diagram for .NET via COM Interop](/diagram/ar/net/home/).
 ### **تكوين رسم Visio فارغ**
- هذا تطبيق بسيط يوضح لك كيفية إنشاء رسم Visio فارغ باستخدام[Aspose.Diagram for .NET](/diagram/ar/net/home/) في PHP عبر COM Interop.
+ هذا تطبيق بسيط يوضح لك كيفية إنشاء رسم Visio فارغ باستخدام[Aspose.Diagram for .NET](/diagram/ar/net/home/) في PHP via COM Interop.
 
 **بي أتش بي**
 

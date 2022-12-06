@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram 用于 Node.js 通过 Java 22.6 发行说明
+title: Aspose.Diagram for Node.js via Java 22.6 Release Notes
 type: docs
 weight: 22
 url: /zh/java/aspose-diagram-for-node-js-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含 Aspose.Diagram for Node.js via Java 22.6 的发行说明信息。
+This page contains release notes information for Aspose.Diagram for Node.js via Java 22.6.
 
 {{% /alert %}}
 ## **改进和变化**  ##
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK：保存为 PNG 后形状变形|强化|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|强化|
 |DIAGRAMJAVA-50967|调整侧线形状 [续]|漏洞|
 |DIAGRAMJAVA-50972|API 没有正确解析文件|漏洞|
 |DIAGRAMJAVA-50974|添加新连接点的问题|漏洞|

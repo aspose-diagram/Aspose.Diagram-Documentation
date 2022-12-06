@@ -8,7 +8,7 @@ description: 本节介绍如何使用 Aspose.Diagram 连接两个形状。
 ## **连接形状**
 本节介绍如何使用 Aspose.Diagram for .NET 连接两个形状。
 ### **连接形状**
-这[通过连接器连接形状](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1)方法通过连接器连接两个形状[页](http://www.aspose.com/api/net/diagram/aspose.diagram/page)班级。
+这[通过连接器连接形状](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) method connect two shapes via a connector in the [页](http://www.aspose.com/api/net/diagram/aspose.diagram/page)班级。
 
 下面的代码显示了如何：
 

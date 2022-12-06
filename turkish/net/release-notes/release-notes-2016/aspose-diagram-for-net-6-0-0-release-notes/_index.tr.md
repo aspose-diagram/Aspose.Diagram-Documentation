@@ -10,16 +10,16 @@ Bu sürüm, aşağıda ayrıntılı olarak açıklanan özellikleri, geliştirme
 - DIAGRAMNET-50617-Yapıştırılmış veya bağlantılı iki şekli belirlemek için destek ekleyin
 - DIAGRAMNET-50641-VSD ila VDX dışa aktarma, şekillerin eksik gölgesi
 ## **Hatalar**
-- DIAGRAMNET-50303-VSD'den PDF'ye dışa aktarma, beyaz noktalı boş PDF oluşturulur
+- DIAGRAMNET-50303-VSD ila PDF dışa aktarma, boş PDF'de beyaz nokta oluşturuldu
 - DIAGRAMNET-50466-VSD'den VDX'e dönüştürme, dinamik eğri konektörleri düze dönüşür
-- DIAGRAMNET-50472-VSD'den HTML'ye dönüştürme, metin şekli yanlış yerleştirilmiş
+- DIAGRAMNET-50472-VSD'den HTML'e dönüştürme, metin şekli yanlış yerleştirilmiş
 - DIAGRAMNET-50473-VSD'den PDF'e dönüştürme, tüm sayfaların başlığına "Iloprost" metni eklenir
 - DIAGRAMNET-50474-VSD'den PDF'e dönüştürme, liste öğeleri yanlış yerleştirilmiş
-- DIAGRAMNET-50480-VSD'den HTML'ye dönüştürme, tüm sayfaların başlığına "Iloprost" metni eklenir
+- DIAGRAMNET-50480-VSD'den HTML'e dönüştürme, tüm sayfaların başlığına "Iloprost" metni eklenir
 - DIAGRAMNET-50622-Bağlı şekillerin gelen düğümleri algılanamıyor
 - DIAGRAMNET-50623-Bağlayıcı şekillerinin geometrisi yanlış
 - DIAGRAMNET-50624-Bağlayıcı şekillerinin geometrisi yanlış
-- DIAGRAMNET-50629-Çıktı formatı HTML] - Başka bir grup şekli yerleştirilemiyor Visio diagram
+- DIAGRAMNET-50629-Çıktı formatı HTML] - Başka bir Visio diagram'den grup şekli yerleştirilemiyor
 - DIAGRAMNET-50634-Visio diagram sayfa işleminin kopyalanması şekillerin stilini korumuyor
 - DIAGRAMNET-50635-Visio diagram sayfasını kopyalamak şekilleri tamamen korumaz
 - DIAGRAMNET-50636-Visio diagram sayfasını kopyalamak şekilleri tamamen korumaz

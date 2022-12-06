@@ -13,7 +13,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK : Forme déformée après l'enregistrement au format PNG|Renforcement|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|Renforcement|
 |DIAGRAMJAVA-50967|Redimensionnement de la forme de la ligne latérale [Suite]|Punaise|
 |DIAGRAMJAVA-50972|API n'analyse pas correctement le fichier|Punaise|
 |DIAGRAMJAVA-50974|Problème lors de l'ajout d'un nouveau point de connexion|Punaise|

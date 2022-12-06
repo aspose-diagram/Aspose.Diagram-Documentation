@@ -16,5 +16,5 @@ url: /zh/java/aspose-diagram-for-java-18-9-release-notes/
 |DIAGRAMJAVA-50617|无法使用 API 设置形状的 PinPos|强化|
 |DIAGRAMJAVA-50544|输出 VSDX - 形状的宽度公式没有维护|漏洞|
 |DIAGRAMJAVA-50614|形状之间的连接不正确|漏洞|
-|DIAGRAMJAVA-50618|将 VSD 转换为 SVG 时，形状的工具提示不起作用|漏洞|
+|DIAGRAMJAVA-50618|Tooltip of shapes are not working while converting VSD to SVG|漏洞|
 

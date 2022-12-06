@@ -15,14 +15,14 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-51891|Visio en JPG - API prend beaucoup de temps pour la conversion|Renforcement|
 |DIAGRAMNET-51902|Visio les fichiers avec des versions inférieures à 11 ne sont pas pris en charge exception lors de l'ouverture de VSS|Renforcement|
-|DIAGRAMNET-51906|Exporter VSDX au format PDF : problèmes de largeur de ligne, d'image et de cotation|Renforcement|
-|DIAGRAMNET-51929|Conversion VSD en SVG : transformations matricielles dans le fichier SVG de sortie|Renforcement|
-|DIAGRAMNET-51931|Visio en PDF - API consomme une grande quantité de mémoire et prend beaucoup de temps|Renforcement|
-|DIAGRAMNET-51936|[Suite]Visio en PDF - API consomme une grande quantité de mémoire et prend beaucoup de temps|Renforcement|
+|DIAGRAMNET-51906|Export VSDX to PDF: problems with line width, image and dimensioning|Renforcement|
+|DIAGRAMNET-51929|VSD to SVG conversion: Matrix transformations in the output SVG file|Renforcement|
+|DIAGRAMNET-51931|Visio to PDF - API is consuming large amount of memory and taking long time|Renforcement|
+|DIAGRAMNET-51936|[Cont.]Visio to PDF - API is consuming large amount of memory and taking long time|Renforcement|
 |DIAGRAMNET-51881|La position de 2 étiquettes n'est pas correcte|Punaise|
 |DIAGRAMNET-51907|Une erreur générique s'est produite dans l'exception GDI+ lors du rendu du fichier VSDX|Punaise|
-|DIAGRAMNET-51926-|Aspose.Diagram 20.9 : NullReferenceException lors de la conversion de VDX en PNG|Punaise|
-|DIAGRAMNET-51928|Conversion VSD vers SVG : il manque du texte et des flèches en fin de ligne|Punaise|
+|DIAGRAMNET-51926-|Aspose.Diagram 20.9: NullReferenceException when converting VDX to PNG|Punaise|
+|DIAGRAMNET-51928|VSD to SVG conversion: Some text and arrows at the end of the lines are missing|Punaise|
 |DIAGRAMNET-51932|Styles de forme perdus après conversion vsd -> vsdx|Punaise|
 |DIAGRAMNET-51933|Format des arrêts dégradés non conforme à la norme svg|Punaise|
 |DIAGRAMNET-51934|La référence d'objet n'est pas définie à une instance d'un objet.' lors de l'enregistrement de formes VSS pour un fichier spécifique|Punaise|

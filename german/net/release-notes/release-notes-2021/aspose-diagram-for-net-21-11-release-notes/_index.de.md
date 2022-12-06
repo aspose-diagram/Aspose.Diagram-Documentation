@@ -13,13 +13,13 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.11.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51111|Die Verlaufsfüllung der Kreise ist falsch, wenn ein VDX in EMF konvertiert wird|Erweiterung|
+|DIAGRAMNET-51111|Gradient fill of the circles is wrong when converting a VDX to EMF|Erweiterung|
 |DIAGRAMNET-52377|Unterstützung für das Laden von vsd mit der alten Version 3 hinzugefügt|Erweiterung|
-|DIAGRAMNET-51364|VSDX zu PNG – der Text des eingebetteten OLE-Objekts fehlt|Insekt|
-|DIAGRAMNET-52329|VSDX zu HTML - Emojis sind in der Ausgabe nicht vorhanden|Insekt|
+|DIAGRAMNET-51364|VSDX to PNG - missing the text of OLE Embedded object|Insekt|
+|DIAGRAMNET-52329|VSDX to HTML - Emojis are not present in the output|Insekt|
 |DIAGRAMNET-52345|Kopfzeile und Fußzeile gehen nach dem Speichern der Datei Diagram verloren|Insekt|
-|DIAGRAMNET-52349|Visio zu HTML - Linker und rechter Rand werden abgeschnitten|Insekt|
-|DIAGRAMNET-52374|ArgumentOutOfRangeException beim Speichern in PDF|Insekt|
+|DIAGRAMNET-52349|Visio to HTML - Left and right edges are cut|Insekt|
+|DIAGRAMNET-52374|ArgumentOutOfRangeException while saving to PDF|Insekt|
 |DIAGRAMNET-52386|Warum können einige diagram-Seiten dupliziert werden und einige können Page.Copy() nicht verwenden?|Insekt|
 
 ## **Öffentliche API und rückwärtsinkompatible Änderungen**

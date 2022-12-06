@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Node.js için Aspose.Diagram 21.12 Sürüm Notları
+title: Node.js için Aspose.Diagram via Java 21.12 Sürüm Notları
 type: docs
 weight: 3
 url: /tr/java/aspose-diagram-for-node-js-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 21.12 üzerinden Node.js için Aspose.Diagram sürüm notları bilgilerini içerir.
+Bu sayfa, Node.js via Java 21.12 için Aspose.Diagram sürüm notları bilgilerini içerir.
 
 
 {{% /alert %}}

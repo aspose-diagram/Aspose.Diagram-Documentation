@@ -1,6 +1,6 @@
 ﻿---
 title: Поддерживаемые форматы файлов
-description: Aspose Diagram for .NET Поддержка VSD, VSS, VDW, VST, VDX,VSX,VTX,VSDX, VSSX, 076193448481, VSSX, 0761193448481, VSSX, 0761193448481.
+description: Aspose Diagram for .NET Поддержка VSD, VSS, VDW, VST, VDX,VSX VTX,VSDX, 0761119341173481,VSDX, 0761119341173481,VSDX, 07611119341173481,VSDX, 0761111917173481,VSDX, 0761111917173481,VSDX, 0763481,VTX,VSDX.
 type: docs
 weight: 10
 url: /ru/net/supported-file-formats/
@@ -22,16 +22,16 @@ url: /ru/net/supported-file-formats/
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM, который содержит как шаблон чертежа, так и макросы|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[ВДВ](https://docs.fileformat.com/visio/vdw/)|Visio Тип файла веб-чертежа|{{< emoticons/tick >}}|||
 |[ВСС](https://docs.fileformat.com/visio/vss/)|Тип файла трафарета Visio|{{< emoticons/tick >}}|||
-|[ВСТ](https://docs.fileformat.com/visio/vst/)|Файл шаблона VST|{{< emoticons/tick >}}|||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Файл шаблона|{{< emoticons/tick >}}|||
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (переносимый формат документа)||{{< emoticons/tick >}}||
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|Формат XPS||{{< emoticons/tick >}}||
-|[XAML](https://docs.fileformat.com/web/xaml/)|формат XAML||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS формат||{{< emoticons/tick >}}||
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML формат||{{< emoticons/tick >}}||
 |[SWF](https://docs.fileformat.com/page-description-language/swf/)|Файл Adobe Flash||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Масштабируемая векторная графика (формат векторного изображения на основе XML)||{{< emoticons/tick >}}||
-|[ЭДС](https://docs.fileformat.com/image/emf/)|Расширенный метафайл||{{< emoticons/tick >}}||
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|Формат JPEG||{{< emoticons/tick >}}||
-|[PNG](https://docs.fileformat.com/image/png/)|Формат PNG||{{< emoticons/tick >}}||
-|[БМП](https://docs.fileformat.com/image/bmp/)|BMP-формат||{{< emoticons/tick >}}||
-|[ТИФФ](https://docs.fileformat.com/image/tiff/)|Одно- или многостраничное изображение TIFF||{{< emoticons/tick >}}||
-|[HTML](https://docs.fileformat.com/web/html/)|HTML-формат||{{< emoticons/tick >}}||
+|[EMF](https://docs.fileformat.com/image/emf/)|Расширенный метафайл||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Формат||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Формат||{{< emoticons/tick >}}||
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Формат||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Одностраничное или многостраничное изображение TIFF||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Формат||{{< emoticons/tick >}}||
 

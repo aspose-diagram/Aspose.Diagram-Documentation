@@ -16,13 +16,13 @@ url: /tr/java/aspose-diagram-for-java-6-8-0-release-notes/
 |DIAGRAMJAVA-50347|Visio Sayfasına ActiveX denetimleri ekleme desteği ekleyin.|Yeni özellik|
 |DIAGRAMJAVA-50360|Katmanın renk onay kutusunu ayarlamak için destek ekleyin.|Yeni özellik|
 |DIAGRAMJAVA-50348|VSDM'deki Visio sayfası kopyalanamıyor.|Artırma|
-|DIAGRAMJAVA-50357|Bir VSDX'i PDF'ye dönüştürürken bir OLE grafiğinin eksik işlenmesi.|Artırma|
-|DIAGRAMJAVA-50358|Bir VSDX PNG'ye dönüştürülürken bir OLE grafiği oluşturulmuyor.|Artırma|
+|DIAGRAMJAVA-50357|VSDX'i PDF'e dönüştürürken bir OLE grafiğinin eksik işlenmesi.|Artırma|
+|DIAGRAMJAVA-50358|VSDX'den PNG'e dönüştürülürken bir OLE grafiği oluşturulmuyor.|Artırma|
 |DIAGRAMJAVA-50207|VSDX'den PDF'e dönüştürme, katıştırılmış word belgesi simgesi eksik.|Böcek|
 |DIAGRAMJAVA-50346|Bir VSD'den Connects'in yanlış alınması.|Böcek|
 |DIAGRAMJAVA-50349|Her şeklin dolgu deseni renginin önemsiz değerini döndürür.|Böcek|
 |DIAGRAMJAVA-50350|VSDM diagram'de bir dinamik bağlayıcının eksik işlenmesi.|Böcek|
-|DIAGRAMJAVA-50354|VSDX, PDF'ye dönüştürülürken boş bir PDF oluşturulur.|Böcek|
+|DIAGRAMJAVA-50354|VSDX, PDF'e dönüştürülürken boş bir PDF oluşturulur.|Böcek|
 |DIAGRAMJAVA-50355|VSDX yüklenirken bir yazar listesi hatası oluştu.|Böcek|
 |DIAGRAMJAVA-50359|Bir VSD diagram'den bağlayıcının ters yönünü alır.|Böcek|
 |DIAGRAMJAVA-50362|VSD'den alınırken hatalı bağlantılar döndürür.|Böcek|

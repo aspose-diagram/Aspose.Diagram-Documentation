@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram для Python через .NET 22.11 Примечания к выпуску
+title: Aspose.Diagram для Python via .NET 22.11 Примечания к выпуску
 type: docs
 weight: 16
 url: /ru/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Эта страница содержит примечания к выпуску Aspose.Diagram для Python через .NET 22.11.
+Эта страница содержит примечания к выпуску для Aspose.Diagram для Python via .NET 22.11.
 
 {{% /alert %}} 
 
@@ -17,8 +17,8 @@ url: /ru/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 |DIAGRAMNET-53024|Формула не обновляет поле|Улучшение|
 |DIAGRAMNET-53009|Разговор с vsdx на потерянное изображение svg|Улучшение|
 |DIAGRAMNET-53010|Приложение: Сохранение потерянных форм vsdx в PDF|Ошибка|
-|DIAGRAMNET-53013|Visio в SVG — Пользовательские шаблоны линий|Ошибка|
-|DIAGRAMNET-53017|Связанная область в HTML VSD изменена на версию 22.10.0.0|Ошибка|
+|DIAGRAMNET-53013|от Visio до SVG — пользовательские шаблоны линий|Ошибка|
+|DIAGRAMNET-53017|Связанная область в HTML из VSD изменена на версию 22.10.0.0|Ошибка|
 |DIAGRAMNET-53018|Ошибка с Paras.SpLine|Ошибка|
 |DIAGRAMNET-53019|дополнительная линия рисуется в левом нижнем углу|Ошибка|
 |DIAGRAMNET-53033|Значения ячеек рассчитаны неправильно|Ошибка|

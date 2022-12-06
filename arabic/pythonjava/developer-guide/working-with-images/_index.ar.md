@@ -14,7 +14,7 @@ description: تصف هذه الصفحة كيفية استخراج صورة أو 
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ExtractAllImagesFromPage.py" >}}
 ## **احصل على أيقونات بأشكال Visio مختلفة**
- Aspose.Diagram لـ Python عبر Java API الآن يسمح للمطورين بالحصول على أيقونات مختلفة[Visio الأشكال](Timeline.vss). 
+ Aspose.Diagram لـ Python via Java API الآن يسمح للمطورين بالحصول على أيقونات مختلفة[Visio الأشكال](Timeline.vss). 
 ### **الحصول على أيقونة الشكل**
 يوضح الكود الموجود في العينات أدناه كيفية:
 
@@ -25,7 +25,7 @@ description: تصف هذه الصفحة كيفية استخراج صورة أو 
 #### **احصل على نموذج لبرمجة الأيقونات**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-GetShapeIcon.py" >}}
 ## **استبدال شكل صورة Visio Diagram**
-Aspose.Diagram لـ Python عبر Java API يسمح للمطورين بالوصول إلى أشكال الصور المتوفرة واستبدالها في[ال Visio diagram](ExtractAllImagesFromPage.vsd).
+ Aspose.Diagram لـ Python via Java API يسمح للمطورين بالوصول إلى أشكال الصور المتاحة واستبدالها[ال Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **استبدال شكل صورة**
 يوضح الكود الموجود في العينات أدناه كيفية:
 
@@ -36,7 +36,7 @@ Aspose.Diagram لـ Python عبر Java API يسمح للمطورين بالوص�
 #### **استبدال نموذج لبرمجة شكل صورة**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ReplaceShapePicture.py" >}}
 ## **استيراد الصورة كشكل Visio**
-Aspose.Diagram لـ Python عبر Java API يسمح الآن للمطورين باستيراد صورة كشكل Microsoft Visio.
+Aspose.Diagram لـ Python via Java API يسمح الآن للمطورين باستيراد صورة كشكل Microsoft Visio.
 ### **أدخل صورة في Visio**
 يوضح الكود الموجود في العينات أدناه كيفية:
 

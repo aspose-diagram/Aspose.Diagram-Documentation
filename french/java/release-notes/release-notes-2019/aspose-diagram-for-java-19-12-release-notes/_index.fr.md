@@ -14,6 +14,6 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50663|Impossible d'obtenir la bonne couleur de remplissage à partir des formes et de la police|Punaise|
-|DIAGRAMJAVA-50673|Arrière-plans incorrects sur certaines formes lors de l'enregistrement au format PDF|Punaise|
-|DIAGRAMJAVA-50674|Visio en PDF - API produit un PDF corrompu|Punaise|
+|DIAGRAMJAVA-50673|Incorrect backgrounds on certain shapes when saving as PDF|Punaise|
+|DIAGRAMJAVA-50674|Visio to PDF - API is producing corrupted PDF|Punaise|
 

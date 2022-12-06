@@ -14,13 +14,13 @@ Diese Seite enthält Versionshinweise für[Aspose.Diagram for Java 17.1.0](https
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50396|Die Füllfarbe der Rechteckform kann nicht von VSDX diagram abgerufen werden.|Erweiterung|
-|DIAGRAMJAVA-50367|Die Farbe von Formen wird beim Konvertieren von VSDX in PDF nicht beibehalten.|Insekt|
-|DIAGRAMJAVA-50370|Beim Konvertieren von VSDX in PNG fehlt die Formatierung der Rechteckform.|Insekt|
-|DIAGRAMJAVA-50373|Der Schatten von Formen wird beim Konvertieren von VSD in SVG nicht richtig gerendert.|Insekt|
-|DIAGRAMJAVA-50378|Die Farbe von Beschriftungen und Text wird beim Konvertieren von VSDX in PNG nicht beibehalten.|Insekt|
-|DIAGRAMJAVA-50379|Eine Microsoft Sharepoint Workflow-Form fehlt beim Konvertieren einer VSDX in PNG.|Insekt|
-|DIAGRAMJAVA-50380|Fehlende Textelemente und eine Überlappung einer Form beim Konvertieren von VSD in PDF.|Insekt|
-|DIAGRAMJAVA-50406|Unvollständige Darstellung der dynamischen Konnektoren beim Konvertieren einer VSD in HTML.|Insekt|
+|DIAGRAMJAVA-50367|The color of shapes is not being preserved on converting a VSDX to PDF.|Insekt|
+|DIAGRAMJAVA-50370|The formatting of rectangle shape is missing on converting a VSDX to PNG.|Insekt|
+|DIAGRAMJAVA-50373|The shadow of shapes is not being rendered properly on converting a VSD to SVG.|Insekt|
+|DIAGRAMJAVA-50378|The color of callouts and text is not being preserved on converting a VSDX to PNG.|Insekt|
+|DIAGRAMJAVA-50379|A Microsoft Sharepoint Workflow shape is missing on converting a VSDX to PNG.|Insekt|
+|DIAGRAMJAVA-50380|Missing text items and an overlap of a shape on converting a VSD to PDF.|Insekt|
+|DIAGRAMJAVA-50406|Incomplete rendering of the dynamic connectors on converting a VSD to HTML.|Insekt|
 |DIAGRAMJAVA-50450|Ein Shape-Text wird in die Dummy-Zeichen konvertiert.|Insekt|
 |DIAGRAMJAVA-50456|Teildarstellung der Visio-Formen beim Konvertieren von Visio-Seiten in SVGs.|Insekt|
 

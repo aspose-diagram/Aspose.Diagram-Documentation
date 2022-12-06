@@ -20,10 +20,10 @@ url: /zh/net/aspose-diagram-for-net-21-9-release-notes/
 |DIAGRAMNET-52197|加载和保存 vsdx 改变 DisplayMode 的值|强化|
 |DIAGRAMNET-52205|形状中缺少双击事件|强化|
 |DIAGRAMNET-51877|渲染VSD文件时出现“Parameter is not valid”异常|漏洞|
-|DIAGRAMNET-52114|“参数无效。”将 VSD 文件渲染为 PNG/JPG 时出现异常|漏洞|
+|DIAGRAMNET-52114|"Parameter is not valid." exception when rendering VSD file to PNG/JPG|漏洞|
 |DIAGRAMNET-52124|将 Visio 保存为 html 问题|漏洞|
-|DIAGRAMNET-52127|使用帮助行将 Visio 保存到 HTML 问题|漏洞|
-|DIAGRAMNET-52148|VSDX 到 PDF - 删除线文本在 PDF 中不正确|漏洞|
+|DIAGRAMNET-52127|Saving Visio with helper lines to HTML issue|漏洞|
+|DIAGRAMNET-52148|VSDX to PDF - Strikethrough text is not correct in PDF|漏洞|
 |DIAGRAMNET-52150|无法提取用户定义的单元格公式的值（继续）。|漏洞|
 |DIAGRAMNET-52229|用户定义的单元格被重命名|漏洞|
 |DIAGRAMNET-52231|形状“胶水”选项的连接器丢失|漏洞|

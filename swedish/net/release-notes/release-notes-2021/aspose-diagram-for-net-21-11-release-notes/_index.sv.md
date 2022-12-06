@@ -18,8 +18,8 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-51364|VSDX till PNG - texten för OLE Embedded-objekt saknas|Insekt|
 |DIAGRAMNET-52329|VSDX till HTML - Emojis finns inte i utdata|Insekt|
 |DIAGRAMNET-52345|Sidhuvudets sidfot försvinner efter att filen Diagram har sparats|Insekt|
-|DIAGRAMNET-52349|Visio till HTML - Vänster och höger kanter skärs|Insekt|
-|DIAGRAMNET-52374|ArgumentOutOfRangeException när du sparar till PDF|Insekt|
+|DIAGRAMNET-52349|Visio till HTML - Vänster och höger kanter är skurna|Insekt|
+|DIAGRAMNET-52374|ArgumentOutOfRangeException medan du sparar till PDF|Insekt|
 |DIAGRAMNET-52386|Varför kan vissa diagram-sidor dupliceras och vissa inte kan använda Page.Copy()?|Insekt|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

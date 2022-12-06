@@ -10,10 +10,10 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.D
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 | DIAGRAMMAJava-50281| ImageSaveOptions.setImageBrightness non funziona| Aumento|
-|DIAGRAMMAJava-50293| L'esportazione da VSD a SVG non conserva gli ID delle forme| Aumento|
+|DIAGRAMMAJava-50293|VSD to SVG export does not preserve shape ids | Aumento|
 | DIAGRAMMAJava-50294| Formato di output VDX - Impossibile connettere due forme Visio| Aumento|
 | DIAGRAMMAJava-50300| Impossibile modificare l'orientamento della pagina impostando la proprietà PrintPageOrientation| Aumento|
-| DIAGRAMMAJava-50067| VSD alla conversione PDF, la parola "testo" viene aggiunta nel testo della forma| Insetto|
+| DIAGRAMMAJava-50067|VSD to PDF conversion, the word "text" is added in the shape's text | Insetto|
 | DIAGRAMMAJava-50124| Impostazione errata della posizione del testo del connettore| Insetto|
 | DIAGRAMMAJava-50288| Avviso dell'attributo mancante all'apertura del risultante VDX diagram| Insetto|
 | DIAGRAMMAJava-50289| Il metodo Shape.connectedShapes non rileva alcuni ID forma in entrata| Insetto|

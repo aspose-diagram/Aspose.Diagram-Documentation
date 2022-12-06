@@ -14,13 +14,13 @@ Cette page contient des notes de version pour[Aspose.Diagram for Java 17.1.0](ht
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50396|Impossible de récupérer la couleur de remplissage de la forme rectangulaire à partir d'un VSDX diagram.|Renforcement|
-|DIAGRAMJAVA-50367|La couleur des formes n'est pas conservée lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMJAVA-50370|La mise en forme de la forme rectangulaire est manquante lors de la conversion d'un VSDX en PNG.|Punaise|
-|DIAGRAMJAVA-50373|L'ombre des formes n'est pas rendue correctement lors de la conversion d'un VSD en SVG.|Punaise|
-|DIAGRAMJAVA-50378|La couleur des légendes et du texte n'est pas conservée lors de la conversion d'un VSDX en PNG.|Punaise|
-|DIAGRAMJAVA-50379|Une forme de flux de travail Sharepoint Microsoft est manquante lors de la conversion d'un VSDX en PNG.|Punaise|
-|DIAGRAMJAVA-50380|Éléments de texte manquants et chevauchement d'une forme lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMJAVA-50406|Rendu incomplet des connecteurs dynamiques lors de la conversion d'un VSD en HTML.|Punaise|
+|DIAGRAMJAVA-50367|The color of shapes is not being preserved on converting a VSDX to PDF.|Punaise|
+|DIAGRAMJAVA-50370|The formatting of rectangle shape is missing on converting a VSDX to PNG.|Punaise|
+|DIAGRAMJAVA-50373|The shadow of shapes is not being rendered properly on converting a VSD to SVG.|Punaise|
+|DIAGRAMJAVA-50378|The color of callouts and text is not being preserved on converting a VSDX to PNG.|Punaise|
+|DIAGRAMJAVA-50379|A Microsoft Sharepoint Workflow shape is missing on converting a VSDX to PNG.|Punaise|
+|DIAGRAMJAVA-50380|Missing text items and an overlap of a shape on converting a VSD to PDF.|Punaise|
+|DIAGRAMJAVA-50406|Incomplete rendering of the dynamic connectors on converting a VSD to HTML.|Punaise|
 |DIAGRAMJAVA-50450|Un texte de forme est en cours de conversion en caractères factices.|Punaise|
 |DIAGRAMJAVA-50456|Rendu partiel des formes Visio lors de la conversion des pages Visio en SVG.|Punaise|
 

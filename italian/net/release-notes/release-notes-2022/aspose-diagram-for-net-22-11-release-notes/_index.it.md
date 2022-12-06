@@ -18,8 +18,8 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |DIAGRAMNET-53024|Campo di formula non rinfrescante|Aumento|
 |DIAGRAMNET-53009|Conversazione da vsdx a svg immagine persa|Aumento|
 |DIAGRAMNET-53010|App: Salvataggio vsdx in Pdf forme perdute|Insetto|
-|DIAGRAMNET-53013|Visio a SVG - Modelli di linea personalizzati|Insetto|
-|DIAGRAMNET-53017|L'area collegata in HTML di VSD è stata modificata nella versione 22.10.0.0|Insetto|
+|DIAGRAMNET-53013|Visio to SVG - Custom line patterns|Insetto|
+|DIAGRAMNET-53017|Linked area in HTML of VSD has changed to version 22.10.0.0|Insetto|
 |DIAGRAMNET-53018|Bug con Paras.SpLine|Insetto|
 |DIAGRAMNET-53019|una linea extra è disegnata in basso a sinistra|Insetto|
 |DIAGRAMNET-53033|Valori delle celle non calcolati correttamente|Insetto|

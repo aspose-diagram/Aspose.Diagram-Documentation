@@ -13,14 +13,14 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51673|Salva come PDF A1A immagini perse|Aumento|
-|DIAGRAMNET-51674|Colore del testo e del bordo perso durante il salvataggio come PDF A1a|Aumento|
-|DIAGRAMNET-51675|Differenze durante il salvataggio di un file VSDX come HTML|Insetto|
-|DIAGRAMNET-51704|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51730|Visio in HTML: le descrizioni comandi non sono corrette nell'HTML di output|Insetto|
+|DIAGRAMNET-51673|Save as PDF A1A lost pictures|Aumento|
+|DIAGRAMNET-51674|Lost color of text and border when saving as PDF A1a|Aumento|
+|DIAGRAMNET-51675|Differences when saving a VSDX file as HTML|Insetto|
+|DIAGRAMNET-51704|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51730|Visio to HTML - Tooltips are incorrect in output HTML|Insetto|
 |DIAGRAMNET-51732|Le forme perdono stile/struttura, dopo "AddShape" alla pagina|Insetto|
-|DIAGRAMNET-51733|Visio documento non convertito correttamente in PDF|Insetto|
-|DIAGRAMNET-51736|Proprietà di destinazione errata nel collegamento ipertestuale durante il rendering dell'HTML|Insetto|
+|DIAGRAMNET-51733|Visio document not converting to PDF correctly|Insetto|
+|DIAGRAMNET-51736|Bad Target property in hyperlink when rendering HTML|Insetto|
 |DIAGRAMNET-51740-|Visio il contenuto è rotto quando si salva nuovamente un file|Insetto|
 
 

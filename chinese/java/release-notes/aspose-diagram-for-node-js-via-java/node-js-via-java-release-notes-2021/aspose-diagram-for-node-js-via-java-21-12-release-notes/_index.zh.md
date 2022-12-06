@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram 用于 Node.js 通过 Java 21.12 发行说明
+title: Aspose.Diagram for Node.js via Java 21.12 Release Notes
 type: docs
 weight: 3
 url: /zh/java/aspose-diagram-for-node-js-via-java-21-12-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含 Aspose.Diagram for Node.js 的发行说明信息，发布时间为 Java 21.12。
+This page contains release notes information for Aspose.Diagram for Node.js via Java 21.12.
 
 
 {{% /alert %}}

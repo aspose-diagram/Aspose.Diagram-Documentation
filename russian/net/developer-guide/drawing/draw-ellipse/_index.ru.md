@@ -10,22 +10,22 @@ Aspose.Diagram for .NET API позволяет разработчикам рис
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-DrawEllipse.cs" >}}
 
-## **Нарисовать круг в SVG**
+## **Нарисуйте круг в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать круг на странице и сохранять в формате SVG. В приведенном ниже примере кода показано, как нарисовать круг на чертеже Visio и сохранить его в формате SVG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsSVG.cs" >}}
 
-## **Нарисовать круг в PDF**
+## **Нарисуйте круг в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать круг на странице и сохранять в формате PDF. В приведенном ниже примере кода показано, как нарисовать круг на чертеже Visio и сохранить его в формате PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPDF.cs" >}}
 
-## **Нарисовать круг в PNG**
+## **Нарисуйте круг в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать круг на странице и сохранять в формате PNG. В приведенном ниже примере кода показано, как нарисовать круг на чертеже Visio и сохранить его в формате PNG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPNG.cs" >}}
 
-## **Нарисовать круг в HTML**
+## **Нарисуйте круг в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать круг на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать круг на чертеже Visio и сохранить его в формате HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsHTML.cs" >}}
@@ -35,22 +35,22 @@ Aspose.Diagram for .NET API позволяет разработчикам рис
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsVSDX.cs" >}}
 
-## **Нарисовать овал в SVG**
+## **Нарисуйте овал в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать овал на странице и сохранять в формате SVG. В приведенном ниже примере кода показано, как нарисовать овал на чертеже Visio и сохранить его в формате SVG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsSVG.cs" >}}
 
-## **Нарисовать овал в PDF**
+## **Нарисуйте овал в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать овал на странице и сохранять в формате PDF. В приведенном ниже примере кода показано, как нарисовать овал на чертеже Visio и сохранить его в формате PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPDF.cs" >}}
 
-## **Нарисовать овал в PNG**
+## **Нарисуйте овал в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать овал на странице и сохранять в формате PNG. В приведенном ниже примере кода показано, как нарисовать овал на чертеже Visio и сохранить его в формате PNG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPNG.cs" >}}
 
-## **Нарисовать овал в HTML**
+## **Нарисуйте овал в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать овал на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать овал на чертеже Visio и сохранить его в формате HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsHTML.cs" >}}

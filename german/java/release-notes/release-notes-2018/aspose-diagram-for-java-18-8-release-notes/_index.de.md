@@ -14,7 +14,7 @@ url: /de/java/aspose-diagram-for-java-18-8-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50611|Unterstützung für das Festlegen des Gebietsschemas mit API|Erweiterung|
-|DIAGRAMJAVA-50606|VSDX zu SVG - falsche Darstellung der Pfeile|Insekt|
+|DIAGRAMJAVA-50606|VSDX to SVG - incorrect rendering of the arrows|Insekt|
 |DIAGRAMJAVA-50610|Die Position von Text auf Konnektoren ist in der Ausgabedatei VSDX falsch|Insekt|
 |DIAGRAMJAVA-50612|Die Ausgabedatei VDX kann mit Visio Viewer 2010 Professional nicht geöffnet werden|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

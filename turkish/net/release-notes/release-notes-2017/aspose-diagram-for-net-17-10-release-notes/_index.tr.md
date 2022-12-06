@@ -17,17 +17,17 @@ url: /tr/net/aspose-diagram-for-net-17-10-release-notes/
 |DIAGRAMNET-51352|Katıştırılmış dosyalara erişme|Artırma|
 |DIAGRAMNET-51085|Formüller, VSDX'de kaydedildiğinde Shapesheet'in kontroller sekmesi altında kayboluyor|Böcek|
 |DIAGRAMNET-51094|Yamuk şekli yerleştirirken kontrol sekmesi altındaki varsayılan ayarları koruyun|Böcek|
-|DIAGRAMNET-51355|VSDX'den PDF'ye - metin öğeleri yanlış yerleştirilmiş|Böcek|
-|DIAGRAMNET-51356|VSDX'den HTML'ye - metin öğeleri yanlış yerleştirilmiş|Böcek|
+|DIAGRAMNET-51355|VSDX ila PDF - metin öğeleri yanlış yerleştirilmiş|Böcek|
+|DIAGRAMNET-51356|VSDX ila HTML - metin öğeleri yanlış yerleştirilmiş|Böcek|
 |DIAGRAMNET-51357|VSDX rutinini açın ve kaydedin - ek açıklamaların eksik tarih ve tarih özniteliklerini düzenleyin|Böcek|
 |` `DIAGRAMNET-51358|VSDX çizimi yüklenirken boş işaretçi hatası oluştu|Böcek|
 |DIAGRAMNET-51359|VSDX yüklendikten sonra öğe yazar listesinde hata|Böcek|
 |DIAGRAMNET-51361|VSDX - VDX - şeklin yanlış metin yazı tipi|Böcek|
 |DIAGRAMNET-51363|VSDX - Sekmeler bölümü kendi kendine kapanan bir etikete dönüşen VSDX rutinini açın ve kaydedin|Böcek|
-|DIAGRAMNET-51365|VSD'den PNG'ye - şekillerin yanlış yerleşimi|Böcek|
+|DIAGRAMNET-51365|VSD - PNG - şekillerin yanlış yerleşimi|Böcek|
 |DIAGRAMNET-51367|VSD çizim içe aktarma - Master öğesinde bir hata|Böcek|
-|DIAGRAMNET-51368|VSD'den PNG'ye - bir taşma hatası oluştu|Böcek|
-|DIAGRAMNET-51369|VSD'den PDF'ye - altta yanlış yerleştirilmiş metin öğeleri|Böcek|
+|DIAGRAMNET-51368|VSD - PNG - bir taşma hatası oluştu|Böcek|
+|DIAGRAMNET-51369|VSD - PDF - altta yanlış yerleştirilmiş metin öğeleri|Böcek|
 |DIAGRAMNET-51371|VSDX ila VSDX - ek metin öğeleri eklendi|Böcek|
 |DIAGRAMNET-51373|Bir VSDX çiziminin açma ve kaydetme rutininde Asya metin yazı tipi eksik|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

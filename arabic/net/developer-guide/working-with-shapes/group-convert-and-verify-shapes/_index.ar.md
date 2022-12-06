@@ -39,7 +39,7 @@ Aspose.Diagram for .NET API يسمح للمطورين بتحويل شكل Visio 
 1. احفظ الصفحة Visio بأي تنسيق ملف مدعوم.
 #### **تحويل نموذج برمجة الشكل**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
-### **تحويل Visio الشكل إلى PDF**
+### **حوّل Visio إلى PDF**
 تسمح طريقة ToPdf لفئة الشكل بتحويل شكل إلى تنسيق PDF.
 
 {{< highlight "java" >}}
@@ -53,7 +53,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Pages[0].Shapes.GetShape(59).ToPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **تحويل Visio الشكل إلى HTML**
+### **حوّل Visio إلى HTML**
 تسمح طريقة ToHTML لفئة الشكل بتحويل شكل إلى تنسيق HTML.
 
 {{< highlight "java" >}}

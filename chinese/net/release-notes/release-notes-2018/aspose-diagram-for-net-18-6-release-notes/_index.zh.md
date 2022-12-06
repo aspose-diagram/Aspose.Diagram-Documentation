@@ -13,21 +13,21 @@ url: /zh/net/aspose-diagram-for-net-18-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-51457|添加对.NET核心的支持|强化|
-|DIAGRAMNET-50198|VSD 转PDF，坦克图像没有内部直线结构|漏洞|
-|DIAGRAMNET-50205|VSD 转PDF，水平渐变填充代替中心|漏洞|
-|DIAGRAMNET-50651|VSD 到 SVG 导出，SVG 格式的页面输出变得模糊|漏洞|
-|DIAGRAMNET-50666|VSDX 到 PDF 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMNET-50667|VSDX 到 HTML 导出 - 日历类型形状的部分呈现|漏洞|
-|DIAGRAMNET-50668|VSDX 到 XPS 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMNET-50669|VSDX 到 JPEG 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMNET-50670|VSDX 到 PNG 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMNET-50671|VSDX 到 SVG 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMNET-50706|VSDX 到 PDF 导出 - 添加了绿色矩形|漏洞|
-|DIAGRAMNET-50707|VSDX 到 PDF 导出 - 更改形状文本的字体颜色|漏洞|
-|DIAGRAMNET-50708|VSDX 到 PDF 导出 - 缺少形状文本|漏洞|
-|DIAGRAMNET-51041|将 VSD 转换为 SVG 时，黑色线条不可见|漏洞|
+|DIAGRAMNET-51457|Add Support of .NET Core|强化|
+|DIAGRAMNET-50198|VSD to PDF conversion, tank image doesn't have the internal straight line structures|漏洞|
+|DIAGRAMNET-50205|VSD to PDF conversion, horizontal gradient fill instead of center|漏洞|
+|DIAGRAMNET-50651|VSD to SVG export, the page output in SVG format is coming blurred|漏洞|
+|DIAGRAMNET-50666|VSDX to PDF export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMNET-50667|VSDX to HTML export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMNET-50668|VSDX to XPS export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMNET-50669|VSDX to JPEG export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMNET-50670|VSDX to PNG export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMNET-50671|VSDX to SVG export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMNET-50706|VSDX to PDF export - green color rectangles are added|漏洞|
+|DIAGRAMNET-50707|VSDX to PDF export - the font color of the shape text is changed|漏洞|
+|DIAGRAMNET-50708|VSDX to PDF export - the shape text is missing|漏洞|
+|DIAGRAMNET-51041|The black color lines are not visible on converting a VSD to SVG|漏洞|
 |DIAGRAMNET-51466|Diagram 中缺少连接器|漏洞|
-|DIAGRAMNET-51468|VSDX 到 PNG - 缺少单词的垂直空间|漏洞|
+|DIAGRAMNET-51468|VSDX to PNG - the vertical space of words is missing|漏洞|
 |DIAGRAMNET-51469|输出 VSDX - 文本呈现不正确|漏洞|
 

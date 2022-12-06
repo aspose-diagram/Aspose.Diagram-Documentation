@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Diagram لـ Python عبر Java القيود و API الاختلافات
+title: Aspose.Diagram ل Python via Java القيود و API الاختلافات
 type: docs
 weight: 20
 url: /ar/java/aspose-diagram-for-python-via-java-limitations-and-api-differences/
@@ -28,7 +28,7 @@ public class Test1 {
 
 
 
-**Aspose.Diagram لـ Python عبر Java**
+**Aspose.Diagram لـ Python via Java**
 
 {{< highlight "python" >}}
 

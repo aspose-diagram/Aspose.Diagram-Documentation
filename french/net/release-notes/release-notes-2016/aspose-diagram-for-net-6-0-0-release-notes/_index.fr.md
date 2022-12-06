@@ -10,16 +10,16 @@ Cette version présente les fonctionnalités, les améliorations et les correcti
 - DIAGRAMNET-50617-Ajouter un support pour déterminer que deux formes sont collées ou connectées
 - Export DIAGRAMNET-50641-VSD vers VDX, ombre manquante des formes
 ## **Insectes**
-- DIAGRAMNET-50303-VSD en exportation PDF, un PDF vide ayant une tache blanche est généré
+- DIAGRAMNET-50303-VSD to PDF export, empty PDF having white spot is generated 
 - DIAGRAMNET-50466-VSD à VDX conversion, les connecteurs dynamiques de courbe se transforment en stright
-- DIAGRAMNET-50472-VSD en conversion HTML, la forme du texte est mal placée
-- DIAGRAMNET-50473-VSD pour la conversion PDF, le texte "Iloprost" est ajouté en en-tête de toutes les pages
-- Conversion DIAGRAMNET-50474-VSD en PDF, les éléments de la liste sont mal placés
-- DIAGRAMNET-50480-VSD à la conversion HTML, le texte "Iloprost" est ajouté dans l'en-tête de toutes les pages
+- DIAGRAMNET-50472-VSD to HTML conversion, the text shape is misplaced 
+- DIAGRAMNET-50473-VSD to PDF conversion, the text "Iloprost" is added in header of all pages 
+- DIAGRAMNET-50474-VSD to PDF conversion, the list items are misplaced 
+- DIAGRAMNET-50480-VSD to HTML conversion, the text "Iloprost" is added in header of all pages 
 - DIAGRAMNET-50622-Impossible de détecter les nœuds entrants des formes connectées
 - DIAGRAMNET-50623-La géométrie des formes des connecteurs est incorrecte
 - DIAGRAMNET-50624-La géométrie des formes des connecteurs est incorrecte
-- DIAGRAMNET-50629-Format de sortie HTML] - Impossible de placer une forme de groupe à partir d'une autre Visio diagram
+- DIAGRAMNET-50629-Output format HTML] - Can't place a group shape from another Visio diagram 
 - DIAGRAMNET-50634-Copier une opération de page Visio diagram ne préserve pas le style des formes
 - DIAGRAMNET-50635-Copier une page Visio diagram ne conserve pas complètement les formes
 - DIAGRAMNET-50636-Copier une page Visio diagram ne conserve pas complètement les formes

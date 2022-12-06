@@ -13,22 +13,22 @@ url: /it/net/aspose-diagram-for-net-18-5-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-50189|Conversione da VSD a PDF, riempimento sfumato orizzontale anziché centrale|Aumento|
-|DIAGRAMNET-50927|Il modello di colore sfumato della forma viene modificato durante la conversione di un VSD in PDF|Aumento|
-|DIAGRAMNET-50929|Il modello di colore sfumato della forma viene modificato durante la conversione di un VSD in SVG|Aumento|
+|DIAGRAMNET-50189|VSD to PDF conversion, horizontal gradient fill instead of center|Aumento|
+|DIAGRAMNET-50927|The gradient color pattern of shape is changed on converting a VSD to PDF|Aumento|
+|DIAGRAMNET-50929|The gradient color pattern of shape is changed on converting a VSD to SVG|Aumento|
 |DIAGRAMNET-51405|VSD a Immagine: i caratteri del testo vengono ingranditi|Aumento|
-|DIAGRAMNET-51412|VSD in PDF: manca un oggetto OLE|Aumento|
+|DIAGRAMNET-51412|VSD to PDF - an OLE object is missing|Aumento|
 |DIAGRAMNET-51413|VSD all'immagine: manca un oggetto OLE|Aumento|
-|DIAGRAMNET-50185 |Conversione da VSD a PDF, linea curva spessa e allineamento errato del testo|Insetto|
-|DIAGRAMNET-50588|VSDX alla conversione in PDF, il colore di riempimento modificato delle forme|Insetto|
-|DIAGRAMNET-50593|VSDX alla conversione HTML, il colore di riempimento modificato delle forme|Insetto|
-|DIAGRAMNET-50873|Le frecce dei connettori si trasformano in linee rette quando si converte uno VSDX in EMF|Insetto|
-|DIAGRAMNET-50926|Il colore trasparente della forma del contenitore è diventato nero durante la conversione di un file VSDX in PDF|Insetto|
+|DIAGRAMNET-50185 |VSD to PDF conversion, thick curved line along with incorrect alignment of text|Insetto|
+|DIAGRAMNET-50588|VSDX to PDF conversion, the changed fill color of the shapes|Insetto|
+|DIAGRAMNET-50593|VSDX to HTML conversion, the changed fill color of the shapes|Insetto|
+|DIAGRAMNET-50873|Arrows of connectors turn into straight lines on converting a VSDX to EMF|Insetto|
+|DIAGRAMNET-50926|The transparent color of container shape turned into black while converting a VSDX to PDF|Insetto|
 |DIAGRAMNET-51452|Input VSDX - esportazione errata di Shape in image|Insetto|
 |DIAGRAMNET-51453|Input VSDX - lettura incoerente delle proprietà della forma|Insetto|
-|DIAGRAMNET-51458|VSDX in PNG: il colore delle forme viene modificato|Insetto|
-|DIAGRAMNET-51459|VSDX in SVG: il colore delle forme viene modificato|Insetto|
-|DIAGRAMNET-51460|VSDX in PNG - le parti mancanti delle linee di collegamento|Insetto|
-|DIAGRAMNET-51461|VSDX a SVG - le parti mancanti delle linee di collegamento|Insetto|
-|DIAGRAMNET-51463|VSDX in PDF: i dati spazzatura vengono generati|Insetto|
+|DIAGRAMNET-51458|VSDX to PNG - the color of shapes is being changed|Insetto|
+|DIAGRAMNET-51459|VSDX to SVG - the color of shapes is being changed|Insetto|
+|DIAGRAMNET-51460|VSDX to PNG - the missing parts of connecting lines|Insetto|
+|DIAGRAMNET-51461|VSDX to SVG - the missing parts of connecting lines|Insetto|
+|DIAGRAMNET-51463|VSDX to PDF - the junk data is being generated|Insetto|
 

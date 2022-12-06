@@ -13,17 +13,17 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51953|Exportar VSDX a PDF: problemas con las imágenes si PdfCompliance es PdfA1a o PdfA1b|Mejora|
+|DIAGRAMNET-51953|Export VSDX to PDF: Problems with images if PdfCompliance is PdfA1a or PdfA1b|Mejora|
 |DIAGRAMNET-51959|No se puede imprimir correctamente el archivo Visio|Mejora|
-|DIAGRAMNET-51961|VSDX a PDF - Errores de formato y formas faltantes en PDF [Cont.]|Mejora|
-|DIAGRAMNET-50461|VSDX a conversión de PDF, el texto de la forma está desordenado|Insecto|
-|DIAGRAMNET-50462|VSDX a conversión de PDF, el texto de la forma está desordenado|Insecto|
-|DIAGRAMNET-50464|VSDX a conversión de PDF, representación de formas faltantes o incompletas|Insecto|
-|DIAGRAMNET-50959|Falta el borde de la tabla al convertir un VSDX a PNG|Insecto|
-|DIAGRAMNET-50960|Falta la línea del borde superior de la tabla al convertir un VSDX a PNG|Insecto|
+|DIAGRAMNET-51961|VSDX to PDF - Formatting errors and missing shapes in PDF [Cont.]|Mejora|
+|DIAGRAMNET-50461|VSDX to PDF conversion, shape text is messed up|Insecto|
+|DIAGRAMNET-50462|VSDX to PDF conversion, shape text is messed up|Insecto|
+|DIAGRAMNET-50464|VSDX to PDF conversion, missing or incomplete shapes rendering|Insecto|
+|DIAGRAMNET-50959|The borderline of the table is missing on converting a VSDX to PNG|Insecto|
+|DIAGRAMNET-50960|The top border line of the table is missing on converting a VSDX to PNG|Insecto|
 |DIAGRAMNET-51902|Los archivos Visio con versiones inferiores a 11 no son compatibles, excepto al abrir VSS|Insecto|
 |DIAGRAMNET-51951|La referencia del objeto no se establece en una instancia de un objeto al guardar la forma en la imagen|Insecto|
-|DIAGRAMNET-51954|Convertir Visio a PNG, la imagen convertida no se parece a Visio|Insecto|
+|DIAGRAMNET-51954|Convet Visio to PNG the converted image not look like Visio|Insecto|
 |DIAGRAMNET-51957|"Referencia a objeto no establecida como instancia de un objeto." excepción al renderizar el archivo VSSX|Insecto|
 
 

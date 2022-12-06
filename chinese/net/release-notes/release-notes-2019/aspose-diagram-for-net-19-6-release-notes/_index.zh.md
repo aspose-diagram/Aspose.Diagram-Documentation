@@ -15,11 +15,11 @@ url: /zh/net/aspose-diagram-for-net-19-6-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51650|将 VSD 转换为 VDX 时缺少形状渐变填充|强化|
 |DIAGRAMNET-51651|使用椭圆元素而不是路径元素的实心圆/椭圆|强化|
-|DIAGRAMNET-51653|VISIO 到 PDF - 矩形未正确显示|强化|
-|DIAGRAMNET-50433|VDX 到 PNG 转换，Diagram.setFontDirs 方法仅在整个 diagram 上使用第一个字体|漏洞|
-|DIAGRAMNET-51446|VSDX 到 SVG - 项目符号和文本项的位置不正确|漏洞|
+|DIAGRAMNET-51653|VISIO to PDF - Rectangles are not shown correctly|强化|
+|DIAGRAMNET-50433|VDX to PNG conversion, Diagram.setFontDirs method use only first font over the whole diagram|漏洞|
+|DIAGRAMNET-51446|VSDX to SVG - incorrect position of bullets and text items|漏洞|
 |DIAGRAMNET-51643|删除未使用的样式时发生 System.ArgumentException|漏洞|
 |DIAGRAMNET-51647|将 VSD 转换为其他格式时未导出内容|漏洞|
-|DIAGRAMNET-51648|Visio 到 PDF - PDF 中的图像颜色已更改|漏洞|
-|DIAGRAMNET-51649|.NET Core加载VSDX文件时出现异常|漏洞|
+|DIAGRAMNET-51648|Visio to PDF - Image colors are changed in PDF|漏洞|
+|DIAGRAMNET-51649|An exception occurs while loading VSDX file in .NET Core|漏洞|
 

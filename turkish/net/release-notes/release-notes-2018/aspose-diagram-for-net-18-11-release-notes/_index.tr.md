@@ -15,11 +15,11 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 18.11](https://w
 |:- |:- |:- |
 |DIAGRAMNET-50410|MilestoneHelper - Özel tarih dizisi biçimi ayarlayıcı desteği ekleyin|Artırma|
 |DIAGRAMNET-51568|SVG için SaveOptions'ta ViewBox'ı ayarlamak için bir seçenek ekleyin|Artırma|
-|DIAGRAMNET-51580|Aspose.Diagram yönergelerle SVG oluşturur ve MS Visio oluşturmaz|Artırma|
+|DIAGRAMNET-51580|Aspose.Diagram, yönergelerle SVG oluşturur ve MS Visio oluşturmaz|Artırma|
 |DIAGRAMNET-51556|Shape.ToImage yöntemi doğru görüntüleri üretmiyor|Böcek|
 |DIAGRAMNET-51557|Shape.ToImage yöntemi, sayfanın kopyalanması durumunda boş resimler döndürür|Böcek|
 |DIAGRAMNET-51570|Shape.ToImage yöntemi doğru görüntüleri üretmiyor|Böcek|
-|DIAGRAMNET-51576|VSDX'den PDF'ye - Eksik Metin Blokları|Böcek|
+|DIAGRAMNET-51576|VSDX - PDF - Eksik Metin Blokları|Böcek|
 |DIAGRAMNET-51578|VSDX, StackOverFlowException'daki görüntü sonuçlarına|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen the[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).

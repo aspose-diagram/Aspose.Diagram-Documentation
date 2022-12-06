@@ -16,8 +16,8 @@ url: /zh/net/aspose-diagram-for-net-19-11-release-notes/
 |DIAGRAMNET-50004|添加支持[应用样式表](/diagram/zh/net/format-visio-pages/)整页|强化|
 |DIAGRAMNET-50576|添加对处置 Diagram 类对象的支持|强化|
 |DIAGRAMNET-50098|设置页面背景颜色|漏洞|
-|DIAGRAMNET-51722|Diagram 到 SVG - 输出图像有错误|漏洞|
-|DIAGRAMNET-51724|查看输出 SVG 时 Chrome 控制台中的错误|漏洞|
+|DIAGRAMNET-51722|Diagram to SVG - output image has faults|漏洞|
+|DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|漏洞|
 |DIAGRAMNET-51725|检索 Diagram 中形状的 z-index|漏洞|
 |DIAGRAMNET-51726|背景图像缺失（PowerPoint 已添加到 VISIO 中）同时删除未使用的主控形状和样式|漏洞|
 |DIAGRAMNET-51727|CheckBox（CheckBox 控件）在删除未使用的主形状和样式时丢失|漏洞|

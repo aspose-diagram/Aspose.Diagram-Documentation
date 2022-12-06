@@ -17,16 +17,16 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 19.5](https://ww
 |DIAGRAMNET-51637|Gruplanmış bir kap içindeki iç içe geçmiş şekil doğru şekilde korunmuyor|Artırma|
 |DIAGRAMNET-51638|Değer bir tamsayı olduğunda Prop.Value.Val alınamıyor|Artırma|
 |DIAGRAMNET-51640|Visio Dosyasında kullanılmayan stilleri belirleme|Artırma|
-|DIAGRAMNET-50051|VSDX'den PDF'e dönüştürme, eksik bağlantı oku ve yanlış yerleştirilmiş metin|Böcek|
+|DIAGRAMNET-50051|VSDX - PDF dönüştürme, yanlış yerleştirilmiş metinle birlikte eksik bağlantı oku|Böcek|
 |DIAGRAMNET-50052|VSDX'den PDF'e dönüştürme, yanlış yazı tipi metin rengine sahip şekiller|Böcek|
-|DIAGRAMNET-51179|VSDM'i SVG'ye dönüştürürken bir e-posta düğmesi üzerinde yanlış gölgelendirme|Böcek|
-|DIAGRAMNET-51190|VDX'i SVG'ye kaydederken hiper bağlantılı şeklin yanlış görüntülenmesi|Böcek|
-|DIAGRAMNET-51194|VDX'i SVG'ye kaydederken bir simgenin yanlış oluşturulması|Böcek|
-|DIAGRAMNET-51254|VSDM'i SVG'ye dönüştürürken üst çubukta yanlış gölgelendirme|Böcek|
-|DIAGRAMNET-51618|Visio'den PDF'ye - Hatalı Tarih Biçimi ve Eksik Veriler|Böcek|
+|DIAGRAMNET-51179|VSDM'i SVG'e dönüştürürken bir e-posta düğmesi üzerinde yanlış gölgelendirme|Böcek|
+|DIAGRAMNET-51190|VDX'den SVG'e kaydedilirken hiper bağlantılı şeklin yanlış görüntülenmesi|Böcek|
+|DIAGRAMNET-51194|VDX'den SVG'e kaydedilirken bir simgenin yanlış oluşturulması|Böcek|
+|DIAGRAMNET-51254|VSDM'i SVG'e dönüştürürken üst çubukta yanlış gölgelendirme|Böcek|
+|DIAGRAMNET-51618|Visio - PDF - Hatalı Tarih Biçimi ve Eksik Veriler|Böcek|
 |DIAGRAMNET-51628|.vsdx diyagramlarında silinen varsayılan metin için yanlış Metin değeri|Böcek|
 |DIAGRAMNET-51634|Visio - SVG - Çıktıdaki bazı şekillerin yanlış z-endeksi|Böcek|
-|DIAGRAMNET-51636|Visio'den SVG'ye - tüm yol öğeleri doğru bir şekilde rect öğeleri olarak dışa aktarılmaz|Böcek|
+|DIAGRAMNET-51636|Visio - SVG - tüm yol öğeleri doğru bir şekilde rect öğeleri olarak dışa aktarılmaz|Böcek|
 |DIAGRAMNET-51641|Visio ile API yeniden kaydedilirken ekstra resim gösteriliyor|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen the[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).

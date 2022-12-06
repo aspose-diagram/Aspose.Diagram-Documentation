@@ -14,7 +14,7 @@ url: /zh/java/aspose-diagram-for-java-6-7-0-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50342|添加使用流对象检测文件格式的支持。|新功能|
-|DIAGRAMJAVA-50015|VSD 到 PDF 转换 - 出现红十字图像而不是形状。|强化|
+|DIAGRAMJAVA-50015|VSD to PDF conversion - the red cross image appears instead of the shape.|强化|
 |DIAGRAMJAVA-50341|以 VDX 格式保存时，连接器的端点未连接。|强化|
 |DIAGRAMJAVA-50343|VSDM diagram 的加载和保存例程显示了一个十字代替按钮。|强化|
 |DIAGRAMJAVA-50344|无法设置 VSDM 形状的事件单元格。|强化|

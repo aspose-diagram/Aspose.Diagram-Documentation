@@ -16,8 +16,8 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |DIAGRAMNET-50004| Agregar soporte a[aplicar hoja de estilo](/diagram/es/net/format-visio-pages/) para página completa|Mejora|
 |DIAGRAMNET-50576|Agregue soporte para desechar un objeto de clase Diagram|Mejora|
 |DIAGRAMNET-50098|Establecer el color de fondo de la página|Insecto|
-|DIAGRAMNET-51722|Diagram a SVG: la imagen de salida tiene fallas|Insecto|
-|DIAGRAMNET-51724|Errores en la consola de Chrome al ver la salida SVG|Insecto|
+|DIAGRAMNET-51722|Diagram to SVG - output image has faults|Insecto|
+|DIAGRAMNET-51724|Errors in the Chrome console when viewing output SVG|Insecto|
 |DIAGRAMNET-51725|Recuperar índice z de formas en Diagram|Insecto|
 |DIAGRAMNET-51726|Falta la imagen de fondo (se agregó PowerPoint en VISIO) al eliminar formas y estilos maestros no utilizados|Insecto|
 |DIAGRAMNET-51727|CheckBox (CheckBox Control) Falta al eliminar formas y estilos maestros no utilizados|Insecto|

@@ -20,7 +20,7 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم مثلث في ا�
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsPDF.cs" >}}
 
-## **ارسم المثلث بصيغة PNG**
+## **ارسم المثلث في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مثلث في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم مثلث في رسم Visio وحفظه بتنسيق PNG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsPNG.cs" >}}

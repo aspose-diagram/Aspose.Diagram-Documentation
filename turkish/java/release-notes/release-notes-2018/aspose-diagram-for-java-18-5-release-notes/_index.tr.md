@@ -13,7 +13,7 @@ url: /tr/java/aspose-diagram-for-java-18-5-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50068|VSD'den PDF'ye dönüştürme, merkez yerine yatay degrade dolgu|Artırma|
+|DIAGRAMJAVA-50068|VSD - PDF dönüştürme, merkez yerine yatay gradyan dolgu|Artırma|
 |DIAGRAMJAVA-50590|Çıktı VSDX - bağlantı hatlarının düzenini iyileştirin|Artırma|
-|DIAGRAMJAVA-50058|VSD'den PDF'ye dönüştürme, metnin yanlış hizalanmasıyla birlikte eğri çizgiyi düşünün|Böcek|
+|DIAGRAMJAVA-50058|VSD'den PDF'e dönüştürme, metnin yanlış hizalanmasıyla birlikte eğri çizgiyi düşünün|Böcek|
 

@@ -10,38 +10,38 @@ url: /de/net/aspose-diagram-for-net-6-2-0-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50316 | 2D-Form-IDs können nicht abgerufen werden, wenn die Shape.GluedShapes-Methode aufgerufen wird.| Erweiterung|
 |DIAGRAMNET-50377 |Konvertierung von VSD in VDX - fehlende oder falsch platzierte Textelemente.| Insekt|
-|DIAGRAMNET-50445 | VSD in PDF-Konvertierung - Formularmenütext "Optionen" wird dupliziert.| Insekt|
-|DIAGRAMNET-50581 | VSDX in PDF-Konvertierung - das Textelement der Form ist leicht falsch platziert.| Insekt|
-|DIAGRAMNET-50586 | VSDX in HTML-Konvertierung - das Textelement der Form ist leicht falsch platziert.| Insekt|
-|DIAGRAMNET-50587 | VSDX in PDF-Konvertierung - die Begrenzung der Kreisform ist nicht sichtbar.| Insekt|
-|DIAGRAMNET-50589 | VSDX in PDF-Konvertierung - die Schaltflächenform hat keine Begrenzungs- und Füllfarbe.| Insekt|
-|DIAGRAMNET-50590 | VSDX in PDF-Konvertierung - die Textposition der Form ist leicht falsch platziert.| Insekt|
-|DIAGRAMNET-50592 | VSDX in HTML-Konvertierung - die Begrenzung der Kreisform ist nicht sichtbar.| Insekt|
-|DIAGRAMNET-50594 | VSDX in HTML-Konvertierung - die Schaltflächenform hat keine Begrenzungs- und Füllfarbe.| Insekt|
-|DIAGRAMNET-50595 | VSDX in HTML-Konvertierung - die Textposition der Form ist leicht falsch platziert.| Insekt|
-|DIAGRAMNET-50609 | VSD in PDF-Konvertierung - der Text der Form geht über die Grenze hinaus.| Insekt|
-|DIAGRAMNET-50612 |VSD in PDF-Konvertierung - die Textelemente von Formen werden nicht in der Mitte ausgerichtet.| Insekt|
-|DIAGRAMNET-50613 | VSD in HTML-Konvertierung - die Textelemente von Formen werden nicht in der Mitte ausgerichtet.| Insekt|
+|DIAGRAMNET-50445 |VSD to PDF conversion - form menu text "options" is duplicated. | Insekt|
+|DIAGRAMNET-50581 |VSDX to PDF conversion - the text item of the shape is slightly misplaced. | Insekt|
+|DIAGRAMNET-50586 |VSDX to HTML conversion - the text item of the shape is slightly misplaced. | Insekt|
+|DIAGRAMNET-50587 |VSDX to PDF conversion - the circular shape's boundary is not visible. | Insekt|
+|DIAGRAMNET-50589 |VSDX to PDF conversion - the button shape does not have a boundary and fill color. | Insekt|
+|DIAGRAMNET-50590 |VSDX to PDF conversion - the shape's text position is slightly misplaced. | Insekt|
+|DIAGRAMNET-50592 |VSDX to HTML conversion - the circular shape's boundary is not visible. | Insekt|
+|DIAGRAMNET-50594 |VSDX to HTML conversion - the button shape does not have a boundary and fill color. | Insekt|
+|DIAGRAMNET-50595 |VSDX to HTML conversion - the shape's text position is slightly misplaced. | Insekt|
+|DIAGRAMNET-50609 |VSD to PDF conversion - the shape's text goes outside the boundary. | Insekt|
+|DIAGRAMNET-50612 |VSD to PDF conversion - the text items of shapes are not aligned at the center. | Insekt|
+|DIAGRAMNET-50613 |VSD to HTML conversion - the text items of shapes are not aligned at the center. | Insekt|
 |DIAGRAMNET-50638 | Konvertierung von VSD in VDX - eine ungültige Ergebnisdatei wird erstellt.| Insekt|
 |DIAGRAMNET-50640 | VSD bis VDX Export - fehlender Anzeigetext der Bitmap-Formen.| Insekt|
 |DIAGRAMNET-50694 | VSDX bis VDX Export - das Aussehen der Formen wird geändert.| Insekt|
 |DIAGRAMNET-50695 | Die Seitenausrichtung kann nicht durch Festlegen der PrintPageOrientation-Eigenschaft geändert werden.| Insekt|
 |DIAGRAMNET-50700 | Die Signatur von Aspose.Diagram for .NET 6.1.0 MSI ist beschädigt oder ungültig.| Insekt|
-|DIAGRAMNET-50709 | VSDX zum PDF-Export - die grüne Farbe wird auf die Begrenzung der Form angewendet.| Insekt|
+|DIAGRAMNET-50709 |VSDX to PDF export - the green color is applied on the shape's boundary. | Insekt|
 |DIAGRAMNET-50717 | VSD bis VSDX Export - Diagram.DocumentProps.Manager gibt eine leere Zeichenfolge zurück.| Insekt|
-|DIAGRAMNET-50721 | VSDX in JPEG-Export - auf der linken Seite wird ein leerer Rand erzeugt.| Insekt|
+|DIAGRAMNET-50721 |VSDX to JPEG export - an empty margin is generated on the left side. | Insekt|
 |DIAGRAMNET-50724 | VDX bis VSDX Export generiert eine beschädigte Ausgabedatei.| Insekt|
-|DIAGRAMNET-50725 | VSD nach PDF-Export gibt eine falsche Hyperlink-Adresse wieder.| Insekt|
-|DIAGRAMNET-50732 | VSD nach PDF-Export gibt eine falsche Formatierung der Aufzählungszeichen wieder.| Insekt|
-|DIAGRAMNET-50734 |VSD zum PDF-Export enthält ein zusätzliches Wort im Text der Form.| Insekt|
-|DIAGRAMNET-50735 | VSD in den HTML-Export enthält ein zusätzliches Wort im Text der Form.| Insekt|
+|DIAGRAMNET-50725 |VSD to PDF export renders an incorrect hyperlink address. | Insekt|
+|DIAGRAMNET-50732 |VSD to PDF export renders incorrect formatting of the bullets. | Insekt|
+|DIAGRAMNET-50734 |VSD to PDF export includes an extra word in the shape's text. | Insekt|
+|DIAGRAMNET-50735 |VSD to HTML export includes an extra word in the shape's text. | Insekt|
 |DIAGRAMNET-50718 | Diagram-Ausnahme beim Laden der VSDX-Datei aufgetreten.| Ausnahme|
 |DIAGRAMNET-50719 | Diagram-Ausnahme beim Laden der VSDX-Datei aufgetreten.| Ausnahme|
 |DIAGRAMNET-50720 | Diagram-Ausnahme beim Laden der VSDX-Datei aufgetreten.| Ausnahme|
 |DIAGRAMNET-50689 | Beim Speichern von diagram in VSDX ist eine Argumentausnahme aufgetreten.| Ausnahme|
-|DIAGRAMNET-50710 | VSD zum SVG-Export - ein arithmetischer Überlauffehler tritt auf.| Ausnahme|
-|DIAGRAMNET-50711 | VSD zum SVG-Export - ein arithmetischer Überlauffehler tritt auf.| Ausnahme|
-|DIAGRAMNET-50723 | VSDX in PDF-Export – Schlüsselparameter darf nicht null sein Fehlermeldung ist aufgetreten.| Ausnahme|
+|DIAGRAMNET-50710 |VSD to SVG export - an arithmetic overflow error occurs. | Ausnahme|
+|DIAGRAMNET-50711 |VSD to SVG export - an arithmetic overflow error occurs. | Ausnahme|
+|DIAGRAMNET-50723 |VSDX to PDF export - Key parameter can't be null error message occurred. | Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Sehen Sie sich die Liste für alle Änderungen an, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 

@@ -13,11 +13,11 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|Output SVG - Applica gli attributi CSS al testo|Aumento|
+|DIAGRAMNET-51447|Output SVG - Apply CSS attributes to the text|Aumento|
 |DIAGRAMNET-51993|Errori di formattazione in pdf da vsd|Aumento|
 |DIAGRAMNET-52020|Problema con il connettore dinamico|Aumento|
-|DIAGRAMNET-52044|Visio in HTML: le forme non sono corrette nell'output|Insetto|
-|DIAGRAMNET-52045|Visio in HTML - API genera System.ArgumentException: "Parametro non valido".|Insetto|
+|DIAGRAMNET-52044|Visio to HTML - The shapes are incorrect in the output|Insetto|
+|DIAGRAMNET-52045|Visio to HTML - API is throwing System.ArgumentException: 'Parameter is not valid.'|Insetto|
 |DIAGRAMNET-52049|Il salvataggio di vsdx in pdf genera un'eccezione di memoria insufficiente|Insetto|
 
 ## **Public API e modifiche incompatibili con le versioni precedenti**

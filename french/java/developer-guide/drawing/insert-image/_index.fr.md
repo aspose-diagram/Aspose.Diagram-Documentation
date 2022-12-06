@@ -12,22 +12,22 @@ Aspose.Diagram pour JAVA API permet aux développeurs d'insérer une forme d'ima
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsVSDX.java" >}}
 
-## **Insérer une image au format SVG**
-Aspose.Diagram pour JAVA API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format SVG.
+## **Insérer une image dans SVG**
+Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsSVG.java" >}}
 
-## **Insérer une image au format PNG**
-Aspose.Diagram pour JAVA API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format PNG.
+## **Insérer une image dans PNG**
+Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPNG.java" >}}
 
-## **Insérer une image dans le PDF**
-Aspose.Diagram pour JAVA API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format PDF.
+## **Insérer une image dans PDF**
+Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPDF.java" >}}
 
-## **Insérer une image en HTML**
-Aspose.Diagram pour JAVA API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format HTML.
+## **Insérer une image dans HTML**
+Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsHTML.java" >}}

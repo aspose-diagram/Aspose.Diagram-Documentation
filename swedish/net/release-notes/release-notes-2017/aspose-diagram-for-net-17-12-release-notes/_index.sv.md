@@ -14,7 +14,7 @@ url: /sv/net/aspose-diagram-for-net-17-12-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-50016|Lägg till stöd för att duplicera/klona en form|Förbättring|
-|DIAGRAMNET-50677|Ange den enda API för att konvertera en Visio-form till PDF|Förbättring|
+|DIAGRAMNET-50677|Ange singeln API för att konvertera en Visio-form till PDF|Förbättring|
 |DIAGRAMNET-50678|Ange singeln API för att konvertera en Visio-form till HTML|Förbättring|
 |DIAGRAMNET-50762|Parsningsfelet för det långa attributvärdet inträffade när en VDX diagram genererades|Insekt|
 |DIAGRAMNET-51401|Utdata VSDX - kontrollerna i Shapes fungerar inte|Insekt|
@@ -50,7 +50,7 @@ newShape.XForm.PinY.Value = 1;
 
 {{< /highlight >}}
 ### **Lägger till ToPdf-medlem i Shape-klassen**
-ToPdf-medlemmen konverterar en form till PDF-format.
+ToPdf-medlemmen konverterar en form till formatet PDF.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ diagram.Pages[0].Shapes.GetShape(59).ToPdf("e:\\out.pdf");
 
 {{< /highlight >}}
 ### **Lägger till ToHTML-medlem i Shape-klassen**
-ToHTML-medlemmen konverterar en form till PDF-format.
+ToHTML-medlemmen konverterar en form till formatet PDF.
 
 {{< highlight "java" >}}
 

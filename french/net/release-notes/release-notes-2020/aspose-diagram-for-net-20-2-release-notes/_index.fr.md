@@ -15,14 +15,14 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-51747|Modifications de fichier après la conversion Visio vsd->vsdx|Renforcement|
 |DIAGRAMNET-51750|Ajout du drapeau "HasHiddenInfo"|Renforcement|
-|DIAGRAMNET-51748|Ajouter PNG à Diagram - la transparence est perdue|Punaise|
+|DIAGRAMNET-51748|Add PNG to Diagram - transparency is lost|Punaise|
 |DIAGRAMNET-51749|Une erreur se produit lors de l'enregistrement du document Visio|Punaise|
-|DIAGRAMNET-51751|VSDX à PNG - Une image supplémentaire est affichée|Punaise|
-|DIAGRAMNET-51752|VSDX à PNG - Un espace supplémentaire est affiché|Punaise|
-|DIAGRAMNET-51753|VSDX en PNG - La position des icônes change|Punaise|
-|DIAGRAMNET-51754|VSDX en PNG - La position de l'icône du point d'interrogation a été modifiée|Punaise|
-|DIAGRAMNET-51762|Le PDF généré est différent par rapport à l'entrée Visio diagram|Punaise|
-|DIAGRAMNET-51763|VSDX vers PNG - Des informations manquent dans la sortie|Punaise|
+|DIAGRAMNET-51751|VSDX to PNG - Extra image is shown|Punaise|
+|DIAGRAMNET-51752|VSDX to PNG - Extra space is shown|Punaise|
+|DIAGRAMNET-51753|VSDX to PNG - Icons position is changing|Punaise|
+|DIAGRAMNET-51754|VSDX to PNG - Question mark icon position is changed|Punaise|
+|DIAGRAMNET-51762|PDF generated is different comparing to the input Visio diagram|Punaise|
+|DIAGRAMNET-51763|VSDX to PNG - Information is missing in the output|Punaise|
 ## ` `**Public API et modifications incompatibles avec les versions antérieures**
 ` `Ce qui suit est une liste de toutes les modifications apportées au public API telles que les membres ajoutés, renommés, supprimés ou obsolètes ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Diagram.
 ### **Ajout de EnlargePage dans ImageSaveOptions**

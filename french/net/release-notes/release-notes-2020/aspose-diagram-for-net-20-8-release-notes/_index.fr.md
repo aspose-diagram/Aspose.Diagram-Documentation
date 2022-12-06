@@ -14,14 +14,14 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMNET-51886|Créez la possibilité d'insérer des objets Ole tels que des mots, des cellules, des diapositives, etc. dans le Diagram dans la forme unique avec à la fois des données d'objet et une image d'aperçu à l'intérieur.|Renforcement|
-|DIAGRAMNET-51888|Visio en PDF - API prend beaucoup de temps pour la conversion|Renforcement|
+|DIAGRAMNET-51888|Visio to PDF - API is taking long time for conversion|Renforcement|
 |DIAGRAMNET-51889|Enregistrement en pdf en boucle de plus de 20 minutes|Renforcement|
-|DIAGRAMNET-51893|Attribut viewBox manquant après la conversion VSDX en SVG|Renforcement|
-|DIAGRAMNET-51851|VSDX au format PDF - certaines icônes sont manquantes et certaines ne sont pas rendues correctement|Punaise|
-|DIAGRAMNET-51873|VSDX en PDF - Le contenu est à gauche dans le PDF de sortie|Punaise|
-|DIAGRAMNET-51874|VSDX en PDF - le contenu et les lignes manquent dans la sortie|Punaise|
-|DIAGRAMNET-51876|VSDX en PNG - certaines formes sont incorrectes dans la sortie|Punaise|
-|DIAGRAMNET-51879|Visio en PDF - la sortie n'est pas correcte|Punaise|
+|DIAGRAMNET-51893|Missing viewBox attribute after VSDX to SVG conversion|Renforcement|
+|DIAGRAMNET-51851|VSDX to PDF - some icons are missing and some not rendered correctly|Punaise|
+|DIAGRAMNET-51873|VSDX to PDF - Content is out on left in the output PDF|Punaise|
+|DIAGRAMNET-51874|VSDX to PDF - content and lines are missing in the output|Punaise|
+|DIAGRAMNET-51876|VSDX to PNG - some shapes are incorrect in the output|Punaise|
+|DIAGRAMNET-51879|Visio to PDF - output is not correct|Punaise|
 |DIAGRAMNET-51894|System.NullReferenceException lors du chargement du diagram|Punaise|
 |DIAGRAMNET-51895|Impossible de récupérer les données de propriété de groupe telles que SelectionModel, DisplayMode|Punaise|
 

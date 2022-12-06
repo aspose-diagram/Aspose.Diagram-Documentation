@@ -9,22 +9,22 @@ url: /it/net/aspose-diagram-for-net-6-3-0-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 |DIAGRAMNET-50739 | Aggiungere il supporto per il rilevamento del tipo Visio diagram.| Nuova caratteristica|
-|DIAGRAMNET-50746 | Impedisci l'esportazione delle pagine Visio nascoste nel PDF.| Nuova caratteristica|
-|DIAGRAMNET-50747 | Impedisci l'esportazione delle pagine Visio nascoste nell'HTML.| Nuova caratteristica|
-|DIAGRAMNET-50750 | Impedisci l'esportazione delle pagine Visio nascoste nel PNG.| Nuova caratteristica|
-|DIAGRAMNET-50751 | Impedisci l'esportazione delle pagine Visio nascoste nel JPEG.| Nuova caratteristica|
-|DIAGRAMNET-50752 | Impedisci l'esportazione delle pagine Visio nascoste nell'SVG.| Nuova caratteristica|
+|DIAGRAMNET-50746 |Prevent export of the hidden Visio pages in the PDF. | Nuova caratteristica|
+|DIAGRAMNET-50747 |Prevent export of the hidden Visio pages in the HTML. | Nuova caratteristica|
+|DIAGRAMNET-50750 |Prevent export of the hidden Visio pages in the PNG. | Nuova caratteristica|
+|DIAGRAMNET-50751 |Prevent export of the hidden Visio pages in the JPEG. | Nuova caratteristica|
+|DIAGRAMNET-50752 |Prevent export of the hidden Visio pages in the SVG. | Nuova caratteristica|
 |DIAGRAMNET-50753 | Impedisci l'esportazione delle pagine Visio nascoste nella GIF.| Nuova caratteristica|
-|DIAGRAMNET-50754 | Impedisci l'esportazione delle pagine Visio nascoste nell'XPS.| Nuova caratteristica|
-|DIAGRAMNET-50541 | VSDX alla conversione PDF, gli elementi di testo in ebraico vengono visualizzati in ordine inverso.| Aumento|
-|DIAGRAMNET-50542 | Conversione da VSD a PDF, la parola araba si trasforma in lettere.| Aumento|
-|DIAGRAMNET-50682 | VSD all'esportazione in PDF, il testo della cella della tabella è parzialmente invisibile.| Insetto|
-|DIAGRAMNET-50712 | VDX in esportazione PDF: il testo di varie forme è fuori luogo.| Insetto|
-|DIAGRAMNET-50741 | VSD all'esportazione SVG mancano alcune forme Visio.| Insetto|
-|DIAGRAMNET-50742 | VSD all'esportazione SVG non applica il colore bianco interno delle forme.| Insetto|
+|DIAGRAMNET-50754 |Prevent export of the hidden Visio pages in the XPS. | Nuova caratteristica|
+|DIAGRAMNET-50541 |VSDX to PDF conversion, Hebrew text items are rendered in reverse order. | Aumento|
+|DIAGRAMNET-50542 |VSD to PDF conversion, Arabic word turns into letters. | Aumento|
+|DIAGRAMNET-50682 |VSD to PDF export, the table cell's text is partially invisible. | Insetto|
+|DIAGRAMNET-50712 |VDX to PDF export - the text of various shapes is misplaced. | Insetto|
+|DIAGRAMNET-50741 |VSD to SVG export is missing some Visio shapes. | Insetto|
+|DIAGRAMNET-50742 |VSD to SVG export is not applying the inner white color of shapes. | Insetto|
 |DIAGRAMNET-50744 |La routine di apertura e salvataggio di VSDX ha modificato il testo in caratteri fittizi.| Insetto|
 |DIAGRAMNET-50745 | La routine di apertura e salvataggio di VSDX ha modificato il formatore della linea tratteggiata.| Insetto|
-|DIAGRAMNET-50748 | VSD in esportazione PDF: gli elementi di testo sono fuori posto.| Insetto|
+|DIAGRAMNET-50748 |VSD to PDF export - the text items are misplaced. | Insetto|
 |DIAGRAMNET-50763 | L'esportazione da VSD a VDX genera l'errore dell'elemento principale.| Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).

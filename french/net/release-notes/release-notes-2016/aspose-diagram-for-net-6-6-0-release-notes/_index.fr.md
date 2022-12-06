@@ -21,12 +21,12 @@ url: /fr/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50569|Ajout du support pour mettre à jour le code VBA.|Nouvelle fonctionnalité|
 |DIAGRAMNET-50859|Ajout de la prise en charge pour importer le modèle activé par macro (.VSTM).|Nouvelle fonctionnalité|
 |DIAGRAMNET-50860|Ajout de la prise en charge pour importer le gabarit activé par macro (.VSSM).|Nouvelle fonctionnalité|
-|DIAGRAMNET-50701|VSDX vers exportation PDF - la couleur de contour de la forme chevauche la structure interne.|Punaise|
+|DIAGRAMNET-50701|VSDX to PDF export - the shape's boundary color overlaps the internal structure.|Punaise|
 |DIAGRAMNET-50790|L'exception Diagram s'est produite lors du chargement d'un fichier VSDX.|Punaise|
-|DIAGRAMNET-50793|Les éléments de texte sont manquants lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50794|Les éléments de texte sont manquants lors de la conversion d'un VSD en PNG.|Punaise|
+|DIAGRAMNET-50793|The text items are missing on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50794|The text items are missing on converting a VSD to PNG.|Punaise|
 |DIAGRAMNET-50795|Les éléments de texte sont manquants lors de la conversion d'un VSD en JPG.|Punaise|
-|DIAGRAMNET-50796|Le fond transparent des images devient blanc lors de la conversion de VSD en PDF.|Punaise|
+|DIAGRAMNET-50796|The transparent background of images turns into white color on converting VSD to PDF.|Punaise|
 |DIAGRAMNET-50798|Le fond transparent des images devient blanc lors de la conversion de VSD en JPG.|Punaise|
 |DIAGRAMNET-50804|L'exception Diagram s'est produite lors de l'enregistrement du fichier VTX.|Punaise|
 |DIAGRAMNET-50801|L'exception Diagram s'est produite lors de l'enregistrement du fichier VSX - I.|Punaise|
@@ -64,16 +64,16 @@ url: /fr/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50854|Les propriétés du diagram ne sont pas conservées lorsqu'elles sont ouvertes et sauvegardées - XIII.|Punaise|
 |DIAGRAMNET-50855|Les propriétés du diagram ne sont pas conservées lorsqu'elles sont ouvertes et enregistrées - XIV.|Punaise|
 |DIAGRAMNET-50857|Les propriétés du diagram ne sont pas conservées lorsqu'elles sont ouvertes et sauvegardées - XV.|Punaise|
-|DIAGRAMNET-50864|L'apparence de la forme du processus est modifiée lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50865|L'apparence de la forme du processus est modifiée lors de la conversion d'un VSD en HTML.|Punaise|
-|DIAGRAMNET-50866|Problème d'alignement du texte lors de la conversion d'un VSDX en PDF - I.|Punaise|
-|DIAGRAMNET-50867|Problème d'alignement du texte lors de la conversion d'un VSDX en PDF - II.|Punaise|
-|DIAGRAMNET-50868|Une image n'est pas conservée lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50869|Formatage incorrect de la forme lors de la conversion d'un VSD en PDF - I.|Punaise|
-|DIAGRAMNET-50871|Formatage incorrect des formes lors de la conversion d'un VSD en PDF - II.|Punaise|
-|DIAGRAMNET-50874|Des cercles supplémentaires sont ajoutés lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50875|Les formes sont mal placées lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-50876|La taille des formes est modifiée lors de la conversion d'un VSD en PDF.|Punaise|
+|DIAGRAMNET-50864|The appearance of the process shape is changed on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50865|The appearance of the process shape is changed on converting a VSD to HTML.|Punaise|
+|DIAGRAMNET-50866|Text alignment problem on Converting a VSDX to PDF - I.|Punaise|
+|DIAGRAMNET-50867|Text alignment problem on Converting a VSDX to PDF - II.|Punaise|
+|DIAGRAMNET-50868|An image is not being preserved on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50869|Incorrect formatting of the shape on converting a VSD to PDF - I.|Punaise|
+|DIAGRAMNET-50871|Incorrect formatting of the shapes on converting a VSD to PDF - II.|Punaise|
+|DIAGRAMNET-50874|Extra circles are added while converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50875|Shapes are misplaced on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-50876|Size of shapes is changed on converting a VSD to PDF.|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Consultez la liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 #### **Ajoute les formats VSDM, VSSM et VSTM dans la classe LoadFileFormat**

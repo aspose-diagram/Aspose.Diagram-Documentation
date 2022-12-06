@@ -4,8 +4,8 @@ type: docs
 weight: 60
 url: /ru/java/export-visio-diagram-to-xaml-in-php/
 ---
-## **Aspose.Diagram — Экспорт Visio Diagram в XAML**
- Чтобы экспортировать Visio Diagram в XAML с помощью**Aspose.Diagram Java для PHP** , просто вызовите**Экспорттоксамл** модуль. Здесь вы можете увидеть пример кода.
+## **Aspose.Diagram - Экспорт Visio Diagram в XAML**
+ Чтобы экспортировать Visio Diagram в XAML, используя**Aspose.Diagram Java для PHP** , просто вызовите**Экспорттоксамл** модуль. Здесь вы можете увидеть пример кода.
 
 **PHP-код**
 

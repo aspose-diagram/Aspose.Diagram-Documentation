@@ -13,4 +13,4 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|Rendu de la couleur incorrecte des formes lors de la conversion d'un VSD en PNG|Renforcement|
+|DIAGRAMJAVA-50352|Rendering incorrect color of shapes on converting a VSD to PNG|Renforcement|

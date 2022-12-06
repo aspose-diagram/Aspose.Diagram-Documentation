@@ -4,7 +4,7 @@ linktitle: Diagram 转换
 type: docs
 weight: 65
 url: /zh/net/convert-diagram-to-different-formats/
-description: 将 Visio 文件转换为 Visio、PDF、CSV、JPG、HTML、BMP、PNG、EMF、SVG、TIFF、XPS 等。
+description: Convert Visio files to Visio, PDF, CSV, JPG, HTML, BMP, PNG, EMF, SVG, TIFF, XPS and more.
 ---
 {{% alert color="primary" %}}
 

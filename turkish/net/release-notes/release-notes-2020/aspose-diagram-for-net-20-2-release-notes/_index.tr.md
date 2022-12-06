@@ -15,14 +15,14 @@ Bu sayfa Aspose.Diagram for .NET 20.2 için sürüm notları bilgilerini içerir
 |:- |:- |:- |
 |DIAGRAMNET-51747|Visio vsd->vsdx dönüşümünden sonra Dosya Değişiklikleri|Artırma|
 |DIAGRAMNET-51750|"HasHiddenInfo" bayrağı ekleniyor|Artırma|
-|DIAGRAMNET-51748|PNG'yi Diagram'e ekleyin - şeffaflık kaybolur|Böcek|
+|DIAGRAMNET-51748|PNG'i Diagram'e ekleyin - şeffaflık kaybolur|Böcek|
 |DIAGRAMNET-51749|Visio Belgesi kaydedilirken hata oluştu|Böcek|
-|DIAGRAMNET-51751|VSDX'den PNG'ye - Ekstra resim gösteriliyor|Böcek|
-|DIAGRAMNET-51752|VSDX - PNG - Fazladan boşluk gösterilir|Böcek|
-|DIAGRAMNET-51753|VSDX'den PNG'ye - Simgelerin konumu değişiyor|Böcek|
-|DIAGRAMNET-51754|VSDX'den PNG'ye - Soru işareti simgesi konumu değiştirildi|Böcek|
-|DIAGRAMNET-51762|Oluşturulan PDF, Visio diagram girişine kıyasla farklı|Böcek|
-|DIAGRAMNET-51763|VSDX'den PNG'ye - Çıktıda bilgi eksik|Böcek|
+|DIAGRAMNET-51751|VSDX - PNG - Ekstra resim gösteriliyor|Böcek|
+|DIAGRAMNET-51752|VSDX ila PNG - Fazladan boşluk gösterilir|Böcek|
+|DIAGRAMNET-51753|VSDX - PNG - Simgelerin konumu değişiyor|Böcek|
+|DIAGRAMNET-51754|VSDX - PNG - Soru işareti simgesi konumu değiştirildi|Böcek|
+|DIAGRAMNET-51762|Oluşturulan PDF, Visio diagram girişine göre farklı|Böcek|
+|DIAGRAMNET-51763|VSDX - PNG - Çıktıda bilgi eksik|Böcek|
 ## ` `**Genel API ve Geriye Dönük Uyumsuz Değişiklikler**
 ` `Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefonda yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bize bildirin. Aspose.Diagram destek forumu.
 ### **ImageSaveOptions'a EnlargePage eklendi**

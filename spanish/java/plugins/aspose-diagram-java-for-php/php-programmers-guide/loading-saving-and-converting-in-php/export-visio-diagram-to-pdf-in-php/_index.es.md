@@ -1,11 +1,11 @@
 ﻿---
-title: Exportar Visio Diagram a PDF en PHP
+title: Export Visio Diagram to PDF in PHP
 type: docs
 weight: 40
 url: /es/java/export-visio-diagram-to-pdf-in-php/
 ---
-## **Aspose.Diagram - Exportar Visio Diagram a PDF**
- Para exportar Visio Diagram a PDF usando**Aspose.Diagram Java para PHP** , simplemente invocar**Exportar a PDF** módulo. Aquí puedes ver el código de ejemplo.
+## **Aspose.Diagram - Export Visio Diagram to PDF**
+To Export Visio Diagram to PDF using **Aspose.Diagram Java para PHP** , simplemente invocar**Exportar a PDF** módulo. Aquí puedes ver el código de ejemplo.
 
 **Código PHP**
 
@@ -25,6 +25,6 @@ print "Exported visio diagram to pdf.".PHP_EOL;
 
 {{< /highlight >}}
 ## **Descargar código de ejecución**
-Descargar**Exportar Visio Diagram a PDF (Aspose.Diagram)**de cualquiera de los sitios de codificación social mencionados a continuación:
+Descargar**Export Visio Diagram to PDF (Aspose.Diagram)**de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/ExportToPdf.php)

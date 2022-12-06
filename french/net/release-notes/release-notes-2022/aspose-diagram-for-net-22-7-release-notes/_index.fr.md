@@ -13,13 +13,13 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52872|Visio à SVG génère plusieurs balises de modèle|Renforcement|
-|DIAGRAMNET-52877|Problème d'alignement du texte russe lors de la conversion Visio en SVG|Renforcement|
-|DIAGRAMNET-52886|Problème d'alignement du texte russe lors de la conversion Visio en SVG|Renforcement|
-|DIAGRAMNET-52861|Problème de représentation HTML|Punaise|
+|DIAGRAMNET-52872|Visio to SVG generates multiple pattern tags|Renforcement|
+|DIAGRAMNET-52877|Russian text alignment issue during Visio to SVG conversion|Renforcement|
+|DIAGRAMNET-52886|Russian text alignment issue during Visio to SVG conversion|Renforcement|
+|DIAGRAMNET-52861|Issue in HTML representation|Punaise|
 |DIAGRAMNET-52871|Certaines formes perdent leur courbe après conversion en svg|Punaise|
 |DIAGRAMNET-52883|Application : l'enregistrement de vsdx en svg génère une exception nulle|Punaise|
-|DIAGRAMNET-52897|Contenu du tableau manquant dans le PDF|Punaise|
+|DIAGRAMNET-52897|Missing table content in PDF|Punaise|
 |DIAGRAMNET-52900|Application : l'enregistrement de vsdx au format PDF génère une exception (remplissage principal de TextureBrush)|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

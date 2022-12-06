@@ -15,10 +15,10 @@ url: /zh/net/aspose-diagram-for-net-21-4-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51732|在“AddShape”到页面后形状丢失样式/结构|强化|
 |DIAGRAMNET-52012|多个道具更新问题|强化|
-|DIAGRAMNET-50538|VSD 转PDF，Bitmap形状错位原位置|漏洞|
-|DIAGRAMNET-50956|文本项目在将 VSDX 转换为 PDF 时被替换|漏洞|
-|DIAGRAMNET-51126|将 VSDX 转换为 PDF 时颜色渲染不正确|漏洞|
-|DIAGRAMNET-52001|VSDX 到 HTML - 转换后形状消失|漏洞|
+|DIAGRAMNET-50538|VSD to PDF conversion, the Bitmap shape is misplaced for the original position|漏洞|
+|DIAGRAMNET-50956|The text items are displaced on converting a VSDX to PDF|漏洞|
+|DIAGRAMNET-51126|Incorrect rendering of the colors while converting a VSDX to PDF|漏洞|
+|DIAGRAMNET-52001|VSDX to HTML - Shapes get disappeared after conversion|漏洞|
 |DIAGRAMNET-52002|打印 Diagram 时页面丢失|漏洞|
 |DIAGRAMNET-52011|回归：无法加载 VSDX 文件|漏洞|
 

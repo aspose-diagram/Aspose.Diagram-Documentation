@@ -15,5 +15,5 @@ url: /it/java/aspose-diagram-for-java-18-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50621|Le connessioni tra forme circolari non sono corrette|Aumento|
 |DIAGRAMJAVA-50623|Il testo della forma del connettore non è nella posizione corretta|Insetto|
-|DIAGRAMJAVA-50624|VDX in HTML: nell'output vengono visualizzate righe aggiuntive|Insetto|
+|DIAGRAMJAVA-50624|VDX to HTML - Extra Lines are appearing in the output|Insetto|
 

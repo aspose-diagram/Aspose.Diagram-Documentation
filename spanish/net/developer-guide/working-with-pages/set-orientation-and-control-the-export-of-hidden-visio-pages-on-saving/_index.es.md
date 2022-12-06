@@ -21,26 +21,26 @@ El siguiente ejemplo de código muestra cómo configurar la orientación de la p
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-SetVisioPageOrientation-SetVisioPageOrientation.cs" >}}
 ## **Controle la exportación de páginas ocultas Visio al guardar**
-[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)API permite a los desarrolladores incluir o excluir Visio páginas ocultas al guardar diagram en archivos PDF, HTML, de imagen (PNG, JPEG, GIF), SVG y XPS. Incluso pueden ocultar Visio páginas usando Aspose.Diagram API porque su opción ya está disponible a través de la celda UIVisibility en la página ShapeSheet.
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 ### **Oculte una página en Visio Diagram y establezca la opción de exportación**
  Aspose.Diagram for .NET API tiene el[Página](http://www.aspose.com/api/net/diagram/aspose.diagram/page) clase que representa una página de dibujo Visio. La propiedad PageSheet expuesta por la clase Page también expone las propiedades de la página. El campo UIVisibility de las propiedades de la página permite ocultar la página. Luego, los desarrolladores pueden usar la propiedad ExportHiddenPage que se agrega en las clases SVGSaveOptions, XPSSaveOptions, ImageSaveOptions, HTMLSaveOptions y PdfSaveOptions.
-#### **Establecer la opción de exportación para PDF**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato PDF.
+#### **Set the Export Option for PDF**
+The code below shows how to set save options before saving a diagram to PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToPDF-ExportOfHiddenVisioPagesToPDF.cs" >}}
-#### **Establecer la opción de exportación para HTML**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato HTML.
+#### **Set the Export Option for HTML**
+The code below shows how to set save options before saving a diagram to HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToHTML-ExportOfHiddenVisioPagesToHTML.cs" >}}
 #### **Establecer la opción de exportación para la imagen**
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato de imagen.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToImage-ExportOfHiddenVisioPagesToImage.cs" >}}
-#### **Establecer la opción de exportación para SVG**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato SVG.
+#### **Set the Export Option for SVG**
+The code below shows how to set save options before saving a diagram to SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToSVG-ExportOfHiddenVisioPagesToSVG.cs" >}}
-#### **Establecer la opción de exportación para XPS**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato XPS.
+#### **Set the Export Option for XPS**
+The code below shows how to set save options before saving a diagram to XPS format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToXPS-ExportOfHiddenVisioPagesToXPS.cs" >}}

@@ -13,14 +13,14 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51673|Guardar como PDF A1A imágenes perdidas|Mejora|
-|DIAGRAMNET-51674|Perdió el color del texto y el borde al guardar como PDF A1a|Mejora|
-|DIAGRAMNET-51675|Diferencias al guardar un archivo VSDX como HTML|Insecto|
-|DIAGRAMNET-51704|Visio a PDF - Algunas formas/líneas no son correctas|Insecto|
-|DIAGRAMNET-51730|Visio a HTML: la información sobre herramientas es incorrecta en el HTML de salida|Insecto|
+|DIAGRAMNET-51673|Save as PDF A1A lost pictures|Mejora|
+|DIAGRAMNET-51674|Lost color of text and border when saving as PDF A1a|Mejora|
+|DIAGRAMNET-51675|Differences when saving a VSDX file as HTML|Insecto|
+|DIAGRAMNET-51704|Visio to PDF - Some shapes/lines are not correct|Insecto|
+|DIAGRAMNET-51730|Visio to HTML - Tooltips are incorrect in output HTML|Insecto|
 |DIAGRAMNET-51732|Las formas pierden estilo/estructura, después de "AddShape" a la página|Insecto|
-|DIAGRAMNET-51733|Visio documento que no se convierte a PDF correctamente|Insecto|
-|DIAGRAMNET-51736|Propiedad de destino incorrecta en el hipervínculo al representar HTML|Insecto|
+|DIAGRAMNET-51733|Visio document not converting to PDF correctly|Insecto|
+|DIAGRAMNET-51736|Bad Target property in hyperlink when rendering HTML|Insecto|
 |DIAGRAMANET-51740-|Visio el contenido se rompe al volver a guardar un archivo|Insecto|
 
 

@@ -15,9 +15,9 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-52116|"Erreur dans l'élément VisioDocument dans \VisioDocument. Les fichiers Visio avec des versions inférieures à 11 ne sont pas pris en charge. Veuillez convertir le fichier au format Visio 2003/2007/2010." exception lors de l'ouverture du fichier VSD|Renforcement|
 |DIAGRAMNET-52258|Graphique affiché décalé après l'exportation [SUITE]|Renforcement|
-|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendu vide en IMAGE/HTML|Renforcement|
+|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendering blank to IMAGE/HTML|Renforcement|
 |DIAGRAMNET-52328|comment placer un nouvel élément dans la page|Renforcement|
-|DIAGRAMNET-52330|Lors de l'enregistrement de VSDX au format PDF avec PdfEncryptionDetails, les liens sont rompus|Renforcement|
+|DIAGRAMNET-52330|When saving VSDX in PDF with PdfEncryptionDetails the links are broken|Renforcement|
 |DIAGRAMNET-52333|Les emojis ne sont pas correctement affichés dans les en-têtes/pieds de page, le texte alternatif, les commentaires, les noms de page, les champs|Renforcement|
 |DIAGRAMNET-52272|App : Erreur "La référence d'objet n'est pas définie sur une instance d'un objet." lors de l'enregistrement de vsdx au format png|Punaise|
 |DIAGRAMNET-52273|App:Erreur "Erreur CRC : le fichier en cours d'extraction semble être corrompu. Attendu 0xFFFFFFFF, réel 0xBB4C4551" lors de l'enregistrement de vsdx au format png|Punaise|

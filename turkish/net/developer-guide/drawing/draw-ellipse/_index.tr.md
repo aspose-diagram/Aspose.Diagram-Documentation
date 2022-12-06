@@ -11,22 +11,22 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfada daire şekli çizmesi
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-DrawEllipse.cs" >}}
 
 ## **SVG'de Daire Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir daire çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde nasıl daire çizileceğini ve SVG formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API geliştiricilerin sayfada daire çizip SVG formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir dairenin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsSVG.cs" >}}
 
 ## **PDF'de Daire Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir daire çizmesine ve PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde nasıl daire çizileceğini ve PDF formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API geliştiricilerin sayfada daire çizip PDF formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir dairenin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPDF.cs" >}}
 
 ## **PNG'de Daire Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir daire çizmesine ve PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde nasıl daire çizileceğini ve PNG formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API geliştiricilerin sayfada daire çizip PNG formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir dairenin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPNG.cs" >}}
 
 ## **HTML'de Daire Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir daire çizmesine ve HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde nasıl daire çizileceğini ve HTML formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API geliştiricilerin sayfada daire çizip HTML formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir dairenin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsHTML.cs" >}}
 
@@ -35,23 +35,23 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfada oval bir şekil çizm
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsVSDX.cs" >}}
 
-## **SVG'de Oval Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
+## **SVG'de Oval çizin**
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizip SVG formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsSVG.cs" >}}
 
-## **PDF'de Oval Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizmesine ve PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
+## **PDF'de Oval çizin**
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizip PDF formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPDF.cs" >}}
 
-## **PNG'de Oval Çizin**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizip PNG formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde nasıl oval çizileceğini ve PNG formatında kaydedileceğini gösterir.
+## **PNG'de Oval çizin**
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizip PNG formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPNG.cs" >}}
 
-## **HTML'de Oval Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizip HTML formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve HTML biçiminde nasıl kaydedileceğini gösterir.
+## **HTML'de Oval çizin**
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir oval çizip HTML formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir ovalin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsHTML.cs" >}}
 

@@ -27,24 +27,24 @@ url: /it/net/aspose-diagram-for-net-17-4-0-release-notes/
 |DIAGRAMNET-51169|Impossibile richiamare da e verso parte della connessione di VDX|Insetto|
 |DIAGRAMNET-51170|Visio non può aprire il file VSDX quando viene aggiunta l'immagine GIF|Insetto|
 |DIAGRAMNET-51173|Non conserva il tipo composto della forma del connettore in VSDX|Insetto|
-|DIAGRAMNET-51177|Il pulsante freccia non viene visualizzato correttamente durante la conversione di un VSDM in SVG|Insetto|
-|DIAGRAMNET-51178|Una riga di testo duplicata viene sovrascritta durante la conversione di VSDM in SVG|Insetto|
+|DIAGRAMNET-51177|The arrow button is not being displayed correctly on converting a VSDM to SVG|Insetto|
+|DIAGRAMNET-51178|A duplicated text line is over-written while converting a VSDM to SVG|Insetto|
 |DIAGRAMNET-51180|Disposizione errata dei connettori al salvataggio nel formato VSDX|Insetto|
-|DIAGRAMNET-51181|Disposizione errata dei connettori durante il salvataggio nel formato PDF|Insetto|
-|DIAGRAMNET-51182|Forme mancanti nella conversione di un VSD in PDF|Insetto|
-|DIAGRAMNET-51183|Forme spostate durante la conversione di un VSD in PDF|Insetto|
+|DIAGRAMNET-51181|Disposizione errata dei connettori al salvataggio nel formato PDF|Insetto|
+|DIAGRAMNET-51182|Forme mancanti nella conversione da VSD a PDF|Insetto|
+|DIAGRAMNET-51183|Displaced shapes on converting a VSD to PDF|Insetto|
 |DIAGRAMNET-51187|VDX il file è danneggiato dopo il salvataggio - II|Insetto|
-|DIAGRAMNET-51191|La casella di responsabilità nella parte inferiore della forma è parzialmente ombreggiata durante il salvataggio di un VDX in SVG|Insetto|
-|DIAGRAMNET-51192|Le frasi di testo non vengono spaziate correttamente durante il salvataggio di un VDX in SVG|Insetto|
-|DIAGRAMNET-51193|È apparso un testo aggiuntivo durante il salvataggio di uno VDX in SVG|Insetto|
-|DIAGRAMNET-51200|Gli elementi di testo si sovrappongono al salvataggio di un VSDM in SVG|Insetto|
+|DIAGRAMNET-51191|Responsibility box at bottom of the shape is partially shaded on saving a VDX to SVG|Insetto|
+|DIAGRAMNET-51192|The text phrases are not being spaced correctly on saving a VDX to SVG|Insetto|
+|DIAGRAMNET-51193|An additional text appeared on saving a VDX to SVG|Insetto|
+|DIAGRAMNET-51200|The text items are overlapping on saving a VSDM to SVG|Insetto|
 |DIAGRAMNET-51202|ArgumentOutOfRangeException al salvataggio di diagram|Insetto|
 |DIAGRAMNET-51203|Mancano le immagini nel salvataggio VSDX|Insetto|
-|DIAGRAMNET-51205|Testo spostato e carattere mancante durante la conversione di VSDM in SVG|Insetto|
-|DIAGRAMNET-51206|Visualizzazione errata in basso durante la conversione di un VSDM in SVG|Insetto|
+|DIAGRAMNET-51205|Displaced text and a missing character on converting a VSDM to SVG|Insetto|
+|DIAGRAMNET-51206|Incorrect display at the bottom on converting a VSDM to SVG|Insetto|
 |DIAGRAMNET-51207|VDX il file è danneggiato dopo il salvataggio - I|Insetto|
-|DIAGRAMNET-51209|Si è verificato un errore durante il salvataggio di un disegno in PNG - I|Insetto|
-|DIAGRAMNET-51210|Si è verificato un errore durante il salvataggio di un disegno in PNG - II|Insetto|
+|DIAGRAMNET-51209|An error occurred on saving a drawing in PNG - I|Insetto|
+|DIAGRAMNET-51210|An error occurred on saving a drawing in PNG - II|Insetto|
 |DIAGRAMNET-51213|Impossibile recuperare la data e l'ora precise dell'ultimo salvataggio del disegno|Insetto|
 |DIAGRAMNET-51215|Viene eseguito il rendering di una forma rettangolare durante la conversione di un VSD in JPG|Insetto|
 

@@ -14,7 +14,7 @@ url: /es/java/aspose-diagram-for-java-6-5-0-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50219|No se pueden recuperar las conexiones del archivo de plantilla VSS.|Insecto|
-|DIAGRAMJAVA-50324|La posición de los elementos de texto se cambia al convertir un VSDX a SVG.|Insecto|
+|DIAGRAMJAVA-50324|The position of text items is changed on converting a VSDX to SVG.|Insecto|
 ### **Public API y cambios incompatibles con versiones anteriores**
 Consulte la lista para conocer los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 

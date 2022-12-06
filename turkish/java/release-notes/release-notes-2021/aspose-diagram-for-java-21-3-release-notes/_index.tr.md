@@ -14,11 +14,11 @@ Bu sayfa Aspose.Diagram for Java 21.3 için sürüm notları bilgilerini içerir
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50711|VDX belgesini PNG olarak kaydetmeye çalıştığınızda NullPointerException hatası veriyor|Artırma|
-|DIAGRAMJAVA-50713|VSDX'i PDF'ye dönüştürürken metin çakışması sorunu|Artırma|
+|DIAGRAMJAVA-50713|VSDX'i PDF'e dönüştürürken metin çakışması sorunu|Artırma|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.
 ### **Sayfaya ConnectShapesViaConnector eklendi**
-- Şekilleri bağlayıcı aracılığıyla bağlayın.
+- Şekilleri via konektörünü bağlayın.
 
 {{< highlight "java" >}}
 

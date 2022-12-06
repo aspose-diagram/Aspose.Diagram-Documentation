@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Node.js عبر Java 22.4 ملاحظات الإصدار
+title: Aspose.Diagram لـ Node.js via Java 22.4 ملاحظات الإصدار
 type: docs
 weight: 25
 url: /ar/java/aspose-diagram-for-node-js-via-java-22-4-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Node.js عبر Java 22.4.
+تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Node.js via Java 22.4.
 
 {{% /alert %}}
 ## **التحسينات والتغييرات**  ##

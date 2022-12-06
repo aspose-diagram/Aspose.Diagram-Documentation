@@ -13,13 +13,13 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50664|El relleno degradado no es compatible con la exportación a SVG|Mejora|
+|DIAGRAMJAVA-50664|Gradient fill not supported in export to SVG|Mejora|
 |DIAGRAMJAVA-50670|Permitir cargar fuentes desde la memoria|Mejora|
 |DIAGRAMJAVA-50681|API tarda mucho en cargar el archivo diagram de gran tamaño|Mejora|
-|DIAGRAMJAVA-50381|Las formas de la red no se conservan al convertir un VSDX a PDF|Insecto|
-|DIAGRAMJAVA-50386|Las imágenes están al revés con diferencia de color al convertir un VSD a SVG|Insecto|
-|DIAGRAMJAVA-50679|VSDX a PDF - Faltan conectores en la salida|Insecto|
-|DIAGRAMJAVA-50680|Visio a PNG: las imágenes de salida se recortaron|Insecto|
+|DIAGRAMJAVA-50381|The network shapes are not being preserved on converting a VSDX to PDF|Insecto|
+|DIAGRAMJAVA-50386|The images are turned upside down with color difference on converting a VSD to SVG|Insecto|
+|DIAGRAMJAVA-50679|VSDX to PDF - Connectors are missing in output|Insecto|
+|DIAGRAMJAVA-50680|Visio to PNG - Output images were cropped out|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados en el API público, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram para JAVA. Si tiene inquietudes sobre algún cambio en la lista, plantéelo en el foro de soporte Aspose.Diagram.
 

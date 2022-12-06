@@ -14,27 +14,27 @@ url: /de/net/aspose-diagram-for-net-16-10-0-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMNET-50545|Master-Fähigkeit zum Hinzufügen von Mastern ohne Schablone, diagram oder Vorlage.|Neue Funktion|
-|DIAGRAMNET-50192|VSD in PDF-Konvertierung, der Text der Form erscheint nicht fett.|Insekt|
+|DIAGRAMNET-50192|VSD to PDF conversion, the text of the shape appears not bold.|Insekt|
 |DIAGRAMNET-50524|Der Methodenaufruf Shape.GluedShapes gibt nicht alle Form-IDs zurück.|Insekt|
-|DIAGRAMNET-50578|VSDX in PDF-Konvertierung, die Verbindungslinien sind nicht gerade-I.|Insekt|
-|DIAGRAMNET-50598|VSDX in PDF-Konvertierung, die Verbindungslinien sind nicht gerade-II.|Insekt|
-|DIAGRAMNET-50583|VSDX zur HTML-Konvertierung, die Verbindungslinien sind nicht gerade-I.|Insekt|
-|DIAGRAMNET-50603|VSDX zur HTML-Konvertierung, die Verbindungslinien sind nicht gerade-II.|Insekt|
-|DIAGRAMNET-51007|Beim Konvertieren einer VSDX in PDF werden die Textelemente verschoben.|Insekt|
-|DIAGRAMNET-51008|Fehlende fette Textformatierung und falsche Zeilenumbrüche beim Konvertieren einer VSDX in PDF.|Insekt|
-|DIAGRAMNET-51009|Die falsche Textposition beim Konvertieren einer VSDX in PDF.|Insekt|
-|DIAGRAMNET-51010|Die falsche Position verschiedener Textelemente beim Konvertieren einer VSDX in PDF.|Insekt|
-|DIAGRAMNET-51013|Der vertikale Text erscheint als horizontaler Text beim Konvertieren von VSDX in PNG.|Insekt|
+|DIAGRAMNET-50578|VSDX to PDF conversion, the connecting lines are not straight-I.|Insekt|
+|DIAGRAMNET-50598|VSDX to PDF conversion, the connecting lines are not straight-II.|Insekt|
+|DIAGRAMNET-50583|VSDX to HTML conversion, the connecting lines are not straight-I.|Insekt|
+|DIAGRAMNET-50603|VSDX to HTML conversion, the connecting lines are not straight-II.|Insekt|
+|DIAGRAMNET-51007|The text items are displaced on converting a VSDX to PDF.|Insekt|
+|DIAGRAMNET-51008|Missing the bold text formatting and incorrect line breaks on converting a VSDX to PDF.|Insekt|
+|DIAGRAMNET-51009|The incorrect position of text on converting a VSDX to PDF.|Insekt|
+|DIAGRAMNET-51010|The incorrect position of various text items on converting a VSDX to PDF.|Insekt|
+|DIAGRAMNET-51013|The vertical text appears as horizontal text on converting a VSDX to PNG.|Insekt|
 |DIAGRAMNET-51026|Ruft die umgekehrte Reihenfolge eingehender und ausgehender Knoten von einem VSDX ab.|Insekt|
 |DIAGRAMNET-51028|Beziehungszelle der Behälterform kann nicht von VSD abgerufen werden.|Insekt|
-|DIAGRAMNET-51039|Die zusätzlichen Nummern werden beim Konvertieren einer VSD in SVG hinzugefügt.|Insekt|
-|DIAGRAMNET-51042|Die Pfeile werden beim Konvertieren von VSD in SVG nicht korrekt gerendert.|Insekt|
-|DIAGRAMNET-51047|Fehlerhafte Darstellung des Kalenders beim Konvertieren einer VSD in SVG.|Insekt|
+|DIAGRAMNET-51039|The additional numbers are added while converting a VSD to SVG.|Insekt|
+|DIAGRAMNET-51042|The arrows are not being rendered correctly on converting a VSD to SVG.|Insekt|
+|DIAGRAMNET-51047|Incorrect rendering of the calendar on converting a VSD to SVG.|Insekt|
 |DIAGRAMNET-51050|Shape.ConnectedShapes-Methode gibt Knoten mit der umgekehrten Richtung zurück.|Insekt|
 |DIAGRAMNET-51051|Beziehungszelle der Formen kann nicht von VSD abgerufen werden.|Insekt|
-|DIAGRAMNET-51052|Die Hintergrundfarbe von Visio-Seiten ist beim Konvertieren einer VSD in SVG schwarz.|Insekt|
+|DIAGRAMNET-51052|The background color of Visio pages is black on converting a VSD to SVG.|Insekt|
 |DIAGRAMNET-51060|Junk-Shape-IDs werden von VSD diagram abgerufen.|Insekt|
-|DIAGRAMNET-51066|Beim Konvertieren einer VSDX-Seite in SVG wird das falsche Symbol angezeigt.|Insekt|
+|DIAGRAMNET-51066|The incorrect symbol appears on converting a VSDX page to SVG.|Insekt|
 |DIAGRAMNET-51067|Beim Konvertieren von VDX in VSDX ist eine NullReferenceException aufgetreten.|Insekt|
 |DIAGRAMNET-51068|Die Option Seitengröße wird durch Festlegen der Breite und Höhe der Seite VSDM geändert.|Insekt|
 |DIAGRAMNET-51069|Die Beziehungszeichenfolge der Formen kann nicht von VSD abgerufen werden.|Insekt|

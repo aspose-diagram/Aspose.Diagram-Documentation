@@ -16,6 +16,6 @@ url: /zh/java/aspose-diagram-for-java-19-2-release-notes/
 |DIAGRAMJAVA-50138|曲线导出为直线|强化|
 |DIAGRAMJAVA-50639|如果形状是圆形，则连接不会连接|漏洞|
 |DIAGRAMJAVA-50646|示例项目中的问题|漏洞|
-|DIAGRAMJAVA-50647|VSDX转SVG时出现java.lang.NullPointerException的原因|漏洞|
+|DIAGRAMJAVA-50647|Cause of java.lang.NullPointerException occurs while converting VSDX to SVG|漏洞|
 |DIAGRAMJAVA-50649|加载 VSDX 文件时出现 DiagramException|漏洞|
 

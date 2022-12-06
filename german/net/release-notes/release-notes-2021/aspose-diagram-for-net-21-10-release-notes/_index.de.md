@@ -15,9 +15,9 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.10.
 |:- |:- |:- |
 |DIAGRAMNET-52116|„Fehler im Element VisioDocument in \VisioDocument. Visio-Dateien mit Versionen unter 11 werden nicht unterstützt. Bitte konvertieren Sie die Datei in das Format Visio 2003/2007/2010.“ Ausnahme beim Öffnen der Datei VSD|Erweiterung|
 |DIAGRAMNET-52258|Grafik nach Export verschoben dargestellt [FORTS.]|Erweiterung|
-|DIAGRAMNET-52284|[Linux]VDW, VSS, VST-Rendering leer zu IMAGE/HTML|Erweiterung|
+|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendering blank to IMAGE/HTML|Erweiterung|
 |DIAGRAMNET-52328|wie man ein neues Element auf der Seite platziert|Erweiterung|
-|DIAGRAMNET-52330|Beim Speichern von VSDX in PDF mit PdfEncryptionDetails sind die Links defekt|Erweiterung|
+|DIAGRAMNET-52330|When saving VSDX in PDF with PdfEncryptionDetails the links are broken|Erweiterung|
 |DIAGRAMNET-52333|Emojis werden in Kopf-/Fußzeilen, Alt-Text, Kommentaren, Seitennamen, Feldern nicht korrekt angezeigt|Erweiterung|
 |DIAGRAMNET-52272|App:Fehler „Objektverweis nicht auf eine Instanz eines Objekts gesetzt.“ beim Speichern von vsdx als png|Insekt|
 |DIAGRAMNET-52273|App: Fehler „CRC-Fehler: Die extrahierte Datei scheint beschädigt zu sein. Erwartet 0xFFFFFFFF, Tatsächlich 0xBB4C4551“ beim Speichern von vsdx als PNG|Insekt|

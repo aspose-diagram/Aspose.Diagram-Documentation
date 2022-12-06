@@ -16,17 +16,17 @@ url: /fr/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|Ajout de la prise en charge de la conversion de la zone spécifique d'un dessin en image|Renforcement|
 |DIAGRAMNET-51350|Ajout de la prise en charge pour récupérer la forme par son nom|Renforcement|
 |DIAGRAMNET-51351|Ajout de la prise en charge de la récupération de la forme à partir d'Annotation|Renforcement|
-|DIAGRAMNET-51295|VSDX en SVG - la faible qualité de la sortie SVG|Punaise|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG|Punaise|
 |DIAGRAMNET-51309|DiagramException se produit lors de l'enregistrement du fichier VSDX|Punaise|
-|DIAGRAMNET-51331|VSDM en SVG - les éléments de texte sont décalés vers le haut|Punaise|
-|DIAGRAMNET-51333|VSDM en SVG - rendu incorrect des icônes circulaires|Punaise|
-|DIAGRAMNET-51339|VSDX en SVG - la troncation du texte du côté droit de chaque image|Punaise|
+|DIAGRAMNET-51331|VSDM to SVG - the text items are shifted up|Punaise|
+|DIAGRAMNET-51333|VSDM to SVG - incorrect rendering of the circular icons|Punaise|
+|DIAGRAMNET-51339|VSDX to SVG - the truncation of text from the right side of each image|Punaise|
 |DIAGRAMNET-51340|Ordre des commentaires incorrect|Punaise|
 |` `DIAGRAMNET-51342|Erreur de mémoire insuffisante après avoir utilisé la méthode "AddComment" et enregistré le fichier sur Steam|Punaise|
-|DIAGRAMNET-51344|VSDX au format PDF - une erreur d'argument hors plage s'est produite|Punaise|
+|DIAGRAMNET-51344|VSDX to PDF - an argument out of range error occurred|Punaise|
 |DIAGRAMNET-51345|Le commentaire n'est pas supprimé avec la forme|Punaise|
-|DIAGRAMNET-51346|VSDM en SVG - la qualité du logo est dégradée|Punaise|
-|DIAGRAMNET-51347|VSDM en SVG - la qualité du logo est dégradée|Punaise|
+|DIAGRAMNET-51346|VSDM to SVG - the logo quality is downgraded|Punaise|
+|DIAGRAMNET-51347|VSDM to SVG - the logo quality is downgraded|Punaise|
 |DIAGRAMNET-51353|Impossible d'ajouter un autre commentaire dans la page Visio|Punaise|
 |DIAGRAMNET-51354|Impossible de modifier les commentaires dans la page Visio|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**

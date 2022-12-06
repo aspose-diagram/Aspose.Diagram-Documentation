@@ -15,5 +15,5 @@ url: /tr/java/aspose-diagram-for-java-18-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50621|Dairesel şekiller arasındaki bağlantılar doğru değil|Artırma|
 |DIAGRAMJAVA-50623|Bağlayıcı şekli metni doğru konumda değil|Böcek|
-|DIAGRAMJAVA-50624|VDX'den HTML'ye - Çıktıda fazladan satırlar görünüyor|Böcek|
+|DIAGRAMJAVA-50624|VDX - HTML - Çıktıda fazladan satırlar görünüyor|Böcek|
 

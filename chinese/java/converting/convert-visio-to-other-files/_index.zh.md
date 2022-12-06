@@ -4,7 +4,7 @@ linktitle:  Visio转其他格式
 type: docs
 weight: 40
 url: /zh/java/convert-visio-to-other-files/
-description: 本主题向您展示如何将 Aspose.Diagram 允许将 Visio 转换为 SVG、XPS、XML、XAML 格式。使用几行代码将 VSD、VSS、VDW、VST、VSDX、VSSX、VSTX、VSDM、VSTM、VSSM 转换为 SVG、XPS、XML、XAML。
+description: This topic show you how to Aspose.Diagram allows to convert Visio to SVG,XPS,XML,XAML formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to SVG,XPS,XML,XAML with a few lines of code.
 ---
 ## **导出为 XML**
 本文介绍了如何使用 将 Microsoft Visio diagram 导出到 XML[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
@@ -59,52 +59,52 @@ TVX 是模板文件的 XML 表示，并存储文档的设置。
 ![待办事项：图片_替代_文本](http://i.imgur.com/E6pUvGD.jpg)
 ### **导出到 XML 编程示例**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
-## **导出到 XPS**
-本文介绍了如何使用 将 Microsoft Visio diagram 导出到 XPS[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Exporting to XPS**
+This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 使用[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram)类的构造函数读取 diagram 文件和 Save 方法将 diagram 导出为任何支持的图像格式。
 
-本文中的代码片段将下面的 diagram 作为输入。您也可以使用其他 diagram 格式（VSS、VSSX、VSSM、VDX、VST、VSTX、VSTM、VDX、VTX 或 VSX）。
+The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
 **源文档。**
 
 ![待办事项：图片_替代_文本](http://i.imgur.com/P3gaA34.png)
 
-要将 VSD diagram 导出到 XPS：
+To export VSD diagram to XPS:
 
 1. 创建 Diagram 类的实例。
-1. 调用 Diagram 类的 Save 方法并将 XPS 设置为输出格式。
+1. Call the Diagram class' Save method and set XPS as the output format.
 
-下图显示了输出的 XPS 文件。
+下图显示了输出 XPS 文件。
 
-**输出 XPS。**
+**The output XPS.**
 
 ![待办事项：图片_替代_文本](http://i.imgur.com/1ESRxSy.png)
-### **导出到 XPS 编程示例**
+### **Exporting to XPS Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
-## **将 Diagram 导出为 SVG**
-本文介绍了如何使用 将 Microsoft Visio diagram 导出为 SVG（可缩放矢量图形）[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Exporting a Diagram to SVG**
+This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
 使用[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram)类的构造函数读取 diagram 文件和 Save 方法将 diagram 导出为任何支持的图像格式。
 
-要将 VSD diagram 导出为 SVG，请执行以下步骤：
+To export VSD diagram to SVG, perform the following steps:
 
 1. 创建 Diagram 类的实例。
-1. 调用类的 Save 方法并将 SVG 设置为导出格式。
-### **将 Diagram 导出为 SVG 编程示例**
-代码示例展示了如何使用 Java 将 diagram 导出为 SVG。
+1. Call the class' Save method and set SVG as the export format.
+### **Exporting Diagram to SVG Programming Sample**
+The code samples show how to export a diagram to SVG using Java.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
-## **将 Diagram 导出到 XAML**
-本文介绍如何将 Microsoft Visio diagram 导出到 XAML（可扩展应用程序标记语言）使用[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Exporting a Diagram to XAML**
+This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
 使用[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram)类的构造函数读取 diagram 文件和 Save 方法将 diagram 导出为任何支持的图像格式。
 
-要将 VSD diagram 导出到 XAML：
+将 VSD diagram 导出到 XAML：
 
 1. 创建 Diagram 类的实例。
-1. 调用类的 Save 方法并将 XAML 设置为导出格式。
-### **导出到 XAML 编程示例**
-代码示例展示了如何使用 Java 将 diagram 导出到 XAML。
+1. Call the class' Save method and set XAML as the export format.
+### **Exporting to XAML Programming Sample**
+The code sample show how to export a diagram to XAML using Java.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
 

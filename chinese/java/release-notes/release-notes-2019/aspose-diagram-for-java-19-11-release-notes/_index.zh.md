@@ -14,7 +14,7 @@ url: /zh/java/aspose-diagram-for-java-19-11-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50671|转换为 SVG 时不考虑形状表新窗口设置|强化|
+|DIAGRAMJAVA-50671|Shape sheet new window setting not respected when converting to SVG|强化|
 ### **公共 API 和向后不兼容的更改**
 以下是对公共 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员，以及对 JAVA 对 Aspose.Diagram 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在 Aspose.Diagram 支持论坛上提出。
 ### **在页面中添加 applyStyle**

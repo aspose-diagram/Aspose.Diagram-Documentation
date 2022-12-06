@@ -1,12 +1,12 @@
 ﻿---
-title: Java 22.5 Sürüm Notları aracılığıyla Node.js için Aspose.Diagram
+title: Node.js için Aspose.Diagram via Java 22.5 Sürüm Notları
 type: docs
 weight: 23
 url: /tr/java/aspose-diagram-for-node-js-via-java-22-5-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 22.5 aracılığıyla Node.js için Aspose.Diagram sürüm notları bilgilerini içerir.
+Bu sayfa, Node.js via Java 22.5 için Aspose.Diagram sürüm notları bilgilerini içerir.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##

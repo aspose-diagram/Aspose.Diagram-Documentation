@@ -13,4 +13,4 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50701|El encabezado/pie de página no se conserva al convertir Diagram a PDF, PNG y HTML|Mejora|
+|DIAGRAMJAVA-50701|Header/Footer are not being preserved while converting Diagram to PDF, PNG and HTML|Mejora|

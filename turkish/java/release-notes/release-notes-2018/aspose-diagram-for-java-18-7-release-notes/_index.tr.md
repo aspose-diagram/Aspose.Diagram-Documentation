@@ -13,7 +13,7 @@ url: /tr/java/aspose-diagram-for-java-18-7-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50414|Bir VST'yi SVG'ye dönüştürmede eksik şekiller|Artırma|
+|DIAGRAMJAVA-50414|VST'i SVG'e dönüştürmede eksik şekiller|Artırma|
 |DIAGRAMJAVA-50603|VDX çıktısı, kaynak VSD dosyasından işlendikten sonra bir hata bildirir|Artırma|
 |DIAGRAMJAVA-50604|Çıkış belgesinde devre dışı bırakılmış bazı özellikler var|Böcek|
 |DIAGRAMJAVA-50605|Gradyan rengi ayarlandıktan sonra boş işaretçi hatası oluştu|Böcek|

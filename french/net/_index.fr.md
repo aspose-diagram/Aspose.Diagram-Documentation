@@ -1,7 +1,7 @@
 ﻿---
 title: Aspose.Diagram for .NET
 type: docs
-description: Aspose.Diagram, est un pur .NET API pour travailler avec le modèle d'objet Microsoft Visio. Il fournit des conversions de formats de fichiers Visio en images, PDF, HTML, XML et XAML. Les formats de fichiers populaires pris en charge incluent VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM et VSSM.
+description: Aspose.Diagram, is a pure .NET API for working with the Microsoft Visio Object Model.It provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 weight: 10
 url: /fr/net/
 is_root: true
@@ -19,7 +19,7 @@ Aspose.Diagram est une pure bibliothèque de classes .NET API pour travailler av
 
 Aspose.Diagram profite des fonctionnalités avancées fournies par Microsoft Office Visio pour manipuler des diagrammes Visio sur un serveur. Aspose.Diagram API est extensible, facile à utiliser, compact et fournit toutes les fonctionnalités les plus courantes afin que les développeurs puissent écrire moins de code.
 
-Avec Aspose.Diagram, vous pouvez facilement transformer vos diagrammes de flux dans d'autres formats, tels que PDF, HTML, divers formats d'image ou autres.
+With Aspose.Diagram, you can easily turn your flow diagrams into other formats, such as PDF, HTML, various image formats or others. 
 
 {{% /alert %}} 
 

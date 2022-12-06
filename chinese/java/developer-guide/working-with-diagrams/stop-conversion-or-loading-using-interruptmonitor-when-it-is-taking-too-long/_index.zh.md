@@ -6,11 +6,11 @@ url: /zh/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-takin
 ---
 ## **可能的使用场景**
 
-Aspose.Diagram 允许您停止将 Diagram 转换为各种格式，如 PDF、HTML 等，使用[**中断监视器**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor)反对时间太长。转换过程通常是 CPU 和内存密集型的，当资源有限时停止它通常很有用。您可以使用[**中断监视器**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor)既用于停止转换也用于停止加载巨大的 diagram。请使用[**Diagram.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor)停止转换的属性和[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor)用于加载巨大 diagram 的属性。
+Aspose.Diagram allows you to stop the conversion of Diagram to various formats like PDF, HTML etc. using the [**中断监视器**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor)反对时间太长。转换过程通常是 CPU 和内存密集型的，当资源有限时停止它通常很有用。您可以使用[**中断监视器**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor)既用于停止转换也用于停止加载巨大的 diagram。请使用[**Diagram.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor)停止转换的属性和[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/diagram/java/com.aspose.diagram/loadoptions#InterruptMonitor)用于加载巨大 diagram 的属性。
 
 ## **当时间过长时使用 InterruptMonitor 停止转换或加载**
 
-下面的示例代码解释了[**中断监视器**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor)目的。该代码将相当大的 Visio 文件转换为 PDF。这将需要几秒钟（即*超过 30 秒*因为这些代码行而将其转换。
+下面的示例代码解释了[**中断监视器**](https://reference.aspose.com/diagram/java/com.aspose.diagram/InterruptMonitor) object. The code converts quite a large Visio file to PDF. It will take several seconds (i.e. *超过 30 秒*因为这些代码行而将其转换。
 
 {{< highlight "java" >}}
 

@@ -9,13 +9,13 @@ url: /it/java/aspose-diagram-for-java-6-3-0-release-notes/
 |**Chiave** |**Riepilogo** |**Categoria** |
 |:- |:- |:- |
 | DIAGRAMMAJava-50306| Aggiungere il supporto per il rilevamento del tipo Visio diagram.| Nuova caratteristica|
-| DIAGRAMMAJava-50311| Impedisci l'esportazione delle pagine Visio nascoste nel PDF.| Nuova caratteristica|
-| DIAGRAMMAJava-50312| Impedisci l'esportazione delle pagine Visio nascoste nell'HTML.| Nuova caratteristica|
-| DIAGRAMMAJava-50313| Impedisci l'esportazione delle pagine Visio nascoste nel PNG.| Nuova caratteristica|
-| DIAGRAMMAJava-50314| Impedisci l'esportazione delle pagine Visio nascoste nel JPEG.| Nuova caratteristica|
-|DIAGRAMMAJava-50315| Impedisci l'esportazione delle pagine Visio nascoste nell'SVG.| Nuova caratteristica|
+| DIAGRAMMAJava-50311|Prevent export of the hidden Visio pages in the PDF. | Nuova caratteristica|
+| DIAGRAMMAJava-50312|Prevent export of the hidden Visio pages in the HTML. | Nuova caratteristica|
+| DIAGRAMMAJava-50313|Prevent export of the hidden Visio pages in the PNG. | Nuova caratteristica|
+| DIAGRAMMAJava-50314|Prevent export of the hidden Visio pages in the JPEG. | Nuova caratteristica|
+|DIAGRAMMAJava-50315|Prevent export of the hidden Visio pages in the SVG. | Nuova caratteristica|
 | DIAGRAMMAJava-50316| Impedisci l'esportazione delle pagine Visio nascoste nella GIF.| Nuova caratteristica|
-| DIAGRAMMAJava-50317| Impedisci l'esportazione delle pagine Visio nascoste nell'XPS.| Nuova caratteristica|
+| DIAGRAMMAJava-50317|Prevent export of the hidden Visio pages in the XPS. | Nuova caratteristica|
 | DIAGRAMMAJava-50307| L'esportazione da VDX a VSDX contrassegna l'opzione della linea della griglia della pagina selezionata.| Insetto|
 | DIAGRAMMAJava-50308| La routine di apertura e salvataggio di VSDX trasforma il testo in caratteri fittizi.| Insetto|
 | DIAGRAMMAJava-50309| La routine di apertura e salvataggio di VSDX ha modificato la forma della linea tratteggiata.| Insetto|

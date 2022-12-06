@@ -13,7 +13,7 @@ Bu sayfa Aspose.Diagram for Java 22.2 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50164|VST'den HTML'ye dönüştürme, tüm diagram'in arka plan resmi eksik|Böcek|
+|DIAGRAMJAVA-50164|VST'den HTML'e dönüşüm, diagram'in tamamının arka plan resmi eksik|Böcek|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.

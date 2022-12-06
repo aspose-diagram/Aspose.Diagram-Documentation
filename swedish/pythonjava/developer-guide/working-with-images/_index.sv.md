@@ -25,7 +25,7 @@ Koden i exemplen nedan visar hur man:
 #### **Få ikoner programmering exempel**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-GetShapeIcon.py" >}}
 ## **Byt ut en bildform på Visio Diagram**
-Aspose.Diagram för Python via Java API tillåter utvecklare att komma åt och ersätta tillgängliga bildformer i[Visio diagram](ExtractAllImagesFromPage.vsd).
+ Aspose.Diagram för Python via Java API låter utvecklare komma åt och ersätta tillgängliga bildformer i[Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **Byta ut en bildform**
 Koden i exemplen nedan visar hur man:
 

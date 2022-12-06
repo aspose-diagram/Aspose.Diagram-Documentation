@@ -8,10 +8,10 @@ url: /es/java/aspose-diagram-for-java-6-4-0-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-| DIAGRAMAJava-50060| VSD a conversión de PDF, diseño incorrecto del texto en formas.| Insecto|
-| DIAGRAMAJava-50070| VSD a la conversión de PDF, el texto de las formas no está en negrita.| Insecto|
-| DIAGRAMAJava-50071| VSD a la conversión de PDF, el texto de las formas no está en cursiva.| Insecto|
-| DIAGRAMAJava-50072| VSD a la conversión de PDF, se cambia el tamaño de fuente del texto en las formas.| Insecto|
+| DIAGRAMAJava-50060|VSD to PDF conversion, incorrect layout of the text in shapes. | Insecto|
+| DIAGRAMAJava-50070|VSD to PDF conversion, the text of shapes is not bold. | Insecto|
+| DIAGRAMAJava-50071|VSD to PDF conversion, the text of shapes is not italicized. | Insecto|
+| DIAGRAMAJava-50072|VSD to PDF conversion, the font-size of the text in shapes is changed. | Insecto|
 | DIAGRAMAJava-50320| Abrir y guardar la rutina de un VSDX diagram ha perdido el tema de las formas.| Insecto|
 | DIAGRAMAJava-50321| La rutina de abrir y guardar de un VSDX diagram ha perdido las flechas de los conectores.| Insecto|
 | DIAGRAMAJava-50322|La rutina de abrir y guardar de un VSDX diagram ha cambiado la posición de una línea discontinua.| Insecto|

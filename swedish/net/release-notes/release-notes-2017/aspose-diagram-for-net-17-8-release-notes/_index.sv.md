@@ -13,39 +13,39 @@ url: /sv/net/aspose-diagram-for-net-17-8-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51295|VSDX till SVG - den låga kvaliteten på SVG-utdata.|Förbättring|
+|DIAGRAMNET-51295|VSDX till SVG - den låga kvaliteten på utdata SVG.|Förbättring|
 |DIAGRAMNET-51298|SVGSaveOptions - lägg till stöd för att kontrollera nivån på bitmappskomprimering.|Förbättring|
 |DIAGRAMNET-51300|Lägg till stöd för anslutande former med anslutningsindex.|Förbättring|
-|DIAGRAMNET-50577|VSDX till PDF-konvertering, den cirkulära formens text är felplacerad - I.|Insekt|
-|DIAGRAMNET-50582|VSDX till HTML-konvertering, den cirkulära formens text är felplacerad - I.|Insekt|
-|DIAGRAMNET-50601|VSDX till PDF-konvertering, den cirkulära formens text är felplacerad - II.|Insekt|
-|DIAGRAMNET-50606|VSDX till HTML-konvertering, den cirkulära formens text är felplacerad - II.|Insekt|
-|DIAGRAMNET-51197|Varningstriangelformer renderas inte korrekt när VSDM sparas till SVG.|Insekt|
+|DIAGRAMNET-50577|VSDX till PDF konvertering, den cirkulära formens text är felplacerad - I.|Insekt|
+|DIAGRAMNET-50582|VSDX till HTML konvertering, den cirkulära formens text är felplacerad - I.|Insekt|
+|DIAGRAMNET-50601|VSDX till PDF konvertering, den cirkulära formens text är felplacerad - II.|Insekt|
+|DIAGRAMNET-50606|VSDX till HTML konvertering, den cirkulära formens text är felplacerad - II.|Insekt|
+|DIAGRAMNET-51197|Varningstriangelformer renderas inte korrekt när du sparar VSDM till SVG.|Insekt|
 |DIAGRAMNET-51245|Förskjutna textobjekt vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-51246|Felaktiga teckensnitt tillämpas på text vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-51296|VSDM till SVG - bilden är trunkerad.|Insekt|
-|DIAGRAMNET-51301|VSDX till PDF - färgen på text på anslutande linjer ändras.|Insekt|
-|DIAGRAMNET-51302|VSDX till PDF - grafiska element saknas.|Insekt|
+|DIAGRAMNET-51301|VSDX till PDF - färgen på texten på anslutande linjer ändras.|Insekt|
+|DIAGRAMNET-51302|VSDX till PDF - saknade grafiska element.|Insekt|
 |DIAGRAMNET-51304|VSDX till PDF - ofullständig återgivning av flödesschemat.|Insekt|
-|DIAGRAMNET-51305|VSDX till PDF - grafiska element saknas.|Insekt|
-|DIAGRAMNET-51306|VSDX till PDF - färgen på text på anslutande linjer ändras.|Insekt|
-|DIAGRAMNET-51307|VSDX till PDF - grafiska element saknas.|Insekt|
+|DIAGRAMNET-51305|VSDX till PDF - saknade grafiska element.|Insekt|
+|DIAGRAMNET-51306|VSDX till PDF - färgen på texten på anslutande linjer ändras.|Insekt|
+|DIAGRAMNET-51307|VSDX till PDF - saknade grafiska element.|Insekt|
 |DIAGRAMNET-51313|Öppna och spara rutin av en VSDX-ritning genererar en korrupt utdatafil.|Insekt|
 |DIAGRAMNET-51314|VSDX till SVG - felaktig placering av texten.|Insekt|
 |DIAGRAMNET-51317|VSDX till PDF - texten på anslutande rader saknas.|Insekt|
 |DIAGRAMNET-51318|VSDX till PDF - den fetstilade texten i rektangelformer saknas.|Insekt|
 |DIAGRAMNET-51319|VSDM till SVG - den aritmetiska operationen resulterade i ett spillfel.|Insekt|
 |DIAGRAMNET-51320|Fel i formelementet när en VSDM laddades.|Insekt|
-|DIAGRAMNET-51323|VSDM till SVG - alla anslutningslinjer saknas.|Insekt|
+|DIAGRAMNET-51323|VSDM till SVG - alla anslutningsledningar saknas.|Insekt|
 |DIAGRAMNET-51324|VSDM till SVG - felaktig kantstil och kantfärg av olika former.|Insekt|
 |DIAGRAMNET-51326|Problem efter att ha lagt till två kommentarer till formen.|Insekt|
 |DIAGRAMNET-51327|Problem efter att ha använt "AddComment"-metoden när du lägger till kommentarer till olika former.|Insekt|
 |DIAGRAMNET-51328|Aspose Diagram importerar felaktigt form till dokument.|Insekt|
 |DIAGRAMNET-51330|VSDM till SVG - ytterligare en vattenstämpeltext läggs till.|Insekt|
 |DIAGRAMNET-51332|VSDM till SVG - felaktig återgivning av en ikon.|Insekt|
-|DIAGRAMNET-51334|VSDM till SVG - förskjuten text i övre högra hörnet.|Insekt|
+|DIAGRAMNET-51334|VSDM till SVG - förskjuten text i det övre högra hörnet.|Insekt|
 |DIAGRAMNET-51335|VSDM till SVG - felaktig återgivning av bakgrundsbilden.|Insekt|
-|DIAGRAMNET-51337|VSD till HTML - ogiltigt format för inmatningssträngsfelet.|Insekt|
+|DIAGRAMNET-51337|VSD till HTML - ogiltigt format för indatasträngsfelet.|Insekt|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for .NET. Om du har frågor om någon ändring i listan, vänligen ta upp dem i de[Aspose.Diagram supportforum](https://forum.aspose.com/c/diagram/17).
 ### **Lägger till Quality-medlem i SVGSaveOptions-klassen**

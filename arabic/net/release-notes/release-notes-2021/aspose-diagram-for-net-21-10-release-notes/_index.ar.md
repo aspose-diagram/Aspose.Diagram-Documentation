@@ -15,9 +15,9 @@ url: /ar/net/aspose-diagram-for-net-21-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52116|"خطأ في عنصر VisioDocument في \ VisioDocument. لا يتم دعم Visio الملفات ذات الإصدارات الأقل من 11. الرجاء تحويل الملف إلى تنسيق Visio 2003/2007/2010." استثناء عند فتح ملف VSD|التعزيز|
 |DIAGRAMNET-52258|تم تغيير الرسم الموضح بعد التصدير [CONT.]|التعزيز|
-|DIAGRAMNET-52284|[Linux] عرض VDW، VSS، VST فارغًا على IMAGE / HTML|التعزيز|
+|DIAGRAMNET-52284|[Linux] عرض VDW، VSS، VST فارغًا إلى IMAGE / HTML|التعزيز|
 |DIAGRAMNET-52328|كيفية وضع عنصر جديد في الصفحة|التعزيز|
-|DIAGRAMNET-52330|عند حفظ VSDX في PDF باستخدام PdfEncryptionDetails ، تكون الروابط مقطوعة|التعزيز|
+|DIAGRAMNET-52330|عند حفظ VSDX في PDF باستخدام PdfEncryptionDetails ، يتم قطع الروابط|التعزيز|
 |DIAGRAMNET-52333|لا يتم عرض الرموز التعبيرية بشكل صحيح في الرؤوس / التذييلات ، والنص البديل ، والتعليقات ، وأسماء الصفحات ، والحقول|التعزيز|
 |DIAGRAMNET-52272|التطبيق: خطأ "لم يتم تعيين مرجع الكائن إلى مثيل لكائن." عند حفظ vsdx بتنسيق png|حشرة|
 |DIAGRAMNET-52273|التطبيق: خطأ "خطأ CRC: يبدو أن الملف الذي يتم استخراجه تالف. 0xFFFFFFFF المتوقعة ، الفعلية 0xBB4C4551" عند حفظ vsdx بتنسيق png|حشرة|

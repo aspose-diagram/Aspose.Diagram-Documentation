@@ -26,6 +26,6 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في ا�
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsPNG.cs" >}}
 
 ## **ارسم الماس في HTML**
-Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في الصفحة وحفظها بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم الماس في رسم Visio وحفظه بتنسيق HTML.
+Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في الصفحة وحفظها بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم ماسة برسم Visio وحفظها بتنسيق HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawDiamondInPage-AsHTML.cs" >}}

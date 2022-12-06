@@ -15,14 +15,14 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 20.10.
 |:- |:- |:- |
 |DIAGRAMNET-51891|Visio in JPG - API dauert lange für die Konvertierung|Erweiterung|
 |DIAGRAMNET-51902|Visio Dateien mit Versionen unter 11 werden nicht unterstützt, Ausnahme beim Öffnen von VSS|Erweiterung|
-|DIAGRAMNET-51906|VSDX nach PDF exportieren: Probleme mit Strichstärke, Bild und Bemaßung|Erweiterung|
-|DIAGRAMNET-51929|VSD in SVG-Konvertierung: Matrixtransformationen in der ausgegebenen SVG-Datei|Erweiterung|
-|DIAGRAMNET-51931|Visio in PDF - API verbraucht viel Speicherplatz und dauert lange|Erweiterung|
-|DIAGRAMNET-51936|[Forts.]Visio zu PDF - API verbraucht viel Speicherplatz und dauert lange|Erweiterung|
+|DIAGRAMNET-51906|Export VSDX to PDF: problems with line width, image and dimensioning|Erweiterung|
+|DIAGRAMNET-51929|VSD to SVG conversion: Matrix transformations in the output SVG file|Erweiterung|
+|DIAGRAMNET-51931|Visio to PDF - API is consuming large amount of memory and taking long time|Erweiterung|
+|DIAGRAMNET-51936|[Cont.]Visio to PDF - API is consuming large amount of memory and taking long time|Erweiterung|
 |DIAGRAMNET-51881|Die Position von 2 Etiketten ist nicht korrekt|Insekt|
 |DIAGRAMNET-51907|Beim Rendern der Datei VSDX tritt ein allgemeiner Fehler in der GDI+-Ausnahme auf|Insekt|
-|DIAGRAMMNETZ-51926-|Aspose.Diagram 20.9: NullReferenceException beim Konvertieren von VDX in PNG|Insekt|
-|DIAGRAMNET-51928|VSD in SVG-Konvertierung: Einige Texte und Pfeile am Ende der Zeilen fehlen|Insekt|
+|DIAGRAMMNETZ-51926-|Aspose.Diagram 20.9: NullReferenceException when converting VDX to PNG|Insekt|
+|DIAGRAMNET-51928|VSD to SVG conversion: Some text and arrows at the end of the lines are missing|Insekt|
 |DIAGRAMNET-51932|Formstile gehen nach vsd –> vsdx Konvertierung verloren|Insekt|
 |DIAGRAMNET-51933|Farbverlauf stoppt das Format, das nicht dem SVG-Standard entspricht|Insekt|
 |DIAGRAMNET-51934|Der Objektverweis wurde nicht auf eine Instanz eines Objekts festgelegt.' beim Speichern von VSS-Formen für eine bestimmte Datei|Insekt|

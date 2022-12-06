@@ -4,12 +4,12 @@ linktitle: 将 Visio 转换为图像
 type: docs
 weight: 20
 url: /zh/java/convert-visio-to-image/
-description: 本主题向您展示如何将 Aspose.Diagram 允许将 Visio 转换为各种图像格式。使用几行代码将 Visio、VSD、VSS、VDW、VST、VSDX、VSSX、VSTX、VSDM、VSTM、VSSM 转换为 PNG、JPEG、BMP 图像。
+description: This topic show you how to Aspose.Diagram allows to convert Visio to various images formats. Convert Visio,VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to PNG, JPEG, BMP images with a few lines of code.
 ---
 ## **将图表导出为图像文件格式**
 本文介绍了如何使用 将 Microsoft Visio diagram 导出到图像[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
-使用[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram)类的构造函数读取 diagram 文件，Save 方法将 diagram 导出为任何支持的图像格式。下图显示了一个即将保存为 PNG 格式的 VSD 文件。您也可以使用其他 diagram 格式（VSS、VSSX、VSSM、VDX、VST、VSTX、VSTM、VDX、VTX 或 VSX）。
+使用[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.The image below shows a VSD file about to be saved to PNG format. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 **源文件。请注意，箭头和三角形标签以粗体显示。**
 
 ![待办事项：图片_替代_文本](http://i.imgur.com/WOV36ek.png)

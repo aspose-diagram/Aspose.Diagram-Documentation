@@ -15,9 +15,9 @@ url: /tr/net/aspose-diagram-for-net-18-8-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51500|Görüntü oluşturma sorunu|Artırma|
 |DIAGRAMNET-51504|Yeni gözden geçiren oluşturmak için destek ekleyin|Artırma|
-|DIAGRAMNET-50953|Bir VSDX PNG'ye dönüştürülürken metin öğelerinin yeri değiştiriliyor|Böcek|
-|DIAGRAMNET-51122|VSD'i PDF'ye dönüştürürken metin öğelerinin yanlış konumu|Böcek|
-|DIAGRAMNET-51123|VSD'i PDF'ye dönüştürürken şekillerin metni kaydırılıyor|Böcek|
+|DIAGRAMNET-50953|Bir VSDX'den PNG'e dönüştürülürken metin öğelerinin yeri değiştirilir|Böcek|
+|DIAGRAMNET-51122|VSD'i PDF'e dönüştürürken metin öğelerinin yanlış konumu|Böcek|
+|DIAGRAMNET-51123|VSD'den PDF'e dönüştürülürken şekillerin metni kaydırılır|Böcek|
 |DIAGRAMNET-51408|VSD'den Resim'e - karakterler satırla örtüşüyor|Böcek|
 |DIAGRAMNET-51499|Diagram.Save yöntemi OutOfMemoryException hatası veriyor|Böcek|
 |DIAGRAMNET-51501|VDX dosyasında şekiller çakışıyor|Böcek|

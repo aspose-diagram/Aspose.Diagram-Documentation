@@ -14,9 +14,9 @@ url: /tr/net/aspose-diagram-for-net-17-3-0-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-51153|Diagram.AddShape yöntemi şekilleri doğru konumlara yerleştirmiyor.|Artırma|
-|DIAGRAMNET-51156|VSD'i PDF'ye dönüştürürken mavi silindir şekilleri eksik.|Artırma|
+|DIAGRAMNET-51156|VSD'i PDF'e dönüştürürken mavi silindir şekilleri eksik.|Artırma|
 |DIAGRAMNET-51158|VSDM'deki bir Şekle köprü eklenemez.|Artırma|
-|DIAGRAMNET-51154|Metin öğeleri, bir VSD'i PDF'ye dönüştürürken biraz yer değiştiriyor.|Böcek|
+|DIAGRAMNET-51154|Bir VSD'den PDF'e dönüştürülürken metin öğeleri biraz yer değiştirir.|Böcek|
 |DIAGRAMNET-51155|VSDX'deki gruplandırma şekillerinde yanlış yükseklik hesabı.|Böcek|
 |DIAGRAMNET-51157 |VSDX içinde bir grup şeklini taşırken yanlış bağlayıcı düzeni.|Böcek|
 |DIAGRAMNET-51159|VSDM çizimini açarken ve kaydederken hata oluştu.|Böcek|

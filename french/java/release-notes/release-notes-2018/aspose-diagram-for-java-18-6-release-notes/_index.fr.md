@@ -13,15 +13,15 @@ url: /fr/java/aspose-diagram-for-java-18-6-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50091|Conversion VSD en PDF, remplissage dégradé horizontal au lieu du centre|Renforcement|
+|DIAGRAMJAVA-50091|VSD to PDF conversion, horizontal gradient fill instead of center|Renforcement|
 |DIAGRAMJAVA-50601|Sortie VSDX - largeur et hauteur incorrectes de la forme du routeur|Renforcement|
-|DIAGRAMJAVA-50083|Conversion VSD en PDF, l'image du réservoir n'a pas les structures internes en ligne droite|Punaise|
-|DIAGRAMJAVA-50267|VSD à l'exportation SVG, la sortie de la page au format SVG devient floue|Punaise|
-|DIAGRAMJAVA-50282|VSDX vers export PDF - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMJAVA-50283|VSDX vers export HTML - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMJAVA-50284|VSDX vers export XPS - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMJAVA-50285|VSDX vers export JPEG - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMJAVA-50286|VSDX vers export PNG - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMJAVA-50287|VSDX vers export SVG - Rendu partiel des formes de type Calendrier|Punaise|
-|DIAGRAMJAVA-50393|Les lignes de couleur noires ne sont pas visibles lors de la conversion d'un VSD en SVG|Punaise|
+|DIAGRAMJAVA-50083|VSD to PDF conversion, tank image doesn't have the internal straight line structures|Punaise|
+|DIAGRAMJAVA-50267|VSD to SVG export, the page output in SVG format is coming blurred|Punaise|
+|DIAGRAMJAVA-50282|VSDX to PDF export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMJAVA-50283|VSDX to HTML export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMJAVA-50284|VSDX to XPS export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMJAVA-50285|VSDX to JPEG export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMJAVA-50286|VSDX to PNG export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMJAVA-50287|VSDX to SVG export - Partial rendering of the Calendar type shapes|Punaise|
+|DIAGRAMJAVA-50393|The black color lines are not visible on converting a VSD to SVG|Punaise|
 

@@ -13,7 +13,7 @@ Bu sayfa Aspose.Diagram for Java 22.9 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: PNG'ye kaydettikten sonra şekil bozuk|Artırma|
+|DIAGRAMJAVA-51022|WK: PNG'e kaydedildikten sonra şekil bozuldu|Artırma|
 |DIAGRAMJAVA-51015|wk: İngilizce dışında bir dilde şekil adı|Böcek|
 |DIAGRAMJAVA-51020|wk: Katmanlı Sayfa şeklinin adı doğru şekilde çözülmedi|Böcek|
 

@@ -6,7 +6,7 @@ url: /de/net/aspose-diagram-for-net-5-9-0-release-notes/
 ---
 Diese Version enthält die unten aufgeführten Funktionen, Verbesserungen und Fehlerbehebungen:
 ## **Neue Funktion**
-- DIAGRAMMNETZ-50143-[VSD in HTML-Konvertierung](https://docs.aspose.com/diagram/net/convert-visio-to-html/) Unterstützung zum Speichern von Ausgabe-HTML in einem Stream-Objekt hinzugefügt
+- DIAGRAMMNETZ-50143-[VSD to HTML conversion](https://docs.aspose.com/diagram/net/convert-visio-to-html/) Unterstützung zum Speichern von Ausgabe-HTML in einem Stream-Objekt hinzugefügt
 - DIAGRAMNET-50564-Schreibunterstützung für das neue Format MS Visio Stencil 2013 VSSX
 - DIAGRAMNET-50565-Schreibunterstützung für das neue Format MS Visio Template 2013 VSTX
 - DIAGRAMNET-50649-Leseunterstützung für das neue Format MS Visio Template 2013 VSTX
@@ -21,7 +21,7 @@ Diese Version enthält die unten aufgeführten Funktionen, Verbesserungen und Fe
 - DIAGRAMNET-50642-VSD bis VDX Export, Position der Anschlüsse geändert
 - DIAGRAMNET-50643-Öffnen und speichern Sie VSDX, die Server-Shapes fehlen
 - DIAGRAMNET-50644-VSD bis VSDX exportiert, CustomProp-Klasse gibt keinen tatsächlichen Wert zurück
-- DIAGRAMNET-50645-VDX zum PDF-Export, das resultierende PDF ist leer
-- DIAGRAMNET-50646-VDX zum BMP-Export, eine Argumentausnahme ist aufgetreten
-- DIAGRAMNET-50647-VDX beim JPEG-Export ist eine Argumentausnahme aufgetreten
-- DIAGRAMNET-50648-VSDX beim SVG-Export werden die benutzerdefinierten Eigenschaften der Formen nicht beibehalten
+- DIAGRAMNET-50645-VDX to PDF export, the resultant PDF is blank 
+- DIAGRAMNET-50646-VDX to BMP export, an argument exception occurred 
+- DIAGRAMNET-50647-VDX to JPEG export, an argument exception occurred 
+- DIAGRAMNET-50648-VSDX to SVG export, the custom properties of the shapes are not preserved

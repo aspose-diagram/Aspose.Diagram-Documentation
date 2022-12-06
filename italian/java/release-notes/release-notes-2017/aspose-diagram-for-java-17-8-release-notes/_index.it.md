@@ -13,7 +13,7 @@ url: /it/java/aspose-diagram-for-java-17-8-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50412|Forme mancanti nella conversione di un VST in PNG.|Insetto|
+|DIAGRAMJAVA-50412|Missing shapes on converting a VST to PNG.|Insetto|
 |DIAGRAMJAVA-50497|Uscita VSDX - disposizione errata di tutte le linee di collegamento.|Insetto|
 |DIAGRAMJAVA-50500|Output VSDX: la dimensione della forma aggiunta manualmente non viene modificata.|Insetto|
 |DIAGRAMJAVA-50511|Output VSDX - testo fuori posizione del connettore dinamico.|Insetto|
@@ -21,7 +21,7 @@ url: /it/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|Output VSDX - la forma della decisione sta diventando più grande.|Insetto|
 |DIAGRAMJAVA-50520|Impossibile impostare il comportamento di sovrapposizione delle linee di collegamento in un disegno VSDX.|Insetto|
 |DIAGRAMJAVA-50521|Uscita VSDX - disposizione errata della linea del connettore.|Insetto|
-|DIAGRAMJAVA-50522|Output PNG: il testo della forma esce dal confine.|Insetto|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary.|Insetto|
 |DIAGRAMJAVA-50523|Uscita VSDX - disposizione errata della linea di collegamento.|Insetto|
 |DIAGRAMJAVA-50525|Output VSDX - la formula della larghezza di qualsiasi forma non viene conservata.|Insetto|
 |DIAGRAMJAVA-50528|Output VSDX - dimensione errata della forma.|Insetto|

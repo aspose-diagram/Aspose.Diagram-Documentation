@@ -6,7 +6,7 @@ url: /tr/net/configuring-fonts-for-rendering/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Diagram API'ler, sayfaları görüntü formatlarında oluşturmanın yanı sıra PDF ve XPS formatlarına dönüştürme olanağı sağlar. Dönüştürme doğruluğunu en üst düzeye çıkarmak için elektronik tabloda kullanılan yazı tiplerinin işletim sisteminin varsayılan yazı tipi dizininde bulunması gerekir. Gerekli yazı tiplerinin mevcut olmaması durumunda, Aspose.Diagram API'leri gerekli yazı tiplerini mevcut olanlarla değiştirmeye çalışacaktır.
+Aspose.Diagram API'leri, sayfaları resim formatlarında oluşturmanın yanı sıra PDF & XPS formatlarına dönüştürme olanağı sağlar. Dönüştürme doğruluğunu en üst düzeye çıkarmak için elektronik tabloda kullanılan yazı tiplerinin işletim sisteminin varsayılan yazı tipi dizininde bulunması gerekir. Gerekli yazı tiplerinin mevcut olmaması durumunda, Aspose.Diagram API'leri gerekli yazı tiplerini mevcut olanlarla değiştirmeye çalışacaktır.
 
 ## **Yazı Tiplerinin Seçimi**
 

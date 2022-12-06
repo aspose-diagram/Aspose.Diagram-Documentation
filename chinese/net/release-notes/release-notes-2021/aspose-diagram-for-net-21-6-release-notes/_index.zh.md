@@ -15,11 +15,11 @@ url: /zh/net/aspose-diagram-for-net-21-6-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52007|diagram 对象初始化期间的性能|强化|
 |DIAGRAMNET-52008|diagram 对象初始化期间的性能|强化|
-|DIAGRAMNET-52027|导出的 SVG 文件中的形状质量不好|强化|
-|DIAGRAMNET-52033|将形状保存到 HTML 问题|漏洞|
+|DIAGRAMNET-52027|Quality of shapes is not good in exported SVG file|强化|
+|DIAGRAMNET-52033|Saving shapes to HTML problem|漏洞|
 |DIAGRAMNET-52035|“无例外的eof。”打开 VSDX 文件时出现异常|漏洞|
 |DIAGRAMNET-52041|无法从 VSS 文件保存某些形状|漏洞|
-|DIAGRAMNET-52042|“参数无效。”将 VSD 文件呈现为 HTML 时出现异常|漏洞|
+|DIAGRAMNET-52042|"Parameter is not valid." exception when rendering VSD file to HTML|漏洞|
 |DIAGRAMNET-52043|“你调用的对象是空的。”从 VSSX 文件保存形状时出现异常|漏洞|
 
 ## **公共 API 和向后不兼容的更改**

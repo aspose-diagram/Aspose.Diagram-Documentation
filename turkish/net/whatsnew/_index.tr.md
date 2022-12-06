@@ -4,7 +4,7 @@ linktitle: Ne var ne yok
 type: docs
 weight: 5
 url: /tr/net/whatsnew/
-description: Aspose.Diagram for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product
+description: Aspose.Diagram for .NET her geçen gün genişliyor ve güzelleşiyor. Bu sayfada, ürünün devasa ve en ilginç özelliklerini öğrenebilirsiniz.
 sitemap:
 changefreq: monthl
 priority: 0.8

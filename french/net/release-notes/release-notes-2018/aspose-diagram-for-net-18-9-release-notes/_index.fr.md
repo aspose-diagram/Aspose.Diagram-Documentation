@@ -13,18 +13,18 @@ url: /fr/net/aspose-diagram-for-net-18-9-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51509|VSDX à PNG - Opacité des lignes perdue dans l'image de sortie|Renforcement|
-|DIAGRAMNET-51510|VSDX à SVG - Opacité de la ligne perdue dans l'image de sortie|Renforcement|
+|DIAGRAMNET-51509|VSDX to PNG - Line opacity lost in output image|Renforcement|
+|DIAGRAMNET-51510|VSDX to SVG - Line opacity lost in output image|Renforcement|
 |DIAGRAMNET-51516|Fusionner plusieurs fichiers VISIO en une seule sortie|Renforcement|
-|DIAGRAMNET-50272|VSD en conversion SVG - Certains points de connexion ont une position et une taille incorrectes|Punaise|
-|DIAGRAMNET-50273|VSD vers SVG - L'alignement des éléments de texte de forme est incorrect|Punaise|
-|DIAGRAMNET-50487|VSD en HTML - Le caractère barre oblique entre la valeur est mal placé|Punaise|
-|DIAGRAMNET-50975|VSDX au format PDF - La couleur de fond de la forme est noire|Punaise|
-|DIAGRAMNET-50976|VSDX vers HTML - La couleur de fond de la forme est noire|Punaise|
-|DIAGRAMNET-50980|VSDX vers PNG - Les chiffres à l'intérieur des losanges sont mal placés|Punaise|
-|DIAGRAMNET-51129|Les éléments de texte ne sont pas correctement alignés lors de la conversion d'un VSD en PDF|Punaise|
-|DIAGRAMNET-51511|Pointes de flèches supplémentaires dans la conversion PNG|Punaise|
-|DIAGRAMNET-51512|Pointes de flèches supplémentaires affichées dans la conversion SVG|Punaise|
+|DIAGRAMNET-50272|VSD to SVG conversion - Some connection points have wrong position and size|Punaise|
+|DIAGRAMNET-50273|VSD to SVG - The alignment of shape text items are incorrect|Punaise|
+|DIAGRAMNET-50487|VSD to HTML - Slash character between the value is misplaced|Punaise|
+|DIAGRAMNET-50975|VSDX to PDF - Background color of the shape is black|Punaise|
+|DIAGRAMNET-50976|VSDX to HTML - Background color of the shape is black|Punaise|
+|DIAGRAMNET-50980|VSDX to PNG - Numbers inside the diamond shapes are misplaced|Punaise|
+|DIAGRAMNET-51129|The text items are not aligned properly on converting a VSD to PDF|Punaise|
+|DIAGRAMNET-51511|Additional arrowheads in PNG conversion|Punaise|
+|DIAGRAMNET-51512|Additional arrowheads showing in SVG conversion|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez les signaler dans la[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 #### **Ajout de la méthode Combine dans la classe Diagram**

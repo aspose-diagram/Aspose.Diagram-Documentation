@@ -15,10 +15,10 @@ url: /ar/net/aspose-diagram-for-net-21-11-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51111|التعبئة المتدرجة للدوائر خطأ عند تحويل VDX إلى EMF|التعزيز|
 |DIAGRAMNET-52377|إضافة دعم تحميل vsd بالإصدار القديم 3|التعزيز|
-|DIAGRAMNET-51364|VSDX إلى PNG - فقدان نص OLE Embedded|حشرة|
+|DIAGRAMNET-51364|VSDX إلى PNG - فقد نص عنصر OLE المضمن|حشرة|
 |DIAGRAMNET-52329|VSDX إلى HTML - الرموز التعبيرية غير موجودة في الإخراج|حشرة|
 |DIAGRAMNET-52345|يتم فقد "تذييل الرأس" بعد حفظ الملف Diagram|حشرة|
-|DIAGRAMNET-52349|Visio إلى HTML - يتم قطع الحواف اليمنى واليسرى|حشرة|
+|DIAGRAMNET-52349|Visio إلى HTML - تم قطع الحواف اليمنى واليسرى|حشرة|
 |DIAGRAMNET-52374|ArgumentOutOfRangeException أثناء الحفظ في PDF|حشرة|
 |DIAGRAMNET-52386|لماذا يمكن تكرار بعض الصفحات diagram والبعض الآخر لا يمكنه استخدام Page.Copy ()؟|حشرة|
 

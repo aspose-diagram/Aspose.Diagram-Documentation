@@ -21,12 +21,12 @@ url: /tr/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50569|VBA Kodunu güncellemek için destek ekleyin.|Yeni özellik|
 |DIAGRAMNET-50859|Makro etkin şablonu (.VSTM) içe aktarmak için destek ekleyin.|Yeni özellik|
 |DIAGRAMNET-50860|Makro etkin kalıbı (.VSSM) içe aktarmak için destek ekleyin.|Yeni özellik|
-|DIAGRAMNET-50701|VSDX'den PDF'ye dışa aktarma - şeklin sınır rengi iç yapıyla örtüşüyor.|Böcek|
+|DIAGRAMNET-50701|VSDX ila PDF dışa aktarma - şeklin sınır rengi iç yapıyla örtüşüyor.|Böcek|
 |DIAGRAMNET-50790|Bir VSDX dosyası yüklenirken Diagram istisnası oluştu.|Böcek|
-|DIAGRAMNET-50793|Bir VSD'i PDF'ye dönüştürürken metin öğeleri eksik.|Böcek|
-|DIAGRAMNET-50794|VSD PNG'ye dönüştürülürken metin öğeleri eksik.|Böcek|
+|DIAGRAMNET-50793|VSD'i PDF'e dönüştürürken metin öğeleri eksik.|Böcek|
+|DIAGRAMNET-50794|VSD'i PNG'e dönüştürürken metin öğeleri eksik.|Böcek|
 |DIAGRAMNET-50795|Bir VSD'i JPG'ye dönüştürürken metin öğeleri eksik.|Böcek|
-|DIAGRAMNET-50796|VSD'i PDF'ye dönüştürürken resimlerin şeffaf arka planı beyaz renge dönüşür.|Böcek|
+|DIAGRAMNET-50796|VSD'den PDF'e dönüştürüldüğünde resimlerin şeffaf arka planı beyaz renge dönüşür.|Böcek|
 |DIAGRAMNET-50798|VSD'i JPG'ye dönüştürürken resimlerin şeffaf arka planı beyaz renge dönüşür.|Böcek|
 |DIAGRAMNET-50804|VTX dosyası kaydedilirken Diagram istisnası oluştu.|Böcek|
 |DIAGRAMNET-50801|Diagram dosyası kaydedilirken Diagram istisnası oluştu - I.|Böcek|
@@ -64,16 +64,16 @@ url: /tr/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50854|diagram'in özellikleri açıkken korunmaz ve kaydedilir - XIII.|Böcek|
 |DIAGRAMNET-50855|diagram'in özellikleri açıkken korunmaz ve kaydedilir - XIV.|Böcek|
 |DIAGRAMNET-50857|diagram'in özellikleri açıkken korunmaz ve kaydedilir - XV.|Böcek|
-|DIAGRAMNET-50864|Bir VSD'in PDF'ye dönüştürülmesinde işlem şeklinin görünümü değişir.|Böcek|
-|DIAGRAMNET-50865|İşlem şeklinin görünümü, bir VSD'in HTML'ye dönüştürülmesinde değiştirilir.|Böcek|
-|DIAGRAMNET-50866|VSDX'i PDF'ye Dönüştürmede metin hizalama sorunu - I.|Böcek|
-|DIAGRAMNET-50867|VSDX'i PDF'ye Dönüştürmede metin hizalama sorunu - II.|Böcek|
-|DIAGRAMNET-50868|VSD'i PDF'ye dönüştürürken bir görüntü korunmuyor.|Böcek|
-|DIAGRAMNET-50869|VSD'i PDF'ye dönüştürürken şeklin yanlış biçimlendirilmesi - I.|Böcek|
-|DIAGRAMNET-50871|VSD'i PDF'ye dönüştürürken şekillerin yanlış biçimlendirilmesi - II.|Böcek|
-|DIAGRAMNET-50874|VSD'i PDF'ye dönüştürürken fazladan daireler eklenir.|Böcek|
-|DIAGRAMNET-50875|VSD'i PDF'ye dönüştürürken şekiller yanlış yerleştirilmiş.|Böcek|
-|DIAGRAMNET-50876|VSD, PDF'ye dönüştürülürken şekillerin boyutu değişiyor.|Böcek|
+|DIAGRAMNET-50864|Bir VSD, PDF'e dönüştürüldüğünde işlem şeklinin görünümü değişir.|Böcek|
+|DIAGRAMNET-50865|Bir VSD, HTML'e dönüştürüldüğünde işlem şeklinin görünümü değişir.|Böcek|
+|DIAGRAMNET-50866|VSDX'i PDF'e Dönüştürmede metin hizalama sorunu - I.|Böcek|
+|DIAGRAMNET-50867|VSDX'i PDF'e Dönüştürmede metin hizalama sorunu - II.|Böcek|
+|DIAGRAMNET-50868|VSD'den PDF'e dönüştürülürken bir görüntü korunmuyor.|Böcek|
+|DIAGRAMNET-50869|VSD'i PDF - I'ye dönüştürürken şeklin yanlış biçimlendirilmesi.|Böcek|
+|DIAGRAMNET-50871|VSD'i PDF'e dönüştürürken şekillerin yanlış biçimlendirilmesi - II.|Böcek|
+|DIAGRAMNET-50874|VSD, PDF'e dönüştürülürken fazladan daireler eklenir.|Böcek|
+|DIAGRAMNET-50875|VSD'den PDF'e dönüştürülürken şekiller yanlış yerleştirilmiş.|Böcek|
+|DIAGRAMNET-50876|VSD, PDF'e dönüştürüldüğünde şekillerin boyutu değişir.|Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API adresinde yapılan tüm değişikliklerin yanı sıra Aspose.Diagram for .NET adresinde yapılan geriye dönük uyumlu olmayan değişikliklerin listesine bakın. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).
 #### **LoadFileFormat sınıfına VSDM, VSSM ve VSTM formatlarını ekler**

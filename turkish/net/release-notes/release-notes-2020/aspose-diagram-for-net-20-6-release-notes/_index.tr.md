@@ -13,14 +13,14 @@ Bu sayfa Aspose.Diagram for .NET 20.6 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-50778|Diagram VSS'yi PDF'ye kaydederken istisna oluştu|Artırma|
+|DIAGRAMNET-50778|Diagram VSS'nin PDF'e kaydedilmesinde istisna oluştu|Artırma|
 |DIAGRAMNET-51845|.NET framework 5.0 desteği sağlayın|Artırma|
-|DIAGRAMNET-50537|VSD'den PDF'e dönüştürme, satır sonları korunmaz|Böcek|
-|DIAGRAMNET-50539|VSD'den PDF'e dönüştürme, köprüler orijinal konumundan yanlış yerleştirilmiş|Böcek|
-|DIAGRAMNET-50996|VSDX PNG'ye dönüştürülürken metin öğeleri düzgün şekilde hizalanmıyor|Böcek|
+|DIAGRAMNET-50537|VSD - PDF dönüştürme, satır sonları korunmaz|Böcek|
+|DIAGRAMNET-50539|VSD - PDF dönüşümü, köprüler orijinal konumundan yanlış yerleştirilmiş|Böcek|
+|DIAGRAMNET-50996|VSDX'den PNG'e dönüştürülürken metin öğeleri düzgün hizalanmıyor|Böcek|
 |DIAGRAMNET-51118|Metin öğeleri, VSD sayfanın SVG'lere dönüştürülmesinde yer değiştiriyor|Böcek|
-|DIAGRAMNET-51125|Bir VSD PNG formatına kaydedilirken Visio sayfa dizin dışı hatası oluştu|Böcek|
-|DIAGRAMNET-51329|VSDM'den SVG'ye - satır sonları korunmaz|Böcek|
+|DIAGRAMNET-51125|Bir VSD'i PNG biçimine kaydederken Visio sayfa dizin dışı hatası oluştu|Böcek|
+|DIAGRAMNET-51329|VSDM - SVG - satır sonları korunmaz|Böcek|
 |DIAGRAMNET-51838|Aspose.Diagram 20.4: Belirli VSDX'i JPG'ye dönüştürürken istisna|Böcek|
 |DIAGRAMNET-51842|Küçük büyük harf ayarı işlenmez|Böcek|
 |DIAGRAMNET-51843|Aspose.Diagram 20.5: Belirli VSDX belgesini girişim lisansı ile yüklemek bir istisna oluşturuyor|Böcek|

@@ -15,10 +15,10 @@ Bu sayfa Aspose.Diagram for .NET 21.4 için sürüm notları bilgilerini içerir
 |:- |:- |:- |
 |DIAGRAMNET-51732|Sayfaya "AddShape" işleminden sonra şekiller stilini/yapısını kaybediyor|Artırma|
 |DIAGRAMNET-52012|Birden fazla pervane güncellemesiyle ilgili sorun|Artırma|
-|DIAGRAMNET-50538|VSD'den PDF'e dönüştürme, Bitmap şekli orijinal konum için yanlış yerleştirilmiş|Böcek|
-|DIAGRAMNET-50956|Metin öğeleri, bir VSDX'i PDF'ye dönüştürürken yer değiştiriyor|Böcek|
-|DIAGRAMNET-51126|VSDX'i PDF'ye dönüştürürken renklerin yanlış oluşturulması|Böcek|
-|DIAGRAMNET-52001|VSDX'den HTML'ye - Dönüşümden sonra şekiller kayboluyor|Böcek|
+|DIAGRAMNET-50538|VSD - PDF dönüşümü, Bitmap şekli orijinal konum için yanlış yerleştirilmiş|Böcek|
+|DIAGRAMNET-50956|Bir VSDX'den PDF'e dönüştürülürken metin öğelerinin yeri değiştirilir|Böcek|
+|DIAGRAMNET-51126|VSDX'den PDF'e dönüştürülürken renklerin yanlış oluşturulması|Böcek|
+|DIAGRAMNET-52001|VSDX - HTML - Dönüşümden sonra şekiller kayboluyor|Böcek|
 |DIAGRAMNET-52002|Diagram yazdırılırken sayfalar kayboluyor|Böcek|
 |DIAGRAMNET-52011|Gerileme: VSDX dosyası yüklenemiyor|Böcek|
 

@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram pour Python via Java 22.9 Notes de mise à jour
+title: Aspose.Diagram for Python via Java 22.9 Release Notes
 type: docs
 weight: 19
 url: /fr/python-java/aspose-diagram-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient des informations sur les notes de version pour Aspose.Diagram pour Python via Java 22.9.
+This page contains release notes information for Aspose.Diagram for Python via Java 22.9.
 
 {{% /alert %}}
 ## **Améliorations et changements**  ##
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK : Forme déformée après l'enregistrement au format PNG|Renforcement|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|Renforcement|
 |DIAGRAMJAVA-51015|wk : nom de la forme dans une langue autre que l'anglais|Punaise|
 |DIAGRAMJAVA-51020|wk : le nom de la forme de feuille avec un calque n'est pas résolu correctement|Punaise|
 

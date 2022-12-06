@@ -15,7 +15,7 @@ description: На этой странице описан список функц
 - Читать формат Microsoft Visio 2003/2007/2010 VSD.
 - Читать Microsoft Visio 2003/2007/2010 формат VSS.
 - Читать Microsoft Visio 2003/2007/2010 формат VDW.
-- Читать Microsoft Visio 2003/2007/2010 Формат VST.
+- Читать формат Microsoft Visio 2003/2007/2010 VST.
 
 **Прочитайте и напишите**:
 
@@ -31,17 +31,17 @@ description: На этой странице описан список функц
 
 **Экспорт**:
 
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в популярные форматы изображений (BMP, JPEG, TIFF, EMF, SVG и PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в PDF.
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в HTML.
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в XML Paper Specification (XPS).
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в формат Macromedia Flash File Format (SWF).
+- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в спецификацию XML Paper (XPS).
+- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в формат файла Macromedia Flash (SWF).
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в XAML.
 
 **Распечатать**:
 
 - Печатайте Visio диаграмм с высокой точностью.
-- Печать Visio diagram на сервере через XpsPrint API
+- Печать Visio diagram на сервере via XpsPrint API
 
 **Доступ**:
 

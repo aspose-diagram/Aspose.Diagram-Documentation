@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram per Node.js tramite Java 21.11 Note di rilascio
+title: Aspose.Diagram for Node.js via Java 21.11 Release Notes
 type: docs
 weight: 4
 url: /it/java/aspose-diagram-for-node-js-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram per Node.js tramite Java 21.11.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 21.11.
 
 {{% /alert %}}
 ## **Miglioramenti e modifiche**  ##
@@ -14,9 +14,9 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram pe
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50806|wk: InheridetChar Color|Aumento|
-|DIAGRAMJAVA-50385|Il colore del bordo e dei titoli viene modificato durante la conversione di un file VSDX in PDF|Insetto|
-|DIAGRAMJAVA-50501|VSDX in PNG - Colore errato delle forme|Insetto|
-|DIAGRAMJAVA-50631|Le forme non sono coerenti dopo l'esportazione di VSDX in PDF|Insetto|
+|DIAGRAMJAVA-50385|The color of border and titles is being changed on converting a VSDX to PDF|Insetto|
+|DIAGRAMJAVA-50501|VSDX to PNG - Incorrect color of shapes|Insetto|
+|DIAGRAMJAVA-50631|Shapes are inconsistent after exporting VSDX to PDF|Insetto|
 |DIAGRAMJAVA-50804|Il testo del connettore va a capo quando si disegna il connettore|Insetto|
 ## `?`**Public API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Diagram.

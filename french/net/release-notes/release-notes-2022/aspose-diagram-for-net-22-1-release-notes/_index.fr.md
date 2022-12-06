@@ -13,15 +13,15 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-50560|Prise en charge de l'enregistrement de diagrammes au format HTML avec ou sans ressources intégrées|Renforcement|
+|DIAGRAMNET-50560|Support saving diagrams to HTML with or without embedded resources|Renforcement|
 |DIAGRAMNET-52499|Ajout de la prise en charge de l'enregistrement du code HTML dans un flux unique|Renforcement|
-|DIAGRAMNET-50562|VSDX au format PDF - Les formes manquent dans la sortie|Punaise|
-|DIAGRAMNET-50780|Les bordures des tableaux ne sont pas visibles lors de l'enregistrement d'un VSDX au format PDF|Punaise|
-|DIAGRAMNET-50962|Les lignes de bordure des tableaux sont manquantes lors de la conversion d'un VSDX en PNG|Punaise|
-|DIAGRAMNET-50992|La bordure gauche du tableau n'est pas visible lors de la conversion d'un VSDX en PDF|Punaise|
-|DIAGRAMNET-51034|L'ombrage des formes est manquant lors de la conversion d'un VSDX en PDF|Punaise|
-|DIAGRAMNET-51186|Disposition incorrecte des formes de type méta lors de la conversion d'un VSD en PDF|Punaise|
-|DIAGRAMNET-51226|Aspose.Diagram 17.3.0 : L'enregistrement dans le flux HTML n'intègre pas de ressources externes|Punaise|
+|DIAGRAMNET-50562|VSDX to PDF - Shapes are missing from the output|Punaise|
+|DIAGRAMNET-50780|The border lines of the tables are not visible on saving a VSDX to PDF|Punaise|
+|DIAGRAMNET-50962|The border lines of tables are missing on converting a VSDX to PNG|Punaise|
+|DIAGRAMNET-50992|The left border line of the table is not visible on converting a VSDX to PDF|Punaise|
+|DIAGRAMNET-51034|The shading of shapes is missing on converting a VSDX to PDF|Punaise|
+|DIAGRAMNET-51186|Incorrect layout of meta type shapes on converting a VSD to PDF|Punaise|
+|DIAGRAMNET-51226|Aspose.Diagram 17.3.0: Saving to HTML stream do not embed external resources|Punaise|
 |DIAGRAMNET-52506|Page.Copy() ne copie pas les modifications du développeur|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

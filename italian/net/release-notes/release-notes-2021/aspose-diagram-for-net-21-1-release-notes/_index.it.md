@@ -14,11 +14,11 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMNET-51962|Oggetti OLE incorporati non archiviati correttamente nelle proprietà Shape|Aumento|
-|DIAGRAMNET-51976|Visio in HTML: il collegamento ipertestuale sta cambiando la sua posizione nell'HTML di output|Aumento|
-|DIAGRAMNET-50535|Conversione da VSD a PDF, le righe di testo presentano problemi di spaziatura|Insetto|
-|DIAGRAMNET-50961|La linea del bordo superiore della tabella manca durante la conversione di un VSDX in PNG|Insetto|
-|DIAGRAMNET-50993|Inoltre, i segni negativi e del dollaro non sono correttamente allineati durante la conversione di un VSDX in PNG|Insetto|
-|DIAGRAMNET-51968|Converti Visio in PNG l'immagine convertita non assomiglia a Visio|Insetto|
-|DIAGRAMNET-51969|Converti Visio in PNG l'immagine convertita non assomiglia a Visio|Insetto|
-|DIAGRAMNET-51972|Le forme hanno perso il layout in HTML|Insetto|
-|DIAGRAMNET-51973|Manca il testo nelle caselle durante la conversione di VSDX in PDF|Insetto|
+|DIAGRAMNET-51976|Visio to HTML - Hyperlink is changing its position in the output HTML|Aumento|
+|DIAGRAMNET-50535|VSD to PDF conversion, text lines have spacing problems|Insetto|
+|DIAGRAMNET-50961|The top border line of the table is missing on converting a VSDX to PNG|Insetto|
+|DIAGRAMNET-50993|Plus, negative and dollar signs are not properly aligned on converting a VSDX to PNG|Insetto|
+|DIAGRAMNET-51968|Convet Visio to PNG the converted image not look like Visio|Insetto|
+|DIAGRAMNET-51969|Convet Visio to PNG the converted image not look like Visio|Insetto|
+|DIAGRAMNET-51972|Shapes lost layout in HTML|Insetto|
+|DIAGRAMNET-51973|Text in boxes is missing when converting VSDX to PDF|Insetto|

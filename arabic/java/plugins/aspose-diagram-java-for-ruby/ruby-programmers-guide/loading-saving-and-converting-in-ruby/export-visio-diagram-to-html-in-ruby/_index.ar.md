@@ -1,5 +1,5 @@
 ﻿---
-title: تصدير Visio Diagram إلى HTML في Ruby
+title: تصدير Visio Diagram إلى HTML في روبي
 type: docs
 weight: 20
 url: /ar/java/export-visio-diagram-to-html-in-ruby/

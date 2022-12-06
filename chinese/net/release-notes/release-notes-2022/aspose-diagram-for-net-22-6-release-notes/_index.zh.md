@@ -13,12 +13,12 @@ url: /zh/net/aspose-diagram-for-net-22-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-52826|将 VSDM 保存为 PDF 时链接断开|强化|
+|DIAGRAMNET-52826|Broken link when saving VSDM to PDF|强化|
 |DIAGRAMNET-52851|某些形状在转换为 svg 后会失去曲线|强化|
-|DIAGRAMNET-52858|HTML 中的图像质量|强化|
-|DIAGRAMNET-52825|导出为 HTML 问题|漏洞|
-|DIAGRAMNET-52832|Visio 到 PDF/SVG - 旋转的文本位置已更改|漏洞|
-|DIAGRAMNET-52840|HTML 预览中的元素模糊|漏洞|
+|DIAGRAMNET-52858|Image quality in HTML|强化|
+|DIAGRAMNET-52825|Export to HTML problem|漏洞|
+|DIAGRAMNET-52832|Visio to PDF/SVG - Rotated text position changed|漏洞|
+|DIAGRAMNET-52840|Elements in HTML preview blurred|漏洞|
 |DIAGRAMNET-52842|自动调整页面不自动调整|漏洞|
 |DIAGRAMNET-52849|转换后光栅图像未按比例缩小|漏洞|
 |DIAGRAMNET-52852|VSD 打开错误 - Aspose.Diagram.DiagramException|漏洞|

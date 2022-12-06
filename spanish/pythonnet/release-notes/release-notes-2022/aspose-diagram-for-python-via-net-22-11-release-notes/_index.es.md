@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram para Python a través de .NET 22.11 Notas de la versión
+title: Aspose.Diagram for Python via .NET 22.11 Release Notes
 type: docs
 weight: 16
 url: /es/python-net/aspose-diagram-for-python-via-net-22-11-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Diagram para Python a través de .NET 22.11.
+This page contains release notes for Aspose.Diagram for Python via .NET 22.11.
 
 {{% /alert %}} 
 
@@ -17,8 +17,8 @@ Esta página contiene notas de la versión para Aspose.Diagram para Python a tra
 |DIAGRAMNET-53024|La fórmula no actualiza el campo|Mejora|
 |DIAGRAMNET-53009|Conversación de vsdx a svg imagen perdida|Mejora|
 |DIAGRAMNET-53010|Aplicación: Guardando vsdx en PDF formas perdidas|Insecto|
-|DIAGRAMNET-53013|Visio a SVG - Patrones de línea personalizados|Insecto|
-|DIAGRAMNET-53017|El área vinculada en HTML de VSD ha cambiado a la versión 22.10.0.0|Insecto|
+|DIAGRAMNET-53013|Visio to SVG - Custom line patterns|Insecto|
+|DIAGRAMNET-53017|Linked area in HTML of VSD has changed to version 22.10.0.0|Insecto|
 |DIAGRAMNET-53018|Error con Paras.SpLine|Insecto|
 |DIAGRAMNET-53019|se dibuja una línea adicional en la parte inferior izquierda|Insecto|
 |DIAGRAMNET-53033|Los valores de las celdas no se calcularon correctamente|Insecto|

@@ -18,8 +18,8 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 22.11.
 |DIAGRAMNET-53024|Formel aktualisiert Feld nicht|Erweiterung|
 |DIAGRAMNET-53009|Gespräch von vsdx zu svg verlorenes Bild|Erweiterung|
 |DIAGRAMNET-53010|App: Speichern von vsdx in Pdf verlorene Formen|Insekt|
-|DIAGRAMNET-53013|Visio bis SVG - Benutzerdefinierte Linienmuster|Insekt|
-|DIAGRAMNET-53017|Verlinkter Bereich in HTML von VSD wurde auf Version 22.10.0.0 geändert|Insekt|
+|DIAGRAMNET-53013|Visio to SVG - Custom line patterns|Insekt|
+|DIAGRAMNET-53017|Linked area in HTML of VSD has changed to version 22.10.0.0|Insekt|
 |DIAGRAMNET-53018|Fehler mit Paras.SpLine|Insekt|
 |DIAGRAMNET-53019|Unten links wird eine zusätzliche Linie gezeichnet|Insekt|
 |DIAGRAMNET-53033|Werte von Zellen nicht richtig berechnet|Insekt|

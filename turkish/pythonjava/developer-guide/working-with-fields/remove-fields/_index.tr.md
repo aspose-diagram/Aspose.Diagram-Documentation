@@ -6,7 +6,7 @@ url: /tr/python-java/remove-fields/
 description: Bu bölümde alanların nasıl kaldırılacağı açıklanmaktadır.
 ---
 ## **Alanı Kaldır**
- Python için Java üzerinden Aspose.Diagram, Microsoft Office Otomasyon olmadan kendi uygulamalarınızdan Microsoft Visio diyagramlarına alan kaldırmanızı sağlar.
+ Python via Java için Aspose.Diagram, Microsoft Office Otomasyon olmadan kendi uygulamalarınızdan Microsoft Visio diyagramlarına alan kaldırmanızı sağlar.
 
 Field nesnesi, bir metin çalıştırmasındaki metin alanını temsil eder. Shape sınıfı tarafından sunulan field özelliği, Aspose.Diagram.Field nesnelerinin bir koleksiyonunu destekler.
 

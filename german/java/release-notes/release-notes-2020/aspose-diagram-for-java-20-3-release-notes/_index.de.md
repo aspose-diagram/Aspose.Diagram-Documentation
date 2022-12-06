@@ -13,6 +13,6 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.3.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50683|Visio zu SVG – Beschädigtes Formlayout in der Ausgabe|Erweiterung|
-|DIAGRAMJAVA-50684|Unterstützt die Zeichenformatierung visCaseAllCaps und visCaseInitialCaps im SVG-Export|Erweiterung|
+|DIAGRAMJAVA-50683|Visio to SVG - Corrupted shape layout in output|Erweiterung|
+|DIAGRAMJAVA-50684|Support visCaseAllCaps and visCaseInitialCaps character formatting in SVG export|Erweiterung|
 

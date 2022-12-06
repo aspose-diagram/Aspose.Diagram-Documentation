@@ -13,16 +13,16 @@ Cette page contient des notes de version pour[Aspose.Diagram for .NET 18.12](htt
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-50663|API le nom ne s'affiche pas dans le champ PDF Producer/Creator lors de la génération de PDF à partir de diagrammes VISIO|Renforcement|
+|DIAGRAMNET-50663|API name is not showing agains PDF Producer/Creator field while generating PDF from VISIO diagrams|Renforcement|
 |DIAGRAMNET-51590|Shape.ToImage génère des images incorrectes pour certaines formes de chronologie et de calendrier|Renforcement|
-|DIAGRAMNET-51556|Exportation VST vers PDF - le PDF résultant a deux pages vides|Punaise|
-|DIAGRAMNET-51582|VSDX en PDF - La couleur du texte est incorrecte en sortie|Punaise|
+|DIAGRAMNET-51556|VST to PDF export - the resultant PDF has two empty pages|Punaise|
+|DIAGRAMNET-51582|VSDX to PDF - Text color is incorrect in output|Punaise|
 |DIAGRAMNET-51583|Les formes sortent des limites de la page|Punaise|
-|DIAGRAMNET-51584|VSD vers PNG/GIF - Le paramètre n'est pas valide|Punaise|
+|DIAGRAMNET-51584|VSD to PNG/GIF - Parameter is not valid|Punaise|
 |DIAGRAMNET-51585|Échec du chargement du fichier Visio|Punaise|
 |DIAGRAMNET-51586|Échec du chargement du fichier Visio|Punaise|
 |DIAGRAMNET-51587|Le nombre était inférieur à la limite inférieure|Punaise|
 |DIAGRAMNET-51588|Index hors limites chargement Visio|Punaise|
-|DIAGRAMNET-51591|Visio en PDF - formes manquantes dans le PDF de sortie|Punaise|
-|DIAGRAMNET-51593|Visio en PDF - formes incorrectes dans le PDF de sortie|Punaise|
+|DIAGRAMNET-51591|Visio to PDF - missing shapes in output PDF|Punaise|
+|DIAGRAMNET-51593|Visio to PDF - incorrect shapes in output PDF|Punaise|
 

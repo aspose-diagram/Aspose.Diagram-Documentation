@@ -13,15 +13,15 @@ url: /zh/java/aspose-diagram-for-java-18-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50091|VSD 转PDF，水平渐变填充代替中心|强化|
+|DIAGRAMJAVA-50091|VSD to PDF conversion, horizontal gradient fill instead of center|强化|
 |DIAGRAMJAVA-50601|输出 VSDX - 路由器形状的宽度和高度不正确|强化|
-|DIAGRAMJAVA-50083|VSD 转PDF，坦克图像没有内部直线结构|漏洞|
-|DIAGRAMJAVA-50267|VSD 到 SVG 导出，SVG 格式的页面输出变得模糊|漏洞|
-|DIAGRAMJAVA-50282|VSDX 到 PDF 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMJAVA-50283|VSDX 到 HTML 导出 - 日历类型形状的部分呈现|漏洞|
-|DIAGRAMJAVA-50284|VSDX 到 XPS 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMJAVA-50285|VSDX 到 JPEG 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMJAVA-50286|VSDX 到 PNG 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMJAVA-50287|VSDX 到 SVG 导出 - 日历类型形状的部分渲染|漏洞|
-|DIAGRAMJAVA-50393|将 VSD 转换为 SVG 时，黑色线条不可见|漏洞|
+|DIAGRAMJAVA-50083|VSD to PDF conversion, tank image doesn't have the internal straight line structures|漏洞|
+|DIAGRAMJAVA-50267|VSD to SVG export, the page output in SVG format is coming blurred|漏洞|
+|DIAGRAMJAVA-50282|VSDX to PDF export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMJAVA-50283|VSDX to HTML export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMJAVA-50284|VSDX to XPS export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMJAVA-50285|VSDX to JPEG export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMJAVA-50286|VSDX to PNG export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMJAVA-50287|VSDX to SVG export - Partial rendering of the Calendar type shapes|漏洞|
+|DIAGRAMJAVA-50393|The black color lines are not visible on converting a VSD to SVG|漏洞|
 

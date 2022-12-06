@@ -15,16 +15,16 @@ url: /fr/net/aspose-diagram-for-net-18-1-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50494|Ajout du support pour dupliquer/cloner une page diagram|Renforcement|
 |DIAGRAMNET-51057|Le bouton de commande est manquant après la suppression d'une page de VSDM|Renforcement|
-|DIAGRAMNET-51422|VSDX au format PDF - les ombres sont ignorées sur les formes de processus|Renforcement|
-|DIAGRAMNET-50467|VSD en conversion PDF, le logo de l'entreprise est mal placé|Punaise|
-|DIAGRAMNET-50469|Conversion VSD en PDF, le texte de la forme radio est légèrement supérieur à la normale|Punaise|
-|DIAGRAMNET-51199|Le texte du titre n'est pas aligné lors de l'enregistrement d'un VSDM en SVG|Punaise|
+|DIAGRAMNET-51422|VSDX to PDF - the shadows are being ignored on process shapes|Renforcement|
+|DIAGRAMNET-50467|VSD to PDF conversion, the company corporate logo is misplaced|Punaise|
+|DIAGRAMNET-50469|VSD to PDF conversion, the radio shape text is slightly up than usual|Punaise|
+|DIAGRAMNET-51199|Title text is not aligned on saving a VSDM to SVG|Punaise|
 |DIAGRAMNET-51388|Problèmes avec le chargement et l'enregistrement des fichiers vsdx|Punaise|
-|DIAGRAMNET-51398|VSD en PNG - la position du texte est incorrecte|Punaise|
-|DIAGRAMNET-51407|VSD en JPEG - les éléments de texte sont mal placés|Punaise|
+|DIAGRAMNET-51398|VSD to PNG - the text position is incorrect|Punaise|
+|DIAGRAMNET-51407|VSD to JPEG - the text items are misplaced|Punaise|
 |DIAGRAMNET-51419|Les formes ne sont pas redimensionnées correctement dans le fichier vsdx|Punaise|
 |DIAGRAMNET-51420|Le fichier VSDX est corrompu après le chargement et l'enregistrement|Punaise|
-|DIAGRAMNET-51421|VSDX au format PDF - couleur de police incorrecte du texte|Punaise|
+|DIAGRAMNET-51421|VSDX to PDF - incorrect font color of the text|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez les signaler dans la[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 ### **Ajoute un membre Copy dans la classe Page**

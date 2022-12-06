@@ -13,21 +13,21 @@ url: /de/net/aspose-diagram-for-net-17-6-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51264|Der Schatten von Formen ist beim Konvertieren von VSDM in SVG schwarz|Erweiterung|
+|DIAGRAMNET-51264|The shadow of shapes is black on converting a VSDM to SVG|Erweiterung|
 |DIAGRAMNET-51270|Kann keine Form von VSDX im Visio-Viewer sehen|Erweiterung|
 |DIAGRAMNET-51273|Falsche Formdarstellung im Visio Viewer 2013|Erweiterung|
 |DIAGRAMNET-51249|Das falsche Aussehen der gekrümmten Verbindungslinie in VSDM|Insekt|
-|DIAGRAMNET-51250|Beim Konvertieren von VSD in PDF wird im Text eine zusätzliche linke Klammer hinzugefügt|Insekt|
-|DIAGRAMNET-51251|Die Größe des Symbols wird beim Konvertieren einer VSDM in SVG heruntergestuft|Insekt|
-|DIAGRAMNET-51253|Falsche Farbe von Text und Rahmen in Formen beim Konvertieren von VSDM in SVG|Insekt|
-|DIAGRAMNET-51255|Ein Bild unten wurde beim Konvertieren von VSDM in SVG gestaucht|Insekt|
+|DIAGRAMNET-51250|An additional left parenthesis is added in text on converting a VSD to PDF|Insekt|
+|DIAGRAMNET-51251|The size of the icon is downgraded on converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51253|Incorrect color of text and borders in shapes when converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51255|An image at the bottom has been squashed on converting a VSDM to SVG|Insekt|
 |DIAGRAMNET-51258|Routine von VSDM öffnen und speichern - die Länge der Wände wird geändert|Insekt|
 |DIAGRAMNET-51259|Routine von VSDM öffnen und speichern - die Länge der Wände wird geändert|Insekt|
 |DIAGRAMNET-51260|Beim Aufrufen der Layout-Methode der Klasse Diagram ist ein Index-Out-Range-Fehler aufgetreten|Insekt|
-|DIAGRAMNET-51263|Beim Konvertieren einer VSDM in SVG erscheint ein zusätzliches rotes Farb-Tag|Insekt|
-|DIAGRAMNET-51265|Die Schriftart des Titeltexts wird beim Konvertieren von VSDM in SVG geändert|Insekt|
-|DIAGRAMNET-51266|Die Größe des Hintergrundbilds wird reduziert, um eine VSDM in SVG umzuwandeln|Insekt|
-|DIAGRAMNET-51267|Eine Symbolgröße wird beim Konvertieren einer VSDM in SVG heruntergestuft|Insekt|
+|DIAGRAMNET-51263|An additional red color tag appears on converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51265|The font of title text is changed on converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51266|The size of background image is reduced to converting a VSDM to SVG|Insekt|
+|DIAGRAMNET-51267|An icon size is downgraded on converting a VSDM to SVG|Insekt|
 |DIAGRAMNET-51268|Ruft einen falschen Transparenzwert eines Bildes aus der Zeichnung VSDM ab|Insekt|
 |DIAGRAMNET-51269|Virtualisierungsschutz hinzufügen|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

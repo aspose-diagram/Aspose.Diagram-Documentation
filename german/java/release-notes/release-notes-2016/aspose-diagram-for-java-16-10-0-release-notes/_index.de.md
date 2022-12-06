@@ -14,34 +14,34 @@ url: /de/java/aspose-diagram-for-java-16-10-0-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50422|Ausgabe VSDX – Der Text der Form kann nicht geändert werden, wenn die Eigenschaften Data1, Data2 und Data3 geändert werden.|Erweiterung|
-|DIAGRAMJAVA-50423|Ausgabe-PDF – Der Text der Form kann nicht geändert werden, wenn die Eigenschaften von Data1, Data2 und Data3 geändert werden.|Erweiterung|
-|DIAGRAMJAVA-50424|Ausgabe-PDF – Der Formtext kann nicht aus einem anderen Formtext geändert werden.|Erweiterung|
-|DIAGRAMJAVA-50016|VSD in PDF-Konvertierung, Formen fehlen.|Insekt|
-|DIAGRAMJAVA-50075|VSD in PDF-Konvertierung, der Text der Form erscheint nicht fett.|Insekt|
+|DIAGRAMJAVA-50423|Ausgabe PDF – Der Text der Form kann nicht geändert werden, wenn die Eigenschaften Data1, Data2 und Data3 geändert werden.|Erweiterung|
+|DIAGRAMJAVA-50424|Output PDF - Can't modify the text of shape from another shape text.|Erweiterung|
+|DIAGRAMJAVA-50016|VSD to PDF conversion, shapes are missing.|Insekt|
+|DIAGRAMJAVA-50075|VSD to PDF conversion, the text of the shape appears not bold.|Insekt|
 |DIAGRAMJAVA-50210|Der Methodenaufruf Shape.GluedShapes gibt nicht alle Form-IDs zurück.|Insekt|
-|DIAGRAMJAVA-50363|Der vertikale Text erscheint als horizontaler Text beim Konvertieren von VSDX in PNG.|Insekt|
-|DIAGRAMJAVA-50364|Das Erscheinungsbild von Formen wird beim Konvertieren von VSDX in PNG geändert.|Insekt|
-|DIAGRAMJAVA-50366|Beim Konvertieren einer VSDX-Seite in PNG wird das falsche Symbol angezeigt.|Insekt|
-|DIAGRAMJAVA-50371|Der Zahlenformatfehler ist beim Speichern einer VST in PNG aufgetreten.|Insekt|
-|DIAGRAMJAVA-50372|Der Zahlenformatfehler ist beim Speichern einer VST in PDF aufgetreten.|Insekt|
+|DIAGRAMJAVA-50363|The vertical text appears as horizontal text on converting a VSDX to PNG.|Insekt|
+|DIAGRAMJAVA-50364|The appearance of shapes is changed while converting a VSDX to PNG.|Insekt|
+|DIAGRAMJAVA-50366|The incorrect symbol appears on converting a VSDX page to PNG.|Insekt|
+|DIAGRAMJAVA-50371|The number format error occurred on saving a VST to PNG.|Insekt|
+|DIAGRAMJAVA-50372|The number format error occurred on saving a VST to PDF.|Insekt|
 |DIAGRAMJAVA-50375|Ruft die umgekehrte Reihenfolge eingehender und ausgehender Knoten von einem VSDX ab.|Insekt|
 |DIAGRAMJAVA-50377|Beziehungszelle der Behälterform kann nicht von VSD abgerufen werden.|Insekt|
-|DIAGRAMJAVA-50387|Beim Konvertieren von VSD in SVG ist ein Zahlenformatfehler aufgetreten.|Insekt|
-|DIAGRAMJAVA-50389|Die schwarzen Farbrechtecke werden beim Konvertieren einer VSD in SVG erzeugt.|Insekt|
-|DIAGRAMJAVA-50394|Die Pfeile werden beim Konvertieren von VSD in SVG nicht korrekt gerendert.|Insekt|
-|DIAGRAMJAVA-50395|Die Textelemente werden beim Konvertieren einer VSD in SVG verschoben.|Insekt|
-|DIAGRAMJAVA-50397|Fehlerhafte Darstellung des Kalenders beim Konvertieren einer VSD in SVG.|Insekt|
+|DIAGRAMJAVA-50387|A Number Format error occurred on converting a VSD to SVG.|Insekt|
+|DIAGRAMJAVA-50389|The black color rectangles are generated on converting a VSD to SVG.|Insekt|
+|DIAGRAMJAVA-50394|The arrows are not being rendered correctly on converting a VSD to SVG.|Insekt|
+|DIAGRAMJAVA-50395|The text items are displaced on converting a VSD to SVG.|Insekt|
+|DIAGRAMJAVA-50397|Incorrect rendering of the calendar on converting a VSD to SVG.|Insekt|
 |DIAGRAMJAVA-50399|Die Shape.connectedShapes-Methode gibt Knoten mit der umgekehrten Richtung zurück.|Insekt|
 |DIAGRAMJAVA-50400|Beziehungszelle der Formen kann nicht von VSD abgerufen werden.|Insekt|
-|DIAGRAMJAVA-50401|Die Hintergrundfarbe von Visio-Seiten ist beim Konvertieren einer VSD in SVG schwarz.|Insekt|
+|DIAGRAMJAVA-50401|The background color of Visio pages is black on converting a VSD to SVG.|Insekt|
 |DIAGRAMJAVA-50411|Junk-Shape-IDs werden von VSD diagram abgerufen.|Insekt|
-|DIAGRAMJAVA-50416|Beim Konvertieren einer VSDX-Seite in SVG wird das falsche Symbol angezeigt.|Insekt|
+|DIAGRAMJAVA-50416|The incorrect symbol appears on converting a VSDX page to SVG.|Insekt|
 |DIAGRAMJAVA-50417|Die Option Seitengröße wird durch Festlegen der Breite und Höhe der Seite VSDM geändert.|Insekt|
 |DIAGRAMJAVA-50418|Die Beziehungszeichenfolge der Formen kann nicht von VSD abgerufen werden.|Insekt|
 |DIAGRAMJAVA-50420|Unsachgemäße Größenänderung einer Visio-Form beim Öffnen und Speichern in VSDM.|Insekt|
 |DIAGRAMJAVA-50422|Ausgabe VSDX – Der Text der Form kann nicht geändert werden, wenn die Eigenschaften Data1, Data2 und Data3 geändert werden.|Insekt|
-|DIAGRAMJAVA-50423|Ausgabe-PDF – Der Text der Form kann nicht geändert werden, wenn die Eigenschaften von Data1, Data2 und Data3 geändert werden.|Insekt|
-|DIAGRAMJAVA-50424|Ausgabe-PDF – Der Formtext kann nicht aus einem anderen Formtext geändert werden.|Insekt|
+|DIAGRAMJAVA-50423|Ausgabe PDF – Der Text der Form kann nicht geändert werden, wenn die Eigenschaften Data1, Data2 und Data3 geändert werden.|Insekt|
+|DIAGRAMJAVA-50424|Output PDF - Can't modify the text of shape from another shape text.|Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Sehen Sie sich die Liste für alle Änderungen an, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for Java vorgenommen wurden[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 

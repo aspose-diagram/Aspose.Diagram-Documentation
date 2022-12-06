@@ -25,4 +25,4 @@ Ce document décrit les modifications apportées au Aspose.Diagram API de la ver
 **Ajoute la propriété ExportHiddenPage dans les classes SVGSaveOptions, XPSSaveOptions, ImageSaveOptions, HTMLSaveOptions et PdfSaveOptions**
 - Il définit s'il faut exporter les pages Visio masquées ou non.
 
- Les développeurs peuvent inclure ou exclure des pages Visio masquées lors de l'enregistrement d'un Visio diagram dans des fichiers PDF, HTML, image (PNG, JPEG, GIF), SVG et XPS. Cette rubrique d'aide illustre comment procéder :[Contrôler l'exportation des pages masquées Visio lors de l'enregistrement](/diagram/fr/net/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/#control-the-export-of-hidden-visio-pages-on-saving)
+Developers may include or exclude hidden Visio pages on saving a Visio diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. This help topic illustrates how to do so: [Contrôler l'exportation des pages masquées Visio lors de l'enregistrement](/diagram/fr/net/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/#control-the-export-of-hidden-visio-pages-on-saving)

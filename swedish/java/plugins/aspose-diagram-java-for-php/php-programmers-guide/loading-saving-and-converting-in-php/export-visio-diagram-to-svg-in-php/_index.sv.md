@@ -5,7 +5,7 @@ weight: 50
 url: /sv/java/export-visio-diagram-to-svg-in-php/
 ---
 ## **Aspose.Diagram - Exportera Visio Diagram till SVG**
- För att exportera Visio Diagram till SVG med hjälp av**Aspose.Diagram Java för PHP** , helt enkelt åberopa**ExportToSvg** modul. Här kan du se exempelkod.
+För att exportera Visio Diagram till SVG med**Aspose.Diagram Java för PHP** , helt enkelt åberopa**ExportToSvg** modul. Här kan du se exempelkod.
 
 **PHP-kod**
 

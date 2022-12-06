@@ -10,22 +10,22 @@ Aspose.Diagram for .NET API permite a los desarrolladores dibujar una forma de t
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsVSDX.cs" >}}
 
-## **Dibujar Triángulo en SVG**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un triángulo en la página y guardarlo como formato SVG. El siguiente código de ejemplo muestra cómo dibujar un triángulo en un dibujo Visio y guardarlo como formato SVG.
+## **Dibujar triángulo en SVG**
+Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as SVG format. The code example below shows how to draw a triangle in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsSVG.cs" >}}
 
-## **Dibujar Triángulo en PDF**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un triángulo en la página y guardarlo en formato PDF. El siguiente código de ejemplo muestra cómo dibujar un triángulo en un dibujo Visio y guardarlo como formato PDF.
+## **Dibujar triángulo en PDF**
+Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as PDF format. The code example below shows how to draw a triangle in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsPDF.cs" >}}
 
-## **Dibujar Triángulo en PNG**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un triángulo en la página y guardarlo en formato PNG. El siguiente ejemplo de código muestra cómo dibujar un triángulo en un dibujo Visio y guardarlo como formato PNG.
+## **Dibujar triángulo en PNG**
+Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as PNG format. The code example below shows how to draw a triangle in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsPNG.cs" >}}
 
 ## **Dibujar triángulo en HTML**
-Aspose.Diagram for .NET API permite a los desarrolladores dibujar un triángulo en la página y guardarlo como formato HTML. El siguiente código de ejemplo muestra cómo dibujar un triángulo en un dibujo Visio y guardarlo como formato HTML.
+Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as HTML format. The code example below shows how to draw a triangle in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawTriangleInPage-AsHTML.cs" >}}

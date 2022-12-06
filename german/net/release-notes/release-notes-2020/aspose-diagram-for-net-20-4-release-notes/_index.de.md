@@ -14,34 +14,34 @@ Diese Seite enthält Informationen für Aspose.Diagram for .NET 20.4.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMNET-51454|VSD zu JPG - falsche Darstellung des vertikalen Textes|Erweiterung|
-|DIAGRAMNET-51455|VSD zu TIFF - falsche Darstellung des vertikalen Textes|Erweiterung|
-|DIAGRAMNET-51456|VSD zu PDF - falsche Darstellung des vertikalen Textes|Erweiterung|
+|DIAGRAMNET-51455|VSD to TIFF - incorrect rendering of the vertical text|Erweiterung|
+|DIAGRAMNET-51456|VSD to PDF - incorrect rendering of the vertical text|Erweiterung|
 |DIAGRAMNET-51781|Falsches Layout nach Konvertierung von Visio VSD in VSDX|Erweiterung|
 |DIAGRAMNET-51782|Differenz nach Visio vsd->vsdx Umstellung|Erweiterung|
-|DIAGRAMNET-50087|VSD in HTML-Konvertierung, Zeilenumbruch funktioniert nicht in der Spalte|Insekt|
-|DIAGRAMNET-50088|VSD in PDF-Konvertierung, Zeilenumbruch funktioniert nicht in der Spalte|Insekt|
-|DIAGRAMNET-50338|VSDX in PDF-Konvertierung, Problem mit der Textausrichtung|Insekt|
-|DIAGRAMNET-50339|VSDX zu HTML-Konvertierung, Problem mit der Textausrichtung|Insekt|
-|DIAGRAMNET-50534|VSD in PDF-Konvertierung, Probleme bei der Ausrichtung der Textelemente|Insekt|
-|DIAGRAMNET-50791|Beim Konvertieren einer VSD nach PDF werden die Textnummern verschoben|Insekt|
-|DIAGRAMNET-50792|Beim Konvertieren einer VSD in HTML werden die Textnummern verschoben|Insekt|
-|DIAGRAMNET-51241|Gedrehte Zeichen des Textes beim Konvertieren einer VSD in PDF|Insekt|
-|DIAGRAMNET-51792|VSD in SVG - Ein Teil der VSD-Datei wird falsch konvertiert|Insekt|
-|DIAGRAMNET-51795|Visio zu HTML – Wenn Formen Absatzoptionen haben, wird HTML schlecht gerendert|Insekt|
-|DIAGRAMNET-51797|VSDX an PNG – Es tritt eine Ausnahme auf|Insekt|
-|DIAGRAMNET-51798|Visio zu SVG - Symbol fehlt|Insekt|
-|DIAGRAMNET-51799|Visio zu SVG – Kontrollkästchen wird mit einem anderen Symbol angezeigt|Insekt|
-|DIAGRAMMNETZ-51801-|Visio an HTML – Die Textfarbe wird in HTML nicht gut wiedergegeben|Insekt|
-|DIAGRAMMNETZ-51802-|VISIO zu PNG - Ausgabe zeigt andere Daten|Insekt|
-|DIAGRAMNET-51803|Visio zu PNG - die Ausrichtung der Nummer geht aus der Leinwand.|Insekt|
-|DIAGRAMNET-51804|Visio zu SVG - Zahlenausrichtung aus der Leinwand heraus|Insekt|
-|DIAGRAMNET-51805|Visio zu SVG - Überschrift überlappt durch ein „-“-Symbol davor|Insekt|
-|DIAGRAMNET-51806|Visio zu SVG - Ein schwarzer Block in der Mitte des Bildes|Insekt|
-|DIAGRAMNET-51807|Visio zu SVG - Kein Kontrollkästchen|Insekt|
-|DIAGRAMNET-51808|Visio zu SVG - Symbole fehlen|Insekt|
-|DIAGRAMNET-51809|<p>Visio zu SVG - Nummer in der Mitte geändert. Was mm.yyyy sein soll. aber es gibt ein</p><p>beliebige Zahl wird um 30 erhöht</p>|Insekt|
-|DIAGRAMNET-51810|Visio an HTML – Im HTML fehlt eine Form|Insekt|
+|DIAGRAMNET-50087|VSD to HTML conversion, word wrap is not working in the column|Insekt|
+|DIAGRAMNET-50088|VSD to PDF conversion, word wrap is not working in the column|Insekt|
+|DIAGRAMNET-50338|VSDX to PDF conversion, problem with the text alignments|Insekt|
+|DIAGRAMNET-50339|VSDX to HTML conversion, problem with the text alignments|Insekt|
+|DIAGRAMNET-50534|VSD to PDF conversion, the text items alignment problems|Insekt|
+|DIAGRAMNET-50791|The text numbers are displaced on converting a VSD to PDF|Insekt|
+|DIAGRAMNET-50792|The text numbers are displaced on converting a VSD to HTML|Insekt|
+|DIAGRAMNET-51241|Rotated characters of the text when converting a VSD to PDF|Insekt|
+|DIAGRAMNET-51792|VSD to SVG -Part of VSD file is wrongly converted|Insekt|
+|DIAGRAMNET-51795|Visio to HTML - When shapes have Paragraph options, HTML is bad rendered|Insekt|
+|DIAGRAMNET-51797|VSDX to PNG - An exception occurs|Insekt|
+|DIAGRAMNET-51798|Visio to SVG - Icon Missing|Insekt|
+|DIAGRAMNET-51799|Visio to SVG - Checkbox shown with Different icon|Insekt|
+|DIAGRAMMNETZ-51801-|Visio to HTML - Text color is not well rendered in HTML|Insekt|
+|DIAGRAMMNETZ-51802-|VISIO to PNG - output is showing different data|Insekt|
+|DIAGRAMNET-51803|Visio to PNG - the alignment of the number is getting out of the canvas.|Insekt|
+|DIAGRAMNET-51804|Visio to SVG - Number alignment out of the canvas|Insekt|
+|DIAGRAMNET-51805|Visio to SVG - Heading overlapped by an “-” symbol before it|Insekt|
+|DIAGRAMNET-51806|Visio to SVG - A black block in the middle of the picture|Insekt|
+|DIAGRAMNET-51807|Visio to SVG - No checkbox|Insekt|
+|DIAGRAMNET-51808|Visio to SVG - Icons missing|Insekt|
+|DIAGRAMNET-51809|<p>Visio to SVG - Number changed in the middle. Which is supposed to be mm.yyyy. but it gives an </p><p>beliebige Zahl wird um 30 erhöht</p>|Insekt|
+|DIAGRAMNET-51810|Visio to HTML - A shape is missing in the HTML|Insekt|
 |DIAGRAMNET-51811|Falsche Hintergrundfarbe der Formen in VSDX|Insekt|
-|DIAGRAMNET-51812|` `Visio zu HTML – Probleme mit Bildern und Links in der Ausgabe|Insekt|
-|DIAGRAMNET-51817|Ausgabe SVG enthält nicht alle Eigenschaften von VSDX|Insekt|
+|DIAGRAMNET-51812|` `Visio to HTML - image and links issues in output|Insekt|
+|DIAGRAMNET-51817|output SVG does not contain all properties of VSDX|Insekt|
 

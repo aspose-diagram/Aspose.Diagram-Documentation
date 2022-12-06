@@ -13,14 +13,14 @@ url: /zh/java/aspose-diagram-for-java-17-02-0-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50037|VSD 到 PDF 转换，组形状的背景颜色阴影正在改变。|漏洞|
-|DIAGRAMJAVA-50365|将包含方程式的 Visio 页面转换为 PNG 时会生成空白页面。|漏洞|
-|DIAGRAMJAVA-50461|将 VSDX 转换为 PNG 时边框丢失。|漏洞|
-|DIAGRAMJAVA-50462|将 VSDX 转换为 PNG 时符号消失。|漏洞|
-|DIAGRAMJAVA-50463|将 VSDX 转换为 SVG 时符号消失。|漏洞|
-|DIAGRAMJAVA-50465|将 VSDX 转换为 PNG 时文本的颜色不同。|漏洞|
-|DIAGRAMJAVA-50466|VSD转SVG格式时文字位置不正确。|漏洞|
-|DIAGRAMJAVA-50237|` `[VSDX 到 PDF]- 使用 LeagueGothic Regular 字体时出现错误消息。|例外|
+|DIAGRAMJAVA-50037|VSD to PDF conversion, the background color shade of a group shape is getting changed.|漏洞|
+|DIAGRAMJAVA-50365|A blank page is generated while converting a Visio page with equations to PNG.|漏洞|
+|DIAGRAMJAVA-50461|Borders are missing while converting VSDX to PNG.|漏洞|
+|DIAGRAMJAVA-50462|Symbol disappears while converting VSDX to PNG.|漏洞|
+|DIAGRAMJAVA-50463|Symbol disappears while converting VSDX to SVG.|漏洞|
+|DIAGRAMJAVA-50465|Color of the text is different while converting VSDX to PNG.|漏洞|
+|DIAGRAMJAVA-50466|The text position is incorrect when VSD is converted to SVG format.|漏洞|
+|DIAGRAMJAVA-50237|` `[VSDX to PDF]- Error message occurred when used LeagueGothic Regular font.|例外|
 ## **公共 API 和向后不兼容的更改**
 请参阅列表以了解对公众 API 所做的任何更改，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
 ### **添加 Shape.getParentShape 方法**

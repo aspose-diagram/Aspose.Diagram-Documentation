@@ -5,7 +5,7 @@ weight: 90
 url: /fr/python-java/working-with-protection/
 ---
 ## **Set Protection du Visio Diagram**
-La protection des diagrammes permet aux utilisateurs de verrouiller les arrière-plans, les masques (gabarits), les formes et les styles afin qu'ils ne puissent pas être modifiés. Ceci est utile pour protéger les styles d'entreprise, par exemple, et assurer une apparence cohérente sur un ensemble de diagrammes. Les développeurs peuvent y parvenir en utilisant Aspose.Diagram pour Python via Java.
+Protecting diagrams allow users to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams. Developers can achieve this using Aspose.Diagram for Python via Java.
 
 ### **Modifier la protection du Visio Diagram**
 Les méthodes getProtectBkgnds, getProtectMasters, getProtectShapes et getProtectStyles, exposées par la classe DocumentSettings prennent en charge l'objet BoolValue. Ces propriétés peuvent être utilisées pour protéger et déprotéger les diagrammes Microsoft Visio.
@@ -20,12 +20,12 @@ Au Microsoft Visio vous protégez les documents de cette manière :
 
 **Veuillez voir comment nous pouvons vérifier ou effacer les options manuellement.** 
 
-Utilisez le code ci-dessous dans votre application pour effectuer les mêmes tâches - verrouiller et déverrouiller différents éléments de votre diagram - en utilisant Aspose.Diagram pour Python via Java.
+Use the code below in your application to perform the same tasks – lock and unlock different elements of your diagram – using Aspose.Diagram for Python via Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-VisioDiagramProtection.py" >}}
 
 ### **Modifier la protection de forme Visio**
-La protection des formes Visio permet aux utilisateurs de verrouiller des aspects spécifiques des formes. Les aspects des formes qui peuvent être verrouillés via la protection de forme incluent la largeur, la hauteur, la position x, la position y, la rotation et plus encore. Les développeurs peuvent y parvenir en utilisant Aspose.Diagram pour Python via Java.
+Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using Aspose.Diagram for Python via Java.
 
  La**getLockAspect()**, **getLockBegin()**, **getLockCalcWH()**, **getLockCrop()**, **getLockCustProp()**, **getLockDelete()**, **getLockEnd()**, **getLockFormat()**, **getLockFromGroupFormat()**, **getLockGroup()**, **getLockHeight()**, **getLockMoveX()**, **getLockMoveY()**, **getLockRotate()**, **getLockSelect()**, **getLockTextEdit()**, **getLockThemeColors()**, **getLockThemeEffects()**, **getLockVtxEdit()** et**getLockWidth()** méthodes exposées par le**protection** prend en charge l'objet BoolValue. Ces méthodes peuvent être utilisées pour protéger/déprotéger des formes.
 
@@ -39,6 +39,6 @@ Dans Visio, vous devez effectuer les actions suivantes pour protéger n'importe 
 
 **Les options de protection d'une forme, comme on le voit dans Microsoft Visio** 
 
-Utilisez le code suivant dans votre application Java pour faire la même chose (verrouiller/déverrouiller n'importe quel attribut de forme) en utilisant Aspose.Diagram pour Python via Java.
+Use the following code in your Java application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-VisioShapeProtection.py" >}}

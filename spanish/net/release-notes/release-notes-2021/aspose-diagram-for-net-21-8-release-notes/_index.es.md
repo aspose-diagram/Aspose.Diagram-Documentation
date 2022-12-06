@@ -13,14 +13,14 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51127|Representación incorrecta de los colores al convertir un VSDX a PNG|Mejora|
-|DIAGRAMNET-52070|Guardar como problema HTML|Mejora|
+|DIAGRAMNET-51127|Incorrect rendering of the colors while converting a VSDX to PNG|Mejora|
+|DIAGRAMNET-52070|Save as HTML issue|Mejora|
 |DIAGRAMNET-52071|Problema al generar visio formas como imágenes|Mejora|
 |DIAGRAMNET-52075|problema con las propiedades "Documento" y "Página"|Insecto|
-|DIAGRAMNET-52077|Extrañas líneas de conexión de un gráfico cuando se exporta a un archivo SVG|Insecto|
+|DIAGRAMNET-52077|Strange connecting lines from a graphic when it's exported to a SVG file|Insecto|
 |DIAGRAMNET-52094|Gráfico que se muestra desplazado después de la exportación|Insecto|
 |DIAGRAMNET-52100|No se puede extraer el valor de la fórmula de celda definida por el usuario|Insecto|
-|DIAGRAMNET-52102|"El parámetro no es válido". excepción al renderizar VSDX a HTML|Insecto|
+|DIAGRAMNET-52102|"Parameter is not valid." exception when rendering VSDX to HTML|Insecto|
 |DIAGRAMNET-52106|No se puede extraer el valor de la fórmula de celda definida por el usuario CONT.|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

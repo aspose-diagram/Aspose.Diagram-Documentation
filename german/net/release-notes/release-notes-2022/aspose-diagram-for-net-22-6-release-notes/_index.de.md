@@ -13,12 +13,12 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 22.6.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52826|Defekter Link beim Speichern von VSDM als PDF|Erweiterung|
+|DIAGRAMNET-52826|Broken link when saving VSDM to PDF|Erweiterung|
 |DIAGRAMNET-52851|Einige Formen verlieren nach der Umwandlung in SVG ihre Rundung|Erweiterung|
-|DIAGRAMNET-52858|Bildqualität in HTML|Erweiterung|
-|DIAGRAMNET-52825|Problem beim Export nach HTML|Insekt|
-|DIAGRAMNET-52832|Visio zu PDF/SVG - Gedrehte Textposition geändert|Insekt|
-|DIAGRAMNET-52840|Elemente in der HTML-Vorschau verschwommen|Insekt|
+|DIAGRAMNET-52858|Image quality in HTML|Erweiterung|
+|DIAGRAMNET-52825|Export to HTML problem|Insekt|
+|DIAGRAMNET-52832|Visio to PDF/SVG - Rotated text position changed|Insekt|
+|DIAGRAMNET-52840|Elements in HTML preview blurred|Insekt|
 |DIAGRAMNET-52842|Seite automatisch anpassen wird nicht automatisch angepasst|Insekt|
 |DIAGRAMNET-52849|Rasterbilder werden nach der Konvertierung nicht herunterskaliert|Insekt|
 |DIAGRAMNET-52852|VSD Fehler beim Öffnen - Aspose.Diagram.DiagramException|Insekt|

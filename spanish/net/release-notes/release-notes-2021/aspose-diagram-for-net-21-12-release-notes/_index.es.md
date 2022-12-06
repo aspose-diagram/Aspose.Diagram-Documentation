@@ -15,10 +15,10 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |:- |:- |:- |
 |DIAGRAMNET-52408|problemas cuando usamos EmfRederSetting EmfPlusPrefer|Mejora|
 |DIAGRAMNET-52438|SaveForegroundPagesOnly for print|Mejora|
-|DIAGRAMNET-52450|Visio a SVG - Guardar imagen ráster por separado|Mejora|
-|DIAGRAMNET-51171|Representación parcial de las formas al guardar el dibujo en formato PDF|Insecto|
+|DIAGRAMNET-52450|Visio to SVG - Saving raster image separately|Mejora|
+|DIAGRAMNET-51171|Partial rendering of the shapes on saving drawing in PDF format|Insecto|
 |DIAGRAMNET-51390|El objeto incrustado no se reemplaza correctamente|Insecto|
-|DIAGRAMNET-51800|Visio a SVG: falta la imagen de fondo (PowerPoint se agrega en VISIO)|Insecto|
+|DIAGRAMNET-51800|Visio to SVG - Background Image Missing (PowerPoint is added in the VISIO)|Insecto|
 |DIAGRAMNET-52423|Page.Copy () no copia el objeto de Excel en diagram|Insecto|
 |DIAGRAMNET-52443|Faltan formas al abrir y guardar MS Visio Diagram|Insecto|
 |DIAGRAMNET-52444|Visio a JPG - Diferentes resultados generados por el API|Insecto|

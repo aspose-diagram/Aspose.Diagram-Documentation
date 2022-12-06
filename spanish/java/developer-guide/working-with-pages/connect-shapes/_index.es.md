@@ -8,7 +8,7 @@ description: Esta sección explica cómo conectar dos formas con Aspose.Diagram 
 ## **Conectar formas**
 Esta sección explica cómo conectar dos formas usando Aspose.Diagram for Java.
 ### **Conectar formas**
- los[connectShapesViaConector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) método conecta dos formas a través de un conector en el[Página](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) clase.
+ los[connectShapesViaConector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long)) method connect two shapes via a connector in the [Página](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) clase.
 
 El siguiente código muestra cómo:
 

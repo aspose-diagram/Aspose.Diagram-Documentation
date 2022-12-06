@@ -14,7 +14,7 @@ url: /fr/java/aspose-diagram-for-java-6-7-0-release-notes/
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50342|Ajout de la prise en charge de la détection du format de fichier à l'aide d'un objet de flux.|Nouvelle fonctionnalité|
-|DIAGRAMJAVA-50015|VSD en conversion PDF - l'image de la croix rouge apparaît à la place de la forme.|Renforcement|
+|DIAGRAMJAVA-50015|VSD to PDF conversion - the red cross image appears instead of the shape.|Renforcement|
 |DIAGRAMJAVA-50341|Les extrémités des connecteurs ne sont pas connectées lors de l'enregistrement au format VDX.|Renforcement|
 |DIAGRAMJAVA-50343|La routine de chargement et de sauvegarde d'un VSDM diagram affiche une croix à la place du bouton.|Renforcement|
 |DIAGRAMJAVA-50344|Impossible de définir une cellule d'événement de la forme dans VSDM.|Renforcement|

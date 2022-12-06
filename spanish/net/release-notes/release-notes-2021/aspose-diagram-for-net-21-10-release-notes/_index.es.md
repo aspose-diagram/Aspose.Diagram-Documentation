@@ -15,9 +15,9 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |:- |:- |:- |
 |DIAGRAMNET-52116|"Error en el elemento VisioDocument en \VisioDocument. Los archivos Visio con versiones anteriores a la 11 no son compatibles. Convierta el archivo al formato Visio 2003/2007/2010". excepción al abrir el archivo VSD|Mejora|
 |DIAGRAMNET-52258|Gráfico que se muestra desplazado después de la exportación [CONT.]|Mejora|
-|DIAGRAMNET-52284|[Linux]VDW, VSS, VST renderizado en blanco a IMAGE/HTML|Mejora|
+|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendering blank to IMAGE/HTML|Mejora|
 |DIAGRAMNET-52328|cómo colocar un nuevo elemento en la página|Mejora|
-|DIAGRAMNET-52330|Al guardar VSDX en PDF con PdfEncryptionDetails, los enlaces están rotos|Mejora|
+|DIAGRAMNET-52330|When saving VSDX in PDF with PdfEncryptionDetails the links are broken|Mejora|
 |DIAGRAMNET-52333|Los emojis no se muestran correctamente en encabezados/pies de página, texto alternativo, comentarios, nombres de página, campos|Mejora|
 |DIAGRAMNET-52272|Aplicación: error "Referencia de objeto no establecida como una instancia de un objeto". al guardar vsdx como png|Insecto|
 |DIAGRAMNET-52273|Aplicación: error "Error de CRC: el archivo que se extrae parece estar dañado. Se esperaba 0xFFFFFFFF, real 0xBB4C4551" al guardar vsdx como png|Insecto|

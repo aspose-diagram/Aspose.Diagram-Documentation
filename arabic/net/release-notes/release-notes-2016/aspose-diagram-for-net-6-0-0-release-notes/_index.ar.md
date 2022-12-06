@@ -10,12 +10,12 @@ url: /ar/net/aspose-diagram-for-net-6-0-0-release-notes/
 - DIAGRAMNET-50617- أضف دعمًا لتحديد شكلين ملتصقين أو متصلين
 - تصدير DIAGRAMNET-50641-VSD إلى VDX ، ظل مفقود من الأشكال
 ## **البق**
-- DIAGRAMNET-50303-VSD إلى تصدير PDF ، يتم إنشاء ملف PDF فارغ به بقعة بيضاء
+- DIAGRAMNET-50303-VSD إلى PDF تصدير ، فارغ PDF يتم إنشاء بقعة بيضاء بها
 - DIAGRAMNET-50466-VSD إلى VDX التحويل ، الموصلات الديناميكية المنحنية تتحول إلى stright
-- DIAGRAMNET-50472-VSD لتحويل HTML ، شكل النص في غير مكانه
-- DIAGRAMNET-50473-VSD لتحويل PDF ، تتم إضافة النص "Iloprost" في رأس جميع الصفحات
-- DIAGRAMNET-50474-VSD لتحويل PDF ، عناصر القائمة في غير مكانها
-- DIAGRAMNET-50480-VSD لتحويل HTML ، تتم إضافة النص "Iloprost" في رأس جميع الصفحات
+- DIAGRAMNET-50472-VSD إلى HTML التحويل ، شكل النص في غير مكانه
+- DIAGRAMNET-50473-VSD إلى PDF التحويل ، يتم إضافة النص "Iloprost" في رأس جميع الصفحات
+- DIAGRAMNET-50474-VSD إلى PDF التحويل ، عناصر القائمة في غير مكانها
+- DIAGRAMNET-50480-VSD إلى HTML التحويل ، يتم إضافة النص "Iloprost" في رأس جميع الصفحات
 - DIAGRAMNET-50622-لا يمكن اكتشاف العقد الواردة من الأشكال المتصلة
 - DIAGRAMNET-50623-هندسة أشكال الموصل غير صحيحة
 - DIAGRAMNET-50624-هندسة أشكال الموصل غير صحيحة

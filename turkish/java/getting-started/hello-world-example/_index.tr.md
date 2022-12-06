@@ -1,13 +1,13 @@
 ﻿---
-title: Merhaba Dünya Örneği
+title: Hello World Örnek
 type: docs
 weight: 100
 url: /tr/java/hello-world-example/
 ---
-## **Merhaba Dünya Örneği**
-Bir "Merhaba Dünya" örneği, geleneksel olarak bir programlama dilinin veya yazılımın özelliklerini basit bir kullanım durumuyla tanıtmak için kullanılır.
+## **Hello World Örnek**
+Bir "Hello World" örneği, geleneksel olarak bir programlama dilinin veya yazılımın özelliklerini basit bir kullanım durumuyla tanıtmak için kullanılır.
 
-Aspose.Diagram for Java, uygulama geliştiricilerin Visio belge oluşturma, okuma ve dönüştürme özelliklerini Java uygulamalarına yerleştirmelerine olanak tanıyan, zengin özelliklere sahip bir Visio dosya işleme API'dir. VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, 0761153DST, VSS ve VSS, ve VSS, ve VSS, ve VSS, 0761153WST, V. API, Visio Diyagramlarını PDF, HTML, XML, SVG ve XAML gibi çeşitli biçimlere dönüştürmek için güçlü dönüştürme özelliklerine sahiptir.
+Aspose.Diagram for Java, uygulama geliştiricilerin Visio belge oluşturma, okuma ve dönüştürme özelliklerini Java uygulamalarına yerleştirmelerine olanak tanıyan, zengin özelliklere sahip bir Visio dosya işleme API'dir. It supports working with many popular Visio file-formats including VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, VSTM, VDW, VSS, and VST. The API has strong conversion features to convert Visio Diagrams to a number of PDF, HTML, XML, SVG ve XAML gibi biçimler.
 
 Sonrasında[yükleme Aspose.Diagram for Java](/diagram/tr/java/installation/)ortamınızda, Aspose.Diagram API'in nasıl çalıştığını görmek için aşağıdaki kod örneğini çalıştırabilirsiniz.
 

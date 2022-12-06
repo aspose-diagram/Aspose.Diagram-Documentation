@@ -1,13 +1,13 @@
 ﻿---
-title: Hej världen exempel
+title: Hello World Exempel
 type: docs
 weight: 100
 url: /sv/java/hello-world-example/
 ---
-## **Hej världen exempel**
+## **Hello World Exempel**
 Ett "Hello World"-exempel används traditionellt för att introducera funktioner i ett programmeringsspråk eller programvara med ett enkelt användningsfall.
 
-Aspose.Diagram for Java är en funktionsrik Visio filbehandling API som tillåter applikationsutvecklare att bädda in Visio dokumentskapande, läsning och konverteringsfunktioner i sina Java applikationer. Den stöder att arbeta med många populära Visio filformat inklusive VSDX, VDX, VSD, VSX, VTX, VSSX, 076141, 076141, 8, 07611, 3481, 7611113481, VSSX, 076151, 76141, 761123481, VSSX, 076141, 8, 48141, 7611103482 API har starka konverteringsfunktioner för att konvertera Visio Diagram till ett antal format som PDF, HTML, XML, SVG och XAML.
+Aspose.Diagram for Java är en funktionsrik Visio filbehandling API som tillåter applikationsutvecklare att bädda in Visio dokumentskapande, läsning och konverteringsfunktioner i sina Java applikationer. It supports working with many popular Visio file-formats including VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, VSTM, VDW, VSS, and VST. The API has strong conversion features to convert Visio Diagrams to a number of format som PDF, HTML, XML, SVG och XAML.
 
 Efter[installera Aspose.Diagram for Java](/diagram/sv/java/installation/)i din miljö kan du köra kodexemplet nedan för att se hur Aspose.Diagram API fungerar.
 

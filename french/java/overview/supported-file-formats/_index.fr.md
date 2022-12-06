@@ -3,7 +3,7 @@ title: Formats de fichiers pris en charge
 type: docs
 weight: 20
 url: /fr/java/supported-file-formats/
-description:  Visio Diagram Java API peut charger et enregistrer divers formats, notamment VSDX, VDX, VSD, VTX, VSSX, VSDM, VSTM, VSSX, VSDM, VSTM, VSSX, VSDM, VSTM, VSSX, VSDM, VSTM.
+description: Visio Diagram Java API can load and save variety of formats including VSDX, VDX, VSD, VTX, VSSX, VSDM, VSTM, PDF, XPS, SVG, EMF, JPEG, PNG, BMP, TIFF and HTML. 
 ---
 ## **Formats de fichiers pris en charge**
 Le tableau suivant indique les formats de fichiers que Aspose.Diagram for Java peuvent charger et enregistrer.
@@ -22,15 +22,15 @@ Le tableau suivant indique les formats de fichiers que Aspose.Diagram for Java p
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM qui contient à la fois le modèle de dessin et les macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Type de fichier de dessin Web|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|Le type de fichier de gabarit Visio|{{< emoticons/tick >}}|||
-|[VST](https://docs.fileformat.com/visio/vst/)|Fichier de modèle VST|{{< emoticons/tick >}}|||
-|[PDF](https://docs.fileformat.com/pdf/)|PDF (format de document portable)||{{< emoticons/tick >}}||
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|Format XPS||{{< emoticons/tick >}}||
-|[XAML](https://docs.fileformat.com/web/xaml/)|Format XAML||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format||{{< emoticons/tick >}}||
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML format||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Graphiques vectoriels évolutifs (un format d'image vectorielle basé sur XML)||{{< emoticons/tick >}}||
-|[CEM](https://docs.fileformat.com/image/emf/)|Métafichier amélioré||{{< emoticons/tick >}}||
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|Format JPEG||{{< emoticons/tick >}}||
-|[PNG](https://docs.fileformat.com/image/png/)|Format PNG||{{< emoticons/tick >}}||
-|[BMP](https://docs.fileformat.com/image/bmp/)|Format BMP||{{< emoticons/tick >}}||
-|[TIFF](https://docs.fileformat.com/image/tiff/)|Image TIFF à une ou plusieurs pages||{{< emoticons/tick >}}||
-|[HTML](https://docs.fileformat.com/web/html/)|FormatHTML||{{< emoticons/tick >}}||
+|[EMF](https://docs.fileformat.com/image/emf/)|Métafichier amélioré||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Format||{{< emoticons/tick >}}||
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Single or Multi-Page TIFF Image||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Format||{{< emoticons/tick >}}||
 

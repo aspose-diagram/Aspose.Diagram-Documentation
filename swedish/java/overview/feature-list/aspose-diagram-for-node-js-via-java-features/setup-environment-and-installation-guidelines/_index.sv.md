@@ -3,10 +3,10 @@ title: Installationsmiljö och installationsriktlinjer
 type: docs
 weight: 20
 url: /sv/java/setup-environment-and-installation-guidelines/
-description: Visio Diagram Node.js via Java är plattformsoberoende API och kan användas på vilken plattform som helst (Windows, Linux och MacOS) där Node.js och nod-java-brygga är installerade. Det kan installeras från NPM och ZIP-arkiv.
+description: Visio Diagram Node.js via Java är plattformsoberoende API och kan användas på alla plattformar (Windows, Linux och MacOS) där Node.js och node-java bridge är installerade. Det kan installeras från NPM och ZIP-arkiv.
 ---
 ## **Systemkrav**
- Aspose.Diagram för Node.js via Java är plattformsoberoende API och kan användas på alla plattformar (Windows, Linux och MacOS) där[Node.js](https://nodejs.org/en/download/) och[nod-java](https://github.com/joeferner/node-java) bro installeras. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
+Aspose.Diagram för Node.js via Java är plattformsoberoende API och kan användas på alla plattformar (Windows, Linux och MacOS) där[Node.js](https://nodejs.org/en/download/) och[nod-java](https://github.com/joeferner/node-java) bro installeras. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
 ## **Installera från NPM**
  Du kan enkelt använda Aspose.Diagram för Node.js via Java från[NPM](https://www.npmjs.com/package/aspose.diagram) med följande kommando.
 {{< highlight "java" >}}

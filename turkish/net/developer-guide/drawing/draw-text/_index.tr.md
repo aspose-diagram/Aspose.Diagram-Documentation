@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfada metin şekli çizmesi
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsVSDX.cs" >}}
 
 ## **SVG'de Metin Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir metin çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde bir metnin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfaya bir metin çizip SVG formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir metnin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsSVG.cs" >}}
 
 ## **PDF'de Metin Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir metin çizmesine ve PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde bir metnin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfaya bir metin çizip PDF formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir metnin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsPDF.cs" >}}
 
 ## **PNG'de Metin Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir metin çizmesine ve PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir metnin nasıl çizileceğini ve PNG formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfaya bir metin çizip PNG formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir metnin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsPNG.cs" >}}
 
 ## **HTML'de Metin Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir metin çizmesine ve HTML biçiminde kaydetmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde bir metnin nasıl çizileceğini ve HTML biçiminde kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfaya bir metin çizip HTML formatında kaydetmelerini sağlar. Aşağıdaki kod örneği, Visio çiziminde bir metnin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsHTML.cs" >}}

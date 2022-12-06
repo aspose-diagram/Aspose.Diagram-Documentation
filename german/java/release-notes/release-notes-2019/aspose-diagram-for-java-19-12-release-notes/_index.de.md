@@ -14,6 +14,6 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 19.12.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50663|Es ist nicht möglich, die richtige Füllfarbe von Formen und Schriftarten zu erhalten|Insekt|
-|DIAGRAMJAVA-50673|Falsche Hintergründe bei bestimmten Formen beim Speichern als PDF|Insekt|
-|DIAGRAMJAVA-50674|Visio zu PDF - API erzeugt beschädigte PDF-Dateien|Insekt|
+|DIAGRAMJAVA-50673|Incorrect backgrounds on certain shapes when saving as PDF|Insekt|
+|DIAGRAMJAVA-50674|Visio to PDF - API is producing corrupted PDF|Insekt|
 

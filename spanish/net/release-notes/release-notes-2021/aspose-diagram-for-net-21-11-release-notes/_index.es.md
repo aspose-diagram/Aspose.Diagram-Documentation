@@ -13,13 +13,13 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51111|El relleno degradado de los círculos es incorrecto al convertir un VDX a EMF|Mejora|
+|DIAGRAMNET-51111|Gradient fill of the circles is wrong when converting a VDX to EMF|Mejora|
 |DIAGRAMNET-52377|Agregue soporte para cargar vsd con la versión anterior 3|Mejora|
-|DIAGRAMNET-51364|VSDX a PNG: falta el texto del objeto OLE incrustado|Insecto|
-|DIAGRAMNET-52329|VSDX a HTML: los emojis no están presentes en la salida|Insecto|
+|DIAGRAMNET-51364|VSDX to PNG - missing the text of OLE Embedded object|Insecto|
+|DIAGRAMNET-52329|VSDX to HTML - Emojis are not present in the output|Insecto|
 |DIAGRAMNET-52345|El encabezado y el pie de página se pierden después de guardar el archivo Diagram|Insecto|
-|DIAGRAMNET-52349|Visio a HTML: se cortan los bordes izquierdo y derecho|Insecto|
-|DIAGRAMNET-52374|ArgumentOutOfRangeException al guardar en PDF|Insecto|
+|DIAGRAMNET-52349|Visio to HTML - Left and right edges are cut|Insecto|
+|DIAGRAMNET-52374|ArgumentOutOfRangeException while saving to PDF|Insecto|
 |DIAGRAMNET-52386|¿Por qué algunas páginas diagram pueden duplicarse y otras no pueden usar Page.Copy()?|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

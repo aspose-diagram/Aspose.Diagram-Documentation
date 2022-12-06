@@ -9,13 +9,13 @@ url: /zh/java/aspose-diagram-for-java-6-3-0-release-notes/
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
 |图表Java-50306|添加检测Visio diagram类型的支持。|新功能|
-|图表Java-50311|防止导出 PDF 中隐藏的 Visio 页。|新功能|
-|图表Java-50312|防止导出 HTML 中隐藏的 Visio 页面。|新功能|
-|图表Java-50313|防止导出 PNG 中隐藏的 Visio 页面。|新功能|
-|图表Java-50314|防止导出 JPEG 中隐藏的 Visio 页面。|新功能|
-|图表Java-50315|防止导出 SVG 中隐藏的 Visio 页面。|新功能|
+|图表Java-50311|Prevent export of the hidden Visio pages in the PDF. |新功能|
+|图表Java-50312|Prevent export of the hidden Visio pages in the HTML. |新功能|
+|图表Java-50313|Prevent export of the hidden Visio pages in the PNG. |新功能|
+|图表Java-50314|Prevent export of the hidden Visio pages in the JPEG. |新功能|
+|图表Java-50315|Prevent export of the hidden Visio pages in the SVG. |新功能|
 |图表Java-50316|防止导出 GIF 中隐藏的 Visio 页面。|新功能|
-|图表Java-50317|防止导出 XPS 中隐藏的 Visio 页面。|新功能|
+|图表Java-50317|Prevent export of the hidden Visio pages in the XPS. |新功能|
 |图表Java-50307| VDX 到 VSDX 导出标记页面网格线选项已选中。|漏洞|
 |图表Java-50308| VSDX 的打开和保存例程将文本更改为虚拟字符。|漏洞|
 |图表Java-50309| VSDX的打开保存例程改变了虚线的形状。|漏洞|

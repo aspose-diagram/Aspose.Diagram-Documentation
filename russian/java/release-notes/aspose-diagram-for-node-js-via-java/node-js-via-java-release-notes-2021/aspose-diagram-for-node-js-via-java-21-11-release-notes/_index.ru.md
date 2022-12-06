@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram для Node.js через Java Примечания к выпуску 21.11
+title: Aspose.Diagram для Node.js via Java 21.11 Примечания к выпуску
 type: docs
 weight: 4
 url: /ru/java/aspose-diagram-for-node-js-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит информацию о примечаниях к выпуску для Aspose.Diagram для Node.js через Java 21.11.
+Эта страница содержит информацию о примечаниях к выпуску для Aspose.Diagram для Node.js via Java 21.11.
 
 {{% /alert %}}
 ## **Улучшения и изменения**  ##
@@ -14,8 +14,8 @@ url: /ru/java/aspose-diagram-for-node-js-via-java-21-11-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50806|wk: InheridetChar Color|Улучшение|
-|DIAGRAMJAVA-50385|Цвет рамки и заголовков изменяется при преобразовании VSDX в PDF|Ошибка|
-|DIAGRAMJAVA-50501|VSDX в PNG - Неправильный цвет фигур|Ошибка|
+|DIAGRAMJAVA-50385|Цвет рамки и заголовков изменяется при преобразовании VSDX в PDF.|Ошибка|
+|DIAGRAMJAVA-50501|с VSDX по PNG - Неверный цвет фигур|Ошибка|
 |DIAGRAMJAVA-50631|Формы несовместимы после экспорта VSDX в PDF|Ошибка|
 |DIAGRAMJAVA-50804|Текст соединителя переносится при рисовании соединителя|Ошибка|
 ## `?`**Public API и обратно несовместимые изменения**

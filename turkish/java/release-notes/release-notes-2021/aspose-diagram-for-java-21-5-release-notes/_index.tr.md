@@ -14,6 +14,6 @@ Bu sayfa Aspose.Diagram for Java 21.5 için sürüm notları bilgilerini içerir
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50714|API, visio diagram'i svg'ye dönüştürmek uzun zaman alıyor|Artırma|
-|DIAGRAMJAVA-50720|VSDX'i PNG'ye dönüştür - Çıktı Görüntüsünde şekiller boş|Artırma|
-|DIAGRAMJAVA-50721|Dışa aktarılan EMF'de eksik içerik|Böcek|
+|DIAGRAMJAVA-50720|VSDX'i PNG'e dönüştür - Çıktı Görüntüsünde şekiller boş|Artırma|
+|DIAGRAMJAVA-50721|Dışa aktarılan içerikte eksik EMF|Böcek|
 |DIAGRAMJAVA-50723|SVG olarak kaydederken 21,2'den 21,3'e yanlış yerleştirilmiş şekil regresyonu|Böcek|

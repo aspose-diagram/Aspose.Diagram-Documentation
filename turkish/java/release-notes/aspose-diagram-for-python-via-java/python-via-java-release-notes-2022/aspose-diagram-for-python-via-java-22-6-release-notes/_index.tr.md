@@ -1,19 +1,19 @@
 ﻿---
-title: Java üzerinden Python için Aspose.Diagram 22.6 Sürüm Notları
+title: Python via Java için Aspose.Diagram 22.6 Sürüm Notları
 type: docs
 weight: 22
 url: /tr/java/aspose-diagram-for-python-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 22.6 üzerinden Python için Aspose.Diagram için sürüm notları bilgilerini içerir.
+Bu sayfa Aspose.Diagram için Python via Java için sürüm notları bilgilerini içerir 22.6.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: PNG'ye kaydettikten sonra şekil bozuk|Artırma|
+|DIAGRAMJAVA-50963|WK: PNG'e kaydedildikten sonra şekil bozuldu|Artırma|
 |DIAGRAMJAVA-50967|Yanal çizgi şeklini yeniden boyutlandırma [Devam]|Böcek|
 |DIAGRAMJAVA-50972|API dosyayı doğru şekilde ayrıştırmıyor|Böcek|
 |DIAGRAMJAVA-50974|Yeni bağlantı noktası ekleme sorunu|Böcek|

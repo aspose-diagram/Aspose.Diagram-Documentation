@@ -13,28 +13,28 @@ url: /zh/net/aspose-diagram-for-net-19-9-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-51683|Visio 到 HTML - 生成的 HTML 中的链接无法正常工作|强化|
+|DIAGRAMNET-51683|Visio to HTML - Link in generated HTML does not work correctly|强化|
 |DIAGRAMNET-51684|删除未使用的主形状和样式时，只有图像有问题|强化|
 |DIAGRAMNET-51711|转换后无法添加宏|强化|
 |DIAGRAMNET-50383|缩小 Visio diagram 的大小|漏洞|
 |DIAGRAMNET-51682|从 Diagram 获取字体样式|漏洞|
-|DIAGRAMNET-51685|Visio 到 SVG - 发生异常|漏洞|
-|DIAGRAMNET-51686|Visio 到 PNG - 输出文件包含不需要的图像和形状|漏洞|
-|DIAGRAMNET-51687|Visio 到 PDF - 输出 PDF 中缺少文本背景色|漏洞|
-|DIAGRAMNET-51688|Visio 到 PDF - 形状框的颜色在输出中不同|漏洞|
+|DIAGRAMNET-51685|Visio to SVG - an exception occurs|漏洞|
+|DIAGRAMNET-51686|Visio to PNG - Output file has unwanted image and shapes|漏洞|
+|DIAGRAMNET-51687|Visio to PDF - background color of text is absent in output PDF|漏洞|
+|DIAGRAMNET-51688|Visio to PDF - Color of Shape Frames is different in output|漏洞|
 |DIAGRAMNET-51689|Visio 到 JPG - 输出图像格式不正确|漏洞|
-|DIAGRAMNET-51691|Visio 到 PDF - 有些形状不正确|漏洞|
-|DIAGRAMNET-51692|Visio 到 PDF - 有些形状不正确|漏洞|
-|DIAGRAMNET-51693|Visio 到 PDF - 有些形状不正确|漏洞|
-|DIAGRAMNET-51694|Visio 到 PDF - 有些形状不正确|漏洞|
-|DIAGRAMNET-51697|Visio 到 PDF - 有些形状不正确|漏洞|
-|DIAGRAMNET-51700|Visio 到 PDF - 一些形状/线条不正确|漏洞|
-|DIAGRAMNET-51702|Visio 到 PDF - 一些形状/线条不正确|漏洞|
-|DIAGRAMNET-51706|Visio 到 PDF - 一些形状/线条不正确|漏洞|
-|DIAGRAMNET-51707|Visio 到 PDF - 一些形状/线条不正确|漏洞|
-|DIAGRAMNET-51708|Visio 到 PDF - 一些形状/线条不正确|漏洞|
-|DIAGRAMNET-51709|Visio 到 PDF - 一些形状/线条不正确|漏洞|
-|DIAGRAMNET-51710|Visio 到 PDF - 一些形状/线条不正确|漏洞|
+|DIAGRAMNET-51691|Visio to PDF - Some shapes are not correct|漏洞|
+|DIAGRAMNET-51692|Visio to PDF - Some shapes are not correct|漏洞|
+|DIAGRAMNET-51693|Visio to PDF - Some shapes are not correct|漏洞|
+|DIAGRAMNET-51694|Visio to PDF - Some shapes are not correct|漏洞|
+|DIAGRAMNET-51697|Visio to PDF - Some shapes are not correct|漏洞|
+|DIAGRAMNET-51700|Visio to PDF - Some shapes/lines are not correct|漏洞|
+|DIAGRAMNET-51702|Visio to PDF - Some shapes/lines are not correct|漏洞|
+|DIAGRAMNET-51706|Visio to PDF - Some shapes/lines are not correct|漏洞|
+|DIAGRAMNET-51707|Visio to PDF - Some shapes/lines are not correct|漏洞|
+|DIAGRAMNET-51708|Visio to PDF - Some shapes/lines are not correct|漏洞|
+|DIAGRAMNET-51709|Visio to PDF - Some shapes/lines are not correct|漏洞|
+|DIAGRAMNET-51710|Visio to PDF - Some shapes/lines are not correct|漏洞|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Diagram 支持论坛。
 

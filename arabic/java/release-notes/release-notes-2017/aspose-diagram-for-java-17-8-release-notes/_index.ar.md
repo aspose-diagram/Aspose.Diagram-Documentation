@@ -21,7 +21,7 @@ url: /ar/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|الناتج VSDX - أصبح شكل القرار أكبر.|حشرة|
 |DIAGRAMJAVA-50520|لا يمكن تعيين سلوك التداخل لربط الخطوط في رسم VSDX.|حشرة|
 |DIAGRAMJAVA-50521|الإخراج VSDX - تخطيط غير صحيح لخط الموصل.|حشرة|
-|DIAGRAMJAVA-50522|إخراج PNG - يخرج نص الشكل عن الحدود.|حشرة|
+|DIAGRAMJAVA-50522|المخرج PNG - يخرج نص الشكل عن الحد.|حشرة|
 |DIAGRAMJAVA-50523|الخرج VSDX - تخطيط غير صحيح لخط التوصيل.|حشرة|
 |DIAGRAMJAVA-50525|الناتج VSDX - لا يتم الاحتفاظ بصيغة العرض لأي شكل.|حشرة|
 |DIAGRAMJAVA-50528|الناتج VSDX - حجم غير صحيح للشكل.|حشرة|
@@ -90,4 +90,4 @@ diagram.save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 يرجى التحقق من قائمة مواضيع المساعدة المضافة في Aspose.Diagram مستندات Wiki:
 
 1. [استخدم فهارس الاتصال لتوصيل الأشكال](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [استخدام SVG Save Options](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)
+1. [استخدام SVG حفظ الخيارات](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)

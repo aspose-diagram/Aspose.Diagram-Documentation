@@ -15,12 +15,12 @@ url: /sv/net/aspose-diagram-for-net-18-7-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51480|VDX utdata rapporterar ett fel efter rendering från källfilen VSD|Förbättring|
 |DIAGRAMNET-51494|Utdata VSDX - Felaktigt antal teckensnitt|Förbättring|
-|DIAGRAMNET-51496|VSDX till PDF - Innehållet är mörklagt i utdata-PDF|Förbättring|
+|DIAGRAMNET-51496|VSDX till PDF - Innehållet är mörklagt i utdata PDF|Förbättring|
 |DIAGRAMNET-51063|Saknade former vid konvertering av en VST till SVG|Insekt|
 |DIAGRAMNET-51470|VSDX till PNG - felaktig återgivning av anslutningslinjerna|Insekt|
 |DIAGRAMNET-51471|VSDX till SVG - felaktig återgivning av anslutningslinjerna|Insekt|
-|DIAGRAMNET-51477|VSD till PDF - Felaktig inslagning av orden på formen|Insekt|
-|DIAGRAMNET-51478|VDX till PDF - titeltexten flyttas|Insekt|
+|DIAGRAMNET-51477|VSD till PDF - Felaktig omslag av orden på formen|Insekt|
+|DIAGRAMNET-51478|VDX till PDF - titeltexten är förskjuten|Insekt|
 |DIAGRAMNET-51481|Utdatadokumentet har några funktioner inaktiverade|Insekt|
 |DIAGRAMNET-51482|VSD till PDF - felaktig återgivning av Blood Pool-formen|Insekt|
 |DIAGRAMNET-51484|VSD till PNG - ytterligare skugga i Shapes|Insekt|

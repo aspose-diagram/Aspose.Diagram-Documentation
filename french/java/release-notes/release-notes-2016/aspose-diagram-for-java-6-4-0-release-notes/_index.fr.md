@@ -8,10 +8,10 @@ url: /fr/java/aspose-diagram-for-java-6-4-0-release-notes/
 
 |**Clé** |**Sommaire** |**Catégorie** |
 |:- |:- |:- |
-| DIAGRAMMEJava-50060| VSD en conversion PDF, mise en page incorrecte du texte dans les formes.| Punaise|
-| DIAGRAMMEJava-50070| VSD en conversion PDF, le texte des formes n'est pas en gras.| Punaise|
-| DIAGRAMMEJava-50071| VSD en conversion PDF, le texte des formes n'est pas en italique.| Punaise|
-| DIAGRAMMEJava-50072| VSD en conversion PDF, la taille de la police du texte dans les formes est modifiée.| Punaise|
+| DIAGRAMMEJava-50060|VSD to PDF conversion, incorrect layout of the text in shapes. | Punaise|
+| DIAGRAMMEJava-50070|VSD to PDF conversion, the text of shapes is not bold. | Punaise|
+| DIAGRAMMEJava-50071|VSD to PDF conversion, the text of shapes is not italicized. | Punaise|
+| DIAGRAMMEJava-50072|VSD to PDF conversion, the font-size of the text in shapes is changed. | Punaise|
 | DIAGRAMMEJava-50320| Ouvrir et enregistrer la routine d'un VSDX diagram a perdu le thème des formes.| Punaise|
 | DIAGRAMMEJava-50321| La routine d'ouverture et de sauvegarde d'un VSDX diagram a perdu les flèches des connecteurs.| Punaise|
 | DIAGRAMMEJava-50322|La routine d'ouverture et de sauvegarde d'un VSDX diagram a changé la position d'une ligne pointillée.| Punaise|

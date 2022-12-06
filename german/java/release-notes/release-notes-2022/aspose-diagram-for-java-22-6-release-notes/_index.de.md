@@ -13,7 +13,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 22.6.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: Form nach dem Speichern in PNG verzerrt|Erweiterung|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|Erweiterung|
 |DIAGRAMJAVA-50967|Größe der Seitenlinienform ändern [Forts.]|Insekt|
 |DIAGRAMJAVA-50972|API analysiert die Datei nicht richtig|Insekt|
 |DIAGRAMJAVA-50974|Problem beim Hinzufügen eines neuen Verbindungspunkts|Insekt|

@@ -17,22 +17,22 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for .NET 17.02.0](
 |DIAGRAMNET-51110|Integrato con il misuratore.|Nuova caratteristica|
 |DIAGRAMNET-51143|Capacità di ottenere il gruppo di una data forma.|Nuova caratteristica|
 |DIAGRAMNET-51144|Capacità di ottenere il genitore di una data forma.|Nuova caratteristica|
-|DIAGRAMNET-50149|VSD alla conversione PDF, la tonalità del colore di sfondo di una forma di gruppo viene modificata.|Insetto|
-|DIAGRAMNET-50579|Conversione da VSDX a PDF, colore di sfondo errato della forma.|Insetto|
-|DIAGRAMNET-50984|Le linee di confine della tabella mancano durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMNET-50985|Gli elementi di testo non sono allineati correttamente durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMNET-50999|Rendering del colore errato delle forme durante la conversione di un VSD in PNG.|Insetto|
+|DIAGRAMNET-50149|VSD to PDF conversion, the background color shade of a group shape is getting changed.|Insetto|
+|DIAGRAMNET-50579|VSDX to PDF conversion, incorrect background color of the shape.|Insetto|
+|DIAGRAMNET-50984|The border lines of the table are missing on converting a VSDX to PNG.|Insetto|
+|DIAGRAMNET-50985|The text items are not aligned properly on converting a VSDX to PNG.|Insetto|
+|DIAGRAMNET-50999|Rendering incorrect color of shapes on converting a VSD to PNG.|Insetto|
 |DIAGRAMNET-51002|La proprietà HTMLSaveOptions.DefaultFont non funziona come previsto.|Insetto|
-|DIAGRAMNET-51049|Il colore delle forme non viene visualizzato correttamente durante la conversione di VSD in HTML.|Insetto|
-|DIAGRAMNET-51080|L'errato allineamento del testo delle forme durante il salvataggio in EMF.|Insetto|
-|DIAGRAMNET-51132|Gli angoli della forma arrotondata vengono modificati durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMNET-51133|Il layout del connettore freccia dinamica viene modificato durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMNET-51135|Le forme Visio vengono spostate durante la conversione di un VSDX in PDF.|Insetto|
-|DIAGRAMNET-51136|Il testo verticale appare come testo orizzontale durante la conversione di un VSDX in PDF.|Insetto|
-|DIAGRAMNET-51140|La casella di testo verticale sporge dal bordo del nodo durante la conversione di VSDX in PDF.|Insetto|
+|DIAGRAMNET-51049|The color of shapes is not being rendered correctly on converting a VSD to HTML.|Insetto|
+|DIAGRAMNET-51080|The wrong text alignment of shapes on saving in EMF.|Insetto|
+|DIAGRAMNET-51132|The rounded shape corners are being changed on converting a VSD to PDF.|Insetto|
+|DIAGRAMNET-51133|The layout of dynamic arrow connector is changed on converting a VSD to PDF.|Insetto|
+|DIAGRAMNET-51135|The Visio shapes are displaced on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51136|The vertical text appears as horizontal text on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51140|Vertical text box is overhanging the edge of the node while converting VSDX to PDF.|Insetto|
 |DIAGRAMNET-51138|Si è verificato un errore durante il caricamento di un VSDX diagram.|Eccezione|
-|DIAGRAMNET-51139|Si è verificato un errore di accesso al file durante la conversione di VSDX in HTML.|Eccezione|
-|DIAGRAMNET-51148|NullReferenceException in Diagram. Salva durante la conversione di VSD in HTML.|Eccezione|
+|DIAGRAMNET-51139|Can't access file error occurred on converting a VSDX to HTML.|Eccezione|
+|DIAGRAMNET-51148|NullReferenceException at Diagram.Save while converting VSD to HTML.|Eccezione|
 |DIAGRAMNET-51149|NullReferenceException in Diagram. Salva quando la proprietà CustomProp.Name non è impostata|Eccezione|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
  Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. In caso di dubbi su qualsiasi modifica elencata, segnalarli a il[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).

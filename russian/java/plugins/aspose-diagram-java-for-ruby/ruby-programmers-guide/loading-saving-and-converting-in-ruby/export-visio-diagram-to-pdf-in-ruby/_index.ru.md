@@ -1,11 +1,11 @@
 ﻿---
-title: Экспорт Visio Diagram в PDF на Ruby
+title: Экспорт Visio Diagram в PDF в Ruby
 type: docs
 weight: 40
 url: /ru/java/export-visio-diagram-to-pdf-in-ruby/
 ---
 ## **Aspose.Diagram - Экспорт Visio Diagram в PDF**
- Чтобы экспортировать Visio Diagram в PDF с помощью**Aspose.Diagram Java для рубина** , просто вызовите**Экспорт в PDF** модуль. Здесь вы можете увидеть пример кода.
+ Чтобы экспортировать Visio Diagram в PDF, используя**Aspose.Diagram Java для рубина** , просто вызовите**Экспорт в PDF** модуль. Здесь вы можете увидеть пример кода.
 
 **Рубиновый код**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram per Python tramite .NET 22.9 Note di rilascio
+title: Aspose.Diagram for Python via .NET 22.9 Release Notes
 type: docs
 weight: 18
 url: /it/python-net/aspose-diagram-for-python-via-net-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per Aspose.Diagram per Python tramite .NET 22.9.
+This page contains release notes for Aspose.Diagram for Python via .NET 22.9.
 
 {{% /alert %}} 
 
@@ -14,10 +14,10 @@ Questa pagina contiene le note di rilascio per Aspose.Diagram per Python tramite
 |:- |:- |:- |
 |DIAGRAMNET-52969|vsdx in un file svg: tutti i testi nelle caselle superano la linea delle caselle.|Aumento|
 |DIAGRAMNET-52974|Set di regole non visualizzati nei dati di convalida diagram|Aumento|
-|DIAGRAMNET-52951|Risultato errato dopo l'esportazione in HTML|Insetto|
+|DIAGRAMNET-52951|Incorrect result after export to HTML|Insetto|
 |DIAGRAMNET-52958|App: salvando da vsd a Vsdx l'effetto è sbagliato|Insetto|
-|DIAGRAMNET-52964|Qualità dell'immagine in HTML|Insetto|
-|DIAGRAMNET-52965|Problema nell'output HTML|Insetto|
+|DIAGRAMNET-52964|Image quality in HTML|Insetto|
+|DIAGRAMNET-52965|Issue in HTML output|Insetto|
 |DIAGRAMNET-52972|Proprietà vuote che restituiscono ��0�� come valore|Insetto|
 
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**

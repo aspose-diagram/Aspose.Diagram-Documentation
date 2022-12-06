@@ -19,9 +19,9 @@ url: /tr/java/aspose-diagram-for-java-17-6-release-notes/
 |DIAGRAMJAVA-50484|Bir çizimi VSDX formatında kaydederken karar kutusu şeklinin dikey metin gösterimi|Böcek|
 |DIAGRAMJAVA-50486|Bir çizimi VSDX formatında kaydederken Önceden tanımlanmış işlem şeklinin dikey metin görüntüsü|Böcek|
 |DIAGRAMJAVA-50492|Genişlik ve Yükseklik hücrelerindeki formüller korunmuyor|Böcek|
-|DIAGRAMJAVA-50493|VSD'i SVG'ye dönüştürmede eksik karakterler|Böcek|
+|DIAGRAMJAVA-50493|VSD'i SVG'e dönüştürürken eksik karakterler|Böcek|
 |DIAGRAMJAVA-50494|Çıktı VSDX - işlem şekillerinin ortasında bağlantı hatları bağlanmıyor|Böcek|
-|DIAGRAMJAVA-50499|VSDX'den PNG'ye - şeklin altında beyaz bir yatay çizgi belirir|Böcek|
+|DIAGRAMJAVA-50499|VSDX ila PNG - şeklin altında beyaz bir yatay çizgi belirir|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API'de yapılan tüm değişikliklerin yanı sıra Aspose.Diagram for Java'de yapılan geriye dönük uyumlu olmayan değişiklikler için listeye bakın. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).
 ### **Shape sınıfına freshData Yöntemi ekler**

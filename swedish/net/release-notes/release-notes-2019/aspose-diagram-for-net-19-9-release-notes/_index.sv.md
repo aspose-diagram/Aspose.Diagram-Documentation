@@ -13,15 +13,15 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51683|Visio till HTML - Länk i genererad HTML fungerar inte korrekt|Förbättring|
+|DIAGRAMNET-51683|Visio till HTML - Länken i genererad HTML fungerar inte korrekt|Förbättring|
 |DIAGRAMNET-51684|När du tar bort oanvända masterformer och stilar är det bara bilden som har ett problem|Förbättring|
 |DIAGRAMNET-51711|Det går inte att lägga till makron efter konvertering|Förbättring|
 |DIAGRAMNET-50383|Minska storleken på Visio diagram|Insekt|
 |DIAGRAMNET-51682|Få teckensnitt från Diagram|Insekt|
 |DIAGRAMNET-51685|Visio till SVG - ett undantag förekommer|Insekt|
 |DIAGRAMNET-51686|Visio till PNG - Utdatafilen har oönskade bilder och former|Insekt|
-|DIAGRAMNET-51687|Visio till PDF - bakgrundsfärg på text saknas i utdata-PDF|Insekt|
-|DIAGRAMNET-51688|Visio till PDF - Färgen på formramar har olika utdata|Insekt|
+|DIAGRAMNET-51687|Visio till PDF - bakgrundsfärg på text saknas i utdata PDF|Insekt|
+|DIAGRAMNET-51688|Visio till PDF - Färgen på formramar är olika i utdata|Insekt|
 |DIAGRAMNET-51689|Visio till JPG - utdatabilden är inte i korrekt format|Insekt|
 |DIAGRAMNET-51691|Visio till PDF - Vissa former är inte korrekta|Insekt|
 |DIAGRAMNET-51692|Visio till PDF - Vissa former är inte korrekta|Insekt|

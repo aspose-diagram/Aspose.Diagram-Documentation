@@ -25,7 +25,7 @@ Aspose.Diagram for Java API'i kullanarak şekilleri gruplandırmak için Java uy
 ## **Visio Şeklini Diğer Dosya Biçimlerine Dönüştürme**
 Aspose.Diagram for Java API, geliştiricilerin tek bir Visio şeklini desteklenen diğer herhangi bir dosya biçimine dönüştürmesine olanak tanır. Bu yazıda, diğer tüm Visio şekillerini sayfadan kaldırıyoruz ve sayfa ayarını kaynak Şekil boyutuna göre özelleştiriyoruz.
 ### **Belirli Bir Şekli Dönüştürme Visio**
- Geliştiriciler, bir Visio şeklini şu şekilde PDF, HTML, Resim, SVG ve SWF'ye dönüştürebilir:[Visio kaydetme seçeneklerini belirleme]().
+ Geliştiriciler, bir Visio şeklini şu şekilde PDF, HTML, Image, SVG ve SWF'e dönüştürebilir.[Visio kaydetme seçeneklerini belirleme]().
 Bu örnek kod aşağıdaki gibi çalışır:
 
 1. Bir kaynak yükleyin Visio.
@@ -38,8 +38,8 @@ Bu örnek kod aşağıdaki gibi çalışır:
 1. Visio sayfasını desteklenen herhangi bir dosya biçiminde kaydedin.
 #### **Şekil Programlama Örneği Dönüştür**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
-### **Visio Shape'i PDF'ye dönüştür**
-Shape sınıfının ToPdf yöntemi, bir şeklin PDF biçimine dönüştürülmesine olanak tanır.
+### **Visio Şeklini PDF'e dönüştür**
+Shape sınıfının ToPdf yöntemi, bir şekli PDF biçimine dönüştürmeye olanak tanır.
 
 {{< highlight "java" >}}
 
@@ -52,8 +52,8 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **Visio Shape'i HTML'ye dönüştür**
-Shape sınıfının ToHTML yöntemi, bir şekli HTML formatına dönüştürmeye izin verir.
+### **Visio Şeklini HTML'e dönüştür**
+Shape sınıfının ToHTML yöntemi, bir şeklin HTML biçimine dönüştürülmesine izin verir.
 
 {{< highlight "java" >}}
 

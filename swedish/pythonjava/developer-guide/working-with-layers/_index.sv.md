@@ -5,7 +5,7 @@ weight: 160
 url: /sv/python-java/working-with-layers/
 ---
 ### **Konfigurera formobjekt med lager**
-Aspose.Diagram för Python via Java gör det möjligt att konfigurera formobjekt med lager i Microsoft Office Visio diagram. Varje form kan tillhöra flera lager av användarnas behov så att utvecklare kan hantera slutanvändarbehov.
+Aspose.Diagram för Python via Java gör det möjligt att konfigurera formobjekt med lager i Microsoft Office Visio diagram. Varje form kan hantera flera lagers behov så att användaren kan hantera flera lagers behov.
 
  De[Form](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) class object erbjuder LayerMember-egenskapen som gör det möjligt att lägga till/ta bort formobjekt till/från lagren i Visio-ritningen. Användare kan hantera dessa egenskaper programmatiskt med Aspose.Diagram API enligt följande:
 

@@ -13,6 +13,6 @@ url: /zh/java/aspose-diagram-for-java-19-7-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50086|VSD 转PDF，数据丢失/形状丢失|漏洞|
-|DIAGRAMJAVA-50087|VSD 转PDF，形状错位|漏洞|
+|DIAGRAMJAVA-50086|VSD to PDF conversion, data loss/shapes are missing|漏洞|
+|DIAGRAMJAVA-50087|VSD to PDF conversion, shapes are misplaced|漏洞|
 

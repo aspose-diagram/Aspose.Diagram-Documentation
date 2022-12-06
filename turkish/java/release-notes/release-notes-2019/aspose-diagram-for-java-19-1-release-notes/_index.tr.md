@@ -13,7 +13,7 @@ Bu sayfa Aspose.Diagram for Java 19.1 için sürüm notları içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50638|Visio'den PDF'ye - çıktı PDF'sinde yanlış renkler elde edildi|Artırma|
+|DIAGRAMJAVA-50638|Visio - PDF - PDF çıktısında yanlış renkler elde edildi|Artırma|
 |DIAGRAMJAVA-50526|Çıktı VSDX - bağlantı hattının rengi yanlış|Böcek|
 |DIAGRAMJAVA-50640|VSD, VSDX'e dönüştürülürken diagram'de istenmeyen metin görünüyor|Böcek|
 

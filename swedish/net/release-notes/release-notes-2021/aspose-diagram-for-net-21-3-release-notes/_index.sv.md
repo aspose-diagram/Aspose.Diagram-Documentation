@@ -23,7 +23,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-51997|Licensinställningen misslyckas med undantag för Aspose.Diagram när Aspose.Total-licensen används för alla API:er i Azure Function|Insekt|
 |DIAGRAMNET-51998|formens geoms-attribut är en tom lista i version > 20.3.0|Insekt|
 |DIAGRAMNET-51999|Det gick inte att uppdatera inheritProps|Insekt|
-|DIAGRAMNET-52004|Exporterar VSDX som SVG några kanter saknas|Insekt|
+|DIAGRAMNET-52004|Exporterar VSDX som SVG vissa kanter saknas|Insekt|
 |DIAGRAMNET-52005|Konvertering VSD till VSDX problem|Insekt|
 |DIAGRAMNET-52009|Former saknas vid konvertering av Visio till HTML|Insekt|
 

@@ -9,13 +9,13 @@ url: /de/java/aspose-diagram-for-java-6-3-0-release-notes/
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
 | DIAGRAMMJava-50306| Unterstützung für die Erkennung des Typs Visio diagram hinzugefügt.| Neue Funktion|
-| DIAGRAMMJava-50311| Export der versteckten Visio-Seiten im PDF verhindern.| Neue Funktion|
-| DIAGRAMMJava-50312| Verhindern Sie den Export der versteckten Visio-Seiten im HTML.| Neue Funktion|
-| DIAGRAMMJava-50313| Verhindern Sie den Export der versteckten Visio-Seiten im PNG.| Neue Funktion|
-| DIAGRAMMJava-50314| Verhindern Sie den Export der versteckten Visio-Seiten im JPEG.| Neue Funktion|
-|DIAGRAMMJava-50315| Export der versteckten Visio-Seiten im SVG verhindern.| Neue Funktion|
+| DIAGRAMMJava-50311|Prevent export of the hidden Visio pages in the PDF. | Neue Funktion|
+| DIAGRAMMJava-50312|Prevent export of the hidden Visio pages in the HTML. | Neue Funktion|
+| DIAGRAMMJava-50313|Prevent export of the hidden Visio pages in the PNG. | Neue Funktion|
+| DIAGRAMMJava-50314|Prevent export of the hidden Visio pages in the JPEG. | Neue Funktion|
+|DIAGRAMMJava-50315|Prevent export of the hidden Visio pages in the SVG. | Neue Funktion|
 | DIAGRAMMJava-50316| Export der versteckten Visio-Seiten im GIF verhindern.| Neue Funktion|
-| DIAGRAMMJava-50317| Export der versteckten Visio-Seiten im XPS verhindern.| Neue Funktion|
+| DIAGRAMMJava-50317|Prevent export of the hidden Visio pages in the XPS. | Neue Funktion|
 | DIAGRAMMJava-50307| VDX bis VSDX Export markiert die Option Seitenrasterlinie aktiviert.| Insekt|
 | DIAGRAMMJava-50308| Öffnen-und-Speichern-Routine von VSDX wandelt Text in Dummy-Zeichen um.| Insekt|
 | DIAGRAMMJava-50309| Die Routine zum Öffnen und Speichern von VSDX hat die Form der gepunkteten Linie geändert.| Insekt|

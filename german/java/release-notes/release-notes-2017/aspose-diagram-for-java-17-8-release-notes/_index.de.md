@@ -13,7 +13,7 @@ url: /de/java/aspose-diagram-for-java-17-8-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50412|Fehlende Formen beim Konvertieren einer VST in PNG.|Insekt|
+|DIAGRAMJAVA-50412|Missing shapes on converting a VST to PNG.|Insekt|
 |DIAGRAMJAVA-50497|Ausgabe VSDX - falsches Layout aller Verbindungsleitungen.|Insekt|
 |DIAGRAMJAVA-50500|Ausgabe VSDX - die manuell hinzugefügte Formgröße wird nicht geändert.|Insekt|
 |DIAGRAMJAVA-50511|Ausgabe VSDX - falsch platzierter Text des dynamischen Konnektors.|Insekt|
@@ -21,7 +21,7 @@ url: /de/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|Ausgabe VSDX - die Entscheidungsform wird größer.|Insekt|
 |DIAGRAMJAVA-50520|Das Überlappungsverhalten von Verbindungslinien in einer VSDX-Zeichnung kann nicht festgelegt werden.|Insekt|
 |DIAGRAMJAVA-50521|Ausgabe VSDX - falsches Layout der Verbindungslinie.|Insekt|
-|DIAGRAMJAVA-50522|Ausgabe PNG - der Text der Form geht über die Grenze hinaus.|Insekt|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary.|Insekt|
 |DIAGRAMJAVA-50523|Ausgabe VSDX - falsches Layout der Verbindungsleitung.|Insekt|
 |DIAGRAMJAVA-50525|Ausgabe VSDX - Die Breitenformel einer beliebigen Form wird nicht beibehalten.|Insekt|
 |DIAGRAMJAVA-50528|Ausgabe VSDX - falsche Größe der Form.|Insekt|

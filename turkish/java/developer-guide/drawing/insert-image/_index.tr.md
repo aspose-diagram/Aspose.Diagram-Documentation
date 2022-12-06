@@ -12,22 +12,22 @@ JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli ekleme
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsVSDX.java" >}}
 
-## **SVG'ye Görüntü Ekle**
-JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve SVG formatında nasıl kaydedileceğini gösterir.
+## **SVG'e Resim Ekle**
+JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsSVG.java" >}}
 
-## **PNG'ye Resim Ekle**
-JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PNG formatında kaydedileceğini gösterir.
+## **PNG'e Resim Ekle**
+JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPNG.java" >}}
 
-## **PDF'ye Resim Ekle**
-JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PDF formatında kaydedileceğini gösterir.
+## **PDF'e Resim Ekle**
+JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPDF.java" >}}
 
-## **HTML'ye Resim Ekle**
-JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve HTML formatında kaydedileceğini gösterir.
+## **HTML'e Resim Ekle**
+JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsHTML.java" >}}

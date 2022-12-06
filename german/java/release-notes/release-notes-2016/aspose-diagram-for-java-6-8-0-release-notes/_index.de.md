@@ -16,13 +16,13 @@ url: /de/java/aspose-diagram-for-java-6-8-0-release-notes/
 |DIAGRAMJAVA-50347|Unterstützung für das Einfügen von ActiveX-Steuerelementen in die Seite Visio hinzugefügt.|Neue Funktion|
 |DIAGRAMJAVA-50360|Unterstützung hinzufügen, um das Kontrollkästchen Farbe der Ebene festzulegen.|Neue Funktion|
 |DIAGRAMJAVA-50348|Kann eine Visio-Seite nicht in die VSDM kopieren.|Erweiterung|
-|DIAGRAMJAVA-50357|Das unvollständige Rendern eines OLE-Diagramms beim Konvertieren einer VSDX in PDF.|Erweiterung|
-|DIAGRAMJAVA-50358|Ein OLE-Diagramm wird beim Konvertieren von VSDX in PNG nicht gerendert.|Erweiterung|
-|DIAGRAMJAVA-50207|VSDX in PDF-Konvertierung, das eingebettete Word-Dokumentsymbol fehlt.|Insekt|
+|DIAGRAMJAVA-50357|The incomplete rendering of an OLE chart when converting a VSDX to PDF.|Erweiterung|
+|DIAGRAMJAVA-50358|An OLE chart is not being rendered on converting a VSDX to PNG.|Erweiterung|
+|DIAGRAMJAVA-50207|VSDX to PDF conversion, the embedded word document icon is missing.|Insekt|
 |DIAGRAMJAVA-50346|Fehlerhaftes Abrufen der Connects von einer VSD.|Insekt|
 |DIAGRAMJAVA-50349|Gibt Junk-Wert der Füllmusterfarbe jeder Form zurück.|Insekt|
 |DIAGRAMJAVA-50350|Unvollständige Darstellung eines dynamischen Konnektors in VSDM diagram.|Insekt|
-|DIAGRAMJAVA-50354|Beim Konvertieren von VSDX in PDF wird ein leeres PDF generiert.|Insekt|
+|DIAGRAMJAVA-50354|A blank PDF is generated while converting a VSDX to PDF.|Insekt|
 |DIAGRAMJAVA-50355|Beim Laden von VSDX ist ein Autorenlistenfehler aufgetreten.|Insekt|
 |DIAGRAMJAVA-50359|Ruft eine umgekehrte Richtung des Steckers von einem VSD diagram ab.|Insekt|
 |DIAGRAMJAVA-50362|Gibt beim Abrufen von VSD falsche Verbindungen zurück.|Insekt|

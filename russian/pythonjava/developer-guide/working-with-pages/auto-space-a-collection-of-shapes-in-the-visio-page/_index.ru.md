@@ -5,7 +5,7 @@ weight: 30
 url: /ru/python-java/auto-space-a-collection-of-shapes-in-the-visio-page/
 ---
 ## **Автоматическое размещение коллекции фигур на странице Visio**
-С Aspose.Diagram для Python через Java API разработчики могут автоматически размещать набор фигур в чертеже Visio. Для этого класс `Page` предлагает член `autoSpaceShapes`, который принимает параметры ShapeCollection и AutoSpaceOptions. Класс `AutoSpaceOptions` позволяет задавать горизонтальные и вертикальные расстояния.
+С помощью Aspose.Diagram для Python via Java API разработчики могут автоматически размещать набор фигур в чертеже Visio. Для этого класс `Page` предлагает член `autoSpaceShapes`, который принимает параметры ShapeCollection и AutoSpaceOptions. Класс `AutoSpaceOptions` позволяет задавать горизонтальные и вертикальные расстояния.
 
 ### **Авто-пространство фигур на странице**
 Используйте следующий код в своем приложении для автоматического размещения набора фигур на любой странице чертежа Visio.

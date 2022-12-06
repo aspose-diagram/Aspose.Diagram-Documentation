@@ -5,7 +5,7 @@ weight: 60
 url: /sv/java/export-visio-diagram-to-xaml-in-ruby/
 ---
 ## **Aspose.Diagram - Exportera Visio Diagram till XAML**
- För att exportera Visio Diagram till XAML med hjälp av**Aspose.Diagram Java för Ruby** , helt enkelt åberopa**ExportToXaml** modul. Här kan du se exempelkod.
+För att exportera Visio Diagram till XAML med**Aspose.Diagram Java för Ruby** , helt enkelt åberopa**ExportToXaml** modul. Här kan du se exempelkod.
 
 **Ruby kod**
 

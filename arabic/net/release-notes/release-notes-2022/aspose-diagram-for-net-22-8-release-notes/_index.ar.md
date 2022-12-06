@@ -16,7 +16,7 @@ url: /ar/net/aspose-diagram-for-net-22-8-release-notes/
 |DIAGRAMNET-50393|أضف نقاطًا إلى شكل الموصل الديناميكي|التعزيز|
 |DIAGRAMNET-51744|لم يتم تحديث الشكل حسب Visio / Interop بعد إضافة النص|التعزيز|
 |DIAGRAMNET-52921|التطبيق: حفظ vsdx إلى ملف PDF فقد صورة في الزاوية|حشرة|
-|DIAGRAMNET-52925|مشكلة في تحويل HTML|حشرة|
+|DIAGRAMNET-52925|صدر في HTML التحويل|حشرة|
 |DIAGRAMNET-52928|التطبيق: تحميل vsd يطرح استثناء|حشرة|
 |DIAGRAMNET-52938|التطبيق: حفظ vsd إلى vsdx عالق|حشرة|
 |DIAGRAMNET-52944|حفظ إلى Diagram إلى svg - عرض السمة: القيمة السالبة غير صالحة. ("-121752")|حشرة|

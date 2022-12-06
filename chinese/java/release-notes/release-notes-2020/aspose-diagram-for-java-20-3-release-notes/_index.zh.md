@@ -13,6 +13,6 @@ url: /zh/java/aspose-diagram-for-java-20-3-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50683|Visio 到 SVG - 输出中损坏的形状布局|强化|
-|DIAGRAMJAVA-50684|在 SVG 导出中支持 visCaseAllCaps 和 visCaseInitialCaps 字符格式|强化|
+|DIAGRAMJAVA-50683|Visio to SVG - Corrupted shape layout in output|强化|
+|DIAGRAMJAVA-50684|Support visCaseAllCaps and visCaseInitialCaps character formatting in SVG export|强化|
 

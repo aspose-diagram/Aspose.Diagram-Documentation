@@ -4,9 +4,9 @@ type: docs
 weight: 40
 url: /de/python-java/format-visio-pages/
 ---
-Aspose.Diagram für Python über Java API ermöglicht es Entwicklern, Seiten einer Visio Diagram-Datei zu formatieren. Das Anwenden von Stylesheets ist eine solche Methode zum Formatieren von Visio-Seiten.
+Aspose.Diagram for Python via Java API allows developers to format pages of a Visio Diagram file. Applying Stylesheets is one such method to format Visio pages.
 
 ## **Wenden Sie Stylesheets auf die Seite Visio an**
-Aspose.Diagram für Python über Java Mit API können Sie eine Visio-Seite mithilfe von Stylesheets formatieren. Sie können ein Stylesheet definieren und es der Stylesheet-Sammlung des Dokuments Visio hinzufügen. Mit der Methode `applyStyle` der Klasse `Page` können Sie das definierte Stylesheet auf die Seite anwenden, wie im folgenden Codebeispiel gezeigt.
+Aspose.Diagram for Python via Java API lets you format a Visio page using Stylesheets. You can define a stylesheet and add it to the Visio document's stylesheet collection. The `applyStyle` method of `Page` class lets you apply the defined stylesheet to the page as shown in the following code sample.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ApplyStyleToVisioDiagramPage.py" >}}

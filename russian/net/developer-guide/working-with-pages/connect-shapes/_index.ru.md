@@ -8,7 +8,7 @@ description: В этом разделе объясняется, как соед�
 ## **Соедините фигуры**
 В этом разделе объясняется, как соединить две фигуры с помощью Aspose.Diagram for .NET.
 ### **Соедините фигуры**
-[ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) способ соединить две фигуры через соединитель в[Страница](http://www.aspose.com/api/net/diagram/aspose.diagram/page) учебный класс.
+[ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) метод подключения двух форм via разъем в[Страница](http://www.aspose.com/api/net/diagram/aspose.diagram/page) учебный класс.
 
 В приведенном ниже коде показано, как:
 

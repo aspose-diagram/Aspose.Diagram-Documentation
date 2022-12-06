@@ -14,7 +14,7 @@ Die Version dieses Monats ermöglicht die Formatierung von Visio Seiten durch[St
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50671|Die Einstellung für das neue Fenster des Formblatts wird beim Konvertieren in SVG nicht berücksichtigt|Erweiterung|
+|DIAGRAMJAVA-50671|Shape sheet new window setting not respected when converting to SVG|Erweiterung|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Das Folgende ist eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram für JAVA vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Diagram-Supportforum.
 ### **applyStyle in Seite hinzugefügt**

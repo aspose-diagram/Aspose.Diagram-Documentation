@@ -13,18 +13,18 @@ url: /es/net/aspose-diagram-for-net-18-9-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51509|VSDX a PNG: pérdida de opacidad de línea en la imagen de salida|Mejora|
-|DIAGRAMNET-51510|VSDX a SVG: pérdida de opacidad de línea en la imagen de salida|Mejora|
+|DIAGRAMNET-51509|VSDX to PNG - Line opacity lost in output image|Mejora|
+|DIAGRAMNET-51510|VSDX to SVG - Line opacity lost in output image|Mejora|
 |DIAGRAMNET-51516|Combinar múltiples archivos VISIO en una sola salida|Mejora|
-|DIAGRAMNET-50272|Conversión de VSD a SVG: algunos puntos de conexión tienen una posición y un tamaño incorrectos|Insecto|
-|DIAGRAMNET-50273|VSD a SVG: la alineación de los elementos de texto de forma es incorrecta|Insecto|
-|DIAGRAMNET-50487|VSD a HTML: el carácter de barra entre el valor está fuera de lugar|Insecto|
-|DIAGRAMNET-50975|VSDX a PDF - El color de fondo de la forma es negro|Insecto|
-|DIAGRAMNET-50976|VSDX a HTML: el color de fondo de la forma es negro|Insecto|
-|DIAGRAMNET-50980|VSDX a PNG: los números dentro de las formas de diamante están fuera de lugar|Insecto|
-|DIAGRAMNET-51129|Los elementos de texto no están alineados correctamente al convertir un VSD a PDF|Insecto|
-|DIAGRAMNET-51511|Puntas de flecha adicionales en la conversión de PNG|Insecto|
-|DIAGRAMNET-51512|Puntas de flecha adicionales que se muestran en la conversión de SVG|Insecto|
+|DIAGRAMNET-50272|VSD to SVG conversion - Some connection points have wrong position and size|Insecto|
+|DIAGRAMNET-50273|VSD to SVG - The alignment of shape text items are incorrect|Insecto|
+|DIAGRAMNET-50487|VSD to HTML - Slash character between the value is misplaced|Insecto|
+|DIAGRAMNET-50975|VSDX to PDF - Background color of the shape is black|Insecto|
+|DIAGRAMNET-50976|VSDX to HTML - Background color of the shape is black|Insecto|
+|DIAGRAMNET-50980|VSDX to PNG - Numbers inside the diamond shapes are misplaced|Insecto|
+|DIAGRAMNET-51129|The text items are not aligned properly on converting a VSD to PDF|Insecto|
+|DIAGRAMNET-51511|Additional arrowheads in PNG conversion|Insecto|
+|DIAGRAMNET-51512|Additional arrowheads showing in SVG conversion|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en la[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 #### **Se agregó el método Combine en la clase Diagram**

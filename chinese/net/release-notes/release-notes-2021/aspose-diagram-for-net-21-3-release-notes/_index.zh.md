@@ -18,19 +18,19 @@ url: /zh/net/aspose-diagram-for-net-21-3-release-notes/
 |DIAGRAMNET-51996|关于页面的 CenterDrawing 方法|强化|
 |DIAGRAMNET-52000|IsIntersect 对于 diagram 无法正常工作|强化|
 |DIAGRAMNET-52003|使用 EndX 和 BeginX 单元格将连接器粘合成形状|强化|
-|DIAGRAMNET-51565|VSDX 到 PDF - 缺少形状和背景图案|漏洞|
+|DIAGRAMNET-51565|VSDX to PDF - Shapes and Background Pattern is missing|漏洞|
 |DIAGRAMNET-51992|从 vsdx 导出到 svg 在 IE、Chrome 或 Firefox 中产生不正确的显示|漏洞|
 |DIAGRAMNET-51997|在 Azure Function 中对所有 API 使用 Aspose.Total 许可证时，许可证设置失败，Aspose.Diagram 异常|漏洞|
 |DIAGRAMNET-51998|形状的 geoms 属性在版本 > 20.3.0 中是一个空列表|漏洞|
 |DIAGRAMNET-51999|无法更新 inheritProps|漏洞|
-|DIAGRAMNET-52004|将 VSDX 导出为 SVG 时缺少一些边|漏洞|
+|DIAGRAMNET-52004|Exporting VSDX as SVG some edges are missing|漏洞|
 |DIAGRAMNET-52005|VSD 到 VSDX 的转换问题|漏洞|
-|DIAGRAMNET-52009|将 Visio 转换为 HTML 时缺少形状|漏洞|
+|DIAGRAMNET-52009|Shapes are missing while converting Visio to HTML|漏洞|
 
 ## ` `**公共 API 和向后不兼容的更改**
 ` `以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Diagram 支持论坛。
 ### **在页面中添加 ConnectShapesViaConnector**
-- 通过连接器连接形状。
+- Connect shapes via connector.
 
 {{< highlight "java" >}}
 

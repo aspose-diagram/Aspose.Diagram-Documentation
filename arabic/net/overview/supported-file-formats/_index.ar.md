@@ -1,6 +1,6 @@
 ﻿---
 title: تنسيقات الملفات المدعومة
-description: Aspose Diagram for .NET يدعم VSD ، VSS ، VDW ، VST ، VDX،VSX،VTX،VSDX ، VSSX ، VSTX ، VSDM ، VSTM ، و VSSM.
+description: Aspose Diagram for .NET يدعم VSD، VSS، VDW، VST، VDX،VSX،VTX،VSDX، VSSX، VSTX، VSDM، VSTM، VSDM، VSTM،.
 type: docs
 weight: 10
 url: /ar/net/supported-file-formats/
@@ -22,16 +22,16 @@ url: /ar/net/supported-file-formats/
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM الذي يحتوي على كل من قالب الرسم ووحدات الماكرو|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio نوع ملف رسم الويب|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|نوع ملف الاستنسل Visio|{{< emoticons/tick >}}|||
-|[VST](https://docs.fileformat.com/visio/vst/)|ملف قالب VST|{{< emoticons/tick >}}|||
-|[بي دي إف](https://docs.fileformat.com/pdf/)|PDF (تنسيق المستند المحمول)||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST ملف القالب|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (تنسيق المستند المحمول)||{{< emoticons/tick >}}||
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|تنسيق XPS||{{< emoticons/tick >}}||
 |[XAML](https://docs.fileformat.com/web/xaml/)|تنسيق XAML||{{< emoticons/tick >}}||
 |[SWF](https://docs.fileformat.com/page-description-language/swf/)|ملف Adobe Flash||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|رسومات متجهة قابلة للتطوير (تنسيق صورة متجه مستند إلى XML)||{{< emoticons/tick >}}||
 |[EMF](https://docs.fileformat.com/image/emf/)|ملف التعريف المحسن||{{< emoticons/tick >}}||
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|تنسيق JPEG||{{< emoticons/tick >}}||
-|[بي إن جي](https://docs.fileformat.com/image/png/)|تنسيق PNG||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|تنسيق PNG||{{< emoticons/tick >}}||
 |[BMP](https://docs.fileformat.com/image/bmp/)|تنسيق BMP||{{< emoticons/tick >}}||
-|[شجار](https://docs.fileformat.com/image/tiff/)|صورة TIFF أحادية أو متعددة الصفحات||{{< emoticons/tick >}}||
-|[لغة البرمجة](https://docs.fileformat.com/web/html/)|تنسيق HTML||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|صورة واحدة أو متعددة الصفحات TIFF||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|تنسيق HTML||{{< emoticons/tick >}}||
 

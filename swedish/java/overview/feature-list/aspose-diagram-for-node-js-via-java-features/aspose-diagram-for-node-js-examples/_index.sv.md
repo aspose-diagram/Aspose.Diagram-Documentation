@@ -18,7 +18,7 @@ var diagram = new aspose.diagram.Diagram();
 diagram.save("output.vsdx", aspose.diagram.SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-## **Exportera sida av Visio VSDX fil till PNG-format**
+## **Exportera sida av Visio VSDX fil till PNG Format**
 {{< highlight "java" >}}
 
  var aspose = aspose || {};

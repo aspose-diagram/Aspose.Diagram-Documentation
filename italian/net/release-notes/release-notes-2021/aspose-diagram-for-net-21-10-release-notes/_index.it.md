@@ -15,9 +15,9 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |:- |:- |:- |
 |DIAGRAMNET-52116|"Errore nell'elemento VisioDocument in \VisioDocument. I file Visio con versioni precedenti alla 11 non sono supportati. Convertire il file nel formato Visio 2003/2007/2010." eccezione quando si apre il file VSD|Aumento|
 |DIAGRAMNET-52258|Grafico mostrato spostato dopo l'esportazione [CONT.]|Aumento|
-|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendering vuoto in IMAGE/HTML|Aumento|
+|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendering blank to IMAGE/HTML|Aumento|
 |DIAGRAMNET-52328|come posizionare un nuovo elemento nella pagina|Aumento|
-|DIAGRAMNET-52330|Quando si salva VSDX in PDF con PdfEncryptionDetails i collegamenti vengono interrotti|Aumento|
+|DIAGRAMNET-52330|When saving VSDX in PDF with PdfEncryptionDetails the links are broken|Aumento|
 |DIAGRAMNET-52333|Gli emoji non vengono visualizzati correttamente in intestazioni/piè di pagina, testo alternativo, commenti, nomi di pagina, campi|Aumento|
 |DIAGRAMNET-52272|App: errore "Riferimento oggetto non impostato su un'istanza di un oggetto." quando si salva vsdx come png|Insetto|
 |DIAGRAMNET-52273|App: errore "Errore CRC: il file estratto sembra essere danneggiato. Previsto 0xFFFFFFFF, effettivo 0xBB4C4551" durante il salvataggio di vsdx come png|Insetto|

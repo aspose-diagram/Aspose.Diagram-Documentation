@@ -38,7 +38,7 @@ Aspose.Diagram for Java API позволяет разработчикам пре
 1. Сохраните страницу Visio в любом поддерживаемом формате файла.
 #### **Образец программирования преобразования формы**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
-### **Конвертировать форму Visio в PDF**
+### **Преобразование формы Visio в форму PDF**
 Метод ToPdf класса Shape позволяет преобразовать фигуру в формат PDF.
 
 {{< highlight "java" >}}
@@ -52,7 +52,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **Конвертировать форму Visio в HTML**
+### **Преобразование формы Visio в форму HTML**
 Метод ToHTML класса Shape позволяет преобразовать фигуру в формат HTML.
 
 {{< highlight "java" >}}

@@ -3,7 +3,7 @@ title: تنسيقات الملفات المدعومة
 type: docs
 weight: 20
 url: /ar/java/supported-file-formats/
-description:  Visio Diagram Java API يمكن تحميل وحفظ مجموعة متنوعة من التنسيقات بما في ذلك VSDX ، VDX ، VSD ، VTX ، VSSX ، VSDM ، VSTM ، PDF ، XPS ، SVG ، EMF ، JPIF ، PNG
+description:  Visio Diagram Java API يمكن تحميل وحفظ مجموعة متنوعة من التنسيقات بما في ذلك VSDX ، VDX ، VSD ، VTX ، VSSX ، VSDM ، VSTM ، 076111353481 ، XPS ، PDF ، XPS ، PDF ، XPS ، Diagram ،
 ---
 ## **تنسيقات الملفات المدعومة**
 يوضح الجدول التالي تنسيقات الملفات التي يمكن أن يقوم Aspose.Diagram for Java بتحميلها وحفظها.
@@ -22,15 +22,15 @@ description:  Visio Diagram Java API يمكن تحميل وحفظ مجموعة �
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM الذي يحتوي على كل من قالب الرسم ووحدات الماكرو|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio نوع ملف رسم الويب|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|نوع ملف الاستنسل Visio|{{< emoticons/tick >}}|||
-|[VST](https://docs.fileformat.com/visio/vst/)|ملف قالب VST|{{< emoticons/tick >}}|||
-|[بي دي إف](https://docs.fileformat.com/pdf/)|PDF (تنسيق المستند المحمول)||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST ملف القالب|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (تنسيق المستند المحمول)||{{< emoticons/tick >}}||
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|تنسيق XPS||{{< emoticons/tick >}}||
 |[XAML](https://docs.fileformat.com/web/xaml/)|تنسيق XAML||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|رسومات متجهة قابلة للتطوير (تنسيق صورة متجه مستند إلى XML)||{{< emoticons/tick >}}||
 |[EMF](https://docs.fileformat.com/image/emf/)|ملف التعريف المحسن||{{< emoticons/tick >}}||
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|تنسيق JPEG||{{< emoticons/tick >}}||
-|[بي إن جي](https://docs.fileformat.com/image/png/)|تنسيق PNG||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|تنسيق PNG||{{< emoticons/tick >}}||
 |[BMP](https://docs.fileformat.com/image/bmp/)|تنسيق BMP||{{< emoticons/tick >}}||
-|[شجار](https://docs.fileformat.com/image/tiff/)|صورة TIFF أحادية أو متعددة الصفحات||{{< emoticons/tick >}}||
-|[لغة البرمجة](https://docs.fileformat.com/web/html/)|تنسيق HTML||{{< emoticons/tick >}}||
+|[TIFF](https://docs.fileformat.com/image/tiff/)|صورة واحدة أو متعددة الصفحات TIFF||{{< emoticons/tick >}}||
+|[HTML](https://docs.fileformat.com/web/html/)|تنسيق HTML||{{< emoticons/tick >}}||
 

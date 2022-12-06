@@ -1,42 +1,42 @@
 ﻿---
 title:  Visio'i HTML biçimine dönüştür
-linktitle: Visio'i HTML'ye dönüştür
+linktitle: Visio'i HTML'e dönüştür
 type: docs
 weight: 30
 url: /tr/python-java/convert-visio-to-html/
-description: Bu konu size 07613481 için Aspose.Diagram kullanılarak Visio'i HTML formatlarına nasıl dönüştüreceğinizi gösterir. 07613481 üzerinden 07613481 için.
+description: This topic show you how to convert Visio to html formats using Aspose.Diagram for Python via Java. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM to html with a few lines of code.
 ---
-## **Visio'i HTML'ye aktar** ##
- Bu makalede, bir Microsoft Visio diagram'in kullanılarak HTML'ye nasıl aktarılacağı açıklanmaktadır.[Java üzerinden Python için Aspose.Diagram](https://products.aspose.com/diagram/python-java/) API.
+## **Visio'i HTML'e aktar** ##
+ Bu makalede, bir Microsoft Visio diagram'in HTML kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Python via Java için Aspose.Diagram](https://products.aspose.com/diagram/python-java/) API.
 
-diagram dosyalarını okumak için Diagram sınıf oluşturucusunu ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemini kullanın. Geliştiriciler, ortaya çıkan HTML'yi yerel depolamaya veya doğrudan bir akış örneğine kaydedebilir.
+diagram dosyalarını okumak için Diagram sınıf oluşturucusunu ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemini kullanın. Geliştiriciler, ortaya çıkan HTML'i yerel depolamaya veya doğrudan bir akış örneğine kaydedebilir.
 
- Aşağıdaki resimde bir[VSD dosya](ExportToHTML.vsd)PNG formatında kaydedilmek üzere. Diğer diagram formatlarını da kullanabilirsiniz (VSDX, VSTM, VSTM, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, VTX veya 307611)
+ Aşağıdaki resimde bir[VSD dosya](ExportToHTML.vsd)PNG formatında kaydedilmek üzere. Diğer diagram formatlarını da (VSDX, VSTM, VSTM, VSSX, VSS, VSSM, VDX, VST, VSTX, VDX, 07611071) kullanabilirsiniz.
 
 **diagram'i girin.**
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/YX4BNNq.png)
 
-VSD diagram'i HTML'ye aktarmak için aşağıdaki adımları gerçekleştirin:
+VSD diagram'i HTML'e aktarmak için aşağıdaki adımları gerçekleştirin:
 
 1. Diagram sınıfının bir örneğini oluşturun.
-1. Dagram sınıfının Save yöntemini çağırın ve çıktı formatı olarak HTML'yi ayarlayın.
+1. Dagram sınıfının Save yöntemini çağırın ve çıktı formatı olarak HTML'i ayarlayın.
 
-Aşağıdaki resim çıktı HTML dosyasını göstermektedir.
+Aşağıdaki görüntü HTML çıktı dosyasını göstermektedir.
 
-**Çıkış HTML'si diagram.**
+**Çıkış HTML diagram.**
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/syavUqI.png)
 
-### **Ortaya çıkan HTML'yi yerel depolamaya kaydedin**
+### **Ortaya çıkan HTML'i yerel depoya kaydedin**
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 
-#### **Sonuç HTML'sini Yerel Depolama Programlama Örneğine Kaydet**
+#### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToHTML.py" >}}
 
 
 
-### **Elde edilen HTML'yi bir akış örneğine kaydedin**
-Ortaya çıkan HTML'yi yerel depoda saklamadan bir veritabanına veya havuza kaydetmek kullanım durumu içindir. Bu özellik aynı zamanda HTML'nin diğer sonuç kaynaklarını, örneğin yazı tiplerini, CSS'yi (stil bilgilerini içeren) ve resimleri de gömer. Akış örneğine tek bir HTML dosyası kaydettiği için.
-#### **Sonuç HTML'sini Akış Programlama Örneğine Kaydetme**
+### **Elde edilen HTML'i bir akış örneğine kaydedin**
+Elde edilen HTML'i yerel depoda saklamadan bir veritabanına veya havuza kaydetmek kullanım durumu içindir. Bu özellik aynı zamanda HTML'in diğer sonuç kaynaklarını, örneğin yazı tiplerini, CSS'yi (stil bilgilerini içeren) ve resimleri de içerir. Akış örneğine tek bir HTML dosyası kaydettiği için.
+#### **Sonuç HTML'i Akış Programlama Örneğine Kaydet**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportHTMLinStream.py" >}}

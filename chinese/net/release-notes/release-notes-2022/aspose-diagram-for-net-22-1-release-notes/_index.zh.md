@@ -13,15 +13,15 @@ url: /zh/net/aspose-diagram-for-net-22-1-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-50560|支持将图表保存为带有或不带有嵌入式资源的 HTML|强化|
+|DIAGRAMNET-50560|Support saving diagrams to HTML with or without embedded resources|强化|
 |DIAGRAMNET-52499|添加对将 html 保存到单个流的支持|强化|
-|DIAGRAMNET-50562|VSDX 到 PDF - 输出中缺少形状|漏洞|
-|DIAGRAMNET-50780|将 VSDX 保存为 PDF 时表格的边框线不可见|漏洞|
-|DIAGRAMNET-50962|将 VSDX 转换为 PNG 时缺少表格的边框线|漏洞|
-|DIAGRAMNET-50992|将 VSDX 转换为 PDF 时，表格的左边框线不可见|漏洞|
-|DIAGRAMNET-51034|将 VSDX 转换为 PDF 时缺少形状的阴影|漏洞|
-|DIAGRAMNET-51186|将 VSD 转换为 PDF 时元类型形状的布局不正确|漏洞|
-|DIAGRAMNET-51226|Aspose.Diagram 17.3.0：保存到 HTML 流不嵌入外部资源|漏洞|
+|DIAGRAMNET-50562|VSDX to PDF - Shapes are missing from the output|漏洞|
+|DIAGRAMNET-50780|The border lines of the tables are not visible on saving a VSDX to PDF|漏洞|
+|DIAGRAMNET-50962|The border lines of tables are missing on converting a VSDX to PNG|漏洞|
+|DIAGRAMNET-50992|The left border line of the table is not visible on converting a VSDX to PDF|漏洞|
+|DIAGRAMNET-51034|The shading of shapes is missing on converting a VSDX to PDF|漏洞|
+|DIAGRAMNET-51186|Incorrect layout of meta type shapes on converting a VSD to PDF|漏洞|
+|DIAGRAMNET-51226|Aspose.Diagram 17.3.0: Saving to HTML stream do not embed external resources|漏洞|
 |DIAGRAMNET-52506|Page.Copy() 不会复制开发人员的更改|漏洞|
 
 ## **公共 API 和向后不兼容的更改**

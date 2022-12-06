@@ -15,7 +15,7 @@ url: /it/java/aspose-diagram-for-java-17-9-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50485|Aggiungi il supporto delle forme di spaziatura automatica in Visio|Aumento|
 |DIAGRAMJAVA-50521|Uscita VSDX - disposizione errata della linea del connettore|Insetto|
-|DIAGRAMJAVA-50522|Output PNG: il testo della forma esce dal confine|Insetto|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary|Insetto|
 |DIAGRAMJAVA-50527|Output VSDX - la linea di collegamento tocca il limite della forma|Insetto|
 |DIAGRAMJAVA-50540|Uscita VSDX - disposizione errata delle linee di collegamento|Insetto|
 |DIAGRAMJAVA-50543|Output VSDX - layout errato e testo fuori posto delle linee di collegamento|Insetto|

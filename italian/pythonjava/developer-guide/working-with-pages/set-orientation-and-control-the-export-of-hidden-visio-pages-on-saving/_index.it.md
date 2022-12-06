@@ -5,9 +5,9 @@ weight: 20
 url: /it/python-java/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/
 ---
 ## **Cambia un layout di pagina Visio in Verticale o Orizzontale**
-Aspose.Diagram per Python tramite Java API consente agli sviluppatori di impostare l'orientamento della pagina di disegno Visio a livello di codice. Questo argomento della guida spiega come eseguire questa attività.
+Aspose.Diagram for Python via Java API allows developers to set the orientation of the Visio drawing page programmatically. This help topic explains how to accomplish this task.
 
-Aspose.Diagram per Python tramite Java API ha la classe `Page` che rappresenta una pagina di disegno Visio. La proprietà PageSheet esposta dalla classe Page espone anche le proprietà di stampa. Il campo `PrintPageOrientation` delle proprietà di stampa permette di ruotare la pagina. Offre tre opzioni come Verticale, Orizzontale e come sulla stampante. Il campo PrintPageOrientation può essere impostato a livello di codice utilizzando Aspose.Diagram per Python tramite Java API.
+Aspose.Diagram for Python via Java API has the `Page` class that represents a Visio drawing page. The PageSheet property exposed by the Page class also exposes the print properties. The `PrintPageOrientation` field of the print properties allows to rotate the page. It offers three options as Portrait, Landscape and same as on the printer. The PrintPageOrientation field can be set programmatically using Aspose.Diagram for Python via Java API.
 
 Questo esempio funziona come segue:
 
@@ -22,18 +22,18 @@ L'esempio di codice seguente mostra come impostare l'orientamento della pagina V
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-SetVisioPageOrientation.py" >}}
 
 ## **Controlla l'esportazione di pagine nascoste Visio al salvataggio**
-Aspose.Diagram per Python tramite Java API consente agli sviluppatori di includere o escludere pagine Visio nascoste salvando diagram in file PDF, HTML, immagini (PNG, JPEG, GIF), SVG e XPS. Anche loro possono nascondere Visio pagine utilizzando Aspose.Diagram per Python tramite Java API perché la sua opzione è già disponibile tramite la cella UIVisibility nella pagina ShapeSheet.
+Aspose.Diagram for Python via Java API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram for Python via Java API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 
 ### **Nascondi una pagina nel Visio Diagram e imposta l'opzione di esportazione**
-Aspose.Diagram per Python tramite Java API ha la classe `Page` che rappresenta una pagina di disegno Visio. La proprietà PageSheet esposta dalla classe Page espone anche le proprietà della pagina. Il campo `UIVisibility` delle proprietà della pagina permette di nascondere la pagina. Gli sviluppatori possono quindi utilizzare la proprietà `exportHiddenPage` che viene aggiunta nelle classi `SVGSaveOptions`, `XPSSaveOptions`, `ImageSaveOptions`, `HTMLSaveOptions` e `PdfSaveOptions`.
+Aspose.Diagram for Python via Java API has the `Page` class that represents a Visio drawing page. The PageSheet property exposed by the Page class also exposes the page properties. The `UIVisibility` field of the page properties allows to hide the page. Developers can then use `exportHiddenPage` property which is added in the `SVGSaveOptions`, `XPSSaveOptions`, `ImageSaveOptions`, `HTMLSaveOptions` and `PdfSaveOptions` classes.
 
-#### **Impostare l'opzione di esportazione per PDF**
-Il codice seguente mostra come impostare le opzioni di salvataggio prima di salvare un diagram in formato PDF.
+#### **Set the Export Option for PDF**
+The code below shows how to set save options before saving a diagram to PDF format.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExporToHiddenVisioPagesToPdf.py" >}}
 
-#### **Impostare l'opzione di esportazione per HTML**
-Il codice seguente mostra come impostare le opzioni di salvataggio prima di salvare un diagram in formato HTML.
+#### **Set the Export Option for HTML**
+The code below shows how to set save options before saving a diagram to HTML format.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToHtml.py" >}}
 
@@ -42,7 +42,7 @@ Il codice seguente mostra come impostare le opzioni di salvataggio prima di salv
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToImage.py" >}}
 
-#### **Impostare l'opzione di esportazione per SVG**
-Il codice seguente mostra come impostare le opzioni di salvataggio prima di salvare un diagram in formato SVG.
+#### **Set the Export Option for SVG**
+The code below shows how to set save options before saving a diagram to SVG format.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToSVG.py" >}}

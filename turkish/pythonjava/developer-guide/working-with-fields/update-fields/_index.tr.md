@@ -6,7 +6,7 @@ url: /tr/python-java/update-fields/
 description: Bu bölümde alanların nasıl güncelleneceği açıklanmaktadır.
 ---
 ## **Alanı Güncelle**
- Python için Java üzerinden Aspose.Diagram, Microsoft Office Otomasyonu olmadan kendi uygulamalarınızdan alanı Microsoft Visio diyagramlarına güncellemenizi sağlar.
+Python via Java için Aspose.Diagram, Microsoft Office Otomasyonu olmadan kendi uygulamalarınızdan alanı Microsoft Visio diyagramlarına güncellemenizi sağlar.
 
 Field nesnesi, bir metin çalıştırmasındaki metin alanını temsil eder. Shape sınıfı tarafından sunulan field özelliği, Aspose.Diagram.Field nesnelerinin bir koleksiyonunu destekler.
 

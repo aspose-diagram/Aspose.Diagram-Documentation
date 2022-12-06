@@ -15,5 +15,5 @@ url: /zh/java/aspose-diagram-for-java-18-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50621|圆形之间的连接不正确|强化|
 |DIAGRAMJAVA-50623|连接器形状文本位置不正确|漏洞|
-|DIAGRAMJAVA-50624|VDX 到 HTML - 输出中出现额外的行|漏洞|
+|DIAGRAMJAVA-50624|VDX to HTML - Extra Lines are appearing in the output|漏洞|
 

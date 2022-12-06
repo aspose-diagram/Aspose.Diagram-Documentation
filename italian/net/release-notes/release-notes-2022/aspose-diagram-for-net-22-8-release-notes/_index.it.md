@@ -16,7 +16,7 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |DIAGRAMNET-50393|Aggiungi punti alla forma del connettore dinamico|Aumento|
 |DIAGRAMNET-51744|La forma non si aggiorna come da Visio/Interop dopo l'aggiunta del testo|Aumento|
 |DIAGRAMNET-52921|App: il salvataggio di vsdx in Pdf ha perso un'immagine nell'angolo|Insetto|
-|DIAGRAMNET-52925|Problema nella conversione HTML|Insetto|
+|DIAGRAMNET-52925|Issue in HTML Conversion|Insetto|
 |DIAGRAMNET-52928|App: il caricamento di vsd genera un'eccezione|Insetto|
 |DIAGRAMNET-52938|App: salva da vsd a vsdx bloccato|Insetto|
 |DIAGRAMNET-52944|Salva in Diagram in svg - larghezza attributo: un valore negativo non è valido. ("-121752")|Insetto|

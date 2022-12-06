@@ -14,7 +14,7 @@ url: /de/java/aspose-diagram-for-java-6-5-0-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50219|Verbindungen aus der VSS-Schablonendatei können nicht abgerufen werden.|Insekt|
-|DIAGRAMJAVA-50324|Die Position von Textelementen wird beim Konvertieren einer VSDX in SVG geändert.|Insekt|
+|DIAGRAMJAVA-50324|The position of text items is changed on converting a VSDX to SVG.|Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Sehen Sie sich die Liste für alle Änderungen an, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for Java vorgenommen wurden[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 

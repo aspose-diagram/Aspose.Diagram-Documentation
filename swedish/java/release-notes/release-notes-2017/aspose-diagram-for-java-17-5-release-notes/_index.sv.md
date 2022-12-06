@@ -13,7 +13,7 @@ url: /sv/java/aspose-diagram-for-java-17-5-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50472|Generera varningen om teckensnittsbyte under Visio till PDF-konvertering.|Förbättring|
+|DIAGRAMJAVA-50472|Generera varningen om teckensnittsersättning under Visio till PDF konvertering.|Förbättring|
 |DIAGRAMJAVA-50480 |Det går inte att lägga till ett SolutionXML-element i en VSDX|Förbättring|
 |DIAGRAMJAVA-50473|Ofullständiga anslutningar av former vid konvertering av en VDX till VSDM|Insekt|
 |DIAGRAMJAVA-50475|Anslutningslinjen går genom de andra formerna vid konvertering av en VDX till VSDM|Insekt|

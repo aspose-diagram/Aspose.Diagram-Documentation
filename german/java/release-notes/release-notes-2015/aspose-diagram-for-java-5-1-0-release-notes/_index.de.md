@@ -11,5 +11,5 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 DIAGRAMJAVA-50133- Diagram.print() Methode funktioniert nicht
 DIAGRAMJAVA-50139 – Fügen Sie die Datei „End User Agreement.html“ in Nicht-MSI-Pakete ein
 DIAGRAMJAVA-50140 – NullReferenceException ist aufgetreten, wenn das Seitenobjekt nach seinem Namen abgerufen wurde
-DIAGRAMJAVA-50141) -VDX zum PDF-Export hängt auf Red Hat Linux Server
-DIAGRAMJAVA-50142) -VDX zum PNG-Export hängt auf Red Hat Linux Server
+DIAGRAMJAVA-50141) -VDX to PDF export hangs on Red Hat Linux Server
+DIAGRAMJAVA-50142) -VDX to PNG export hangs on Red Hat Linux Server

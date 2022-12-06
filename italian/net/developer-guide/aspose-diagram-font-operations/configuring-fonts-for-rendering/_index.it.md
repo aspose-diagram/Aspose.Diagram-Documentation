@@ -6,7 +6,7 @@ url: /it/net/configuring-fonts-for-rendering/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Diagram Le API forniscono la possibilità di eseguire il rendering delle pagine in formati immagine e di convertirle in formati PDF e XPS. Per massimizzare la fedeltà della conversione, è necessario che i caratteri utilizzati nel foglio di calcolo siano disponibili nella directory dei caratteri predefinita del sistema operativo. Nel caso in cui i font richiesti non siano presenti allora le API Aspose.Diagram cercheranno di sostituire i font richiesti con quelli disponibili.
+Aspose.Diagram APIs provide the facility to render pages in image formats as well as convert them to PDF & XPS formats. In order to maximize the conversion fidelity, it is necessary that the fonts used in the spreadsheet should be available in the operating system's default font directory. In case the required fonts are not present then the Aspose.Diagram APIs will try to substitute the required fonts with the ones available.
 
 ## **Selezione dei caratteri**
 

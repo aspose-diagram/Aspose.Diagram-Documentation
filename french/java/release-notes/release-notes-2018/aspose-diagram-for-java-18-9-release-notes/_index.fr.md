@@ -16,5 +16,5 @@ url: /fr/java/aspose-diagram-for-java-18-9-release-notes/
 |DIAGRAMJAVA-50617|Impossible de définir PinPos d'une forme à l'aide de API|Renforcement|
 |DIAGRAMJAVA-50544|Sortie VSDX - la formule de largeur de la forme n'est pas conservée|Punaise|
 |DIAGRAMJAVA-50614|Les connexions entre les formes ne sont pas correctes|Punaise|
-|DIAGRAMJAVA-50618|L'info-bulle des formes ne fonctionne pas lors de la conversion de VSD en SVG|Punaise|
+|DIAGRAMJAVA-50618|Tooltip of shapes are not working while converting VSD to SVG|Punaise|
 

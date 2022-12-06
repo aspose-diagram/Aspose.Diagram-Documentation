@@ -5,10 +5,10 @@ weight: 20
 url: /it/python-java/setup-environment-and-installation-guidelines/
 aliases: [/java/aspose-diagram-for-python-via-java-system-requirements/, /pythonjava/system-requirements/]
 keywords: python, visio, instal
-description: configurazione Aspose.Diagram per Python tramite Java e linee guida per l'installazione
+description: setup Aspose.Diagram for Python via Java and installation guidelines
 ---
 ## **Requisiti di sistema**
- Aspose.Diagram per Python tramite Java è indipendente dalla piattaforma API e può essere utilizzato su qualsiasi piattaforma (Windows, Linux e MacOS) dove[Python](https://www.python.org/downloads/)è installato. La macchina deve avere Java 8 o versioni successive prima di configurare l'installazione.
+Aspose.Diagram for Python via Java is platform-independent API and can be used on any platform (Windows, Linux and MacOS) where [Python](https://www.python.org/downloads/)è installato. La macchina deve avere Java 8 o versioni successive prima di configurare l'installazione.
 
 ## **Python Versione**
 - Python 3.5 o superiore
@@ -24,15 +24,15 @@ PATH=C:\Program Files\Java\jdk1.8.0_131;
 
 {{< /highlight >}}
   
-### **Installa Aspose.Diagram per Python tramite Java da pypi**
- Puoi facilmente utilizzare Aspose.Diagram per Python tramite Java da[pypi](https://pypi.org/project/aspose-diagram/) con il seguente comando.
+### **Install Aspose.Diagram for Python via Java from pypi**
+You can easily use Aspose.Diagram for Python via Java from [pypi](https://pypi.org/project/aspose-diagram/) con il seguente comando.
 {{< highlight "java" >}}
 
  $ pip install aspose-diagram
 
 {{< /highlight >}}
 
-### **Prova Aspose.Diagram per Python tramite Java**
+### **Test Aspose.Diagram for Python via Java**
 -  Crea un file denominato**esempio.py**e utilizzare il seguente codice di esempio:
 
 {{< highlight "java" >}}
@@ -54,15 +54,15 @@ jpype.shutdownJVM()
 ## **Linux:**
 ### **Installa Java**
   
-### **Installa Aspose.Diagram per Python tramite Java da pypi**
- Puoi facilmente utilizzare Aspose.Diagram per Python tramite Java da[pypi](https://pypi.org/project/aspose-diagram/) con il seguente comando.
+### **Install Aspose.Diagram for Python via Java from pypi**
+You can easily use Aspose.Diagram for Python via Java from [pypi](https://pypi.org/project/aspose-diagram/) con il seguente comando.
 {{< highlight "java" >}}
 
  $ pip install aspose-diagram
 
 {{< /highlight >}}
 
-### **Prova Aspose.Diagram per Python tramite Java**
+### **Test Aspose.Diagram for Python via Java**
 -  Crea un file denominato**esempio.py**e utilizzare il seguente codice di esempio:
 
 {{< highlight "java" >}}
@@ -84,15 +84,15 @@ jpype.shutdownJVM()
 ## **Mac OS:**
 ### **Installa Java**
   
-### **Installa Aspose.Diagram per Python tramite Java da pypi**
- Puoi facilmente utilizzare Aspose.Diagram per Python tramite Java da[pypi](https://pypi.org/project/aspose-diagram/) con il seguente comando.
+### **Install Aspose.Diagram for Python via Java from pypi**
+You can easily use Aspose.Diagram for Python via Java from [pypi](https://pypi.org/project/aspose-diagram/) con il seguente comando.
 {{< highlight "java" >}}
 
  $ pip install aspose-diagram
 
 {{< /highlight >}}
 
-### **Prova Aspose.Diagram per Python tramite Java**
+### **Test Aspose.Diagram for Python via Java**
 -  Crea un file denominato**esempio.py**e utilizzare il seguente codice di esempio:
 
 {{< highlight "java" >}}

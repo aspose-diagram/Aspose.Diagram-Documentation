@@ -16,10 +16,10 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-52007|Prestanda under initieringen av ett diagram-objekt|Förbättring|
 |DIAGRAMNET-52008|Prestanda under initieringen av ett diagram-objekt|Förbättring|
 |DIAGRAMNET-52027|Kvaliteten på former är inte bra i exporterad SVG-fil|Förbättring|
-|DIAGRAMNET-52033|Problem med att spara former till HTML|Insekt|
+|DIAGRAMNET-52033|Att spara former till HTML problem|Insekt|
 |DIAGRAMNET-52035|"Oundantaget eof." undantag när filen VSDX är öppen|Insekt|
 |DIAGRAMNET-52041|Det gick inte att spara vissa former från VSS-filen|Insekt|
-|DIAGRAMNET-52042|"Parametern är inte giltig." undantag när VSD-filen renderas till HTML|Insekt|
+|DIAGRAMNET-52042|"Parametern är inte giltig." undantag när VSD-filen återges till HTML|Insekt|
 |DIAGRAMNET-52043|"Objektreferens inte satt till en instans av ett objekt." undantag när du sparar form från filen VSSX|Insekt|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

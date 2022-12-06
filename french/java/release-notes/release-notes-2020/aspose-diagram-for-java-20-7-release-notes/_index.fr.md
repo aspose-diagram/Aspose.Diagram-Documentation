@@ -13,6 +13,6 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50697|VSDX en PNG - L'arrière-plan d'une forme est inversé en sortie|Punaise|
+|DIAGRAMJAVA-50697|VSDX to PNG - Background of one shape is inverted in output|Punaise|
 |DIAGRAMJAVA-50698|Implémenter la gestion des exceptions en cas de fichier Diagram corrompu|Punaise|
 

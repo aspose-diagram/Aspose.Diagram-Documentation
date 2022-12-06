@@ -13,8 +13,8 @@ Den här sidan innehåller release notes för[Aspose.Diagram for Java 17.02.0](h
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50037|VSD till PDF-konvertering ändras bakgrundsfärgen för en gruppform.|Insekt|
-|DIAGRAMJAVA-50365|En tom sida genereras när en Visio sida med ekvationer konverteras till PNG.|Insekt|
+|DIAGRAMJAVA-50037|VSD till PDF konvertering ändras bakgrundsfärgen för en gruppform.|Insekt|
+|DIAGRAMJAVA-50365|En tom sida genereras när en Visio-sida med ekvationer konverteras till PNG.|Insekt|
 |DIAGRAMJAVA-50461|Kanter saknas vid konvertering av VSDX till PNG.|Insekt|
 |DIAGRAMJAVA-50462|Symbolen försvinner när VSDX konverteras till PNG.|Insekt|
 |DIAGRAMJAVA-50463|Symbolen försvinner när VSDX konverteras till SVG.|Insekt|

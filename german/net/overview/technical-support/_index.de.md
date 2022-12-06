@@ -4,7 +4,7 @@ linktitle: Technischer Support
 type: docs
 weight: 60
 url: /de/net/technical-support/
-description: Aspose.Diagram bietet Visio Konvertierungen von Dateiformaten in Bild-, PDF-, HTML-, XML- und XAML-Formate. Beliebte unterstützte Dateiformate sind VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM und VSSM.
+description: Aspose.Diagram provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 ---
 Aspose bietet unbegrenzten kostenlosen technischen Support für alle seine Produkte. Der Support steht allen Benutzern zur Verfügung, einschließlich der Evaluierung.
 

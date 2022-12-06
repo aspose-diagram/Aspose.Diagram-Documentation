@@ -18,14 +18,14 @@ Cette page contient des notes de version pour[Aspose.Diagram for .NET 19.4](http
 |DIAGRAMNET-51626|API ne traite pas les données Excel|Renforcement|
 |DIAGRAMNET-51627|Extraire les données de forme sur la base de la formule Dependson|Renforcement|
 |DIAGRAMNET-51629|Agrandir une page pour l'adapter à un dessin ne semble pas fonctionner|Renforcement|
-|DIAGRAMNET-51176|La barre de titre du dégradé est modifiée lors de la conversion d'un VSDM en SVG|Punaise|
+|DIAGRAMNET-51176|The gradient title bar is changed on converting a VSDM to SVG|Punaise|
 |DIAGRAMNET-51404|VSD à Image - La couleur de la forme est sombre|Punaise|
-|DIAGRAMNET-51473|VDX au format PDF - La couleur d'arrière-plan incorrecte|Punaise|
-|DIAGRAMNET-51475|VSDX au format PDF - Les dégradés sont rendus à l'envers|Punaise|
-|DIAGRAMNET-51616|Visio en PDF - Le dégradé est rendu à l'envers dans le PDF de sortie|Punaise|
-|DIAGRAMNET-51630|VSDX en HTML - La couleur d'arrière-plan des formes n'est pas présente dans la sortie|Punaise|
-|DIAGRAMNET-51631|VSDX au format PDF - La couleur d'arrière-plan des formes n'est pas présente dans la sortie|Punaise|
-|DIAGRAMNET-51632|VSD en SVG - Impossible de convertir l'objet de type ' ' en type ' ' Une exception s'est produite|Punaise|
+|DIAGRAMNET-51473|VDX to PDF - The incorrect background color|Punaise|
+|DIAGRAMNET-51475|VSDX to PDF - The gradients are being rendered in reversed|Punaise|
+|DIAGRAMNET-51616|Visio to PDF - Gradient is rendering upside down in output PDF|Punaise|
+|DIAGRAMNET-51630|VSDX to HTML - Background color of shapes is not present in the output|Punaise|
+|DIAGRAMNET-51631|VSDX to PDF - Background color of shapes is not present in the output|Punaise|
+|DIAGRAMNET-51632|VSD to SVG - Unable to cast object of type ‘ ’ to type ‘ ’ Exception occurred|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez les signaler dans la[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).

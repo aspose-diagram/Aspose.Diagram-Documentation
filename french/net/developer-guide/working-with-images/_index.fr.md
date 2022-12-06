@@ -37,14 +37,14 @@ Le code dans les exemples ci-dessous montre comment :
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ReplaceShapePicture-ReplaceShapePicture.cs" >}}
 ## **Importer une image bitmap en tant que forme Visio**
 Aspose.Diagram for .NET API permet désormais aux développeurs d'importer une image bitmap en tant que forme Microsoft Visio.
-### **Insérer une image BMP dans Visio**
+### **Insert a BMP Image in Visio**
 Le code dans les exemples ci-dessous montre comment :
 
 1. Créez un diagram.
 1. Obtenir la page Visio
 1. Importer une image bitmap en tant que forme Visio
 1. Enregistrez le diagram.
-#### **Insérer un exemple de programmation d'image BMP**
+#### **Insert a BMP Image Programming Sample**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
 ## **Convertir la zone spécifiée de la page Visio en image**
 Avec Aspose.Diagram for .NET API, les développeurs peuvent définir une zone avec des coordonnées XY, une largeur et une hauteur, puis convertir cette zone dans un format d'image pris en charge.

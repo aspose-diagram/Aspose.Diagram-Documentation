@@ -11,18 +11,18 @@ url: /zh/net/aspose-diagram-for-net-5-7-0-release-notes/
 - DIAGRAMNET-50011-提供没有 Authenticode 签名的 Aspose.Diagram 库
 - DIAGRAMNET-50396-TimeLineHelper.TimeScale 属性不工作
 - DIAGRAMNET-50498 - 形状文本超出矩形框
-- DIAGRAMNET-50511-VDX 到 PNG 转换，输出 PNG 文件中的字体不正确
-- DIAGRAMNET-50546-VSD 转PDF，各种形状的文本项错位
+- DIAGRAMNET-50511-VDX to PNG conversion, incorrect fonts in the output PNG file 
+- DIAGRAMNET-50546-VSD to PDF conversion, the text items of various shapes are misplaced 
 - DIAGRAMNET-50550 - 将 VSDX 保存为 VDX 格式时元素主控发生错误
 - DIAGRAMNET-50553 - 提供 Aspose.Diagram 产品的未签名二进制文件
 - DIAGRAMNET-50554-无法检测两个连接形状的连接器 ID
 - DIAGRAMNET-50556 - 从 VSS 模板文件检索时，不可见值属性不正确
 - DIAGRAMNET-50557-加载 diagram 流时发生索引超出范围错误
 - DIAGRAMNET-50571-加载 VSDX diagram 时发生 ArgumentException 错误
-- DIAGRAMNET-50573-VSD 到 PDF 转换，文本项被更改
-- DIAGRAMNET-50574-VSD 到 PDF 转换，输出 PDF 缺少过程类型形状
-- DIAGRAMNET-50575-VSD 到 PDF 转换，Anmerkung 形状的文本项错位
-- DIAGRAMNET-50580-VSDX 到 PDF 转换，缺少形状的文本项
-- DIAGRAMNET-50585-VSDX 到 HTML 转换，缺少形状的文本项
-- DIAGRAMNET-50591-VSDX 到 PDF 转换，缺少形状的文本项
-- DIAGRAMNET-50596-VSDX 到 HTML 转换，缺少形状的文本项
+- DIAGRAMNET-50573-VSD to PDF conversion, the text items are changed 
+- DIAGRAMNET-50574-VSD to PDF conversion, the output PDF is missing a process type shape 
+- DIAGRAMNET-50575-VSD to PDF conversion, the text items of Anmerkung shape are misplaced 
+- DIAGRAMNET-50580-VSDX to PDF conversion, missing shape's text item 
+- DIAGRAMNET-50585-VSDX to HTML conversion, missing shape's text item 
+- DIAGRAMNET-50591-VSDX to PDF conversion, missing shape's text item 
+- DIAGRAMNET-50596-VSDX to HTML conversion, missing shape's text item

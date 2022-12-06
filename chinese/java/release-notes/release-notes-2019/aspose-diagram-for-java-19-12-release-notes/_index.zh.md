@@ -14,6 +14,6 @@ url: /zh/java/aspose-diagram-for-java-19-12-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50663|无法从形状和字体中获得正确的填充颜色|漏洞|
-|DIAGRAMJAVA-50673|另存为 PDF 时某些形状的背景不正确|漏洞|
-|DIAGRAMJAVA-50674|Visio 到 PDF - API 正在生成损坏的 PDF|漏洞|
+|DIAGRAMJAVA-50673|Incorrect backgrounds on certain shapes when saving as PDF|漏洞|
+|DIAGRAMJAVA-50674|Visio to PDF - API is producing corrupted PDF|漏洞|
 

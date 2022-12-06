@@ -5,12 +5,12 @@ weight: 120
 url: /zh/net/utilizing-aspose-diagram-in-other-programming-languages/
 description: 本页介绍如何在其他编程语言中使用 Aspose.Diagram。
 ---
-## **通过 COM Interop 使用 Aspose.Diagram for .NET**
-本主题信息适用于开发者需要使用的场景[Aspose.Diagram for .NET](/diagram/zh/net/home/)通过 COM Interop 使用任何支持的语言。
+## **Use Aspose.Diagram for .NET via COM Interop**
+本主题信息适用于开发者需要使用的场景[Aspose.Diagram for .NET](/diagram/zh/net/home/) via COM Interop in any supported language.
 ### **使用 COM 互操作**
-Aspose.Diagram for .NET 在 .NET Framework 的控制下执行，这称为托管代码。用所有在 .NET Framework 之外运行的语言编写的代码称为非托管代码。非托管代码和 Aspose.Diagram 之间的交互通过名为 COM Interop 的 .NET 工具进行。
+Aspose.Diagram for .NET executes under the control of the .NET Framework and this is called managed code. The code written in all of the languages those runs outside the .NET Framework and it is called unmanaged code. Interaction between unmanaged code and Aspose.Diagram occurs via the .NET facility called COM Interop.
 
-Aspose.Diagram 对象是 .NET 对象，但当通过 COM Interop 使用时，它们在您的编程语言中显示为 COM 对象。因此，在您开始使用之前，最好确保您知道如何用您的编程语言创建和使用 COM 对象。[Aspose.Diagram for .NET](/diagram/zh/net/home/).
+Aspose.Diagram objects are .NET objects, but when used via COM Interop, they appear as COM objects in your programming language. Therefore, it is best to make sure you know how to create and use COM objects in your programming language, before you start using [Aspose.Diagram for .NET](/diagram/zh/net/home/).
 
 - 在 COM 世界中，我们区分 COM 服务器和 COM 客户端。 COM 服务器存储 COM 类，而 COM 客户端向 COM 服务器请求类实例，即 COM 对象。
 -  COM 客户端或简单的客户端应用程序可以了解 COM 类的某些内容或完全不知道其方法和属性。因此，客户端应用程序可以在编译/构建时或仅在执行期间发现 COM 类结构。 “发现”的过程被称为绑定，因此我们有**早期绑定**和**后期绑定**.
@@ -33,7 +33,7 @@ Aspose.Diagram 对象是 .NET 对象，但当通过 COM Interop 使用时，它�
 
 手动为 COM Interop 注册 Aspose.Diagram for .NET：
 
-1. 来自**开始**菜单，选择**所有程序**， 然后**Microsoft 视觉工作室**, **视觉工作室工具**最后，**Visual Studio 命令提示符**.在某些操作系统中，它也位于以下位置：“C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64”
+1. 来自**开始**菜单，选择**所有程序**， 然后**Microsoft Visual Studio**, **Visual Studio Tools**最后，**Visual Studio Command Prompt**.在某些操作系统中，它也位于以下位置：“C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64”
 1. 输入命令注册程序集：
    1. .NET Framework 2.0
 regasm "C:\Program Files\Aspose\Aspose.Diagram for .NET\bin\net2.0\Aspose.Diagram.dll" /codebase
@@ -48,8 +48,8 @@ regasm "C:\Program Files\Aspose\Aspose.Diagram for .NET\bin\net2.0\Aspose.Diagra
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- regasm.exe 是 .NET Framework SDK 中包含的一个工具。所有.NET Framework SDK工具都位于*\Microsoft .NET\Framevork\<框架版本>*目录，例如*C:\Windows\Microsoft .NET\Framework\v4.0.30319*.如果您使用 Visual Studio .NET：
-来自**开始**菜单，选择**程式**， 其次是**Microsoft 视觉工作室 .NET**， 然后**Visual Studio .NET 工具**最后，**Visual Studio .NET 2003 命令提示符**.
+ regasm.exe 是 .NET Framework SDK 中包含的一个工具。所有.NET Framework SDK工具都位于*\Microsoft .NET\Framevork\<框架版本>*目录，例如*C:\Windows\Microsoft .NET\Framework\v4.0.30319*. If you use Visual Studio .NET:
+来自**开始**菜单，选择**程式**， 其次是**Microsoft Visual Studio .NET**， 然后**Visual Studio .NET Tools**最后，**Visual Studio .NET 2003 Command Prompt**.
 它运行命令提示符，并设置了所有必要的环境变量。
 
 {{% /alert %}} 
@@ -79,20 +79,20 @@ COM 对象的创建类似于普通 .NET 对象的创建。一旦创建，您就�
 ## **Aspose.Diagram 资源**
 以下是您完成任务可能需要的一些有用资源的链接。
 - [Aspose.Diagram for Java 在线文档](https://docs.aspose.com/diagram/java/)
-- [Aspose.Diagram 用于 Node.js 通过 Java 在线文档](https://docs.aspose.com/diagram/nodejsjava/)
-- [Aspose.Diagram 为 Python 通过 Java 在线文档](https://docs.aspose.com/diagram/pythonjava/)
+- [Aspose.Diagram for Node.js via Java Online Documentation](https://docs.aspose.com/diagram/nodejsjava/)
+- [Aspose.Diagram for Python via Java Online Documentation](https://docs.aspose.com/diagram/pythonjava/)
 
 ##### **创建包装程序集**
 如果您需要使用许多 Aspose.Diagram for .NET 类、方法和属性，请考虑创建一个包装程序集（使用 C# 或任何其他 .NET 编程语言）。包装器程序集有助于避免直接从非托管代码使用 Aspose.Diagram for .NET。
 
 一个好的方法是开发一个 .NET 程序集，该程序集引用 Aspose.Diagram for .NET 并使用它完成所有工作，并且只向非托管代码公开一组最小的类和方法。然后您的应用程序应该只与您的包装器库一起工作。
 
-减少需要通过 COM Interop 调用的类和方法的数量可以简化项目。通过 COM Interop 使用 .NET 类通常需要高级技能。
+Reducing the number of classes and methods that you need to invoke via COM Interop simplifies the project. Using .NET classes via COM Interop often requires advanced skills. 
 ## **使用 COM Interop 在 PHP 中创建一个空的 Visio 绘图**
 ### **先决条件**
-配置您的 PHP 以使用 COM。看<http://www.php.net/manual/en/ref.com.php>.有关更多信息，请查看名为[通过 COM Interop 使用 Aspose.Diagram for .NET](/diagram/zh/net/home/).
+配置您的 PHP 以使用 COM。看<http://www.php.net/manual/en/ref.com.php>.有关更多信息，请查看名为[Use Aspose.Diagram for .NET via COM Interop](/diagram/zh/net/home/).
 ### **创建一个空的 Visio 绘图**
-这是一个简单的应用程序，向您展示如何使用以下方法创建空的 Visio 绘图[Aspose.Diagram for .NET](/diagram/zh/net/home/)在 PHP 中通过 COM 互操作。
+这是一个简单的应用程序，向您展示如何使用以下方法创建空的 Visio 绘图[Aspose.Diagram for .NET](/diagram/zh/net/home/) in PHP via COM Interop.
 
 **PHP**
 

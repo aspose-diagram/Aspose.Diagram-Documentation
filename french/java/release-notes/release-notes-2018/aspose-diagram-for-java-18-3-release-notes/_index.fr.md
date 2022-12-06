@@ -16,7 +16,7 @@ url: /fr/java/aspose-diagram-for-java-18-3-release-notes/
 |DIAGRAMJAVA-50592|Ajout de la prise en charge des instructions de traitement NewValue|Renforcement|
 |DIAGRAMJAVA-50150|Impossible d'accéder aux objets Shape TabsCollection|Punaise|
 |DIAGRAMJAVA-50588|Sortie VSDX - une forme de grande taille est ajoutée|Punaise|
-|DIAGRAMJAVA-50593|VSDX vers SVG - texte et couleurs d'arrière-plan incorrects|Punaise|
+|DIAGRAMJAVA-50593|VSDX to SVG - incorrect text and background colors|Punaise|
 |DIAGRAMJAVA-50595|Diagram devient noir et blanc lors de l'enregistrement du document VSDX|Punaise|
 ### **Ajoute le membre moveTo dans la classe Page**
 Le membre moveTo prend l'index de la page cible comme paramètre pour déplacer la position de la page dans le dessin Visio.

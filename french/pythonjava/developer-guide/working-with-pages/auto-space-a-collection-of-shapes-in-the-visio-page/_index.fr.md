@@ -5,7 +5,7 @@ weight: 30
 url: /fr/python-java/auto-space-a-collection-of-shapes-in-the-visio-page/
 ---
 ## **Espacement automatique d'une collection de formes dans la page Visio**
-Avec Aspose.Diagram pour Python via Java API, les développeurs peuvent espacer automatiquement une collection de formes dans le dessin Visio. Pour ce faire, la classe `Page` propose le membre `autoSpaceShapes` qui prend les paramètres ShapeCollection et AutoSpaceOptions. La classe `AutoSpaceOptions` permet de définir des distances horizontales et verticales.
+With Aspose.Diagram for Python via Java API, developers can auto-space a collection of shapes in the Visio drawing. In order to achieve this, the `Page` class offers `autoSpaceShapes` member which takes ShapeCollection and AutoSpaceOptions parameters. The `AutoSpaceOptions` class allows to set horizontal and vertical distances.
 
 ### **Espacer automatiquement les formes dans la page**
 Utilisez le code suivant dans votre application pour espacer automatiquement une collection de formes dans n'importe quelle page du dessin Visio.

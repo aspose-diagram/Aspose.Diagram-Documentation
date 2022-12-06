@@ -15,13 +15,13 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for .NET 19.8](htt
 |:- |:- |:- |
 |DIAGRAMNET-50334|Aggiungi il supporto di codici VBA / macro (aggiungi - modifica - elimina)|Aumento|
 |DIAGRAMNET-51083|Aggiunto il supporto del disegno Spline|Aumento|
-|DIAGRAMNET-51676|Visio in HTML: l'output contiene il nome del file|Aumento|
+|DIAGRAMNET-51676|Visio to HTML - output contains filename in it|Aumento|
 |DIAGRAMNET-50263|Impossibile impostare la posizione del testo del connettore come formule|Insetto|
-|DIAGRAMNET-50284|VTX alla conversione HTML, il colore di riempimento delle forme non viene mantenuto|Insetto|
-|DIAGRAMNET-50432|Conversione da VDX a PDF, metodo Diagram.setFontDirs usa solo il primo carattere su tutto il diagram|Insetto|
-|DIAGRAMNET-50463|Conversione da VSDX a PDF, rendering di forme mancanti o incomplete|Insetto|
-|DIAGRAMNET-51033|Le forme di rete non vengono conservate durante la conversione di un VSDX in PDF|Insetto|
-|DIAGRAMNET-51303|VSDX in PDF: il colore del testo sulle linee di collegamento viene modificato|Insetto|
+|DIAGRAMNET-50284|VTX to HTML conversion, shapes fill color is not preserved|Insetto|
+|DIAGRAMNET-50432|VDX to PDF conversion, Diagram.setFontDirs method use only first font over the whole diagram|Insetto|
+|DIAGRAMNET-50463|VSDX to PDF conversion, missing or incomplete shapes rendering|Insetto|
+|DIAGRAMNET-51033|The network shapes are not being preserved on converting a VSDX to PDF|Insetto|
+|DIAGRAMNET-51303|VSDX to PDF - the color of text on connecting lines is changed|Insetto|
 |DIAGRAMNET-51663|Si verifica un'eccezione non gestita durante la conversione da VSD a VSDX|Insetto|
 |DIAGRAMNET-51664|Il file viene danneggiato dopo aver rimosso un tema inutilizzato|Insetto|
 |DIAGRAMNET-51665|Le immagini vengono mostrate come X dopo aver rimosso i temi inutilizzati|Insetto|
@@ -29,9 +29,9 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for .NET 19.8](htt
 |DIAGRAMNET-51668|Da VISIO a JPG - l'immagine di output non è nel formato corretto|Insetto|
 |DIAGRAMNET-51671|Durante la rimozione di forme e stili principali inutilizzati, solo l'immagine presenta un problema|Insetto|
 |DIAGRAMNET-51672|Immagini perse durante il caricamento e il salvataggio|Insetto|
-|DIAGRAMNET-51677|Visio in HTML - Il collegamento nell'HTML generato non funziona|Insetto|
-|DIAGRAMNET-51678|Visio in HTML - Formato data non corretto durante il salvataggio in formato HTML|Insetto|
-|DIAGRAMNET-51679|Visio in PDF - Diversi errori di formattazione in PDF|Insetto|
+|DIAGRAMNET-51677|Visio to HTML - Link in generated HTML does not work|Insetto|
+|DIAGRAMNET-51678|Visio to HTML - Date Format incorrect when saving as HTML|Insetto|
+|DIAGRAMNET-51679|Visio to PDF - Several formatting errors in PDF|Insetto|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. In caso di dubbi su qualsiasi modifica elencata, segnalarli a il[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge DrawSpline in Page**

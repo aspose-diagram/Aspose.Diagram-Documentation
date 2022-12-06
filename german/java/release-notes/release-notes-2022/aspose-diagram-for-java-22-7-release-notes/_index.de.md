@@ -14,7 +14,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 22.7.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: Füllproblem erben|Erweiterung|
-|DIAGRAMJAVA-50446|Das Ausgabebild wird beim Konvertieren einer VSD in HTML verpixelt|Insekt|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|Insekt|
 |DIAGRAMJAVA-50996|Form wird nicht richtig angezeigt - stattdessen wird ein durchgestrichenes Rechteck angezeigt|Insekt|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

@@ -7,8 +7,8 @@ description: 本节说明如何合并 visio 文件
 ---
 ## **可能的使用场景**
 
- Aspose.Diagram for Python via Java 允许您将两个 visio 文件合并为一个。
-Aspose.Diagram for Python via Java API 具有代表 Visio 绘图的 Diagram 类。
+Aspose.Diagram for Python via Java allows you to combine two visio files to one. 
+Aspose.Diagram for Python via Java API has the Diagram class that represents a Visio drawing.
 使用方法**结合**在 Diagram 类中组合图表。
 
 ## **示例代码**

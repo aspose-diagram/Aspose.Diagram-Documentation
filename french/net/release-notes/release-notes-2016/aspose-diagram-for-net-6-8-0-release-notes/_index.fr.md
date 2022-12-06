@@ -16,21 +16,21 @@ url: /fr/net/aspose-diagram-for-net-6-8-0-release-notes/
 |DIAGRAMNET-50946|Ajout de la prise en charge de l'insertion de contrôles ActiveX dans la page Visio.|Nouvelle fonctionnalité|
 |DIAGRAMNET-51003|Ajout de la prise en charge pour définir la case à cocher de couleur du calque.|Nouvelle fonctionnalité|
 |DIAGRAMNET-50026|Les formes sont absentes du dessin VSDX.|Punaise|
-|DIAGRAMNET-50781|Les petites icônes des tableaux manquent lors de l'enregistrement d'un VSDX au format PDF.|Punaise|
+|DIAGRAMNET-50781|The small icons of the tables are missing on saving a VSDX to PDF.|Punaise|
 |DIAGRAMNET-50941|Récupération incorrecte des Connects d'un VSD.|Punaise|
-|DIAGRAMNET-50942|Un DPI incorrect est défini lors de l'enregistrement au format TIFF.|Punaise|
+|DIAGRAMNET-50942|An incorrect DPI is being set on saving in the TIFF.|Punaise|
 |DIAGRAMNET-50943|La connexion du connecteur dynamique n'est pas conservée sur les formes de regroupement.|Punaise|
-|DIAGRAMNET-50945|Un carré supplémentaire est ajouté autour de la forme du cercle lors de la conversion d'un VDX en PDF.|Punaise|
+|DIAGRAMNET-50945|An extra square is added around the circle shape on converting a VDX to PDF.|Punaise|
 |DIAGRAMNET-50948|Impossible de copier une page Visio dans le VSDM.|Punaise|
 |DIAGRAMNET-50950|Impossible de définir les en-têtes et les pieds de page d'un VSDX diagram.|Punaise|
 |DIAGRAMNET-50951|Microsoft Visio 2013 viewer n'affiche pas de VSDX diagram.|Punaise|
-|DIAGRAMNET-50957|Il manque un tableau lors de la conversion d'un VSDX en PNG.|Punaise|
+|DIAGRAMNET-50957|A table is missing on converting a VSDX to PNG.|Punaise|
 |DIAGRAMNET-50978|Rendu incomplet d'un connecteur dynamique dans le VSDM diagram.|Punaise|
 |DIAGRAMNET-50998|Une erreur de référence nulle s'est produite lors de l'insertion d'une image.|Punaise|
 |DIAGRAMNET-51001|Récupère un sens inverse du connecteur à partir d'un VSD diagram.|Punaise|
-|DIAGRAMNET-51004|Le problème d'alignement du texte lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51005|Les problèmes d'alignement et de formatage du texte lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51006|La mise en forme du texte en gras n'est pas conservée lors de la conversion d'un VSDX en PDF.|Punaise|
+|DIAGRAMNET-51004|The text alignment problem on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51005|The text alignment and formatting problems on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51006|The bold text formatting is not being preserved on converting a VSDX to PDF.|Punaise|
 |DIAGRAMNET-51011|Renvoie des connexions incorrectes, lors de la récupération à partir d'un VSD.|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Consultez la liste des modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).

@@ -13,10 +13,10 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|Skugga på hyperlänk-knappen renderas inte korrekt när VSDM sparas till SVG|Förbättring|
-|DIAGRAMNET-51526|VSDX till PDF - Gradientfyllning för pilspetsar som förloras i resulterande PDF|Förbättring|
-|DIAGRAMNET-51539|Gradienten i former har förlorats i utdata SVG|Förbättring|
-|DIAGRAMNET-50705|VSD till SVG-export - Metatyper förvandlas till röriga symboler|Insekt|
+|DIAGRAMNET-51198|Skugga på hyperlänksknappen återges inte korrekt när VSDM till SVG sparas|Förbättring|
+|DIAGRAMNET-51526|VSDX till PDF - Gradientfyllning för pilspetsar förlorade i resulterande PDF|Förbättring|
+|DIAGRAMNET-51539|Gradienten i former har tappats i output SVG|Förbättring|
+|DIAGRAMNET-50705|VSD till SVG export - Metatyper förvandlas till röriga symboler|Insekt|
 |DIAGRAMNET-51664|Filen blir skadad efter borttagning av oanvänt tema|Insekt|
 |DIAGRAMNET-51665|Bilder visas som X efter att oanvända teman har tagits bort|Insekt|
 |DIAGRAMNET-51684|När du tar bort oanvända masterformer och stilar är det bara bilden som har ett problem|Insekt|

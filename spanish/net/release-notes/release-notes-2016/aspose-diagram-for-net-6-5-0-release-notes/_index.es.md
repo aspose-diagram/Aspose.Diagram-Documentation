@@ -15,34 +15,34 @@ url: /es/net/aspose-diagram-for-net-6-5-0-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50555|No se pueden recuperar las conexiones del archivo de plantilla VSS.|Mejora|
 |DIAGRAMNET-50699|Admite la carga de comentarios para el archivo vsd.|Mejora|
-|DIAGRAMNET-50340|VSDX a la conversión de PDF, las flechas de los conectores dinámicos no se conservan.|Insecto|
-|DIAGRAMNET-50341|VSDX a la conversión de HTML, las flechas de los conectores dinámicos no se conservan.|Insecto|
-|DIAGRAMNET-50346|VSDX a conversión de PDF, secuencia incorrecta de saltos de línea en los elementos de texto.|Insecto|
-|DIAGRAMNET-50368|VSDX a conversión de PDF, los elementos de texto de color rojo están fuera de lugar.|Insecto|
-|DIAGRAMNET-50369|VSDX a la conversión de HTML, los elementos de texto de color rojo están fuera de lugar.|Insecto|
-|DIAGRAMNET-50380|VDX a la conversión de PNG, se cambia la apariencia de los conectores dinámicos.|Insecto|
-|DIAGRAMNET-50381|VDX a la conversión de SVG, se cambia la apariencia de los conectores dinámicos.|Insecto|
-|DIAGRAMNET-50501|VSD a la conversión de PDF, el texto de la forma también está disponible en forma de sombra.|Insecto|
-|DIAGRAMNET-50504|VSD a la conversión de PDF, los elementos de texto y las viñetas no están alineados correctamente.|Insecto|
-|DIAGRAMNET-50505|VSD a la conversión de HTML, los elementos de texto y las viñetas no están alineados correctamente.|Insecto|
-|DIAGRAMNET-50506|VSD a la conversión de HTML, los elementos de texto y las viñetas no están alineados correctamente.|Insecto|
-|DIAGRAMNET-50507|VSD a la conversión de PDF, los elementos de texto y las viñetas no están alineados correctamente.|Insecto|
-|DIAGRAMNET-50558|VSDX a conversión de PDF, faltan varias formas en el archivo PDF resultante.|Insecto|
-|DIAGRAMNET-50572|VSD a conversión de PDF, las líneas discontinuas se convierten en sólidas.|Insecto|
-|DIAGRAMNET-50714|VSD a la exportación de PDF: el color de fondo de las casillas de verificación no se conserva.|Insecto|
-|DIAGRAMNET-50715|VSD a exportación de PDF: el color de fondo de los cuadros de radio no se conserva.|Insecto|
-|DIAGRAMNET-50716|VSD a exportación PDF: se cambia el color de las listas de selección.|Insecto|
-|DIAGRAMNET-50730|La exportación de VSD a PDF no muestra las letras ligeramente por encima.|Insecto|
-|DIAGRAMNET-50731|VSD a la exportación HTML no muestra las letras ligeramente por encima.|Insecto|
-|DIAGRAMNET-50775|La posición del texto de algunos elementos es incorrecta al convertir un VSDX a SVG.|Insecto|
-|DIAGRAMNET-50776|Se agregan viñetas adicionales para guardar un VSD en PDF.|Insecto|
-|DIAGRAMNET-50782|Faltan formas al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50783|Faltan varios elementos de texto al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50784|Faltan formas al convertir un VSD a HTML.|Insecto|
-|DIAGRAMNET-50785|Faltan varios elementos de texto al convertir un VSD a HTML.|Insecto|
+|DIAGRAMNET-50340|VSDX to PDF conversion, the arrows of dynamic connectors are not preserved.|Insecto|
+|DIAGRAMNET-50341|VSDX to HTML conversion, the arrows of dynamic connectors are not preserved.|Insecto|
+|DIAGRAMNET-50346|VSDX to PDF conversion, incorrect sequence of line breaks in the text items.|Insecto|
+|DIAGRAMNET-50368|VSDX to PDF conversion, red color text items are misplaced.|Insecto|
+|DIAGRAMNET-50369|VSDX to HTML conversion, red color text items are misplaced.|Insecto|
+|DIAGRAMNET-50380|VDX to PNG conversion, the appearance of dynamic connectors is changed.|Insecto|
+|DIAGRAMNET-50381|VDX to SVG conversion, the appearance of dynamic connectors is changed.|Insecto|
+|DIAGRAMNET-50501|VSD to PDF conversion, the shape's text is also available in shape shadow.|Insecto|
+|DIAGRAMNET-50504|VSD to PDF conversion, the text items and bullets are not properly aligned.|Insecto|
+|DIAGRAMNET-50505|VSD to HTML conversion, the text items and bullets are not properly aligned.|Insecto|
+|DIAGRAMNET-50506|VSD to HTML conversion, the text items and bullets are not properly aligned.|Insecto|
+|DIAGRAMNET-50507|VSD to PDF conversion, the text items and bullets are not properly aligned.|Insecto|
+|DIAGRAMNET-50558|VSDX to PDF conversion, missing various shapes in the resultant PDF file.|Insecto|
+|DIAGRAMNET-50572|VSD to PDF conversion, the dashed type lines turn into a solid.|Insecto|
+|DIAGRAMNET-50714|VSD to PDF export - the background color of the checkboxes is not preserved.|Insecto|
+|DIAGRAMNET-50715|VSD to PDF export - the background color of the radio boxes is not preserved.|Insecto|
+|DIAGRAMNET-50716|VSD to PDF export - the color of selection lists is changed.|Insecto|
+|DIAGRAMNET-50730|VSD to PDF export does not render letters slightly above.|Insecto|
+|DIAGRAMNET-50731|VSD to HTML export does not render letters slightly above.|Insecto|
+|DIAGRAMNET-50775|The text position of some items is incorrect on converting a VSDX to SVG.|Insecto|
+|DIAGRAMNET-50776|Extra bullets are added for saving a VSD to PDF.|Insecto|
+|DIAGRAMNET-50782|Missing shapes on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50783|Missing various text items on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50784|Missing shapes on converting a VSD to HTML.|Insecto|
+|DIAGRAMNET-50785|Missing various text items on converting a VSD to HTML.|Insecto|
 |DIAGRAMNET-50786|La propiedad ImageSaveOptions.Resolution no funciona como se esperaba al exportar un VSDX a JPG.|Insecto|
-|DIAGRAMNET-50787|La posición de los elementos de texto se cambia al convertir un VSD a PDF.|Insecto|
-|DIAGRAMNET-50788|Falta el texto de la etiqueta de los botones al convertir un VSD a PDF.|Insecto|
+|DIAGRAMNET-50787|The position of text items is changed on converting a VSD to PDF.|Insecto|
+|DIAGRAMNET-50788|The label text of buttons is missing on converting a VSD to PDF.|Insecto|
 ### **Public API y cambios incompatibles con versiones anteriores**
 Consulte la lista para conocer los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 

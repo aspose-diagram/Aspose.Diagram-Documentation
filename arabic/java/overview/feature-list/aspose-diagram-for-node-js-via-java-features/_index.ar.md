@@ -1,11 +1,11 @@
 ﻿---
-title: Aspose.Diagram لـ Node.js عبر ميزات Java
+title: Aspose.Diagram لـ Node.js via Java ميزات
 type: docs
 weight: 10
 url: /ar/java/aspose-diagram-for-node-js-via-java-features/
-description: Visio Diagram Node.js عبر Java API تتضمن قائمة ميزات القراءة والكتابة والتصدير والطباعة والوصول Microsoft Visio 2003 ، 2007 ، 2010 ، 2013 ، VSD ، VSSM ، VSTX ، VSSM ، تنسيقات VST.
+description: Visio Diagram Node.js via Java API تشتمل قائمة الميزات على تنسيقات القراءة والكتابة والتصدير والطباعة والوصول Microsoft Visio 2003 و 2007 و 2010 و 2013 و VSD و VSSM و VSTX و VSSM و VSTX.
 ---
-يقدم هذا القسم مقارنة لتوافر الميزات Aspose.Diagram لـ Node.js عبر Java.
+يقدم هذا القسم مقارنة لتوافر الميزات Aspose.Diagram لـ Node.js via Java.
 ## **تنسيقات الملفات المدعومة**
 
 |**شكل**|**وصف**|**حمل**|**يحفظ**|**ملاحظات**|
@@ -22,24 +22,24 @@ description: Visio Diagram Node.js عبر Java API تتضمن قائمة ميز�
 |[VSTM](https://docs.fileformat.com/visio/vstm/)|VSTM الذي يحتوي على كل من قالب الرسم ووحدات الماكرو|{{< emoticons/tick >}}|{{< emoticons/tick >}}||
 |[VDW](https://docs.fileformat.com/visio/vdw/)|Visio نوع ملف رسم الويب|{{< emoticons/tick >}}|||
 |[VSS](https://docs.fileformat.com/visio/vss/)|نوع ملف الاستنسل Visio|{{< emoticons/tick >}}|||
-|[VST](https://docs.fileformat.com/visio/vst/)|ملف قالب VST|{{< emoticons/tick >}}|||
-|[بي دي إف](https://docs.fileformat.com/pdf/)|PDF (تنسيق المستند المحمول)||{{< emoticons/tick >}}||
+|[VST](https://docs.fileformat.com/visio/vst/)|VST ملف القالب|{{< emoticons/tick >}}|||
+|[PDF](https://docs.fileformat.com/pdf/)|PDF (تنسيق المستند المحمول)||{{< emoticons/tick >}}||
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|تنسيق XPS||{{< emoticons/tick >}}||
 |[XAML](https://docs.fileformat.com/web/xaml/)|تنسيق XAML||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|رسومات متجهة قابلة للتطوير (تنسيق صورة متجه مستند إلى XML)||{{< emoticons/tick >}}||
 |[EMF](https://docs.fileformat.com/image/emf/)|ملف التعريف المحسن||{{< emoticons/tick >}}||
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|تنسيق JPEG||{{< emoticons/tick >}}||
-|[بي إن جي](https://docs.fileformat.com/image/png/)|تنسيق PNG||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|تنسيق PNG||{{< emoticons/tick >}}||
 |[BMP](https://docs.fileformat.com/image/bmp/)|تنسيق BMP||{{< emoticons/tick >}}||
-|[شجار](https://docs.fileformat.com/image/tiff/)|صورة TIFF أحادية أو متعددة الصفحات||{{< emoticons/tick >}}||
-## **Aspose.Diagram لـ Node.js عبر Java - الميزات**
+|[TIFF](https://docs.fileformat.com/image/tiff/)|صورة واحدة أو متعددة الصفحات TIFF||{{< emoticons/tick >}}||
+## **Aspose.Diagram لـ Node.js via Java - الميزات**
 ### **خلق**
 - قم بإنشاء الرسوم التخطيطية من البداية.
 ### **اقرأ**
 - قراءة Microsoft Visio 2003/2007/2010 VSD تنسيق.
 - قراءة Microsoft Visio 2003/2007/2010 تنسيق VSS.
 - قراءة Microsoft Visio 2003/2007/2010 تنسيق VDW.
-- قراءة Microsoft Visio 2003/2007/2010 تنسيق VST.
+- قراءة Microsoft Visio 2003/2007/2010 VST تنسيق.
 ### **اقرا و اكتب**
 - قراءة أو كتابة Microsoft Visio 2013 VSDX تنسيق.
 - قراءة أو كتابة Microsoft Visio 2013 VSSX تنسيق.
@@ -51,11 +51,11 @@ description: Visio Diagram Node.js عبر Java API تتضمن قائمة ميز�
 - قراءة أو كتابة Microsoft Visio 2003/2007/2010 VSX تنسيق.
 - قراءة أو كتابة Microsoft Visio 2003/2007/2010 VTX تنسيق.
 ### **يصدّر**
-- تصدير المخططات (VSD و VSDX و VSS و VSSX و VTX و VDX و VDW و VST و VSTX و VSX) إلى تنسيقات الصور الشائعة (BMP و JPEG و TIFF و EMF و SVG و PNG).
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى PDF.
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى HTML.
+- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى تنسيقات الصور الشائعة (BMP ، JPEG ، TIFF ، VSDX ، VSDX ، VSDX و VSDX)
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى PDF.
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى HTML.
 - تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى مواصفات ورق XML (XPS).
-- تصدير المخططات (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى XAML.
+- مخططات التصدير (VSD ، VSDX ، VSS ، VSSX ، VTX ، VDX ، VDW ، VST ، VSTX و VSX) إلى XAML.
 ### **مطبعة**
 - طباعة الرسوم البيانية Visio بدقة عالية.
 ### **وصول**

@@ -13,9 +13,9 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- Le posizioni dei proiettili di prova in VSDX -> SVG non sono corrette [JAVA]|Aumento|
-|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- Le posizioni dei proiettili di prova in VSDX -> SVG non sono corrette [JAVA]|Aumento|
+|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|Aumento|
+|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- Test bullet positions in VSDX -> SVG are incorrect [JAVA]|Aumento|
 |DIAGRAMJAVA-50689|DIAGRAMJAVA-50689- Impossibile ottenere le informazioni che le forme e il contenitore sono collegati in un modo in VSDX|Aumento|
 ## **Public API e modifiche incompatibili con le versioni precedenti**
 - Opzioni SWFSave rimosse
-- Rimosso SaveFileFormat.SWF
+- Removed SaveFileFormat.SWF

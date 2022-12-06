@@ -6,7 +6,7 @@ url: /sv/python-net/aspose-diagram-for-python-via-net-22-9-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Den här sidan innehåller releasenotes för Aspose.Diagram för Python via .NET 22.9.
+Den här sidan innehåller utgåvor för Aspose.Diagram för Python via .NET 22.9.
 
 {{% /alert %}} 
 
@@ -17,7 +17,7 @@ Den här sidan innehåller releasenotes för Aspose.Diagram för Python via .NET
 |DIAGRAMNET-52951|Felaktigt resultat efter export till HTML|Insekt|
 |DIAGRAMNET-52958|App: Sparar vsd till Vsdx effekten är fel|Insekt|
 |DIAGRAMNET-52964|Bildkvalitet i HTML|Insekt|
-|DIAGRAMNET-52965|Problem med HTML-utdata|Insekt|
+|DIAGRAMNET-52965|Utgåva i HTML utgång|Insekt|
 |DIAGRAMNET-52972|Tomma fastigheter som returnerar ��0�� som värde|Insekt|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

@@ -13,12 +13,12 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52019|Convertir Visio en HTML - pages incomplètes dans la sortie|Renforcement|
+|DIAGRAMNET-52019|Convert Visio to HTML - incomplete pages in the output|Renforcement|
 |DIAGRAMNET-52021|Certains accessoires de forme ne sont pas mis à jour|Renforcement|
-|DIAGRAMNET-50965|Il manque une bordure et le problème d'alignement du texte lors de la conversion d'un VSDX en PNG|Punaise|
-|DIAGRAMNET-51035|Le thème des formes n'est pas conservé lors de la conversion d'un VSDX en PDF|Punaise|
+|DIAGRAMNET-50965|Missing a borderline and the text alignment problem on converting a VSDX to PNG|Punaise|
+|DIAGRAMNET-51035|Theme of shapes is not being preserved on converting a VSDX to PDF|Punaise|
 |DIAGRAMNET-52023|Enregistrer VSDX/VSDM sous VSDX - Une exception est levée par le API|Punaise|
-|DIAGRAMNET-52025|Visio en PDF - ArgumentOutOfRangeException se produit|Punaise|
+|DIAGRAMNET-52025|Visio to PDF - ArgumentOutOfRangeException occurs|Punaise|
 
 
 

@@ -20,10 +20,10 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.9.
 |DIAGRAMNET-52197|Laden und Speichern von vsdx Änderungswert von DisplayMode|Erweiterung|
 |DIAGRAMNET-52205|Doppelklicken Sie auf ein Ereignis, das in der Form fehlt|Erweiterung|
 |DIAGRAMNET-51877|Ausnahme „Parameter ist nicht gültig“ beim Rendern der Datei VSD|Insekt|
-|DIAGRAMNET-52114|"Parameter ist nicht gültig." Ausnahme beim Rendern der Datei VSD in PNG/JPG|Insekt|
+|DIAGRAMNET-52114|"Parameter is not valid." exception when rendering VSD file to PNG/JPG|Insekt|
 |DIAGRAMNET-52124|Speichern von Visio als HTML-Problem|Insekt|
-|DIAGRAMNET-52127|Speichern von Visio mit Hilfszeilen zum HTML-Problem|Insekt|
-|DIAGRAMNET-52148|VSDX zu PDF - Durchgestrichener Text ist in PDF nicht korrekt|Insekt|
+|DIAGRAMNET-52127|Saving Visio with helper lines to HTML issue|Insekt|
+|DIAGRAMNET-52148|VSDX to PDF - Strikethrough text is not correct in PDF|Insekt|
 |DIAGRAMNET-52150|Wert der benutzerdefinierten Zellformel CONT kann nicht extrahiert werden.|Insekt|
 |DIAGRAMNET-52229|Benutzerdefinierte Zelle wird umbenannt|Insekt|
 |DIAGRAMNET-52231|Die Option "Klebe" des Verbinders zur Form geht verloren|Insekt|

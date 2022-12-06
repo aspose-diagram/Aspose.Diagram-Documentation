@@ -13,15 +13,15 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-50560|Admite guardar diagramas en HTML con o sin recursos integrados|Mejora|
+|DIAGRAMNET-50560|Support saving diagrams to HTML with or without embedded resources|Mejora|
 |DIAGRAMNET-52499|Agregue soporte para guardar html en una transmisión única|Mejora|
-|DIAGRAMNET-50562|VSDX a PDF: faltan formas en la salida|Insecto|
-|DIAGRAMNET-50780|Las líneas de borde de las tablas no son visibles al guardar un VSDX en PDF|Insecto|
-|DIAGRAMNET-50962|Faltan las líneas de borde de las tablas al convertir un VSDX a PNG|Insecto|
-|DIAGRAMNET-50992|La línea del borde izquierdo de la tabla no es visible al convertir un VSDX a PDF|Insecto|
-|DIAGRAMNET-51034|Falta el sombreado de las formas al convertir un VSDX a PDF|Insecto|
-|DIAGRAMNET-51186|Diseño incorrecto de formas de tipo meta al convertir un VSD a PDF|Insecto|
-|DIAGRAMNET-51226|Aspose.Diagram 17.3.0: Guardar en flujo HTML no incrustar recursos externos|Insecto|
+|DIAGRAMNET-50562|VSDX to PDF - Shapes are missing from the output|Insecto|
+|DIAGRAMNET-50780|The border lines of the tables are not visible on saving a VSDX to PDF|Insecto|
+|DIAGRAMNET-50962|The border lines of tables are missing on converting a VSDX to PNG|Insecto|
+|DIAGRAMNET-50992|The left border line of the table is not visible on converting a VSDX to PDF|Insecto|
+|DIAGRAMNET-51034|The shading of shapes is missing on converting a VSDX to PDF|Insecto|
+|DIAGRAMNET-51186|Incorrect layout of meta type shapes on converting a VSD to PDF|Insecto|
+|DIAGRAMNET-51226|Aspose.Diagram 17.3.0: Saving to HTML stream do not embed external resources|Insecto|
 |DIAGRAMNET-52506|Page.Copy() no copia los cambios del desarrollador|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

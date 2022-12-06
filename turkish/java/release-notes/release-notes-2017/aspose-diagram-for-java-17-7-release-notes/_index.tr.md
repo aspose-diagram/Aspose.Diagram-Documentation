@@ -14,9 +14,9 @@ url: /tr/java/aspose-diagram-for-java-17-7-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50491|Yeni formüle edilmiş şekil yüksekliği alınamıyor.|Artırma|
-|DIAGRAMJAVA-50510|VSD'den SVG'ye - şekillerde yanlış dolgu rengi deseni.|Artırma|
+|DIAGRAMJAVA-50510|VSD ila SVG - şekillerde yanlış dolgu rengi deseni.|Artırma|
 |DIAGRAMJAVA-50483|Bir çizimi VSDX formatında kaydederken şekillerin eksik bağlantısı.|Böcek|
-|DIAGRAMJAVA-50488|VSD, SVG'ye dönüştürülürken ek metin öğeleri eklenir.|Böcek|
+|DIAGRAMJAVA-50488|VSD, SVG'e dönüştürülürken ek metin öğeleri eklenir.|Böcek|
 |DIAGRAMJAVA-50490|VSDX çizimi oluşturulurken önceden tanımlanmış işlem kutusunun dikey sınır çizgileri kalın.|Böcek|
 |DIAGRAMJAVA-50495|Çıktı VSDX - şekillere metin eklerken bağlayıcı çizginin yanlış düzeni.|Böcek|
 |DIAGRAMJAVA-50496|Çıkış VSDX - tüm konektörler yukarı kaydırılır.|Böcek|

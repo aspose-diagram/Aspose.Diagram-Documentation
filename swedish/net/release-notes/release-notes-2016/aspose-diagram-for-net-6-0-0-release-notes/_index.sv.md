@@ -10,12 +10,12 @@ Den här versionen introducerar funktionerna, förbättringarna och buggfixarna 
 - DIAGRAMNET-50617-Lägg till stöd för att avgöra om två former är limmade eller anslutna
 - DIAGRAMNET-50641-VSD till VDX export, skuggan av formerna saknas
 ## **Buggar**
-- DIAGRAMNET-50303-VSD till PDF-export, tom PDF med vit fläck genereras
+- DIAGRAMNET-50303-VSD till PDF export, tom PDF med vit fläck genereras
 - DIAGRAMNET-50466-VSD till VDX konvertering, kurvdynamiska kontakter förvandlas till raka
-- DIAGRAMNET-50472-VSD till HTML-konvertering, textformen är felplacerad
-- DIAGRAMNET-50473-VSD till PDF-konvertering, texten "Iloprost" läggs till i sidhuvudet på alla sidor
-- DIAGRAMNET-50474-VSD till PDF-konvertering, listobjekten är felplacerade
-- DIAGRAMNET-50480-VSD till HTML-konvertering, texten "Iloprost" läggs till i sidhuvudet på alla sidor
+- DIAGRAMNET-50472-VSD till HTML konvertering, textformen är felplacerad
+- DIAGRAMNET-50473-VSD till PDF konvertering, texten "Iloprost" läggs till i sidhuvudet på alla sidor
+- DIAGRAMNET-50474-VSD till PDF konvertering, listobjekten är felplacerade
+- DIAGRAMNET-50480-VSD till HTML konvertering, texten "Iloprost" läggs till i sidhuvudet på alla sidor
 - DIAGRAMNET-50622-Kan inte detektera inkommande noder för de anslutna formerna
 - DIAGRAMNET-50623-Geometrin på kontaktformerna är felaktig
 - DIAGRAMNET-50624-Geometrin på kontaktformerna är felaktig

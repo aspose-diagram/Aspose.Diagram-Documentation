@@ -5,7 +5,7 @@ weight: 160
 url: /de/python-java/working-with-layers/
 ---
 ### **Konfigurieren von Formobjekten mit Ebenen**
-Aspose.Diagram für Python über Java ermöglicht die Konfiguration von Formobjekten mit Ebenen in Microsoft Office Visio diagram. Jede Form kann zu mehreren Ebenen gehören, sodass Entwickler Formen verwalten können, die den Anforderungen des Endbenutzers entsprechen.
+Aspose.Diagram for Python via Java allows to configure shape objects with layers in Microsoft Office Visio diagram. Each shape can belong to multiple layers so developers can manage shapes to suit end user needs.
 
  Das[Form](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) Das Klassenobjekt bietet die LayerMember-Eigenschaft, mit der Formobjekte zu den Ebenen in der Visio-Zeichnung hinzugefügt / entfernt werden können. Benutzer können diese Eigenschaften programmgesteuert mit Aspose.Diagram API wie folgt verwalten:
 
@@ -15,7 +15,7 @@ Der folgende Codeabschnitt hilft beim Hinzufügen, Entfernen und Verschieben von
 #### **Programmierbeispiele**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Layers-ConfigureShapeLayers.py" >}}
 ### **Fügen Sie eine Ebene im PageSheet Visio hinzu**
-Aspose.Diagram für Python über Java ermöglicht es Entwicklern, neue Ebenen hinzuzufügen, um benutzerdefinierte Kategorien von Formen zu organisieren, und diesen Ebenen dann programmgesteuert Formen zuzuweisen.
+Aspose.Diagram for Python via Java allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically.
 
  Das[LayerCollection](https://reference.aspose.com/diagram/java/com.aspose.diagram/LayerCollection) Die Klasse bietet die Methode add an, mit der Sie eine neue hinzufügen können[Schicht](https://reference.aspose.com/diagram/java/com.aspose.diagram/layer) Klassenobjekt ein[die Zeichnung Visio](DrawingFlowChart.vsdx). Entwickler können Layer-Eigenschaften festlegen, indem sie ihr Klassenobjekt initialisieren.
 
@@ -25,7 +25,7 @@ Der folgende Codeabschnitt hilft beim Hinzufügen von Layer-Objekten.
 
 {{% alert color="primary" %}} 
 
-Aspose.Diagram für Python über Java gibt Entwicklern Zugriff auf die bestehenden Schichten von Visio diagram.
+Aspose.Diagram for Python via Java gives developers access to the existing layers of Visio diagram.
 
 {{% /alert %}} 
 ### **Holen Sie sich alle verfügbaren Ebenen**

@@ -13,4 +13,4 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.8.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50701|Kopf-/Fußzeile werden beim Konvertieren von Diagram in PDF, PNG und HTML nicht beibehalten|Erweiterung|
+|DIAGRAMJAVA-50701|Header/Footer are not being preserved while converting Diagram to PDF, PNG and HTML|Erweiterung|

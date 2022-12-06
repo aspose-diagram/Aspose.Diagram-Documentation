@@ -12,12 +12,12 @@ Den här sidan sammanfattar Aspose.Diagram för Python via .NET funktioner.
 
 {{% /alert %}} 
 ## **Filformat och konverteringar**
-- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VDX, VSDX, VSTX, VSSX.
+- VSD, VSX,VTX, VDX, VSDX, VSTX, VSSX, VSTM, VSSM, HTML, XPS, PDF, and popular image formats including TIFF, JPG, PNG, BMP, and SVG.
 ## **Rendering och tryckning**
 - Återge sidor till vektorbilder (EMF)
-- Rendera sidor till rasterbilder (Flersidig TIFF, GIF)
-- Rendera sidor till rasterbilder (PNG, JPEG, etc.)
-- Återge sidor till PDF med hög kvalitet
+- Rendera sidor till rasterbilder (flersidig TIFF, GIF)
+- Återge sidor till rasterbilder (PNG, JPEG, etc.)
+- Återge sidor till PDF med hög trohet
 ## **Visio Innehållsfunktioner**
 - Kopiera eller flytta sidor inom eller mellan diagram
 - Infoga bilder med API

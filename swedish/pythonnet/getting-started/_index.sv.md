@@ -8,7 +8,7 @@ keywords: python, visio, instal
 description: Ställ in Aspose.Diagram för Python via .NET och installationsriktlinjer.
 ---
 ## **Systemkrav**
- Aspose.Diagram för Python via .NET är plattformsoberoende API och kan användas på vilken plattform som helst (Windows och Linux) där[Python](https://www.python.org/downloads/) är installerad.
+ Aspose.Diagram för Python via .NET är plattformsoberoende API och kan användas på alla plattformar (Windows och Linux) där[Python](https://www.python.org/downloads/) är installerad.
 
 ## **Python Version**
 - Python 3.6 eller högre
@@ -30,7 +30,7 @@ description: Ställ in Aspose.Diagram för Python via .NET och installationsrikt
 
 {{< /highlight >}}
 
-## **Skapa Hello World-applikationen**
+## **Skapar Hello World-applikationen**
 
 -  Skapa en fil med namnet**SkaparNewVisioFile.py** och använd följande exempelkod:
 

@@ -13,5 +13,5 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX a conversión de HTML, cuadro de rectángulo en blanco en lugar de icono de metaarchivo|Mejora|
+|DIAGRAMJAVA-50118|VTX to HTML conversion, blank rectangle box instead of meta file icon|Mejora|
 

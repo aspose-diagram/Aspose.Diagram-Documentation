@@ -9,7 +9,7 @@ url: /tr/java/public-api-changes-in-aspose-diagram-5-9-0/
 Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 5.8.0 sürümünden 5.9.0 sürümüne Aspose.Diagram API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri değil, aynı zamanda Aspose.Diagram'deki perde arkasındaki davranışlardaki değişikliklerin açıklamasını da içerir.
 
 {{% /alert %}} 
-### **Sonuç HTML'sini Akışa Kaydet**
+### **Sonuç HTML'i Akışa Kaydet**
 Diagram sınıfına yeni kaydetme yöntemi eklendi. Akış nesnesi ve dosya kaydetme biçimi olmak üzere iki parametre alır.
 Örnek kod:
 

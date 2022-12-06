@@ -21,6 +21,6 @@ $diagram->save($dataDir."Diagram.vdx", $saveFileFormat->VDX);
 
 {{< /highlight >}}
 ## **Descargar código de ejecución**
- Descargar**Exportar Visio Diagram a XPS (Aspose.Diagram)**de cualquiera de los sitios de codificación social mencionados a continuación:
+ Descargar**Export Visio Diagram to XPS (Aspose.Diagram)**de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/SavingVisioDocument.php)

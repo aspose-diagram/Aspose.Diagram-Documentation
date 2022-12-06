@@ -13,8 +13,8 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50574|VSD a SVG: los elementos de texto están fuera de lugar|Insecto|
+|DIAGRAMJAVA-50574|VSD to SVG - the text items are misplaced|Insecto|
 |DIAGRAMJAVA-50705|Regresión en Diagram - Tipo de pincel no compatible|Insecto|
-|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException al convertir VSD a SVG|Insecto|
-|DIAGRAMJAVA-50707|VSDX a PDF: Error en formas de elementos|Insecto|
+|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException while converting VSD to SVG|Insecto|
+|DIAGRAMJAVA-50707|VSDX to PDF: Error in element Shapes|Insecto|
 

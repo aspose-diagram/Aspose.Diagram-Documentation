@@ -15,8 +15,8 @@ url: /zh/net/aspose-diagram-for-net-19-1-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51082|添加绘制折线的支持|强化|
 |DIAGRAMNET-51084|添加对绘制贝塞尔曲线的支持|强化|
-|DIAGRAMNET-51231|另存为图像或 HTML 时呈现评论|强化|
-|DIAGRAMNET-51597|VISIO 到 SVG - 矩形元素使用<path>标记而不是<Rect>|强化|
+|DIAGRAMNET-51231|Render comments when saving as image or HTML|强化|
+|DIAGRAMNET-51597|VISIO to SVG - Rectangle elements use <path>标记而不是<Rect>|强化|
 |DIAGRAMNET-50764|VSDX 读取缺少各种形状的颜色值|漏洞|
 |DIAGRAMNET-51336|修复 Aspose.Diagram for .NET/Java 版本中的问题|漏洞|
 |DIAGRAMNET-51343|输出 VSDX - 形状大小没有改变|漏洞|

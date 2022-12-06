@@ -36,12 +36,12 @@ Aspose.Diagram for Java API يسمح للمطورين بالوصول إلى أش
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ReplaceShapePicture-ReplaceShapePicture.java" >}}
 ## **استيراد صورة نقطية كشكل Visio**
 Aspose.Diagram for Java API يسمح الآن للمطورين باستيراد صورة نقطية كشكل Microsoft Visio.
-### **أدخل صورة BMP في Visio**
+### **أدخل BMP صورة في Visio**
 يوضح الكود الموجود في العينات أدناه كيفية:
 
 1. قم بإنشاء diagram.
 1. احصل على Visio صفحة
 1. قم باستيراد صورة نقطية كشكل Visio
 1. احفظ diagram.
-#### **أدخل نموذجًا لبرمجة صورة BMP**
+#### **أدخل BMP عينة برمجة صورة**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.java" >}}

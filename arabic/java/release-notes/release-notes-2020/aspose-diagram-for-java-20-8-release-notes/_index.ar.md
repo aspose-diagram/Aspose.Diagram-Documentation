@@ -13,4 +13,4 @@ url: /ar/java/aspose-diagram-for-java-20-8-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50701|لا يتم الاحتفاظ بالرأس / التذييل أثناء تحويل Diagram إلى PDF و PNG و HTML|التعزيز|
+|DIAGRAMJAVA-50701|لم يتم الاحتفاظ بالرأس / التذييل أثناء التحويل Diagram إلى PDF و PNG و HTML|التعزيز|

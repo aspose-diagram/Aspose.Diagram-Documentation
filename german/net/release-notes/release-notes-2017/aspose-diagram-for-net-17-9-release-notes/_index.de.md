@@ -16,17 +16,17 @@ url: /de/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|Unterstützung für die Konvertierung des bestimmten Bereichs einer Zeichnung in ein Bild hinzufügen|Erweiterung|
 |DIAGRAMNET-51350|Fügen Sie Unterstützung hinzu, um Formen nach Namen abzurufen|Erweiterung|
 |DIAGRAMNET-51351|Unterstützung für das Abrufen der Form aus Annotation hinzugefügt|Erweiterung|
-|DIAGRAMNET-51295|VSDX zu SVG - die niedrige Qualität der SVG-Ausgabe|Insekt|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG|Insekt|
 |DIAGRAMNET-51309|DiagramException tritt beim Speichern der Datei VSDX auf|Insekt|
-|DIAGRAMNET-51331|VSDM zu SVG - die Textelemente werden nach oben verschoben|Insekt|
-|DIAGRAMNET-51333|VSDM zu SVG - falsche Darstellung der kreisförmigen Symbole|Insekt|
-|DIAGRAMNET-51339|VSDX zu SVG - das Abschneiden von Text von der rechten Seite jedes Bildes|Insekt|
+|DIAGRAMNET-51331|VSDM to SVG - the text items are shifted up|Insekt|
+|DIAGRAMNET-51333|VSDM to SVG - incorrect rendering of the circular icons|Insekt|
+|DIAGRAMNET-51339|VSDX to SVG - the truncation of text from the right side of each image|Insekt|
 |DIAGRAMNET-51340|Falsche Reihenfolge der Kommentare|Insekt|
 |` `DIAGRAMNET-51342|Nicht genügend Arbeitsspeicher nach Verwendung der „AddComment“-Methode und Speichern der Datei in Steam|Insekt|
-|DIAGRAMNET-51344|VSDX an PDF – ein Argument außerhalb des zulässigen Bereichs ist aufgetreten|Insekt|
+|DIAGRAMNET-51344|VSDX to PDF - an argument out of range error occurred|Insekt|
 |DIAGRAMNET-51345|Der Kommentar wird nicht zusammen mit der Form gelöscht|Insekt|
-|DIAGRAMNET-51346|VSDM zu SVG - die Logoqualität wird heruntergestuft|Insekt|
-|DIAGRAMNET-51347|VSDM zu SVG - die Logoqualität wird heruntergestuft|Insekt|
+|DIAGRAMNET-51346|VSDM to SVG - the logo quality is downgraded|Insekt|
+|DIAGRAMNET-51347|VSDM to SVG - the logo quality is downgraded|Insekt|
 |DIAGRAMNET-51353|Auf der Seite Visio kann kein weiterer Kommentar hinzugefügt werden|Insekt|
 |DIAGRAMNET-51354|Kommentare auf der Seite Visio können nicht bearbeitet werden|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

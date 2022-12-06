@@ -18,14 +18,14 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for .NET 19.4](https://ww
 |DIAGRAMNET-51626|API excel verilerini işlemez|Artırma|
 |DIAGRAMNET-51627|Dependson formülü temelinde şekil verilerini ayıklayın|Artırma|
 |DIAGRAMNET-51629|Bir çizimi sığdırmak için bir sayfayı büyütmek işe yaramıyor gibi görünüyor|Artırma|
-|DIAGRAMNET-51176|Bir VSDM, SVG'ye dönüştürülürken degrade başlık çubuğu değiştirilir|Böcek|
+|DIAGRAMNET-51176|Bir VSDM, SVG'e dönüştürüldüğünde degrade başlık çubuğu değiştirilir|Böcek|
 |DIAGRAMNET-51404|VSD - Resim - Şekil rengi koyu|Böcek|
-|DIAGRAMNET-51473|VDX'den PDF'ye - Yanlış arka plan rengi|Böcek|
-|DIAGRAMNET-51475|VSDX'den PDF'ye - Degradeler tersine işleniyor|Böcek|
-|DIAGRAMNET-51616|Visio'den PDF'ye - Degrade, çıktı PDF'sinde baş aşağı işleniyor|Böcek|
-|DIAGRAMNET-51630|VSDX'den HTML'ye - Şekillerin arka plan rengi çıktıda mevcut değil|Böcek|
-|DIAGRAMNET-51631|VSDX'den PDF'ye - Şekillerin arka plan rengi çıktıda mevcut değil|Böcek|
-|DIAGRAMNET-51632|VSD'den SVG'ye - '' türündeki nesne " " türüne aktarılamadı İstisna oluştu|Böcek|
+|DIAGRAMNET-51473|VDX - PDF - Yanlış arka plan rengi|Böcek|
+|DIAGRAMNET-51475|VSDX - PDF - Degradeler tersine işleniyor|Böcek|
+|DIAGRAMNET-51616|Visio - PDF - Degrade, PDF çıktısında ters işleniyor|Böcek|
+|DIAGRAMNET-51630|VSDX - HTML - Çıktıda şekillerin arka plan rengi yok|Böcek|
+|DIAGRAMNET-51631|VSDX - PDF - Çıktıda şekillerin arka plan rengi yok|Böcek|
+|DIAGRAMNET-51632|VSD - SVG - '' türündeki nesne " " türüne dönüştürülemiyor İstisna oluştu|Böcek|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen the[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).

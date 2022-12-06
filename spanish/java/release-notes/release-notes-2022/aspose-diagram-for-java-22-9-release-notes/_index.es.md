@@ -13,7 +13,7 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: forma distorsionada después de guardar en PNG|Mejora|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|Mejora|
 |DIAGRAMJAVA-51015|wk: nombre de forma en un idioma que no sea inglés|Insecto|
 |DIAGRAMJAVA-51020|wk: El nombre de la forma Hoja con una capa no se resuelve correctamente|Insecto|
 

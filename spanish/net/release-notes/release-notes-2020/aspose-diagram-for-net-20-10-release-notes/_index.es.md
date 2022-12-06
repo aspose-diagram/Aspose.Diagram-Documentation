@@ -15,14 +15,14 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |:- |:- |:- |
 |DIAGRAMNET-51891|Visio a JPG - API está tardando mucho en convertirse|Mejora|
 |DIAGRAMNET-51902|Los archivos Visio con versiones inferiores a 11 no son compatibles, excepto al abrir VSS|Mejora|
-|DIAGRAMNET-51906|Exportar VSDX a PDF: problemas con el ancho de línea, la imagen y el dimensionamiento|Mejora|
-|DIAGRAMNET-51929|Conversión de VSD a SVG: Transformaciones de matriz en el archivo SVG de salida|Mejora|
-|DIAGRAMNET-51931|Visio a PDF - API consume una gran cantidad de memoria y lleva mucho tiempo|Mejora|
-|DIAGRAMNET-51936|[Cont.]Visio a PDF - API consume una gran cantidad de memoria y tarda mucho tiempo|Mejora|
+|DIAGRAMNET-51906|Export VSDX to PDF: problems with line width, image and dimensioning|Mejora|
+|DIAGRAMNET-51929|VSD to SVG conversion: Matrix transformations in the output SVG file|Mejora|
+|DIAGRAMNET-51931|Visio to PDF - API is consuming large amount of memory and taking long time|Mejora|
+|DIAGRAMNET-51936|[Cont.]Visio to PDF - API is consuming large amount of memory and taking long time|Mejora|
 |DIAGRAMNET-51881|La posición de 2 etiquetas no es correcta|Insecto|
 |DIAGRAMNET-51907|Ocurrió un error genérico en la excepción GDI+ al procesar el archivo VSDX|Insecto|
-|DIAGRAMANET-51926-|Aspose.Diagram 20.9: NullReferenceException al convertir VDX a PNG|Insecto|
-|DIAGRAMNET-51928|Conversión de VSD a SVG: faltan algunas flechas y texto al final de las líneas|Insecto|
+|DIAGRAMANET-51926-|Aspose.Diagram 20.9: NullReferenceException when converting VDX to PNG|Insecto|
+|DIAGRAMNET-51928|VSD to SVG conversion: Some text and arrows at the end of the lines are missing|Insecto|
 |DIAGRAMNET-51932|Estilos de forma perdidos después de la conversión vsd -> vsdx|Insecto|
 |DIAGRAMNET-51933|El gradiente detiene el formato que no cumple con el estándar svg|Insecto|
 |DIAGRAMNET-51934|Object reference not set to an instance of an object.' when saving VSS shapes for specific file|Insecto|

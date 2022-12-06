@@ -21,26 +21,26 @@ Aşağıdaki kod örneği, Visio sayfasının yönünün nasıl ayarlanacağın�
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-SetVisioPageOrientation-SetVisioPageOrientation.cs" >}}
 ## **Kaydederken Gizli Visio Sayfalarının Dışa Aktarılmasını Kontrol Edin**
-[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)API, geliştiricilerin diagram'i PDF, HTML, Görüntü (PNG, JPEG, GIF), SVG ve XPS dosyalarına kaydederken gizli Visio sayfalarını dahil etmesine veya hariç tutmasına olanak tanır. Hatta Aspose.Diagram API'i kullanarak Visio sayfayı gizleyebilirler çünkü seçeneği ShapeSheet sayfasındaki UIVisibility hücresi aracılığıyla zaten mevcuttur.
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)API, geliştiricilerin diagram'i PDF, HTML, Resim (PNG, JPEG, GIF), SVG ve XPS dosyalarına kaydederken gizli Visio sayfalarını dahil etmesine veya hariç tutmasına olanak tanır. Hatta Aspose.Diagram API'i kullanarak Visio sayfayı gizleyebilirler çünkü seçeneği ShapeSheet sayfasındaki UIVisibility hücresi aracılığıyla zaten mevcuttur.
 ### **Visio Diagram'de bir Sayfayı Gizle ve Dışa Aktarma Seçeneğini Ayarla**
  Aspose.Diagram for .NET API'de var[Sayfa](http://www.aspose.com/api/net/diagram/aspose.diagram/page) Visio çizim sayfasını temsil eden sınıf. Page sınıfı tarafından sunulan PageSheet özelliği, sayfa özelliklerini de gösterir. Sayfa özelliklerinin UIVisibility alanı, sayfanın gizlenmesine olanak tanır. Geliştiriciler daha sonra SVGSaveOptions, XPSSaveOptions, ImageSaveOptions, HTMLSaveOptions ve PdfSaveOptions sınıflarına eklenen ExportHiddenPage özelliğini kullanabilir.
-#### **PDF için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i PDF biçiminde kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **PDF için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - PDF biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToPDF-ExportOfHiddenVisioPagesToPDF.cs" >}}
-#### **HTML için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i HTML biçimine kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **HTML için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - HTML biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToHTML-ExportOfHiddenVisioPagesToHTML.cs" >}}
 #### **Görüntü için Dışa Aktarma Seçeneğini Ayarlayın**
 Aşağıdaki kod, bir diagram'i görüntü formatına kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToImage-ExportOfHiddenVisioPagesToImage.cs" >}}
-#### **SVG için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i SVG biçimine kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **SVG için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - SVG biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToSVG-ExportOfHiddenVisioPagesToSVG.cs" >}}
-#### **XPS için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i XPS biçimine kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **XPS için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - XPS biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ExportOfHiddenVisioPagesToXPS-ExportOfHiddenVisioPagesToXPS.cs" >}}

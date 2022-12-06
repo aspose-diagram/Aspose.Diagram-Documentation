@@ -13,7 +13,7 @@ Questa pagina contiene le note di rilascio per Aspose.Diagram for Java 19.1
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50638|Visio in PDF - colori errati ottenuti nel PDF di output|Aumento|
+|DIAGRAMJAVA-50638|Visio to PDF - incorrect colors obtained in output PDF|Aumento|
 |DIAGRAMJAVA-50526|Output VSDX - colore errato della linea di collegamento|Insetto|
 |DIAGRAMJAVA-50640|Il testo indesiderato appare in diagram durante la conversione da VSD a VSDX|Insetto|
 

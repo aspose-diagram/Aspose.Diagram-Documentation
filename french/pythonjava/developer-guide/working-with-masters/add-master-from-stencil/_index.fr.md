@@ -7,8 +7,8 @@ description: Cette section explique comment ajouter un masque à partir d'un gab
 ---
 ## **Scénarios d'utilisation possibles**
 
- Aspose.Diagram pour Python via Java vous permet d'ajouter un maître à partir du gabarit.
-Aspose.Diagram pour Python via Java API a la classe Master qui représente un modèle de forme de dessin Visio.
+Aspose.Diagram for Python via Java allows you to add master from stencil. 
+Aspose.Diagram for Python via Java API has the Master class that represents a Visio drawing shape template.
 En utilisant la méthode**addMaster** dans la classe Diagram pour ajouter le maître à partir du gabarit.
 
 ## **Exemple de code**

@@ -14,7 +14,7 @@ Bu ayki sürüm, Visio sayfanın şu şekilde biçimlendirilmesine izin verir:[s
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50671|SVG'ye dönüştürülürken şekil sayfası yeni pencere ayarına uyulmuyor|Artırma|
+|DIAGRAMJAVA-50671|SVG'e dönüştürülürken şekil sayfası yeni pencere ayarına uyulmuyor|Artırma|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genel API'de yapılan tüm değişikliklerin yanı sıra JAVA için Aspose.Diagram'de yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu Aspose.Diagram destek forumunda dile getirin.
 ### **Sayfaya ApplyStyle eklendi**

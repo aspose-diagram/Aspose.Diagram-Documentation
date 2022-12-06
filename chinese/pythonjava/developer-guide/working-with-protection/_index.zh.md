@@ -5,7 +5,7 @@ weight: 90
 url: /zh/python-java/working-with-protection/
 ---
 ## **设置保护 Visio Diagram**
-保护图表允许用户锁定背景、母版（模板）、形状和样式，使它们无法被编辑。这对于保护公司风格很有用，例如，并确保一组图表的外观一致。开发人员可以通过 Java 为 Python 使用 Aspose.Diagram 来实现这一点。
+Protecting diagrams allow users to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams. Developers can achieve this using Aspose.Diagram for Python via Java.
 
 ### **编辑保护Visio Diagram**
 DocumentSettings 类公开的 getProtectBkgnds、getProtectMasters、getProtectShapes 和 getProtectStyles 方法支持 BoolValue 对象。这些属性可用于保护和取消保护 Microsoft Visio 图。
@@ -20,12 +20,12 @@ DocumentSettings 类公开的 getProtectBkgnds、getProtectMasters、getProtectS
 
 **请查看我们如何手动检查或清除选项。** 
 
-在你的应用程序中使用下面的代码来执行相同的任务——锁定和解锁你的 diagram 的不同元素——使用 Aspose.Diagram 通过 Java 为 Python。
+Use the code below in your application to perform the same tasks – lock and unlock different elements of your diagram – using Aspose.Diagram for Python via Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-VisioDiagramProtection.py" >}}
 
 ### **编辑Visio形状保护**
-保护 Visio 形状允许用户锁定形状的特定方面。可以通过形状保护锁定的形状方面包括宽度、高度、x 位置、y 位置、旋转等。开发人员可以通过 Java 为 Python 使用 Aspose.Diagram 来实现这一点。
+Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using Aspose.Diagram for Python via Java.
 
 这**getLockAspect（）**, **获取锁定开始()**, **getLockCalcWH()**, **getLockCrop()**, **getLockCustProp()**, **获取锁定删除()**, **getLockEnd()**, **获取锁定格式()**, **getLockFromGroupFormat()**, **getLockGroup()**, **获取锁定高度()**, **getLockMoveX（）**, **getLockMoveY（）**, **getLockRotate() 方法**, **获取锁定选择()**, **获取锁定文本编辑()**, **getLockThemeColors（）**, **getLockThemeEffects() 方法**, **getLockVtxEdit()**和**获取锁定宽度()**公开的方法**保护**类支持 BoolValue 对象。这些方法可用于保护/取消保护形状。
 
@@ -39,6 +39,6 @@ DocumentSettings 类公开的 getProtectBkgnds、getProtectMasters、getProtectS
 
 **形状的保护选项，如 Microsoft Visio 所示** 
 
-在您的 Java 应用程序中使用以下代码通过 Java 对 Python 使用 Aspose.Diagram 执行相同的操作（锁定/解锁任何形状属性）。
+Use the following code in your Java application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-VisioShapeProtection.py" >}}

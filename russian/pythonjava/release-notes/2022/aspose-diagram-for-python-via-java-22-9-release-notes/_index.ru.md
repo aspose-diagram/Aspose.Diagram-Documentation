@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram для Python через Java 22.9 Примечания к выпуску
+title: Aspose.Diagram для Python via Java 22.9 Примечания к выпуску
 type: docs
 weight: 19
 url: /ru/python-java/aspose-diagram-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит информацию о выпуске для Aspose.Diagram для Python через Java 22.9.
+Эта страница содержит примечания к выпуску для Aspose.Diagram для Python via Java 22.9.
 
 {{% /alert %}}
 ## **Улучшения и изменения**  ##
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: форма искажается после сохранения в PNG|Улучшение|
+|DIAGRAMJAVA-51022|WK: Форма искажена после сохранения в PNG|Улучшение|
 |DIAGRAMJAVA-51015|wk: имя формы на языке, отличном от английского.|Ошибка|
 |DIAGRAMJAVA-51020|wk: имя формы листа со слоем не разрешено правильно|Ошибка|
 

@@ -11,9 +11,9 @@ Esta versión presenta las funciones, mejoras y correcciones de errores que se d
 ## **Mejoras**
 - DIAGRAMNET-50235: Los datos de la línea de tiempo no se actualizan en el visor Visio
 ## **Actuación**
-- DIAGRAMNET-50378: Problema de rendimiento al exportar VSD a formato PDF
+- DIAGRAMNET-50378-Performance issue when exporting VSD to PDF format
 ## **Insectos**
-- DIAGRAMNET-50364-VSDX a conversión de PDF, representación incorrecta de los elementos de texto
+- DIAGRAMNET-50364-VSDX to PDF conversion, incorrect rendering of the text items
 - DIAGRAMNET-50386: no se puede agregar una forma por segunda vez en la misma página o en otra
 - DIAGRAMNET-50387-No se pueden mover formas manualmente en Microsoft Office 2010/2013
 - DIAGRAMNET-50388: Agregar soporte para pasar el nombre del trabajo de impresión como otro parámetro
@@ -22,9 +22,9 @@ Esta versión presenta las funciones, mejoras y correcciones de errores que se d
 - DIAGRAMNET-50394: Se produjo un mensaje de error de argumento fuera de rango al colocar una forma
 - DIAGRAMNET-50398-Shape usa un único punto de conexión en lugar de diferentes puntos de conexión
 - DIAGRAMNET-50400-Mensaje de advertencia al abrir resultante VDX diagram
-- DIAGRAMNET-50401-VSD a conversión de PDF, las formas no se ven correctamente
-- DIAGRAMNET-50402-VSD Conversión a PNG, las formas no se ven correctamente
-- DIAGRAMNET-50403-VSD a conversión de SVG, las formas no se ven correctamente
+- DIAGRAMNET-50401-VSD to PDF conversion, shapes are not properly visible
+- DIAGRAMNET-50402-VSD to PNG conversion, shapes are not properly visible
+- DIAGRAMNET-50403-VSD to SVG conversion, shapes are not properly visible
 - DIAGRAMNET-50404-VSD a VDX conversión, las formas no se ven correctamente
 - DIAGRAMNET-50405-VSD a VDX conversión, el texto de la forma sale del borde
 - DIAGRAMNET-50407-No se puede pegar la forma dentro del contenedor

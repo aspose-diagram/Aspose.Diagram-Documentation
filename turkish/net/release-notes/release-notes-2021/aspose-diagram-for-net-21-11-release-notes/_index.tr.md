@@ -13,13 +13,13 @@ Bu sayfa Aspose.Diagram for .NET 21.11 için sürüm notları bilgilerini içeri
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-51111|VDX'i EMF'ye dönüştürürken dairelerin gradyan dolgusu yanlış|Artırma|
+|DIAGRAMNET-51111|VDX'i EMF'e dönüştürürken dairelerin gradyan dolgusu yanlış|Artırma|
 |DIAGRAMNET-52377|Eski sürüm 3 ile vsd yükleme desteği eklendi|Artırma|
-|DIAGRAMNET-51364|VSDX'den PNG'ye - OLE Katıştırılmış nesnesinin metni eksik|Böcek|
-|DIAGRAMNET-52329|VSDX'den HTML'ye - Emojiler çıktıda mevcut değil|Böcek|
+|DIAGRAMNET-51364|VSDX - PNG - OLE Embedded nesnesinin metni eksik|Böcek|
+|DIAGRAMNET-52329|VSDX - HTML - Çıktıda emojiler yok|Böcek|
 |DIAGRAMNET-52345|Üstbilgi Altbilgi, Diagram dosyasını kaydettikten sonra kayboluyor|Böcek|
-|DIAGRAMNET-52349|Visio'den HTML'ye - Sol ve sağ kenarlar kesilir|Böcek|
-|DIAGRAMNET-52374|PDF'ye kaydederken ArgumentOutOfRangeException|Böcek|
+|DIAGRAMNET-52349|Visio ila HTML - Sol ve sağ kenarlar kesilir|Böcek|
+|DIAGRAMNET-52374|PDF'e kaydederken ArgumentOutOfRangeException|Böcek|
 |DIAGRAMNET-52386|Neden bazı diagram sayfaları çoğaltılabilir ve bazıları Page.Copy()'yi kullanamaz?|Böcek|
 
 ## **Genel API ve Geriye Dönük Uyumsuz Değişiklikler**

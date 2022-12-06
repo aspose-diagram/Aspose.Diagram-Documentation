@@ -13,8 +13,8 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50361|El color de primer plano de la forma no se conserva al convertir un VST a PNG|Mejora|
-|DIAGRAMJAVA-50504|VSD a PDF: se cambia el color de las líneas|Mejora|
+|DIAGRAMJAVA-50361|The shape foreground color is not being preserved on converting a VST to PNG|Mejora|
+|DIAGRAMJAVA-50504|VSD to PDF - the color of lines is changed|Mejora|
 ## ` `**Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Diagram.
 ### **Añadido ampliar página en ImageSaveOptions**

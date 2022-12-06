@@ -4,7 +4,7 @@ linktitle: Diagram Conversioni
 type: docs
 weight: 65
 url: /it/net/convert-diagram-to-different-formats/
-description: Converti i file Visio in Visio, PDF, CSV, JPG, HTML, BMP, PNG, EMF, SVG, TIFF, XPS e altro ancora.
+description: Convert Visio files to Visio, PDF, CSV, JPG, HTML, BMP, PNG, EMF, SVG, TIFF, XPS and more.
 ---
 {{% alert color="primary" %}}
 

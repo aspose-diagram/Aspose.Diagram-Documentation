@@ -13,8 +13,8 @@ url: /ru/java/aspose-diagram-for-java-20-12-release-notes/
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50574|VSD в SVG - текстовые элементы неуместны|Ошибка|
+|DIAGRAMJAVA-50574|с VSD по SVG - текстовые элементы неуместны|Ошибка|
 |DIAGRAMJAVA-50705|Регрессия в Diagram — неподдерживаемый тип кисти|Ошибка|
 |DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException при преобразовании VSD в SVG|Ошибка|
-|DIAGRAMJAVA-50707|VSDX в PDF: Ошибка в элементах Shapes|Ошибка|
+|DIAGRAMJAVA-50707|От VSDX до PDF: ошибка в элементах Shapes|Ошибка|
 

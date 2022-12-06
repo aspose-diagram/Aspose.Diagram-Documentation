@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram für Python über Java 22.6 Versionshinweise
+title: Aspose.Diagram for Python via Java 22.6 Release Notes
 type: docs
 weight: 22
 url: /de/java/aspose-diagram-for-python-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Python über Java 22.6.
+This page contains release notes information for Aspose.Diagram for Python via Java 22.6.
 
 {{% /alert %}}
 ## **Verbesserungen und Änderungen**  ##
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: Form nach dem Speichern in PNG verzerrt|Erweiterung|
+|DIAGRAMJAVA-50963|WK: Shape distorted after saving to PNG|Erweiterung|
 |DIAGRAMJAVA-50967|Größe der Seitenlinienform ändern [Forts.]|Insekt|
 |DIAGRAMJAVA-50972|API analysiert die Datei nicht richtig|Insekt|
 |DIAGRAMJAVA-50974|Problem beim Hinzufügen eines neuen Verbindungspunkts|Insekt|

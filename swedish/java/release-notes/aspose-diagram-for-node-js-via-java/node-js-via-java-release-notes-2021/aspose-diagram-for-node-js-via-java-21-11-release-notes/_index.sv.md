@@ -16,7 +16,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram för
 |DIAGRAMJAVA-50806|wk: InheridetChar Color|Förbättring|
 |DIAGRAMJAVA-50385|Färgen på ramar och titlar ändras vid konvertering av en VSDX till PDF|Insekt|
 |DIAGRAMJAVA-50501|VSDX till PNG - Felaktig färg på former|Insekt|
-|DIAGRAMJAVA-50631|Former är inkonsekventa efter export av VSDX till PDF|Insekt|
+|DIAGRAMJAVA-50631|Formerna är inkonsekventa efter export av VSDX till PDF|Insekt|
 |DIAGRAMJAVA-50804|Anslutningstext radbryts när kopplingen ritas|Insekt|
 ## `?`**Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Diagram.

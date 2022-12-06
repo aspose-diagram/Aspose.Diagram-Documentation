@@ -13,7 +13,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram för
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50164|VST till HTML-konvertering, bakgrundsbild av hela diagram saknas|Insekt|
+|DIAGRAMJAVA-50164|VST till HTML konvertering, bakgrundsbild av hela diagram saknas|Insekt|
 
 ## `?`**Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Diagram.

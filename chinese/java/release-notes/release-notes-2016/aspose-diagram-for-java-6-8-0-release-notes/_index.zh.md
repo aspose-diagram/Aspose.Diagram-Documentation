@@ -16,13 +16,13 @@ url: /zh/java/aspose-diagram-for-java-6-8-0-release-notes/
 |DIAGRAMJAVA-50347|在 Visio 页面中添加对插入 ActiveX 控件的支持。|新功能|
 |DIAGRAMJAVA-50360|添加支持以设置图层的颜色复选框。|新功能|
 |DIAGRAMJAVA-50348|无法复制 VSDM 中的 Visio 页。|强化|
-|DIAGRAMJAVA-50357|将 VSDX 转换为 PDF 时，OLE 图表的呈现不完整。|强化|
-|DIAGRAMJAVA-50358|将 VSDX 转换为 PNG 时未呈现 OLE 图表。|强化|
-|DIAGRAMJAVA-50207|VSDX 转PDF，嵌入的word文档图标丢失。|漏洞|
+|DIAGRAMJAVA-50357|The incomplete rendering of an OLE chart when converting a VSDX to PDF.|强化|
+|DIAGRAMJAVA-50358|An OLE chart is not being rendered on converting a VSDX to PNG.|强化|
+|DIAGRAMJAVA-50207|VSDX to PDF conversion, the embedded word document icon is missing.|漏洞|
 |DIAGRAMJAVA-50346|从 VSD 检索连接不正确。|漏洞|
 |DIAGRAMJAVA-50349|返回每个形状的填充图案颜色的垃圾值。|漏洞|
 |DIAGRAMJAVA-50350|VSDM diagram 中的动态连接器呈现不完整。|漏洞|
-|DIAGRAMJAVA-50354|将 VSDX 转换为 PDF 时生成空白 PDF。|漏洞|
+|DIAGRAMJAVA-50354|A blank PDF is generated while converting a VSDX to PDF.|漏洞|
 |DIAGRAMJAVA-50355|加载 VSDX 时发生作者列表错误。|漏洞|
 |DIAGRAMJAVA-50359|从 VSD diagram 中检索连接器的反向。|漏洞|
 |DIAGRAMJAVA-50362|从 VSD 检索时返回不正确的连接。|漏洞|

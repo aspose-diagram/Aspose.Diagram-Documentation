@@ -13,14 +13,14 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for Java 17.02.0](
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50037|VSD alla conversione PDF, la tonalità del colore di sfondo di una forma di gruppo viene modificata.|Insetto|
-|DIAGRAMJAVA-50365|Viene generata una pagina vuota durante la conversione di una pagina Visio con equazioni in PNG.|Insetto|
-|DIAGRAMJAVA-50461|Mancano i bordi durante la conversione di VSDX in PNG.|Insetto|
-|DIAGRAMJAVA-50462|Il simbolo scompare durante la conversione di VSDX in PNG.|Insetto|
-|DIAGRAMJAVA-50463|Il simbolo scompare durante la conversione di VSDX in SVG.|Insetto|
-|DIAGRAMJAVA-50465|Il colore del testo è diverso durante la conversione di VSDX in PNG.|Insetto|
-|DIAGRAMJAVA-50466|La posizione del testo non è corretta quando VSD viene convertito in formato SVG.|Insetto|
-|DIAGRAMJAVA-50237|` `[VSDX to PDF]- Si è verificato un messaggio di errore durante l'utilizzo del font LeagueGothic Regular.|Eccezione|
+|DIAGRAMJAVA-50037|VSD to PDF conversion, the background color shade of a group shape is getting changed.|Insetto|
+|DIAGRAMJAVA-50365|A blank page is generated while converting a Visio page with equations to PNG.|Insetto|
+|DIAGRAMJAVA-50461|Borders are missing while converting VSDX to PNG.|Insetto|
+|DIAGRAMJAVA-50462|Symbol disappears while converting VSDX to PNG.|Insetto|
+|DIAGRAMJAVA-50463|Symbol disappears while converting VSDX to SVG.|Insetto|
+|DIAGRAMJAVA-50465|Color of the text is different while converting VSDX to PNG.|Insetto|
+|DIAGRAMJAVA-50466|The text position is incorrect when VSD is converted to SVG format.|Insetto|
+|DIAGRAMJAVA-50237|` `[VSDX to PDF]- Error message occurred when used LeagueGothic Regular font.|Eccezione|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for Java. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge il metodo Shape.getParentShape**

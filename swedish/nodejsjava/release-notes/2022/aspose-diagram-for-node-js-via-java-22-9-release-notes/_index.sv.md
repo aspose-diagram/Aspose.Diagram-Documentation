@@ -13,7 +13,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram för
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: Form förvrängd efter att ha sparats till PNG|Förbättring|
+|DIAGRAMJAVA-51022|WK: Formen förvrängd efter att ha sparats till PNG|Förbättring|
 |DIAGRAMJAVA-51015|wk: Formnamn på ett annat språk än engelska|Insekt|
 |DIAGRAMJAVA-51020|wk: Namnet på arkformen med ett lager är inte korrekt löst|Insekt|
 

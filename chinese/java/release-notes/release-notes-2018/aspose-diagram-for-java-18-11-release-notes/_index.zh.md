@@ -13,10 +13,10 @@ url: /zh/java/aspose-diagram-for-java-18-11-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50615|JpegQuality 对输出 JPEG 文档没有任何影响|强化|
-|DIAGRAMJAVA-50627|API 从 VISIO 图表生成 PDF 时，名称未再次显示 PDF Producer/Creator 字段|强化|
-|DIAGRAMJAVA-50626|VSD 到 HTML - 质量差|漏洞|
-|DIAGRAMJAVA-50629|将 Visio 生成为带背景的 SVG 时出现异常|漏洞|
+|DIAGRAMJAVA-50615|JpegQuality does not make any effect on output JPEG document|强化|
+|DIAGRAMJAVA-50627|API name is not showing agains PDF Producer/Creator field while generating PDF from VISIO diagrams|强化|
+|DIAGRAMJAVA-50626|VSD to HTML - Quality is bad|漏洞|
+|DIAGRAMJAVA-50629|Exception when generating Visio to SVG with background|漏洞|
 |DIAGRAMJAVA-50630|输出中缺少一些汉字|漏洞|
-|DIAGRAMJAVA-50632|从 VSDX 转换后得到空白 PDF|漏洞|
+|DIAGRAMJAVA-50632|Blank PDF is being obtained after converting from VSDX|漏洞|
 

@@ -13,12 +13,12 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-52019|Convertir Visio a HTML: páginas incompletas en la salida|Mejora|
+|DIAGRAMNET-52019|Convert Visio to HTML - incomplete pages in the output|Mejora|
 |DIAGRAMNET-52021|Algunos accesorios de forma no se actualizan|Mejora|
-|DIAGRAMNET-50965|Falta un borde y el problema de alineación del texto al convertir un VSDX a PNG|Insecto|
-|DIAGRAMNET-51035|El tema de las formas no se conserva al convertir un VSDX a PDF|Insecto|
+|DIAGRAMNET-50965|Missing a borderline and the text alignment problem on converting a VSDX to PNG|Insecto|
+|DIAGRAMNET-51035|Theme of shapes is not being preserved on converting a VSDX to PDF|Insecto|
 |DIAGRAMNET-52023|Guarde VSDX/VSDM como VSDX - La excepción es lanzada por API|Insecto|
-|DIAGRAMNET-52025|Visio a PDF: se produce ArgumentOutOfRangeException|Insecto|
+|DIAGRAMNET-52025|Visio to PDF - ArgumentOutOfRangeException occurs|Insecto|
 
 
 

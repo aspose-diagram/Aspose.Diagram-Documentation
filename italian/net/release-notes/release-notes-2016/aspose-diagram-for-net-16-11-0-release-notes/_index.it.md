@@ -14,24 +14,24 @@ url: /it/net/aspose-diagram-for-net-16-11-0-release-notes/
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMNET-50221|Aggiunto il supporto per inserire etichette di testo.|Nuova caratteristica|
-|DIAGRAMNET-51000|Problema di prestazioni con l'esportazione di un VSD in PDF.|Aumento|
+|DIAGRAMNET-51000|Performance issue with exporting a VSD to PDF.|Aumento|
 |DIAGRAMNET-51095|Impossibile aggiungere la voce di menu della forma (azione).|Aumento|
-|DIAGRAMNET-50344|Conversione da VSDX a PDF, sequenza errata di interruzioni di riga negli elementi di testo.|Insetto|
-|DIAGRAMNET-50347|VSDX all'esportazione in PDF, carattere errato degli elementi di testo in grassetto.|Insetto|
-|DIAGRAMNET-50713|VSD in esportazione PDF: il colore del riquadro di delimitazione delle icone del modulo viene modificato.|Insetto|
-|DIAGRAMNET-50870|Il colore di sfondo della forma viene modificato durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMNET-50872|Il colore di sfondo delle forme viene modificato durante la conversione di un VSD in PDF.|Insetto|
-|DIAGRAMNET-50877|Il colore di sfondo delle forme viene modificato al salvataggio di VSD in PDF.|Insetto|
-|DIAGRAMNET-50918|VSDX in esportazione PDF: le linee continue delle forme vengono convertite in linee tratteggiate.|Insetto|
-|DIAGRAMNET-50971|Allineamento del testo errato della forma durante la conversione di un VSDX in PNG.|Insetto|
+|DIAGRAMNET-50344|VSDX to PDF conversion, incorrect sequence of line breaks in the text items.|Insetto|
+|DIAGRAMNET-50347|VSDX to PDF export, incorrect font of bold text items.|Insetto|
+|DIAGRAMNET-50713|VSD to PDF export - the bounding box color of the form icons is changed.|Insetto|
+|DIAGRAMNET-50870|Background color of the shape is changed on converting a VSD to PDF.|Insetto|
+|DIAGRAMNET-50872|Background Color of the shapes is changed on converting a VSD to PDF.|Insetto|
+|DIAGRAMNET-50877|The background color of shapes is changed on saving VSD to PDF.|Insetto|
+|DIAGRAMNET-50918|VSDX to PDF export - Solid lines of shapes are converted to dashed lines.|Insetto|
+|DIAGRAMNET-50971|Incorrect text alignment of the shape on converting a VSDX to PNG.|Insetto|
 |DIAGRAMNET-51053|Le icone del menu non sono correttamente visibili durante la conversione delle pagine Visio in SVG.|Insetto|
 |DIAGRAMNET-51059|Le forme diventano invisibili raggruppando e salvando in VSDM.|Insetto|
-|DIAGRAMNET-51062|Forme mancanti nella conversione di un VST in PDF.|Insetto|
-|DIAGRAMNET-51089|Il colore di sfondo della pagina non viene mantenuto durante la conversione di un VSD in SVG.|Insetto|
+|DIAGRAMNET-51062|Missing shapes on converting a VST to PDF.|Insetto|
+|DIAGRAMNET-51089|The background color of the page is not being preserved on converting a VSD to SVG.|Insetto|
 |DIAGRAMNET-51090|Apri e salva VSDX - i segni della croce appaiono al loro posto varie forme.|Insetto|
 |DIAGRAMNET-51091|Apri e salva VSDX - il testo della forma si trasforma in caratteri fittizi.|Insetto|
-|DIAGRAMNET-51096|Gli elementi di testo non sono allineati al salvataggio di un Visio in PDF.|Insetto|
-|DIAGRAMNET-51097|La larghezza delle linee di connessione viene modificata salvando un Visio in PDF.|Insetto|
+|DIAGRAMNET-51096|The text items are not aligned on saving a Visio in PDF.|Insetto|
+|DIAGRAMNET-51097|The width of connector lines is changed on saving a Visio in PDF.|Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge il metodo AddText nella classe Page**

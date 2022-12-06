@@ -13,21 +13,21 @@ url: /fr/net/aspose-diagram-for-net-17-6-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51264|L'ombre des formes est noire lors de la conversion d'un VSDM en SVG|Renforcement|
+|DIAGRAMNET-51264|The shadow of shapes is black on converting a VSDM to SVG|Renforcement|
 |DIAGRAMNET-51270|Impossible de voir une forme du VSDX dans Visio Viewer|Renforcement|
 |DIAGRAMNET-51273|Affichage incorrect de la forme dans la visionneuse Visio 2013|Renforcement|
 |DIAGRAMNET-51249|L'apparence incorrecte de la ligne courbe reliant VSDM|Punaise|
-|DIAGRAMNET-51250|Une parenthèse gauche supplémentaire est ajoutée dans le texte lors de la conversion d'un VSD en PDF|Punaise|
-|DIAGRAMNET-51251|La taille de l'icône est réduite lors de la conversion d'un VSDM en SVG|Punaise|
-|DIAGRAMNET-51253|Couleur incorrecte du texte et des bordures dans les formes lors de la conversion d'un VSDM en SVG|Punaise|
-|DIAGRAMNET-51255|Une image en bas a été écrasée lors de la conversion d'un VSDM en SVG|Punaise|
+|DIAGRAMNET-51250|An additional left parenthesis is added in text on converting a VSD to PDF|Punaise|
+|DIAGRAMNET-51251|The size of the icon is downgraded on converting a VSDM to SVG|Punaise|
+|DIAGRAMNET-51253|Incorrect color of text and borders in shapes when converting a VSDM to SVG|Punaise|
+|DIAGRAMNET-51255|An image at the bottom has been squashed on converting a VSDM to SVG|Punaise|
 |DIAGRAMNET-51258|Ouvrir et enregistrer la routine de VSDM - la longueur des murs est modifiée|Punaise|
 |DIAGRAMNET-51259|Ouvrir et enregistrer la routine de VSDM - la longueur des murs est modifiée|Punaise|
 |DIAGRAMNET-51260|Une erreur de plage d'indexation s'est produite lors de l'appel de la méthode de mise en page de la classe Diagram|Punaise|
-|DIAGRAMNET-51263|Une étiquette de couleur rouge supplémentaire apparaît lors de la conversion d'un VSDM en SVG|Punaise|
-|DIAGRAMNET-51265|La police du texte du titre est modifiée lors de la conversion d'un VSDM en SVG|Punaise|
-|DIAGRAMNET-51266|La taille de l'image d'arrière-plan est réduite pour convertir un VSDM en SVG|Punaise|
-|DIAGRAMNET-51267|La taille d'une icône est réduite lors de la conversion d'un VSDM en SVG|Punaise|
+|DIAGRAMNET-51263|An additional red color tag appears on converting a VSDM to SVG|Punaise|
+|DIAGRAMNET-51265|The font of title text is changed on converting a VSDM to SVG|Punaise|
+|DIAGRAMNET-51266|The size of background image is reduced to converting a VSDM to SVG|Punaise|
+|DIAGRAMNET-51267|An icon size is downgraded on converting a VSDM to SVG|Punaise|
 |DIAGRAMNET-51268|Récupère la valeur de transparence incorrecte d'une image à partir du dessin VSDM|Punaise|
 |DIAGRAMNET-51269|Ajouter une protection de virtualisation|Punaise|
 ## **Public API et modifications incompatibles avec les versions antérieures**

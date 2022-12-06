@@ -36,12 +36,12 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ReplaceShapePicture-ReplaceShapePicture.java" >}}
 ## **Bitmap-Bild als Visio-Form importieren**
 Aspose.Diagram for Java API ermöglicht es Entwicklern jetzt, ein Bitmap-Bild als Microsoft Visio Form zu importieren.
-### **Fügen Sie ein BMP-Bild in Visio ein**
+### **Insert a BMP Image in Visio**
 Der Code in den folgenden Beispielen zeigt, wie Sie:
 
 1. Erstellen Sie eine diagram.
 1. Holen Sie sich die Seite Visio
 1. Importieren Sie ein Bitmap-Bild als Visio-Form
 1. Speichern Sie die diagram.
-#### **Fügen Sie ein Programmierbeispiel für BMP-Bilder ein**
+#### **Insert a BMP Image Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.java" >}}

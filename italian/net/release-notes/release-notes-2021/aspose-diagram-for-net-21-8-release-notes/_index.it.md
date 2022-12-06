@@ -13,14 +13,14 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51127|Rendering errato dei colori durante la conversione di un VSDX in PNG|Aumento|
-|DIAGRAMNET-52070|Salva come problema HTML|Aumento|
+|DIAGRAMNET-51127|Incorrect rendering of the colors while converting a VSDX to PNG|Aumento|
+|DIAGRAMNET-52070|Save as HTML issue|Aumento|
 |DIAGRAMNET-52071|Problema con la generazione di forme visio come immagini|Aumento|
 |DIAGRAMNET-52075|problema con le proprietà "Documento" e "Pagina".|Insetto|
-|DIAGRAMNET-52077|Strane linee di collegamento da un grafico quando viene esportato in un file SVG|Insetto|
+|DIAGRAMNET-52077|Strange connecting lines from a graphic when it's exported to a SVG file|Insetto|
 |DIAGRAMNET-52094|Grafico mostrato spostato dopo l'esportazione|Insetto|
 |DIAGRAMNET-52100|Impossibile estrarre il valore della formula della cella definita dall'utente|Insetto|
-|DIAGRAMNET-52102|"Parametro non valido." eccezione durante il rendering di VSDX in HTML|Insetto|
+|DIAGRAMNET-52102|"Parameter is not valid." exception when rendering VSDX to HTML|Insetto|
 |DIAGRAMNET-52106|Impossibile estrarre il valore della formula di cella definita dall'utente CONT.|Insetto|
 
 ## **Public API e modifiche incompatibili con le versioni precedenti**

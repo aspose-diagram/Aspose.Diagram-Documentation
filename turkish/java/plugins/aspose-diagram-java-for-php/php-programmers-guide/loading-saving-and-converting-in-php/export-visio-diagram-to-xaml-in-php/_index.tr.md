@@ -1,11 +1,11 @@
 ﻿---
-title: PHP'de Visio Diagram'i XAML'ye dışa aktarın
+title: PHP'de Visio Diagram'i XAML'e dışa aktarın
 type: docs
 weight: 60
 url: /tr/java/export-visio-diagram-to-xaml-in-php/
 ---
-## **Aspose.Diagram - Visio Diagram'i XAML'ye aktar**
- Kullanarak Visio Diagram'i XAML'ye Dışa Aktarmak için**PHP için Aspose.Diagram Java** , sadece çağırmak**ExportToXaml** modül. Burada örnek kodu görebilirsiniz.
+## **Aspose.Diagram - İhracat Visio Diagram ila XAML**
+ Visio Diagram'i kullanarak XAML'e dışa aktarmak için**PHP için Aspose.Diagram Java** , sadece çağırmak**ExportToXaml** modül. Burada örnek kodu görebilirsiniz.
 
 **PHP Kodu**
 
@@ -25,6 +25,6 @@ print "Exported visio diagram to XAML.".PHP_EOL;
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Visio Diagram'i XAML'ye (Aspose.Diagram) aktar**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+ İndirmek**Dışa aktarma Visio Diagram ila XAML (Aspose.Diagram)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/ExportToXaml.php)

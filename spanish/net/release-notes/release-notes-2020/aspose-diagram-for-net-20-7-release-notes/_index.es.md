@@ -13,12 +13,12 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-50917|El color de relleno de las formas se cambia al convertir un VSDX a PDF|Mejora|
-|DIAGRAMNET-51072|El color degradado de la forma no se conserva al guardar en EMF|Mejora|
-|DIAGRAMNET-51074|El gradiente incorrecto de la forma del círculo al guardar en EMF|Mejora|
-|DIAGRAMNET-51076|El color degradado de la forma del círculo no se muestra al guardar en EMF|Mejora|
+|DIAGRAMNET-50917|Fill color of the shapes is changed on converting a VSDX to PDF|Mejora|
+|DIAGRAMNET-51072|The gradient color of the shape is not being preserved on saving in EMF|Mejora|
+|DIAGRAMNET-51074|The wrong gradient of the circle shape on saving in EMF|Mejora|
+|DIAGRAMNET-51076|The gradient color of circle shape is not shown on saving in EMF|Mejora|
 |DIAGRAMNET-51848|VSD a VSDX: no se pueden agregar formas básicas en MS Visio|Mejora|
-|DIAGRAMNET-51870|Visio a PDF - Diagram las propiedades no se reflejan en el PDF de salida|Mejora|
+|DIAGRAMNET-51870|Visio to PDF - Diagram properties are not reflected in output PDF|Mejora|
 |DIAGRAMNET-51857|El índice estaba fuera de la excepción de rango al convertir VSDX|Insecto|
 |DIAGRAMNET-51858|El objeto del documento de Word se corrompe: convierta el objeto .doc incrustado en .docx y guarde el archivo|Insecto|
 |DIAGRAMNET-51859|El objeto del documento de Excel se corrompe: convierta el objeto .xls incrustado en .xlsx y guarde el archivo|Insecto|
@@ -26,10 +26,10 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |DIAGRAMNET-51863|La información personal de Excel y el archivo Visio se muestran con la marca 'X'.|Insecto|
 |DIAGRAMNET-51864|VSD a VDX problema de salida|Insecto|
 |DIAGRAMNET-51865|La cadena de entrada no tenía una excepción de formato correcto al convertir VSDX|Insecto|
-|DIAGRAMNET-51866|VSDX a SVG - valores de tema incorrectos|Insecto|
-|DIAGRAMNET-51868|System.InvalidCastException ocurre al convertir Diagram a HTML|Insecto|
-|DIAGRAMNET-51871|Visio a HTML - Problema de color de fondo diferente|Insecto|
+|DIAGRAMNET-51866|VSDX to SVG - incorrect theme values|Insecto|
+|DIAGRAMNET-51868|System.InvalidCastException occurs while converting Diagram to HTML|Insecto|
+|DIAGRAMNET-51871|Visio to HTML - Different background color issue|Insecto|
 |DIAGRAMNET-51875|Referencia a objeto no establecida como instancia de un objeto. al guardar formas VSS|Insecto|
 |DIAGRAMNET-51878|Excepción "El parámetro no es válido" al renderizar el archivo VSD|Insecto|
-| DIAGRAMANET-51880-|NullReferenceException durante la conversión VSD a SVG.|Insecto|
+| DIAGRAMANET-51880-|NullReferenceException during VSD to SVG conversion.|Insecto|
 

@@ -13,4 +13,4 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.9.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|Rendern einer falschen Farbe von Formen beim Konvertieren von VSD in PNG|Erweiterung|
+|DIAGRAMJAVA-50352|Rendering incorrect color of shapes on converting a VSD to PNG|Erweiterung|

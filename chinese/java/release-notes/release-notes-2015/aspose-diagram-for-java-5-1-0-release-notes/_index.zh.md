@@ -11,5 +11,5 @@ Aspose .Diagram for Java 已更新至版本 5.1.0，我们很高兴地宣布此�
 DIAGRAMJAVA-50133- Diagram.print() 方法不起作用
 DIAGRAMJAVA-50139 - 在非 MSI 包中包含“最终用户协议.html”文件
 DIAGRAMJAVA-50140 - 通过名称获取页面对象时发生 NullReferenceException
-DIAGRAMJAVA-50141) -VDX 到 PDF 的导出在 Red Hat Linux 服务器上挂起
-DIAGRAMJAVA-50142) -VDX 到 PNG 的导出在 Red Hat Linux 服务器上挂起
+DIAGRAMJAVA-50141) -VDX to PDF export hangs on Red Hat Linux Server
+DIAGRAMJAVA-50142) -VDX to PNG export hangs on Red Hat Linux Server

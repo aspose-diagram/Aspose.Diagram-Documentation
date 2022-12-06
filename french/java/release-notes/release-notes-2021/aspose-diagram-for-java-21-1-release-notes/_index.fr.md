@@ -13,5 +13,5 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX en conversion HTML, rectangle vide au lieu de l'icône du méta-fichier|Renforcement|
+|DIAGRAMJAVA-50118|VTX to HTML conversion, blank rectangle box instead of meta file icon|Renforcement|
 

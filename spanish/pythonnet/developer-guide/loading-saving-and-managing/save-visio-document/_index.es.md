@@ -12,7 +12,7 @@ description: Esta página describe cómo guardar el documento Visio en un archiv
  La clase Diagram de Aspose.Diagram API representa un dibujo Visio y los desarrolladores pueden guardar su objeto Visio diagram en cualquier formato de archivo compatible. Para guardar un archivo Microsoft Visio, simplemente use el[Diagram.Save]()método, acepta un nombre de archivo con una ruta completa o un objeto de flujo de archivo. Aspose.Diagram API infiere el formato de guardado de la extensión del archivo y también ofrece un parámetro SaveFileFormat adicional para especificar el formato del archivo de salida.
 ### **Guarde un Visio Diagram en cualquier formato de archivo compatible**
 Usando Aspose.Diagram API, los desarrolladores pueden guardar un Visio diagram en cualquier formato de archivo compatible como se indica a continuación:
-**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF y XAML**
+**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF and XAML**
 ### **Guardando Diagram Ejemplo de programación**
 El siguiente ejemplo guarda un documento en un archivo.
 
@@ -24,16 +24,16 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
 ## **Especificación de las opciones de guardado de Visio**
- Hay varios[Diagram.Save]() sobrecargas de métodos que aceptan un objeto SaveOptions. Este debería ser un objeto de una clase derivada de la clase SaveOptions. Cada formato de guardado tiene una clase correspondiente que contiene opciones de guardado para ese formato de guardado. Por ejemplo, hay PdfSaveOptions para el formato de guardado SaveFileFormat.PDF.
+ Hay varios[Diagram.Save]() method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format. For example, there is PdfSaveOptions for the SaveFileFormat.PDF save format.
 ### **Visio Diagram Opciones de guardado**
 Estos ejemplos muestran cómo:
 
 - [Usar Diagram Opciones de guardado](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Usar opciones de guardado de PDF](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Usar opciones de guardado de HTML](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Usar PDF Opciones de guardado](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Usar HTML Opciones de guardado](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 - [Usar opciones para guardar imágenes](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Usar opciones de guardado de SVG](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Utilice las opciones de guardado de SWF](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Usar SVG Opciones de guardado](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Usar SWF Opciones de guardado](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 #### **Uso de las opciones de guardado Diagram**
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en formato Visio.
 
@@ -41,15 +41,15 @@ El siguiente código muestra cómo configurar las opciones de guardado antes de 
 
 
 
-#### **Uso de las opciones de guardado de PDF**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en formato PDF.
+#### **Uso de las opciones de guardado PDF**
+The code below shows how to set save options before saving a document to a PDF format.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UsePdfSaveOptions.py" >}}
 
 
 
-#### **Uso de las opciones de guardado de HTML**
-El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en formato de archivo HTML.
+#### **Uso de las opciones de guardado HTML**
+The code below shows how to set save options before saving a document to HTML file format.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseHtmlSaveOptions.py" >}}
 
@@ -63,22 +63,22 @@ El siguiente código muestra cómo configurar las opciones de guardado antes de 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseImageSaveOptions.py" >}}
 
 
-Uso de las opciones de guardado de SVG
+Uso de las opciones de guardado SVG
 
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en formato SVG.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseSvgSaveOptions.py" >}}
 
-A veces, los desarrolladores necesitan guardar o exportar diagramas Visio a diferentes formatos de archivo mediante programación (como VDX, PDF, JPEG, etc.).
+Sometimes, developers need to save or export Visio diagrams to different file formats programmatically (like VDX, PDF, JPEG and so on).
 
-### ` `**Guardando el archivo VSD en otros formatos con Aspose.Diagram para Python a través de .NET**
+### ` `**Saving VSD File to Other Formats with Aspose.Diagram for Python via .NET**
 Usando Aspose.Diagram, los desarrolladores no necesitan Microsoft Office Visio en la máquina, y pueden trabajar independientemente de Microsoft Office Automatización.
 
 Los fragmentos de código a continuación muestran cómo:
 
 1. Cargue un diagram.
-1. Guarde el diagram al VSX, PDF y JPEG.
-#### **Guardando el archivo VSD con Aspose.Diagram para Python a través de .NET Ejemplo de programación**
+1. Save the diagram to VSX, PDF and JPEG.
+#### **Saving VSD File with Aspose.Diagram for Python via .NET Programming Sample**
 {{% alert color="primary" %}} 
 
 importar aspose.diagram

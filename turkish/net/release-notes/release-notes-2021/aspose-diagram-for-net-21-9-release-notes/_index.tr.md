@@ -20,10 +20,10 @@ Bu sayfa Aspose.Diagram for .NET 21.9 için sürüm notları bilgilerini içerir
 |DIAGRAMNET-52197|DisplayMode'un vsdx değişiklik değerini yükleme ve kaydetme|Artırma|
 |DIAGRAMNET-52205|Şekilde çift tıklama olayı eksik|Artırma|
 |DIAGRAMNET-51877|VSD dosyası oluşturulurken "Parametre geçerli değil" istisnası|Böcek|
-|DIAGRAMNET-52114|"Parametre geçerli değil." VSD dosyasını PNG/JPG'ye işlerken istisna|Böcek|
+|DIAGRAMNET-52114|"Parametre geçerli değil." VSD dosyasını PNG/JPG'ye dönüştürürken istisna|Böcek|
 |DIAGRAMNET-52124|Visio html sorunu olarak kaydediliyor|Böcek|
-|DIAGRAMNET-52127|Visio, yardımcı satırlarla birlikte HTML sorununa kaydediliyor|Böcek|
-|DIAGRAMNET-52148|VSDX'den PDF'ye - Üstü çizili metin PDF'de doğru değil|Böcek|
+|DIAGRAMNET-52127|Visio, yardımcı hatlarla birlikte HTML sorununa kaydediliyor|Böcek|
+|DIAGRAMNET-52148|VSDX - PDF - Üstü çizili metin PDF'de doğru değil|Böcek|
 |DIAGRAMNET-52150|Kullanıcı tanımlı hücre formülünün değeri çıkarılamıyor CONT.|Böcek|
 |DIAGRAMNET-52229|Kullanıcı Tanımlı Hücre yeniden adlandırılıyor|Böcek|
 |DIAGRAMNET-52231|"Tutkal" seçeneğini şekillendirecek konektör kayboldu|Böcek|

@@ -13,12 +13,12 @@ url: /ar/java/aspose-diagram-for-java-6-0-0-release-notes/
 - DIAGRAMJAVA-50196) -VSD إلى VDX التحويل ، الموصلات الديناميكية المنحنية تتحول إلى stright
 - DIAGRAMJAVA-50229) - قياس أشكال الموصل غير صحيح
 - DIAGRAMJAVA-50230) - قياس أشكال الموصل غير صحيح
-- DIAGRAMJAVA-50241) -VSDX لتحويل EMF - يتم إنشاء ملف EMF صفر بايت
+- DIAGRAMJAVA-50241) -VSDX إلى EMF التحويل - يتم إنشاء ملف EMF بايت صفر
 - DIAGRAMJAVA-50242) - لا تحتفظ عملية نسخ Visio diagram بالصفحة بنمط الأشكال
-- DIAGRAMJAVA-50243) - تنسيق الإخراج PDF نسخ الشكل من VSDX - يتم إنشاء ملف PDF فارغ
+- DIAGRAMJAVA-50243) - تنسيق الإخراج PDF نسخ الشكل من VSDX - يتم إنشاء PDF فارغ
 - DIAGRAMJAVA-50244) - تنسيق الإخراج EMF نسخ الشكل من VSDX - يتم إنشاء EMF فارغ
 - DIAGRAMJAVA-50245) - تنسيق الإخراج JPEG نسخ الشكل من VSDX - يتم إنشاء JPEG فارغ
-- DIAGRAMJAVA-50246) - تنسيق الإخراج PNG نسخ الشكل من VSDX - يتم إنشاء PNG فارغة
+- DIAGRAMJAVA-50246) - تنسيق الإخراج PNG نسخ الشكل من VSDX - يتم إنشاء PNG فارغ
 - DIAGRAMJAVA-50247) - تنسيق الإخراج GIF نسخ الشكل من VSDX - يتم إنشاء ملف GIF فارغ
 - DIAGRAMJAVA-50248) - تنسيق الإخراج SVG نسخ الشكل من VSDX - يتم إنشاء SVG فارغ
 - DIAGRAMJAVA-50249) - تنسيق الإخراج TIFF نسخ الشكل من VSDX - حدث خطأ
@@ -27,7 +27,7 @@ url: /ar/java/aspose-diagram-for-java-6-0-0-release-notes/
 - DIAGRAMJAVA-50252) - تنسيق الإخراج HTML نسخ الشكل من VSDX - يتم إنشاء HTML فارغ
 - DIAGRAMJAVA-50253) - لا يؤدي نسخ صفحة Visio diagram إلى الاحتفاظ بالأشكال تمامًا
 - DIAGRAMJAVA-50254) - لا يؤدي نسخ صفحة Visio diagram إلى الاحتفاظ بالأشكال تمامًا
-- DIAGRAMJAVA-50255) -VSDX إلى تحويل TIFF - حدث خطأ أثناء الحفظ بتنسيق Tiff
+- DIAGRAMJAVA-50255) -VSDX إلى TIFF التحويل - حدث خطأ أثناء الحفظ بتنسيق Tiff
 - DIAGRAMJAVA-50258) -VDX إلى VDX تصدير ، نص الشكل ليس غامقًا
 - DIAGRAMJAVA-50260) -VSD إلى VDX تصدير ، ظل مفقود من الأشكال
 - DIAGRAMJAVA-50268) -المصدر VSD - تقوم فئة ConnectCollection بإرجاع اتصال إضافي ومعرفات شكل غير صحيحة

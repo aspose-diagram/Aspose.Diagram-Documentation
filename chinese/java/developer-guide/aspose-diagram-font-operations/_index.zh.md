@@ -33,7 +33,7 @@ Aspose.Diagram API 已公开 setFontDirs 方法[Diagram](https://reference.aspos
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Fonts-SpecifyFontLocation-SpecifyFontLocation.java" >}}
 ### **在呈现过程中接收丢失字体和字体替换的通知**
-Aspose.Diagram API 需要访问准确的字体才能将绘图正确呈现为 PDF 格式。如果所需字体在机器上不可用，则 Aspose.Diagram API 使用默认字体或机器上最接近的可用字体呈现该字体的任何实例，因为这种替换会改变呈现图形的外观，开发人员可能需要当缺少字体以及将用什么字体替换时收到通知。
+Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **缺少字体的通知和字体替换编程示例**
 在呈现期间通知字体替换：
 

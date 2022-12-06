@@ -15,10 +15,10 @@ url: /ru/net/aspose-diagram-for-net-21-12-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52408|проблемы, когда мы используем EmfRederSetting EmfPlusPrefer|Улучшение|
 |DIAGRAMNET-52438|SaveForegroundPagesТолько для печати|Улучшение|
-|DIAGRAMNET-52450|Visio в SVG - Сохранение растрового изображения отдельно|Улучшение|
+|DIAGRAMNET-52450|Visio - SVG - Сохранение растрового изображения отдельно|Улучшение|
 |DIAGRAMNET-51171|Частичная отрисовка фигур при сохранении чертежа в формате PDF|Ошибка|
 |DIAGRAMNET-51390|Встроенный объект не заменяется должным образом|Ошибка|
-|DIAGRAMNET-51800|Visio в SVG — отсутствует фоновое изображение (PowerPoint добавлено в VISIO)|Ошибка|
+|DIAGRAMNET-51800|От Visio до SVG — отсутствует фоновое изображение (номер PowerPoint добавлен в VISIO)|Ошибка|
 |DIAGRAMNET-52423|Page.Copy() не копирует объект Excel в diagram|Ошибка|
 |DIAGRAMNET-52443|Отсутствующие фигуры при открытии и сохранении MS Visio Diagram|Ошибка|
 |DIAGRAMNET-52444|Visio в JPG — разные результаты, сгенерированные API|Ошибка|

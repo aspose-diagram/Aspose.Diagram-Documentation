@@ -16,15 +16,15 @@ url: /de/java/aspose-diagram-for-java-17-10-release-notes/
 |DIAGRAMJAVA-50560|JPEGQuality wirkt sich nicht auf das Ausgabedokument aus|Erweiterung|
 |DIAGRAMJAVA-50548|Ausgabe VSDX - die Verbindungslinie, die durch die Grenze der Form verläuft|Insekt|
 |DIAGRAMJAVA-50550|Der Abschnitt Formtransformation behält keine Formeln bei|Insekt|
-|DIAGRAMJAVA-50551|VSDX zu PNG - falsche Darstellung der Formecken|Insekt|
-|DIAGRAMJAVA-50552|Die Füllfarben werden beim Speichern einer Visio-Zeichnung in SVG nicht beibehalten|Insekt|
-|DIAGRAMJAVA-50553|Falsches Rendering von Linien beim Speichern einer Visio-Zeichnung in SVG|Insekt|
-|DIAGRAMJAVA-50554|Die Füllfarben werden beim Speichern einer Visio-Zeichnung in SVG nicht beibehalten|Insekt|
-|DIAGRAMJAVA-50555|Falsches Rendering von Linien beim Speichern einer Visio-Zeichnung in SVG|Insekt|
+|DIAGRAMJAVA-50551|VSDX to PNG - incorrect rendering of the shape corners|Insekt|
+|DIAGRAMJAVA-50552|The fill colors are not being preserved on saving a Visio drawing to SVG|Insekt|
+|DIAGRAMJAVA-50553|Incorrect rendering of lines when saving a Visio drawing to SVG|Insekt|
+|DIAGRAMJAVA-50554|The fill colors are not being preserved on saving a Visio drawing to SVG|Insekt|
+|DIAGRAMJAVA-50555|Incorrect rendering of lines when saving a Visio drawing to SVG|Insekt|
 |DIAGRAMJAVA-50559|VSDM bis VDX - die Verbindungslinien sind nicht mit den Shapes verbunden|Insekt|
 |DIAGRAMJAVA-50561|Die Zeichnung VSDX ist nach dem Hinzufügen des SolutionXML-Elements beschädigt|Insekt|
 ### **Fügt SameAsPdfConversionArea in ImageSaveOptions hinzu**
-Es gibt an, ob der Bereich auf die gleiche Weise wie bei PDF gespeichert werden soll.
+It specifies whether to save area in the same way as PDF.
 
 {{< highlight "java" >}}
 

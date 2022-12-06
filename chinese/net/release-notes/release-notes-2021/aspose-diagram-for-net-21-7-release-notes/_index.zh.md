@@ -13,11 +13,11 @@ url: /zh/net/aspose-diagram-for-net-21-7-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|输出 SVG - 将 CSS 属性应用于文本|强化|
+|DIAGRAMNET-51447|Output SVG - Apply CSS attributes to the text|强化|
 |DIAGRAMNET-51993|vsd 中的 pdf 格式错误|强化|
 |DIAGRAMNET-52020|动态连接器问题|强化|
-|DIAGRAMNET-52044|Visio 到 HTML - 输出中的形状不正确|漏洞|
-|DIAGRAMNET-52045|Visio 到 HTML - API 抛出 System.ArgumentException：“参数无效。”|漏洞|
+|DIAGRAMNET-52044|Visio to HTML - The shapes are incorrect in the output|漏洞|
+|DIAGRAMNET-52045|Visio to HTML - API is throwing System.ArgumentException: 'Parameter is not valid.'|漏洞|
 |DIAGRAMNET-52049|将 vsdx 保存到 pdf 会引发内存不足异常|漏洞|
 
 ## **公共 API 和向后不兼容的更改**

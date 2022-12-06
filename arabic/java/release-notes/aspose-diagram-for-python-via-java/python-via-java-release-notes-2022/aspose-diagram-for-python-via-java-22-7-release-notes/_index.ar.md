@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Python عبر Java 22.7 ملاحظات الإصدار
+title: Aspose.Diagram لـ Python via Java 22.7 ملاحظات الإصدار
 type: docs
 weight: 21
 url: /ar/java/aspose-diagram-for-python-via-java-22-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Python عبر Java 22.7.
+تحتوي هذه الصفحة على معلومات ملاحظات الإصدار لـ Aspose.Diagram لـ Python via Java 22.7.
 
 {{% /alert %}}
 ## **التحسينات والتغييرات**  ##
@@ -14,7 +14,7 @@ url: /ar/java/aspose-diagram-for-python-via-java-22-7-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: توارث مشكلة التعبئة|التعزيز|
-|DIAGRAMJAVA-50446|يتم تقطيع صورة الإخراج عند تحويل VSD إلى HTML|حشرة|
+|DIAGRAMJAVA-50446|يتم تقطيع الصورة الناتجة عند تحويل VSD إلى HTML|حشرة|
 |DIAGRAMJAVA-50996|الشكل غير معروض بشكل صحيح - يتم عرض المستطيل المتقاطع بدلاً من ذلك|حشرة|
 
 ## `?`**عام API والتغييرات غير المتوافقة مع الإصدارات السابقة**

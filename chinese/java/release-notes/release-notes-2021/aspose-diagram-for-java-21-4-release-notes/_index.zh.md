@@ -13,6 +13,6 @@ url: /zh/java/aspose-diagram-for-java-21-4-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50383|将 VSDX 转换为 PDF 时未保留形状主题|强化|
+|DIAGRAMJAVA-50383|Theme of shapes is not being preserved on converting a VSDX to PDF|强化|
 |DIAGRAMJAVA-50717|VSD 到 GIF - 发生 java.lang.NullPointerException|漏洞|
-|DIAGRAMJAVA-50718|将 VSD/VSDX 转换为 PNG 时出现 NullPointerException|漏洞|
+|DIAGRAMJAVA-50718|NullPointerException when converting VSD/VSDX to PNG|漏洞|

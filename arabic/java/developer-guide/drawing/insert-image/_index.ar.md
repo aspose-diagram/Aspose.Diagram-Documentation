@@ -12,7 +12,7 @@ Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صو�
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsVSDX.java" >}}
 
-## **أدخل صورة في SVG**
+## **أدخل الصورة في SVG**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق SVG.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsSVG.java" >}}
@@ -22,7 +22,7 @@ Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صو�
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPNG.java" >}}
 
-## **إدراج صورة في ملف PDF**
+## **أدخل الصورة في PDF**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PDF.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPDF.java" >}}

@@ -4,7 +4,7 @@ linktitle:  قم بتحويل Visio إلى تنسيقات أخرى
 type: docs
 weight: 40
 url: /ar/python-net/convert-visio-to-other-files/
-description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى تنسيقات SVG و XPS و XML و XAML. قم بتحويل VSD، VSS، VDW، VST، VSDX، VSSX، VSTX، VSDM، VSTM،VSSM إلى SVG ، XPS ، XML ، XAML مع بضعة أسطر من التعليمات البرمجية.
+description: يوضح لك هذا الموضوع كيفية السماح Aspose.Diagram بتحويل Visio إلى SVG،XPS ، XML ، XAML تنسيقات. تحويل VSD، VSS، VDW، VST، VSDX، VSSX، VSTX، VSDM، VSTM،VSSM إلى SVG،XPS، XML، XAML مع بضعة أسطر من التعليمات البرمجية.
 ---
 ## **تصدير إلى XML**
 ### **تصدير Microsoft Visio رسم إلى PDF**
@@ -12,7 +12,7 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
 
- تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XML باستخدام[Aspose.Diagram لـ Python عبر .NET](https://products.aspose.com/diagram/python-net/) API.
+ تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XML باستخدام[Aspose.Diagram لـ Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
 - يعرف VDX XML diagram.
 - يقوم VTX بتعريف قالب XML.
@@ -58,10 +58,10 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXml.py" >}}
 
 ## **تصدير إلى XPS**
- تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram لـ Python عبر .NET](https://products.aspose.com/diagram/python-net/) API.
+ يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram لـ Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 استخدم مُنشئ الفئة [Diagram] لقراءة ملفات diagram وطريقة الحفظ لتصدير diagram إلى أي تنسيق صورة مدعوم.
 
-تأخذ مقتطفات التعليمات البرمجية في هذه المقالة diagram أدناه كمدخل. يمكنك استخدام تنسيقات diagram أخرى (VSS أو VSSX أو VSSM أو VDX أو VST أو VSTX أو VDX أو VTX أو VSX) أيضًا.
+تأخذ مقتطفات التعليمات البرمجية في هذه المقالة diagram أدناه كمدخل. يمكنك استخدام تنسيقات diagram أخرى (VSS ، VSSX ، VSSM ، VDX ، VST ، VSTX ، VDX ، VTX أو VSX) أيضًا.
 
 |**وثيقة المصدر.**|
 |:- |
@@ -71,22 +71,22 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 لتصدير VSD diagram إلى XPS:
 
 1. قم بتكوين نسخة من الفئة Diagram.
-1. اتصل بـ Diagram class "Save method" وقم بتعيين XPS كتنسيق الإخراج.
-### **تصدير Microsoft Visio الرسم إلى XPS**
+1. اتصل بـ Diagram class 'Save method وقم بتعيين XPS كتنسيق الإخراج.
+### **تصدير Microsoft Visio رسم إلى XPS**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى XPS باستخدام C#.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
 
-## **تصدير Diagram إلى SVG**
-تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram لـ Python عبر .NET](https://products.aspose.com/diagram/python-net/) API.
+## **قم بتصدير Diagram إلى SVG**
+ تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram لـ Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
 استخدم مُنشئ الفئة [Diagram] لقراءة ملفات diagram وطريقة الحفظ لتصدير diagram إلى أي تنسيق صورة مدعوم.
 
 لتصدير VSD diagram إلى SVG ، قم بتنفيذ الخطوات التالية:
 
 1. قم بتكوين نسخة من الفئة Diagram.
-1. قم باستدعاء طريقة Save للفصل وقم بتعيين SVG كتنسيق تصدير.
-### **تصدير Microsoft Visio الرسم إلى SVG**
+1. قم باستدعاء الفئة "Save method" وقم بتعيين SVG كتنسيق التصدير.
+### **تصدير Microsoft Visio رسم إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام C#.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToSvg.py" >}}

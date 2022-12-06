@@ -13,14 +13,14 @@ url: /de/java/aspose-diagram-for-java-17-12-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50290|Geben Sie die einzelne API an, um eine Visio-Form in PDF zu konvertieren|Erweiterung|
-|DIAGRAMJAVA-50291|Geben Sie die einzelne API an, um eine Visio-Form in HTML zu konvertieren|Erweiterung|
+|DIAGRAMJAVA-50290|Provide the single API to convert a Visio shape to PDF|Erweiterung|
+|DIAGRAMJAVA-50291|Provide the single API to convert a Visio shape to HTML|Erweiterung|
 |DIAGRAMJAVA-50572|Die Shape.connectedShapes-Methode ruft keine ausgehenden Knoten ab|Erweiterung|
-|DIAGRAMJAVA-50391|Die gespiegelten Bilder und Pfeile werden beim Konvertieren eines VSD in SVG generiert|Insekt|
-|DIAGRAMJAVA-50570|VSD nach PDF - die zusätzlichen Textpositionen werden hinzugefügt|Insekt|
+|DIAGRAMJAVA-50391|The flipped images and arrows are generated on converting a VSD to SVG|Insekt|
+|DIAGRAMJAVA-50570|VSD to PDF - the additional text items are added|Insekt|
 |DIAGRAMJAVA-50571|Import VSDX - Im Shape-Element ist ein Fehler aufgetreten|Insekt|
-|DIAGRAMJAVA-50573|VSD zu SVG - die Linien einer Gruppenform fehlen|Insekt|
-|DIAGRAMJAVA-50575|VSD zu SVG - die Textelemente fehlen|Insekt|
+|DIAGRAMJAVA-50573|VSD to SVG - the lines of a group shape are missing|Insekt|
+|DIAGRAMJAVA-50575|VSD to SVG - the text items are missing|Insekt|
 |DIAGRAMJAVA-50576|Die Prozedur „VDX importieren“ löst einen Seitenelementfehler aus|Insekt|
 ### **Fügt ein Copy-Mitglied in der Shape-Klasse hinzu**
 Das Kopierelement verwendet eine Zielforminstanz als Parameter zum Klonen dieser Form.
@@ -45,7 +45,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ### **Fügt ein toPdf-Member in der Shape-Klasse hinzu**
-Das Mitglied toPdf konvertiert eine Form in das PDF-Format.
+The toPdf member converts a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -61,7 +61,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
 ### **Fügt ein HTML-Member in der Shape-Klasse hinzu**
-Das toHTML-Member wandelt eine Form in das PDF-Format um.
+The toHTML member converts a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -82,7 +82,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Diagram-Wiki-Dokumenten hinzugefügt wurden:
 
 1. [Kopieren Sie eine Visio-Form in eine andere Forminstanz](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [Konvertieren Sie Visio Form in PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
-1. [Konvertieren Sie Visio Shape in HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
+1. [Convert Visio Shape to PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
+1. [Convert Visio Shape to HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
 
 

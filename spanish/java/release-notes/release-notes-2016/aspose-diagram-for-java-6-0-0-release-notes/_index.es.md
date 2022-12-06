@@ -13,21 +13,21 @@ La siguiente es una lista de cambios en esta versión de Aspose.Diagram for Java
 - DIAGRAMJAVA-50196) -VSD a VDX conversión, los conectores dinámicos de curva se convierten en rectos
 - DIAGRAMJAVA-50229) - La geometría de las formas del conector es incorrecta
 - DIAGRAMJAVA-50230) -La geometría de las formas del conector es incorrecta
-- DIAGRAMJAVA-50241) -VSDX a conversión EMF: se genera un archivo EMF de cero bytes
+- DIAGRAMJAVA-50241) -VSDX to EMF conversion - a zero bytes EMF file is generated
 - DIAGRAMJAVA-50242) - Copiar una operación de página Visio diagram no conserva el estilo de las formas
-- DIAGRAMJAVA-50243) -Formato de salida PDF Copiando Forma del VSDX - se genera un PDF vacío
-- DIAGRAMJAVA-50244) -Formato de salida EMF copiando la forma del VSDX - se genera un EMF vacío
-- DIAGRAMJAVA-50245) -Formato de salida JPEG Copiando forma del VSDX - se genera un JPEG vacío
-- DIAGRAMJAVA-50246) -Formato de salida PNG copiando la forma del VSDX - se genera un PNG vacío
+- DIAGRAMJAVA-50243) -Output format PDF Copying Shape from the VSDX - an empty PDF is generated
+- DIAGRAMJAVA-50244) -Output format EMF Copying Shape from the VSDX - an empty EMF is generated
+- DIAGRAMJAVA-50245) -Output format JPEG Copying Shape from the VSDX - an empty JPEG is generated
+- DIAGRAMJAVA-50246) -Output format PNG Copying Shape from the VSDX - an empty PNG is generated
 - DIAGRAMJAVA-50247) - Formato de salida GIF Copiando la forma del VSDX - se genera un GIF vacío
-- DIAGRAMJAVA-50248) - Formato de salida SVG Copiando la forma del VSDX - se genera un SVG vacío
-- DIAGRAMJAVA-50249) -Formato de salida TIFF Copiando forma de VSDX - ocurrió un error
-- DIAGRAMJAVA-50250) -Formato de salida XPS copiando la forma del VSDX - se genera un XPS vacío
-- DIAGRAMJAVA-50251) -Formato de salida XAML Copiando forma de VSDX: se genera un XAML vacío
-- DIAGRAMJAVA-50252) - Formato de salida HTML Copiando la forma del VSDX - se genera un HTML vacío
+- DIAGRAMJAVA-50248) -Output format SVG Copying Shape from the VSDX - an empty SVG is generated
+- DIAGRAMJAVA-50249) -Output format TIFF Copying Shape from the VSDX - an error occurred
+- DIAGRAMJAVA-50250) -Output format XPS Copying Shape from the VSDX - an empty XPS is generated
+- DIAGRAMJAVA-50251) -Output format XAML Copying Shape from the VSDX - an empty XAML is generated
+- DIAGRAMJAVA-50252) -Output format HTML Copying Shape from the VSDX - an empty HTML is generated
 - DIAGRAMJAVA-50253) -Copiar una página Visio diagram no conserva las formas por completo
 - DIAGRAMJAVA-50254) -Copiar una página Visio diagram no conserva las formas por completo
-- DIAGRAMJAVA-50255) -VSDX a conversión TIFF: se produjo un error al guardar en formato Tiff
+- DIAGRAMJAVA-50255) -VSDX to TIFF conversion - an error occurred while saving into the Tiff format
 - DIAGRAMJAVA-50258) -VDX a VDX exportación, el texto de la forma no está en negrita
 - DIAGRAMJAVA-50260) -VSD a VDX exportación, falta la sombra de las formas
 - DIAGRAMJAVA-50268) - Fuente VSD - La clase ConnectCollection devuelve conexiones adicionales e ID de formas incorrectas

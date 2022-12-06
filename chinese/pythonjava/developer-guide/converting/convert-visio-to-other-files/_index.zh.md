@@ -4,12 +4,12 @@ linktitle:  Visio转其他格式
 type: docs
 weight: 40
 url: /zh/python-java/convert-visio-to-other-files/
-description: This topic show you how to convert Visio to SVG,XPS,XML,XAML formats using Aspose.Diagram for Python via Java. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM to SVG,XPS,XML ,XAML 加上几行代码。
+description: This topic show you how to convert Visio to SVG,XPS,XML,XAML formats using Aspose.Diagram for Python via Java. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM to SVG,XPS,XML,XAML with a few lines of code.
 ---
 **[要导出的 Microsoft Visio diagram。](ExportToXML.vsd)**
 
 ## **导出为 XML**
-本文介绍如何通过 Java 将 Microsoft Visio diagram 导出为 XML 使用 Aspose.Diagram for Python。
+This article explains how to export a Microsoft Visio diagram to XML using Aspose.Diagram for Python via Java.
 
 - VDX 定义了一个 XML diagram。
 - VTX 定义了一个 XML 模板。
@@ -48,49 +48,49 @@ TVX 是模板文件的 XML 表示，并存储文档的设置。
 ### **导出到 XML 编程示例**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToXML.py" >}}
 
-## **导出到 XPS**
-本文介绍如何通过 Java 将 Microsoft Visio diagram 导出到 XPS 使用 Aspose.Diagram for Python。
+## **Exporting to XPS**
+This article explains how to export a Microsoft Visio diagram to XPS using Aspose.Diagram for Python via Java.
 使用 Diagram 类的构造函数读取 diagram 文件，并使用 Save 方法将 diagram 导出为任何支持的图像格式。
 
-本文中的代码片段将下面的 diagram 作为输入。您也可以使用其他 diagram 格式（VSS、VSSX、VSSM、VDX、VST、VSTX、VSTM、VDX、VTX 或 VSX）。
+The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
-要将 VSD diagram 导出到 XPS：
+To export VSD diagram to XPS:
 
 1. 创建 Diagram 类的实例。
-1. 调用 Diagram 类的 Save 方法并将 XPS 设置为输出格式。
+1. Call the Diagram class' Save method and set XPS as the output format.
 
-下图显示了输出的 XPS 文件。
+下图显示了输出 XPS 文件。
 
-### **导出到 XPS 编程示例**
+### **Exporting to XPS Programming Sample**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToXPS.py" >}}
 
-## **将 Diagram 导出为 SVG**
-本文介绍如何通过 Java 将 Microsoft Visio diagram 导出为 SVG（可缩放矢量图形）使用 Aspose.Diagram for Python。
+## **Exporting a Diagram to SVG**
+This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using Aspose.Diagram for Python via Java.
 
 使用 Diagram 类的构造函数读取 diagram 文件，并使用 Save 方法将 diagram 导出为任何支持的图像格式。
 
-要将 VSD diagram 导出为 SVG，请执行以下步骤：
+To export VSD diagram to SVG, perform the following steps:
 
 1. 创建 Diagram 类的实例。
-1. 调用类的 Save 方法并将 SVG 设置为导出格式。
+1. Call the class' Save method and set SVG as the export format.
 
-### **将 Diagram 导出为 SVG 编程示例**
-代码示例展示了如何使用 Java 将 diagram 导出为 SVG。
+### **Exporting Diagram to SVG Programming Sample**
+The code samples show how to export a diagram to SVG using Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToSVG.py" >}}
 
-## **将 Diagram 导出到 XAML**
-本文介绍如何通过 Java 将 Microsoft Visio diagram 导出到 XAML（可扩展应用程序标记语言）使用 Aspose.Diagram for Python。
+## **Exporting a Diagram to XAML**
+This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using Aspose.Diagram for Python via Java.
 
 使用 Diagram 类的构造函数读取 diagram 文件，并使用 Save 方法将 diagram 导出为任何支持的图像格式。
 
-要将 VSD diagram 导出到 XAML：
+将 VSD diagram 导出到 XAML：
 
 1. 创建 Diagram 类的实例。
-1. 调用类的 Save 方法并将 XAML 设置为导出格式。
+1. Call the class' Save method and set XAML as the export format.
 
-### **导出到 XAML 编程示例**
-代码示例展示了如何使用 Java 将 diagram 导出到 XAML。
+### **Exporting to XAML Programming Sample**
+The code sample show how to export a diagram to XAML using Java.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToXAML.py" >}}
 

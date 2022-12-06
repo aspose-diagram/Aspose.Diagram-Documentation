@@ -16,13 +16,13 @@ url: /sv/java/aspose-diagram-for-java-6-8-0-release-notes/
 |DIAGRAMJAVA-50347|Lägg till stöd för att infoga ActiveX-kontroller på sidan Visio.|Ny funktion|
 |DIAGRAMJAVA-50360|Lägg till stöd för att ställa in färgkryssrutan för lagret.|Ny funktion|
 |DIAGRAMJAVA-50348|Det går inte att kopiera en Visio-sida i VSDM.|Förbättring|
-|DIAGRAMJAVA-50357|Den ofullständiga återgivningen av ett OLE-diagram vid konvertering av en VSDX till PDF.|Förbättring|
-|DIAGRAMJAVA-50358|Ett OLE-diagram renderas inte vid konvertering av en VSDX till PNG.|Förbättring|
-|DIAGRAMJAVA-50207|VSDX till PDF-konvertering, den inbäddade Word-dokumentikonen saknas.|Insekt|
+|DIAGRAMJAVA-50357|Den ofullständiga återgivningen av ett OLE-diagram vid konvertering av ett VSDX till PDF.|Förbättring|
+|DIAGRAMJAVA-50358|Ett OLE-diagram renderas inte vid konvertering av ett VSDX till PNG.|Förbättring|
+|DIAGRAMJAVA-50207|VSDX till PDF konvertering, den inbäddade Word-dokumentikonen saknas.|Insekt|
 |DIAGRAMJAVA-50346|Felaktig hämtning av Connects från en VSD.|Insekt|
 |DIAGRAMJAVA-50349|Returnerar skräpvärde för fyllningsmönsterfärgen för varje form.|Insekt|
 |DIAGRAMJAVA-50350|Ofullständig återgivning av en dynamisk kontakt i VSDM diagram.|Insekt|
-|DIAGRAMJAVA-50354|En tom PDF genereras när en VSDX konverteras till PDF.|Insekt|
+|DIAGRAMJAVA-50354|Ett tomt PDF genereras när en VSDX konverteras till PDF.|Insekt|
 |DIAGRAMJAVA-50355|Ett fel i författarlistan inträffade när en VSDX laddades.|Insekt|
 |DIAGRAMJAVA-50359|Hämtar en omvänd riktning av kontakten från en VSD diagram.|Insekt|
 |DIAGRAMJAVA-50362|Returnerar felaktiga anslutningar vid hämtning från en VSD.|Insekt|

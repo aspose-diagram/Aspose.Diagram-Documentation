@@ -13,10 +13,10 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|L'ombre sur le bouton de lien hypertexte n'est pas rendue correctement lors de l'enregistrement de VSDM en SVG|Renforcement|
-|DIAGRAMNET-51526|VSDX en PDF - Remplissage dégradé pour les pointes de flèches perdues dans le PDF résultant|Renforcement|
-|DIAGRAMNET-51539|Le dégradé dans les formes a perdu en sortie SVG|Renforcement|
-|DIAGRAMNET-50705|VSD vers exportation SVG - Les formes de type méta se transforment en symboles désordonnés|Punaise|
+|DIAGRAMNET-51198|Shade on hyperlink button is not rendered correctly on saving VSDM to SVG|Renforcement|
+|DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|Renforcement|
+|DIAGRAMNET-51539|The gradient in shapes has lost in output SVG|Renforcement|
+|DIAGRAMNET-50705|VSD to SVG export - Meta type shapes turn into messy symbols|Punaise|
 |DIAGRAMNET-51664|Le fichier est corrompu après la suppression du thème inutilisé|Punaise|
 |DIAGRAMNET-51665|Les images sont affichées sous forme de X après la suppression des thèmes inutilisés|Punaise|
 |DIAGRAMNET-51684|Lors de la suppression des formes et des styles principaux inutilisés, seule l'image a un problème|Punaise|

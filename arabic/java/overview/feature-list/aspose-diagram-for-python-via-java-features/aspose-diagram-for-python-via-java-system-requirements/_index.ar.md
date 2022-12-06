@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Python عبر Java متطلبات النظام
+title: Aspose.Diagram لـ Python via Java متطلبات النظام
 type: docs
 weight: 30
 url: /ar/java/aspose-diagram-for-python-via-java-system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Diagram لـ Python عبر Java لا يتطلب تثبيت Microsoft Visio ، لأن Aspose.Diagram نفسه هو visio محرك إنشاء وتحويل وعرض. لعرض وثائق Visio التي تم إنتاجها بواسطة Aspose.Diagram ، يجب أن يكون لديك على الأقل Microsoft Visio عارض مثبت.
+Aspose.Diagram لـ Python via Java لا يتطلب تثبيت Microsoft Visio ، لأن Aspose.Diagram نفسه هو visio إنشاء وتحويل وتقديم محرك. لعرض وثائق Visio التي تم إنتاجها بواسطة Aspose.Diagram ، يجب أن يكون لديك على الأقل Microsoft Visio عارض مثبت.
 
 {{% /alert %}} 
 ## **إصدار Python**

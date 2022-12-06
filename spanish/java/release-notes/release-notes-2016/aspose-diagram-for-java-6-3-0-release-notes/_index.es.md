@@ -9,13 +9,13 @@ url: /es/java/aspose-diagram-for-java-6-3-0-release-notes/
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
 | DIAGRAMAJava-50306| Agregue soporte para detectar el tipo Visio diagram.| Nueva caracteristica|
-| DIAGRAMAJava-50311| Evite la exportación de las páginas ocultas Visio en el PDF.| Nueva caracteristica|
-| DIAGRAMAJava-50312| Evite la exportación de las páginas ocultas Visio en el HTML.| Nueva caracteristica|
-| DIAGRAMAJava-50313| Evite la exportación de las páginas ocultas Visio en PNG.| Nueva caracteristica|
-| DIAGRAMAJava-50314| Evite la exportación de las páginas ocultas Visio en el archivo JPEG.| Nueva caracteristica|
-|DIAGRAMAJava-50315| Evite la exportación de las páginas ocultas Visio en el SVG.| Nueva caracteristica|
+| DIAGRAMAJava-50311|Prevent export of the hidden Visio pages in the PDF. | Nueva caracteristica|
+| DIAGRAMAJava-50312|Prevent export of the hidden Visio pages in the HTML. | Nueva caracteristica|
+| DIAGRAMAJava-50313|Prevent export of the hidden Visio pages in the PNG. | Nueva caracteristica|
+| DIAGRAMAJava-50314|Prevent export of the hidden Visio pages in the JPEG. | Nueva caracteristica|
+|DIAGRAMAJava-50315|Prevent export of the hidden Visio pages in the SVG. | Nueva caracteristica|
 | DIAGRAMAJava-50316| Evite la exportación de las páginas ocultas Visio en el GIF.| Nueva caracteristica|
-| DIAGRAMAJava-50317| Evite la exportación de las páginas ocultas Visio en el XPS.| Nueva caracteristica|
+| DIAGRAMAJava-50317|Prevent export of the hidden Visio pages in the XPS. | Nueva caracteristica|
 | DIAGRAMAJava-50307| La exportación de VDX a VSDX marca la opción de línea de cuadrícula de página marcada.| Insecto|
 | DIAGRAMAJava-50308| Abrir y guardar la rutina de VSDX cambia el texto a caracteres ficticios.| Insecto|
 | DIAGRAMAJava-50309| La rutina de abrir y guardar de VSDX ha cambiado la forma de la línea de puntos.| Insecto|

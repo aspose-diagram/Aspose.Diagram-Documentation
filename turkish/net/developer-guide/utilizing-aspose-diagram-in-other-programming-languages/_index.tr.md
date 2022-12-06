@@ -5,12 +5,12 @@ weight: 120
 url: /tr/net/utilizing-aspose-diagram-in-other-programming-languages/
 description: Bu sayfada Aspose.Diagram'in Diğer Programlama Dillerinde nasıl kullanılacağı açıklanmaktadır.
 ---
-## **COM Interop aracılığıyla Aspose.Diagram for .NET'i kullanın**
- Bu konudaki bilgiler, geliştiricilerin kullanması gereken senaryolar için geçerlidir.[Aspose.Diagram for .NET](/diagram/tr/net/home/) desteklenen herhangi bir dilde COM Interop aracılığıyla.
+## **Aspose.Diagram for .NET via COM Interop'u kullanın**
+ Bu konudaki bilgiler, geliştiricilerin kullanması gereken senaryolar için geçerlidir.[Aspose.Diagram for .NET](/diagram/tr/net/home/) via COM Desteklenen herhangi bir dilde birlikte çalışma.
 ### **COM Interop ile Çalışma**
-Aspose.Diagram for .NET, .NET Framework'in kontrolünde çalışır ve buna yönetilen kod denir. .NET Framework dışında çalışan dillerin tamamında yazılan koda unmanaged code denir. Yönetilmeyen kod ile Aspose.Diagram arasındaki etkileşim, COM Interop adlı .NET tesisi aracılığıyla gerçekleşir.
+Aspose.Diagram for .NET, .NET Framework'in kontrolünde çalışır ve buna yönetilen kod denir. .NET Framework dışında çalışan dillerin tamamında yazılan koda unmanaged code denir. Yönetilmeyen kod ile Aspose.Diagram arasındaki etkileşim, via'de COM Interop adlı .NET tesisinde gerçekleşir.
 
-Aspose.Diagram nesneleri, .NET nesneleridir, ancak COM Interop aracılığıyla kullanıldıklarında, programlama dilinizde COM nesneleri olarak görünürler. Bu nedenle, kullanmaya başlamadan önce programlama dilinizde COM nesnelerini nasıl oluşturacağınızı ve kullanacağınızı bildiğinizden emin olmanız en iyisidir.[Aspose.Diagram for .NET](/diagram/tr/net/home/).
+ Aspose.Diagram nesneleri, .NET nesneleridir, ancak via COM Interop kullanıldığında, programlama dilinizde COM nesneleri olarak görünürler. Bu nedenle, kullanmaya başlamadan önce programlama dilinizde COM nesnelerini nasıl oluşturacağınızı ve kullanacağınızı bildiğinizden emin olmanız en iyisidir.[Aspose.Diagram for .NET](/diagram/tr/net/home/).
 
 - COM dünyasında, COM sunucusunu ve COM istemcisini ayırıyoruz. COM sunucusu COM sınıflarını saklarken, COM istemcisi COM sunucusundan sınıf örnekleri, yani COM nesneleri ister.
 -  COM istemcisi veya yalnızca istemci uygulaması, COM sınıfı içerikleri hakkında bir şeyler bilebilir veya yöntemleri ve özellikleri hakkında tamamen bilgisiz olabilir. Bu nedenle istemci uygulaması, COM sınıf yapısını derleme/inşa etme sırasında veya yalnızca yürütme sırasında keşfedebilir. "Keşif" süreci bağlayıcı olarak bilinir ve bu nedenle**erken bağlama** ve**geç bağlama**.
@@ -33,7 +33,7 @@ Aspose.Diagram for .NET'i kurmanız ve COM Interop'a kayıtlı olduğundan emin 
 
 Aspose.Diagram for .NET'i COM Interop için manuel olarak kaydetmek için:
 
-1.  itibaren**Başlama** menü, seç**Tüm Programlar** , sonra**Microsoft Visual Studio**, **Görsel Stüdyo Araçları** ve sonunda,**Visual Studio Komut İstemi**. Bazı işletim sistemlerinde şu konumda da bulunur: "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64"
+1.  itibaren**Başlama** menü, seç**Tüm Programlar** , sonra**Microsoft Visual Studio**, **Visual Studio Araçlar** ve sonunda,**Visual Studio Komut İstemi**. Bazı işletim sistemlerinde şu konumda da bulunur: "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64"
 1.  Derlemeyi kaydetmek için komutu girin:
    1. .NET Framework 2.0
 regasm "C:\Program Files\Aspose\Aspose.Diagram for .NET\bin\net2.0\Aspose.Diagram.dll" /kod tabanı
@@ -48,8 +48,8 @@ regasm "C:\Program Files\Aspose\Aspose.Diagram for .NET\bin\net2.0\Aspose.Diagra
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- regasm.exe, .NET Framework SDK'da bulunan bir araçtır. Tüm .NET Framework SDK araçları,*\Microsoft .NET\Framevork\<FrameworkVersion>* dizin, örneğin*C:\Windows\Microsoft .NET\Framework\v4.0.30319*. Visual Studio .NET kullanıyorsanız:
- itibaren**Başlama** menü, seç**Programlar** , bunu takiben**Microsoft Visual Studio .NET** , sonra**Visual Studio .NET Araçları** ve sonunda,**Visual Studio .NET 2003 Komut İstemi**.
+ regasm.exe, .NET Framework SDK'da bulunan bir araçtır. Tüm .NET Framework SDK araçları,*\Microsoft .NET\Framevork\<FrameworkVersion>* dizin, örneğin*C:\Windows\Microsoft .NET\Framework\v4.0.30319*. Visual Studio .NET'i kullanırsanız:
+ itibaren**Başlama** menü, seç**Programlar** , bunu takiben**Microsoft Visual Studio .NET** , sonra**Visual Studio .NET Araçlar** ve sonunda,**Visual Studio .NET 2003 Komut İstemi**.
 Gerekli tüm ortam değişkenleri ayarlanmış olarak bir komut istemi çalıştırır.
 
 {{% /alert %}} 
@@ -79,20 +79,20 @@ Bazı yöntemlerin aşırı yüklemeleri vardır ve bunlar, değişmeden kalan i
 ## **Aspose.Diagram Kaynaklar**
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 - [Aspose.Diagram for Java Çevrimiçi Dokümantasyon](https://docs.aspose.com/diagram/java/)
-- [Java Çevrimiçi Dokümantasyon aracılığıyla Node.js için Aspose.Diagram](https://docs.aspose.com/diagram/nodejsjava/)
-- [Java üzerinden Python için Aspose.Diagram Çevrimiçi Belgeler](https://docs.aspose.com/diagram/pythonjava/)
+- [Node.js için Aspose.Diagram via Java Çevrimiçi Belgeler](https://docs.aspose.com/diagram/nodejsjava/)
+- [Python için Aspose.Diagram via Java Çevrimiçi Dokümantasyon](https://docs.aspose.com/diagram/pythonjava/)
 
 ##### **Sarıcı Montajı Oluşturma**
 Aspose.Diagram for .NET sınıflarının, yöntemlerinin ve özelliklerinin birçoğunu kullanmanız gerekiyorsa, bir sarmalayıcı derleme oluşturmayı düşünün (C# veya başka bir .NET programlama dili kullanarak). Sarıcı derlemeler, Aspose.Diagram for .NET'in doğrudan yönetilmeyen koddan kullanılmasını önlemeye yardımcı olur.
 
 İyi bir yaklaşım, Aspose.Diagram for .NET'e başvuran ve tüm işi onunla yapan ve yönetilmeyen koda yalnızca en az sayıda sınıf ve yöntem sunan bir .NET derlemesi geliştirmektir. Uygulamanız daha sonra yalnızca sarıcı kitaplığınızla çalışmalıdır.
 
- COM Interop aracılığıyla çağırmanız gereken sınıf ve yöntemlerin sayısını azaltmak, projeyi basitleştirir. COM Interop aracılığıyla .NET sınıflarını kullanmak genellikle ileri düzey beceriler gerektirir.
+ via COM Interop'u çağırmanız gereken sınıf ve yöntemlerin sayısını azaltmak, projeyi basitleştirir. .NET sınıfları via COM Interop'u kullanmak genellikle ileri düzey beceriler gerektirir.
 ## **COM Interop kullanarak PHP'de Boş Bir Visio Çizimi Oluşturun**
 ### **Önkoşullar**
- PHP'nizi COM ile çalışacak şekilde yapılandırın. Görmek<http://www.php.net/manual/en/ref.com.php> . Daha fazla bilgi için lütfen adlı makaleyi kontrol edin.[COM Interop aracılığıyla Aspose.Diagram for .NET'i kullanın](/diagram/tr/net/home/).
+ PHP'nizi COM ile çalışacak şekilde yapılandırın. Görmek<http://www.php.net/manual/en/ref.com.php> . Daha fazla bilgi için lütfen adlı makaleyi kontrol edin.[Aspose.Diagram for .NET via COM Interop'u kullanın](/diagram/tr/net/home/).
 ### **Boş Visio Çizimi Oluşturma**
- Bu, kullanarak boş bir Visio çizimini nasıl oluşturacağınızı gösteren basit bir uygulamadır.[Aspose.Diagram for .NET](/diagram/tr/net/home/) PHP'de COM Interop aracılığıyla.
+ Bu, kullanarak boş bir Visio çizimini nasıl oluşturacağınızı gösteren basit bir uygulamadır.[Aspose.Diagram for .NET](/diagram/tr/net/home/) PHP via COM Interop'ta.
 
 **PHP**
 

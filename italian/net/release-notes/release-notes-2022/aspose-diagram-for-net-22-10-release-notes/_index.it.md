@@ -13,7 +13,7 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Un elemento grafico viene visualizzato in qualità scadente quando viene esportato in formato SVG|Aumento|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|Aumento|
 |DIAGRAMNET-53002|Collegamento perso durante l'esportazione in html con Aspose.Diagram|Aumento|
 |DIAGRAMNET-52983|Errore in Diagram.Salva|Insetto|
 |DIAGRAMNET-52984|Modificare i valori nella classe VentureLicenser|Insetto|

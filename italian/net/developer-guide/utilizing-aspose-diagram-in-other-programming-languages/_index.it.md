@@ -5,12 +5,12 @@ weight: 120
 url: /it/net/utilizing-aspose-diagram-in-other-programming-languages/
 description: Questa pagina descrive come utilizzare Aspose.Diagram in altri linguaggi di programmazione.
 ---
-## **Utilizzare Aspose.Diagram for .NET tramite l'interoperabilità COM**
- Le informazioni in questo argomento si applicano agli scenari in cui gli sviluppatori richiedono l'utilizzo[Aspose.Diagram for .NET](/diagram/it/net/home/) tramite l'interoperabilità COM in qualsiasi lingua supportata.
+## **Use Aspose.Diagram for .NET via COM Interop**
+ Le informazioni in questo argomento si applicano agli scenari in cui gli sviluppatori richiedono l'utilizzo[Aspose.Diagram for .NET](/diagram/it/net/home/) via COM Interop in any supported language.
 ### **Utilizzo dell'interoperabilità COM**
-Aspose.Diagram for .NET viene eseguito sotto il controllo di .NET Framework e questo è chiamato codice gestito. Il codice scritto in tutti i linguaggi funziona al di fuori dello .NET Framework e si chiama codice non gestito. L'interazione tra il codice non gestito e Aspose.Diagram avviene tramite la funzione .NET denominata COM Interop.
+Aspose.Diagram for .NET executes under the control of the .NET Framework and this is called managed code. The code written in all of the languages those runs outside the .NET Framework and it is called unmanaged code. Interaction between unmanaged code and Aspose.Diagram occurs via the .NET facility called COM Interop.
 
-Gli oggetti Aspose.Diagram sono oggetti .NET, ma se usati tramite l'interoperabilità COM, vengono visualizzati come oggetti COM nel linguaggio di programmazione. Pertanto, è meglio assicurarsi di sapere come creare e utilizzare oggetti COM nel proprio linguaggio di programmazione, prima di iniziare a utilizzare[Aspose.Diagram for .NET](/diagram/it/net/home/).
+Aspose.Diagram objects are .NET objects, but when used via COM Interop, they appear as COM objects in your programming language. Therefore, it is best to make sure you know how to create and use COM objects in your programming language, before you start using [Aspose.Diagram for .NET](/diagram/it/net/home/).
 
 - Nel mondo COM distinguiamo server COM e client COM. Il server COM ha memorizzato le classi COM mentre il client COM richiede al server COM le istanze delle classi, ovvero gli oggetti COM.
 -  Il client COM o semplicemente l'applicazione client può conoscere qualcosa del contenuto della classe COM o essere totalmente all'oscuro dei suoi metodi e proprietà. Pertanto l'applicazione client può rilevare la struttura della classe COM durante la compilazione/costruzione o solo durante l'esecuzione. Il processo di "scoperta" è noto come vincolante e così abbiamo**legame anticipato** e**rilegatura tardiva**.
@@ -33,7 +33,7 @@ Gli oggetti Aspose.Diagram sono oggetti .NET, ma se usati tramite l'interoperabi
 
 Per registrare manualmente Aspose.Diagram for .NET per l'interoperabilità COM:
 
-1.  Dal**Inizio** menù, selezionare**Tutti i programmi** , poi**Microsoft Studio visivo**, **Strumenti di Visual Studio** e infine,**Prompt dei comandi di Visual Studio**. In alcuni sistemi operativi, è disponibile anche nel percorso: "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64"
+1.  Dal**Inizio** menù, selezionare**Tutti i programmi** , poi**Microsoft Visual Studio**, **Visual Studio Tools** e infine,**Visual Studio Command Prompt**. In alcuni sistemi operativi, è disponibile anche nel percorso: "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64"
 1.  Immettere il comando per registrare l'assieme:
    1. .NET Framework 2.0
 regasm "C:\Program Files\Aspose\Aspose.Diagram for .NET\bin\net2.0\Aspose.Diagram.dll" /codebase
@@ -48,8 +48,8 @@ Prestare attenzione che /codebase è necessario solo se Aspose.Diagram.dll non �
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- regasm.exe è uno strumento incluso in .NET Framework SDK. Tutti gli strumenti SDK .NET Framework si trovano nella*\Microsoft .NET\Framevork\<Versione Framework>* directory, per esempio*C:\Windows\Microsoft .NET\Framework\v4.0.30319*. Se usi Visual Studio .NET:
- Dal**Inizio** menù, selezionare**Programmi** , seguito da**Microsoft Visual Studio .NET** , poi**Strumenti di Visual Studio .NET** e infine,**Visual Studio .NET 2003 Prompt dei comandi**.
+ regasm.exe è uno strumento incluso in .NET Framework SDK. Tutti gli strumenti SDK .NET Framework si trovano nella*\Microsoft .NET\Framevork\<Versione Framework>* directory, per esempio*C:\Windows\Microsoft .NET\Framework\v4.0.30319*. If you use Visual Studio .NET:
+ Dal**Inizio** menù, selezionare**Programmi** , seguito da**Microsoft Visual Studio .NET** , poi**Visual Studio .NET Tools** e infine,**Visual Studio .NET 2003 Command Prompt**.
 Esegue un prompt dei comandi con tutte le variabili di ambiente necessarie impostate.
 
 {{% /alert %}} 
@@ -79,20 +79,20 @@ Alcuni metodi dispongono di overload e verranno esposti dall'interoperabilità C
 ## **Aspose.Diagram Risorse**
 Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti aver bisogno per svolgere le tue attività.
 - [Aspose.Diagram for Java Documentazione in linea](https://docs.aspose.com/diagram/java/)
-- [Aspose.Diagram per Node.js tramite Java Documentazione online](https://docs.aspose.com/diagram/nodejsjava/)
-- [Aspose.Diagram per Python tramite Java Documentazione online](https://docs.aspose.com/diagram/pythonjava/)
+- [Aspose.Diagram for Node.js via Java Online Documentation](https://docs.aspose.com/diagram/nodejsjava/)
+- [Aspose.Diagram for Python via Java Online Documentation](https://docs.aspose.com/diagram/pythonjava/)
 
 ##### **Creazione di un assieme wrapper**
 Se è necessario utilizzare molte classi, metodi e proprietà Aspose.Diagram for .NET, prendere in considerazione la creazione di un assembly wrapper (utilizzando C# o qualsiasi altro linguaggio di programmazione .NET). Gli assembly wrapper consentono di evitare l'uso di Aspose.Diagram for .NET direttamente dal codice non gestito.
 
 Un buon approccio consiste nello sviluppare un assembly .NET che fa riferimento a Aspose.Diagram for .NET e fa tutto il lavoro con esso ed espone solo un set minimo di classi e metodi al codice non gestito. La tua applicazione quindi dovrebbe funzionare solo con la tua libreria wrapper.
 
- La riduzione del numero di classi e metodi da richiamare tramite l'interoperabilità COM semplifica il progetto. L'uso delle classi .NET tramite l'interoperabilità COM spesso richiede competenze avanzate.
+Reducing the number of classes and methods that you need to invoke via COM Interop simplifies the project. Using .NET classes via COM Interop often requires advanced skills. 
 ## **Crea un disegno vuoto Visio in PHP utilizzando l'interoperabilità COM**
 ### **Prerequisiti**
- Configura il tuo PHP per lavorare con COM. Vedere<http://www.php.net/manual/en/ref.com.php> . Per ulteriori informazioni, consultare l'articolo denominato[Utilizzare Aspose.Diagram for .NET tramite l'interoperabilità COM](/diagram/it/net/home/).
+ Configura il tuo PHP per lavorare con COM. Vedere<http://www.php.net/manual/en/ref.com.php> . Per ulteriori informazioni, consultare l'articolo denominato[Use Aspose.Diagram for .NET via COM Interop](/diagram/it/net/home/).
 ### **Creazione di un disegno vuoto Visio**
- Questa è una semplice applicazione che mostra come creare un disegno Visio vuoto utilizzando[Aspose.Diagram for .NET](/diagram/it/net/home/) in PHP tramite l'interoperabilità COM.
+ Questa è una semplice applicazione che mostra come creare un disegno Visio vuoto utilizzando[Aspose.Diagram for .NET](/diagram/it/net/home/) in PHP via COM Interop.
 
 **PHP**
 

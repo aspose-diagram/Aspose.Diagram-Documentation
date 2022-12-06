@@ -6,23 +6,23 @@ url: /zh/net/aspose-diagram-for-net-5-3-0-release-notes/
 ---
 此版本引入了如下详述的功能、增强功能和错误修复：
 ## **虫子**
-- DIAGRAMNET-50259-VSD 到 PDF 导出，图纸左右两侧有额外的空白
-- DIAGRAMNET-50260-VSD 到 PNG 导出，绘图左侧和右侧有额外的空白
+- DIAGRAMNET-50259-VSD to PDF export, extra white space on the left and right side of the drawing
+- DIAGRAMNET-50260-VSD to PNG export, extra white space on the left and right side of the drawing
 - DIAGRAMNET-50414-VSD 到 VDX 转换，发生无效 XML 错误
-- DIAGRAMNET-50415-VSD转PDF，输出PDF文档为空白
-- DIAGRAMNET-50416-VSD转PDF，输出PDF文档为空白
-- DIAGRAMNET-50419-VSDX 到 SVG 转换，超链接呈现不正确
-- DIAGRAMNET-50421-VSDX 转PDF，实际diagram周围空白
-- DIAGRAMNET-50422-VSDX 到 PDF 转换，diagram 的边框线未正确保留
-- DIAGRAMNET-50423-VSD转PDF，输出PDF文档为空白
+- DIAGRAMNET-50415-VSD to PDF conversion, the output PDF document is blank
+- DIAGRAMNET-50416-VSD to PDF conversion, the output PDF document is blank
+- DIAGRAMNET-50419-VSDX to SVG conversion, incorrect rendering of the hyperlinks
+- DIAGRAMNET-50421-VSDX to PDF conversion, white space around the actual diagram
+- DIAGRAMNET-50422-VSDX to PDF conversion, the border line of the diagram is not preserved properly
+- DIAGRAMNET-50423-VSD to PDF conversion, the output PDF document is blank
 - 加载 VSD 文件时发生 DIAGRAMNET-50425-Diagram 异常
-- DIAGRAMNET-50426-VSDX 到 PDF 转换，文本行之间的空格不相等
-- DIAGRAMNET-50427-VSDX 到 PDF 转换，不正确的字体名称、大小和换行符
-- DIAGRAMNET-50428-VSDX 到 PDF 转换，单词之间的制表符和空格被忽略
-- DIAGRAMNET-50429-VSDX 到 HTML 转换，文本行之间的空格不等效
-- DIAGRAMNET-50430-VSDX 到 HTML 转换，不正确的字体名称、大小和换行符
-- DIAGRAMNET-50431-VSDX 到 HTML 转换，单词之间的制表符和空格被忽略
+- DIAGRAMNET-50426-VSDX to PDF conversion, the spaces between the text lines are not equivalent
+- DIAGRAMNET-50427-VSDX to PDF conversion, incorrect font name, size and line breaks
+- DIAGRAMNET-50428-VSDX to PDF conversion, tabs and spaces are ignored between the words
+- DIAGRAMNET-50429-VSDX to HTML conversion, the spaces between the text lines are not equivalent
+- DIAGRAMNET-50430-VSDX to HTML conversion, incorrect font name, size and line breaks
+- DIAGRAMNET-50431-VSDX to HTML conversion, tabs and spaces are ignored between the words
 - DIAGRAMNET-50435-更改 Aspose.Diagram 包 zip 和 PdfLicense 文件夹名称
 - DIAGRAMNET-50436 - 从安装程序和 DLL 版本中删除示例仪表板
-- DIAGRAMNET-50440-VST 到 VDX 转换，不保留宏模块
-- DIAGRAMNET-50441 - 输出 HTML 格式中缺少形状
+- DIAGRAMNET-50440-VST to VDX conversion, macro modules are not preserved
+- DIAGRAMNET-50441-Shape is missing from the output HTML format

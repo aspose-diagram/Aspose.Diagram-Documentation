@@ -13,12 +13,12 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50711|NullPointerException genera quando si tenta di salvare il documento VDX come PNG|Aumento|
-|DIAGRAMJAVA-50713|Problema di sovrapposizione del testo durante la conversione di VSDX in PDF|Aumento|
+|DIAGRAMJAVA-50711|NullPointerException throws when try to save VDX document as PNG|Aumento|
+|DIAGRAMJAVA-50713|Text overlapping issue when converting VSDX to PDF|Aumento|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Diagram.
 ### **Aggiunto ConnectShapesViaConnector nella pagina**
-- Connetti le forme tramite connettore.
+- Connect shapes via connector.
 
 {{< highlight "java" >}}
 

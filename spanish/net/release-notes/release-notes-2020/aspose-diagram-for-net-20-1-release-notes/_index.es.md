@@ -13,10 +13,10 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|La sombra en el botón de hipervínculo no se representa correctamente al guardar VSDM en SVG|Mejora|
-|DIAGRAMNET-51526|VSDX a PDF: relleno degradado para puntas de flecha perdidas en el PDF resultante|Mejora|
-|DIAGRAMNET-51539|El degradado en las formas se ha perdido en la salida SVG|Mejora|
-|DIAGRAMNET-50705|VSD a exportación SVG: las formas de metatipo se convierten en símbolos desordenados|Insecto|
+|DIAGRAMNET-51198|Shade on hyperlink button is not rendered correctly on saving VSDM to SVG|Mejora|
+|DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|Mejora|
+|DIAGRAMNET-51539|The gradient in shapes has lost in output SVG|Mejora|
+|DIAGRAMNET-50705|VSD to SVG export - Meta type shapes turn into messy symbols|Insecto|
 |DIAGRAMNET-51664|El archivo se corrompe después de eliminar el tema no utilizado|Insecto|
 |DIAGRAMNET-51665|Las imágenes se muestran como X después de eliminar los temas no utilizados|Insecto|
 |DIAGRAMNET-51684|Al eliminar formas maestras y estilos no utilizados, solo la imagen tiene un problema|Insecto|

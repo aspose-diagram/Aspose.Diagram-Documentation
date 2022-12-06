@@ -15,11 +15,11 @@ url: /sv/net/aspose-diagram-for-net-17-5-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51104|Lägg till stöd för formens 3D-rotationsegenskaper|Ny funktion|
 |DIAGRAMNET-51229|Öppna och spara processen för VSDM tar bort SolutionXMLs|Förbättring|
-|DIAGRAMNET-50283|VTX till HTML-konvertering, dubbelradseffekt på formtextobjekt|Insekt|
+|DIAGRAMNET-50283|VTX till HTML konvertering, dubbelradseffekt på formtextobjekt|Insekt|
 |DIAGRAMNET-51195|Felaktig återgivning av en kuvertikon när du sparar ett VDX till SVG|Insekt|
 |DIAGRAMNET-51196|Felaktig textjustering när du sparar en VDX till SVG|Insekt|
 |DIAGRAMNET-51225|Hämtar ett felaktigt kalendervärde för Shape-data för VSDM|Insekt|
-|DIAGRAMNET-51226|Att spara till HTML-ström bäddar inte in externa resurser|Insekt|
+|DIAGRAMNET-51226|Spara till HTML ström, bädda inte in externa resurser|Insekt|
 |DIAGRAMNET-51227|Det går inte att ställa in TimeSave-värdet för en VSDM|Insekt|
 |DIAGRAMNET-51228|Textobjekten förskjuts vid inställning av formdata i VSDM|Insekt|
 |DIAGRAMNET-51234|Det går inte att ta bort och lägga till samma namngivna master i VSDM|Insekt|

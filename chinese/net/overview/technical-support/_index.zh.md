@@ -4,7 +4,7 @@ linktitle: 技术支援
 type: docs
 weight: 60
 url: /zh/net/technical-support/
-description: Aspose.Diagram 提供 Visio 文件格式转换为图像、PDF、HTML、XML 和 XAML 格式。支持的流行文件格式包括 VSD、VSS、VDW、VST、VSDX、VSSX、VSTX、VSDM、VSTM 和 VSSM。
+description: Aspose.Diagram provides Visio file formats conversions to images, PDF, HTML, XML and XAML formats. Popular file formats supported include VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, and VSSM.
 ---
 Aspose为其所有产品提供无限制的免费技术支持。所有用户均可获得支持，包括评估。
 

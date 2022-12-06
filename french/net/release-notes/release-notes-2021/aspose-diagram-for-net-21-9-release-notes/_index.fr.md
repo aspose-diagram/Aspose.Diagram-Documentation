@@ -20,10 +20,10 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |DIAGRAMNET-52197|Chargement et sauvegarde de la valeur de modification vsdx de DisplayMode|Renforcement|
 |DIAGRAMNET-52205|Événement de double-clic manquant dans la forme|Renforcement|
 |DIAGRAMNET-51877|Exception "Le paramètre n'est pas valide" lors du rendu du fichier VSD|Punaise|
-|DIAGRAMNET-52114|"Le paramètre n'est pas valide." exception lors du rendu du fichier VSD au format PNG/JPG|Punaise|
+|DIAGRAMNET-52114|"Parameter is not valid." exception when rendering VSD file to PNG/JPG|Punaise|
 |DIAGRAMNET-52124|Enregistrement de Visio en tant que problème html|Punaise|
-|DIAGRAMNET-52127|Enregistrement de Visio avec des lignes d'assistance au problème HTML|Punaise|
-|DIAGRAMNET-52148|VSDX en PDF - Le texte barré n'est pas correct en PDF|Punaise|
+|DIAGRAMNET-52127|Saving Visio with helper lines to HTML issue|Punaise|
+|DIAGRAMNET-52148|VSDX to PDF - Strikethrough text is not correct in PDF|Punaise|
 |DIAGRAMNET-52150|Impossible d'extraire la valeur de la formule de cellule définie par l'utilisateur CONT.|Punaise|
 |DIAGRAMNET-52229|La cellule définie par l'utilisateur est renommée|Punaise|
 |DIAGRAMNET-52231|L'option "coller" du connecteur à la forme est perdue|Punaise|

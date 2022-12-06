@@ -10,13 +10,13 @@ url: /ar/python-net/different-ways-to-open-files/
 
 {{% /alert %}}
 
-## **فتح ملف عبر مسار**
+## **فتح ملف via a مسار**
 
  يمكن للمطورين فتح ملف Microsoft Diagram باستخدام مسار الملف الخاص به على الكمبيوتر المحلي عن طريق تحديده في**Diagram**منشئ الطبقة. ما عليك سوى تمرير المسار في المُنشئ كملف*سلسلة*. سوف يقوم Aspose.Diagram باكتشاف نوع تنسيق الملف تلقائيًا.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaPath.py" >}}
 
-## **فتح ملف عبر تيار**
+## **فتح ملف via a Stream**
 
  من السهل أيضًا فتح ملف Visio كتدفق. للقيام بذلك ، استخدم إصدارًا محملاً بشكل زائد من المُنشئ يأخذ الامتداد*BufferStream*الكائن الذي يحتوي على الملف.
 

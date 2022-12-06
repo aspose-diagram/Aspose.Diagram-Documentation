@@ -13,7 +13,7 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Un gráfico se muestra en mala calidad cuando se exporta a formato SVG|Mejora|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|Mejora|
 |DIAGRAMNET-53002|Pérdida de enlace al exportar a html con Aspose.Diagram|Mejora|
 |DIAGRAMNET-52983|Error en Diagram.Guardar|Insecto|
 |DIAGRAMNET-52984|Cambiar valores en la clase VentureLicenser|Insecto|

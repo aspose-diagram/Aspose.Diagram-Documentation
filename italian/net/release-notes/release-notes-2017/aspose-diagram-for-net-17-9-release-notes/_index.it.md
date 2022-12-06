@@ -16,17 +16,17 @@ url: /it/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|Aggiungi il supporto per convertire l'area specifica di un disegno in immagine|Aumento|
 |DIAGRAMNET-51350|Aggiungi il supporto per recuperare la forma per nome|Aumento|
 |DIAGRAMNET-51351|Aggiunto il supporto per il recupero della forma da Annotazione|Aumento|
-|DIAGRAMNET-51295|VSDX a SVG - la bassa qualità dell'output SVG|Insetto|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG|Insetto|
 |DIAGRAMNET-51309|DiagramException si verifica durante il salvataggio del file VSDX|Insetto|
-|DIAGRAMNET-51331|VSDM in SVG: gli elementi di testo vengono spostati verso l'alto|Insetto|
-|DIAGRAMNET-51333|VSDM a SVG - resa errata delle icone circolari|Insetto|
-|DIAGRAMNET-51339|VSDX in SVG - il troncamento del testo dal lato destro di ciascuna immagine|Insetto|
+|DIAGRAMNET-51331|VSDM to SVG - the text items are shifted up|Insetto|
+|DIAGRAMNET-51333|VSDM to SVG - incorrect rendering of the circular icons|Insetto|
+|DIAGRAMNET-51339|VSDX to SVG - the truncation of text from the right side of each image|Insetto|
 |DIAGRAMNET-51340|Ordine dei commenti errato|Insetto|
 |` `DIAGRAMNET-51342|Errore di memoria insufficiente dopo aver utilizzato il metodo "AddComment" e aver salvato il file su Steam|Insetto|
-|DIAGRAMNET-51344|VSDX in PDF: si è verificato un errore di argomento fuori intervallo|Insetto|
+|DIAGRAMNET-51344|VSDX to PDF - an argument out of range error occurred|Insetto|
 |DIAGRAMNET-51345|Il commento non viene eliminato insieme alla forma|Insetto|
-|DIAGRAMNET-51346|VSDM in SVG: la qualità del logo viene ridotta|Insetto|
-|DIAGRAMNET-51347|VSDM in SVG: la qualità del logo viene ridotta|Insetto|
+|DIAGRAMNET-51346|VSDM to SVG - the logo quality is downgraded|Insetto|
+|DIAGRAMNET-51347|VSDM to SVG - the logo quality is downgraded|Insetto|
 |DIAGRAMNET-51353|Impossibile aggiungere un altro commento nella pagina Visio|Insetto|
 |DIAGRAMNET-51354|Impossibile modificare i commenti nella pagina Visio|Insetto|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**

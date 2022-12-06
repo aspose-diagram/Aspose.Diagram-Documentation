@@ -14,5 +14,5 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for Java 19.7](https://do
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50086|VSD - PDF dönüştürme, veri kaybı/şekilleri eksik|Böcek|
-|DIAGRAMJAVA-50087|VSD'den PDF'e dönüştürme, şekiller yanlış yerleştirilmiş|Böcek|
+|DIAGRAMJAVA-50087|VSD - PDF dönüştürme, şekiller yanlış yerleştirilmiş|Böcek|
 

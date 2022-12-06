@@ -26,7 +26,7 @@ Aspose.Diagram for .NET API'i kullanarak şekilleri gruplandırmak için .NET uy
 ## **Visio Şeklini Diğer Dosya Biçimlerine Dönüştürme**
 Aspose.Diagram for .NET API, geliştiricilerin tek bir Visio şeklini desteklenen diğer herhangi bir dosya biçimine dönüştürmesine olanak tanır. Bu yazıda, diğer tüm Visio şekillerini sayfadan kaldırıyoruz ve sayfa ayarını kaynak Şekil boyutuna göre özelleştiriyoruz.
 ### **Belirli Bir Şekli Dönüştürme Visio**
- Geliştiriciler, bir Visio şeklini şu şekilde PDF, HTML, Resim, SVG ve SWF'ye dönüştürebilir:**Visio kaydetme seçeneklerini belirleme**.
+ Geliştiriciler, bir Visio şeklini şu şekilde PDF, HTML, Image, SVG ve SWF'e dönüştürebilir.**Visio kaydetme seçeneklerini belirleme**.
 Bu örnek kod aşağıdaki gibi çalışır:
 
 1. Bir kaynak yükleyin Visio.
@@ -39,8 +39,8 @@ Bu örnek kod aşağıdaki gibi çalışır:
 1. Visio sayfasını desteklenen herhangi bir dosya biçiminde kaydedin.
 #### **Şekil Programlama Örneği Dönüştür**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
-### **Visio Shape'i PDF'ye dönüştür**
-Shape sınıfının ToPdf yöntemi, bir şeklin PDF biçimine dönüştürülmesine olanak tanır.
+### **Visio Şeklini PDF'e dönüştür**
+Shape sınıfının ToPdf yöntemi, bir şekli PDF biçimine dönüştürmeye olanak tanır.
 
 {{< highlight "java" >}}
 
@@ -53,8 +53,8 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Pages[0].Shapes.GetShape(59).ToPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **Visio Shape'i HTML'ye dönüştür**
-Shape sınıfının ToHTML yöntemi, bir şekli HTML formatına dönüştürmeye izin verir.
+### **Visio Şeklini HTML'e dönüştür**
+Shape sınıfının ToHTML yöntemi, bir şeklin HTML biçimine dönüştürülmesine izin verir.
 
 {{< highlight "java" >}}
 

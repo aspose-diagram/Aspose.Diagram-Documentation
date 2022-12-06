@@ -13,4 +13,4 @@ Den här sidan innehåller utgåvor för Aspose.Diagram för Python via .NET 22.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMPYTHONNET-2|<p>**Filformat och konverteringar**</p><p>- VSD,VDX,VSDX,VSDM,VSTM, VSTX, HTML, PDF och populära bildformat inklusive TIFF, JPG, PNG, BMP, EMF och SVG.</p>|Ny funktion|
+|DIAGRAMPYTHONNET-2|<p>**Filformat och konverteringar**</p><p>.</p>|Ny funktion|

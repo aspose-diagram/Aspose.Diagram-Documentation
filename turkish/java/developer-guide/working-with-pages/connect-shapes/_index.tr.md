@@ -8,7 +8,7 @@ description: Bu bölümde, Aspose.Diagram for Java ile iki şeklin nasıl birle�
 ## **Şekilleri Bağlayın**
 Bu bölümde, Aspose.Diagram for Java kullanılarak iki şeklin nasıl birleştirileceği açıklanmaktadır.
 ### **Şekilleri Bağlayın**
- bu[bağlantıShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) yöntem, iki şekli bir konektör aracılığıyla birbirine bağlar.[Sayfa](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) sınıf.
+ bu[bağlantıShapesViaConnector](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) ) yöntem iki şekli birleştirir via bir konektör[Sayfa](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) sınıf.
 
 Aşağıdaki kod nasıl yapılacağını gösterir:
 

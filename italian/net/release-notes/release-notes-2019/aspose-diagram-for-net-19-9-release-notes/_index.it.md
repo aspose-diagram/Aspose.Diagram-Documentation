@@ -13,28 +13,28 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51683|Visio in HTML - Il collegamento nell'HTML generato non funziona correttamente|Aumento|
+|DIAGRAMNET-51683|Visio to HTML - Link in generated HTML does not work correctly|Aumento|
 |DIAGRAMNET-51684|Durante la rimozione di forme e stili principali inutilizzati, solo l'immagine presenta un problema|Aumento|
 |DIAGRAMNET-51711|Impossibile aggiungere macro dopo la conversione|Aumento|
 |DIAGRAMNET-50383|Ridurre le dimensioni di Visio diagram|Insetto|
 |DIAGRAMNET-51682|Ottieni lo stile del carattere da Diagram|Insetto|
-|DIAGRAMNET-51685|Visio a SVG: si verifica un'eccezione|Insetto|
-|DIAGRAMNET-51686|Visio in PNG: il file di output contiene immagini e forme indesiderate|Insetto|
-|DIAGRAMNET-51687|Visio in PDF: il colore di sfondo del testo è assente nel PDF di output|Insetto|
-|DIAGRAMNET-51688|Visio in PDF - Il colore delle cornici delle forme è diverso nell'output|Insetto|
+|DIAGRAMNET-51685|Visio to SVG - an exception occurs|Insetto|
+|DIAGRAMNET-51686|Visio to PNG - Output file has unwanted image and shapes|Insetto|
+|DIAGRAMNET-51687|Visio to PDF - background color of text is absent in output PDF|Insetto|
+|DIAGRAMNET-51688|Visio to PDF - Color of Shape Frames is different in output|Insetto|
 |DIAGRAMNET-51689|Visio in JPG - l'immagine di output non è nel formato corretto|Insetto|
-|DIAGRAMNET-51691|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51692|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51693|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51694|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51697|Visio in PDF - Alcune forme non sono corrette|Insetto|
-|DIAGRAMNET-51700|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51702|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51706|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51707|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51708|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51709|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
-|DIAGRAMNET-51710|Visio in PDF - Alcune forme/linee non sono corrette|Insetto|
+|DIAGRAMNET-51691|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51692|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51693|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51694|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51697|Visio to PDF - Some shapes are not correct|Insetto|
+|DIAGRAMNET-51700|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51702|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51706|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51707|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51708|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51709|Visio to PDF - Some shapes/lines are not correct|Insetto|
+|DIAGRAMNET-51710|Visio to PDF - Some shapes/lines are not correct|Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Diagram.
 

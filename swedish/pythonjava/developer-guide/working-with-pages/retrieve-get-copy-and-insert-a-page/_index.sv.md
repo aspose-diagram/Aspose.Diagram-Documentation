@@ -19,7 +19,7 @@ Följande kodbit hämtar sidornas information från en diagram.
 ## **Hämta sidan Visio från en Diagram**
 Ibland behöver utvecklare få en Visio-ritning med siddetaljer. Aspose.Diagram för Python via Java har funktioner som hjälper dem att göra detta.
 
-Aspose.Diagram för Python via Java erbjuder klassen `Diagram` som representerar en Visio-ritning. Egenskapen Pages som exponeras av klassen Diagram stöder en samling av `Page` objekt. Klassen PageCollection exponerar metoden `getPage` som kan anropas för att hämta Page-objekt.
+Aspose.Diagram för Python via Java erbjuder klassen `Diagram` som representerar en Visio ritning. Egenskapen Pages som exponeras av klassen Diagram stöder en samling av `Page` objekt. Klassen PageCollection exponerar metoden `getPage` som kan anropas för att hämta Page-objekt.
 
 ### **Skaffa ett Visio sidobjekt med ID**
 Detta exempel fungerar enligt följande:
@@ -44,7 +44,7 @@ Följande exempel visar hur man får ett sidobjekt efter namn från Visio-ritnin
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyName.py" >}}
 
 ## **Kopiera en Visio-sida till en annan Diagram**
-Aspose.Diagram för Python via Java API tillåter utvecklare att kopiera och lägga till dess innehåll från den Visio diagram till en annan. Det här hjälpämnet förklarar hur du utför denna uppgift.
+Aspose.Diagram för Python via Java API tillåter utvecklare att kopiera och lägga till dess innehåll från den ena Visio diagram till en annan. Det här hjälpämnet förklarar hur du utför denna uppgift.
 
 Aspose.Diagram för Python via Java API har klassen `Diagram` som representerar en Visio ritning. Egenskapen Pages som exponeras av klassen Diagram stöder en samling av `Page` objekt. Klassen PageCollection exponerar metoden `add` som kan anropas för att lägga till ytterligare ett Page-objekt.
 

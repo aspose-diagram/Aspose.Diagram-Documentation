@@ -1,11 +1,11 @@
 ﻿---
-title: Exportieren Sie Visio Diagram in HTML in Ruby
+title: Export Visio Diagram to HTML in Ruby
 type: docs
 weight: 20
 url: /de/java/export-visio-diagram-to-html-in-ruby/
 ---
-## **Aspose.Diagram - Visio Diagram in HTML exportieren**
- So exportieren Sie Visio Diagram in HTML mit**Aspose.Diagram Java für Rubin** , einfach aufrufen**ExportToHtml** Modul. Hier sehen Sie Beispielcode.
+## **Aspose.Diagram - Export Visio Diagram to HTML**
+To Export Visio Diagram to HTML using **Aspose.Diagram Java für Rubin** , einfach aufrufen**ExportToHtml** Modul. Hier sehen Sie Beispielcode.
 
 **Ruby-Code**
 
@@ -25,6 +25,6 @@ puts "Exported visio diagram to HTML."
 
 {{< /highlight >}}
 ## **Laufcode herunterladen**
- Download**Visio Diagram in HTML exportieren (Aspose.Diagram)**von einer der unten genannten Social-Coding-Sites:
+ Download**Export Visio Diagram to HTML (Aspose.Diagram)**von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Export/exporttohtml.rb)

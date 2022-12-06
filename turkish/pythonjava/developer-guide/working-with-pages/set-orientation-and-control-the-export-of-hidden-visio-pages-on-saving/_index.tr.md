@@ -5,9 +5,9 @@ weight: 20
 url: /tr/python-java/set-orientation-and-control-the-export-of-hidden-visio-pages-on-saving/
 ---
 ## **Visio Sayfa Düzenini Dikey veya Yatay olarak değiştirme**
-Aspose.Diagram for Python via Java API allows developers to set the orientation of the Visio drawing page programmatically. This help topic explains how to accomplish this task.
+Python via Java API için Aspose.Diagram, geliştiricilerin Visio çizim sayfasının yönünü programlı olarak ayarlamasına olanak tanır. Bu yardım konusu, bu görevin nasıl gerçekleştirileceğini açıklar.
 
-Aspose.Diagram for Python via Java API has the `Page` class that represents a Visio drawing page. The PageSheet property exposed by the Page class also exposes the print properties. The `PrintPageOrientation` field of the print properties allows to rotate the page. It offers three options as Portrait, Landscape and same as on the printer. The PrintPageOrientation field can be set programmatically using Aspose.Diagram for Python via Java API.
+Python via Java API için Aspose.Diagram, bir Visio çizim sayfasını temsil eden `Page` sınıfına sahiptir. Page sınıfı tarafından sunulan PageSheet özelliği ayrıca yazdırma özelliklerini de gösterir. Yazdırma özelliklerinin `PrintPageOrientation` alanı, sayfanın döndürülmesine izin verir. Dikey, Yatay ve yazıcıdaki ile aynı olmak üzere üç seçenek sunar. PrintPageOrientation alanı, Python via Java API için Aspose.Diagram kullanılarak programlı olarak ayarlanabilir.
 
 Bu örnek şu şekilde çalışır:
 
@@ -22,18 +22,18 @@ Aşağıdaki kod örneği, Visio sayfasının yönünün nasıl ayarlanacağın�
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-SetVisioPageOrientation.py" >}}
 
 ## **Kaydederken Gizli Visio Sayfalarının Dışa Aktarılmasını Kontrol Edin**
-Aspose.Diagram for Python via Java API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram for Python via Java API because its option is already available through the cell UIVisibility in the page ShapeSheet.
+Aspose.Diagram Python için via Java API, geliştiricilerin tasarruf Visio sayfa dahil etmesine veya hariç tutulmasına izin verir. Hatta Python via Java API için Aspose.Diagram'i kullanarak Visio sayfayı gizleyebilirler çünkü seçeneği ShapeSheet sayfasındaki UIVisibility hücresi aracılığıyla zaten mevcuttur.
 
 ### **Visio Diagram'de bir Sayfayı Gizle ve Dışa Aktarma Seçeneğini Ayarla**
-Aspose.Diagram for Python via Java API has the `Page` class that represents a Visio drawing page. The PageSheet property exposed by the Page class also exposes the page properties. The `UIVisibility` field of the page properties allows to hide the page. Developers can then use `exportHiddenPage` property which is added in the `SVGSaveOptions`, `XPSSaveOptions`, `ImageSaveOptions`, `HTMLSaveOptions` and `PdfSaveOptions` classes.
+Python via Java API için Aspose.Diagram, bir Visio çizim sayfasını temsil eden `Page` sınıfına sahiptir. Page sınıfı tarafından sunulan PageSheet özelliği, sayfa özelliklerini de gösterir. Sayfa özelliklerinin `UIVisibility` alanı, sayfanın gizlenmesine izin verir. Geliştiriciler daha sonra `SVGSaveOptions`, `XPSSaveOptions`, `ImageSaveOptions`, `HTMLSaveOptions` ve `PdfSaveOptions` sınıflarına eklenen `exportHiddenPage` özelliğini kullanabilir.
 
-#### **PDF için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i PDF biçiminde kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **PDF için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - PDF biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExporToHiddenVisioPagesToPdf.py" >}}
 
-#### **HTML için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i HTML biçimine kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **HTML için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - HTML biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToHtml.py" >}}
 
@@ -42,7 +42,7 @@ Aşağıdaki kod, bir diagram'i görüntü formatına kaydetmeden önce kaydetme
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToImage.py" >}}
 
-#### **SVG için Dışa Aktarma Seçeneğini Ayarlayın**
-Aşağıdaki kod, bir diagram'i SVG biçimine kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+#### **SVG için Dışa Aktarma Seçeneğini ayarlayın**
+Aşağıdaki kod, diagram - SVG biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToSVG.py" >}}

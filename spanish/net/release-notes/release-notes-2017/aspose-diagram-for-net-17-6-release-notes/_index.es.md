@@ -13,21 +13,21 @@ url: /es/net/aspose-diagram-for-net-17-6-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-51264|La sombra de las formas es negra al convertir un VSDM a SVG|Mejora|
+|DIAGRAMNET-51264|The shadow of shapes is black on converting a VSDM to SVG|Mejora|
 |DIAGRAMNET-51270|No se puede ver una forma de VSDX en Visio Viewer|Mejora|
 |DIAGRAMNET-51273|Visualización incorrecta de la forma en el Visio Viewer 2013|Mejora|
 |DIAGRAMNET-51249|La apariencia incorrecta de la línea curva que conecta en VSDM|Insecto|
-|DIAGRAMNET-51250|Se agrega un paréntesis izquierdo adicional en el texto al convertir un VSD a PDF|Insecto|
-|DIAGRAMNET-51251|El tamaño del ícono se reduce al convertir un VSDM a SVG|Insecto|
-|DIAGRAMNET-51253|Color incorrecto del texto y los bordes en las formas al convertir un VSDM a SVG|Insecto|
-|DIAGRAMNET-51255|Se ha aplastado una imagen en la parte inferior al convertir un VSDM a SVG|Insecto|
+|DIAGRAMNET-51250|An additional left parenthesis is added in text on converting a VSD to PDF|Insecto|
+|DIAGRAMNET-51251|The size of the icon is downgraded on converting a VSDM to SVG|Insecto|
+|DIAGRAMNET-51253|Incorrect color of text and borders in shapes when converting a VSDM to SVG|Insecto|
+|DIAGRAMNET-51255|An image at the bottom has been squashed on converting a VSDM to SVG|Insecto|
 |DIAGRAMNET-51258|Abra y guarde la rutina de VSDM: se cambia la longitud de las paredes|Insecto|
 |DIAGRAMNET-51259|Abra y guarde la rutina de VSDM: se cambia la longitud de las paredes|Insecto|
 |DIAGRAMNET-51260|Se produjo un error de índice fuera de rango al llamar al método de diseño de la clase Diagram|Insecto|
-|DIAGRAMNET-51263|Aparece una etiqueta de color rojo adicional al convertir un VSDM a SVG|Insecto|
-|DIAGRAMNET-51265|La fuente del texto del título se cambia al convertir un VSDM a SVG|Insecto|
-|DIAGRAMNET-51266|El tamaño de la imagen de fondo se reduce a convertir un VSDM a SVG|Insecto|
-|DIAGRAMNET-51267|El tamaño de un ícono se reduce al convertir un VSDM a SVG|Insecto|
+|DIAGRAMNET-51263|An additional red color tag appears on converting a VSDM to SVG|Insecto|
+|DIAGRAMNET-51265|The font of title text is changed on converting a VSDM to SVG|Insecto|
+|DIAGRAMNET-51266|The size of background image is reduced to converting a VSDM to SVG|Insecto|
+|DIAGRAMNET-51267|An icon size is downgraded on converting a VSDM to SVG|Insecto|
 |DIAGRAMNET-51268|Recupera el valor de transparencia incorrecto de una imagen del dibujo VSDM|Insecto|
 |DIAGRAMNET-51269|Agregar protección de virtualización|Insecto|
 ## **Public API y cambios incompatibles con versiones anteriores**

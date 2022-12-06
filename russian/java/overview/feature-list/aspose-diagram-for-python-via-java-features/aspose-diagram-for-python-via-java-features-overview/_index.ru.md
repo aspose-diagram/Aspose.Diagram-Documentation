@@ -1,10 +1,10 @@
 ﻿---
-title: Aspose.Diagram для Python через Java Особенности
+title: Aspose.Diagram для Python via Java Характеристики
 type: docs
 weight: 10
 url: /ru/java/aspose-diagram-for-python-via-java-features/
 ---
-В этом разделе представлено сравнение доступности функций Aspose.Diagram для Python через Java.
+В этом разделе представлено сравнение доступности функций Aspose.Diagram для Python via Java.
 ## **Поддерживаемые форматы файлов**
 
 |**Формат**|**Описание**|**Нагрузка**|**Сохранять**|**Примечания**|
@@ -21,24 +21,24 @@ url: /ru/java/aspose-diagram-for-python-via-java-features/
 |[VSTM](https://docs.fileformat.com/visio/vstm/)|VSTM, который содержит как шаблон чертежа, так и макросы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|?|
 |[ВДВ](https://docs.fileformat.com/visio/vdw/)|Visio Тип файла веб-чертежа|{{< emoticons/tick >}}|?|?|
 |[ВСС](https://docs.fileformat.com/visio/vss/)|Тип файла трафарета Visio|{{< emoticons/tick >}}|?|?|
-|[ВСТ](https://docs.fileformat.com/visio/vst/)|Файл шаблона VST|{{< emoticons/tick >}}|?|?|
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Файл шаблона|{{< emoticons/tick >}}|?|?|
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (переносимый формат документа)|?|{{< emoticons/tick >}}|?|
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|Формат XPS|?|{{< emoticons/tick >}}|?|
-|[XAML](https://docs.fileformat.com/web/xaml/)|формат XAML|?|{{< emoticons/tick >}}|?|
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS формат|?|{{< emoticons/tick >}}|?|
+|[XAML](https://docs.fileformat.com/web/xaml/)|XAML формат|?|{{< emoticons/tick >}}|?|
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Масштабируемая векторная графика (формат векторного изображения на основе XML)|?|{{< emoticons/tick >}}|?|
-|[ЭДС](https://docs.fileformat.com/image/emf/)|Расширенный метафайл|?|{{< emoticons/tick >}}|?|
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|Формат JPEG|?|{{< emoticons/tick >}}|?|
-|[PNG](https://docs.fileformat.com/image/png/)|Формат PNG|?|{{< emoticons/tick >}}|?|
-|[БМП](https://docs.fileformat.com/image/bmp/)|BMP-формат|?|{{< emoticons/tick >}}|?|
-|[ТИФФ](https://docs.fileformat.com/image/tiff/)|Одно- или многостраничное изображение TIFF|?|{{< emoticons/tick >}}|?|
-## **Aspose.Diagram для Python через Java - Особенности**
+|[EMF](https://docs.fileformat.com/image/emf/)|Расширенный метафайл|?|{{< emoticons/tick >}}|?|
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Формат|?|{{< emoticons/tick >}}|?|
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Формат|?|{{< emoticons/tick >}}|?|
+|[BMP](https://docs.fileformat.com/image/bmp/)|BMP Формат|?|{{< emoticons/tick >}}|?|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Одностраничное или многостраничное изображение TIFF|?|{{< emoticons/tick >}}|?|
+## **Aspose.Diagram для Python via Java - Характеристики**
 ### **Создавать**
 - Создание диаграмм с нуля.
 ### **Читать**
 - Читать формат Microsoft Visio 2003/2007/2010 VSD.
 - Читать Microsoft Visio 2003/2007/2010 формат VSS.
 - Читать Microsoft Visio 2003/2007/2010 формат VDW.
-- Читать Microsoft Visio 2003/2007/2010 Формат VST.
+- Читать формат Microsoft Visio 2003/2007/2010 VST.
 ### **Прочти и напиши**
 - Чтение или запись в формате Microsoft Visio 2013 VSDX.
 - Чтение или запись в формате Microsoft Visio 2013 VSSX.
@@ -50,10 +50,10 @@ url: /ru/java/aspose-diagram-for-python-via-java-features/
 - Чтение или запись в формате Microsoft Visio 2003/2007/2010 VSX.
 - Чтение или запись в формате Microsoft Visio 2003/2007/2010 VTX.
 ### **Экспорт**
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в популярные форматы изображений (BMP, JPEG, TIFF, EMF, SVG и PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в PDF.
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в HTML.
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в XML Paper Specification (XPS).
+- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в спецификацию XML Paper (XPS).
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в XAML.
 ### **Распечатать**
 - Печатайте Visio диаграмм с высокой точностью.

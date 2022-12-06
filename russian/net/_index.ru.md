@@ -1,7 +1,7 @@
 ﻿---
 title: Aspose.Diagram for .NET
 type: docs
-description: "Aspose.Diagram, является чистым .NET API для работы с объектной моделью Microsoft Visio. Он обеспечивает преобразование форматов файлов Visio в изображения, форматы PDF, HTML, XML и XAML. Поддерживаются популярные форматы файлов: VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM и VSSM."
+description: "Aspose.Diagram, является чистым .NET API для работы с объектной моделью Microsoft Visio. Он обеспечивает преобразование форматов файлов Visio в изображения, форматы PDF, HTML, XML и XAML. Поддерживаются популярные форматы файлов: VST, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM и VSSM."
 weight: 10
 url: /ru/net/
 is_root: true
@@ -19,7 +19,7 @@ Aspose.Diagram — это чистая библиотека классов .NET 
 
 Aspose.Diagram использует расширенные функции, предоставляемые Microsoft Office Visio, для управления диаграммами Visio на сервере. Aspose.Diagram API является расширяемым, простым в использовании, компактным и предоставляет все наиболее распространенные функции, чтобы разработчики могли писать меньше кода.
 
-С Aspose.Diagram вы можете легко преобразовать свои блок-схемы в другие форматы, такие как PDF, HTML, различные форматы изображений или другие.
+ С Aspose.Diagram вы можете легко преобразовать свои блок-схемы в другие форматы, такие как PDF, HTML, различные форматы изображений или другие.
 
 {{% /alert %}} 
 

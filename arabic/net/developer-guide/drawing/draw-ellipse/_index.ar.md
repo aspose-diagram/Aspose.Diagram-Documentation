@@ -16,7 +16,7 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في �
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsSVG.cs" >}}
 
 ## **ارسم دائرة في PDF**
-Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظه بتنسيق PDF.
+Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظها بتنسيق PDF.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPDF.cs" >}}
 
@@ -25,7 +25,7 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في �
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsPNG.cs" >}}
 
-## **ارسم دائرة بتنسيق HTML**
+## **ارسم دائرة في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظها بتنسيق HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipse-AsHTML.cs" >}}
@@ -45,12 +45,12 @@ Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاو
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPDF.cs" >}}
 
-## **ارسم شكل بيضوي بصيغة PNG**
+## **ارسم شكل بيضوي في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio وحفظه بتنسيق PNG.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsPNG.cs" >}}
 
-## **ارسم شكل بيضوي بلغة HTML**
+## **ارسم شكل بيضوي في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio وحفظه بتنسيق HTML.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawEllipseInPage-AsHTML.cs" >}}

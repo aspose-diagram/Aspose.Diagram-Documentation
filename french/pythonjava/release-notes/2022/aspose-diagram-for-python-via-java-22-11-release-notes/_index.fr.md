@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram pour Python via Java 22.11 Notes de mise à jour
+title: Aspose.Diagram for Python via Java 22.11 Release Notes
 type: docs
 weight: 17
 url: /fr/python-java/aspose-diagram-for-python-via-java-22-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient des informations sur les notes de version pour Aspose.Diagram pour Python via Java 22.11.
+This page contains release notes information for Aspose.Diagram for Python via Java 22.11.
 
 {{% /alert %}}
 ## **Améliorations et changements**  ##

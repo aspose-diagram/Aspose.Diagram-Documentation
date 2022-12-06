@@ -14,13 +14,13 @@ Bu sayfa için sürüm notları içerir[Aspose.Diagram for Java 17.1.0](https://
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50396|Bir VSDX diagram'den dikdörtgen şeklinin dolgu rengi alınamıyor.|Artırma|
-|DIAGRAMJAVA-50367|VSDX'i PDF'ye dönüştürürken şekillerin rengi korunmuyor.|Böcek|
-|DIAGRAMJAVA-50370|VSDX PNG'ye dönüştürülürken dikdörtgen şeklinin biçimlendirmesi eksik.|Böcek|
-|DIAGRAMJAVA-50373|Bir VSD'i SVG'ye dönüştürürken şekillerin gölgesi düzgün şekilde oluşturulmuyor.|Böcek|
-|DIAGRAMJAVA-50378|Bir VSDX PNG'ye dönüştürülürken belirtme çizgilerinin ve metnin rengi korunmuyor.|Böcek|
-|DIAGRAMJAVA-50379|Microsoft PNG'ye dönüştürülürken bir Microsoft Sharepoint İş Akışı şekli eksik.|Böcek|
-|DIAGRAMJAVA-50380|VSD'i PDF'ye dönüştürürken eksik metin öğeleri ve bir şeklin çakışması.|Böcek|
-|DIAGRAMJAVA-50406|Bir VSD'i HTML'ye dönüştürürken dinamik bağlayıcıların eksik işlenmesi.|Böcek|
+|DIAGRAMJAVA-50367|VSDX'den PDF'e dönüştürülürken şekillerin rengi korunmuyor.|Böcek|
+|DIAGRAMJAVA-50370|VSDX'den PNG'e dönüştürülürken dikdörtgen şeklinin biçimlendirmesi eksik.|Böcek|
+|DIAGRAMJAVA-50373|VSD'den SVG'e dönüştürülürken şekillerin gölgesi düzgün şekilde oluşturulmuyor.|Böcek|
+|DIAGRAMJAVA-50378|VSDX'den PNG'e dönüştürülürken belirtme çizgilerinin ve metnin rengi korunmuyor.|Böcek|
+|DIAGRAMJAVA-50379|VSDX'i PNG'e dönüştürürken bir Microsoft Sharepoint İş Akışı şekli eksik.|Böcek|
+|DIAGRAMJAVA-50380|VSD'i PDF'e dönüştürürken eksik metin öğeleri ve bir şeklin çakışması.|Böcek|
+|DIAGRAMJAVA-50406|Bir VSD'i HTML'e dönüştürürken dinamik bağlayıcıların eksik işlenmesi.|Böcek|
 |DIAGRAMJAVA-50450|Bir şekil metni, sahte karakterlere dönüştürülüyor.|Böcek|
 |DIAGRAMJAVA-50456|Visio sayfalarının SVG'lere dönüştürülmesinde Visio şekillerinin kısmi işlenmesi.|Böcek|
 

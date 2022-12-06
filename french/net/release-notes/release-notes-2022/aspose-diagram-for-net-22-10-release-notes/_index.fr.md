@@ -13,7 +13,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52988|Un graphique s'affiche en mauvaise qualité lorsqu'il est exporté au format SVG|Renforcement|
+|DIAGRAMNET-52988|A graphic is displayed in poor quality when it is exported to SVG format|Renforcement|
 |DIAGRAMNET-53002|Perte de lien lors de l'export en html avec Aspose.Diagram|Renforcement|
 |DIAGRAMNET-52983|Erreur dans Diagram.Enregistrer|Punaise|
 |DIAGRAMNET-52984|Modifier les valeurs dans la classe VentureLicenser|Punaise|

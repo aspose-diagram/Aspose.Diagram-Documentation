@@ -4,15 +4,15 @@ linktitle:  Convertir Visio a otros formatos
 type: docs
 weight: 40
 url: /es/python-net/convert-visio-to-other-files/
-description: Este tema le muestra cómo Aspose.Diagram permite convertir Visio a formatos SVG, XPS, XML, XAML. Convierta VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM a SVG,XPS,XML,XAML con unas pocas líneas de código.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to SVG,XPS,XML,XAML formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to SVG,XPS,XML,XAML with a few lines of code.
 ---
 ## **Exportar a XML**
-### **Exportar Microsoft Visio Dibujo a PDF**
-Los ejemplos de código muestran cómo exportar el dibujo Microsoft Visio a PDF usando C#.
+### **Export Microsoft Visio Drawing to PDF**
+The code samples show how to export Microsoft Visio Drawing to PDF using C#.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
 
- Este artículo explica cómo exportar un Microsoft Visio diagram a XML usando[Aspose.Diagram para Python vía .NET](https://products.aspose.com/diagram/python-net/) API.
+ Este artículo explica cómo exportar un Microsoft Visio diagram a XML usando[Aspose.Diagram for Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
 - VDX define un XML diagram.
 - VTX define una plantilla XML.
@@ -57,37 +57,37 @@ Los ejemplos de código muestran cómo exportar Microsoft Visio Dibujo a XML usa
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXml.py" >}}
 
-## **Exportar a XPS**
- Este artículo explica cómo exportar un Microsoft Visio diagram a XPS usando[Aspose.Diagram para Python vía .NET](https://products.aspose.com/diagram/python-net/) API.
+## **Export to XPS**
+This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 Utilice el constructor de la clase [Diagram] para leer los archivos diagram y el método Guardar para exportar el diagram a cualquier formato de imagen compatible.
 
-Los fragmentos de código de este artículo toman el diagram a continuación como entrada. También puede usar otros formatos diagram (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX o VSX).
+The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX or VSX) as well.
 
 |**El documento fuente.**|
 |:- |
 |![todo:imagen_alternativa_texto](how-to-convert-a-visio-diagram_5.png)|
 
 
-Para exportar VSD diagram a XPS:
+To export VSD diagram to XPS:
 
 1. Cree una instancia de la clase Diagram.
-1. Llame al método Guardar de la clase Diagram y establezca XPS como formato de salida.
-### **Exportar Microsoft Visio Dibujo a XPS**
-Los ejemplos de código muestran cómo exportar el dibujo Microsoft Visio a XPS usando C#.
+1. Call the Diagram class' Save method and set XPS as the output format.
+### **Export Microsoft Visio Drawing to XPS**
+The code samples show how to export Microsoft Visio Drawing to XPS using C#.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
 
-## **Exportar un Diagram a SVG**
-Este artículo explica cómo exportar un Microsoft Visio diagram a SVG (Scalable Vector Graphics) usando[Aspose.Diagram para Python vía .NET](https://products.aspose.com/diagram/python-net/) API.
+## **Export a Diagram to SVG**
+This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using [Aspose.Diagram for Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
 Utilice el constructor de la clase [Diagram] para leer los archivos diagram y el método Guardar para exportar el diagram a cualquier formato de imagen compatible.
 
-Para exportar VSD diagram a SVG, realice los siguientes pasos:
+To export VSD diagram to SVG, perform the following steps:
 
 1. Cree una instancia de la clase Diagram.
-1. Llame al método Guardar de la clase y establezca SVG como formato de exportación.
-### **Exportar Microsoft Visio Dibujo a SVG**
-Los ejemplos de código muestran cómo exportar un diagram a SVG usando C#.
+1. Call the class' Save method and set SVG as the export format.
+### **Export Microsoft Visio Drawing to SVG**
+The code samples show how to export a diagram to SVG using C#.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToSvg.py" >}}
 

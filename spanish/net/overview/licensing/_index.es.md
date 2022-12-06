@@ -15,7 +15,7 @@ La versión de evaluación de Aspose.Diagram (sin una licencia especificada) bri
 La versión de evaluación proporciona todas las características excepto las siguientes:
 
 - Solo puede leer las primeras diez formas de la primera página de Visio diagram.
-- También verá una marca de agua de evaluación en imágenes exportadas y archivos PDF.
+- You will also see evaluation watermark in exported images and PDF files.
 
 {{% alert color="primary" %}} 
 

@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram для Node.js через Java 22.9 Примечания к выпуску
+title: Aspose.Diagram для Node.js via Java 22.9 Примечания к выпуску
 type: docs
 weight: 19
 url: /ru/nodejsjava/aspose-diagram-for-node-js-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-На этой странице содержится информация о примечаниях к выпуску для Aspose.Diagram для Node.js через Java 22.9.
+Эта страница содержит информацию о примечаниях к выпуску для Aspose.Diagram для Node.js via Java 22.9.
 
 {{% /alert %}}
 ## **Улучшения и изменения**  ##
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: форма искажается после сохранения в PNG|Улучшение|
+|DIAGRAMJAVA-51022|WK: Форма искажена после сохранения в PNG|Улучшение|
 |DIAGRAMJAVA-51015|wk: имя формы на языке, отличном от английского.|Ошибка|
 |DIAGRAMJAVA-51020|wk: имя формы листа со слоем не разрешено правильно|Ошибка|
 

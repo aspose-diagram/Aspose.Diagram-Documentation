@@ -14,7 +14,7 @@ Der folgende Codeabschnitt extrahiert alle Bilder von einer bestimmten Visio-Sei
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ExtractAllImagesFromPage.py" >}}
 ## **Holen Sie sich Symbole in verschiedenen Visio-Formen**
- Aspose.Diagram für Python über Java API ermöglicht es Entwicklern jetzt, verschiedene Symbole zu erhalten[Visio Formen](Timeline.vss). 
+Aspose.Diagram for Python via Java API now allows developers to get icons of various [Visio Formen](Timeline.vss). 
 ### **Abrufen des Shape-Symbols**
 Der Code in den folgenden Beispielen zeigt, wie Sie:
 
@@ -25,7 +25,7 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 #### **Holen Sie sich ein Icon-Programmierbeispiel**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-GetShapeIcon.py" >}}
 ## **Ersetzen Sie eine Bildform von Visio Diagram**
-Aspose.Diagram für Python über Java API ermöglicht Entwicklern den Zugriff und das Ersetzen verfügbarer Bildformen in[die Visio diagram](ExtractAllImagesFromPage.vsd).
+Aspose.Diagram for Python via Java API allows developers to access and replace available picture shapes in [die Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **Ersetzen einer Bildform**
 Der Code in den folgenden Beispielen zeigt, wie Sie:
 
@@ -36,7 +36,7 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 #### **Ersetzen eines Bildform-Programmierbeispiels**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ReplaceShapePicture.py" >}}
 ## **Bild als Visio-Form importieren**
-Aspose.Diagram für Python über Java API ermöglicht es Entwicklern jetzt, ein Bild als Microsoft Visio-Form zu importieren.
+Aspose.Diagram for Python via Java API now allows developers to import a image as a Microsoft Visio shape.
 ### **Fügen Sie ein Bild in Visio ein**
 Der Code in den folgenden Beispielen zeigt, wie Sie:
 

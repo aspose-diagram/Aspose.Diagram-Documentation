@@ -10,16 +10,16 @@ url: /zh/net/aspose-diagram-for-net-6-0-0-release-notes/
 - DIAGRAMNET-50617-添加支持以确定两个形状是否粘合或连接
 - DIAGRAMNET-50641-VSD 到 VDX 导出，缺少形状的阴影
 ## **虫子**
-- DIAGRAMNET-50303-VSD 到 PDF 导出，生成带有白点的空 PDF
+- DIAGRAMNET-50303-VSD to PDF export, empty PDF having white spot is generated 
 - DIAGRAMNET-50466-VSD 到 VDX 转换，曲线动态连接器变成直线
-- DIAGRAMNET-50472-VSD 到 HTML 转换，文本形状错位
-- DIAGRAMNET-50473-VSD 到 PDF 转换，在所有页面的标题中添加文本“Iloprost”
-- DIAGRAMNET-50474-VSD 转PDF，列表项错位
-- DIAGRAMNET-50480-VSD 到 HTML 转换，在所有页面的标题中添加文本“Iloprost”
+- DIAGRAMNET-50472-VSD to HTML conversion, the text shape is misplaced 
+- DIAGRAMNET-50473-VSD to PDF conversion, the text "Iloprost" is added in header of all pages 
+- DIAGRAMNET-50474-VSD to PDF conversion, the list items are misplaced 
+- DIAGRAMNET-50480-VSD to HTML conversion, the text "Iloprost" is added in header of all pages 
 - DIAGRAMNET-50622 - 无法检测连接形状的传入节点
 - DIAGRAMNET-50623-连接器形状的几何形状不正确
 - DIAGRAMNET-50624-连接器形状的几何形状不正确
-- DIAGRAMNET-50629-输出格式 HTML] - 无法放置来自另一个 Visio diagram 的组形状
+- DIAGRAMNET-50629-Output format HTML] - Can't place a group shape from another Visio diagram 
 - DIAGRAMNET-50634-Copying a Visio diagram 页面操作不保留形状的样式
 - DIAGRAMNET-50635-Copying a Visio diagram 页面没有完全保留形状
 - DIAGRAMNET-50636-Copying a Visio diagram 页面没有完全保留形状

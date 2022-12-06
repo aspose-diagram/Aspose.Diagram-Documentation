@@ -7,8 +7,8 @@ description: يشرح هذا القسم كيفية دمج ملف visio
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- Aspose.Diagram لـ Python عبر Java يسمح لك بدمج ملفين visio في ملف واحد.
-Aspose.Diagram لـ Python عبر Java API به فئة Diagram التي تمثل رسم Visio.
+Aspose.Diagram لـ Python via Java يسمح لك بدمج ملفين visio في ملف واحد.
+Aspose.Diagram لـ Python via Java API له فئة Diagram التي تمثل رسم Visio.
 باستخدام الطريقة**يجمع** في فئة Diagram لدمج الرسوم البيانية.
 
 ## **عينة من الرموز**

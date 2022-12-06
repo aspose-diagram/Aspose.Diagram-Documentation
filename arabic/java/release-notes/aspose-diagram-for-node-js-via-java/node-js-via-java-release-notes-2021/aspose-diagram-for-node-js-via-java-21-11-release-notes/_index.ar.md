@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram لـ Node.js عبر Java 21.11 ملاحظات الإصدار
+title: Aspose.Diagram لـ Node.js via Java 21.11 ملاحظات الإصدار
 type: docs
 weight: 4
 url: /ar/java/aspose-diagram-for-node-js-via-java-21-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Node.js عبر Java 21.11.
+تحتوي هذه الصفحة على معلومات حول ملاحظات الإصدار لـ Aspose.Diagram لـ Node.js via Java 21.11.
 
 {{% /alert %}}
 ## **التحسينات والتغييرات**  ##

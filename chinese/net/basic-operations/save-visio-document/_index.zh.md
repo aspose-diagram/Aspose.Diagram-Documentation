@@ -12,7 +12,7 @@ description: 本页介绍如何将 Visio 文档保存到文件，使用 Aspose.D
  Aspose.Diagram API 的 Diagram 类表示一个 Visio 绘图，开发人员可以将其 Visio diagram 对象保存为任何支持的文件格式。要保存 Microsoft Visio 文件，只需使用[Diagram.Save]()方法，它接受具有完整路径的文件名或文件流对象。 Aspose.Diagram API 从文件扩展名推断保存格式，还提供了一个额外的 SaveFileFormat 参数来指定输出文件格式。
 ### **以任何支持的文件格式保存 Visio Diagram**
 使用 Aspose.Diagram API，开发人员可以将 Visio diagram 保存为任何支持的文件格式，如下所列：
-**VSDX、VSDM、VSSX、VSSM、VSTX、VSTM、VDX、VSX、VTX、TIFF、PNG、BMP、EMF、JPEG、PDF、XPS、GIF、HTML、SWF 和 SVG、SVG**
+**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF and XAML**
 ### **保存 Diagram 编程示例**
 下面的示例将文档保存到文件中。
 
@@ -24,7 +24,7 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
 ## **指定 Visio 保存选项**
-有几个[Diagram.Save]()接受 SaveOptions 对象的方法重载。这应该是从 SaveOptions 类派生的类的对象。每个保存格式都有一个相应的类，其中包含该保存格式的保存选项。例如，SaveFileFormat.PDF 保存格式有 PdfSaveOptions。
+有几个[Diagram.Save]() method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format. For example, there is PdfSaveOptions for the SaveFileFormat.PDF save format.
 ### **Visio Diagram 保存选项**
 这些示例展示了如何：
 
@@ -42,14 +42,14 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 
 #### **使用 PDF 保存选项**
-下面的代码显示了如何在将文档保存为 PDF 格式之前设置保存选项。
+The code below shows how to set save options before saving a document to a PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-UsePDFSaveOptions.cs" >}}
 
 
 
 #### **使用 HTML 保存选项**
-下面的代码显示了如何在将文档保存为 HTML 文件格式之前设置保存选项。
+The code below shows how to set save options before saving a document to HTML file format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseHTMLSaveOptions-UseHTMLSaveOptions.cs" >}}
 
@@ -76,16 +76,16 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UseSWFSaveOptions-UseSWFSaveOptions.cs" >}}
 
-有时，开发人员需要以编程方式将 Visio 图表保存或导出为不同的文件格式（如 VDX、PDF、JPEG 等）。
-## **将 VSD 文件保存为不同的文件格式（VDX、PDF 和 JPEG）**
-本文提供了一个代码示例，说明如何使用[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/)和[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net)以编程方式将 Microsoft Visio VSD 文件保存为 VDX 文件、PDF 文件或 JPEG 文件。下面是 VSTO 和 Aspose.Diagram for .NET 的并行代码片段，解释了如何将 VSD 文件保存为不同的文件格式。您会注意到 Aspose.Diagram 代码更短。随意使用代码并更改它以满足您的特定需求。
+Sometimes, developers need to save or export Visio diagrams to different file formats programmatically (like VDX, PDF, JPEG and so on).
+## **Save VSD file to different file formats (VDX, PDF and JPEG)**
+本文提供了一个代码示例，说明如何使用[VSTO](https://docs.aspose.com/diagram/net/save-visio-document/)和[Aspose.Diagram for .NET](https://docs.aspose.com/diagram/net) to save a Microsoft Visio VSD file to a VDX file, PDF file or a JPEG file programmatically. Below are parallel code snippets for VSTO and Aspose.Diagram for .NET that explains how to save a VSD file into different file formats. You'll notice that the Aspose.Diagram code is shorter. Feel free to use the code and change it to meet your specific needs.
 ### **使用 VSTO 将 VSD 文件保存为其他格式**
 VSTO 允许您使用 Microsoft Visio 文件进行编程。要将文件保存为其他格式：
 
 1. 创建一个 Visio 应用程序对象。
 1. 使应用程序对象不可见。
 1. 加载 diagram。
-1. 保存为 VDX，PDF 和 JPEG。
+1. Save to VDX, PDF and JPEG.
 1. 退出 Visio 应用程序对象。
 #### **使用 VSTO 编程示例保存 VSD 文件**
 {{% alert color="primary" %}} 
@@ -104,7 +104,7 @@ VSTO 允许您使用 Microsoft Visio 文件进行编程。要将文件保存为�
 下面的代码片段展示了如何：
 
 1. 加载一个 diagram。
-1. 将 diagram 保存为 VSX，PDF 和 JPEG。
+1. Save the diagram to VSX, PDF and JPEG.
 #### **用 Aspose.Diagram 保存 VSD 文件 for .NET 编程示例**
 {{% alert color="primary" %}} 
 

@@ -25,7 +25,7 @@ Använd följande kod i din Java-applikation för att gruppera former med Aspose
 ## **Konvertera en Visio Shape till andra filformat**
 Aspose.Diagram for Java API tillåter utvecklare att konvertera en enda Visio-form till vilket annat filformat som helst. I den här artikeln tar vi bort alla andra Visio-former från sidan och anpassar sidinställningarna efter källans formstorlek.
 ### **Konvertera en viss Visio-form**
- Utvecklare kan konvertera en Visio-form till PDF, HTML, bild, SVG och SWF genom att[ange Visio sparalternativ]().
+ Utvecklare kan konvertera en Visio-form till PDF, HTML, Image, SVG och SWF med[ange Visio sparalternativ]().
 Den här exempelkoden fungerar enligt följande:
 
 1. Ladda en källa Visio.
@@ -39,7 +39,7 @@ Den här exempelkoden fungerar enligt följande:
 #### **Konvertera formprogrammeringsexempel**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
 ### **Konvertera Visio Shape till PDF**
-ToPdf-metoden i Shape-klassen gör det möjligt att konvertera en form till PDF-format.
+ToPdf-metoden för Shape-klassen gör det möjligt att konvertera en form till formatet PDF.
 
 {{< highlight "java" >}}
 
@@ -53,7 +53,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
 ### **Konvertera Visio Shape till HTML**
-ToHTML-metoden för Shape-klassen gör det möjligt att konvertera en form till HTML-formatet.
+ToHTML-metoden för Shape-klassen gör det möjligt att konvertera en form till formatet HTML.
 
 {{< highlight "java" >}}
 

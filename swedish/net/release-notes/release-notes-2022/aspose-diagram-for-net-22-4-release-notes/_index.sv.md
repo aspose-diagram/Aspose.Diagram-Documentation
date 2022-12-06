@@ -15,7 +15,7 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for .NET 
 |:- |:- |:- |
 |DIAGRAMNET-52015|Fortsättningsbiljett för #DIAGRAMNET-51995 - Problem med Aspose.Diagram-filer och Skyline Datamine|Förbättring|
 |DIAGRAMNET-52707|Ändringar av Shapesheets formel/värde utlöser inte ändringar i beroende celler|Förbättring|
-|DIAGRAMNET-50345|VSDX till PDF-konvertering, felaktig bakgrundsfärg på formerna|Insekt|
+|DIAGRAMNET-50345|VSDX till PDF konvertering, felaktig bakgrundsfärg på formerna|Insekt|
 |DIAGRAMNET-50954|Formateringsproblem vid rendering av en tabell och alternativknapp vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-52708|Textposition konverterar till svg|Insekt|
 |DIAGRAMNET-52739|Kulturkänsliga poängformat|Insekt|

@@ -15,14 +15,14 @@ url: /zh/net/aspose-diagram-for-net-20-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51891|Visio 到 JPG - API 需要很长时间才能转换|强化|
 |DIAGRAMNET-51902|Visio 版本低于 11 的文件在打开 VSS 时不支持异常|强化|
-|DIAGRAMNET-51906|将 VSDX 导出为 PDF：线宽、图像和尺寸标注问题|强化|
-|DIAGRAMNET-51929|VSD 到 SVG 转换：输出 SVG 文件中的矩阵转换|强化|
-|DIAGRAMNET-51931|Visio 到 PDF - API 消耗大量内存并花费很长时间|强化|
-|DIAGRAMNET-51936|[续]Visio 到 PDF - API 消耗大量内存并花费很长时间|强化|
+|DIAGRAMNET-51906|Export VSDX to PDF: problems with line width, image and dimensioning|强化|
+|DIAGRAMNET-51929|VSD to SVG conversion: Matrix transformations in the output SVG file|强化|
+|DIAGRAMNET-51931|Visio to PDF - API is consuming large amount of memory and taking long time|强化|
+|DIAGRAMNET-51936|[Cont.]Visio to PDF - API is consuming large amount of memory and taking long time|强化|
 |DIAGRAMNET-51881|标签位置不正确|漏洞|
 |DIAGRAMNET-51907|渲染VSDX文件时出现GDI+异常的一般错误|漏洞|
-|DIAGRAMNET-51926-|Aspose.Diagram 20.9：将 VDX 转换为 PNG 时出现 NullReferenceException|漏洞|
-|DIAGRAMNET-51928|VSD 到 SVG 的转换：行末的一些文本和箭头丢失|漏洞|
+|DIAGRAMNET-51926-|Aspose.Diagram 20.9: NullReferenceException when converting VDX to PNG|漏洞|
+|DIAGRAMNET-51928|VSD to SVG conversion: Some text and arrows at the end of the lines are missing|漏洞|
 |DIAGRAMNET-51932|形状样式在 vsd –> vsdx 转换后丢失|漏洞|
 |DIAGRAMNET-51933|渐变停止格式不符合 svg 标准|漏洞|
 |DIAGRAMNET-51934|Object reference not set to an instance of an object.' when saving VSS shapes for specific file|漏洞|

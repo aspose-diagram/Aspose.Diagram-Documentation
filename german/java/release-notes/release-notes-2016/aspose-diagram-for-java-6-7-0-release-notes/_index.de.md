@@ -14,7 +14,7 @@ url: /de/java/aspose-diagram-for-java-6-7-0-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50342|Unterstützung für die Erkennung des Dateiformats mithilfe eines Stream-Objekts hinzugefügt.|Neue Funktion|
-|DIAGRAMJAVA-50015|VSD in PDF-Konvertierung - das rote Kreuzbild wird anstelle der Form angezeigt.|Erweiterung|
+|DIAGRAMJAVA-50015|VSD to PDF conversion - the red cross image appears instead of the shape.|Erweiterung|
 |DIAGRAMJAVA-50341|Die Endpunkte von Konnektoren werden beim Speichern im Format VDX nicht verbunden.|Erweiterung|
 |DIAGRAMJAVA-50343|Lade- und Speicherroutine einer VSDM diagram zeigt ein Kreuz anstelle der Schaltfläche.|Erweiterung|
 |DIAGRAMJAVA-50344|Eine Ereigniszelle der Form in VSDM kann nicht festgelegt werden.|Erweiterung|

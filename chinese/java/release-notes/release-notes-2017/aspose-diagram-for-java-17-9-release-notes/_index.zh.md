@@ -15,7 +15,7 @@ url: /zh/java/aspose-diagram-for-java-17-9-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50485|在 Visio 中添加对自动间距形状的支持|强化|
 |DIAGRAMJAVA-50521|输出 VSDX - 连接线布局不正确|漏洞|
-|DIAGRAMJAVA-50522|输出 PNG - 形状的文字超出边界|漏洞|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary|漏洞|
 |DIAGRAMJAVA-50527|输出 VSDX - 连接线接触到形状的边界|漏洞|
 |DIAGRAMJAVA-50540|输出 VSDX - 连接线布局不正确|漏洞|
 |DIAGRAMJAVA-50543|输出 VSDX - 连接线的布局不正确和文本错位|漏洞|

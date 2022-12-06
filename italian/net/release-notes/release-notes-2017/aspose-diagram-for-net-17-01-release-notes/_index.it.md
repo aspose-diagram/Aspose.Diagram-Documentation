@@ -14,23 +14,23 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for .NET 17.01](ht
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMNET-50210|Salva solo l'area delle forme visibili, non l'intera pagina.|Nuova caratteristica|
-|DIAGRAMNET-50262|Esporta solo forme Visio selettive nel formato SVG.|Nuova caratteristica|
-|DIAGRAMNET-50195|Conversione da VSD a PDF, formato della data errato nella forma del titolo.|Insetto|
-|DIAGRAMNET-50779|Il colore di sfondo delle tabelle è nero al salvataggio di VSDX in PDF.|Insetto|
-|DIAGRAMNET-50797|Lo sfondo trasparente delle immagini diventa di colore bianco quando si converte VSD in PNG.|Insetto|
-|DIAGRAMNET-51019|Il colore delle forme non viene preservato durante la conversione di un VSDX in PDF.|Insetto|
-|DIAGRAMNET-51023|La formattazione della forma del rettangolo non è presente nella conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMNET-51024|L'ombra delle forme non viene resa correttamente durante la conversione di un VSD in SVG.|Insetto|
-|DIAGRAMNET-51029|Il colore dei callout e del testo non viene mantenuto durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMNET-51031|Manca una forma del flusso di lavoro Sharepoint Microsoft durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMNET-51032|Elementi di testo mancanti durante la conversione di un VSDX in PNG.|Insetto|
+|DIAGRAMNET-50262|Export only selective Visio shapes to the SVG format.|Nuova caratteristica|
+|DIAGRAMNET-50195|VSD to PDF conversion, incorrect date format in the title shape.|Insetto|
+|DIAGRAMNET-50779|The background color of the tables is black on saving VSDX to PDF.|Insetto|
+|DIAGRAMNET-50797|The transparent background of images turns into white color on converting VSD to PNG.|Insetto|
+|DIAGRAMNET-51019|The color of shapes is not being preserved on converting a VSDX to PDF.|Insetto|
+|DIAGRAMNET-51023|The formatting of rectangle shape is missing on converting a VSDX to PNG.|Insetto|
+|DIAGRAMNET-51024|The shadow of shapes is not being rendered properly on converting a VSD to SVG.|Insetto|
+|DIAGRAMNET-51029|The color of callouts and text is not being preserved on converting a VSDX to PNG.|Insetto|
+|DIAGRAMNET-51031|A Microsoft Sharepoint Workflow shape is missing on converting a VSDX to PNG.|Insetto|
+|DIAGRAMNET-51032|Missing text items on converting a VSDX to PNG.|Insetto|
 |DIAGRAMNET-51045|Impossibile recuperare il colore di riempimento della forma rettangolare da un VSDX diagram.|Insetto|
-|DIAGRAMNET-51055|Rendering incompleto dei connettori dinamici durante la conversione di VSD in HTML.|Insetto|
-|DIAGRAMNET-51119|Le forme del rettangolo arrotondato vengono modificate durante la conversione di un VSDX in PNG.|Insetto|
-|DIAGRAMNET-51121|Gli elementi di testo vengono spostati durante la conversione di un VSD in PDF.|Insetto|
+|DIAGRAMNET-51055|Incomplete rendering of the dynamic connectors on converting a VSD to HTML.|Insetto|
+|DIAGRAMNET-51119|The rounded rectangle shapes are changed on converting a VSDX to PNG.|Insetto|
+|DIAGRAMNET-51121|The text items are displaced on converting a VSD to PDF.|Insetto|
 |DIAGRAMNET-51124|Mancano le funzioni del diagramma di flusso interfunzionale durante il caricamento e il salvataggio di un VSDX.|Insetto|
 |DIAGRAMNET-51130|L'impostazione della proprietà personalizzata non funziona.|Insetto|
-|DIAGRAMNET-51134|Vengono aggiunti collegamenti ipertestuali duplicati durante la conversione di un file VSD in PDF.|Insetto|
+|DIAGRAMNET-51134|Duplicate hyperlinks are being added while converting a VSD to PDF.|Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiunge la proprietà Shapes nella classe RenderingSaveOptions**

@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen einer Fünfeckf
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsVSDX.cs" >}}
 
 ## **Zeichne Pentagon in SVG**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen eines Fünfecks auf der Seite und das Speichern im SVG-Format. Das folgende Codebeispiel zeigt, wie ein Fünfeck in einer Visio-Zeichnung gezeichnet und im SVG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as SVG format. The code example below shows how to draw a pentagon in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsSVG.cs" >}}
 
 ## **Zeichne Pentagon in PDF**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen eines Fünfecks auf der Seite und das Speichern im PDF-Format. Das folgende Codebeispiel zeigt, wie ein Fünfeck in einer Visio-Zeichnung gezeichnet und im PDF-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as PDF format. The code example below shows how to draw a pentagon in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsPDF.cs" >}}
 
 ## **Zeichne Pentagon in PNG**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen eines Fünfecks auf der Seite und das Speichern im PNG-Format. Das folgende Codebeispiel zeigt, wie ein Fünfeck in einer Visio-Zeichnung gezeichnet und im PNG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as PNG format. The code example below shows how to draw a pentagon in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsPNG.cs" >}}
 
 ## **Zeichne Pentagon in HTML**
-Aspose.Diagram for .NET API ermöglicht Entwicklern das Zeichnen eines Fünfecks auf der Seite und das Speichern im HTML-Format. Das folgende Codebeispiel zeigt, wie ein Fünfeck in einer Visio-Zeichnung gezeichnet und im HTML-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a pentagon in the page and save as HTML format. The code example below shows how to draw a pentagon in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawPentagonInPage-AsHTML.cs" >}}

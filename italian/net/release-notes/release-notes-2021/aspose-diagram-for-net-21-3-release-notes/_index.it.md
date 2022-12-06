@@ -18,19 +18,19 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |DIAGRAMNET-51996|Metodo CenterDrawing rispetto a page|Aumento|
 |DIAGRAMNET-52000|IsIntersect non funziona correttamente per diagram|Aumento|
 |DIAGRAMNET-52003|Incolla i connettori per modellarli usando le celle EndX e BeginX|Aumento|
-|DIAGRAMNET-51565|VSDX in PDF - Mancano le forme e il motivo di sfondo|Insetto|
+|DIAGRAMNET-51565|VSDX to PDF - Shapes and Background Pattern is missing|Insetto|
 |DIAGRAMNET-51992|L'esportazione da vsdx a svg produce una visualizzazione errata in IE, Chrome o Firefox|Insetto|
 |DIAGRAMNET-51997|L'impostazione della licenza ha esito negativo con l'eccezione per Aspose.Diagram quando si usa la licenza Aspose.Total per tutte le API nella funzione di Azure|Insetto|
 |DIAGRAMNET-51998|l'attributo geoms della forma è un elenco vuoto nella versione > 20.3.0|Insetto|
 |DIAGRAMNET-51999|Impossibile aggiornare inheritProps|Insetto|
-|DIAGRAMNET-52004|Esportando VSDX come SVG mancano alcuni bordi|Insetto|
+|DIAGRAMNET-52004|Exporting VSDX as SVG some edges are missing|Insetto|
 |DIAGRAMNET-52005|Problema di conversione da VSD a VSDX|Insetto|
-|DIAGRAMNET-52009|Le forme sono mancanti durante la conversione di Visio in HTML|Insetto|
+|DIAGRAMNET-52009|Shapes are missing while converting Visio to HTML|Insetto|
 
 ## ` `**Public API e modifiche incompatibili con le versioni precedenti**
 ` `Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. il forum di supporto Aspose.Diagram.
 ### **Aggiunto ConnectShapesViaConnector nella pagina**
-- Connetti le forme tramite connettore.
+- Connect shapes via connector.
 
 {{< highlight "java" >}}
 

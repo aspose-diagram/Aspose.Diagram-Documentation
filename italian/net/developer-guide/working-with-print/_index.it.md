@@ -3,10 +3,10 @@ title: Lavorare con Stampa
 type: docs
 weight: 80
 url: /it/net/working-with-print/
-description: Questa sezione spiega come stampare un documento tramite XpsPrint con Aspose.Diagram.
+description: This section explains how to print a document via XpsPrint with Aspose.Diagram.
 ---
-## **Come stampare un documento su un server tramite XpsPrint API**
-Questo articolo può essere utile a chiunque desideri inviare un documento XPS all'XpsPrint API non gestito da un'applicazione .NET. Ma l'obiettivo principale se questo articolo è mostrare come stampare un diagram da un'applicazione di servizio ASP.NET o Windows utilizzando Aspose.Diagram e XpsPrint API.
+## **How to Print a Document on a Server via the XpsPrint API**
+This article can be useful to anyone who wants to submit an XPS document to the unmanaged XpsPrint API from a .NET application. But the main goal if this article is to show how to print a diagram from an ASP.NET or Windows Service application using Aspose.Diagram and the XpsPrint API.
 ### **Problema**
 Quando sviluppi un'applicazione .NET e devi produrre un output stampato, puoi usare le classi nello spazio dei nomi System.Drawing.Printing o le classi WPF. Ma, a quanto pare, se sviluppi un'applicazione di servizio ASP.NET o Windows, le tue opzioni per la stampa sono fortemente limitate, perché Microsoft consiglia di non utilizzare questi approcci. Vedere i collegamenti sottostanti per ulteriori informazioni.
 
@@ -22,33 +22,33 @@ Le classi all'interno dello spazio dei nomi System.Drawing.Printing non sono sup
 
 L'uso di WPF per creare i servizi Windows non è supportato. Poiché WPF è una tecnologia di presentazione, il servizio Windows richiede le autorizzazioni appropriate per eseguire operazioni visive che implicano l'interazione dell'utente. Se il servizio Windows non dispone delle autorizzazioni appropriate, potrebbero verificarsi risultati imprevisti.
 
-L'oggetto Document fornisce una famiglia di metodi Print per stampare i documenti e questi metodi eseguono la stampa tramite le classi di stampa .NET definite nello spazio dei nomi System.Drawing.Printing. Ci sono molti clienti di Aspose.Diagram che utilizzano questo metodo di stampa nelle loro applicazioni lato server senza problemi, ma c'è un modo per rispettare le raccomandazioni di Microsoft ed è descritto in questo articolo.
+The Document object provides a family of the Print methods to print documents and these methods print via the .NET printing classes defined in the System.Drawing.Printing namespace. There are many customers of Aspose.Diagram who use this printing method in their server-side applications without any problems, but there is a way to comply with Microsoft’s recommendations and it is described in this article.
 ### **Soluzione**
 Il modo corretto per stampare documenti secondo Microsoft è utilizzare XpsPrint API non gestito. Questo API è disponibile su Windows 7, Windows Server 2008 R2 e anche su Windows Vista, a condizione che sia installato l'aggiornamento della piattaforma per Windows Vista.
 
-Poiché Aspose.Diagram può facilmente convertire qualsiasi documento in XPS, dobbiamo solo scrivere codice che passi un documento XPS a XpsPrint API. L'unico problema è che XpsPrint API non è gestito e richiede una certa conoscenza di Platform Invoke.
+Since Aspose.Diagram can easily convert any document to XPS, we only need to write code that passes an XPS document to the XpsPrint API. The only problem is that the XpsPrint API is unmanaged and it requires some knowledge of the Platform Invoke.
 ### **Il codice**
 Abbiamo creato la classe XpsPrintHelper con il metodo Print, che è molto facile da usare. Devi solo specificare un documento che desideri stampare, un nome stampante e un nome lavoro facoltativo. In caso di problemi durante l'invio o la stampa del documento, il metodo genererà un'eccezione.
 
 L'ultimo parametro è un valore booleano che specifica se il codice deve attendere finché il lavoro non viene stampato o tornare immediatamente dopo l'invio del lavoro di stampa. Se scegli di restituire immediatamente, non sarai in grado di determinare se il documento è stato stampato correttamente o meno alla fine.
 #### **Esempio di programmazione**
-L'esempio di codice seguente mostra come richiamare la classe di utilità per stampare tramite XPS.
+The following code example shows how to invoke the utility class to print via XPS.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-PrintDiagramVisXPSPrinterAPI-PrintDiagramVisXPSPrinterAPI.cs" >}}
 
 
-Esistono due overload del metodo XpsPrintHelper.Print. Il primo overload accetta un oggetto Aspose.Diagram.Diagram e lo salva in un MemoryStream nel formato XPS. Quindi richiama l'altro sovraccarico XpsPrintHelper.Print.
+There are two overloads of the XpsPrintHelper.Print method. The first overload takes an Aspose.Diagram.Diagram object and saves it into a MemoryStream in the XPS format. Then it invokes the other XpsPrintHelper.Print overload.
 
-Se si desidera utilizzare questo esempio senza Aspose.Diagram (ad esempio, si dispone già di un documento XPS e si desidera solo stamparlo da un'applicazione di servizio ASP.NET o Windows), è sufficiente eliminare questo metodo.
-#### **Esempio di programmazione XPS Stream e Print**
-Questo esempio di codice converte un Diagram in un flusso XPS e stampa.
+If you want to use this sample without Aspose.Diagram (e.g. you already have an XPS document and just want to print it from an ASP.NET or Windows Service application), then you can just delete this method.
+#### **XPS Stream and Print Programming Sample**
+This code example convert a Diagram into an XPS stream and print.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-XpsPrintHelper-XpsPrint_PrintDocument.cs" >}}
 
 
-Il secondo overload XpsPrintHelper.Print accetta un oggetto Stream. Il flusso deve contenere un documento in formato XPS. Questo metodo avvia un processo di stampa XPS, invia il documento a XpsPrint API e quindi attende il risultato, se necessario.
+The second XpsPrintHelper.Print overload accepts a Stream object. The stream must contain a document in the XPS format. This method starts an XPS print job, sends the document to the XpsPrint API and then waits for the result if needed.
 #### **Esempio di programmazione XpsPrint API**
-Questo esempio di codice stampa un documento XPS utilizzando XpsPrint API.
+This code example prints an XPS document using the XpsPrint API.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-XpsPrintHelper-XpsPrint_PrintStream.cs" >}}
 

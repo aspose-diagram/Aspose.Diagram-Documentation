@@ -15,10 +15,10 @@ url: /zh/net/aspose-diagram-for-net-21-12-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52408|我们使用 EmfRederSetting EmfPlusPrefer 时的问题|强化|
 |DIAGRAMNET-52438|SaveForegroundPagesOnly 用于打印|强化|
-|DIAGRAMNET-52450|Visio 到 SVG - 单独保存光栅图像|强化|
-|DIAGRAMNET-51171|以 PDF 格式保存绘图时形状的部分渲染|漏洞|
+|DIAGRAMNET-52450|Visio to SVG - Saving raster image separately|强化|
+|DIAGRAMNET-51171|Partial rendering of the shapes on saving drawing in PDF format|漏洞|
 |DIAGRAMNET-51390|嵌入对象未正确替换|漏洞|
-|DIAGRAMNET-51800|Visio 到 SVG - 背景图像丢失（PowerPoint 添加到 VISIO 中）|漏洞|
+|DIAGRAMNET-51800|Visio to SVG - Background Image Missing (PowerPoint is added in the VISIO)|漏洞|
 |DIAGRAMNET-52423|Page.Copy() 不复制 diagram 中的 Excel 对象|漏洞|
 |DIAGRAMNET-52443|打开和保存时缺少形状 MS Visio Diagram|漏洞|
 |DIAGRAMNET-52444|Visio 到 JPG - API 生成的不同结果|漏洞|

@@ -13,7 +13,7 @@ url: /ru/java/aspose-diagram-for-java-19-1-release-notes/
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50638|Visio в PDF - неверные цвета в выходном PDF|Улучшение|
+|DIAGRAMJAVA-50638|от Visio до PDF - неверные цвета получены на выходе PDF|Улучшение|
 |DIAGRAMJAVA-50526|Вывод VSDX - неверный цвет соединительной линии|Ошибка|
 |DIAGRAMJAVA-50640|Нежелательный текст появляется в diagram при преобразовании VSD в VSDX|Ошибка|
 

@@ -13,14 +13,14 @@ url: /tr/java/aspose-diagram-for-java-17-12-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50290|Visio şeklini PDF'ye dönüştürmek için tek API'i sağlayın|Artırma|
-|DIAGRAMJAVA-50291|Visio şeklini HTML'ye dönüştürmek için tek API sağlayın|Artırma|
+|DIAGRAMJAVA-50290|Visio şeklini PDF'e dönüştürmek için tek API'i sağlayın|Artırma|
+|DIAGRAMJAVA-50291|Visio şeklini HTML'e dönüştürmek için tek API'i sağlayın|Artırma|
 |DIAGRAMJAVA-50572|Shape.connectedShapes yöntemi giden düğümleri almıyor|Artırma|
-|DIAGRAMJAVA-50391|Ters çevrilmiş resimler ve oklar, bir VSD'in SVG'ye dönüştürülmesinde oluşturulur.|Böcek|
-|DIAGRAMJAVA-50570|VSD'den PDF'ye - ek metin öğeleri eklendi|Böcek|
+|DIAGRAMJAVA-50391|Ters çevrilmiş resimler ve oklar, bir VSD'in SVG'e dönüştürülmesinde oluşturulur.|Böcek|
+|DIAGRAMJAVA-50570|VSD ila PDF - ek metin öğeleri eklendi|Böcek|
 |DIAGRAMJAVA-50571|VSDX'i içe aktar - şekil öğesinde bir hata oluştu|Böcek|
-|DIAGRAMJAVA-50573|VSD'den SVG'ye - bir grup şeklinin satırları eksik|Böcek|
-|DIAGRAMJAVA-50575|VSD'den SVG'ye - metin öğeleri eksik|Böcek|
+|DIAGRAMJAVA-50573|VSD - SVG - grup şeklinin satırları eksik|Böcek|
+|DIAGRAMJAVA-50575|VSD - SVG - metin öğeleri eksik|Böcek|
 |DIAGRAMJAVA-50576|VDX prosedürünü içe aktar, bir sayfa öğesi hatası veriyor|Böcek|
 ### **Shape sınıfına Copy üyesi ekler**
 Kopyalama üyesi, bu şekli klonlamak için parametre olarak bir hedef şekil örneği alır.
@@ -45,7 +45,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ### **Shape sınıfında toPdf üyesi ekler**
-toPdf üyesi, bir şekli PDF formatına dönüştürür.
+toPdf üyesi, bir şekli PDF biçimine dönüştürür.
 
 {{< highlight "java" >}}
 
@@ -61,7 +61,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
 ### **Shape sınıfındaki toHTML üyesine ekler**
-toHTML üyesi, bir şekli PDF formatına dönüştürür.
+toHTML üyesi, bir şekli PDF biçimine dönüştürür.
 
 {{< highlight "java" >}}
 
@@ -82,7 +82,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 Lütfen Aspose.Diagram Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
 1. [Visio Shape'i başka bir Shape örneğine kopyalama](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [Visio Shape'i PDF'ye dönüştür](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
-1. [Visio Shape'i HTML'ye dönüştür](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
+1. [Visio Şeklini PDF'e dönüştür](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
+1. [Visio Şeklini HTML'e dönüştür](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
 
 

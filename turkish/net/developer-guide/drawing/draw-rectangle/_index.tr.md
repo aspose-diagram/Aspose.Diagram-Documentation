@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API, geliştiricilerin bir sayfada dikdörtgen şekli ç
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-DrawRectangle.cs" >}}
 
 ## **SVG'de Dikdörtgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizip SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsSVG.cs" >}}
 
 ## **PDF'de Dikdörtgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizmesine ve PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizip PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsPDF.cs" >}}
 
 ## **PNG'de Dikdörtgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizmesine ve PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizip PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsPNG.cs" >}}
 
 ## **HTML'de Dikdörtgen Çiz**
-Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizmesine ve HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve HTML formatında kaydedileceğini gösterir.
+Aspose.Diagram for .NET API, geliştiricilerin sayfada bir dikdörtgen çizip HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir dikdörtgenin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsHTML.cs" >}}

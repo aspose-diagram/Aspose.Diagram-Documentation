@@ -18,19 +18,19 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.3.
 |DIAGRAMNET-51996|CenterDrawing-Methode in Bezug auf die Seite|Erweiterung|
 |DIAGRAMNET-52000|IsIntersect funktioniert nicht richtig für diagram|Erweiterung|
 |DIAGRAMNET-52003|Kleben Sie die Verbinder mit EndX- und BeginX-Zellen in Form|Erweiterung|
-|DIAGRAMNET-51565|VSDX zu PDF - Formen und Hintergrundmuster fehlen|Insekt|
+|DIAGRAMNET-51565|VSDX to PDF - Shapes and Background Pattern is missing|Insekt|
 |DIAGRAMNET-51992|Der Export von vsdx nach svg führt zu fehlerhafter Darstellung im IE, Chrome oder Firefox|Insekt|
 |DIAGRAMNET-51997|Die Lizenzeinstellung schlägt mit Ausnahme von Aspose.Diagram fehl, wenn die Aspose.Total-Lizenz für alle APIs in der Azure-Funktion verwendet wird|Insekt|
 |DIAGRAMNET-51998|Das Geoms-Attribut der Form ist in Version > 20.3.0 eine leere Liste|Insekt|
 |DIAGRAMNET-51999|InheritProps kann nicht aktualisiert werden|Insekt|
-|DIAGRAMNET-52004|Beim Exportieren von VSDX als SVG fehlen einige Kanten|Insekt|
+|DIAGRAMNET-52004|Exporting VSDX as SVG some edges are missing|Insekt|
 |DIAGRAMNET-52005|Problem bei der Konvertierung von VSD in VSDX|Insekt|
-|DIAGRAMNET-52009|Beim Konvertieren von Visio in HTML fehlen Formen|Insekt|
+|DIAGRAMNET-52009|Shapes are missing while converting Visio to HTML|Insekt|
 
 ## ` `**Öffentliche API und rückwärtsinkompatible Änderungen**
 ` ` Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden das Aspose.Diagram Support-Forum.
 ### **ConnectShapesViaConnector in Seite hinzugefügt**
-- Formen über Verbinder verbinden.
+- Connect shapes via connector.
 
 {{< highlight "java" >}}
 

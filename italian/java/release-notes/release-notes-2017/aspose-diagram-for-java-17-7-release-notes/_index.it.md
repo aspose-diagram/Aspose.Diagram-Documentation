@@ -14,9 +14,9 @@ url: /it/java/aspose-diagram-for-java-17-7-release-notes/
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50491|Impossibile recuperare la nuova altezza della forma formulata.|Aumento|
-|DIAGRAMJAVA-50510|VSD in SVG - modello di colore di riempimento errato nelle forme.|Aumento|
+|DIAGRAMJAVA-50510|VSD to SVG - incorrect fill color pattern in the shapes.|Aumento|
 |DIAGRAMJAVA-50483|Connessione incompleta delle forme durante il salvataggio di un disegno nel formato VSDX.|Insetto|
-|DIAGRAMJAVA-50488|Ulteriori elementi di testo vengono aggiunti durante la conversione di un VSD in SVG.|Insetto|
+|DIAGRAMJAVA-50488|Additional text items are added when converting a VSD to SVG.|Insetto|
 |DIAGRAMJAVA-50490|Le linee del bordo verticale della casella del processo predefinito sono spesse durante la generazione di un disegno VSDX.|Insetto|
 |DIAGRAMJAVA-50495|Output VSDX - layout errato della linea del connettore durante l'aggiunta di testo alle forme.|Insetto|
 |DIAGRAMJAVA-50496|Uscita VSDX - tutti i connettori sono spostati verso l'alto.|Insetto|

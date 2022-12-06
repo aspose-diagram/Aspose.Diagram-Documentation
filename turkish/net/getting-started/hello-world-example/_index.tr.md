@@ -1,12 +1,12 @@
 ﻿---
-title: Merhaba Dünya Örneği
+title: Hello World Örnek
 type: docs
 weight: 90
 url: /tr/net/hello-world-example/
 description: Bu sayfada, Aspose.Diagram kitaplığı ile merhaba dünya örneğinin nasıl oluşturulacağı açıklanmaktadır.
 ---
-## **Merhaba Dünya Örneği**
-Aspose.Diagram for .NET, C# ve diğer .NET dillerini kullanarak Microsoft Visio dosyalarını oluşturmak, açmak, düzenlemek ve dönüştürmek için zengin özelliklere sahiptir. VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, 076115, VDSS ve VDWST. Ayrıca, Visio Diyagramlarını PDF, HTML, XML, SVG ve XAML gibi çeşitli biçimlere dönüştürme yeteneği sağlar.
+## **Hello World Örnek**
+Aspose.Diagram for .NET, C# ve diğer .NET dillerini kullanarak Microsoft Visio dosyalarını oluşturmak, açmak, düzenlemek ve dönüştürmek için zengin özelliklere sahiptir. It supports a wide set of Visio file formats including VSDX, VDX, VSD, VSX, VTX, VSSX, VSDM, VSSM, VSTM, VDW, VSS, and VST. In addition, it provides the capability to convert Visio Diagrams to a number of PDF, HTML, XML, SVG ve XAML gibi biçimler.
 
 Sonrasında[yükleme Aspose.Diagram for .NET](/diagram/tr/net/installation/)ortamınızda, Aspose.Diagram API'in .NET uygulamalarında nasıl kullanıldığını görmek için aşağıdaki adımlar kullanılabilir.
 

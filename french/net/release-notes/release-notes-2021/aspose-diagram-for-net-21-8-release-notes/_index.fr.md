@@ -13,14 +13,14 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51127|Mauvais rendu des couleurs lors de la conversion d'un VSDX en PNG|Renforcement|
-|DIAGRAMNET-52070|Enregistrer en tant que problème HTML|Renforcement|
+|DIAGRAMNET-51127|Incorrect rendering of the colors while converting a VSDX to PNG|Renforcement|
+|DIAGRAMNET-52070|Save as HTML issue|Renforcement|
 |DIAGRAMNET-52071|Problème avec la génération de formes visio en tant qu'images|Renforcement|
 |DIAGRAMNET-52075|problème avec les propriétés "Document" et "Page"|Punaise|
-|DIAGRAMNET-52077|Lignes de connexion étranges à partir d'un graphique lorsqu'il est exporté vers un fichier SVG|Punaise|
+|DIAGRAMNET-52077|Strange connecting lines from a graphic when it's exported to a SVG file|Punaise|
 |DIAGRAMNET-52094|Graphique affiché décalé après l'exportation|Punaise|
 |DIAGRAMNET-52100|Impossible d'extraire la valeur de la formule de cellule définie par l'utilisateur|Punaise|
-|DIAGRAMNET-52102|"Le paramètre n'est pas valide." exception lors du rendu de VSDX en HTML|Punaise|
+|DIAGRAMNET-52102|"Parameter is not valid." exception when rendering VSDX to HTML|Punaise|
 |DIAGRAMNET-52106|Impossible d'extraire la valeur de la formule de cellule définie par l'utilisateur CONT.|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

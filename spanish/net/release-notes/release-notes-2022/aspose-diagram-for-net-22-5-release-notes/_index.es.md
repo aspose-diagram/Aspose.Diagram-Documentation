@@ -14,13 +14,13 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMNET-52802|Fórmula/valor que no actualiza los campos|Mejora|
-|DIAGRAMNET-52803|VSDX a HTML: el archivo de salida no se guarda en el método Async hasta que el programa se ejecuta por completo|Mejora|
+|DIAGRAMNET-52803|VSDX to HTML: Output file not saving in Async method until program completely executes|Mejora|
 |DIAGRAMNET-52793|API no funciona con una licencia válida versión 22.4|Insecto|
-|DIAGRAMNET-52806|Sangría desplazada en PDF de VSDX|Insecto|
+|DIAGRAMNET-52806|Shifted indent in PDF from VSDX|Insecto|
 |DIAGRAMNET-52807|El texto presente en la tabla se elimina al convertir el archivo .vsdx a pdf [CONT.]|Insecto|
-|DIAGRAMNET-52808|Problema al convertir VSDX a PDF [CONT.]|Insecto|
+|DIAGRAMNET-52808|Problem converting VSDX to PDF [CONT.]|Insecto|
 |DIAGRAMNET-52810|Visio las formas guardadas como imágenes son incorrectas|Insecto|
-|DIAGRAMNET-52811|Faltan formas después de guardar Visio en HTML|Insecto|
+|DIAGRAMNET-52811|Shapes are missing after saving Visio to HTML|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Diagram.

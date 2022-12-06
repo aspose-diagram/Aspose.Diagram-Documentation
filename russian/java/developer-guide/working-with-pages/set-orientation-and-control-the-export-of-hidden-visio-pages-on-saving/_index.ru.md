@@ -20,22 +20,22 @@ url: /ru/java/set-orientation-and-control-the-export-of-hidden-visio-pages-on-sa
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-SetVisioPageOrientation-SetVisioPageOrientation.java" >}}
 ## **Управление экспортом скрытых Visio страниц при сохранении**
-[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API позволяет разработчикам включать или исключать Visio скрытые страницы при сохранении diagram в файлы PDF, HTML, изображения (PNG, JPEG, GIF), SVG и XPS. Даже они могут скрыть страницы Visio, используя Aspose.Diagram API, потому что эта опция уже доступна через ячейку UIVisibility на странице ShapeSheet.
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API позволяет разработчикам включать или исключать Visio скрытые страницы при сохранении файлов с diagram по PDF, HTML, изображений (PNG, JPEG, GIF), SVG и XPS. Даже они могут скрыть страницы Aspose.Diagram, используя Aspose.Diagram API, потому что эта опция уже доступна через ячейку UIVisibility в ShapeSheet страницы.
 ### **Скрыть страницу в Visio Diagram и установить параметр экспорта**
  Aspose.Diagram for Java API имеет[Страница](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page) класс, представляющий страницу рисования Visio. Свойство PageSheet, предоставляемое классом Page, также предоставляет свойства страницы. Поле UIVisibility свойств страницы позволяет скрыть страницу. Затем разработчики могут использовать свойство ExportHiddenPage, которое добавляется в классы SVGSaveOptions, XPSSaveOptions, ImageSaveOptions, HTMLSaveOptions и PdfSaveOptions.
-#### **Установите параметр экспорта для PDF**
-В приведенном ниже коде показано, как установить параметры сохранения перед сохранением diagram в формате PDF.
+#### **Установите параметр экспорта для PDF.**
+В приведенном ниже коде показано, как установить параметры сохранения перед сохранением в формате от diagram до PDF.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExporToHiddenVisioPagesToPdf-ExporToHiddenVisioPagesToPdf.java" >}}
-#### **Установите параметр экспорта для HTML**
-В приведенном ниже коде показано, как установить параметры сохранения перед сохранением diagram в формате HTML.
+#### **Установите параметр экспорта для HTML.**
+В приведенном ниже коде показано, как установить параметры сохранения перед сохранением в формате от diagram до HTML.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExportOfHiddenVisioPagesToHtml-ExportOfHiddenVisioPagesToHtml.java" >}}
 #### **Установите параметр экспорта для изображения**
 В приведенном ниже коде показано, как установить параметры сохранения перед сохранением diagram в формате изображения.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExportOfHiddenVisioPagesToImage-ExportOfHiddenVisioPagesToImage.java" >}}
-#### **Установите параметр экспорта для SVG**
-В приведенном ниже коде показано, как установить параметры сохранения перед сохранением diagram в формате SVG.
+#### **Установите параметр экспорта для SVG.**
+В приведенном ниже коде показано, как установить параметры сохранения перед сохранением в формате от diagram до SVG.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExportOfHiddenVisioPagesToSVG-ExportOfHiddenVisioPagesToSVG.java" >}}

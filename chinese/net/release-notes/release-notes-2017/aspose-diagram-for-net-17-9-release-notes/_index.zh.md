@@ -16,17 +16,17 @@ url: /zh/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|添加将绘图的特定区域转换为图像的支持|强化|
 |DIAGRAMNET-51350|添加支持以按名称检索形状|强化|
 |DIAGRAMNET-51351|添加从注释中检索形状的支持|强化|
-|DIAGRAMNET-51295|VSDX 到 SVG - 输出 SVG 的质量低|漏洞|
+|DIAGRAMNET-51295|VSDX to SVG - the low quality of output SVG|漏洞|
 |DIAGRAMNET-51309|DiagramException 发生在 VSDX 文件保存|漏洞|
-|DIAGRAMNET-51331|VSDM 到 SVG - 文本项目向上移动|漏洞|
-|DIAGRAMNET-51333|VSDM 到 SVG - 圆形图标的渲染不正确|漏洞|
-|DIAGRAMNET-51339|VSDX 到 SVG - 从每个图像的右侧截断文本|漏洞|
+|DIAGRAMNET-51331|VSDM to SVG - the text items are shifted up|漏洞|
+|DIAGRAMNET-51333|VSDM to SVG - incorrect rendering of the circular icons|漏洞|
+|DIAGRAMNET-51339|VSDX to SVG - the truncation of text from the right side of each image|漏洞|
 |DIAGRAMNET-51340|注释顺序错误|漏洞|
 |` `DIAGRAMNET-51342|使用“AddComment”方法并将文件保存到 Steam 后出现内存不足错误|漏洞|
-|DIAGRAMNET-51344|VSDX 到 PDF - 发生参数超出范围错误|漏洞|
+|DIAGRAMNET-51344|VSDX to PDF - an argument out of range error occurred|漏洞|
 |DIAGRAMNET-51345|评论没有和形状一起删除|漏洞|
-|DIAGRAMNET-51346|VSDM 到 SVG - 徽标质量降级|漏洞|
-|DIAGRAMNET-51347|VSDM 到 SVG - 徽标质量降级|漏洞|
+|DIAGRAMNET-51346|VSDM to SVG - the logo quality is downgraded|漏洞|
+|DIAGRAMNET-51347|VSDM to SVG - the logo quality is downgraded|漏洞|
 |DIAGRAMNET-51353|无法在 Visio 页面中添加其他评论|漏洞|
 |DIAGRAMNET-51354|Visio页面无法编辑评论|漏洞|
 ## **公共 API 和向后不兼容的更改**

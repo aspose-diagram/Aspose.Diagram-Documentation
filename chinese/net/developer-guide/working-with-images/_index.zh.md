@@ -37,14 +37,14 @@ Aspose.Diagram for .NET API 允许开发人员访问和替换 Visio diagram 中�
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ReplaceShapePicture-ReplaceShapePicture.cs" >}}
 ## **将位图图像导入为 Visio 形状**
 Aspose.Diagram for .NET API 现在允许开发人员将位图图像导入为 Microsoft Visio 形状。
-### **在 Visio 中插入 BMP 图片**
+### **Insert a BMP Image in Visio**
 下面示例中的代码显示了如何：
 
 1. 创建一个 diagram。
 1. 获取 Visio 页
 1. 将位图图像导入为 Visio 形状
 1. 保存 diagram。
-#### **插入 BMP 图像编程示例**
+#### **Insert a BMP Image Programming Sample**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
 ## **将Visio页面的指定区域转换为图片**
 通过Aspose.Diagram for .NET API，开发者可以定义一个XY坐标、宽度和高度的区域，然后将这个区域转换为支持的图像格式。

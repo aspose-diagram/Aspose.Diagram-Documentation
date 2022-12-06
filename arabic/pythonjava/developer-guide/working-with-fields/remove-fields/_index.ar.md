@@ -6,7 +6,7 @@ url: /ar/python-java/remove-fields/
 description: يشرح هذا القسم كيفية إزالة الحقول.
 ---
 ## **إزالة الحقل**
- يتيح لك Aspose.Diagram لـ Python عبر Java إزالة الحقل إلى المخططات Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
+ يتيح لك Aspose.Diagram لـ Python via Java إزالة الحقل إلى المخططات Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
 
 يمثل كائن الحقل الحقل النصي في تشغيل النص. تدعم خاصية الحقل ، المعروضة بواسطة فئة الشكل مجموعة من Aspose.Diagram.Field كائنات.
 

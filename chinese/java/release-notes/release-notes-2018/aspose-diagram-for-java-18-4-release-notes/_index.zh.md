@@ -17,7 +17,7 @@ url: /zh/java/aspose-diagram-for-java-18-4-release-notes/
 |DIAGRAMJAVA-50596|输出 VSDX - 连接线布局不正确|漏洞|
 |DIAGRAMJAVA-50597|文件格式检索不正确|漏洞|
 |DIAGRAMJAVA-50598|文件格式检索不正确|漏洞|
-|DIAGRAMJAVA-50599|VSDX 到 SVG - 文本的字体系列不正确|漏洞|
+|DIAGRAMJAVA-50599|VSDX to SVG - incorrect font family of the text|漏洞|
 ### **使用示例**
 请查看 Aspose.Diagram Wiki 文档中添加的帮助主题列表：
 

@@ -1,48 +1,48 @@
 ﻿---
-title:  Converti Visio in formato PDF
-linktitle: Converti Visio in PDF
+title: Convert Visio to PDF format 
+linktitle: Convert Visio to PDF
 type: docs
 weight: 10
 url: /it/java/convert-visio-to-pdf/
-description: Questo argomento mostra come Aspose.Diagram consente di convertire Visio in formati PDF. Converti VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM in PDF con poche righe di codice.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to PDF formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to PDF with a few lines of code.
 ---
-## **Esportazione in PDF**
+## **Exporting to PDF**
 {{% alert color="primary" %}}
 
-Aspose.Diagram for Java scrive direttamente le informazioni su API e il numero di versione nei documenti di output. Ad esempio, durante il rendering di un disegno in PDF, Aspose.Diagram for Java viene popolato**Applicazione**campo con valore 'Aspose.Diagram' e**Produttore PDF**campo con un valore, ad esempio 'Aspose.Diagram 17.9'.
+Aspose.Diagram for Java directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to PDF, Aspose.Diagram for Java populates **Applicazione**campo con valore 'Aspose.Diagram' e**PDF Producer**campo con un valore, ad esempio 'Aspose.Diagram 17.9'.
 
 Si noti che non è possibile incaricare Aspose.Diagram for Java API di modificare o rimuovere queste informazioni dai documenti di output.
 
 {{% /alert %}}
 
- Questo articolo spiega come esportare un Microsoft Visio diagram in PDF utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+This article explains how to export a Microsoft Visio diagram to PDF using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  Utilizzare il[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class' per leggere i file diagram e il metodo Save per esportare diagram in qualsiasi formato di immagine supportato.
 
-L'immagine qui sotto mostra il VSD diagram che i frammenti di codice qui sotto esportano in PDF. È possibile utilizzare anche altri formati diagram (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX o VSX).
+The image below shows the VSD diagram that the code snippets below export PDF. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
 **Il file sorgente.**
 
 ![cose da fare:immagine_alt_testo](how-to-convert-a-visio-diagram_1.png)
 
-Per esportare VSD diagram in PDF:
+To export VSD diagram to PDF:
 
 1. Creare un'istanza della classe Diagram.
-1. Chiama il metodo Save delle classi Diagram e imposta il formato di output su PDF.
+1. Call the Diagram classs Save method and set the output format to PDF.
 
-Di seguito è riportata un'immagine del file PDF di output.
+Below is an image of the output PDF file.
 
-**Il file PDF di output.**
+**Il file di output PDF.**
 
 ![cose da fare:immagine_alt_testo](how-to-convert-a-visio-diagram_2.png)
-### **Esempio di programmazione dell'esportazione in PDF**
+### **Exporting to PDF Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToPDF-ExportToPDF.java" >}}
 ### **Dividi più pagine**
-Aspose.Diagram for Java consente di dividere più pagine durante la conversione di Microsoft Visio Diagram in PDF. Il seguente frammento di codice mostra la funzionalità.
+Aspose.Diagram for Java allows splitting multiple pages while converting the Microsoft Visio Diagram to PDF. The following code snippet shows the functionality.  
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.java" >}}
 ### **Usa pagina salva richiamata**
-Nel caso in cui si disponga di più pagine, Aspose.Diagram for Java consente di utilizzare la richiamata per il salvataggio della pagina durante la conversione di Microsoft Visio Diagram in PDF. Il seguente frammento di codice mostra la funzionalità.
+In case you have multiple pages, Aspose.Diagram for Java allows using page saving callback while converting the Microsoft Visio Diagram to PDF. The following code snippet shows the functionality.  
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-DiagramConversions-DocumentConversionProgress-1.java" >}}
 

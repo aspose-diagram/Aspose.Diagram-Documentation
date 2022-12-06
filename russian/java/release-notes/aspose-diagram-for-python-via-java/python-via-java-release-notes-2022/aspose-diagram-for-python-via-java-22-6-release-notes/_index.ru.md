@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram для Python через Java 22.6 Примечания к выпуску
+title: Aspose.Diagram для Python via Java 22.6 Примечания к выпуску
 type: docs
 weight: 22
 url: /ru/java/aspose-diagram-for-python-via-java-22-6-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Эта страница содержит информацию о выпуске Aspose.Diagram для Python через Java 22.6.
+Эта страница содержит примечания к выпуску для Aspose.Diagram для Python via Java 22.6.
 
 {{% /alert %}}
 ## **Улучшения и изменения**  ##
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: форма искажается после сохранения в PNG|Улучшение|
+|DIAGRAMJAVA-50963|WK: Форма искажена после сохранения в PNG|Улучшение|
 |DIAGRAMJAVA-50967|Изменение размера формы боковой линии [продолжение]|Ошибка|
 |DIAGRAMJAVA-50972|API неправильно анализирует файл|Ошибка|
 |DIAGRAMJAVA-50974|Проблема с добавлением новой точки подключения|Ошибка|

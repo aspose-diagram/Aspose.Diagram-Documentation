@@ -13,6 +13,6 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.7.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50697|VSDX zu PNG - Der Hintergrund einer Form wird in der Ausgabe invertiert|Insekt|
+|DIAGRAMJAVA-50697|VSDX to PNG - Background of one shape is inverted in output|Insekt|
 |DIAGRAMJAVA-50698|Implementieren Sie die Ausnahmebehandlung im Falle einer beschädigten Diagram-Datei|Insekt|
 

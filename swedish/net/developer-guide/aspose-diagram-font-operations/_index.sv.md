@@ -29,7 +29,7 @@ Kodexemplet nedan visar hur du ställer in Aspose.Diagram att leta efter TrueTyp
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
 ### **Ta emot meddelande om saknade teckensnitt och teckensnittsersättning under rendering**
-Aspose.Diagram API kräver tillgång till det korrekta teckensnittet för att ritningen ska kunna återges korrekt i PDF-format. Om det önskade teckensnittet inte är tillgängligt på maskinen, renderar Aspose.Diagram API någon instans av det teckensnittet med standardteckensnittet eller det närmaste tillgängliga teckensnittet på maskinen, eftersom denna ersättning kan ändra utseendet på den renderade ritningen, kan utvecklare behöva meddelas när ett typsnitt saknas och med vilket typsnitt det kommer att ersättas med.
+Aspose.Diagram API kräver åtkomst till det korrekta teckensnittet för att ritningen ska kunna återges korrekt i formatet PDF. Om det önskade teckensnittet inte är tillgängligt på maskinen, renderar Aspose.Diagram API någon instans av det teckensnittet med standardteckensnittet eller det närmaste tillgängliga teckensnittet på maskinen, eftersom denna ersättning kan ändra utseendet på den renderade ritningen, kan utvecklare behöva meddelas när ett typsnitt saknas och med vilket typsnitt det kommer att ersättas med.
 #### **Meddelande om saknade teckensnitt och teckensnittsersättningsprogrammeringsexempel**
 För att meddelas om teckensnittsersättning under rendering:
 

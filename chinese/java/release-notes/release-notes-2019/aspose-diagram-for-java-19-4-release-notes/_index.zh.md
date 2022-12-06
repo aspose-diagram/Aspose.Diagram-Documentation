@@ -14,10 +14,10 @@ url: /zh/java/aspose-diagram-for-java-19-4-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50648|添加具有特殊形状的连接时出现问题|强化|
-|DIAGRAMJAVA-50278|VST 到 PNG 导出 - 缺少形状问题|漏洞|
-|DIAGRAMJAVA-50279|VST 到 JPG 导出 - 缺少形状问题|漏洞|
-|DIAGRAMJAVA-50280|VST 到 GIF 导出 - 缺少形状问题|漏洞|
-|DIAGRAMJAVA-50302|VSD 到 PNG 导出 - 元类型形状变成混乱的符号|漏洞|
-|DIAGRAMJAVA-50303|VSD 到 PNG 导出 - 元类型形状变成混乱的符号|漏洞|
+|DIAGRAMJAVA-50278|VST to PNG export - The missing shapes problem|漏洞|
+|DIAGRAMJAVA-50279|VST to JPG export - The missing shapes problem|漏洞|
+|DIAGRAMJAVA-50280|VST to GIF export - The missing shapes problem|漏洞|
+|DIAGRAMJAVA-50302|VSD to PNG export - Meta type shapes turn into messy symbols|漏洞|
+|DIAGRAMJAVA-50303|VSD to PNG export - Meta type shapes turn into messy symbols|漏洞|
 |DIAGRAMJAVA-50319|VSDX 读取缺少各种形状的颜色值|漏洞|
 

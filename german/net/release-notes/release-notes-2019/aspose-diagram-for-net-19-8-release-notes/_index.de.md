@@ -15,13 +15,13 @@ Diese Seite enthält Versionshinweise für[Aspose.Diagram for .NET 19.8](https:/
 |:- |:- |:- |
 |DIAGRAMNET-50334|Unterstützung von VBA-Codes / Makros hinzufügen (Hinzufügen - Bearbeiten - Löschen)|Erweiterung|
 |DIAGRAMNET-51083|Unterstützung für das Zeichnen von Splines hinzugefügt|Erweiterung|
-|DIAGRAMNET-51676|Visio zu HTML - Ausgabe enthält Dateinamen|Erweiterung|
+|DIAGRAMNET-51676|Visio to HTML - output contains filename in it|Erweiterung|
 |DIAGRAMNET-50263|Die Position des Konnektortexts kann nicht als Formeln festgelegt werden|Insekt|
-|DIAGRAMNET-50284|VTX in HTML-Konvertierung, Formenfüllfarbe wird nicht beibehalten|Insekt|
-|DIAGRAMNET-50432|VDX in PDF-Konvertierung, Diagram.setFontDirs-Methode verwendet nur die erste Schriftart über die gesamte diagram|Insekt|
-|DIAGRAMNET-50463|VSDX in PDF-Konvertierung, fehlende oder unvollständige Wiedergabe von Formen|Insekt|
-|DIAGRAMNET-51033|Die Netzwerkformen bleiben beim Konvertieren von VSDX in PDF nicht erhalten|Insekt|
-|DIAGRAMNET-51303|VSDX zu PDF - Textfarbe auf Verbindungslinien wird geändert|Insekt|
+|DIAGRAMNET-50284|VTX to HTML conversion, shapes fill color is not preserved|Insekt|
+|DIAGRAMNET-50432|VDX to PDF conversion, Diagram.setFontDirs method use only first font over the whole diagram|Insekt|
+|DIAGRAMNET-50463|VSDX to PDF conversion, missing or incomplete shapes rendering|Insekt|
+|DIAGRAMNET-51033|The network shapes are not being preserved on converting a VSDX to PDF|Insekt|
+|DIAGRAMNET-51303|VSDX to PDF - the color of text on connecting lines is changed|Insekt|
 |DIAGRAMNET-51663|Beim Konvertieren von VSD in VSDX tritt eine nicht behandelte Ausnahme auf|Insekt|
 |DIAGRAMNET-51664|Die Datei wird nach dem Entfernen eines nicht verwendeten Designs beschädigt|Insekt|
 |DIAGRAMNET-51665|Bilder werden nach dem Entfernen nicht verwendeter Designs als X angezeigt|Insekt|
@@ -29,9 +29,9 @@ Diese Seite enthält Versionshinweise für[Aspose.Diagram for .NET 19.8](https:/
 |DIAGRAMNET-51668|VISIO zu JPG - Ausgabebild hat nicht das richtige Format|Insekt|
 |DIAGRAMNET-51671|Beim Entfernen unbenutzter Masterformen und -stile hat nur das Bild ein Problem|Insekt|
 |DIAGRAMNET-51672|Verlorene Bilder beim Laden und Speichern|Insekt|
-|DIAGRAMNET-51677|Visio zu HTML - Link in generiertem HTML funktioniert nicht|Insekt|
-|DIAGRAMNET-51678|Visio zu HTML - Falsches Datumsformat beim Speichern als HTML|Insekt|
-|DIAGRAMNET-51679|Visio zu PDF - Mehrere Formatierungsfehler in PDF|Insekt|
+|DIAGRAMNET-51677|Visio to HTML - Link in generated HTML does not work|Insekt|
+|DIAGRAMNET-51678|Visio to HTML - Date Format incorrect when saving as HTML|Insekt|
+|DIAGRAMNET-51679|Visio to PDF - Several formatting errors in PDF|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 ### **Fügt DrawSpline in Seite hinzu**

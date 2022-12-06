@@ -14,12 +14,12 @@ Diese Seite enthält Versionshinweise für[Aspose.Diagram for .NET 19.7](https:/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMNET-51219|Holen Sie sich Bilder aus der Druckvorschau einer Visio-Seite|Erweiterung|
-|DIAGRAMNET-51615|Teilen Sie Diagram beim Generieren eines PDF-Dokuments in mehrere Seiten auf|Erweiterung|
+|DIAGRAMNET-51615|Split Diagram to Multiple Pages while generating PDF Document|Erweiterung|
 |DIAGRAMNET-51656|Unterstützung für die Überwachung des Dokumentkonvertierungsfortschritts hinzufügen|Erweiterung|
-|DIAGRAMNET-50045|Falsche Zeilenumbrüche beim Konvertieren von VSD in das PDF-Format|Insekt|
-|DIAGRAMNET-50075|VSD in PDF-Konvertierung, falsche Schriftart|Insekt|
-|DIAGRAMNET-50201|VSD in PDF-Konvertierung, Formen sind falsch platziert|Insekt|
-|DIAGRAMNET-50274|VSDX in SVG-Konvertierung, die Verbindungslayouts sind falsch|Insekt|
+|DIAGRAMNET-50045|Incorrect line breaks when converting VSD to PDF format|Insekt|
+|DIAGRAMNET-50075|VSD to PDF conversion, incorrect text font|Insekt|
+|DIAGRAMNET-50201|VSD to PDF conversion, shapes are misplaced|Insekt|
+|DIAGRAMNET-50274|VSDX to SVG conversion, the connection layouts are incorrect|Insekt|
 |DIAGRAMNET-51172|Ändert die Größe der Form beim Speichern in einem Bildformat nicht richtig|Insekt|
 |DIAGRAMNET-51613|Die AutoFitPageToDrawingContent-Eigenschaft funktioniert nicht wie erwartet|Insekt|
 |DIAGRAMNET-51657|VISIO zu JPG - Ausgabebild hat nicht das richtige Format|Insekt|

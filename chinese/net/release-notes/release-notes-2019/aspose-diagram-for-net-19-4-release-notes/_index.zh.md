@@ -18,14 +18,14 @@ url: /zh/net/aspose-diagram-for-net-19-4-release-notes/
 |DIAGRAMNET-51626|API 不处理excel数据|强化|
 |DIAGRAMNET-51627|基于Dependson公式提取形状数据|强化|
 |DIAGRAMNET-51629|放大页面以适合绘图似乎不起作用|强化|
-|DIAGRAMNET-51176|将 VSDM 转换为 SVG 时，渐变标题栏发生变化|漏洞|
+|DIAGRAMNET-51176|The gradient title bar is changed on converting a VSDM to SVG|漏洞|
 |DIAGRAMNET-51404|VSD to Image - 形状颜色深|漏洞|
-|DIAGRAMNET-51473|VDX 到 PDF - 不正确的背景颜色|漏洞|
-|DIAGRAMNET-51475|VSDX 到 PDF - 渐变以相反的方式呈现|漏洞|
-|DIAGRAMNET-51616|Visio 到 PDF - 渐变在输出 PDF 中颠倒呈现|漏洞|
-|DIAGRAMNET-51630|VSDX 到 HTML - 输出中不存在形状的背景颜色|漏洞|
-|DIAGRAMNET-51631|VSDX 到 PDF - 输出中不存在形状的背景色|漏洞|
-|DIAGRAMNET-51632|VSD 到 SVG - 无法将类型“”的对象转换为类型“”发生异常|漏洞|
+|DIAGRAMNET-51473|VDX to PDF - The incorrect background color|漏洞|
+|DIAGRAMNET-51475|VSDX to PDF - The gradients are being rendered in reversed|漏洞|
+|DIAGRAMNET-51616|Visio to PDF - Gradient is rendering upside down in output PDF|漏洞|
+|DIAGRAMNET-51630|VSDX to HTML - Background color of shapes is not present in the output|漏洞|
+|DIAGRAMNET-51631|VSDX to PDF - Background color of shapes is not present in the output|漏洞|
+|DIAGRAMNET-51632|VSD to SVG - Unable to cast object of type ‘ ’ to type ‘ ’ Exception occurred|漏洞|
 
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在这[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).

@@ -8,14 +8,14 @@ Aspose .Diagram for Java è stato aggiornato alla versione 5.0.0 e siamo lieti d
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Diagram for Java.
 # **Altri miglioramenti e modifiche**
 ## **Insetti**
-Conversione da DIAGRAMJAVA-50012- VSD a PDF, elementi di testo con posizione errata
+DIAGRAMJAVA-50012- VSD to PDF conversion, text items with incorrect position 
 
-(DIAGRAMJAVA-50043) - Impossibile trasmettere il messaggio di errore durante il salvataggio di diagram nel formato SVG
+(DIAGRAMJAVA-50043) - Can't cast error message while saving diagram to SVG format
 
 (DIAGRAMJAVA-50052) - Impossibile assegnare una forma a un livello
 
-(DIAGRAMJAVA-50107) - VSD in esportazione PDF, spazio bianco extra sul lato sinistro e destro del disegno
+(DIAGRAMJAVA-50107) - VSD to PDF export, extra white space on the left and right side of the drawing
 
-(DIAGRAMJAVA-50108) - VSD in esportazione PNG, spazio bianco extra sul lato sinistro e destro del disegno
+(DIAGRAMJAVA-50108) - VSD to PNG export, extra white space on the left and right side of the drawing
 
 (DIAGRAMJAVA-50110) - Controlla se la forma viene aggiunta come forma 1D o 2D

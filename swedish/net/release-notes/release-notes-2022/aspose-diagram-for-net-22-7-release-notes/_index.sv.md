@@ -14,9 +14,9 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for .NET 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-52872|Visio till SVG genererar flera mönstertaggar|Förbättring|
-|DIAGRAMNET-52877|Rysk textjusteringsproblem under Visio till SVG-konvertering|Förbättring|
-|DIAGRAMNET-52886|Rysk textjusteringsproblem under Visio till SVG-konvertering|Förbättring|
-|DIAGRAMNET-52861|Problem med HTML-representation|Insekt|
+|DIAGRAMNET-52877|Rysk textjusteringsproblem under konverteringen Visio till SVG|Förbättring|
+|DIAGRAMNET-52886|Rysk textjusteringsproblem under konverteringen Visio till SVG|Förbättring|
+|DIAGRAMNET-52861|Ge ut i HTML representation|Insekt|
 |DIAGRAMNET-52871|Vissa former tappar sin kurva efter konvertering till svg|Insekt|
 |DIAGRAMNET-52883|App: Att spara vsdx till svg ger null undantag|Insekt|
 |DIAGRAMNET-52897|Saknar tabellinnehåll i PDF|Insekt|

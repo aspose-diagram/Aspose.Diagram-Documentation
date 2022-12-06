@@ -14,6 +14,6 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50663|Impossibile ottenere il colore di riempimento corretto da forme e caratteri|Insetto|
-|DIAGRAMJAVA-50673|Sfondi errati su determinate forme durante il salvataggio come PDF|Insetto|
-|DIAGRAMJAVA-50674|Visio in PDF - API sta producendo un PDF corrotto|Insetto|
+|DIAGRAMJAVA-50673|Incorrect backgrounds on certain shapes when saving as PDF|Insetto|
+|DIAGRAMJAVA-50674|Visio to PDF - API is producing corrupted PDF|Insetto|
 

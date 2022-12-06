@@ -13,6 +13,6 @@ Cette page contient des notes de version pour[Aspose.Diagram for Java 19.7](http
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50086|VSD en conversion PDF, perte de données/formes manquantes|Punaise|
-|DIAGRAMJAVA-50087|VSD en conversion PDF, les formes sont mal placées|Punaise|
+|DIAGRAMJAVA-50086|VSD to PDF conversion, data loss/shapes are missing|Punaise|
+|DIAGRAMJAVA-50087|VSD to PDF conversion, shapes are misplaced|Punaise|
 

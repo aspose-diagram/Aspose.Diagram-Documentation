@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ru/java/feature-list/
 keywords: Visio Diagram Java API
-description: Visio Diagram Java API список функций включает создание, чтение, запись, экспорт, печать и доступ
+description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 ## **Богатые возможности**
 **Создавать**:
@@ -16,7 +16,7 @@ description: Visio Diagram Java API список функций включает
 - Читать формат Microsoft Visio 2003/2007/2010 VSD.
 - Читать Microsoft Visio 2003/2007/2010 формат VSS.
 - Читать Microsoft Visio 2003/2007/2010 формат VDW.
-- Читать Microsoft Visio 2003/2007/2010 Формат VST.
+- Читать формат Microsoft Visio 2003/2007/2010 VST.
 
 **Прочитайте и напишите**:
 
@@ -32,10 +32,10 @@ description: Visio Diagram Java API список функций включает
 
 **Экспорт**:
 
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в популярные форматы изображений (BMP, JPEG, TIFF, EMF, SVG и PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в PDF.
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в HTML.
-- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в XML Paper Specification (XPS).
+- Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в спецификацию XML Paper (XPS).
 - Экспорт диаграмм (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX и VSX) в XAML.
 
 **Распечатать**:

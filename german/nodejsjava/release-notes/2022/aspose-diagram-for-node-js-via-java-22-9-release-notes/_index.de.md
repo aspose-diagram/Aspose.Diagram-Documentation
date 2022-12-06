@@ -1,19 +1,19 @@
 ﻿---
-title: Aspose.Diagram für Node.js über Java 22.9 Versionshinweise
+title: Aspose.Diagram for Node.js via Java 22.9 Release Notes
 type: docs
 weight: 19
 url: /de/nodejsjava/aspose-diagram-for-node-js-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Node.js über Java 22.9.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 22.9.
 
 {{% /alert %}}
 ## **Verbesserungen und Änderungen**  ##
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: Form nach dem Speichern in PNG verzerrt|Erweiterung|
+|DIAGRAMJAVA-51022|WK: Shape distorted after saving to PNG|Erweiterung|
 |DIAGRAMJAVA-51015|wk: Formname in einer anderen Sprache als Englisch|Insekt|
 |DIAGRAMJAVA-51020|wk: Name für die Blattform mit einer Ebene wird nicht korrekt aufgelöst|Insekt|
 

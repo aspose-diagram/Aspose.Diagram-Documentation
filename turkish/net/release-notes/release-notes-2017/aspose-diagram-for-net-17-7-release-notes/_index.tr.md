@@ -17,22 +17,22 @@ url: /tr/net/aspose-diagram-for-net-17-7-release-notes/
 |DIAGRAMNET-51230|Sayfa kenar boşluklarının yanlış değerleri.|Artırma|
 |DIAGRAMNET-51274|Şekil düzeyinde yorum ekleme desteği ekleyin.|Artırma|
 |DIAGRAMNET-51297|VDX girişi - SolutionXML'nin yanlış okunması.|Artırma|
-|DIAGRAMNET-51061|Bir VST'yi PNG'ye dönüştürmede eksik şekiller.|Böcek|
-|DIAGRAMNET-51262|VSDM'i SVG'ye dönüştürürken yer değiştiren metin öğeleri.|Böcek|
-|DIAGRAMNET-51276|VSD'den SVG'ye - tüm simgeler düzgün görünmüyor.|Böcek|
-|DIAGRAMNET-51277|VSDM'den SVG'ye - Şekillerin eksik gölgesi.|Böcek|
-|DIAGRAMNET-51279|VSD'i PDF'ye dönüştürmede eksik bir karakter.|Böcek|
+|DIAGRAMNET-51061|VST'i PNG'e dönüştürürken eksik şekiller.|Böcek|
+|DIAGRAMNET-51262|VSDM'den SVG'e dönüştürülürken yer değiştiren metin öğeleri.|Böcek|
+|DIAGRAMNET-51276|VSD ila SVG - tüm simgeler düzgün görünmüyor.|Böcek|
+|DIAGRAMNET-51277|VSDM ila SVG - Şekillerin eksik gölgesi.|Böcek|
+|DIAGRAMNET-51279|VSD'i PDF'e dönüştürürken eksik bir karakter.|Böcek|
 |DIAGRAMNET-51282|Bazı vdx dosyaları kaydedildikten sonra bozuldu.|Böcek|
 |ŞEMA-51284-|DiagramException, vsdx dosya yüklemesinde oluşur.|Böcek|
-|DIAGRAMNET-51285|VSD'den PNG'ye - tüm metin öğeleri eksik.|Böcek|
-|DIAGRAMNET-51286|VSD'den PNG'ye - bir şeklin kısmi işlenmesi.|Böcek|
-|DIAGRAMNET-51288|VSDX PNG'ye dönüştürülürken geçersiz renk değeri hatası.|Böcek|
+|DIAGRAMNET-51285|VSD - PNG - tüm metin öğeleri eksik.|Böcek|
+|DIAGRAMNET-51286|VSD ila PNG - bir şeklin kısmen işlenmesi.|Böcek|
+|DIAGRAMNET-51288|VSDX'i PNG'e dönüştürürken geçersiz renk değeri hatası.|Böcek|
 |DIAGRAMNET-51289|Sayfa seviyesindeki yorumlar simgesi metni göstermez.|Böcek|
 |DIAGRAMNET-51290|Aspose.Diagram SetWidth yönteminde hata.|Böcek|
 |DIAGRAMNET-51291|Çıkış VSDX - bağlantı hatlarını düz ayarlarken yanlış düzen.|Böcek|
 |DIAGRAMNET-51292|Çıktı VSDX - bağlantı satırlarının metin öğesi yanlış yerleştirilmiş.|Böcek|
-|DIAGRAMNET-51293|VSDX'den SVG'ye - şekillerle birlikte ek bir işaret görünür.|Böcek|
-|DIAGRAMNET-51294|VSDM'den SVG'ye - şekillerle birlikte ek bir işaret görünür.|Böcek|
+|DIAGRAMNET-51293|VSDX ila SVG - şekillerle birlikte ek bir işaret görünür.|Böcek|
+|DIAGRAMNET-51294|VSDM ila SVG - şekillerle birlikte ek bir işaret görünür.|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen the[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).
 ### **Sayfa sınıfına AddComment Yöntemi eklendi**

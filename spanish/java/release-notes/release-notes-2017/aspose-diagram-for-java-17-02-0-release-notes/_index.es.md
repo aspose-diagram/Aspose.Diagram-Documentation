@@ -13,14 +13,14 @@ Esta página contiene notas de la versión para[Aspose.Diagram for Java 17.02.0]
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50037|VSD a la conversión de PDF, se cambia el tono de color de fondo de una forma de grupo.|Insecto|
-|DIAGRAMJAVA-50365|Se genera una página en blanco al convertir una página Visio con ecuaciones a PNG.|Insecto|
-|DIAGRAMJAVA-50461|Faltan bordes al convertir VSDX a PNG.|Insecto|
-|DIAGRAMJAVA-50462|El símbolo desaparece al convertir VSDX a PNG.|Insecto|
-|DIAGRAMJAVA-50463|El símbolo desaparece al convertir VSDX a SVG.|Insecto|
-|DIAGRAMJAVA-50465|El color del texto es diferente al convertir VSDX a PNG.|Insecto|
-|DIAGRAMJAVA-50466|La posición del texto es incorrecta cuando VSD se convierte a formato SVG.|Insecto|
-|DIAGRAMJAVA-50237|` `[VSDX a PDF]: se produjo un mensaje de error al usar la fuente LeagueGothic Regular.|Excepción|
+|DIAGRAMJAVA-50037|VSD to PDF conversion, the background color shade of a group shape is getting changed.|Insecto|
+|DIAGRAMJAVA-50365|A blank page is generated while converting a Visio page with equations to PNG.|Insecto|
+|DIAGRAMJAVA-50461|Borders are missing while converting VSDX to PNG.|Insecto|
+|DIAGRAMJAVA-50462|Symbol disappears while converting VSDX to PNG.|Insecto|
+|DIAGRAMJAVA-50463|Symbol disappears while converting VSDX to SVG.|Insecto|
+|DIAGRAMJAVA-50465|Color of the text is different while converting VSDX to PNG.|Insecto|
+|DIAGRAMJAVA-50466|The text position is incorrect when VSD is converted to SVG format.|Insecto|
+|DIAGRAMJAVA-50237|` `[VSDX to PDF]- Error message occurred when used LeagueGothic Regular font.|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
 Consulte la lista para conocer los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Diagram for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el[Aspose.Diagram foro de soporte](https://forum.aspose.com/c/diagram/17).
 ### **Agrega el método Shape.getParentShape**

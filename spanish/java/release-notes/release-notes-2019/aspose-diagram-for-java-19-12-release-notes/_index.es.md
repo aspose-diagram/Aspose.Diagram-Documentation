@@ -14,6 +14,6 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50663|No se puede obtener el color de relleno correcto de las formas y la fuente|Insecto|
-|DIAGRAMJAVA-50673|Fondos incorrectos en ciertas formas al guardar como PDF|Insecto|
-|DIAGRAMJAVA-50674|Visio a PDF - API está produciendo PDF corrupto|Insecto|
+|DIAGRAMJAVA-50673|Incorrect backgrounds on certain shapes when saving as PDF|Insecto|
+|DIAGRAMJAVA-50674|Visio to PDF - API is producing corrupted PDF|Insecto|
 

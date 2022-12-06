@@ -36,12 +36,12 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ReplaceShapePicture-ReplaceShapePicture.java" >}}
 ## **Bitmap Görüntüsünü Visio Şekli Olarak İçe Aktar**
 Aspose.Diagram for Java API artık geliştiricilerin bir bitmap görüntüsünü Microsoft Visio şekli olarak içe aktarmasına izin veriyor.
-### **Visio'de bir BMP Görüntüsü ekleyin**
+### **Visio'e bir BMP Görüntüsü ekleyin**
 Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 
 1. Bir diagram oluşturun.
 1. Visio sayfasını edinin
 1. Bir bitmap görüntüsünü Visio şekli olarak içe aktarın
 1. diagram'i kaydedin.
-#### **Bir BMP Görüntü Programlama Örneği Ekleme**
+#### **BMP Görüntü Programlama Örneği ekleyin**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.java" >}}

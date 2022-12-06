@@ -17,7 +17,7 @@ url: /sv/net/aspose-diagram-for-net-17-6-release-notes/
 |DIAGRAMNET-51270|Kan inte se en form av VSDX i Visio Viewer|Förbättring|
 |DIAGRAMNET-51273|Felaktig visning av form i Visio Viewer 2013|Förbättring|
 |DIAGRAMNET-51249|Det felaktiga utseendet på den böjda linjen som ansluter till VSDM|Insekt|
-|DIAGRAMNET-51250|Ytterligare en vänstra parentes läggs till i text när du konverterar en VSD till PDF|Insekt|
+|DIAGRAMNET-51250|Ytterligare en vänstra parentes läggs till i texten när du konverterar en VSD till PDF|Insekt|
 |DIAGRAMNET-51251|Storleken på ikonen nedgraderas vid konvertering av en VSDM till SVG|Insekt|
 |DIAGRAMNET-51253|Felaktig färg på text och ramar i former vid konvertering av en VSDM till SVG|Insekt|
 |DIAGRAMNET-51255|En bild längst ner har krossats vid konvertering av en VSDM till SVG|Insekt|

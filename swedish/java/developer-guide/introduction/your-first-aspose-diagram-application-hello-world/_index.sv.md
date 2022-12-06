@@ -1,5 +1,5 @@
 ﻿---
-title: Din första Aspose.Diagram-applikation - Hello World
+title: Din första Aspose.Diagram-ansökan - Hello World
 type: docs
 weight: 30
 url: /sv/java/your-first-aspose-diagram-application-hello-world/
@@ -7,11 +7,11 @@ description: Den här sidan beskriver hur du skapar den första applikationen me
 ---
 {{% alert color="primary" %}}
 
-Denna handledning visar hur man skapar en allra första applikation (Hello World) med Aspose.Diagram' enkel API. Denna enkla applikation skapar en Microsoft Visio-fil med texten 'Hello World' på en angiven sida.
+Denna handledning visar hur man skapar en allra första applikation (Hello World) med Aspose.Diagram' simple API. Denna enkla applikation skapar en Microsoft Visio-fil med texten 'Hello World' på en specificerad sida.
 
 {{% /alert %}}
 
-## **Skapa Hello World-applikationen**
+## **Skapar Hello World-applikationen**
 
 Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Diagram API:
 
@@ -20,14 +20,14 @@ Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Diagram API:
  Om du använder utvärderingsversionen, hoppa över de licensrelaterade kodraderna.
 1. Skapa en ny Visio-fil eller öppna en befintlig Visio-fil.
 1. Skapa en ny textruta.
-1.  Sätt in orden**Hej världen!** i en textruta.
+1.  Sätt in orden**Hello World!** i en textruta.
 1. Generera den modifierade filen Microsoft Visio.
 
 Implementeringen av stegen ovan visas i exemplen nedan.
 
 ### **Kodexempel: Skapa en ny Diagram**
 
-Följande exempel skapar ett nytt diagram från början, skriver Hello World! på första sidan och sparar filen Visio.
+Följande exempel skapar en ny diagram från början, skriver Hello World! på första sidan och sparar filen Visio.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-CreateNewVisio-CreateNewVisio.java" >}}
 

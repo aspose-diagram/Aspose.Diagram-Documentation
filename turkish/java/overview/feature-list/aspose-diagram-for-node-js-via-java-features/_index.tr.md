@@ -1,11 +1,11 @@
 ﻿---
-title: Java aracılığıyla Node.js için Aspose.Diagram Özellikler
+title: Node.js için Aspose.Diagram via Java Özellikler
 type: docs
 weight: 10
 url: /tr/java/aspose-diagram-for-node-js-via-java-features/
 description: Visio Diagram Node.js via Java API feature list include read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
-Bu bölüm, Aspose.Diagram özelliklerinin Node.js için Java aracılığıyla kullanılabilirliğinin bir karşılaştırmasını sağlar.
+Bu bölüm, Node.js via Java için Aspose.Diagram özelliklerinin kullanılabilirliğinin bir karşılaştırmasını sağlar.
 ## **Desteklenen Dosya Biçimleri**
 
 |**Biçim**|**Tanım**|**Yük**|**Kaydetmek**|**Notlar**|
@@ -24,15 +24,15 @@ Bu bölüm, Aspose.Diagram özelliklerinin Node.js için Java aracılığıyla k
 |[VSS](https://docs.fileformat.com/visio/vss/)|Visio Şablon Dosya Türü|{{< emoticons/tick >}}|||
 |[VST](https://docs.fileformat.com/visio/vst/)|VST Şablon Dosyası|{{< emoticons/tick >}}|||
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Taşınabilir Belge Formatı)||{{< emoticons/tick >}}||
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS formatı||{{< emoticons/tick >}}||
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS biçimi||{{< emoticons/tick >}}||
 |[XAML](https://docs.fileformat.com/web/xaml/)|XAML biçimi||{{< emoticons/tick >}}||
 |[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Ölçeklenebilir Vektör Grafikleri (XML tabanlı bir vektör görüntü formatı)||{{< emoticons/tick >}}||
 |[EMF](https://docs.fileformat.com/image/emf/)|Gelişmiş Meta Dosyası||{{< emoticons/tick >}}||
-|[jpeg](https://docs.fileformat.com/image/jpeg/)|JPEG Biçimi||{{< emoticons/tick >}}||
-|[png](https://docs.fileformat.com/image/png/)|PNG Formatı||{{< emoticons/tick >}}||
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Formatı||{{< emoticons/tick >}}||
+|[PNG](https://docs.fileformat.com/image/png/)|PNG Formatı||{{< emoticons/tick >}}||
 |[BMP](https://docs.fileformat.com/image/bmp/)|BMP Formatı||{{< emoticons/tick >}}||
-|[TIFF](https://docs.fileformat.com/image/tiff/)|Tek veya Çok Sayfalı TIFF Resmi||{{< emoticons/tick >}}||
-## **Java üzerinden Node.js için Aspose.Diagram - Özellikler**
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Tek veya Çoklu Sayfa TIFF Resim||{{< emoticons/tick >}}||
+## **Node.js için Aspose.Diagram via Java - Özellikler**
 ### **Oluşturmak**
 - Sıfırdan diyagramlar oluşturun.
 ### **Okumak**
@@ -51,11 +51,11 @@ Bu bölüm, Aspose.Diagram özelliklerinin Node.js için Java aracılığıyla k
 - Microsoft Visio 2003/2007/2010 VSX formatını okuyun veya yazın.
 - Microsoft Visio 2003/2007/2010 VTX formatını okuyun veya yazın.
 ### **İhracat**
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) popüler görüntü formatlarına (BMP, JPEG, TIFF, EMF, SVG ve PNG) aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) PDF olarak dışa aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) HTML'ye aktarın.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSTX ve VSX) PDF'e aktarın.
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSTX ve VSX) HTML'e aktarın.
 - Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) XML Kağıt Spesifikasyonuna (XPS) aktarın.
-- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSX) XAML'ye aktarın.
+- Diyagramları (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX ve VSTX ve VSX) XAML'e aktarın.
 ### **Yazdır**
 - Visio diyagramlarını yüksek doğrulukla yazdırın.
 ### **Erişim**

@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram per Node.js tramite Java 21.7 Note di rilascio
+title: Aspose.Diagram for Node.js via Java 21.7 Release Notes
 type: docs
 weight: 6
 url: /it/java/aspose-diagram-for-node-js-via-java-21-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram per Node.js tramite Java 21.7.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 21.7.
 
 {{% /alert %}}
 ## **Miglioramenti e modifiche**  ##

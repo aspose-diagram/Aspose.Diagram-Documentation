@@ -11,7 +11,7 @@ Bu sürüm, aşağıda ayrıntılı olarak açıklanan özellikleri, geliştirme
 ## **Geliştirmeler**
 - DIAGRAMNET-50235-Visio Viewer'da zaman çizelgesi verileri güncellenmiyor
 ## **Verim**
-- DIAGRAMNET-50378-VSD'i PDF formatına dışa aktarırken performans sorunu
+- DIAGRAMNET-50378-VSD'i PDF biçimine dışa aktarırken performans sorunu
 ## **Hatalar**
 - DIAGRAMNET-50364-VSDX'den PDF'e dönüştürme, metin öğelerinin yanlış oluşturulması
 - DIAGRAMNET-50386-Aynı sayfaya veya başka bir sayfaya ikinci kez şekil eklenemiyor
@@ -22,9 +22,9 @@ Bu sürüm, aşağıda ayrıntılı olarak açıklanan özellikleri, geliştirme
 - DIAGRAMNET-50394-Bir şekil yerleştirilirken bağımsız değişken Aralık dışında hata mesajı oluştu
 - DIAGRAMNET-50398-Shape, farklı bağlantı noktaları yerine tek bağlantı noktası kullanıyor
 - DIAGRAMNET-50400-Sonuç açılırken uyarı mesajı VDX diagram
-- DIAGRAMNET-50401-VSD'den PDF'e dönüştürme, şekiller düzgün görünmüyor
-- DIAGRAMNET-50402-VSD'den PNG'ye dönüştürme, şekiller düzgün görünmüyor
-- DIAGRAMNET-50403-VSD'den SVG'ye dönüştürme, şekiller düzgün görünmüyor
+- DIAGRAMNET-50401-VSD - PDF dönüşümü, şekiller düzgün görünmüyor
+- DIAGRAMNET-50402-VSD - PNG dönüştürme, şekiller düzgün görünmüyor
+- DIAGRAMNET-50403-VSD - SVG dönüştürme, şekiller düzgün görünmüyor
 - DIAGRAMNET-50404-VSD - VDX dönüşümü, şekiller düzgün görünmüyor
 - DIAGRAMNET-50405-VSD'den VDX'e dönüştürme, şeklin metni sınırın dışına çıkıyor
 - DIAGRAMNET-50407-Kabın içine şekil yapıştırılamıyor

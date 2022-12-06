@@ -15,16 +15,16 @@ url: /de/net/aspose-diagram-for-net-18-1-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50494|Unterstützung zum Duplizieren / Klonen einer diagram-Seite hinzufügen|Erweiterung|
 |DIAGRAMNET-51057|Die Befehlsschaltfläche fehlt nach dem Entfernen einer Seite aus VSDM|Erweiterung|
-|DIAGRAMNET-51422|VSDX zu PDF - die Schatten werden bei Prozessformen ignoriert|Erweiterung|
-|DIAGRAMNET-50467|VSD in PDF-Konvertierung, das Firmenlogo ist falsch platziert|Insekt|
-|DIAGRAMNET-50469|VSD in PDF-Konvertierung, der Radioformtext ist etwas höher als gewöhnlich|Insekt|
-|DIAGRAMNET-51199|Titeltext wird beim Speichern von VSDM in SVG nicht ausgerichtet|Insekt|
+|DIAGRAMNET-51422|VSDX to PDF - the shadows are being ignored on process shapes|Erweiterung|
+|DIAGRAMNET-50467|VSD to PDF conversion, the company corporate logo is misplaced|Insekt|
+|DIAGRAMNET-50469|VSD to PDF conversion, the radio shape text is slightly up than usual|Insekt|
+|DIAGRAMNET-51199|Title text is not aligned on saving a VSDM to SVG|Insekt|
 |DIAGRAMNET-51388|Probleme beim Laden und Speichern von vsdx-Dateien|Insekt|
-|DIAGRAMNET-51398|VSD zu PNG - die Textposition ist falsch|Insekt|
-|DIAGRAMNET-51407|VSD zu JPEG - die Textelemente sind falsch platziert|Insekt|
+|DIAGRAMNET-51398|VSD to PNG - the text position is incorrect|Insekt|
+|DIAGRAMNET-51407|VSD to JPEG - the text items are misplaced|Insekt|
 |DIAGRAMNET-51419|Die Größe von Formen wird in der Datei vsdx nicht richtig geändert|Insekt|
 |DIAGRAMNET-51420|VSDX Datei wird nach dem Laden und Speichern beschädigt|Insekt|
-|DIAGRAMNET-51421|VSDX zu PDF - falsche Schriftfarbe des Textes|Insekt|
+|DIAGRAMNET-51421|VSDX to PDF - incorrect font color of the text|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 ### **Fügt Copy-Member in der Page-Klasse hinzu**

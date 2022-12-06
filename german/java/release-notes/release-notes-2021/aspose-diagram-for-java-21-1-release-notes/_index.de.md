@@ -13,5 +13,5 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 21.1.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50118|VTX in HTML-Konvertierung, leeres rechteckiges Feld anstelle des Metadateisymbols|Erweiterung|
+|DIAGRAMJAVA-50118|VTX to HTML conversion, blank rectangle box instead of meta file icon|Erweiterung|
 

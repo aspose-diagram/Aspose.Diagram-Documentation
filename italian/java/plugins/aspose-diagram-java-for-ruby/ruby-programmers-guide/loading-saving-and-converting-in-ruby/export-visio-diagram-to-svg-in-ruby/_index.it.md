@@ -1,11 +1,11 @@
 ﻿---
-title: Esporta Visio Diagram in SVG in Ruby
+title: Export Visio Diagram to SVG in Ruby
 type: docs
 weight: 50
 url: /it/java/export-visio-diagram-to-svg-in-ruby/
 ---
-## **Aspose.Diagram - Esporta Visio Diagram in SVG**
- Per esportare Visio Diagram in SVG utilizzando**Aspose.Diagram Java per Rubino** , semplicemente invocare**Esporta in formato Svg** modulo. Qui puoi vedere il codice di esempio.
+## **Aspose.Diagram - Export Visio Diagram to SVG**
+To Export Visio Diagram to SVG using **Aspose.Diagram Java per Rubino** , semplicemente invocare**Esporta in formato Svg** modulo. Qui puoi vedere il codice di esempio.
 
 **Codice Rubino**
 
@@ -25,6 +25,6 @@ puts "Exported visio diagram to SVG."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Esporta Visio Diagram in SVG (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scarica**Export Visio Diagram to SVG (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_Ruby/lib/asposediagramjava/Export/exporttosvg.rb)

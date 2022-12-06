@@ -14,12 +14,12 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.7](http
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-51219|Få bilder från förhandsgranskningen av en Visio-sida|Förbättring|
-|DIAGRAMNET-51615|Dela Diagram till flera sidor samtidigt som PDF-dokument genereras|Förbättring|
+|DIAGRAMNET-51615|Dela Diagram till flera sidor samtidigt som du genererar PDF dokument|Förbättring|
 |DIAGRAMNET-51656|Lägg till stöd för att övervaka dokumentkonverteringens framsteg|Förbättring|
-|DIAGRAMNET-50045|Felaktiga radbrytningar vid konvertering av VSD till PDF-format|Insekt|
-|DIAGRAMNET-50075|VSD till PDF-konvertering, felaktig texttypsnitt|Insekt|
-|DIAGRAMNET-50201|VSD till PDF-konvertering, former är felplacerade|Insekt|
-|DIAGRAMNET-50274|VSDX till SVG-konvertering, anslutningslayouterna är felaktiga|Insekt|
+|DIAGRAMNET-50045|Felaktiga radbrytningar vid konvertering av VSD till PDF format|Insekt|
+|DIAGRAMNET-50075|VSD till PDF konvertering, felaktigt teckensnitt|Insekt|
+|DIAGRAMNET-50201|VSD till PDF konvertering, former är felplacerade|Insekt|
+|DIAGRAMNET-50274|VSDX till SVG konvertering, anslutningslayouterna är felaktiga|Insekt|
 |DIAGRAMNET-51172|Ändrar inte formen ordentligt när den sparas i ett bildformat|Insekt|
 |DIAGRAMNET-51613|Egenskapen AutoFitPageToDrawingContent fungerar inte som förväntat|Insekt|
 |DIAGRAMNET-51657|VISIO till JPG - utdatabilden är inte i rätt format|Insekt|

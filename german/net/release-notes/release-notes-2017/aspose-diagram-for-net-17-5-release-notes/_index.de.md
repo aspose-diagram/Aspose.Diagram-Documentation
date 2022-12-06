@@ -15,11 +15,11 @@ url: /de/net/aspose-diagram-for-net-17-5-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-51104|Fügen Sie Unterstützung für die 3D-Rotationseigenschaften der Form hinzu|Neue Funktion|
 |DIAGRAMNET-51229|Der Prozess zum Öffnen und Speichern von VSDM entfernt SolutionXMLs|Erweiterung|
-|DIAGRAMNET-50283|VTX in HTML-Konvertierung, Doppellinieneffekt auf Shapes-Textelementen|Insekt|
-|DIAGRAMNET-51195|Falsche Darstellung eines Briefumschlagsymbols beim Speichern einer VDX in SVG|Insekt|
-|DIAGRAMNET-51196|Falsche Textausrichtung beim Speichern einer VDX in SVG|Insekt|
+|DIAGRAMNET-50283|VTX to HTML conversion, double line effect on shapes text items|Insekt|
+|DIAGRAMNET-51195|Incorrect rendering of an envelope icon on saving a VDX to SVG|Insekt|
+|DIAGRAMNET-51196|Incorrect text alignment on saving a VDX to SVG|Insekt|
 |DIAGRAMNET-51225|Ruft einen falschen Kalenderwert der Shape-Daten für VSDM ab|Insekt|
-|DIAGRAMNET-51226|Beim Speichern im HTML-Stream werden keine externen Ressourcen eingebettet|Insekt|
+|DIAGRAMNET-51226|Saving to HTML stream do not embed external resources|Insekt|
 |DIAGRAMNET-51227|Der TimeSaved-Wert von VSDM kann nicht festgelegt werden|Insekt|
 |DIAGRAMNET-51228|Die Textelemente werden beim Setzen von Formdaten in VSDM verschoben|Insekt|
 |DIAGRAMNET-51234|Ein gleichnamiger Master kann in VSDM nicht entfernt und hinzugefügt werden|Insekt|
@@ -28,11 +28,11 @@ url: /de/net/aspose-diagram-for-net-17-5-release-notes/
 |DIAGRAMNET-51237|Del- und NoQuickDrag-Werte von Geoms können nicht in VSDM gespeichert werden|Insekt|
 |DIAGRAMNET-51238|Legen Sie den TimeSaved-Wert fest, wenn Sie eine Visio-Zeichnung speichern|Insekt|
 |DIAGRAMNET-51239|Der Prozess zum Öffnen und Speichern von VSDM entfernt den Beziehungsteil der Lösungs-XML|Insekt|
-|DIAGRAMNET-51240|Versetzter Text beim Konvertieren einer VSD in PDF|Insekt|
+|DIAGRAMNET-51240|Displaced text on converting a VSD to PDF|Insekt|
 |DIAGRAMNET-51242|Formdaten können nicht zu verschiedenen Formen in VSDM hinzugefügt werden|Insekt|
 |DIAGRAMNET-51243|UFEV-Wert der Benutzerzelle nicht korrekt in VSDM gespeichert|Insekt|
 |DIAGRAMNET-51244|Doppelter Seiten-XML-Fehler beim Kopieren von Seiten aus zwei VSDM-Zeichnungen|Insekt|
-|DIAGRAMNET-51247|Bei der Konvertierung einer VSD in PDF wird auch der Nichtdruckbereich berücksichtigt|Insekt|
+|DIAGRAMNET-51247|Non-print area is also included when converting a VSD to PDF|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 ### **Fügt ein ThreeDFormat-Member in der Shape-Klasse hinzu**

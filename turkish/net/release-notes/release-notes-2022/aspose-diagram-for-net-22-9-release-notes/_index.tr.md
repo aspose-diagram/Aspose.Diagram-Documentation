@@ -15,7 +15,7 @@ Bu sayfa Aspose.Diagram for .NET 22.9 için sürüm notları bilgilerini içerir
 |:- |:- |:- |
 |DIAGRAMNET-52969|vsdx dosyasını bir svg'ye aktarın - kutulardaki tüm metinler kutuların satırını aşar.|Artırma|
 |DIAGRAMNET-52974|diagram doğrulama verilerinde görünmeyen Kural Kümeleri|Artırma|
-|DIAGRAMNET-52951|HTML'ye aktarıldıktan sonra yanlış sonuç|Böcek|
+|DIAGRAMNET-52951|HTML'e aktarıldıktan sonra yanlış sonuç|Böcek|
 |DIAGRAMNET-52958|Uygulama: vsd'den Vsdx'e kaydediliyor, efekt yanlış|Böcek|
 |DIAGRAMNET-52964|HTML'de görüntü kalitesi|Böcek|
 |DIAGRAMNET-52965|HTML çıktısında sorun|Böcek|

@@ -13,6 +13,6 @@ url: /ar/java/aspose-diagram-for-java-21-4-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50383|لا يتم الاحتفاظ بسمة الأشكال عند تحويل VSDX إلى PDF|التعزيز|
+|DIAGRAMJAVA-50383|لم يتم الاحتفاظ بسمة الأشكال عند تحويل VSDX إلى PDF|التعزيز|
 |DIAGRAMJAVA-50717|VSD إلى GIF - يحدث java.lang.NullPointerException|حشرة|
-|DIAGRAMJAVA-50718|NullPointerException عند تحويل VSD/VSDX إلى PNG|حشرة|
+|DIAGRAMJAVA-50718|NullPointerException عند التحويل من VSD/VSDX إلى PNG|حشرة|

@@ -20,10 +20,10 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |DIAGRAMNET-52197|Il caricamento e il salvataggio di vsdx cambiano il valore di DisplayMode|Aumento|
 |DIAGRAMNET-52205|Evento doppio clic mancante dalla forma|Aumento|
 |DIAGRAMNET-51877|Eccezione "Parametro non valido" durante il rendering del file VSD|Insetto|
-|DIAGRAMNET-52114|"Parametro non valido." eccezione durante il rendering del file VSD in PNG/JPG|Insetto|
+|DIAGRAMNET-52114|"Parameter is not valid." exception when rendering VSD file to PNG/JPG|Insetto|
 |DIAGRAMNET-52124|Salvare Visio come problema html|Insetto|
-|DIAGRAMNET-52127|Salvataggio di Visio con linee di supporto al problema HTML|Insetto|
-|DIAGRAMNET-52148|VSDX in PDF - Il testo barrato non è corretto nel PDF|Insetto|
+|DIAGRAMNET-52127|Saving Visio with helper lines to HTML issue|Insetto|
+|DIAGRAMNET-52148|VSDX to PDF - Strikethrough text is not correct in PDF|Insetto|
 |DIAGRAMNET-52150|Impossibile estrarre il valore della formula di cella definita dall'utente CONT.|Insetto|
 |DIAGRAMNET-52229|La cella definita dall'utente viene rinominata|Insetto|
 |DIAGRAMNET-52231|L'opzione "colla" del connettore per modellare è persa|Insetto|

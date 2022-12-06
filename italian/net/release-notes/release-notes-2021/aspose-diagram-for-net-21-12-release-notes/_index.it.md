@@ -15,10 +15,10 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 |:- |:- |:- |
 |DIAGRAMNET-52408|problemi quando usiamo EmfRederSetting EmfPlusPrefer|Aumento|
 |DIAGRAMNET-52438|SaveForegroundPagesSolo per la stampa|Aumento|
-|DIAGRAMNET-52450|Visio in SVG - Salvataggio separato dell'immagine raster|Aumento|
-|DIAGRAMNET-51171|Rendering parziale delle sagome al salvataggio del disegno in formato PDF|Insetto|
+|DIAGRAMNET-52450|Visio to SVG - Saving raster image separately|Aumento|
+|DIAGRAMNET-51171|Partial rendering of the shapes on saving drawing in PDF format|Insetto|
 |DIAGRAMNET-51390|L'oggetto incorporato non viene sostituito correttamente|Insetto|
-|DIAGRAMNET-51800|Visio in SVG - Immagine di sfondo mancante (PowerPoint viene aggiunto in VISIO)|Insetto|
+|DIAGRAMNET-51800|Visio to SVG - Background Image Missing (PowerPoint is added in the VISIO)|Insetto|
 |DIAGRAMNET-52423|Page.Copy() non copia l'oggetto Excel in diagram|Insetto|
 |DIAGRAMNET-52443|Forme mancanti durante l'apertura e il salvataggio di MS Visio Diagram|Insetto|
 |DIAGRAMNET-52444|Visio in JPG - Diversi risultati generati da API|Insetto|

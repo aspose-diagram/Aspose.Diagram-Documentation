@@ -20,7 +20,7 @@ url: /sv/net/aspose-diagram-for-net-17-7-release-notes/
 |DIAGRAMNET-51061|Saknade former vid konvertering av en VST till PNG.|Insekt|
 |DIAGRAMNET-51262|Förskjutna textobjekt vid konvertering av en VSDM till SVG.|Insekt|
 |DIAGRAMNET-51276|VSD till SVG - alla ikoner syns inte korrekt.|Insekt|
-|DIAGRAMNET-51277|VSDM till SVG - Shadow of shapes saknas.|Insekt|
+|DIAGRAMNET-51277|VSDM till SVG - Skugga av former saknas.|Insekt|
 |DIAGRAMNET-51279|Ett saknat tecken vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-51282|Vissa vdx-filer är skadade efter att ha sparats.|Insekt|
 |DIAGRAMNET-51284-|DiagramException inträffar vid vsdx filladdning.|Insekt|

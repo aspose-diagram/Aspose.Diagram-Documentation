@@ -13,14 +13,14 @@ Diese Seite enthält Informationen zu Versionshinweisen für Aspose.Diagram for 
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51673|Als PDF speichern A1A verlorene Bilder|Erweiterung|
-|DIAGRAMNET-51674|Verlorene Farbe von Text und Rahmen beim Speichern als PDF A1a|Erweiterung|
-|DIAGRAMNET-51675|Unterschiede beim Speichern einer VSDX-Datei als HTML|Insekt|
-|DIAGRAMNET-51704|Visio zu PDF - Einige Formen/Linien sind nicht korrekt|Insekt|
-|DIAGRAMNET-51730|Visio zu HTML – QuickInfos sind im Ausgabe-HTML falsch|Insekt|
+|DIAGRAMNET-51673|Save as PDF A1A lost pictures|Erweiterung|
+|DIAGRAMNET-51674|Lost color of text and border when saving as PDF A1a|Erweiterung|
+|DIAGRAMNET-51675|Differences when saving a VSDX file as HTML|Insekt|
+|DIAGRAMNET-51704|Visio to PDF - Some shapes/lines are not correct|Insekt|
+|DIAGRAMNET-51730|Visio to HTML - Tooltips are incorrect in output HTML|Insekt|
 |DIAGRAMNET-51732|Shapes verlieren Styling/Struktur, nach „AddShape“ auf der Seite|Insekt|
-|DIAGRAMNET-51733|Visio Dokument wird nicht korrekt in PDF konvertiert|Insekt|
-|DIAGRAMNET-51736|Ungültige Target-Eigenschaft im Hyperlink beim Rendern von HTML|Insekt|
+|DIAGRAMNET-51733|Visio document not converting to PDF correctly|Insekt|
+|DIAGRAMNET-51736|Bad Target property in hyperlink when rendering HTML|Insekt|
 |DIAGRAMMNETZ-51740-|Visio Inhalt ist beim erneuten Speichern einer Datei beschädigt|Insekt|
 
 

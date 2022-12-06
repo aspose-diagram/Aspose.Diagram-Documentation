@@ -5,7 +5,7 @@ weight: 10
 url: /tr/python-java/create-layout-and-auto-fit-shapes/
 ---
 ## **Diagram oluşturma**
- Python için Java üzerinden Aspose.Diagram, Microsoft Office Otomasyon olmadan kendi uygulamalarınızdan Microsoft Visio diyagramlarını okumanızı ve oluşturmanızı sağlar. Yeni belgeler oluştururken ilk adım, bir diagram oluşturmaktır. Ardından[şekiller ve bağlayıcılar ekleyin](/diagram/tr/python-java/add-and-connect-visio-shapes/) diagram'i oluşturmak için. Yeni bir diagram oluşturmak için Diagram sınıfının varsayılan oluşturucusunu kullanın.
+ Python via Java için Aspose.Diagram, Microsoft Office Otomasyon olmadan kendi uygulamalarınız içinden Microsoft Visio diyagramlarını okumanızı ve oluşturmanızı sağlar. Yeni belgeler oluştururken ilk adım, bir diagram oluşturmaktır. Ardından[şekiller ve bağlayıcılar ekleyin](/diagram/tr/python-java/add-and-connect-visio-shapes/) diagram'i oluşturmak için. Yeni bir diagram oluşturmak için Diagram sınıfının varsayılan oluşturucusunu kullanın.
 ### **Programlama Örneği**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
 ## **Akış Şeması Stilinde Yerleşim Şekilleri**
@@ -55,7 +55,7 @@ Kompakt ağaç düzeni stili, bir ağaç yapısı oluşturmaya çalışır. Yuka
 ## **Visio Diagram'i otomatik sığdır**
 Aspose.Diagram API, Visio çiziminin otomatik sığdırılmasını destekler. Bu özellik işlemi, dış şekilleri Visio sayfa sınırının içine getirmeye yardımcı olur.
 
-Java aracılığıyla Python için Aspose.Diagram API, bir Visio çizimini temsil eden Diagram sınıfına sahiptir. DiagramSaveOptions sınıfı, Visio çizimine otomatik sığdırmak için AutoFitPageToDrawingContent özelliğini gösterir.
+Python via Java API için Aspose.Diagram, bir Visio çizimini temsil eden Diagram sınıfına sahiptir. DiagramSaveOptions sınıfı, Visio çizimine otomatik sığdırmak için AutoFitPageToDrawingContent özelliğini gösterir.
 
 Bu örnek şu şekilde çalışır:
 
@@ -69,7 +69,7 @@ Aşağıdaki örnek kod, Visio diagram'de şekillerin nasıl otomatik sığdır�
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
 ## **VBA Project ile Çalışmak**
 ### **Visio Diagram'de VBA Modül Kodunu Değiştirin**
-Bu makale, Python için Aspose.Diagram kullanılarak Java aracılığıyla bir VBA modül kodunun otomatik olarak nasıl değiştirileceğini gösterir.
+Bu makale, Python via Java için Aspose.Diagram kullanarak bir VBA modül kodunun otomatik olarak nasıl değiştirileceğini gösterir.
 
 VbaModule, VbaModuleCollection, VbaProject, VbaProjectReference ve VbaProjectReferenceCollection sınıflarını ekledik. Bu sınıflar, VBA projesi üzerinde kontrol sahibi olmanıza yardımcı olur. Geliştiriciler, VBA modül kodunu çıkarabilir ve değiştirebilir.
 ### **VBA Modülü Kod Programlama Örneği Değiştirin**
@@ -77,7 +77,7 @@ Lütfen bu kod örneğini kontrol edin:
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
 ### **Visio Diagram'den Tüm Makroları Kaldır**
-Java aracılığıyla Python için Aspose.Diagram, geliştiricilerin Visio diagram'den tüm makroları kaldırmasına olanak tanır.
+Python via Java için Aspose.Diagram, geliştiricilerin Visio diagram'den tüm makroları kaldırmasına olanak tanır.
 
 Diagram sınıfı tarafından sunulan JavaProjectData özelliği, Visio çiziminden tüm makroları kaldırmanıza olanak tanır.
 ### **Tüm Makroları Kaldır Programlama Örneği**

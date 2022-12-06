@@ -16,17 +16,17 @@ url: /tr/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|Bir çizimin belirli alanını resme dönüştürme desteği ekleyin|Artırma|
 |DIAGRAMNET-51350|Ada göre şekli almak için destek ekleyin|Artırma|
 |DIAGRAMNET-51351|Ek Açıklamadan şekli alma desteği ekleyin|Artırma|
-|DIAGRAMNET-51295|VSDX'den SVG'ye - SVG çıktısının düşük kalitesi|Böcek|
+|DIAGRAMNET-51295|VSDX - SVG - düşük çıktı kalitesi SVG|Böcek|
 |DIAGRAMNET-51309|DiagramException, VSDX dosya kaydetme sırasında oluşur|Böcek|
-|DIAGRAMNET-51331|VSDM'den SVG'ye - metin öğeleri yukarı kaydırılır|Böcek|
-|DIAGRAMNET-51333|VSDM'den SVG'ye - dairesel simgelerin yanlış oluşturulması|Böcek|
-|DIAGRAMNET-51339|VSDX'den SVG'ye - metnin her görüntünün sağ tarafından kesilmesi|Böcek|
+|DIAGRAMNET-51331|VSDM ila SVG - metin öğeleri yukarı kaydırılır|Böcek|
+|DIAGRAMNET-51333|VSDM ila SVG - dairesel simgelerin yanlış oluşturulması|Böcek|
+|DIAGRAMNET-51339|VSDX ila SVG - metnin her görüntünün sağ tarafından kesilmesi|Böcek|
 |DIAGRAMNET-51340|Yanlış yorum sırası|Böcek|
 |` `DIAGRAMNET-51342|"AddComment" yöntemini kullandıktan ve dosyayı steam'e kaydettikten sonra yetersiz bellek hatası|Böcek|
-|DIAGRAMNET-51344|VSDX'den PDF'ye - aralık dışında bir bağımsız değişken hatası oluştu|Böcek|
+|DIAGRAMNET-51344|VSDX - PDF - aralık dışında bir bağımsız değişken hatası oluştu|Böcek|
 |DIAGRAMNET-51345|Yorum, şekille birlikte silinmez|Böcek|
-|DIAGRAMNET-51346|VSDM'den SVG'ye - logo kalitesi düşürüldü|Böcek|
-|DIAGRAMNET-51347|VSDM'den SVG'ye - logo kalitesi düşürüldü|Böcek|
+|DIAGRAMNET-51346|VSDM ila SVG - logo kalitesi düşürüldü|Böcek|
+|DIAGRAMNET-51347|VSDM ila SVG - logo kalitesi düşürüldü|Böcek|
 |DIAGRAMNET-51353|Visio sayfasına başka bir yorum eklenemiyor|Böcek|
 |DIAGRAMNET-51354|Visio sayfasındaki yorumlar düzenlenemiyor|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

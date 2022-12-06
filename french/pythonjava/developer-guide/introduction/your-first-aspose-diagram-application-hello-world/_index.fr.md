@@ -1,5 +1,5 @@
 ﻿---
-title: Votre première application Aspose.Diagram - Hello World
+title: Your First Aspose.Diagram Application - Hello World
 type: docs
 weight: 30
 url: /fr/python-java/your-first-aspose-diagram-application-hello-world/
@@ -7,13 +7,13 @@ description: Cette page décrit comment créer la première application avec la 
 ---
 {{% alert color="primary" %}}
 
-Ce tutoriel montre comment créer une toute première application (Hello World) en utilisant Aspose.Diagram' simple API. Cette application simple crée un fichier Microsoft Visio avec le texte 'Hello World' dans une Page spécifiée.
+This tutorial shows how to create a very first application (Hello World) using Aspose.Diagram' simple API. This simple application creates a Microsoft Visio file with the text 'Hello World' in a specified Page.
 
 {{% /alert %}}
 
-## **Création de l'application Hello World**
+## **Creating the Hello World Application**
 
-Les étapes ci-dessous créent l'application Hello World à l'aide du Aspose.Diagram API :
+The steps below creates the Hello World application using the Aspose.Diagram API:
 
 1. Créez une instance de la classe Diagram.
 1. Appliquer la licence :
@@ -21,13 +21,13 @@ Les étapes ci-dessous créent l'application Hello World à l'aide du Aspose.Dia
  1. Si vous utilisez la version d'évaluation du composant (si vous utilisez Aspose.Diagram sans licence), ignorez cette étape.
 1. Créez un nouveau fichier Visio ou ouvrez un fichier Visio existant.
 1. Créez une nouvelle zone de texte.
-1.  Insérez les mots**Bonjour le monde!** dans une zone de texte.
+1.  Insérez les mots**Hello World!** dans une zone de texte.
 1. Générez le fichier Microsoft Visio modifié.
 
 La mise en œuvre des étapes ci-dessus est illustrée dans les exemples ci-dessous.
 
-### **Exemple de code : Création d'un nouveau Diagram et écriture de Hello World !**
+### **Code Sample: Creating a New Diagram and Writing Hello World!**
 
-L'exemple suivant ouvre un fichier de modèle Microsoft Visio existant nommé "[Basic_Shapes.vss](Basic_Shapes.vss)", saisit le texte "Hello World!" dans la première page et enregistre le diagram.
+L'exemple suivant ouvre un fichier de modèle Microsoft Visio existant nommé "[Basic_Shapes.vss](Basic_Shapes.vss)", inputs "Hello World!" text in the first page and saves the diagram.
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-CreatingHelloWorldVisioFile.py" >}}

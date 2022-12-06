@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram 用于 Node.js 通过 Java 21.9 发行说明
+title: Aspose.Diagram for Node.js via Java 21.9 Release Notes
 type: docs
 weight: 5
 url: /zh/java/aspose-diagram-for-node-js-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-此页面包含 Aspose.Diagram for Node.js via Java 21.9 的发行说明信息。
+This page contains release notes information for Aspose.Diagram for Node.js via Java 21.9.
 
 {{% /alert %}}
 ## **改进和变化**  ##
@@ -14,7 +14,7 @@ url: /zh/java/aspose-diagram-for-node-js-via-java-21-9-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk：检查 TextAnnotation 是否连接到形状|强化|
-|DIAGRAMJAVA-50382|将 VSDX 转换为 PDF 时缺少形状的阴影|漏洞|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|漏洞|
 |DIAGRAMJAVA-50754|wk - InheritLine 的 LineColor 不正确|漏洞|
 |DIAGRAMJAVA-50756|wk：PinPos null 与 center-center|漏洞|
 |DIAGRAMJAVA-50757|WK：getBegin/End Arrow 值不正确。|漏洞|

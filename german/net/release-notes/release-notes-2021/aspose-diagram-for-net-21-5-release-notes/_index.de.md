@@ -13,12 +13,12 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.5.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52019|Konvertiere Visio in HTML - unvollständige Seiten in der Ausgabe|Erweiterung|
+|DIAGRAMNET-52019|Convert Visio to HTML - incomplete pages in the output|Erweiterung|
 |DIAGRAMNET-52021|Einige Form-Requisiten werden nicht aktualisiert|Erweiterung|
-|DIAGRAMNET-50965|Fehlende Grenzlinie und das Textausrichtungsproblem beim Konvertieren von VSDX in PNG|Insekt|
-|DIAGRAMNET-51035|Das Thema der Formen wird beim Konvertieren von VSDX in PDF nicht beibehalten|Insekt|
+|DIAGRAMNET-50965|Missing a borderline and the text alignment problem on converting a VSDX to PNG|Insekt|
+|DIAGRAMNET-51035|Theme of shapes is not being preserved on converting a VSDX to PDF|Insekt|
 |DIAGRAMNET-52023|Speichern Sie VSDX/VSDM als VSDX - Ausnahme wird von API ausgelöst|Insekt|
-|DIAGRAMNET-52025|Visio zu PDF – ArgumentOutOfRangeException tritt auf|Insekt|
+|DIAGRAMNET-52025|Visio to PDF - ArgumentOutOfRangeException occurs|Insekt|
 
 
 

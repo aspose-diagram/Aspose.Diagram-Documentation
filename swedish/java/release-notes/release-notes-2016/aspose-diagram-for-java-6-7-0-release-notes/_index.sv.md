@@ -14,7 +14,7 @@ url: /sv/java/aspose-diagram-for-java-6-7-0-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50342|Lägg till stöd för att detektera filformatet med hjälp av ett strömobjekt.|Ny funktion|
-|DIAGRAMJAVA-50015|VSD till PDF-konvertering - bilden med röda korset visas istället för formen.|Förbättring|
+|DIAGRAMJAVA-50015|VSD till PDF konvertering - bilden med röda korset visas istället för formen.|Förbättring|
 |DIAGRAMJAVA-50341|Anslutningarnas ändpunkter är inte anslutna när du sparar i VDX-formatet.|Förbättring|
 |DIAGRAMJAVA-50343|Ladda och spara rutin för en VSDM diagram visar ett kryss i stället för knappen.|Förbättring|
 |DIAGRAMJAVA-50344|Det går inte att ställa in en händelsecell med formen i VSDM.|Förbättring|

@@ -13,4 +13,4 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|Rendering del colore errato delle forme durante la conversione di un VSD in PNG|Aumento|
+|DIAGRAMJAVA-50352|Rendering incorrect color of shapes on converting a VSD to PNG|Aumento|

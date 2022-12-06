@@ -7,8 +7,8 @@ description: Questa sezione spiega come aggiungere il master dallo stencil
 ---
 ## **Possibili scenari di utilizzo**
 
- Aspose.Diagram per Python tramite Java consente di aggiungere il master dallo stencil.
-Aspose.Diagram per Python tramite Java API ha la classe Master che rappresenta un modello di forma di disegno Visio.
+Aspose.Diagram for Python via Java allows you to add master from stencil. 
+Aspose.Diagram for Python via Java API has the Master class that represents a Visio drawing shape template.
 Usando il metodo**addMaster** nella classe Diagram per aggiungere master dallo stencil.
 
 ## **Codice di esempio**

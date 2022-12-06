@@ -4,7 +4,7 @@ linktitle: Teknik Destek
 type: docs
 weight: 60
 url: /tr/net/technical-support/
-description: Aspose.Diagram, Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürme sağlar. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
+description: Aspose.Diagram, Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürür. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM yer alır.
 ---
 Aspose tüm ürünleri için sınırsız ücretsiz teknik destek vermektedir. Destek, değerlendirme de dahil olmak üzere tüm kullanıcılar tarafından kullanılabilir.
 

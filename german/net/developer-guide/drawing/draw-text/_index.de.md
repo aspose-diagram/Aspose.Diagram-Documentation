@@ -11,21 +11,21 @@ Aspose.Diagram for .NET API ermöglicht es Entwicklern, eine Textform auf einer 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsVSDX.cs" >}}
 
 ## **Zeichnen Sie Text in SVG**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, einen Text in die Seite zu zeichnen und im SVG-Format zu speichern. Das folgende Codebeispiel zeigt, wie ein Text in einer Visio-Zeichnung gezeichnet und im SVG-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a text in the page and save as SVG format. The code example below shows how to draw a text in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsSVG.cs" >}}
 
-## **Text in PDF zeichnen**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, einen Text in die Seite zu zeichnen und im PDF-Format zu speichern. Das folgende Codebeispiel zeigt, wie Sie einen Text in einer Visio-Zeichnung zeichnen und im PDF-Format speichern.
+## **Zeichnen Sie Text in PDF**
+Aspose.Diagram for .NET API allows developers to draw a text in the page and save as PDF format. The code example below shows how to draw a text in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsPDF.cs" >}}
 
 ## **Zeichnen Sie Text in PNG**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, einen Text auf der Seite zu zeichnen und im PNG-Format zu speichern. Das folgende Codebeispiel zeigt, wie Sie einen Text in einer Visio-Zeichnung zeichnen und im PNG-Format speichern.
+Aspose.Diagram for .NET API allows developers to draw a text in the page and save as PNG format. The code example below shows how to draw a text in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsPNG.cs" >}}
 
 ## **Zeichnen Sie Text in HTML**
-Aspose.Diagram for .NET API ermöglicht es Entwicklern, einen Text in die Seite zu zeichnen und im HTML-Format zu speichern. Das folgende Codebeispiel zeigt, wie ein Text in einer Visio-Zeichnung gezeichnet und im HTML-Format gespeichert wird.
+Aspose.Diagram for .NET API allows developers to draw a text in the page and save as HTML format. The code example below shows how to draw a text in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddTextToShape-AsHTML.cs" >}}

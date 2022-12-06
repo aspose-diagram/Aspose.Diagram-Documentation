@@ -15,14 +15,14 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |:- |:- |:- |
 |DIAGRAMNET-51714|La propriété AutoFitPageToDrawingContent ne fonctionne pas comme prévu|Renforcement|
 |DIAGRAMNET-51719|Prise en charge de la licence Conholdate Total|Renforcement|
-|DIAGRAMNET-51695|Visio au format PDF - Certaines formes ne sont pas correctes|Punaise|
-|DIAGRAMNET-51696|Visio au format PDF - Certaines formes ne sont pas correctes|Punaise|
-|DIAGRAMNET-51698|Visio au format PDF - Certaines formes ne sont pas correctes|Punaise|
-|DIAGRAMNET-51701|Visio au format PDF - Certaines formes/lignes ne sont pas correctes|Punaise|
-|DIAGRAMNET-51703|Visio au format PDF - Certaines formes/lignes ne sont pas correctes|Punaise|
+|DIAGRAMNET-51695|Visio to PDF - Some shapes are not correct|Punaise|
+|DIAGRAMNET-51696|Visio to PDF - Some shapes are not correct|Punaise|
+|DIAGRAMNET-51698|Visio to PDF - Some shapes are not correct|Punaise|
+|DIAGRAMNET-51701|Visio to PDF - Some shapes/lines are not correct|Punaise|
+|DIAGRAMNET-51703|Visio to PDF - Some shapes/lines are not correct|Punaise|
 |DIAGRAMNET-51715|Lors de la suppression des formes et des styles principaux inutilisés, seule l'image a un problème|Punaise|
 |DIAGRAMNET-51716|La méthode Shape.ToImage lance une exception NullReferenceException|Punaise|
 |DIAGRAMNET-51717|Chargement du fichier VSD (Visio 2003-2010) certaines valeurs utilisateur de formes sont inaccessibles|Punaise|
-|DIAGRAMNET-51720|Lors de la sauvegarde du fichier '. VSDX' fichier à '. Format SVG'. Une icône supplémentaire est affichée.|Punaise|
+|DIAGRAMNET-51720|While saving the ‘. VSDX’ file to ‘. SVG’ format. Some extra icon is shown.|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Aucun.

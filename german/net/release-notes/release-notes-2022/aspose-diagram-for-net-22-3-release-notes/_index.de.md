@@ -19,9 +19,9 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 22.3.
 |DIAGRAMNET-52661|In der Dokumentation ist kein Beispiel für das Hinzufügen eines Wasserzeichens zu visio angegeben|Insekt|
 |DIAGRAMNET-52663|Erkennen Sie benutzerdefinierte Linienstile für Formen mit Null-Master|Insekt|
 |DIAGRAMNET-52666|Visio zu PDF-Konvertierung - Problem mit Datengrafiken [Forts.]|Insekt|
-|DIAGRAMNET-52684|Ausnahme beim Export nach HTML|Insekt|
-|DIAGRAMNET-52685|Ausnahme beim Export nach HTML|Insekt|
-|DIAGRAMNET-52692|Diagram.Speichern in MemoryStream im PDF-Format löst eine System.NullReferenceException aus|Insekt|
+|DIAGRAMNET-52684|Exception when export to HTML|Insekt|
+|DIAGRAMNET-52685|Exception when export to HTML|Insekt|
+|DIAGRAMNET-52692|Diagram.Save to MemoryStream using PDF Format Throws a System.NullReferenceException|Insekt|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden das Aspose.Diagram Support-Forum.

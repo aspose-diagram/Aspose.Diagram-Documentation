@@ -1,5 +1,5 @@
 ﻿---
-title: Java aracılığıyla Python için Aspose.Diagram Sınırlamalar ve API Farklar
+title: Python via Java için Aspose.Diagram Sınırlamalar ve API Farklar
 type: docs
 weight: 20
 url: /tr/java/aspose-diagram-for-python-via-java-limitations-and-api-differences/
@@ -28,7 +28,7 @@ public class Test1 {
 
 
 
-**Java üzerinden Python için Aspose.Diagram**
+**Python via Java için Aspose.Diagram**
 
 {{< highlight "python" >}}
 

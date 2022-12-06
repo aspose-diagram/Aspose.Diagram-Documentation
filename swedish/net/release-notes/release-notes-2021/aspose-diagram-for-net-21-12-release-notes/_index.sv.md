@@ -15,7 +15,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |:- |:- |:- |
 |DIAGRAMNET-52408|problem när vi använder EmfRederSetting EmfPlusPrefer|Förbättring|
 |DIAGRAMNET-52438|SaveForegroundPagesEndast för utskrift|Förbättring|
-|DIAGRAMNET-52450|Visio till SVG - Sparar rasterbild separat|Förbättring|
+|DIAGRAMNET-52450|Visio till SVG - Spara rasterbild separat|Förbättring|
 |DIAGRAMNET-51171|Delvis återgivning av formerna när du sparar ritning i PDF-format|Insekt|
 |DIAGRAMNET-51390|Det inbäddade objektet har inte ersatts korrekt|Insekt|
 |DIAGRAMNET-51800|Visio till SVG - Bakgrundsbild saknas (PowerPoint läggs till i VISIO)|Insekt|

@@ -14,34 +14,34 @@ Cette page contient des informations pour Aspose.Diagram for .NET 20.4.
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMNET-51454|VSD en JPG - rendu incorrect du texte vertical|Renforcement|
-|DIAGRAMNET-51455|VSD en TIFF - rendu incorrect du texte vertical|Renforcement|
-|DIAGRAMNET-51456|VSD en PDF - rendu incorrect du texte vertical|Renforcement|
+|DIAGRAMNET-51455|VSD to TIFF - incorrect rendering of the vertical text|Renforcement|
+|DIAGRAMNET-51456|VSD to PDF - incorrect rendering of the vertical text|Renforcement|
 |DIAGRAMNET-51781|Mauvaise mise en page après la conversion Visio VSD à VSDX|Renforcement|
 |DIAGRAMNET-51782|Différence après conversion Visio vsd->vsdx|Renforcement|
-|DIAGRAMNET-50087|VSD en conversion HTML, le retour à la ligne ne fonctionne pas dans la colonne|Punaise|
-|DIAGRAMNET-50088|VSD en conversion PDF, le retour à la ligne ne fonctionne pas dans la colonne|Punaise|
-|DIAGRAMNET-50338|VSDX en conversion PDF, problème d'alignement du texte|Punaise|
-|DIAGRAMNET-50339|VSDX à la conversion HTML, problème avec les alignements de texte|Punaise|
-|DIAGRAMNET-50534|VSD en conversion PDF, les problèmes d'alignement des éléments de texte|Punaise|
-|DIAGRAMNET-50791|Les numéros de texte sont déplacés lors de la conversion d'un VSD en PDF|Punaise|
-|DIAGRAMNET-50792|Les numéros de texte sont déplacés lors de la conversion d'un VSD en HTML|Punaise|
-|DIAGRAMNET-51241|Rotation des caractères du texte lors de la conversion d'un VSD en PDF|Punaise|
-|DIAGRAMNET-51792|VSD en SVG - Une partie du fichier VSD est mal convertie|Punaise|
-|DIAGRAMNET-51795|Visio vers HTML - Lorsque les formes ont des options de paragraphe, le HTML est mal rendu|Punaise|
-|DIAGRAMNET-51797|VSDX à PNG - Une exception se produit|Punaise|
-|DIAGRAMNET-51798|Visio à SVG - Icône manquante|Punaise|
-|DIAGRAMNET-51799|Visio à SVG - Case à cocher affichée avec l'icône Différent|Punaise|
-|DIAGRAMNET-51801-|Visio en HTML - La couleur du texte n'est pas bien rendue en HTML|Punaise|
-|DIAGRAMNET-51802-|VISIO vers PNG - la sortie affiche des données différentes|Punaise|
-|DIAGRAMNET-51803|Visio en PNG - l'alignement du numéro sort de la toile.|Punaise|
-|DIAGRAMNET-51804|Visio vers SVG - Alignement des numéros hors du canevas|Punaise|
-|DIAGRAMNET-51805|Visio vers SVG - Titre recouvert d'un symbole "-" avant|Punaise|
-|DIAGRAMNET-51806|Visio vers SVG - Un bloc noir au milieu de l'image|Punaise|
-|DIAGRAMNET-51807|Visio à SVG - Pas de case à cocher|Punaise|
-|DIAGRAMNET-51808|Visio à SVG - Icônes manquantes|Punaise|
-|DIAGRAMNET-51809|<p>Visio en SVG - Numéro changé au milieu. Ce qui est censé être mm.aaaa. mais ça donne un</p><p>nombre arbitraire incrémenté de 30</p>|Punaise|
-|DIAGRAMNET-51810|Visio vers HTML - Une forme est manquante dans le HTML|Punaise|
+|DIAGRAMNET-50087|VSD to HTML conversion, word wrap is not working in the column|Punaise|
+|DIAGRAMNET-50088|VSD to PDF conversion, word wrap is not working in the column|Punaise|
+|DIAGRAMNET-50338|VSDX to PDF conversion, problem with the text alignments|Punaise|
+|DIAGRAMNET-50339|VSDX to HTML conversion, problem with the text alignments|Punaise|
+|DIAGRAMNET-50534|VSD to PDF conversion, the text items alignment problems|Punaise|
+|DIAGRAMNET-50791|The text numbers are displaced on converting a VSD to PDF|Punaise|
+|DIAGRAMNET-50792|The text numbers are displaced on converting a VSD to HTML|Punaise|
+|DIAGRAMNET-51241|Rotated characters of the text when converting a VSD to PDF|Punaise|
+|DIAGRAMNET-51792|VSD to SVG -Part of VSD file is wrongly converted|Punaise|
+|DIAGRAMNET-51795|Visio to HTML - When shapes have Paragraph options, HTML is bad rendered|Punaise|
+|DIAGRAMNET-51797|VSDX to PNG - An exception occurs|Punaise|
+|DIAGRAMNET-51798|Visio to SVG - Icon Missing|Punaise|
+|DIAGRAMNET-51799|Visio to SVG - Checkbox shown with Different icon|Punaise|
+|DIAGRAMNET-51801-|Visio to HTML - Text color is not well rendered in HTML|Punaise|
+|DIAGRAMNET-51802-|VISIO to PNG - output is showing different data|Punaise|
+|DIAGRAMNET-51803|Visio to PNG - the alignment of the number is getting out of the canvas.|Punaise|
+|DIAGRAMNET-51804|Visio to SVG - Number alignment out of the canvas|Punaise|
+|DIAGRAMNET-51805|Visio to SVG - Heading overlapped by an “-” symbol before it|Punaise|
+|DIAGRAMNET-51806|Visio to SVG - A black block in the middle of the picture|Punaise|
+|DIAGRAMNET-51807|Visio to SVG - No checkbox|Punaise|
+|DIAGRAMNET-51808|Visio to SVG - Icons missing|Punaise|
+|DIAGRAMNET-51809|<p>Visio to SVG - Number changed in the middle. Which is supposed to be mm.yyyy. but it gives an </p><p>nombre arbitraire incrémenté de 30</p>|Punaise|
+|DIAGRAMNET-51810|Visio to HTML - A shape is missing in the HTML|Punaise|
 |DIAGRAMNET-51811|Couleur de fond incorrecte des formes dans VSDX|Punaise|
-|DIAGRAMNET-51812|` `Visio vers HTML - problèmes d'image et de liens dans la sortie|Punaise|
-|DIAGRAMNET-51817|la sortie SVG ne contient pas toutes les propriétés de VSDX|Punaise|
+|DIAGRAMNET-51812|` `Visio to HTML - image and links issues in output|Punaise|
+|DIAGRAMNET-51817|output SVG does not contain all properties of VSDX|Punaise|
 

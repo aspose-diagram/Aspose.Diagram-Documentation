@@ -14,11 +14,11 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for .NET 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-51962|Inbäddade OLE-objekt lagras inte korrekt i Shape-egenskaper|Förbättring|
-|DIAGRAMNET-51976|Visio till HTML - Hyperlänken ändrar sin position i utdata-HTML|Förbättring|
-|DIAGRAMNET-50535|VSD till PDF-konvertering, textrader har problem med avstånd|Insekt|
+|DIAGRAMNET-51976|Visio till HTML - Hyperlänken ändrar sin position i utgången HTML|Förbättring|
+|DIAGRAMNET-50535|VSD till PDF konvertering, textrader har problem med mellanrum|Insekt|
 |DIAGRAMNET-50961|Tabellens övre kantlinje saknas vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-50993|Plus, negativa tecken och dollartecken är inte korrekt anpassade vid konvertering av en VSDX till PNG|Insekt|
 |DIAGRAMNET-51968|Convet Visio till PNG den konverterade bilden ser inte ut som Visio|Insekt|
 |DIAGRAMNET-51969|Convet Visio till PNG den konverterade bilden ser inte ut som Visio|Insekt|
-|DIAGRAMNET-51972|Formar förlorad layout i HTML|Insekt|
+|DIAGRAMNET-51972|Former förlorade layouten i HTML|Insekt|
 |DIAGRAMNET-51973|Text i rutor saknas vid konvertering av VSDX till PDF|Insekt|

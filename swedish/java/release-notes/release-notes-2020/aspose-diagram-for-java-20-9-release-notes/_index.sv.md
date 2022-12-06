@@ -13,4 +13,4 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|Återger felaktig färg på former vid konvertering av en VSD till PNG|Förbättring|
+|DIAGRAMJAVA-50352|Återge felaktig färg på former vid konvertering av en VSD till PNG|Förbättring|

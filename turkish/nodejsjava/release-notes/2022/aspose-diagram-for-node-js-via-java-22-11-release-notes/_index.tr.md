@@ -1,12 +1,12 @@
 ﻿---
-title: Java 22.11 Sürüm Notları aracılığıyla Node.js için Aspose.Diagram
+title: Node.js için Aspose.Diagram via Java 22.11 Sürüm Notları
 type: docs
 weight: 17
 url: /tr/nodejsjava/aspose-diagram-for-node-js-via-java-22-11-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 22.11 üzerinden Node.js için Aspose.Diagram sürüm notları bilgilerini içerir.
+Bu sayfa, Node.js via Java 22.11 için Aspose.Diagram için sürüm notları bilgilerini içerir.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##

@@ -17,11 +17,11 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.8](http
 |DIAGRAMNET-51083|Lägg till stöd för att rita Spline|Förbättring|
 |DIAGRAMNET-51676|Visio till HTML - utdata innehåller filnamnet|Förbättring|
 |DIAGRAMNET-50263|Det går inte att ange plats för anslutningstext som formler|Insekt|
-|DIAGRAMNET-50284|VTX till HTML-konvertering, formernas fyllnadsfärg bevaras inte|Insekt|
-|DIAGRAMNET-50432|VDX till PDF-konvertering, Diagram.setFontDirs-metoden använder endast första teckensnittet över hela diagram|Insekt|
-|DIAGRAMNET-50463|VSDX till PDF-konvertering, saknade eller ofullständiga formrendering|Insekt|
+|DIAGRAMNET-50284|VTX till HTML konvertering, formers fyllnadsfärg bevaras inte|Insekt|
+|DIAGRAMNET-50432|VDX till PDF konvertering, Diagram.setFontDirs-metoden använder endast första teckensnitt över hela diagram|Insekt|
+|DIAGRAMNET-50463|VSDX till PDF konvertering, saknade eller ofullständiga formrendering|Insekt|
 |DIAGRAMNET-51033|Nätverksformerna bevaras inte vid konvertering av en VSDX till PDF|Insekt|
-|DIAGRAMNET-51303|VSDX till PDF - färgen på text på anslutande linjer ändras|Insekt|
+|DIAGRAMNET-51303|VSDX till PDF - färgen på texten på anslutande linjer ändras|Insekt|
 |DIAGRAMNET-51663|Ett ohanterat undantag inträffar vid konvertering av VSD till VSDX|Insekt|
 |DIAGRAMNET-51664|Filen blir skadad efter att ett oanvänt tema tagits bort|Insekt|
 |DIAGRAMNET-51665|Bilder visas som X efter att oanvända teman har tagits bort|Insekt|
@@ -29,8 +29,8 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.8](http
 |DIAGRAMNET-51668|VISIO till JPG - utdatabilden är inte i rätt format|Insekt|
 |DIAGRAMNET-51671|När du tar bort oanvända masterformer och stilar är det bara bilden som har ett problem|Insekt|
 |DIAGRAMNET-51672|Förlorade bilder vid laddning och spara|Insekt|
-|DIAGRAMNET-51677|Visio till HTML - Länk i genererad HTML fungerar inte|Insekt|
-|DIAGRAMNET-51678|Visio till HTML - Datumformatet är felaktigt när du sparar som HTML|Insekt|
+|DIAGRAMNET-51677|Visio till HTML - Länken i genererad HTML fungerar inte|Insekt|
+|DIAGRAMNET-51678|Visio till HTML - Fel datumformat när du sparar som HTML|Insekt|
 |DIAGRAMNET-51679|Visio till PDF - Flera formateringsfel i PDF|Insekt|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for .NET. Om du har frågor om någon ändring i listan, vänligen ta upp dem i de[Aspose.Diagram supportforum](https://forum.aspose.com/c/diagram/17).

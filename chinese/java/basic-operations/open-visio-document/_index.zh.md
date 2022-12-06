@@ -12,7 +12,7 @@ Aspose.Diagram API 支持从头开始创建新的 Visio 图表，然后以任何
 使用 Aspose.Diagram API，开发者可以加载所有支持的 Visio 文件格式。 Diagram 类的可用构造函数允许这样做，并且它们接受有效的文件路径字符串或源 Visio 文件的文件流。
 
 支持的可读文件格式如下：
-**VSDX、VSD、VSDM、VSS、VSSM、VSSX、VTX、VDX、VDW、VST、VSTX、VSTM 和 VSX**
+**VSDX, VSD, VSDM, VSS, VSSM, VSSX, VTX, VDX, VDW, VST, VSTX, VSTM and VSX**
 
 diagram 类的构造函数还提供了一个可选参数，用于定义 LoadFileFormat 或 LoadOptions。它是开发者可以传递给 Aspose.Diagram API 的预加载信息。我们建议传递现实信息以获得理想的性能。
 #### **阅读 Diagram 编程示例**

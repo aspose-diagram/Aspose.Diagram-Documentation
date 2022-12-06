@@ -10,13 +10,13 @@ Aspose.Diagram ile dosyaları açmak, örneğin verileri almak veya geliştirme 
 
 {{% /alert %}}
 
-## **Yol Yoluyla Dosya Açma**
+## **Dosya Açma via Yol**
 
  Geliştiriciler, yerel bilgisayardaki dosya yolunu kullanarak bir Microsoft Diagram dosyasını,**Diagram**sınıf oluşturucu Yapıcıdaki yolu basit bir şekilde iletin*sicim*. Aspose.Diagram, dosya biçimi türünü otomatik olarak algılar.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaPath.py" >}}
 
-## **Akış Yoluyla Dosya Açma**
+## **Dosya Açma via Akış**
 
  Bir Visio dosyasını akış olarak açmak da kolaydır. Bunu yapmak için, yapıcının aşırı yüklenmiş bir sürümünü kullanın.*Tampon Akışı*dosyayı içeren nesne.
 

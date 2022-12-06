@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram para Python a través de .NET 22.8 Notas de la versión
+title: Aspose.Diagram for Python via .NET 22.8 Release Notes
 type: docs
 weight: 19
 url: /es/python-net/aspose-diagram-for-python-via-net-22-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para Aspose.Diagram para Python a través de .NET 22.8.
+This page contains release notes for Aspose.Diagram for Python via .NET 22.8.
 
 {{% /alert %}} 
 
@@ -15,7 +15,7 @@ Esta página contiene notas de la versión para Aspose.Diagram para Python a tra
 |DIAGRAMNET-50393|Agregar puntos a la forma del conector dinámico|Mejora|
 |DIAGRAMNET-51744|La forma no se actualiza según Visio/Interop después de agregar texto|Mejora|
 |DIAGRAMNET-52921|Aplicación: guardando vsdx en PDF perdió una imagen en la esquina|Insecto|
-|DIAGRAMNET-52925|Problema en la conversión de HTML|Insecto|
+|DIAGRAMNET-52925|Issue in HTML Conversion|Insecto|
 |DIAGRAMNET-52928|Aplicación: la carga vsd arroja una excepción|Insecto|
 |DIAGRAMNET-52938|Aplicación: guarde vsd a vsdx atascado|Insecto|
 |DIAGRAMNET-52944|Guardar en Diagram en svg - ancho de atributo: un valor negativo no es válido. ("-121752")|Insecto|

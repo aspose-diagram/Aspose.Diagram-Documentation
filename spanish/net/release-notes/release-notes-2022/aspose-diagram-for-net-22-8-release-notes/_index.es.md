@@ -16,7 +16,7 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |DIAGRAMNET-50393|Agregar puntos a la forma del conector dinámico|Mejora|
 |DIAGRAMNET-51744|La forma no se actualiza según Visio/Interop después de agregar texto|Mejora|
 |DIAGRAMNET-52921|Aplicación: guardando vsdx en PDF perdió una imagen en la esquina|Insecto|
-|DIAGRAMNET-52925|Problema en la conversión de HTML|Insecto|
+|DIAGRAMNET-52925|Issue in HTML Conversion|Insecto|
 |DIAGRAMNET-52928|Aplicación: la carga vsd arroja una excepción|Insecto|
 |DIAGRAMNET-52938|Aplicación: guarde vsd a vsdx atascado|Insecto|
 |DIAGRAMNET-52944|Guardar en Diagram en svg - ancho de atributo: un valor negativo no es válido. ("-121752")|Insecto|

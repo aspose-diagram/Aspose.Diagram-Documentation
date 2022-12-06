@@ -13,52 +13,52 @@ url: /it/net/aspose-diagram-for-net-6-7-0-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-50136|Conversione da VSD a PDF: al posto della forma appare l'immagine della croce rossa.|Aumento|
-|DIAGRAMNET-50324|Conversione da VSD a HTML: il colore di sfondo della forma non viene mantenuto.|Aumento|
-|DIAGRAMNET-50500|Conversione da VSD a PDF - il colore delle forme non viene conservato.|Aumento|
-|DIAGRAMNET-50536|Conversione da VSD a PDF: gli elementi della tabella non vengono conservati.|Aumento|
+|DIAGRAMNET-50136|VSD to PDF conversion - the red cross image appears instead of the shape.|Aumento|
+|DIAGRAMNET-50324|VSD to HTML conversion - the background color of the shape is not preserved.|Aumento|
+|DIAGRAMNET-50500|VSD to PDF conversion - the Color of the shapes are not preserved.|Aumento|
+|DIAGRAMNET-50536|VSD to PDF conversion - the table items are not preserved.|Aumento|
 |DIAGRAMNET-50680|Non ridimensiona automaticamente una forma sul disegno.|Aumento|
 |DIAGRAMNET-50681|Trascina e rilascia le forme Visio di grandi dimensioni.|Aumento|
 |DIAGRAMNET-50937|La routine di caricamento e salvataggio di un VSDM diagram mostra un segno di croce al posto del pulsante.|Aumento|
 |DIAGRAMNET-50939|Impossibile impostare una cella evento della forma in VSDM.|Aumento|
-|DIAGRAMNET-50219|Conversione da VSD a PDF - la trasparenza del logo non viene preservata.|Insetto|
-|DIAGRAMNET-50363|Conversione da VSD a PDF - interruzioni di riga errate nel testo.|Insetto|
+|DIAGRAMNET-50219|VSD to PDF conversion - the logo transparency is not preserved.|Insetto|
+|DIAGRAMNET-50363|VSD to PDF conversion - incorrect line breaks in text.|Insetto|
 |DIAGRAMNET-50878|Lettura spazzatura della proprietà angle in un VSDX diagram.|Insetto|
 |DIAGRAMNET-50879|Letture errate dei nodi in arrivo in un VSD diagram.|Insetto|
-|DIAGRAMNET-50884|Manca una tabella durante la conversione di un VSDX in PNG - I.|Insetto|
-|DIAGRAMNET-50885|Manca una tabella durante la conversione di un VSDX in PNG - II.|Insetto|
-|DIAGRAMNET-50886|Manca una tabella durante la conversione di un VSDX in PNG - III.|Insetto|
-|DIAGRAMNET-50887|Manca una tabella nella conversione di un VSDX in PNG - IV.|Insetto|
-|DIAGRAMNET-50888|Manca una tabella durante la conversione di un VSDX in PNG - V.|Insetto|
-|DIAGRAMNET-50890|Manca una tabella durante la conversione di un VSDX in PNG - VI.|Insetto|
-|DIAGRAMNET-50891|Manca una tabella nella conversione di un VSDX in PNG - VII.|Insetto|
-|DIAGRAMNET-50892|Manca una tabella nella conversione di un VSDX in PNG - VIII.|Insetto|
-|DIAGRAMNET-50893|Manca una tabella durante la conversione di un VSDX in PNG - IX.|Insetto|
-|DIAGRAMNET-50896|Manca una tabella durante la conversione di un VSDX in PNG - X.|Insetto|
-|DIAGRAMNET-50898|Manca una tabella durante la conversione di un VSDX in PNG - XI.|Insetto|
-|DIAGRAMNET-50900|Manca una tabella nella conversione di un VSDX in PNG - XII.|Insetto|
-|DIAGRAMNET-50901|Manca una tabella nella conversione di un VSDX in PNG - XIII.|Insetto|
-|DIAGRAMNET-50902|Manca una tabella durante la conversione di un VSDX in PNG - XIV.|Insetto|
-|DIAGRAMNET-50905|Manca una tabella durante la conversione di un VSDX in PNG - XV.|Insetto|
-|DIAGRAMNET-50907|Manca una tabella nella conversione di un VSDX in PNG - XVI.|Insetto|
-|DIAGRAMNET-50908|Manca una tabella nella conversione di un VSDX in PNG - XVII.|Insetto|
-|DIAGRAMNET-50910|Manca una tabella nella conversione di un VSDX in PNG - XVIII.|Insetto|
-|DIAGRAMNET-50911|Manca una tabella durante la conversione di un VSDX in PNG - XIX.|Insetto|
-|DIAGRAMNET-50913|Manca una tabella durante la conversione di un VSDX in PNG - XX.|Insetto|
-|DIAGRAMNET-50914|Manca una tabella durante la conversione di un VSDX in PNG - XXI.|Insetto|
-|DIAGRAMNET-50915|Manca una tabella durante la conversione di un VSDX in PNG - XXII.|Insetto|
-|DIAGRAMNET-50916|Manca una tabella nella conversione di un VSDX in PNG - XXIII.|Insetto|
-|DIAGRAMNET-50894|Mancano le tabelle durante la conversione di un VSDX in PNG - I.|Insetto|
-|DIAGRAMNET-50895|Mancano le tabelle durante la conversione di un VSDX in PNG - II.|Insetto|
-|DIAGRAMNET-50897|Mancano le tabelle durante la conversione di un VSDX in PNG - III.|Insetto|
-|DIAGRAMNET-50899|Mancano tabelle nella conversione di un VSDX in PNG - IV.|Insetto|
-|DIAGRAMNET-50903|Le tabelle mancano durante la conversione di un VSDX in PNG - V.|Insetto|
-|DIAGRAMNET-50904|Le tabelle mancano durante la conversione di un VSDX in PNG - VI.|Insetto|
-|DIAGRAMNET-50906|Mancano tabelle nella conversione di un VSDX in PNG - VII.|Insetto|
-|DIAGRAMNET-50912|Mancano tabelle nella conversione di un VSDX in PNG - VIII.|Insetto|
-|DIAGRAMNET-50909|Le icone vengono modificate durante la conversione di un VSDX in PNG - XXV.|Insetto|
-|DIAGRAMNET-50923|NullReferenceException si è verificata durante il salvataggio di un VSD in PDF.|Insetto|
-|DIAGRAMNET-50928|Il modello di colore sfumato di una forma viene modificato durante la conversione di un VSD in PNG.|Insetto|
+|DIAGRAMNET-50884|A table is missing on converting a VSDX to PNG - I.|Insetto|
+|DIAGRAMNET-50885|A table is missing on converting a VSDX to PNG - II.|Insetto|
+|DIAGRAMNET-50886|A table is missing on converting a VSDX to PNG - III.|Insetto|
+|DIAGRAMNET-50887|A table is missing on converting a VSDX to PNG - IV.|Insetto|
+|DIAGRAMNET-50888|A table is missing on converting a VSDX to PNG - V.|Insetto|
+|DIAGRAMNET-50890|A table is missing on converting a VSDX to PNG - VI.|Insetto|
+|DIAGRAMNET-50891|A table is missing on converting a VSDX to PNG - VII.|Insetto|
+|DIAGRAMNET-50892|A table is missing on converting a VSDX to PNG - VIII.|Insetto|
+|DIAGRAMNET-50893|A table is missing on converting a VSDX to PNG - IX.|Insetto|
+|DIAGRAMNET-50896|A table is missing on converting a VSDX to PNG - X.|Insetto|
+|DIAGRAMNET-50898|A table is missing on converting a VSDX to PNG - XI.|Insetto|
+|DIAGRAMNET-50900|A table is missing on converting a VSDX to PNG - XII.|Insetto|
+|DIAGRAMNET-50901|A table is missing on converting a VSDX to PNG - XIII.|Insetto|
+|DIAGRAMNET-50902|A table is missing on converting a VSDX to PNG - XIV.|Insetto|
+|DIAGRAMNET-50905|A table is missing on converting a VSDX to PNG - XV.|Insetto|
+|DIAGRAMNET-50907|A table is missing on converting a VSDX to PNG - XVI.|Insetto|
+|DIAGRAMNET-50908|A table is missing on converting a VSDX to PNG - XVII.|Insetto|
+|DIAGRAMNET-50910|A table is missing on converting a VSDX to PNG - XVIII.|Insetto|
+|DIAGRAMNET-50911|A table is missing on converting a VSDX to PNG - XIX.|Insetto|
+|DIAGRAMNET-50913|A table is missing on converting a VSDX to PNG - XX.|Insetto|
+|DIAGRAMNET-50914|A table is missing on converting a VSDX to PNG - XXI.|Insetto|
+|DIAGRAMNET-50915|A table is missing on converting a VSDX to PNG - XXII.|Insetto|
+|DIAGRAMNET-50916|A table is missing on converting a VSDX to PNG - XXIII.|Insetto|
+|DIAGRAMNET-50894|Tables are missing on converting a VSDX to PNG - I.|Insetto|
+|DIAGRAMNET-50895|Tables are missing on converting a VSDX to PNG - II.|Insetto|
+|DIAGRAMNET-50897|Tables are missing on converting a VSDX to PNG - III.|Insetto|
+|DIAGRAMNET-50899|Tables are missing on converting a VSDX to PNG - IV.|Insetto|
+|DIAGRAMNET-50903|Tables are missing on converting a VSDX to PNG - V.|Insetto|
+|DIAGRAMNET-50904|Tables are missing on converting a VSDX to PNG - VI.|Insetto|
+|DIAGRAMNET-50906|Tables are missing on converting a VSDX to PNG - VII.|Insetto|
+|DIAGRAMNET-50912|Tables are missing on converting a VSDX to PNG - VIII.|Insetto|
+|DIAGRAMNET-50909|Icons are changed while converting a VSDX to PNG - XXV.|Insetto|
+|DIAGRAMNET-50923|NullReferenceException occurred while saving a VSD to PDF.|Insetto|
+|DIAGRAMNET-50928|The gradient color pattern of a shape is changed on converting a VSD to PNG.|Insetto|
 |DIAGRAMNET-50933|Gli endpoint dei connettori non sono connessi durante il salvataggio nel formato VDX.|Insetto|
 ### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Consulta l'elenco per eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. Se hai dubbi su qualsiasi modifica elencata, segnalala sul[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).

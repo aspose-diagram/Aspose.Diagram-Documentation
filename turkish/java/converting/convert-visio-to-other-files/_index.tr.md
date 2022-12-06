@@ -4,7 +4,7 @@ linktitle:  Visio'i diğer formatlara dönüştürün
 type: docs
 weight: 40
 url: /tr/java/convert-visio-to-other-files/
-description: Bu konu, Aspose.Diagram'in Visio'i SVG,XPS,XML,XAML biçimlerine dönüştürmeye nasıl izin verdiğini gösterir. VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM'i birkaç satır kodla SVG,XPS,XML,XAML'ye dönüştürün.
+description: Bu konu, Aspose.Diagram'in Visio'i SVG,XPS,XML,XAML biçimlerine dönüştürmeye nasıl izin verdiğini gösterir. VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM'i SVG,XPS,15,0761,XML'ye dönüştürün.
 ---
 ## **XML'e dışa aktarma**
  Bu makalede, bir Microsoft Visio diagram kullanarak XML'e nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
@@ -59,52 +59,52 @@ Aşağıdaki görüntü VTX çıktı dosyasını göstermektedir.
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/E6pUvGD.jpg)
 ### **XML Programlama Örneğine Aktarma**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
-## **XPS'e Aktarma**
- Bu makalede, bir Microsoft Visio diagram kullanarak XPS'ye nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **XPS'e aktarılıyor**
+ Bu makalede, bir Microsoft Visio diagram'in XPS kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  Kullan[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) diagram dosyalarını okumak için 'class' yapıcısı ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemi.
 
-Bu makaledeki kod parçacıkları aşağıdaki diagram'i girdi olarak alır. Diğer diagram formatlarını da (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX veya VSX) kullanabilirsiniz.
+Bu makaledeki kod parçacıkları aşağıdaki diagram'i girdi olarak alır. Diğer diagram formatlarını da kullanabilirsiniz (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX veya VSX).
 
 **Kaynak belge.**
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/P3gaA34.png)
 
-VSD diagram'i XPS'ye dışa aktarmak için:
+VSD diagram'i XPS'e dışa aktarmak için:
 
 1. Diagram sınıfının bir örneğini oluşturun.
-1. Diagram sınıfının Save yöntemini çağırın ve çıkış formatı olarak XPS'yi ayarlayın.
+1. Diagram sınıfının Save yöntemini çağırın ve çıkış formatı olarak XPS'i ayarlayın.
 
-Aşağıdaki görüntü çıktı XPS dosyasını göstermektedir.
+Aşağıdaki görüntü XPS çıktı dosyasını göstermektedir.
 
-**Çıktı XPS.**
+**Çıkış XPS.**
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/1ESRxSy.png)
 ### **XPS Programlama Örneğine Aktarma**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
-## **Diagram'i SVG'ye dışa aktarma**
-Bu makalede, bir Microsoft Visio diagram'in SVG'ye (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Diagram'i SVG'e dışa aktarma**
+ Bu makalede, bir Microsoft Visio diagram'in SVG'e (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  Kullan[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) diagram dosyalarını okumak için 'class' yapıcısı ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemi.
 
-VSD diagram'i SVG'ye aktarmak için aşağıdaki adımları gerçekleştirin:
+VSD diagram'i SVG'e aktarmak için aşağıdaki adımları gerçekleştirin:
 
 1. Diagram sınıfının bir örneğini oluşturun.
-1. Sınıfın Save yöntemini çağırın ve dışa aktarma formatı olarak SVG'yi ayarlayın.
-### **Diagram'i SVG Programlama Örneğine Aktarma**
-Kod örnekleri, diagram'in Java kullanılarak SVG'ye nasıl aktarılacağını gösterir.
+1. Sınıfın Save yöntemini çağırın ve dışa aktarma formatı olarak SVG'i ayarlayın.
+### **Diagram'i SVG'e Aktarma Programlama Örneği**
+Kod örnekleri, Java kullanarak bir diagram'in SVG'e nasıl aktarılacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
-## **Diagram'i XAML'ye dışa aktarma**
- Bu makalede, bir Microsoft Visio diagram'in XAML'ye (Genişletilebilir Uygulama İşaretleme Dili) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Diagram'i XAML'e dışa aktarma**
+Bu makalede, bir Microsoft Visio diagram'in XAML'e (Genişletilebilir Uygulama İşaretleme Dili) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  Kullan[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) diagram dosyalarını okumak için 'class' yapıcısı ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemi.
 
-Bir VSD diagram'i XAML'ye dışa aktarmak için:
+Bir VSD diagram'i XAML'e aktarmak için:
 
 1. Diagram sınıfının bir örneğini oluşturun.
-1. Sınıfın Save yöntemini çağırın ve XAML'yi dışa aktarma formatı olarak ayarlayın.
+1. Sınıfın Save yöntemini çağırın ve dışa aktarma formatı olarak XAML'i ayarlayın.
 ### **XAML Programlama Örneğine Aktarma**
-Kod örneği, diagram'in Java kullanılarak XAML'ye nasıl aktarılacağını gösterir.
+Kod örneği, Java kullanarak bir diagram'in XAML'e nasıl aktarılacağını gösterir.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
 

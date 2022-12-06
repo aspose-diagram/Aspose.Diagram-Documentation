@@ -19,15 +19,15 @@ url: /fr/net/aspose-diagram-for-net-16-12-0-release-notes/
 |DIAGRAMNET-51109|Amélioration pour définir les propriétés d'arrêt du dégradé.|Renforcement|
 |DIAGRAMNET-51073|Rendu incomplet de la forme du cercle lors de l'enregistrement dans VDX. - I|Punaise|
 |DIAGRAMNET-51077|Rendu incomplet de la forme du cercle lors de l'enregistrement dans VDX. - II|Punaise|
-|DIAGRAMNET-51098|VSD vers exportation PDF - l'espace blanc supplémentaire est généré sur le côté gauche du dessin.|Punaise|
-|DIAGRAMNET-51099|VSD vers l'exportation HTML - l'espace blanc supplémentaire est généré sur le côté gauche du dessin.|Punaise|
-|DIAGRAMNET-51100|VSD à l'exportation SVG - la couleur d'arrière-plan du conteneur devient noire.|Punaise|
+|DIAGRAMNET-51098|VSD to PDF export - the extra white space is generated on the left side of the drawing.|Punaise|
+|DIAGRAMNET-51099|VSD to HTML export - the extra white space is generated on the left side of the drawing.|Punaise|
+|DIAGRAMNET-51100|VSD to SVG export - the background color of container turns into black.|Punaise|
 |DIAGRAMNET-51101|Impossible de regrouper les formes une deuxième fois dans une page de dessin Visio.|Punaise|
 |DIAGRAMNET-51102|La forme du groupe devient invisible lors de l'ajout de formes circulaires dans un VSDM.|Punaise|
 |DIAGRAMNET-51103|La méthode Page.AddShape affiche une erreur non valide lors de l'ajout d'un connecteur dynamique.|Punaise|
-|DIAGRAMNET-51105|Il manque un excel intégré dans la conversion d'un VSD en PDF. - JE|Punaise|
-|DIAGRAMNET-51114|Il manque un excel intégré dans la conversion d'un VSD en PDF. -II|Punaise|
-|DIAGRAMNET-51117|Les éléments de texte dans les puces ne sont pas bien alignés lors de la conversion d'un VSD en PDF.|Punaise|
+|DIAGRAMNET-51105|Missing an embedded excel in converting a VSD to PDF. - I|Punaise|
+|DIAGRAMNET-51114|Missing an embedded excel in converting a VSD to PDF. -II|Punaise|
+|DIAGRAMNET-51117|The text items in the bullets are not aligned well on converting a VSD to PDF.|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Consultez la liste des modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée au Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).
 ### **Ajoute la méthode AddText dans la classe Page**

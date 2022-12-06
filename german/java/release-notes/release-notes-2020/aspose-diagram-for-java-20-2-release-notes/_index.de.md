@@ -13,8 +13,8 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.2.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50361|Die Vordergrundfarbe der Form wird beim Konvertieren einer VST in PNG nicht beibehalten|Erweiterung|
-|DIAGRAMJAVA-50504|VSD zu PDF - die Farbe der Linien wird geändert|Erweiterung|
+|DIAGRAMJAVA-50361|The shape foreground color is not being preserved on converting a VST to PNG|Erweiterung|
+|DIAGRAMJAVA-50504|VSD to PDF - the color of lines is changed|Erweiterung|
 ## ` `**Öffentliche API und rückwärtsinkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for Java vorgenommen wurden das Aspose.Diagram Support-Forum.
 ### **VergrößernSeite in ImageSaveOptions hinzugefügt**

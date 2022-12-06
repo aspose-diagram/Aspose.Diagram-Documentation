@@ -12,22 +12,22 @@ Aspose.Diagram for .NET API permet aux développeurs d'insérer une forme d'imag
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsVSDX.cs" >}}
 
-## **Insérer une image au format SVG**
-Aspose.Diagram for .NET API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format SVG.
+## **Insérer une image dans SVG**
+Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as SVG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsSVG.cs" >}}
 
-## **Insérer une image au format PNG**
-Aspose.Diagram for .NET API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format PNG.
+## **Insérer une image dans PNG**
+Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PNG format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPNG.cs" >}}
 
-## **Insérer une image dans le PDF**
-Aspose.Diagram for .NET API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format PDF.
+## **Insérer une image dans PDF**
+Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PDF format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsPDF.cs" >}}
 
-## **Insérer une image en HTML**
-Aspose.Diagram for .NET API permet aux développeurs d'insérer une forme d'image dans une page. L'exemple de code ci-dessous montre comment insérer une image dans un dessin Visio et l'enregistrer au format HTML.
+## **Insérer une image dans HTML**
+Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as HTML format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-AddImageToPage-AsHTML.cs" >}}

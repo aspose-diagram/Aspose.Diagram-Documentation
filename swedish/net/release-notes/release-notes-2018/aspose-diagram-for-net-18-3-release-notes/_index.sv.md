@@ -13,11 +13,11 @@ url: /sv/net/aspose-diagram-for-net-18-3-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMNET-50147|VSD till XPS-konvertering, de tomma sidorna skapas med röda korsbilder|Förbättring|
+|DIAGRAMNET-50147|VSD till XPS konvertering, de tomma sidorna skapas med röda korsbilder|Förbättring|
 |DIAGRAMNET-51431|Lägg till MoveTo-metoden för insamling av sidor|Förbättring|
-|DIAGRAMNET-50424  |VSDX till PDF-konvertering, ikonen ligger över texten|Insekt|
-|DIAGRAMNET-50459|VSDX till PDF-konvertering, formikonen är felplacerad från sin ursprungliga position|Insekt|
-|DIAGRAMNET-50460|VSDX till PDF-konvertering, formikonen är felplacerad från sin ursprungliga position|Insekt|
+|DIAGRAMNET-50424  |VSDX till PDF konvertering, ikonen ligger över texten|Insekt|
+|DIAGRAMNET-50459|VSDX till PDF konvertering, formikonen är felplacerad från sin ursprungliga position|Insekt|
+|DIAGRAMNET-50460|VSDX till PDF konvertering, formikonen är felplacerad från sin ursprungliga position|Insekt|
 |DIAGRAMNET-50674|Alla HTML-resurser sparas inte på den anpassade sökvägen|Insekt|
 |DIAGRAMNET-51403|VSD till bild - pilhuvudena är felplacerade|Insekt|
 |DIAGRAMNET-51427|Utdata VSDX - kontrollerna i Shapes fungerar inte|Insekt|

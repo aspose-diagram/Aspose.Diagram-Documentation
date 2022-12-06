@@ -10,7 +10,7 @@ url: /tr/java/licensing/
 Değerlendirme sürümü, aşağıdakiler dışında tüm özellikleri sağlar:
 
 - VSD dosyanızın sadece ilk sayfasının ilk on şeklini okuyabilirsiniz.
-- Dışa aktarılan görüntülerde ve PDF dosyalarında da değerlendirme filigranı göreceksiniz.
+- Exoprted resimlerde ve PDF dosyalarında da değerlendirme filigranı göreceksiniz.
 
  Aspose.Diagram'i değerlendirme kısıtlamaları olmadan denemek istiyorsanız, 30 günlük geçici bir lisans talep edin. Bakınız[Geçici Lisans nasıl alınır?](https://purchase.aspose.com/temporary-license) daha fazla bilgi için.
 ## **Bir Lisansın Uygulanması**

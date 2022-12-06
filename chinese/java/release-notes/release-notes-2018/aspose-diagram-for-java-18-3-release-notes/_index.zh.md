@@ -16,7 +16,7 @@ url: /zh/java/aspose-diagram-for-java-18-3-release-notes/
 |DIAGRAMJAVA-50592|添加对 NewValue 处理指令的支持|强化|
 |DIAGRAMJAVA-50150|无法访问形状 TabsCollection 对象|漏洞|
 |DIAGRAMJAVA-50588|输出 VSDX - 添加了一个大尺寸的形状|漏洞|
-|DIAGRAMJAVA-50593|VSDX 到 SVG - 不正确的文本和背景颜色|漏洞|
+|DIAGRAMJAVA-50593|VSDX to SVG - incorrect text and background colors|漏洞|
 |DIAGRAMJAVA-50595|Diagram保存VSDX文档时变成黑白|漏洞|
 ### **在 Page 类中添加 moveTo 成员**
 moveTo成员以目标页面索引为参数，移动页面在Visio绘图中的位置。

@@ -10,7 +10,7 @@ url: /it/java/licensing/
 La versione di valutazione fornisce tutte le funzionalità tranne le seguenti:
 
 - Puoi leggere solo le prime dieci forme della prima pagina del tuo file VSD.
-- Vedrai anche la filigrana di valutazione nelle immagini esportate e nei file PDF.
+- You will also see evaluation watermark in exoprted images and PDF files.
 
  Se vuoi provare Aspose.Diagram senza limiti di valutazione, richiedi una licenza temporanea di 30 giorni. Per favore riferisci a[Come ottenere una licenza temporanea?](https://purchase.aspose.com/temporary-license) per maggiori informazioni.
 ## **Applicazione di una licenza**

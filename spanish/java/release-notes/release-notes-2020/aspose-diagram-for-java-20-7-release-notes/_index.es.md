@@ -13,6 +13,6 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50697|VSDX a PNG: el fondo de una forma se invierte en la salida|Insecto|
+|DIAGRAMJAVA-50697|VSDX to PNG - Background of one shape is inverted in output|Insecto|
 |DIAGRAMJAVA-50698|Implemente el manejo de excepciones en caso de que el archivo Diagram esté dañado|Insecto|
 

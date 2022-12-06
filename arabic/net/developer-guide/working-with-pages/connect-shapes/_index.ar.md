@@ -8,7 +8,7 @@ description: يشرح هذا القسم كيفية توصيل شكلين بـ As
 ## **ربط الأشكال**
 يوضح هذا القسم كيفية توصيل شكلين باستخدام Aspose.Diagram for .NET.
 ### **ربط الأشكال**
- ال[ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) طريقة توصيل شكلين عبر موصل في[صفحة](http://www.aspose.com/api/net/diagram/aspose.diagram/page) صف دراسي.
+ ال[ConnectShapesViaConnector](https://reference.aspose.com/diagram/net/aspose.diagram.page/connectshapesviaconnector/methods/1) طريقة توصيل شكلين via موصل في[صفحة](http://www.aspose.com/api/net/diagram/aspose.diagram/page) صف دراسي.
 
 يوضح الكود أدناه كيفية:
 

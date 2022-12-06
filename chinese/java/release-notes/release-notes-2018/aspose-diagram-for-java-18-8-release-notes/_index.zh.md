@@ -14,7 +14,7 @@ url: /zh/java/aspose-diagram-for-java-18-8-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50611|支持使用 API 设置语言环境|强化|
-|DIAGRAMJAVA-50606|VSDX 到 SVG - 箭头渲染不正确|漏洞|
+|DIAGRAMJAVA-50606|VSDX to SVG - incorrect rendering of the arrows|漏洞|
 |DIAGRAMJAVA-50610|输出 VSDX 文件中连接器上文本的位置错误|漏洞|
 |DIAGRAMJAVA-50612|无法使用 Visio Viewer 2010 Professional 打开输出 VDX 文件|漏洞|
 ## **公共 API 和向后不兼容的更改**

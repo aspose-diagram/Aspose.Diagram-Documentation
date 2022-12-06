@@ -19,9 +19,9 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |DIAGRAMNET-52661|Aucun exemple d'ajout de filigrane à visio n'est donné dans la documentation|Punaise|
 |DIAGRAMNET-52663|Détecter les styles de ligne personnalisés pour la forme avec un maître nul|Punaise|
 |DIAGRAMNET-52666|Conversion Visio en Pdf - Problème avec les graphiques de données [Suite]|Punaise|
-|DIAGRAMNET-52684|Exception lors de l'exportation vers HTML|Punaise|
-|DIAGRAMNET-52685|Exception lors de l'exportation vers HTML|Punaise|
-|DIAGRAMNET-52692|Diagram.Save to MemoryStream en utilisant le format PDF lance une exception System.NullReferenceException|Punaise|
+|DIAGRAMNET-52684|Exception when export to HTML|Punaise|
+|DIAGRAMNET-52685|Exception when export to HTML|Punaise|
+|DIAGRAMNET-52692|Diagram.Save to MemoryStream using PDF Format Throws a System.NullReferenceException|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Diagram.

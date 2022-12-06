@@ -37,14 +37,14 @@ Aspose.Diagram for .NET API يسمح للمطورين بالوصول إلى أش
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ReplaceShapePicture-ReplaceShapePicture.cs" >}}
 ## **استيراد صورة نقطية كشكل Visio**
 Aspose.Diagram for .NET API يسمح الآن للمطورين باستيراد صورة نقطية كشكل Microsoft Visio.
-### **أدخل صورة BMP في Visio**
+### **أدخل BMP صورة في Visio**
 يوضح الرمز الموجود في العينات أدناه كيفية:
 
 1. قم بإنشاء diagram.
 1. احصل على Visio صفحة
 1. قم باستيراد صورة نقطية كشكل Visio
 1. احفظ diagram.
-#### **أدخل نموذجًا لبرمجة صورة BMP**
+#### **أدخل BMP عينة برمجة صورة**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
 ## **تحويل المساحة المحددة للصفحة Visio إلى صورة**
 باستخدام Aspose.Diagram for .NET API ، يمكن للمطورين تحديد منطقة بإحداثيات XY وعرضها وارتفاعها ، ثم تحويل هذه المنطقة إلى تنسيق صورة مدعوم.

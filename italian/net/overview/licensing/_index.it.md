@@ -15,7 +15,7 @@ La versione di valutazione di Aspose.Diagram (senza una licenza specificata) for
 La versione di valutazione fornisce tutte le funzionalità tranne le seguenti:
 
 - Puoi leggere solo le prime dieci forme della prima pagina di Visio diagram.
-- Vedrai anche la filigrana di valutazione nelle immagini esportate e nei file PDF.
+- You will also see evaluation watermark in exported images and PDF files.
 
 {{% alert color="primary" %}} 
 

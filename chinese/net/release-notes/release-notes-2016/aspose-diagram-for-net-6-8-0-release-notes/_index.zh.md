@@ -16,21 +16,21 @@ url: /zh/net/aspose-diagram-for-net-6-8-0-release-notes/
 |DIAGRAMNET-50946|在 Visio 页面中添加对插入 ActiveX 控件的支持。|新功能|
 |DIAGRAMNET-51003|添加支持以设置图层的颜色复选框。|新功能|
 |DIAGRAMNET-50026|VSDX 绘图中缺少这些形状。|漏洞|
-|DIAGRAMNET-50781|将 VSDX 保存为 PDF 时，表格的小图标丢失了。|漏洞|
+|DIAGRAMNET-50781|The small icons of the tables are missing on saving a VSDX to PDF.|漏洞|
 |DIAGRAMNET-50941|从 VSD 检索连接不正确。|漏洞|
-|DIAGRAMNET-50942|在 TIFF 中保存时设置了不正确的 DPI。|漏洞|
+|DIAGRAMNET-50942|An incorrect DPI is being set on saving in the TIFF.|漏洞|
 |DIAGRAMNET-50943|动态连接器的连接未保留在分组形状上。|漏洞|
-|DIAGRAMNET-50945|将 VDX 转换为 PDF 时，会在圆形周围添加一个额外的正方形。|漏洞|
+|DIAGRAMNET-50945|An extra square is added around the circle shape on converting a VDX to PDF.|漏洞|
 |DIAGRAMNET-50948|无法复制 VSDM 中的 Visio 页。|漏洞|
 |DIAGRAMNET-50950|无法设置 VSDX diagram 的页眉和页脚。|漏洞|
 |DIAGRAMNET-50951|Microsoft Visio 2013查看器不显示VSDX diagram。|漏洞|
-|DIAGRAMNET-50957|将 VSDX 转换为 PNG 时缺少表格。|漏洞|
+|DIAGRAMNET-50957|A table is missing on converting a VSDX to PNG.|漏洞|
 |DIAGRAMNET-50978|VSDM diagram 中的动态连接器呈现不完整。|漏洞|
 |DIAGRAMNET-50998|插入图片时出现空引用错误。|漏洞|
 |DIAGRAMNET-51001|从 VSD diagram 中检索连接器的反向。|漏洞|
-|DIAGRAMNET-51004|将 VSDX 转换为 PDF 时的文本对齐问题。|漏洞|
-|DIAGRAMNET-51005|将 VSDX 转换为 PDF 时的文本对齐和格式问题。|漏洞|
-|DIAGRAMNET-51006|将 VSDX 转换为 PDF 时未保留粗体文本格式。|漏洞|
+|DIAGRAMNET-51004|The text alignment problem on converting a VSDX to PDF.|漏洞|
+|DIAGRAMNET-51005|The text alignment and formatting problems on converting a VSDX to PDF.|漏洞|
+|DIAGRAMNET-51006|The bold text formatting is not being preserved on converting a VSDX to PDF.|漏洞|
 |DIAGRAMNET-51011|从 VSD 检索时返回不正确的连接。|漏洞|
 ### **公共 API 和向后不兼容的更改**
 请参阅列表以了解对公众 API 所做的任何更改，例如添加、重命名、删除或弃用成员，以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).

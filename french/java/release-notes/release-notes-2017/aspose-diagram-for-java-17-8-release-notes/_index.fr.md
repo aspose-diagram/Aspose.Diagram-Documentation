@@ -13,7 +13,7 @@ url: /fr/java/aspose-diagram-for-java-17-8-release-notes/
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50412|Formes manquantes lors de la conversion d'un VST en PNG.|Punaise|
+|DIAGRAMJAVA-50412|Missing shapes on converting a VST to PNG.|Punaise|
 |DIAGRAMJAVA-50497|Sortie VSDX - disposition incorrecte de toutes les lignes de connexion.|Punaise|
 |DIAGRAMJAVA-50500|Sortie VSDX - la taille de la forme ajoutée manuellement n'est pas modifiée.|Punaise|
 |DIAGRAMJAVA-50511|Sortie VSDX - texte mal placé du connecteur dynamique.|Punaise|
@@ -21,7 +21,7 @@ url: /fr/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|Sortie VSDX - la forme de décision devient plus grande.|Punaise|
 |DIAGRAMJAVA-50520|Impossible de définir le comportement de chevauchement des lignes de connexion dans un dessin VSDX.|Punaise|
 |DIAGRAMJAVA-50521|Sortie VSDX - disposition incorrecte de la ligne de connecteur.|Punaise|
-|DIAGRAMJAVA-50522|Sortie PNG - le texte de la forme sort des limites.|Punaise|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary.|Punaise|
 |DIAGRAMJAVA-50523|Sortie VSDX - disposition incorrecte de la ligne de connexion.|Punaise|
 |DIAGRAMJAVA-50525|Sortie VSDX - la formule de largeur de n'importe quelle forme n'est pas conservée.|Punaise|
 |DIAGRAMJAVA-50528|Sortie VSDX - taille incorrecte de la forme.|Punaise|
@@ -90,4 +90,4 @@ diagram.save(dataDir + "UseSVGSaveOptions_out.vsdx", SaveFileFormat.VSDX);
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Diagram :
 
 1. [Utiliser les index de connexion pour connecter des formes](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [Utilisation des options d'enregistrement SVG](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)
+1. [Utilisation des options de sauvegarde SVG](https://docs.aspose.com/diagram/java/save-visio-document/#use-of-the-svg-save-options)

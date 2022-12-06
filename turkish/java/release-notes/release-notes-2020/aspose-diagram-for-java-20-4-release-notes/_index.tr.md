@@ -13,8 +13,8 @@ Bu sayfa, Aspose.Diagram for Java 20.4 için sürüm notları bilgilerini içeri
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- VSDX -> SVG'deki madde işareti konumlarını test edin yanlış [JAVA]|Artırma|
-|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- VSDX -> SVG'deki madde işareti konumlarını test edin yanlış [JAVA]|Artırma|
+|DIAGRAMJAVA-50686|DIAGRAMJAVA-50686- VSDX -> SVG'deki test madde işareti konumları yanlış [JAVA]|Artırma|
+|DIAGRAMJAVA-50688|DIAGRAMJAVA-50688- VSDX -> SVG içindeki test madde işareti konumları yanlış [JAVA]|Artırma|
 |DIAGRAMJAVA-50689|DIAGRAMJAVA-50689- VSDX'de şekillerin ve kabın bir şekilde bağlantılı olduğu bilgisi alınamıyor|Artırma|
 ## **Genel API ve Geriye Dönük Uyumsuz Değişiklikler**
 - Kaldırılan SWFSaveOptions

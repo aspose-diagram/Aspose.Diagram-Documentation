@@ -5,10 +5,10 @@ weight: 30
 url: /tr/python-java/auto-space-a-collection-of-shapes-in-the-visio-page/
 ---
 ## **Visio Sayfasında Şekil Koleksiyonunu Otomatik Olarak Arala**
-With Aspose.Diagram for Python via Java API, developers can auto-space a collection of shapes in the Visio drawing. In order to achieve this, the `Page` class offers `autoSpaceShapes` member which takes ShapeCollection and AutoSpaceOptions parameters. The `AutoSpaceOptions` class allows to set horizontal and vertical distances.
+Python via Java API için Aspose.Diagram ile geliştiriciler, Visio çizimindeki bir şekil koleksiyonunu otomatik olarak aralayabilir. Bunu gerçekleştirmek için `Page` sınıfı, ShapeCollection ve AutoSpaceOptions parametrelerini alan `autoSpaceShapes` üyesini sunar. `AutoSpaceOptions` sınıfı, yatay ve dikey mesafelerin ayarlanmasına izin verir.
 
 ### **Sayfadaki Şekilleri Otomatik Arala**
-Use the following code in your application to auto-space a collection of shapes in any page of the Visio drawing.
+Visio çiziminin herhangi bir sayfasında bir şekil koleksiyonunu otomatik olarak boşluk bırakmak için uygulamanızda aşağıdaki kodu kullanın.
 
 ``` python
 # load a Visio drawing

@@ -13,12 +13,12 @@ Questa pagina contiene informazioni sulle note di rilascio per Aspose.Diagram fo
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-52826|Collegamento interrotto durante il salvataggio di VSDM in PDF|Aumento|
+|DIAGRAMNET-52826|Broken link when saving VSDM to PDF|Aumento|
 |DIAGRAMNET-52851|Alcune forme perdono la loro curva dopo la conversione in svg|Aumento|
-|DIAGRAMNET-52858|Qualità dell'immagine in HTML|Aumento|
-|DIAGRAMNET-52825|Problema di esportazione in HTML|Insetto|
-|DIAGRAMNET-52832|Visio in PDF/SVG - Posizione del testo ruotata modificata|Insetto|
-|DIAGRAMNET-52840|Elementi nell'anteprima HTML sfocati|Insetto|
+|DIAGRAMNET-52858|Image quality in HTML|Aumento|
+|DIAGRAMNET-52825|Export to HTML problem|Insetto|
+|DIAGRAMNET-52832|Visio to PDF/SVG - Rotated text position changed|Insetto|
+|DIAGRAMNET-52840|Elements in HTML preview blurred|Insetto|
 |DIAGRAMNET-52842|La pagina di adattamento automatico non si adatta automaticamente|Insetto|
 |DIAGRAMNET-52849|Immagini raster non ridimensionate dopo la conversione|Insetto|
 |DIAGRAMNET-52852|VSD Errore di apertura - Aspose.Diagram.DiagramException|Insetto|

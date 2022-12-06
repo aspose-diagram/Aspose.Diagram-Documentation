@@ -14,7 +14,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-51127|Felaktig återgivning av färgerna vid konvertering av en VSDX till PNG|Förbättring|
-|DIAGRAMNET-52070|Spara som HTML-problem|Förbättring|
+|DIAGRAMNET-52070|Spara som HTML nummer|Förbättring|
 |DIAGRAMNET-52071|Problem med att generera visio former som bilder|Förbättring|
 |DIAGRAMNET-52075|problem med egenskaperna "Dokument" och "Sida".|Insekt|
 |DIAGRAMNET-52077|Konstiga anslutningslinjer från en grafik när den exporteras till en SVG-fil|Insekt|

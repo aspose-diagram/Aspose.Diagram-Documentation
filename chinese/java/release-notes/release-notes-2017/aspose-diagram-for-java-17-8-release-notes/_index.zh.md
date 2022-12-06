@@ -13,7 +13,7 @@ url: /zh/java/aspose-diagram-for-java-17-8-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50412|将 VST 转换为 PNG 时缺少形状。|漏洞|
+|DIAGRAMJAVA-50412|Missing shapes on converting a VST to PNG.|漏洞|
 |DIAGRAMJAVA-50497|输出 VSDX - 所有连接线的布局不正确。|漏洞|
 |DIAGRAMJAVA-50500|输出 VSDX - 手动添加的形状大小未更改。|漏洞|
 |DIAGRAMJAVA-50511|输出 VSDX - 动态连接器的文本位置错误。|漏洞|
@@ -21,7 +21,7 @@ url: /zh/java/aspose-diagram-for-java-17-8-release-notes/
 |DIAGRAMJAVA-50517|输出 VSDX - 决策形状变大。|漏洞|
 |DIAGRAMJAVA-50520|无法在 VSDX 图形中设置连接线的重叠行为。|漏洞|
 |DIAGRAMJAVA-50521|输出 VSDX - 连接线布局不正确。|漏洞|
-|DIAGRAMJAVA-50522|输出 PNG - 形状的文本超出边界。|漏洞|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary.|漏洞|
 |DIAGRAMJAVA-50523|输出 VSDX - 连接线布局不正确。|漏洞|
 |DIAGRAMJAVA-50525|输出 VSDX - 不保留任何形状的宽度公式。|漏洞|
 |DIAGRAMJAVA-50528|输出 VSDX - 形状大小不正确。|漏洞|

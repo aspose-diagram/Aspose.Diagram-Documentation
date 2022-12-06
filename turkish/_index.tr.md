@@ -1,7 +1,7 @@
 ﻿---
 title: Aspose.Diagram Ürün Ailesi
 type: docs
-description: Aspose.Diagram, Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürme sağlar. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
+description: Aspose.Diagram, Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürür. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM yer alır.
 weight: 10
 url: /tr/
 ---
@@ -60,58 +60,58 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 **![todo:image_alt_text](home_3.png)**
 
-**Java aracılığıyla Node.js için Aspose.Diagram'e hoş geldiniz**
+**Node.js için Aspose.Diagram'e hoş geldiniz via Java**
 
-Java API aracılığıyla Node.js için Aspose.Diagram, Node.js kullanan Aspose.Diagram for Java'in tüm yararlı özelliklerini sunar. API, başka herhangi bir yazılım uygulamasına ihtiyaç duymadan Visio dosyalarıyla çalışmanın güçlü özelliklerini kullanmanızı sağlar. Ölçeklenebilir, zengin özelliklere sahiptir ve Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürme sağlar. Diğer Visio dosya biçimleri olarak kaydedilebilen çeşitli Visio dosya türlerini okumak için API'i kullanabilirsiniz. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
+Node.js için Aspose.Diagram via Java API, Node.js kullanan Aspose.Diagram for Java'in tüm yararlı özelliklerini sunar. API, başka herhangi bir yazılım uygulamasına ihtiyaç duymadan Visio dosyalarıyla çalışmanın güçlü özelliklerini kullanmanızı sağlar. Ölçeklenebilir, zengin özelliklere sahiptir ve Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürür. Diğer Visio dosya biçimleri olarak kaydedilebilen çeşitli Visio dosya türlerini okumak için API'i kullanabilirsiniz. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
 
 {{% /alert %}} 
-## **Java Kaynakları aracılığıyla Node.js için Aspose.Diagram**
+## **Node.js için Aspose.Diagram via Java Kaynaklar**
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 
 - [Aspose.Diagram for Java Çevrimiçi Dokümantasyon](/diagram/tr/nodejsjava/)
-- [Java aracılığıyla Node.js için Aspose.Diagram Özellikler](/diagram/tr/java/aspose-diagram-for-node-js-via-java-features/)
-- [Java aracılığıyla Node.js için Aspose.Diagram Sürüm Notları](/diagram/tr/java/release-notes/)
-- [Java Ürün Sayfası aracılığıyla Node.js için Aspose.Diagram](https://products.aspose.com/diagram/nodejs-java/)
-- [Node.js için Aspose.Diagram'i Java aracılığıyla indirin](https://downloads.aspose.com/diagram/nodejs)
-- Java API aracılığıyla Node.js için Aspose.Diagram Referans Kılavuzu
-- [Java Ücretsiz Destek Forumu üzerinden Node.js için Aspose.Diagram](https://forum.aspose.com/c/diagram/17)
-- [Java Ücretli Destek Yardım Masası aracılığıyla Node.js için Aspose.Diagram](https://helpdesk.aspose.com/)
+- [Node.js için Aspose.Diagram via Java Özellikler](/diagram/tr/java/aspose-diagram-for-node-js-via-java-features/)
+- [Node.js için Aspose.Diagram via Java Sürüm Notları](/diagram/tr/java/release-notes/)
+- [Node.js için Aspose.Diagram via Java Ürün Sayfası](https://products.aspose.com/diagram/nodejs-java/)
+- [Node.js için Aspose.Diagram'i indirin via Java](https://downloads.aspose.com/diagram/nodejs)
+- Node.js için Aspose.Diagram via Java API Başvuru Kılavuzu
+- [Node.js için Aspose.Diagram via Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/diagram/17)
+- [Node.js için Aspose.Diagram via Java Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}} 
 
 **![todo:image_alt_text](home_4.png)**
-**Java aracılığıyla Python için Aspose.Diagram'e hoş geldiniz**
+**Python via Java için Aspose.Diagram hoşgeldiniz**
 
-Aspose.Diagram, Java 07613481 aracılığıyla Python için Python kullanan Aspose.Diagram for Java'in tüm yararlı özelliklerini sunar. Ölçeklenebilir, zengin özelliklere sahiptir ve Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürme sağlar. Diğer Visio dosya biçimleri olarak kaydedilebilen çeşitli Visio dosya türlerini okumak için API'i kullanabilirsiniz. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
+Python için Aspose.Diagram via Java API, Python kullanan Aspose.Diagram for Java'in tüm kullanışlı özelliklerini sunar. Ölçeklenebilir, zengin özelliklere sahiptir ve Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürür. Diğer Visio dosya biçimleri olarak kaydedilebilen çeşitli Visio dosya türlerini okumak için API'i kullanabilirsiniz. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
 
 {{% /alert %}} 
-## **Java Kaynakları aracılığıyla Python için Aspose.Diagram**
+## **Python için Aspose.Diagram via Java Kaynaklar**
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 
 - [Aspose.Diagram for Java Çevrimiçi Dokümantasyon](/diagram/tr/pythonjava/)
-- [Java aracılığıyla Python için Aspose.Diagram Özellikler](/diagram/tr/java/feature-list/)
-- [Java aracılığıyla Python için Aspose.Diagram Sürüm Notları](/diagram/tr/java/aspose-diagram-for-python-via-java/)
-- [Java Ürün Sayfası aracılığıyla Python için Aspose.Diagram](https://products.aspose.com/diagram/python-java/)
-- [Java aracılığıyla Python için Aspose.Diagram'i indirin](https://downloads.aspose.com/diagram/python)
-- [Java API üzerinden Python için Aspose.Diagram Referans Kılavuzu](https://reference.aspose.com/diagram/python)
-- [Java Ücretsiz Destek Forumu aracılığıyla Python için Aspose.Diagram](https://forum.aspose.com/c/diagram/17)
-- [Java Ücretli Destek Yardım Masası aracılığıyla Python için Aspose.Diagram](https://helpdesk.aspose.com/)
+- [Aspose.Diagram için Python via Java Özellikler](/diagram/tr/java/feature-list/)
+- [Python için Aspose.Diagram via Java Sürüm Notları](/diagram/tr/java/aspose-diagram-for-python-via-java/)
+- [Python via Java için Aspose.Diagram Ürün Sayfası](https://products.aspose.com/diagram/python-java/)
+- [İndir Aspose.Diagram için Python via Java](https://downloads.aspose.com/diagram/python)
+- [Python için Aspose.Diagram via Java API Başvuru Kılavuzu](https://reference.aspose.com/diagram/python)
+- [Python için Aspose.Diagram via Java Ücretsiz Destek Forumu](https://forum.aspose.com/c/diagram/17)
+- [Python için Aspose.Diagram via Java Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
 
 {{% alert color="primary" %}}
-**![Aspose.Diagram, .NET aracılığıyla Python için Ürün Logosu](home_4.png)**
+**![Python Python via .NET Ürün Logosu için](home_4.png)**
 
-**.NET aracılığıyla Python için Aspose.Diagram'e hoş geldiniz**
+**Python via .NET için Aspose.Diagram hoşgeldiniz**
 
-Aspose.Diagram, .NET üzerinden Python için 07613481, Python kullanan .Net için Aspose.Diagram'in tüm yararlı özelliklerini sunar. Ölçeklenebilir, zengin özelliklere sahiptir ve Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürme sağlar. Diğer Visio dosya biçimleri olarak kaydedilebilen çeşitli Visio dosya türlerini okumak için API'i kullanabilirsiniz. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
+Python için Aspose.Diagram via .NET API, Python kullanan .Net için Aspose.Diagram'in tüm yararlı özelliklerini sunar. Ölçeklenebilir, zengin özelliklere sahiptir ve Visio dosya biçimini görüntülere, PDF, HTML, XML ve XAML biçimlerine dönüştürür. Diğer Visio dosya biçimleri olarak kaydedilebilen çeşitli Visio dosya türlerini okumak için API'i kullanabilirsiniz. Desteklenen popüler dosya biçimleri arasında VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM ve VSSM bulunur.
 {{% /alert %}}
 
-## **.NET Kaynakları aracılığıyla Python için Aspose.Diagram**
+## **Python için Aspose.Diagram via .NET Kaynaklar**
 
 Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz bazı yararlı kaynakların bağlantıları bulunmaktadır.
 
-- [.NET aracılığıyla Python için Aspose.Diagram Sürüm Notları](/diagram/tr/pythonnet/release-notes/)
-- [.NET Ürün Sayfası aracılığıyla Python için Aspose.Diagram](https://products.aspose.com/diagram/python-net/)
-- [.NET aracılığıyla Python için Aspose.Diagram'i indirin](https://downloads.aspose.com/diagram/python-net)
-- [.NET Ücretsiz Destek Forumu aracılığıyla Python için Aspose.Diagram](https://forum.aspose.com/c/diagram/17)
-- [.NET Ücretli Destek Yardım Masası aracılığıyla Python için Aspose.Diagram](https://helpdesk.aspose.com/)
+- [Python için Aspose.Diagram via .NET Sürüm Notları](/diagram/tr/pythonnet/release-notes/)
+- [Python via .NET için Aspose.Diagram Ürün Sayfası](https://products.aspose.com/diagram/python-net/)
+- [İndir Aspose.Diagram için Python via .NET](https://downloads.aspose.com/diagram/python-net)
+- [Python için Aspose.Diagram via .NET Ücretsiz Destek Forumu](https://forum.aspose.com/c/diagram/17)
+- [Python için Aspose.Diagram via .NET Ücretli Destek Yardım Masası](https://helpdesk.aspose.com/)
 

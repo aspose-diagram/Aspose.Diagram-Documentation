@@ -8,10 +8,10 @@ url: /zh/java/aspose-diagram-for-java-6-4-0-release-notes/
 
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
-|图表Java-50060| VSD 转换为 PDF，形状中的文本布局不正确。|漏洞|
-|图表Java-50070| VSD 转PDF，形状文字不加粗。|漏洞|
-|图表Java-50071| VSD 转PDF，形状文字不斜体。|漏洞|
-|图表Java-50072| VSD 到 PDF 转换，形状中文本的字体大小已更改。|漏洞|
+|图表Java-50060|VSD to PDF conversion, incorrect layout of the text in shapes. |漏洞|
+|图表Java-50070|VSD to PDF conversion, the text of shapes is not bold. |漏洞|
+|图表Java-50071|VSD to PDF conversion, the text of shapes is not italicized. |漏洞|
+|图表Java-50072|VSD to PDF conversion, the font-size of the text in shapes is changed. |漏洞|
 |图表Java-50320| VSDX diagram 的打开和保存例程丢失了形状的主题。|漏洞|
 |图表Java-50321| VSDX diagram 的打开和保存例程丢失了连接器的箭头。|漏洞|
 |图表Java-50322|VSDX diagram 打开和保存例程改了虚线位置。|漏洞|

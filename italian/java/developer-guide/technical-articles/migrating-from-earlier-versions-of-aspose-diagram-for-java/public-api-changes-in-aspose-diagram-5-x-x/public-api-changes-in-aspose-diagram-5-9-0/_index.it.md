@@ -9,7 +9,7 @@ url: /it/java/public-api-changes-in-aspose-diagram-5-9-0/
 Questo documento descrive le modifiche allo Aspose.Diagram API dalla versione 5.8.0 alla 5.9.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Diagram.
 
 {{% /alert %}} 
-### **Salva l'HTML risultante in uno stream**
+### **Save Resultant HTML to a Stream**
 Il nuovo metodo di salvataggio è stato aggiunto nella classe Diagram. Richiede due parametri, l'oggetto stream e il formato del file di salvataggio.
 Codice di esempio:
 

@@ -14,7 +14,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk : Vérifiez si TextAnnotation est connecté à la forme|Renforcement|
-|DIAGRAMJAVA-50382|L'ombrage des formes est manquant lors de la conversion d'un VSDX en PDF|Punaise|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|Punaise|
 |DIAGRAMJAVA-50754|wk - LineColor de InheritLine n'est pas correct|Punaise|
 |DIAGRAMJAVA-50756|wk : PinPos nul vs centre-centre|Punaise|
 |DIAGRAMJAVA-50757|WK : valeur getBegin/End Arrow incorrecte.|Punaise|

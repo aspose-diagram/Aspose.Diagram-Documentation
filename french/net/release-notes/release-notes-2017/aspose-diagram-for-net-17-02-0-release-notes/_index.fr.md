@@ -17,22 +17,22 @@ Cette page contient des notes de version pour[Aspose.Diagram for .NET 17.02.0](h
 |DIAGRAMNET-51110|Intégré au compteur.|Nouvelle fonctionnalité|
 |DIAGRAMNET-51143|Possibilité d'obtenir le groupe d'une forme donnée.|Nouvelle fonctionnalité|
 |DIAGRAMNET-51144|Possibilité d'obtenir le parent d'une forme donnée.|Nouvelle fonctionnalité|
-|DIAGRAMNET-50149|VSD en conversion PDF, la nuance de couleur d'arrière-plan d'une forme de groupe est modifiée.|Punaise|
-|DIAGRAMNET-50579|VSDX en conversion PDF, couleur de fond incorrecte de la forme.|Punaise|
-|DIAGRAMNET-50984|Les lignes de bordure du tableau manquent lors de la conversion d'un VSDX en PNG.|Punaise|
-|DIAGRAMNET-50985|Les éléments de texte ne sont pas correctement alignés lors de la conversion d'un VSDX en PNG.|Punaise|
-|DIAGRAMNET-50999|Rendu de la couleur incorrecte des formes lors de la conversion d'un VSD en PNG.|Punaise|
+|DIAGRAMNET-50149|VSD to PDF conversion, the background color shade of a group shape is getting changed.|Punaise|
+|DIAGRAMNET-50579|VSDX to PDF conversion, incorrect background color of the shape.|Punaise|
+|DIAGRAMNET-50984|The border lines of the table are missing on converting a VSDX to PNG.|Punaise|
+|DIAGRAMNET-50985|The text items are not aligned properly on converting a VSDX to PNG.|Punaise|
+|DIAGRAMNET-50999|Rendering incorrect color of shapes on converting a VSD to PNG.|Punaise|
 |DIAGRAMNET-51002|La propriété HTMLSaveOptions.DefaultFont ne fonctionne pas comme prévu.|Punaise|
-|DIAGRAMNET-51049|La couleur des formes n'est pas rendue correctement lors de la conversion d'un VSD en HTML.|Punaise|
-|DIAGRAMNET-51080|Le mauvais alignement du texte des formes lors de l'enregistrement dans EMF.|Punaise|
-|DIAGRAMNET-51132|Les coins de forme arrondis sont modifiés lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-51133|La disposition du connecteur de flèche dynamique est modifiée lors de la conversion d'un VSD en PDF.|Punaise|
-|DIAGRAMNET-51135|Les formes Visio sont déplacées lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51136|Le texte vertical apparaît comme texte horizontal lors de la conversion d'un VSDX en PDF.|Punaise|
-|DIAGRAMNET-51140|La zone de texte verticale surplombe le bord du nœud lors de la conversion de VSDX en PDF.|Punaise|
+|DIAGRAMNET-51049|The color of shapes is not being rendered correctly on converting a VSD to HTML.|Punaise|
+|DIAGRAMNET-51080|The wrong text alignment of shapes on saving in EMF.|Punaise|
+|DIAGRAMNET-51132|The rounded shape corners are being changed on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-51133|The layout of dynamic arrow connector is changed on converting a VSD to PDF.|Punaise|
+|DIAGRAMNET-51135|The Visio shapes are displaced on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51136|The vertical text appears as horizontal text on converting a VSDX to PDF.|Punaise|
+|DIAGRAMNET-51140|Vertical text box is overhanging the edge of the node while converting VSDX to PDF.|Punaise|
 |DIAGRAMNET-51138|Une erreur s'est produite lors du chargement d'un VSDX diagram.|Exception|
-|DIAGRAMNET-51139|Impossible d'accéder au fichier, une erreur s'est produite lors de la conversion d'un VSDX en HTML.|Exception|
-|DIAGRAMNET-51148|NullReferenceException à Diagram.Enregistrer lors de la conversion de VSD en HTML.|Exception|
+|DIAGRAMNET-51139|Can't access file error occurred on converting a VSDX to HTML.|Exception|
+|DIAGRAMNET-51148|NullReferenceException at Diagram.Save while converting VSD to HTML.|Exception|
 |DIAGRAMNET-51149|NullReferenceException à Diagram.Enregistrer lorsque la propriété CustomProp.Name n'est pas définie|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
  Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Diagram for .NET. Si vous avez des préoccupations concernant l'un des changements répertoriés, veuillez les signaler dans la[Aspose.Diagram forum d'assistance](https://forum.aspose.com/c/diagram/17).

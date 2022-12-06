@@ -15,27 +15,27 @@ url: /sv/net/aspose-diagram-for-net-6-5-0-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-50555|Kan inte hämta anslutningar från VSS stencilfil.|Förbättring|
 |DIAGRAMNET-50699|Stöd för att ladda kommentar för vsd-filen.|Förbättring|
-|DIAGRAMNET-50340|VSDX till PDF-konvertering, pilarna för dynamiska kontakter bevaras inte.|Insekt|
-|DIAGRAMNET-50341|VSDX till HTML-konvertering, pilarna för dynamiska kopplingar bevaras inte.|Insekt|
-|DIAGRAMNET-50346|VSDX till PDF-konvertering, felaktig sekvens av radbrytningar i textposterna.|Insekt|
-|DIAGRAMNET-50368|VSDX till PDF-konvertering, textobjekt i röd färg är felplacerade.|Insekt|
-|DIAGRAMNET-50369|VSDX till HTML-konvertering, textobjekt i röd färg är felplacerade.|Insekt|
-|DIAGRAMNET-50380|VDX till PNG-konvertering ändras utseendet på dynamiska kontakter.|Insekt|
-|DIAGRAMNET-50381|VDX till SVG-konvertering ändras utseendet på dynamiska kontakter.|Insekt|
-|DIAGRAMNET-50501|VSD till PDF-konvertering, formens text finns även i formskugga.|Insekt|
-|DIAGRAMNET-50504|VSD till PDF-konvertering, är textobjekten och punkterna inte korrekt justerade.|Insekt|
-|DIAGRAMNET-50505|VSD till HTML-konvertering, är textobjekten och punkterna inte korrekt justerade.|Insekt|
-|DIAGRAMNET-50506|VSD till HTML-konvertering, är textobjekten och punkterna inte korrekt justerade.|Insekt|
-|DIAGRAMNET-50507|VSD till PDF-konvertering, är textobjekten och punkterna inte korrekt justerade.|Insekt|
+|DIAGRAMNET-50340|VSDX till PDF konvertering, pilarna för dynamiska kontakter bevaras inte.|Insekt|
+|DIAGRAMNET-50341|VSDX till HTML konvertering, pilarna för dynamiska kontakter bevaras inte.|Insekt|
+|DIAGRAMNET-50346|VSDX till PDF konvertering, felaktig sekvens av radbrytningar i textobjekten.|Insekt|
+|DIAGRAMNET-50368|VSDX till PDF konvertering, textobjekt i röd färg är felplacerade.|Insekt|
+|DIAGRAMNET-50369|VSDX till HTML konvertering, textobjekt i röd färg är felplacerade.|Insekt|
+|DIAGRAMNET-50380|VDX till PNG konvertering ändras utseendet på dynamiska kontakter.|Insekt|
+|DIAGRAMNET-50381|VDX till SVG konvertering ändras utseendet på dynamiska kontakter.|Insekt|
+|DIAGRAMNET-50501|VSD till PDF konvertering, formens text finns även tillgänglig i formskugga.|Insekt|
+|DIAGRAMNET-50504|VSD till PDF omvandling, textobjekt och punktpunkter är inte korrekt justerade.|Insekt|
+|DIAGRAMNET-50505|VSD till HTML omvandling, textobjekt och punktpunkter är inte korrekt justerade.|Insekt|
+|DIAGRAMNET-50506|VSD till HTML omvandling, textobjekt och punktpunkter är inte korrekt justerade.|Insekt|
+|DIAGRAMNET-50507|VSD till PDF omvandling, textobjekt och punktpunkter är inte korrekt justerade.|Insekt|
 |DIAGRAMNET-50558|VSDX till PDF-konvertering, saknar olika former i den resulterande PDF-filen.|Insekt|
-|DIAGRAMNET-50572|VSD till PDF-konvertering, de streckade typlinjerna förvandlas till en heldragen.|Insekt|
-|DIAGRAMNET-50714|VSD till PDF-export - bakgrundsfärgen på kryssrutorna bevaras inte.|Insekt|
-|DIAGRAMNET-50715|VSD till PDF-export - bakgrundsfärgen på radioboxarna bevaras inte.|Insekt|
-|DIAGRAMNET-50716|VSD till PDF-export - färgen på urvalslistorna ändras.|Insekt|
-|DIAGRAMNET-50730|VSD till PDF-export återger inte bokstäver något ovanför.|Insekt|
-|DIAGRAMNET-50731|VSD till HTML-export återger inte bokstäver något ovanför.|Insekt|
+|DIAGRAMNET-50572|VSD till PDF konvertering, de streckade typlinjerna förvandlas till en heldragen.|Insekt|
+|DIAGRAMNET-50714|VSD till PDF export - bakgrundsfärgen för kryssrutorna bevaras inte.|Insekt|
+|DIAGRAMNET-50715|VSD till PDF export - bakgrundsfärgen på radioboxarna bevaras inte.|Insekt|
+|DIAGRAMNET-50716|VSD till PDF export - färgen på urvalslistorna ändras.|Insekt|
+|DIAGRAMNET-50730|VSD till PDF export återger inte bokstäver något ovanför.|Insekt|
+|DIAGRAMNET-50731|VSD till HTML export återger inte bokstäver något ovanför.|Insekt|
 |DIAGRAMNET-50775|Textpositionen för vissa objekt är felaktig vid konvertering av en VSDX till SVG.|Insekt|
-|DIAGRAMNET-50776|Extra kulor läggs till för att spara en VSD till PDF.|Insekt|
+|DIAGRAMNET-50776|Extra kulor läggs till för att spara ett VSD till PDF.|Insekt|
 |DIAGRAMNET-50782|Saknade former vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-50783|Saknar olika textobjekt vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-50784|Saknade former vid konvertering av en VSD till HTML.|Insekt|

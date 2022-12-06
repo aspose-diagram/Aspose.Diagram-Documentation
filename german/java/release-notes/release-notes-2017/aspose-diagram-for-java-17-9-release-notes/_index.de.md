@@ -15,7 +15,7 @@ url: /de/java/aspose-diagram-for-java-17-9-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50485|Unterstützung von Formen mit automatischem Abstand in Visio hinzugefügt|Erweiterung|
 |DIAGRAMJAVA-50521|Ausgabe VSDX - falsches Layout der Verbindungslinie|Insekt|
-|DIAGRAMJAVA-50522|Ausgabe PNG - der Text der Form geht über die Grenze hinaus|Insekt|
+|DIAGRAMJAVA-50522|Output PNG - the text of shape goes out of the boundary|Insekt|
 |DIAGRAMJAVA-50527|Ausgabe VSDX - Die Verbindungslinie berührt die Formgrenze|Insekt|
 |DIAGRAMJAVA-50540|Ausgabe VSDX - falsches Layout der Verbindungsleitungen|Insekt|
 |DIAGRAMJAVA-50543|Ausgabe VSDX - falsches Layout und falsch platzierter Text der Verbindungslinien|Insekt|

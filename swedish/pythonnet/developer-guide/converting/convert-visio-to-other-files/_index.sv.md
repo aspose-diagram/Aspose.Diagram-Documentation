@@ -4,7 +4,7 @@ linktitle:  Konvertera Visio till andra format
 type: docs
 weight: 40
 url: /sv/python-net/convert-visio-to-other-files/
-description: Det här ämnet visar hur du Aspose.Diagram tillåter att konvertera Visio till SVG, XPS, XML, XAML-format. Konvertera VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM till SVG,XPS,XML-koder med några få,XAML-koder.
+description: Det här ämnet visar hur du Aspose.Diagram tillåter att konvertera Visio till SVG,XPS,XML,XAML format. Konvertera VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,0761123411 till 3061123411 kod,3011123411 till 3011123411 till 301123411 kod
 ---
 ## **Exportera till XML**
 ### **Exportera Microsoft Visio Ritning till PDF**
@@ -61,7 +61,7 @@ Kodexemplen visar hur man exporterar Microsoft Visio Ritning till XML med C#.
  Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till XPS med[Aspose.Diagram för Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 Använd [Diagram]class'-konstruktorn för att läsa diagram-filerna och Spara-metoden för att exportera diagram till valfritt bildformat som stöds.
 
-Kodavsnitten i den här artikeln tar diagram nedan som indata. Du kan också använda andra diagram-format (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, VTX eller 07161834).
+Kodavsnitten i den här artikeln tar diagram nedan som indata. Du kan också använda andra diagram-format (VSS, VSSX, VSSM, VDX, VST, VSTX, VDX, 0761803713) eller 4.
 
 |**Källdokumentet.**|
 |:- |
@@ -78,7 +78,7 @@ Kodexemplen visar hur man exporterar Microsoft Visio Ritning till XPS med C#.
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
 
 ## **Exportera ett Diagram till SVG**
-Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till SVG (Scalable Vector Graphics) med[Aspose.Diagram för Python via .NET](https://products.aspose.com/diagram/python-net/) API.
+ Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till SVG (Scalable Vector Graphics) med[Aspose.Diagram för Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
 Använd [Diagram]class'-konstruktorn för att läsa diagram-filerna och Spara-metoden för att exportera diagram till valfritt bildformat som stöds.
 

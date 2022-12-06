@@ -13,12 +13,12 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52826|Lien brisé lors de l'enregistrement du VSDM au format PDF|Renforcement|
+|DIAGRAMNET-52826|Broken link when saving VSDM to PDF|Renforcement|
 |DIAGRAMNET-52851|Certaines formes perdent leur courbe après conversion en svg|Renforcement|
-|DIAGRAMNET-52858|Qualité d'image en HTML|Renforcement|
-|DIAGRAMNET-52825|Problème d'exportation vers HTML|Punaise|
-|DIAGRAMNET-52832|Visio en PDF/SVG - La position du texte pivoté a été modifiée|Punaise|
-|DIAGRAMNET-52840|Éléments flous dans l'aperçu HTML|Punaise|
+|DIAGRAMNET-52858|Image quality in HTML|Renforcement|
+|DIAGRAMNET-52825|Export to HTML problem|Punaise|
+|DIAGRAMNET-52832|Visio to PDF/SVG - Rotated text position changed|Punaise|
+|DIAGRAMNET-52840|Elements in HTML preview blurred|Punaise|
 |DIAGRAMNET-52842|La page d'ajustement automatique ne s'adapte pas automatiquement|Punaise|
 |DIAGRAMNET-52849|Images raster non réduites après la conversion|Punaise|
 |DIAGRAMNET-52852|VSD Erreur d'ouverture - Aspose.Diagram.DiagramException|Punaise|

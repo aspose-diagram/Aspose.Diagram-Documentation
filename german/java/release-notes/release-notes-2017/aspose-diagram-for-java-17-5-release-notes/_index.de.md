@@ -13,13 +13,13 @@ url: /de/java/aspose-diagram-for-java-17-5-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50472|Während der Konvertierung von Visio zu PDF die Warnung über die Ersetzung von Schriftarten generieren.|Erweiterung|
+|DIAGRAMJAVA-50472|Generate the warning about font substitution during Visio to PDF conversion.|Erweiterung|
 |DIAGRAMJAVA-50480 |Ein SolutionXML-Element kann nicht in VSDX hinzugefügt werden|Erweiterung|
 |DIAGRAMJAVA-50473|Unvollständige Verbindungen von Shapes beim Konvertieren von VDX in VSDM|Insekt|
 |DIAGRAMJAVA-50475|Beim Konvertieren von VDX in VSDM verläuft die Verbindungslinie durch die anderen Shapes|Insekt|
 |DIAGRAMJAVA-50476|Unvollständige Verbindungen von Shapes beim Konvertieren von VDX in VSDM|Insekt|
 |DIAGRAMJAVA-50479|Lösungs-XMLs können nicht von VSDX abgerufen werden|Insekt|
-|DIAGRAMJAVA-50481|Falsche Farbe des Rechtecks beim Konvertieren von VSDX in PDF|Insekt|
+|DIAGRAMJAVA-50481|Incorrect color of rectangle shape on converting a VSDX to PDF|Insekt|
 {{% alert color="primary" %}} 
 
 In der Version 17.5 von Aspose.Diagram for Java gibt es keine Öffentlichkeit API. Zweitens, da wir die Codebasis von Aspose.Diagram for Java portieren, sind die meisten Änderungen, die Verstärkungen, und die Fixes sind auch in der 0761616818181817381738173817381734173.5. 17.5.

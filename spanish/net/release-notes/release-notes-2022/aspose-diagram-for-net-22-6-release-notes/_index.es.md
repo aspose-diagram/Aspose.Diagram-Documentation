@@ -13,12 +13,12 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMNET-52826|Enlace roto al guardar VSDM en PDF|Mejora|
+|DIAGRAMNET-52826|Broken link when saving VSDM to PDF|Mejora|
 |DIAGRAMNET-52851|Algunas formas pierden su curva después de la conversión a svg|Mejora|
-|DIAGRAMNET-52858|Calidad de imagen en HTML|Mejora|
-|DIAGRAMNET-52825|Exportar a HTML problema|Insecto|
-|DIAGRAMNET-52832|Visio a PDF/SVG - Se cambió la posición del texto rotado|Insecto|
-|DIAGRAMNET-52840|Elementos en la vista previa de HTML borrosos|Insecto|
+|DIAGRAMNET-52858|Image quality in HTML|Mejora|
+|DIAGRAMNET-52825|Export to HTML problem|Insecto|
+|DIAGRAMNET-52832|Visio to PDF/SVG - Rotated text position changed|Insecto|
+|DIAGRAMNET-52840|Elements in HTML preview blurred|Insecto|
 |DIAGRAMNET-52842|La página de ajuste automático no se ajusta automáticamente|Insecto|
 |DIAGRAMNET-52849|Las imágenes ráster no se reducen después de la conversión|Insecto|
 |DIAGRAMNET-52852|VSD Error de apertura - Aspose.Diagram.DiagramException|Insecto|

@@ -16,7 +16,7 @@ url: /sv/net/aspose-diagram-for-net-17-9-release-notes/
 |DIAGRAMNET-51261|Lägg till stöd för att konvertera det specifika området på en ritning till bild|Förbättring|
 |DIAGRAMNET-51350|Lägg till stöd för att hämta form efter namn|Förbättring|
 |DIAGRAMNET-51351|Lägg till stöd för att hämta formen från Annotation|Förbättring|
-|DIAGRAMNET-51295|VSDX till SVG - den låga kvaliteten på SVG-utdata|Insekt|
+|DIAGRAMNET-51295|VSDX till SVG - den låga kvaliteten på utdata SVG|Insekt|
 |DIAGRAMNET-51309|DiagramException inträffar vid VSDX filsparande|Insekt|
 |DIAGRAMNET-51331|VSDM till SVG - textobjekten flyttas upp|Insekt|
 |DIAGRAMNET-51333|VSDM till SVG - felaktig återgivning av de cirkulära ikonerna|Insekt|

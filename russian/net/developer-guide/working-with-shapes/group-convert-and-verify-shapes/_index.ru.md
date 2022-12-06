@@ -39,7 +39,7 @@ Aspose.Diagram for .NET API позволяет разработчикам пре
 1. Сохраните страницу Visio в любом поддерживаемом формате файла.
 #### **Образец программирования преобразования формы**
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.cs" >}}
-### **Конвертировать форму Visio в PDF**
+### **Преобразование формы Visio в форму PDF**
 Метод ToPdf класса Shape позволяет преобразовать фигуру в формат PDF.
 
 {{< highlight "java" >}}
@@ -53,7 +53,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Pages[0].Shapes.GetShape(59).ToPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
-### **Конвертировать форму Visio в HTML**
+### **Преобразование формы Visio в форму HTML**
 Метод ToHTML класса Shape позволяет преобразовать фигуру в формат HTML.
 
 {{< highlight "java" >}}

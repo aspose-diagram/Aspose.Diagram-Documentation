@@ -36,12 +36,12 @@ El código de los ejemplos siguientes muestra cómo:
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ReplaceShapePicture-ReplaceShapePicture.java" >}}
 ## **Importar imagen de mapa de bits como forma Visio**
 Aspose.Diagram for Java API ahora permite a los desarrolladores importar una imagen de mapa de bits como una forma Microsoft Visio.
-### **Inserte una imagen BMP en Visio**
+### **Insert a BMP Image in Visio**
 El código de los ejemplos siguientes muestra cómo:
 
 1. Crea un diagram.
 1. Obtener Visio página
 1. Importe una imagen de mapa de bits como una forma Visio
 1. Guarda el diagram.
-#### **Insertar una muestra de programación de imágenes BMP**
+#### **Insert a BMP Image Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-IconAndPictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.java" >}}

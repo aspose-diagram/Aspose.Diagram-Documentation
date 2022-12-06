@@ -13,7 +13,7 @@ Bu sayfa Aspose.Diagram for Java 22.6 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: PNG'ye kaydettikten sonra şekil bozuk|Artırma|
+|DIAGRAMJAVA-50963|WK: PNG'e kaydedildikten sonra şekil bozuldu|Artırma|
 |DIAGRAMJAVA-50967|Yanal çizgi şeklini yeniden boyutlandırma [Devam]|Böcek|
 |DIAGRAMJAVA-50972|API dosyayı doğru şekilde ayrıştırmıyor|Böcek|
 |DIAGRAMJAVA-50974|Yeni bağlantı noktası ekleme sorunu|Böcek|

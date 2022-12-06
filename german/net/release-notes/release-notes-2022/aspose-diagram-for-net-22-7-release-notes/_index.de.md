@@ -13,13 +13,13 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 22.7.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-52872|Visio zu SVG generiert mehrere Muster-Tags|Erweiterung|
-|DIAGRAMNET-52877|Russisches Textausrichtungsproblem während der Umwandlung von Visio in SVG|Erweiterung|
-|DIAGRAMNET-52886|Russisches Textausrichtungsproblem während der Umwandlung von Visio in SVG|Erweiterung|
-|DIAGRAMNET-52861|Problem in der HTML-Darstellung|Insekt|
+|DIAGRAMNET-52872|Visio to SVG generates multiple pattern tags|Erweiterung|
+|DIAGRAMNET-52877|Russian text alignment issue during Visio to SVG conversion|Erweiterung|
+|DIAGRAMNET-52886|Russian text alignment issue during Visio to SVG conversion|Erweiterung|
+|DIAGRAMNET-52861|Issue in HTML representation|Insekt|
 |DIAGRAMNET-52871|Einige Formen verlieren nach der Umwandlung in SVG ihre Rundung|Insekt|
 |DIAGRAMNET-52883|App: Das Speichern von vsdx in svg löst eine Null-Ausnahme aus|Insekt|
-|DIAGRAMNET-52897|Fehlender Tabelleninhalt im PDF|Insekt|
+|DIAGRAMNET-52897|Missing table content in PDF|Insekt|
 |DIAGRAMNET-52900|App: Das Speichern von vsdx in Pdf löst eine Ausnahme aus (Master TextureBrush-Füllung)|Insekt|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

@@ -14,6 +14,6 @@ url: /zh/java/aspose-diagram-for-java-19-5-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50653|在 Linux 服务器上使用 Aspose 生成预览文件时出错|强化|
-|DIAGRAMJAVA-50656|VSD 到 PNG 在特定环境中失败|强化|
+|DIAGRAMJAVA-50656|VSD to PNG fails in particular environment|强化|
 |DIAGRAMJAVA-50657|API 无法加载 VSD 文件，程序永不结束|强化|
 

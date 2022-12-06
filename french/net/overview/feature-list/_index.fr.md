@@ -15,7 +15,7 @@ description: Cette page décrit la liste des fonctionnalités de la bibliothèqu
 - Lire le format Microsoft Visio 2003/2007/2010 VSD.
 - Lire le format VSS Microsoft Visio 2003/2007/2010.
 - Lire le format VDW Microsoft Visio 2003/2007/2010.
-- Lire le format VST Microsoft Visio 2003/2007/2010.
+- Lire le format Microsoft Visio 2003/2007/2010 VST.
 
 **Lire et écrire**:
 
@@ -31,17 +31,17 @@ description: Cette page décrit la liste des fonctionnalités de la bibliothèqu
 
 **Exporter**:
 
-- Exportez des diagrammes (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX et VSX) vers des formats d'image courants (BMP, JPEG, TIFF, EMF, SVG et PNG).
-- Exporter les schémas (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX et VSX) au format PDF.
-- Exportez les diagrammes (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX et VSX) au format HTML.
-- Exportez les diagrammes (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX et VSX) vers XML Paper Specification (XPS).
-- Exportez les diagrammes (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX et VSX) au format de fichier Macromedia Flash (SWF).
-- Exportez les diagrammes (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX et VSX) vers XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to Macromedia Flash File Format (SWF).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **Imprimer**:
 
 - Imprimez les diagrammes Visio avec une haute fidélité.
-- Imprimer Visio diagram sur un serveur via XpsPrint API
+- Print Visio diagram on a server via XpsPrint API
 
 **Accéder**:
 

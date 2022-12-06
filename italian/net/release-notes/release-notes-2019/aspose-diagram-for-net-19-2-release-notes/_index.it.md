@@ -13,26 +13,26 @@ Questa pagina contiene le note di rilascio per[Aspose.Diagram for .NET 19.2](htt
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-50009|La forma del cuore viene confusa durante l'esportazione del disegno VSD in formato file PDF|Aumento|
-|DIAGRAMNET-50010|VSD in PDF esporta più linee a zig-zag con un punto simultaneo invece di una singola linea curva|Aumento|
+|DIAGRAMNET-50009|The heart shape is mixed-up when exporting VSD drawing in PDF file format|Aumento|
+|DIAGRAMNET-50010|VSD to PDF exports multiple zigzag lines with a concurrent point instead of a single curve line|Aumento|
 |DIAGRAMNET-51257|Aggiunto il supporto della linea NBRS durante l'esportazione di un disegno|Aumento|
 |DIAGRAMNET-51611|Impossibile ottenere correttamente Prop.Prompt.Value|Aumento|
 |DIAGRAMNET-50355|Le linee curve vengono esportate come linee rette|Insetto|
-|DIAGRAMNET-50702|VSDX in esportazione PDF - i connettori curvi diventano diritti|Insetto|
-|DIAGRAMNET-51348|VSDX in PDF - Resa errata delle lettere|Insetto|
-|DIAGRAMNET-51399|VSD in PNG: la linea curva viene convertita in linea retta|Insetto|
-|DIAGRAMNET-51448|VSD in PNG: manca l'ellisse attorno alla rete di parole|Insetto|
-|DIAGRAMNET-51472|VSD in PDF - le linee curve vengono esportate come linee rette|Insetto|
-|DIAGRAMNET-51507|VSDX in PNG: nell'output mancano forme ovali riempite|Insetto|
-|DIAGRAMNET-51508|VSDX in SVG: nell'output mancano forme ovali riempite|Insetto|
-|DIAGRAMNET-51537|Da VSDX a SVG: i connettori curvi diventano connettori diritti quando VSDX viene visualizzato in PDF|Insetto|
+|DIAGRAMNET-50702|VSDX to PDF export - the curved connectors turn into straight|Insetto|
+|DIAGRAMNET-51348|VSDX to PDF - Incorrect rendering of letters|Insetto|
+|DIAGRAMNET-51399|VSD to PNG - the curved line is converted to straight line|Insetto|
+|DIAGRAMNET-51448|VSD to PNG - the ellipse is missing around the word network|Insetto|
+|DIAGRAMNET-51472|VSD to PDF - the curved lines are being exported as straight lines|Insetto|
+|DIAGRAMNET-51507|VSDX to PNG - filled oval shapes are missing in the output|Insetto|
+|DIAGRAMNET-51508|VSDX to SVG - filled oval shapes are missing in the output|Insetto|
+|DIAGRAMNET-51537|VSDX to SVG - curved connectors become straight connectors when VSDX is rendered to PDF|Insetto|
 |DIAGRAMNET-51540|I bordi della forma sono stati modificati come quadrati dopo la conversione|Insetto|
-|DIAGRAMNET-51577|Da VISIO a SVG - l'output non è corretto|Insetto|
+|DIAGRAMNET-51577|VISIO to SVG - output is not correct|Insetto|
 |DIAGRAMNET-51592|Le linee curve si trasformano in linee rette durante la conversione|Insetto|
 |DIAGRAMNET-51600|Le linee rette diventano punte quando si salva un diagram come un altro formato|Insetto|
-|DIAGRAMNET-51604|Errore di conversione da VSDX a PDF - ellissi nere|Insetto|
+|DIAGRAMNET-51604|VSDX to PDF conversion error - black ellipses|Insetto|
 |DIAGRAMNET-51605|Aggiorna i riferimenti API e aggiungi dettagli sul metodo Shape.SetAngle()|Insetto|
-|DIAGRAMNET-51610|VSDX in SVG: il testo non viene visualizzato con il carattere corretto|Insetto|
+|DIAGRAMNET-51610|VSDX to SVG - text is not rendering in the correct font|Insetto|
 ## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 Di seguito è riportato un elenco di tutte le modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Diagram for .NET. In caso di dubbi su qualsiasi modifica elencata, segnalarli a il[Aspose.Diagram forum di supporto](https://forum.aspose.com/c/diagram/17).
 ### **Aggiungi InheritProps in Shape**

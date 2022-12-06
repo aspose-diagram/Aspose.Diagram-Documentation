@@ -16,9 +16,9 @@ url: /sv/java/aspose-diagram-for-java-16-11-0-release-notes/
 |DIAGRAMJAVA-50356|Prestandaproblem med att exportera en VSD till PDF.|Förbättring|
 |DIAGRAMJAVA-50419|Det går inte att ställa in bredden och höjden på en ActiveX-knapp i VSDM.|Förbättring|
 |DIAGRAMJAVA-50257|VSD till VDX konvertering skapas en ogiltig resulterande fil.|Insekt|
-|DIAGRAMJAVA-50335|VSDX till PDF-export - Heldragna linjer av former konverteras till streckade linjer.|Insekt|
+|DIAGRAMJAVA-50335|VSDX till PDF export - Heldragna linjer av former konverteras till streckade linjer.|Insekt|
 |DIAGRAMJAVA-50353|En svart remsa kommer i stället för texten när du konverterar en VSD-sida till PNG.|Insekt|
-|DIAGRAMJAVA-50388|En svart rand visas i stället för texten i det övre högra hörnet vid konvertering av en VSD-sida till PNG.|Insekt|
+|DIAGRAMJAVA-50388|En svart rand visas i stället för texten i det övre högra hörnet när du konverterar en VSD-sida till PNG.|Insekt|
 |DIAGRAMJAVA-50402|Menyikonerna är inte korrekt synliga vid konvertering av Visio-sidor till SVG.|Insekt|
 |DIAGRAMJAVA-50403|De svarta remsorna visas i stället för formulärets textobjekt vid konvertering av Visio sidor till SVG.|Insekt|
 |DIAGRAMJAVA-50410|Former blir osynliga när du grupperar och sparar i VSDM.|Insekt|
@@ -29,7 +29,7 @@ url: /sv/java/aspose-diagram-for-java-16-11-0-release-notes/
 |DIAGRAMJAVA-50430|Det går inte att lägga till formmenyobjekt (åtgärd).|Insekt|
 |DIAGRAMJAVA-50431|Kontakterna ansluts inte korrekt i en VSDM.|Insekt|
 |DIAGRAMJAVA-50432|Textobjekten är inte justerade när du sparar ett Visio i PDF.|Insekt|
-|DIAGRAMJAVA-50433|Bredden på anslutningslinjerna ändras när du sparar ett Visio i PDF.|Insekt|
+|DIAGRAMJAVA-50433|Bredden på anslutningslinjer ändras när du sparar ett Visio i PDF.|Insekt|
 ### **Offentlig API och bakåtinkompatibla ändringar**
 Se listan för eventuella ändringar som gjorts för allmänheten API såsom tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på[Aspose.Diagram supportforum](https://forum.aspose.com/c/diagram/17).
 ### **Lägger till addText Method i klassen Page**

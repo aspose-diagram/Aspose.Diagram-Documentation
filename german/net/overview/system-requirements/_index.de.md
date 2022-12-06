@@ -27,16 +27,16 @@ description: Dieser Abschnitt listet die unterstützten Betriebssysteme auf, die
 ## **Entwicklungsumgebungen**
 Sie können Aspose.Diagram for .NET verwenden, um Anwendungen in jeder Entwicklungsumgebung zu entwickeln, die auf die .NET-Plattform abzielt, aber die folgenden Umgebungen werden ausdrücklich unterstützt:
 
-- MicrosoftVisual Studio 2003
-- MicrosoftVisual Studio 2005
-- MicrosoftVisual Studio 2008
-- MicrosoftVisual Studio 2010
-- MicrosoftVisual Studio 2011
-- MicrosoftVisual Studio 2012
-- MicrosoftVisual Studio 2013
-- MicrosoftVisual Studio 2015
-- MicrosoftVisual Studio 2017
-- MicrosoftVisual Studio 2019
+- Microsoft Visual Studio 2003
+- Microsoft Visual Studio 2005
+- Microsoft Visual Studio 2008
+- Microsoft Visual Studio 2010
+- Microsoft Visual Studio 2011
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
 ## **Unterstützte .NET Framework Versionen**
 Folgende .NET Framework Versionen werden unterstützt:
 

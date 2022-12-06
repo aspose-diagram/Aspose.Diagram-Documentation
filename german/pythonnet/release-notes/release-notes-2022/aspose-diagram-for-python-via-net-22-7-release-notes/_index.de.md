@@ -1,16 +1,16 @@
 ﻿---
-title: Aspose.Diagram für Python über .NET 22.7 Versionshinweise
+title: Aspose.Diagram for Python via .NET 22.7 Release Notes
 type: docs
 weight: 20
 url: /de/python-net/aspose-diagram-for-python-via-net-22-7-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Dies ist die erste Version für Aspose.Diagram für Python über .NET.
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Python über .NET 22.7.
+This is the first version for Aspose.Diagram for Python via .NET.
+This page contains release notes for Aspose.Diagram for Python via .NET 22.7.
 
 {{% /alert %}} 
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMPYTHONNET-2|<p>**Dateiformate und Konvertierungen**</p><p>- VSD,VDX,VSDX,VSDM,VSTM, VSTX, HTML, PDF und gängige Bildformate wie TIFF, JPG, PNG, BMP, EMF und SVG.</p>|Neue Funktion|
+|DIAGRAMPYTHONNET-2|<p>**Dateiformate und Konvertierungen**</p><p>- VSD,VDX,VSDX,VSDM,VSTM, VSTX, HTML, PDF, and popular image formats including TIFF, JPG,PNG, BMP,EMF and SVG.</p>|Neue Funktion|

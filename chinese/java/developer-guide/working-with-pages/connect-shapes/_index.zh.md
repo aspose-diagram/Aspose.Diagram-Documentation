@@ -8,7 +8,7 @@ description: 本节介绍如何用 Aspose.Diagram for Java 连接两个形状。
 ## **连接形状**
 本节介绍如何使用 Aspose.Diagram for Java 连接两个形状。
 ### **连接形状**
-这[connectShapesVia连接器](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long) 方法通过连接器连接两个形状[页](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page)班级。
+这[connectShapesVia连接器](https://reference.aspose.com/diagram/java/com.aspose.diagram/page#connectShapesViaConnector(long,%20int,%20long,%20int,%20long)) method connect two shapes via a connector in the [页](https://reference.aspose.com/diagram/java/com.aspose.diagram/Page)班级。
 
 下面的代码显示了如何：
 

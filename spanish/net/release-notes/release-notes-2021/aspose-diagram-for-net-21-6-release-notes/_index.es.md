@@ -15,11 +15,11 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 |:- |:- |:- |
 |DIAGRAMNET-52007|Rendimiento durante la inicialización de un objeto diagram|Mejora|
 |DIAGRAMNET-52008|Rendimiento durante la inicialización de un objeto diagram|Mejora|
-|DIAGRAMNET-52027|La calidad de las formas no es buena en el archivo SVG exportado|Mejora|
-|DIAGRAMNET-52033|Problema de guardar formas en HTML|Insecto|
+|DIAGRAMNET-52027|Quality of shapes is not good in exported SVG file|Mejora|
+|DIAGRAMNET-52033|Saving shapes to HTML problem|Insecto|
 |DIAGRAMNET-52035|"Eof sin excepción". excepción al abrir el archivo VSDX|Insecto|
 |DIAGRAMNET-52041|Error al guardar algunas formas del archivo VSS|Insecto|
-|DIAGRAMNET-52042|"El parámetro no es válido". excepción al renderizar el archivo VSD a HTML|Insecto|
+|DIAGRAMNET-52042|"Parameter is not valid." exception when rendering VSD file to HTML|Insecto|
 |DIAGRAMNET-52043|"Referencia a objeto no establecida como instancia de un objeto." excepción al guardar la forma del archivo VSSX|Insecto|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

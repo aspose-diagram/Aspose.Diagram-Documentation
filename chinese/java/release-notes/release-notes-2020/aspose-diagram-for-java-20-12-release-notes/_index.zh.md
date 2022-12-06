@@ -13,8 +13,8 @@ url: /zh/java/aspose-diagram-for-java-20-12-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50574|VSD 到 SVG - 文本项错位|漏洞|
+|DIAGRAMJAVA-50574|VSD to SVG - the text items are misplaced|漏洞|
 |DIAGRAMJAVA-50705|Diagram 中的回归 - 不支持的画笔类型|漏洞|
-|DIAGRAMJAVA-50706|将 VSD 转换为 SVG 时出现 ArrayIndexOutOfBoundException|漏洞|
-|DIAGRAMJAVA-50707|VSDX 到 PDF：元素形状错误|漏洞|
+|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException while converting VSD to SVG|漏洞|
+|DIAGRAMJAVA-50707|VSDX to PDF: Error in element Shapes|漏洞|
 

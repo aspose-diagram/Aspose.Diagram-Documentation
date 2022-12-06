@@ -13,11 +13,11 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.7.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|SVG ausgeben - Wenden Sie CSS-Attribute auf den Text an|Erweiterung|
+|DIAGRAMNET-51447|Output SVG - Apply CSS attributes to the text|Erweiterung|
 |DIAGRAMNET-51993|Formatierungsfehler im pdf von vsd|Erweiterung|
 |DIAGRAMNET-52020|Problem mit dynamischem Konnektor|Erweiterung|
-|DIAGRAMNET-52044|Visio an HTML – Die Formen in der Ausgabe sind falsch|Insekt|
-|DIAGRAMNET-52045|Visio an HTML – API löst System.ArgumentException aus: „Parameter ist nicht gültig.“|Insekt|
+|DIAGRAMNET-52044|Visio to HTML - The shapes are incorrect in the output|Insekt|
+|DIAGRAMNET-52045|Visio to HTML - API is throwing System.ArgumentException: 'Parameter is not valid.'|Insekt|
 |DIAGRAMNET-52049|Das Speichern von vsdx als PDF löst eine Ausnahme wegen fehlendem Arbeitsspeicher aus|Insekt|
 
 ## **Öffentliche API und rückwärtsinkompatible Änderungen**

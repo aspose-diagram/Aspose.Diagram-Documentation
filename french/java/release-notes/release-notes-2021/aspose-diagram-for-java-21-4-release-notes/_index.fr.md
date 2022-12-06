@@ -13,6 +13,6 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50383|Le thème des formes n'est pas conservé lors de la conversion d'un VSDX en PDF|Renforcement|
+|DIAGRAMJAVA-50383|Theme of shapes is not being preserved on converting a VSDX to PDF|Renforcement|
 |DIAGRAMJAVA-50717|VSD en GIF - java.lang.NullPointerException se produit|Punaise|
-|DIAGRAMJAVA-50718|NullPointerException lors de la conversion de VSD/VSDX en PNG|Punaise|
+|DIAGRAMJAVA-50718|NullPointerException when converting VSD/VSDX to PNG|Punaise|

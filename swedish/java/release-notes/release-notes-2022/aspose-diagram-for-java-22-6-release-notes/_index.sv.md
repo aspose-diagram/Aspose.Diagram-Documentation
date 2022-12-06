@@ -13,7 +13,7 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for Java 
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50963|WK: Form förvrängd efter att ha sparats till PNG|Förbättring|
+|DIAGRAMJAVA-50963|WK: Formen förvrängd efter att ha sparats till PNG|Förbättring|
 |DIAGRAMJAVA-50967|Ändra storlek på sidolinjeformen [Forts.]|Insekt|
 |DIAGRAMJAVA-50972|API analyserar inte filen korrekt|Insekt|
 |DIAGRAMJAVA-50974|Problem med att lägga till ny anslutningspunkt|Insekt|

@@ -17,7 +17,7 @@ url: /de/java/aspose-diagram-for-java-18-4-release-notes/
 |DIAGRAMJAVA-50596|Ausgabe VSDX - falsches Layout der Verbindungsleitung|Insekt|
 |DIAGRAMJAVA-50597|Falsches Abrufen der Dateiformate|Insekt|
 |DIAGRAMJAVA-50598|Falsches Abrufen der Dateiformate|Insekt|
-|DIAGRAMJAVA-50599|VSDX zu SVG - falsche Schriftfamilie des Textes|Insekt|
+|DIAGRAMJAVA-50599|VSDX to SVG - incorrect font family of the text|Insekt|
 ### **Anwendungsbeispiele**
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Diagram-Wiki-Dokumenten hinzugefügt wurden:
 

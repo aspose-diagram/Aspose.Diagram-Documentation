@@ -14,7 +14,7 @@ Bu sayfa Aspose.Diagram for Java 21.9 için sürüm notları bilgilerini içerir
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk: TextAnnotation'ın şekle bağlı olup olmadığını kontrol edin|Artırma|
-|DIAGRAMJAVA-50382|VSDX'i PDF'ye dönüştürürken şekillerin gölgelenmesi eksik|Böcek|
+|DIAGRAMJAVA-50382|VSDX'i PDF'e dönüştürürken şekillerin gölgelenmesi eksik|Böcek|
 |DIAGRAMJAVA-50754|wk - InheritLine'dan LineColor doğru değil|Böcek|
 |DIAGRAMJAVA-50756|hafta: PinPos boş vs merkez merkez|Böcek|
 |DIAGRAMJAVA-50757|WK: getBegin/End Arrow değeri yanlış.|Böcek|

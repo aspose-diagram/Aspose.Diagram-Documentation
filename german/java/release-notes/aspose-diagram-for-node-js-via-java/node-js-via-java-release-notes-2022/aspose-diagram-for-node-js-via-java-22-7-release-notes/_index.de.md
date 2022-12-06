@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram für Node.js über Java 22.7 Versionshinweise
+title: Aspose.Diagram for Node.js via Java 22.7 Release Notes
 type: docs
 weight: 21
 url: /de/java/aspose-diagram-for-node-js-via-java-22-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Diese Seite enthält Versionshinweise für Aspose.Diagram für Node.js über Java 22.7.
+This page contains release notes information for Aspose.Diagram for Node.js via Java 22.7.
 
 {{% /alert %}}
 ## **Verbesserungen und Änderungen**  ##
@@ -14,7 +14,7 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram für Node.js über Jav
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: Füllproblem erben|Erweiterung|
-|DIAGRAMJAVA-50446|Das Ausgabebild wird beim Konvertieren einer VSD in HTML verpixelt|Insekt|
+|DIAGRAMJAVA-50446|The output image is pixelated on converting a VSD to HTML|Insekt|
 |DIAGRAMJAVA-50996|Form wird nicht richtig angezeigt - stattdessen wird ein durchgestrichenes Rechteck angezeigt|Insekt|
 
 ## `?`**Öffentliche API und rückwärtsinkompatible Änderungen**

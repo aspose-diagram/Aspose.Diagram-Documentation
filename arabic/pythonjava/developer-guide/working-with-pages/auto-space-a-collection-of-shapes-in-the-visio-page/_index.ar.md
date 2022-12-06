@@ -5,7 +5,7 @@ weight: 30
 url: /ar/python-java/auto-space-a-collection-of-shapes-in-the-visio-page/
 ---
 ## **تباعد تلقائي لمجموعة من الأشكال في صفحة Visio**
-مع Aspose.Diagram لـ Python عبر Java API ، يمكن للمطورين وضع مسافة تلقائية بين مجموعة من الأشكال في الرسم Visio. من أجل تحقيق ذلك ، تقدم فئة `Page` عضو `autoSpaceShapes` الذي يأخذ معلمات ShapeCollection و AutoSpaceOptions. تسمح الفئة `AutoSpaceOptions` بضبط المسافات الأفقية والعمودية.
+مع Aspose.Diagram لـ Python via Java API ، يمكن للمطورين وضع مسافة تلقائية لمجموعة من الأشكال في رسم Visio. من أجل تحقيق ذلك ، تقدم الفئة `Page` العضو `autoSpaceShapes` الذي يأخذ معلمات ShapeCollection و AutoSpaceOptions. تسمح الفئة `AutoSpaceOptions` بضبط المسافات الأفقية والعمودية.
 
 ### **المسافات التلقائية للأشكال في الصفحة**
 استخدم الكود التالي في التطبيق الخاص بك لوضع مسافة تلقائية بين مجموعة من الأشكال في أي صفحة من الرسم Visio.

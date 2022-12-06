@@ -8,25 +8,25 @@ Questa versione introduce le funzionalità, i miglioramenti e le correzioni di b
 ## **Insetti**
 - Conversione da DIAGRAMNET-50022-VSDX a VDX, messaggio di avviso di dati non validi
 - DIAGRAMNET-50032-Disposizione delle forme nel diagramma di flusso, la posizione delle forme non viene modificata.
-- Conversione da DIAGRAMNET-50059-VSD a SVG, visibilità errata per sovrapposizione del colore nero
-- Conversione da DIAGRAMNET-50074-VSD a PDF, le linee di testo dei punti elenco escono dalla forma del contenitore
-- Conversione da DIAGRAMNET-50076-VSD a HTML, le linee di testo dei punti elenco escono dalla forma del contenitore
-- Conversione da DIAGRAMNET-50107-VSD a PDF, spazio bianco aggiuntivo nella parte superiore del disegno effettivo
-- Conversione da DIAGRAMNET-50133-VSD a PDF, elementi di testo con posizione errata
-- DIAGRAMNET-50153-Messaggio InvalidCastException durante il salvataggio di diagram nel formato SVG
+- DIAGRAMNET-50059-VSD to SVG conversion, incorrect visibility by overlapping of black color
+- DIAGRAMNET-50074-VSD to PDF conversion, bullet text lines are going outside the container shape
+- DIAGRAMNET-50076-VSD to HTML conversion, bullet text lines are going outside the container shape
+- DIAGRAMNET-50107-VSD to PDF conversion, additional white space on the top of actual drawing
+- DIAGRAMNET-50133-VSD to PDF conversion, text items with incorrect position
+- DIAGRAMNET-50153-InvalidCastException message while saving diagram to SVG format
 - DIAGRAMNET-50174-Impossibile assegnare una forma a un livello
-- Conversione da DIAGRAMNET-50177-VSD a PDF, manca una riga vuota dal paragrafo
-- Conversione da DIAGRAMNET-50179-VSD a PDF, testo di Shape con wrapping/layout errato
+- DIAGRAMNET-50177-VSD to PDF conversion, missing an empty line from the paragraph
+- DIAGRAMNET-50179-VSD to PDF conversion, Shape's text with incorrect wrapping/layout
 - DIAGRAMNET-50213-Messaggio di errore all'apertura dell'uscita VDX nel disegno Visio
-- Conversione da DIAGRAMNET-50266-VSDX a PDF, il colore di riempimento della forma viene modificato
-- Conversione da DIAGRAMNET-50267-VSDX a HTML, il colore di riempimento della forma viene modificato
-- Conversione da DIAGRAMNET-50323-VSD a PDF, il colore di sfondo della forma non viene conservato
-- Conversione da DIAGRAMNET-50326-VSDX a PDF, campo di testo mancante nell'angolo in alto a destra
-- Conversione da DIAGRAMNET-50330-VSDX a PDF, le forme non vengono conservate
-- Conversione da DIAGRAMNET-50331-VSDX a HTML, le forme non vengono conservate
-- DIAGRAMNET-50333-Problema di prestazioni durante l'esportazione di VSDX in formato PDF
-- Conversione da DIAGRAMNET-50336-VSDX a PDF, sequenza errata di interruzioni di riga nel testo della forma
-- Conversione da DIAGRAMNET-50337-VSDX a HTML, sequenza errata di interruzioni di riga nel testo della forma
-- Conversione da DIAGRAMNET-50342-VSDX a PDF, colore di sfondo errato delle forme
-- Conversione da DIAGRAMNET-50343-VSDX a HTML, colore di sfondo errato delle forme
+- DIAGRAMNET-50266-VSDX to PDF conversion, shape Fill color is changed
+- DIAGRAMNET-50267-VSDX to HTML conversion, shape Fill color is changed
+- DIAGRAMNET-50323-VSD to PDF conversion, background color of the shape is not preserved
+- DIAGRAMNET-50326-VSDX to PDF conversion, missing textfield at the top right corner
+- DIAGRAMNET-50330-VSDX to PDF conversion, shapes are not preserved
+- DIAGRAMNET-50331-VSDX to HTML conversion, shapes are not preserved
+- DIAGRAMNET-50333-Performance issue while exporting VSDX to PDF format
+- DIAGRAMNET-50336-VSDX to PDF conversion, incorrect sequence of line breaks in the shape's text
+- DIAGRAMNET-50337-VSDX to HTML conversion, incorrect sequence of line breaks in the shape's text
+- DIAGRAMNET-50342-VSDX to PDF conversion, incorrect background color of the shapes
+- DIAGRAMNET-50343-VSDX to HTML conversion, incorrect background color of the shapes
 - DIAGRAMNET-50354-Avvertenze all'apertura del file output Visio in MS Office 2010/2007

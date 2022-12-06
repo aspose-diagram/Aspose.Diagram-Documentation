@@ -6,14 +6,14 @@ url: /sv/python-java/aspose-diagram-for-python-via-java-22-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller information om releasenoter för Aspose.Diagram för Python via Java 22.9.
+Den här sidan innehåller information om release notes för Aspose.Diagram för Python via Java 22.9.
 
 {{% /alert %}}
 ## **Förbättringar och förändringar**  ##
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-51022|WK: Form förvrängd efter att ha sparats till PNG|Förbättring|
+|DIAGRAMJAVA-51022|WK: Formen förvrängd efter att ha sparats till PNG|Förbättring|
 |DIAGRAMJAVA-51015|wk: Formnamn på ett annat språk än engelska|Insekt|
 |DIAGRAMJAVA-51020|wk: Namnet på arkformen med ett lager är inte korrekt löst|Insekt|
 

@@ -21,12 +21,12 @@ url: /sv/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50569|Lägg till support för att uppdatera VBA-koden.|Ny funktion|
 |DIAGRAMNET-50859|Lägg till stöd för att importera den makroaktiverade mallen (.VSTM).|Ny funktion|
 |DIAGRAMNET-50860|Lägg till stöd för att importera den makroaktiverade stencilen (.VSSM).|Ny funktion|
-|DIAGRAMNET-50701|VSDX till PDF-export - formens gränsfärg överlappar den interna strukturen.|Insekt|
+|DIAGRAMNET-50701|VSDX till PDF export - formens gränsfärg överlappar den interna strukturen.|Insekt|
 |DIAGRAMNET-50790|Diagram-undantaget inträffade när en VSDX-fil laddades.|Insekt|
 |DIAGRAMNET-50793|Textobjekten saknas vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-50794|Textobjekten saknas vid konvertering av en VSD till PNG.|Insekt|
 |DIAGRAMNET-50795|Textobjekten saknas vid konvertering av en VSD till JPG.|Insekt|
-|DIAGRAMNET-50796|Den genomskinliga bakgrunden av bilder förvandlas till vit färg när VSD konverteras till PDF.|Insekt|
+|DIAGRAMNET-50796|Den genomskinliga bakgrunden av bilder förvandlas till vit färg vid konvertering av VSD till PDF.|Insekt|
 |DIAGRAMNET-50798|Den genomskinliga bakgrunden av bilder förvandlas till vit färg vid konvertering av VSD till JPG.|Insekt|
 |DIAGRAMNET-50804|Diagram-undantaget inträffade när VTX-filen sparades.|Insekt|
 |DIAGRAMNET-50801|Diagram undantag inträffade när VSX-filen sparades - I.|Insekt|
@@ -72,7 +72,7 @@ url: /sv/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50869|Felaktig formatering av formen vid konvertering av en VSD till PDF - I.|Insekt|
 |DIAGRAMNET-50871|Felaktig formatering av formerna vid konvertering av en VSD till PDF - II.|Insekt|
 |DIAGRAMNET-50874|Extra cirklar läggs till när en VSD konverteras till PDF.|Insekt|
-|DIAGRAMNET-50875|Former är felplacerade när du konverterar en VSD till PDF.|Insekt|
+|DIAGRAMNET-50875|Former är felplacerade vid konvertering av en VSD till PDF.|Insekt|
 |DIAGRAMNET-50876|Formstorleken ändras vid konvertering av en VSD till PDF.|Insekt|
 ### **Offentlig API och bakåtinkompatibla ändringar**
 Se listan över eventuella ändringar som gjorts för allmänheten API såsom tillagda, omdöpta, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for .NET. Om du har frågor om någon ändring i listan, vänligen ta upp det på[Aspose.Diagram supportforum](https://forum.aspose.com/c/diagram/17).

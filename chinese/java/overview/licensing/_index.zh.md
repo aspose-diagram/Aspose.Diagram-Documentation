@@ -10,7 +10,7 @@ url: /zh/java/licensing/
 评估版提供除以下功能外的所有功能：
 
 - 您只能阅读 VSD 文件第一页的前十个形状。
-- 您还将在导出的图像和 PDF 文件中看到评估水印。
+- You will also see evaluation watermark in exoprted images and PDF files.
 
 如果您想在没有评估限制的情况下试用 Aspose.Diagram，请申请 30 天的临时许可证。请参阅[如何获得临时许可证？](https://purchase.aspose.com/temporary-license)了解更多信息。
 ## **申请许可证**

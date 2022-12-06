@@ -14,6 +14,6 @@ url: /ar/java/aspose-diagram-for-java-19-12-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50663|غير قادر على الحصول على لون التعبئة الصحيح من الأشكال والخط|حشرة|
-|DIAGRAMJAVA-50673|الخلفيات غير الصحيحة لأشكال معينة عند الحفظ كملف PDF|حشرة|
-|DIAGRAMJAVA-50674|Visio to PDF - يقوم API بإنتاج ملف PDF تالف|حشرة|
+|DIAGRAMJAVA-50673|خلفيات غير صحيحة لأشكال معينة عند الحفظ كـ PDF|حشرة|
+|DIAGRAMJAVA-50674|Visio إلى PDF-API ينتج PDF تالف|حشرة|
 

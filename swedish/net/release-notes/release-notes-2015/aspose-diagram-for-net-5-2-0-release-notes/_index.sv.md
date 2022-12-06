@@ -11,9 +11,9 @@ Den här versionen introducerar funktionerna, förbättringarna och buggfixarna 
 ## **Förbättringar**
 - DIAGRAMNET-50235-Tidslinjedata uppdateras inte i Visio Viewer
 ## **Prestanda**
-- DIAGRAMNET-50378-Prestandaproblem vid export av VSD till PDF-format
+- DIAGRAMNET-50378-Prestandaproblem vid export av VSD till PDF format
 ## **Buggar**
-- DIAGRAMNET-50364-VSDX till PDF-konvertering, felaktig återgivning av textobjekten
+- DIAGRAMNET-50364-VSDX till PDF konvertering, felaktig återgivning av textobjekten
 - DIAGRAMNET-50386-Kan inte lägga till form andra gången på samma sida eller annan
 - DIAGRAMNET-50387-Kan inte flytta former manuellt i Microsoft Office 2010/2013
 - DIAGRAMNET-50388-Lägg till stöd för att skicka utskriftsjobbnamnet som en annan parameter
@@ -22,9 +22,9 @@ Den här versionen introducerar funktionerna, förbättringarna och buggfixarna 
 - DIAGRAMNET-50394-Argument Out of range felmeddelande uppstod när en form placerades
 - DIAGRAMNET-50398-Shape använder en enda anslutningspunkt istället för olika anslutningspunkter
 - DIAGRAMNET-50400-Varningsmeddelande vid öppning resulterande VDX diagram
-- DIAGRAMNET-50401-VSD till PDF-konvertering, former är inte korrekt synliga
-- DIAGRAMNET-50402-VSD till PNG-konvertering, former är inte korrekt synliga
-- DIAGRAMNET-50403-VSD till SVG-konvertering, former är inte korrekt synliga
+- DIAGRAMNET-50401-VSD till PDF konvertering, former är inte korrekt synliga
+- DIAGRAMNET-50402-VSD till PNG konvertering, former är inte korrekt synliga
+- DIAGRAMNET-50403-VSD till SVG konvertering, former är inte korrekt synliga
 - DIAGRAMNET-50404-VSD till VDX konvertering, former är inte korrekt synliga
 - DIAGRAMNET-50405-VSD till VDX konvertering, formens text går utanför gränsen
 - DIAGRAMNET-50407-Kan inte limma form inuti behållaren

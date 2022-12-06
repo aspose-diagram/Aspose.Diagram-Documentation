@@ -15,8 +15,8 @@ Bu sayfa Aspose.Diagram for .NET 21.12 için sürüm notları bilgilerini içeri
 |:- |:- |:- |
 |DIAGRAMNET-52408|EmfRederSetting EmfPlusPrefer kullandığımızda sorunlar|Artırma|
 |DIAGRAMNET-52438|SaveForegroundPagesOnly for print|Artırma|
-|DIAGRAMNET-52450|Visio - SVG - Raster görüntüyü ayrı kaydetme|Artırma|
-|DIAGRAMNET-51171|Çizimi PDF biçiminde kaydederken şekillerin kısmi olarak işlenmesi|Böcek|
+|DIAGRAMNET-52450|Visio ila SVG - Raster görüntüyü ayrı kaydetme|Artırma|
+|DIAGRAMNET-51171|Çizimi PDF formatında kaydetmede şekillerin kısmi olarak işlenmesi|Böcek|
 |DIAGRAMNET-51390|Katıştırılmış nesne düzgün şekilde değiştirilmemiş|Böcek|
 |DIAGRAMNET-51800|Visio - SVG - Arka Plan Resmi Eksik (PowerPoint, VISIO'ya eklenir)|Böcek|
 |DIAGRAMNET-52423|Page.Copy(), diagram'de Excel Nesnesini kopyalamaz|Böcek|

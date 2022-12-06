@@ -14,12 +14,12 @@ url: /sv/net/aspose-diagram-for-net-16-10-0-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMNET-50545|Master-Möjlighet att lägga till masters utan en stencil, diagram eller mall.|Ny funktion|
-|DIAGRAMNET-50192|VSD till PDF-konvertering, texten i formen verkar inte fet.|Insekt|
+|DIAGRAMNET-50192|VSD till PDF omvandling, texten i formen verkar inte fet.|Insekt|
 |DIAGRAMNET-50524|Shape.GluedShapes metodanrop returnerar inte alla form-ID.|Insekt|
-|DIAGRAMNET-50578|VSDX till PDF-konvertering, anslutningslinjerna är inte raka-I.|Insekt|
-|DIAGRAMNET-50598|VSDX till PDF-konvertering, anslutningslinjerna är inte raka II.|Insekt|
-|DIAGRAMNET-50583|VSDX till HTML-konvertering, de anslutande linjerna är inte raka-I.|Insekt|
-|DIAGRAMNET-50603|VSDX till HTML-konvertering är de anslutande linjerna inte raka II.|Insekt|
+|DIAGRAMNET-50578|VSDX till PDF omvandling, anslutningslinjerna är inte raka-I.|Insekt|
+|DIAGRAMNET-50598|VSDX till PDF omvandling, anslutningslinjerna är inte raka II.|Insekt|
+|DIAGRAMNET-50583|VSDX till HTML omvandling, anslutningslinjerna är inte raka-I.|Insekt|
+|DIAGRAMNET-50603|VSDX till HTML omvandling, anslutningslinjerna är inte raka II.|Insekt|
 |DIAGRAMNET-51007|Textobjekten förskjuts vid konvertering av en VSDX till PDF.|Insekt|
 |DIAGRAMNET-51008|Saknar den fetstilta textformateringen och felaktiga radbrytningar vid konvertering av en VSDX till PDF.|Insekt|
 |DIAGRAMNET-51009|Den felaktiga positionen för text vid konvertering av en VSDX till PDF.|Insekt|
@@ -27,14 +27,14 @@ url: /sv/net/aspose-diagram-for-net-16-10-0-release-notes/
 |DIAGRAMNET-51013|Den vertikala texten visas som horisontell text vid konvertering av en VSDX till PNG.|Insekt|
 |DIAGRAMNET-51026|Hämtar omvänd ordning för inkommande och utgående noder från en VSDX.|Insekt|
 |DIAGRAMNET-51028|Det går inte att hämta relationscellen för behållarformen från en VSD.|Insekt|
-|DIAGRAMNET-51039|De ytterligare numren läggs till när en VSD konverteras till SVG.|Insekt|
+|DIAGRAMNET-51039|De ytterligare numren läggs till när ett VSD konverteras till SVG.|Insekt|
 |DIAGRAMNET-51042|Pilarna renderas inte korrekt vid konvertering av en VSD till SVG.|Insekt|
-|DIAGRAMNET-51047|Felaktig rendering av kalendern vid konvertering av en VSD till SVG.|Insekt|
+|DIAGRAMNET-51047|Felaktig rendering av kalendern vid konvertering av ett VSD till SVG.|Insekt|
 |DIAGRAMNET-51050|Metoden Shape.ConnectedShapes returnerar noder med omvänd riktning.|Insekt|
 |DIAGRAMNET-51051|Det går inte att hämta relationscellen för formerna från en VSD.|Insekt|
 |DIAGRAMNET-51052|Bakgrundsfärgen på Visio sidor är svart vid konvertering av en VSD till SVG.|Insekt|
 |DIAGRAMNET-51060|Skräpform-ID:n hämtas från en VSD diagram.|Insekt|
-|DIAGRAMNET-51066|Den felaktiga symbolen visas vid konvertering av en VSDX-sida till SVG.|Insekt|
+|DIAGRAMNET-51066|Den felaktiga symbolen visas när du konverterar en VSDX-sida till SVG.|Insekt|
 |DIAGRAMNET-51067|NullReferenceException inträffade vid konvertering av en VDX till VSDX.|Insekt|
 |DIAGRAMNET-51068|Alternativet Sidstorlek ändras genom att ställa in bredden och höjden på sidan VSDM.|Insekt|
 |DIAGRAMNET-51069|Det går inte att hämta relationssträngen för formerna från en VSD.|Insekt|

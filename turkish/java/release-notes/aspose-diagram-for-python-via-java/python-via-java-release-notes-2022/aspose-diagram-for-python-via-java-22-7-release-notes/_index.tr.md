@@ -1,12 +1,12 @@
 ﻿---
-title: Java aracılığıyla Python için Aspose.Diagram 22.7 Sürüm Notları
+title: Python via Java için Aspose.Diagram 22.7 Sürüm Notları
 type: docs
 weight: 21
 url: /tr/java/aspose-diagram-for-python-via-java-22-7-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Bu sayfa, Java 22.7 aracılığıyla Python için Aspose.Diagram için sürüm notları bilgilerini içerir.
+Bu sayfa Aspose.Diagram için Python via Java için sürüm notları bilgilerini içerir 22.7.
 
 {{% /alert %}}
 ## **İyileştirmeler ve Değişiklikler**  ##
@@ -14,7 +14,7 @@ Bu sayfa, Java 22.7 aracılığıyla Python için Aspose.Diagram için sürüm n
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: Devralma doldurma sorunu|Artırma|
-|DIAGRAMJAVA-50446|Çıktı görüntüsü, bir VSD'i HTML'ye dönüştürürken pikselleştirilir|Böcek|
+|DIAGRAMJAVA-50446|Bir VSD'den HTML'e dönüştürülürken çıktı görüntüsü pikselleştirilir|Böcek|
 |DIAGRAMJAVA-50996|Şekil düzgün görüntülenmiyor - bunun yerine çapraz dikdörtgen gösteriliyor|Böcek|
 
 ## `?`**Genel API ve Geriye Dönük Uyumsuz Değişiklikler**

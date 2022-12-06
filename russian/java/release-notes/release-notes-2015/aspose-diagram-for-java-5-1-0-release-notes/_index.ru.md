@@ -11,5 +11,5 @@ Aspose .Diagram for Java был обновлен до версии 5.1.0, и м�
 DIAGRAMJAVA-50133- Diagram. метод print() не работает
 DIAGRAMJAVA-50139 — Включить файл «End User Agreement.html» в пакеты, отличные от MSI
 DIAGRAMJAVA-50140 — NullReferenceException возникло при получении объекта страницы по его имени
-DIAGRAMJAVA-50141) -VDX Экспорт в PDF зависает на Red Hat Linux Server
-DIAGRAMJAVA-50142) -VDX экспорт в PNG зависает на Red Hat Linux Server
+DIAGRAMJAVA-50141) Экспорт с -VDX по PDF зависает на Red Hat Linux Server
+DIAGRAMJAVA-50142) Экспорт с -VDX по PNG зависает на Red Hat Linux Server

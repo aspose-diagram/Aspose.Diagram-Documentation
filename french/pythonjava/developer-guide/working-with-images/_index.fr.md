@@ -14,7 +14,7 @@ Le morceau de code suivant extrait toutes les images d'une page Visio particuli�
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ExtractAllImagesFromPage.py" >}}
 ## **Obtenez des icônes de diverses formes Visio**
- Aspose.Diagram pour Python via Java API permet désormais aux développeurs d'obtenir des icônes de divers[Visio formes](Timeline.vss). 
+Aspose.Diagram for Python via Java API now allows developers to get icons of various [Visio formes](Timeline.vss). 
 ### **Obtenir l'icône de forme**
 Le code dans les exemples ci-dessous montre comment :
 
@@ -25,7 +25,7 @@ Le code dans les exemples ci-dessous montre comment :
 #### **Obtenir un exemple de programmation d'icônes**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-GetShapeIcon.py" >}}
 ## **Remplacer une forme d'image du Visio Diagram**
-Aspose.Diagram pour Python via Java API permet aux développeurs d'accéder et de remplacer les formes d'image disponibles dans[le Visio diagram](ExtractAllImagesFromPage.vsd).
+Aspose.Diagram for Python via Java API allows developers to access and replace available picture shapes in [le Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **Remplacement d'une forme d'image**
 Le code dans les exemples ci-dessous montre comment :
 
@@ -36,7 +36,7 @@ Le code dans les exemples ci-dessous montre comment :
 #### **Remplacer un exemple de programmation de forme d'image**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ReplaceShapePicture.py" >}}
 ## **Importer l'image en tant que forme Visio**
-Aspose.Diagram pour Python via Java API permet désormais aux développeurs d'importer une image en tant que forme Microsoft Visio.
+Aspose.Diagram for Python via Java API now allows developers to import a image as a Microsoft Visio shape.
 ### **Insérer une image dans Visio**
 Le code dans les exemples ci-dessous montre comment :
 

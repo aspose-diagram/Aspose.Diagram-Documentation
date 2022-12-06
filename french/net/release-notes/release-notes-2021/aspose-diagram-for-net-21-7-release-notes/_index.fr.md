@@ -13,11 +13,11 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51447|Sortie SVG - Appliquer les attributs CSS au texte|Renforcement|
+|DIAGRAMNET-51447|Output SVG - Apply CSS attributes to the text|Renforcement|
 |DIAGRAMNET-51993|Erreurs de formatage en pdf du vsd|Renforcement|
 |DIAGRAMNET-52020|Problème avec le connecteur dynamique|Renforcement|
-|DIAGRAMNET-52044|Visio en HTML - Les formes sont incorrectes dans la sortie|Punaise|
-|DIAGRAMNET-52045|Visio en HTML - API lance System.ArgumentException : 'Le paramètre n'est pas valide.'|Punaise|
+|DIAGRAMNET-52044|Visio to HTML - The shapes are incorrect in the output|Punaise|
+|DIAGRAMNET-52045|Visio to HTML - API is throwing System.ArgumentException: 'Parameter is not valid.'|Punaise|
 |DIAGRAMNET-52049|L'enregistrement de vsdx au format pdf lève une exception de mémoire insuffisante|Punaise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

@@ -22,10 +22,10 @@ Den här sidan innehåller release notes för[Aspose.Diagram for .NET 19.4](http
 |DIAGRAMNET-51404|VSD till bild - Formfärgen är mörk|Insekt|
 |DIAGRAMNET-51473|VDX till PDF - Fel bakgrundsfärg|Insekt|
 |DIAGRAMNET-51475|VSDX till PDF - Gradienterna renderas omvänt|Insekt|
-|DIAGRAMNET-51616|Visio till PDF - Gradient renderas upp och ner i utdata-PDF|Insekt|
-|DIAGRAMNET-51630|VSDX till HTML - Bakgrundsfärg för former finns inte i utdata|Insekt|
-|DIAGRAMNET-51631|VSDX till PDF - Bakgrundsfärg för former finns inte i utdata|Insekt|
-|DIAGRAMNET-51632|VSD till SVG - Det gick inte att casta objekt av typen ' ' till typen ' ' Undantag inträffade|Insekt|
+|DIAGRAMNET-51616|Visio till PDF - Gradient återges upp och ned i utdata PDF|Insekt|
+|DIAGRAMNET-51630|VSDX till HTML - Bakgrundsfärg på former finns inte i utdata|Insekt|
+|DIAGRAMNET-51631|VSDX till PDF - Bakgrundsfärg på former finns inte i utdata|Insekt|
+|DIAGRAMNET-51632|VSD till SVG - Det går inte att casta objekt av typen ' ' till typen ' ' Undantag inträffade|Insekt|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Diagram for .NET. Om du har frågor om någon ändring i listan, vänligen ta upp dem i de[Aspose.Diagram supportforum](https://forum.aspose.com/c/diagram/17).

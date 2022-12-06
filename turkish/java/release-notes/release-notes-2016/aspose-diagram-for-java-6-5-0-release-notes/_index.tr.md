@@ -14,7 +14,7 @@ url: /tr/java/aspose-diagram-for-java-6-5-0-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50219|VSS kalıp dosyasından bağlantılar alınamıyor.|Böcek|
-|DIAGRAMJAVA-50324|Bir VSDX, SVG'ye dönüştürülürken metin öğelerinin konumu değişir.|Böcek|
+|DIAGRAMJAVA-50324|VSDX, SVG'e dönüştürüldüğünde metin öğelerinin konumu değişir.|Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API'de yapılan tüm değişikliklerin yanı sıra Aspose.Diagram for Java'de yapılan geriye dönük uyumlu olmayan değişiklikler için listeye bakın. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).
 

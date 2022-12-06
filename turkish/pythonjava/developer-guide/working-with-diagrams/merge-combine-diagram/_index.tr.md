@@ -7,8 +7,8 @@ description: Bu bölümde visio dosyasının nasıl birleştirileceği açıklan
 ---
 ## **Olası Kullanım Senaryoları**
 
- Java üzerinden Python için Aspose.Diagram, iki visio dosyasını bir dosyada birleştirmenizi sağlar.
-Java aracılığıyla Python için Aspose.Diagram API, bir Visio çizimini temsil eden Diagram sınıfına sahiptir.
+Python için Aspose.Diagram via Java, iki visio dosyasını bir dosyada birleştirmenizi sağlar.
+Python via Java API için Aspose.Diagram, bir Visio çizimini temsil eden Diagram sınıfına sahiptir.
 Yöntemi kullanma**birleştir** Diagram sınıfında diyagramları birleştirmek için.
 
 ## **Basit kod**

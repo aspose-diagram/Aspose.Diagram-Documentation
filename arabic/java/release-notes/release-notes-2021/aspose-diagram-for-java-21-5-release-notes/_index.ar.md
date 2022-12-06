@@ -15,5 +15,5 @@ url: /ar/java/aspose-diagram-for-java-21-5-release-notes/
 |:- |:- |:- |
 |DIAGRAMJAVA-50714|API يستغرق وقتًا طويلاً لتحويل visio diagram إلى svg|التعزيز|
 |DIAGRAMJAVA-50720|تحويل VSDX إلى PNG - الأشكال فارغة في الصورة الناتجة|التعزيز|
-|DIAGRAMJAVA-50721|محتوى مفقود في EMF المُصدَّر|حشرة|
-|DIAGRAMJAVA-50723|انحدار الشكل في غير محله من 21.2 إلى 21.3 عند الحفظ بتنسيق SVG|حشرة|
+|DIAGRAMJAVA-50721|المحتوى مفقود في EMF المُصدَّر|حشرة|
+|DIAGRAMJAVA-50723|انحدار الشكل في غير محله من 21.2 إلى 21.3 عند الحفظ كـ SVG|حشرة|

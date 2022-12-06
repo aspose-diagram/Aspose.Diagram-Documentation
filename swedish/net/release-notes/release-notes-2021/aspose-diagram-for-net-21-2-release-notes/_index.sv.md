@@ -16,7 +16,7 @@ Den här sidan innehåller information om release notes för Aspose.Diagram for 
 |DIAGRAMNET-51986|Lägg till centerDrawing-metod som finns på interop visio sida|Förbättring|
 |DIAGRAMNET-51987|Implementera en metod för att få ActivePage|Förbättring|
 |DIAGRAMNET-51978|Konvertera VSD till VSDX - det går inte att öppna utgången i MS Visio|Insekt|
-|DIAGRAMNET-51980|"Ett allmänt fel inträffade i GDI+." undantag vid rendering till HTML VSDX-fil|Insekt|
+|DIAGRAMNET-51980|"Ett allmänt fel inträffade i GDI+." undantag vid rendering till HTML VSDX fil|Insekt|
 |DIAGRAMNET-51981|Konvertera VSDX till PDF - Former är svarta i utdata-pdf|Insekt|
 |DIAGRAMNET-51985|VSDX till VSDX/VDX konvertering: Formfärger ändras till övertoning efter att ha sparats|Insekt|
 |DIAGRAMNET-51989|Visio till HTML - Konstig kant i utgången|Insekt|

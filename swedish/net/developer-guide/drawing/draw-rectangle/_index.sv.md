@@ -15,7 +15,7 @@ Aspose.Diagram for .NET API låter utvecklare rita en rektangel på sidan och sp
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsSVG.cs" >}}
 
-## **Rita rektangel i pdf**
+## **Rita rektangel i PDF**
 Aspose.Diagram for .NET API låter utvecklare rita en rektangel på sidan och spara som PDF-format. Kodexemplet nedan visar hur man ritar en rektangel i en Visio-ritning och sparar som PDF-format.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawRectangle-AsPDF.cs" >}}

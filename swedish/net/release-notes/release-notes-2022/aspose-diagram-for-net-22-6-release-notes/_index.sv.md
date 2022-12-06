@@ -18,7 +18,7 @@ Den här sidan innehåller information om utgåvor för Aspose.Diagram for .NET 
 |DIAGRAMNET-52858|Bildkvalitet i HTML|Förbättring|
 |DIAGRAMNET-52825|Export till HTML problem|Insekt|
 |DIAGRAMNET-52832|Visio till PDF/SVG - Roterad textposition ändrad|Insekt|
-|DIAGRAMNET-52840|Element i HTML-förhandsgranskning suddiga|Insekt|
+|DIAGRAMNET-52840|Element i HTML förhandsgranskning suddiga|Insekt|
 |DIAGRAMNET-52842|Autopassningssidan passar inte automatiskt|Insekt|
 |DIAGRAMNET-52849|Rasterbilder är inte nedskalade efter konvertering|Insekt|
 |DIAGRAMNET-52852|VSD Öppna fel - Aspose.Diagram.DiagramException|Insekt|

@@ -14,7 +14,7 @@ Bu sayfa Aspose.Diagram for Java 22.7 için sürüm notları bilgilerini içerir
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50991|wk: Devralma doldurma sorunu|Artırma|
-|DIAGRAMJAVA-50446|Çıktı görüntüsü, bir VSD'i HTML'ye dönüştürürken pikselleştirilir|Böcek|
+|DIAGRAMJAVA-50446|Bir VSD'den HTML'e dönüştürülürken çıktı görüntüsü pikselleştirilir|Böcek|
 |DIAGRAMJAVA-50996|Şekil düzgün görüntülenmiyor - bunun yerine çapraz dikdörtgen gösteriliyor|Böcek|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

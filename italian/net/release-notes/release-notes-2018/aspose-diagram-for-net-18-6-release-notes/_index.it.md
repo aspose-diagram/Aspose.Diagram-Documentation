@@ -13,21 +13,21 @@ url: /it/net/aspose-diagram-for-net-18-6-release-notes/
 
 |**Chiave**|**Riepilogo**|**Categoria**|
 |:- |:- |:- |
-|DIAGRAMNET-51457|Aggiungi il supporto di .NET Core|Aumento|
-|DIAGRAMNET-50198|Conversione da VSD a PDF, l'immagine del serbatoio non ha le strutture interne in linea retta|Insetto|
-|DIAGRAMNET-50205|Conversione da VSD a PDF, riempimento sfumato orizzontale anziché centrale|Insetto|
-|DIAGRAMNET-50651|VSD all'esportazione SVG, l'output della pagina in formato SVG risulta sfocato|Insetto|
-|DIAGRAMNET-50666|VSDX in esportazione PDF - Rendering parziale delle forme di tipo Calendario|Insetto|
-|DIAGRAMNET-50667|VSDX in esportazione HTML - Rendering parziale delle forme di tipo Calendario|Insetto|
-|DIAGRAMNET-50668|Esportazione da VSDX a XPS: rendering parziale delle forme di tipo Calendario|Insetto|
-|DIAGRAMNET-50669|Esportazione da VSDX a JPEG - Rendering parziale delle forme di tipo Calendario|Insetto|
-|DIAGRAMNET-50670|Esportazione da VSDX a PNG: rendering parziale delle forme di tipo Calendario|Insetto|
-|DIAGRAMNET-50671|VSDX in esportazione SVG - Rendering parziale delle forme di tipo Calendario|Insetto|
-|DIAGRAMNET-50706|VSDX in esportazione PDF - vengono aggiunti rettangoli di colore verde|Insetto|
-|DIAGRAMNET-50707|VSDX in esportazione PDF: il colore del carattere del testo della forma viene modificato|Insetto|
-|DIAGRAMNET-50708|VSDX in esportazione PDF: manca il testo della forma|Insetto|
-|DIAGRAMNET-51041|Le linee di colore nero non sono visibili durante la conversione di un VSD in SVG|Insetto|
+|DIAGRAMNET-51457|Add Support of .NET Core|Aumento|
+|DIAGRAMNET-50198|VSD to PDF conversion, tank image doesn't have the internal straight line structures|Insetto|
+|DIAGRAMNET-50205|VSD to PDF conversion, horizontal gradient fill instead of center|Insetto|
+|DIAGRAMNET-50651|VSD to SVG export, the page output in SVG format is coming blurred|Insetto|
+|DIAGRAMNET-50666|VSDX to PDF export - Partial rendering of the Calendar type shapes|Insetto|
+|DIAGRAMNET-50667|VSDX to HTML export - Partial rendering of the Calendar type shapes|Insetto|
+|DIAGRAMNET-50668|VSDX to XPS export - Partial rendering of the Calendar type shapes|Insetto|
+|DIAGRAMNET-50669|VSDX to JPEG export - Partial rendering of the Calendar type shapes|Insetto|
+|DIAGRAMNET-50670|VSDX to PNG export - Partial rendering of the Calendar type shapes|Insetto|
+|DIAGRAMNET-50671|VSDX to SVG export - Partial rendering of the Calendar type shapes|Insetto|
+|DIAGRAMNET-50706|VSDX to PDF export - green color rectangles are added|Insetto|
+|DIAGRAMNET-50707|VSDX to PDF export - the font color of the shape text is changed|Insetto|
+|DIAGRAMNET-50708|VSDX to PDF export - the shape text is missing|Insetto|
+|DIAGRAMNET-51041|The black color lines are not visible on converting a VSD to SVG|Insetto|
 |DIAGRAMNET-51466|Connettore mancante in Diagram|Insetto|
-|DIAGRAMNET-51468|VSDX in PNG: manca lo spazio verticale delle parole|Insetto|
+|DIAGRAMNET-51468|VSDX to PNG - the vertical space of words is missing|Insetto|
 |DIAGRAMNET-51469|Output VSDX - resa errata del testo|Insetto|
 

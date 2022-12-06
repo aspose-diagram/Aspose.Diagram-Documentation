@@ -15,9 +15,9 @@ url: /zh/net/aspose-diagram-for-net-21-10-release-notes/
 |:- |:- |:- |
 |DIAGRAMNET-52116|“\VisioDocument 中的元素 VisioDocument 出错。不支持版本低于 11 的 Visio 文件。请将文件转换为 Visio 2003/2007/2010 格式。”打开 VSD 文件时出现异常|强化|
 |DIAGRAMNET-52258|导出后显示的图形发生偏移 [继续]|强化|
-|DIAGRAMNET-52284|[Linux]VDW、VSS、VST 渲染空白到 IMAGE/HTML|强化|
+|DIAGRAMNET-52284|[Linux]VDW, VSS, VST rendering blank to IMAGE/HTML|强化|
 |DIAGRAMNET-52328|如何在页面中放置新元素|强化|
-|DIAGRAMNET-52330|使用 PdfEncryptionDetails 将 VSDX 保存为 PDF 时，链接已断开|强化|
+|DIAGRAMNET-52330|When saving VSDX in PDF with PdfEncryptionDetails the links are broken|强化|
 |DIAGRAMNET-52333|表情符号未正确显示在页眉/页脚、替代文本、评论、页面名称、字段中|强化|
 |DIAGRAMNET-52272|应用程序：错误“对象引用未设置到对象的实例。”将 vsdx 另存为 png 时|漏洞|
 |DIAGRAMNET-52273|应用程序：错误“CRC 错误：正在提取的文件似乎已损坏。将 vsdx 另存为 png 时，预期为 0xFFFFFFFF，实际为 0xBB4C4551”|漏洞|

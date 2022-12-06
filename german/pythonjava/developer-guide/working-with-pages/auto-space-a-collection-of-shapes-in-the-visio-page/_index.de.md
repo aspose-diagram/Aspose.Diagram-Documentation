@@ -5,7 +5,7 @@ weight: 30
 url: /de/python-java/auto-space-a-collection-of-shapes-in-the-visio-page/
 ---
 ## **Platzieren Sie automatisch eine Sammlung von Formen auf der Seite Visio**
-Mit Aspose.Diagram für Python über Java API können Entwickler eine Sammlung von Formen in der Visio-Zeichnung automatisch platzieren. Um dies zu erreichen, bietet die Klasse `Page` den Member `autoSpaceShapes`, der ShapeCollection- und AutoSpaceOptions-Parameter übernimmt. Die Klasse `AutoSpaceOptions` ermöglicht die Einstellung horizontaler und vertikaler Abstände.
+With Aspose.Diagram for Python via Java API, developers can auto-space a collection of shapes in the Visio drawing. In order to achieve this, the `Page` class offers `autoSpaceShapes` member which takes ShapeCollection and AutoSpaceOptions parameters. The `AutoSpaceOptions` class allows to set horizontal and vertical distances.
 
 ### **Formen mit automatischem Abstand auf der Seite**
 Verwenden Sie den folgenden Code in Ihrer Anwendung, um eine Sammlung von Formen auf einer beliebigen Seite der Zeichnung Visio automatisch zu platzieren.

@@ -8,10 +8,10 @@ url: /sv/java/aspose-diagram-for-java-6-4-0-release-notes/
 
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
-| DIAGRAMJava-50060| VSD till PDF-konvertering, felaktig layout av texten i former.| Insekt|
-| DIAGRAMJava-50070| VSD till PDF-konvertering, texten i former är inte fet.| Insekt|
-| DIAGRAMJava-50071| VSD till PDF-konvertering, texten i former är inte kursiv.| Insekt|
-| DIAGRAMJava-50072| VSD till PDF-konvertering ändras teckenstorleken på texten i former.| Insekt|
+| DIAGRAMJava-50060| VSD till PDF konvertering, felaktig layout av texten i former.| Insekt|
+| DIAGRAMJava-50070| VSD till PDF konvertering, texten i former är inte fetstil.| Insekt|
+| DIAGRAMJava-50071| VSD till PDF konvertering, texten i former är inte kursiv.| Insekt|
+| DIAGRAMJava-50072| VSD till PDF konvertering ändras teckenstorleken på texten i former.| Insekt|
 | DIAGRAMJava-50320| Öppna och spara rutin för en VSDX diagram har tappat temat för formerna.| Insekt|
 | DIAGRAMJava-50321| Öppna och spara rutin för en VSDX diagram har tappat pilarna för kontakter.| Insekt|
 | DIAGRAMJava-50322|Öppna och spara rutin för en VSDX diagram har ändrat en streckad linjeposition.| Insekt|

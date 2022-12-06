@@ -15,8 +15,8 @@ Esta página contiene notas de la versión para[Aspose.Diagram for .NET 19.1](ht
 |:- |:- |:- |
 |DIAGRAMNET-51082|Agregar soporte para dibujar Polilínea|Mejora|
 |DIAGRAMNET-51084|Agregue soporte para dibujar formas Bezier|Mejora|
-|DIAGRAMNET-51231|Renderizar comentarios al guardar como imagen o HTML|Mejora|
-|DIAGRAMNET-51597| VISIO a SVG - Uso de elementos rectangulares<path> etiqueta en lugar de<Rect>|Mejora|
+|DIAGRAMNET-51231|Render comments when saving as image or HTML|Mejora|
+|DIAGRAMNET-51597|VISIO to SVG - Rectangle elements use <path> etiqueta en lugar de<Rect>|Mejora|
 |DIAGRAMNET-50764|VSDX a la lectura le falta el valor de color de varias formas|Insecto|
 |DIAGRAMNET-51336|Solucionar problemas en la versión Aspose.Diagram for .NET/Java|Insecto|
 |DIAGRAMNET-51343|Salida VSDX: el tamaño de la forma no se cambia|Insecto|

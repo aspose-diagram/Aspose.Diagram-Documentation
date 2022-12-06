@@ -14,7 +14,7 @@ Aşağıdaki kod parçası, belirli bir Visio sayfasından tüm resimleri çıka
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ExtractAllImagesFromPage.py" >}}
 ## **Çeşitli Visio Şekillerinin Simgelerini Alın**
- Java aracılığıyla Python için Aspose.Diagram API artık geliştiricilerin çeşitli simgeleri almasına izin veriyor[Visio şekiller](Timeline.vss). 
+ Python via Java API için Aspose.Diagram artık geliştiricilerin çeşitli simgeleri almasına izin veriyor[Visio şekiller](Timeline.vss). 
 ### **Şekil Simgesini Alma**
 Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 
@@ -25,7 +25,7 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 #### **Simge Programlama Örneği Alın**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-GetShapeIcon.py" >}}
 ## **Visio Diagram'in Resim Şeklini Değiştirme**
-Java aracılığıyla Python için Aspose.Diagram API, geliştiricilerin mevcut resim şekillerine erişmesine ve bunları değiştirmesine olanak tanır.[Visio diagram](ExtractAllImagesFromPage.vsd).
+ Python via Java API için Aspose.Diagram, geliştiricilerin mevcut resim şekillerine erişmesine ve bunları değiştirmesine olanak tanır.[Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **Resim Şeklini Değiştirme**
 Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 
@@ -36,7 +36,7 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 #### **Bir Resim Şekli Programlama Örneğinin Değiştirilmesi**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Shapes-IconAndPictures-ReplaceShapePicture.py" >}}
 ## **Görüntüyü Visio Şekli Olarak İçe Aktar**
-Java API yoluyla Python için Aspose.Diagram, artık geliştiricilerin bir görüntüyü Microsoft Visio şekli olarak içe aktarmasına izin veriyor.
+Python via Java API için Aspose.Diagram artık geliştiricilerin bir görüntüyü Microsoft Visio şekli olarak içe aktarmasına izin veriyor.
 ### **Visio'e bir Resim ekleyin**
 Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 

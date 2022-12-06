@@ -18,8 +18,8 @@ url: /zh/net/aspose-diagram-for-net-22-11-release-notes/
 |DIAGRAMNET-53024|公式不刷新字段|强化|
 |DIAGRAMNET-53009|从 vsdx 到 svg 丢失图像的对话|强化|
 |DIAGRAMNET-53010|应用程序：将 vsdx 保存到 Pdf 丢失的形状|漏洞|
-|DIAGRAMNET-53013|Visio 到 SVG - 自定义线条图案|漏洞|
-|DIAGRAMNET-53017|VSD HTML 中的链接区域已更改为版本 22.10.0.0|漏洞|
+|DIAGRAMNET-53013|Visio to SVG - Custom line patterns|漏洞|
+|DIAGRAMNET-53017|Linked area in HTML of VSD has changed to version 22.10.0.0|漏洞|
 |DIAGRAMNET-53018|Paras.SpLine 错误|漏洞|
 |DIAGRAMNET-53019|在左下角绘制了额外的线|漏洞|
 |DIAGRAMNET-53033|单元格的值计算不正确|漏洞|

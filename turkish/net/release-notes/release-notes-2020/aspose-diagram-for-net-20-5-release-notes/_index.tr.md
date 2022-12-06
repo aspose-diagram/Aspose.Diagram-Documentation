@@ -18,20 +18,20 @@ VSD'den PDF'e dönüştürme, şekillerin doğru metin hizalaması korunmaz
 |DIAGRAMNET-51731|diagram'de bir şeklin başka bir şekille kesişip kesişmediğini belirleme|Artırma|
 |DIAGRAMNET-51833|Aspose.Diagram 20.4: Visio Belge sürümü desteklenmiyor|Artırma|
 |DIAGRAMNET-50361|VSD'den PDF'e dönüştürme, şekillerin doğru metin hizalaması korunmaz|Böcek|
-|DIAGRAMNET-50955|VSDX PNG'ye dönüştürülürken baklava şekillerinin metin öğelerinin yeri değiştiriliyor|Böcek|
-|DIAGRAMNET-50990|Artı, bir VSDX'i PNG'ye dönüştürürken negatif ve dolar işaretleri düzgün şekilde hizalanmaz|Böcek|
+|DIAGRAMNET-50955|Bir VSDX'den PNG'e dönüştürülürken baklava şekillerinin metin öğelerinin yeri değiştirilir|Böcek|
+|DIAGRAMNET-50990|Artı, VSDX'i PNG'e dönüştürürken negatif ve dolar işaretleri düzgün şekilde hizalanmaz|Böcek|
 |DIAGRAMNET-51815|Şekildeki büyük miktarda metin satırı, alt tarafta açıkça yer değiştirmeye neden olabilir|Böcek|
 |DIAGRAMNET-51820|Değerlendirme filigranı bir sayfaya sığmıyor|Böcek|
 |DIAGRAMNET-51821|Visio'den Html'ye - çıktıdaki görüntü ve bağlantı sorunları|Böcek|
-|DIAGRAMNET-51823|Visio'i SVG'ye dönüştürürken. Bazı resimlerde sorun var Simge Eksik|Böcek|
-|DIAGRAMNET-51824|Visio'i SVG'ye dönüştürürken. İçerik Hizalaması yanlış|Böcek|
-|DIAGRAMNET-51826|Visio'i SVG'ye dönüştürürken. Simge Eksik|Böcek|
-|DIAGRAMNET-51827|Visio'i SVG'ye dönüştürürken - QR Kodu Eksik|Böcek|
-|DIAGRAMNET-51828|Visio'i SVG'ye dönüştürürken - PDF simgesi Eksik|Böcek|
-|DIAGRAMNET-51829|Visio'i SVG'ye dönüştürürken - Simge kayboldu (Eksik)|Böcek|
-|DIAGRAMNET-51830|Visio'i SVG'ye dönüştürürken - Görüntü kayboldu (Eksik)|Böcek|
-|DIAGRAMNET-51831|Visio'den HTML'ye - çıktıdaki resim ve bağlantı sorunları|Böcek|
-|DIAGRAMNET-51834|Visio HTML kaydet - yanlış bağlayıcılar|Böcek|
+|DIAGRAMNET-51823|Visio'i SVG'e dönüştürürken. Bazı resimlerde Simge Eksik sorunu var|Böcek|
+|DIAGRAMNET-51824|Visio'i SVG'e dönüştürürken. İçerik Hizalaması yanlış|Böcek|
+|DIAGRAMNET-51826|Visio'i SVG'e dönüştürürken. Simge Eksik|Böcek|
+|DIAGRAMNET-51827|Visio'i SVG'e dönüştürürken - QR Kodu Eksik|Böcek|
+|DIAGRAMNET-51828|Visio'i SVG'e dönüştürürken - PDF simgesi Eksik|Böcek|
+|DIAGRAMNET-51829|Visio'i SVG'e dönüştürürken - Simge kayboldu (Eksik)|Böcek|
+|DIAGRAMNET-51830|Visio'i SVG'e dönüştürürken - Görüntü kayboldu (Eksik)|Böcek|
+|DIAGRAMNET-51831|Visio - HTML - çıktıdaki görüntü ve bağlantı sorunları|Böcek|
+|DIAGRAMNET-51834|Visio kaydet HTML - yanlış konektörler|Böcek|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Diagram for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Diagram destek forumu.

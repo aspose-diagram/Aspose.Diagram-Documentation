@@ -14,33 +14,33 @@ url: /tr/java/aspose-diagram-for-java-16-10-0-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50422|Çıktı VSDX - Data1, Data2 ve Data3 özellikleri değiştirildiğinde şeklin metni değiştirilemez.|Artırma|
-|DIAGRAMJAVA-50423|Çıktı PDF'si - Data1, Data2 ve Data3 özellikleri değiştirildiğinde şeklin metni değiştirilemez.|Artırma|
+|DIAGRAMJAVA-50423|Çıktı PDF - Data1, Data2 ve Data3 özellikleri değiştirildiğinde şeklin metni değiştirilemez.|Artırma|
 |DIAGRAMJAVA-50424|Çıktı PDF - Şeklin metni başka bir şekil metninden değiştirilemez.|Artırma|
-|DIAGRAMJAVA-50016|VSD'den PDF'e dönüştürme, şekiller eksik.|Böcek|
+|DIAGRAMJAVA-50016|VSD - PDF dönüştürme, şekiller eksik.|Böcek|
 |DIAGRAMJAVA-50075|VSD'den PDF'e dönüştürme, şeklin metni kalın görünmüyor.|Böcek|
 |DIAGRAMJAVA-50210|Shape.GluedShapes yöntem çağrısı, tüm şekil kimliklerini döndürmüyor.|Böcek|
-|DIAGRAMJAVA-50363|VSDX PNG'ye dönüştürüldüğünde dikey metin yatay metin olarak görünür.|Böcek|
-|DIAGRAMJAVA-50364|VSDX PNG'ye dönüştürülürken şekillerin görünümü değişti.|Böcek|
-|DIAGRAMJAVA-50366|VSDX sayfasını PNG'ye dönüştürürken yanlış sembol görünüyor.|Böcek|
-|DIAGRAMJAVA-50371|Bir VST'yi PNG'ye kaydederken sayı biçimi hatası oluştu.|Böcek|
-|DIAGRAMJAVA-50372|Bir VST'yi PDF'ye kaydederken sayı biçimi hatası oluştu.|Böcek|
+|DIAGRAMJAVA-50363|VSDX, PNG'e dönüştürüldüğünde dikey metin yatay metin olarak görünür.|Böcek|
+|DIAGRAMJAVA-50364|VSDX, PNG'e dönüştürülürken şekillerin görünümü değişti.|Böcek|
+|DIAGRAMJAVA-50366|VSDX sayfası PNG'e dönüştürülürken yanlış sembol görünüyor.|Böcek|
+|DIAGRAMJAVA-50371|VST'den PNG'e kaydedilirken sayı biçimi hatası oluştu.|Böcek|
+|DIAGRAMJAVA-50372|VST'den PDF'e kaydedilirken sayı biçimi hatası oluştu.|Böcek|
 |DIAGRAMJAVA-50375|Bir VSDX'den gelen ve giden düğümlerin ters sırasını alır.|Böcek|
 |DIAGRAMJAVA-50377|Bir VSD'den kapsayıcı şeklinin ilişkiler hücresi alınamıyor.|Böcek|
-|DIAGRAMJAVA-50387|VSD, SVG'ye dönüştürülürken bir Sayı Biçimi hatası oluştu.|Böcek|
-|DIAGRAMJAVA-50389|Siyah renkli dikdörtgenler, bir VSD'in SVG'ye dönüştürülmesiyle oluşturulur.|Böcek|
-|DIAGRAMJAVA-50394|Bir VSD'i SVG'ye dönüştürürken oklar doğru şekilde oluşturulmuyor.|Böcek|
-|DIAGRAMJAVA-50395|Metin öğeleri, bir VSD'i SVG'ye dönüştürürken değiştirilir.|Böcek|
-|DIAGRAMJAVA-50397|VSD'i SVG'ye dönüştürürken takvimin yanlış oluşturulması.|Böcek|
+|DIAGRAMJAVA-50387|VSD, SVG'e dönüştürülürken bir Sayı Biçimi hatası oluştu.|Böcek|
+|DIAGRAMJAVA-50389|Siyah renkli dikdörtgenler, VSD'in SVG'e dönüştürülmesiyle oluşturulur.|Böcek|
+|DIAGRAMJAVA-50394|Bir VSD'in SVG'e dönüştürülmesinde oklar doğru şekilde oluşturulmuyor.|Böcek|
+|DIAGRAMJAVA-50395|Bir VSD'den SVG'e dönüştürülürken metin öğelerinin yeri değiştirilir.|Böcek|
+|DIAGRAMJAVA-50397|VSD'i SVG'e dönüştürürken takvimin yanlış oluşturulması.|Böcek|
 |DIAGRAMJAVA-50399|Shape.connectedShapes yöntemi, düğümleri ters yönde döndürür.|Böcek|
 |DIAGRAMJAVA-50400|VSD'den şekillerin ilişki hücresi alınamıyor.|Böcek|
-|DIAGRAMJAVA-50401|Visio sayfalarının arka plan rengi, VSD'i SVG'ye dönüştürürken siyahtır.|Böcek|
+|DIAGRAMJAVA-50401|Visio sayfalarının arka plan rengi, VSD'i SVG'e dönüştürürken siyahtır.|Böcek|
 |DIAGRAMJAVA-50411|Bir VSD diagram numaralı telefondan önemsiz şekil kimlikleri alınıyor.|Böcek|
-|DIAGRAMJAVA-50416|VSDX sayfası SVG'ye dönüştürülürken yanlış sembol görünüyor.|Böcek|
+|DIAGRAMJAVA-50416|VSDX sayfası SVG'e dönüştürülürken yanlış sembol görünüyor.|Böcek|
 |DIAGRAMJAVA-50417|Sayfa boyutu seçeneği VSDM sayfanın genişlik ve yüksekliği ayarlanarak değiştirilmektedir.|Böcek|
 |DIAGRAMJAVA-50418|VSD'den şekillerin ilişki dizesi alınamıyor.|Böcek|
 |DIAGRAMJAVA-50420|VSDM'de açma ve kaydetme sırasında Visio şeklinin boyutunda yanlış değişiklik.|Böcek|
 |DIAGRAMJAVA-50422|Çıktı VSDX - Data1, Data2 ve Data3 özellikleri değiştirildiğinde şeklin metni değiştirilemez.|Böcek|
-|DIAGRAMJAVA-50423|Çıktı PDF'si - Data1, Data2 ve Data3 özellikleri değiştirildiğinde şeklin metni değiştirilemez.|Böcek|
+|DIAGRAMJAVA-50423|Çıktı PDF - Data1, Data2 ve Data3 özellikleri değiştirildiğinde şeklin metni değiştirilemez.|Böcek|
 |DIAGRAMJAVA-50424|Çıktı PDF - Şeklin metni başka bir şekil metninden değiştirilemez.|Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi halka açık API'de yapılan tüm değişikliklerin yanı sıra Aspose.Diagram for Java'de yapılan geriye dönük uyumlu olmayan değişiklikler için listeye bakın. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bunu[Aspose.Diagram destek forumu](https://forum.aspose.com/c/diagram/17).

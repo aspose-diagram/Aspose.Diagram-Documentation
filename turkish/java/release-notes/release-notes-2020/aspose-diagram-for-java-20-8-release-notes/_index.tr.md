@@ -13,4 +13,4 @@ Bu sayfa Aspose.Diagram for Java 20.8 için sürüm notları bilgilerini içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50701|Diagram PDF, PNG ve HTML'ye dönüştürülürken Üstbilgi/Altbilgi korunmuyor|Artırma|
+|DIAGRAMJAVA-50701|Diagram, PDF, PNG ve HTML'e dönüştürülürken Üstbilgi/Altbilgi korunmuyor|Artırma|

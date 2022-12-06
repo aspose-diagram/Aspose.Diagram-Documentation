@@ -11,7 +11,7 @@ Aspose.Diagram låter dig stoppa konverteringen av Diagram till olika format som
 
 ## **Stoppa konvertering eller laddning med InterruptMonitor när det tar för lång tid**
 
-Följande exempelkod förklarar användningen av[**InterruptMonitor**](https://reference.aspose.com/diagram/net/aspose.diagram/interruptmonitor) objekt. Koden konverterar en ganska stor Visio-fil till PDF. Det tar flera sekunder (dvs*mer än 30 sekunder*) för att få det konverterat på grund av dessa kodrader.
+Följande exempelkod förklarar användningen av[**InterruptMonitor**](https://reference.aspose.com/diagram/net/aspose.diagram/interruptmonitor) objekt. Koden konverterar en ganska stor Visio-fil till PDF. Det tar flera sekunder (dvs.*mer än 30 sekunder*) för att få det konverterat på grund av dessa kodrader.
 
 {{< highlight "csharp" >}}
 

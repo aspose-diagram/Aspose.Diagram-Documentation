@@ -1,11 +1,11 @@
 ﻿---
-title: Esporta Visio Diagram in SVG in PHP
+title: Export Visio Diagram to SVG in PHP
 type: docs
 weight: 50
 url: /it/java/export-visio-diagram-to-svg-in-php/
 ---
-## **Aspose.Diagram - Esporta Visio Diagram in SVG**
- Per esportare Visio Diagram in SVG utilizzando**Aspose.Diagram Java per PHP** , semplicemente invocare**Esporta in formato Svg** modulo. Qui puoi vedere il codice di esempio.
+## **Aspose.Diagram - Export Visio Diagram to SVG**
+To Export Visio Diagram to SVG using **Aspose.Diagram Java per PHP** , semplicemente invocare**Esporta in formato Svg** modulo. Qui puoi vedere il codice di esempio.
 
 **Codice PHP**
 
@@ -25,6 +25,6 @@ print "Exported visio diagram to SVG.".PHP_EOL;
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Esporta Visio Diagram in SVG (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scarica**Export Visio Diagram to SVG (Aspose.Diagram)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/asposediagram/Aspose.Diagram-for-Java/blob/master/Plugins/Aspose_Diagram_Java_for_PHP/src/aspose/diagram/LoadingSavingandConverting/ExportToSvg.php)

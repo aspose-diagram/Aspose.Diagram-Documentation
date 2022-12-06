@@ -14,9 +14,9 @@ url: /zh/java/aspose-diagram-for-java-17-7-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50491|无法检索新制定的形状高度。|强化|
-|DIAGRAMJAVA-50510|VSD 到 SVG - 形状中的填充颜色图案不正确。|强化|
+|DIAGRAMJAVA-50510|VSD to SVG - incorrect fill color pattern in the shapes.|强化|
 |DIAGRAMJAVA-50483|以 VSDX 格式保存绘图时形状连接不完整。|漏洞|
-|DIAGRAMJAVA-50488|将 VSD 转换为 SVG 时会添加其他文本项。|漏洞|
+|DIAGRAMJAVA-50488|Additional text items are added when converting a VSD to SVG.|漏洞|
 |DIAGRAMJAVA-50490|生成 VSDX 图纸时，预定义流程框的垂直边框线很粗。|漏洞|
 |DIAGRAMJAVA-50495|输出 VSDX - 向形状添加文本时连接线布局不正确。|漏洞|
 |DIAGRAMJAVA-50496|输出 VSDX - 所有连接器都向上漂移。|漏洞|

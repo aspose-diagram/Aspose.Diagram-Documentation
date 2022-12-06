@@ -29,7 +29,7 @@ Aşağıdaki kod örneği, yazı tiplerini işlerken veya katıştırırken True
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
 ### **İşleme Sırasında Eksik Yazı Tipleri ve Yazı Tipi Değiştirme Bildirimi Alın**
-Aspose.Diagram API, çizimi düzgün bir şekilde PDF formatına dönüştürmek için doğru yazı tipine erişim gerektirir. Gerekli yazı tipi makinede yoksa, Aspose.Diagram API, varsayılan yazı tipini veya makinedeki mevcut en yakın yazı tipini kullanarak bu yazı tipinin herhangi bir örneğini oluşturur, çünkü bu değişiklik işlenmiş çizimin görünümünü değiştirebilir, geliştiricilerin bir yazı tipi eksik olduğunda ve hangi yazı tipiyle değiştirileceği bildirilir.
+Aspose.Diagram API, çizimi PDF formatına uygun şekilde işlemek için doğru yazı tipine erişim gerektirir. Gerekli yazı tipi makinede yoksa, Aspose.Diagram API, varsayılan yazı tipini veya makinedeki mevcut en yakın yazı tipini kullanarak bu yazı tipinin herhangi bir örneğini oluşturur, çünkü bu değiştirme, işlenmiş çizimin görünümünü değiştirebilir, geliştiricilerin bir yazı tipi eksik olduğunda ve hangi yazı tipiyle değiştirileceği bildirilir.
 #### **Eksik Font Bildirimi ve Font Değiştirme Programlama Örneği**
 Oluşturma sırasında yazı tipi değişikliği konusunda bilgilendirilmek için:
 

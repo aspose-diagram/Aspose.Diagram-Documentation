@@ -13,10 +13,10 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 20.1.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51198|Der Schatten auf der Hyperlink-Schaltfläche wird beim Speichern von VSDM in SVG nicht korrekt gerendert|Erweiterung|
-|DIAGRAMNET-51526|VSDX zu PDF – Verlaufsfüllung für Pfeilspitzen, die im resultierenden PDF verloren gehen|Erweiterung|
-|DIAGRAMNET-51539|Der Farbverlauf in Formen ist im Ausgabe-SVG verloren gegangen|Erweiterung|
-|DIAGRAMNET-50705|VSD zum SVG-Export - Formen vom Typ Meta verwandeln sich in chaotische Symbole|Insekt|
+|DIAGRAMNET-51198|Shade on hyperlink button is not rendered correctly on saving VSDM to SVG|Erweiterung|
+|DIAGRAMNET-51526|VSDX to PDF - Gradient fill for arrowheads lost in resultant PDF|Erweiterung|
+|DIAGRAMNET-51539|The gradient in shapes has lost in output SVG|Erweiterung|
+|DIAGRAMNET-50705|VSD to SVG export - Meta type shapes turn into messy symbols|Insekt|
 |DIAGRAMNET-51664|Die Datei wird beschädigt, nachdem das unbenutzte Design entfernt wurde|Insekt|
 |DIAGRAMNET-51665|Bilder werden nach dem Entfernen nicht verwendeter Designs als X angezeigt|Insekt|
 |DIAGRAMNET-51684|Beim Entfernen unbenutzter Masterformen und -stile hat nur das Bild ein Problem|Insekt|

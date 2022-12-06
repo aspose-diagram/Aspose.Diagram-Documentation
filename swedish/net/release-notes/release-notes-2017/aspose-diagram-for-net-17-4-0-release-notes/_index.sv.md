@@ -30,18 +30,18 @@ url: /sv/net/aspose-diagram-for-net-17-4-0-release-notes/
 |DIAGRAMNET-51177|Pilknappen visas inte korrekt vid konvertering av en VSDM till SVG|Insekt|
 |DIAGRAMNET-51178|En duplicerad textrad skrivs över när en VSDM konverteras till SVG|Insekt|
 |DIAGRAMNET-51180|Felaktig layout av kontakter vid lagring i formatet VSDX|Insekt|
-|DIAGRAMNET-51181|Felaktig layout av kontakter vid lagring i PDF-format|Insekt|
+|DIAGRAMNET-51181|Felaktig layout av kontakter vid lagring i formatet PDF|Insekt|
 |DIAGRAMNET-51182|Saknade former vid konvertering av en VSD till PDF|Insekt|
 |DIAGRAMNET-51183|Förskjutna former vid konvertering av en VSD till PDF|Insekt|
 |DIAGRAMNET-51187|VDX-filen är skadad efter att ha sparats - II|Insekt|
-|DIAGRAMNET-51191|Ansvarsrutan längst ner på formen är delvis skuggad när du sparar ett VDX till SVG|Insekt|
+|DIAGRAMNET-51191|Ansvarsrutan längst ner på formen är delvis skuggad när du sparar en VDX till SVG|Insekt|
 |DIAGRAMNET-51192|Textfraserna fördelas inte korrekt när du sparar en VDX till SVG|Insekt|
-|DIAGRAMNET-51193|En ytterligare text dök upp om att spara ett VDX till SVG|Insekt|
+|DIAGRAMNET-51193|En ytterligare text dök upp när du sparade ett VDX till SVG|Insekt|
 |DIAGRAMNET-51200|Textobjekten överlappar när du sparar ett VSDM till SVG|Insekt|
 |DIAGRAMNET-51202|ArgumentOutOfRangeException på diagram sparande|Insekt|
 |DIAGRAMNET-51203|Bilder saknas för att spara VSDX|Insekt|
 |DIAGRAMNET-51205|Förskjuten text och ett saknat tecken vid konvertering av en VSDM till SVG|Insekt|
-|DIAGRAMNET-51206|Felaktig visning längst ner vid konvertering av en VSDM till SVG|Insekt|
+|DIAGRAMNET-51206|Felaktig visning längst ned vid konvertering av en VSDM till SVG|Insekt|
 |DIAGRAMNET-51207|VDX-filen är skadad efter att ha sparats - I|Insekt|
 |DIAGRAMNET-51209|Ett fel uppstod när en ritning skulle sparas i PNG - I|Insekt|
 |DIAGRAMNET-51210|Ett fel uppstod när en ritning skulle sparas i PNG - II|Insekt|

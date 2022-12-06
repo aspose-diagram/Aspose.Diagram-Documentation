@@ -18,14 +18,14 @@ Diese Seite enthält Versionshinweise für[Aspose.Diagram for .NET 19.4](https:/
 |DIAGRAMNET-51626|API verarbeitet keine Excel-Daten|Erweiterung|
 |DIAGRAMNET-51627|Extrahieren Sie Formdaten auf der Grundlage der Dependson-Formel|Erweiterung|
 |DIAGRAMNET-51629|Das Vergrößern einer Seite, um sie an eine Zeichnung anzupassen, scheint nicht zu funktionieren|Erweiterung|
-|DIAGRAMNET-51176|Die Verlaufstitelleiste wird beim Konvertieren von VSDM in SVG geändert|Insekt|
+|DIAGRAMNET-51176|The gradient title bar is changed on converting a VSDM to SVG|Insekt|
 |DIAGRAMNET-51404|VSD bis Bild - Die Formfarbe ist dunkel|Insekt|
-|DIAGRAMNET-51473|VDX zu PDF - Die falsche Hintergrundfarbe|Insekt|
-|DIAGRAMNET-51475|VSDX in PDF - Die Farbverläufe werden umgekehrt gerendert|Insekt|
-|DIAGRAMNET-51616|Visio zu PDF – Farbverlauf wird im Ausgabe-PDF auf dem Kopf stehend dargestellt|Insekt|
-|DIAGRAMNET-51630|VSDX an HTML – Die Hintergrundfarbe von Formen ist in der Ausgabe nicht vorhanden|Insekt|
-|DIAGRAMNET-51631|VSDX zu PDF - Hintergrundfarbe von Formen ist in der Ausgabe nicht vorhanden|Insekt|
-|DIAGRAMNET-51632|VSD in SVG – Objekt vom Typ „ “ kann nicht in Typ „ “ umgewandelt werden. Ausnahme aufgetreten|Insekt|
+|DIAGRAMNET-51473|VDX to PDF - The incorrect background color|Insekt|
+|DIAGRAMNET-51475|VSDX to PDF - The gradients are being rendered in reversed|Insekt|
+|DIAGRAMNET-51616|Visio to PDF - Gradient is rendering upside down in output PDF|Insekt|
+|DIAGRAMNET-51630|VSDX to HTML - Background color of shapes is not present in the output|Insekt|
+|DIAGRAMNET-51631|VSDX to PDF - Background color of shapes is not present in the output|Insekt|
+|DIAGRAMNET-51632|VSD to SVG - Unable to cast object of type ‘ ’ to type ‘ ’ Exception occurred|Insekt|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).

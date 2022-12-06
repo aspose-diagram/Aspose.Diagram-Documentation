@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Diagram pour Python via Java 21.9 Notes de mise à jour
+title: Aspose.Diagram for Python via Java 21.9 Release Notes
 type: docs
 weight: 6
 url: /fr/java/aspose-diagram-for-python-via-java-21-9-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Cette page contient des informations sur les notes de version pour Aspose.Diagram pour Python via Java 21.9.
+This page contains release notes information for Aspose.Diagram for Python via Java 21.9.
 
 {{% /alert %}}
 ## **Améliorations et changements**  ##
@@ -14,7 +14,7 @@ Cette page contient des informations sur les notes de version pour Aspose.Diagra
 |**Clé**|**Sommaire**|**Catégorie**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50753|wk : Vérifiez si TextAnnotation est connecté à la forme|Renforcement|
-|DIAGRAMJAVA-50382|L'ombrage des formes est manquant lors de la conversion d'un VSDX en PDF|Punaise|
+|DIAGRAMJAVA-50382|The shading of shapes is missing on converting a VSDX to PDF|Punaise|
 |DIAGRAMJAVA-50754|wk - LineColor de InheritLine n'est pas correct|Punaise|
 |DIAGRAMJAVA-50756|wk : PinPos nul vs centre-centre|Punaise|
 |DIAGRAMJAVA-50757|WK : valeur getBegin/End Arrow incorrecte.|Punaise|

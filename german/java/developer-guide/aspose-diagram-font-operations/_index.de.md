@@ -33,7 +33,7 @@ Das folgende Codebeispiel zeigt, wie Sie Aspose.Diagram so einstellen, dass es b
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Fonts-SpecifyFontLocation-SpecifyFontLocation.java" >}}
 ### **Erhalten Sie während des Renderns eine Benachrichtigung über fehlende Schriften und Schriftersetzungen**
-Aspose.Diagram API benötigt Zugriff auf die genaue Schriftart, um die Zeichnung richtig in das PDF-Format zu rendern. Wenn die erforderliche Schriftart auf dem Computer nicht verfügbar ist, rendert Aspose.Diagram API jede Instanz dieser Schriftart mit der Standardschriftart oder der ähnlichsten verfügbaren Schriftart auf dem Computer, da diese Ersetzung das Aussehen der gerenderten Zeichnung ändern kann, müssen Entwickler möglicherweise sein benachrichtigt, wenn eine Schriftart fehlt und durch welche Schriftart sie ersetzt wird.
+Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Programmierbeispiel für Benachrichtigung über fehlende Schriftarten und Schriftartersetzung**
 Um während des Renderns über die Ersetzung von Schriftarten benachrichtigt zu werden:
 

@@ -12,13 +12,13 @@ description: Bu sayfada Visio belgesinin dosyaya nasıl kaydedileceği, Aspose.D
  Aspose.Diagram API'in Diagram sınıfı, bir Visio çizimini temsil eder ve geliştiriciler, Visio diagram nesnesini desteklenen herhangi bir dosya biçiminde kaydedebilir. Microsoft Visio dosyasını kaydetmek için[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)) yöntemi, tam yol veya bir dosya akış nesnesi olan bir dosya adını kabul eder. Aspose.Diagram API, dosya uzantısından kaydetme biçimini çıkarır ve ayrıca çıktı dosyası biçimini belirtmek için ek bir SaveFileFormat parametresi sunar.
 ### **Visio Diagram'i herhangi bir Desteklenen Dosya Formatında kaydedin**
 Geliştiriciler, Aspose.Diagram API'i kullanarak bir Visio diagram'i aşağıda listelenen desteklenen herhangi bir dosya biçiminde kaydedebilir:
-**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF,AML HTML, SVG ve XPS**
+**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG and XAML**
 ### **Diagram Programlama Örneği kaydediliyor**
 Aşağıdaki örnek, bir belgeyi bir dosyaya kaydeder.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-SaveVisioDiagram-SaveVisioDiagram.java" >}}
 ## **Visio Kaydetme Seçeneklerini Belirleme**
- Bir kaç tane var[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)) bir SaveOptions nesnesini kabul eden yöntem aşırı yüklemeleri. Bu, SaveOptions sınıfından türetilen bir sınıfın nesnesi olmalıdır. Her kaydetme biçiminin, o kaydetme biçimi için kaydetme seçeneklerini tutan karşılık gelen bir sınıfı vardır; örneğin, SaveFileFormat.PDF kaydetme biçimi için PdfSaveOptions vardır.
+ Bir kaç tane var[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)bir SaveOptions nesnesini kabul eden yöntem aşırı yüklemeleri. Bu, SaveOptions sınıfından türetilen bir sınıfın nesnesi olmalıdır. Her kaydetme biçiminin, o kaydetme biçimi için kaydetme seçeneklerini tutan karşılık gelen bir sınıfı vardır; örneğin, SaveFileFormat.PDF kaydetme biçimi için PdfSaveOptions vardır.
 ### **Visio Diagram Kaydetme Seçenekleri**
 Bu örnekler şunların nasıl yapılacağını gösterir:
 

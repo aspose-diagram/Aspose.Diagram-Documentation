@@ -23,9 +23,9 @@ url: /de/net/aspose-diagram-net-for-vsto/
     - [So konfigurieren Sie den Quellcode](#Aspose.Diagram.NETforVSTO-Howtoconfigurethesourcecode)
 - [Beispielcodebeispiele](#Aspose.Diagram.NETforVSTO-SampleCodeExamples)
 # **Was ist VSTO?**
-VSTO oder Visual Studio Tools für Office oder Microsoft Visual Studio Tools ist Teil der Visual Studio .NET-Tools-Suite von Microsoft und unterstützt die Microsoft .NET Framework. Es wird von Entwicklern verwendet, um Code zu schreiben, der Microsoft Office Word-, Excel- und Outlook-Anwendungen verbindet. Entwickler, die VSTO verwenden, können C# oder Visual Basic-Sprachen verwenden. Es ist eine Alternative zu Visual Basic for Applications oder VBA.
+VSTO, or Visual Studio Tools for Office, or Microsoft Visual Studio Tools is part of Microsoft's Visual Studio .NET tools suite and supports the Microsoft .NET Framework. It is used by developers to write code connecting Microsoft Office Word, Excel and Outlook applications. Developers using VSTO can employ C# or Visual Basic languages. It is an alternative to Visual Basic for Applications, or VBA.
 # **Aspose.Diagram für .Net**
-Aspose.Diagram ist eine Klassenbibliothek zum Arbeiten mit Microsoft Visio-Dateien. Es ermöglicht Entwicklern, mit VSD-, VSDX-, VSS-, VST-, VSX-, VTX-, VDW- und VDX-Dateien in C#-, VB.NET-, ASP.NET-Webanwendungen, Webdiensten, Mono und 04812 zu arbeiten. Es ermöglicht Ihnen, Dateien zu öffnen und die Elemente des diagram zu bearbeiten, von Linien und Füllungen bis hin zu komplexeren Elementen, und dann in die Formate VDX, VSX, VTX, XPS, HTML, SVG, SWF, XAML, Bild oder PDF zu exportieren.
+Aspose.Diagram is a class library for working with Microsoft Visio files. It allows developers to work with VSD, VSDX, VSS, VST, VSX, VTX, VDW and VDX files on C#, VB.NET, ASP.NET web applications, web services, Mono and Windows applications. It allows you to open files and manipulate the elements of the diagram, from lines and fills, to more complex elements, and then export to VDX, VSX, VTX, XPS, HTML, SVG, SWF, XAML, image or PDF formats.
 # **Aspose.Diagram für VSTO**
 ## **Einführung**
 Die Entwickler, die nach Dateiformatbibliotheken suchen, müssen möglicherweise die Funktionen durchgehen, die von den auf dem Markt verfügbaren Bibliotheken bereitgestellt werden. Bei der Auswahl einer Option werden hauptsächlich zwei Faktoren berücksichtigt:
@@ -33,15 +33,15 @@ Die Entwickler, die nach Dateiformatbibliotheken suchen, müssen möglicherweise
 - Merkmale
 - Anstrengungen erforderlich, um die Bibliothek zu benutzen
 
-Wenn Sie ein .NET-Entwickler sind, der nach einer schnelleren, einfachen und leichten Dateiformatbibliothek zum Verarbeiten von Dateien sucht, müssen Sie möglicherweise VSTO (Visual Studio-Tool für Office) mit Aspose vergleichen. In diesem Fall hilft Ihnen dieses Projekt beim Vergleichen von Funktionen und Code in beiden Bibliotheken.
+If you are a .NET developer looking for faster,easy and light-weight file format library to process files, you may need to compare VSTO(Visual Studio tool for Office) with Aspose. In this case, this project will help you to compare features and code in both libraries.
 ## **Systemanforderungen und unterstützte Plattformen**
 ### **System Anforderungen**
-Mindestens eine der folgenden Editionen von Visual Studio-Tools für Office:
+One or more of the following editions of Visual Studio Tools for Office:
 
-- Microsoft Visual Studio 2005-Tools für das Microsoft Office-System
-- Microsoft Visual Studio 2005 Tools für das 2007 Microsoft Office System
+- Microsoft Visual Studio 2005 Tools for the Microsoft Office System
+- Microsoft Visual Studio 2005 Tools for the 2007 Microsoft Office System
 - Visual Studio 2008 Professional Edition
-- Visual Studio 2008 Team Suite-Edition
+- Visual Studio 2008 Team Suite Edition
 - Eine Version von Microsoft Office:
 - Microsoft Office Professional 2003 SP1
 - 2007 Microsoft Office System
@@ -81,7 +81,7 @@ Den neuesten Quellcode erhalten Sie von einer der folgenden Stellen.
 Bitte befolgen Sie diese einfachen Schritte, um loszulegen
 
 - Laden Sie den Quellcode herunter/klonen Sie ihn.
-- Öffnen Sie Visual Studio 2010 und wählen Sie „Datei“ > „Projekt öffnen“.
+- Open Visual Studio 2010 and Choose File > Open Project.
 - Navigieren Sie zum neuesten Quellcode, den Sie heruntergeladen haben, und öffnen Sie die .sln-Datei.
 # **Beispielcodebeispiele**
 Dieser Abschnitt enthält die folgenden Themen

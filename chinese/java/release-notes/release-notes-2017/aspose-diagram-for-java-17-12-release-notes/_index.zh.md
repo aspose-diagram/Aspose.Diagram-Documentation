@@ -13,14 +13,14 @@ url: /zh/java/aspose-diagram-for-java-17-12-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50290|提供单个 API 将 Visio 形状转换为 PDF|强化|
-|DIAGRAMJAVA-50291|提供单个 API 将 Visio 形状转换为 HTML|强化|
+|DIAGRAMJAVA-50290|Provide the single API to convert a Visio shape to PDF|强化|
+|DIAGRAMJAVA-50291|Provide the single API to convert a Visio shape to HTML|强化|
 |DIAGRAMJAVA-50572|Shape.connectedShapes 方法不检索传出节点|强化|
-|DIAGRAMJAVA-50391|翻转的图像和箭头是在将 VSD 转换为 SVG 时生成的|漏洞|
-|DIAGRAMJAVA-50570|VSD 到 PDF - 添加了额外的文本项|漏洞|
+|DIAGRAMJAVA-50391|The flipped images and arrows are generated on converting a VSD to SVG|漏洞|
+|DIAGRAMJAVA-50570|VSD to PDF - the additional text items are added|漏洞|
 |DIAGRAMJAVA-50571|导入 VSDX - 形状元素发生错误|漏洞|
-|DIAGRAMJAVA-50573|VSD 到 SVG - 缺少组形状的线条|漏洞|
-|DIAGRAMJAVA-50575|VSD 到 SVG - 缺少文本项|漏洞|
+|DIAGRAMJAVA-50573|VSD to SVG - the lines of a group shape are missing|漏洞|
+|DIAGRAMJAVA-50575|VSD to SVG - the text items are missing|漏洞|
 |DIAGRAMJAVA-50576|导入 VDX 过程抛出页面元素错误|漏洞|
 ### **在 Shape 类中添加 Copy 成员**
 复制成员采用目标形状实例作为参数来克隆此形状。
@@ -45,7 +45,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ### **在 Shape 类中添加 toPdf 成员**
-toPdf 成员将形状转换为 PDF 格式。
+The toPdf member converts a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -61,7 +61,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toPdf(dataDir + "out.pdf");
 
 {{< /highlight >}}
 ### **在 Shape 类中添加 toHTML 成员**
-toHTML 成员将形状转换为 PDF 格式。
+The toHTML member converts a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -82,7 +82,7 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 请查看 Aspose.Diagram Wiki 文档中添加的帮助主题列表：
 
 1. [将 Visio Shape 复制到另一个 Shape 实例](https://docs.aspose.com/diagram/java/working-with-visio-shape-data/#use-connection-indexes-to-connect-shapes-programming-sample)
-1. [将 Visio 形状转换为 PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
-1. [将 Visio 形状转换为 HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
+1. [Convert Visio Shape to PDF](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-pdf/)
+1. [Convert Visio Shape to HTML](https://docs.aspose.com/diagram/java/convert-a-visio-shape-to-html/)
 
 

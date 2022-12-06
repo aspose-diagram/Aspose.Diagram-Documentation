@@ -21,12 +21,12 @@ url: /zh/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50569|添加对更新 VBA 代码的支持。|新功能|
 |DIAGRAMNET-50859|添加支持以导入启用宏的模板 (.VSTM)。|新功能|
 |DIAGRAMNET-50860|添加支持以导入启用宏的模板 (.VSSM)。|新功能|
-|DIAGRAMNET-50701|VSDX 到 PDF 导出 - 形状的边界颜色与内部结构重叠。|漏洞|
+|DIAGRAMNET-50701|VSDX to PDF export - the shape's boundary color overlaps the internal structure.|漏洞|
 |DIAGRAMNET-50790|加载 VSDX 文件时发生 Diagram 异常。|漏洞|
-|DIAGRAMNET-50793|将 VSD 转换为 PDF 时缺少文本项。|漏洞|
-|DIAGRAMNET-50794|将 VSD 转换为 PNG 时缺少文本项。|漏洞|
+|DIAGRAMNET-50793|The text items are missing on converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-50794|The text items are missing on converting a VSD to PNG.|漏洞|
 |DIAGRAMNET-50795|将 VSD 转换为 JPG 时缺少文本项。|漏洞|
-|DIAGRAMNET-50796|将 VSD 转换为 PDF 时，图像的透明背景变成白色。|漏洞|
+|DIAGRAMNET-50796|The transparent background of images turns into white color on converting VSD to PDF.|漏洞|
 |DIAGRAMNET-50798|将 VSD 转换为 JPG 时，图像的透明背景变成白色。|漏洞|
 |DIAGRAMNET-50804|Diagram 保存 VTX 文件时发生异常。|漏洞|
 |DIAGRAMNET-50801|Diagram 保存 VSX 文件时发生异常 - I.|漏洞|
@@ -64,16 +64,16 @@ url: /zh/net/aspose-diagram-for-net-6-6-0-release-notes/
 |DIAGRAMNET-50854|打开和保存时不保留 diagram 的属性 - XIII。|漏洞|
 |DIAGRAMNET-50855|打开和保存时不保留 diagram 的属性 - XIV。|漏洞|
 |DIAGRAMNET-50857|打开和保存时不保留 diagram 的属性 - XV。|漏洞|
-|DIAGRAMNET-50864|在将 VSD 转换为 PDF 时，过程形状的外观发生了变化。|漏洞|
-|DIAGRAMNET-50865|在将 VSD 转换为 HTML 时，流程形状的外观发生了变化。|漏洞|
-|DIAGRAMNET-50866|将 VSDX 转换为 PDF 时的文本对齐问题 - I.|漏洞|
-|DIAGRAMNET-50867|将 VSDX 转换为 PDF 时的文本对齐问题 - II。|漏洞|
-|DIAGRAMNET-50868|将 VSD 转换为 PDF 时未保留图像。|漏洞|
-|DIAGRAMNET-50869|将 VSD 转换为 PDF 时形状格式不正确 - I.|漏洞|
-|DIAGRAMNET-50871|将 VSD 转换为 PDF - II 时形状格式不正确。|漏洞|
-|DIAGRAMNET-50874|将 VSD 转换为 PDF 时会添加额外的圆圈。|漏洞|
-|DIAGRAMNET-50875|将 VSD 转换为 PDF 时形状错位。|漏洞|
-|DIAGRAMNET-50876|将 VSD 转换为 PDF 时，形状的大小会发生变化。|漏洞|
+|DIAGRAMNET-50864|The appearance of the process shape is changed on converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-50865|The appearance of the process shape is changed on converting a VSD to HTML.|漏洞|
+|DIAGRAMNET-50866|Text alignment problem on Converting a VSDX to PDF - I.|漏洞|
+|DIAGRAMNET-50867|Text alignment problem on Converting a VSDX to PDF - II.|漏洞|
+|DIAGRAMNET-50868|An image is not being preserved on converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-50869|Incorrect formatting of the shape on converting a VSD to PDF - I.|漏洞|
+|DIAGRAMNET-50871|Incorrect formatting of the shapes on converting a VSD to PDF - II.|漏洞|
+|DIAGRAMNET-50874|Extra circles are added while converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-50875|Shapes are misplaced on converting a VSD to PDF.|漏洞|
+|DIAGRAMNET-50876|Size of shapes is changed on converting a VSD to PDF.|漏洞|
 ### **公共 API 和向后不兼容的更改**
 查看对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用的成员以及对 Aspose.Diagram for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在[Aspose.Diagram 支持论坛](https://forum.aspose.com/c/diagram/17).
 #### **在 LoadFileFormat 类中添加 VSDM、VSSM 和 VSTM 格式**

@@ -14,17 +14,17 @@ url: /de/net/aspose-diagram-for-net-17-12-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |DIAGRAMNET-50016|Unterstützung zum Duplizieren / Klonen einer Form hinzufügen|Erweiterung|
-|DIAGRAMNET-50677|Geben Sie die einzelne API an, um eine Visio-Form in PDF zu konvertieren|Erweiterung|
-|DIAGRAMNET-50678|Geben Sie die einzelne API an, um eine Visio-Form in HTML zu konvertieren|Erweiterung|
+|DIAGRAMNET-50677|Provide the single API to convert a Visio shape to PDF|Erweiterung|
+|DIAGRAMNET-50678|Provide the single API to convert a Visio shape to HTML|Erweiterung|
 |DIAGRAMNET-50762|Der Analysefehler des langen Attributwerts ist beim Generieren von VDX diagram aufgetreten|Insekt|
 |DIAGRAMNET-51401|Ausgabe VSDX - Die Steuerelemente in Shapes funktionieren nicht|Insekt|
 |DIAGRAMNET-51402|VSDX zu Bild - ein OLE-Objekt wird nicht beibehalten|Insekt|
 |DIAGRAMNET-51406|VSD zum Bild - die zusätzlichen Zeichen erscheinen|Insekt|
-|DIAGRAMNET-51410|VSD nach PDF - die Seitenzahl bleibt bei allen Seiten 4|Insekt|
+|DIAGRAMNET-51410|VSD to PDF - the page number remains 4 in all pages|Insekt|
 |DIAGRAMNET-51411|VSD zum Bild - die Seitenzahl bleibt bei allen Seiten 4|Insekt|
-|DIAGRAMNET-51414|VSDX zu PDF - fehlender Inhalt von Formen|Insekt|
-|DIAGRAMNET-51415|VSDX zu PDF - falsche Hintergrundfarbe der Formen|Insekt|
-|DIAGRAMNET-51416|VSDX zu HTML - falsche Hintergrundfarbe der Formen|Insekt|
+|DIAGRAMNET-51414|VSDX to PDF - missing the content of shapes|Insekt|
+|DIAGRAMNET-51415|VSDX to PDF - incorrect background color of the shapes|Insekt|
+|DIAGRAMNET-51416|VSDX to HTML - incorrect background color of the shapes|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Diagram for .NET vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte das[Aspose.Diagram Support-Forum](https://forum.aspose.com/c/diagram/17).
 ### **Fügt ein Copy-Mitglied in der Shape-Klasse hinzu**
@@ -50,7 +50,7 @@ newShape.XForm.PinY.Value = 1;
 
 {{< /highlight >}}
 ### **Fügt ein ToPdf-Mitglied in der Shape-Klasse hinzu**
-Das ToPdf-Member konvertiert eine Form in das PDF-Format.
+The ToPdf member converts a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ diagram.Pages[0].Shapes.GetShape(59).ToPdf("e:\\out.pdf");
 
 {{< /highlight >}}
 ### **Fügt ein ToHTML-Mitglied in der Shape-Klasse hinzu**
-Das ToHTML-Member wandelt eine Form in das PDF-Format um.
+The ToHTML member converts a shape into the PDF format.
 
 {{< highlight "java" >}}
 
@@ -83,5 +83,5 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML("e:\\out.pdf", hs);
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Diagram-Wiki-Dokumenten hinzugefügt wurden:
 
 1. [Kopieren Sie eine Visio-Form in eine andere Forminstanz](/diagram/de/net/add-2c-retrieve-2c-copy-and-read-visio-shape-data-html/#add-retrieve-copyandreadvisioshapedata-copyavisioshapetoanothershapeinstance)
-1. [Konvertieren Sie Visio Form in PDF](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
-1. [Konvertieren Sie Visio Shape in HTML](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)
+1. [Convert Visio Shape to PDF](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-pdf/)
+1. [Convert Visio Shape to HTML](https://docs.aspose.com/diagram/net/convert-a-visio-shape-to-html/)

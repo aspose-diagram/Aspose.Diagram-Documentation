@@ -13,4 +13,4 @@ Esta página contiene información sobre las notas de la versión para Aspose.Di
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50352|Renderizar el color incorrecto de las formas al convertir un VSD a PNG|Mejora|
+|DIAGRAMJAVA-50352|Rendering incorrect color of shapes on converting a VSD to PNG|Mejora|

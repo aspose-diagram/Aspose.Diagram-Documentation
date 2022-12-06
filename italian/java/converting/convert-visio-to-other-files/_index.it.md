@@ -4,7 +4,7 @@ linktitle:  Converti Visio in altri formati
 type: docs
 weight: 40
 url: /it/java/convert-visio-to-other-files/
-description: Questo argomento mostra come Aspose.Diagram consente di convertire Visio nei formati SVG, XPS, XML, XAML. Converti VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM in SVG, XPS, XML, XAML con poche righe di codice.
+description: This topic show you how to Aspose.Diagram allows to convert Visio to SVG,XPS,XML,XAML formats. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM,VSSM to SVG,XPS,XML,XAML with a few lines of code.
 ---
 ## **Esportazione in XML**
  Questo articolo spiega come esportare un Microsoft Visio diagram in XML utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
@@ -59,52 +59,52 @@ L'immagine seguente mostra il file di output VTX.
 ![cose da fare:immagine_alt_testo](http://i.imgur.com/E6pUvGD.jpg)
 ### **Esempio di programmazione dell'esportazione in XML**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
-## **Esportazione in XPS**
- Questo articolo spiega come esportare un Microsoft Visio diagram in XPS utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Exporting to XPS**
+This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  Utilizzare il[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' per leggere i file diagram e il metodo Save per esportare diagram in qualsiasi formato di immagine supportato.
 
-I frammenti di codice in questo articolo accettano come input lo diagram riportato di seguito. Puoi utilizzare anche altri formati diagram (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX o VSX).
+The code snippets in this article takes the diagram below as an input. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
 **Il documento di origine.**
 
 ![cose da fare:immagine_alt_testo](http://i.imgur.com/P3gaA34.png)
 
-Per esportare VSD diagram in XPS:
+To export VSD diagram to XPS:
 
 1. Creare un'istanza della classe Diagram.
-1. Chiama il metodo Save della classe Diagram e imposta XPS come formato di output.
+1. Call the Diagram class' Save method and set XPS as the output format.
 
-L'immagine seguente mostra il file XPS di output.
+L'immagine seguente mostra il file di output XPS.
 
-**L'uscita XPS.**
+**The output XPS.**
 
 ![cose da fare:immagine_alt_testo](http://i.imgur.com/1ESRxSy.png)
-### **Esportazione nell'esempio di programmazione XPS**
+### **Exporting to XPS Programming Sample**
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
-## **Esportazione di un numero Diagram in SVG**
-Questo articolo spiega come esportare un Microsoft Visio diagram in SVG (Scalable Vector Graphics) utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Exporting a Diagram to SVG**
+This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  Utilizzare il[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class' per leggere i file diagram e il metodo Save per esportare diagram in qualsiasi formato di immagine supportato.
 
-Per esportare VSD diagram in SVG, attenersi alla seguente procedura:
+To export VSD diagram to SVG, perform the following steps:
 
 1. Creare un'istanza della classe Diagram.
-1. Chiama il metodo Save della classe e imposta SVG come formato di esportazione.
-### **Esportazione di Diagram nell'esempio di programmazione SVG**
-Gli esempi di codice mostrano come esportare un diagram in SVG utilizzando Java.
+1. Call the class' Save method and set SVG as the export format.
+### **Exporting Diagram to SVG Programming Sample**
+The code samples show how to export a diagram to SVG using Java.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
-## **Esportazione di un codice Diagram in XAML**
- Questo articolo spiega come esportare un Microsoft Visio diagram in XAML (Extensible Application Markup Language) utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
+## **Exporting a Diagram to XAML**
+This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
  Utilizzare il[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class' per leggere i file diagram e il metodo Save per esportare diagram in qualsiasi formato di immagine supportato.
 
-Per esportare un VSD diagram in XAML:
+Per esportare un VSD da diagram a XAML:
 
 1. Creare un'istanza della classe Diagram.
-1. Chiama il metodo Save della classe e imposta XAML come formato di esportazione.
-### **Esportazione in un esempio di programmazione XAML**
-L'esempio di codice mostra come esportare un codice diagram in XAML usando Java.
+1. Call the class' Save method and set XAML as the export format.
+### **Exporting to XAML Programming Sample**
+The code sample show how to export a diagram to XAML using Java.
 
 {{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
 

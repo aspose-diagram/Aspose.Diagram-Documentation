@@ -1,35 +1,35 @@
 ﻿---
-title:  Convertir Visio a formato PDF
-linktitle: Convertir Visio a PDF
+title: Convert Visio to PDF format 
+linktitle: Convert Visio to PDF
 type: docs
 weight: 10
 url: /es/python-java/convert-visio-to-pdf/
-description: Este tema le muestra cómo convertir Visio a formatos PDF usando Aspose.Diagram para Python a través de Java. Convertir VSD, vss, vdw, vst, VSDX, VSSX, VSTX, 076181, 076181.
+description: This topic show you how to convert Visio to PDF formats using Aspose.Diagram for Python via Java. Convert VSD, VSS, VDW, VST, VSDX, VSSX, VSTX, VSDM, VSTM, VSSM to PDF with a few lines of code.
 ---
-## **Exportando a PDF**
+## **Exporting to PDF**
 {{% alert color="primary" %}}
 
-Aspose.Diagram para Python a través de Java escribe directamente la información sobre API y el número de versión en los documentos de salida. Por ejemplo, al renderizar un Dibujo a PDF, Aspose.Diagram for Java se completa**Solicitud**campo con valor 'Aspose.Diagram' y**Productor de PDF**campo con un valor, por ejemplo, 'Aspose.Diagram 17.9'.
+Aspose.Diagram for Python via Java directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to PDF, Aspose.Diagram for Java populates **Solicitud**campo con valor 'Aspose.Diagram' y**PDF Producer**campo con un valor, por ejemplo, 'Aspose.Diagram 17.9'.
 
-Tenga en cuenta que no puede dar instrucciones al Aspose.Diagram para el Python a través del Java para cambiar o eliminar esta información de los documentos de salida.
+Please note that you cannot instruct Aspose.Diagram for Python via Java to change or remove this information from output Documents.
 
 {{% /alert %}}
 
-Este artículo explica cómo exportar un Microsoft Visio diagram a PDF usando Aspose.Diagram para Python a través de Java.
+This article explains how to export a Microsoft Visio diagram to PDF using Aspose.Diagram for Python via Java.
 
 Utilice el constructor de la clase Diagram para leer los archivos diagram y el método Guardar para exportar el diagram a cualquier formato de imagen compatible.
 
-[El VSD diagram](ExportToPDF.vsd) es el archivo de dibujo de ejemplo para exportar PDF. También puede usar otros formatos diagram (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX o VSX).
+[El VSD diagram](ExportToPDF.vsd) is the example drawing file to export PDF. You can use other diagram formats (VSS, VSSX, VSSM, VDX, VST, VSTX, VSTM, VDX, VTX or VSX) as well.
 
-Para exportar VSD diagram a PDF:
+To export VSD diagram to PDF:
 
 1. Cree una instancia de la clase Diagram.
-1. Llame al método Guardar de clases Diagram y establezca el formato de salida en PDF.
+1. Call the Diagram classs Save method and set the output format to PDF.
 
-### **Ejemplo de programación de exportación a PDF**
+### **Exporting to PDF Programming Sample**
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToPDF.py" >}}
 
 ### **Dividir varias páginas**
-Aspose.Diagram for Java permite dividir varias páginas al convertir Microsoft Visio Diagram a PDF. El siguiente fragmento de código muestra la funcionalidad.
+Aspose.Diagram for Java allows splitting multiple pages while converting the Microsoft Visio Diagram to PDF. The following code snippet shows the functionality.  
 
 {{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.py" >}}

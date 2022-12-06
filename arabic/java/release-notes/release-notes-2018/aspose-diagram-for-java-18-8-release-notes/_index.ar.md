@@ -14,7 +14,7 @@ url: /ar/java/aspose-diagram-for-java-18-8-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |DIAGRAMJAVA-50611|دعم إعداد الإعدادات المحلية باستخدام API|التعزيز|
-|DIAGRAMJAVA-50606|VSDX إلى SVG - عرض غير صحيح للأسهم|حشرة|
+|DIAGRAMJAVA-50606|VSDX إلى SVG - عرض الأسهم غير صحيح|حشرة|
 |DIAGRAMJAVA-50610|موقع النص على الموصلات خاطئ في ملف الإخراج VSDX|حشرة|
 |DIAGRAMJAVA-50612|تعذر فتح ملف الإخراج VDX باستخدام Visio Viewer 2010 Professional|حشرة|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

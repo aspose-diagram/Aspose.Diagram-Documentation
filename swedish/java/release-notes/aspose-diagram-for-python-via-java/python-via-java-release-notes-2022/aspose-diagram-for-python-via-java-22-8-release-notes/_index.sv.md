@@ -6,7 +6,7 @@ url: /sv/java/aspose-diagram-for-python-via-java-22-8-release-notes/
 ---
 {{% alert color="primary" %}}
 
-Den här sidan innehåller information om release notes för Aspose.Diagram för Python via Java 22.8.
+Den här sidan innehåller information om utgåvor för Aspose.Diagram för Python via Java 22.8.
 
 {{% /alert %}}
 ## **Förbättringar och förändringar**  ##

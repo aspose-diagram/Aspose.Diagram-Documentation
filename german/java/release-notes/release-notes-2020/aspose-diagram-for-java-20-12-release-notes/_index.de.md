@@ -13,8 +13,8 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for Java 20.12.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMJAVA-50574|VSD zu SVG - die Textelemente sind falsch platziert|Insekt|
+|DIAGRAMJAVA-50574|VSD to SVG - the text items are misplaced|Insekt|
 |DIAGRAMJAVA-50705|Regression in Diagram – Nicht unterstützter Pinseltyp|Insekt|
-|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException beim Konvertieren von VSD in SVG|Insekt|
-|DIAGRAMJAVA-50707|VSDX zu PDF: Fehler im Element Shapes|Insekt|
+|DIAGRAMJAVA-50706|ArrayIndexOutOfBoundException while converting VSD to SVG|Insekt|
+|DIAGRAMJAVA-50707|VSDX to PDF: Error in element Shapes|Insekt|
 

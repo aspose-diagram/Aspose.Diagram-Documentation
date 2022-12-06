@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /it/java/feature-list/
 keywords: Visio Diagram Java API
-description: Visio Diagram Java API l'elenco delle funzionalità include la creazione, la lettura, la scrittura, l'esportazione, la stampa e l'accesso ai formati Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, 0716, 0761, VSSM, 0716, 0761, VSSM VST.
+description: Visio Diagram Java API feature list include create, read, write, export, print and access Microsoft Visio 2003, 2007, 2010, 2013, VSD, VSSM, VSTX, VSSM, VST formats.
 ---
 ## **Funzionalità ricche**
 **Creare**:
@@ -16,7 +16,7 @@ description: Visio Diagram Java API l'elenco delle funzionalità include la crea
 - Leggi il formato Microsoft Visio 2003/2007/2010 VSD.
 - Leggi il formato VSS Microsoft Visio 2003/2007/2010.
 - Leggi il formato VDW Microsoft Visio 2003/2007/2010.
-- Leggi il formato VST Microsoft Visio 2003/2007/2010.
+- Leggi il formato Microsoft Visio 2003/2007/2010 VST.
 
 **Leggere e scrivere**:
 
@@ -32,11 +32,11 @@ description: Visio Diagram Java API l'elenco delle funzionalità include la crea
 
 **Esportare**:
 
-- Esporta i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) nei formati immagine più diffusi (BMP, JPEG, TIFF, EMF, SVG e PNG).
-- Esporta gli schemi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in PDF.
-- Esporta i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in HTML.
-- Esportare i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in XML Paper Specification (XPS).
-- Esportare i diagrammi (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX e VSX) in XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
 **Stampa**:
 

@@ -12,7 +12,7 @@ Aspose.Diagram API prend en charge la création des nouveaux diagrammes Visio à
 En utilisant Aspose.Diagram API, les développeurs peuvent charger tous les formats de fichiers Visio pris en charge. Les constructeurs disponibles de la classe Diagram permettent de le faire et ils acceptent une chaîne de chemin de fichier valide ou un flux de fichier du fichier source Visio.
 
 Les formats de fichiers lisibles pris en charge sont les suivants :
-**VSDX, VSD, VSDM, VSS, VSSX, VSSM, VTX, VSTM, VDX, VDW, VST, VSTX et VSX**
+**VSDX, VSD, VSDM, VSS, VSSX, VSSM, VTX, VSTM, VDX, VDW, VST, VSTX and VSX**
 
 Les constructeurs de la classe diagram offrent également un paramètre facultatif qui définit LoadFileFormat ou LoadOptions. Il s'agit des informations de préchargement que les développeurs peuvent transmettre au Aspose.Diagram API. Nous recommandons de transmettre les informations réalistes pour obtenir une performance idéale.
 ## **Lecture Diagram Exemple de programmation**

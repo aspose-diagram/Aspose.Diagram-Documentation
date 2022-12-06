@@ -12,7 +12,7 @@ description: Den här sidan beskriver hur man sparar Visio dokument till fil, st
  Klassen Diagram i Aspose.Diagram API representerar en Visio-ritning och utvecklare kan spara dess Visio diagram-objekt i vilket filformat som helst. För att spara en Microsoft Visio fil, använd helt enkelt[Diagram.Save]()metod, accepterar den ett filnamn med en fullständig sökväg eller ett filströmsobjekt. Aspose.Diagram API härleder sparaformatet från filtillägget och erbjuder även en extra SaveFileFormat-parameter för att specificera utdatafilformatet.
 ### **Spara ett Visio Diagram i valfritt filformat som stöds**
 Genom att använda Aspose.Diagram API kan utvecklare spara en Visio diagram i vilket filformat som helst som stöds enligt listan nedan:
-**VSDX, VSDM.**
+**VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX, TIFF, PNG, BMP, EMF, JPEG, PDF, XPS, GIF, HTML, SVG, SWF and XAML**
 ### **Sparar Diagram Programmeringsexempel**
 Exemplet nedan sparar ett dokument till en fil.
 
@@ -24,16 +24,16 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
 ## **Ange Visio Spara alternativ**
- Det finns flera[Diagram.Save]() metodöverbelastningar som accepterar ett SaveOptions-objekt. Detta bör vara ett objekt av en klass som härrör från klassen SaveOptions. Varje sparaformat har en motsvarande klass som innehåller sparaalternativ för det sparade formatet. Det finns till exempel PdfSaveOptions för sparaformatet SaveFileFormat.PDF.
+ Det finns flera[Diagram.Save]()metodöverbelastningar som accepterar ett SaveOptions-objekt. Detta bör vara ett objekt av en klass som härrör från klassen SaveOptions. Varje sparaformat har en motsvarande klass som innehåller sparaalternativ för det sparade formatet. Det finns till exempel PdfSaveOptions för sparaformatet SaveFileFormat.PDF.
 ### **Visio Diagram Spara alternativ**
 Dessa exempel visar hur man:
 
 - [Använd Diagram Spara alternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Använd PDF-sparalternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Använd HTML-sparaalternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Använd PDF Spara alternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Använd HTML Spara alternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 - [Använd alternativ för bildspar](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 - [Använd SVG Spara alternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
-- [Använd SWF-sparalternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
+- [Använd SWF Spara alternativ](https://docs.aspose.com/diagram/python-net/save-visio-document/).
 #### **Användning av Diagram Spara alternativ**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet Visio.
 
@@ -41,15 +41,15 @@ Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument
 
 
 
-#### **Användning av PDF-sparalternativ**
-Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i ett PDF-format.
+#### **Användning av PDF Spara alternativ**
+Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet PDF.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UsePdfSaveOptions.py" >}}
 
 
 
-#### **Användning av HTML-sparaalternativ**
-Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i HTML-filformat.
+#### **Användning av HTML Spara alternativ**
+Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument till filformatet HTML.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseHtmlSaveOptions.py" >}}
 
@@ -65,7 +65,7 @@ Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument
 
 Användning av SVG Spara alternativ
 
-Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i SVG-format.
+Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet SVG.
 
 {{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseSvgSaveOptions.py" >}}
 

@@ -13,14 +13,14 @@ Diese Seite enthält Versionshinweise für Aspose.Diagram for .NET 21.8.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|DIAGRAMNET-51127|Falsche Wiedergabe der Farben beim Konvertieren einer VSDX in PNG|Erweiterung|
-|DIAGRAMNET-52070|Als HTML-Ausgabe speichern|Erweiterung|
+|DIAGRAMNET-51127|Incorrect rendering of the colors while converting a VSDX to PNG|Erweiterung|
+|DIAGRAMNET-52070|Save as HTML issue|Erweiterung|
 |DIAGRAMNET-52071|Problem beim Generieren von visio-Formen als Bilder|Erweiterung|
 |DIAGRAMNET-52075|Problem mit den Eigenschaften "Dokument" und "Seite".|Insekt|
-|DIAGRAMNET-52077|Seltsame Verbindungslinien einer Grafik, wenn sie in eine SVG-Datei exportiert wird|Insekt|
+|DIAGRAMNET-52077|Strange connecting lines from a graphic when it's exported to a SVG file|Insekt|
 |DIAGRAMNET-52094|Grafik nach dem Export verschoben dargestellt|Insekt|
 |DIAGRAMNET-52100|Der Wert der benutzerdefinierten Zellenformel kann nicht extrahiert werden|Insekt|
-|DIAGRAMNET-52102|"Parameter ist nicht gültig." Ausnahme beim Rendern von VSDX in HTML|Insekt|
+|DIAGRAMNET-52102|"Parameter is not valid." exception when rendering VSDX to HTML|Insekt|
 |DIAGRAMNET-52106|Wert der benutzerdefinierten Zellformel CONT kann nicht extrahiert werden.|Insekt|
 
 ## **Öffentliche API und rückwärtsinkompatible Änderungen**

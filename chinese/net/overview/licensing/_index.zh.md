@@ -15,7 +15,7 @@ Aspose.Diagram评估版（未指定许可）提供完整的产品功能，但在
 评估版提供除以下功能外的所有功能：
 
 - 您只能阅读Visio diagram第一页的前十个形状。
-- 您还将在导出的图像和 PDF 文件中看到评估水印。
+- You will also see evaluation watermark in exported images and PDF files.
 
 {{% alert color="primary" %}} 
 
