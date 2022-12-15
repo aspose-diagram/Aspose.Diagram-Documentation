@@ -13,6 +13,10 @@ lastmod: "2022-01-25"
 
 This page describes the most interesting new Aspose.Diagram features introduced in recent releases.
 
+## Aspose.Diagram for .NET 22.12
+
+* Support UnGrouping shape
+
 ## Aspose.Diagram for .NET 22.11
 
 * Support saving xaml as stream
