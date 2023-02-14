@@ -7,7 +7,7 @@ url: /python-java/aspose-diagram-for-python-via-java-23-2-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes information for Aspose.Diagram for Python via Java 23.1.
+This page contains release notes information for Aspose.Diagram for Python via Java 23.2.
 
 {{% /alert %}}
 ## **Improvements and Changes** ##
