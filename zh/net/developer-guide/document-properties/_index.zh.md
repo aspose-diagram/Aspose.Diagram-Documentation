@@ -4,7 +4,6 @@ linktitle: 文档属性
 type: docs
 weight: 80
 url: /zh/net/document-properties/
-aliases: [/zh/net/document-properties/]
 description: 管理 visio 文件的文档属性。
 ---
 ## **介绍**
