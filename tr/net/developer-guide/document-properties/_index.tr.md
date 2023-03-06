@@ -4,7 +4,6 @@ linktitle: Döküman özellikleri
 type: docs
 weight: 80
 url: /tr/net/document-properties/
-aliases: [/net/document-properties/]
 description: visio dosyalarının belge özelliklerini yönetin.
 ---
 ## **giriiş**

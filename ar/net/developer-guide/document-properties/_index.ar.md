@@ -4,7 +4,6 @@ linktitle: خصائص المستند
 type: docs
 weight: 80
 url: /ar/net/document-properties/
-aliases: [/net/document-properties/]
 description: إدارة خصائص الوثيقة لملفات visio.
 ---
 ## **مقدمة**

@@ -4,7 +4,6 @@ linktitle: Proprietà del documento
 type: docs
 weight: 80
 url: /it/net/document-properties/
-aliases: [/net/document-properties/]
 description: Gestisci le proprietà del documento dei file visio.
 ---
 ## **introduzione**

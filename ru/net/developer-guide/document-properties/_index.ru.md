@@ -4,7 +4,6 @@ linktitle: Свойства документа
 type: docs
 weight: 80
 url: /ru/net/document-properties/
-aliases: [/net/document-properties/]
 description: Управление свойствами документа visio файлов.
 ---
 ## **Введение**

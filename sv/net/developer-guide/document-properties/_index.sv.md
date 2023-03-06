@@ -4,7 +4,6 @@ linktitle: Dokument egenskaper
 type: docs
 weight: 80
 url: /sv/net/document-properties/
-aliases: [/net/document-properties/]
 description: Hantera dokumentegenskaper för visio-filer.
 ---
 ## **Introduktion**

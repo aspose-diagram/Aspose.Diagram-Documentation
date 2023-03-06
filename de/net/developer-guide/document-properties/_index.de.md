@@ -4,7 +4,6 @@ linktitle: Dokumenteigenschaften
 type: docs
 weight: 80
 url: /de/net/document-properties/
-aliases: [/net/document-properties/]
 description: Dokumenteigenschaften von visio-Dateien verwalten.
 ---
 ## **Einführung**
