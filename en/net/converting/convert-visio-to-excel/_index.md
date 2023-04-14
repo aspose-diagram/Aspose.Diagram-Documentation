@@ -8,10 +8,10 @@ description: This topic show you how to Aspose.Diagram allows to convert Visio t
 ---
 
 
-## **Export to PDF**
+## **Export to CSV**
 {{% alert color="primary" %}}
 
-Aspose.Diagram for .NET directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to PDF, Aspose.Diagram for .NET populates **Application** field with value 'Aspose.Diagram' and **CSV Producer** field with value, e.g 'Aspose.Diagram 23.4'.
+Aspose.Diagram for .NET directly writes the information about the API and Version Number in output documents. For example, upon rendering a Drawing to CSV, Aspose.Diagram for .NET populates **Application** field with value 'Aspose.Diagram' and **CSV Producer** field with value, e.g 'Aspose.Diagram 23.4'.
 
 Please note that you cannot instruct Aspose.Diagram for .NET API to change or remove this information from output Documents.
 
