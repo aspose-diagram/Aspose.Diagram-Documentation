@@ -67,18 +67,22 @@ Aspose.Diagram.Shape shape4 = page.Shapes.GetShape(shape4_ID);
 Connection connection1 = new Connection();
 
 connection1.X.Ufe.F = "Width*0.33";
+connection1.X.Value = shape1.XForm.Width.Value * 0.33;
 
 connection1.Y.Ufe.F = "Height*0";
+connection1.Y.Value = 0;
 
 Connection connection3 = new Connection();
 
 connection3.X.Ufe.F = "Width*0.66";
+connection3.X.Value = shape1.XForm.Width.Value *0.66;
 
 connection3.Y.Ufe.F = "Height*0";
+connection3.Y.Value = 0;
 
-shape1.Connections.Add(connection1);
+connection1.IX = shape1.Connections.Add(connection1);
 
-shape1.Connections.Add(connection3);
+connection3.IX = shape1.Connections.Add(connection3);
 
 
 
@@ -101,8 +105,6 @@ long connecter3Id = diagram.AddShape(connector3, connectorMaster, 0);
 page.ConnectShapesViaConnectorIndex(shape1.ID, 6, shape2.ID, 3, connecter1Id);
 
 page.ConnectShapesViaConnectorIndex(shape1.ID, 1, shape3.ID, 3, connecter2Id);
-
-page.ConnectShapesViaConnectorIndex(shape1.ID, 7, shape4.ID, 3, connecter3Id);
 
 // save drawing
 
