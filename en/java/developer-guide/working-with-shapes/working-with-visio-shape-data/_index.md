@@ -99,7 +99,7 @@ newShape.getXForm().getPinY().setValue(1);
 
 {{< /highlight >}}
 ## **Reading Visio Shape Data**
-The Props collection exposed by the Shape class supports the [Aspose.Diagram.Prop](https://reference.aspose.com/diagram//java/com.aspose.diagram/prop) object. The property can be used to read a shape's data (custom properties).
+The Props collection exposed by the Shape class supports the [Aspose.Diagram.Prop](https://reference.aspose.com/diagram/java/com.aspose.diagram/prop) object. The property can be used to read a shape's data (custom properties).
 ### **Read All Shape Properties**
 To identify custom properties in Microsoft Visio:
 
