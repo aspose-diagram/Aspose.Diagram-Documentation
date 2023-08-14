@@ -10,7 +10,7 @@ description: This section explains how to convert Diagram To html With Streampro
 
 When converting visio files which contain iamges and shapes to html files, we offen face the following two issues:
 
-1.Where should we save the images and shapes when saving excel file to html stream.
+1.Where should we save the images and shapes when saving visio file to html stream.
 2.Replace the default path with excepted path.
 
 This article explains how to implement IStreamProvider interface for setting the HTMLSaveOptions.StreamProvider property. By implementing this interface, you will be able to save the created resources during HTML generation to your specific locations or memory streams.
