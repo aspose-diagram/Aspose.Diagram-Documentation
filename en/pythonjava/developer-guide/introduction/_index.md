@@ -2,7 +2,7 @@
 title: Introduction
 type: docs
 weight: 10
-url: /net/introduction/
+url: /python-java/introduction/
 description: Introduction of Aspose.Diagram library.
 ---
 
