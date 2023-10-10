@@ -15,7 +15,7 @@ This page contains release notes for Aspose.Diagram for Python via .NET 23.10.
 | :- | :- | :- |
 |DIAGRAMNET-53207|Could not get the source file name or FileFormatType of the ole object|Enhancement|
 |DIAGRAMNET-53208|When ungrouping the complex shape lines erroneously changed length|Bug|
-|DIAGRAMNET-53210|Fix Nuget packages issues|Save Visio as HTML issue|
+|DIAGRAMNET-53210|Save Visio as HTML issue|
 
 
 ## **Public API and Backward Incompatible Changes**
