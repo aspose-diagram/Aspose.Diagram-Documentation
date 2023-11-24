@@ -9,7 +9,7 @@ aliases:
   - /net/home/
   - /diargam/net/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![ما يجب القيام به: image_بديل_نص](home_1.png)
 
@@ -21,7 +21,7 @@ Aspose.Diagram هي مكتبة صفية .NET API نقية للعمل مع Micros
 
  باستخدام Aspose.Diagram ، يمكنك بسهولة تحويل مخططات التدفق الخاصة بك إلى تنسيقات أخرى ، مثل PDF أو HTML أو تنسيقات صور متنوعة أو غيرها.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 <div class="row">
 	<div class="col-md-4">
@@ -31,12 +31,12 @@ Aspose.Diagram هي مكتبة صفية .NET API نقية للعمل مع Micros
 				<li><a href="/diagram/ar/net/whatsnew/">ما الجديد في Aspose.Diagram for .NET</a></li>
 				<li><a href="/diagram/ar/net/overview/">نظرة عامة على المنتج</a></li>
 				<li><a href="/diagram/ar/net/licensing/">الترخيص والاشتراك</a></li>
-			  <li><a href="/diagram/ar/net/release-notes/">Aspose.Diagram for .NET ملاحظات الإصدار</a></li>
+			  <li><a href="https://releases.aspose.com/diagram/net/release-notes/">Aspose.Diagram for .NET ملاحظات الإصدار</a></li>
 			</ul>            
 	        <p>موارد مفيدة</p>
 			<ul>
 				<li><a href="https://www.nuget.org/packages/Aspose.Diagram/">تنزيل Aspose.Diagram for .NET على NuGet</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/net">تحميل Aspose.Diagram for .NET</a></li>
+				<li><a href="https://releases.aspose.com/diagram/net/">تحميل Aspose.Diagram for .NET</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -63,7 +63,7 @@ Aspose.Diagram هي مكتبة صفية .NET API نقية للعمل مع Micros
 				<li><a href="/diagram/ar/net/save-visio-document/">يحفظ</a></li>
 				<li><a href="/diagram/ar/net/working-with-print/">مطبعة</a></li>
 				<li><a href="https://reference.aspose.com/diagram/net">Aspose.Diagram for .NET API الدليل المرجعي</a></li>
-			</ul>	
+			</ul>
 			<p>دعم فني</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for .NET منتدى الدعم المجاني</a></li>

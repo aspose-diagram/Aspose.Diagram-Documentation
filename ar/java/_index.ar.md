@@ -24,12 +24,12 @@ Aspose.Diagram هو API الأكثر مرونة وموثوقية والذي يس
 				<li><a href="/diagram/ar/java/whatsnew/">ما الجديد في Aspose.Diagram for Java</a></li>
 				<li><a href="/diagram/ar/java/overview/">نظرة عامة على المنتج</a></li>
 				<li><a href="/diagram/ar/java/licensing/">الترخيص والاشتراك</a></li>
-			  <li><a href="/diagram/ar/java/release-notes/">Aspose.Diagram for Java ملاحظات الإصدار</a></li>
+			  <li><a href="https://releases.aspose.com/diagram/java/release-notes/">Aspose.Diagram for Java ملاحظات الإصدار</a></li>
 			</ul>            
 	        <p>موارد مفيدة</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">تنزيل Aspose.Diagram for Java على Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">تحميل Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">تنزيل Aspose.Diagram for Java على Maven</a></li>
+				<li><a href="https://releases.aspose.com/diagram/java/">تحميل Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -56,7 +56,7 @@ Aspose.Diagram هو API الأكثر مرونة وموثوقية والذي يس
 				<li><a href="/diagram/ar/java/save-visio-document/">يحفظ</a></li>
 				<li><a href="/diagram/ar/java/working-with-print/">مطبعة</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API الدليل المرجعي</a></li>
-			</ul>	
+			</ul>
 			<p>دعم فني</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java منتدى الدعم المجاني</a></li>
