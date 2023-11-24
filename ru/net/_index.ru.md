@@ -9,7 +9,7 @@ aliases:
   - /net/home/
   - /diargam/net/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![дело:изображение_альтернативный_текст](home_1.png)
 
@@ -21,7 +21,7 @@ Aspose.Diagram использует расширенные функции, пр�
 
  С Aspose.Diagram вы можете легко преобразовать свои блок-схемы в другие форматы, такие как PDF, HTML, различные форматы изображений или другие.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 <div class="row">
 	<div class="col-md-4">
@@ -31,12 +31,12 @@ Aspose.Diagram использует расширенные функции, пр�
 				<li><a href="/diagram/ru/net/whatsnew/">Что нового в Aspose.Diagram for .NET</a></li>
 				<li><a href="/diagram/ru/net/overview/">Обзор продукта</a></li>
 				<li><a href="/diagram/ru/net/licensing/">Лицензирование и подписка</a></li>
-			  <li><a href="/diagram/ru/net/release-notes/">Aspose.Diagram for .NET Примечания к выпуску</a></li>
+			  <li><a href="https://releases.aspose.com/ru/diagram/net/release-notes/">Aspose.Diagram for .NET Примечания к выпуску</a></li>
 			</ul>            
 	        <p>Полезные ресурсы</p>
 			<ul>
 				<li><a href="https://www.nuget.org/packages/Aspose.Diagram/">Скачать Aspose.Diagram for .NET на NuGet</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/net">Скачать Aspose.Diagram for .NET</a></li>
+				<li><a href="https://releases.aspose.com/ru/diagram/net/">Скачать Aspose.Diagram for .NET</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -63,7 +63,7 @@ Aspose.Diagram использует расширенные функции, пр�
 				<li><a href="/diagram/ru/net/save-visio-document/">Сохранять</a></li>
 				<li><a href="/diagram/ru/net/working-with-print/">Распечатать</a></li>
 				<li><a href="https://reference.aspose.com/diagram/net">Aspose.Diagram for .NET API Справочное руководство</a></li>
-			</ul>	
+			</ul>
 			<p>Техническая поддержка</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for .NET Форум бесплатной поддержки</a></li>

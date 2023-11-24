@@ -24,12 +24,12 @@ Aspose.Diagram использует расширенные функции, пр�
 				<li><a href="/diagram/ru/java/whatsnew/">Что нового в Aspose.Diagram for Java</a></li>
 				<li><a href="/diagram/ru/java/overview/">Обзор продукта</a></li>
 				<li><a href="/diagram/ru/java/licensing/">Лицензирование и подписка</a></li>
-			  <li><a href="/diagram/ru/java/release-notes/">Aspose.Diagram for Java Примечания к выпуску</a></li>
+			  <li><a href="https://releases.aspose.com/ru/diagram/java/release-notes/">Aspose.Diagram for Java Примечания к выпуску</a></li>
 			</ul>            
 	        <p>Полезные ресурсы</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">Скачать Aspose.Diagram for Java на Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">Скачать Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">Скачать Aspose.Diagram for Java на Maven</a></li>
+				<li><a href="https://releases.aspose.com/ru/diagram/java/">Скачать Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -56,7 +56,7 @@ Aspose.Diagram использует расширенные функции, пр�
 				<li><a href="/diagram/ru/java/save-visio-document/">Сохранять</a></li>
 				<li><a href="/diagram/ru/java/working-with-print/">Распечатать</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API Справочное руководство</a></li>
-			</ul>	
+			</ul>
 			<p>Техническая поддержка</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java Форум бесплатной поддержки</a></li>
