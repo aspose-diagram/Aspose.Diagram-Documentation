@@ -25,12 +25,12 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 				<li><a href="/diagram/java/whatsnew/">What's new in Aspose.Diagram for Java</a></li>
 				<li><a href="/diagram/java/overview/">Product Overview</a></li>
 				<li><a href="/diagram/java/licensing/">Licensing and Subscription</a></li>
-			  <li><a href="/diagram/java/release-notes/">Aspose.Diagram for Java Release Notes</a></li>
+			  <li><a href="https://releases.aspose.com/diagram/java/release-notes/">Aspose.Diagram for Java Release Notes</a></li>
 			</ul>            
 	        <p>Useful Resources</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">Download Aspose.Diagram for Java at Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">Download Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">Download Aspose.Diagram for Java at Maven</a></li>
+				<li><a href="https://releases.aspose.com/diagram/java/">Download Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -57,7 +57,7 @@ Aspose.Diagram takes advantage of advanced functionality provided by Visio servi
 				<li><a href="/diagram/java/save-visio-document/">Save</a></li>
 				<li><a href="/diagram/java/working-with-print/">Print</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API Reference Guide</a></li>
-			</ul>	
+			</ul>
 			<p>Technical Support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java Free Support Forum</a></li>

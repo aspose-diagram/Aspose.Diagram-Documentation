@@ -10,7 +10,7 @@ aliases:
 - /diargam/net/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo:image_alt_text](home_1.png)
 
@@ -20,9 +20,9 @@ Aspose.Diagram is a pure .NET API class library for working with the Microsoft V
 
 Aspose.Diagram takes advantage of advanced functionalities provided by Microsoft Office Visio to manipulate Visio diagrams on a server. Aspose.Diagram API is extensible, easy to use, compact and provides all the most common functionality so that developers can write less code.
 
-With Aspose.Diagram, you can easily turn your flow diagrams into other formats, such as PDF, HTML, various image formats or others. 
+With Aspose.Diagram, you can easily turn your flow diagrams into other formats, such as PDF, HTML, various image formats or others.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 <div class="row">
 	<div class="col-md-4">
@@ -32,12 +32,12 @@ With Aspose.Diagram, you can easily turn your flow diagrams into other formats, 
 				<li><a href="/diagram/net/whatsnew/">What's new in Aspose.Diagram for .NET</a></li>
 				<li><a href="/diagram/net/overview/">Product Overview</a></li>
 				<li><a href="/diagram/net/licensing/">Licensing and Subscription</a></li>
-			  <li><a href="/diagram/net/release-notes/">Aspose.Diagram for .NET Release Notes</a></li>
+			  <li><a href="https://releases.aspose.com/diagram/net/release-notes/">Aspose.Diagram for .NET Release Notes</a></li>
 			</ul>            
 	        <p>Useful Resources</p>
 			<ul>
 				<li><a href="https://www.nuget.org/packages/Aspose.Diagram/">Download Aspose.Diagram for .NET at NuGet</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/net">Download Aspose.Diagram for .NET</a></li>
+				<li><a href="https://releases.aspose.com/diagram/net/">Download Aspose.Diagram for .NET</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -64,7 +64,7 @@ With Aspose.Diagram, you can easily turn your flow diagrams into other formats, 
 				<li><a href="/diagram/net/save-visio-document/">Save</a></li>
 				<li><a href="/diagram/net/working-with-print/">Print</a></li>
 				<li><a href="https://reference.aspose.com/diagram/net">Aspose.Diagram for .NET API Reference Guide</a></li>
-			</ul>	
+			</ul>
 			<p>Technical Support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for .NET Free Support Forum</a></li>
