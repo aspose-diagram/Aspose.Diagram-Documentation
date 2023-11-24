@@ -24,12 +24,12 @@ Aspose.Diagram 利用 Visio 服务提供的高级功能来操作服务器上的 
 				<li><a href="/diagram/zh/java/whatsnew/">Aspose.Diagram for Java 中的新功能</a></li>
 				<li><a href="/diagram/zh/java/overview/">产品概览</a></li>
 				<li><a href="/diagram/zh/java/licensing/">许可和订阅</a></li>
-			  <li><a href="/diagram/zh/java/release-notes/">Aspose.Diagram for Java 发行说明</a></li>
+			  <li><a href="https://releases.aspose.com/zh/diagram/java/release-notes/">Aspose.Diagram for Java 发行说明</a></li>
 			</ul>            
 	        <p>有用资源</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">下载 Aspose.Diagram for Java 在 Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">下载 Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">下载 Aspose.Diagram for Java 在 Maven</a></li>
+				<li><a href="https://releases.aspose.com/zh/diagram/java/">下载 Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -56,7 +56,7 @@ Aspose.Diagram 利用 Visio 服务提供的高级功能来操作服务器上的 
 				<li><a href="/diagram/zh/java/save-visio-document/">节省</a></li>
 				<li><a href="/diagram/zh/java/working-with-print/">打印</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API 参考指南</a></li>
-			</ul>	
+			</ul>
 			<p>技术支援</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java 免费支持论坛</a></li>
