@@ -9,7 +9,7 @@ aliases:
   - /net/home/
   - /diargam/net/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![yapılacaklar:resim_alternatif_Metin](home_1.png)
 
@@ -21,7 +21,7 @@ Aspose.Diagram, bir sunucuda Visio diyagramını işlemek için Microsoft Office
 
  Aspose.Diagram ile akış şemalarınızı PDF, HTML gibi çeşitli resim formatlarına veya diğer formatlara kolayca çevirebilirsiniz.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 <div class="row">
 	<div class="col-md-4">
@@ -31,12 +31,12 @@ Aspose.Diagram, bir sunucuda Visio diyagramını işlemek için Microsoft Office
 				<li><a href="/diagram/tr/net/whatsnew/">Aspose.Diagram'deki yenilikler for .NET</a></li>
 				<li><a href="/diagram/tr/net/overview/">Ürüne Genel Bakış</a></li>
 				<li><a href="/diagram/tr/net/licensing/">Lisanslama ve Abonelik</a></li>
-			  <li><a href="/diagram/tr/net/release-notes/">Aspose.Diagram for .NET Sürüm Notları</a></li>
+			  <li><a href="https://releases.aspose.com/tr/diagram/net/release-notes/">Aspose.Diagram for .NET Sürüm Notları</a></li>
 			</ul>            
 	        <p>Yararlı Kaynaklar</p>
 			<ul>
 				<li><a href="https://www.nuget.org/packages/Aspose.Diagram/">İndir Aspose.Diagram for .NET at NuGet</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/net">İndir Aspose.Diagram for .NET</a></li>
+				<li><a href="https://releases.aspose.com/tr/diagram/net/">İndir Aspose.Diagram for .NET</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -63,7 +63,7 @@ Aspose.Diagram, bir sunucuda Visio diyagramını işlemek için Microsoft Office
 				<li><a href="/diagram/tr/net/save-visio-document/">Kaydetmek</a></li>
 				<li><a href="/diagram/tr/net/working-with-print/">Yazdır</a></li>
 				<li><a href="https://reference.aspose.com/diagram/net">Aspose.Diagram for .NET API Başvuru Kılavuzu</a></li>
-			</ul>	
+			</ul>
 			<p>Teknik Destek</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for .NET Ücretsiz Destek Forumu</a></li>

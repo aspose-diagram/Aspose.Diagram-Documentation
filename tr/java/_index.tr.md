@@ -24,12 +24,12 @@ Aspose.Diagram, bir sunucudaki Visio belgesini işlemek için Visio hizmetleri t
 				<li><a href="/diagram/tr/java/whatsnew/">Aspose.Diagram'deki yenilikler for Java</a></li>
 				<li><a href="/diagram/tr/java/overview/">Ürüne Genel Bakış</a></li>
 				<li><a href="/diagram/tr/java/licensing/">Lisanslama ve Abonelik</a></li>
-			  <li><a href="/diagram/tr/java/release-notes/">Aspose.Diagram for Java Sürüm Notları</a></li>
+			  <li><a href="https://releases.aspose.com/tr/diagram/java/release-notes/">Aspose.Diagram for Java Sürüm Notları</a></li>
 			</ul>            
 	        <p>Yararlı Kaynaklar</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">İndir Aspose.Diagram for Java at Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">İndir Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">İndir Aspose.Diagram for Java at Maven</a></li>
+				<li><a href="https://releases.aspose.com/tr/diagram/java/">İndir Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -56,7 +56,7 @@ Aspose.Diagram, bir sunucudaki Visio belgesini işlemek için Visio hizmetleri t
 				<li><a href="/diagram/tr/java/save-visio-document/">Kaydetmek</a></li>
 				<li><a href="/diagram/tr/java/working-with-print/">Yazdır</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API Başvuru Kılavuzu</a></li>
-			</ul>	
+			</ul>
 			<p>Teknik Destek</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java Ücretsiz Destek Forumu</a></li>
