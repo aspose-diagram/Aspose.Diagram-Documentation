@@ -9,7 +9,7 @@ aliases:
   - /net/home/
   - /diargam/net/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo:image_alt_text](home_1.png)
 
@@ -21,7 +21,7 @@ Aspose.Diagram drar fördel av avancerade funktioner som tillhandahålls av Micr
 
 Med Aspose.Diagram kan du enkelt omvandla dina flödesdiagram till andra format, såsom PDF, HTML, olika bildformat eller andra.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 <div class="row">
 	<div class="col-md-4">
@@ -31,12 +31,12 @@ Med Aspose.Diagram kan du enkelt omvandla dina flödesdiagram till andra format,
 				<li><a href="/diagram/sv/net/whatsnew/">Vad är nytt i Aspose.Diagram for .NET</a></li>
 				<li><a href="/diagram/sv/net/overview/">Produktöversikt</a></li>
 				<li><a href="/diagram/sv/net/licensing/">Licensiering och prenumeration</a></li>
-			  <li><a href="/diagram/sv/net/release-notes/">Aspose.Diagram for .NET Release Notes</a></li>
+			  <li><a href="https://releases.aspose.com/diagram/net/release-notes/">Aspose.Diagram for .NET Release Notes</a></li>
 			</ul>            
 	        <p>Användbara resurser</p>
 			<ul>
 				<li><a href="https://www.nuget.org/packages/Aspose.Diagram/">Ladda ner Aspose.Diagram for .NET på NuGet</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/net">Ladda ner Aspose.Diagram for .NET</a></li>
+				<li><a href="https://releases.aspose.com/diagram/net/">Ladda ner Aspose.Diagram for .NET</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -63,7 +63,7 @@ Med Aspose.Diagram kan du enkelt omvandla dina flödesdiagram till andra format,
 				<li><a href="/diagram/sv/net/save-visio-document/">Spara</a></li>
 				<li><a href="/diagram/sv/net/working-with-print/">Skriva ut</a></li>
 				<li><a href="https://reference.aspose.com/diagram/net">Aspose.Diagram for .NET API Referensguide</a></li>
-			</ul>	
+			</ul>
 			<p>Teknisk support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for .NET Gratis supportforum</a></li>

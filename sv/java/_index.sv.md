@@ -24,12 +24,12 @@ Aspose.Diagram drar fördel av avancerade funktioner som tillhandahålls av Visi
 				<li><a href="/diagram/sv/java/whatsnew/">Vad är nytt i Aspose.Diagram for Java</a></li>
 				<li><a href="/diagram/sv/java/overview/">Produktöversikt</a></li>
 				<li><a href="/diagram/sv/java/licensing/">Licensiering och prenumeration</a></li>
-			  <li><a href="/diagram/sv/java/release-notes/">Aspose.Diagram for Java Release Notes</a></li>
+			  <li><a href="https://releases.aspose.com/diagram/java/release-notes/">Aspose.Diagram for Java Release Notes</a></li>
 			</ul>            
 	        <p>Användbara resurser</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">Ladda ner Aspose.Diagram for Java på Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">Ladda ner Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">Ladda ner Aspose.Diagram for Java på Maven</a></li>
+				<li><a href="https://releases.aspose.com/diagram/java/">Ladda ner Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -56,7 +56,7 @@ Aspose.Diagram drar fördel av avancerade funktioner som tillhandahålls av Visi
 				<li><a href="/diagram/sv/java/save-visio-document/">Spara</a></li>
 				<li><a href="/diagram/sv/java/working-with-print/">Skriva ut</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API Referensguide</a></li>
-			</ul>	
+			</ul>
 			<p>Teknisk support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java Gratis supportforum</a></li>
