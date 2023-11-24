@@ -24,12 +24,12 @@ Aspose.Diagram nutzt erweiterte Funktionen, die von Visio-Diensten bereitgestell
 				<li><a href="/diagram/de/java/whatsnew/">Was ist neu in Aspose.Diagram for Java</a></li>
 				<li><a href="/diagram/de/java/overview/">Produktübersicht</a></li>
 				<li><a href="/diagram/de/java/licensing/">Lizenzierung und Abonnement</a></li>
-			  <li><a href="/diagram/de/java/release-notes/">Aspose.Diagram for Java Versionshinweise</a></li>
+			  <li><a href="https://releases.aspose.com/de/diagram/java/release-notes/">Aspose.Diagram for Java Versionshinweise</a></li>
 			</ul>            
 	        <p>Nützliche Ressourcen</p>
 			<ul>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram">Herunterladen Aspose.Diagram for Java bei Maven</a></li>
-				<li><a href="https://downloads.aspose.com/diagram/java">Herunterladen Aspose.Diagram for Java</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-diagram/">Herunterladen Aspose.Diagram for Java bei Maven</a></li>
+				<li><a href="https://releases.aspose.com/de/diagram/java/">Herunterladen Aspose.Diagram for Java</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -56,7 +56,7 @@ Aspose.Diagram nutzt erweiterte Funktionen, die von Visio-Diensten bereitgestell
 				<li><a href="/diagram/de/java/save-visio-document/">Speichern</a></li>
 				<li><a href="/diagram/de/java/working-with-print/">Drucken</a></li>
 				<li><a href="https://reference.aspose.com/diagram/java">Aspose.Diagram for Java API Referenzhandbuch</a></li>
-			</ul>	
+			</ul>
 			<p>Technischer Support</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/diagram/17">Aspose.Diagram for Java Kostenloses Support-Forum</a></li>
