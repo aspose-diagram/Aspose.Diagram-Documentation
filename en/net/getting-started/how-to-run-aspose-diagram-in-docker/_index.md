@@ -41,38 +41,37 @@ namespace Aspose.Diagram.Docker
         static void Main(string[] args)
         {
             Aspose.Diagram.Diagram diagram = new Aspose.Diagram.Diagram();
-					  diagram.Pages[0].PageSheet.PageProps.PageWidth.Value = 10;
-					  diagram.Pages[0].PageSheet.PageProps.PageHeight.Value = 10;
-					  var shapeId = diagram.Pages[0].DrawRectangle(5, 5, 5, 3);
-					  Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
-					  shape.Line.LineWeight.Value = 0.1;
-					  shape.Line.Rounding.Value = 0;
-					  // add text to shape
-					  var txt = new Txt("Hello world!");
-					  shape.Text.Value.Add(txt);
-					  Aspose.Diagram.Char ch = new Aspose.Diagram.Char();
-					  shape.Chars.Add(ch);
-					  ch.IX = 0;
-					  // set text font
-					  ch.FontName.Value = "Courier New";
-					  // set text color
-					  ch.Color.Value = "#ff0000";
-					  // set font size, unit is 72pt
-					  ch.Size.Value = 24 / 72.0;							
+            diagram.Pages[0].PageSheet.PageProps.PageWidth.Value = 10;
+            diagram.Pages[0].PageSheet.PageProps.PageHeight.Value = 10;
+            var shapeId = diagram.Pages[0].DrawRectangle(5, 5, 5, 3);
+            Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
+            shape.Line.LineWeight.Value = 0.1;
+            shape.Line.Rounding.Value = 0;
+            // add text to shape
+            var txt = new Txt("Hello world!");
+            shape.Text.Value.Add(txt);
+            Aspose.Diagram.Char ch = new Aspose.Diagram.Char();
+            shape.Chars.Add(ch);
+            ch.IX = 0;
+            // set text font
+            ch.FontName.Value = "Courier New";
+            // set text color
+            ch.Color.Value = "#ff0000";
+            // set font size
+            ch.Size.Value = 24 / 72.0;							
 					
-					  Aspose.Diagram.Para para = new Para();
-					  shape.Paras.Add(para);
-					  para.IX = 0;
-					  // set horizon align
-					  para.HorzAlign.Value = HorzAlignValue.LeftAlign;
-					  // set indent
-					  para.IndLeft.Value = 0.3;
+            Aspose.Diagram.Para para = new Para();
+            shape.Paras.Add(para);
+            para.IX = 0;
+            // set horizon align
+            para.HorzAlign.Value = HorzAlignValue.LeftAlign;
+            // set indent
+            para.IndLeft.Value = 0.3;
 					
-					  shape.TextBlock.TextDirection.Value = TextDirectionValue.Vertical;
-					  shape.TextBlock.VerticalAlign.Value = VerticalAlignValue.Middle;
+            shape.TextBlock.TextDirection.Value = TextDirectionValue.Vertical;
+            shape.TextBlock.VerticalAlign.Value = VerticalAlignValue.Middle;
 					
-					
-					  diagram.Save("//TestOut//output.vsdx", SaveFileFormat.Vsdx);
+            diagram.Save("//TestOut//output.vsdx", SaveFileFormat.Vsdx);
         }
     }
 }
@@ -175,39 +174,38 @@ namespace Aspose.Diagram.Docker.Fonts
         {
             try
             {
-                Aspose.Diagram.Diagram diagram = new Aspose.Diagram.Diagram();
-							  diagram.Pages[0].PageSheet.PageProps.PageWidth.Value = 10;
-							  diagram.Pages[0].PageSheet.PageProps.PageHeight.Value = 10;
-							  var shapeId = diagram.Pages[0].DrawRectangle(5, 5, 5, 3);
-							  Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
-							  shape.Line.LineWeight.Value = 0.1;
-							  shape.Line.Rounding.Value = 0;
-							  // add text to shape
-							  var txt = new Txt("Hello world!");
-							  shape.Text.Value.Add(txt);
-							  Aspose.Diagram.Char ch = new Aspose.Diagram.Char();
-							  shape.Chars.Add(ch);
-							  ch.IX = 0;
-							  // set text font
-							  ch.FontName.Value = "Courier New";
-							  // set text color
-							  ch.Color.Value = "#ff0000";
-							  // set font size, unit is 72pt
-							  ch.Size.Value = 24 / 72.0;							
-							
-							  Aspose.Diagram.Para para = new Para();
-							  shape.Paras.Add(para);
-							  para.IX = 0;
-							  // set horizon align
-							  para.HorzAlign.Value = HorzAlignValue.LeftAlign;
-							  // set indent
-							  para.IndLeft.Value = 0.3;
-							
-							  shape.TextBlock.TextDirection.Value = TextDirectionValue.Vertical;
-							  shape.TextBlock.VerticalAlign.Value = VerticalAlignValue.Middle;
-							
-							
-							  diagram.Save("//TestOut//output.vsdx", SaveFileFormat.Vsdx);
+               Aspose.Diagram.Diagram diagram = new Aspose.Diagram.Diagram();
+               diagram.Pages[0].PageSheet.PageProps.PageWidth.Value = 10;
+               diagram.Pages[0].PageSheet.PageProps.PageHeight.Value = 10;
+               var shapeId = diagram.Pages[0].DrawRectangle(5, 5, 5, 3);
+               Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
+               shape.Line.LineWeight.Value = 0.1;
+               shape.Line.Rounding.Value = 0;
+               // add text to shape
+               var txt = new Txt("Hello world!");
+               shape.Text.Value.Add(txt);
+               Aspose.Diagram.Char ch = new Aspose.Diagram.Char();
+               shape.Chars.Add(ch);
+               ch.IX = 0;
+               // set text font
+               ch.FontName.Value = "Courier New";
+               // set text color
+               ch.Color.Value = "#ff0000";
+               // set font size
+               ch.Size.Value = 24 / 72.0;							
+					
+               Aspose.Diagram.Para para = new Para();
+               shape.Paras.Add(para);
+               para.IX = 0;
+               // set horizon align
+               para.HorzAlign.Value = HorzAlignValue.LeftAlign;
+               // set indent
+               para.IndLeft.Value = 0.3;
+					
+               shape.TextBlock.TextDirection.Value = TextDirectionValue.Vertical;
+               shape.TextBlock.VerticalAlign.Value = VerticalAlignValue.Middle;
+					
+               diagram.Save("//TestOut//output.vsdx", SaveFileFormat.Vsdx);
             }
             catch (Exception e)
             {
