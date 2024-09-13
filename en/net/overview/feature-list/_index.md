@@ -14,13 +14,13 @@ description: This page describes the feature list of Aspose.Diagram library.
 
 **Read**:
 
-- Read Microsoft Visio 2003/2007/2010 VSD format.
 - Read Microsoft Visio 2003/2007/2010 VSS format.
 - Read Microsoft Visio 2003/2007/2010 VDW format.
 - Read Microsoft Visio 2003/2007/2010 VST format.
 
 **Read and write**:
 
+- Read or write Microsoft Visio 2003/2007/2010 VSD format.
 - Read or write Microsoft Visio 2013 VSDX format.
 - Read or write Microsoft Visio 2013 VSTX format.
 - Read or write Microsoft Visio 2013 VSSX format.
