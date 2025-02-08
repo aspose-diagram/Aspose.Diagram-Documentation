@@ -13,7 +13,7 @@ The following table indicates the file formats that Aspose.Diagram for Java can 
 | :- | :- | :- | :- | :- |
 |[VSDX](https://docs.fileformat.com/visio/vsdx/)|MS Visio Drawing that uses OPC (Open Packaging Conventions)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VDX](https://docs.fileformat.com/visio/vdx/)  |Drawing or chart created with Microsoft Visio|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VSD](https://docs.fileformat.com/visio/vsd/)|Visio Drawing (Vector Graphics File Format)|{{< emoticons/tick >}}| | |
+|[VSD](https://docs.fileformat.com/visio/vsd/)|Visio Drawing (Vector Graphics File Format)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSX](https://docs.fileformat.com/visio/vsx/)|Visio Stencil XML file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VTX](https://docs.fileformat.com/visio/vtx/) |XML for Visio (Template File)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSSX](https://docs.fileformat.com/visio/vssx/)|VSSX file that has objects to be included in technical drawings|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
@@ -33,5 +33,5 @@ The following table indicates the file formats that Aspose.Diagram for Java can 
 |[PNG](https://docs.fileformat.com/image/png/)|PNG Format| |{{< emoticons/tick >}}| |
 |[BMP](https://docs.fileformat.com/image/bmp/)|BMP Format| |{{< emoticons/tick >}}| |
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Single or Multi-Page TIFF Image| |{{< emoticons/tick >}}| |
-|[HTML](https://docs.fileformat.com/web/html/)|HTML Format| |{{< emoticons/tick >}}| |
+|[HTML](https://docs.fileformat.com/web/html/)|HTML Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 
