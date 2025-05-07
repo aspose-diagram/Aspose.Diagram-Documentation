@@ -21,6 +21,7 @@ description: This section lists the supported operating systems that a developer
 - Microsoft Windows 7 ( x64, x86)
 - Microsoft Windows 8, 8.1 ( x64, x86)
 - Microsoft Windows 10 ( x64, x86)
+- Microsoft Windows 11
 ### **macOS**
 - Mac OS X x64 (10.12+) 
 ### **Linux**
@@ -38,6 +39,7 @@ You can use Aspose.Diagram for .NET to develop applications in any development e
 - Microsoft Visual Studio 2015
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 ## **Supported .NET Framework Versions**
 The following .NET Framework versions are supported:
 
@@ -56,4 +58,11 @@ The following .NET Framework versions are supported:
 - .NET Framework 4.6.2
 - .NET Framework 4.7
 - .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
+
 - .NET Standard 2.0 (.NET Core 2.0/2.1)
+- .NET 6.0
+- .NET 8.0
+- .NET 9.0
+
