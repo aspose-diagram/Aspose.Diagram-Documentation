@@ -24,5 +24,3 @@ If you want to convert a diagram to other formats, you can use the **DiagramConv
 If you want to convert a diagram to other formats, you can use the **DiagramConverter** class to perform the conversion without writing extensive boiler‑plate code. **LowCodeLoadOptions** and **LowCodeSaveOptions** let you fine‑tune the conversion behavior. The following code demonstrates how to convert an VSDX file ([lowcode-converter.vsdx](lowcode-converter.vsdx)) to VSDX format using **DiagramConverter**, **LowCodeLoadOptions**, and **LowCodeSaveOptions**.
 
 {{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-LowCode-DiagramConverter.cs" >}}
-
-{{< app/diagram/assistant language="csharp" >}}
