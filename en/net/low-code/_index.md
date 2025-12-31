@@ -39,5 +39,3 @@ The [DiagramConverter] class converts a given template file between diagram file
 The Aspose.Diagram.LowCode namespace helps you implement high‑level diagram processing tasks quickly with conversion. It is especially useful for developers who need speed, simplicity, and maintainable code when working with diagram.
 
 To explore more advanced options, you can always combine LowCode APIs with the full Aspose.Diagram object model. See more Low‑Code examples in the [API documentation].
-
-{{< app/diagram/assistant language="csharp" >}}
