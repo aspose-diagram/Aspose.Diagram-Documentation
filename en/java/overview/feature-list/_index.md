@@ -14,13 +14,13 @@ description: Visio Diagram Java API feature list include create, read, write, ex
 
 **Read**:
 
-- Read Microsoft Visio 2003/2007/2010 VSS format.
 - Read Microsoft Visio 2003/2007/2010 VDW format.
-- Read Microsoft Visio 2003/2007/2010 VST format.
 
 **Read and write**:
 
 - Read or write Microsoft Visio 2003/2007/2010 VSD format.
+- Read or write Microsoft Visio 2003/2007/2010 VSS format.
+- Read or write Microsoft Visio 2003/2007/2010 VST format.
 - Read or write Microsoft Visio 2013 VSDX format.
 - Read or write Microsoft Visio 2013 VSSX format.
 - Read or write Microsoft Visio 2013 VSTX format.
@@ -30,12 +30,12 @@ description: Visio Diagram Java API feature list include create, read, write, ex
 - Read or write Microsoft Visio 2003/2007/2010 VDX format.
 - Read or write Microsoft Visio 2003/2007/2010 VSX format.
 - Read or write Microsoft Visio 2003/2007/2010 VTX format.
+- Read or write HTML.
 
 **Export**:
 
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to popular image formats (BMP, JPEG, TIFF, EMF, SVG and PNG).
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to PDF.
-- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to HTML.
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
 
