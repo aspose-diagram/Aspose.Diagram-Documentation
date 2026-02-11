@@ -12,8 +12,8 @@ url: /ar/java/modify-the-gradient-of-a-visio-shape/
 ## **تعديل نموذج برمجة التعبئة المتدرجة**
 [شكل](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)تقدم class خاصية Fill التي تتيح للمطورين استرداد ملف[ملء الانحدار](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill)هدف. تحتوي فئة GradientFill على بيانات التدرج اللوني لشكل Visio. يمكن للمطورين تعيين جميع خصائصه المتاحة وكذلك استرداد نقطة توقف التدرج بفهرس لتعيين خصائص اللون والموضع.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -37,4 +37,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

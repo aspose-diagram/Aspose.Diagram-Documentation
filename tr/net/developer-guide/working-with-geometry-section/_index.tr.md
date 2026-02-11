@@ -10,8 +10,8 @@ Microsoft Office Visio'deki herhangi bir şekil, bir veya daha fazla "geometride
 ### **Programlama Örneği**
 Aşağıdaki kod parçacıkları, bir Şeklin geometrilerini yönetir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_GeometrySection();
@@ -57,4 +57,4 @@ connector.Geoms[0].CoordinateCol.Add(lineTo);
 diagram.Save(dataDir + "EditConnectorGeometry_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

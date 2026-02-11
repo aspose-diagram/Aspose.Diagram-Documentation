@@ -23,8 +23,8 @@ The process for updating the milestone date, date format, auto update flag and m
 1. Set the milestone type
 1. Save the Visio drawing to any supported format.
 #### **Set Milestone Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -50,7 +50,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Table of date format values:
@@ -105,8 +105,8 @@ The process for updating time period start, end and date format is:
 1. Set a date format.
 1. Save the Visio drawing to any supported format.
 #### **Set Time Period and Date Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -140,7 +140,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Table of date format values:
@@ -195,8 +195,8 @@ The code below shows how to:
 #### **Refresh Milestones using TimeLineHelper Programming Sample**
 Use the following code in your Java application to revive milestones on the timeline using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -225,7 +225,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Refresh Milestones on the Timeline using MilestoneHelper class**
 The RefreshMilestone method exposed by the [MilestoneHelper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper) class can be used to refresh milestones on the timeline.
 
@@ -242,8 +242,8 @@ The code below shows how to:
 #### **Refresh Milestones using MilestoneHelper Programming Sample**
 Use the following code in your Java application to refresh milestones on the timeline using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -294,4 +294,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

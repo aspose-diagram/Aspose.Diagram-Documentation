@@ -10,8 +10,8 @@ Visio şekilleri, ana stili ve ana şekli devralabilir. Geliştiriciler, bir Vis
 #### **Devralınan Doldurma Verilerini Al Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin devralınan dolgu verilerini alır. Lütfen bu örnek kodu kontrol edin:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -39,5 +39,5 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+
 

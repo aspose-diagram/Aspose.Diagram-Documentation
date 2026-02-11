@@ -37,8 +37,8 @@ Questi esempi mostrano come:
 #### **Uso delle opzioni di salvataggio Diagram**
 Il codice seguente mostra come impostare le opzioni di salvataggio prima di salvare un documento nel formato Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -65,15 +65,15 @@ options.AutoFitPageToDrawingContent = true;
 diagram.Save(dataDir + "UseDiagramSaveOptions_out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Uso delle opzioni di salvataggio PDF**
 The code below shows how to set save options before saving a document to a PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -117,15 +117,15 @@ options.PageSize = pgSize;
 diagram.Save(dataDir + "UsePDFSaveOptions_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Uso delle opzioni di salvataggio HTML**
 The code below shows how to set save options before saving a document to HTML file format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -168,7 +168,7 @@ MemoryStream stream = new MemoryStream();
 diagram.Save(stream, SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
@@ -177,8 +177,8 @@ Il codice seguente mostra come impostare le opzioni di salvataggio prima di salv
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -248,15 +248,15 @@ options.TiffCompression = TiffCompression.Ccitt3;
 diagram.Save(dataDir + "UseImageSaveOptions_out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 
 
 Uso delle opzioni di salvataggio SVG
 
 Il codice seguente mostra come impostare le opzioni di salvataggio prima di salvare un documento nel formato SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -281,15 +281,15 @@ options.PageSize = pgSize;
 diagram.Save(dataDir + "UseSVGSaveOptions_out.svg", options);
 
 {{< /highlight >}}
-```
+
 
 
 Uso delle opzioni di salvataggio SWF
 
 Il codice seguente mostra come impostare le opzioni di salvataggio prima di salvare un documento nel formato SWF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -318,7 +318,7 @@ options.ViewerIncluded = true;
 diagram.Save(dataDir + "UseSWFSaveOptions_out.swf", options);
 
 {{< /highlight >}}
-```
+
 
 Sometimes, developers need to save or export Visio diagrams to different file formats programmatically (like VDX, PDF, JPEG and so on).
 ## **Save VSD file to different file formats (VDX, PDF and JPEG)**
@@ -341,8 +341,8 @@ Importazioni Visio = Microsoft.Office.Interop.Visio
 
 **Esempio:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -374,7 +374,7 @@ vsdPage.Export(dataDir + "SaveDiagramToJPGwithVSTO_out.jpg");
 vsdApp.Quit();
 
 {{< /highlight >}}
-```
+
 ### ` `**Salvataggio del file VSD in altri formati con Aspose.Diagram for .NET**
 Utilizzando Aspose.Diagram, gli sviluppatori non hanno bisogno di Microsoft Office Visio nella macchina e possono lavorare indipendentemente dall'automazione Microsoft Office.
 
@@ -392,8 +392,8 @@ Importazioni Aspose.Diagram
 
 **Esempio:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -411,4 +411,4 @@ vsdDiagram.Save(dataDir + "SaveDiagramToPDFwithAspose_out.pdf", SaveFileFormat.P
 vsdDiagram.Save(dataDir + "SaveDiagramToJPGwithAspose_out.jpg", SaveFileFormat.JPEG);
 
 {{< /highlight >}}
-```
+

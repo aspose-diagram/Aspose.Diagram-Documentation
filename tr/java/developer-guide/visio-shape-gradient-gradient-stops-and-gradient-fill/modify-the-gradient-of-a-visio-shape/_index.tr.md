@@ -12,8 +12,8 @@ Aspose.Diagram API'i kullanan geliştiriciler, degradenin özelliklerini değiş
 ## **Degrade Doldurma Programlama Örneğinin Değiştirilmesi**
 [Şekil](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)class, geliştiricilerin bir[Gradyan Doldurma](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill)nesne. GradientFill sınıfı, bir Visio Shape'in gradyan verilerini tutar. Geliştiriciler, mevcut tüm özelliklerini ayarlayabilir ve renk ve konum özelliklerini ayarlamak için dizine göre bir gradyan durağı alabilir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -37,4 +37,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

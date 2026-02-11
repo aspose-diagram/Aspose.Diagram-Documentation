@@ -9,8 +9,8 @@ description: This section explains how to remove unusing or hidden info from a d
 ## **Remove Hidden Info**
 Aspose.Diagram for .NET API allows developers to remove hidden info from a diagram. In order to remove hidden info, you can use **RemoveHiddenInfoItem** properties in  **RemoveHiddenInformation()** method of Diagram class. The code example below shows how to draw remove hidden info from diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -26,4 +26,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "RemoveHiddenInfo_out.html", options);
 
 {{< /highlight >}}
-```
+

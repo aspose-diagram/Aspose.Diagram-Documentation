@@ -18,8 +18,8 @@ description: يشرح هذا القسم كيفية تعيين خصائص الن�
 #### **تعيين السمة إلى نموذج برمجة الشكل**
 استخدم الكود التالي في تطبيق Java لتعيين مظهر شكل نوع الموصل باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -59,4 +59,4 @@ page3.setPresetThemeQuickStyle (PresetQuickStyleValue.VARIANT_STYLE_3);
 diagram.save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

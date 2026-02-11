@@ -24,8 +24,8 @@ To add a new shape:
 ### **Add Programming Sample**
 The code snippet below shows how to do each step.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -62,7 +62,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -90,8 +90,8 @@ To retrieve Visio page information:
 ### **Retrieve Programming Sample**
 The following piece of code retrieve the shape information from a Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -108,7 +108,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 ## **Copy Shapes from an Existing Visio**
 Aspose.Diagram for Java API allows developers to copy shapes from the source Visio page to the new Visio diagram page. It also supports copying group shapes. This article describes how to copy all shapes from the the source diagram page.
 
@@ -125,8 +125,8 @@ This example work as follows:
 1. Set its new id and add to the new Visio page.
 1. Save the new Visio in the local storage.
 ### **Copy Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -157,7 +157,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -206,8 +206,8 @@ To identify custom properties in Microsoft Visio:
 #### **Read Programming Sample**
 The code snippets below reads shape data (custom properties).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -230,12 +230,12 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ### **Read a Shape Property by Name**
 The code snippet below reads a shape property by name (custom property).
 #### **Read by Name Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -254,7 +254,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Use Connection indexes to connect shapes**
 Aspose.Diagram for Java API already allows developers to add new connecting points on the shape, and developers can now connect shapes using connection indexes.
 ### **Use Connection indexes to connect shapes**
@@ -364,8 +364,8 @@ Aspose.Diagram for Java allows developers to retrieve the parent shape of a sub-
 ### **Get the Parent Shape**
 The Shape class offers getParentShape property to retrieve the parent shape.
 #### **Get the Parent Shape Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -380,4 +380,4 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+

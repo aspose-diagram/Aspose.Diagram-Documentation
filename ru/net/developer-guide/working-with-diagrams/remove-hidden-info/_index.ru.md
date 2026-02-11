@@ -8,8 +8,8 @@ description: В этом разделе объясняется, как удал�
 ## **Удалить скрытую информацию**
  Aspose.Diagram for .NET API позволяет разработчикам удалять скрытую информацию из diagram. Чтобы удалить скрытую информацию, вы можете использовать**RemoveHiddenInfoItem** свойства в**УдалитьСкрытуюИнформацию()**метод класса Diagram. В приведенном ниже примере кода показано, как удалить скрытую информацию из diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -25,4 +25,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "RemoveHiddenInfo_out.html", options);
 
 {{< /highlight >}}
-```
+

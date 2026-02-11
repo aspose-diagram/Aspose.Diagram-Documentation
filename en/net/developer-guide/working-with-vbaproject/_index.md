@@ -29,8 +29,8 @@ End Sub
 
 Here is the sample code to generate the output VSDM file with VBA Module and Macro Code.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -47,7 +47,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Modify VBA or Macro**
 
@@ -90,8 +90,8 @@ End Sub
 
 You can download the [source Visio file]() and the [output Visio file]() from the given links.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -106,7 +106,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Advance topics**
 - [Check if VBA Code is Signed](/diagram/net/check-if-vba-code-is-signed/)

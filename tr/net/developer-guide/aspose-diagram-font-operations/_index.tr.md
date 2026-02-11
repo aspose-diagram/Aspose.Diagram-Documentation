@@ -27,8 +27,8 @@ Yazı tipleri klasörünün yukarıdaki yöntemlerden herhangi biri kullanılara
 #### **Programlama Örneği**
 Aşağıdaki kod örneği, yazı tiplerini işlerken veya katıştırırken TrueType yazı tiplerini birden çok klasörde aramak için Aspose.Diagram'in nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -43,7 +43,7 @@ diagram.FontDirs = fontDirs;
 diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **İşleme Sırasında Eksik Yazı Tipleri ve Yazı Tipi Değiştirme Bildirimi Alın**
 Aspose.Diagram API, çizimi PDF formatına uygun şekilde işlemek için doğru yazı tipine erişim gerektirir. Gerekli yazı tipi makinede yoksa, Aspose.Diagram API, varsayılan yazı tipini veya makinedeki mevcut en yakın yazı tipini kullanarak bu yazı tipinin herhangi bir örneğini oluşturur, çünkü bu değiştirme, işlenmiş çizimin görünümünü değiştirebilir, geliştiricilerin bir yazı tipi eksik olduğunda ve hangi yazı tipiyle değiştirileceği bildirilir.
 #### **Eksik Font Bildirimi ve Font Değiştirme Programlama Örneği**

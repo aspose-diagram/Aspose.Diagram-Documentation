@@ -23,8 +23,8 @@ Så här lägger du till en ny form:
 ### **Lägg till programmeringsexempel**
 Kodavsnittet nedan visar hur du gör varje steg.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -61,7 +61,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ För att hämta Visio sidinformation:
 ### **Hämta programmeringsexempel**
 Följande kodbit hämtar forminformationen från en Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -107,7 +107,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 ## **Kopiera former från en befintlig Visio**
 Aspose.Diagram for Java API tillåter utvecklare att kopiera former från källsidan Visio till den nya sidan Visio diagram. Det stöder också kopiering av gruppformer. Den här artikeln beskriver hur du kopierar alla former från sidan källan diagram.
 
@@ -124,8 +124,8 @@ Detta exempel fungerar enligt följande:
 1. Ställ in dess nya id och lägg till den nya sidan Visio.
 1. Spara det nya Visio i den lokala lagringen.
 ### **Kopiera programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -156,7 +156,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -205,8 +205,8 @@ Så här identifierar du anpassade egenskaper i Microsoft Visio:
 #### **Läs programmeringsexempel**
 Kodavsnitten nedan läser formdata (anpassade egenskaper).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -229,12 +229,12 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ### **Läs en Shape Property efter namn**
 Kodavsnittet nedan läser en formegenskap efter namn (anpassad egenskap).
 #### **Läs efter namn Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -253,7 +253,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Använd anslutningsindex för att koppla samman former**
 Aspose.Diagram for Java API tillåter redan utvecklare att lägga till nya anslutningspunkter på formen, och utvecklare kan nu ansluta former med hjälp av anslutningsindex.
 ### **Använd anslutningsindex för att koppla samman former**
@@ -363,8 +363,8 @@ Aspose.Diagram for Java tillåter utvecklare att hämta den överordnade formen 
 ### **Skaffa föräldraformen**
 Shape-klassen erbjuder getParentShape-egenskapen för att hämta den överordnade formen.
 #### **Skaffa programmet Parent Shape-programmering**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -379,4 +379,4 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ url: /zh/java/calculate-pin-values-and-setting-size-of-a-shape/
 ### **计算 PinX 和 PinY 编程示例**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java API 计算子形状的 PinX 和 PinY 值。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CalculateCenterOfSubShapes.class);
@@ -50,7 +50,7 @@ double resultx = shape.getXForm().getPinX().getValue() - shape.getXForm().getLoc
 double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLocPinY().getValue() - piny;
 
 {{< /highlight >}}
-```
+
 ## **设置形状的高度和宽度**
 这[形状](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)类允许您通过使用 SetHeight 和 SetWidth 方法指定形状的高度和宽度来控制形状大小。
 
@@ -76,8 +76,8 @@ double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLoc
 ### **设置高度和宽度编程示例**
 下面的代码片段显示了如何设置形状的高度和宽度。该代码查找形状名称为矩形且形状 ID 为 1 的矩形，并将其高度和宽度设置为双精度值。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeShapeSize.class);
@@ -95,4 +95,4 @@ shape.setHeight(2 * shape.getXForm().getHeight().getValue());
 diagram.save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

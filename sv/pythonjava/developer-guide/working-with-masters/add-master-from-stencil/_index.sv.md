@@ -12,8 +12,8 @@ Aspose.Diagram för Python via Java API har Master class som representerar en Vi
 Använder metoden**addMaster** i Diagram klass för att lägga till master från stencil.
 
 ## **Exempelkod**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

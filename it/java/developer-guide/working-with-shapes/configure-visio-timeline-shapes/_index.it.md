@@ -22,8 +22,8 @@ Il processo per l'aggiornamento della data del traguardo, del formato della data
 1. Imposta il tipo di traguardo
 1. Salva il disegno Visio in qualsiasi formato supportato.
 #### **Imposta campione di programmazione Milestone**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabella dei valori del formato della data:
@@ -104,8 +104,8 @@ Il processo per l'aggiornamento del formato di inizio, fine e data del periodo d
 1. Imposta un formato della data.
 1. Salva il disegno Visio in qualsiasi formato supportato.
 #### **Impostare il periodo di tempo e il campione di programmazione della data**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabella dei valori del formato della data:
@@ -194,8 +194,8 @@ Il codice seguente mostra come:
 #### **Aggiorna le pietre miliari utilizzando l'esempio di programmazione TimeLineHelper**
 Utilizza il seguente codice nella tua applicazione Java per riattivare le pietre miliari sulla sequenza temporale utilizzando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Aggiorna le pietre miliari sulla sequenza temporale utilizzando la classe MilestoneHelper**
  Il metodo RefreshMilestone esposto da[Milestone Helper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)la classe può essere utilizzata per aggiornare le pietre miliari sulla sequenza temporale.
 
@@ -241,8 +241,8 @@ Il codice seguente mostra come:
 #### **Aggiorna le pietre miliari utilizzando l'esempio di programmazione MilestoneHelper**
 Utilizzare il seguente codice nell'applicazione Java per aggiornare le pietre miliari sulla sequenza temporale utilizzando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

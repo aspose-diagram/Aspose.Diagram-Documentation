@@ -7,8 +7,8 @@ url: /sv/java/create-layout-and-auto-fit-shapes/
 ## **Skapar ett Diagram**
  Aspose.Diagram for Java låter dig läsa och skapa Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation. Det första steget när du skapar nya dokument är att skapa en diagram. Sedan[lägg till former och kontakter](/diagram/sv/java/add-and-connect-visio-shapes/)för att bygga upp diagram. Använd standardkonstruktorn för[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) klass för att skapa en ny diagram.
 ### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -22,7 +22,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Layoutformer i flödesschemastil**
  Med vissa typer av anslutna ritningar, såsom flödesscheman och nätverksdiagram, kan du använda**Layoutformer** funktion för att automatiskt placera former. Automatisk positionering är snabbare än att manuellt dra varje form till en ny plats.
 
@@ -48,8 +48,8 @@ Så här layoutar du former i flödesdiagramstil:
 1. Anropa klassens layoutmetod Diagram genom att skicka LayoutOptions.
 1. Ring Diagram-klassens Spara-metod för att skriva Visio-ritningen.
 ### **Exempel på programmering av flödesschema**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(LayOutShapesInFlowchartStyle.class);     
@@ -88,7 +88,7 @@ diagram.layout(flowChartOptions);
 diagram.save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **Lägga ut former i kompakt trädstil**
  Den kompakta trädlayoutstilen försöker bygga en trädstruktur. Den använder samma indatafil som[exemplet ovan](/diagram/sv/java/create-2c-layout-and-auto-fit-shapes/)och sparar ut till flera olika kompakta trädstilar.
 
@@ -106,8 +106,8 @@ Så här layoutar du former i kompakt trädstil:
 1. Anropa klassens layoutmetod Diagram genom att skicka LayoutOptions.
 1. Anropa Diagram-klassens Spara-metod för att skriva Visio-filen.
 #### **Kompakt trädstilsprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(LayOutShapesInCompactTreeStyle.class);
@@ -145,7 +145,7 @@ diagram.layout(compactTreeOptions);
 diagram.save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Autopassa Visio Diagram**
 Aspose.Diagram API stöder automatisk anpassning av Visio-ritningen. Denna funktionsoperation hjälper till att föra yttre former innanför sidgränsen Visio.
 
@@ -160,8 +160,8 @@ Detta exempel fungerar enligt följande:
 ### **Auto-fit programmeringsexempel**
 Följande exempelkod visar hur du automatiskt anpassar former i Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AutoFitShapesInVisio.class);
@@ -177,7 +177,7 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 ## **Arbetar med VBA Project**
 ### **Ändra VBA-modulkod i Visio Diagram**
 Den här artikeln visar hur du ändrar en VBA-modulkod automatiskt med Aspose.Diagram for Java.
@@ -186,8 +186,8 @@ Vi har lagt till klasserna VbaModule, VbaModuleCollection, VbaProject, VbaProjec
 ### **Modifiera VBA-modulkodprogrammeringsexempel**
 Kontrollera detta kodexempel:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // load an existing Visio diagram
 String dataDir = Utils.getDataDir(ModifyVBAModuleCode.class);
@@ -207,14 +207,14 @@ for (int i = 0; i < diagram.getVbaProject().getModules().getCount(); i++) {
 diagram.save(dataDir + "out.vssm", SaveFileFormat.VSSM);
 
 {{< /highlight >}}
-```
+
 ### **Ta bort alla makron från Visio Diagram**
 Aspose.Diagram for Java tillåter utvecklare att ta bort alla makron från Visio diagram.
 
 JavaProjectData-egenskapen, exponerad av[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) klass, låter dig ta bort alla makron från Visio-ritningen.
 ### **Ta bort alla makron programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RemoveMacrosFromVisio.class);  
@@ -228,4 +228,4 @@ diagram.setVbProjectData(null);
 diagram.save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

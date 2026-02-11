@@ -15,8 +15,8 @@ Aspose.Diagram for Java permite configurar objetos de forma con capas en Microso
 
 El siguiente fragmento de código ayuda a agregar, eliminar y mover propiedades de objetos de forma.
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Agregar una capa en la hoja de página Visio**
 Aspose.Diagram for Java permite a los desarrolladores agregar nuevas capas para organizar categorías personalizadas de formas y luego asignar formas a esas capas mediante programación.
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java permite a los desarrolladores agregar nuevas capas para 
 
 El siguiente fragmento de código ayuda a agregar objetos de capa.
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java brinda a los desarrolladores acceso a las capas existent
 
 El siguiente fragmento de código ayuda a obtener una lista de capas.
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

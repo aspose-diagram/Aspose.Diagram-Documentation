@@ -24,8 +24,8 @@ Så här identifierar du fastigheter i Microsoft Visio:
 
 Kodavsnitten nedan lägger till forms hyperlänkdata.
 ### **Lägg till hyperlänksprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Hämta hyperlänkdata för Visio-formerna**
  Det är möjligt att få en forms hyperlänkdata på liknande sätt som du[läser Visio formdata]().
 
@@ -79,8 +79,8 @@ Så här identifierar du fastigheter i Microsoft Visio:
 
 Kodavsnitten nedan läser shapes hyperlänkdata.
 ### **Få hyperlänksprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

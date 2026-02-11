@@ -18,8 +18,8 @@ tarafından sunulan ProtectBkgnds, ProtectMasters, ProtectShapes ve ProtectStyle
 #### **Diagram Koruma Programlama Örneği'ni düzenleyin**
 Aspose.Diagram for .NET API kullanarak Visio diagram'in farklı öğelerini kilitlemek ve kilidini açmak gibi aynı görevleri gerçekleştirmek için aşağıdaki kodu bir .NET uygulamasında kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklinin Set Koruması**
  Visio şekillerinin korunması, kullanıcıların şekillerin belirli yönlerini kilitlemesine olanak tanır. Şekil koruması yoluyla kilitlenebilen şekillerin özellikleri arasında genişlik, yükseklik, x konumu, y konumu, döndürme ve daha fazlası bulunur. Geliştiriciler bunu kullanarak başarabilir[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Visio Şekil Korumasını düzenleyin**
@@ -51,8 +51,8 @@ Microsoft Office Visio'de kullanıcı herhangi bir şekli korumak için aşağı
 ### **Şekil Koruma Programlama Örneğinin Düzenlenmesi**
 Aspose.Diagram for .NET kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğini kilitlemek/kilidini açmak) için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

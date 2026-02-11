@@ -9,8 +9,8 @@ description: كيفية إضافة العلامة المائية إلى visio ب
 ## **إنشاء Diagram**
  يتيح لك Aspose.Diagram for Java قراءة وإنشاء Microsoft Visio الرسوم التخطيطية من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/)لإنشاء diagram. استخدم المُنشئ الافتراضي لـ[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) فئة لإنشاء diagram جديد.
 ### **عينة البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 هذا المثال يعمل على النحو التالي:
 
@@ -34,8 +34,8 @@ diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 ### **أضف عينة برمجة العلامة المائية**
 يوضح رمز المثال التالي كيفية إضافة علامة مائية في Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
@@ -57,4 +57,4 @@ Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

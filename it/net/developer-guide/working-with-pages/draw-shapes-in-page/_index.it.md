@@ -8,8 +8,8 @@ description: Questa sezione spiega come disegnare forme in una pagina visio con 
 ## **Disegna polilinea nella pagina**
 Aspose.Diagram for .NET API consente agli sviluppatori di disegnare una forma polilinea in una pagina. Per disegnare una forma polilinea, l'offerta API**DisegnaPolilinea()**metodo del[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)classe. L'esempio di codice seguente mostra come disegnare una polilinea in un disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,12 +25,12 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPolylineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Disegna Bezier in Page**
 Aspose.Diagram for .NET API consente agli sviluppatori di disegnare una forma più bezier in una pagina. Per disegnare una forma più bezier, l'offerta API**DrawBezier()**metodo del[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **classe. L'esempio di codice seguente mostra come disegnare un bezier in un disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -44,12 +44,12 @@ diagram.Pages[0].DrawBezier(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawBezierInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Disegna spline nella pagina**
 Aspose.Diagram for .NET API consente agli sviluppatori di disegnare una forma spline in una pagina. Per disegnare una forma più bezier, l'offerta API**DisegnaSpline()**metodo del[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **classe. L'esempio di codice seguente mostra come disegnare un bezier in un disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -66,4 +66,4 @@ diagram.Pages[0].DrawSpline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawSplineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

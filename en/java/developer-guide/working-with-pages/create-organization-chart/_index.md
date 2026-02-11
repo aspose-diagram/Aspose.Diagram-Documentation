@@ -21,8 +21,8 @@ The code below shows how to:
 #### **Create a CompactTree style Organization Chart Programming Sample**
 Use the following code to Create a CompactTree style Organization Chart using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawCompactTreeChart.class);
@@ -82,7 +82,7 @@ diagram.getPages().get(pageNumber).layout(compactTreeOptions);
 diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result**|
 | :- |
@@ -101,8 +101,8 @@ The code below shows how to:
 #### **Create a FlowChart style Organization Chart Programming Sample**
 Use the following code to Create a FlowChart style Organization Chart using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawFlowChart.class);
@@ -162,7 +162,7 @@ diagram.getPages().get(pageNumber).layout(flowChartOptions);
 diagram.save(dataDir + "DrawFlowChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result**|
 | :- |

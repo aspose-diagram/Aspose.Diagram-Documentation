@@ -8,8 +8,8 @@ description: 本节介绍如何在visio页面用Aspose.Diagram绘制菱形。支
 ## **在 Visio 中绘制钻石**
 Aspose.Diagram for .NET API 允许开发人员在页面中绘制菱形。下面的代码示例显示了如何在 Visio 绘图中绘制菱形。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,13 +25,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawDiamondInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **在 SVG 中绘制钻石**
 Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as SVG format. The code example below shows how to draw a diamond in a Visio drawing and save as SVG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawDiamondInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **在 PDF 中绘制钻石**
 Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as PDF format. The code example below shows how to draw a diamond in a Visio drawing and save as PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawDiamondInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **在 PNG 中绘制钻石**
 Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as PNG format. The code example below shows how to draw a diamond in a Visio drawing and save as PNG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -95,13 +95,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawDiamondInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **在 HTML 中绘制钻石**
 Aspose.Diagram for .NET API allows developers to draw a diamond in the page and save as HTML format. The code example below shows how to draw a diamond in a Visio drawing and save as HTML format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -117,4 +117,4 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawDiamondInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

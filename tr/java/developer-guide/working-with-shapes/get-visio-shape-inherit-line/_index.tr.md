@@ -10,8 +10,8 @@ description: Bu bölüm, visio şeklinin üst stilinden devralınan çizgi stili
 #### **Miras Alınan Satır Verilerini Al Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin devralınan çizgi verilerini alır. Lütfen bu örnek kodu kontrol edin:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

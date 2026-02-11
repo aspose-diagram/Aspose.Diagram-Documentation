@@ -29,8 +29,8 @@ description: يوضح هذا القسم كيفية تعيين خيارات ال�
 |المناظر الطبيعيه|اتجاه أفقي|
 |لَوحَة|اتجاه عمودي|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -46,14 +46,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **عامل التحجيم**
 
  من الممكن تصغير حجم الصفحة أو تكبيره عن طريق ضبط عامل التحجيم بامتداد[**سكيل إكس**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)منشأه.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -67,4 +67,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+

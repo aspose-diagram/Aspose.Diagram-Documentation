@@ -11,8 +11,8 @@ description: Cette section explique comment mettre à jour ou supprimer des cham
  La[Champ](https://reference.aspose.com/diagram/net/aspose.diagram/field) l'objet représente un champ de texte dans un[texte](https://reference.aspose.com/diagram/net/aspose.diagram/text) Cours. La propriété du terrain, exposée par le[Forme](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) prend en charge une collection d'objets Aspose.Diagram.Field.
 ### **Exemple de programmation**
 Le morceau suivant de champ de mise à jour de code dans shape.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Supprimer le champ**
 Le morceau de code suivant supprime le champ dans la forme.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

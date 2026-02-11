@@ -10,8 +10,8 @@ description: Bu bölümde bir visio şeklinin Aspose.Diagram ile nasıl döndür
 ### **Şekil Programlama Örneği Döndürme**
 Aspose.Diagram for .NET kullanarak bir şekli döndürmek için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Konumunu Değiştirme**
  bu[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Class, bir şeklin konumunu değiştirmenizi sağlar. Şekil farklı bir konuma taşındığında bağlayıcı çizgi otomatik olarak ayarlanır. Tarafından sunulan Move ve MoveTo yöntemleri[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) sınıf, bir grubun parçası olarak veya değil, bir şeklin konumunu değiştirmeyi destekler. Bu makaledeki kod örnekleri, sayfada bir şekli hareket ettirir.
 
@@ -43,8 +43,8 @@ Bir şekli taşıma işlemi:
 ### **Konum Değiştirme Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin nasıl taşınacağını gösterir. Kod, ada göre bir Visio sayfasını ve ID 16'ya göre şekli alır ve konumunu hareket ettirir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Grupların Alt Şekillerini Bağlayın**
  Bu konuda, Microsoft Visio diyagramlarında Aspose.Diagram for .NET kullanılarak iki farklı grup şeklinin iki alt şeklinin nasıl birleştirileceği açıklanmaktadır.[Sayfa](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class, şekilleri kimliklerine göre bağlamak için kullanılabilir. Tarafından sunulan AddShape yöntemi[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)sınıf, bir şekil eklemek için kullanılabilir.
 
@@ -75,8 +75,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Alt Şekilleri Programlama Örneği Bağlayın**
 .NET for .NET kullanarak iki farklı grup şeklinin alt şekillerini bağlamak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Şekilleri Belirli Bir Şekle Bağlayın**
 [Ekle ve Bağla Visio Şekiller](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) Microsoft Visio diyagramlarında Aspose.Diagram for .NET kullanılarak bir şeklin nasıl eklenip diğer şekillere bağlanacağı anlatılmaktadır. Belirli bir şekle bağlı şekiller bulmak da mümkündür.
 
@@ -117,8 +117,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Shapes Programlama Örneği Alın**
 Aspose.Diagram for .NET kullanarak belirli bir şekle bağlı tüm şekilleri bulmak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

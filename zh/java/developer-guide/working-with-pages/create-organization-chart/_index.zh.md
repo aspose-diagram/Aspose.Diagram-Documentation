@@ -20,8 +20,8 @@ description: 本节介绍如何使用 Aspose.Diagram for Java 创建组织结构
 #### **创建一个 CompactTree 风格的组织结构图编程示例**
 使用以下代码使用 Aspose.Diagram for Java 创建 CompactTree 样式组织结构图。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawCompactTreeChart.class);
@@ -81,7 +81,7 @@ diagram.getPages().get(pageNumber).layout(compactTreeOptions);
 diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**结果**|
 |:- |
@@ -100,8 +100,8 @@ diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 #### **创建流程图样式的组织结构图编程示例**
 使用以下代码使用 Aspose.Diagram for Java 创建流程图样式组织结构图。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawFlowChart.class);
@@ -161,7 +161,7 @@ diagram.getPages().get(pageNumber).layout(flowChartOptions);
 diagram.save(dataDir + "DrawFlowChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**结果**|
 |:- |

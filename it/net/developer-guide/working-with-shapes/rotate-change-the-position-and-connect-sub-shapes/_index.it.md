@@ -10,8 +10,8 @@ description: Questa sezione spiega come ruotare una forma visio con Aspose.Diagr
 ### **Ruotare un esempio di programmazione delle forme**
 Utilizzare il seguente codice nell'applicazione .NET per ruotare una forma utilizzando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Modificare la posizione di una forma**
  Il[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) La classe consente di modificare la posizione di una forma. La linea del connettore si regola automaticamente quando la forma viene spostata in una posizione diversa. I metodi Move e MoveTo, esposti da[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) classe, supporto per cambiare la posizione di una forma come parte di un gruppo o meno. Gli esempi di codice in questo articolo spostano una forma nella pagina.
 
@@ -43,8 +43,8 @@ Il processo per spostare una forma è:
 ### **Esempio di programmazione della modifica della posizione**
 Il frammento di codice seguente mostra come spostare la forma. Il codice recupera una pagina Visio per nome e forma per ID 16 e ne sposta la posizione.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Collega le forme secondarie dei gruppi**
  Questo argomento elabora come connettere due forme secondarie di due diverse forme di gruppo nei diagrammi Microsoft Visio utilizzando Aspose.Diagram for .NET. Il metodo ConnectShapesViaConnector esposto dal[Pagina](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class può essere utilizzata per connettere le forme tramite i loro ID. Il metodo AddShape, esposto da[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)class, può essere utilizzato per aggiungere una forma.
 
@@ -75,8 +75,8 @@ Il codice seguente mostra come:
 ### **Esempio di programmazione Connect Sub-shapes**
 Utilizzare il seguente codice nell'applicazione .NET per collegare le forme secondarie di due diverse forme di gruppo utilizzando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ottieni le forme collegate a una forma particolare**
 [Aggiungi e collega Visio Forme](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) spiega come aggiungere una forma e collegarla ad altre forme nei diagrammi Microsoft Visio utilizzando Aspose.Diagram for .NET. È anche possibile trovare forme collegate a una forma specifica.
 
@@ -117,8 +117,8 @@ Il codice seguente mostra come:
 ### **Ottieni un esempio di programmazione di forme**
 Usa il seguente codice nella tua applicazione .NET per trovare tutte le forme collegate a una forma specifica usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

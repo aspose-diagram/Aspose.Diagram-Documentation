@@ -11,8 +11,8 @@ description: Esta sección explica cómo actualizar o eliminar campos.
  los[Campo](https://reference.aspose.com/diagram/net/aspose.diagram/field) objeto representa un campo de texto en un[texto](https://reference.aspose.com/diagram/net/aspose.diagram/text) correr. La propiedad de campo, expuesta por la[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) La clase admite una colección de objetos Aspose.Diagram.Field.
 ### **Ejemplo de programación**
 El siguiente fragmento de código actualiza el campo en forma.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Eliminar campo**
 El siguiente fragmento de código elimina el campo en forma.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -24,8 +24,8 @@ Aspose.Diagram for .NET позволяет вам управлять Microsoft V
 ### **Добавить пример программирования**
 Фрагмент кода ниже показывает, как выполнить каждый шаг.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
 Console.WriteLine("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ Console.WriteLine("Shape has been added.");
 ### **Получить пример программирования**
 Следующий фрагмент кода извлекает информацию о форме из Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -107,7 +107,7 @@ foreach (Aspose.Diagram.Shape shape in vsdDiagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Копирование фигур из существующей Visio**
 Aspose.Diagram for .NET API позволяет разработчикам копировать фигуры с исходной страницы Visio на новую страницу Visio diagram. Он также поддерживает копирование групповых фигур. В этой статье описывается, как скопировать все фигуры с исходной страницы diagram.
 
@@ -124,8 +124,8 @@ Aspose.Diagram for .NET API позволяет разработчикам коп
 1. Установите его новый идентификатор и добавьте на новую страницу Visio.
 1. Сохраните новый Visio в локальном хранилище.
 ### **Копировать пример программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -157,7 +157,7 @@ foreach (Aspose.Diagram.Shape shape in SrcPage.Shapes)
 newDiagram.Save(dataDir + "CopyShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -206,8 +206,8 @@ newShape.XForm.PinY.Value = 1;
 #### **Читать пример программирования**
 Фрагменты кода ниже считывают данные формы (настраиваемые свойства).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -230,12 +230,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Чтение свойства формы по имени**
 Фрагмент кода ниже считывает свойство фигуры по имени (настраиваемое свойство).
 #### **Пример программирования чтения по имени**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -255,12 +255,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Чтение InheritProps формы**
 Фрагмент кода ниже читает InheritProps формы.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -284,7 +284,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Добавить и соединить Visio фигуры**
  Aspose.Diagram for .NET позволяет добавлять индивидуальные формы и соединять их в[диаграммы, которые вы создаете](https://products.aspose.com/diagram/net/).
 ### **Добавление и соединение фигур**
@@ -295,8 +295,8 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 1. Соедините фигуры звезды и шестиугольника с прямоугольником.
 1. Сохраните номер diagram.
 #### **Пример программирования добавления и соединения фигур**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_TechnicalArticles();
@@ -386,7 +386,7 @@ diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bot
 diagram.Save(dataDir + "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Используйте индексы соединения для соединения фигур**
 Aspose.Diagram for .NET API уже позволяет разработчикам добавлять новые точки соединения на фигуру, и теперь разработчики могут соединять фигуры с помощью индексов соединения.
 ### **Используйте индексы соединения для соединения фигур**
@@ -496,8 +496,8 @@ Aspose.Diagram for .NET позволяет разработчикам извле
 ### **Получить родительскую форму**
 [Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)класс предлагает свойство ParentShape для получения родительской формы.
 #### **Получить пример программирования родительской фигуры**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -510,4 +510,4 @@ Console.WriteLine("Shape ID: " + parentShape.ID);
 Console.WriteLine("Shape Name: " + parentShape.Name);
 Console.WriteLine("Shape Type: " + parentShape.Type);
 {{< /highlight >}}
-```
+

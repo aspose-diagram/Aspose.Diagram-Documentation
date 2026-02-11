@@ -18,8 +18,8 @@ description: يشرح هذا القسم كيفية ضبط الحماية في di
 #### **قم بتحرير نموذج برمجة الحماية Diagram**
 استخدم الكود أدناه في تطبيق .NET لأداء نفس المهام مثل قفل وفتح عناصر مختلفة من Visio diagram باستخدام Aspose.Diagram for .NET API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **تعيين الحماية للشكل Visio**
  تسمح حماية الأشكال Visio للمستخدمين بقفل جوانب معينة من الأشكال. تشمل جوانب الأشكال التي يمكن تأمينها من خلال حماية الشكل العرض والارتفاع وموضع x وموضع y والدوران والمزيد. يمكن للمطورين تحقيق ذلك باستخدام[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **قم بتحرير حماية الشكل Visio**
@@ -51,8 +51,8 @@ diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 ### **قم بتحرير نموذج برمجة حماية الشكل**
 استخدم الكود التالي في تطبيق .NET الخاص بك للقيام بنفس الشيء (قفل / إلغاء قفل أي سمة شكل) باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

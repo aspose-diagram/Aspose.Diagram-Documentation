@@ -10,8 +10,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie die Layer-Eigenschafte
 ### **Programmierbeispiel zum Ändern der Layer-Eigenschaften**
 Der folgende Codeabschnitt hilft, die Eigenschaften der Ebene zu ändern.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -31,4 +31,3 @@ foreach (Aspose.Diagram.Layer layer in Page.PageSheet.Layers)
 diagram.Save(dataDir + "ChangeLayerProperty_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

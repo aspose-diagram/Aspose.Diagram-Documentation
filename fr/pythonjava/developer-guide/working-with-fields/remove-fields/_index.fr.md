@@ -12,8 +12,8 @@ L'objet Field représente un champ de texte dans une exécution de texte. La pro
 
 ### **Exemple de programmation**
 Le morceau de code suivant supprime un champ dans shape.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

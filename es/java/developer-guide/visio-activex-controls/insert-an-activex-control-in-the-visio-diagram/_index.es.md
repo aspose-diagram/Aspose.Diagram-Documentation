@@ -12,8 +12,8 @@ url: /es/java/insert-an-activex-control-in-the-visio-diagram/
 ## **Insertar una muestra de programación de control ActiveX**
 [Página](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) class ofrece el método addActiveXControl y permite a los desarrolladores insertar cualquier tipo de control ActiveX como botón de comando, cuadro combinado, casilla de verificación, cuadro de lista, cuadro de texto, botón giratorio, botón de radio, etiqueta, imagen, botón de alternancia y barra de desplazamiento.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(InsertanActiveControl.class) + "VisioActiveXControls/";
@@ -25,4 +25,4 @@ diagram.getPages().get(0).addActiveXControl(ControlType.IMAGE, 1, 1, 1, 1);
 diagram.save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

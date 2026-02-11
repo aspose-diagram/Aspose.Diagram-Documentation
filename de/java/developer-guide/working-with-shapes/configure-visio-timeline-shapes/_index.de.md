@@ -22,8 +22,8 @@ Der Vorgang zum Aktualisieren des Meilensteindatums, des Datumsformats, der Mark
 1. Legen Sie den Meilensteintyp fest
 1. Speichern Sie die Zeichnung Visio in einem beliebigen unterstützten Format.
 #### **Programmierbeispiel für Meilenstein setzen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabelle der Datumsformatwerte:
@@ -104,8 +104,8 @@ Der Prozess zum Aktualisieren des Start-, End- und Datumsformats des Zeitraums i
 1. Legen Sie ein Datumsformat fest.
 1. Speichern Sie die Zeichnung Visio in einem beliebigen unterstützten Format.
 #### **Programmierungsbeispiel für Zeitraum und Datum einstellen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabelle der Datumsformatwerte:
@@ -194,8 +194,8 @@ Der folgende Code zeigt, wie man:
 #### **Aktualisieren Sie Meilensteine mit dem TimeLineHelper-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um Meilensteine auf der Zeitachse mit Aspose.Diagram for Java wiederzubeleben.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Aktualisieren Sie Meilensteine auf der Timeline mithilfe der MilestoneHelper-Klasse**
  Die RefreshMilestone-Methode, die von der bereitgestellt wird[MeilensteinHelfer](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)-Klasse kann verwendet werden, um Meilensteine auf der Zeitachse zu aktualisieren.
 
@@ -241,8 +241,8 @@ Der folgende Code zeigt, wie man:
 #### **Aktualisieren Sie Meilensteine mit dem MilestoneHelper-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um Meilensteine auf der Zeitachse mit Aspose.Diagram for Java zu aktualisieren.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

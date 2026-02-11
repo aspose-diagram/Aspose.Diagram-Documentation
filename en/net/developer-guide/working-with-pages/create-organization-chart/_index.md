@@ -21,8 +21,8 @@ The code below shows how to:
 #### **Create a CompactTree style Organization Chart Programming Sample**
 Use the following code to Create a CompactTree style Organization Chart using Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_CompactTreeChart();
@@ -84,7 +84,7 @@ diagram.Pages[pageNumber].Layout(compactTreeOptions);
 diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result**|
 | :- |
@@ -103,8 +103,8 @@ The code below shows how to:
 #### **Create a FlowChart style Organization Chart Programming Sample**
 Use the following code to Create a FlowChart style Organization Chart using Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_FlowChart();
@@ -165,7 +165,7 @@ diagram.Pages[pageNumber].Layout(flowChartOptions);
 diagram.Save(dataDir + "FlowChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result**|
 | :- |

@@ -12,8 +12,8 @@ url: /ru/net/working-with-shapes-paragraph/
 ## **Образец программирования абзаца для фигуры**
 Используйте следующий код в своем приложении .NET, чтобы установить абзац формы, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -69,4 +69,3 @@ para.Bullet.Value = BulletValue.Style1;
 diagram.Save(dataDir + "SettingParagraphOfShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

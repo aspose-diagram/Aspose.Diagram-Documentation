@@ -19,8 +19,8 @@ Il codice seguente mostra come:
 #### **Esempio di programmazione dell'aspetto del connettore**
 Utilizzare il seguente codice nell'applicazione Java per impostare l'aspetto della forma del tipo di connettore utilizzando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -38,7 +38,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Selezionare l'opzione di reindirizzamento della forma del connettore**
  La proprietà ConFixedCode esposta da[Disposizione](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) la classe può essere utilizzata per selezionare l'opzione di reinstradamento. La proprietà Layout, esposta da[Forma](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) classe, verrà utilizzato.
 
@@ -54,8 +54,8 @@ Il codice seguente mostra come:
 ### **Selezionare Esempio di programmazione dell'opzione di reindirizzamento**
 Utilizzare il seguente codice nell'applicazione Java per selezionare l'opzione di reinstradamento della forma del connettore utilizzando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -73,4 +73,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

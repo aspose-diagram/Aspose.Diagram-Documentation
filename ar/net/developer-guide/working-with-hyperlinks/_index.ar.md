@@ -23,8 +23,8 @@ Microsoft Office Visio يدعم إضافة الوصلات المرجعية إل�
 ### **إضافة نموذج برمجة ارتباط تشعبي**
 يضيف مقتطف الشفرة أدناه بيانات الارتباط التشعبي للشكل.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -53,7 +53,7 @@ shape.Hyperlinks.Add(hyperlink);
 diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **الحصول على بيانات الارتباطات التشعبية لأشكال Visio**
 يمكن للمطورين استرداد كافة الارتباطات التشعبية من شكل Visio بنفس طريقة استرجاعها[قراءة بيانات الشكل Visio](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) استخدام[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -75,8 +75,8 @@ diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 ### **احصل على نموذج لبرمجة الارتباطات التشعبية**
 يقرأ مقتطف التعليمات البرمجية أدناه بيانات الارتباط التشعبي للشكل.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -96,4 +96,4 @@ foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
 }       
 
 {{< /highlight >}}
-```
+

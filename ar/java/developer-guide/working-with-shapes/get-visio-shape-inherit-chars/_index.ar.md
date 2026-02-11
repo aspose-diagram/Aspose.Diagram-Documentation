@@ -10,8 +10,8 @@ description: يشرح هذا القسم كيفية الحصول على نمط خ
 #### **استرجاع نموذج برمجة بيانات الخط الموروث**
 يسترد مقتطف التعليمات البرمجية التالي بيانات الخط الموروثة للشكل. يرجى التحقق من نموذج الكود هذا:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedChars.class) + "Shapes/";
@@ -45,7 +45,7 @@ for (int j = 0; j < chars.getCount(); j++)
 }
 
 {{< /highlight >}}
-```
+
 
 
 

@@ -12,8 +12,8 @@ Microsoft Office Visio 支持操作 Visio diagram 中的 OLE 对象。如果 Exc
 ### **操作嵌入式 OLE 对象编程示例**
 ForeignData 类的 ObjectData 属性允许开发人员使用 Visio diagram 中的现有 OLE 对象进行操作。此帮助主题演示开发人员如何检索 Word 文档的 OLE 对象，使用[Aspose.Words for Java API](https://products.aspose.com/words/java)然后在 Visio diagram 中存回一个 OLE 对象。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
 System.out.println(dataDir);
@@ -46,4 +46,4 @@ if (OLE_Shape.getType() == TypeValue.FOREIGN) {
 diagram.save(dataDir + "modified.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

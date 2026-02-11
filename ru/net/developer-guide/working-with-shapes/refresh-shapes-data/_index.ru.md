@@ -16,8 +16,8 @@ description: В этом разделе объясняется, как обно�
 ### **Обновить данные Shape**
 Используйте следующий код в своем приложении .NET, чтобы обновить фигуру с помощью Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ shape.RefreshData();
 diagram.Save(dataDir + "RefreshData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

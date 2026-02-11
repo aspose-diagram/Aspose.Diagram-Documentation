@@ -14,8 +14,8 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 - قم بتكوين نسخة من الفئة Diagram.
 - اتصل بـ Diagram class 'Save method وقم بتعيين تنسيق الصورة الذي تريد التصدير إليه ، ملف صورة الإخراج يبدو مثل الملف الأصلي.
 ### **تصدير Microsoft Visio الرسم إلى ملف الصورة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -27,12 +27,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 diagram.Save(dataDir + "ExportToImage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 من الممكن أيضًا حفظ صفحة معينة على الصورة ، بدلاً من حفظ المستند بأكمله:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -49,4 +49,3 @@ options.PageIndex = 0;
 diagram.Save(dataDir + "ExportPageToImage_out.png", options);
 
 {{< /highlight >}}
-```

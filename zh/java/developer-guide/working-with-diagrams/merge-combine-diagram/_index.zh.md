@@ -12,8 +12,8 @@ Aspose.Diagram 允许您将两个 visio 文件合并为一个。
 使用方法[**结合**](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#combine(com.aspose.diagram.Diagram)） 在[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram)组合图表的类。
 
 ## **示例代码**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CombineDiagram.class);
@@ -30,4 +30,4 @@ diagram2.combine(diagram);
 diagram.save(dataDir + "CombineDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

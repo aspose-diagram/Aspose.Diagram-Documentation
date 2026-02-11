@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية إزالة الحقول.
 
 ### **عينة البرمجة**
 الجزء التالي من التعليمات البرمجية يزيل حقلاً في الشكل.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

@@ -21,8 +21,8 @@ Il processo per l'aggiornamento della data del traguardo, del formato della data
 1. Imposta il tipo di traguardo
 1. Salva il disegno Visio in qualsiasi formato supportato.
 #### **Imposta campione di programmazione Milestone**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -49,7 +49,7 @@ milestoneHelper.Type = 6;
 diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabella dei valori del formato della data:
@@ -101,8 +101,8 @@ Il processo per l'aggiornamento del formato di inizio, fine e data del periodo d
 1. Imposta un formato della data.
 1. Salva il disegno Visio in qualsiasi formato supportato.
 #### **Impostare il periodo di tempo e il campione di programmazione della data**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,7 +137,7 @@ timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabella dei valori del formato della data:
@@ -192,8 +192,8 @@ Il codice seguente mostra come:
 #### **Aggiorna le pietre miliari utilizzando l'esempio di programmazione TimeLineHelper**
 Utilizza il seguente codice nella tua applicazione .NET per riattivare le pietre miliari sulla sequenza temporale utilizzando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -223,7 +223,7 @@ timelineHelper.RefreshTimeLine();
 diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Aggiorna le pietre miliari sulla sequenza temporale utilizzando la classe MilestoneHelper**
  Il metodo RefreshMilestone esposto da[Milestone Helper](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper)la classe può essere utilizzata per aggiornare le pietre miliari sulla sequenza temporale.
 
@@ -240,8 +240,8 @@ Il codice seguente mostra come:
 #### **Aggiorna le pietre miliari utilizzando l'esempio di programmazione MilestoneHelper**
 Utilizzare il seguente codice nell'applicazione .NET per aggiornare le pietre miliari sulla sequenza temporale utilizzando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -292,4 +292,4 @@ milestoneHelper.RefreshMilestone(timeline);
 diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

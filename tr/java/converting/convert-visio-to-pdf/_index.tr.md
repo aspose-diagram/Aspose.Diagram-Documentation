@@ -36,8 +36,8 @@ Aşağıda PDF çıktı dosyasının bir görüntüsü bulunmaktadır.
 
 ![yapılacaklar:resim_alternatif_Metin](how-to-convert-a-visio-diagram_2.png)
 ### **PDF Programlama Örneğine Aktarma**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToPDF.class);
@@ -49,12 +49,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
 diagram.save(dataDir + "ExportToPDF_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **Birden Çok Sayfayı Böl**
 Aspose.Diagram for Java, Microsoft Visio Diagram'i PDF'e dönüştürürken birden fazla sayfanın bölünmesine izin verir. Aşağıdaki kod parçacığı işlevselliği gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);      
@@ -68,12 +68,12 @@ options.setSplitMultiPages(true);
 diagram.save(dataDir + "SplitMultiPages.pdf", options);
 
 {{< /highlight >}}
-```
+
 ### **Sayfa Kaydetme Geri Aramasını Kullan**
 Birden fazla sayfanız olması durumunda, Aspose.Diagram for Java, Microsoft Visio Diagram'i PDF'e dönüştürürken sayfa kaydetme geri aramasının kullanılmasına izin verir. Aşağıdaki kod parçacığı, işlevselliği gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DocumentConversionProgress.class);
@@ -90,11 +90,11 @@ options.setPageSavingCallback( new TestDiagramPageSavingCallback());
 diagram.save(dataDir + "Callback_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 #### **TestDiagramPageSavingCallback Sınıfı**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 import com.aspose.diagram.IPageSavingCallback;
 import com.aspose.diagram.PageEndSavingArgs;
@@ -121,4 +121,4 @@ public class TestDiagramPageSavingCallback implements IPageSavingCallback
 
 
 {{< /highlight >}}
-```
+

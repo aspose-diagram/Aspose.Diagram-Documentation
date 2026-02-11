@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم الماس في صفح
 ## **ارسم الماس في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل ماسي في الصفحة. يوضح مثال الكود أدناه كيفية رسم ماسة في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,13 +25,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawDiamondInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم الماس في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في الصفحة وحفظها بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم ماسة برسم Visio وحفظها بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawDiamondInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم الماس في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في الصفحة وحفظها بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم ماسة برسم Visio وحفظها بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawDiamondInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم الماس في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في الصفحة وحفظها بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم ماسة برسم Visio وحفظها بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -95,13 +95,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawDiamondInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم الماس في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم ماسة في الصفحة وحفظها بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم ماسة برسم Visio وحفظها بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -117,4 +117,4 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawDiamondInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

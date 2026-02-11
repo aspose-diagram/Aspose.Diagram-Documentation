@@ -83,12 +83,12 @@ Aspose.Diagram for Java API يسمح للمطورين بتطبيق الترخي�
 
 فئة جديدة[مقننة](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) تمت إضافته لتطبيق المفتاح المقنن. يوضح مثال الرمز هذا كيفية تعيين المفاتيح العامة والخاصة التي تم قياسها:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // Initialize a Metered license class object
 Metered metered = new Metered();
 // apply public and private keys
 metered.setMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

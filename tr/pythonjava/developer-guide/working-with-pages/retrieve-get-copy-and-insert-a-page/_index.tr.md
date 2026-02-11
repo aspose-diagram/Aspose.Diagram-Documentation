@@ -14,8 +14,8 @@ Bir sayfanın ön plan mı yoksa arka plan sayfası mı olduğunu belirlemek iç
 ### **Sayfa Bilgilerini Al Programlama Örneği**
 Aşağıdaki kod parçası, sayfa bilgilerini bir diagram'den alır.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -42,7 +42,7 @@ for page in diagram.getPages():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Bir Diagram'den Visio Sayfasını Alın**
 Bazen, geliştiricilerin Visio numaralı çizimin sayfa ayrıntılarını alması gerekir. Python için Aspose.Diagram via Java bunu yapmalarına yardımcı olan özelliklere sahiptir.
@@ -58,8 +58,8 @@ Bu örnek şu şekilde çalışır:
 Aşağıdaki örnek, Visio çiziminden kimliğe göre bir sayfa nesnesinin nasıl alınacağını gösterir.
 
 #### **Kimliğe Göre Sayfa Nesnesi Al Programlama Örneği**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -79,7 +79,7 @@ page2 = diagram.getPages().getPage(page_id)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Ada Göre Visio Sayfa Nesnesi Alma**
 Bu örnek şu şekilde çalışır:
@@ -90,8 +90,8 @@ Bu örnek şu şekilde çalışır:
 #### **Ada Göre Sayfa Nesnesi Al Programlama Örneği**
 Aşağıdaki örnek, Visio çiziminden ada göre bir sayfa nesnesinin nasıl alınacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ page2 = diagram.getPages().getPage(pageName)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Bir Visio Sayfasını Başka Bir Diagram'e Kopyalayın**
 Python via Java API için Aspose.Diagram, geliştiricilerin içeriğini bir Visio diagram'den diğerine kopyalamasına ve eklemesine olanak tanır. Bu yardım konusu, bu görevin nasıl gerçekleştirileceğini açıklar.
@@ -132,8 +132,8 @@ Bu örnek şu şekilde çalışır:
 ### **Visio Sayfa Programlama Örneği Kopyalama**
 Aşağıdaki kod örneği, bir Visio sayfa nesnesinin başka bir Visio çizimine nasıl kopyalanacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -183,7 +183,7 @@ newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Visio Sayfasını başka bir Sayfa örneğine kopyalayın**
 `Page` sınıfının `copy` yöntemi, klonlamak için bir sayfa örneği alır.
@@ -209,8 +209,8 @@ Pages koleksiyonu tarafından sunulan `add` yöntemi, geliştiricilerin Visio di
 ### **Boş Sayfa Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, Visio Çizimine boş bir sayfa ekler:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -250,7 +250,7 @@ diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Visio çiziminde Sayfa konumunu taşı**
 Python için Aspose.Diagram via Java API Visio çiziminde sayfa konumunu taşıyabilir. `Page` sınıfı tarafından sunulan `moveTo` yöntemi, geliştiricilerin sayfa konumunu taşımasına yardımcı olur.

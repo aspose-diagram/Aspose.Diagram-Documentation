@@ -61,8 +61,8 @@ Observera att du inte kan instruera Aspose.Diagram for .NET att ändra eller ta 
 - För att komma åt inbyggda dokumentegenskaper, använd[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 -  För att komma åt anpassade dokumentegenskaper, använd[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -81,7 +81,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **Lägga till eller ta bort anpassade dokumentegenskaper**
 
@@ -91,8 +91,8 @@ Som vi har beskrivit tidigare i början av detta ämne kan utvecklare inte lägg
 
  Aspose.Diagram API:er har avslöjat[**Lägg till**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) metod för[**CustomPropCollection**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)klass för att lägga till anpassade egenskaper till samlingen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **Ta bort anpassade egenskaper**
 

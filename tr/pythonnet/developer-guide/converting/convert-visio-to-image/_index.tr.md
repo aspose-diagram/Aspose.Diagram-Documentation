@@ -14,8 +14,34 @@ diagram'i bir görüntüye dışa aktarmak için:
 - Diagram sınıfının bir örneğini oluşturun.
 - Diagram sınıfının Save yöntemini çağırın ve dışa aktarmak istediğiniz görüntü formatını ayarlayın. Çıktı görüntü dosyası orijinal dosyaya benziyor.
 ### **Microsoft Visio Çizimi Resim Dosyasına Aktar**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToImage.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the png format
+diagram.save("Visio_out.png", SaveFileFormat.PNG)
+{{< /highlight >}}
+
 
 Belgenin tamamı yerine belirli bir sayfayı resme kaydetmek de mümkündür:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportPageToImage.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+#// Save diagram as PNG
+options = saving.ImageSaveOptions(SaveFileFormat.PNG)
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the png format
+diagram.save("ExportPageToImage_out.png", options)
+{{< /highlight >}}

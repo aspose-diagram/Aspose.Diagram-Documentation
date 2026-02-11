@@ -11,8 +11,8 @@ Aspose.Diagram API يسمح للمستخدمين بتحرير اتصال بيا�
 ### **عينة البرمجة**
 يقوم الجزء التالي من التعليمات البرمجية بتحرير اتصال بيانات معين وكذلك تحديث جميع مجموعات السجلات المتاحة في Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditDataConAndRefreshRecords.class);
@@ -26,4 +26,4 @@ diagram.getDataConnections().get(0).setCommand("SELECT * from Project with(noloc
 diagram.save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

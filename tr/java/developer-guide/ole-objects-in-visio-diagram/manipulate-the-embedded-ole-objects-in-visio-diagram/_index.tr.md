@@ -13,8 +13,8 @@ Microsoft Office Visio, Visio diagram içindeki OLE nesnelerinin değiştirilmes
 ## **Gömülü OLE Nesneleri Programlama Örneğinin İşlenmesi**
 [Nesne Verileri](https://reference.aspose.com/diagram/java/com.aspose.diagram/foreigndata#ObjectData) mülkiyeti[Yabancı Veri](https://reference.aspose.com/diagram/java/com.aspose.diagram/foreigndata) sınıfı, geliştiricilerin Visio diagram'deki mevcut OLE nesnelerini işlemesine olanak tanır. Bu yardım konusu, geliştiricilerin Visio belgesinin bir OLE nesnesini nasıl alıp, kullanarak düzenleyebileceğini gösterir.[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java)ve ardından Visio diagram'de bir OLE nesnesi olarak geri kaydedin.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
 System.out.println(dataDir);
@@ -47,4 +47,4 @@ if (OLE_Shape.getType() == TypeValue.FOREIGN) {
 diagram.save(dataDir + "modified.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -20,8 +20,8 @@ Using Aspose.Diagram API, developers can define how a shape responds to specific
 ## **Setting Event Cells**
 [Event](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -46,4 +46,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ url: /zh/java/working-with-connector-type-shape/
 #### **设置连接器外观编程样例**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 设置连接器类型形状的外观。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -38,7 +38,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **选择连接器形状的重新布线选项**
 ConFixedCode 属性由[布局](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout)类可用于选择重新路由选项。 Layout 属性，由[形状](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape)类，会用到。
 
@@ -54,8 +54,8 @@ ConFixedCode 属性由[布局](https://reference.aspose.com/diagram/java/com.asp
 ### **选择重新路由选项编程示例**
 在您的 Java 应用程序中使用以下代码选择使用 Aspose.Diagram for Java 的连接器形状的重新布线选项。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -73,4 +73,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

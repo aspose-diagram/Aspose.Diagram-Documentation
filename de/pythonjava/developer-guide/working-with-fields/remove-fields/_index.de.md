@@ -12,8 +12,8 @@ Das Field-Objekt repräsentiert ein Textfeld in einem Textlauf. Die field-Eigens
 
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt entfernt ein Feld in shape.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

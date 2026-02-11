@@ -14,8 +14,8 @@ description: يشرح هذا القسم كيفية تغيير حجم الصفح�
 ### **تعيين عينة برمجة حجم الصفحة**
 قطعة الكود التالية تغير حجم الصفحة من diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeVisioPageSize.class);
@@ -33,4 +33,4 @@ page.getPageSheet().getPageProps().getPageWidth().setValue(11);
 diagram.save(dataDir + "SetPageSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -30,8 +30,8 @@ Il seguente codice di esempio spiega l'utilizzo di[**Monitor di interruzione**](
 {{< /highlight >}}
 
 ## **Codice di esempio**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 static string outputDir = RunExamples.Get_OutputDirectory();
 
 //Create InterruptMonitor object
@@ -84,4 +84,4 @@ public static void Run()
     Console.WriteLine("Interrupt successfully.");
 }
 {{< /highlight >}}
-```
+

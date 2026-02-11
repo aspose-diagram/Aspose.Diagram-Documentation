@@ -12,8 +12,8 @@ Page Class 对象表示前景页面或背景页面的绘图区域。 Diagram 类
 #### **提取图像编程示例**
 以下代码从特定的 Visio 页面中提取所有图像。
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,7 +36,7 @@ for shape in diagram.getPages().getPage(0).getShapes():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **获取各种 Visio 形状的图标**
 Aspose.Diagram for Python via Java API now allows developers to get icons of various [Visio 形状](Timeline.vss). 
 ### **获取形状图标**
@@ -47,8 +47,8 @@ Aspose.Diagram for Python via Java API now allows developers to get icons of var
 1. 获取主图标。
 1. 将图标保存到本地空间。
 #### **获取图标编程示例**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -72,7 +72,7 @@ fos.close()
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **替换Visio Diagram的图片形状**
 Aspose.Diagram for Python via Java API allows developers to access and replace available picture shapes in [Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **替换图片形状**
@@ -83,8 +83,8 @@ Aspose.Diagram for Python via Java API allows developers to access and replace a
 1. 应用过滤器以获得图片形状。
 1. 将结果 Visio diagram 保存到本地空间。
 #### **替换图片形状编程示例**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -113,7 +113,7 @@ diagram.save("ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **将图像导入为 Visio 形状**
 Aspose.Diagram for Python via Java API now allows developers to import a image as a Microsoft Visio shape.
 ### **在 Visio 中插入图像**
@@ -124,8 +124,8 @@ Aspose.Diagram for Python via Java API now allows developers to import a image a
 1. 将图像导入为 Visio 形状
 1. 保存 diagram。
 #### **插入图像编程示例**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -155,4 +155,4 @@ diagram.save("InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

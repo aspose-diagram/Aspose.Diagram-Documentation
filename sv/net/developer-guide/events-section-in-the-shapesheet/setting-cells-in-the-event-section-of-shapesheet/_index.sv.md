@@ -20,8 +20,8 @@ Med hjälp av Aspose.Diagram API kan utvecklare definiera hur en form svarar på
 ## **Ställa in händelseceller**
 [Händelse](https://reference.aspose.com/diagram/net/aspose.diagram/event) klass tillåter utvecklare att ställa in händelseceller i ShapeSheet. Det här hjälpämnet visar hur utvecklare kan ställa in formler i händelsecellerna:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

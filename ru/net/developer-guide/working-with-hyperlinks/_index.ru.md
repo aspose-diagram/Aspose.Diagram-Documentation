@@ -23,8 +23,8 @@ Microsoft Office Visio поддерживает добавление гипер�
 ### **Добавить пример программирования гиперссылки**
 Фрагмент кода ниже добавляет данные гиперссылки фигуры.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -53,7 +53,7 @@ shape.Hyperlinks.Add(hyperlink);
 diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Получить данные гиперссылок для фигур Visio**
 Разработчики могут получить все гиперссылки из формы Visio таким же образом, как они[читать данные формы Visio](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) с использованием[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -75,8 +75,8 @@ diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Получить пример программирования гиперссылок**
 Фрагмент кода ниже считывает данные гиперссылки фигуры.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -96,4 +96,4 @@ foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
 }       
 
 {{< /highlight >}}
-```
+

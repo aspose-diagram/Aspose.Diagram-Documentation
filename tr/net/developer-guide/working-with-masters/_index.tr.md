@@ -12,8 +12,8 @@ Bir şekil ustası, Visio şablonunun başka bir adıdır. Aspose.Diagram ile sa
 ### **Ana Bilgi Programlama Örneğinin Alınması**
 Aşağıdaki kod parçası, bir diagram'den ana bilgileri alır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -31,7 +31,7 @@ foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)
 Console.ReadLine();
 
 {{< /highlight >}}
-```
+
 ## **Şekiller Şablonundan Master Ekleme**
 Şablon, belirli bir Microsoft Office Visio şablonuyla ilişkili bir şekil koleksiyonudur. Aspose.Diagram ile bir şablondan bir çizime herhangi bir ana şekil eklemek mümkündür.
 ### **Usta Ekle**
@@ -43,8 +43,8 @@ Console.ReadLine();
 - Şablon dosyası akışı ve ana ad.
 - diagram kaynağından diagram'e master ekleyin
 #### **Ana Programlama Örneği Ekle**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -81,12 +81,12 @@ diagram.AddShape(6.0, 6.0, masterName, 0);
 diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Sıfırdan Usta Oluştur**
  Aspose.Diagram API oluşturmaya izin verir[Usta](http://www.aspose.com/api/net/diagram/aspose.diagram/master) herhangi bir şablon, çizim veya şablon olmadan sıfırdan. Geliştiriciler, Master'ın oluşturulmasını özelleştirebilir. Diagram sınıfı tarafından sunulan AddMaster yöntemi, bir ana öğe eklenmesine izin verir.
 ### **Ana Programlama Örneği Oluşturma**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public static void Run()
 {            
@@ -171,7 +171,7 @@ public static byte[] ReadImageFile(string imageLocation)
 }
 
 {{< /highlight >}}
-```
+
 ## **Visio Dosyasından Master Alın**
 Bazen, geliştiricilerin bir Visio çizim ustasının ayrıntılarını alması gerekir. Aspose.Diagram API bu özelliği destekler.
 
@@ -184,8 +184,8 @@ Bu örnek şu şekilde çalışır:
 #### **Kimliğe Göre Ana Nesne Programlama Örneği**
 Aşağıdaki örnek, bir Visio çiziminden kimliğe göre nasıl master alınacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -203,7 +203,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ### **Ada Göre Ana Nesne Alma**
 Bu örnek şu şekilde çalışır:
 
@@ -212,8 +212,8 @@ Bu örnek şu şekilde çalışır:
 #### **İsme Göre Ana Nesne Programlama Örneği**
 Aşağıdaki örnek, bir Visio çiziminden ada göre bir ana nesnenin nasıl alınacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -231,7 +231,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ## **Visio Çiziminde Master Varlığını Kontrol Edin**
 Aspose.Diagram API, Visio çiziminde bir master olup olmadığını kontrol etmeyi destekler. MasterCollection özelliği ile geliştiriciler, adına veya kimliğine göre bir master olup olmadığını kontrol edebilir.
 
@@ -244,8 +244,8 @@ Bu örnek şu şekilde çalışır:
 #### **ID Programlama Örneği ile Master Presence**
 Aşağıdaki örnek, bir Visio çiziminde kimliğe göre bir master varlığının nasıl kontrol edileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -259,7 +259,7 @@ bool isPresent = diagram.Masters.IsExist(2);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Ada Göre Ana Varlığı Kontrol Etme**
 Bu örnek şu şekilde çalışır:
 
@@ -268,8 +268,8 @@ Bu örnek şu şekilde çalışır:
 #### **Ada Göre Master Presence Programlama Örneği**
 Aşağıdaki örnek, Visio çiziminden ada göre bir master varlığının nasıl kontrol edileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -285,4 +285,4 @@ bool isPresent = diagram.Masters.IsExist(masterName);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

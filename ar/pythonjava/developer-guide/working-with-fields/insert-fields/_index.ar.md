@@ -10,8 +10,8 @@ description: كيفية إنشاء وإدخال الحقول باستخدام Ja
 
 ### **عينة البرمجة**
 الجزء التالي من التعليمات البرمجية إدراج حقل في الشكل.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -39,5 +39,5 @@ diagram.save("InsertField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

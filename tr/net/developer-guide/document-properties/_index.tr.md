@@ -61,8 +61,8 @@ Lütfen Aspose.Diagram for .NET'e bu bilgileri çıktı Belgelerinden değiştir
 - Yerleşik belge özelliklerine erişmek için şunu kullanın:[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 -  Özel belge özelliklerine erişmek için şunu kullanın:[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -81,7 +81,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **Özel Belge Özellikleri Ekleme veya Kaldırma**
 
@@ -91,8 +91,8 @@ Bu konunun başında daha önce açıkladığımız gibi, geliştiriciler yerle�
 
  Aspose.Diagram API'ler şu bilgileri açığa çıkardı:[**Ekle**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) için yöntem[**Özel Prop Koleksiyonu**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)koleksiyona özel özellikler eklemek için sınıf.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **Özel Özellikleri Kaldırma**
 

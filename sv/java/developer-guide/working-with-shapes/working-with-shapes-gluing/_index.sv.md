@@ -17,8 +17,8 @@ Koden nedan visar hur man:
 #### **Få kopplingar limmade Programmeringsprov**
 Använd följande kod i din Java-applikation för att hitta alla kontakter som är limmade på en form med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -37,7 +37,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Limma Visio Former tillsammans med anslutningspunkt**
 Aspose.Diagram for Java låter utvecklare limma ihop former genom anslutningspunkterna.
 ### **Limformer**
@@ -53,8 +53,8 @@ Koden nedan visar hur man:
 #### **Lim Visio Formprogrammeringsprov**
 Använd följande kod i din Java-applikation för att limma former genom anslutningspunkterna:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -73,7 +73,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Limma former inuti behållaren**
 Aspose.Diagram for Java gör det möjligt för utvecklare att limma gruppformer inuti en behållare.
 ### **Limgruppsform**
@@ -89,8 +89,8 @@ Koden nedan visar hur man:
 #### **Limformer inuti programmeringsprov**
 Använd följande kod i din Java-applikation för att limma gruppform inuti en behållare:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -119,4 +119,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

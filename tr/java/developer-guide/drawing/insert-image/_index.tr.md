@@ -10,8 +10,8 @@ description: Bu bölüm, visio numaralı sayfaya Aspose.Diagram ile nasıl resim
 ## **Visio'e Resim Ekle**
 JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -29,13 +29,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **SVG'e Resim Ekle**
 JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -53,13 +53,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **PNG'e Resim Ekle**
 JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -77,13 +77,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **PDF'e Resim Ekle**
 JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -101,13 +101,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **HTML'e Resim Ekle**
 JAVA için Aspose.Diagram API, geliştiricilerin bir sayfaya resim şekli eklemesine izin verir. Aşağıdaki kod örneği, Visio çizimine nasıl resim ekleneceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -126,4 +126,4 @@ HTMLSaveOptions options = new HTMLSaveOptions();
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
 
 {{< /highlight >}}
-```
+

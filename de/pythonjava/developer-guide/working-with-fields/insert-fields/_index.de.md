@@ -10,8 +10,8 @@ Aspose.Diagram for Python via Java lets you create and insert field to Microsoft
 
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt fügt ein Feld in shape ein.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -39,5 +39,5 @@ diagram.save("InsertField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

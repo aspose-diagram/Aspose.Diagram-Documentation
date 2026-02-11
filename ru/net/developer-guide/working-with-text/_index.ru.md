@@ -10,8 +10,8 @@ description: В этом разделе объясняется, как вста�
 ### **Вставка примера программирования формы текста**
 Следующий фрагмент кода добавляет текстовую фигуру в Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -25,7 +25,7 @@ diagram.Pages[0].AddText(PinX, PinY, Width, Height, "Test text");
 diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Обновление Visio Форма текста**
  Так же как[создание диаграмм](/diagram/ru/net/load-or-create-a-visio-drawing/) , Aspose.Diagram for .NET позволяет работать с фигурами по-разному. В этой статье рассматривается, как получить доступ к тексту в фигурах и обновить его. Свойство Text, предоставляемое[Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, поддерживает объект Aspose.Diagram.Text. Свойство можно использовать для извлечения или обновления текста фигуры. Процесс обновления текста фигуры прост:
 
@@ -36,8 +36,8 @@ diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Обновить пример программирования текста формы**
 Следующий фрагмент кода обновляет текст фигуры. Фигуры идентифицируются по их идентификаторам. Приведенные ниже сегменты кода ищут фигуру с именем process и идентификатором 1 и изменяют ее текст.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -59,7 +59,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Применение встроенной или пользовательской таблицы стилей к фигуре Visio**
 Microsoft Visio таблицы стилей хранят информацию о форматировании, которую можно применить к фигурам для единообразного внешнего вида. Aspose.Diagram for .NET позволяет применять таблицы стилей из приложения.
 
@@ -81,8 +81,8 @@ Microsoft Visio таблицы стилей хранят информацию о
 1. Применение стилей.
 1. Сохраните номер diagram.
 #### **Пример программирования применения пользовательских стилей**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -129,7 +129,7 @@ if (sourceShape != null && customStyleSheet != null)
 vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Применение разных стилей к каждому текстовому значению фигуры**
  Так же как[создание диаграмм](/diagram/ru/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET позволяет работать с фигурами по-разному. Эта статья поможет добавить несколько текстовых значений в фигуру и применить разные стили к каждому текстовому значению.
 
@@ -151,8 +151,8 @@ vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
 #### **Пример программирования добавления текста и стилей**
 Следующий фрагмент кода добавляет текст фигуры и различные стили.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -214,7 +214,7 @@ shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Un
 diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Найти и заменить текст фигуры**
 [Текст](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) Класс позволяет редактировать текст фигуры. Метод Replace, представленный[Текст](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) class, поддержка изменения текста фигуры.
 Примеры кода в этой статье находят и заменяют текст фигуры на странице.
@@ -236,8 +236,8 @@ diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
 ### **Пример программы поиска и замены текста**
 Фрагменты кода ниже показывают, как изменить текст фигуры. Код перебирает формы страницы.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -277,7 +277,7 @@ foreach (Shape shape in page.Shapes)
 diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Извлечь обычный текст со страницы Visio Diagram**
 Aspose.Diagram API позволяет разработчикам извлекать обычный текст со страницы Visio diagram. Они также могут перебирать страницы Visio diagram, чтобы охватить весь текст Visio diagram.
 
@@ -285,8 +285,8 @@ Aspose.Diagram API позволяет разработчикам извлека�
 ### **Пример извлечения простого текста**
 Следующий фрагмент кода перебирает формы страницы Visio и фильтрует обычный текст без информации о форматировании.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -327,4 +327,4 @@ private static void GetShapeText(Aspose.Diagram.Shape shape)
 }
 
 {{< /highlight >}}
-```
+

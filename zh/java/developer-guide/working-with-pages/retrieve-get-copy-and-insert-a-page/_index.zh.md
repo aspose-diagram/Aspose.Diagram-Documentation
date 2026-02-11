@@ -19,8 +19,8 @@ url: /zh/java/retrieve-get-copy-and-insert-a-page/
 ### **检索页面信息编程示例**
 以下代码从 diagram 中检索页面信息。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **从 Diagram 获取 Visio 页面**
 有时，开发人员需要获取 Visio 图的页面详细信息。 Aspose.Diagram 具有帮助他们做到这一点的功能。
 
@@ -60,8 +60,8 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 
 以下示例显示如何通过 id 从 Visio 绘图中获取页面对象。
 #### **通过 ID 获取页面对象编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **按名称获取 Visio 页面对象**
 这个例子的工作原理如下：
 
@@ -83,8 +83,8 @@ Page page2 = diagram.getPages().getPage(pageid);
 #### **按名称获取页面对象编程示例**
 以下示例显示如何从 Visio 绘图中按名称获取页面对象。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **将 Visio 页面复制到另一个 Diagram**
 Aspose.Diagram for Java API 允许开发人员将其内容从一个 Visio diagram 复制并添加到另一个。此帮助主题说明了如何完成此任务。
 
@@ -116,8 +116,8 @@ Aspose.Diagram for Java API 允许开发人员将其内容从一个 Visio diagra
 ### **复制一个Visio页面编程样例**
 下面的代码示例显示了如何将 Visio 页面对象复制到另一个 Visio 绘图中。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **将 Visio Page 复制到另一个 Page 实例**
 Page 类的 Copy 方法采用要克隆的页面实例。
 
@@ -189,8 +189,8 @@ Pages 集合公开的 Add 方法允许开发人员在 Visio diagram 中添加一
 ### **插入空白页编程示例**
 下面的一段代码在 Visio 绘图中插入了一个空白页：
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **在 Visio 绘图中移动页面位置**
 Aspose.Diagram for Java API 可以在Visio绘图中移动页面位置。 Page 类公开的 moveTo 方法可以帮助开发人员移动页面位置。
 ### **移动页面位置编程示例**

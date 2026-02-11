@@ -83,12 +83,12 @@ Aspose.Diagram for Java API 允许开发人员应用计量许可证。这是一�
 
 一个新班级[计量的](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered)已添加以应用计量密钥。此代码示例演示如何设置计量公钥和私钥：
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // Initialize a Metered license class object
 Metered metered = new Metered();
 // apply public and private keys
 metered.setMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

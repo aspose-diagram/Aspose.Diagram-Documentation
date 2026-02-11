@@ -11,8 +11,8 @@ Aspose.Diagram for Java, Microsoft Office Otomasyon olmadan kendi uygulamaların
 ### **Visio Çizim Programlama Örneği Oluşturun**
 Aşağıdaki kod, yeni bir Microsoft Visio çizimi oluşturmayı gösterir. Lütfen boş çizimin tek bir boş sayfa içerdiğini unutmayın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -23,7 +23,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

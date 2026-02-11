@@ -10,8 +10,8 @@ description: Esta sección explica cómo agregar u obtener información de capa 
 ### **Configurar muestra de programación de objetos de forma**
 El siguiente fragmento de código ayuda a agregar, eliminar y mover propiedades de objetos de forma.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Agregue una nueva capa en el Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) permite a los desarrolladores agregar nuevas capas para organizar categorías personalizadas de formas y luego asignar formas a esas capas mediante programación. los[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) La clase ofrece el método Add que permite agregar un nuevo[Capa](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) en el dibujo Visio. Los desarrolladores pueden establecer las propiedades de la capa inicializando su objeto de clase.
 ### **Agregar muestra de programación de capas**
 El siguiente fragmento de código ayuda a agregar objetos de capa.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Recuperar todas las capas del Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) da acceso a los desarrolladores para obtener las capas existentes de un Visio diagram. El[PáginaHoja](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) propiedad de la[Página](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class permite recuperar la lista de capas disponibles de un Visio diagram usando[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) clase.
 ### **Ejemplo de programación de recuperación de capas**
 El siguiente fragmento de código ayuda a obtener la lista de capas.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

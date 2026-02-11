@@ -9,8 +9,8 @@ description: This section explains how to draw text in a visio page with Aspose.
 ## **Draw Text in Visio**
 Aspose.Diagram for .NET API allows developers to draw a text shape in a page.The code example below shows how to draw a text in a Visio drawing.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -48,13 +48,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Text in SVG**
 Aspose.Diagram for .NET API allows developers to draw a text in the page and save as SVG format. The code example below shows how to draw a text in a Visio drawing and save as SVG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,13 +94,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Text in PDF**
 Aspose.Diagram for .NET API allows developers to draw a text in the page and save as PDF format. The code example below shows how to draw a text in a Visio drawing and save as PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -138,13 +138,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Text in PNG**
 Aspose.Diagram for .NET API allows developers to draw a text in the page and save as PNG format. The code example below shows how to draw a text in a Visio drawing and save as PNG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -184,13 +184,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Text in HTML**
 Aspose.Diagram for .NET API allows developers to draw a text in the page and save as HTML format. The code example below shows how to draw a text in a Visio drawing and save as HTML format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -228,4 +228,4 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

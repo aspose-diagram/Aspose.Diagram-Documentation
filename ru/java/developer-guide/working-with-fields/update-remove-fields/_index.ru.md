@@ -11,8 +11,8 @@ description: В этом разделе объясняется, как обно�
 [Поле](https://reference.aspose.com/diagram/java/com.aspose.diagram/field) объект представляет собой текстовое поле в[текст](https://reference.aspose.com/diagram/java/com.aspose.diagram/text) бегать. Свойство поля, представленное[Форма](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class поддерживает набор объектов Aspose.Diagram.Field.
 ### **Образец программирования**
 Следующий фрагмент кода обновляет поле в shape.
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -26,12 +26,12 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 ### **Удалить поле**
 Следующий фрагмент кода удаляет поле в форме.
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -45,5 +45,5 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 

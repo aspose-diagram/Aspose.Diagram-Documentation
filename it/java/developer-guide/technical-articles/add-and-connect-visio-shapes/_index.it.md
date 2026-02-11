@@ -17,8 +17,8 @@ Il codice negli esempi seguenti mostra come:
 1. Collega le forme stella ed esagono al rettangolo.
 1. Salva lo diagram.
 #### **Esempio di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddConnectShapes.class);
@@ -104,4 +104,4 @@ diagram.getPages().getPage(0).connectShapesViaConnector(rectangleId, ConnectionP
 diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

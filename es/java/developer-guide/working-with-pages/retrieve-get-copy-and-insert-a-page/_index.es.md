@@ -19,8 +19,8 @@ La siguiente imagen muestra el resultado de los fragmentos de código de este ar
 ### **Muestra de programación de información de la página de recuperación**
 El siguiente fragmento de código recupera la información de las páginas de un diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **Obtenga la página Visio de un Diagram**
 A veces, los desarrolladores necesitan obtener los detalles de la página del dibujo Visio. Aspose.Diagram tiene características que les ayudan a hacer esto.
 
@@ -60,8 +60,8 @@ Este ejemplo funciona de la siguiente manera:
 
 El siguiente ejemplo muestra cómo obtener un objeto de página por ID del dibujo Visio.
 #### **Obtener objeto de página por ejemplo de programación de ID**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Obtener un objeto de página Visio por nombre**
 Este ejemplo funciona de la siguiente manera:
 
@@ -83,8 +83,8 @@ Este ejemplo funciona de la siguiente manera:
 #### **Obtener objeto de página por nombre Ejemplo de programación**
 El siguiente ejemplo muestra cómo obtener un objeto de página por nombre del dibujo Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Copie una página Visio en otra Diagram**
 Aspose.Diagram for Java API permite a los desarrolladores copiar y agregar su contenido de Visio diagram a otro. Este tema de ayuda explica cómo realizar esta tarea.
 
@@ -116,8 +116,8 @@ Este ejemplo funciona de la siguiente manera:
 ### **Copie una muestra de programación de página Visio**
 El siguiente ejemplo de código muestra cómo copiar un objeto de página Visio en otro dibujo Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Copie la página Visio a otra instancia de la página**
 El método Copy de la clase Page toma una instancia de página para clonar.
 
@@ -189,8 +189,8 @@ El método Add, expuesto por la colección Pages, permite a los desarrolladores 
 ### **Insertar una muestra de programación de página en blanco**
 El siguiente fragmento de código inserta una página en blanco en el dibujo Visio:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Mover la posición de la página en el dibujo Visio**
 Aspose.Diagram for Java API puede mover la posición de la página en el dibujo Visio. El método moveTo, expuesto por la clase Page, ayuda a los desarrolladores a mover la posición de la página.
 ### **Mover posición de página Ejemplo de programación**

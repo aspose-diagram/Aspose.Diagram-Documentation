@@ -15,8 +15,8 @@ Aspose.Diagram, kullanıcının VBA kod projesinin imzalanıp imzalanmadığın�
 
 ## Basit kod
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ Console.WriteLine("Is VBA Code Project Signed: " + diagram.VbaProject.IsSigned);
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## Konsol Çıkışı
 

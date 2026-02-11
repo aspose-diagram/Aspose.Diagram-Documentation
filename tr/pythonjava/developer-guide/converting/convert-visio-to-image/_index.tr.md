@@ -22,8 +22,8 @@ diagram'i bir görüntüye dışa aktarmak için:
 
 ![yapılacaklar:resim_alternatif_Metin](ExportToImage.png)
 ### **Görüntü Dosyası Programlama Örneğine Aktarma**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,12 +41,12 @@ diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 Belgenin tamamı yerine belirli bir sayfayı resme kaydetmek de mümkündür:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -70,4 +70,3 @@ diagram.save("ExportPageToImage_Out.png", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

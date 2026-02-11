@@ -23,8 +23,8 @@ In Microsoft Visio schützen Sie Dokumente auf diese Weise:
 
 Verwenden Sie den folgenden Code in einer Java-Anwendung, um dieselben Aufgaben auszuführen – sperren und entsperren Sie verschiedene Elemente Ihrer diagram – mit Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
@@ -39,7 +39,7 @@ diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
 diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **Bearbeiten Sie den Formschutz Visio**
  Durch das Schützen von Visio-Formen können Benutzer bestimmte Aspekte von Formen sperren. Zu den Aspekten von Formen, die durch Formschutz gesperrt werden können, gehören Breite, Höhe, x-Position, y-Position, Rotation und mehr. Entwickler können dies mit erreichen[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -59,8 +59,8 @@ In Visio müssen Sie die folgenden Aktionen ausführen, um eine beliebige Form z
 
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um mit Aspose.Diagram for Java dasselbe zu tun (beliebiges Formattribut sperren/entsperren).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -97,4 +97,4 @@ shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

@@ -13,8 +13,8 @@ Mit Aspose.Diagram API können Entwickler ein ActiveX-Steuerelement aus einem Vi
 ## **Rufen Sie ein Programmierbeispiel für ActiveX-Steuerelemente ab**
 [Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) -Klasse bietet die ActiveXControl-Eigenschaft, mit der Entwickler ein ActiveX-Steuerelement aus einem Visio-Shape-Objekt abrufen können. Entwickler können ein ActiveX-Steuerelement in die entsprechende ActiveX-Steuerelementklasse umwandeln und dann alle verfügbaren Eigenschaften festlegen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

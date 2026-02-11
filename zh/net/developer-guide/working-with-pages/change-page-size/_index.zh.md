@@ -14,8 +14,8 @@ description: 本节介绍如何使用 Aspose.Diagram 更改 visio 文件中的�
 ### **设置页面大小编程示例**
 以下代码段从 diagram 更改页面大小。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -33,4 +33,4 @@ page.PageSheet.PageProps.PageWidth.Value = 11;
 diagram.Save(dataDir + "SetPageSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

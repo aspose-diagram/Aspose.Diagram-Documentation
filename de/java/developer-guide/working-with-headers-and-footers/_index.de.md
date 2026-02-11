@@ -18,8 +18,8 @@ Aspose.Diagram for Java bietet einen Mechanismus zum Setzen von Kopf- und Fußze
 
 Der folgende Codeabschnitt hilft bei der Verwaltung der Eigenschaften von Kopf- und Fußzeilen.
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ManageHeadersandFooters.class);
@@ -55,4 +55,4 @@ diagram.getHeaderFooter().getHeaderFooterFont().setUnderline(BOOL.FALSE);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

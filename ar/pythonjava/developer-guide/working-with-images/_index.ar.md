@@ -12,8 +12,8 @@ description: تصف هذه الصفحة كيفية استخراج صورة أو 
 #### **عينة برمجة استخراج الصور**
 يستخرج الجزء التالي من التعليمات البرمجية جميع الصور من صفحة Visio معينة.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,7 +36,7 @@ for shape in diagram.getPages().getPage(0).getShapes():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **احصل على أيقونات بأشكال Visio مختلفة**
  Aspose.Diagram لـ Python via Java API الآن يسمح للمطورين بالحصول على أيقونات مختلفة[Visio الأشكال](Timeline.vss). 
 ### **الحصول على أيقونة الشكل**
@@ -47,8 +47,8 @@ jpype.shutdownJVM()
 1. احصل على أيقونة رئيسية.
 1. حفظ الرمز في الفضاء المحلي.
 #### **احصل على نموذج لبرمجة الأيقونات**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -72,7 +72,7 @@ fos.close()
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **استبدال شكل صورة Visio Diagram**
  Aspose.Diagram لـ Python via Java API يسمح للمطورين بالوصول إلى أشكال الصور المتاحة واستبدالها[ال Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **استبدال شكل صورة**
@@ -83,8 +83,8 @@ jpype.shutdownJVM()
 1. قم بتطبيق عامل التصفية للحصول على أشكال الصور.
 1. حفظ الناتج Visio diagram في المساحة المحلية.
 #### **استبدال نموذج لبرمجة شكل صورة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -113,7 +113,7 @@ diagram.save("ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **استيراد الصورة كشكل Visio**
 Aspose.Diagram لـ Python via Java API يسمح الآن للمطورين باستيراد صورة كشكل Microsoft Visio.
 ### **أدخل صورة في Visio**
@@ -124,8 +124,8 @@ Aspose.Diagram لـ Python via Java API يسمح الآن للمطورين با�
 1. قم باستيراد صورة كشكل Visio
 1. احفظ diagram.
 #### **أدخل عينة برمجة الصورة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -155,4 +155,4 @@ diagram.save("InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

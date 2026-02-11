@@ -10,8 +10,8 @@ description: Bu bölüm, Aspose.Diagram ile bir metin şeklinin nasıl eklenece�
 ### **Bir Metin Şekli Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, Visio diagram'de bir metin şekli ekler.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -25,7 +25,7 @@ diagram.Pages[0].AddText(PinX, PinY, Width, Height, "Test text");
 diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Güncelleme Visio Şekil Metni**
  Birlikte[diyagramlar oluşturma](/diagram/tr/net/load-or-create-a-visio-drawing/) , Aspose.Diagram for .NET, şekillerle farklı şekillerde çalışmanızı sağlar. Bu makalede, şekillerdeki metne nasıl erişileceği ve bu metnin nasıl güncelleneceği ele alınmaktadır. Tarafından sunulan Text özelliği[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) sınıfı, Aspose.Diagram.Text nesnesini destekler. Özellik, bir şeklin metnini almak veya güncellemek için kullanılabilir. Bir şeklin metnini güncelleme işlemi basittir:
 
@@ -36,8 +36,8 @@ diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Shape Text Programlama Örneği Güncelleme**
 Aşağıdaki kod parçası bir şeklin metnini günceller. Şekiller kimlikleri ile tanımlanır. Aşağıdaki kod parçaları, işlem adı verilen ve kimliği 1 olan bir şekli arar ve metnini değiştirir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -59,7 +59,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şekline Yerleşik veya Özel Stil Sayfası Uygulayın**
 Microsoft Visio stil sayfaları, tutarlı bir görünüm ve his için şekillere uygulanabilen biçimlendirme bilgilerini saklar. Aspose.Diagram for .NET, bir uygulamanın içinden stil sayfaları uygulamanıza olanak tanır.
 
@@ -81,8 +81,8 @@ Microsoft Visio'de özel stil sayfaları tanımladıktan sonra, şekillerinize �
 1. Stilleri uygulayın.
 1. diagram'i kaydedin.
 #### **Özel Stiller Programlama Örneği Uygula**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -129,7 +129,7 @@ if (sourceShape != null && customStyleSheet != null)
 vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Her Metin Değerine Farklı Stil Uygulayın**
  Birlikte[diyagramlar oluşturma](/diagram/tr/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET, şekillerle farklı şekillerde çalışmanızı sağlar. Bu makale, bir şekle birden çok metin değeri eklemeye ve her metin değerine farklı stil uygulamaya yardımcı olur.
 
@@ -151,8 +151,8 @@ Shape öğesi, metnin karakterlerini ve bir çalıştırmanın sonunu ve sonraki
 #### **Metin ve Stiller Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, bir şeklin metnini ve farklı stilleri ekler.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -214,7 +214,7 @@ shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Un
 diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Metnini Bul ve Değiştir**
  bu[Txt](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) Class, şeklin metnini düzenlemenizi sağlar. Tarafından sunulan replace yöntemi[Txt](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) sınıf, bir şeklin metnini değiştirmeyi destekler.
 Bu makaledeki kod örnekleri, sayfadaki şeklin metnini bulur ve değiştirir.
@@ -236,8 +236,8 @@ Bu makaledeki kod örnekleri, sayfadaki şeklin metnini bulur ve değiştirir.
 ### **Metin Programlama Örneği Bul ve Değiştir**
 Aşağıdaki kod parçacıkları, şeklin metninin nasıl değiştirileceğini gösterir. Kod, bir sayfanın şekillerini yineler.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -277,7 +277,7 @@ foreach (Shape shape in page.Shapes)
 diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram Sayfasından Düz Metni Çıkarın**
 Aspose.Diagram API, geliştiricilerin Visio diagram sayfasından düz metin çıkarmasına olanak tanır. Ayrıca Visio diagram metninin tamamını kapsayacak şekilde Visio diagram sayfalarını yineleyebilirler.
 
@@ -285,8 +285,8 @@ Aspose.Diagram API, geliştiricilerin Visio diagram sayfasından düz metin çı
 ### **Düz Metin Programlama Örneği Çıkarın**
 Aşağıdaki kod parçası, Visio Sayfasının şekillerini yineler ve biçimlendirme bilgisi olmadan düz metni filtreler.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -327,4 +327,4 @@ private static void GetShapeText(Aspose.Diagram.Shape shape)
 }
 
 {{< /highlight >}}
-```
+

@@ -8,8 +8,8 @@ description: В этом разделе объясняется, как рисо�
 ## **Нарисовать текст в Visio**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать текст на странице. В приведенном ниже примере кода показано, как нарисовать текст на рисунке Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -47,13 +47,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисовать текст в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать текст на странице и сохранять в формате SVG. В приведенном ниже примере кода показано, как нарисовать текст на чертеже Visio и сохранить его в формате SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисовать текст в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать текст на странице и сохранять в формате PDF. В приведенном ниже примере кода показано, как нарисовать текст на чертеже Visio и сохранить его в формате PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -137,13 +137,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисовать текст в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать текст на странице и сохранять в формате PNG. В приведенном ниже примере кода показано, как нарисовать текст на чертеже Visio и сохранить его в формате PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -183,13 +183,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисовать текст в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать текст на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать текст на чертеже Visio и сохранить его в формате HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -227,4 +227,4 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

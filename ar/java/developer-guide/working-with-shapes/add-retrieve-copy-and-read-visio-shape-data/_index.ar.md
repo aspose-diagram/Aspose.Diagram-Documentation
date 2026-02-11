@@ -24,8 +24,8 @@ Aspose.Diagram for Java يسمح لك بمعالجة Microsoft Visio المخط�
 ### **إضافة عينة البرمجة**
 يوضح مقتطف الشفرة أدناه كيفية القيام بكل خطوة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -62,7 +62,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ System.out.println("Shape has been added.");
 ### **استرجاع عينة البرمجة**
 تسترد قطعة الكود التالية معلومات الشكل من Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -107,7 +107,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 
 ## **نسخ الأشكال من Visio موجود**
 Aspose.Diagram for Java API يسمح للمطورين بنسخ الأشكال من صفحة المصدر Visio إلى صفحة Visio diagram الجديدة. كما يدعم نسخ أشكال المجموعة. توضح هذه المقالة كيفية نسخ كافة الأشكال من الصفحة diagram المصدر.
@@ -125,8 +125,8 @@ Aspose.Diagram for Java API يسمح للمطورين بنسخ الأشكال م
 1. قم بتعيين معرفه الجديد وأضفه إلى صفحة Visio الجديدة.
 1. احفظ Visio الجديد في التخزين المحلي.
 ### **عينة برمجة نسخ**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -157,7 +157,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 {{% alert color="primary" %}}
@@ -188,8 +188,8 @@ newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 #### **قراءة نموذج البرمجة**
 تقرأ مقتطفات التعليمات البرمجية أدناه بيانات الشكل (الخصائص المخصصة).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -212,13 +212,13 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 
 ### **اقرأ خاصية الشكل بالاسم**
 يقرأ مقتطف الشفرة أدناه خاصية الشكل بالاسم (خاصية مخصصة).
 #### **تمت قراءتها حسب نموذج برمجة الاسم**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -237,7 +237,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 
 ## **استخدم فهارس الاتصال لتوصيل الأشكال**
 Aspose.Diagram for Java API يسمح بالفعل للمطورين بإضافة نقاط اتصال جديدة على الشكل ، ويمكن للمطورين الآن توصيل الأشكال باستخدام فهارس الاتصال.
@@ -257,8 +257,8 @@ Aspose.Diagram for Java يسمح للمطورين باسترجاع الشكل ا
 ### **احصل على شكل الوالدين**
 ال[شكل](http://www.aspose.com/api/java/diagram/com.aspose.diagram/shape)تقدم الفئة خاصية ParentShape لاسترداد الشكل الأصل.
 #### **احصل على نموذج برمجة شكل الوالدين**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -273,5 +273,5 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+
 

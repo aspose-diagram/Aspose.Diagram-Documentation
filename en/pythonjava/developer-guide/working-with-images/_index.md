@@ -13,8 +13,8 @@ The Page Class object represents the drawing area of a foreground page or a back
 #### **Extract Images Programming Sample**
 The following piece of code extracts all images from a particular Visio page.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -37,7 +37,7 @@ for shape in diagram.getPages().getPage(0).getShapes():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Get Icons of Various Visio Shapes**
 Aspose.Diagram for Python via Java API now allows developers to get icons of various [Visio shapes](Timeline.vss). 
 ### **Getting the Shape Icon**
@@ -48,8 +48,8 @@ The code in the samples below show how to:
 1. Get master icon. 
 1. Save icon to the local space.
 #### **Get Icons Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -73,7 +73,7 @@ fos.close()
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Replace a Picture Shape of the Visio Diagram**
 Aspose.Diagram for Python via Java API allows developers to access and replace available picture shapes in [the Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **Replacing a Picture Shape**
@@ -84,8 +84,8 @@ The code in the samples below show how to:
 1. Apply filter to get picture shapes.
 1. Save resultant Visio diagram to the local space.
 #### **Replace a Picture Shape Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -114,7 +114,7 @@ diagram.save("ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Import Image as a Visio Shape**
 Aspose.Diagram for Python via Java API now allows developers to import a image as a Microsoft Visio shape.
 ### **Insert a Image in Visio**
@@ -125,8 +125,8 @@ The code in the samples below show how to:
 1. Import a image as a Visio shape
 1. Save the diagram.
 #### **Insert a Image Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -156,4 +156,4 @@ diagram.save("InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

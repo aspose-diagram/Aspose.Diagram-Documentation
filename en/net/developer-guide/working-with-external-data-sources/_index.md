@@ -13,8 +13,8 @@ It's now a common phenomena to link the data of Microsoft Visio diagrams from th
 #### **Programming Sample**
 The following piece of code edits a particular data connection and also refresh all the available record sets in the Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ExternalDataSources();
@@ -31,4 +31,4 @@ diagram.Refresh();
 diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

@@ -12,8 +12,8 @@ Microsoft Office Visio prend en charge la manipulation des objets OLE dans le Vi
 ### **Manipuler l'exemple de programmation d'objets OLE intégrés**
  La propriété ObjectData de la classe ForeignData permet aux développeurs de manipuler des objets OLE existants dans Visio diagram. Cette rubrique d'aide montre comment les développeurs peuvent récupérer un objet OLE du document Word, le modifier à l'aide[Aspose.Words for Java API](https://products.aspose.com/words/java), puis enregistrez-le en tant qu'objet OLE dans le fichier Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
 System.out.println(dataDir);
@@ -46,4 +46,4 @@ if (OLE_Shape.getType() == TypeValue.FOREIGN) {
 diagram.save(dataDir + "modified.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

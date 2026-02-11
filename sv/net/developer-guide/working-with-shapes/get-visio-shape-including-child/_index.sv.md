@@ -12,8 +12,8 @@ Varje form i en diagram har ett ID och ett namn. ID:t är viktigt vid programmer
 #### **Hämta Visio Formprogrammeringsexempel**
 Följande kodavsnitt hämtar formen inklusive barn. Kontrollera denna exempelkod:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

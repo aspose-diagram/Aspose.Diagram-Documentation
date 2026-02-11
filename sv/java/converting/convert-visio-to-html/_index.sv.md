@@ -33,8 +33,8 @@ Bilden nedan visar utdatafilen HTML.
 ### **Spara resulterande HTML i den lokala lagringen**
 Den resulterande filen kan sparas genom att skicka en komplett sökvägssträng, inklusive filnamn och filtillägg, t.ex. @"c:\temp\MyOutput.html".
 #### **Spara resultatet HTML i lokalt lagringsprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToHTML.class);
@@ -46,15 +46,15 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Spara resulterande HTML i en stream-instans**
 Det är för användning att spara den resulterande HTML i en databas eller arkiv utan att lagra den i den lokala lagringen. Denna funktion bäddar även in andra resulterande resurser från HTML, t.ex. typsnitt, CSS (som innehåller stilinformationen) och bilder. Eftersom det sparar en enda HTML-fil i stream-instansen.
 #### **Spara resultatet HTML i ett strömprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
@@ -68,4 +68,4 @@ diagram.save(dstStream, SaveFileFormat.HTML);
 ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+

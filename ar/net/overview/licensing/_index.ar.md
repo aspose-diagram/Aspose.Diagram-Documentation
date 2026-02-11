@@ -43,8 +43,8 @@ description: Aspose. تدعو Diagram for .NET عملائها للحصول عل�
 #### **تحميل ترخيص من ملف**
 يقوم مقتطف الشفرة هذا بتهيئة ترخيص مخزن في ملف أو في مورد مضمن.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -53,12 +53,12 @@ License license = new License();
 license.SetLicense(dataDir + "Aspose.Diagram.lic");
 
 {{< /highlight >}}
-```
+
 #### **تحميل ترخيص من كائن تيار**
 تعمل مقتطفات التعليمات البرمجية هذه على تهيئة الترخيص من الدفق.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -69,17 +69,17 @@ License license = new License();
 license.SetLicense(LicStream);
 
 {{< /highlight >}}
-```
+
 ## **تطبيق الترخيص المقنن**
 Aspose.Diagram for .NET API يسمح للمطورين بتطبيق الترخيص المقنن. إنها آلية ترخيص جديدة. سيتم استخدام آلية الترخيص الجديدة جنبًا إلى جنب مع طريقة الترخيص الحالية. يمكن للعملاء الذين يرغبون في دفع فواتيرهم بناءً على استخدام ميزات API استخدام الترخيص المقنن. لمزيد من التفاصيل ، يرجى الرجوع إلى[الأسئلة الشائعة حول الترخيص المقنن](https://purchase.aspose.com/faqs/licensing/metered)الجزء.
 
 فئة جديدة[مقننة](https://reference.aspose.com/diagram/net/aspose.diagram/metered)تمت إضافته لتطبيق المفتاح المقنن. يوضح مثال الرمز هذا كيفية تعيين المفاتيح العامة والخاصة التي تم قياسها:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // Initialize a Metered license class object
 Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
 // apply public and private keys
 metered.SetMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

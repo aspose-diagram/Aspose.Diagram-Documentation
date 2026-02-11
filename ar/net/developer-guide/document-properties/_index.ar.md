@@ -61,8 +61,8 @@ Aspose.Diagram for .NET يكتب مباشرة المعلومات حول API ور
 - للوصول إلى خصائص المستند المضمنة ، استخدم[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 -  للوصول إلى خصائص المستند المخصصة ، استخدم[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -81,7 +81,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **إضافة أو إزالة خصائص المستند المخصصة**
 
@@ -91,8 +91,8 @@ Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Coun
 
  كشفت واجهات برمجة التطبيقات Aspose.Diagram ملف[**يضيف**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) طريقة ل[**CustomPropCollection**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)class لإضافة خصائص مخصصة إلى المجموعة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **إزالة الخصائص المخصصة**
 

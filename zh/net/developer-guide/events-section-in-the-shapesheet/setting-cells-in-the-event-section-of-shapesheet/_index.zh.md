@@ -20,8 +20,8 @@ description: 管理 visio 文件的事件属性。
 ## **设置事件单元格**
 [事件](https://reference.aspose.com/diagram/net/aspose.diagram/event)类允许开发人员在 ShapeSheet 中设置事件单元格。此帮助主题演示了开发人员如何在事件单元格中设置公式：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

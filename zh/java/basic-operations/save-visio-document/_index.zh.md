@@ -16,8 +16,8 @@ description: 本页介绍如何将 Visio 文档保存到文件，使用 Aspose.D
 ### **保存 Diagram 编程示例**
 下面的示例将文档保存到文件中。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioDiagram.class);
@@ -34,7 +34,7 @@ diagram.save(dataDir + "SaveVisioDiagram_Out.vsdx", SaveFileFormat.VSDX);
 		ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+
 ## **指定 Visio 保存选项**
 有几个[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is PdfSaveOptions for the SaveFileFormat.PDF save format.
 ### **Visio Diagram 保存选项**
@@ -48,8 +48,8 @@ diagram.save(dataDir + "SaveVisioDiagram_Out.vsdx", SaveFileFormat.VSDX);
 #### **使用 Diagram 保存选项**
 下面的代码显示了如何在将文档保存为 Visio 格式之前设置保存选项。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseDiagramSaveOptions.class);
@@ -75,15 +75,15 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "UseDiagramSaveOptions_Out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **使用 PDF 保存选项**
 The code below shows how to set save options before saving a document to a PDF format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);    
@@ -126,15 +126,15 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UsePDFSaveOptions_Out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **使用 HTML 保存选项**
 The code below shows how to set save options before saving a document to a HTML format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseHTMLSaveOptions.class);
@@ -176,15 +176,15 @@ ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 diagram.save(dstStream, SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **使用图像保存选项**
 下面的代码显示了如何在将文档保存为图像格式之前设置保存选项。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseImageSaveOptions.class); 
@@ -253,12 +253,12 @@ options.setTiffCompression(TiffCompression.CCITT_3);
 diagram.save(dataDir + "UseImageSaveOptions_Out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **使用 SVG 保存选项**
 下面的代码显示了如何在将文档保存为 SVG 格式之前设置保存选项。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseSVGSaveOptions.class);
@@ -282,4 +282,4 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UseSVGSaveOptions_Out.svg", options);
 
 {{< /highlight >}}
-```
+

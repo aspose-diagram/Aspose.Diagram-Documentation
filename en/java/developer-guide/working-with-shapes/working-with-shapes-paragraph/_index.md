@@ -13,8 +13,8 @@ The code below shows how to:
 #### **Set shape's Paragraph Programming Sample**
 Use the following code in your Java application to set shape's paragraph using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -25,4 +25,3 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

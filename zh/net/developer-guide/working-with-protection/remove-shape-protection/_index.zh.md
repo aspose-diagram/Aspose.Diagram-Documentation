@@ -20,8 +20,8 @@ description: 本节介绍如何移除形状保护。
 ### **删除形状保护编程示例**
 在您的 .NET 应用程序中使用以下代码使用 Aspose.Diagram for .NET 执行相同的操作（解锁任何形状属性）。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -59,4 +59,4 @@ shape.Protection.LockWidth.Value = BOOL.False;
 diagram.Save(dataDir + "RemoveShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

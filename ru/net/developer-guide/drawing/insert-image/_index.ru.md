@@ -10,8 +10,8 @@ description: В этом разделе объясняется, как вста�
 ## **Вставить изображение в Visio**
 Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -27,13 +27,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Вставить изображение в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **Вставить изображение в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **Вставить изображение в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **Вставить изображение в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам вставлять фигуру изображения на страницу. В приведенном ниже примере кода показано, как вставить изображение в чертеж Visio и сохранить в формате HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -115,4 +115,4 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

@@ -8,8 +8,8 @@ description: Questa sezione spiega come rimuovere le informazioni inutilizzate o
 ## **Rimuovi informazioni nascoste**
  Aspose.Diagram for .NET API consente agli sviluppatori di rimuovere le informazioni nascoste da un diagram. Per rimuovere le informazioni nascoste, puoi utilizzare**RimuoviHiddenInfoItem** proprietà in**RimuoviInformazioni Nascoste()**metodo della classe Diagram. L'esempio di codice seguente mostra come rimuovere le informazioni nascoste da diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -25,4 +25,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "RemoveHiddenInfo_out.html", options);
 
 {{< /highlight >}}
-```
+

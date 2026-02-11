@@ -34,8 +34,8 @@ description: В этом разделе объясняется, как расп�
 #### **Образец программирования**
 В следующем примере кода показано, как вызвать служебный класс для печати via XPS.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -50,7 +50,7 @@ const string printerName = @"\\COMPANY\Brother MFC-885CW Printer";
 XpsPrintHelper.Print(diagram, printerName, "My Test Job", true);
 
 {{< /highlight >}}
-```
+
 
 
 Существует две перегрузки метода XpsPrintHelper.Print. Первая перегрузка принимает объект Aspose.Diagram.Diagram и сохраняет его в MemoryStream в формате XPS. Затем он вызывает другую перегрузку XpsPrintHelper.Print.
@@ -59,8 +59,8 @@ XpsPrintHelper.Print(diagram, printerName, "My Test Job", true);
 #### **XPS Пример программирования потоковой передачи и печати**
 Этот пример кода преобразует Diagram в поток XPS и печатает.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 /// <summary>
 /// Sends an Aspose.Diagram document to a printer using the XpsPrint API.
@@ -84,15 +84,15 @@ public static void Print(Diagram diagram, string printerName, string jobName, bo
 }
 
 {{< /highlight >}}
-```
+
 
 
 Вторая перегрузка XpsPrintHelper.Print принимает объект Stream. Поток должен содержать документ в формате XPS. Этот метод запускает задание печати XPS, отправляет документ на XpsPrint API, а затем при необходимости ожидает результата.
 #### **XpsPrint API Образец программирования**
 В этом примере кода документ XPS печатается с использованием XpsPrint API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 /// <summary>
 /// Sends a stream that contains a document in the XPS format to a printer using the XpsPrint API.
@@ -137,7 +137,7 @@ public static void Print(Stream stream, string printerName, string jobName, bool
 }
 
 {{< /highlight >}}
-```
+
 
 
 Код для методов StartJob, CopyJob, WaitForJob и CheckJobStatus, а также определения интерфейсов IXpsPrintJob и IXpsPrintJobStream довольно низкоуровневый и использует Platform Invoke и COM Interop. Этот код не включен в статью для краткости, но доступен в загружаемом образце.
@@ -157,8 +157,8 @@ XpsPrint API также предоставляет дополнительные 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print без параметров, предоставляемых объектом Diagram.
 #### **Пример программирования печати на принтере по умолчанию**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -170,15 +170,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print();
 
 {{< /highlight >}}
-```
+
 ### **Печать на указанный принтер**
 Для печати diagram на конкретном принтере требуется имя принтера в качестве параметра метода печати Diagram. Выполните следующие шаги, чтобы напечатать diagram на нужном принтере:
 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print класса Diagram с именем принтера в качестве строкового параметра для метода Print.
 #### **Пример программирования печати на конкретном принтере**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -190,15 +190,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **Установка имени принтера и документа**
 Aspose.Diagram API позволяет задать конкретный принтер и имя документа для задания на печать. Выполните следующие шаги, чтобы распечатать diagram на нужном принтере:
 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print класса Diagram с принтером и именем документа в качестве строкового параметра для метода Print.
 #### **Пример программирования установки имени принтера и документа**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -210,4 +210,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

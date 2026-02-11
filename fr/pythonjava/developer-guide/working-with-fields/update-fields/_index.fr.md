@@ -12,8 +12,8 @@ L'objet Field représente un champ de texte dans une exécution de texte. La pro
 
 ### **Exemple de programmation**
 Le morceau de code suivant met à jour un champ dans shape.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

@@ -15,8 +15,8 @@ Aspose.Diagram for Java يسمح بتكوين كائنات الشكل بطبقا
 
 يساعد الجزء التالي من التعليمات البرمجية على إضافة خصائص كائنات الشكل وإزالتها ونقلها.
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **أضف طبقة في Visio PageSheet**
 Aspose.Diagram for Java يسمح للمطورين بإضافة طبقات جديدة لتنظيم الفئات المهيأة من الأشكال ، ثم تخصيص الأشكال لتلك الطبقات برمجيًا.
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java يسمح للمطورين بإضافة طبقات جدي
 
 يساعد الجزء التالي من التعليمات البرمجية على إضافة كائنات الطبقة.
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java يمنح المطورين الوصول إلى الطبق
 
 يساعد الجزء التالي من التعليمات البرمجية في الحصول على قائمة الطبقات.
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

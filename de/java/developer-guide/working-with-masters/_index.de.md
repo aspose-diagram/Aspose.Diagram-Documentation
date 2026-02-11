@@ -17,8 +17,8 @@ Verwenden Sie die Page.Shapes-Eigenschaft, um zu bestimmen, welche Form von der 
 ### **Programmierbeispiel für Stamminformationen abrufen**
 Der folgende Codeabschnitt ruft die Masterinformationen von diagram ab.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **Fügen Sie Master aus der Schablone der Formen hinzu**
 Eine Schablone ist eine Sammlung von Formen, die einer bestimmten Microsoft Office Visio Vorlage zugeordnet sind. Mit Aspose.Diagram ist es möglich, beliebige Shape-Master zu einer Zeichnung aus einer Schablone hinzuzufügen.
 ### **Meister hinzufügen**
@@ -46,8 +46,8 @@ Das Master-Objekt stellt den Master eines Shape-Objekts in einem diagram dar. Di
 - Schablonendateistream und Mastername.
 - Master zu diagram aus Quelle diagram hinzufügen
 #### **Master-Programmierbeispiel hinzufügen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Master von Grund auf neu erstellen**
 Aspose.Diagram API ermöglicht die Erstellung eines Masters von Grund auf ohne Schablone, Zeichnung oder Vorlage. Entwickler können die Erstellung von Master anpassen. Die Methode addMaster, die von der Klasse Diagram verfügbar gemacht wird, ermöglicht das Hinzufügen eines Masters.
 #### **Master-Programmierbeispiel erstellen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **Holen Sie sich einen Master aus der Datei Visio**
 Manchmal müssen Entwickler die Details des Masters einer Visio-Zeichnung abrufen. Die Aspose.Diagram API unterstützt diese Funktion.
 
@@ -282,8 +282,8 @@ Dieses Beispiel funktioniert wie folgt:
 #### **Programmierbeispiel für Master-Objekt nach ID**
 Das folgende Beispiel zeigt, wie Sie einen Master nach ID aus einer Visio-Zeichnung erhalten.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **Abrufen eines Master-Objekts nach Namen**
 Dieses Beispiel funktioniert wie folgt:
 
@@ -309,8 +309,8 @@ Dieses Beispiel funktioniert wie folgt:
 #### **Master Object by Name Programmierbeispiel**
 Das folgende Beispiel zeigt, wie Sie ein Master-Objekt anhand des Namens aus einer Visio-Zeichnung abrufen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **Überprüfen Sie das Vorhandensein eines Masters in der Visio-Zeichnung**
 Die Aspose.Diagram API unterstützt die Überprüfung auf das Vorhandensein eines Masters in einer Visio-Zeichnung. Mit der MasterCollection-Eigenschaft können Entwickler anhand ihres Namens oder ihrer ID prüfen, ob ein Master vorhanden ist.
 
@@ -340,8 +340,8 @@ Dieses Beispiel funktioniert wie folgt:
 #### **Master Presence by ID Programmierbeispiel**
 Das folgende Beispiel zeigt, wie das Vorhandensein eines Masters anhand der ID in einer Visio-Zeichnung überprüft wird.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Überprüfen einer Master-Anwesenheit anhand des Namens**
 Dieses Beispiel funktioniert wie folgt:
 
@@ -365,8 +365,8 @@ Dieses Beispiel funktioniert wie folgt:
 #### **Master Presence by Name Programmierbeispiel**
 Das folgende Beispiel zeigt, wie eine Master-Anwesenheit anhand des Namens aus der Zeichnung Visio überprüft wird.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

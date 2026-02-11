@@ -44,8 +44,8 @@ Use the [License.SetLicense](https://reference.aspose.com/diagram/net/aspose.dia
 #### **Loading a License from File**
 This code snippet initializes a license stored in a file or in an embedded resource.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -54,12 +54,12 @@ License license = new License();
 license.SetLicense(dataDir + "Aspose.Diagram.lic");
 
 {{< /highlight >}}
-```
+
 #### **Loading a License from a Stream Object**
 These code snippets initialize the license from stream.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -70,17 +70,17 @@ License license = new License();
 license.SetLicense(LicStream);
 
 {{< /highlight >}}
-```
+
 ## **Apply Metered License**
 Aspose.Diagram for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 A new class [Metered](https://reference.aspose.com/diagram/net/aspose.diagram/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // Initialize a Metered license class object
 Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
 // apply public and private keys
 metered.SetMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

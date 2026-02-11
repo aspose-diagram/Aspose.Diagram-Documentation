@@ -20,8 +20,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Bağlayıcı Görünümü Programlama Örneği Ayarla**
 Aspose.Diagram for .NET kullanarak konektör tipi şeklinin görünümünü ayarlamak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bağlayıcı Şeklinin Yeniden Yönlendirme Seçeneğini Belirleyin**
  Tarafından sunulan ConFixedCode özelliği[Düzen](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) sınıf, yeniden yönlendirme seçeneğini seçmek için kullanılabilir. tarafından sunulan Layout özelliği[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) sınıf kullanılacaktır.
 
@@ -54,8 +54,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Yeniden Yönlendirme Seçeneği Programlama Örneği Seçin**
 Aspose.Diagram for .NET kullanarak bağlayıcı şeklinin yeniden yönlendirme seçeneğini belirlemek için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -74,4 +74,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

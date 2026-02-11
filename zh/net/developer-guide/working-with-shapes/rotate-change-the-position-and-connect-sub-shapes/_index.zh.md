@@ -10,8 +10,8 @@ Aspose.Diagram for .NET 允许您将形状旋转到任意角度。公开的 SetA
 ### **旋转形状编程样本**
 在您的 .NET 应用程序中使用以下代码来旋转使用 Aspose.Diagram for .NET 的形状。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **更改形状的位置**
 这[形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类允许您更改形状的位置。当形状移动到不同位置时，连接线会自动调整。 Move 和 MoveTo 方法，由[形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类，支持改变形状的位置作为组的一部分或不。本文中的代码示例在页面上移动一个形状。
 
@@ -43,8 +43,8 @@ diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 ### **改变位置编程示例**
 下面的代码片段显示了如何移动形状。该代码通过 ID 16 的名称和形状检索 Visio 页面，并移动其位置。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **连接组的子形状**
 本主题详细说明如何使用 Aspose.Diagram for .NET 连接 Microsoft Visio 图中两个不同组形状的两个子形状。[页](http://www.aspose.com/api/net/diagram/aspose.diagram/page)类可用于通过 ID 连接形状。 AddShape 方法，由[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)类，可用于添加形状。
 
@@ -75,8 +75,8 @@ diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 ### **连接子形状编程示例**
 在您的 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET 连接两个不同组形状的子形状。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **获取连接到特定形状的形状**
 [添加和连接 Visio 形状](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)使用 Aspose.Diagram for .NET 说明如何添加形状并将其连接到 Microsoft Visio 图中的其他形状。也可以找到连接到特定形状的形状。
 
@@ -117,8 +117,8 @@ diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 ### **获取形状编程示例**
 在您的 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET 查找连接到特定形状的所有形状。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

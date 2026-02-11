@@ -12,8 +12,8 @@ Koden nedan visar hur man:
 #### **Ställ in formens styckeprogrammeringsexempel**
 Använd följande kod i din Java-applikation för att ställa in formens stycke med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -24,4 +24,3 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

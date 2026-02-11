@@ -24,8 +24,8 @@ url: /ar/java/working-with-hyperlinks/
 
 تضيف مقتطفات التعليمات البرمجية أدناه بيانات الارتباط التشعبي للشكل.
 ### **إضافة نموذج برمجة ارتباط تشعبي**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **الحصول على بيانات الارتباطات التشعبية لأشكال Visio**
  من الممكن الحصول على بيانات الارتباط التشعبي للشكل بنفس الطريقة التي تحصل عليها[قراءة Visio بيانات الشكل]().
 
@@ -79,8 +79,8 @@ diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 تقرأ قصاصات التعليمات البرمجية أدناه بيانات الارتباط التشعبي للشكل.
 ### **احصل على نموذج لبرمجة الارتباطات التشعبية**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

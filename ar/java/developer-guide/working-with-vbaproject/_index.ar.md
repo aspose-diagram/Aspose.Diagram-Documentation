@@ -27,8 +27,8 @@ End Sub
 
 فيما يلي نموذج التعليمات البرمجية لإنشاء ملف الإخراج VSDM باستخدام وحدة VBA وكود الماكرو.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -45,7 +45,7 @@ module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **تعديل VBA أو ماكرو**
 
@@ -88,8 +88,8 @@ End Sub
 
  يمكنك تنزيل ملف[المصدر Visio ملف]() و ال[ملف الإخراج Visio]() من الروابط المعطاة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -104,7 +104,7 @@ module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **موضوعات مسبقة**
 - [تحقق مما إذا كان رمز VBA قد تم توقيعه](/diagram/ar/java/check-if-vba-code-is-signed/)

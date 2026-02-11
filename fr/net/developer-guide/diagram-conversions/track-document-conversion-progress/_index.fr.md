@@ -15,8 +15,8 @@ description: Cette section explique comment suivre la progression de la conversi
 
 ## **Exemple de code**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -34,12 +34,12 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "Callback_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 Voici le code pour le*TestDiagramPageSavingCallback*classe personnalisée.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCallback
 {
@@ -61,7 +61,7 @@ public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCa
 }
 
 {{< /highlight >}}
-```
+
 
 ## **Sortie console**
 

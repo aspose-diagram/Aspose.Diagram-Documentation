@@ -34,6 +34,17 @@ description: قم بإعداد Aspose.Diagram لـ Python via .NET وإرشاد�
 
 -  قم بإنشاء ملف باسم**CreatingNewVisioFile.py** واستخدم نموذج التعليمات البرمجية التالي:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingNewVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram()
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 - الآن احفظ الكود أعلاه في "CreatingNewVisioFile.py" وقم بتشغيل "python CreatingNewVisioFile.py"command موجه.

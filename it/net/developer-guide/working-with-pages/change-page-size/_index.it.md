@@ -14,8 +14,8 @@ Utilizzare la proprietà PageProps per modificare le dimensioni della pagina.
 ### **Esempio di programmazione delle dimensioni della pagina**
 La seguente parte di codice modifica le dimensioni della pagina da diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -33,4 +33,4 @@ page.PageSheet.PageProps.PageWidth.Value = 11;
 diagram.Save(dataDir + "SetPageSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

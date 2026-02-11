@@ -21,8 +21,8 @@ The code below shows how to:
 #### **Connect Shapes Programming Sample**
 Use the following code to connect shapes using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectShapes.class);
@@ -51,7 +51,7 @@ diagram.getPages().get(0).connectShapesViaConnector(rectangle1, ConnectionPointP
 diagram.save(dataDir + "ConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result**|
 | :- |

@@ -15,8 +15,8 @@ Aspose.Diagram for Java gör det möjligt att konfigurera formobjekt med lager i
 
 Följande kodbit hjälper till att lägga till, ta bort och flytta formobjektegenskaper.
 #### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Lägg till ett lager i sidbladet Visio**
 Aspose.Diagram for Java tillåter utvecklare att lägga till nya lager för att organisera anpassade kategorier av former och sedan tilldela former till dessa lager programmatiskt.
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java tillåter utvecklare att lägga till nya lager för att 
 
 Följande kodbit hjälper till att lägga till Layer-objekt.
 #### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java ger utvecklare tillgång till de befintliga lagren av Vi
 
 Följande kodbit hjälper dig att få en lista över lager.
 #### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

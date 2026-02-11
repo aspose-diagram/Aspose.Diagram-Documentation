@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم مستطيل في صف
 ## **ارسم مستطيلاً في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل مستطيل في الصفحة. يوضح مثال الكود أدناه كيفية رسم مستطيل في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -23,13 +23,13 @@ diagram.Pages[0].DrawRectangle(1, 2, 2, 4);
 diagram.Save(dataDir + "DrawRectangleInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مستطيلاً في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مستطيل في الصفحة وحفظه بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم مستطيل في رسم Visio وحفظه بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -45,13 +45,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawRectangleInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مستطيلاً في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مستطيل في الصفحة وحفظه بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم مستطيل في رسم Visio وحفظه بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -65,13 +65,13 @@ diagram.Pages[0].DrawRectangle(1, 2, 2, 4);
 diagram.Save(dataDir + "DrawRectangleInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مستطيلاً في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مستطيل في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم مستطيل في رسم Visio وحفظه بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -87,13 +87,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawRectangleInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مستطيلاً في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مستطيل في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم مستطيل في رسم Visio وحفظه بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -107,4 +107,4 @@ diagram.Pages[0].DrawRectangle(1, 2, 2, 4);
 diagram.Save(dataDir + "DrawRectangleInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

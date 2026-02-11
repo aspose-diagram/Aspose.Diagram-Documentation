@@ -18,8 +18,8 @@ The code below shows how to:
 ### **Shape to Svg**
 Use the following code in your java application to convert a visio shape to svg.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToSvg.class); 
@@ -36,6 +36,6 @@ Shape shape = page.getShapes().get(0);
 SVGSaveOptions option = new SVGSaveOptions();
 shape.toSvg("out.svg",option);
 {{< /highlight >}}
-```
+
 
 

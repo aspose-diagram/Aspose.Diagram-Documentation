@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية تعيين رؤوس وتذي�
 #### **عينة البرمجة**
 يساعد الجزء التالي من التعليمات البرمجية في إدارة خصائص الرؤوس والتذييلات.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_HeadersAndFooters();
@@ -50,4 +50,4 @@ diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False;
 diagram.Save(dataDir + "ManageHeadersandFooters_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

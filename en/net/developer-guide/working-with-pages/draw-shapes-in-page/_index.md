@@ -9,8 +9,8 @@ description: This section explains how to draw shapes in a visio page with Aspos
 ## **Draw Polyline in Page**
 Aspose.Diagram for .NET API allows developers to draw a polyline shape in a page. In order to draw a polyline shape, the API offer **DrawPolyline()** method of the [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram) class. The code example below shows how to draw a polyline in a Visio drawing.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -26,12 +26,12 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPolylineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Draw Bezier in Page**
 Aspose.Diagram for .NET API allows developers to draw a bezier shape in a page. In order to draw a bezier shape, the API offer **DrawBezier()** method of the [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **class. The code example below shows how to draw a bezier in a Visio drawing.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -45,12 +45,12 @@ diagram.Pages[0].DrawBezier(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawBezierInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Draw Spline in Page**
 Aspose.Diagram for .NET API allows developers to draw a spline shape in a page. In order to draw a bezier shape, the API offer **DrawSpline()** method of the [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **class. The code example below shows how to draw a bezier in a Visio drawing.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -67,4 +67,4 @@ diagram.Pages[0].DrawSpline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawSplineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -23,8 +23,8 @@ description: This topic show you how to Aspose.Diagram allows to convert Visio t
 
 ![待办事项：图片_替代_文本](http://i.imgur.com/WOV36ek.png)
 ### **导出到图像文件编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToImage.class);
@@ -36,12 +36,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 diagram.save(dataDir+ "ExportToImage_Out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 也可以将特定页面保存为图像，而不是整个文档：
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportPageToImage.class);     
@@ -58,4 +58,3 @@ options.setPageIndex(0);
 diagram.save(dataDir + "ExportPageToImage_Out.png", options);
 
 {{< /highlight >}}
-```

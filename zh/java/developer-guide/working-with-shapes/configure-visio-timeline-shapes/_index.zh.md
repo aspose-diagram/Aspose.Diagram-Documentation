@@ -22,8 +22,8 @@ Aspose.Diagram 允许开发人员设置里程碑属性。本文介绍如何设�
 1. 设置里程碑类型
 1. 将 Visio 图形保存为任何支持的格式。
 #### **设置里程碑编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 日期格式值表：
@@ -104,8 +104,8 @@ Aspose.Diagram 允许开发人员以编程方式配置时间线。这解释了�
 1. 设置日期格式。
 1. 将 Visio 图形保存为任何支持的格式。
 #### **设置时间段和日期编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 日期格式值表：
@@ -194,8 +194,8 @@ Aspose.Diagram 允许开发人员根据时间段变化调整时间轴形状（�
 #### **使用 TimeLineHelper 编程示例刷新里程碑**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 恢复时间轴上的里程碑。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **使用 MilestoneHelper 类刷新时间轴上的里程碑**
 公开的 RefreshMilestone 方法[里程碑助手](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)类可用于刷新时间轴上的里程碑。
 
@@ -241,8 +241,8 @@ diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 #### **使用 MilestoneHelper 编程示例刷新里程碑**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 刷新时间轴上的里程碑。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

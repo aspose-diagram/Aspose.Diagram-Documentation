@@ -13,8 +13,8 @@ Con Aspose.Diagram API, los desarrolladores pueden recuperar un control ActiveX 
 ## **Recuperar una muestra de programación de control ActiveX**
 [Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class ofrece la propiedad ActiveXControl que permite a los desarrolladores recuperar un control ActiveX de un objeto de forma Visio. Los desarrolladores pueden convertir un control ActiveX en la clase de control ActiveX adecuada y luego establecer todas sus propiedades disponibles.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

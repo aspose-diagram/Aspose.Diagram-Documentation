@@ -19,8 +19,8 @@ The code below shows how to:
 #### **Get Connectors Glued Programming Sample**
 Use the following code in your .NET application to find all the connectors glued to a shape using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ foreach (long id in gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Glue Visio Shapes Together with Connection Point**
 Aspose.Diagram for .NET allows developers glue shapes together through the connection points.
 ### **Glue Shapes**
@@ -56,8 +56,8 @@ The code below shows how to:
 #### **Glue Visio Shapes Programming Sample**
 Use the following code in your .NET application to glue shapes through the connection points:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -77,7 +77,7 @@ page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Cent
 diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Glue Shapes Inside the Container**
 Aspose.Diagram for .NET enables developers to glue group shapes inside a container.
 ### **Glue Group Shape**
@@ -93,8 +93,8 @@ The code below shows how to:
 #### **Glue Shapes Inside Programming Sample**
 Use the following code in your .NET application to glue group shape inside a container:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -124,4 +124,4 @@ page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.Save(dataDir + "GlueContainerShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

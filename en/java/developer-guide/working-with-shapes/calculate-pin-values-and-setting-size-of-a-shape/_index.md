@@ -20,8 +20,8 @@ A point specified in local coordinates can be converted into parent coordinates 
 ### **Calculate PinX and PinY Programming Sample**
 Use the following code in your Java application to calculate PinX and PinY values of a sub-shape using Aspose.Diagram for Java API.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CalculateCenterOfSubShapes.class);
@@ -51,7 +51,7 @@ double resultx = shape.getXForm().getPinX().getValue() - shape.getXForm().getLoc
 double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLocPinY().getValue() - piny;
 
 {{< /highlight >}}
-```
+
 ## **Setting Height and Width of a Shape**
 The [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) Class allows you to control the shape size by specifying height and width of the shape using SetHeight and SetWidth methods.
 
@@ -77,8 +77,8 @@ The process for setting Height and Width is:
 ### **Setting Height and Width Programming Sample**
 The code snippet below shows how to set the shape's height and width. The code looks for a shape name rectangle, with the shape ID 1, and sets its Height and Width as double.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeShapeSize.class);
@@ -96,4 +96,4 @@ shape.setHeight(2 * shape.getXForm().getHeight().getValue());
 diagram.save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

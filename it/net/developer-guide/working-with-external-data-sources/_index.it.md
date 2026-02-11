@@ -12,8 +12,8 @@ Aspose.Diagram API consente agli utenti di modificare la connessione dati di SQL
 #### **Esempio di programmazione**
 La parte di codice seguente modifica una particolare connessione dati e aggiorna anche tutti i set di record disponibili in Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ExternalDataSources();
@@ -30,4 +30,4 @@ diagram.Refresh();
 diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

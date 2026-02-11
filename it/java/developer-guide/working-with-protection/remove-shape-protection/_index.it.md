@@ -20,8 +20,8 @@ In Microsoft Office Visio, l'utente può eseguire le seguenti azioni per protegg
 ### **Rimuovi l'esempio di programmazione di Shape Protection**
 Usa il seguente codice nella tua applicazione Java per fare la stessa cosa (sbloccare qualsiasi attributo di forma) usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

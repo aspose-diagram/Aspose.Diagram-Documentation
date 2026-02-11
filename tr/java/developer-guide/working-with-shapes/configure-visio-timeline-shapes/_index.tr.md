@@ -22,8 +22,8 @@ Kilometre taşı tarihini, tarih biçimini, otomatik güncelleme bayrağını ve
 1. Kilometre taşı türünü ayarlayın
 1. Visio çizimini desteklenen herhangi bir formatta kaydedin.
 #### **Kilometre Taşı Programlama Örneği Ayarlama**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tarih biçimi değerleri tablosu:
@@ -104,8 +104,8 @@ Zaman periyodu başlangıcı, bitişi ve tarih formatını güncelleme süreci �
 1. Bir tarih formatı ayarlayın.
 1. Visio çizimini desteklenen herhangi bir formatta kaydedin.
 #### **Zaman Periyodu ve Tarih Programlama Örneği Ayarla**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tarih biçimi değerleri tablosu:
@@ -194,8 +194,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **TimeLineHelper Programlama Örneği Kullanarak Kilometre Taşlarını Yenileyin**
 Aspose.Diagram for Java'i kullanarak zaman çizelgesindeki kilometre taşlarını canlandırmak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **MilestoneHelper sınıfını kullanarak Zaman Çizelgesi'ndeki Kilometre Taşlarını yenileyin**
  Tarafından sunulan RefreshMilestone yöntemi[Kilometre Taşı Yardımcısı](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)class, zaman çizelgesindeki kilometre taşlarını yenilemek için kullanılabilir.
 
@@ -241,8 +241,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **MilestoneHelper Programlama Örneği Kullanarak Kilometre Taşlarını Yenileyin**
 Aspose.Diagram for Java'i kullanarak zaman çizelgesindeki kilometre taşlarını yenilemek için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

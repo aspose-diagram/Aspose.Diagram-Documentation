@@ -22,8 +22,8 @@ Le processus de mise à jour de la date du jalon, du format de la date, de l'ind
 1. Définir le type de jalon
 1. Enregistrez le dessin Visio dans n'importe quel format pris en charge.
 #### **Définir un exemple de programmation d'étape**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tableau des valeurs de format de date :
@@ -104,8 +104,8 @@ Le processus de mise à jour du format de début, de fin et de date de la pério
 1. Définissez un format de date.
 1. Enregistrez le dessin Visio dans n'importe quel format pris en charge.
 #### **Définir la période et la date Exemple de programmation**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tableau des valeurs de format de date :
@@ -194,8 +194,8 @@ Le code ci-dessous montre comment :
 #### **Actualiser les jalons à l'aide de l'exemple de programmation TimeLineHelper**
 Utilisez le code suivant dans votre application Java pour relancer les jalons sur la chronologie à l'aide de Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Actualiser les jalons sur la chronologie à l'aide de la classe MilestoneHelper**
  La méthode RefreshMilestone exposée par le[MilestoneHelper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)class peut être utilisé pour actualiser les jalons sur la chronologie.
 
@@ -241,8 +241,8 @@ Le code ci-dessous montre comment :
 #### **Actualiser les jalons à l'aide de l'exemple de programmation MilestoneHelper**
 Utilisez le code suivant dans votre application Java pour actualiser les jalons sur la chronologie à l'aide de Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

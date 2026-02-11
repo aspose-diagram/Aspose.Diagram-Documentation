@@ -23,8 +23,8 @@ För att identifiera fastigheter i Microsoft Office Visio:
 ### **Lägg till hyperlänksprogrammeringsexempel**
 Kodavsnittet nedan lägger till forms hyperlänkdata.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -53,7 +53,7 @@ shape.Hyperlinks.Add(hyperlink);
 diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Hämta hyperlänkdata för Visio-formerna**
 Utvecklare kan hämta alla hyperlänkar från en Visio-form på samma sätt som de[läs Visio formdata](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) använder sig av[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -75,8 +75,8 @@ Alla befintliga egenskaper listas i dialogrutan.
 ### **Få hyperlänksprogrammeringsexempel**
 Kodavsnittet nedan läser shapes hyperlänkdata.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -96,4 +96,4 @@ foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
 }       
 
 {{< /highlight >}}
-```
+

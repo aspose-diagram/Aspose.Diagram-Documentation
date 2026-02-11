@@ -17,8 +17,8 @@ Koden nedan visar hur man:
 ### **Form till pdf**
 Använd följande kod i din java-applikation för att konvertera en visio-form till pdf.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToPdf.class); 
@@ -34,6 +34,6 @@ Shape shape = page.getShapes().get(0);
 // Shape to Pdf
 shape.toPdf("out.pdf");
 {{< /highlight >}}
-```
+
 
 

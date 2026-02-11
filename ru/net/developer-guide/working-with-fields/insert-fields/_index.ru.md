@@ -8,8 +8,8 @@ description: Как создавать, вставлять поля с помо�
 ## **Вставить поле**
  Aspose.Diagram for .NET позволяет создавать и вставлять[поле](https://reference.aspose.com/diagram/net/aspose.diagram/field) на Microsoft Visio диаграммы из ваших собственных приложений, без автоматизации Microsoft Office.
 ### **Образец программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_InsertField();
@@ -31,4 +31,4 @@ shape.Fields.Add(fld);
 diagram.Save(dataDir + "InsertField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

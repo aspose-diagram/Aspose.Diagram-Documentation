@@ -15,8 +15,8 @@ description: 本节介绍如何使用 Aspose.Diagram 跟踪 visio 文件的转�
 
 ## **示例代码**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -30,12 +30,12 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 以下是代码*测试图页面保存回调*自定义类。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -49,7 +49,7 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 ## **控制台输出**
 

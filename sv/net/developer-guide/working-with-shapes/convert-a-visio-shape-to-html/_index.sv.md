@@ -17,8 +17,8 @@ Koden nedan visar hur man:
 ### **Forma till HTML**
 Använd följande kod i din .net-applikation för att konvertera en visio-form till html.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ Aspose.Diagram.Saving.HTMLSaveOptions hs = new Aspose.Diagram.Saving.HTMLSaveOpt
 shape.ToHTML("out.htm", hs);
 
 {{< /highlight >}}
-```
+
 

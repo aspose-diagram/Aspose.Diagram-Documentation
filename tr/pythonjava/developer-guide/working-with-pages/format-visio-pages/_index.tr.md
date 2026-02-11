@@ -9,8 +9,8 @@ Python via Java API için Aspose.Diagram, geliştiricilerin bir Visio Diagram do
 ## **Stil Sayfalarını Visio Sayfasına Uygula**
 Python için Aspose.Diagram via Java API, Stil Sayfalarını kullanarak bir Visio sayfasını biçimlendirmenizi sağlar. Bir stil sayfası tanımlayabilir ve bunu Visio belgesinin stil sayfası koleksiyonuna ekleyebilirsiniz. `Page` sınıfının `applyStyle` yöntemi, aşağıdaki kod örneğinde gösterildiği gibi, tanımlanan stil sayfasını sayfaya uygulamanıza izin verir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -57,4 +57,4 @@ vsdDiagram.save("ApplyStyleToVisioDiagramPage_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

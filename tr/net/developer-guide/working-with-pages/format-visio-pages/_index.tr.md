@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API, geliştiricilerin bir Visio Diagram dosyasının sa
 ## **Stil Sayfalarını Visio Sayfasına Uygula**
 Aspose.Diagram for .NET API, Stil Sayfalarını kullanarak bir Visio sayfasını biçimlendirmenizi sağlar. Bir stil sayfası tanımlayabilir ve bunu Visio belgesinin stil sayfası koleksiyonuna ekleyebilirsiniz. Page sınıfının ApplyStyle yöntemi, aşağıdaki kod örneğinde gösterildiği gibi, tanımlanan stil sayfasını sayfaya uygulamanıza izin verir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

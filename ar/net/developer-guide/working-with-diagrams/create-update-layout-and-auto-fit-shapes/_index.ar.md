@@ -8,8 +8,8 @@ description: استخدم C# Diagram API لإنشاء أشكال التخطيط 
 ## **إنشاء Diagram**
  يتيح لك Aspose.Diagram for .NET قراءة وإنشاء Microsoft Visio الرسوم التخطيطية من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)لإنشاء diagram. استخدم المُنشئ الافتراضي لـ[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) فئة لإنشاء diagram جديد.
 ### **عينة البرمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -25,7 +25,7 @@ dataDir = dataDir + "CreateDiagram_out.vsdx";
 diagram.Save(dataDir, SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **أشكال التخطيط في نمط المخطط الانسيابي**
  مع أنواع معينة من الرسومات المتصلة ، مثل المخططات الانسيابية والرسومات التخطيطية للشبكة ، يمكنك استخدام ملحق**أشكال التخطيط** ميزة لوضع الأشكال تلقائيًا. يعد تحديد المواقع تلقائيًا أسرع من سحب كل شكل يدويًا إلى موقع جديد.
 
@@ -51,8 +51,8 @@ diagram.Save(dataDir, SaveFileFormat.VSDX);
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. اتصل بـ Diagram class 'طريقة Save لكتابة رسم Visio.
 ### **عينة برمجة نمط المخطط الانسيابي**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -91,7 +91,7 @@ diagram.Layout(flowChartOptions);
 diagram.Save(dataDir + "sample_right_left_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **تخطيط الأشكال في نمط الشجرة المضغوطة**
  يحاول نمط تخطيط الشجرة المضغوط بناء هيكل شجرة. يستخدم نفس ملف الإدخال مثل ملف[المثال أعلاه](https://docs.aspose.com/diagram/net/create-update-layout-and-auto-fit-shapes/)ويحفظ في العديد من أنماط الأشجار المدمجة المختلفة.
 
@@ -109,8 +109,8 @@ diagram.Save(dataDir + "sample_right_left_out.vdx", SaveFileFormat.VDX);
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. قم باستدعاء الأسلوب Save للفئة Diagram لكتابة ملف Visio.
 #### **عينة برمجة نمط الشجرة المدمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -148,7 +148,7 @@ diagram.Layout(compactTreeOptions);
 diagram.Save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **احتواء تلقائي Visio Diagram**
  Aspose.Diagram API يدعم التركيب التلقائي للرسم Visio. تساعد عملية الميزة هذه على إحضار الأشكال الخارجية داخل حدود الصفحة Visio. Aspose.Diagram for .NET API لديه[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) فئة تمثل رسم Visio. ال[مخطط حفظ الخيارات](https://reference.aspose.com/diagram/net/aspose.diagram.saving/diagramsaveoptions) تعرض الفئة خاصية AutoFitPageToDrawingContent لتلائم الرسم Visio تلقائيًا.
 
@@ -161,8 +161,8 @@ diagram.Save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
 ### **عينة البرمجة الملائمة التلقائية**
 يوضح رمز المثال التالي كيفية احتواء الأشكال تلقائيًا في Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -179,15 +179,15 @@ options.AutoFitPageToDrawingContent = true;
 diagram.Save(dataDir + "AutoFitShapesInVisio_out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 ## **العمل مع مشروع VBA**
 ### **تعديل كود وحدة VBA في Visio Diagram**
  توضح هذه المقالة كيفية تعديل رمز وحدة VBA تلقائيًا باستخدام Aspose.Diagram for .NET. لقد أضفنا[VbaModule](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaModule), [مجموعة VbaModuleCollection](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaModuleCollection), [VbaProject](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaProject), [VbaProjectReference](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaProjectReference) و[VbaProjectReferenceCollection](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaProjectReferenceCollection) الطبقات. تساعد هذه الفئات في التحكم في مشروع VBA. يمكن للمطورين استخراج وتعديل رمز الوحدة النمطية لـ VBA.
 ### **تعديل نموذج برمجة رمز الوحدة النمطية لـ VBA**
 الرجاء التحقق من مثال هذا الرمز:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -208,12 +208,12 @@ foreach (VbaModule module in diagram.VbaProject.Modules)
 diagram.Save(dataDir + "ModifyVBAModule_out.vssm", SaveFileFormat.VSSM);
 
 {{< /highlight >}}
-```
+
 ### **قم بإزالة كافة وحدات الماكرو من Visio Diagram**
  Aspose.Diagram for .NET يسمح للمطورين بإزالة كافة وحدات الماكرو من Visio diagram.[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class ، تسمح لك بإزالة كافة وحدات الماكرو من الرسم Visio.
 ### **قم بإزالة كافة نماذج برمجة وحدات الماكرو**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -228,7 +228,7 @@ diagram.VbProjectData = null;
 diagram.Save(dataDir + "RemoveMacrosFromVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **إنشاء Diagram جديد مع VSTO**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)يتيح للمطورين إنشاء مخططات Microsoft Office Visio والعمل معها ودمج الميزات في تطبيقات البرامج الخاصة بهم. هناك طرق أخرى للعمل مع Visio من الملفات ، والأكثر شيوعًا هو Microsoft Automation. لسوء الحظ ، هذا له بعض القيود. Aspose.Diagram قوي وسريع ويعمل بشكل مستقل دون تثبيت Microsoft Office.
 
@@ -250,8 +250,8 @@ diagram.Save(dataDir + "RemoveMacrosFromVisio_out.vsdx", SaveFileFormat.VSDX);
 
 **مثال:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -303,7 +303,7 @@ catch (Exception ex)
             
 
 {{< /highlight >}}
-```
+
 ## **إنشاء Diagram جديد مع Aspose.Diagram for .NET**
 باستخدام Aspose.Diagram API ، لا يحتاج المطورون إلى تثبيت Microsoft Office Visio على الجهاز ، ويمكنهم العمل بشكل مستقل عن Microsoft Office Automation.
 
@@ -322,8 +322,8 @@ catch (Exception ex)
 
 مثال:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -350,7 +350,7 @@ shape.Text.Value.Add(new Txt(@"Hexagon text."));
 diagram.Save(dataDir + "CreatingDiagramWithAspose_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **تحديث خصائص الشكل**
  عند العمل باستخدام الرسوم التخطيطية Microsoft Visio ، يمكن للمستخدمين تحديث سمات الشكل بما في ذلك النص والنمط والموضع والارتفاع والعرض. بصفتك مطور برامج يعمل مع ملفات Visio ، سيُطلب منك القيام بذلك برمجيًا. والخبر السار هو أنه من الممكن ، إما باستخدام آليات البرمجة مع Visio الملفات التي يوفرها Microsoft أو VSTO أو باستخدام[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 
@@ -374,8 +374,8 @@ diagram.Save(dataDir + "CreatingDiagramWithAspose_out.vdx", SaveFileFormat.VDX);
 
 **مثال:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -420,7 +420,7 @@ catch (Exception ex)
 }           
 
 {{< /highlight >}}
-```
+
 ### **تحديث خصائص الشكل مع Aspose.Diagram for .NET**
 باستخدام Aspose.Diagram API ، لا يحتاج المطورون إلى Microsoft Office Visio على الجهاز ، ويمكنهم العمل بشكل مستقل عن Microsoft Office Automation.
 
@@ -440,8 +440,8 @@ catch (Exception ex)
 
 **مثال:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 try
 {
@@ -487,4 +487,4 @@ catch (Exception ex)
 }
 
 {{< /highlight >}}
-```
+

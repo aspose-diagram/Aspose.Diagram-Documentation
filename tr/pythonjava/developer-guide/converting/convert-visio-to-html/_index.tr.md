@@ -32,8 +32,8 @@ Aşağıdaki görüntü HTML çıktı dosyasını göstermektedir.
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 
 #### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -51,15 +51,15 @@ diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Elde edilen HTML'i bir akış örneğine kaydedin**
 Elde edilen HTML'i yerel depoda saklamadan bir veritabanına veya havuza kaydetmek kullanım durumu içindir. Bu özellik aynı zamanda HTML'in diğer sonuç kaynaklarını, örneğin yazı tiplerini, CSS'yi (stil bilgilerini içeren) ve resimleri de içerir. Akış örneğine tek bir HTML dosyası kaydettiği için.
 #### **Sonuç HTML'i Akış Programlama Örneğine Kaydet**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -80,4 +80,4 @@ diagram.save(dstStream, SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

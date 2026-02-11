@@ -14,8 +14,8 @@ description: В этом разделе объясняется, как вста�
 ### **Пример программирования получения информации о странице**
 Следующий фрагмент кода извлекает информацию о страницах из файла diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -42,7 +42,7 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 }
 
 {{< /highlight >}}
-```
+
 ## **Получите страницу Visio от Diagram**
 Иногда разработчикам необходимо получить сведения о странице чертежа Visio. Aspose.Diagram имеет функции, которые помогают им в этом.
 
@@ -55,8 +55,8 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 
 В следующем примере показано, как получить объект страницы по идентификатору из чертежа Visio.
 #### **Пример программирования получения объекта страницы по идентификатору**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -70,7 +70,7 @@ int pageid = 2;
 Page page2 = diagram.Pages.GetPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Получение объекта страницы Visio по имени**
 Этот пример работает следующим образом:
 
@@ -79,8 +79,8 @@ Page page2 = diagram.Pages.GetPage(pageid);
 #### **Пример программирования получения объекта страницы по имени**
 В следующем примере показано, как получить объект страницы по имени из чертежа Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,7 +94,7 @@ string pageName = "Flow 2";
 Page page2 = diagram.Pages.GetPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Скопируйте страницу Visio в другую Diagram**
 Aspose.Diagram for .NET API позволяет разработчикам копировать и добавлять свой контент из одного Visio diagram в другой. В этом разделе справки объясняется, как выполнить эту задачу.
 
@@ -113,8 +113,8 @@ Aspose.Diagram for .NET API позволяет разработчикам коп
 ### **Скопируйте пример программирования страницы Visio**
 В приведенном ниже примере кода показано, как скопировать объект страницы Visio в другой чертеж Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -157,7 +157,7 @@ NewDigram.Pages.Remove(NewDigram.Pages[0]);
 NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Скопируйте Visio страницу в другой экземпляр страницы**
 Метод Copy класса Page берет экземпляр страницы для клонирования.
 
@@ -183,8 +183,8 @@ newPage.Copy(diagram.Pages.GetPage("Page-1"));
 ### **Вставьте образец программирования пустой страницы**
 Следующий фрагмент кода вставляет пустую страницу в чертеж Visio:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -223,7 +223,7 @@ diagram.Pages.Add(newPage);
 diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Переместить позицию страницы на чертеже Visio**
 Aspose.Diagram for .NET API может перемещать позицию страницы на чертеже Visio. Метод MoveTo, предоставляемый классом Page, помогает разработчикам перемещать позицию страницы.
 ### **Пример программирования перемещения страницы**

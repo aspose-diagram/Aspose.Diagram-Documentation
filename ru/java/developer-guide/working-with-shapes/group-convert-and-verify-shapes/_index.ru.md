@@ -21,8 +21,8 @@ Aspose.Diagram API позволяет разработчикам группир�
 #### **Образец программирования групповых форм**
 Используйте следующий код в приложении Java для группировки фигур с помощью Aspose.Diagram for Java API.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GroupShapes.class);
@@ -46,7 +46,7 @@ page.getShapes().group(ss);
 diagram.save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Преобразование формы Visio в другие форматы файлов**
 Aspose.Diagram for Java API позволяет разработчикам преобразовывать одну форму Visio в любой другой поддерживаемый формат файла. В этой статье мы удалим все остальные фигуры Visio со страницы и настроим параметры страницы в соответствии с исходным размером фигуры.
 ### **Преобразование определенной формы Visio**
@@ -62,8 +62,8 @@ Aspose.Diagram for Java API позволяет разработчикам пре
 1. Установите размер страницы.
 1. Сохраните страницу Visio в любом поддерживаемом формате файла.
 #### **Образец программирования преобразования формы**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioShapeInOtherFormats.class);   
@@ -121,7 +121,7 @@ opts.setPageIndex(1);
 srcVisio.save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Преобразование формы Visio в форму PDF**
 Метод ToPdf класса Shape позволяет преобразовать фигуру в формат PDF.
 
@@ -165,8 +165,8 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 #### **Пример программирования проверки соединенных или склеенных фигур**
 Следующий фрагмент кода проверяет, соединены ли две фигуры или склеены.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VerifyConnectedOrGluedShapes.class);  
@@ -192,7 +192,7 @@ boolean glued = ShapedOne.isGlued(ShapedTwo);
 System.out.println("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **Проверьте, входит ли фигура Visio в группу фигур**
 Aspose.Diagram for Java API позволяет разработчикам проверять, входит ли фигура Visio в группу фигур или нет.
 ### **Проверка формы в группе фигур**
@@ -200,8 +200,8 @@ Aspose.Diagram for Java API позволяет разработчикам про
 #### **Проверка формы в примере программирования группы фигур**
 Следующий фрагмент кода проверяет, является ли фигура групповой.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -212,7 +212,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
 System.out.println("Is it in a Group: " + shape.isInGroup());
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

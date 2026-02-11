@@ -24,8 +24,8 @@ Aspose.Diagram for Java 允许您以不同方式操作 Microsoft Visio 图表。
 ### **添加编程示例**
 下面的代码片段显示了如何执行每个步骤。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -62,7 +62,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ diagram 中的每个形状都有一个 ID 和一个名称。使用 Visio 编程�
 ### **检索编程样本**
 下面的一段代码从 Visio diagram 中检索形状信息。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -107,7 +107,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 
 ## **从现有的 Visio 复制形状**
 Aspose.Diagram for Java API 允许开发人员将形状从源 Visio 页面复制到新的 Visio diagram 页面。它还支持复制组形状。本文介绍如何从源 diagram 页面复制所有形状。
@@ -125,8 +125,8 @@ Aspose.Diagram for Java API 允许开发人员将形状从源 Visio 页面复制
 1. 设置它的新 id 并添加到新的 Visio 页面。
 1. 将新的 Visio 保存在本地存储中。
 ### **复制编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -157,7 +157,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 {{% alert color="primary" %}}
@@ -188,8 +188,8 @@ Shape 类的 Copy 方法采用要克隆的形状实例。
 #### **阅读编程示例**
 下面的代码片段读取形状数据（自定义属性）。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -212,13 +212,13 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 
 ### **按名称读取形状属性**
 下面的代码片段按名称（自定义属性）读取形状属性。
 #### **按名称读取编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -237,7 +237,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 
 ## **使用连接索引连接形状**
 Aspose.Diagram for Java API 已经允许开发人员在形状上添加新的连接点，开发人员现在可以使用连接索引连接形状。
@@ -257,8 +257,8 @@ Aspose.Diagram for Java 允许开发人员检索子形状的父形状。
 ### **获取父形状**
 这[形状](http://www.aspose.com/api/java/diagram/com.aspose.diagram/shape)类提供 ParentShape 属性来检索父形状。
 #### **获取父形状编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -273,5 +273,5 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+
 

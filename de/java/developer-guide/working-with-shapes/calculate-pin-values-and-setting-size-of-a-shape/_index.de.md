@@ -19,8 +19,8 @@ Ein in lokalen Koordinaten angegebener Punkt kann in übergeordnete Koordinaten 
 ### **Berechnen Sie PinX und PinY Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um PinX- und PinY-Werte einer Unterform mit Aspose.Diagram for Java API zu berechnen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CalculateCenterOfSubShapes.class);
@@ -50,7 +50,7 @@ double resultx = shape.getXForm().getPinX().getValue() - shape.getXForm().getLoc
 double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLocPinY().getValue() - piny;
 
 {{< /highlight >}}
-```
+
 ## **Einstellen von Höhe und Breite einer Form**
  Das[Form](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) Mit der Klasse können Sie die Größe der Form steuern, indem Sie die Höhe und Breite der Form mit den Methoden SetHeight und SetWidth angeben.
 
@@ -76,8 +76,8 @@ Der Vorgang zum Einstellen von Höhe und Breite ist:
 ### **Programmierungsbeispiel für Höhe und Breite einstellen**
 Das folgende Code-Snippet zeigt, wie Sie die Höhe und Breite der Form festlegen. Der Code sucht nach einem Shape-Namensrechteck mit der Shape-ID 1 und legt seine Höhe und Breite auf doppelt fest.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeShapeSize.class);
@@ -95,4 +95,4 @@ shape.setHeight(2 * shape.getXForm().getHeight().getValue());
 diagram.save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

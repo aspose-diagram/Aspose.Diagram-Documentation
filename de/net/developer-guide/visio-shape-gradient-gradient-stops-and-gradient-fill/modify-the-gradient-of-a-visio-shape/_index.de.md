@@ -13,8 +13,8 @@ Mit Aspose.Diagram API können Entwickler das Erscheinungsbild einer Visio-Form 
 ## **Ändern Sie das Farbverlaufs-Programmierbeispiel**
 [Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)Die Klasse bietet die Fill-Eigenschaft, mit der Entwickler a abrufen können[GradientFill](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill)Objekt. Die GradientFill-Klasse enthält die Verlaufsdaten einer Visio-Form. Entwickler können alle verfügbaren Eigenschaften festlegen sowie einen Gradientenstopp nach Index abrufen, um die Farb- und Positionseigenschaften festzulegen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -38,4 +38,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

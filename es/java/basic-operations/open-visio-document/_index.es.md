@@ -16,8 +16,8 @@ Los formatos de archivo legibles admitidos son los siguientes:
 
 Los constructores de la clase diagram también ofrecen un parámetro opcional que define LoadFileFormat o LoadOptions. Es la información previa a la carga que los desarrolladores pueden pasar al Aspose.Diagram API. Recomendamos pasar la información realista para obtener un rendimiento ideal.
 #### **Lectura Diagram Ejemplo de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadVisioDiagram.class);   
@@ -45,4 +45,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

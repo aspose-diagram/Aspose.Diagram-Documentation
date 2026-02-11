@@ -21,8 +21,8 @@ The code below shows how to:
 #### **Connect Shapes Programming Sample**
 Use the following code to connect shapes using Aspose.Diagram for Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -57,7 +57,7 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 |**Result**|
 | :- |

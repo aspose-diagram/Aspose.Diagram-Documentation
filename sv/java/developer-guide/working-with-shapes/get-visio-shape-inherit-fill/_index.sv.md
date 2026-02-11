@@ -10,8 +10,8 @@ Visio-formerna kan ärva den överordnade stilen och huvudformen. Utvecklare kan
 #### **Hämta ärvt fyllningsdataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda fyllningsdata. Kontrollera denna exempelkod:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -39,5 +39,5 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+
 

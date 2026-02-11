@@ -24,8 +24,8 @@ Aspose.Diagram for .NET يسمح لك بمعالجة Microsoft Visio المخط�
 ### **إضافة عينة البرمجة**
 يوضح مقتطف الشفرة أدناه كيفية القيام بكل خطوة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
 Console.WriteLine("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ Console.WriteLine("Shape has been added.");
 ### **استرجاع عينة البرمجة**
 تسترد قطعة الكود التالية معلومات الشكل من Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -107,7 +107,7 @@ foreach (Aspose.Diagram.Shape shape in vsdDiagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **نسخ الأشكال من Visio موجود**
 Aspose.Diagram for .NET API يسمح للمطورين بنسخ الأشكال من صفحة المصدر Visio إلى صفحة Visio diagram الجديدة. كما يدعم نسخ أشكال المجموعة. توضح هذه المقالة كيفية نسخ كافة الأشكال من الصفحة diagram المصدر.
 
@@ -124,8 +124,8 @@ Aspose.Diagram for .NET API يسمح للمطورين بنسخ الأشكال م
 1. قم بتعيين معرفه الجديد وأضفه إلى صفحة Visio الجديدة.
 1. احفظ Visio الجديد في التخزين المحلي.
 ### **عينة برمجة نسخ**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -157,7 +157,7 @@ foreach (Aspose.Diagram.Shape shape in SrcPage.Shapes)
 newDiagram.Save(dataDir + "CopyShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -206,8 +206,8 @@ newShape.XForm.PinY.Value = 1;
 #### **قراءة نموذج البرمجة**
 تقرأ مقتطفات التعليمات البرمجية أدناه بيانات الشكل (الخصائص المخصصة).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -230,12 +230,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **اقرأ خاصية الشكل بالاسم**
 يقرأ مقتطف الشفرة أدناه خاصية الشكل بالاسم (خاصية مخصصة).
 #### **تمت قراءتها حسب نموذج برمجة الاسم**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -255,12 +255,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **اقرأ InheritProps of Shape**
 يقرأ مقتطف الشفرة أدناه InheritProps لشكل.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -284,7 +284,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **إضافة وتوصيل Visio الأشكال**
  Aspose.Diagram for .NET يسمح لك بإضافة أشكال مخصصة وربطها[الرسوم البيانية التي تقوم بإنشائها](https://products.aspose.com/diagram/net/).
 ### **إضافة وتوصيل الأشكال**
@@ -295,8 +295,8 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 1. قم بتوصيل الأشكال النجمية والسداسية بالمستطيل.
 1. احفظ diagram.
 #### **نموذج برمجة إضافة وتوصيل الأشكال**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_TechnicalArticles();
@@ -386,7 +386,7 @@ diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bot
 diagram.Save(dataDir + "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استخدم فهارس الاتصال لتوصيل الأشكال**
 Aspose.Diagram for .NET API يسمح بالفعل للمطورين بإضافة نقاط اتصال جديدة على الشكل ، ويمكن للمطورين الآن توصيل الأشكال باستخدام فهارس الاتصال.
 ### **استخدم فهارس الاتصال لتوصيل الأشكال**
@@ -496,8 +496,8 @@ Aspose.Diagram for .NET يسمح للمطورين باسترجاع الشكل ا
 ### **احصل على شكل الوالدين**
 ال[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)تقدم الفئة خاصية ParentShape لاسترداد الشكل الأصل.
 #### **احصل على نموذج برمجة شكل الوالدين**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -510,4 +510,4 @@ Console.WriteLine("Shape ID: " + parentShape.ID);
 Console.WriteLine("Shape Name: " + parentShape.Name);
 Console.WriteLine("Shape Type: " + parentShape.Type);
 {{< /highlight >}}
-```
+

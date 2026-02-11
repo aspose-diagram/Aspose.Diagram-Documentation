@@ -17,8 +17,8 @@ Aspose.Diagram for Java 允许您添加自定义形状并将它们连接起来[�
 1. 将星形和六边形连接到矩形。
 1. 保存 diagram。
 #### **编程范例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddConnectShapes.class);
@@ -104,4 +104,4 @@ diagram.getPages().getPage(0).connectShapesViaConnector(rectangleId, ConnectionP
 diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

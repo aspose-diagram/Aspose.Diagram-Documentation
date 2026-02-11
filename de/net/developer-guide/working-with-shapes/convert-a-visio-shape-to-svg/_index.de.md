@@ -17,8 +17,8 @@ Der folgende Code zeigt, wie man:
 ### **Form zu Svg**
 Verwenden Sie den folgenden Code in Ihrer .net-Anwendung, um eine visio-Form in SVG zu konvertieren.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ SVGSaveOptions svgOptions = new SVGSaveOptions();
 shape.ToSvg("out.svg",svgOptions);
 
 {{< /highlight >}}
-```
+
 

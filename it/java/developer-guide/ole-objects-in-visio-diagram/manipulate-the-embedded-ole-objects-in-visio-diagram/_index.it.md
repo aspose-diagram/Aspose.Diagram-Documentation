@@ -13,8 +13,8 @@ Microsoft Office Visio supporta la manipolazione degli oggetti OLE nel disegno V
 ## **Manipolare l'esempio di programmazione di oggetti OLE incorporati**
 [ObjectData](https://reference.aspose.com/diagram/java/com.aspose.diagram/foreigndata#ObjectData) proprietà del[Dati Esteri](https://reference.aspose.com/diagram/java/com.aspose.diagram/foreigndata) consente agli sviluppatori di manipolare oggetti OLE esistenti in Visio diagram. Questo argomento della guida mostra come gli sviluppatori possono recuperare un oggetto OLE del documento Visio, modificarlo utilizzando[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java), quindi salvare di nuovo come oggetto OLE in Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
 System.out.println(dataDir);
@@ -47,4 +47,4 @@ if (OLE_Shape.getType() == TypeValue.FOREIGN) {
 diagram.save(dataDir + "modified.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

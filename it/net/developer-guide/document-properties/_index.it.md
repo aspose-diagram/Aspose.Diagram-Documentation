@@ -61,8 +61,8 @@ Si prega di notare che non è possibile incaricare Aspose.Diagram for .NET di mo
 - Per accedere alle proprietà predefinite del documento, utilizzare[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 -  Per accedere alle proprietà del documento personalizzate, utilizzare[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -81,7 +81,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **Aggiunta o rimozione di proprietà del documento personalizzate**
 
@@ -91,8 +91,8 @@ Come descritto in precedenza all'inizio di questo argomento, gli sviluppatori no
 
  Aspose.Diagram API hanno esposto il file[**Aggiungere**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) metodo per il[**Collezione CustomProp**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)class per aggiungere proprietà personalizzate alla raccolta.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **Rimozione delle proprietà personalizzate**
 

@@ -18,8 +18,8 @@ description: يشرح هذا القسم كيفية الحصول على الأش�
 #### **الحصول على عينة البرمجة الملصقة للموصلات**
 استخدم الكود التالي في تطبيق .NET الخاص بك للعثور على جميع الموصلات الملصقة على شكل باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (long id in gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **أشكال الغراء Visio مع نقطة الاتصال**
 Aspose.Diagram for .NET يتيح للمطورين لصق الأشكال معًا من خلال نقاط الاتصال.
 ### **أشكال الغراء**
@@ -55,8 +55,8 @@ Aspose.Diagram for .NET يتيح للمطورين لصق الأشكال معًا
 #### **عينة لبرمجة الأشكال الغراء Visio**
 استخدم الكود التالي في تطبيق .NET للصق الأشكال عبر نقاط الاتصال:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -76,7 +76,7 @@ page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Cent
 diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **أشكال الغراء داخل الحاوية**
 Aspose.Diagram for .NET يتيح للمطورين لصق أشكال المجموعة داخل الحاوية.
 ### **شكل مجموعة الغراء**
@@ -92,8 +92,8 @@ Aspose.Diagram for .NET يتيح للمطورين لصق أشكال المجمو
 #### **أشكال الغراء داخل عينة البرمجة**
 استخدم الكود التالي في تطبيق .NET للصق شكل المجموعة داخل الحاوية:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,4 +123,4 @@ page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.Save(dataDir + "GlueContainerShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

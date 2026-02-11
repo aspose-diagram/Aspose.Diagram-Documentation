@@ -16,8 +16,8 @@ The following code sample loads the [source visio file](Drawing1.vsdx) and print
 
 ## **Sample Code**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -31,12 +31,12 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 The following is the code for the *TestDiagramPageSavingCallback* custom class.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -50,7 +50,7 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 ## **Console Output**
 

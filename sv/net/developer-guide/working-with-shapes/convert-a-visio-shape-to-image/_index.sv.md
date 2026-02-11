@@ -19,8 +19,8 @@ Koden nedan visar hur man:
 #### **Form till bild Programmeringsexempel**
 Använd följande kod i din .net-applikation för att konvertera en visio-form till en bild.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,4 +39,4 @@ Aspose.Diagram.Saving.ImageSaveOptions o = new Aspose.Diagram.Saving.ImageSaveOp
 shape.ToImage("out.png", o);
 
 {{< /highlight >}}
-```
+

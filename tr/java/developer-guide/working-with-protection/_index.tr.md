@@ -23,8 +23,8 @@ Microsoft Visio'de belgeleri şu şekilde korursunuz:
 
 Aspose.Diagram for Java'i kullanarak aynı görevleri gerçekleştirmek için bir Java uygulamasında aşağıdaki kodu kullanın - diagram'inizin farklı öğelerini kilitleyin ve kilidini açın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
@@ -39,7 +39,7 @@ diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
 diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **Visio Şekil Korumasını düzenleyin**
  Visio şekillerinin korunması, kullanıcıların şekillerin belirli yönlerini kilitlemesine olanak tanır. Şekil koruması yoluyla kilitlenebilen şekillerin özellikleri arasında genişlik, yükseklik, x konumu, y konumu, döndürme ve daha fazlası bulunur. Geliştiriciler bunu kullanarak başarabilir[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -59,8 +59,8 @@ Visio'de, herhangi bir şekli korumak için aşağıdaki işlemleri yapmanız ge
 
 Aspose.Diagram for Java kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğini kilitlemek/kilidini açmak) için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -97,4 +97,4 @@ shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

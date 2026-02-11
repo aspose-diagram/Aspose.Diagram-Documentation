@@ -9,8 +9,8 @@ description: Как повернуть текст формы в visio, испо�
 ## **Создание Diagram**
  Aspose.Diagram for .NET позволяет читать и создавать Microsoft Visio диаграммы из ваших собственных приложений без автоматизации. Первым шагом при создании новых документов является создание diagram. Затем[добавить фигуры и соединители](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)для создания diagram. Используйте конструктор по умолчанию[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) класс для создания нового diagram.
 ### **Образец программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -26,7 +26,7 @@ dataDir = dataDir + "CreateDiagram_out.vsdx";
 diagram.Save(dataDir, SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 Этот пример работает следующим образом:
 
@@ -38,8 +38,8 @@ diagram.Save(dataDir, SaveFileFormat.VSDX);
 ### **Пример программирования поворота текста**
 В следующем примере кода показано, как повернуть текст в файле Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -65,4 +65,4 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

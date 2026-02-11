@@ -10,8 +10,8 @@ description: В этом разделе объясняется, как полу�
 #### **Пример программирования извлечения унаследованных строковых данных**
 Следующий фрагмент кода извлекает унаследованные данные линии фигуры. Пожалуйста, проверьте этот пример кода:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -34,5 +34,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

@@ -14,8 +14,8 @@ url: /zh/net/get-warning-information-while-saving-visio-file/
 
 ## **示例代码**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -44,7 +44,7 @@ public class TestDiagramWarningCallback : Aspose.Diagram.IWarningCallback
 }
 
 {{< /highlight >}}
-```
+
 
 ## **控制台输出**
 

@@ -29,8 +29,8 @@ Die Implementierung der obigen Schritte wird in den folgenden Beispielen demonst
 
 The following example creates a new diagram from the scratch, writes Hello World! on the first page and saves the Visio file.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -42,14 +42,14 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Codebeispiel: Öffnen einer vorhandenen Datei**
 
 The following example opens an existing Microsoft Visio template file named "Sample.vsdx", inputs "Hello World!" text in the first page and saves the diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -76,4 +76,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

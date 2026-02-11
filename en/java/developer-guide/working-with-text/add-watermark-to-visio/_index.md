@@ -10,8 +10,8 @@ description: How to add watermark to visio using Java Diagram API.
 ## **Creating a Diagram**
 Aspose.Diagram for Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [add shapes and connectors](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/) to build up the diagram. Use the default constructor of [Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) class to create a new diagram.
 ### **Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -25,7 +25,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 This example work as follows:
 
@@ -35,8 +35,8 @@ This example work as follows:
 ### **Add watermark Programming Sample**
 The following example code shows how to add watermark in the Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
@@ -58,4 +58,4 @@ Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

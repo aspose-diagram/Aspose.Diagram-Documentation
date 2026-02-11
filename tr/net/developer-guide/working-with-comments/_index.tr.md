@@ -10,8 +10,8 @@ description: Bu sayfa, Aspose.Diagram kitaplığıyla nasıl yorum ekleneceğini
 ### **Yorum ekle**
  Tarafından sunulan AddComment yöntemi[Sayfa](http://www.aspose.com/api/net/diagram/aspose.diagram/page) sınıf, geliştiricilerin bir çizim sayfasına yorum eklemesine izin verir. Bir yorum dizesiyle birlikte X ve Y koordinatlarını alır.
 #### **Yorum Programlama Örneği Ekle**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioComments();
@@ -26,14 +26,14 @@ diagram.Pages[0].AddComment(7.205905511811023, 3.880708661417323, "test@");
 diagram.Save(dataDir + "AddComment_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'de bir Sayfa Düzeyinde Yorum düzenleyin**
  Microsoft Visio kullanıcıları, sayfanın sol üst köşesinde bir simge ile sunulan tüm sayfaya yorum ekler. Geliştiriciler şunları yapabilir:[Visio'de sayfa düzeyinde yorumlar ekleyin](/pages/createpage.action?spaceKey=diagramnet&title=Add+a+Page-Level+Comment+in+the+Visio&linkCreation=true&fromPageId=18350768). [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API ayrıca Visio'deki sayfa düzeyindeki yorumu değiştirmeyi destekler.
 ### **Yorumu Düzenle**
  Tarafından sunulan Comment özelliği,[Dipnot](http://www.aspose.com/api/net/diagram/aspose.diagram/annotation) class, geliştiricilerin Visio çizim sayfasındaki yorumları düzenlemesine olanak tanır.
 #### **Yorum Programlama Örneği Düzenle**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioComments();
@@ -55,7 +55,7 @@ foreach (Annotation annotation in annotations)
 diagram.Save(dataDir + "EditComment_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Çiziminde Şekil Düzeyinde Yorum Ekleme**
 [Aspose.Diagram for .NET](https://www.aspose.com/products/diagram/net)API, geliştiricilerin Visio çizimindeki şekle yorum eklemesine olanak tanır.
 ### **Yorum ekle**

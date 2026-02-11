@@ -19,8 +19,8 @@ Aspose.Diagram لـ Python via Java API يسمح للمطورين بتعيين �
 ### **تعيين عينة برمجة الاتجاه**
 يوضح مثال الكود أدناه كيفية ضبط اتجاه الصفحة Visio.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -42,7 +42,7 @@ diagram.save("SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **التحكم في تصدير الصفحات المخفية Visio عند الحفظ**
 Aspose.Diagram لـ Python via Java API يسمح للمطورين بتضمين أو استبعاد الصفحات المخفية Visio عند حفظ diagram إلى PDF ، HTML ، صورة (PNG ، JPEG ، ملفات GIF) ، 0761112481 ، و 0761112481 ، و. حتى أنها قد تخفي Visio صفحات باستخدام Aspose.Diagram لـ Python via Java API لأن خيارها متاح بالفعل من خلال الخلية UIVisibility في صفحة ShapeSheet.
@@ -53,8 +53,8 @@ Aspose.Diagram لـ Python via Java API يسمح للمطورين بتضمين �
 #### **قم بتعيين خيار التصدير لـ PDF**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ تنسيق diagram إلى PDF.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -81,13 +81,13 @@ diagram.save("ExportOfHiddenVisioPagesToPDF_Out.pdf", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **قم بتعيين خيار التصدير لـ HTML**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ تنسيق diagram إلى HTML.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -115,13 +115,13 @@ diagram.save("ExportOfHiddenVisioPagesToHTML_Out.html", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **اضبط خيار التصدير للصورة**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ diagram إلى تنسيق الصورة.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -149,13 +149,13 @@ diagram.save("ExportOfHiddenVisioPagesToImage_Out.jpeg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **قم بتعيين خيار التصدير لـ SVG**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ تنسيق diagram إلى SVG.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -186,4 +186,4 @@ diagram.save("ExportOfHiddenVisioPagesToSVG_Out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية إضافة عنصر رئيس�
 باستخدام الطريقة**addMaster** في فئة Diagram لإضافة ماستر من الاستنسل.
 
 ## **عينة من الرموز**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

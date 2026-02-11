@@ -8,8 +8,8 @@ description: Cette section explique comment supprimer les informations inutilis�
 ## **Supprimer les informations masquées**
  Aspose.Diagram for .NET API permet aux développeurs de supprimer les informations cachées d'un diagram. Afin de supprimer les informations cachées, vous pouvez utiliser**Supprimer l'élément d'information caché** propriétés dans**Supprimer les informations cachées ()**méthode de la classe Diagram. L'exemple de code ci-dessous montre comment dessiner supprimer les informations masquées de diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -25,4 +25,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "RemoveHiddenInfo_out.html", options);
 
 {{< /highlight >}}
-```
+

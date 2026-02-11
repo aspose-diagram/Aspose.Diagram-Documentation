@@ -22,8 +22,8 @@ Processen för att uppdatera XForm-data är:
 ### **Programmeringsexempel**
 Kodavsnittet nedan visar hur du uppdaterar en forms XForm-data. Koden letar efter en process för formnamn, med form-ID 1, och ställer in dess X- och Y-koordinater till 5.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetXFormdata.class); 
@@ -43,7 +43,7 @@ for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
 diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ställ in Visio Shape's Line Data**
 Former kan formateras på flera sätt. Den här artikeln visar hur du anger en linjes attribut.
 
@@ -62,8 +62,8 @@ Microsoft Visio låter användare formatera linjer på olika sätt. Aspose.Diagr
 #### **Linjedataprogrammeringsexempel**
 Följande kodbit uppdaterar formens linjedata.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetLineData.class);
@@ -101,7 +101,7 @@ diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
 diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Ställ in Visio Shape's Fill Data**
 Former kan formateras på flera sätt. Det här avsnittet beskriver hur du anger en forms fyllning.
 
@@ -119,8 +119,8 @@ Fill-egenskapen, exponerad av Shape-klassen, stöder objektet Aspose.Diagram.Fil
 #### **Fyll i dataprogrammeringsexempel**
 Följande kodavsnitt uppdaterar en forms fyllningsdata. Koden letar efter en form som heter rektangel, med form-ID 1, och ställer in fyllningsbakgrunds- och förgrundsfärgerna.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetFillData.class);
@@ -142,14 +142,14 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0
 diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Hämta ärvd fyllningsdata för en Visio-form**
 Visio-formerna kan ärva den överordnade stilen och huvudformen. Utvecklare kan hämta eller ställa in ärvd fyllningsdata för en Visio-form. Egenskapen InheritFill, exponerad av Shape-klassen, innehåller fyllningsformateringsvärdena för formen som ärver av den överordnade stilen och masterformen.
 #### **Hämta ärvt fyllningsdataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda fyllningsdata. Kontrollera denna exempelkod:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -177,4 +177,4 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+

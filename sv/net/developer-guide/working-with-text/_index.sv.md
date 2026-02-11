@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur du infogar en textform eller uppd
 ### **Infoga ett programmeringsexempel för textform**
 Följande kodbit lägger till en textform i Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -25,7 +25,7 @@ diagram.Pages[0].AddText(PinX, PinY, Width, Height, "Test text");
 diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Uppdatering Visio Formtext**
  Såväl som[skapa diagram](/diagram/sv/net/load-or-create-a-visio-drawing/) , Aspose.Diagram for .NET låter dig arbeta med former på olika sätt. Den här artikeln tittar på hur du kommer åt och uppdaterar text i former. Text-egenskapen, exponerad av[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) klass, stöder objektet Aspose.Diagram.Text. Egenskapen kan användas för att hämta eller uppdatera en forms text. Processen för att uppdatera en forms text är enkel:
 
@@ -36,8 +36,8 @@ diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Uppdatera formtextprogrammeringsexempel**
 Följande kodbit uppdaterar en forms text. Former identifieras med deras ID. Kodsegmenten nedan letar efter en form som kallas process och med ID 1 och ändrar dess text.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -59,7 +59,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Applicera inbyggd eller anpassad formatmall på en Visio-form**
 Microsoft Visio stilmallar lagrar formateringsinformation som kan appliceras på former för ett konsekvent utseende och känsla. Aspose.Diagram for .NET låter dig tillämpa stilmallar inifrån en applikation.
 
@@ -81,8 +81,8 @@ Efter att ha definierat anpassade stilmallar i Microsoft Visio använder du föl
 1. Applicera stilar.
 1. Spara diagram.
 #### **Applicera anpassade stilar programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -129,7 +129,7 @@ if (sourceShape != null && customStyleSheet != null)
 vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Tillämpa annan stil på varje textvärde i en form**
  Såväl som[skapa diagram](/diagram/sv/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET låter dig arbeta med former på olika sätt. Den här artikeln hjälper dig att lägga till flera textvärden till en form och använda olika stilar på varje textvärde.
 
@@ -151,8 +151,8 @@ Shape-elementet innehåller ett element som kallas Text, som innehåller tecknen
 #### **Lägga till text och stilar Programmeringsexempel**
 Följande kodbit lägger till en forms text och olika stilar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -214,7 +214,7 @@ shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Un
 diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Hitta och ersätt texten i en form**
  De[Text](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) Klass låter dig redigera formens text. Ersätt-metoden, exponerad av[Text](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) klass, stöd för att ändra texten i en form.
 Kodexemplen i den här artikeln hittar och ersätter formens text på sidan.
@@ -236,8 +236,8 @@ Processen för att ändra formens text:
 ### **Hitta och ersätt textprogrammeringsexempel**
 Kodavsnitten nedan visar hur du ändrar formens text. Koden itererar genom formerna på en sida.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -277,7 +277,7 @@ foreach (Shape shape in page.Shapes)
 diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Extrahera vanlig text från sidan Visio Diagram**
 Aspose.Diagram API tillåter utvecklare att extrahera vanlig text från sidan Visio diagram. De kan också iterera genom sidorna Visio diagram för att täcka hela texten Visio diagram.
 
@@ -285,8 +285,8 @@ Aspose.Diagram API tillåter utvecklare att extrahera vanlig text från sidan Vi
 ### **Extrahera programmeringsexempel för vanlig text**
 Följande kodbit itererar genom formerna på sidan Visio och filtrerar vanlig text utan att formatera information.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -327,4 +327,4 @@ private static void GetShapeText(Aspose.Diagram.Shape shape)
 }
 
 {{< /highlight >}}
-```
+

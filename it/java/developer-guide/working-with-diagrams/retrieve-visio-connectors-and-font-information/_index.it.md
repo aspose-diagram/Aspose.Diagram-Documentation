@@ -15,8 +15,8 @@ url: /it/java/retrieve-visio-connectors-and-font-information/
 ### **Esempio di programmazione**
 La parte di codice seguente recupera le informazioni per i connettori in un diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
@@ -33,7 +33,7 @@ for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getCon
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 ## **Recupero delle informazioni sui caratteri**
  Aspose.Diagram dispone di meccanismi per recuperare informazioni sugli elementi che compongono un diagram, da[pagine](/diagram/it/java/retrieve-get-copy-and-insert-a-page/), [stencil](), [connettori](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection) anche i caratteri. Questo articolo mostra come scoprire quali caratteri sono utilizzati in un diagram.
 
@@ -43,8 +43,8 @@ Un oggetto Font associa un nome (ad esempio, "Arial") all'ID del carattere (ad e
 ### **Recupero dell'esempio di programmazione dei caratteri**
 Il seguente pezzo di codice recupera le informazioni sui font dal Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
@@ -61,14 +61,14 @@ for(Font font : (Iterable<Font>) diagram.getFonts())
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 
 ![cose da fare:immagine_alt_testo](retrieve-visio-connectors-and-font-information_2.png)
 ### **Ottenere la directory dei caratteri predefinita**
 Aspose.Diagram for Java API consente inoltre di ottenere il percorso predefinito della directory dei font utilizzando il metodo getDefaultFontDir() della classe Diagram. La parte di codice seguente recupera la directory dei font predefinita da Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
@@ -80,4 +80,4 @@ Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 System.out.println(diagram.getDefaultFontDir());
 
 {{< /highlight >}}
-```
+

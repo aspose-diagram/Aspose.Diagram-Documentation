@@ -11,8 +11,8 @@ description: Det här avsnittet förklarar hur du uppdaterar eller tar bort fäl
  De[Fält](https://reference.aspose.com/diagram/net/aspose.diagram/field) objekt representerar textfält i en[text](https://reference.aspose.com/diagram/net/aspose.diagram/text) springa. Fältegenskapen, exponerad av[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) klass stöder en samling Aspose.Diagram.Field-objekt.
 ### **Programmeringsexempel**
 Följande koduppdateringsfält i form.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Ta bort fält**
 Följande kodbit tar bort fält i form.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

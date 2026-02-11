@@ -22,8 +22,8 @@ El proceso para actualizar la fecha del hito, el formato de fecha, el indicador 
 1. Establecer el tipo de hito
 1. Guarde el dibujo Visio en cualquier formato compatible.
 #### **Establecer ejemplo de programación de hitos**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabla de valores de formato de fecha:
@@ -104,8 +104,8 @@ El proceso para actualizar el formato de inicio, fin y fecha del período de tie
 1. Establecer un formato de fecha.
 1. Guarde el dibujo Visio en cualquier formato compatible.
 #### **Establecer período de tiempo y muestra de programación de fecha**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabla de valores de formato de fecha:
@@ -194,8 +194,8 @@ El siguiente código muestra cómo:
 #### **Actualizar hitos con el ejemplo de programación de TimeLineHelper**
 Use el siguiente código en su aplicación Java para revivir hitos en la línea de tiempo usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Actualizar hitos en la línea de tiempo usando la clase MilestoneHelper**
  El método RefreshMilestone expuesto por el[MilestoneHelper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)La clase se puede usar para actualizar hitos en la línea de tiempo.
 
@@ -241,8 +241,8 @@ El siguiente código muestra cómo:
 #### **Actualizar hitos con el ejemplo de programación de MilestoneHelper**
 Use el siguiente código en su aplicación Java para actualizar hitos en la línea de tiempo usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

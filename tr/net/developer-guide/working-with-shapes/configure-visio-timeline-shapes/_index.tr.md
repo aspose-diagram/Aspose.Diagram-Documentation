@@ -21,8 +21,8 @@ Kilometre taşı tarihini, tarih biçimini, otomatik güncelleme bayrağını ve
 1. Kilometre taşı türünü ayarlayın
 1. Visio çizimini desteklenen herhangi bir formatta kaydedin.
 #### **Kilometre Taşı Programlama Örneği Ayarlama**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -49,7 +49,7 @@ milestoneHelper.Type = 6;
 diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tarih biçimi değerleri tablosu:
@@ -101,8 +101,8 @@ Zaman periyodu başlangıcı, bitişi ve tarih formatını güncelleme süreci �
 1. Bir tarih formatı ayarlayın.
 1. Visio çizimini desteklenen herhangi bir formatta kaydedin.
 #### **Zaman Periyodu ve Tarih Programlama Örneği Ayarla**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,7 +137,7 @@ timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tarih biçimi değerleri tablosu:
@@ -192,8 +192,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **TimeLineHelper Programlama Örneği Kullanarak Kilometre Taşlarını Yenileyin**
 Aspose.Diagram for .NET'i kullanarak zaman çizelgesindeki kilometre taşlarını canlandırmak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -223,7 +223,7 @@ timelineHelper.RefreshTimeLine();
 diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **MilestoneHelper sınıfını kullanarak Zaman Çizelgesi'ndeki Kilometre Taşlarını yenileyin**
  Tarafından sunulan RefreshMilestone yöntemi[Kilometre Taşı Yardımcısı](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper)class, zaman çizelgesindeki kilometre taşlarını yenilemek için kullanılabilir.
 
@@ -240,8 +240,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **MilestoneHelper Programlama Örneği Kullanarak Kilometre Taşlarını Yenileyin**
 Aspose.Diagram for .NET'i kullanarak zaman çizelgesindeki kilometre taşlarını yenilemek için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -292,4 +292,4 @@ milestoneHelper.RefreshMilestone(timeline);
 diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

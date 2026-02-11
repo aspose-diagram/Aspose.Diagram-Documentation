@@ -19,8 +19,8 @@ The code below shows how to:
 #### **Set Theme to a shape Programming Sample**
 Use the following code in your .NET application to set appearance of the connector type shape using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -61,4 +61,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

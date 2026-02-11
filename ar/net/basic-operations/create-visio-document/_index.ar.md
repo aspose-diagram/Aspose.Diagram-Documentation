@@ -11,8 +11,8 @@ description: توضح هذه الصفحة كيفية إنشاء مستند Visio
 ## **إنشاء Visio نموذج لبرمجة الرسم**
 يظهر الكود أدناه لإنشاء رسم Microsoft Visio جديد. يرجى ملاحظة أن الرسم الفارغ يحتوي على صفحة فارغة واحدة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

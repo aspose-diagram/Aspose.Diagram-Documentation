@@ -29,8 +29,8 @@ description: В этом разделе объясняется, как уста�
 |Пейзаж|Альбомная ориентация|
 |Портрет|Портретная ориентация|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -46,14 +46,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **Коэффициент масштабирования**
 
  Можно уменьшить или увеличить размер страницы, отрегулировав коэффициент масштабирования с помощью[**МасштабX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)имущество.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -67,4 +67,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+

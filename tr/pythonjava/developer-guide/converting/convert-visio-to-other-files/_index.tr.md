@@ -46,8 +46,8 @@ Bir VSD diagram'i VTX'e aktarmak için:
 Aşağıdaki görüntü VTX çıktı dosyasını göstermektedir.
 
 ### **XML Programlama Örneğine Aktarma**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -76,7 +76,7 @@ diagram.save("ExportToXML_Out.vtx", SaveFileFormat.VTX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **XPS'e aktarılıyor**
 Bu makalede, Python via Java için Aspose.Diagram kullanılarak bir Microsoft Visio diagram'in XPS'e nasıl aktarılacağı açıklanmaktadır.
@@ -92,8 +92,8 @@ VSD diagram'i XPS'e dışa aktarmak için:
 Aşağıdaki görüntü XPS çıktı dosyasını göstermektedir.
 
 ### **XPS Programlama Örneğine Aktarma**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ diagram.save("ExportToXPS_Out.xps", SaveFileFormat.XPS)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Diagram'i SVG'e dışa aktarma**
 Bu makalede, Python via Java için Aspose.Diagram kullanılarak bir Microsoft Visio diagram'in SVG'e (Ölçeklenebilir Vektör Grafikleri) nasıl aktarılacağı açıklanmaktadır.
@@ -126,8 +126,8 @@ VSD diagram'i SVG'e aktarmak için aşağıdaki adımları gerçekleştirin:
 ### **Diagram'i SVG'e Aktarma Programlama Örneği**
 Kod örnekleri, Java kullanarak bir diagram'in SVG'e nasıl aktarılacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -145,7 +145,7 @@ diagram.save("ExportToSVG_Out.svg", SaveFileFormat.SVG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Diagram'i XAML'e dışa aktarma**
 Bu makalede, Python via Java için Aspose.Diagram kullanılarak bir Microsoft Visio diagram'in XAML'e (Genişletilebilir Uygulama Biçimlendirme Dili) nasıl dışa aktarılacağı açıklanmaktadır.
@@ -160,8 +160,8 @@ Bir VSD diagram'i XAML'e aktarmak için:
 ### **XAML Programlama Örneğine Aktarma**
 Kod örneği, Java kullanarak bir diagram'in XAML'e nasıl aktarılacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -179,7 +179,7 @@ diagram.save("ExportToXAML_Out.xaml", SaveFileFormat.XAML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Dönüştür Visio Seçici Şekillerle Çizim**
 Aspose.Diagram API'i kullanan geliştiriciler, bir Visio çizimini desteklenen herhangi bir formata dönüştürmek için bir grup şekil seçebilirler. RenderingSaveOptions sınıfı, şekil grubunu korumak için bir Shapes üyesi sunar. Her kaydetme seçeneği sınıfı, RenderingSaveOptions sınıfının genişletilmiş biçimidir.
@@ -193,8 +193,8 @@ Bir Visio çizimini seçici şekillerle dışa aktarmak için:
 ### **Dönüştür Visio Seçici Şekillerle Çizim Programlama Örneği**
 Kod örneği, bir çizimin seçici Visio şekillerle nasıl dışa aktarılacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -220,4 +220,3 @@ diagram.save("SelectiveShapes_out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

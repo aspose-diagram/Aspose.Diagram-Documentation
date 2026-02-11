@@ -9,8 +9,8 @@ description: Hur man lägger till vattenstämpel till visio med Java Diagram API
 ## **Skapar ett Diagram**
  Aspose.Diagram for Java låter dig läsa och skapa Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation. Det första steget när du skapar nya dokument är att skapa en diagram. Sedan[lägg till former och kontakter](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/)för att bygga upp diagram. Använd standardkonstruktorn för[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) klass för att skapa en ny diagram.
 ### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 Detta exempel fungerar enligt följande:
 
@@ -34,8 +34,8 @@ Detta exempel fungerar enligt följande:
 ### **Lägg till vattenstämpel Programmeringsexempel**
 Följande exempelkod visar hur man lägger till vattenstämpel i Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
@@ -57,4 +57,4 @@ Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

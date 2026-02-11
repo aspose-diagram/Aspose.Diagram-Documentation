@@ -9,8 +9,8 @@ description: Java Diagram API kullanarak visio'e filigran nasıl eklenir.
 ## **Diagram oluşturma**
  Aspose.Diagram for Java, Microsoft Office Otomasyon olmadan kendi uygulamalarınız içinden Microsoft Visio diyagramlarını okumanızı ve oluşturmanızı sağlar. Yeni belgeler oluştururken ilk adım, bir diagram oluşturmaktır. Ardından[şekiller ve bağlayıcılar ekleyin](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/)diagram'i oluşturmak için.[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) yeni bir diagram oluşturmak için sınıf.
 ### **Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 Bu örnek şu şekilde çalışır:
 
@@ -34,8 +34,8 @@ Bu örnek şu şekilde çalışır:
 ### **Filigran ekle Programlama Örneği**
 Aşağıdaki örnek kod, Visio diagram'de filigranın nasıl ekleneceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
@@ -57,4 +57,4 @@ Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -46,8 +46,8 @@ TVX представляет собой XML-представление файл�
 На изображении ниже показан выходной файл VTX.
 
 ### **Пример программирования экспорта в XML**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -76,7 +76,7 @@ diagram.save("ExportToXML_Out.vtx", SaveFileFormat.VTX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Экспорт на XPS**
 В этой статье объясняется, как экспортировать Microsoft Visio diagram в XPS, используя Aspose.Diagram для Python via Java.
@@ -92,8 +92,8 @@ jpype.shutdownJVM()
 На изображении ниже показан выходной файл XPS.
 
 ### **Экспорт в XPS Образец программы**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ diagram.save("ExportToXPS_Out.xps", SaveFileFormat.XPS)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Экспорт Diagram в SVG**
 В этой статье объясняется, как экспортировать Microsoft Visio diagram в SVG (масштабируемая векторная графика), используя Aspose.Diagram вместо Python via Java.
@@ -126,8 +126,8 @@ jpype.shutdownJVM()
 ### **Экспорт Diagram в SVG Образец программы**
 Примеры кода показывают, как экспортировать diagram в SVG с помощью Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -145,7 +145,7 @@ diagram.save("ExportToSVG_Out.svg", SaveFileFormat.SVG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Экспорт Diagram в XAML**
 В этой статье объясняется, как экспортировать Microsoft Visio diagram в XAML (расширяемый язык разметки приложений), используя Aspose.Diagram для Python via Java.
@@ -160,8 +160,8 @@ jpype.shutdownJVM()
 ### **Экспорт в XAML Образец программы**
 В примере кода показано, как экспортировать diagram в XAML с помощью Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -179,7 +179,7 @@ diagram.save("ExportToXAML_Out.xaml", SaveFileFormat.XAML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Преобразовать Visio Рисунок с выбранными фигурами**
 Используя Aspose.Diagram API, разработчики могут выбрать группу фигур для преобразования рисунка Visio в любой другой поддерживаемый формат. Класс RenderingSaveOptions предлагает член Shapes для поддержки группы фигур. Каждый класс параметров сохранения является расширенной формой класса RenderingSaveOptions.
@@ -193,8 +193,8 @@ jpype.shutdownJVM()
 ### **Преобразовать Visio Рисунок с образцом программирования выборочных фигур**
 В примере кода показано, как экспортировать рисунок с выбранными фигурами Visio.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -220,4 +220,3 @@ diagram.save("SelectiveShapes_out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

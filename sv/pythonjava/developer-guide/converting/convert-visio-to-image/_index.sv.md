@@ -22,8 +22,8 @@ Så här exporterar du ett diagram till en bild:
 
 ![todo:image_alt_text](ExportToImage.png)
 ### **Exportera till bildfil Programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,12 +41,12 @@ diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 Det är också möjligt att spara en viss sida till bild istället för hela dokumentet:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -70,4 +70,3 @@ diagram.save("ExportPageToImage_Out.png", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

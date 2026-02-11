@@ -16,8 +16,8 @@ The following code sample loads the [source visio file](Drawing1.vsdx) and print
 
 ## **Sample Code**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -35,12 +35,12 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "Callback_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 The following is the code for the *TestDiagramPageSavingCallback* custom class.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCallback
 {
@@ -62,7 +62,7 @@ public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCa
 }
 
 {{< /highlight >}}
-```
+
 
 ## **Console Output**
 

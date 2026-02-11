@@ -14,8 +14,8 @@ Utilisez la propriété PageProps pour vérifier l'expansion automatique de la p
 ### **Définir un exemple de programmation de taille de page**
 Le morceau de code suivant vérifie l'expansion automatique de la page à partir d'un diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -34,4 +34,4 @@ page.PageSheet.PageProps.DrawingResizeType.Value = DrawingResizeTypeValue.NotAut
 diagram.Save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

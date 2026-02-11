@@ -18,8 +18,8 @@ Der folgende Code zeigt, wie man:
 #### **Stellen Sie das Thema auf eine Form ein Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um das Aussehen der Verbindertypform mithilfe von Aspose.Diagram for .NET festzulegen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

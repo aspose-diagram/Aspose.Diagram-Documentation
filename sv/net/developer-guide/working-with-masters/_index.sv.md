@@ -12,8 +12,8 @@ En formmästare är ett annat namn för en Visio stencil. Med Aspose.Diagram är
 ### **Hämtar Master Information Programmeringsexempel**
 Följande kodbit hämtar masterinformationen från en diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -31,7 +31,7 @@ foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)
 Console.ReadLine();
 
 {{< /highlight >}}
-```
+
 ## **Lägg till Master från Stencil of Shapes**
 En stencil är en samling former som är associerade med en viss mall Microsoft Office Visio. Med Aspose.Diagram är det möjligt att lägga till valfri formmaster till en ritning från en stencil.
 ### **Lägg till Master**
@@ -43,8 +43,8 @@ En stencil är en samling former som är associerade med en viss mall Microsoft 
 - Stencilfilström och huvudnamn.
 - Lägg till master till diagram från källan diagram
 #### **Lägg till masterprogrammeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -81,12 +81,12 @@ diagram.AddShape(6.0, 6.0, masterName, 0);
 diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Skapa Master från grunden**
  Aspose.Diagram API gör det möjligt att skapa en[Bemästra](http://www.aspose.com/api/net/diagram/aspose.diagram/master) från grunden utan någon stencil, ritning eller mall. Utvecklare kan anpassa skapandet av Master. AddMaster-metoden, exponerad av klassen Diagram, tillåter att lägga till en master.
 ### **Skapa masterprogrammeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public static void Run()
 {            
@@ -171,7 +171,7 @@ public static byte[] ReadImageFile(string imageLocation)
 }
 
 {{< /highlight >}}
-```
+
 ## **Skaffa en Master från filen Visio**
 Ibland behöver utvecklare få detaljerna om en Visio ritnings master. Aspose.Diagram API stöder den här funktionen.
 
@@ -184,8 +184,8 @@ Detta exempel fungerar enligt följande:
 #### **Master Object by ID-programmeringsexempel**
 Följande exempel visar hur man får en master genom ID från en Visio-ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -203,7 +203,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ### **Få ett huvudobjekt med namn**
 Detta exempel fungerar enligt följande:
 
@@ -212,8 +212,8 @@ Detta exempel fungerar enligt följande:
 #### **Master Object by Name Programmeringsexempel**
 Följande exempel visar hur man hämtar ett huvudobjekt med namn från en Visio-ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -231,7 +231,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ## **Kontrollera närvaron av en master i Visio-ritningen**
 Aspose.Diagram API stöder kontroll av närvaron av en master i en Visio-ritning. Med MasterCollection-egenskapen kan utvecklare kontrollera om en master är närvarande med sitt namn eller ID.
 
@@ -244,8 +244,8 @@ Detta exempel fungerar enligt följande:
 #### **Mästarnärvaro genom ID-programmeringsexempel**
 Följande exempel visar hur man kontrollerar närvaron av en master genom ID i en Visio-ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -259,7 +259,7 @@ bool isPresent = diagram.Masters.IsExist(2);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Kontrollera en mästarnärvaro efter namn**
 Detta exempel fungerar enligt följande:
 
@@ -268,8 +268,8 @@ Detta exempel fungerar enligt följande:
 #### **Master Presence by Name Programmeringsexempel**
 Följande exempel visar hur man kontrollerar en masternärvaro med namn från Visio-ritningen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -285,4 +285,4 @@ bool isPresent = diagram.Masters.IsExist(masterName);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

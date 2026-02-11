@@ -17,8 +17,8 @@ url: /ru/java/working-with-masters/
 ### **Пример программирования получения основной информации**
 Следующий фрагмент кода извлекает информацию об основных устройствах из файла diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **Добавить мастер из трафарета фигур**
 Трафарет — это набор фигур, связанных с определенным шаблоном Microsoft Office Visio. С помощью Aspose.Diagram можно добавить любой образец формы к рисунку из трафарета.
 ### **Добавить мастера**
@@ -46,8 +46,8 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 - Поток файла трафарета и мастер-имя.
 - Добавить мастер в diagram из источника diagram
 #### **Добавить образец основного программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Создать мастер с нуля**
 Aspose.Diagram API позволяет создать мастер с нуля без использования трафарета, рисунка или шаблона. Разработчики могут настроить создание Мастера. Метод addMaster, предоставляемый классом Diagram, позволяет добавить мастер.
 #### **Создать основной образец программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **Получить мастер из файла Visio**
 Иногда разработчикам необходимо получить подробную информацию о мастере чертежа Visio. Aspose.Diagram API поддерживает эту функцию.
 
@@ -282,8 +282,8 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 #### **Образец программирования главного объекта по идентификатору**
 В следующем примере показано, как получить мастер по идентификатору из чертежа Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **Получение главного объекта по имени**
 Этот пример работает следующим образом:
 
@@ -309,8 +309,8 @@ System.out.println("Master Name : " + master.getUniqueID());
 #### **Образец программирования основного объекта по имени**
 В следующем примере показано, как получить мастер-объект по имени из чертежа Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **Проверить наличие мастера в чертеже Visio**
 Aspose.Diagram API поддерживает проверку наличия мастера в чертеже Visio. С помощью свойства MasterCollection разработчики могут проверить наличие мастера по его имени или идентификатору.
 
@@ -340,8 +340,8 @@ Aspose.Diagram API поддерживает проверку наличия ма
 #### **Образец программирования Master Presence by ID**
 В следующем примере показано, как проверить наличие мастера по идентификатору в чертеже Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Проверка присутствия мастера по имени**
 Этот пример работает следующим образом:
 
@@ -365,8 +365,8 @@ System.out.println("Master Presence : " + isPresent);
 #### **Образец программирования Master Presence by Name**
 В следующем примере показано, как проверить наличие мастера по имени из чертежа Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

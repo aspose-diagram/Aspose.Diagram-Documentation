@@ -18,8 +18,8 @@ Bu örnek şu şekilde çalışır:
 ### **Oryantasyon Programlama Örneği Ayarla**
 Aşağıdaki kod örneği, Visio sayfasının yönünün nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioPageOrientation.class);  
@@ -34,7 +34,7 @@ page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPage
 diagram.save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kaydederken Gizli Visio Sayfalarının Dışa Aktarılmasını Kontrol Edin**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API, geliştiricilerin diagram'i PDF, HTML, Resim (PNG, JPEG, GIF), SVG ve XPS dosyalarına kaydederken gizli Visio sayfalarını dahil etmesine veya hariç tutmasına olanak tanır. Hatta Aspose.Diagram API'i kullanarak Visio sayfayı gizleyebilirler çünkü seçeneği ShapeSheet sayfasındaki UIVisibility hücresi aracılığıyla zaten mevcuttur.
 ### **Visio Diagram'de bir Sayfayı Gizle ve Dışa Aktarma Seçeneğini Ayarla**
@@ -42,8 +42,8 @@ diagram.save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
 #### **PDF için Dışa Aktarma Seçeneğini ayarlayın**
 Aşağıdaki kod, diagram - PDF biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExporToHiddenVisioPagesToPdf.class);  
@@ -64,12 +64,12 @@ options.setExportHiddenPage(false);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToPDF_Out.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **HTML için Dışa Aktarma Seçeneğini ayarlayın**
 Aşağıdaki kod, diagram - HTML biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToHtml.class) + "Pages/";
@@ -91,12 +91,12 @@ options.setExportComments(false);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
 
 {{< /highlight >}}
-```
+
 #### **Görüntü için Dışa Aktarma Seçeneğini Ayarlayın**
 Aşağıdaki kod, bir diagram'i görüntü formatına kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToImage.class) + "Pages/";
@@ -118,12 +118,12 @@ options.setExportComments(false);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToImage_Out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **SVG için Dışa Aktarma Seçeneğini ayarlayın**
 Aşağıdaki kod, diagram - SVG biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToSVG.class) + "Pages/";
@@ -148,4 +148,4 @@ options.setExportElementAsRectTag(true);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToSVG_Out.svg", options);
 
 {{< /highlight >}}
-```
+

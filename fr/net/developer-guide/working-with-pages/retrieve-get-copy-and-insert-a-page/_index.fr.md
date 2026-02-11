@@ -14,8 +14,8 @@ Utilisez la propriété Page.Background pour déterminer si une page est une pag
 ### **Récupérer un exemple de programmation d'informations sur la page**
 Le morceau de code suivant récupère les informations de pages d'un diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -42,7 +42,7 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 }
 
 {{< /highlight >}}
-```
+
 ## **Obtenez la page Visio d'un Diagram**
 Parfois, les développeurs doivent obtenir les détails de la page d'un dessin Visio. Aspose.Diagram a des fonctionnalités qui les aident à le faire.
 
@@ -55,8 +55,8 @@ Cet exemple fonctionne comme suit :
 
 L'exemple suivant montre comment obtenir un objet de page par ID à partir du dessin Visio.
 #### **Obtenir un objet de page par ID Exemple de programmation**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -70,7 +70,7 @@ int pageid = 2;
 Page page2 = diagram.Pages.GetPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Obtenir un objet de page Visio par nom**
 Cet exemple fonctionne comme suit :
 
@@ -79,8 +79,8 @@ Cet exemple fonctionne comme suit :
 #### **Obtenir un objet de page par nom Exemple de programmation**
 L'exemple suivant montre comment obtenir un objet de page par son nom à partir du dessin Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,7 +94,7 @@ string pageName = "Flow 2";
 Page page2 = diagram.Pages.GetPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Copier une page Visio dans une autre Diagram**
 Aspose.Diagram for .NET API permet aux développeurs de copier et d'ajouter son contenu d'un Visio diagram à un autre. Cette rubrique d'aide explique comment accomplir cette tâche.
 
@@ -113,8 +113,8 @@ Cet exemple fonctionne comme suit :
 ### **Copier un exemple de programmation de page Visio**
 L'exemple de code ci-dessous montre comment copier un objet de page Visio dans un autre dessin Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -157,7 +157,7 @@ NewDigram.Pages.Remove(NewDigram.Pages[0]);
 NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Copier la page Visio vers une autre instance de page**
 La méthode Copy de la classe Page prend une instance de page à cloner.
 
@@ -183,8 +183,8 @@ La méthode Add, exposée par la collection Pages, permet aux développeurs d'aj
 ### **Insérer un exemple de programmation de page vierge**
 Le morceau de code suivant insère une page vierge dans le dessin Visio :
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -223,7 +223,7 @@ diagram.Pages.Add(newPage);
 diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Déplacer la position de la page dans le dessin Visio**
 Aspose.Diagram for .NET API peut déplacer la position de la page dans le dessin Visio. La méthode MoveTo, exposée par la classe Page, aide les développeurs à déplacer la position de la page.
 ### **Déplacer la position de la page Exemple de programmation**

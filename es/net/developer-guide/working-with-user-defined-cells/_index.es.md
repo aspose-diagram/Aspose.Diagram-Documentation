@@ -14,8 +14,8 @@ description: Esta sección explica cómo leer las celdas definidas por el usuari
 #### **Recuperar muestra de programación de celdas**
 El siguiente fragmento de código permite a los desarrolladores leer los campos de las celdas definidas por el usuario.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -33,7 +33,7 @@ foreach (User user in shape.Users)
 }
 
 {{< /highlight >}}
-```
+
 
 
 Esta imagen muestra el resultado después de ejecutar el código anterior:
@@ -46,8 +46,8 @@ El método Agregar expuesto por la Colección de usuarios se puede usar para cre
 #### **Crear muestra de programación celular**
 Use el siguiente ejemplo de código en su aplicación .NET para crear una celda definida por el usuario en la hoja de formas usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -70,7 +70,7 @@ shape.Users.Add(user);
 diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Recuperar celdas definidas por el usuario de Shapesheet**
 Aspose.Diagram for .NET API permite recuperar celdas definidas por el usuario de la hoja de forma. Este tema de ejemplo describe la forma en que los desarrolladores pueden recuperar todos los User.name para todas las formas en un dibujo.
 ### **Recuperar celdas definidas por el usuario**
@@ -78,8 +78,8 @@ Las propiedades NameU, Value.Val y Prompt.Value expuestas por la clase User se p
 #### **Recuperar celdas de muestras de programación de Shapesheet**
 Use el siguiente código en su aplicación .NET para recuperar todas las celdas definidas por el usuario de la hoja de formas usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -104,4 +104,4 @@ foreach (Aspose.Diagram.Page objPage in diagram.Pages)
 }  
 
 {{< /highlight >}}
-```
+

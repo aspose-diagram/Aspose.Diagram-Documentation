@@ -27,8 +27,8 @@ End Sub
 
 فيما يلي نموذج التعليمات البرمجية لإنشاء ملف الإخراج VSDM باستخدام وحدة VBA وكود الماكرو.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -45,7 +45,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **تعديل VBA أو ماكرو**
 
@@ -88,8 +88,8 @@ End Sub
 
  يمكنك تنزيل ملف[المصدر Visio ملف]() و ال[ملف الإخراج Visio]() من الروابط المعطاة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -104,7 +104,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **موضوعات مسبقة**
 - [تحقق مما إذا كان رمز VBA قد تم توقيعه](/diagram/ar/net/check-if-vba-code-is-signed/)

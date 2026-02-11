@@ -17,8 +17,8 @@ Ana şekil tarafından hangi şeklin devralındığını belirlemek için Page.S
 ### **Ana Bilgi Programlama Örneğinin Alınması**
 Aşağıdaki kod parçası, bir diagram'den ana bilgileri alır.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **Şekiller Şablonundan Master Ekleme**
 Şablon, belirli bir Microsoft Office Visio şablonuyla ilişkili bir şekil koleksiyonudur. Aspose.Diagram ile bir şablondan bir çizime herhangi bir ana şekil eklemek mümkündür.
 ### **Usta Ekle**
@@ -46,8 +46,8 @@ Master nesnesi, diagram'de bir Shape nesnesinin master'ını temsil eder. Diagra
 - Şablon dosyası akışı ve ana ad.
 - diagram kaynağından diagram'e master ekleyin
 #### **Ana Programlama Örneği Ekle**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Sıfırdan Usta Oluştur**
 Aspose.Diagram API, herhangi bir şablon, çizim veya şablon olmadan sıfırdan bir Master oluşturmanıza olanak tanır. Geliştiriciler, Master'ın oluşturulmasını özelleştirebilir. Diagram sınıfı tarafından sunulan addMaster yöntemi, bir ana öğe eklenmesine izin verir.
 #### **Ana Programlama Örneği Oluşturma**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **Visio Dosyasından Master Alın**
 Bazen, geliştiricilerin bir Visio çizim ustasının ayrıntılarını alması gerekir. Aspose.Diagram API bu özelliği destekler.
 
@@ -282,8 +282,8 @@ Bu örnek şu şekilde çalışır:
 #### **Kimliğe Göre Ana Nesne Programlama Örneği**
 Aşağıdaki örnek, bir Visio çiziminden kimliğe göre nasıl master alınacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **Ada Göre Ana Nesne Alma**
 Bu örnek şu şekilde çalışır:
 
@@ -309,8 +309,8 @@ Bu örnek şu şekilde çalışır:
 #### **İsme Göre Ana Nesne Programlama Örneği**
 Aşağıdaki örnek, bir Visio çiziminden ada göre bir ana nesnenin nasıl alınacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **Visio Çiziminde Master Varlığını Kontrol Edin**
 Aspose.Diagram API, Visio çiziminde bir master olup olmadığını kontrol etmeyi destekler. MasterCollection özelliği ile geliştiriciler, adına veya kimliğine göre bir master olup olmadığını kontrol edebilir.
 
@@ -340,8 +340,8 @@ Bu örnek şu şekilde çalışır:
 #### **ID Programlama Örneği ile Master Presence**
 Aşağıdaki örnek, bir Visio çiziminde kimliğe göre bir master varlığının nasıl kontrol edileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Ada Göre Ana Varlığı Kontrol Etme**
 Bu örnek şu şekilde çalışır:
 
@@ -365,8 +365,8 @@ Bu örnek şu şekilde çalışır:
 #### **Ada Göre Master Presence Programlama Örneği**
 Aşağıdaki örnek, Visio çiziminden ada göre bir master varlığının nasıl kontrol edileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

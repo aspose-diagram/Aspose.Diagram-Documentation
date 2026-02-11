@@ -12,8 +12,8 @@ The code snippets below manage geometries of a Shape.
 ### **Programming Sample**
 The code snippets below manage geometries of a Shape.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditConnectorGeometry.class);    
@@ -59,4 +59,4 @@ connector.getGeoms().get(0).getCoordinateCol().add(lineTo);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

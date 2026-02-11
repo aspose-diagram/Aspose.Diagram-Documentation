@@ -30,8 +30,8 @@ L'implementazione dei passaggi precedenti è dimostrata negli esempi seguenti.
 
 L'esempio seguente apre un file modello Microsoft Visio esistente denominato "[Basic_Shapes.vss](Basic_Shapes.vss)", inputs "Hello World!" text in the first page and saves the diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -53,4 +53,4 @@ diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

@@ -14,8 +14,8 @@ url: /ar/python-java/retrieve-get-copy-and-insert-a-page/
 ### **استرداد نموذج برمجة معلومات الصفحة**
 يسترد جزء الكود التالي معلومات الصفحات من diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -42,7 +42,7 @@ for page in diagram.getPages():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **احصل على Visio الصفحة من Diagram**
 في بعض الأحيان ، يحتاج المطورون إلى الحصول على تفاصيل صفحة رسم Visio. Aspose.Diagram لـ Python via Java له ميزات تساعده على القيام بذلك.
@@ -58,8 +58,8 @@ jpype.shutdownJVM()
 يوضح المثال التالي كيفية الحصول على كائن صفحة بواسطة معرف من رسم Visio.
 
 #### **الحصول على كائن الصفحة عن طريق نموذج برمجة المعرف**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -79,7 +79,7 @@ page2 = diagram.getPages().getPage(page_id)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **الحصول على Visio صفحة كائن حسب الاسم**
 هذا المثال يعمل على النحو التالي:
@@ -90,8 +90,8 @@ jpype.shutdownJVM()
 #### **الحصول على كائن الصفحة حسب نموذج برمجة الاسم**
 يوضح المثال التالي كيفية الحصول على كائن صفحة بالاسم من رسم Visio.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ page2 = diagram.getPages().getPage(pageName)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **نسخ صفحة Visio إلى Diagram آخر**
 Aspose.Diagram لـ Python via Java API يسمح للمطورين بنسخ وإضافة محتوياته من واحد Visio diagram إلى آخر. يشرح موضوع التعليمات هذا كيفية إنجاز هذه المهمة.
@@ -132,8 +132,8 @@ Aspose.Diagram لـ Python via Java API له فئة `Diagram` التي تمثل 
 ### **نسخ نموذج لبرمجة الصفحة Visio**
 يوضح مثال الكود أدناه كيفية نسخ كائن صفحة Visio إلى رسم Visio آخر.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -183,7 +183,7 @@ newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **قم بنسخ Visio صفحة إلى نسخة صفحة أخرى**
 تأخذ طريقة `copy` للفئة `Page` نسخة صفحة للنسخ.
@@ -209,8 +209,8 @@ Aspose.Diagram لـ Python via Java يمكنه إدراج صفحة فارغة ج
 ### **أدخل نموذج برمجة صفحة فارغة**
 يدخل جزء الكود التالي صفحة فارغة في رسم Visio:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -250,7 +250,7 @@ diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **انقل موضع الصفحة في الرسم Visio**
 Aspose.Diagram لـ Python via Java API يمكنه تحريك موضع الصفحة في الرسم Visio. تساعد طريقة `moveTo` ، التي تم الكشف عنها بواسطة فئة `Page` ، المطورين على تحريك موضع الصفحة.

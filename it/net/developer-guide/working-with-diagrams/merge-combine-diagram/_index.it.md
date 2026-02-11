@@ -12,8 +12,8 @@ description: Questa sezione spiega come combinare il file visio
 Usando il metodo[**Combina**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram/methods/combine) in[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) classe per combinare i diagrammi.
 
 ## **Codice di esempio**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -29,4 +29,4 @@ diagram2.Combine(diagram);
 newDiagram.Save(dataDir + "out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

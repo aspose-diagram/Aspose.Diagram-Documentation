@@ -12,8 +12,8 @@ description: 本节介绍如何设置Microsoft Office Visio和Aspose.Diagram的�
 #### **编程范例**
 以下代码有助于管理页眉和页脚属性。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_HeadersAndFooters();
@@ -50,4 +50,4 @@ diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False;
 diagram.Save(dataDir + "ManageHeadersandFooters_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

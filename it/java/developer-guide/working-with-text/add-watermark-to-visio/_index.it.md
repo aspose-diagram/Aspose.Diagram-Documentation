@@ -9,8 +9,8 @@ description: Come aggiungere filigrana a visio utilizzando Java Diagram API.
 ## **Creazione di un numero Diagram**
  Aspose.Diagram for Java consente di leggere e creare Microsoft Visio diagrammi dall'interno delle proprie applicazioni, senza Microsoft Office Automazione. Il primo passaggio durante la creazione di nuovi documenti è creare un numero diagram. Quindi[aggiungere forme e connettori](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/)per creare diagram. Utilizzare il costruttore predefinito di[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) class per creare un nuovo diagram.
 ### **Esempio di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 Questo esempio funziona come segue:
 
@@ -34,8 +34,8 @@ Questo esempio funziona come segue:
 ### **Aggiungi un esempio di programmazione in filigrana**
 Il codice di esempio seguente mostra come aggiungere filigrana nel file Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
@@ -57,4 +57,4 @@ Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

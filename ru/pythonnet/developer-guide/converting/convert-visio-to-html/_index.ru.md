@@ -26,4 +26,15 @@ description: В этом разделе показано, как Aspose.Diagram 
 ### **Сохраните результат HTML в локальном хранилище.**
 Полученный файл можно сохранить, передав полную строку пути, включая имя файла и расширение, например, @"c:\temp\MyOutput.html".
 #### **Сохраните результат HTML в примере программирования локального хранилища**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToHTML.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the html format
+diagram.save("Visio_out.html", SaveFileFormat.HTML)
+{{< /highlight >}}
+

@@ -9,8 +9,8 @@ description: Comment ajouter un filigrane à visio en utilisant .NET Diagram API
 ## **Création d'un Diagram**
  Aspose.Diagram for .NET vous permet de lire et de créer des diagrammes Microsoft Visio à partir de vos propres applications, sans Microsoft Office Automation. La première étape lors de la création de nouveaux documents consiste à créer un diagram. Ensuite[ajouter des formes et des connecteurs](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)pour construire le diagram. Utilisez le constructeur par défaut de[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) classe pour créer un nouveau diagram.
 ### **Exemple de programmation**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -26,7 +26,7 @@ dataDir = dataDir + "CreateDiagram_out.vsdx";
 diagram.Save(dataDir, SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 Cet exemple fonctionne comme suit :
 
@@ -36,8 +36,8 @@ Cet exemple fonctionne comme suit :
 ### **Ajouter un filigrane Exemple de programmation**
 L'exemple de code suivant montre comment ajouter un filigrane dans le Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -62,4 +62,4 @@ public static void Run()
 
 
 {{< /highlight >}}
-```
+

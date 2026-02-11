@@ -31,8 +31,8 @@ Muestra cómo configurar Aspose.Diagram para buscar fuentes TrueType en varias c
 #### **Ejemplo de programación**
 El siguiente código de ejemplo muestra cómo configurar Aspose.Diagram para buscar fuentes TrueType en varias carpetas al renderizar o incrustar fuentes.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
@@ -47,7 +47,7 @@ diagram.setFontDirs(fontDirs);
 diagram.save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **Reciba notificaciones de fuentes faltantes y sustitución de fuentes durante el renderizado**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Ejemplo de programación de notificación de fuentes faltantes y sustitución de fuentes**

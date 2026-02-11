@@ -18,8 +18,8 @@ Koden nedan visar hur man:
 #### **Ställ in Tema till en form Programmeringsexempel**
 Använd följande kod i din Java-applikation för att ställa in utseendet på kontakttypens form med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -59,4 +59,4 @@ page3.setPresetThemeQuickStyle (PresetQuickStyleValue.VARIANT_STYLE_3);
 diagram.save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -29,8 +29,8 @@ Seiteneinrichtungsoptionen werden in Aspose.Diagram vollständig unterstützt. D
 |Landschaft|Landschaftsorientierung|
 |Porträt|Hochkant|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -46,14 +46,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **Vergößerungsfaktor, Verkleinerungsfaktor**
 
  Es ist möglich, die Größe einer Seite zu verkleinern oder zu vergrößern, indem Sie den Skalierungsfaktor mit anpassen[**SkalaX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)Eigentum.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -67,4 +67,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+

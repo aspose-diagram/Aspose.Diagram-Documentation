@@ -14,8 +14,8 @@ description: In diesem Abschnitt wird erläutert, wie benutzerdefinierte Zellen 
 #### **Programmierbeispiel für Zellen abrufen**
 Der folgende Codeabschnitt ermöglicht es Entwicklern, die benutzerdefinierten Zellenfelder zu lesen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -33,7 +33,7 @@ foreach (User user in shape.Users)
 }
 
 {{< /highlight >}}
-```
+
 
 
 Dieses Bild zeigt die Ausgabe nach dem Ausführen des obigen Codes:
@@ -46,8 +46,8 @@ Die Add-Methode, die von der Users Collection verfügbar gemacht wird, kann verw
 #### **Beispiel für die Zellprogrammierung erstellen**
 Verwenden Sie das folgende Codebeispiel in Ihrer .NET-Anwendung, um eine benutzerdefinierte Zelle im Shapesheet mit Aspose.Diagram for .NET zu erstellen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -70,7 +70,7 @@ shape.Users.Add(user);
 diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Benutzerdefinierte Zellen aus Shapesheet abrufen**
 Aspose.Diagram for .NET API ermöglicht das Abrufen benutzerdefinierter Zellen aus dem Shapesheet. In diesem Beispielthema wird beschrieben, wie Entwickler alle Benutzernamen für alle Formen in einer Zeichnung abrufen können.
 ### **Benutzerdefinierte Zellen abrufen**
@@ -78,8 +78,8 @@ Die von der User-Klasse bereitgestellten Eigenschaften NameU, Value.Val und Prom
 #### **Abrufen von Zellen aus Shapesheet-Programmierbeispielen**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um alle benutzerdefinierten Zellen aus dem Shapesheet mit Aspose.Diagram for .NET abzurufen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -104,4 +104,4 @@ foreach (Aspose.Diagram.Page objPage in diagram.Pages)
 }  
 
 {{< /highlight >}}
-```
+

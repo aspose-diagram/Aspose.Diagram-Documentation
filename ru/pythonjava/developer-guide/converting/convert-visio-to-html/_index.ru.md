@@ -32,8 +32,8 @@ description: This topic show you how to convert Visio to html formats using Aspo
 Полученный файл можно сохранить, передав полную строку пути, включая имя файла и расширение, например, @"c:\temp\MyOutput.html".
 
 #### **Сохраните результат HTML в примере программирования локального хранилища**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -51,15 +51,15 @@ diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Сохраните результат HTML в экземпляре потока.**
 Это вариант использования для сохранения результирующего HTML в базе данных или репозитории без сохранения его в локальном хранилище. Эта функция также включает другие результирующие ресурсы HTML, например шрифты, CSS (содержащие информацию о стиле) и изображения. Поскольку он сохраняет один файл HTML в экземпляре потока.
 #### **Сохраните результат HTML в образце потокового программирования**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -80,4 +80,4 @@ diagram.save(dstStream, SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

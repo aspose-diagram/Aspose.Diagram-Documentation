@@ -10,8 +10,8 @@ description: Java Diagram API kullanarak alanlar nasıl oluşturulur, eklenir.
 
 ### **Programlama Örneği**
 Aşağıdaki kod parçası, şekle bir alan ekler.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -39,5 +39,5 @@ diagram.save("InsertField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

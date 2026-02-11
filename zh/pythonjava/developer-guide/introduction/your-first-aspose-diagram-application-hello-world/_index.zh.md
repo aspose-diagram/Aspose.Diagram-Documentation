@@ -30,8 +30,8 @@ The steps below creates the Hello World application using the Aspose.Diagram API
 
 以下示例打开一个名为“Microsoft Visio”的模板文件[Basic_Shapes.vss](Basic_Shapes.vss)", inputs "Hello World!" text in the first page and saves the diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -53,4 +53,4 @@ diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

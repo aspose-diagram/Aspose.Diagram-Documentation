@@ -20,8 +20,8 @@ I Microsoft Office Visio kan användaren utföra följande åtgärder för att s
 ### **Ta bort formskyddsprogrammeringsprovet**
 Använd följande kod i din .NET-applikation för att göra samma sak (låsa upp valfritt formattribut) med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -59,4 +59,4 @@ shape.Protection.LockWidth.Value = BOOL.False;
 diagram.Save(dataDir + "RemoveShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

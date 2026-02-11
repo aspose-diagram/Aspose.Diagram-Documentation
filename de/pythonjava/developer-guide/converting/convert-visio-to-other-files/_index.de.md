@@ -46,8 +46,8 @@ So exportieren Sie eine VSD diagram in VTX:
 Das folgende Bild zeigt die Ausgabedatei VTX.
 
 ### **Exportieren in ein XML-Programmierbeispiel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -76,7 +76,7 @@ diagram.save("ExportToXML_Out.vtx", SaveFileFormat.VTX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Exporting to XPS**
 This article explains how to export a Microsoft Visio diagram to XPS using Aspose.Diagram for Python via Java.
@@ -92,8 +92,8 @@ To export VSD diagram to XPS:
 Das folgende Bild zeigt die Ausgabedatei XPS.
 
 ### **Exporting to XPS Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ diagram.save("ExportToXPS_Out.xps", SaveFileFormat.XPS)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Exporting a Diagram to SVG**
 This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using Aspose.Diagram for Python via Java.
@@ -126,8 +126,8 @@ To export VSD diagram to SVG, perform the following steps:
 ### **Exporting Diagram to SVG Programming Sample**
 The code samples show how to export a diagram to SVG using Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -145,7 +145,7 @@ diagram.save("ExportToSVG_Out.svg", SaveFileFormat.SVG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Exporting a Diagram to XAML**
 This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using Aspose.Diagram for Python via Java.
@@ -160,8 +160,8 @@ So exportieren Sie eine VSD diagram in XAML:
 ### **Exporting to XAML Programming Sample**
 The code sample show how to export a diagram to XAML using Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -179,7 +179,7 @@ diagram.save("ExportToXAML_Out.xaml", SaveFileFormat.XAML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Konvertieren Visio Zeichnen mit ausgewählten Formen**
 Mit Aspose.Diagram API können Entwickler eine Gruppe von Formen auswählen, um eine Visio-Zeichnung in ein beliebiges anderes unterstütztes Format zu konvertieren. Die RenderingSaveOptions-Klasse bietet ein Shapes-Member, um die Gruppe von Formen zu verwalten. Jede Speicheroptionsklasse ist die erweiterte Form der RenderingSaveOptions-Klasse.
@@ -193,8 +193,8 @@ So exportieren Sie eine Visio-Zeichnung mit ausgewählten Formen:
 ### **Konvertieren Visio Programmierbeispiel für Zeichnen mit ausgewählten Formen**
 Das Codebeispiel zeigt, wie eine Zeichnung mit ausgewählten Visio-Formen exportiert wird.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -220,4 +220,3 @@ diagram.save("SelectiveShapes_out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

@@ -26,8 +26,8 @@ Microsoft Visio сохраняет информацию о действиях, �
 
 ![дело:изображение_альтернативный_текст](introduction_1.png)
 #### **Образец программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetLibraryVersion.class);
@@ -47,7 +47,7 @@ System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePr
 System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
 
 {{< /highlight >}}
-```
+
 ## **Письмо Microsoft Visio Сводная информация о документе**
 Microsoft Visio позволяет определить ряд свойств сводной информации документа, чтобы помочь вам и вашим коллегам идентифицировать документ diagram. Свойства сводки, например, заголовок, тема, автор и описание, облегчают поиск файла при поиске и распознавание при просмотре. файлы.
 
@@ -74,8 +74,8 @@ Microsoft Visio позволяет определить ряд свойств с
 
 ![дело:изображение_альтернативный_текст](introduction_2.png)
 #### **Образец программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioProperties.class);
@@ -99,14 +99,14 @@ diagram.getDocumentProps().setTemplate("Aspose Template");
 diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Определить формат файла Visio**
  С использованием[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API, разработчики могут определить формат файла Visio перед его открытием, поскольку расширение файла не гарантирует, что содержимое файла является соответствующим.
 ### **Образец программирования определения формата**
 В следующем примере кода показано, как определить формат файла (используя путь к файлу или поток) и проверить его расширение.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
@@ -118,14 +118,14 @@ String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
 		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 ## **Определить формат файла Visio из InputStream**
 Используя Aspose.Diagram for Java API, разработчики могут определять формат файла Visio, передавая входной поток. Для этого можно использовать метод detectFileFormat класса FileFormatUtil.
 ### **Определение формата из примера программирования InputStream**
 В следующем примере кода показано, как определить формат файла с помощью входного потока.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -139,4 +139,4 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+

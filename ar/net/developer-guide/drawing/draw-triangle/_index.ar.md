@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم المثلث في صف
 ## **ارسم المثلث في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل مثلث في الصفحة. يوضح مثال الكود أدناه كيفية رسم مثلث في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,13 +25,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawTriangleInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم المثلث في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مثلث في الصفحة وحفظه بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم مثلث في رسم Visio وحفظه بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawTriangleInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم المثلث في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مثلث في الصفحة وحفظه بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم مثلث في رسم Visio وحفظه بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawTriangleInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم المثلث في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مثلث في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم مثلث في رسم Visio وحفظه بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -95,13 +95,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawTriangleInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم المثلث في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مثلث في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم مثلث في رسم Visio وحفظه بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -117,4 +117,4 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawTriangleInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

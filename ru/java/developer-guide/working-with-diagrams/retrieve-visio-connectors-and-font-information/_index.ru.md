@@ -15,8 +15,8 @@ url: /ru/java/retrieve-visio-connectors-and-font-information/
 ### **Образец программирования**
 Следующий фрагмент кода извлекает информацию о соединителях в файле diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
@@ -33,7 +33,7 @@ for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getCon
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 ## **Получение информации о шрифте**
  Aspose.Diagram имеет механизмы для получения информации об элементах, составляющих diagram, из[страницы](/diagram/ru/java/retrieve-get-copy-and-insert-a-page/), [трафареты](), [соединители](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)а также шрифты. В этой статье показано, как узнать, какие шрифты используются в файле diagram.
 
@@ -43,8 +43,8 @@ System.out.println("Process Completed Successfully");
 ### **Получение примера программирования шрифтов**
 Следующий фрагмент кода извлекает информацию о шрифте из файла Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
@@ -61,14 +61,14 @@ for(Font font : (Iterable<Font>) diagram.getFonts())
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 
 ![дело:изображение_альтернативный_текст](retrieve-visio-connectors-and-font-information_2.png)
 ### **Получение каталога шрифтов по умолчанию**
 Aspose.Diagram for Java API также позволяет получить путь к каталогу шрифтов по умолчанию, используя метод getDefaultFontDir() класса Diagram. Следующий фрагмент кода извлекает каталог шрифтов по умолчанию из файла Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
@@ -80,4 +80,4 @@ Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 System.out.println(diagram.getDefaultFontDir());
 
 {{< /highlight >}}
-```
+

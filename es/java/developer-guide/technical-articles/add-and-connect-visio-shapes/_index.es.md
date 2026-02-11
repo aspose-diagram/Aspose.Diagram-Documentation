@@ -17,8 +17,8 @@ El código de los ejemplos siguientes muestra cómo:
 1. Conecta las formas de estrella y hexágono al rectángulo.
 1. Guarda el diagram.
 #### **Ejemplo de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddConnectShapes.class);
@@ -104,4 +104,4 @@ diagram.getPages().getPage(0).connectShapesViaConnector(rectangleId, ConnectionP
 diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

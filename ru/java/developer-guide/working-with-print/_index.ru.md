@@ -12,8 +12,8 @@ url: /ru/java/working-with-print/
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print класса Diagram с именем принтера в качестве строкового параметра для метода Print.
 #### **Пример программирования печати на конкретном принтере**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(BySpecificPrinter.class); 
@@ -24,15 +24,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **Установка имени принтера и документа**
 Aspose.Diagram API позволяет задать конкретный принтер и имя документа для задания на печать. Выполните следующие шаги, чтобы распечатать diagram на нужном принтере:
 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print класса Diagram с принтером и именем документа в качестве строкового параметра для метода Print.
 #### **Пример программирования установки имени принтера и документа**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetPrintJobAndPrinterName.class);   
@@ -43,4 +43,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ url: /es/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **Rotar una muestra de programación de forma**
 Use el siguiente código en su aplicación Java para rotar una forma usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RotateVisioShape.class); 
@@ -28,7 +28,7 @@ shape.setAngle(190);
 diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Cambiar la posición de una forma**
 La clase de forma le permite cambiar la posición de una forma. La línea conectora se ajusta automáticamente cuando la forma se mueve a una posición diferente.
 
@@ -52,8 +52,8 @@ El proceso para mover una forma es:
 ### **Ejemplo de programación de cambio de posición**
 El fragmento de código siguiente muestra cómo mover la forma. El código recupera una página Visio por nombre y forma por ID 16 y mueve su posición.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(MoveVisioShape.class);  
@@ -70,7 +70,7 @@ shape.move(1, 1);
 diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Conectar subformas de los grupos**
 Este tema explica cómo conectar dos subformas de dos formas de grupo diferentes en diagramas Microsoft Visio usando Aspose.Diagram for Java.
 
@@ -87,8 +87,8 @@ El siguiente código muestra cómo:
 ### **Ejemplo de programación de Connect Sub-shapes**
 Use el siguiente código en su aplicación Java para conectar las subformas de dos formas de grupos diferentes usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
@@ -114,7 +114,7 @@ page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToI
 diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Obtener las formas conectadas a una forma particular**
 [Agregar y conectar Visio Formas](/diagram/es/java/add-and-connect-visio-shapes/) explica cómo agregar una forma y conectarla a otras formas en diagramas Microsoft Visio usando Aspose.Diagram for Java. También es posible encontrar formas que están conectadas a una forma específica.
 
@@ -128,8 +128,8 @@ El siguiente código muestra cómo:
 ### **Obtener muestra de programación de formas**
 Use el siguiente código en su aplicación Java para encontrar todas las formas conectadas a una forma específica usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
@@ -147,4 +147,4 @@ for (long id : connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ url: /tr/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **Şekil Programlama Örneği Döndürme**
 Aspose.Diagram for Java kullanarak bir şekli döndürmek için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RotateVisioShape.class); 
@@ -28,7 +28,7 @@ shape.setAngle(190);
 diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Konumunu Değiştirme**
 Şekil Sınıfı, bir şeklin konumunu değiştirmenize olanak tanır. Şekil farklı bir konuma taşındığında bağlayıcı çizgi otomatik olarak ayarlanır.
 
@@ -52,8 +52,8 @@ Bir şekli taşıma işlemi:
 ### **Konum Değiştirme Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin nasıl taşınacağını gösterir. Kod, ada göre bir Visio sayfasını ve ID 16'ya göre şekli alır ve konumunu hareket ettirir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(MoveVisioShape.class);  
@@ -70,7 +70,7 @@ shape.move(1, 1);
 diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Grupların Alt Şekillerini Bağlayın**
 Bu konuda, Aspose.Diagram for Java kullanılarak Microsoft Visio diyagramlarında iki farklı grup şeklinin iki alt şeklinin nasıl birleştirileceği açıklanmaktadır.
 
@@ -87,8 +87,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Alt Şekilleri Programlama Örneği Bağlayın**
 Java for Java kullanarak iki farklı grup şeklinin alt şekillerini bağlamak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
@@ -114,7 +114,7 @@ page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToI
 diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Şekilleri Belirli Bir Şekle Bağlayın**
 [Ekle ve Bağla Visio Şekiller](/diagram/tr/java/add-and-connect-visio-shapes/) Microsoft Visio diyagramlarında Aspose.Diagram for Java kullanılarak bir şeklin nasıl eklenip diğer şekillere bağlanacağı anlatılmaktadır. Belirli bir şekle bağlı şekiller bulmak da mümkündür.
 
@@ -128,8 +128,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Shapes Programlama Örneği Alın**
 Aspose.Diagram for Java kullanarak belirli bir şekle bağlı tüm şekilleri bulmak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
@@ -147,4 +147,4 @@ for (long id : connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

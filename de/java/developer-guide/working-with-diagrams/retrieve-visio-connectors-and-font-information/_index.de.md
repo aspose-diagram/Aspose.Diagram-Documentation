@@ -15,8 +15,8 @@ url: /de/java/retrieve-visio-connectors-and-font-information/
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt ruft die Informationen für die Connectors in einem diagram ab.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
@@ -33,7 +33,7 @@ for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getCon
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 ## **Abrufen von Schriftinformationen**
  Aspose.Diagram verfügt über Mechanismen zum Abrufen von Informationen über die Elemente, aus denen diagram besteht[Seiten](/diagram/de/java/retrieve-get-copy-and-insert-a-page/), [Schablonen](), [Anschlüsse](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)und auch Schriftarten. Dieser Artikel zeigt, wie Sie herausfinden, welche Schriftarten in einer diagram verwendet werden.
 
@@ -43,8 +43,8 @@ Ein Font-Objekt ordnet einen Namen (z. B. „Arial“) der Schriftart-ID (z. B. 
 ### **Abrufen des Font-Programmierbeispiels**
 Der folgende Codeabschnitt ruft Schriftartinformationen von Visio diagram ab.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
@@ -61,14 +61,14 @@ for(Font font : (Iterable<Font>) diagram.getFonts())
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 
 ![todo: Bild_alt_Text](retrieve-visio-connectors-and-font-information_2.png)
 ### **Abrufen des Standardschriftverzeichnisses**
 Aspose.Diagram for Java API ermöglicht auch das Abrufen des Standardverzeichnispfads für Schriftarten mithilfe der Methode getDefaultFontDir() der Klasse Diagram. Der folgende Codeabschnitt ruft das Standardverzeichnis für Schriftarten aus dem Verzeichnis Visio diagram ab.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
@@ -80,4 +80,4 @@ Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 System.out.println(diagram.getDefaultFontDir());
 
 {{< /highlight >}}
-```
+

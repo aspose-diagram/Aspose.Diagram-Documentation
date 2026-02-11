@@ -29,8 +29,8 @@ Las opciones de configuración de página son totalmente compatibles con Aspose.
 |Paisaje|Orientación horizontal|
 |Retrato|Orientación Vertical|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -46,14 +46,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **Factor de escala**
 
  Es posible reducir o aumentar el tamaño de una página ajustando el factor de escala con el[**EscalaX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)propiedad.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -67,4 +67,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+

@@ -17,8 +17,8 @@ url: /ar/java/working-with-masters/
 ### **استرجاع نموذج برمجة معلومات الماجستير**
 يسترد جزء الكود التالي المعلومات الرئيسية من diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **أضف ماستر من استنسل الأشكال**
 الاستنسل هو مجموعة من الأشكال المرتبطة بقالب Microsoft Office Visio معين. باستخدام Aspose.Diagram ، يمكن إضافة أي شكل رئيسي إلى رسم من استنسل.
 ### **إضافة ماجستير**
@@ -46,8 +46,8 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 - دفق ملف الاستنسل والاسم الرئيسي.
 - أضف رئيسي إلى diagram من المصدر diagram
 #### **إضافة عينة البرمجة الرئيسية**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **إنشاء ماجستير من الصفر**
 Aspose.Diagram API يسمح بإنشاء Master من البداية دون أي استنسل أو رسم أو قالب. يمكن للمطورين تخصيص إنشاء Master. تسمح طريقة addMaster ، التي تم الكشف عنها بواسطة فئة Diagram ، بإضافة عنصر رئيسي.
 #### **إنشاء عينة البرمجة الرئيسية**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **احصل على درجة الماجستير من ملف Visio**
 في بعض الأحيان ، يحتاج المطورون إلى الحصول على تفاصيل سيد رسم Visio. يدعم Aspose.Diagram API هذه الميزة.
 
@@ -282,8 +282,8 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 #### **كائن رئيسي عن طريق نموذج برمجة معرف**
 يوضح المثال التالي كيفية الحصول على سيد بواسطة المعرف من رسم Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **الحصول على كائن رئيسي بالاسم**
 هذا المثال يعمل على النحو التالي:
 
@@ -309,8 +309,8 @@ System.out.println("Master Name : " + master.getUniqueID());
 #### **كائن رئيسي حسب عينة برمجة الاسم**
 يوضح المثال التالي كيفية الحصول على كائن رئيسي بالاسم من رسم Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **تحقق من وجود ماجستير في رسم Visio**
 يدعم Aspose.Diagram API التحقق من وجود سيد في رسم Visio. باستخدام خاصية MasterCollection ، يمكن للمطورين التحقق لمعرفة ما إذا كان المعلم موجودًا بالاسم أو المعرف.
 
@@ -340,8 +340,8 @@ System.out.println("Master Name : " + master.getUniqueID());
 #### **حضور ماجستير عن طريق نموذج برمجة معرف**
 يوضح المثال التالي كيفية التحقق من وجود رئيسي بواسطة المعرف في رسم Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **التحقق من وجود رئيسي بالاسم**
 هذا المثال يعمل على النحو التالي:
 
@@ -365,8 +365,8 @@ System.out.println("Master Presence : " + isPresent);
 #### **حضور ماجستير من خلال نموذج برمجة الاسم**
 يوضح المثال التالي كيفية التحقق من وجود رئيسي بالاسم من رسم Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

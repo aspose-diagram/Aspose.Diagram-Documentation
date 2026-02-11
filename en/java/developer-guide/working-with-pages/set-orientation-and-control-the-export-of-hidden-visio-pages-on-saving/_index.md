@@ -19,8 +19,8 @@ This example work as follows:
 ### **Set Orientation Programming Sample**
 The code example below shows how to set the orientation of the Visio page.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioPageOrientation.class);  
@@ -35,7 +35,7 @@ page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPage
 diagram.save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Control the Export of Hidden Visio Pages on Saving**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 ### **Hide a Page in the Visio Diagram and Set Export Option**
@@ -43,8 +43,8 @@ Aspose.Diagram for Java API has the [Page](https://reference.aspose.com/diagram/
 #### **Set the Export Option for PDF**
 The code below shows how to set save options before saving a diagram to PDF format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExporToHiddenVisioPagesToPdf.class);  
@@ -65,12 +65,12 @@ options.setExportHiddenPage(false);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToPDF_Out.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for HTML**
 The code below shows how to set save options before saving a diagram to HTML format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToHtml.class) + "Pages/";
@@ -92,12 +92,12 @@ options.setExportComments(false);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for Image**
 The code below shows how to set save options before saving a diagram to image format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToImage.class) + "Pages/";
@@ -119,12 +119,12 @@ options.setExportComments(false);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToImage_Out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for SVG**
 The code below shows how to set save options before saving a diagram to SVG format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToSVG.class) + "Pages/";
@@ -149,4 +149,4 @@ options.setExportElementAsRectTag(true);
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToSVG_Out.svg", options);
 
 {{< /highlight >}}
-```
+

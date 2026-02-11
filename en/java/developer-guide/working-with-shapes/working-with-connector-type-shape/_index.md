@@ -20,8 +20,8 @@ The code below shows how to:
 #### **Set Connector Appearance Programming Sample**
 Use the following code in your Java application to set appearance of the connector type shape using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -39,7 +39,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Select Reroute Option of the Connector Shape**
 The ConFixedCode property exposed by the [Layout](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) class can be used to select reroute option. The Layout property, exposed by the [Shape](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) class, will be used.
 
@@ -55,8 +55,8 @@ The code below shows how to:
 ### **Select Reroute Option Programming Sample**
 Use the following code in your Java application to select the rerouting option of the connector shape using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -74,4 +74,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -13,8 +13,8 @@ url: /es/java/working-with-window-elements/
 
 ![todo:imagen_alternativa_texto](http://i.imgur.com/zduARGh.png)
 ### **Recuperar muestra de programación de elementos de ventana**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveWindowElementsOfDiagram.class);    
@@ -31,14 +31,14 @@ for (Window window :(Iterable<Window>) diagram.getWindows())
 }
 
 {{< /highlight >}}
-```
+
 ## **Agregar elemento de ventana al Visio Diagram**
  La ventana principal de la aplicación Visio puede contener cualquier archivo Visio abierto, al igual que los navegadores web modernos permiten múltiples páginas web con pestañas en una ventana. Los desarrolladores ahora pueden agregar un nuevo objeto de ventana en una instancia Microsoft Visio usando[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
 El objeto Ventana representa una ventana abierta en una instancia Microsoft Visio. El método Add, expuesto por la clase WindowCollection, permite agregar un nuevo objeto Ventana.
 ### **Agregar muestra de programación de elemento de ventana**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWindowElementInVisio.class); 
@@ -61,7 +61,7 @@ diagram.getWindows().add(window);
 diagram.save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Agregar soporte de cuadrículas dinámicas y puntos de conexión**
 La cuadrícula dinámica lo ayuda a colocar nuevas formas vertical y horizontalmente en relación con las formas que ya ha colocado en el dibujo. Respecto a los puntos de conexión, una vez marcados como marcados, nos servirá para ver los puntos de conexión cuando estemos en proceso de conectarnos a ellos. Podemos lograr ambas opciones usando[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 ### **Soporte de Redes Dinámicas y Puntos de Conexión en los Planos Visio**
@@ -71,8 +71,8 @@ La clase Window ofrece propiedades DynamicGridEnabled y ShowConnectionPoints. Es
 
 ![todo:imagen_alternativa_texto](http://i.imgur.com/bxsJIwF.png)
 #### **Agregar muestra de programación de soporte**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSupportOfVisualAids.class);
@@ -90,7 +90,7 @@ window.setShowConnectionPoints(BOOL.TRUE);
 diagram.save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Mostrar y ocultar cuadrículas, reglas, guías y saltos de página del Visio Diagram**
  Microsoft Office Visio tiene un par de reglas, una cuadrícula y dos tipos de guías y una bandera de saltos de página para ver qué se imprimirá en cada página. Los desarrolladores pueden aplicar esta configuración usando[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/)La configuración se aplica globalmente a una sola página.
 
@@ -100,8 +100,8 @@ La clase Window ofrece las propiedades ShowGrid, ShowGuides, ShowRulers y ShowPa
 
 ![todo:imagen_alternativa_texto](http://i.imgur.com/E0pvXbP.png)
 ### **Ejemplo de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DisplayGridsRulersGuidesAndPageBreaks.class);     
@@ -123,4 +123,4 @@ window.setShowPageBreaks(BOOL.TRUE);
 diagram.save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

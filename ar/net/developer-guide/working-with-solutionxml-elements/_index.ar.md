@@ -10,8 +10,8 @@ description: يشرح هذا القسم كيفية إضافة solutionXml أو �
 
  ال[SolutionXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) تمثل class عنصر SolutionXML في رسومات Visio. طريقة الإضافة ، المكشوفة بواسطة[SolutionXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) class ، تسمح بإضافة عنصر SolutionXML.
 ### **أضف نموذجًا لبرمجة عنصر SolutionXML**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_SolutionXML();
@@ -32,14 +32,14 @@ diagram.SolutionXMLs.Add(solXML);
 diagram.Save(dataDir + "AddSolutionXMLElement_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قراءة قيم XML من SolutionXML Element**
 إن SolutionXML عبارة عن XML منسق بشكل جيد ومضمَّن في عنصر SolutionXML الذي يوفر وسيلة معيارية لبيانات الحل المستمرة. يمكن للمستخدمين قراءة قيم XML من عنصر SolutionXML باستخدام[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 
  الخاصية SolutionXMLs ، المكشوفة بواسطة ملف[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) فئة ، تدعم مجموعة Aspose.Diagram.SolutionXML كائنات. يمكن استخدام هذه الخاصية لقراءة قيم XML من عنصر SolutionXML.
 ### **نموذج البرمجة لعنصر SolutionXML**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_SolutionXML();
@@ -57,4 +57,4 @@ foreach (SolutionXML solutionXML in diagram.SolutionXMLs)
 }
 
 {{< /highlight >}}
-```
+

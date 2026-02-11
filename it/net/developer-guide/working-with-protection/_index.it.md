@@ -18,8 +18,8 @@ Le proprietà ProtectBkgnds, ProtectMasters, ProtectShapes e ProtectStyles, espo
 #### **Modificare l'esempio di programmazione della protezione Diagram**
 Utilizzare il codice seguente in un'applicazione .NET per eseguire le stesse attività come bloccare e sbloccare diversi elementi di Visio diagram utilizzando Aspose.Diagram for .NET API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Set Protezione della Forma Visio**
  La protezione delle forme Visio consente agli utenti di bloccare aspetti specifici delle forme. Gli aspetti delle forme che possono essere bloccati tramite la protezione delle forme includono larghezza, altezza, posizione x, posizione y, rotazione e altro. Gli sviluppatori possono raggiungere questo obiettivo utilizzando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Modifica la protezione della forma Visio**
@@ -51,8 +51,8 @@ In Microsoft Office Visio, l'utente può eseguire le seguenti azioni per protegg
 ### **Modifica l'esempio di programmazione di Shape Protection**
 Usa il seguente codice nella tua applicazione .NET per fare la stessa cosa (bloccare/sbloccare qualsiasi attributo di forma) usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

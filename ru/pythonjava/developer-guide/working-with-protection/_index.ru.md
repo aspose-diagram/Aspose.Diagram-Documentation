@@ -22,8 +22,8 @@ url: /ru/python-java/working-with-protection/
 
 Используйте приведенный ниже код в своем приложении для выполнения тех же задач — блокировки и разблокировки различных элементов вашего diagram — используя Aspose.Diagram для Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -46,7 +46,7 @@ diagram.save("VisioDiagramProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Изменить защиту формы Visio**
 Защита фигур Visio позволяет пользователям блокировать определенные аспекты фигур. Аспекты фигур, которые можно заблокировать с помощью защиты формы, включают ширину, высоту, положение x, положение y, поворот и многое другое. Разработчики могут добиться этого, используя Aspose.Diagram вместо Python via Java.
@@ -65,8 +65,8 @@ jpype.shutdownJVM()
 
 Используйте следующий код в своем приложении Java, чтобы сделать то же самое (заблокировать/разблокировать любой атрибут формы), используя Aspose.Diagram для Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -109,4 +109,4 @@ diagram.save("VisioShapeProtection_Out.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

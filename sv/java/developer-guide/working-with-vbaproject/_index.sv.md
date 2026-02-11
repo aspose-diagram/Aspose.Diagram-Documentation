@@ -27,8 +27,8 @@ End Sub
 
 Här är exempelkoden för att generera utdatafilen VSDM med VBA-modul och makrokod.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -45,7 +45,7 @@ module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Ändra VBA eller makro**
 
@@ -88,8 +88,8 @@ End Sub
 
  Du kan ladda ner[källfil Visio]() och den[utgång Visio fil]() från de angivna länkarna.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -104,7 +104,7 @@ module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Förhandsämnen**
 - [Kontrollera om VBA-koden är signerad](/diagram/sv/java/check-if-vba-code-is-signed/)

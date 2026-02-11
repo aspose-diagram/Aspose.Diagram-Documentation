@@ -12,8 +12,8 @@ description: Bu bölümde visio konektörlerinin ve yazı tipi bilgilerinin nas�
 ### **Programlama Örneği**
 Aşağıdaki kod parçası, bir diagram'deki konektörler için bilgileri alır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -29,7 +29,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **Yazı Tipi Bilgilerini Alma**
  Aspose.Diagram, diagram'i oluşturan öğeler hakkında bilgi almak için mekanizmalara sahiptir.[sayfalar](/diagram/tr/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [şablonlar](https://docs.aspose.com/diagram/net/working-with-masters/), [konektörler](/diagram/tr/net/retrieving-connector-information/)ve ayrıca yazı tipleri. Bu makale, bir diagram'de hangi yazı tiplerinin kullanıldığını nasıl bulacağınızı gösterir.
 
@@ -37,8 +37,8 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 ### **Yazı Tipi Programlama Örneği Alınıyor**
 Aşağıdaki kod parçası, Visio diagram'den yazı tipi bilgilerini alır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -53,12 +53,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **Varsayılan Yazı Tipi Dizinini Alma**
 Aspose.Diagram for .NET API, Diagram Sınıfının GetDefaultFontDir() yöntemini kullanarak varsayılan yazı tipi dizini yolunun alınmasına da izin verir. Aşağıdaki kod parçası, Visio diagram'den varsayılan yazı tipi dizinini alır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -70,7 +70,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **Kullanılmayan Yazı Tiplerini Alma**
 {{% alert color="primary" %}}
 
@@ -80,8 +80,8 @@ Bu yöntem, sürüm 19.6 veya üstü tarafından desteklenir.
 
 Aspose.Diagram for .NET API ayrıca Diagram Sınıfı GetUnusedStyles() yöntemini kullanarak kullanılmayan yazı tiplerini almaya da izin verir. Aşağıdaki kod parçası, kullanılmayan yazı tiplerini Visio diagram'den alır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -96,4 +96,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

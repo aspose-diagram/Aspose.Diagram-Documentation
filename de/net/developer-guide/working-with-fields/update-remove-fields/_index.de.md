@@ -11,8 +11,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie Felder aktualisieren o
  Das[Aufstellen](https://reference.aspose.com/diagram/net/aspose.diagram/field) Objekt repräsentiert ein Textfeld in a[Text](https://reference.aspose.com/diagram/net/aspose.diagram/text) Lauf. Die Feldeigenschaft, die durch die verfügbar gemacht wird[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) -Klasse unterstützt eine Sammlung von Aspose.Diagram.Field-Objekten.
 ### **Programmierbeispiel**
 Das folgende Stück Codeaktualisierungsfeld in Form.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Feld entfernen**
 Der folgende Codeabschnitt entfernt das Feld in der Form.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

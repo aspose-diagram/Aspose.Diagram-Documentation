@@ -13,8 +13,8 @@ description: 使用 Aspose.Diagram 库修改 activeX 控件的属性。
 ## **检索 ActiveX 控件编程示例**
 [形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类提供 ActiveXControl 属性，允许开发人员从 Visio 形状对象检索 ActiveX 控件。开发人员可以在适当的 ActiveX 控件类中转换一个 ActiveX 控件，然后设置它的所有可用属性。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

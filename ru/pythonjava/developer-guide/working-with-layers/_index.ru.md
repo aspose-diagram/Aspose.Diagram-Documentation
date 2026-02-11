@@ -13,8 +13,8 @@ Aspose.Diagram для Python via Java позволяет настраивать 
 
 Следующий фрагмент кода помогает добавлять, удалять и перемещать свойства объектов формы.
 #### **Примеры программирования**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -47,7 +47,7 @@ diagram.save("ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Добавьте слой на странице Visio.**
 Aspose.Diagram для Python via Java позволяет разработчикам добавлять новые слои для организации пользовательских категорий фигур, а затем программно назначать фигуры этим слоям.
 
@@ -55,8 +55,8 @@ Aspose.Diagram для Python via Java позволяет разработчик�
 
 Следующий фрагмент кода помогает добавить объекты слоя.
 #### **Примеры программирования**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -91,7 +91,7 @@ diagram.save("AddLayer_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -103,8 +103,8 @@ Aspose.Diagram для Python via Java предоставляет разрабо�
 
 Следующий фрагмент кода помогает получить список слоев.
 #### **Примеры программирования**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -127,4 +127,4 @@ for layer in page.getPageSheet().getLayers():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

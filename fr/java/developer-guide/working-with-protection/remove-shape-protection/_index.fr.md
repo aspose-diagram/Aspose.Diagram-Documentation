@@ -20,8 +20,8 @@ Dans Microsoft Office Visio, l'utilisateur peut effectuer les actions suivantes 
 ### **Supprimer l'exemple de programmation de protection de forme**
 Utilisez le code suivant dans votre application Java pour faire la même chose (déverrouiller n'importe quel attribut de forme) en utilisant Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

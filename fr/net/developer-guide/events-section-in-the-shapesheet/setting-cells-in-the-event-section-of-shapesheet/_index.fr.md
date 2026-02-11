@@ -20,8 +20,8 @@ description: Gérer les propriétés d'événement des fichiers visio.
 ## **Définition des cellules d'événement**
 [Événement](https://reference.aspose.com/diagram/net/aspose.diagram/event) permet aux développeurs de définir des cellules d'événement dans la feuille ShapeSheet. Cette rubrique d'aide montre comment les développeurs peuvent définir des formules dans les cellules d'événement :
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

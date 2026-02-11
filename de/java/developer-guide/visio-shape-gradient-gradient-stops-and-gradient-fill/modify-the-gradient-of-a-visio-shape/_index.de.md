@@ -12,8 +12,8 @@ Mit Aspose.Diagram API können Entwickler das Erscheinungsbild einer Visio-Form 
 ## **Ändern Sie das Farbverlaufs-Programmierbeispiel**
 [Form](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)Die Klasse bietet die Fill-Eigenschaft, mit der Entwickler a abrufen können[GradientFill](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill)Objekt. Die GradientFill-Klasse enthält die Verlaufsdaten einer Visio-Form. Entwickler können alle verfügbaren Eigenschaften festlegen sowie einen Gradientenstopp nach Index abrufen, um die Farb- und Positionseigenschaften festzulegen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -37,4 +37,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

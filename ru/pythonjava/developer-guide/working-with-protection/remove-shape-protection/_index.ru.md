@@ -21,8 +21,8 @@ description: В этом разделе объясняется, как снят�
 ### **Удаление примера программирования защиты формы**
 Используйте следующий код в своем приложении, чтобы сделать то же самое (разблокировать любой атрибут формы), используя Aspose.Diagram для Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -65,5 +65,5 @@ diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

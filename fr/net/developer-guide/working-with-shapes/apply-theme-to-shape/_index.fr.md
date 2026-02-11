@@ -18,8 +18,8 @@ Le code ci-dessous montre comment :
 #### **Définir le thème sur une forme Exemple de programmation**
 Utilisez le code suivant dans votre application .NET pour définir l'apparence de la forme du type de connecteur à l'aide de Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

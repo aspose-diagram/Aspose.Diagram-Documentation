@@ -24,8 +24,8 @@ Så här lägger du till en ny form:
 ### **Lägg till programmeringsexempel**
 Kodavsnittet nedan visar hur du gör varje steg.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
 Console.WriteLine("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ För att hämta Visio sidinformation:
 ### **Hämta programmeringsexempel**
 Följande kodbit hämtar forminformationen från en Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -107,7 +107,7 @@ foreach (Aspose.Diagram.Shape shape in vsdDiagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Kopiera former från en befintlig Visio**
 Aspose.Diagram for .NET API tillåter utvecklare att kopiera former från källsidan Visio till den nya sidan Visio diagram. Det stöder också kopiering av gruppformer. Den här artikeln beskriver hur du kopierar alla former från sidan källan diagram.
 
@@ -124,8 +124,8 @@ Detta exempel fungerar enligt följande:
 1. Ställ in dess nya id och lägg till den nya sidan Visio.
 1. Spara det nya Visio i den lokala lagringen.
 ### **Kopiera programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -157,7 +157,7 @@ foreach (Aspose.Diagram.Shape shape in SrcPage.Shapes)
 newDiagram.Save(dataDir + "CopyShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -206,8 +206,8 @@ Så här identifierar du anpassade egenskaper i Microsoft Visio:
 #### **Läs programmeringsexempel**
 Kodavsnitten nedan läser formdata (anpassade egenskaper).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -230,12 +230,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Läs en Shape Property efter namn**
 Kodavsnittet nedan läser en formegenskap efter namn (anpassad egenskap).
 #### **Läs efter namn Programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -255,12 +255,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Läs InheritProps of Shape**
 Kodavsnittet nedan läser InheritProps av en form.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -284,7 +284,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Lägg till och anslut Visio Former**
  Aspose.Diagram for .NET låter dig lägga till anpassade former och ansluta dem i[diagram du skapar](https://products.aspose.com/diagram/net/).
 ### **Lägga till och ansluta former**
@@ -295,8 +295,8 @@ Koden i exemplen nedan visar hur man:
 1. Anslut stjärnan och hexagonformerna till rektangeln.
 1. Spara diagram.
 #### **Lägga till och ansluta former Programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_TechnicalArticles();
@@ -386,7 +386,7 @@ diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bot
 diagram.Save(dataDir + "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Använd anslutningsindex för att koppla samman former**
 Aspose.Diagram for .NET API tillåter redan utvecklare att lägga till nya anslutningspunkter på formen, och utvecklare kan nu ansluta former med hjälp av anslutningsindex.
 ### **Använd anslutningsindex för att koppla samman former**
@@ -496,8 +496,8 @@ Aspose.Diagram for .NET tillåter utvecklare att hämta den överordnade formen 
 ### **Skaffa föräldraformen**
 De[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)class erbjuder ParentShape-egenskapen för att hämta den överordnade formen.
 #### **Skaffa programmet Parent Shape-programmering**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -510,4 +510,4 @@ Console.WriteLine("Shape ID: " + parentShape.ID);
 Console.WriteLine("Shape Name: " + parentShape.Name);
 Console.WriteLine("Shape Type: " + parentShape.Type);
 {{< /highlight >}}
-```
+

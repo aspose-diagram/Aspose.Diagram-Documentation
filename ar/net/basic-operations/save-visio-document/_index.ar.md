@@ -37,8 +37,8 @@ diagram.Save(GetMyDir() + "MyOutput.vsdx", SaveFileFormat.VSDX);
 #### **استخدام Diagram حفظ الخيارات**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ المستند بتنسيق Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -65,15 +65,15 @@ options.AutoFitPageToDrawingContent = true;
 diagram.Save(dataDir + "UseDiagramSaveOptions_out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **استخدام PDF حفظ الخيارات**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -117,15 +117,15 @@ options.PageSize = pgSize;
 diagram.Save(dataDir + "UsePDFSaveOptions_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **استخدام HTML حفظ الخيارات**
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ مستند بتنسيق ملف HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -168,7 +168,7 @@ MemoryStream stream = new MemoryStream();
 diagram.Save(stream, SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
@@ -177,8 +177,8 @@ diagram.Save(stream, SaveFileFormat.HTML);
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -248,15 +248,15 @@ options.TiffCompression = TiffCompression.Ccitt3;
 diagram.Save(dataDir + "UseImageSaveOptions_out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 
 
 استخدام SVG حفظ الخيارات
 
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ المستند بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -281,15 +281,15 @@ options.PageSize = pgSize;
 diagram.Save(dataDir + "UseSVGSaveOptions_out.svg", options);
 
 {{< /highlight >}}
-```
+
 
 
 استخدام SWF حفظ الخيارات
 
 يوضح الكود أدناه كيفية تعيين خيارات الحفظ قبل حفظ المستند بتنسيق SWF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -318,7 +318,7 @@ options.ViewerIncluded = true;
 diagram.Save(dataDir + "UseSWFSaveOptions_out.swf", options);
 
 {{< /highlight >}}
-```
+
 
 في بعض الأحيان ، يحتاج المطورون إلى حفظ الرسوم التخطيطية Visio أو تصديرها إلى تنسيقات ملفات مختلفة برمجيًا (مثل VDX و PDF و JPEG وما إلى ذلك).
 ## **حفظ VSD الملف بتنسيقات ملفات مختلفة (VDX و PDF و JPEG)**
@@ -341,8 +341,8 @@ diagram.Save(dataDir + "UseSWFSaveOptions_out.swf", options);
 
 **مثال:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -374,7 +374,7 @@ vsdPage.Export(dataDir + "SaveDiagramToJPGwithVSTO_out.jpg");
 vsdApp.Quit();
 
 {{< /highlight >}}
-```
+
 ### ` `**حفظ VSD الملف إلى تنسيقات أخرى باستخدام Aspose.Diagram for .NET**
 باستخدام Aspose.Diagram ، لا يحتاج المطورون إلى Microsoft Office Visio في الجهاز ، ويمكنهم العمل بشكل مستقل عن Microsoft Office Automation.
 
@@ -392,8 +392,8 @@ vsdApp.Quit();
 
 **مثال:**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_KnowledgeBase();
@@ -411,4 +411,4 @@ vsdDiagram.Save(dataDir + "SaveDiagramToPDFwithAspose_out.pdf", SaveFileFormat.P
 vsdDiagram.Save(dataDir + "SaveDiagramToJPGwithAspose_out.jpg", SaveFileFormat.JPEG);
 
 {{< /highlight >}}
-```
+

@@ -24,8 +24,8 @@ url: /zh/java/working-with-hyperlinks/
 
 下面的代码片段添加了形状的超链接数据。
 ### **添加超链接编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **获取 Visio 形状的超链接数据**
 可以用与您类似的方式获取形状的超链接数据[读取 Visio 形状数据]().
 
@@ -79,8 +79,8 @@ diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 下面的代码片段读取形状的超链接数据。
 ### **获取超链接编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

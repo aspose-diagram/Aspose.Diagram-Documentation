@@ -20,8 +20,8 @@ Microsoft Office Visio'de kullanıcı herhangi bir şekli korumak için aşağı
 ### **Şekil Koruma Programlama Örneğinin Kaldırılması**
 Aspose.Diagram for Java kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğinin kilidini açmak) için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

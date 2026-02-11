@@ -31,8 +31,8 @@ url: /ar/java/aspose-diagram-font-operations/
 #### **عينة البرمجة**
 يوضح مثال الكود أدناه كيفية تعيين Aspose.Diagram للبحث في مجلدات متعددة عن خطوط TrueType عند عرض الخطوط أو دمجها.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
@@ -47,7 +47,7 @@ diagram.setFontDirs(fontDirs);
 diagram.save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **تلقي إعلام بالخطوط المفقودة واستبدال الخط أثناء التقديم**
 يتطلب Aspose.Diagram API الوصول إلى الخط الدقيق من أجل تقديم الرسم بشكل صحيح إلى تنسيق PDF. إذا لم يكن الخط المطلوب متاحًا على الجهاز ، فإن Aspose.Diagram API يعرض أي مثيل لهذا الخط باستخدام الخط الافتراضي أو أقرب خط متاح على الجهاز ، نظرًا لأن هذا الاستبدال يمكن أن يغير مظهر الرسم المعروض ، فقد يحتاج المطورون إلى ذلك يتم إعلامك عند فقد الخط وبأي خط سيتم استبداله.
 #### **إعلام بالخطوط المفقودة وعينة برمجة استبدال الخطوط**

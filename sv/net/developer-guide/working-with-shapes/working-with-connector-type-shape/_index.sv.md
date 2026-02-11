@@ -20,8 +20,8 @@ Koden nedan visar hur man:
 #### **Ställ in kontaktens utseende Programmeringsexempel**
 Använd följande kod i din .NET-applikation för att ställa in utseendet på kontakttypens form med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Välj Omdirigeringsalternativ för Connector Shape**
  ConFixedCode-egenskapen exponerad av[Layout](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) klass kan användas för att välja omdirigeringsalternativ. Layout-egenskapen, exponerad av[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) klass, kommer att användas.
 
@@ -54,8 +54,8 @@ Koden nedan visar hur man:
 ### **Välj Programmeringsexempel för omdirigeringsalternativ**
 Använd följande kod i din .NET-applikation för att välja omdirigeringsalternativet för kontaktformen med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -74,4 +74,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -20,8 +20,8 @@ Geliştiriciler, Aspose.Diagram API'i kullanarak, olayları otomatik olarak işl
 ## **Olay Hücrelerini Ayarlama**
 [Etkinlik](https://reference.aspose.com/diagram/net/aspose.diagram/event) class, geliştiricilerin ShapeSheet'te olay hücreleri ayarlamasına olanak tanır. Bu yardım konusu, geliştiricilerin olay hücrelerinde formülleri nasıl ayarlayabileceklerini gösterir:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

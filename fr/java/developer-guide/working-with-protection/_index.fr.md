@@ -23,8 +23,8 @@ Au Microsoft Visio vous protégez les documents de cette manière :
 
 Utilisez le code ci-dessous dans une application Java pour effectuer les mêmes tâches - verrouiller et déverrouiller différents éléments de votre diagram - en utilisant Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
@@ -39,7 +39,7 @@ diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
 diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **Modifier la protection de forme Visio**
  La protection des formes Visio permet aux utilisateurs de verrouiller des aspects spécifiques des formes. Les aspects des formes qui peuvent être verrouillés via la protection de forme incluent la largeur, la hauteur, la position x, la position y, la rotation et plus encore. Les développeurs peuvent y parvenir en utilisant[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -59,8 +59,8 @@ Dans Visio, vous devez effectuer les actions suivantes pour protéger n'importe 
 
 Utilisez le code suivant dans votre application Java pour faire la même chose (verrouiller/déverrouiller n'importe quel attribut de forme) en utilisant Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -97,4 +97,4 @@ shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

@@ -20,8 +20,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **CompactTree stili Organizasyon Şeması Programlama Örneği Oluşturma**
 Aspose.Diagram kullanarak bir CompactTree tarzı Organizasyon Şeması oluşturmak için aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_CompactTreeChart();
@@ -83,7 +83,7 @@ diagram.Pages[pageNumber].Layout(compactTreeOptions);
 diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Sonuç**|
 |:- |
@@ -102,8 +102,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Akış Şeması stili Organizasyon Şeması Programlama Örneği oluşturun**
 Aspose.Diagram kullanarak bir Akış Şeması stili Organizasyon Şeması oluşturmak için aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_FlowChart();
@@ -164,7 +164,7 @@ diagram.Pages[pageNumber].Layout(flowChartOptions);
 diagram.Save(dataDir + "FlowChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Sonuç**|
 |:- |

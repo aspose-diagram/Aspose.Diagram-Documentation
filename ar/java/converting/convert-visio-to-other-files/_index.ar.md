@@ -58,8 +58,8 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 
 ![ما يجب القيام به: image_بديل_نص](http://i.imgur.com/E6pUvGD.jpg)
 ### **التصدير إلى نموذج برمجة XML**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToXML.class);
@@ -82,7 +82,7 @@ diagram.save(dataDir + "ExportToXML_Out.vsx", SaveFileFormat.VSX);
 diagram.save(dataDir + "ExportToXML_Out.vtx", SaveFileFormat.VTX);
 
 {{< /highlight >}}
-```
+
 ## **تصدير الى XPS**
  يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  استخدم ال[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) مُنشئ class لقراءة ملفات diagram وطريقة Save لتصدير diagram إلى أي تنسيق صورة مدعوم.
@@ -104,8 +104,8 @@ diagram.save(dataDir + "ExportToXML_Out.vtx", SaveFileFormat.VTX);
 
 ![ما يجب القيام به: image_بديل_نص](http://i.imgur.com/1ESRxSy.png)
 ### **التصدير إلى عينة برمجة XPS**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToXPS.class);
@@ -117,7 +117,7 @@ Diagram diagram = new Diagram(dataDir+ "ExportToXPS.vsd");
 diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
 
 {{< /highlight >}}
-```
+
 ## **تصدير Diagram إلى SVG**
  تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -130,8 +130,8 @@ diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
 ### **تصدير عينة برمجية من Diagram إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToSVG.class);
@@ -143,7 +143,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
 diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 ## **تصدير Diagram إلى XAML**
 تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XAML (لغة ترميز التطبيق الموسعة) باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -156,8 +156,8 @@ diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
 ### **التصدير إلى عينة برمجة XAML**
 يوضح نموذج الكود كيفية تصدير diagram إلى XAML باستخدام Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToXAML.class); 
@@ -169,7 +169,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
 diagram.save(dataDir + "ExportToXAML_Out.xaml", SaveFileFormat.XAML);
 
 {{< /highlight >}}
-```
+
 
 ## **تحويل Visio الرسم بأشكال انتقائية**
 باستخدام Aspose.Diagram API ، يمكن للمطورين تحديد مجموعة من الأشكال لتحويل رسم Visio إلى أي تنسيق مدعوم آخر. تقدم فئة RenderingSaveOptions عضو الأشكال للحفاظ على مجموعة الأشكال. كل فئة خيار حفظ هي الشكل الممتد لفئة RenderingSaveOptions.
@@ -182,8 +182,8 @@ diagram.save(dataDir + "ExportToXAML_Out.xaml", SaveFileFormat.XAML);
 ### **تحويل Visio الرسم باستخدام عينة برمجة لأشكال انتقائية**
 يوضح نموذج التعليمات البرمجية كيفية تصدير رسم بأشكال انتقائية Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ConvertVisioWithSelectiveShapes.class) + "LoadSaveConvert\\";
 		
@@ -201,4 +201,3 @@ shapes.add(diagram.getPages().get(0).getShapes().getShape(2));
 // save Visio drawing
 diagram.save(dataDir + "SelectiveShapes_out.svg", options);
 {{< /highlight >}}
-```

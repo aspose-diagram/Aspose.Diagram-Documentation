@@ -18,8 +18,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Temayı bir şekle ayarla Programlama Örneği**
 Aspose.Diagram for Java kullanarak konektör tipi şeklinin görünümünü ayarlamak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -59,4 +59,4 @@ page3.setPresetThemeQuickStyle (PresetQuickStyleValue.VARIANT_STYLE_3);
 diagram.save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

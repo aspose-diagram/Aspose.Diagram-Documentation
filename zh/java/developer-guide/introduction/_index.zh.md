@@ -26,8 +26,8 @@ getTimeCreated()、getTimeEdited()、getTimePrinted() 和 getTimeSaved() 方法�
 
 ![待办事项：图片_替代_文本](introduction_1.png)
 #### **编程范例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetLibraryVersion.class);
@@ -47,7 +47,7 @@ System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePr
 System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
 
 {{< /highlight >}}
-```
+
 ## **写作 Microsoft Visio 文档摘要信息**
 Microsoft Visio 允许您定义许多文档摘要信息属性，以帮助您和您的同事识别 diagram。摘要属性，例如标题、主题、作者和描述，使文件在搜索时更容易找到，在浏览时更容易识别文件。
 
@@ -74,8 +74,8 @@ Microsoft Visio 允许您定义许多文档摘要信息属性，以帮助您和�
 
 ![待办事项：图片_替代_文本](introduction_2.png)
 #### **编程范例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioProperties.class);
@@ -99,14 +99,14 @@ diagram.getDocumentProps().setTemplate("Aspose Template");
 diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **检测 Visio 文件的格式**
 使用[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API，开发者可以在打开Visio文件前检测其格式，因为文件扩展名并不能保证文件内容是合适的。
 ### **检测格式编程示例**
 以下示例代码说明了如何检测文件格式（使用文件路径或流）并检查其扩展名。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
@@ -118,14 +118,14 @@ String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
 		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 ## **从 InputStream 检测 Visio 文件的格式**
 使用 Aspose.Diagram for Java API，开发人员可以通过传递输入流来检测 Visio 文件的格式。 FileFormatUtil 类的 detectFileFormat 方法可用于实现此目的。
 ### **从 InputStream 编程示例中检测格式**
 以下示例代码说明了如何使用输入流检测文件格式。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -139,4 +139,4 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+

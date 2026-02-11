@@ -18,8 +18,8 @@ Die Eigenschaften ProtectBkgnds, ProtectMasters, ProtectShapes und ProtectStyles
 #### **Bearbeiten Sie das Diagram Protection Programming Sample**
 Verwenden Sie den folgenden Code in einer .NET-Anwendung, um dieselben Aufgaben wie das Sperren und Entsperren verschiedener Elemente der Visio diagram mit Aspose.Diagram for .NET API auszuführen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Stellen Sie den Schutz der Form Visio ein**
  Durch das Schützen von Visio-Formen können Benutzer bestimmte Aspekte von Formen sperren. Zu den Aspekten von Formen, die durch Formschutz gesperrt werden können, gehören Breite, Höhe, x-Position, y-Position, Rotation und mehr. Entwickler können dies mit erreichen[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Bearbeiten Sie den Formschutz Visio**
@@ -51,8 +51,8 @@ In Microsoft Office Visio kann der Benutzer die folgenden Aktionen ausführen, u
 ### **Bearbeiten Sie das Shape Protection-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um mit Aspose.Diagram for .NET dasselbe zu tun (beliebiges Formattribut sperren/entsperren).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

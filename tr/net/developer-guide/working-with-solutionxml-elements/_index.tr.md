@@ -10,8 +10,8 @@ description: Bu bölüm, solutionXml öğesinin nasıl ekleneceğini veya Aspose
 
  bu[ÇözümXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) class, Visio çizimlerinde SolutionXML öğesini temsil eder. Tarafından sunulan Add yöntemi[ÇözümXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) class, bir SolutionXML öğesi eklemeye izin verir.
 ### **SolutionXML Elemanı Programlama Örneği Ekleme**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_SolutionXML();
@@ -32,14 +32,14 @@ diagram.SolutionXMLs.Add(solXML);
 diagram.Save(dataDir + "AddSolutionXMLElement_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **SolutionXML Öğesinden XML Değerlerini Okuma**
 SolutionXML, kalıcı çözüm verileri için standartlaştırılmış bir araç sağlayan bir SolutionXML öğesinin içinde yer alan iyi biçimlendirilmiş XML'dir. Kullanıcılar, kullanarak SolutionXML öğesinden XML değerlerini okuyabilir.[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 
  Tarafından sunulan SolutionXMLs özelliği[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) sınıfı, Aspose.Diagram.SolutionXML nesne koleksiyonunu destekler. Bu özellik, SolutionXML öğesinden XML değerlerini okumak için kullanılabilir.
 ### **Okuma ÇözümüXML Elemanı Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_SolutionXML();
@@ -57,4 +57,4 @@ foreach (SolutionXML solutionXML in diagram.SolutionXMLs)
 }
 
 {{< /highlight >}}
-```
+

@@ -8,8 +8,8 @@ description: كيفية إنشاء وإدخال الحقول باستخدام C#
 ## **أدخل الحقل**
  يتيح لك Aspose.Diagram for .NET الإنشاء والإدراج[مجال](https://reference.aspose.com/diagram/net/aspose.diagram/field) إلى Microsoft Visio الرسوم البيانية من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office.
 ### **عينة البرمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_InsertField();
@@ -31,4 +31,4 @@ shape.Fields.Add(fld);
 diagram.Save(dataDir + "InsertField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

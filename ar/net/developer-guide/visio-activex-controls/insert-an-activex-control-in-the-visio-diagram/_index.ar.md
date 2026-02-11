@@ -13,8 +13,8 @@ description: توضح هذه الصفحة كيفية إدراج عنصر تحك�
 ## **أدخل نموذج برمجة عنصر تحكم ActiveX**
 [صفحة](http://www.aspose.com/api/net/diagram/aspose.diagram/page) تقدم class طريقة AddActiveXControl وتسمح للمطورين بإدراج أي نوع من عناصر تحكم ActiveX مثل زر الأمر ومربع التحرير والسرد ومربع الاختيار ومربع القائمة ومربع النص وزر الدوران وزر الاختيار والتسمية والصورة وزر التبديل وشريط التمرير.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -26,4 +26,4 @@ diagram.Pages[0].AddActiveXControl(ControlType.Image, 1, 1, 1, 1);
 diagram.Save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

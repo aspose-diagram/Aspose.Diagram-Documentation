@@ -30,8 +30,8 @@ El siguiente código de ejemplo explica el uso de[**InterrumpirMonitor**](https:
 {{< /highlight >}}
 
 ## **Código de muestra**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 static string outputDir = RunExamples.Get_OutputDirectory();
 
 //Create InterruptMonitor object
@@ -84,4 +84,4 @@ public static void Run()
     Console.WriteLine("Interrupt successfully.");
 }
 {{< /highlight >}}
-```
+

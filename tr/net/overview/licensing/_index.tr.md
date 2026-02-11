@@ -43,8 +43,8 @@ Bu basit kuralları takip edin:
 #### **Dosyadan Lisans Yükleme**
 Bu kod parçacığı, bir dosyada veya katıştırılmış bir kaynakta depolanan bir lisansı başlatır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -53,12 +53,12 @@ License license = new License();
 license.SetLicense(dataDir + "Aspose.Diagram.lic");
 
 {{< /highlight >}}
-```
+
 #### **Akış Nesnesinden Lisans Yükleme**
 Bu kod parçacıkları, lisansı akıştan başlatır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -69,17 +69,17 @@ License license = new License();
 license.SetLicense(LicStream);
 
 {{< /highlight >}}
-```
+
 ## **Tarifeli Lisansı Uygula**
 Aspose.Diagram for .NET API, geliştiricilerin ölçülü lisans uygulamasına olanak tanır. Yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması, mevcut lisanslama yöntemiyle birlikte kullanılacaktır. API özelliğinin kullanımına göre faturalandırılmak isteyen müşterilerimiz tarifeli lisanslamayı kullanabilirler. Daha fazla ayrıntı için lütfen bkz.[Ölçülü Lisanslama SSS](https://purchase.aspose.com/faqs/licensing/metered)bölüm.
 
 yeni bir sınıf[ölçülü](https://reference.aspose.com/diagram/net/aspose.diagram/metered)ölçülü anahtarı uygulamak için eklendi. Bu kod örneği, ölçülü genel ve özel anahtarların nasıl ayarlanacağını gösterir:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // Initialize a Metered license class object
 Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
 // apply public and private keys
 metered.SetMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

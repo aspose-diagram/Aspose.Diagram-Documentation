@@ -12,8 +12,8 @@ description: يوضح هذا القسم كيفية تحديث الحقول.
 
 ### **عينة البرمجة**
 يقوم الجزء التالي من التعليمات البرمجية بتحديث حقل في الشكل.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ Aspose.Diagram لـ Python via Java API يسمح للمطورين بتنسيق �
 ## **تطبيق أوراق الأنماط على Visio صفحة**
 Aspose.Diagram لـ Python via Java API يتيح لك تنسيق صفحة Visio باستخدام Stylesheets. يمكنك تعريف ورقة أنماط وإضافتها إلى مجموعة ورقة أنماط الوثيقة Visio. تتيح لك طريقة `applyStyle` لفئة `Page` تطبيق ورقة الأنماط المحددة على الصفحة كما هو موضح في نموذج التعليمات البرمجية التالي.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -57,4 +57,4 @@ vsdDiagram.save("ApplyStyleToVisioDiagramPage_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

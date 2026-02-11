@@ -12,8 +12,8 @@ description: Bu bölümde, Microsoft Office Visio'in üstbilgilerinin ve altbilg
 #### **Programlama Örneği**
 Aşağıdaki kod parçası, Üst Bilgiler ve Alt Bilgiler özelliklerini yönetmeye yardımcı olur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_HeadersAndFooters();
@@ -50,4 +50,4 @@ diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False;
 diagram.Save(dataDir + "ManageHeadersandFooters_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

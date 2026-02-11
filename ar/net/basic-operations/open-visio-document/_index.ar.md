@@ -16,8 +16,8 @@ Aspose.Diagram API يدعم تكوين الرسوم التخطيطية Visio ا�
 
 يوفر مُنشئو الفئة diagram أيضًا معلمة اختيارية تحدد LoadFileFormat أو LoadOptions. إنها معلومات التحميل المسبق التي يمكن للمطورين تمريرها إلى Aspose.Diagram API. نوصي بتمرير المعلومات الواقعية للحصول على أداء مثالي.
 ## **قراءة Diagram عينة البرمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -44,4 +44,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

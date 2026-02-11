@@ -10,8 +10,8 @@ The [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) object rep
 ## **Insert Image in Visio**
 Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -27,13 +27,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Insert Image in SVG**
 Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as SVG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **Insert Image in PNG**
 Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PNG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **Insert Image in PDF**
 Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **Insert Image in HTML**
 Aspose.Diagram for .NET API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as HTML format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -115,4 +115,4 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

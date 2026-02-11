@@ -12,8 +12,8 @@ description: Bu bölümde visio dosyasının nasıl birleştirileceği açıklan
 Yöntemi kullanma[**birleştir**](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#combine(com.aspose.diagram.Diagram) ) içinde[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) diyagramları birleştirmek için sınıf.
 
 ## **Basit kod**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CombineDiagram.class);
@@ -30,4 +30,4 @@ diagram2.combine(diagram);
 diagram.save(dataDir + "CombineDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

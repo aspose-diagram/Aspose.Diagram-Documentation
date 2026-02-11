@@ -10,8 +10,8 @@ description: В этом разделе объясняется, как полу�
 #### **Пример программирования извлечения унаследованных данных заполнения**
 Следующий фрагмент кода извлекает унаследованные данные заливки фигуры. Пожалуйста, проверьте этот пример кода:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -39,5 +39,5 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+
 

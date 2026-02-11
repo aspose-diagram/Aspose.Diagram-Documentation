@@ -12,8 +12,8 @@ Fältobjektet representerar textfält i en textkörning. Fältegenskapen, expone
 
 ### **Programmeringsexempel**
 Följande kod uppdaterar ett fält i form.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

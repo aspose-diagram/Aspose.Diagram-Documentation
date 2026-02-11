@@ -27,8 +27,8 @@ Use the following code in your .NET application to calculate PinX and PinY value
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -56,7 +56,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **Setting Height and Width of a Shape**
 The [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Class allows you to control the shape size by specifying height and width of the shape using SetHeight and SetWidth methods.
 
@@ -72,8 +72,8 @@ The process for setting Height and Width is:
 ### **Setting Height and Width Programming Sample**
 The code snippet below shows how to set the shape's height and width. The code looks for a shape name rectangle, with the shape ID 1, and sets its Height and Width as double.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -91,4 +91,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

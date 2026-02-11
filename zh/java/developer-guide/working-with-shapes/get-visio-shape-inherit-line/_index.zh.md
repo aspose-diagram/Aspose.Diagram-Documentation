@@ -10,8 +10,8 @@ Visio 形状可以继承父样式和主形状。开发者可以获取或设置�
 #### **检索继承的行数据编程示例**
 以下代码片段检索形状的继承线数据。请检查此示例代码：
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

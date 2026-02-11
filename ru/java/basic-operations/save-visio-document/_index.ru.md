@@ -16,8 +16,8 @@ description: На этой странице описывается, как со�
 ### **Сохранение Diagram Пример программирования**
 В приведенном ниже примере документ сохраняется в файл.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioDiagram.class);
@@ -34,7 +34,7 @@ diagram.save(dataDir + "SaveVisioDiagram_Out.vsdx", SaveFileFormat.VSDX);
 		ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+
 ## **Указание Visio параметров сохранения**
  Есть несколько[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)перегрузки методов, которые принимают объект SaveOptions. Это должен быть объект класса, производного от класса SaveOptions. У каждого формата сохранения есть соответствующий класс, который содержит параметры сохранения для этого формата сохранения, например, есть PdfSaveOptions для формата сохранения SaveFileFormat.PDF.
 ### **Visio Diagram Параметры сохранения**
@@ -48,8 +48,8 @@ diagram.save(dataDir + "SaveVisioDiagram_Out.vsdx", SaveFileFormat.VSDX);
 #### **Использование параметров сохранения Diagram**
 В приведенном ниже коде показано, как установить параметры сохранения перед сохранением документа в формате Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseDiagramSaveOptions.class);
@@ -75,15 +75,15 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "UseDiagramSaveOptions_Out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Использование параметров сохранения PDF**
 В приведенном ниже коде показано, как установить параметры сохранения перед сохранением документа в формате PDF.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);    
@@ -126,15 +126,15 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UsePDFSaveOptions_Out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Использование параметров сохранения HTML**
 В приведенном ниже коде показано, как установить параметры сохранения перед сохранением документа в формате HTML.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseHTMLSaveOptions.class);
@@ -176,15 +176,15 @@ ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 diagram.save(dstStream, SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Использование параметров сохранения изображения**
 В приведенном ниже коде показано, как установить параметры сохранения перед сохранением документа в формате изображения.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseImageSaveOptions.class); 
@@ -253,12 +253,12 @@ options.setTiffCompression(TiffCompression.CCITT_3);
 diagram.save(dataDir + "UseImageSaveOptions_Out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Использование параметров сохранения SVG**
 В приведенном ниже коде показано, как установить параметры сохранения перед сохранением документа в формате SVG.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseSVGSaveOptions.class);
@@ -282,4 +282,4 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UseSVGSaveOptions_Out.svg", options);
 
 {{< /highlight >}}
-```
+

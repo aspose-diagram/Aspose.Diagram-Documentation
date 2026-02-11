@@ -15,8 +15,8 @@ Aspose.Diagram for Java позволяет настраивать объекты
 
 Следующий фрагмент кода помогает добавлять, удалять и перемещать свойства объектов формы.
 #### **Примеры программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Добавьте слой на странице Visio.**
 Aspose.Diagram for Java позволяет разработчикам добавлять новые слои для организации пользовательских категорий фигур, а затем программно назначать фигуры этим слоям.
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java позволяет разработчикам добав
 
 Следующий фрагмент кода помогает добавить объекты слоя.
 #### **Примеры программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java предоставляет разработчикам д
 
 Следующий фрагмент кода помогает получить список слоев.
 #### **Примеры программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

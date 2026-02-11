@@ -14,8 +14,8 @@ description: В этом разделе объясняется, как пров�
 ### **Пример программирования установки размера страницы**
 Следующий фрагмент кода автоматически расширяет страницу проверки из файла diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -34,4 +34,4 @@ page.PageSheet.PageProps.DrawingResizeType.Value = DrawingResizeTypeValue.NotAut
 diagram.Save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -18,8 +18,8 @@ description: 本节介绍如何使用 Aspose.Diagram 获取粘附到特定形状
 #### **获取连接器粘合编程示例**
 在您的 .NET 应用程序中使用以下代码来查找使用 Aspose.Diagram for .NET 粘附到形状上的所有连接器。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (long id in gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **将 Visio 形状与连接点粘合在一起**
 Aspose.Diagram for .NET 允许开发人员通过连接点将形状粘合在一起。
 ### **胶水形状**
@@ -55,8 +55,8 @@ Aspose.Diagram for .NET 允许开发人员通过连接点将形状粘合在一�
 #### **胶水 Visio 形状编程示例**
 在您的 .NET 应用程序中使用以下代码通过连接点粘合形状：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -76,7 +76,7 @@ page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Cent
 diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **在容器内粘贴形状**
 Aspose.Diagram for .NET 使开发人员能够将组形状粘附在容器内。
 ### **胶团形状**
@@ -92,8 +92,8 @@ Aspose.Diagram for .NET 使开发人员能够将组形状粘附在容器内。
 #### **编程示例中的胶水形状**
 在 .NET 应用程序中使用以下代码将组形状粘附在容器内：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,4 +123,4 @@ page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.Save(dataDir + "GlueContainerShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

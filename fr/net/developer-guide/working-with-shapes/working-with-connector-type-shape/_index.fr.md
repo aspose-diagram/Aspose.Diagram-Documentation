@@ -20,8 +20,8 @@ Le code ci-dessous montre comment :
 #### **Définir l'apparence du connecteur Exemple de programmation**
 Utilisez le code suivant dans votre application .NET pour définir l'apparence de la forme du type de connecteur à l'aide de Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Sélectionnez l'option de réacheminement de la forme du connecteur**
  La propriété ConFixedCode exposée par le[Disposition](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) class peut être utilisé pour sélectionner l'option de réacheminement. La propriété Layout, exposée par le[Forme](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) classe, sera utilisé.
 
@@ -54,8 +54,8 @@ Le code ci-dessous montre comment :
 ### **Sélectionner l'exemple de programmation de l'option de réacheminement**
 Utilisez le code suivant dans votre application .NET pour sélectionner l'option de réacheminement de la forme du connecteur à l'aide de Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -74,4 +74,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

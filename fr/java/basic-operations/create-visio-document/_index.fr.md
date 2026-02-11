@@ -11,8 +11,8 @@ Aspose.Diagram for Java vous permet de lire et de créer des diagrammes Microsof
 ### **Créer un exemple de programmation de dessin Visio**
 Le code ci-dessous montre comment créer un nouveau dessin Microsoft Visio. Veuillez noter que le dessin vierge contient une seule page vide.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -23,7 +23,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

@@ -18,8 +18,8 @@ Aspose.Diagram for Java fournit un mécanisme pour définir les en-têtes et les
 
 Le morceau de code suivant permet de gérer les propriétés des en-têtes et des pieds de page.
 #### **Exemples de programmation**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ManageHeadersandFooters.class);
@@ -55,4 +55,4 @@ diagram.getHeaderFooter().getHeaderFooterFont().setUnderline(BOOL.FALSE);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -11,8 +11,8 @@ url: /fr/java/working-with-text-boxes/
 ### **Exemple de programmation de format de texte**
 Le morceau de code suivant définit la direction, l'alignement, les marges, la couleur d'arrière-plan, la transparence de la couleur d'arrière-plan et la position de taquet de tabulation par défaut de l'angle d'orientation et la position du texte de la forme en haut.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FormatShapeTextBlockSection.class); 
@@ -47,7 +47,7 @@ shape.getTextBlock().getDefaultTabStop().setValue(2);
 diagram.save(dataDir + "FormatShapeTextBlockSection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Faire pivoter et définir la position du texte de la forme**
 Aspose.Diagram API permet aux développeurs d'ajuster la position du texte et également de faire pivoter le texte sur la forme Visio. Pour accomplir cette tâche, la section des transformations de texte sur la feuille de formes fournit les propriétés TxtPin, TxtLocPin, TxtWidth et TxtHeight. Les développeurs peuvent interagir avec ces propriétés par programmation en utilisant Aspose.Diagram API.
 
@@ -60,8 +60,8 @@ La section des transformations de texte contient les informations de position su
 ### **Définir la position du texte de la forme en haut**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme en haut.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtTop.class);   
@@ -85,12 +85,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtTop_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Définir la position du texte de la forme en bas**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme en bas.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtBottom.class);  
@@ -114,12 +114,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtBottom_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Définir la position du texte de la forme à gauche**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme à gauche.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtLeft.class);  
@@ -142,12 +142,12 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtLeft_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Définir la position du texte de la forme à droite**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme à droite.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtRight.class);  
@@ -171,4 +171,4 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtRight_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

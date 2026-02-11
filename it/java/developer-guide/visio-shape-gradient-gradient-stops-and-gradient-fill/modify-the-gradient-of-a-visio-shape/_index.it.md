@@ -12,8 +12,8 @@ Utilizzando Aspose.Diagram API, gli sviluppatori possono migliorare l'aspetto di
 ## **Modificare l'esempio di programmazione del riempimento sfumato**
 [Forma](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)offre la proprietà Fill che consente agli sviluppatori di recuperare un file[GradientFill](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill)oggetto. La classe GradientFill contiene i dati del gradiente di una forma Visio. Gli sviluppatori possono impostare tutte le sue proprietà disponibili e recuperare un gradiente in base all'indice per impostare le proprietà di colore e posizione.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -37,4 +37,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

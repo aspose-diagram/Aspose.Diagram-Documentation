@@ -12,8 +12,8 @@ Aspose.Diagram 允许您将两个 visio 文件合并为一个。
 使用方法[**结合**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram/methods/combine)在[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)组合图表的类。
 
 ## **示例代码**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -29,4 +29,4 @@ diagram2.Combine(diagram);
 newDiagram.Save(dataDir + "out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

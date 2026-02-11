@@ -12,8 +12,8 @@ Python via Java API için Aspose.Diagram, bir Visio çizimini temsil eden Diagra
 Yöntemi kullanma**birleştir** Diagram sınıfında diyagramları birleştirmek için.
 
 ## **Basit kod**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,4 +36,4 @@ diagram2.save("CombineDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

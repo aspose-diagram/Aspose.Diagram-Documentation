@@ -11,8 +11,8 @@ Mit Aspose.Diagram for .NET können Sie Microsoft Visio Diagramme aus Ihren eige
 ## **Programmierbeispiel Visio Zeichnen erstellen**
 Der folgende Code zeigt, wie eine neue Microsoft Visio-Zeichnung erstellt wird. Bitte beachten Sie, dass die leere Zeichnung eine einzelne leere Seite enthält.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

@@ -19,8 +19,8 @@ Aspose.Diagram API'ler, bir sayfada ve birden çok belgede şekillere tekdüze b
 - Temayı ayarlamak için bir Sayfa sınıfı örneği alın
 - Sayfa örneğinin PresetTheme özelliğine bir Preset değeri atayın
 #### **Bir Sayfa Programlama Örneğine Önceden Ayarlanmış Bir Tema Uygulama**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -34,7 +34,7 @@ page.setPresetTheme(PresetThemeValue.BUBBLE);
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Bir Sayfaya Hazır Tema Uygulamanın Sonucu**|
 |:- |
@@ -51,8 +51,8 @@ Aspose.Diagram API'ler, bir sayfada ve birden çok belgede şekillere tekdüze b
 
 #### **Bir Sayfa Programlama Örneğine Önceden Ayarlanmış Bir Tema Varyantı Uygulayın**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -67,7 +67,7 @@ page.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Sayfaya Önceden Ayarlanmış Bir Tema Varyantı Uygulamanın Sonucu**|
 |:- |
@@ -83,8 +83,8 @@ Aspose.Diagram API'ler, bir sayfadaki bir şekle önceden ayarlanmış bir teman
 
 #### **Şekil Programlama Örneğine Hazır Ayar Teması Uygulama**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -97,7 +97,7 @@ shape.setPresetTheme(PresetThemeValue.BUBBLE);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Şekle Hazır Ayar Teması Uygulamanın Sonucu**|
 |:- |
@@ -114,8 +114,8 @@ Aspose.Diagram API'ler, bir sayfa içindeki bir şekle önceden ayarlanmış bir
 
 #### **Bir Şekil Programlama Örneğine Önceden Ayarlanmış Bir Tema Varyantı Uygulayın**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -130,7 +130,7 @@ shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Şekle Hazır Ayar Tema Varyantı Uygulamanın Sonucu**|
 |:- |
@@ -148,8 +148,8 @@ Aspose.Diagram API'ler, bir sayfa içindeki bir şekle önceden ayarlanmış bir
 
 #### **Bir Şekil Programlama Örneğine Hazır Ayar Tema Varyantı Hızlı Stili Uygulama**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -166,7 +166,7 @@ shape.setPresetThemeQuickStyle(PresetQuickStyleValue.VARIANT_STYLE_2);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Şekle Hazır Ayar Tema Varyantı Hızlı Stili Uygulamanın Sonucu**|
 |:- |
@@ -184,8 +184,8 @@ Aspose.Diagram API'ler, bir sayfa içindeki bir şekle önceden ayarlanmış bir
 
 #### **setPresetThemeStyleMatrics Yöntemi Programlama Örneği Kullanarak Bir Şekle Hazır Ayar Tema Stili Uygulama**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -202,7 +202,7 @@ shape.setPresetThemeStyleMatrics(PresetStyleMatricsValue.STYLE_2, PresetColorMat
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**SetPresetThemeStyleMatrics Yöntemini Kullanarak Bir Şekle Ön Ayarlı Tema Stili Uygulamanın Sonucu** |
 |:----------------------------------------------------------- |

@@ -16,8 +16,8 @@ Aspose.Diagram API поддерживает создание новых диаг
 
 Конструкторы класса diagram также предлагают необязательный параметр, определяющий LoadFileFormat или LoadOptions. Это информация о предварительной загрузке, которую разработчики могут передавать по телефону Aspose.Diagram API. Мы рекомендуем передавать реалистичную информацию для достижения идеальной производительности.
 #### **Чтение Diagram Пример программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadVisioDiagram.class);   
@@ -45,4 +45,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

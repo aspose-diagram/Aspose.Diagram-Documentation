@@ -11,8 +11,8 @@ description: В этом разделе объясняется, как обно�
 [Поле](https://reference.aspose.com/diagram/net/aspose.diagram/field) объект представляет собой текстовое поле в[текст](https://reference.aspose.com/diagram/net/aspose.diagram/text) бегать. Свойство поля, представленное[Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class поддерживает набор объектов Aspose.Diagram.Field.
 ### **Образец программирования**
 Следующий фрагмент кода обновляет поле в shape.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Удалить поле**
 Следующий фрагмент кода удаляет поле в форме.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -20,8 +20,8 @@ description: В этом разделе объясняется, как наст�
 #### **Пример программирования внешнего вида коннектора**
 Используйте следующий код в своем приложении .NET, чтобы настроить внешний вид формы типа соединителя, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Выберите вариант перенаправления формы соединителя**
  Свойство ConFixedCode, предоставляемое[Макет](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) класс можно использовать для выбора варианта перенаправления. Свойство Layout, предоставляемое[Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) класс, будет использоваться.
 
@@ -54,8 +54,8 @@ diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 ### **Пример программирования выбора варианта перенаправления**
 Используйте следующий код в своем приложении .NET, чтобы выбрать параметр повторной маршрутизации формы соединителя, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -74,4 +74,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

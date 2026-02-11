@@ -39,8 +39,8 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **تصدير Microsoft Visio رسم إلى PDF**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى PDF باستخدام C#.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -63,12 +63,12 @@ pdfStream.Close();
 System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
 
 {{< /highlight >}}
-```
+
 ### **تقسيم عدة صفحات**
 Aspose.Diagram for .NET يسمح بتقسيم صفحات متعددة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الكود التالي الوظيفة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -82,12 +82,12 @@ options.SplitMultiPages = true;
 diagram.Save(dataDir + "SplitMultiPages.pdf", options);
 
 {{< /highlight >}}
-```
+
 ### **استخدم استدعاء حفظ الصفحة**
 في حالة وجود صفحات متعددة ، يسمح Aspose.Diagram for .NET باستخدام رد اتصال حفظ الصفحة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الشفرة التالي الوظيفة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -101,7 +101,7 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "PageSavingCallback.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **فئة TestDiagramPageSavingCallback**
 {{< highlight "java" >}}
 

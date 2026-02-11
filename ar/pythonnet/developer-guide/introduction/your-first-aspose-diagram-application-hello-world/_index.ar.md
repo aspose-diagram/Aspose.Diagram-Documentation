@@ -32,10 +32,36 @@ url: /ar/python-net/your-first-aspose-diagram-application-hello-world/
 
 ![ما يجب القيام به: image_بديل_نص](your-first-aspose-diagram-application-hello-world_1.png)
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingNewVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram()
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 #### **فتح ملف موجود**
 
 يفتح المثال التالي ملف قالب Microsoft Visio موجود ، ويكتب الكلمات "Hello World!" في الصفحة الأولى ، ويحفظ diagram كملف جديد.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingHelloWorldVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+diagram = Diagram(os.path.join(sourceDir, "Basic Shapes.vss"))
+
+#// Add a new hello world rectangle shape
+shapeId = diagram.add_shape(4.25, 5.5, 2, 1, "Rectangle", 0)
+shape = diagram.pages[0].shapes.get_shape(shapeId)
+shape.text.value.add(Txt("Hello World"))
+
+#// Save diagram in the VSDX format
+diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+

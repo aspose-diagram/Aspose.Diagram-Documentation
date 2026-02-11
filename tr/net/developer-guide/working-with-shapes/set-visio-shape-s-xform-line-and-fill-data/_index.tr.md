@@ -15,8 +15,8 @@ XForm verilerini güncelleme işlemi şu şekildedir:
 ### **Programlama Örneği**
 Aşağıdaki kod parçacığı, bir şeklin XForm verilerinin nasıl güncelleneceğini gösterir. Kod, şekil kimliği 1 olan bir şekil adları sürecini arar ve X ve Y koordinatlarını 5 olarak ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,7 +37,7 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklin Çizgi Verisini Ayarla**
 Şekiller çeşitli şekillerde biçimlendirilebilir. Bu makale, bir satırın özniteliklerinin nasıl belirtileceğini gösterir.
 
@@ -56,8 +56,8 @@ Microsoft Visio, kullanıcıların satırları çeşitli şekillerde biçimlendi
 #### **Hat Veri Programlama Örneği**
 Aşağıdaki kod parçası, şeklin satır verilerini günceller.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -93,7 +93,7 @@ shape.Line.EndArrowSize.Value = ArrowSizeValue.Large;
 diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklin Dolgu Verisini Ayarla**
  Şekiller çeşitli şekillerde biçimlendirilebilir. Bu konu, bir şeklin dolgusunun nasıl belirtileceğini açıklar. Microsoft Office Visio, kullanıcıların dolguları çeşitli şekillerde biçimlendirmesine olanak tanır. bu[Doldurmak](http://www.aspose.com/api/net/diagram/aspose.diagram/fill) Aspose.Diagram for .NET API sınıfı ayarı destekler:
 
@@ -106,8 +106,8 @@ diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 #### **Veri Programlama Örneği Doldur**
 Aşağıdaki kod parçacığı, bir şeklin dolgu verilerini günceller. Kod, şekil kimliği 1 olan dikdörtgen adlı bir şekli arar ve dolgu arka planını ve ön plan renklerini ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -128,14 +128,14 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetFillData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Visio Şeklinin Miras Alınan Dolgu Verilerini Alma**
  Visio şekilleri, ana stili ve ana şekli devralabilir. Geliştiriciler, bir Visio şeklinin devralma dolgu verilerini alabilir veya ayarlayabilir. Tarafından sunulan InheritFill özelliği[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, ana stil ve ana şekil tarafından devralınan şeklin dolgu biçimlendirme değerlerini içerir.
 #### **Devralınan Doldurma Verilerini Al Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin devralınan dolgu verilerini alır. Lütfen bu örnek kodu kontrol edin:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -163,4 +163,4 @@ Console.WriteLine(shape.InheritFill.ShdwForegndTrans.Value);
 Console.WriteLine(shape.InheritFill.ShdwPattern.Value);
 
 {{< /highlight >}}
-```
+

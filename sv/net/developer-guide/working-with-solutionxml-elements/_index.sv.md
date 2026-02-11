@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur man lägger till solutionXml elle
 
  De[SolutionXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) klass representerar SolutionXML-elementet i Visio-ritningar. Add-metoden, exponerad av[SolutionXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) klass, gör det möjligt att lägga till ett SolutionXML-element.
 ### **Lägg till SolutionXML Element Programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_SolutionXML();
@@ -32,14 +32,14 @@ diagram.SolutionXMLs.Add(solXML);
 diagram.Save(dataDir + "AddSolutionXMLElement_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Läser XML-värden från SolutionXML-elementet**
 SolutionXML är välformaterad XML som ingår i ett SolutionXML-element som tillhandahåller ett standardiserat sätt att bevara lösningsdata. Användarna kan läsa XML-värden från SolutionXML-elementet med hjälp av[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 
  SolutionXMLs-egenskapen, exponerad av[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) klass, stöder en samling Aspose.Diagram.SolutionXML-objekt. Den här egenskapen kan användas för att läsa XML-värdena från SolutionXML-elementet.
 ### **Läser SolutionXML Element Programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_SolutionXML();
@@ -57,4 +57,4 @@ foreach (SolutionXML solutionXML in diagram.SolutionXMLs)
 }
 
 {{< /highlight >}}
-```
+

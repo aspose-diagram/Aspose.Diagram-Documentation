@@ -13,8 +13,8 @@ url: /sv/java/working-with-window-elements/
 
 ![todo:image_alt_text](http://i.imgur.com/zduARGh.png)
 ### **Hämta programmeringsexempel för fönsterelement**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveWindowElementsOfDiagram.class);    
@@ -31,14 +31,14 @@ for (Window window :(Iterable<Window>) diagram.getWindows())
 }
 
 {{< /highlight >}}
-```
+
 ## **Lägg till Window Element till Visio Diagram**
  Huvudapplikationsfönstret Visio kan innehålla alla öppna Visio-filer, på samma sätt som moderna webbläsare tillåter flera webbsidor med flikar i ett fönster. Utvecklare kan nu lägga till ett nytt Window-objekt i en Microsoft Visio-instans med hjälp av[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
 Window-objektet representerar ett öppet fönster i en Microsoft Visio-instans. Add-metoden, exponerad av WindowCollection-klassen, tillåter att lägga till ett nytt Window-objekt.
 ### **Lägg till programmeringsexempel för fönsterelement**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWindowElementInVisio.class); 
@@ -61,7 +61,7 @@ diagram.getWindows().add(window);
 diagram.save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Lägg till stöd för dynamiska nät och anslutningspunkter**
 Det dynamiska rutnätet hjälper dig att placera nya former vertikalt och horisontellt i förhållande till de former du redan har placerat i ritningen. När det gäller anslutningspunkterna, när de är markerade som markerade, kommer det att hjälpa oss att se anslutningspunkterna när vi håller på att ansluta till dem. Vi kan uppnå båda alternativen med hjälp av[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 ### **Stöd för dynamiska nät och anslutningspunkter i Visio-ritningarna**
@@ -71,8 +71,8 @@ Window-klassen erbjuder egenskaperna DynamicGridEnabled och ShowConnectionPoints
 
 ![todo:image_alt_text](http://i.imgur.com/bxsJIwF.png)
 #### **Lägg till supportprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSupportOfVisualAids.class);
@@ -90,7 +90,7 @@ window.setShowConnectionPoints(BOOL.TRUE);
 diagram.save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visa och dölj rutnät, linjaler, guider och sidbrytningar i Visio Diagram**
  Microsoft Office Visio har ett par linjaler, ett rutnät och två typer av stödlinjer och sidbrytningsflagga för att se vad som kommer att skrivas ut på varje sida. Utvecklare kan tillämpa dessa inställningar med hjälp av[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/)Inställningarna gäller globalt för en enda sida.
 
@@ -100,8 +100,8 @@ Window-klassen erbjuder egenskaperna ShowGrid, ShowGuides, ShowRulers och ShowPa
 
 ![todo:image_alt_text](http://i.imgur.com/E0pvXbP.png)
 ### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DisplayGridsRulersGuidesAndPageBreaks.class);     
@@ -123,4 +123,4 @@ window.setShowPageBreaks(BOOL.TRUE);
 diagram.save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

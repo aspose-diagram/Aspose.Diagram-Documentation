@@ -18,8 +18,8 @@ Las propiedades TimeCreated, TimeEdited, TimePrinted y TimeSaved expuestas por l
 
 También puede configurar estas propiedades para cambiar la información en el archivo. Los ejemplos de código a continuación muestran cómo recuperar información sobre qué creó el archivo, así como cuándo se creó, editó, imprimió y guardó.
 #### **Ejemplo de programación**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -40,7 +40,7 @@ Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
 Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 
 {{< /highlight >}}
-```
+
 ## **Escritura Visio Resumen del documento Información**
 Microsoft Visio le permite definir una serie de propiedades de información de resumen del documento para ayudarlo a usted y a sus colegas a identificar un diagram. Las propiedades de resumen, por ejemplo, título, tema, autor y descripción, hacen que el archivo sea más fácil de encontrar al buscar y más fácil de reconocer cuando exploración de archivos.
 ### **Escritura Microsoft Visio Resumen del documento Información**
@@ -63,8 +63,8 @@ Consulta la información resumida:
 1. Abra el archivo de salida VDX en Microsoft Visio.
 1. Seleccionando Información en el menú Archivo.
 #### **Escritura Visio Documento Resumen Información Programación Muestra**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -89,14 +89,14 @@ diagram.DocumentProps.Template = "Aspose Template";
 diagram.Save(dataDir + "SetVisioProperties_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Detectar el formato del archivo Visio**
 Usando Aspose.Diagram for .NET API, los desarrolladores pueden detectar el formato del archivo Visio antes de abrirlo porque la extensión del archivo no garantiza que el contenido del archivo sea apropiado.
 ### **Ejemplo de programación de formato de detección**
 El siguiente código de ejemplo ilustra cómo detectar un formato de archivo (usando la ruta del archivo o la secuencia) y verificar su extensión.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -117,4 +117,4 @@ Console.WriteLine("The spreadsheet format is: " + info.FileFormatType);
 Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
 
 {{< /highlight >}}
-```
+

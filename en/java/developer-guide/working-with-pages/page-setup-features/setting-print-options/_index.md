@@ -30,8 +30,8 @@ Print Page orientation can be set to portrait or landscape using the [**PrintPro
 |Landscape|Landscape orientation|
 |Portrait|Portrait orientation|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -47,14 +47,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **Scaling Factor**
 
 It is possible to reduce or enlarge a page's size by adjusting the scaling factor with the [**ScaleX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX) property.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -68,4 +68,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+

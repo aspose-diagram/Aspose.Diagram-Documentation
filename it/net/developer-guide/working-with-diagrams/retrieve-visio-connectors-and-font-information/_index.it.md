@@ -12,8 +12,8 @@ description: Questa sezione spiega come ottenere i connettori visio e le informa
 ### **Esempio di programmazione**
 La parte di codice seguente recupera le informazioni per i connettori in un diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -29,7 +29,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **Recupero delle informazioni sui caratteri**
  Aspose.Diagram dispone di meccanismi per recuperare informazioni sugli elementi che compongono un diagram, da[pagine](/diagram/it/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [stencil](https://docs.aspose.com/diagram/net/working-with-masters/), [connettori](/diagram/it/net/retrieving-connector-information/) anche i caratteri. Questo articolo mostra come scoprire quali caratteri sono utilizzati in un diagram.
 
@@ -37,8 +37,8 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 ### **Recupero dell'esempio di programmazione dei caratteri**
 Il seguente pezzo di codice recupera le informazioni sui font dal Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -53,12 +53,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **Ottenere la directory dei caratteri predefinita**
 Aspose.Diagram for .NET API consente inoltre di ottenere il percorso predefinito della directory dei caratteri utilizzando il metodo GetDefaultFontDir() della classe Diagram. La parte di codice seguente recupera la directory dei font predefinita da Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -70,7 +70,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **Ottenere caratteri inutilizzati**
 {{% alert color="primary" %}}
 
@@ -80,8 +80,8 @@ Questo metodo è supportato dalla versione 19.6 o successiva.
 
 Aspose.Diagram for .NET API consente inoltre di ottenere font inutilizzati utilizzando il metodo GetUnusedStyles() della classe Diagram. Il seguente pezzo di codice recupera i caratteri inutilizzati dal Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -96,4 +96,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ Detta exempel fungerar enligt följande:
 ### **Ställ in orienteringsprogrammeringsexempel**
 Kodexemplet nedan visar hur du ställer in orienteringen för sidan Visio.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -42,7 +42,7 @@ diagram.save("SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Kontrollera exporten av dolda Visio-sidor när du sparar**
 Aspose.Diagram for Python via Java API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Till och med de kan dölja Visio sidor med Aspose.Diagram för Python via Java API eftersom dess alternativ redan är tillgängligt via cellen UIVisibility i sidan ShapeSheet.
@@ -53,8 +53,8 @@ Aspose.Diagram för Python via Java API har klassen `Page` som representerar en 
 #### **Ställ in exportalternativet för PDF**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till PDF.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -81,13 +81,13 @@ diagram.save("ExportOfHiddenVisioPagesToPDF_Out.pdf", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **Ställ in exportalternativet för HTML**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till HTML.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -115,13 +115,13 @@ diagram.save("ExportOfHiddenVisioPagesToHTML_Out.html", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **Ställ in exportalternativet för bild**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett diagram till bildformat.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -149,13 +149,13 @@ diagram.save("ExportOfHiddenVisioPagesToImage_Out.jpeg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **Ställ in exportalternativet för SVG**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till SVG.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -186,4 +186,4 @@ diagram.save("ExportOfHiddenVisioPagesToSVG_Out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

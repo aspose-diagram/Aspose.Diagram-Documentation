@@ -12,8 +12,8 @@ Ogni forma in uno diagram ha un ID e un nome. L'ID è importante quando si progr
 #### **Recuperare Visio Shape Programming Sample**
 Il seguente frammento di codice recupera la forma incluso il figlio. Si prega di controllare questo codice di esempio:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

@@ -9,8 +9,8 @@ description: يشرح هذا القسم كيفية تصغير حجم الملف 
  Aspose.Diagram لـ Python via Java API يسمح للمطورين بإزالة المعلومات المخفية من diagram لتقليل حجم الملف.
  يمثل كائن الصفحة منطقة الرسم لصفحة أمامية أو صفحة خلفية. لتقليل حجم الملف ، يمكنك استخدام خصائص RemoveHiddenInfoItem في**RemoveHiddenInformation ()** طريقة Diagram فئة. يوضح مثال الكود أدناه كيفية إزالة المعلومات المخفية من diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -31,4 +31,4 @@ diagram.save("ReduceFileSize_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

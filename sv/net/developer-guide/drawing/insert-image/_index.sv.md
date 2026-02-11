@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur man infogar en bild på en visio-
 ## **Infoga bild i Visio**
 Aspose.Diagram for .NET API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -27,13 +27,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i SVG**
 Aspose.Diagram for .NET API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som SVG-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i PNG**
 Aspose.Diagram for .NET API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som PNG-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i PDF**
 Aspose.Diagram for .NET API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som PDF-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i HTML**
 Aspose.Diagram for .NET API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som HTML-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -115,4 +115,4 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

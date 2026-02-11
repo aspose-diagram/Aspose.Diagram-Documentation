@@ -9,8 +9,8 @@ url: /ru/java/working-with-text/
 ### **Вставка примера программирования формы текста**
 Следующий фрагмент кода добавляет текстовую фигуру в Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(InsertTextShape.class) + "Text/";
@@ -25,7 +25,7 @@ diagram.getPages().getPage(0).addText(PinX, PinY, Width, Height, text);
 diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Обновление Visio Форма текста**
  Так же как[создание диаграмм](/diagram/ru/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java позволяет работать с фигурами по-разному. В этой статье рассматривается, как получить доступ к тексту в фигурах и обновить его.
 
@@ -48,8 +48,8 @@ diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Обновить пример программирования текста формы**
 Следующий фрагмент кода обновляет текст фигуры. Фигуры идентифицируются по их идентификаторам. Приведенные ниже сегменты кода ищут фигуру с именем process и идентификатором 1 и изменяют ее текст.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UpdateShapeText.class); 
@@ -70,7 +70,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 diagram.save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Применение встроенной или пользовательской таблицы стилей к фигуре Visio**
 Microsoft Visio таблицы стилей хранят информацию о форматировании, которую можно применить к фигурам для единообразного внешнего вида. Aspose.Diagram for Java позволяет применять таблицы стилей из приложения.
 
@@ -102,8 +102,8 @@ Microsoft Visio таблицы стилей хранят информацию о
 1. Применение стилей.
 1. Сохраните номер diagram.
 #### **Пример программирования применения пользовательских стилей**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyCustomStyleSheets.class);
@@ -149,7 +149,7 @@ if (sourceShape != null && customStyleSheet != null)
 diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Применение разных стилей к каждому текстовому значению фигуры**
  Так же как[создание диаграмм](/diagram/ru/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java позволяет работать с фигурами по-разному. Эта статья поможет добавить несколько текстовых значений в фигуру и применить разные стили к каждому текстовому значению.
 
@@ -169,8 +169,8 @@ diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 #### **Пример программирования добавления текста и стилей**
 Следующий фрагмент кода добавляет текст фигуры и различные стили.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyFontOnText.class);   
@@ -232,7 +232,7 @@ shape.getChars().get(3).getStyle().setValue(StyleValue.BOLD | StyleValue.ITALIC 
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Найти и заменить текст фигуры**
 [Текст](https://reference.aspose.com/diagram/java/com.aspose.diagram/txt) Класс позволяет редактировать текст фигуры. Метод Replace, представленный[Текст](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) class, поддержка изменения текста фигуры.
 Примеры кода в этой статье находят и заменяют текст фигуры на странице.
@@ -255,8 +255,8 @@ diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 ### **Пример программы поиска и замены текста**
 Фрагменты кода ниже показывают, как изменить текст фигуры. Код перебирает формы страницы.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FindAndReplaceShapeText.class); 
@@ -311,7 +311,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Извлечь обычный текст со страницы Visio Diagram**
 Aspose.Diagram API позволяет разработчикам извлекать обычный текст со страницы Visio diagram. Они также могут перебирать страницы Visio diagram, чтобы охватить весь текст Visio diagram.
 
@@ -319,8 +319,8 @@ Aspose.Diagram API позволяет разработчикам извлека�
 ### **Пример извлечения простого текста**
 Следующий фрагмент кода перебирает формы страницы Visio и фильтрует обычный текст без информации о форматировании.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 static String text = "";
 public static void main(String[] args) throws Exception
@@ -361,4 +361,4 @@ public static void main(String[] args) throws Exception
    }
 
 {{< /highlight >}}
-```
+

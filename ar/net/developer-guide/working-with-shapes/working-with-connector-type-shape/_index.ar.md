@@ -20,8 +20,8 @@ description: يوضح هذا القسم كيفية تعيين مظهر المو�
 #### **تعيين نموذج برمجة مظهر الموصل**
 استخدم الكود التالي في تطبيق .NET لتعيين مظهر شكل نوع الموصل باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **حدد خيار إعادة التوجيه لشكل الموصل**
  الخاصية ConFixedCode التي يعرضها ملف[تَخطِيط](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) يمكن استخدام فئة لتحديد خيار إعادة التوجيه. خاصية Layout ، المكشوفة بواسطة ملف[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) فئة ، سيتم استخدامها.
 
@@ -54,8 +54,8 @@ diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 ### **حدد إعادة توجيه نموذج البرمجة الخيار**
 استخدم الكود التالي في تطبيق .NET الخاص بك لتحديد خيار إعادة التوجيه لشكل الموصل باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -74,4 +74,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

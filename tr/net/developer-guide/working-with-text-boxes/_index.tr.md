@@ -12,8 +12,8 @@ description: Bu bölümde bir metin şeklinin Aspose.Diagram ile nasıl biçimle
 ### **Metin Programlama Örneği Biçimlendir**
 Aşağıdaki kod parçası yönü, hizalamayı, kenar boşluklarını, arka plan rengini, arka plan rengi şeffaflığını ve yönlendirme açısının varsayılan sekme durma konumunu ve şeklin metninin üstteki konumunu ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -48,7 +48,7 @@ shape.TextBlock.DefaultTabStop.Value = 2;
 diagram.Save(dataDir + "FormatShapeTextBlockSection_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şekil Metninin Konumunu Döndürün ve Ayarlayın**
  Aspose.Diagram API, geliştiricilerin metin konumunu ayarlamasına ve ayrıca Visio Şeklinde metni döndürmesine olanak tanır. Bu görevi gerçekleştirmek için, şekil sayfasındaki metin dönüşümleri bölümü TxtPin, TxtLocPin, TxtWidth ve TxtHeight özelliklerini sağlar. Geliştiriciler, kullanarak bu özelliklerle programlı olarak etkileşim kurabilir.[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Şekil Metninin Konumunu Döndürün ve Ayarlayın**
@@ -56,8 +56,8 @@ Metin dönüştürme bölümü, bir şeklin metin bloğu hakkındaki konumsal bi
 #### **Şeklin metin konumunu üstte ayarla**
 Aşağıdaki kod parçası, yönlendirme açısını ve şeklin metninin üstteki konumunu ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -82,12 +82,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtTop_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Altta şeklin metin konumunu ayarla**
 Aşağıdaki kod parçası, alt kısımdaki şeklin metninin oryantasyon açısını ve konumunu ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -112,12 +112,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtBottom_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Şeklin metin konumunu solda ayarla**
 Aşağıdaki kod parçası, yönlendirme açısını ve şeklin metninin soldaki konumunu ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -141,12 +141,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtLeft_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Şeklin metin konumunu sağda ayarla**
 Aşağıdaki kod parçası, sağdaki şeklin metninin oryantasyon açısını ve konumunu ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -170,4 +170,4 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtRight_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -10,7 +10,18 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **تصدير Microsoft Visio رسم إلى PDF**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى PDF باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the pdf format
+diagram.save("Visio_out.pdf", SaveFileFormat.PDF)
+{{< /highlight >}}
+
 
  تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XML باستخدام[Aspose.Diagram لـ Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
@@ -55,7 +66,24 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio الرسم إلى XML**
 توضح نماذج التعليمات البرمجية كيفية تصدير Microsoft Visio الرسم إلى XML باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXml.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the vdx format
+diagram.save("Visio_out.vdx", SaveFileFormat.VDX)
+
+#// Save diagram in the vtx format
+diagram.save("Visio_out.vtx", SaveFileFormat.VTX)
+
+#// Save diagram in the vsx format
+diagram.save("Visio_out.vsx", SaveFileFormat.VSX)
+{{< /highlight >}}
+
 
 ## **تصدير إلى XPS**
  يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram لـ Python via .NET](https://products.aspose.com/diagram/python-net/) API.
@@ -75,7 +103,18 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio رسم إلى XPS**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى XPS باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the xps format
+diagram.save("Visio_out.xps", SaveFileFormat.XPS)
+{{< /highlight >}}
+
 
 ## **قم بتصدير Diagram إلى SVG**
  تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram لـ Python via .NET](https://products.aspose.com/diagram/python-net/) API.
@@ -89,7 +128,18 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio رسم إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToSvg.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the svg format
+diagram.save("Visio_out.svg", SaveFileFormat.SVG)
+{{< /highlight >}}
+
 
 لتصدير رسم Visio بأشكال انتقائية:
 
@@ -99,4 +149,23 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تحويل Visio الرسم باستخدام عينة برمجة لأشكال انتقائية**
 يوضح نموذج التعليمات البرمجية كيفية تصدير رسم بأشكال انتقائية Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-PythonNet-ConvertVisioWithSelectiveShapes.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+options = saving.SVGSaveOptions()
+shapes = options.shapes;
+#// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.pages[0].shapes.get_shape(1));
+shapes.add(diagram.pages[0].shapes.get_shape(2));
+    
+#// Save one page only, by page index
+options.page_index = 0
+    
+#// Save resultant svg file
+diagram.save("ExportToSvg_out.svg", options)
+{{< /highlight >}}

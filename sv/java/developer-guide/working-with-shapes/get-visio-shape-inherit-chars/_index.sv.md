@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur du får visio-formens teckensnitt
 #### **Hämta ärvt teckensnittsdataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda teckensnittsdata. Kontrollera denna exempelkod:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedChars.class) + "Shapes/";
@@ -45,7 +45,7 @@ for (int j = 0; j < chars.getCount(); j++)
 }
 
 {{< /highlight >}}
-```
+
 
 
 

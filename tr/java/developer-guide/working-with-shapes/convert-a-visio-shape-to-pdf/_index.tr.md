@@ -17,8 +17,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Pdf'ye Şekil Ver**
 Bir visio şeklini pdf'ye dönüştürmek için java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToPdf.class); 
@@ -34,6 +34,6 @@ Shape shape = page.getShapes().get(0);
 // Shape to Pdf
 shape.toPdf("out.pdf");
 {{< /highlight >}}
-```
+
 
 

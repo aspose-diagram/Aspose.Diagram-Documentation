@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم شكل بيضاوي أ
 ## **ارسم دائرة في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل دائرة في الصفحة. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -21,13 +21,13 @@ diagram.Pages[0].DrawEllipse(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawEllipseInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم دائرة في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظها بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -41,13 +41,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawEllipseInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم دائرة في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظها بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -59,13 +59,13 @@ diagram.Pages[0].DrawEllipse(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawEllipseInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم دائرة في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظها بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -79,13 +79,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawEllipseInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم دائرة في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم دائرة في الصفحة وحفظها بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم دائرة في رسم Visio وحفظها بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -97,13 +97,13 @@ diagram.Pages[0].DrawEllipse(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawEllipseInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم شكل بيضوي في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -115,13 +115,13 @@ diagram.Pages[0].DrawEllipse(1, 2, 2, 4);
 diagram.Save(dataDir + "DrawEllipseInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم شكل بيضوي في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة وحفظه بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio وحفظه بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -135,13 +135,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawEllipseInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم شكل بيضوي في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة وحفظه بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio وحفظه بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -153,13 +153,13 @@ diagram.Pages[0].DrawEllipse(1, 2, 2, 4);
 diagram.Save(dataDir + "DrawEllipseInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم شكل بيضوي في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio وحفظه بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -173,13 +173,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawEllipseInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم شكل بيضوي في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيضاوي في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم شكل بيضاوي في رسم Visio وحفظه بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -192,5 +192,5 @@ diagram.Pages[0].DrawEllipse(1, 2, 2, 4);
 diagram.Save(dataDir + "DrawEllipseInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+
 

@@ -19,8 +19,8 @@ url: /zh/java/working-with-user-defined-cells/
 
 ![待办事项：图片_替代_文本](working-with-user-defined-cells_2.png)
 #### **编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **创建用户定义的单元格**
 Aspose.Diagram for Java API 允许开发人员在形状表中创建用户定义的单元格。此示例主题描述了如何根据需要添加尽可能多的用户名行、为行分配有意义的名称以及设置单元格值。
 
@@ -45,8 +45,8 @@ Users 集合公开的 add 方法可用于在形状表中创建用户定义的单
 
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 在形状表中创建用户定义的单元格。
 #### **编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **从形状表中检索用户定义的单元格**
 Aspose.Diagram for Java API 允许开发人员从形状表中检索用户定义的单元格。此示例主题描述如何检索绘图中所有形状的所有用户名。
 ### **检索用户定义的单元格**
@@ -76,8 +76,8 @@ getNameU()、getValue().getVal() 和 getPrompt().getValue() 方法由[用户](ht
 #### **从形状表编程示例中检索单元格**
 在 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 从形状表中检索所有用户定义的单元格。
 #### **编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

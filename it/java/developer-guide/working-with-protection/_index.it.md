@@ -23,8 +23,8 @@ In Microsoft Visio proteggi i documenti in questo modo:
 
 Usa il codice qui sotto in un'applicazione Java per eseguire le stesse attività – blocca e sblocca diversi elementi del tuo diagram – usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
@@ -39,7 +39,7 @@ diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
 diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **Modifica la protezione della forma Visio**
  La protezione delle forme Visio consente agli utenti di bloccare aspetti specifici delle forme. Gli aspetti delle forme che possono essere bloccati tramite la protezione delle forme includono larghezza, altezza, posizione x, posizione y, rotazione e altro. Gli sviluppatori possono raggiungere questo obiettivo utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -59,8 +59,8 @@ In Visio, è necessario eseguire le seguenti azioni per proteggere qualsiasi for
 
 Usa il seguente codice nella tua applicazione Java per fare la stessa cosa (bloccare/sbloccare qualsiasi attributo di forma) usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -97,4 +97,4 @@ shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

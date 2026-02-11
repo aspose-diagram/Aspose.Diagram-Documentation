@@ -12,8 +12,8 @@ It's now a common phenomena to link the data of Microsoft Visio diagrams from th
 ### **Programming Sample**
 The following piece of code edits a particular data connection and also refresh all the available record sets in the Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditDataConAndRefreshRecords.class);
@@ -27,4 +27,4 @@ diagram.getDataConnections().get(0).setCommand("SELECT * from Project with(noloc
 diagram.save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

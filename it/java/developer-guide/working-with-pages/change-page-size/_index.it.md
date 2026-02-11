@@ -14,8 +14,8 @@ Utilizzare la proprietà PageProps per modificare le dimensioni della pagina.
 ### **Esempio di programmazione delle dimensioni della pagina**
 La seguente parte di codice modifica le dimensioni della pagina da diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeVisioPageSize.class);
@@ -33,4 +33,4 @@ page.getPageSheet().getPageProps().getPageWidth().setValue(11);
 diagram.save(dataDir + "SetPageSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -11,8 +11,8 @@ Microsoft Office Visio 中的任何形状都是由一个或多个“几何图形
 ### **编程范例**
 下面的代码片段管理形状的几何形状。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditConnectorGeometry.class);    
@@ -58,4 +58,4 @@ connector.getGeoms().get(0).getCoordinateCol().add(lineTo);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

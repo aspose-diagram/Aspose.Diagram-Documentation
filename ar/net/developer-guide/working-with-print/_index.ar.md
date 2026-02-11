@@ -34,8 +34,8 @@ description: يوضح هذا القسم كيفية طباعة مستند via Xps
 #### **عينة البرمجة**
 يوضح مثال الكود التالي كيفية استدعاء فئة الأداة المساعدة لطباعة via XPS.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -50,7 +50,7 @@ const string printerName = @"\\COMPANY\Brother MFC-885CW Printer";
 XpsPrintHelper.Print(diagram, printerName, "My Test Job", true);
 
 {{< /highlight >}}
-```
+
 
 
 هناك نوعان من التحميلات الزائدة لطريقة XpsPrintHelper.Print. يأخذ التحميل الزائد الأول كائن Aspose.Diagram.Diagram ويحفظه في MemoryStream بتنسيق XPS. ثم يستدعي XpsPrintHelper.Print الزائد الآخر.
@@ -59,8 +59,8 @@ XpsPrintHelper.Print(diagram, printerName, "My Test Job", true);
 #### **XPS عينة برمجة الدفق والطباعة**
 هذا المثال الكود يحول Diagram إلى تيار XPS ويطبع.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 /// <summary>
 /// Sends an Aspose.Diagram document to a printer using the XpsPrint API.
@@ -84,15 +84,15 @@ public static void Print(Diagram diagram, string printerName, string jobName, bo
 }
 
 {{< /highlight >}}
-```
+
 
 
 يقبل التحميل الزائد XpsPrintHelper.Print الثاني كائن دفق. يجب أن يحتوي التدفق على مستند بتنسيق XPS. تبدأ هذه الطريقة في مهمة طباعة XPS ، وترسل المستند إلى XpsPrint API ثم تنتظر النتيجة إذا لزم الأمر.
 #### **عينة برمجة XpsPrint API**
 يقوم مثال الرمز هذا بطباعة مستند XPS باستخدام XpsPrint API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 /// <summary>
 /// Sends a stream that contains a document in the XPS format to a printer using the XpsPrint API.
@@ -137,7 +137,7 @@ public static void Print(Stream stream, string printerName, string jobName, bool
 }
 
 {{< /highlight >}}
-```
+
 
 
 رمز طرق StartJob و CopyJob و WaitForJob و CheckJobStatus بالإضافة إلى تعريفات واجهات IXpsPrintJob و IXpsPrintJobStream منخفض المستوى تمامًا ويستخدم Platform Invoke و COM Interop. لم يتم تضمين هذا الرمز في المقالة للإيجاز ، ولكنه متاح في نموذج التنزيل.
@@ -157,8 +157,8 @@ public static void Print(Stream stream, string printerName, string jobName, bool
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - قم باستدعاء أسلوب الطباعة مع عدم وجود معاملات كما تم كشفها بواسطة الكائن Diagram
 #### **الطباعة إلى نموذج برمجة الطابعة الافتراضية**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -170,15 +170,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print();
 
 {{< /highlight >}}
-```
+
 ### **الطباعة على طابعة معينة**
 تتطلب طباعة diagram على الطابعة المحددة اسم الطابعة كمعامل لطريقة الطباعة لـ Diagram. قم بتنفيذ الخطوات التالية لطباعة diagram إلى الطابعة المطلوبة:
 
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - قم باستدعاء أسلوب الطباعة للفئة Diagram باستخدام اسم الطابعة كمعامل سلسلة إلى أسلوب الطباعة
 #### **الطباعة على عينة برمجة طابعة معينة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -190,15 +190,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **إعداد اسم الطابعة والمستند**
 تسمح واجهات برمجة التطبيقات Aspose.Diagram بتعيين اسم الطابعة والوثيقة المحددة لمهمة الطباعة. قم بتنفيذ الخطوات التالية لطباعة diagram على الطابعة المطلوبة:
 
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - اتصل بأسلوب الطباعة للفئة Diagram باستخدام اسم الطابعة والوثيقة كمعامل سلسلة لأسلوب الطباعة
 #### **إعداد نموذج برمجة اسم الطابعة والمستند**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -210,4 +210,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

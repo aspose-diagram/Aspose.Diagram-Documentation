@@ -11,8 +11,8 @@ url: /tr/java/working-with-text-boxes/
 ### **Metin Programlama Örneği Biçimlendir**
 Aşağıdaki kod parçası yönü, hizalamayı, kenar boşluklarını, arka plan rengini, arka plan rengi şeffaflığını ve yönlendirme açısının varsayılan sekme durma konumunu ve şeklin metninin üstteki konumunu ayarlar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FormatShapeTextBlockSection.class); 
@@ -47,7 +47,7 @@ shape.getTextBlock().getDefaultTabStop().setValue(2);
 diagram.save(dataDir + "FormatShapeTextBlockSection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Şekil Metninin Konumunu Döndürün ve Ayarlayın**
 Aspose.Diagram API, geliştiricilerin metin konumunu ayarlamasına ve ayrıca Visio Şeklinde metni döndürmesine olanak tanır. Bu görevi gerçekleştirmek için, şekil sayfasındaki metin dönüşümleri bölümü TxtPin, TxtLocPin, TxtWidth ve TxtHeight özelliklerini sağlar. Geliştiriciler, Aspose.Diagram API'i kullanarak programlı olarak bu özelliklerle etkileşim kurabilir.
 
@@ -60,8 +60,8 @@ Metin dönüştürme bölümü, bir şeklin metin bloğu hakkındaki konumsal bi
 ### **Şeklin metin konumunu üstte ayarla**
 Aşağıdaki kod parçası, yönlendirme açısını ve şeklin metninin üstteki konumunu ayarlar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtTop.class);   
@@ -85,12 +85,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtTop_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Altta şeklin metin konumunu ayarla**
 Aşağıdaki kod parçası, alt kısımdaki şeklin metninin oryantasyon açısını ve konumunu ayarlar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtBottom.class);  
@@ -114,12 +114,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtBottom_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Şeklin metin konumunu solda ayarla**
 Aşağıdaki kod parçası, yönlendirme açısını ve şeklin metninin soldaki konumunu ayarlar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtLeft.class);  
@@ -142,12 +142,12 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtLeft_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Şeklin metin konumunu sağda ayarla**
 Aşağıdaki kod parçası, sağdaki şeklin metninin oryantasyon açısını ve konumunu ayarlar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtRight.class);  
@@ -171,4 +171,4 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtRight_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

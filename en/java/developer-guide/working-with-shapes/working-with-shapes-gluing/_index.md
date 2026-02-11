@@ -18,8 +18,8 @@ The code below shows how to:
 #### **Get Connectors Glued Programming Sample**
 Use the following code in your Java application to find all the connectors glued to a shape using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -38,7 +38,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Glue Visio Shapes Together with Connection Point**
 Aspose.Diagram for Java allows developers glue shapes together through the connection points.
 ### **Glue Shapes**
@@ -54,8 +54,8 @@ The code below shows how to:
 #### **Glue Visio Shapes Programming Sample**
 Use the following code in your Java application to glue shapes through the connection points:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -74,7 +74,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Glue Shapes Inside the Container**
 Aspose.Diagram for Java enables developers to glue group shapes inside a container.
 ### **Glue Group Shape**
@@ -90,8 +90,8 @@ The code below shows how to:
 #### **Glue Shapes Inside Programming Sample**
 Use the following code in your Java application to glue group shape inside a container:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -120,4 +120,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

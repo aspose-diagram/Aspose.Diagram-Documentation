@@ -12,8 +12,8 @@ description: В этом разделе объясняется, как полу�
 ### **Образец программирования**
 Следующий фрагмент кода извлекает информацию о соединителях в файле diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -29,7 +29,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **Получение информации о шрифте**
  Aspose.Diagram имеет механизмы для получения информации об элементах, составляющих diagram, из[страницы](/diagram/ru/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [трафареты](https://docs.aspose.com/diagram/net/working-with-masters/), [соединители](/diagram/ru/net/retrieving-connector-information/)а также шрифты. В этой статье показано, как узнать, какие шрифты используются в файле diagram.
 
@@ -37,8 +37,8 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 ### **Получение примера программирования шрифтов**
 Следующий фрагмент кода извлекает информацию о шрифте из файла Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -53,12 +53,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **Получение каталога шрифтов по умолчанию**
 Aspose.Diagram for .NET API также позволяет получить путь к каталогу шрифтов по умолчанию с помощью метода GetDefaultFontDir() класса Diagram. Следующий фрагмент кода извлекает каталог шрифтов по умолчанию из файла Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -70,7 +70,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **Получение неиспользуемых шрифтов**
 {{% alert color="primary" %}}
 
@@ -80,8 +80,8 @@ Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 Aspose.Diagram for .NET API также позволяет получить неиспользуемые шрифты с помощью метода GetUnusedStyles() класса Diagram. Следующий фрагмент кода извлекает неиспользуемые шрифты из каталога Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -96,4 +96,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

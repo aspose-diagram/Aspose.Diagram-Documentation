@@ -14,8 +14,8 @@ Sayfanın otomatik genişletilmesini kontrol etmek için PageProps özelliğini 
 ### **Sayfa Boyutunu Ayarla Programlama Örneği**
 Aşağıdaki kod parçası kontrol sayfası, diagram'den otomatik olarak genişliyor.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -34,4 +34,4 @@ page.PageSheet.PageProps.DrawingResizeType.Value = DrawingResizeTypeValue.NotAut
 diagram.Save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

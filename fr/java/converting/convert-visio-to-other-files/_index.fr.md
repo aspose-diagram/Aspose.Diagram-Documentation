@@ -58,8 +58,8 @@ L'image ci-dessous montre le fichier de sortie VTX.
 
 ![tâche : image_autre_texte](http://i.imgur.com/E6pUvGD.jpg)
 ### **Exportation vers un exemple de programmation XML**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToXML.class);
@@ -82,7 +82,7 @@ diagram.save(dataDir + "ExportToXML_Out.vsx", SaveFileFormat.VSX);
 diagram.save(dataDir + "ExportToXML_Out.vtx", SaveFileFormat.VTX);
 
 {{< /highlight >}}
-```
+
 ## **Exporting to XPS**
 This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  Utilisez le[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' pour lire les fichiers diagram et la méthode Save pour exporter le diagram vers n'importe quel format d'image pris en charge.
@@ -104,8 +104,8 @@ L'image ci-dessous montre le fichier de sortie XPS.
 
 ![tâche : image_autre_texte](http://i.imgur.com/1ESRxSy.png)
 ### **Exporting to XPS Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToXPS.class);
@@ -117,7 +117,7 @@ Diagram diagram = new Diagram(dataDir+ "ExportToXPS.vsd");
 diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
 
 {{< /highlight >}}
-```
+
 ## **Exporting a Diagram to SVG**
 This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -130,8 +130,8 @@ To export VSD diagram to SVG, perform the following steps:
 ### **Exporting Diagram to SVG Programming Sample**
 The code samples show how to export a diagram to SVG using Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToSVG.class);
@@ -143,7 +143,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
 diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 ## **Exporting a Diagram to XAML**
 This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -156,8 +156,8 @@ Pour exporter un VSD diagram vers XAML :
 ### **Exporting to XAML Programming Sample**
 The code sample show how to export a diagram to XAML using Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToXAML.class); 
@@ -169,7 +169,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
 diagram.save(dataDir + "ExportToXAML_Out.xaml", SaveFileFormat.XAML);
 
 {{< /highlight >}}
-```
+
 
 ## **Convertir le dessin Visio avec des formes sélectives**
 À l'aide de Aspose.Diagram API, les développeurs peuvent sélectionner un groupe de formes pour convertir un dessin Visio dans tout autre format pris en charge. La classe RenderingSaveOptions propose un membre Shapes pour maintenir le groupe de formes. Chaque classe d'options de sauvegarde est la forme étendue de la classe RenderingSaveOptions.
@@ -182,8 +182,8 @@ Pour exporter un dessin Visio avec des formes sélectives :
 ### **Convertir Visio Dessin avec exemple de programmation de formes sélectives**
 L'exemple de code montre comment exporter un dessin avec des formes Visio sélectives.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ConvertVisioWithSelectiveShapes.class) + "LoadSaveConvert\\";
 		
@@ -201,4 +201,3 @@ shapes.add(diagram.getPages().get(0).getShapes().getShape(2));
 // save Visio drawing
 diagram.save(dataDir + "SelectiveShapes_out.svg", options);
 {{< /highlight >}}
-```

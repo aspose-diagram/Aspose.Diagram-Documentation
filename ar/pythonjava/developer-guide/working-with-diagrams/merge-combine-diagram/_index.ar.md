@@ -12,8 +12,8 @@ Aspose.Diagram لـ Python via Java API له فئة Diagram التي تمثل ر
 باستخدام الطريقة**يجمع** في فئة Diagram لدمج الرسوم البيانية.
 
 ## **عينة من الرموز**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,4 +36,4 @@ diagram2.save("CombineDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

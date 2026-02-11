@@ -21,8 +21,8 @@ In Microsoft Office Visio, user may perform following actions to protect any sha
 ### **Remove the Shape Protection Programming Sample**
 Use the following code in your Java application to do the same thing (unlock any shape attribute) using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -59,5 +59,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

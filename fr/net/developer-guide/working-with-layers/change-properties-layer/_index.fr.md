@@ -10,8 +10,8 @@ description: Cette section explique comment modifier les propriétés du calque 
 ### **Modifier l'exemple de programmation des propriétés de la couche**
 Le morceau de code suivant aide à modifier les propriétés de la couche.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -31,4 +31,3 @@ foreach (Aspose.Diagram.Layer layer in Page.PageSheet.Layers)
 diagram.Save(dataDir + "ChangeLayerProperty_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

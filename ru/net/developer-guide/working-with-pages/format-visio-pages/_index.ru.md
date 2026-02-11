@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API позволяет разработчикам фор
 ## **Применить таблицы стилей к странице Visio**
 Aspose.Diagram for .NET API позволяет форматировать страницу Visio с помощью таблиц стилей. Вы можете определить таблицу стилей и добавить ее в коллекцию таблиц стилей документа Visio. Метод ApplyStyle класса Page позволяет применить определенную таблицу стилей к странице, как показано в следующем примере кода.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

@@ -21,8 +21,8 @@ Sayfa yapısı seçenekleri Aspose.Diagram'de tam olarak desteklenir. Bu makale,
 
 ### **Sayfa Boyunca Sığdır**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -41,6 +41,6 @@ printProps.PagesX.Value = 1;
 printProps.PagesY.Value = 1;
 
 {{< /highlight >}}
-```
+
 
 

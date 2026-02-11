@@ -10,8 +10,8 @@ Cualquier forma en Microsoft Office Visio se compone de una o más "geometrías"
 ### **Ejemplo de programación**
 Los fragmentos de código a continuación administran las geometrías de una forma.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_GeometrySection();
@@ -57,4 +57,4 @@ connector.Geoms[0].CoordinateCol.Add(lineTo);
 diagram.Save(dataDir + "EditConnectorGeometry_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -11,8 +11,8 @@ Aspose.Diagram API ermöglicht Benutzern, die SQL Server-Datenverbindung der ver
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt bearbeitet eine bestimmte Datenverbindung und aktualisiert auch alle verfügbaren Datensätze in Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditDataConAndRefreshRecords.class);
@@ -26,4 +26,4 @@ diagram.getDataConnections().get(0).setCommand("SELECT * from Project with(noloc
 diagram.save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

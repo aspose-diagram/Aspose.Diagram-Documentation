@@ -10,8 +10,8 @@ description: Bu bölümde, Aspose.Diagram ile visio şeklinde katman bilgilerini
 ### **Şekil Nesnelerini Yapılandırma Programlama Örneği**
 Aşağıdaki kod parçası, şekil nesnesi özelliklerini eklemeye, kaldırmaya ve taşımaya yardımcı olur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'de yeni bir Katman ekleyin**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) geliştiricilerin özel şekil kategorilerini düzenlemek için yeni katmanlar eklemesine ve ardından bu katmanlara programlı olarak şekiller atamasına olanak tanır. bu[Katman Koleksiyonu](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) class, yeni bir tane eklemeye izin veren Add yöntemini sunar.[Katman](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) Visio çiziminde. Geliştiriciler, sınıf nesnesini başlatarak Katman özelliklerini ayarlayabilir.
 ### **Katman Programlama Örneği Ekle**
 Aşağıdaki kod parçası, Katman nesneleri eklemeye yardımcı olur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'den Tüm Katmanları Alın**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) Visio diagram'in mevcut katmanlarını almak için geliştiricilere erişim sağlar.[Sayfa Sayfası](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) mülkiyeti[Sayfa](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class, kullanarak bir Visio diagram'den kullanılabilir katmanların listesini almaya izin verir.[Katman Koleksiyonu](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) sınıf.
 ### **Katman Programlama Örneği Al**
 Aşağıdaki kod parçası, Katmanların listesini almanıza yardımcı olur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

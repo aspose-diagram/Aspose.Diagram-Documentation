@@ -16,8 +16,8 @@ Aspose.Diagram API 支持从头开始创建新的 Visio 图表，然后以任何
 
 diagram 类的构造函数还提供了一个可选参数，用于定义 LoadFileFormat 或 LoadOptions。它是开发者可以传递给 Aspose.Diagram API 的预加载信息。我们建议传递现实信息以获得理想的性能。
 ## **阅读 Diagram 编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -44,4 +44,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

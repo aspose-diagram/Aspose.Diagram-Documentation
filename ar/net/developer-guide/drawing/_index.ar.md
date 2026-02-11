@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم الأشكال في ص
 ## **رسم شكل متعدد الخطوط في الصفحة**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل متعدد الخطوط في الصفحة. من أجل رسم شكل متعدد الخطوط ، العرض API**DrawPolyline ()**طريقة[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)صف دراسي. يوضح مثال الكود أدناه كيفية رسم خط متعدد في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,12 +25,12 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPolylineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **ارسم بيزيير في الصفحة**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل بيزير في الصفحة. من أجل رسم شكل بيزير ، عرض API**DrawBezier (اقتباسًا عن روايته)**طريقة[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **صف دراسي. يوضح مثال الكود أدناه كيفية رسم بيزير في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -44,12 +44,12 @@ diagram.Pages[0].DrawBezier(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawBezierInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **ارسم المفتاح في الصفحة**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل خدد في الصفحة. من أجل رسم شكل بيزير ، عرض API**DrawSpline ()**طريقة[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **صف دراسي. يوضح مثال الكود أدناه كيفية رسم بيزير في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -66,4 +66,4 @@ diagram.Pages[0].DrawSpline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawSplineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

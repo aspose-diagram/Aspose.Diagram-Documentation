@@ -27,8 +27,8 @@ End Sub
 
 Вот пример кода для создания выходного файла VSDM с модулем VBA и кодом макроса.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -45,7 +45,7 @@ module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Изменить VBA или макрос**
 
@@ -88,8 +88,8 @@ End Sub
 
  Вы можете скачать[исходный файл Visio]() и[выходной файл Visio]() по указанным ссылкам.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -104,7 +104,7 @@ module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Предварительные темы**
 - [Проверьте, подписан ли код VBA](/diagram/ru/java/check-if-vba-code-is-signed/)

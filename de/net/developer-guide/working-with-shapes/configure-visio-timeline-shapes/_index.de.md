@@ -21,8 +21,8 @@ Der Vorgang zum Aktualisieren des Meilensteindatums, des Datumsformats, der Mark
 1. Legen Sie den Meilensteintyp fest
 1. Speichern Sie die Zeichnung Visio in einem beliebigen unterstützten Format.
 #### **Programmierbeispiel für Meilenstein setzen**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -49,7 +49,7 @@ milestoneHelper.Type = 6;
 diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabelle der Datumsformatwerte:
@@ -101,8 +101,8 @@ Der Prozess zum Aktualisieren des Start-, End- und Datumsformats des Zeitraums i
 1. Legen Sie ein Datumsformat fest.
 1. Speichern Sie die Zeichnung Visio in einem beliebigen unterstützten Format.
 #### **Programmierungsbeispiel für Zeitraum und Datum einstellen**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,7 +137,7 @@ timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabelle der Datumsformatwerte:
@@ -192,8 +192,8 @@ Der folgende Code zeigt, wie man:
 #### **Aktualisieren Sie Meilensteine mit dem TimeLineHelper-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um Meilensteine auf der Zeitachse mit Aspose.Diagram for .NET wiederzubeleben.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -223,7 +223,7 @@ timelineHelper.RefreshTimeLine();
 diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Aktualisieren Sie Meilensteine auf der Timeline mithilfe der MilestoneHelper-Klasse**
  Die RefreshMilestone-Methode, die von der bereitgestellt wird[MeilensteinHelfer](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper)-Klasse kann verwendet werden, um Meilensteine auf der Zeitachse zu aktualisieren.
 
@@ -240,8 +240,8 @@ Der folgende Code zeigt, wie man:
 #### **Aktualisieren Sie Meilensteine mit dem MilestoneHelper-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um Meilensteine auf der Zeitachse mit Aspose.Diagram for .NET zu aktualisieren.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -292,4 +292,4 @@ milestoneHelper.RefreshMilestone(timeline);
 diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

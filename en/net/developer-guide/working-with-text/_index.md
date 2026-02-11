@@ -11,8 +11,8 @@ Aspose.Diagram API lets developers to insert a text shape anywhere in the Visio 
 ### **Insert a Text Shape Programming Sample**
 The following piece of code adds a text shape in the Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -26,7 +26,7 @@ diagram.Pages[0].AddText(PinX, PinY, Width, Height, "Test text");
 diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Update Visio Shape Text**
 As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET lets you work with shapes in different ways. This article looks at how to access and update text in shapes. The Text property, exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, supports the Aspose.Diagram.Text object. The property can be used to retrieve or update a shape's text. The process for updating a shape's text is straightforward:
 
@@ -37,8 +37,8 @@ As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing/), As
 ### **Update Shape Text Programming Sample**
 The following piece of code updates a shape's text. Shapes are identified by their IDs. The code segments below look for a shape called process and with the ID 1 and changes its text.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -60,7 +60,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Apply Built-in or Custom Stylesheet to a Visio Shape**
 Microsoft Visio style sheets store formatting information that can be applied to shapes for a consistent look and feel. Aspose.Diagram for .NET allows you to apply style sheets from inside an application.
 
@@ -82,8 +82,8 @@ After defining custom style sheets in Microsoft Visio, use the following code in
 1. Apply styles.
 1. Save the diagram.
 #### **Apply Custom Styles Programming Sample**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -130,7 +130,7 @@ if (sourceShape != null && customStyleSheet != null)
 vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Apply Different Style on the Each Text Value of a Shape**
 As well as [creating diagrams](/diagram/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET lets you work with shapes in different ways. This article helps to add multiple text values to a shape and apply different style on each text value.
 
@@ -152,8 +152,8 @@ The Shape element contains an element called Text, which contains the characters
 #### **Adding Text and Styles Programming Sample**
 The following piece of code add a shape's text and different styles.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -215,7 +215,7 @@ shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Un
 diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Find and Replace the Text of a Shape**
 The [Txt](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) Class allows you to edit the shape's text. The Replace method, exposed by the [Txt](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) class, support changing the text of a shape.
 The code examples in this article find and replace the shape's text on the page.
@@ -237,8 +237,8 @@ The process for changing the shape's text:
 ### **Find and Replace Text Programming Sample**
 The code snippets below show how to modify the shape's text. The code iterate through the shapes of a page.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -278,7 +278,7 @@ foreach (Shape shape in page.Shapes)
 diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Extract Plain Text from the Visio Diagram Page**
 Aspose.Diagram API allows developers to extract plain text from the Visio diagram page. They can also iterate through the Visio diagram pages to cover the whole Visio diagram text.
 
@@ -286,8 +286,8 @@ Microsoft Office Visio adds the text to the shapes. The [Shape](http://www.aspos
 ### **Extract Plain Text Programming Sample**
 The following piece of code iterates through the shapes of the Visio Page and filter plain text without formatting information.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -328,4 +328,4 @@ private static void GetShapeText(Aspose.Diagram.Shape shape)
 }
 
 {{< /highlight >}}
-```
+

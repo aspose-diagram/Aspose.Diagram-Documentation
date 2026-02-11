@@ -9,8 +9,8 @@ description: Cómo agregar una marca de agua a visio usando .NET Diagram API.
 ## **Creando un Diagram**
  Aspose.Diagram for .NET le permite leer y crear diagramas Microsoft Visio desde sus propias aplicaciones, sin Microsoft Office automatización. El primer paso al crear nuevos documentos es crear un diagram. Luego[añadir formas y conectores](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)para construir el diagram. Use el constructor predeterminado de[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clase para crear un nuevo diagram.
 ### **Ejemplo de programación**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -26,7 +26,7 @@ dataDir = dataDir + "CreateDiagram_out.vsdx";
 diagram.Save(dataDir, SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 Este ejemplo funciona de la siguiente manera:
 
@@ -36,8 +36,8 @@ Este ejemplo funciona de la siguiente manera:
 ### **Agregar marca de agua Ejemplo de programación**
 El siguiente código de ejemplo muestra cómo agregar una marca de agua en Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -62,4 +62,4 @@ public static void Run()
 
 
 {{< /highlight >}}
-```
+

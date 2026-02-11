@@ -30,8 +30,8 @@ description: يوضح هذا القسم كيفية إيقاف التحويل أ�
 {{< /highlight >}}
 
 ## **عينة من الرموز**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 static string outputDir = RunExamples.Get_OutputDirectory();
 
 //Create InterruptMonitor object
@@ -84,4 +84,4 @@ public static void Run()
     Console.WriteLine("Interrupt successfully.");
 }
 {{< /highlight >}}
-```
+

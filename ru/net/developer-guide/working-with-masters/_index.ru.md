@@ -12,8 +12,8 @@ description: В этом разделе объясняется, как доба�
 ### **Пример программирования получения основной информации**
 Следующий фрагмент кода извлекает информацию об основных устройствах из файла diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -31,7 +31,7 @@ foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)
 Console.ReadLine();
 
 {{< /highlight >}}
-```
+
 ## **Добавить мастер из трафарета фигур**
 Трафарет — это набор фигур, связанных с определенным шаблоном Microsoft Office Visio. С помощью Aspose.Diagram можно добавить любой образец формы к рисунку из трафарета.
 ### **Добавить мастера**
@@ -43,8 +43,8 @@ Console.ReadLine();
 - Поток файла трафарета и мастер-имя.
 - Добавить мастер в diagram из источника diagram
 #### **Добавить образец основного программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -81,12 +81,12 @@ diagram.AddShape(6.0, 6.0, masterName, 0);
 diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Создать мастер с нуля**
  Aspose.Diagram API позволяет создать[Мастер](http://www.aspose.com/api/net/diagram/aspose.diagram/master) с нуля без всяких трафаретов, рисунков и шаблонов. Разработчики могут настроить создание Мастера. Метод AddMaster, предоставляемый классом Diagram, позволяет добавить мастер.
 ### **Создать основной образец программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public static void Run()
 {            
@@ -171,7 +171,7 @@ public static byte[] ReadImageFile(string imageLocation)
 }
 
 {{< /highlight >}}
-```
+
 ## **Получить мастер из файла Visio**
 Иногда разработчикам необходимо получить подробную информацию о мастере чертежа Visio. Aspose.Diagram API поддерживает эту функцию.
 
@@ -184,8 +184,8 @@ public static byte[] ReadImageFile(string imageLocation)
 #### **Образец программирования главного объекта по идентификатору**
 В следующем примере показано, как получить мастер по идентификатору из чертежа Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -203,7 +203,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ### **Получение главного объекта по имени**
 Этот пример работает следующим образом:
 
@@ -212,8 +212,8 @@ Console.WriteLine("Master Name : " + master.UniqueID);
 #### **Образец программирования основного объекта по имени**
 В следующем примере показано, как получить мастер-объект по имени из чертежа Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -231,7 +231,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ## **Проверить наличие мастера в чертеже Visio**
 Aspose.Diagram API поддерживает проверку наличия мастера в чертеже Visio. С помощью свойства MasterCollection разработчики могут проверить наличие мастера по его имени или идентификатору.
 
@@ -244,8 +244,8 @@ Aspose.Diagram API поддерживает проверку наличия ма
 #### **Образец программирования Master Presence by ID**
 В следующем примере показано, как проверить наличие мастера по идентификатору в чертеже Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -259,7 +259,7 @@ bool isPresent = diagram.Masters.IsExist(2);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Проверка присутствия мастера по имени**
 Этот пример работает следующим образом:
 
@@ -268,8 +268,8 @@ Console.WriteLine("Master Presence : " + isPresent);
 #### **Образец программирования Master Presence by Name**
 В следующем примере показано, как проверить наличие мастера по имени из чертежа Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -285,4 +285,4 @@ bool isPresent = diagram.Masters.IsExist(masterName);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

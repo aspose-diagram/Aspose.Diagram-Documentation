@@ -14,8 +14,8 @@ description: В этом разделе объясняется, как пров�
 ### **Пример программирования автоматического расширения страницы проверки**
 Следующий фрагмент кода автоматически расширяет страницу проверки из файла diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckChangeAutoExpand.class);
@@ -34,4 +34,4 @@ page.getPageSheet().getPageProps().getDrawingResizeType().setValue(DrawingResize
 diagram.save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ Med hjälp av Aspose.Diagram API kan utvecklare definiera hur en form svarar på
 ## **Ställa in händelseceller**
 [Händelse](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) klass tillåter utvecklare att ställa in händelseceller i ShapeSheet. Det här hjälpämnet visar hur utvecklare kan ställa in formler i händelsecellerna:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -45,4 +45,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

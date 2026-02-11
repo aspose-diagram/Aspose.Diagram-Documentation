@@ -20,8 +20,8 @@ Dans Microsoft Office Visio, l'utilisateur peut effectuer les actions suivantes 
 ### **Supprimer l'exemple de programmation de protection de forme**
 Utilisez le code suivant dans votre application .NET pour faire la même chose (déverrouiller n'importe quel attribut de forme) en utilisant Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -59,4 +59,4 @@ shape.Protection.LockWidth.Value = BOOL.False;
 diagram.Save(dataDir + "RemoveShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

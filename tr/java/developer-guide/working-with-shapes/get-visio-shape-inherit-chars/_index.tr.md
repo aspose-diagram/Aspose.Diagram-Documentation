@@ -10,8 +10,8 @@ description: Bu bölüm, visio şeklinin ana stilinden ve Aspose.Diagram ana sti
 #### **Miras Alınan Yazı Tipi Verilerini Al Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin devralınan yazı tipi verilerini alır. Lütfen bu örnek kodu kontrol edin:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedChars.class) + "Shapes/";
@@ -45,7 +45,7 @@ for (int j = 0; j < chars.getCount(); j++)
 }
 
 {{< /highlight >}}
-```
+
 
 
 

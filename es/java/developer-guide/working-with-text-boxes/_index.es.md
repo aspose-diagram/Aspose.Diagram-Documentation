@@ -11,8 +11,8 @@ url: /es/java/working-with-text-boxes/
 ### **Ejemplo de programación de formato de texto**
 El siguiente fragmento de código establece la dirección, la alineación, los márgenes, el color de fondo, la transparencia del color de fondo y la posición de tabulación predeterminada del ángulo de orientación y la posición del texto de la forma en la parte superior.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FormatShapeTextBlockSection.class); 
@@ -47,7 +47,7 @@ shape.getTextBlock().getDefaultTabStop().setValue(2);
 diagram.save(dataDir + "FormatShapeTextBlockSection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Girar y establecer la posición del texto de forma**
 Aspose.Diagram API permite a los desarrolladores ajustar la posición del texto y también girar el texto en la Forma Visio. Para realizar esta tarea, la sección de transformación de texto en la hoja de formas proporciona las propiedades TxtPin, TxtLocPin, TxtWidth y TxtHeight. Los desarrolladores pueden interactuar con estas propiedades mediante programación usando Aspose.Diagram API.
 
@@ -60,8 +60,8 @@ La sección de transformación de texto contiene la información posicional sobr
 ### **Establecer la posición del texto de la forma en la parte superior**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma en la parte superior.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtTop.class);   
@@ -85,12 +85,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtTop_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Establecer la posición del texto de la forma en la parte inferior**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma en la parte inferior.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtBottom.class);  
@@ -114,12 +114,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtBottom_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Establecer la posición del texto de la forma a la izquierda**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma a la izquierda.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtLeft.class);  
@@ -142,12 +142,12 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtLeft_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Establecer la posición del texto de la forma a la derecha**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma a la derecha.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtRight.class);  
@@ -171,4 +171,4 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtRight_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

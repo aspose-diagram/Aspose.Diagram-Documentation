@@ -22,8 +22,8 @@ description: 本节介绍如何将连接点添加到具有 Aspose.Diagram 的 vi
 #### **将连接点添加到形状编程示例**
 在您的 .NET 应用程序中使用以下代码将连接添加到使用 Aspose.Diagram for .NET 的形状。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -42,4 +42,4 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

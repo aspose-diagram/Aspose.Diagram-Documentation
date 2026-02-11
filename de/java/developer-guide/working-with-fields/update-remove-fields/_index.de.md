@@ -11,8 +11,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie Felder aktualisieren o
  Das[Aufstellen](https://reference.aspose.com/diagram/java/com.aspose.diagram/field) Objekt repräsentiert ein Textfeld in a[Text](https://reference.aspose.com/diagram/java/com.aspose.diagram/text) Lauf. Die Feldeigenschaft, die durch die verfügbar gemacht wird[Form](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) -Klasse unterstützt eine Sammlung von Aspose.Diagram.Field-Objekten.
 ### **Programmierbeispiel**
 Das folgende Stück Codeaktualisierungsfeld in Form.
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -26,12 +26,12 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 ### **Feld entfernen**
 Der folgende Codeabschnitt entfernt das Feld in der Form.
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -45,5 +45,5 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 

@@ -12,8 +12,8 @@ Aspose.Diagram API 允许用户编辑 SQL Server 数据连接并刷新所有记�
 #### **编程范例**
 下面的一段代码编辑一个特定的数据连接，同时刷新 Visio diagram 中所有可用的记录集。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ExternalDataSources();
@@ -30,4 +30,4 @@ diagram.Refresh();
 diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

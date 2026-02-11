@@ -17,8 +17,8 @@ Le code dans les exemples ci-dessous montre comment :
 1. Connectez les formes d'étoile et d'hexagone au rectangle.
 1. Enregistrez le diagram.
 #### **Exemple de programmation**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddConnectShapes.class);
@@ -104,4 +104,4 @@ diagram.getPages().getPage(0).connectShapesViaConnector(rectangleId, ConnectionP
 diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

@@ -14,8 +14,8 @@ So exportieren Sie eine diagram in ein Bild:
 - Erstellen Sie eine Instanz der Klasse Diagram.
 - Rufen Sie die Save-Methode der Diagram-Klasse auf und legen Sie das Bildformat fest, in das Sie exportieren möchten. Die Ausgabebilddatei sieht aus wie die Originaldatei.
 ### **Microsoft Visio Zeichnung in Bilddatei exportieren**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -27,12 +27,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 diagram.Save(dataDir + "ExportToImage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 Es ist auch möglich, anstelle des gesamten Dokuments eine bestimmte Seite als Bild zu speichern:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -49,4 +49,3 @@ options.PageIndex = 0;
 diagram.Save(dataDir + "ExportPageToImage_out.png", options);
 
 {{< /highlight >}}
-```

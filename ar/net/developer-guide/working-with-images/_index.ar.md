@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية إدراج أو الحصول 
 #### **عينة برمجة استخراج الصور**
 يستخرج الجزء التالي من التعليمات البرمجية جميع الصور من صفحة Visio معينة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **احصل على أيقونات بأشكال Visio مختلفة**
 Aspose.Diagram for .NET API يسمح الآن للمطورين بالحصول على أيقونات بأشكال Visio مختلفة.
 ### **الحصول على أيقونة الشكل**
@@ -50,8 +50,8 @@ Aspose.Diagram for .NET API يسمح الآن للمطورين بالحصول ع
 1. احصل على أيقونة رئيسية.
 1. حفظ الرمز في الفضاء المحلي.
 #### **احصل على نموذج لبرمجة الأيقونات**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -70,7 +70,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream(master.Icon))
 }
 
 {{< /highlight >}}
-```
+
 ## **استبدال شكل صورة Visio Diagram**
 Aspose.Diagram for .NET API يسمح للمطورين بالوصول إلى أشكال الصور المتاحة واستبدالها في Visio diagram.
 ### **استبدال شكل صورة**
@@ -81,8 +81,8 @@ Aspose.Diagram for .NET API يسمح للمطورين بالوصول إلى أش
 1. قم بتطبيق عامل التصفية للحصول على أشكال الصور.
 1. حفظ الناتج Visio diagram في المساحة المحلية.
 #### **استبدال نموذج لبرمجة شكل صورة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "ReplaceShapePicture_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استيراد صورة نقطية كشكل Visio**
 Aspose.Diagram for .NET API يسمح الآن للمطورين باستيراد صورة نقطية كشكل Microsoft Visio.
 ### **أدخل BMP صورة في Visio**
@@ -121,8 +121,8 @@ Aspose.Diagram for .NET API يسمح الآن للمطورين باستيراد 
 1. قم باستيراد صورة نقطية كشكل Visio
 1. احفظ diagram.
 #### **أدخل BMP عينة برمجة صورة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -142,7 +142,7 @@ page0.AddShape(pinX, pinY, width, hieght, new FileStream(dataDir + "image.bmp", 
 diagram.Save(dataDir + "InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **تحويل المساحة المحددة للصفحة Visio إلى صورة**
 باستخدام Aspose.Diagram for .NET API ، يمكن للمطورين تحديد منطقة بإحداثيات XY وعرضها وارتفاعها ، ثم تحويل هذه المنطقة إلى تنسيق صورة مدعوم.
 ### **تحويل Visio منطقة الرسم إلى صورة**

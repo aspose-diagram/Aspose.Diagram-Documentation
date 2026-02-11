@@ -20,8 +20,8 @@ Aspose.Diagram APIs allows to apply a preset theme to get a uniform look and fee
 - Get an instance of Page class to be set theme
 - Assign a Preset value to the PresetTheme property of the Page instance
 #### **Apply a Preset Theme to a Page Programming Sample**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -35,7 +35,7 @@ page.PresetTheme = PresetThemeValue.Bubble;
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme to a Page**|
 | :- |
@@ -52,8 +52,8 @@ Aspose.Diagram APIs allows to apply a preset theme variant to get a uniform look
 
 #### **Apply a Preset Theme Variant to a Page Programming Sample**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -68,7 +68,7 @@ page.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Variant to a Page**|
 | :- |
@@ -84,8 +84,8 @@ Aspose.Diagram APIs allows to apply a preset theme to a shape within a page. Per
 
 #### **Apply a Preset Theme to a Shape Programming Sample**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -98,7 +98,7 @@ shape.PresetTheme = PresetThemeValue.Bubble;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme to a Shape**|
 | :- |
@@ -115,8 +115,8 @@ Aspose.Diagram APIs allows to apply a preset theme variant to a shape within a p
 
 #### **Apply a Preset Theme Variant to a Shape Programming Sample**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -131,7 +131,7 @@ shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Variant to a Shape**|
 | :- |
@@ -149,8 +149,8 @@ Aspose.Diagram APIs allows to apply a preset theme quickstyle to a shape within 
 
 #### **Apply a Preset Theme Variant Quickstyle to a Shape Programming Sample**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -167,7 +167,7 @@ shape.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle2;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Variant Quickstyle to a Shape**|
 | :- |
@@ -185,8 +185,8 @@ Aspose.Diagram APIs allows to apply a preset theme quickstyle to a shape within 
 
 #### **Apply a Preset Theme Style to a Shape Using SetPresetThemeStyleMatrics Method Programming Sample**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -203,7 +203,7 @@ shape.SetPresetThemeStyleMatrics(PresetStyleMatricsValue.Style2, PresetColorMatr
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Style to a Shape Using SetPresetThemeStyleMatrics Method**|
 | :- |

@@ -10,8 +10,8 @@ The Visio shapes can inherit the parent style and the master shape. Developers m
 #### **Retrieve Inherited Fill Data Programming Sample**
 The following code snippet retrieves the inherited fill data of the shape. Please check this sample code:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -39,5 +39,5 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+
 

@@ -10,7 +10,18 @@ description: В этом разделе показано, как Aspose.Diagram 
 ### **Экспорт Microsoft Visio Чертеж в PDF**
 В примерах кода показано, как экспортировать чертеж Microsoft Visio в PDF с помощью C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the pdf format
+diagram.save("Visio_out.pdf", SaveFileFormat.PDF)
+{{< /highlight >}}
+
 
  В этой статье объясняется, как экспортировать Microsoft Visio diagram в XML с помощью[Aspose.Diagram для Python via .NET](https://products.aspose.com/diagram/python-net/) API.
 
@@ -55,7 +66,24 @@ TVX представляет собой XML-представление файл�
 ### **Экспорт Microsoft Visio чертежа в XML**
 В примерах кода показано, как экспортировать Microsoft Visio Drawing в XML с помощью C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXml.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the vdx format
+diagram.save("Visio_out.vdx", SaveFileFormat.VDX)
+
+#// Save diagram in the vtx format
+diagram.save("Visio_out.vtx", SaveFileFormat.VTX)
+
+#// Save diagram in the vsx format
+diagram.save("Visio_out.vsx", SaveFileFormat.VSX)
+{{< /highlight >}}
+
 
 ## **Экспорт в XPS**
  В этой статье объясняется, как экспортировать Microsoft Visio diagram в XPS с помощью[Aspose.Diagram для Python via .NET](https://products.aspose.com/diagram/python-net/) API.
@@ -75,7 +103,18 @@ TVX представляет собой XML-представление файл�
 ### **Экспорт Microsoft Visio Чертеж в XPS**
 В примерах кода показано, как экспортировать чертеж Microsoft Visio в XPS с помощью C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the xps format
+diagram.save("Visio_out.xps", SaveFileFormat.XPS)
+{{< /highlight >}}
+
 
 ## **Экспорт Diagram в SVG**
  В этой статье объясняется, как экспортировать Microsoft Visio diagram в SVG (масштабируемая векторная графика) с помощью[Aspose.Diagram для Python via .NET](https://products.aspose.com/diagram/python-net/) API.
@@ -89,7 +128,18 @@ TVX представляет собой XML-представление файл�
 ### **Экспорт Microsoft Visio Чертеж в SVG**
 Примеры кода показывают, как экспортировать diagram в SVG с помощью C#.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToSvg.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the svg format
+diagram.save("Visio_out.svg", SaveFileFormat.SVG)
+{{< /highlight >}}
+
 
 Чтобы экспортировать чертеж Visio с выбранными фигурами:
 
@@ -99,4 +149,23 @@ TVX представляет собой XML-представление файл�
 ### **Преобразовать Visio Рисунок с образцом программирования выборочных фигур**
 В примере кода показано, как экспортировать рисунок с выбранными фигурами Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-PythonNet-ConvertVisioWithSelectiveShapes.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+options = saving.SVGSaveOptions()
+shapes = options.shapes;
+#// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.pages[0].shapes.get_shape(1));
+shapes.add(diagram.pages[0].shapes.get_shape(2));
+    
+#// Save one page only, by page index
+options.page_index = 0
+    
+#// Save resultant svg file
+diagram.save("ExportToSvg_out.svg", options)
+{{< /highlight >}}

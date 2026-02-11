@@ -19,8 +19,8 @@ url: /ar/java/setting-cells-in-the-event-section-of-shapesheet/
 ## **تعيين خلايا الحدث**
 [حدث](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) تسمح class للمطورين بتعيين خلايا الأحداث في ورقة الشكل. يوضح موضوع التعليمات هذا كيف يمكن للمطورين تعيين الصيغ في خلايا الحدث:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -45,4 +45,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ Bilden nedan visar utdata från kodavsnitten i den här artikeln.
 ### **Hämta sidinformation Programmeringsexempel**
 Följande kodbit hämtar sidornas information från en diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **Hämta sidan Visio från en Diagram**
 Ibland behöver utvecklare få en Visio-ritning med siddetaljer. Aspose.Diagram har funktioner som hjälper dem att göra detta.
 
@@ -60,8 +60,8 @@ Detta exempel fungerar enligt följande:
 
 Följande exempel visar hur man får ett sidobjekt med id från Visio-ritning.
 #### **Hämta sidobjekt med ID-programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Skaffa ett Visio sidobjekt efter namn**
 Detta exempel fungerar enligt följande:
 
@@ -83,8 +83,8 @@ Detta exempel fungerar enligt följande:
 #### **Hämta Sidobjekt efter namn Programmeringsexempel**
 Följande exempel visar hur man får ett sidobjekt efter namn från Visio-ritning.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Kopiera en Visio-sida till en annan Diagram**
 Aspose.Diagram for Java API tillåter utvecklare att kopiera och lägga till dess innehåll från den ena Visio diagram till en annan. Det här hjälpämnet förklarar hur du utför denna uppgift.
 
@@ -116,8 +116,8 @@ Detta exempel fungerar enligt följande:
 ### **Kopiera ett Visio Sidprogrammeringsexempel**
 Kodexemplet nedan visar hur man kopierar ett Visio sidobjekt till en annan Visio ritning.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kopiera Visio sida till en annan sidinstans**
 Kopieringsmetoden för klassen Page tar en sidinstans att klona.
 
@@ -189,8 +189,8 @@ Add-metoden, exponerad av Pages-samlingen, tillåter utvecklare att lägga till 
 ### **Infoga ett programmeringsexempel på tom sida**
 Följande kodbit infogar en tom sida i Visio-ritningen:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Flytta sidposition i Visio-ritningen**
 Aspose.Diagram for Java API kan flytta sidpositionen i Visio-ritningen. MoveTo-metoden, exponerad av klassen Page, hjälper utvecklare att flytta sidpositionen.
 ### **Flytta Sidposition Programmeringsexempel**

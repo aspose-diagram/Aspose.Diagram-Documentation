@@ -11,8 +11,8 @@ url: /ar/java/working-with-geometry-section/
 ### **عينة البرمجة**
 تقوم مقتطفات التعليمات البرمجية أدناه بإدارة الأشكال الهندسية للشكل.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditConnectorGeometry.class);    
@@ -58,4 +58,4 @@ connector.getGeoms().get(0).getCoordinateCol().add(lineTo);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

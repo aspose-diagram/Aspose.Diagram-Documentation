@@ -26,8 +26,8 @@ description: В этом разделе показано, как Aspose.Diagram 
 ### **Сохраните результат HTML в локальном хранилище.**
 Полученный файл можно сохранить, передав полную строку пути, включая имя файла и расширение, например, @"c:\temp\MyOutput.html".
 #### **Сохраните результат HTML в примере программирования локального хранилища**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -37,7 +37,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.Save(dataDir + "outputVSDtoHTML.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 

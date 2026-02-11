@@ -12,8 +12,8 @@ Das Field-Objekt repräsentiert ein Textfeld in einem Textlauf. Die field-Eigens
 
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt aktualisiert ein Feld in Form.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

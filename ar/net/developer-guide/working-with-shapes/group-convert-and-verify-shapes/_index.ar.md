@@ -22,8 +22,8 @@ Aspose.Diagram API يسمح للمطورين بتجميع الأشكال معً�
 #### **عينة برمجة الأشكال الجماعية**
 استخدم الكود التالي في تطبيق .NET لتجميع الأشكال معًا باستخدام Aspose.Diagram for .NET API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -48,7 +48,7 @@ page.Shapes.Group(ss);
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **تحويل شكل Visio إلى تنسيقات ملفات أخرى**
 Aspose.Diagram for .NET API يسمح للمطورين بتحويل شكل Visio واحد إلى أي تنسيق ملف آخر مدعوم. في هذه المقالة ، نقوم بإزالة جميع أشكال Visio الأخرى من الصفحة وتخصيص إعداد الصفحة وفقًا لحجم الشكل المصدر.
 ### **تحويل شكل Visio معين**
@@ -64,8 +64,8 @@ Aspose.Diagram for .NET API يسمح للمطورين بتحويل شكل Visio 
 1. اضبط حجم الصفحة.
 1. احفظ الصفحة Visio بأي تنسيق ملف مدعوم.
 #### **تحويل نموذج برمجة الشكل**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,7 +123,7 @@ opts.PageIndex = 1;
 srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **حوّل Visio إلى PDF**
 تسمح طريقة ToPdf لفئة الشكل بتحويل شكل إلى تنسيق PDF.
 
@@ -161,8 +161,8 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML(dataDir + "out.pdf", hs);
 #### **التحقق من نموذج برمجة الأشكال المتصلة أو الملصقة**
 يتحقق الجزء التالي من الكود مما إذا كان الشكلين متصلين أم تم لصقهما.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -189,7 +189,7 @@ bool glued = ShapedOne.IsGlued(ShapedTwo);
 Console.WriteLine("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **تحقق مما إذا كان الشكل Visio في مجموعة من الأشكال**
 Aspose.Diagram for .NET API يسمح للمطورين بالتحقق من أن الشكل Visio موجود في مجموعة من الأشكال أم لا.
 ### **التحقق من الشكل في مجموعة الأشكال**
@@ -197,8 +197,8 @@ Aspose.Diagram for .NET API يسمح للمطورين بالتحقق من أن �
 #### **التحقق من الشكل في عينة برمجة مجموعة الأشكال**
 يتحقق جزء التعليمات البرمجية التالي مما إذا كان الشكل في شكل مجموعة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -207,4 +207,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(13).Shapes.GetShape(2);
 Console.WriteLine("Is it in a Group: " + shape.IsInGroup());
 {{< /highlight >}}
-```
+

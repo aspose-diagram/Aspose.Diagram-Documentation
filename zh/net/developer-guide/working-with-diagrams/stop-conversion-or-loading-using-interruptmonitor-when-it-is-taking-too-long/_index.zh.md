@@ -30,8 +30,8 @@ Aspose.Diagram allows you to stop the conversion of Diagram to various formats l
 {{< /highlight >}}
 
 ## **示例代码**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 static string outputDir = RunExamples.Get_OutputDirectory();
 
 //Create InterruptMonitor object
@@ -84,4 +84,4 @@ public static void Run()
     Console.WriteLine("Interrupt successfully.");
 }
 {{< /highlight >}}
-```
+

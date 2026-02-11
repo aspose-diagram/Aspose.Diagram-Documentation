@@ -13,8 +13,8 @@ description: 本页介绍如何使用 Aspose.Diagram 库修改 visio 形状的�
 ## **修改渐变填充编程示例**
 [形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类提供 Fill 属性，允许开发人员检索[渐变填充](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill)目的。 GradientFill 类保存了一个 Visio Shape 的渐变数据。开发人员可以设置其所有可用属性以及通过索引检索渐变停止以设置颜色和位置属性。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -38,4 +38,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

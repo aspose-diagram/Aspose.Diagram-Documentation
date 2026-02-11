@@ -17,8 +17,8 @@ url: /ar/java/working-with-shapes-gluing/
 #### **الحصول على عينة البرمجة الملصقة للموصلات**
 استخدم الكود التالي في تطبيق Java الخاص بك للعثور على جميع الموصلات الملصقة على شكل باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -37,7 +37,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **أشكال الغراء Visio مع نقطة الاتصال**
 Aspose.Diagram for Java يتيح للمطورين لصق الأشكال معًا من خلال نقاط الاتصال.
 ### **أشكال الغراء**
@@ -53,8 +53,8 @@ Aspose.Diagram for Java يتيح للمطورين لصق الأشكال معًا
 #### **عينة لبرمجة الأشكال الغراء Visio**
 استخدم الكود التالي في تطبيق Java للصق الأشكال عبر نقاط الاتصال:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -73,7 +73,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **أشكال الغراء داخل الحاوية**
 Aspose.Diagram for Java يتيح للمطورين لصق أشكال المجموعة داخل الحاوية.
 ### **شكل مجموعة الغراء**
@@ -89,8 +89,8 @@ Aspose.Diagram for Java يتيح للمطورين لصق أشكال المجمو
 #### **أشكال الغراء داخل عينة البرمجة**
 استخدم الكود التالي في تطبيق Java للصق شكل المجموعة داخل الحاوية:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -119,4 +119,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

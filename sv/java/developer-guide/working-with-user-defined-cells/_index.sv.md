@@ -19,8 +19,8 @@ Följande bild visar utdata efter att ha kört koden:
 
 ![todo:image_alt_text](working-with-user-defined-cells_2.png)
 #### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Skapa användardefinierad cell**
 Aspose.Diagram for Java API tillåter utvecklare att skapa användardefinierade celler i formarket. Det här exemplet beskriver hur du lägger till så många användarnamnsrader som behövs, tilldelar meningsfulla namn till raderna och ställer in cellvärden.
 
@@ -45,8 +45,8 @@ Add-metoden som exponeras av Users-samlingen kan användas för att skapa använ
 
 Använd följande kod i din Java-applikation för att skapa användardefinierad cell i formarket med Aspose.Diagram for Java.
 #### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Hämta användardefinierade celler från Shapesheet**
 Aspose.Diagram for Java API tillåter utvecklare att hämta användardefinierade celler från formark. Det här exemplet beskriver hur man hämtar alla användarnamn för alla former i en ritning.
 ### **Hämta användardefinierade celler**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API tillåter utvecklare att hämta användardefinierade
 #### **Hämta celler från Shapesheet-programmeringsexempel**
 Använd följande kod i din Java-applikation för att hämta alla användardefinierade celler från formblad med Aspose.Diagram for Java.
 #### **Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

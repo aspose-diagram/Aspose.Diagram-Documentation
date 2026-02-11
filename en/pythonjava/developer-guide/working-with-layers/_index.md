@@ -14,8 +14,8 @@ The [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/Shape) 
 
 The following piece of code helps to add, remove and move shape objects properties.
 #### **Programming Samples**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,7 +48,7 @@ diagram.save("ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Add a Layer in the Visio PageSheet**
 Aspose.Diagram for Python via Java allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically.
 
@@ -56,8 +56,8 @@ The [LayerCollection](https://reference.aspose.com/diagram/java/com.aspose.diagr
 
 The following piece of code helps to add Layer objects.
 #### **Programming Samples**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -92,7 +92,7 @@ diagram.save("AddLayer_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -104,8 +104,8 @@ The [PageSheet](https://reference.aspose.com/diagram/java/com.aspose.diagram/Pag
 
 The following piece of code helps to get list of Layers.
 #### **Programming Samples**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -128,4 +128,4 @@ for layer in page.getPageSheet().getLayers():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

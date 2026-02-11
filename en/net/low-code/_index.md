@@ -26,8 +26,8 @@ Aspose.Diagramm LowCode APIs provide a high‑level, declarative way to perform 
 
 The [PdfConverter] class converts a template file to a PDF file. The following code demonstrates how to convert a diagram to PDF using [PdfConverter].
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -43,14 +43,14 @@ saveOptions.OutputFile = "output.pdf";
 Aspose.Diagram.LowCode.PdfConverter.Process(loadOptions, saveOptions);
 
 {{< /highlight >}}
-```
+
 
 ### **Convert diagram file formats  – DiagramConverter**
 
 The [DiagramConverter] class converts a given template file between diagram files and other formats. The following code demonstrates how to convert a diagram to other formats using [DiagramConverter].
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -67,7 +67,7 @@ saveOptions.OutputFile = "output.vsdx";
 DiagramConverter.Process(loadOptions, saveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Why Use Aspose.Diagram Low Code**
 

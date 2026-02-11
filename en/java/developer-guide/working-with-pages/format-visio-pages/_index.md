@@ -9,8 +9,8 @@ Aspose.Diagram for Java API allows developers to format pages of a Visio Diagram
 ## **Apply Stylesheets to Visio Page**
 Aspose.Diagram for Java API lets you format a Visio page using Stylesheets. You can define a stylesheet and add it to the Visio document's stylesheet collection. The ApplyStyle method of Page class lets you apply the defined stylesheet to the page as shown in the following code sample.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
@@ -49,4 +49,4 @@ for (Shape shape: (Iterable<Shape>)vsdDiagram.getPages().get(0).getShapes())
 vsdDiagram.getPages().get(0).applyStyle(st.getID(), st.getID(), st.getID());
 
 {{< /highlight >}}
-```
+

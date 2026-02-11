@@ -18,8 +18,8 @@ Les propriétés ProtectBkgnds, ProtectMasters, ProtectShapes et ProtectStyles, 
 #### **Modifier l'exemple de programmation de protection Diagram**
 Utilisez le code ci-dessous dans une application .NET pour effectuer les mêmes tâches comme verrouiller et déverrouiller différents éléments du Visio diagram en utilisant Aspose.Diagram for .NET API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Définir la protection de la forme Visio**
  La protection des formes Visio permet aux utilisateurs de verrouiller des aspects spécifiques des formes. Les aspects des formes qui peuvent être verrouillés via la protection de forme incluent la largeur, la hauteur, la position x, la position y, la rotation et plus encore. Les développeurs peuvent y parvenir en utilisant[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Modifier la protection de forme Visio**
@@ -51,8 +51,8 @@ Dans Microsoft Office Visio, l'utilisateur peut effectuer les actions suivantes 
 ### **Modifier l'exemple de programmation de protection de forme**
 Utilisez le code suivant dans votre application .NET pour faire la même chose (verrouiller/déverrouiller n'importe quel attribut de forme) en utilisant Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

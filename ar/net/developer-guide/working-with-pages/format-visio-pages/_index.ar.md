@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API يسمح للمطورين بتنسيق صفحات م
 ## **تطبيق أوراق الأنماط على Visio صفحة**
 Aspose.Diagram for .NET API يتيح لك تنسيق صفحة Visio باستخدام Stylesheets. يمكنك تعريف ورقة أنماط وإضافتها إلى مجموعة ورقة أنماط الوثيقة Visio. تتيح لك طريقة ApplyStyle لفئة الصفحة تطبيق ورقة الأنماط المحددة على الصفحة كما هو موضح في نموذج التعليمات البرمجية التالي.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

@@ -14,8 +14,34 @@ description: В этом разделе показано, как Aspose.Diagram 
 - Создайте экземпляр класса Diagram.
 - Вызовите метод Save класса Diagram и установите формат изображения, в который вы хотите экспортировать. Выходной файл изображения выглядит как исходный файл.
 ### **Экспорт Microsoft Visio чертежа в файл изображения**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToImage.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the png format
+diagram.save("Visio_out.png", SaveFileFormat.PNG)
+{{< /highlight >}}
+
 
 Также можно сохранить в изображение определенную страницу, а не весь документ:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportPageToImage.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+#// Save diagram as PNG
+options = saving.ImageSaveOptions(SaveFileFormat.PNG)
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the png format
+diagram.save("ExportPageToImage_out.png", options)
+{{< /highlight >}}

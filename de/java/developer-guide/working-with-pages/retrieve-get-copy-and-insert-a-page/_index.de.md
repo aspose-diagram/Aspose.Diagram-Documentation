@@ -19,8 +19,8 @@ Das folgende Bild zeigt die Ausgabe der Codeausschnitte in diesem Artikel.
 ### **Programmierbeispiel zum Abrufen von Seiteninformationen**
 Der folgende Codeabschnitt ruft die Seiteninformationen von diagram ab.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **Rufen Sie die Visio-Seite von einer Diagram ab**
 Manchmal müssen Entwickler die Seitendetails einer Visio-Zeichnung abrufen. Aspose.Diagram hat Funktionen, die ihnen dabei helfen.
 
@@ -60,8 +60,8 @@ Dieses Beispiel funktioniert wie folgt:
 
 Das folgende Beispiel zeigt, wie ein Seitenobjekt anhand der ID aus der Zeichnung Visio abgerufen wird.
 #### **Programmierbeispiel zum Abrufen des Seitenobjekts nach ID**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Abrufen eines Visio-Seitenobjekts nach Name**
 Dieses Beispiel funktioniert wie folgt:
 
@@ -83,8 +83,8 @@ Dieses Beispiel funktioniert wie folgt:
 #### **Programmierbeispiel zum Abrufen des Seitenobjekts nach Namen**
 Das folgende Beispiel zeigt, wie ein Seitenobjekt anhand des Namens aus der Zeichnung Visio abgerufen wird.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Kopieren Sie eine Visio-Seite in eine andere Diagram-Seite**
 Aspose.Diagram for Java API ermöglicht es Entwicklern, den Inhalt von einer Visio diagram zu einer anderen zu kopieren und hinzuzufügen. In diesem Hilfethema wird erläutert, wie Sie diese Aufgabe ausführen.
 
@@ -116,8 +116,8 @@ Dieses Beispiel funktioniert wie folgt:
 ### **Kopieren Sie ein Programmierbeispiel für die Seite Visio**
 Das folgende Codebeispiel zeigt, wie Sie ein Visio-Seitenobjekt in eine andere Visio-Zeichnung kopieren.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kopieren Sie die Seite Visio in eine andere Seiteninstanz**
 Die Copy-Methode der Page-Klasse nimmt eine Seiteninstanz zum Klonen.
 
@@ -189,8 +189,8 @@ Die Add-Methode, die von der Pages-Auflistung bereitgestellt wird, ermöglicht e
 ### **Programmierbeispiel für eine leere Seite einfügen**
 Der folgende Codeabschnitt fügt eine leere Seite in die Zeichnung Visio ein:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Seitenposition in der Zeichnung Visio verschieben**
 Aspose.Diagram for Java API kann die Seitenposition in der Visio Zeichnung verschieben. Die moveTo-Methode, die von der Page-Klasse verfügbar gemacht wird, hilft Entwicklern, die Seitenposition zu verschieben.
 ### **Verschieben der Seitenposition Programmierbeispiel**

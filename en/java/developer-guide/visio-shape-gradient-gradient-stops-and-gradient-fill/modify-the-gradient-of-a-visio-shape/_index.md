@@ -13,8 +13,8 @@ Using Aspose.Diagram API, developers can enhance the appearance of a Visio shape
 ## **Modify the Gradient Fill Programming Sample**
 [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class offers Fill property which allows developers to retrieve a [GradientFill](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill) object. The GradientFill class holds the gradient data of a Visio Shape. Developers can set all its available properties as well as retrieve a gradient stop by index to set the color and position properties.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -38,4 +38,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

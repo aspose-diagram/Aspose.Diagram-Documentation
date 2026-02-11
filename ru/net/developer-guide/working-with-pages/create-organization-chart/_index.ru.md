@@ -20,8 +20,8 @@ description: В этом разделе объясняется, как созд�
 #### **Создание примера программирования организационной диаграммы в стиле CompactTree**
 Используйте следующий код, чтобы создать организационную диаграмму в стиле CompactTree, используя Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_CompactTreeChart();
@@ -83,7 +83,7 @@ diagram.Pages[pageNumber].Layout(compactTreeOptions);
 diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Результат**|
 |:- |
@@ -102,8 +102,8 @@ diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 #### **Создание примера программирования организационной диаграммы в стиле блок-схемы**
 Используйте следующий код, чтобы создать организационную диаграмму в стиле блок-схемы, используя Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_FlowChart();
@@ -164,7 +164,7 @@ diagram.Pages[pageNumber].Layout(flowChartOptions);
 diagram.Save(dataDir + "FlowChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Результат**|
 |:- |

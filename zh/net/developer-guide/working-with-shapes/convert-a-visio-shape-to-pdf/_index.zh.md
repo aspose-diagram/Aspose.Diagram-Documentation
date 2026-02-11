@@ -17,8 +17,8 @@ description: 本节介绍如何使用 Aspose.Diagram 将 visio 形状转换为 p
 ### **形状转 Pdf**
 在您的 .net 应用程序中使用以下代码将 visio 形状转换为 pdf。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -36,5 +36,5 @@ Shape shape = page.Shapes[0];
 shape.ToPdf("out.pdf");
 
 {{< /highlight >}}
-```
+
 

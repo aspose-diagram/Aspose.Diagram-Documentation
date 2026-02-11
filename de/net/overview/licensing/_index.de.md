@@ -43,8 +43,8 @@ Befolgen Sie diese einfachen Regeln:
 #### **Laden einer Lizenz aus einer Datei**
 Dieses Code-Snippet initialisiert eine Lizenz, die in einer Datei oder in einer eingebetteten Ressource gespeichert ist.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -53,12 +53,12 @@ License license = new License();
 license.SetLicense(dataDir + "Aspose.Diagram.lic");
 
 {{< /highlight >}}
-```
+
 #### **Laden einer Lizenz aus einem Stream-Objekt**
 Diese Codeausschnitte initialisieren die Lizenz aus dem Stream.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -69,17 +69,17 @@ License license = new License();
 license.SetLicense(LicStream);
 
 {{< /highlight >}}
-```
+
 ## **Wenden Sie eine gemessene Lizenz an**
 Aspose.Diagram for .NET API ermöglicht es Entwicklern, eine gemessene Lizenz anzuwenden. Es ist ein neuer Lizenzierungsmechanismus. Der neue Lizenzierungsmechanismus wird zusammen mit der bestehenden Lizenzierungsmethode verwendet. Diejenigen Kunden, die basierend auf der Nutzung der API-Funktionen abgerechnet werden möchten, können die gebührenpflichtige Lizenzierung verwenden. Weitere Einzelheiten finden Sie unter[Häufig gestellte Fragen zur getakteten Lizenzierung](https://purchase.aspose.com/faqs/licensing/metered)Sektion.
 
 Eine neue Klasse[Gemessen](https://reference.aspose.com/diagram/net/aspose.diagram/metered)wurde hinzugefügt, um einen gemessenen Schlüssel anzuwenden. Dieses Codebeispiel zeigt, wie gemessene öffentliche und private Schlüssel festgelegt werden:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // Initialize a Metered license class object
 Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
 // apply public and private keys
 metered.SetMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

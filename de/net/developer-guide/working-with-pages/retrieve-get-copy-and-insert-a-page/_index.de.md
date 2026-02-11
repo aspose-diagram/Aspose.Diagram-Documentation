@@ -14,8 +14,8 @@ Verwenden Sie die Page.Background-Eigenschaft, um zu bestimmen, ob eine Seite ei
 ### **Programmierbeispiel zum Abrufen von Seiteninformationen**
 Der folgende Codeabschnitt ruft die Seiteninformationen von diagram ab.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -42,7 +42,7 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 }
 
 {{< /highlight >}}
-```
+
 ## **Rufen Sie die Visio-Seite von einer Diagram ab**
 Manchmal müssen Entwickler die Seitendetails einer Visio-Zeichnung abrufen. Aspose.Diagram hat Funktionen, die ihnen dabei helfen.
 
@@ -55,8 +55,8 @@ Dieses Beispiel funktioniert wie folgt:
 
 Das folgende Beispiel zeigt, wie ein Seitenobjekt anhand der ID aus der Zeichnung Visio abgerufen wird.
 #### **Programmierbeispiel zum Abrufen des Seitenobjekts nach ID**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -70,7 +70,7 @@ int pageid = 2;
 Page page2 = diagram.Pages.GetPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Abrufen eines Visio-Seitenobjekts nach Name**
 Dieses Beispiel funktioniert wie folgt:
 
@@ -79,8 +79,8 @@ Dieses Beispiel funktioniert wie folgt:
 #### **Programmierbeispiel zum Abrufen des Seitenobjekts nach Namen**
 Das folgende Beispiel zeigt, wie ein Seitenobjekt anhand des Namens aus der Zeichnung Visio abgerufen wird.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,7 +94,7 @@ string pageName = "Flow 2";
 Page page2 = diagram.Pages.GetPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Kopieren Sie eine Visio-Seite in eine andere Diagram-Seite**
 Aspose.Diagram for .NET API ermöglicht es Entwicklern, den Inhalt von einer Visio diagram zu einer anderen zu kopieren und hinzuzufügen. In diesem Hilfethema wird erläutert, wie Sie diese Aufgabe ausführen.
 
@@ -113,8 +113,8 @@ Dieses Beispiel funktioniert wie folgt:
 ### **Kopieren Sie ein Programmierbeispiel für die Seite Visio**
 Das folgende Codebeispiel zeigt, wie Sie ein Visio-Seitenobjekt in eine andere Visio-Zeichnung kopieren.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -157,7 +157,7 @@ NewDigram.Pages.Remove(NewDigram.Pages[0]);
 NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kopieren Sie die Seite Visio in eine andere Seiteninstanz**
 Die Copy-Methode der Page-Klasse nimmt eine Seiteninstanz zum Klonen.
 
@@ -183,8 +183,8 @@ Die Add-Methode, die von der Pages-Auflistung bereitgestellt wird, ermöglicht e
 ### **Programmierbeispiel für eine leere Seite einfügen**
 Der folgende Codeabschnitt fügt eine leere Seite in die Zeichnung Visio ein:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -223,7 +223,7 @@ diagram.Pages.Add(newPage);
 diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Seitenposition in der Zeichnung Visio verschieben**
 Aspose.Diagram for .NET API kann die Seitenposition in der Visio Zeichnung verschieben. Die MoveTo-Methode, die von der Page-Klasse verfügbar gemacht wird, hilft Entwicklern, die Seitenposition zu verschieben.
 ### **Verschieben der Seitenposition Programmierbeispiel**

@@ -10,8 +10,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie Layer-Informationen in
 ### **Shape Objects Programmierbeispiel konfigurieren**
 Der folgende Codeabschnitt hilft beim Hinzufügen, Entfernen und Verschieben von Formobjekteigenschaften.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Fügen Sie eine neue Ebene in Visio Diagram hinzu**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) ermöglicht es Entwicklern, neue Ebenen hinzuzufügen, um benutzerdefinierte Kategorien von Formen zu organisieren, und diesen Ebenen dann programmgesteuert Formen zuzuweisen. Das[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) Die Klasse bietet die Add-Methode, mit der Sie eine neue hinzufügen können[Schicht](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) in der Zeichnung Visio. Entwickler können Layer-Eigenschaften festlegen, indem sie ihr Klassenobjekt initialisieren.
 ### **Layer-Programmierbeispiel hinzufügen**
 Der folgende Codeabschnitt hilft beim Hinzufügen von Layer-Objekten.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Rufen Sie alle Ebenen von Visio Diagram ab**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) gibt Entwicklern Zugriff auf die vorhandenen Schichten eines Visio diagram. Die[Seitenblatt](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) Eigentum der[Buchseite](http://www.aspose.com/api/net/diagram/aspose.diagram/page) Klasse ermöglicht das Abrufen der Liste der verfügbaren Layer von einem Visio diagram mit[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) Klasse.
 ### **Programmierbeispiel für Schichten abrufen**
 Der folgende Codeabschnitt hilft beim Abrufen der Liste der Ebenen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

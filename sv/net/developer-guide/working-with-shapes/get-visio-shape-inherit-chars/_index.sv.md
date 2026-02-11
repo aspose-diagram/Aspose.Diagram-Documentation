@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur du får visio-formens teckensnitt
 #### **Hämta ärvt teckensnittsdataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda teckensnittsdata. Kontrollera denna exempelkod:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -38,5 +38,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

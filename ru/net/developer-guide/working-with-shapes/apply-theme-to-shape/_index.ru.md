@@ -18,8 +18,8 @@ description: В этом разделе объясняется, как уста�
 #### **Установите тему в форму Образец программирования**
 Используйте следующий код в своем приложении .NET, чтобы настроить внешний вид формы типа соединителя, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

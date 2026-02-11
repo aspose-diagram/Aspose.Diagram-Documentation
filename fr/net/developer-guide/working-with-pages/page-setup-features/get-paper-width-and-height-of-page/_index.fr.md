@@ -15,8 +15,8 @@ Parfois, vous devez connaître la largeur et la hauteur du format de papier tel 
 
 ### **Exemple de code**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -32,4 +32,4 @@ double pagewidth = page.PageSheet.PageProps.PageWidth.Value;
 double pageheight = page.PageSheet.PageProps.PageHeight.Value;
 
 {{< /highlight >}}
-```
+

@@ -13,8 +13,8 @@ Aspose.Diagram for Python via Java allows to configure shape objects with layers
 
 El siguiente fragmento de código ayuda a agregar, eliminar y mover propiedades de objetos de forma.
 #### **Ejemplos de programación**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -47,7 +47,7 @@ diagram.save("ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Agregar una capa en la hoja de página Visio**
 Aspose.Diagram for Python via Java allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically.
 
@@ -55,8 +55,8 @@ Aspose.Diagram for Python via Java allows developers to add new layers to organi
 
 El siguiente fragmento de código ayuda a agregar objetos de capa.
 #### **Ejemplos de programación**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -91,7 +91,7 @@ diagram.save("AddLayer_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -103,8 +103,8 @@ Aspose.Diagram for Python via Java gives developers access to the existing layer
 
 El siguiente fragmento de código ayuda a obtener una lista de capas.
 #### **Ejemplos de programación**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -127,4 +127,4 @@ for layer in page.getPageSheet().getLayers():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

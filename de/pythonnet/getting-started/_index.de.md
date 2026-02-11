@@ -34,6 +34,17 @@ You can easily use Aspose.Diagram for Python via .NET from [pypi](https://pypi.o
 
 -  Erstellen Sie eine Datei mit dem Namen**Erstellen von NewVisioFile.py** und verwenden Sie den folgenden Beispielcode:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingNewVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram()
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 - Speichern Sie nun den obigen Code in „CreatingNewVisioFile.py“ und führen Sie „python CreatingNewVisioFile.py“ @command prompt aus.

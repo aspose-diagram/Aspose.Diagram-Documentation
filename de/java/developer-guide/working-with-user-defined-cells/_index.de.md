@@ -19,8 +19,8 @@ Das folgende Bild zeigt die Ausgabe nach dem Ausführen des Codes:
 
 ![todo: Bild_alt_Text](working-with-user-defined-cells_2.png)
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Benutzerdefinierte Zelle erstellen**
 Mit Aspose.Diagram for Java API können Entwickler benutzerdefinierte Zellen im Shapesheet erstellen. In diesem Beispielthema wird beschrieben, wie Sie so viele Benutzernamenzeilen wie nötig hinzufügen, den Zeilen aussagekräftige Namen zuweisen und Zellenwerte festlegen.
 
@@ -45,8 +45,8 @@ Die add-Methode, die von der Users-Sammlung verfügbar gemacht wird, kann verwen
 
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um eine benutzerdefinierte Zelle im Shapesheet mit Aspose.Diagram for Java zu erstellen.
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Benutzerdefinierte Zellen aus Shapesheet abrufen**
 Aspose.Diagram for Java API ermöglicht es Entwicklern, benutzerdefinierte Zellen aus dem Shapesheet abzurufen. In diesem Beispielthema wird beschrieben, wie alle Benutzernamen für alle Shapes in einer Zeichnung abgerufen werden.
 ### **Benutzerdefinierte Zellen abrufen**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API ermöglicht es Entwicklern, benutzerdefinierte Zelle
 #### **Abrufen von Zellen aus Shapesheet-Programmierbeispielen**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um alle benutzerdefinierten Zellen aus dem Shapesheet mit Aspose.Diagram for Java abzurufen.
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ description: 如何使用 .NET Diagram API 为 visio 添加水印。
 ## **创建一个 Diagram**
  Aspose.Diagram for .NET 允许您从自己的应用程序中读取和创建 Microsoft Visio 图表，无需 Microsoft Office 自动化。创建新文档的第一步是创建一个 diagram。然后[添加形状和连接器](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)构建 diagram。使用默认构造函数[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)类创建一个新的 diagram。
 ### **编程范例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -26,7 +26,7 @@ dataDir = dataDir + "CreateDiagram_out.vsdx";
 diagram.Save(dataDir, SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 这个例子的工作原理如下：
 
@@ -36,8 +36,8 @@ diagram.Save(dataDir, SaveFileFormat.VSDX);
 ### **添加水印编程示例**
 下面的示例代码展示了如何在 Visio diagram 中添加水印。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -62,4 +62,4 @@ public static void Run()
 
 
 {{< /highlight >}}
-```
+

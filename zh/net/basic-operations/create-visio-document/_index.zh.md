@@ -11,8 +11,8 @@ Aspose.Diagram for .NET 允许您从自己的应用程序中读取和创建 Micr
 ## **创建 Visio 绘图编程示例**
 下面的代码显示创建一个新的 Microsoft Visio 绘图。请注意，空白绘图包含一个空白页面。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

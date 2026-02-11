@@ -10,8 +10,8 @@ The Visio shapes can inherit the parent style and the master shape. Developers m
 #### **Retrieve Inherited Font Data Programming Sample**
 The following code snippet retrieves the inherited font data of the shape. Please check this sample code:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedChars.class) + "Shapes/";
@@ -45,7 +45,7 @@ for (int j = 0; j < chars.getCount(); j++)
 }
 
 {{< /highlight >}}
-```
+
 
 
 

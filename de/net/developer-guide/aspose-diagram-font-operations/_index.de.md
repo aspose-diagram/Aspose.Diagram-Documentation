@@ -27,8 +27,8 @@ Das Festlegen des Schriftartenordners mit einer der oben genannten Methoden stel
 #### **Programmierbeispiel**
 Das folgende Codebeispiel zeigt, wie Sie Aspose.Diagram so einstellen, dass es beim Rendern oder Einbetten von Schriftarten in mehreren Ordnern nach TrueType-Schriftarten sucht.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -43,7 +43,7 @@ diagram.FontDirs = fontDirs;
 diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **Erhalten Sie während des Renderns eine Benachrichtigung über fehlende Schriften und Schriftersetzungen**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Programmierbeispiel für Benachrichtigung über fehlende Schriftarten und Schriftartersetzung**

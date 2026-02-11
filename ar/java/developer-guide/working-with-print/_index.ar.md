@@ -12,8 +12,8 @@ url: /ar/java/working-with-print/
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - قم باستدعاء أسلوب الطباعة للفئة Diagram باستخدام اسم الطابعة كمعامل سلسلة إلى أسلوب الطباعة
 #### **الطباعة على عينة برمجة طابعة معينة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(BySpecificPrinter.class); 
@@ -24,15 +24,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **إعداد اسم الطابعة والمستند**
 تسمح واجهات برمجة التطبيقات Aspose.Diagram بتعيين اسم الطابعة والوثيقة المحددة لمهمة الطباعة. قم بتنفيذ الخطوات التالية لطباعة diagram على الطابعة المطلوبة:
 
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - اتصل بأسلوب الطباعة للفئة Diagram باستخدام اسم الطابعة والوثيقة كمعامل سلسلة لأسلوب الطباعة
 #### **إعداد نموذج برمجة اسم الطابعة والمستند**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetPrintJobAndPrinterName.class);   
@@ -43,4 +43,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

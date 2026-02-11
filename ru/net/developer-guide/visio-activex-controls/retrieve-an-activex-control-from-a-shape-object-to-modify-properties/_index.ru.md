@@ -13,8 +13,8 @@ description: Измените свойства элемента управлен
 ## **Получение примера программирования элемента управления ActiveX**
 [Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Класс предлагает свойство ActiveXControl, которое позволяет разработчикам извлекать элемент управления ActiveX из объекта формы Visio. Разработчики могут преобразовать элемент управления ActiveX в соответствующий класс элемента управления ActiveX, а затем установить все его доступные свойства.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

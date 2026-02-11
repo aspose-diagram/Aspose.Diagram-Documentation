@@ -12,8 +12,8 @@ Con Aspose.Diagram API, los desarrolladores pueden mejorar la apariencia de una 
 ## **Modificar el ejemplo de programación de relleno de degradado**
 [Forma](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)class ofrece la propiedad Fill que permite a los desarrolladores recuperar un[Relleno degradado](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill)objeto. La clase GradientFill contiene los datos de degradado de una forma Visio. Los desarrolladores pueden establecer todas sus propiedades disponibles, así como recuperar un degradado por índice para establecer las propiedades de color y posición.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -37,4 +37,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

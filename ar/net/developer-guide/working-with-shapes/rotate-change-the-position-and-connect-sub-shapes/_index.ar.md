@@ -10,8 +10,8 @@ description: يشرح هذا القسم كيفية تدوير شكل visio با�
 ### **قم بتدوير عينة برمجة الشكل**
 استخدم الكود التالي في تطبيق .NET لتدوير شكل باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **تغيير موضع الشكل**
  ال[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) تسمح لك الفئة بتغيير موضع الشكل. يتم ضبط خط الموصل تلقائيًا عند نقل الشكل إلى موضع مختلف. أساليب Move و MoveTo ، المكشوفة بواسطة[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) فئة ، دعم تغيير موضع الشكل كجزء من مجموعة أم لا. تعمل أمثلة التعليمات البرمجية في هذه المقالة على نقل شكل على الصفحة.
 
@@ -43,8 +43,8 @@ diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 ### **نموذج برمجة تغيير الموضع**
 يوضح مقتطف الشفرة أدناه كيفية تحريك الشكل. يسترجع الكود صفحة Visio بالاسم والشكل بواسطة المعرف 16 ، وينقل موضعه.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **ربط الأشكال الفرعية للمجموعات**
  يوضح هذا الموضوع كيفية توصيل شكلين فرعيين من شكلين مختلفين للمجموعة في مخطط Microsoft Visio باستخدام Aspose.Diagram for .NET.[صفحة](http://www.aspose.com/api/net/diagram/aspose.diagram/page) يمكن استخدام class لتوصيل الأشكال بمعرفاتها. طريقة AddShape ، المكشوفة بواسطة ملف[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)فئة ، يمكن استخدامها لإضافة شكل.
 
@@ -75,8 +75,8 @@ diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 ### **عينة برمجة توصيل الأشكال الفرعية**
 استخدم الكود التالي في تطبيق .NET الخاص بك لتوصيل الأشكال الفرعية لاثنين من أشكال المجموعة المختلفة باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **اجعل الأشكال متصلة بشكل معين**
 [إضافة وتوصيل Visio الأشكال](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) يشرح كيفية إضافة شكل وربطه بأشكال أخرى في الرسوم التخطيطية Microsoft Visio باستخدام Aspose.Diagram for .NET. من الممكن أيضًا العثور على أشكال متصلة بشكل معين.
 
@@ -117,8 +117,8 @@ diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 ### **احصل على عينة برمجة الأشكال**
 استخدم الكود التالي في تطبيق .NET الخاص بك للعثور على جميع الأشكال المتصلة بشكل معين باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

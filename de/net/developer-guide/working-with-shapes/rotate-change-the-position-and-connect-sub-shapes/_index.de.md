@@ -10,8 +10,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie eine visio-Form mit As
 ### **Drehen eines Formprogrammierungsbeispiels**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um eine Form mit Aspose.Diagram for .NET zu drehen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ändern Sie die Position einer Form**
  Das[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Mit der Klasse können Sie die Position einer Form ändern. Die Verbindungslinie passt sich automatisch an, wenn die Form an eine andere Position verschoben wird. Die Move- und MoveTo-Methoden, die von verfügbar gemacht werden[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Klasse, unterstützen Sie das Ändern der Position einer Form als Teil einer Gruppe oder nicht. Die Codebeispiele in diesem Artikel verschieben eine Form auf der Seite.
 
@@ -43,8 +43,8 @@ Der Vorgang zum Verschieben einer Form ist:
 ### **Beispiel für die Programmierung der Position ändern**
 Das folgende Code-Snippet zeigt, wie die Form verschoben wird. Der Code ruft eine Visio-Seite nach Name und Form nach ID 16 ab und verschiebt ihre Position.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Verbinden Sie Unterformen der Gruppen**
  In diesem Thema wird erläutert, wie zwei Unterformen von zwei verschiedenen Gruppenformen in Microsoft Visio-Diagrammen mithilfe von Aspose.Diagram for .NET verbunden werden. Die ConnectShapesViaConnector-Methode, die von der[Buchseite](http://www.aspose.com/api/net/diagram/aspose.diagram/page) Klasse kann verwendet werden, um die Shapes über ihre IDs zu verbinden. Die AddShape-Methode, verfügbar gemacht durch die[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)Klasse, kann verwendet werden, um eine Form hinzuzufügen.
 
@@ -75,8 +75,8 @@ Der folgende Code zeigt, wie man:
 ### **Programmierbeispiel für Teilformen verbinden**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um die Unterformen von zwei verschiedenen Gruppenformen mit Aspose.Diagram for .NET zu verbinden.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Holen Sie sich die Formen, die mit einer bestimmten Form verbunden sind**
 [Visio Formen hinzufügen und verbinden](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) erklärt, wie man eine Form hinzufügt und sie mit anderen Formen in Microsoft Visio Diagrammen unter Verwendung von Aspose.Diagram for .NET verbindet. Es ist auch möglich, Formen zu finden, die mit einer bestimmten Form verbunden sind.
 
@@ -117,8 +117,8 @@ Der folgende Code zeigt, wie man:
 ### **Holen Sie sich Shapes-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um alle Formen zu finden, die mit einer bestimmten Form verbunden sind, die Aspose.Diagram for .NET verwendet.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

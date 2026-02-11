@@ -21,8 +21,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Grup Şekilleri Programlama Örneği**
 Aspose.Diagram for Java API'i kullanarak şekilleri gruplandırmak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GroupShapes.class);
@@ -46,7 +46,7 @@ page.getShapes().group(ss);
 diagram.save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklini Diğer Dosya Biçimlerine Dönüştürme**
 Aspose.Diagram for Java API, geliştiricilerin tek bir Visio şeklini desteklenen diğer herhangi bir dosya biçimine dönüştürmesine olanak tanır. Bu yazıda, diğer tüm Visio şekillerini sayfadan kaldırıyoruz ve sayfa ayarını kaynak Şekil boyutuna göre özelleştiriyoruz.
 ### **Belirli Bir Şekli Dönüştürme Visio**
@@ -62,8 +62,8 @@ Bu örnek kod aşağıdaki gibi çalışır:
 1. Sayfa boyutunu ayarlayın.
 1. Visio sayfasını desteklenen herhangi bir dosya biçiminde kaydedin.
 #### **Şekil Programlama Örneği Dönüştür**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioShapeInOtherFormats.class);   
@@ -121,7 +121,7 @@ opts.setPageIndex(1);
 srcVisio.save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Visio Şeklini PDF'e dönüştür**
 Shape sınıfının ToPdf yöntemi, bir şekli PDF biçimine dönüştürmeye olanak tanır.
 
@@ -165,8 +165,8 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 #### **Bağlı veya Yapıştırılmış Şekillerin Doğrulanması Programlama Örneği**
 Aşağıdaki kod parçası, iki şeklin bağlantılı mı yoksa yapıştırılmış mı olduğunu doğrular.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VerifyConnectedOrGluedShapes.class);  
@@ -192,7 +192,7 @@ boolean glued = ShapedOne.isGlued(ShapedTwo);
 System.out.println("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklinin bir Şekil Grubunda Olup Olmadığını Doğrulayın**
 Aspose.Diagram for Java API, geliştiricilerin Visio şeklinin bir grup şekil içinde olup olmadığını doğrulamasını sağlar.
 ### **Şekil Grubunda Şeklin Doğrulanması**
@@ -200,8 +200,8 @@ Shape sınıfı, Visio şeklinin bir grup şeklinde olup olmadığını belirlem
 #### **Şekiller Grubu Programlama Örneğinde Şeklin Doğrulanması**
 Aşağıdaki kod parçası, şeklin bir grup şeklinde olup olmadığını doğrular.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -212,7 +212,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
 System.out.println("Is it in a Group: " + shape.isInGroup());
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

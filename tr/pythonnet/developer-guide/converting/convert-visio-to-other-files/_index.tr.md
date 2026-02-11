@@ -10,7 +10,18 @@ description: Bu konu, Aspose.Diagram'in Visio'i SVG,XPS,XML,XAML biçimlerine d�
 ### **İhracat Microsoft Visio Çizimi PDF'e**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak PDF'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the pdf format
+diagram.save("Visio_out.pdf", SaveFileFormat.PDF)
+{{< /highlight >}}
+
 
  Bu makalede, bir Microsoft Visio diagram kullanarak XML'e nasıl dışa aktarılacağı açıklanmaktadır.[Python via .NET için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
 
@@ -55,7 +66,24 @@ Bir VSD diagram'i VTX'e aktarmak için:
 ### **Microsoft Visio Çizimi XML'e Aktar**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XML'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXml.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the vdx format
+diagram.save("Visio_out.vdx", SaveFileFormat.VDX)
+
+#// Save diagram in the vtx format
+diagram.save("Visio_out.vtx", SaveFileFormat.VTX)
+
+#// Save diagram in the vsx format
+diagram.save("Visio_out.vsx", SaveFileFormat.VSX)
+{{< /highlight >}}
+
 
 ## **XPS'e aktar**
  Bu makalede, bir Microsoft Visio diagram'in XPS kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Python via .NET için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
@@ -75,7 +103,18 @@ VSD diagram'i XPS'e dışa aktarmak için:
 ### **İhracat Microsoft Visio Çizimi XPS'e**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XPS'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToXps.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the xps format
+diagram.save("Visio_out.xps", SaveFileFormat.XPS)
+{{< /highlight >}}
+
 
 ## **Diagram'i SVG'e dışa aktarın**
  Bu makalede, bir Microsoft Visio diagram'in SVG'e (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Python via .NET için Aspose.Diagram](https://products.aspose.com/diagram/python-net/) API.
@@ -89,7 +128,18 @@ VSD diagram'i SVG'e aktarmak için aşağıdaki adımları gerçekleştirin:
 ### **İhracat Microsoft Visio Çizimi SVG'e**
 Kod örnekleri, C# kullanarak bir diagram'in SVG'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToSvg.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the svg format
+diagram.save("Visio_out.svg", SaveFileFormat.SVG)
+{{< /highlight >}}
+
 
 Bir Visio çizimini seçici şekillerle dışa aktarmak için:
 
@@ -99,4 +149,23 @@ Bir Visio çizimini seçici şekillerle dışa aktarmak için:
 ### **Dönüştür Visio Seçici Şekillerle Çizim Programlama Örneği**
 Kod örneği, bir çizimin seçici Visio şekillerle nasıl dışa aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-PythonNet-ConvertVisioWithSelectiveShapes.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+options = saving.SVGSaveOptions()
+shapes = options.shapes;
+#// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.pages[0].shapes.get_shape(1));
+shapes.add(diagram.pages[0].shapes.get_shape(2));
+    
+#// Save one page only, by page index
+options.page_index = 0
+    
+#// Save resultant svg file
+diagram.save("ExportToSvg_out.svg", options)
+{{< /highlight >}}

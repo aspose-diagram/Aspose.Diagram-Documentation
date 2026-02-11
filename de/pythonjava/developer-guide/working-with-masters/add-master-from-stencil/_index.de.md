@@ -12,8 +12,8 @@ Aspose.Diagram for Python via Java API has the Master class that represents a Vi
 Mit der Methode**addMaster** in der Klasse Diagram, um Master aus Schablone hinzuzufügen.
 
 ## **Beispielcode**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

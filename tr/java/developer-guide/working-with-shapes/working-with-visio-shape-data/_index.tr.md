@@ -23,8 +23,8 @@ Yeni bir şekil eklemek için:
 ### **Programlama Örneği Ekle**
 Aşağıdaki kod parçacığı, her bir adımın nasıl yapılacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -61,7 +61,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ Visio sayfa bilgisini almak için:
 ### **Programlama Örneği Al**
 Aşağıdaki kod parçası, şekil bilgisini bir Visio diagram'den alır.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -107,7 +107,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 ## **Mevcut Bir Visio'den Şekilleri Kopyala**
 Aspose.Diagram for Java API, geliştiricilerin Visio kaynak sayfasındaki şekilleri yeni Visio diagram sayfasına kopyalamasına olanak tanır. Grup şekillerinin kopyalanmasını da destekler. Bu makalede, kaynak diagram sayfasındaki tüm şekillerin nasıl kopyalanacağı açıklanmaktadır.
 
@@ -124,8 +124,8 @@ Bu örnek şu şekilde çalışır:
 1. Yeni kimliğini ayarlayın ve yeni Visio sayfasına ekleyin.
 1. Yeni Visio'i yerel depolamaya kaydedin.
 ### **Programlama Örneği Kopyala**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -156,7 +156,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -205,8 +205,8 @@ Microsoft Visio'de özel özellikleri tanımlamak için:
 #### **Programlama Örneği Oku**
 Aşağıdaki kod parçacıkları, şekil verilerini (özel özellikler) okur.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -229,12 +229,12 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ### **Bir Şekil Özelliğini Ada Göre Okuma**
 Aşağıdaki kod parçacığı, bir şekil özelliğini ada göre okur (özel özellik).
 #### **Ada Göre Okuma Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -253,7 +253,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Şekilleri bağlamak için Bağlantı dizinlerini kullanın**
 Aspose.Diagram for Java API zaten geliştiricilerin şekle yeni bağlantı noktaları eklemesine izin veriyor ve geliştiriciler artık bağlantı dizinlerini kullanarak şekilleri birbirine bağlayabiliyor.
 ### **Şekilleri bağlamak için Bağlantı dizinlerini kullanın**
@@ -363,8 +363,8 @@ Aspose.Diagram for Java, geliştiricilerin bir alt şeklin ana şeklini almasın
 ### **Ebeveyn Şeklini Alın**
 Shape sınıfı, ana şekli almak için getParentShape özelliğini sunar.
 #### **Ebeveyn Şekli Programlama Örneği Alın**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -379,4 +379,4 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+

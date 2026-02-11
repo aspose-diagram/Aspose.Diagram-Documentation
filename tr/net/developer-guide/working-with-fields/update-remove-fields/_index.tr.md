@@ -11,8 +11,8 @@ description: Bu bölümde alanların nasıl güncelleneceği veya kaldırılaca�
  bu[Alan](https://reference.aspose.com/diagram/net/aspose.diagram/field) nesne bir metin alanını temsil eder[Metin](https://reference.aspose.com/diagram/net/aspose.diagram/text) koşmak. tarafından gösterilen alan özelliği[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, Aspose.Diagram.Field nesnelerinin bir koleksiyonunu destekler.
 ### **Programlama Örneği**
 Aşağıdaki kod parçası güncelleme alanı şeklindedir.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Alanı Kaldır**
 Aşağıdaki kod parçası, şekildeki alanı kaldırır.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

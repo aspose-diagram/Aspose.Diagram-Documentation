@@ -19,8 +19,8 @@ Yerel koordinatlarda belirtilen bir nokta, aşağıdaki dönüşümler aşağıd
 ### **PinX ve PinY Programlama Örneğinin Hesaplanması**
 Aspose.Diagram for Java API kullanarak bir alt şeklin PinX ve PinY değerlerini hesaplamak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CalculateCenterOfSubShapes.class);
@@ -50,7 +50,7 @@ double resultx = shape.getXForm().getPinX().getValue() - shape.getXForm().getLoc
 double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLocPinY().getValue() - piny;
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Yüksekliğini ve Genişliğini Ayarlama**
  bu[Şekil](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) Class, SetHeight ve SetWidth yöntemlerini kullanarak şeklin yüksekliğini ve genişliğini belirleyerek şeklin boyutunu kontrol etmenizi sağlar.
 
@@ -76,8 +76,8 @@ Yükseklik ve Genişliği ayarlama işlemi şu şekildedir:
 ### **Ayar Yükseklik ve Genişlik Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin yüksekliğini ve genişliğini nasıl ayarlayacağınızı gösterir. Kod, şekil kimliği 1 olan bir şekil adı dikdörtgeni arar ve Yükseklik ve Genişliğini çift olarak ayarlar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeShapeSize.class);
@@ -95,4 +95,4 @@ shape.setHeight(2 * shape.getXForm().getHeight().getValue());
 diagram.save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

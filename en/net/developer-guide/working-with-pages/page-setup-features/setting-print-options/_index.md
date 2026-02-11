@@ -30,8 +30,8 @@ Print Page orientation can be set to portrait or landscape using the [**PrintPro
 |Landscape|Landscape orientation|
 |Portrait|Portrait orientation|
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -46,14 +46,14 @@ Aspose.Diagram.Page page = diagram.Pages.GetPage(0);
 page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
 
 {{< /highlight >}}
-```
+
 
 ### **Scaling Factor**
 
 It is possible to reduce or enlarge a page's size by adjusting the scaling factor with the [**ScaleX**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/scalex) property.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -66,4 +66,4 @@ diagram.Pages[0].PageSheet.PrintProps.ScaleX.Value = 1;
 diagram.Pages[0].PageSheet.PrintProps.ScaleY.Value = 1;
 
 {{< /highlight >}}
-```
+

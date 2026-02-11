@@ -26,8 +26,8 @@ VSD diagram'i HTML'e aktarmak için aşağıdaki adımları gerçekleştirin:
 ### **Ortaya çıkan HTML'i yerel depoya kaydedin**
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 #### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -37,7 +37,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.Save(dataDir + "outputVSDtoHTML.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 

@@ -19,8 +19,8 @@ Mit Aspose.Diagram API können Entwickler definieren, wie eine Form auf bestimmt
 ## **Festlegen von Ereigniszellen**
 [Vorfall](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) -Klasse ermöglicht es Entwicklern, Ereigniszellen im ShapeSheet festzulegen. Dieses Hilfethema zeigt, wie Entwickler Formeln in den Ereigniszellen festlegen können:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -45,4 +45,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

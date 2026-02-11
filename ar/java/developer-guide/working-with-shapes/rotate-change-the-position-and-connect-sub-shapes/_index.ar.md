@@ -9,8 +9,8 @@ url: /ar/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **قم بتدوير عينة برمجة الشكل**
 استخدم الكود التالي في تطبيق Java لتدوير شكل باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RotateVisioShape.class); 
@@ -28,7 +28,7 @@ shape.setAngle(190);
 diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **تغيير موضع الشكل**
 تسمح لك فئة الشكل بتغيير موضع الشكل. يتم ضبط خط الموصل تلقائيًا عند نقل الشكل إلى موضع مختلف.
 
@@ -52,8 +52,8 @@ diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 ### **نموذج برمجة تغيير الموضع**
 يوضح مقتطف الشفرة أدناه كيفية تحريك الشكل. يسترجع الكود صفحة Visio بالاسم والشكل بواسطة المعرف 16 ، وينقل موضعه.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(MoveVisioShape.class);  
@@ -70,7 +70,7 @@ shape.move(1, 1);
 diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **ربط الأشكال الفرعية للمجموعات**
 يوضح هذا الموضوع كيفية توصيل شكلين فرعيين من شكلين مختلفين للمجموعة في مخطط Microsoft Visio باستخدام Aspose.Diagram for Java.
 
@@ -87,8 +87,8 @@ diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 ### **عينة برمجة توصيل الأشكال الفرعية**
 استخدم الكود التالي في تطبيق Java الخاص بك لتوصيل الأشكال الفرعية لاثنين من أشكال المجموعة المختلفة باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
@@ -114,7 +114,7 @@ page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToI
 diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **اجعل الأشكال متصلة بشكل معين**
 [إضافة وتوصيل Visio الأشكال](/diagram/ar/java/add-and-connect-visio-shapes/) يشرح كيفية إضافة شكل وربطه بأشكال أخرى في الرسوم التخطيطية Microsoft Visio باستخدام Aspose.Diagram for Java. من الممكن أيضًا العثور على أشكال متصلة بشكل معين.
 
@@ -128,8 +128,8 @@ diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 ### **احصل على عينة برمجة الأشكال**
 استخدم الكود التالي في تطبيق Java الخاص بك للعثور على جميع الأشكال المتصلة بشكل معين باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
@@ -147,4 +147,4 @@ for (long id : connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

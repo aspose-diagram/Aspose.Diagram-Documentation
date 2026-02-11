@@ -33,8 +33,8 @@ description: В этом разделе показано, как Aspose.Diagram 
 ### **Сохраните результат HTML в локальном хранилище.**
 Полученный файл можно сохранить, передав полную строку пути, включая имя файла и расширение, например, @"c:\temp\MyOutput.html".
 #### **Сохраните результат HTML в примере программирования локального хранилища**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToHTML.class);
@@ -46,15 +46,15 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Сохраните результат HTML в экземпляре потока.**
 Это вариант использования для сохранения результирующего HTML в базе данных или репозитории без сохранения его в локальном хранилище. Эта функция также включает другие результирующие ресурсы HTML, например шрифты, CSS (содержащие информацию о стиле) и изображения. Поскольку он сохраняет один файл HTML в экземпляре потока.
 #### **Сохраните результат HTML в образце потокового программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
@@ -68,4 +68,4 @@ diagram.save(dstStream, SaveFileFormat.HTML);
 ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+

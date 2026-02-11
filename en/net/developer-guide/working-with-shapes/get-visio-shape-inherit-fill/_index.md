@@ -10,8 +10,8 @@ The Visio shapes can inherit the parent style and the master shape. Developers m
 #### **Retrieve Inherited Fill Data Programming Sample**
 The following code snippet retrieves the inherited fill data of the shape. Please check this sample code:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -31,5 +31,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

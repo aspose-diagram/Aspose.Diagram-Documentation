@@ -12,8 +12,8 @@ description: Cette section explique comment définir les en-têtes et les pieds 
 #### **Exemple de programmation**
 Le morceau de code suivant permet de gérer les propriétés des en-têtes et des pieds de page.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_HeadersAndFooters();
@@ -50,4 +50,4 @@ diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False;
 diagram.Save(dataDir + "ManageHeadersandFooters_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -13,8 +13,8 @@ Aspose.Diagram API'i kullanan geliştiriciler, degradenin özelliklerini değiş
 ## **Degrade Doldurma Programlama Örneğinin Değiştirilmesi**
 [Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)class, geliştiricilerin bir[Gradyan Doldurma](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill)nesne. GradientFill sınıfı, bir Visio Shape'in gradyan verilerini tutar. Geliştiriciler, mevcut tüm özelliklerini ayarlayabilir ve renk ve konum özelliklerini ayarlamak için dizine göre bir gradyan durağı alabilir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -38,4 +38,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

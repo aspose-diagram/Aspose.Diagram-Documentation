@@ -46,8 +46,8 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 توضح الصورة أدناه ملف الإخراج VTX.
 
 ### **التصدير إلى نموذج برمجة XML**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -76,7 +76,7 @@ diagram.save("ExportToXML_Out.vtx", SaveFileFormat.VTX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **تصدير الى XPS**
 توضح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام Aspose.Diagram لـ Python via Java.
@@ -92,8 +92,8 @@ jpype.shutdownJVM()
 توضح الصورة أدناه ملف الإخراج XPS.
 
 ### **التصدير إلى عينة برمجة XPS**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ diagram.save("ExportToXPS_Out.xps", SaveFileFormat.XPS)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **تصدير Diagram إلى SVG**
 تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام Aspose.Diagram لـ Python via Java.
@@ -126,8 +126,8 @@ jpype.shutdownJVM()
 ### **تصدير عينة برمجية من Diagram إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -145,7 +145,7 @@ diagram.save("ExportToSVG_Out.svg", SaveFileFormat.SVG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **تصدير Diagram إلى XAML**
 تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XAML (لغة ترميز التطبيق الموسعة) باستخدام Aspose.Diagram لـ Python via Java.
@@ -160,8 +160,8 @@ jpype.shutdownJVM()
 ### **التصدير إلى عينة برمجة XAML**
 يوضح نموذج الكود كيفية تصدير diagram إلى XAML باستخدام Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -179,7 +179,7 @@ diagram.save("ExportToXAML_Out.xaml", SaveFileFormat.XAML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **تحويل Visio الرسم بأشكال انتقائية**
 باستخدام Aspose.Diagram API ، يمكن للمطورين تحديد مجموعة من الأشكال لتحويل رسم Visio إلى أي تنسيق مدعوم آخر. تقدم فئة RenderingSaveOptions عضو الأشكال للحفاظ على مجموعة الأشكال. كل فئة خيار حفظ هي الشكل الممتد لفئة RenderingSaveOptions.
@@ -193,8 +193,8 @@ jpype.shutdownJVM()
 ### **تحويل Visio الرسم باستخدام عينة برمجة لأشكال انتقائية**
 يوضح نموذج التعليمات البرمجية كيفية تصدير رسم بأشكال انتقائية Visio.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -220,4 +220,3 @@ diagram.save("SelectiveShapes_out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

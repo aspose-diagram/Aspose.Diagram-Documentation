@@ -21,8 +21,8 @@ Using Aspose.Diagram API, developers can define how a shape responds to specific
 ## **Setting Event Cells**
 [Event](https://reference.aspose.com/diagram/net/aspose.diagram/event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -48,4 +48,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

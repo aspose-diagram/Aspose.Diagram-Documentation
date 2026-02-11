@@ -23,8 +23,8 @@ Para exportar un diagram a una imagen:
 
 ![todo:imagen_alternativa_texto](http://i.imgur.com/WOV36ek.png)
 ### **Ejemplo de programación de exportación a archivo de imagen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToImage.class);
@@ -36,12 +36,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 diagram.save(dataDir+ "ExportToImage_Out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 También es posible guardar una página en particular en la imagen, en lugar de todo el documento:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportPageToImage.class);     
@@ -58,4 +58,3 @@ options.setPageIndex(0);
 diagram.save(dataDir + "ExportPageToImage_Out.png", options);
 
 {{< /highlight >}}
-```

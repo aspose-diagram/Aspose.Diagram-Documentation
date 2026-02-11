@@ -22,8 +22,8 @@ url: /ar/java/set-visio-shape-s-xform-line-and-fill-data/
 ### **عينة البرمجة**
 يوضح مقتطف الشفرة أدناه كيفية تحديث بيانات XForm للشكل. يبحث الكود عن عملية أسماء الأشكال ، بمعرف الشكل 1 ، ويضبط إحداثياته X و Y على 5.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetXFormdata.class); 
@@ -43,7 +43,7 @@ for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
 diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتعيين Visio بيانات خط الشكل**
 يمكن تنسيق الأشكال بعدة طرق. توضح هذه المقالة كيفية تحديد سمات السطر.
 
@@ -62,8 +62,8 @@ Microsoft Visio يتيح للمستخدمين تنسيق السطور بعدة �
 #### **عينة برمجة بيانات الخط**
 يقوم الجزء التالي من التعليمات البرمجية بتحديث بيانات خط الشكل.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetLineData.class);
@@ -101,7 +101,7 @@ diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
 diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتعيين Visio بيانات تعبئة الشكل**
 يمكن تنسيق الأشكال بعدة طرق. يصف هذا الموضوع كيفية تحديد تعبئة الشكل.
 
@@ -119,8 +119,8 @@ diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 #### **تعبئة نموذج لبرمجة البيانات**
 يقوم مقتطف التعليمات البرمجية التالي بتحديث بيانات تعبئة الشكل. تبحث الشفرة عن شكل يسمى مستطيل ، بمعرف الشكل 1 ، وتعيين خلفية التعبئة وألوان المقدمة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetFillData.class);
@@ -142,14 +142,14 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0
 diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **استرجع بيانات التعبئة الموروثة لشكل Visio**
 يمكن أن ترث أشكال Visio النمط الأصل والشكل الرئيسي. يمكن للمطورين الحصول على بيانات التعبئة الموروثة لشكل Visio أو تعيينها. تحتوي الخاصية InheritFill ، المكشوفة بواسطة فئة الشكل ، على قيم تنسيق التعبئة للشكل الذي يرثه النمط الأصل والشكل الرئيسي.
 #### **استرجاع نموذج برمجة بيانات التعبئة الموروثة**
 يسترد مقتطف التعليمات البرمجية التالي بيانات التعبئة الموروثة للشكل. يرجى التحقق من نموذج الكود هذا:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -177,4 +177,4 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+

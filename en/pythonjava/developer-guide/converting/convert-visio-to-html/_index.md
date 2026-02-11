@@ -33,8 +33,8 @@ The image below shows the output HTML file.
 The resultant file can be saved by passing a complete path string, including the filename and extension, e.g. @"c:\temp\MyOutput.html".
 
 #### **Save Resultant HTML in Local Storage Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -52,15 +52,15 @@ diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Save resultant HTML in a stream instance**
 It is for use case to save the resultant HTML in a database or repository without storing it in the local storage. This feature also embeds other resultant resources of the HTML, e.g. fonts, CSS (containing the style information) and images. Since it saves a single HTML file into the stream instance.
 #### **Save Resultant HTML in a Stream Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -81,4 +81,4 @@ diagram.save(dstStream, SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

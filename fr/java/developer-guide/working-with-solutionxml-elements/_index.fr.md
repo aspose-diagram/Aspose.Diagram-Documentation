@@ -9,8 +9,8 @@ url: /fr/java/working-with-solutionxml-elements/
 
  La[SolutionXML](https://reference.aspose.com/diagram/java/com.aspose.diagram/SolutionXML) La classe représente l'élément SolutionXML dans les dessins Visio. La méthode Add, exposée par le[SolutionXML](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/SolutionXML) class, permet d'ajouter un élément SolutionXML.
 ### **Ajouter un exemple de programmation d'élément SolutionXML**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSolutionXMLElement.class);  
@@ -30,14 +30,14 @@ diagram.getSolutionXMLs().add(solXML);
 diagram.save(dataDir + "AddSolutionXMLElement_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Lecture des valeurs XML à partir de l'élément SolutionXML**
 SolutionXML est un XML bien formé contenu dans un élément SolutionXML qui fournit un moyen standardisé de persistance des données de solution. Les utilisateurs peuvent lire les valeurs XML de l'élément SolutionXML en utilisant[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
  La propriété SolutionXMLs, exposée par le[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) classe, prend en charge une collection d'objets Aspose.Diagram.SolutionXML. Cette propriété peut être utilisée pour lire les valeurs XML à partir de l'élément SolutionXML.
 ### **Lecture de l'exemple de programmation d'éléments SolutionXML**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadSolutionXMLElement.class);   
@@ -54,4 +54,4 @@ for (SolutionXML solutionXML :(Iterable<SolutionXML>) diagram.getSolutionXMLs())
 }
 
 {{< /highlight >}}
-```
+

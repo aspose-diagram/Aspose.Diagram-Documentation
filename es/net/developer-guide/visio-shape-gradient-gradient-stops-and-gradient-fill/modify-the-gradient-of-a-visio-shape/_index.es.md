@@ -13,8 +13,8 @@ Con Aspose.Diagram API, los desarrolladores pueden mejorar la apariencia de una 
 ## **Modificar el ejemplo de programación de relleno de degradado**
 [Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)class ofrece la propiedad Fill que permite a los desarrolladores recuperar un[Relleno degradado](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill)objeto. La clase GradientFill contiene los datos de degradado de una forma Visio. Los desarrolladores pueden establecer todas sus propiedades disponibles, así como recuperar un degradado por índice para establecer las propiedades de color y posición.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -38,4 +38,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

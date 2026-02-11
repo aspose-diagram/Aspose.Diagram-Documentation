@@ -83,12 +83,12 @@ Aspose.Diagram for Java API, geliştiricilerin ölçülü lisans uygulamasına o
 
 yeni bir sınıf[ölçülü](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) ölçülü anahtarı uygulamak için eklendi. Bu kod örneği, ölçülü genel ve özel anahtarların nasıl ayarlanacağını gösterir:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // Initialize a Metered license class object
 Metered metered = new Metered();
 // apply public and private keys
 metered.setMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

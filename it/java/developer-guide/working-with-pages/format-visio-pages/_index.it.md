@@ -8,8 +8,8 @@ Aspose.Diagram for Java API consente agli sviluppatori di formattare le pagine d
 ## **Applica i fogli di stile alla pagina Visio**
 Aspose.Diagram for Java API consente di formattare una pagina Visio utilizzando i fogli di stile. È possibile definire un foglio di stile e aggiungerlo alla raccolta di fogli di stile del documento Visio. Il metodo ApplyStyle della classe Page consente di applicare il foglio di stile definito alla pagina, come illustrato nell'esempio di codice seguente.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
@@ -48,4 +48,4 @@ for (Shape shape: (Iterable<Shape>)vsdDiagram.getPages().get(0).getShapes())
 vsdDiagram.getPages().get(0).applyStyle(st.getID(), st.getID(), st.getID());
 
 {{< /highlight >}}
-```
+

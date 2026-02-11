@@ -13,8 +13,8 @@ Microsoft Office Visio يدعم معالجة كائنات OLE في Visio diagram
 ## **معالجة نموذج برمجة كائنات OLE المضمنة**
 [بيانات الكائن](https://reference.aspose.com/diagram/java/com.aspose.diagram/foreigndata#ObjectData) ممتلكات[ForeignData](https://reference.aspose.com/diagram/java/com.aspose.diagram/foreigndata) تسمح الفئة للمطورين بالتعامل مع كائنات OLE الموجودة في Visio diagram. يوضح موضوع التعليمات هذا كيف يمكن للمطورين استرداد كائن OLE من مستند Visio ، وتحريره باستخدام[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java)، ثم قم بالحفظ مرة أخرى ككائن OLE في Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
 System.out.println(dataDir);
@@ -47,4 +47,4 @@ if (OLE_Shape.getType() == TypeValue.FOREIGN) {
 diagram.save(dataDir + "modified.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

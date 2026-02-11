@@ -10,8 +10,8 @@ The Visio shapes can inherit the parent style and the master shape. Developers m
 #### **Retrieve Inherited Line Data Programming Sample**
 The following code snippet retrieves the inherited line data of the shape. Please check this sample code:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

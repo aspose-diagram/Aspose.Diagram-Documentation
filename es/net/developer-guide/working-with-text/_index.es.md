@@ -10,8 +10,8 @@ description: Esta sección explica cómo insertar una forma de texto o actualiza
 ### **Insertar una muestra de programación de forma de texto**
 El siguiente fragmento de código agrega una forma de texto en el Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -25,7 +25,7 @@ diagram.Pages[0].AddText(PinX, PinY, Width, Height, "Test text");
 diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Actualizar Visio Texto de forma**
  Tanto como[creando diagramas](/diagram/es/net/load-or-create-a-visio-drawing/) , Aspose.Diagram for .NET le permite trabajar con formas de diferentes maneras. Este artículo analiza cómo acceder y actualizar el texto en las formas. La propiedad Text, expuesta por el[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) clase, admite el objeto Aspose.Diagram.Text. La propiedad se puede utilizar para recuperar o actualizar el texto de una forma. El proceso para actualizar el texto de una forma es sencillo:
 
@@ -36,8 +36,8 @@ diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Actualizar muestra de programación de texto de forma**
 El siguiente fragmento de código actualiza el texto de una forma. Las formas se identifican por sus ID. Los segmentos de código a continuación buscan una forma llamada proceso y con el ID 1 y cambia su texto.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -59,7 +59,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Aplicar una hoja de estilo integrada o personalizada a una forma Visio**
 Microsoft Visio Las hojas de estilo almacenan información de formato que se puede aplicar a las formas para lograr una apariencia uniforme. Aspose.Diagram for .NET le permite aplicar hojas de estilo desde dentro de una aplicación.
 
@@ -81,8 +81,8 @@ Después de definir hojas de estilo personalizadas en Microsoft Visio, use el si
 1. Aplicar estilos.
 1. Guarda el diagram.
 #### **Aplicar muestra de programación de estilos personalizados**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -129,7 +129,7 @@ if (sourceShape != null && customStyleSheet != null)
 vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Aplicar un estilo diferente en cada valor de texto de una forma**
  Tanto como[creando diagramas](/diagram/es/net/load-or-create-a-visio-drawing/), Aspose.Diagram for .NET le permite trabajar con formas de diferentes maneras. Este artículo ayuda a agregar múltiples valores de texto a una forma y aplicar un estilo diferente en cada valor de texto.
 
@@ -151,8 +151,8 @@ El elemento Forma contiene un elemento denominado Texto, que contiene los caract
 #### **Ejemplo de programación de adición de texto y estilos**
 El siguiente fragmento de código agrega el texto de una forma y diferentes estilos.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -214,7 +214,7 @@ shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Un
 diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Buscar y reemplazar el texto de una forma**
  los[TXT](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) La clase le permite editar el texto de la forma. El método Reemplazar, expuesto por el[TXT](http://www.aspose.com/api/net/diagram/aspose.diagram/txt) class, admite cambiar el texto de una forma.
 Los ejemplos de código de este artículo buscan y reemplazan el texto de la forma en la página.
@@ -236,8 +236,8 @@ El proceso para cambiar el texto de la forma:
 ### **Ejemplo de programación de buscar y reemplazar texto**
 Los fragmentos de código a continuación muestran cómo modificar el texto de la forma. El código itera a través de las formas de una página.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeText();
@@ -277,7 +277,7 @@ foreach (Shape shape in page.Shapes)
 diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Extraer texto sin formato de la página Visio Diagram**
 Aspose.Diagram API permite a los desarrolladores extraer texto sin formato de la página Visio diagram. También pueden iterar a través de las páginas Visio diagram para cubrir todo el texto Visio diagram.
 
@@ -285,8 +285,8 @@ Aspose.Diagram API permite a los desarrolladores extraer texto sin formato de la
 ### **Extraer muestra de programación de texto sin formato**
 El siguiente fragmento de código itera a través de las formas de la página Visio y filtra el texto sin formato sin información de formato.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -327,4 +327,4 @@ private static void GetShapeText(Aspose.Diagram.Shape shape)
 }
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ Aspose.Diagram API 允许应用预设主题以获得页面内和跨多个文档�
 - 获取要设置主题的Page类实例
 - 将 Preset 值分配给 Page 实例的 PresetTheme 属性
 #### **将预设主题应用于页面编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -34,7 +34,7 @@ page.PresetTheme = PresetThemeValue.Bubble;
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**将预设主题应用到页面的结果**|
 |:- |
@@ -51,8 +51,8 @@ Aspose.Diagram API 允许应用预设主题变体以获得页面内和跨多个�
 
 #### **将预设主题变体应用于页面编程示例**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -67,7 +67,7 @@ page.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**将预设主题变体应用于页面的结果**|
 |:- |
@@ -83,8 +83,8 @@ Aspose.Diagram API 允许将预设主题应用于页面内的形状。为此，�
 
 #### **将预设主题应用于形状编程示例**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -97,7 +97,7 @@ shape.PresetTheme = PresetThemeValue.Bubble;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**将预设主题应用于形状的结果**|
 |:- |
@@ -114,8 +114,8 @@ Aspose.Diagram API 允许将预设主题变体应用于页面内的形状。为�
 
 #### **将预设主题变体应用于形状编程示例**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -130,7 +130,7 @@ shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**将预设主题变体应用于形状的结果**|
 |:- |
@@ -148,8 +148,8 @@ Aspose.Diagram API 允许将预设主题快速样式应用于页面内的形状�
 
 #### **将预设主题变体 Quickstyle 应用于形状编程示例**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -166,7 +166,7 @@ shape.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle2;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**将预设主题变体快速样式应用于形状的结果**|
 |:- |
@@ -184,8 +184,8 @@ Aspose.Diagram API 允许将预设主题快速样式应用于页面内的形状�
 
 #### **使用 SetPresetThemeStyleMatrics 方法编程示例将预设主题样式应用于形状**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -202,7 +202,7 @@ shape.SetPresetThemeStyleMatrics(PresetStyleMatricsValue.Style2, PresetColorMatr
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**使用 SetPresetThemeStyleMatrics 方法将预设主题样式应用于形状的结果**|
 |:- |

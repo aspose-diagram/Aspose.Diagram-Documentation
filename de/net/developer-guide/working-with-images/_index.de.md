@@ -12,8 +12,8 @@ Das Seitenklassenobjekt repräsentiert den Zeichenbereich einer Vordergrundseite
 #### **Programmierbeispiel für Bilder extrahieren**
 Der folgende Codeabschnitt extrahiert alle Bilder von einer bestimmten Visio-Seite.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Holen Sie sich Symbole in verschiedenen Visio-Formen**
 Aspose.Diagram for .NET API ermöglicht es Entwicklern jetzt, Symbole verschiedener Visio Formen zu erhalten.
 ### **Abrufen des Shape-Symbols**
@@ -50,8 +50,8 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 1. Holen Sie sich das Master-Symbol.
 1. Symbol im lokalen Bereich speichern.
 #### **Holen Sie sich ein Icon-Programmierbeispiel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -70,7 +70,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream(master.Icon))
 }
 
 {{< /highlight >}}
-```
+
 ## **Ersetzen Sie eine Bildform von Visio Diagram**
 Aspose.Diagram for .NET API ermöglicht Entwicklern den Zugriff und das Ersetzen verfügbarer Bildformen in Visio diagram.
 ### **Ersetzen einer Bildform**
@@ -81,8 +81,8 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 1. Filter anwenden, um Bildformen zu erhalten.
 1. Speichern Sie das Ergebnis Visio diagram im lokalen Bereich.
 #### **Ersetzen eines Bildform-Programmierbeispiels**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "ReplaceShapePicture_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bitmap-Bild als Visio-Form importieren**
 Aspose.Diagram for .NET API ermöglicht es Entwicklern jetzt, ein Bitmap-Bild als Microsoft Visio Form zu importieren.
 ### **Insert a BMP Image in Visio**
@@ -121,8 +121,8 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 1. Importieren Sie ein Bitmap-Bild als Visio-Form
 1. Speichern Sie die diagram.
 #### **Insert a BMP Image Programming Sample**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -142,7 +142,7 @@ page0.AddShape(pinX, pinY, width, hieght, new FileStream(dataDir + "image.bmp", 
 diagram.Save(dataDir + "InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Wandeln Sie den angegebenen Bereich der Seite Visio in ein Bild um**
 Mit Aspose.Diagram for .NET API können Entwickler einen Bereich mit XY-Koordinaten, Breite und Höhe definieren und diesen Bereich dann in ein unterstütztes Bildformat konvertieren.
 ### **Konvertieren Sie den Zeichenbereich Visio in ein Bild**

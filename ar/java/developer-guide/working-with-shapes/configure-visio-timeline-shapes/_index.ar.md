@@ -22,8 +22,8 @@ Aspose.Diagram يسمح للمطورين بتعيين الخصائص الرئي�
 1. قم بتعيين نوع الحدث الرئيسي
 1. احفظ Visio الرسم بأي تنسيق مدعوم.
 #### **تعيين عينة البرمجة الرئيسية**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 جدول قيم تنسيق التاريخ:
@@ -104,8 +104,8 @@ Aspose.Diagram يسمح للمطورين بتوصيف الجدول الزمني 
 1. قم بتعيين تنسيق التاريخ.
 1. احفظ Visio الرسم بأي تنسيق مدعوم.
 #### **تعيين الفترة الزمنية وعينة تاريخ البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 جدول قيم تنسيق التاريخ:
@@ -194,8 +194,8 @@ Aspose.Diagram يسمح للمطورين بضبط المعالم على أشكا
 #### **تحديث المعالم باستخدام نموذج برمجة TimeLineHelper**
 استخدم الكود التالي في تطبيق Java الخاص بك لإحياء المعالم على الخط الزمني باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **تحديث المعالم على الخط الزمني باستخدام فئة MilestoneHelper**
  طريقة RefreshMilestone التي كشف عنها[MilestoneHelper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)يمكن استخدام فئة لتحديث المعالم على الخط الزمني.
 
@@ -241,8 +241,8 @@ diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 #### **تحديث المعالم باستخدام نموذج برمجة MilestoneHelper**
 استخدم الكود التالي في تطبيق Java لتحديث المعالم على الخط الزمني باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

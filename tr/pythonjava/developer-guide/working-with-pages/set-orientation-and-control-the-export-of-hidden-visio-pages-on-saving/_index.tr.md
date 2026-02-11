@@ -19,8 +19,8 @@ Bu örnek şu şekilde çalışır:
 ### **Oryantasyon Programlama Örneği Ayarla**
 Aşağıdaki kod örneği, Visio sayfasının yönünün nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -42,7 +42,7 @@ diagram.save("SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Kaydederken Gizli Visio Sayfalarının Dışa Aktarılmasını Kontrol Edin**
 Aspose.Diagram Python için via Java API, geliştiricilerin tasarruf Visio sayfa dahil etmesine veya hariç tutulmasına izin verir. Hatta Python via Java API için Aspose.Diagram'i kullanarak Visio sayfayı gizleyebilirler çünkü seçeneği ShapeSheet sayfasındaki UIVisibility hücresi aracılığıyla zaten mevcuttur.
@@ -53,8 +53,8 @@ Python via Java API için Aspose.Diagram, bir Visio çizim sayfasını temsil ed
 #### **PDF için Dışa Aktarma Seçeneğini ayarlayın**
 Aşağıdaki kod, diagram - PDF biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -81,13 +81,13 @@ diagram.save("ExportOfHiddenVisioPagesToPDF_Out.pdf", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **HTML için Dışa Aktarma Seçeneğini ayarlayın**
 Aşağıdaki kod, diagram - HTML biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -115,13 +115,13 @@ diagram.save("ExportOfHiddenVisioPagesToHTML_Out.html", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **Görüntü için Dışa Aktarma Seçeneğini Ayarlayın**
 Aşağıdaki kod, bir diagram'i görüntü formatına kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -149,13 +149,13 @@ diagram.save("ExportOfHiddenVisioPagesToImage_Out.jpeg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 #### **SVG için Dışa Aktarma Seçeneğini ayarlayın**
 Aşağıdaki kod, diagram - SVG biçimini kaydetmeden önce kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -186,4 +186,4 @@ diagram.save("ExportOfHiddenVisioPagesToSVG_Out.svg", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

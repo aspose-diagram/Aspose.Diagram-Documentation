@@ -26,8 +26,8 @@ Utför följande steg för att exportera VSD diagram till HTML:
 ### **Spara resulterande HTML i den lokala lagringen**
 Den resulterande filen kan sparas genom att skicka en komplett sökvägssträng, inklusive filnamn och filtillägg, t.ex. @"c:\temp\MyOutput.html".
 #### **Spara resultatet HTML i lokalt lagringsprogrammeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -37,7 +37,7 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.Save(dataDir + "outputVSDtoHTML.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 

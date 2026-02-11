@@ -11,8 +11,8 @@ Aspose.Diagram for .NET vous permet de lire et de créer des diagrammes Microsof
 ## **Créer un exemple de programmation de dessin Visio**
 Le code ci-dessous montre comment créer un nouveau dessin Microsoft Visio. Veuillez noter que le dessin vierge contient une seule page vide.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

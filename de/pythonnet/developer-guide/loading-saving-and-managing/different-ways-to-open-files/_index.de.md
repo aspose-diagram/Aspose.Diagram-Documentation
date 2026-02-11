@@ -14,17 +14,63 @@ Mit Aspose.Diagram ist es beispielsweise einfach, Dateien zu öffnen, Daten abzu
 
  Entwickler können eine Microsoft Diagram-Datei öffnen, indem sie ihren Dateipfad auf dem lokalen Computer verwenden, indem sie ihn in der**Diagram**Klassenkonstrukteur. Übergeben Sie den Pfad einfach im Konstruktor als a*Schnur*. Aspose.Diagram erkennt automatisch den Dateiformattyp.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaPath.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 ## **Opening a File via a Stream**
 
  Es ist auch einfach, eine Visio-Datei als Stream zu öffnen. Verwenden Sie dazu eine überladene Version des Konstruktors, der die akzeptiert*BufferStream*Objekt, das die Datei enthält.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaStream.py" >}}
+
+{{< highlight python >}}
+import os
+import sys
+import aspose.diagram
+from aspose.diagram import *
+from aspose.pyio import BufferStream
+
+#// Build path of an existing diagram
+visioDrawing = os.path.join(sourceDir, "Drawing1.vsdx")
+# Create a Stream object
+f = open(visioDrawing, 'rb')
+data = f.read()
+databuff = BufferStream(data)
+diagram = Diagram(databuff)
+
+#// Save diagram in the VSDX format
+diagram.save("Visio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 ## **Öffnen einer Datei mit LoadOptions**
 
  Um eine Datei mit Ladeoptionen zu öffnen, verwenden Sie die**Ladeoptionen**Klassen, um die zugehörigen Optionen der Klassen für die zu ladende Vorlagendatei festzulegen.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-OpenFileViaLoadOptions.py" >}}
+
+{{< highlight python >}}
+import os
+import sys
+import aspose.diagram
+from aspose.diagram import *
+
+#// Build path of an existing diagram
+visioDrawing = os.path.join(sourceDir, "Drawing1.vsdx")
+# Instantiate LoadOptions specified by the LoadFileFormat
+loadOptions = LoadOptions(LoadFileFormat.VSDX)
+diagram = Diagram(visioDrawing,loadOptions)
+
+#// Save diagram in the VSDX format
+diagram.save("Visio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 

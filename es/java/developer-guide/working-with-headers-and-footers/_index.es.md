@@ -18,8 +18,8 @@ Aspose.Diagram for Java proporciona un mecanismo para establecer encabezados y p
 
 El siguiente fragmento de código ayuda a administrar las propiedades de encabezados y pies de página.
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ManageHeadersandFooters.class);
@@ -55,4 +55,4 @@ diagram.getHeaderFooter().getHeaderFooterFont().setUnderline(BOOL.FALSE);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

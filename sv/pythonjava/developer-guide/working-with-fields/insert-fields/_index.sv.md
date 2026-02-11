@@ -10,8 +10,8 @@ description: Så här skapar du, infoga fält med Java Diagram API .
 
 ### **Programmeringsexempel**
 Följande kodbit infogar ett fält i form.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -39,5 +39,5 @@ diagram.save("InsertField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

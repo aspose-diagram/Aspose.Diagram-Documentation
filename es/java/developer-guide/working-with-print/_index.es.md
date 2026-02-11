@@ -12,8 +12,8 @@ La impresión del diagram en la impresora específica requiere el nombre de la i
 - Cree una instancia de la clase Diagram para cargar un diagram que se imprimirá
 - Llame al método de impresión de la clase Diagram con el nombre de la impresora como parámetro de cadena para el método de impresión
 #### **Muestra de programación de impresión en una impresora específica**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(BySpecificPrinter.class); 
@@ -24,15 +24,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **Configuración del nombre de la impresora y del documento**
 Aspose.Diagram Las API permiten configurar la impresora específica y el nombre del documento para un trabajo de impresión. Realice los siguientes pasos para imprimir el diagram en la impresora deseada:
 
 - Cree una instancia de la clase Diagram para cargar un diagram que se imprimirá
 - Llame al método de impresión de la clase Diagram con la impresora y el nombre del documento como parámetro de cadena para el método de impresión
 #### **Configuración de la impresora y el nombre del documento Ejemplo de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetPrintJobAndPrinterName.class);   
@@ -43,4 +43,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

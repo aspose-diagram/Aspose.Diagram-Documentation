@@ -16,8 +16,8 @@ Usando Aspose.Diagram API, los desarrolladores pueden guardar un Visio diagram e
 ### **Guardando Diagram Ejemplo de programación**
 El siguiente ejemplo guarda un documento en un archivo.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioDiagram.class);
@@ -34,7 +34,7 @@ diagram.save(dataDir + "SaveVisioDiagram_Out.vsdx", SaveFileFormat.VSDX);
 		ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+
 ## **Especificación de las opciones de guardado de Visio**
  Hay varios[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is PdfSaveOptions for the SaveFileFormat.PDF save format.
 ### **Visio Diagram Opciones de guardado**
@@ -48,8 +48,8 @@ Estos ejemplos muestran cómo:
 #### **Uso de las opciones de guardado Diagram**
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en formato Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseDiagramSaveOptions.class);
@@ -75,15 +75,15 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "UseDiagramSaveOptions_Out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Uso de las opciones de guardado PDF**
 The code below shows how to set save options before saving a document to a PDF format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);    
@@ -126,15 +126,15 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UsePDFSaveOptions_Out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Uso de las opciones de guardado HTML**
 The code below shows how to set save options before saving a document to a HTML format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseHTMLSaveOptions.class);
@@ -176,15 +176,15 @@ ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 diagram.save(dstStream, SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Uso de las opciones para guardar imágenes**
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en un formato de imagen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseImageSaveOptions.class); 
@@ -253,12 +253,12 @@ options.setTiffCompression(TiffCompression.CCITT_3);
 diagram.save(dataDir + "UseImageSaveOptions_Out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Uso de las opciones de guardado SVG**
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un documento en formato SVG.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseSVGSaveOptions.class);
@@ -282,4 +282,4 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UseSVGSaveOptions_Out.svg", options);
 
 {{< /highlight >}}
-```
+

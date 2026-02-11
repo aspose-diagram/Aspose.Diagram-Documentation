@@ -17,8 +17,8 @@ description: يشرح هذا القسم كيفية تحويل شكل visio إل�
 ### **شكل لقوات الدفاع الشعبي**
 استخدم الكود التالي في تطبيق java لتحويل شكل visio إلى pdf.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToPdf.class); 
@@ -34,6 +34,6 @@ Shape shape = page.getShapes().get(0);
 // Shape to Pdf
 shape.toPdf("out.pdf");
 {{< /highlight >}}
-```
+
 
 

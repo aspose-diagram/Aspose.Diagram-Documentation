@@ -17,8 +17,8 @@ Der folgende Code zeigt, wie man:
 #### **Holen Sie sich Connectors Glued Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um alle Verbinder zu finden, die mit Aspose.Diagram for Java an eine Form geklebt wurden.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -37,7 +37,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Visio Formen mit Verbindungspunkt zusammenkleben**
 Aspose.Diagram for Java ermöglicht es Entwicklern, Formen durch die Verbindungspunkte zusammenzukleben.
 ### **Formen kleben**
@@ -53,8 +53,8 @@ Der folgende Code zeigt, wie man:
 #### **Glue Visio Formen Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Anwendung Java, um Formen durch die Verbindungspunkte zu kleben:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -73,7 +73,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kleben Sie Formen in den Behälter**
 Aspose.Diagram for Java ermöglicht es Entwicklern, Gruppenformen in einen Container zu kleben.
 ### **Leimgruppenform**
@@ -89,8 +89,8 @@ Der folgende Code zeigt, wie man:
 #### **Glue Shapes Inside Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um die Gruppenform in einen Container zu kleben:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -119,4 +119,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

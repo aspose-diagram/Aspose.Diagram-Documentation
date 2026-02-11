@@ -13,8 +13,8 @@ description: توضح هذه الصفحة كيفية تعديل لون التد�
 ## **تعديل نموذج برمجة التعبئة المتدرجة**
 [شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)تقدم class خاصية Fill التي تتيح للمطورين استرداد ملف[ملء الانحدار](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill)هدف. تحتوي فئة GradientFill على بيانات التدرج اللوني لشكل Visio. يمكن للمطورين تعيين جميع خصائصه المتاحة وكذلك استرداد نقطة توقف التدرج بفهرس لتعيين خصائص اللون والموضع.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -38,4 +38,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

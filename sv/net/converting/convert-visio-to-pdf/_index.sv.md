@@ -39,8 +39,8 @@ Nedan finns en bild av utdatafilen PDF.
 ### **Exportera Microsoft Visio Ritning till PDF**
 Kodexemplen visar hur man exporterar Microsoft Visio Ritning till PDF med C#.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -63,12 +63,12 @@ pdfStream.Close();
 System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
 
 {{< /highlight >}}
-```
+
 ### **Dela flera sidor**
 Aspose.Diagram for .NET tillåter uppdelning av flera sidor samtidigt som Microsoft Visio Diagram Diagram Diagram konverteras till PDF. Följande kodavsnitt visar funktionen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -82,12 +82,12 @@ options.SplitMultiPages = true;
 diagram.Save(dataDir + "SplitMultiPages.pdf", options);
 
 {{< /highlight >}}
-```
+
 ### **Använd Page Save Callback**
 Om du har flera sidor tillåter Aspose.Diagram for .NET att använda sidsparande återuppringning samtidigt som du konverterar Microsoft Visio Diagram till PDF. Följande kodavsnitt visar funktionaliteten.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -101,7 +101,7 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "PageSavingCallback.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **TestDiagramPageSavingCallback Class**
 {{< highlight "java" >}}
 

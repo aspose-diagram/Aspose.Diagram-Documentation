@@ -12,8 +12,8 @@ description: Esta sección explica cómo combinar el archivo visio
 Usando el método[**Combinar**](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#combine(com.aspose.diagram.Diagram) ) en[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) clase para combinar diagramas.
 
 ## **Código de muestra**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CombineDiagram.class);
@@ -30,4 +30,4 @@ diagram2.combine(diagram);
 diagram.save(dataDir + "CombineDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

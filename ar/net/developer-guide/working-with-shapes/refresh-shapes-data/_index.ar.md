@@ -16,8 +16,8 @@ description: يشرح هذا القسم كيفية تحديث بيانات ال�
 ### **تحديث بيانات الشكل**
 استخدم الكود التالي في تطبيق .NET لتحديث شكل باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ shape.RefreshData();
 diagram.Save(dataDir + "RefreshData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

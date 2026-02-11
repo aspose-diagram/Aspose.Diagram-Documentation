@@ -18,8 +18,8 @@ The code in the samples below show how to:
 1. Connect the star and hexagon shapes to the rectangle.
 1. Save the diagram.
 #### **Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddConnectShapes.class);
@@ -105,4 +105,4 @@ diagram.getPages().getPage(0).connectShapesViaConnector(rectangleId, ConnectionP
 diagram.save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

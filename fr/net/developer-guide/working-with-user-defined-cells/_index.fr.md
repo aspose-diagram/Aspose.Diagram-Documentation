@@ -14,8 +14,8 @@ description: Cette section explique comment lire les cellules définies par l'ut
 #### **Exemple de programmation de récupération de cellules**
 Le morceau de code suivant permet aux développeurs de lire les champs de cellules définis par l'utilisateur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -33,7 +33,7 @@ foreach (User user in shape.Users)
 }
 
 {{< /highlight >}}
-```
+
 
 
 Cette image montre la sortie après avoir exécuté le code ci-dessus :
@@ -46,8 +46,8 @@ La méthode Add exposée par la collection Users peut être utilisée pour crée
 #### **Créer un exemple de programmation de cellule**
 Utilisez l'exemple de code suivant dans votre application .NET pour créer une cellule définie par l'utilisateur dans la feuille de forme à l'aide de Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -70,7 +70,7 @@ shape.Users.Add(user);
 diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Récupérer des cellules définies par l'utilisateur à partir de la feuille de forme**
 Aspose.Diagram for .NET API permet de récupérer des cellules définies par l'utilisateur à partir d'une feuille de formes. Cet exemple de rubrique décrit la manière dont les développeurs peuvent récupérer tous les User.name pour toutes les formes d'un dessin.
 ### **Récupérer des cellules définies par l'utilisateur**
@@ -78,8 +78,8 @@ Les propriétés NameU, Value.Val et Prompt.Value exposées par la classe User p
 #### **Récupérer des cellules à partir d'exemples de programmation de feuille de forme**
 Utilisez le code suivant dans votre application .NET pour récupérer toutes les cellules définies par l'utilisateur à partir de la feuille de forme à l'aide de Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -104,4 +104,4 @@ foreach (Aspose.Diagram.Page objPage in diagram.Pages)
 }  
 
 {{< /highlight >}}
-```
+

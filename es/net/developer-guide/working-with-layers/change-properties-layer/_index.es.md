@@ -10,8 +10,8 @@ description: Esta sección explica cómo cambiar las propiedades de la capa con 
 ### **Ejemplo de programación de propiedades de capa de cambio**
 El siguiente fragmento de código ayuda a cambiar las propiedades de la capa.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -31,4 +31,3 @@ foreach (Aspose.Diagram.Layer layer in Page.PageSheet.Layers)
 diagram.Save(dataDir + "ChangeLayerProperty_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

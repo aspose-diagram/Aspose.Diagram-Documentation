@@ -19,8 +19,8 @@ url: /zh/java/setting-cells-in-the-event-section-of-shapesheet/
 ## **设置事件单元格**
 [事件](https://reference.aspose.com/diagram/java/com.aspose.diagram/event)类允许开发人员在 ShapeSheet 中设置事件单元格。此帮助主题演示了开发人员如何在事件单元格中设置公式：
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -45,4 +45,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

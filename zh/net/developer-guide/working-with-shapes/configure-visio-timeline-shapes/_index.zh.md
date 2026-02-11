@@ -21,8 +21,8 @@ Aspose.Diagram 允许开发人员设置里程碑属性。本文介绍如何设�
 1. 设置里程碑类型
 1. 将 Visio 图形保存为任何支持的格式。
 #### **设置里程碑编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -49,7 +49,7 @@ milestoneHelper.Type = 6;
 diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 日期格式值表：
@@ -101,8 +101,8 @@ Aspose.Diagram 允许开发人员以编程方式配置时间线。这解释了�
 1. 设置日期格式。
 1. 将 Visio 图形保存为任何支持的格式。
 #### **设置时间段和日期编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,7 +137,7 @@ timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 日期格式值表：
@@ -192,8 +192,8 @@ Aspose.Diagram 允许开发人员根据时间段变化调整时间轴形状（�
 #### **使用 TimeLineHelper 编程示例刷新里程碑**
 在您的 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET 恢复时间轴上的里程碑。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -223,7 +223,7 @@ timelineHelper.RefreshTimeLine();
 diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **使用 MilestoneHelper 类刷新时间轴上的里程碑**
 公开的 RefreshMilestone 方法[里程碑助手](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper)类可用于刷新时间轴上的里程碑。
 
@@ -240,8 +240,8 @@ diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 #### **使用 MilestoneHelper 编程示例刷新里程碑**
 在您的 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET 刷新时间轴上的里程碑。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -292,4 +292,4 @@ milestoneHelper.RefreshMilestone(timeline);
 diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

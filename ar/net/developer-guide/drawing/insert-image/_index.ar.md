@@ -10,8 +10,8 @@ description: يشرح هذا القسم كيفية إدراج صورة في صف
 ## **أدخل الصورة في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -27,13 +27,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **أدخل الصورة في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **أدخل الصورة في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **أدخل الصورة في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **أدخل الصورة في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين بإدخال شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -115,4 +115,4 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

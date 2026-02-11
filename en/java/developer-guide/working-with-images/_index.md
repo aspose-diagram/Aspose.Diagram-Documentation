@@ -12,8 +12,8 @@ The Page Class object represents the drawing area of a foreground page or a back
 #### **Extract Images Programming Sample**
 The following piece of code extracts all images from a particular Visio page.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -33,7 +33,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Get Icons of Various Visio Shapes**
 Aspose.Diagram for Java API now allows developers to get icons of various Visio shapes. 
 ### **Getting the Shape Icon**
@@ -44,8 +44,8 @@ The code in the samples below show how to:
 1. Get master icon. 
 1. Save icon to the local space.
 #### **Get Icons Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -63,7 +63,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **Replace a Picture Shape of the Visio Diagram**
 Aspose.Diagram for Java API allows developers to access and replace available picture shapes in the Visio diagram.
 ### **Replacing a Picture Shape**
@@ -74,8 +74,8 @@ The code in the samples below show how to:
 1. Apply filter to get picture shapes.
 1. Save resultant Visio diagram to the local space.
 #### **Replace a Picture Shape Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -101,7 +101,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Import Bitmap Image as a Visio Shape**
 Aspose.Diagram for Java API now allows developers to import a bitmap image as a Microsoft Visio shape.
 ### **Insert a BMP Image in Visio**
@@ -112,8 +112,8 @@ The code in the samples below show how to:
 1. Import a bitmap image as a Visio shape
 1. Save the diagram.
 #### **Insert a BMP Image Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -133,4 +133,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

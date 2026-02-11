@@ -83,12 +83,12 @@ Aspose.Diagram for Java API permite a los desarrolladores aplicar una licencia m
 
 una nueva clase[medido](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) se ha agregado para aplicar la clave medida. Este ejemplo de código demuestra cómo establecer claves públicas y privadas medidas:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // Initialize a Metered license class object
 Metered metered = new Metered();
 // apply public and private keys
 metered.setMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

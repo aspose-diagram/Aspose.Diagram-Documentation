@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API consente agli sviluppatori di formattare le pagine d
 ## **Applica i fogli di stile alla pagina Visio**
 Aspose.Diagram for .NET API consente di formattare una pagina Visio utilizzando i fogli di stile. È possibile definire un foglio di stile e aggiungerlo alla raccolta di fogli di stile del documento Visio. Il metodo ApplyStyle della classe Page consente di applicare il foglio di stile definito alla pagina, come illustrato nell'esempio di codice seguente.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

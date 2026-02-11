@@ -14,8 +14,8 @@ description: 本节介绍如何检查或更改页面是否在带有 Aspose.Diagr
 ### **检查页面自动扩展编程示例**
 以下代码检查页面从 diagram 自动扩展。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckChangeAutoExpand.class);
@@ -34,4 +34,4 @@ page.getPageSheet().getPageProps().getDrawingResizeType().setValue(DrawingResize
 diagram.save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

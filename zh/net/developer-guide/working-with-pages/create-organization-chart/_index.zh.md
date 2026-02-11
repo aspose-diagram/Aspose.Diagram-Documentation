@@ -20,8 +20,8 @@ description: 本节介绍如何使用 Aspose.Diagram 创建组织结构图。
 #### **创建一个 CompactTree 风格的组织结构图编程示例**
 使用以下代码使用 Aspose.Diagram 创建 CompactTree 样式组织结构图。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_CompactTreeChart();
@@ -83,7 +83,7 @@ diagram.Pages[pageNumber].Layout(compactTreeOptions);
 diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**结果**|
 |:- |
@@ -102,8 +102,8 @@ diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 #### **创建流程图样式的组织结构图编程示例**
 使用以下代码使用 Aspose.Diagram 创建流程图样式组织结构图。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_FlowChart();
@@ -164,7 +164,7 @@ diagram.Pages[pageNumber].Layout(flowChartOptions);
 diagram.Save(dataDir + "FlowChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**结果**|
 |:- |

@@ -24,8 +24,8 @@ url: /ru/java/working-with-hyperlinks/
 
 Фрагменты кода ниже добавляют данные гиперссылки фигуры.
 ### **Добавить пример программирования гиперссылки**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Получить данные гиперссылок для фигур Visio**
  Данные гиперссылки фигуры можно получить тем же способом, что и[чтение данных формы Visio]().
 
@@ -79,8 +79,8 @@ diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 Фрагменты кода ниже считывают данные гиперссылки фигуры.
 ### **Получить пример программирования гиперссылок**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

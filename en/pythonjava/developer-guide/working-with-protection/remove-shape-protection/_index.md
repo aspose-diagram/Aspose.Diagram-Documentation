@@ -22,8 +22,8 @@ In Microsoft Office Visio, user may perform following actions to protect any sha
 ### **Remove the Shape Protection Programming Sample**
 Use the following code in your application to do the same thing (unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -66,5 +66,5 @@ diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

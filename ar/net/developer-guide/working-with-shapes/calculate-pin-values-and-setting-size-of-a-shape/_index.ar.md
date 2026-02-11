@@ -26,8 +26,8 @@ description: يشرح هذا القسم كيفية حساب قيم PinX و PinY 
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -55,7 +55,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **ضبط ارتفاع الشكل وعرضه**
  ال[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) تسمح لك الفئة بالتحكم في حجم الشكل عن طريق تحديد ارتفاع الشكل وعرضه باستخدام أساليب SetHeight و SetWidth.
 
@@ -71,8 +71,8 @@ double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 ### **تعيين الارتفاع والعرض عينة البرمجة**
 يوضح مقتطف الشفرة أدناه كيفية تعيين ارتفاع الشكل وعرضه. يبحث الكود عن مستطيل لاسم الشكل ، بمعرف الشكل 1 ، ويضبط الارتفاع والعرض على أنهما مزدوجان.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -90,4 +90,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -21,8 +21,8 @@ ShapeCollection 类公开的 Group 方法可用于将形状组合在一起。
 #### **组形状编程示例**
 在 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java API 将形状组合在一起。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GroupShapes.class);
@@ -46,7 +46,7 @@ page.getShapes().group(ss);
 diagram.save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **将 Visio 形状转换为其他文件格式**
 Aspose.Diagram for Java API 允许开发人员将单个 Visio 形状转换为任何其他支持的文件格式。在本文中，我们从页面中删除所有其他 Visio 形状，并根据源形状大小自定义页面设置。
 ### **转换特定的 Visio 形状**
@@ -62,8 +62,8 @@ Developers can convert a Visio shape to PDF, HTML, Image, SVG, and SWF by [指�
 1. 设置页面大小。
 1. 以任何支持的文件格式保存 Visio 页面。
 #### **转换形状编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioShapeInOtherFormats.class);   
@@ -121,7 +121,7 @@ opts.setPageIndex(1);
 srcVisio.save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -165,8 +165,8 @@ Aspose.Diagram for Java API 允许开发人员验证两个 Visio 形状是否粘
 #### **连接或粘合形状编程示例的验证**
 下面的一段代码验证两个形状是否连接或粘合。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VerifyConnectedOrGluedShapes.class);  
@@ -192,7 +192,7 @@ boolean glued = ShapedOne.isGlued(ShapedTwo);
 System.out.println("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **验证 Visio 形状是否在一组形状中**
 Aspose.Diagram for Java API 允许开发人员验证 Visio 形状是否在一组形状中。
 ### **形状组中形状的验证**
@@ -200,8 +200,8 @@ Shape 类提供 IsInGroup 属性来确定 Visio 形状是否在组形状中。
 #### **形状组编程样本中形状的验证**
 以下代码验证形状是否为组形状。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -212,7 +212,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
 System.out.println("Is it in a Group: " + shape.isInGroup());
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

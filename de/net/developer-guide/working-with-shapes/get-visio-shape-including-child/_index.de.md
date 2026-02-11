@@ -12,8 +12,8 @@ Jede Form in einem diagram hat eine ID und einen Namen. Die ID ist beim Programm
 #### **Rufen Sie Visio Shape-Programmierbeispiel ab**
 Das folgende Code-Snippet ruft die Form einschließlich des untergeordneten Elements ab. Bitte überprüfen Sie diesen Beispielcode:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

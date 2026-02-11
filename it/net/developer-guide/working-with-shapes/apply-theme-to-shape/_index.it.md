@@ -18,8 +18,8 @@ Il codice seguente mostra come:
 #### **Imposta il tema su una forma Esempio di programmazione**
 Utilizzare il seguente codice nell'applicazione .NET per impostare l'aspetto della forma del tipo di connettore utilizzando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

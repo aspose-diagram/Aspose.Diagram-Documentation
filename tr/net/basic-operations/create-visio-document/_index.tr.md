@@ -11,8 +11,8 @@ Aspose.Diagram for .NET, Microsoft Office Otomasyon olmadan kendi uygulamaların
 ## **Visio Çizim Programlama Örneği Oluşturun**
 Aşağıdaki kod, yeni bir Microsoft Visio çizimi oluşturmayı gösterir. Lütfen boş çizimin tek bir boş sayfa içerdiğini unutmayın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

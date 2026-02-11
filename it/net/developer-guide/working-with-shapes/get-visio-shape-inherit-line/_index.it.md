@@ -10,8 +10,8 @@ description: Questa sezione spiega come ottenere lo stile di linea della forma v
 #### **Recupera esempio di programmazione dei dati della riga ereditata**
 Il frammento di codice seguente recupera i dati della linea ereditati della forma. Si prega di controllare questo codice di esempio:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -34,5 +34,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

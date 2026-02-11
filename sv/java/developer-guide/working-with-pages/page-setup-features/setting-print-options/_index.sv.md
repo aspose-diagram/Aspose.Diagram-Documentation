@@ -29,8 +29,8 @@ Alternativ för sidinställningar stöds fullt ut i Aspose.Diagram. Den här art
 |Landskap|Landskapsorientering|
 |Porträtt|Stående format|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -46,14 +46,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **Skalningsfaktor**
 
  Det är möjligt att förminska eller förstora en sidas storlek genom att justera skalfaktorn med[**ScaleX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)fast egendom.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -67,4 +67,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+

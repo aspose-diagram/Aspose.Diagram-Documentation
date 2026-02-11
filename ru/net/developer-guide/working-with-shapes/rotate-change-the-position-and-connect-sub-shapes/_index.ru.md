@@ -10,8 +10,8 @@ description: В этом разделе объясняется, как пове�
 ### **Поворот образца программирования формы**
 Используйте следующий код в своем приложении .NET, чтобы повернуть фигуру с помощью Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Изменить положение фигуры**
 [Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Класс позволяет изменить положение фигуры. Соединительная линия автоматически настраивается, когда фигура перемещается в другое положение. Методы Move и MoveTo, предоставляемые[Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, поддерживают изменение положения фигуры как части группы или нет. Примеры кода в этой статье перемещают фигуру на странице.
 
@@ -43,8 +43,8 @@ diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Пример программирования изменения позиции**
 Фрагмент кода ниже показывает, как переместить фигуру. Код извлекает страницу Visio по имени и форме по идентификатору 16 и перемещает ее позицию.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Соедините подформы групп**
  В этом разделе подробно описывается, как соединить два подфигуры двух разных групповых фигур на диаграммах Microsoft Visio с помощью Aspose.Diagram for .NET. Метод ConnectShapesViaConnector, предоставляемый[Страница](http://www.aspose.com/api/net/diagram/aspose.diagram/page) можно использовать для соединения фигур по их идентификаторам. Метод AddShape, представленный[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)class, можно использовать для добавления формы.
 
@@ -75,8 +75,8 @@ diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 ### **Образец программирования Connect Sub-Shapes**
 Используйте следующий код в своем приложении .NET, чтобы соединить подформы двух разных фигур группы, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Соедините фигуры с определенной фигурой**
 [Добавить и соединить Visio фигуры](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) объясняет, как добавить фигуру и соединить ее с другими фигурами на диаграммах Microsoft Visio, используя Aspose.Diagram for .NET. Также можно найти фигуры, которые связаны с определенной фигурой.
 
@@ -117,8 +117,8 @@ diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 ### **Получить пример программирования фигур**
 Используйте следующий код в своем приложении .NET, чтобы найти все фигуры, связанные с определенной фигурой, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

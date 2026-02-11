@@ -18,8 +18,8 @@ description: يشرح هذا القسم كيفية تعيين خصائص الن�
 #### **تعيين السمة إلى نموذج برمجة الشكل**
 استخدم الكود التالي في تطبيق .NET لتعيين مظهر شكل نوع الموصل باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

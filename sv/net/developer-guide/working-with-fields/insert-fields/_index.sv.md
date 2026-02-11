@@ -8,8 +8,8 @@ description: Så här skapar du, infoga fält med C# Diagram API .
 ## **Infoga fält**
  Aspose.Diagram for .NET låter dig skapa och infoga[fält](https://reference.aspose.com/diagram/net/aspose.diagram/field) till Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation.
 ### **Programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_InsertField();
@@ -31,4 +31,4 @@ shape.Fields.Add(fld);
 diagram.Save(dataDir + "InsertField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

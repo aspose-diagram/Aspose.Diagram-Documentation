@@ -9,8 +9,8 @@ url: /tr/java/working-with-text/
 ### **Bir Metin Şekli Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, Visio diagram'de bir metin şekli ekler.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(InsertTextShape.class) + "Text/";
@@ -25,7 +25,7 @@ diagram.getPages().getPage(0).addText(PinX, PinY, Width, Height, text);
 diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Güncelleme Visio Şekil Metni**
  Birlikte[diyagramlar oluşturma](/diagram/tr/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java, şekillerle farklı şekillerde çalışmanızı sağlar. Bu makalede, şekillerdeki metne nasıl erişileceği ve bu metnin nasıl güncelleneceği ele alınmaktadır.
 
@@ -48,8 +48,8 @@ Bir şeklin metnini güncelleme işlemi basittir:
 ### **Shape Text Programlama Örneği Güncelleme**
 Aşağıdaki kod parçası bir şeklin metnini günceller. Şekiller kimlikleri ile tanımlanır. Aşağıdaki kod parçaları, işlem adı verilen ve kimliği 1 olan bir şekli arar ve metnini değiştirir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UpdateShapeText.class); 
@@ -70,7 +70,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 diagram.save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şekline Yerleşik veya Özel Stil Sayfası Uygulayın**
 Microsoft Visio stil sayfaları, tutarlı bir görünüm ve his için şekillere uygulanabilen biçimlendirme bilgilerini saklar. Aspose.Diagram for Java, bir uygulamanın içinden stil sayfaları uygulamanıza olanak tanır.
 
@@ -102,8 +102,8 @@ Microsoft Visio'de özel stil sayfaları tanımladıktan sonra, şekillerinize �
 1. Stilleri uygulayın.
 1. diagram'i kaydedin.
 #### **Özel Stiller Programlama Örneği Uygula**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyCustomStyleSheets.class);
@@ -149,7 +149,7 @@ if (sourceShape != null && customStyleSheet != null)
 diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Her Metin Değerine Farklı Stil Uygulayın**
  Birlikte[diyagramlar oluşturma](/diagram/tr/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java, şekillerle farklı şekillerde çalışmanızı sağlar. Bu makale, bir şekle birden çok metin değeri eklemeye ve her metin değerine farklı stil uygulamaya yardımcı olur.
 
@@ -169,8 +169,8 @@ Shape öğesi, metnin karakterlerini ve bir çalıştırmanın sonunu ve sonraki
 #### **Metin ve Stiller Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, bir şeklin metnini ve farklı stilleri ekler.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyFontOnText.class);   
@@ -232,7 +232,7 @@ shape.getChars().get(3).getStyle().setValue(StyleValue.BOLD | StyleValue.ITALIC 
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Metnini Bul ve Değiştir**
  bu[Txt](https://reference.aspose.com/diagram/java/com.aspose.diagram/txt) Class, şeklin metnini düzenlemenizi sağlar. Tarafından sunulan replace yöntemi[Txt](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) sınıf, bir şeklin metnini değiştirmeyi destekler.
 Bu makaledeki kod örnekleri, sayfadaki şeklin metnini bulur ve değiştirir.
@@ -255,8 +255,8 @@ Bu makaledeki kod örnekleri, sayfadaki şeklin metnini bulur ve değiştirir.
 ### **Metin Programlama Örneği Bul ve Değiştir**
 Aşağıdaki kod parçacıkları, şeklin metninin nasıl değiştirileceğini gösterir. Kod, bir sayfanın şekillerini yineler.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FindAndReplaceShapeText.class); 
@@ -311,7 +311,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram Sayfasından Düz Metni Çıkarın**
 Aspose.Diagram API, geliştiricilerin Visio diagram sayfasından düz metin çıkarmasına olanak tanır. Ayrıca Visio diagram metninin tamamını kapsayacak şekilde Visio diagram sayfalarını yineleyebilirler.
 
@@ -319,8 +319,8 @@ Aspose.Diagram API, geliştiricilerin Visio diagram sayfasından düz metin çı
 ### **Düz Metin Programlama Örneği Çıkarın**
 Aşağıdaki kod parçası, Visio Sayfasının şekillerini yineler ve biçimlendirme bilgisi olmadan düz metni filtreler.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 static String text = "";
 public static void main(String[] args) throws Exception
@@ -361,4 +361,4 @@ public static void main(String[] args) throws Exception
    }
 
 {{< /highlight >}}
-```
+

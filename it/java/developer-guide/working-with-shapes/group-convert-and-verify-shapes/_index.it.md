@@ -21,8 +21,8 @@ Il codice seguente mostra come:
 #### **Esempio di programmazione delle forme di gruppo**
 Utilizzare il seguente codice nell'applicazione Java per raggruppare le forme utilizzando Aspose.Diagram for Java API.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GroupShapes.class);
@@ -46,7 +46,7 @@ page.getShapes().group(ss);
 diagram.save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Converti una forma Visio in altri formati di file**
 Aspose.Diagram for Java API consente agli sviluppatori di convertire una singola forma Visio in qualsiasi altro formato di file supportato. In questo articolo rimuoviamo tutte le altre forme Visio dalla pagina e personalizziamo le impostazioni della pagina in base alla dimensione della forma di origine.
 ### **Conversione di una particolare forma Visio**
@@ -62,8 +62,8 @@ Questo codice di esempio funziona come segue:
 1. Imposta la dimensione della pagina.
 1. Salva la pagina Visio in qualsiasi formato di file supportato.
 #### **Esempio di programmazione di forme convertite**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioShapeInOtherFormats.class);   
@@ -121,7 +121,7 @@ opts.setPageIndex(1);
 srcVisio.save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -165,8 +165,8 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 #### **Esempio di programmazione per la verifica di forme connesse o incollate**
 La parte di codice seguente verifica se due forme sono connesse o incollate.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VerifyConnectedOrGluedShapes.class);  
@@ -192,7 +192,7 @@ boolean glued = ShapedOne.isGlued(ShapedTwo);
 System.out.println("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **Verificare se la forma Visio si trova in un gruppo di forme**
 Aspose.Diagram for Java API consente agli sviluppatori di verificare se la forma Visio si trova o meno in un gruppo di forme.
 ### **Verifica della forma nel gruppo delle forme**
@@ -200,8 +200,8 @@ La classe Shape offre proprietà IsInGroup per determinare se la forma Visio è 
 #### **Verifica della forma nell'esempio di programmazione del gruppo di forme**
 La parte di codice seguente verifica se la forma è in una forma di gruppo.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -212,7 +212,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
 System.out.println("Is it in a Group: " + shape.isInGroup());
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

@@ -9,8 +9,8 @@ url: /tr/java/working-with-solutionxml-elements/
 
  bu[ÇözümXML](https://reference.aspose.com/diagram/java/com.aspose.diagram/SolutionXML) class, Visio çizimlerinde SolutionXML öğesini temsil eder. Tarafından sunulan Add yöntemi[ÇözümXML](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/SolutionXML) class, bir SolutionXML öğesi eklemeye izin verir.
 ### **SolutionXML Elemanı Programlama Örneği Ekleme**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSolutionXMLElement.class);  
@@ -30,14 +30,14 @@ diagram.getSolutionXMLs().add(solXML);
 diagram.save(dataDir + "AddSolutionXMLElement_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **SolutionXML Öğesinden XML Değerlerini Okuma**
 SolutionXML, kalıcı çözüm verileri için standartlaştırılmış bir araç sağlayan bir SolutionXML öğesinin içinde yer alan iyi biçimlendirilmiş XML'dir. Kullanıcılar, kullanarak SolutionXML öğesinden XML değerlerini okuyabilir.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
  Tarafından sunulan SolutionXMLs özelliği[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) sınıfı, Aspose.Diagram.SolutionXML nesne koleksiyonunu destekler. Bu özellik, SolutionXML öğesinden XML değerlerini okumak için kullanılabilir.
 ### **Okuma ÇözümüXML Elemanı Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadSolutionXMLElement.class);   
@@ -54,4 +54,4 @@ for (SolutionXML solutionXML :(Iterable<SolutionXML>) diagram.getSolutionXMLs())
 }
 
 {{< /highlight >}}
-```
+

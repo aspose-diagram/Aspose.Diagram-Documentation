@@ -13,8 +13,8 @@ Aspose.Diagram för Python via Java gör det möjligt att konfigurera formobjekt
 
 Följande kodbit hjälper till att lägga till, ta bort och flytta formobjektegenskaper.
 #### **Programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -47,7 +47,7 @@ diagram.save("ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Lägg till ett lager i sidbladet Visio**
 Aspose.Diagram för Python via Java tillåter utvecklare att lägga till nya lager för att organisera anpassade kategorier av former och sedan tilldela former till dessa lager programmatiskt.
 
@@ -55,8 +55,8 @@ Aspose.Diagram för Python via Java tillåter utvecklare att lägga till nya lag
 
 Följande kodbit hjälper till att lägga till Layer-objekt.
 #### **Programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -91,7 +91,7 @@ diagram.save("AddLayer_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -103,8 +103,8 @@ Aspose.Diagram för Python via Java ger utvecklare tillgång till de befintliga 
 
 Följande kodbit hjälper dig att få en lista över lager.
 #### **Programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -127,4 +127,4 @@ for layer in page.getPageSheet().getLayers():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

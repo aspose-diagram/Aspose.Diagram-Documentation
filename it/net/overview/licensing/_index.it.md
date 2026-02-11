@@ -43,8 +43,8 @@ Segui queste semplici regole:
 #### **Caricamento di una licenza da file**
 Questo frammento di codice inizializza una licenza memorizzata in un file o in una risorsa incorporata.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -53,12 +53,12 @@ License license = new License();
 license.SetLicense(dataDir + "Aspose.Diagram.lic");
 
 {{< /highlight >}}
-```
+
 #### **Caricamento di una licenza da un oggetto flusso**
 Questi frammenti di codice inizializzano la licenza dal flusso.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -69,17 +69,17 @@ License license = new License();
 license.SetLicense(LicStream);
 
 {{< /highlight >}}
-```
+
 ## **Applicare la licenza misurata**
 Aspose.Diagram for .NET API consente agli sviluppatori di applicare la licenza misurata. È un nuovo meccanismo di licenza. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano essere fatturati in base all'utilizzo delle funzionalità API possono utilizzare le licenze a consumo. Per maggiori dettagli, fare riferimento a[Domande frequenti sulle licenze misurate](https://purchase.aspose.com/faqs/licensing/metered)sezione.
 
 Una nuova classe[Misurato](https://reference.aspose.com/diagram/net/aspose.diagram/metered)è stato aggiunto per applicare la chiave misurata. Questo esempio di codice mostra come impostare chiavi pubbliche e private misurate:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // Initialize a Metered license class object
 Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
 // apply public and private keys
 metered.SetMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

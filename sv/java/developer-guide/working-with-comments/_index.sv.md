@@ -11,8 +11,8 @@ Metoden addComment, exponerad av klassen Page, låter dig lägga till kommentare
 
  Microsoft Visio användare lägger till kommentarer på hela sidan som presenteras av en ikon i det övre vänstra hörnet på sidan. Utvecklare kan[lägg till kommentarer på sidnivå i Visio](). [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API stöder dessutom att ändra sidnivåkommentaren i Visio.
 #### **Lägg till kommentar Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddPageLevelCommentInVisio.class);
@@ -26,14 +26,14 @@ diagram.getPages().getPage(0).addComment(7.205905511811023, 3.880708661417323, "
 diagram.save(dataDir + "AddPageLevelCommentInVisio_Out.vdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Redigera en kommentar på sidnivå i Visio Diagram**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API har stöd för att ändra sidnivåkommentaren på Visio ritsidan som presenteras av en ikon i det övre vänstra hörnet på sidan.
 ### **Redigera kommentar**
 Egenskapen Comment, exponerad av klassen Annotation, tillåter utvecklare att redigera kommentarer på ritsidan Visio.
 #### **Redigera kommentar Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditPageLevelCommentInVisio.class);
@@ -54,7 +54,7 @@ for (Annotation annotation : (Iterable<Annotation>) annotations)
 diagram.save(dataDir + "EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Lägg till en kommentar på formnivå i Visio Ritning**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API låter utvecklare lägga till kommentarer till formen i en Visio-ritning.
 ### **Lägg till kommentar**

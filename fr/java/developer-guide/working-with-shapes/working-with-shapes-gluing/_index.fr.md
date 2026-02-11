@@ -17,8 +17,8 @@ Le code ci-dessous montre comment :
 #### **Obtenez un exemple de programmation collée sur les connecteurs**
 Utilisez le code suivant dans votre application Java pour trouver tous les connecteurs collés à une forme en utilisant Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -37,7 +37,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Collez les formes Visio avec le point de connexion**
 Aspose.Diagram for Java permet aux développeurs de coller des formes ensemble à travers les points de connexion.
 ### **Formes de colle**
@@ -53,8 +53,8 @@ Le code ci-dessous montre comment :
 #### **Colle Visio Exemple de programmation de formes**
 Utilisez le code suivant dans votre application Java pour coller des formes à travers les points de connexion :
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -73,7 +73,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Formes de colle à l'intérieur du conteneur**
 Aspose.Diagram for Java permet aux développeurs de coller des formes de groupe à l'intérieur d'un conteneur.
 ### **Forme du groupe de collage**
@@ -89,8 +89,8 @@ Le code ci-dessous montre comment :
 #### **Coller des formes à l'intérieur d'un exemple de programmation**
 Utilisez le code suivant dans votre application Java pour coller la forme du groupe à l'intérieur d'un conteneur :
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -119,4 +119,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -33,8 +33,8 @@ L'image ci-dessous montre le fichier de sortie HTML.
 ### **Save resultant HTML in the local storage**
 Le fichier résultant peut être enregistré en transmettant une chaîne de chemin complète, y compris le nom de fichier et l'extension, par exemple @"c:\temp\MyOutput.html".
 #### **Save Resultant HTML in Local Storage Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToHTML.class);
@@ -46,15 +46,15 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Save resultant HTML in a stream instance**
 It is for use case to save the resultant HTML in a database or repository without storing it in the local storage. This feature also embeds other resultant resources of the HTML, e.g. fonts, CSS (containing the style information) and images. Since it saves a single HTML file into the stream instance.
 #### **Save Resultant HTML in a Stream Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
@@ -68,4 +68,4 @@ diagram.save(dstStream, SaveFileFormat.HTML);
 ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+

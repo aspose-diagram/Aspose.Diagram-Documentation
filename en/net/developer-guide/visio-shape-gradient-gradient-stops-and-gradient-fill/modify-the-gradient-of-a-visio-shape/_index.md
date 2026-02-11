@@ -14,8 +14,8 @@ Using Aspose.Diagram API, developers can enhance the appearance of a Visio shape
 ## **Modify the Gradient Fill Programming Sample**
 [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class offers Fill property which allows developers to retrieve a [GradientFill](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill) object. The GradientFill class holds the gradient data of a Visio Shape. Developers can set all its available properties as well as retrieve a gradient stop by index to set the color and position properties.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -39,4 +39,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

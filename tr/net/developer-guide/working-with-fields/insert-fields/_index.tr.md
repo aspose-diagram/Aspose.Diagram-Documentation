@@ -8,8 +8,8 @@ description: C# Diagram API kullanarak alanlar nasıl oluşturulur, eklenir.
 ## **Alan ekle**
  Aspose.Diagram for .NET oluşturmanıza ve eklemenize izin verir[alan](https://reference.aspose.com/diagram/net/aspose.diagram/field) Microsoft Office Otomasyon olmadan kendi uygulamalarınız içinden Microsoft Visio şemaları.
 ### **Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_InsertField();
@@ -31,4 +31,4 @@ shape.Fields.Add(fld);
 diagram.Save(dataDir + "InsertField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

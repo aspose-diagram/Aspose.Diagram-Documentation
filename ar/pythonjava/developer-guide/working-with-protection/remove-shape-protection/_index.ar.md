@@ -21,8 +21,8 @@ description: يشرح هذا القسم كيفية إزالة حماية الش�
 ### **قم بإزالة نموذج برمجة حماية الشكل**
 استخدم الكود التالي في التطبيق الخاص بك للقيام بنفس الشيء (فتح أي سمة شكل) باستخدام Aspose.Diagram لـ Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -65,5 +65,5 @@ diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

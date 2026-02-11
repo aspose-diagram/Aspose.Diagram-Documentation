@@ -19,8 +19,8 @@ description: 本节介绍如何将 visio 形状转换为具有 Aspose.Diagram �
 #### **形状到图像编程示例**
 在 .net 应用程序中使用以下代码将 visio 形状转换为图像。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,4 +39,4 @@ Aspose.Diagram.Saving.ImageSaveOptions o = new Aspose.Diagram.Saving.ImageSaveOp
 shape.ToImage("out.png", o);
 
 {{< /highlight >}}
-```
+

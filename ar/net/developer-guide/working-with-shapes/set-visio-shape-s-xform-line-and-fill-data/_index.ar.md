@@ -15,8 +15,8 @@ description: يشرح هذا القسم كيفية تعيين نمط الشكل 
 ### **عينة البرمجة**
 يوضح مقتطف الشفرة أدناه كيفية تحديث بيانات XForm للشكل. يبحث الكود عن عملية أسماء الأشكال ، بمعرف الشكل 1 ، ويضبط إحداثياته X و Y على 5.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,7 +37,7 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتعيين Visio بيانات خط الشكل**
 يمكن تنسيق الأشكال بعدة طرق. توضح هذه المقالة كيفية تحديد سمات السطر.
 
@@ -56,8 +56,8 @@ Microsoft Visio يتيح للمستخدمين تنسيق السطور بعدة �
 #### **عينة برمجة بيانات الخط**
 يقوم الجزء التالي من التعليمات البرمجية بتحديث بيانات خط الشكل.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -93,7 +93,7 @@ shape.Line.EndArrowSize.Value = ArrowSizeValue.Large;
 diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتعيين Visio بيانات تعبئة الشكل**
  يمكن تنسيق الأشكال بعدة طرق. يصف هذا الموضوع كيفية تحديد تعبئة الشكل. Microsoft Office Visio يتيح للمستخدمين تنسيق التعبئة بطرق مختلفة. ال[يملأ](http://www.aspose.com/api/net/diagram/aspose.diagram/fill) فئة Aspose.Diagram for .NET API تدعم الإعداد:
 
@@ -106,8 +106,8 @@ diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 #### **تعبئة نموذج لبرمجة البيانات**
 يقوم مقتطف التعليمات البرمجية التالي بتحديث بيانات تعبئة الشكل. تبحث الشفرة عن شكل يسمى مستطيل ، بمعرف الشكل 1 ، وتعيين خلفية التعبئة وألوان المقدمة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -128,14 +128,14 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetFillData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **استرجع بيانات التعبئة الموروثة لشكل Visio**
  يمكن أن ترث أشكال Visio النمط الأصل والشكل الرئيسي. يمكن للمطورين الحصول على بيانات التعبئة الموروثة لشكل Visio أو تعيينها. الخاصية InheritFill ، المكشوفة بواسطة[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class ، تحتوي على قيم تنسيق التعبئة للشكل الذي يرثه النمط الأصل والشكل الرئيسي.
 #### **استرجاع نموذج برمجة بيانات التعبئة الموروثة**
 يسترد مقتطف التعليمات البرمجية التالي بيانات التعبئة الموروثة للشكل. يرجى التحقق من نموذج الكود هذا:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -163,4 +163,4 @@ Console.WriteLine(shape.InheritFill.ShdwForegndTrans.Value);
 Console.WriteLine(shape.InheritFill.ShdwPattern.Value);
 
 {{< /highlight >}}
-```
+

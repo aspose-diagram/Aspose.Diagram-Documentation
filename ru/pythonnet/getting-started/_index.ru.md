@@ -34,6 +34,17 @@ description: Настройка Aspose.Diagram для Python via .NET и инс�
 
 -  Создайте файл с именем**СозданиеNewVisioFile.py** и используйте следующий пример кода:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingNewVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram()
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 - Теперь сохраните приведенный выше код в «CreatingNewVisioFile.py» и запустите командную строку «python MakingNewVisioFile.py».

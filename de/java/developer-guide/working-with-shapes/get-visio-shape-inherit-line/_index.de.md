@@ -10,8 +10,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie den Linienstil der vis
 #### **Programmierbeispiel für geerbte Leitungsdaten abrufen**
 Der folgende Codeausschnitt ruft die geerbten Liniendaten der Form ab. Bitte überprüfen Sie diesen Beispielcode:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

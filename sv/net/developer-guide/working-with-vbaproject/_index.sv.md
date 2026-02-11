@@ -27,8 +27,8 @@ End Sub
 
 Här är exempelkoden för att generera utdatafilen VSDM med VBA-modul och makrokod.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -45,7 +45,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Ändra VBA eller makro**
 
@@ -88,8 +88,8 @@ End Sub
 
  Du kan ladda ner[källfil Visio]() och den[utgång Visio fil]() från de angivna länkarna.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -104,7 +104,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **Förhandsämnen**
 - [Kontrollera om VBA-koden är signerad](/diagram/sv/net/check-if-vba-code-is-signed/)

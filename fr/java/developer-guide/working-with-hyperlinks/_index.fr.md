@@ -24,8 +24,8 @@ Pour identifier les propriétés dans Microsoft Visio :
 
 Les extraits de code ci-dessous ajoutent les données de lien hypertexte de la forme.
 ### **Ajouter un exemple de programmation de lien hypertexte**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Obtenir les données des liens hypertexte des formes Visio**
  Il est possible d'obtenir les données de lien hypertexte d'une forme de la même manière que vous[lecture des données de forme Visio]().
 
@@ -79,8 +79,8 @@ Pour identifier les propriétés dans Microsoft Visio :
 
 Les extraits de code ci-dessous lisent les données de lien hypertexte de la forme.
 ### **Obtenir un exemple de programmation d'hyperliens**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

@@ -17,8 +17,8 @@ This article explains how to implement IStreamProvider interface for setting the
 
 This is the main code showing the usage of HTMLSaveOptions.StreamProvider property
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -33,12 +33,12 @@ options.StreamProvider = new ExportStreamProvider(outputDir);
 diagram.Save(dataDir + "output_out.html", options);
 
 {{< /highlight >}}
-```
+
 
 Here is the code for ExportStreamProvider class which implements IStreamProvider interface used inside the above code.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public class ExportStreamProvider : IStreamProvider
 {
@@ -66,6 +66,6 @@ public class ExportStreamProvider : IStreamProvider
     }
 }
 {{< /highlight >}}
-```
+
 
 

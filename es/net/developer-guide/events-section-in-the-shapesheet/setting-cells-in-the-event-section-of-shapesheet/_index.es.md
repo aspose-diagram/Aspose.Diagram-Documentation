@@ -20,8 +20,8 @@ Usando Aspose.Diagram API, los desarrolladores pueden definir cómo responde una
 ## **Configuración de celdas de eventos**
 [Evento](https://reference.aspose.com/diagram/net/aspose.diagram/event) class permite a los desarrolladores establecer celdas de eventos en ShapeSheet. Este tema de ayuda demuestra cómo los desarrolladores pueden establecer fórmulas en las celdas de eventos:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

@@ -21,8 +21,8 @@ Aspose.Diagram 完全支持页面设置选项。本文介绍了如何使用 Aspo
 
 ### **FitToSheetAcross**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -41,6 +41,6 @@ printProps.PagesX.Value = 1;
 printProps.PagesY.Value = 1;
 
 {{< /highlight >}}
-```
+
 
 

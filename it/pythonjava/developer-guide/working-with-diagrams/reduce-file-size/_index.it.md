@@ -9,8 +9,8 @@ description: This section explains how to reduce file size from a diagram with A
 Aspose.Diagram for Python via Java API allows developers to remove hidden info from a diagram to reduce file size. 
  L'oggetto Page rappresenta l'area di disegno di una pagina in primo piano o di una pagina di sfondo. Per ridurre le dimensioni del file, è possibile utilizzare le proprietà RemoveHiddenInfoItem in**RimuoviInformazioni Nascoste()** metodo della classe Diagram. L'esempio di codice seguente mostra come rimuovere le informazioni nascoste da diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -31,4 +31,4 @@ diagram.save("ReduceFileSize_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

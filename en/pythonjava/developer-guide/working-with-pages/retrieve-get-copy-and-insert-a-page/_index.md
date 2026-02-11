@@ -15,8 +15,8 @@ Use the `Page.Background` property to determine whether a page is a foreground o
 ### **Retrieve Page Information Programming Sample**
 The following piece of code retrieves the pages information from a diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -43,7 +43,7 @@ for page in diagram.getPages():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Get the Visio Page from a Diagram**
 Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram for Python via Java has features that helps them do this.
@@ -59,8 +59,8 @@ This example work as follows:
 The following example shows how to get a page object by id from Visio drawing.
 
 #### **Get Page Object by ID Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -80,7 +80,7 @@ page2 = diagram.getPages().getPage(page_id)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Getting a Visio Page Object by Name**
 This example work as follows:
@@ -91,8 +91,8 @@ This example work as follows:
 #### **Get Page Object by Name Programming Sample**
 The following example shows how to get a page object by name from Visio drawing.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -112,7 +112,7 @@ page2 = diagram.getPages().getPage(pageName)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Copy a Visio Page into Another Diagram**
 Aspose.Diagram for Python via Java API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
@@ -133,8 +133,8 @@ This example work as follows:
 ### **Copy a Visio Page Programming Sample**
 The code example below shows how to copy a Visio page object into another Visio drawing.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -184,7 +184,7 @@ newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Copy Visio Page to another Page instance**
 The `copy` method of the `Page` class takes a page instance to clone.
@@ -210,8 +210,8 @@ The `add` method, exposed by the Pages collection, allows developers to add a ne
 ### **Insert a Blank Page Programming Sample**
 The following piece of code inserts a blank page in the Visio Drawing:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -251,7 +251,7 @@ diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Move Page position in the Visio drawing**
 Aspose.Diagram for Python via Java API can move page position in the Visio drawing. The `moveTo` method, exposed by the `Page` class, helps developers to move the page position.

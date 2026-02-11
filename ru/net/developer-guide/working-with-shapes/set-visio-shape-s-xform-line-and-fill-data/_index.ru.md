@@ -15,8 +15,8 @@ description: В этом разделе объясняется, как уста�
 ### **Образец программирования**
 Фрагмент кода ниже показывает, как обновить данные XForm фигуры. Код ищет процесс имен фигур с идентификатором фигуры 1 и устанавливает его координаты X и Y равными 5.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,7 +37,7 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Установить Visio данные линии фигуры**
 Формы можно форматировать несколькими способами. В этой статье показано, как указать атрибуты линии.
 
@@ -56,8 +56,8 @@ Microsoft Visio позволяет пользователям форматиро
 #### **Образец программирования линейных данных**
 Следующий фрагмент кода обновляет линейные данные shape.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -93,7 +93,7 @@ shape.Line.EndArrowSize.Value = ArrowSizeValue.Large;
 diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Установить Visio данные заполнения фигуры**
  Формы можно форматировать несколькими способами. В этом разделе описывается, как задать заливку фигуры. Microsoft Office Visio позволяет пользователям форматировать заливки различными способами.[Наполнять](http://www.aspose.com/api/net/diagram/aspose.diagram/fill) класс Aspose.Diagram for .NET API поддерживает настройку:
 
@@ -106,8 +106,8 @@ diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 #### **Образец программирования данных заполнения**
 Следующий фрагмент кода обновляет данные заполнения фигуры. Код ищет фигуру с именем прямоугольник с идентификатором фигуры 1 и устанавливает цвета фона и переднего плана заливки.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -128,14 +128,14 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetFillData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Получить унаследованные данные заполнения формы Visio**
  Фигуры Visio могут наследовать родительский стиль и основную фигуру. Разработчики могут получить или установить наследуемые данные заполнения фигуры Visio. Свойство InheritFill, предоставляемое[Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class содержит значения форматирования заливки для фигуры, наследуемой родительским стилем и основной фигурой.
 #### **Пример программирования извлечения унаследованных данных заполнения**
 Следующий фрагмент кода извлекает унаследованные данные заливки фигуры. Пожалуйста, проверьте этот пример кода:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -163,4 +163,4 @@ Console.WriteLine(shape.InheritFill.ShdwForegndTrans.Value);
 Console.WriteLine(shape.InheritFill.ShdwPattern.Value);
 
 {{< /highlight >}}
-```
+

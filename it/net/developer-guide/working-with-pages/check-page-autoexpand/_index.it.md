@@ -14,8 +14,8 @@ Usa la proprietà PageProps per controllare l'espansione automatica della pagina
 ### **Esempio di programmazione delle dimensioni della pagina**
 La seguente parte di codice controlla l'espansione automatica della pagina da diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -34,4 +34,4 @@ page.PageSheet.PageProps.DrawingResizeType.Value = DrawingResizeTypeValue.NotAut
 diagram.Save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

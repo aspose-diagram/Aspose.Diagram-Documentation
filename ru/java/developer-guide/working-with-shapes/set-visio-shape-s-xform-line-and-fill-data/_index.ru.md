@@ -22,8 +22,8 @@ url: /ru/java/set-visio-shape-s-xform-line-and-fill-data/
 ### **Образец программирования**
 Фрагмент кода ниже показывает, как обновить данные XForm фигуры. Код ищет процесс имен фигур с идентификатором фигуры 1 и устанавливает его координаты X и Y равными 5.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetXFormdata.class); 
@@ -43,7 +43,7 @@ for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
 diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Установить Visio данные линии фигуры**
 Формы можно форматировать несколькими способами. В этой статье показано, как указать атрибуты линии.
 
@@ -62,8 +62,8 @@ Microsoft Visio позволяет пользователям форматиро
 #### **Образец программирования линейных данных**
 Следующий фрагмент кода обновляет линейные данные shape.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetLineData.class);
@@ -101,7 +101,7 @@ diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
 diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Установить Visio данные заполнения фигуры**
 Формы можно форматировать несколькими способами. В этом разделе описывается, как задать заливку фигуры.
 
@@ -119,8 +119,8 @@ diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 #### **Образец программирования данных заполнения**
 Следующий фрагмент кода обновляет данные заполнения фигуры. Код ищет фигуру с именем прямоугольник с идентификатором фигуры 1 и устанавливает цвета фона и переднего плана заливки.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetFillData.class);
@@ -142,14 +142,14 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0
 diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Получить унаследованные данные заполнения формы Visio**
 Фигуры Visio могут наследовать родительский стиль и основную фигуру. Разработчики могут получить или установить наследуемые данные заполнения фигуры Visio. Свойство InheritFill, предоставляемое классом Shape, содержит значения форматирования заливки для фигуры, наследуемой родительским стилем и основной фигурой.
 #### **Пример программирования извлечения унаследованных данных заполнения**
 Следующий фрагмент кода извлекает унаследованные данные заливки фигуры. Пожалуйста, проверьте этот пример кода:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -177,4 +177,4 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+

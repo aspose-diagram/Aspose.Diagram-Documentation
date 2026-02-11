@@ -19,8 +19,8 @@ Un point spécifié en coordonnées locales peut être converti en coordonnées 
 ### **Calculer l'exemple de programmation PinX et PinY**
 Utilisez le code suivant dans votre application Java pour calculer les valeurs PinX et PinY d'une sous-forme à l'aide de Aspose.Diagram for Java API.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CalculateCenterOfSubShapes.class);
@@ -50,7 +50,7 @@ double resultx = shape.getXForm().getPinX().getValue() - shape.getXForm().getLoc
 double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLocPinY().getValue() - piny;
 
 {{< /highlight >}}
-```
+
 ## **Définition de la hauteur et de la largeur d'une forme**
  La[Forme](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) La classe vous permet de contrôler la taille de la forme en spécifiant la hauteur et la largeur de la forme à l'aide des méthodes SetHeight et SetWidth.
 
@@ -76,8 +76,8 @@ Le processus de définition de la hauteur et de la largeur est le suivant :
 ### **Réglage de la hauteur et de la largeur Exemple de programmation**
 L'extrait de code ci-dessous montre comment définir la hauteur et la largeur de la forme. Le code recherche un rectangle de nom de forme, avec l'ID de forme 1, et définit sa hauteur et sa largeur sur double.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeShapeSize.class);
@@ -95,4 +95,4 @@ shape.setHeight(2 * shape.getXForm().getHeight().getValue());
 diagram.save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

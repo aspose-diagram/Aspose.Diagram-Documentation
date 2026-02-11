@@ -15,8 +15,8 @@ Aspose.Diagram for Java 允许在 Microsoft Office Visio diagram 中配置具有
 
 以下代码有助于添加、删除和移动形状对象属性。
 #### **编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **在 Visio PageSheet 中添加图层**
 Aspose.Diagram for Java 允许开发人员添加新层来组织形状的自定义类别，然后以编程方式将形状分配给这些层。
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java 允许开发人员添加新层来组织形状的自定�
 
 下面的一段代码有助于添加 Layer 对象。
 #### **编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java 允许开发人员访问 Visio diagram 的现有层。
 
 以下代码有助于获取图层列表。
 #### **编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

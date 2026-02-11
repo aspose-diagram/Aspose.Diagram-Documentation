@@ -12,8 +12,8 @@ Aspose.Diagram for Python via Java API has the Diagram class that represents a V
 Usando el método**Combinar** en la clase Diagram para combinar diagramas.
 
 ## **Código de muestra**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,4 +36,4 @@ diagram2.save("CombineDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

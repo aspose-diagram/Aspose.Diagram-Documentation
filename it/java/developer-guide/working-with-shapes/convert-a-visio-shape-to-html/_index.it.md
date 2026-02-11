@@ -17,8 +17,8 @@ Il codice seguente mostra come:
 ### **Forma in Html**
 Usa il seguente codice nella tua applicazione java per convertire una forma visio in html.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToHtml.class); 
@@ -35,6 +35,6 @@ Shape shape = page.getShapes().get(0);
 HTMLSaveOptions hs = new HTMLSaveOptions();
 shape.toHTML("out.htm", hs);
 {{< /highlight >}}
-```
+
 
 

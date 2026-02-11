@@ -18,8 +18,8 @@ ProtectBkgnds、ProtectMasters、ProtectShapes 和 ProtectStyles 属性，由[�
 #### **编辑 Diagram 保护编程示例**
 在 .NET 应用程序中使用以下代码执行相同的任务，例如使用 Aspose.Diagram for .NET API 锁定和解锁 Visio diagram 的不同元素。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **设置Visio形状的保护**
 保护 Visio 形状允许用户锁定形状的特定方面。可以通过形状保护锁定的形状方面包括宽度、高度、x 位置、y 位置、旋转等。开发人员可以使用[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **编辑Visio形状保护**
@@ -51,8 +51,8 @@ diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 ### **编辑形状保护编程示例**
 在您的 .NET 应用程序中使用以下代码来使用 Aspose.Diagram for .NET 执行相同的操作（锁定/解锁任何形状属性）。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

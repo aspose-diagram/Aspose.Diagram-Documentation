@@ -22,8 +22,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Grup Şekilleri Programlama Örneği**
 Aspose.Diagram for .NET API'i kullanarak şekilleri gruplandırmak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -48,7 +48,7 @@ page.Shapes.Group(ss);
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklini Diğer Dosya Biçimlerine Dönüştürme**
 Aspose.Diagram for .NET API, geliştiricilerin tek bir Visio şeklini desteklenen diğer herhangi bir dosya biçimine dönüştürmesine olanak tanır. Bu yazıda, diğer tüm Visio şekillerini sayfadan kaldırıyoruz ve sayfa ayarını kaynak Şekil boyutuna göre özelleştiriyoruz.
 ### **Belirli Bir Şekli Dönüştürme Visio**
@@ -64,8 +64,8 @@ Bu örnek kod aşağıdaki gibi çalışır:
 1. Sayfa boyutunu ayarlayın.
 1. Visio sayfasını desteklenen herhangi bir dosya biçiminde kaydedin.
 #### **Şekil Programlama Örneği Dönüştür**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,7 +123,7 @@ opts.PageIndex = 1;
 srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Visio Şeklini PDF'e dönüştür**
 Shape sınıfının ToPdf yöntemi, bir şekli PDF biçimine dönüştürmeye olanak tanır.
 
@@ -161,8 +161,8 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML(dataDir + "out.pdf", hs);
 #### **Bağlı veya Yapıştırılmış Şekillerin Doğrulanması Programlama Örneği**
 Aşağıdaki kod parçası, iki şeklin bağlantılı mı yoksa yapıştırılmış mı olduğunu doğrular.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -189,7 +189,7 @@ bool glued = ShapedOne.IsGlued(ShapedTwo);
 Console.WriteLine("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şeklinin bir Şekil Grubunda Olup Olmadığını Doğrulayın**
 Aspose.Diagram for .NET API, geliştiricilerin Visio şeklinin bir grup şekil içinde olup olmadığını doğrulamasını sağlar.
 ### **Şekil Grubunda Şeklin Doğrulanması**
@@ -197,8 +197,8 @@ bu[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)class, Vis
 #### **Şekiller Grubu Programlama Örneğinde Şeklin Doğrulanması**
 Aşağıdaki kod parçası, şeklin bir grup şeklinde olup olmadığını doğrular.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -207,4 +207,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(13).Shapes.GetShape(2);
 Console.WriteLine("Is it in a Group: " + shape.IsInGroup());
 {{< /highlight >}}
-```
+

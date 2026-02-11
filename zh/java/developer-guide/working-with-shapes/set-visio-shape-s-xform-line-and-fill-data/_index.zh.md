@@ -22,8 +22,8 @@ XForm 元素是 Microsoft Visio XML 模式的一部分。 XForm 指定形状位�
 ### **编程范例**
 下面的代码片段显示了如何更新形状的 XForm 数据。代码查找形状名称进程，形状 ID 为 1，并将其 X 和 Y 坐标设置为 5。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetXFormdata.class); 
@@ -43,7 +43,7 @@ for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
 diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **设置 Visio 形状的线数据**
 可以通过多种方式格式化形状。本文介绍如何指定线条的属性。
 
@@ -62,8 +62,8 @@ Microsoft Visio 允许用户以各种方式格式化行。 Aspose.Diagram for Ja
 #### **线路数据编程示例**
 下面的一段代码更新形状的线数据。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetLineData.class);
@@ -101,7 +101,7 @@ diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
 diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **设置 Visio 形状的填充数据**
 可以通过多种方式格式化形状。本主题介绍如何指定形状的填充。
 
@@ -119,8 +119,8 @@ Shape 类公开的 Fill 属性支持 Aspose.Diagram.Fill 对象。 Fill 属性�
 #### **填充数据编程示例**
 以下代码片段更新形状的填充数据。该代码查找名为 rectangle 且形状 ID 为 1 的形状，并设置填充背景和前景色。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetFillData.class);
@@ -142,14 +142,14 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0
 diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **检索 Visio 形状的继承填充数据**
 Visio 形状可以继承父样式和主形状。开发者可以获取或设置一个Visio形状的继承填充数据。 Shape 类公开的 InheritFill 属性包含由父样式和主控形状继承的形状的填充格式值。
 #### **检索继承的填充数据编程示例**
 以下代码片段检索形状的继承填充数据。请检查此示例代码：
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -177,4 +177,4 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+

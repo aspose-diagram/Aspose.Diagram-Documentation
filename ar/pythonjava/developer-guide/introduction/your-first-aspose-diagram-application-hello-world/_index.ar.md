@@ -30,8 +30,8 @@ description: توضح هذه الصفحة كيفية إنشاء التطبيق �
 
 يفتح المثال التالي ملف قالب Microsoft Visio موجود باسم "[Basic_Shapes.vss](Basic_Shapes.vss)"، يدخل نص" Hello World! "في الصفحة الأولى ويحفظ diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -53,4 +53,4 @@ diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

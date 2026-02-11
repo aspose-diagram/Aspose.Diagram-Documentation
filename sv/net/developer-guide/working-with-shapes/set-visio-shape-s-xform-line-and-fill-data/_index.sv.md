@@ -15,8 +15,8 @@ Processen för att uppdatera XForm-data är:
 ### **Programmeringsexempel**
 Kodavsnittet nedan visar hur du uppdaterar en forms XForm-data. Koden letar efter en process för formnamn, med form-ID 1, och ställer in dess X- och Y-koordinater till 5.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,7 +37,7 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ställ in Visio Shape's Line Data**
 Former kan formateras på flera sätt. Den här artikeln visar hur du anger en linjes attribut.
 
@@ -56,8 +56,8 @@ Microsoft Visio låter användare formatera linjer på olika sätt. Aspose.Diagr
 #### **Linjedataprogrammeringsexempel**
 Följande kodbit uppdaterar formens linjedata.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -93,7 +93,7 @@ shape.Line.EndArrowSize.Value = ArrowSizeValue.Large;
 diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ställ in Visio Shape's Fill Data**
  Former kan formateras på flera sätt. Det här avsnittet beskriver hur du anger en forms fyllning. Microsoft Office Visio låter användare formatera fyllningar på olika sätt. De[Fylla](http://www.aspose.com/api/net/diagram/aspose.diagram/fill) klass av Aspose.Diagram for .NET API stöder inställning:
 
@@ -106,8 +106,8 @@ diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 #### **Fyll i dataprogrammeringsexempel**
 Följande kodavsnitt uppdaterar en forms fyllningsdata. Koden letar efter en form som heter rektangel, med form-ID 1, och ställer in fyllningsbakgrunds- och förgrundsfärgerna.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -128,14 +128,14 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetFillData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Hämta ärvd fyllningsdata för en Visio-form**
  Visio-formerna kan ärva den överordnade stilen och huvudformen. Utvecklare kan hämta eller ställa in ärvd fyllningsdata för en Visio-form. Egenskapen InheritFill, exponerad av[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) klass, innehåller fyllningsformateringsvärdena för formen som ärvs av den överordnade stilen och huvudformen.
 #### **Hämta ärvt fyllningsdataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda fyllningsdata. Kontrollera denna exempelkod:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -163,4 +163,4 @@ Console.WriteLine(shape.InheritFill.ShdwForegndTrans.Value);
 Console.WriteLine(shape.InheritFill.ShdwPattern.Value);
 
 {{< /highlight >}}
-```
+

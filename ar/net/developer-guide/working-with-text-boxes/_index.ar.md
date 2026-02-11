@@ -12,8 +12,8 @@ description: يوضح هذا القسم كيفية تنسيق شكل نص باس
 ### **نموذج برمجة نص التنسيق**
 يحدد الجزء التالي من التعليمات البرمجية الاتجاه والمحاذاة والهوامش ولون الخلفية وشفافية لون الخلفية وموضع علامة الجدولة الافتراضي لزاوية الاتجاه وموضع نص الشكل في الأعلى.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -48,7 +48,7 @@ shape.TextBlock.DefaultTabStop.Value = 2;
 diagram.Save(dataDir + "FormatShapeTextBlockSection_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **تدوير وتعيين موضع Visio نص الشكل**
  Aspose.Diagram API يسمح للمطورين بضبط موضع النص وأيضًا تدوير النص على الشكل Visio. لإنجاز هذه المهمة ، يوفر قسم تحويلات النص في ورقة الأشكال خصائص TxtPin و TxtLocPin و TxtWidth و TxtHeight. يمكن للمطورين التفاعل مع هذه الخصائص برمجيًا باستخدام ملفات[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **قم بتدوير وتعيين موضع نص الشكل**
@@ -56,8 +56,8 @@ diagram.Save(dataDir + "FormatShapeTextBlockSection_out.vsdx", SaveFileFormat.VS
 #### **عيّن موضع نص الشكل في الأعلى**
 يحدد الجزء التالي من التعليمات البرمجية زاوية الاتجاه وموضع نص الشكل في الأعلى.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -82,12 +82,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtTop_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **تعيين موضع نص الشكل في الأسفل**
 يحدد جزء الكود التالي زاوية الاتجاه وموضع نص الشكل في الأسفل.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -112,12 +112,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtBottom_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **تعيين موضع نص الشكل إلى اليسار**
 يحدد الجزء التالي من التعليمات البرمجية زاوية الاتجاه وموضع نص الشكل على اليسار.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -141,12 +141,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtLeft_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **اضبط موضع نص الشكل على اليمين**
 يحدد الجزء التالي من التعليمات البرمجية زاوية الاتجاه وموضع نص الشكل على اليمين.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -170,4 +170,4 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtRight_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

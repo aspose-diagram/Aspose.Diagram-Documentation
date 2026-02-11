@@ -18,8 +18,8 @@ El siguiente código muestra cómo:
 #### **Establecer el tema en una forma Ejemplo de programación**
 Use el siguiente código en su aplicación Java para establecer la apariencia de la forma del tipo de conector usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -59,4 +59,4 @@ page3.setPresetThemeQuickStyle (PresetQuickStyleValue.VARIANT_STYLE_3);
 diagram.save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

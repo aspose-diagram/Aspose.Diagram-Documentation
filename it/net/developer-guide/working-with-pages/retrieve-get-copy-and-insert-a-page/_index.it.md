@@ -14,8 +14,8 @@ Utilizzare la proprietà Page.Background per determinare se una pagina è in pri
 ### **Recupera il campione di programmazione delle informazioni sulla pagina**
 Il seguente pezzo di codice recupera le informazioni sulle pagine da un diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -42,7 +42,7 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 }
 
 {{< /highlight >}}
-```
+
 ## **Ottieni la pagina Visio da uno Diagram**
 A volte, gli sviluppatori devono ottenere i dettagli della pagina di un disegno Visio. Aspose.Diagram ha caratteristiche che li aiutano a farlo.
 
@@ -55,8 +55,8 @@ Questo esempio funziona come segue:
 
 L'esempio seguente mostra come ottenere un oggetto pagina in base all'ID dal disegno Visio.
 #### **Esempio di programmazione Ottieni oggetto pagina per ID**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -70,7 +70,7 @@ int pageid = 2;
 Page page2 = diagram.Pages.GetPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Ottenere un oggetto pagina Visio per nome**
 Questo esempio funziona come segue:
 
@@ -79,8 +79,8 @@ Questo esempio funziona come segue:
 #### **Esempio di programmazione Ottieni oggetto pagina per nome**
 L'esempio seguente mostra come ottenere un oggetto pagina per nome dal disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,7 +94,7 @@ string pageName = "Flow 2";
 Page page2 = diagram.Pages.GetPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Copia una pagina Visio in un'altra Diagram**
 Aspose.Diagram for .NET API consente agli sviluppatori di copiare e aggiungere il proprio contenuto da uno Visio diagram a un altro. Questo argomento della guida spiega come eseguire questa attività.
 
@@ -113,8 +113,8 @@ Questo esempio funziona come segue:
 ### **Copia un esempio di programmazione della pagina Visio**
 L'esempio di codice seguente mostra come copiare un oggetto pagina Visio in un altro disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -157,7 +157,7 @@ NewDigram.Pages.Remove(NewDigram.Pages[0]);
 NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Copia Visio Page in un'altra istanza di Page**
 Il metodo Copy della classe Page accetta un'istanza di pagina da clonare.
 
@@ -183,8 +183,8 @@ Il metodo Add, esposto dalla raccolta Pages, consente agli sviluppatori di aggiu
 ### **Inserisci un esempio di programmazione in una pagina vuota**
 La seguente parte di codice inserisce una pagina vuota nel disegno Visio:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -223,7 +223,7 @@ diagram.Pages.Add(newPage);
 diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Sposta la posizione della pagina nel disegno Visio**
 Aspose.Diagram for .NET API può spostare la posizione della pagina nel disegno Visio. Il metodo MoveTo, esposto dalla classe Page, aiuta gli sviluppatori a spostare la posizione della pagina.
 ### **Sposta Posizione pagina Esempio di programmazione**

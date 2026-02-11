@@ -13,8 +13,8 @@ Python via Java için Aspose.Diagram, şekil nesnelerinin Microsoft Office Visio
 
 Aşağıdaki kod parçası, şekil nesneleri özelliklerini eklemeye, kaldırmaya ve taşımaya yardımcı olur.
 #### **Programlama Örnekleri**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -47,7 +47,7 @@ diagram.save("ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Visio Sayfa Sayfasına Katman Ekleme**
 Python via Java için Aspose.Diagram, geliştiricilerin özel şekil kategorilerini düzenlemek için yeni katmanlar eklemesine ve ardından bu katmanlara programlı olarak şekiller atamasına olanak tanır.
 
@@ -55,8 +55,8 @@ Python via Java için Aspose.Diagram, geliştiricilerin özel şekil kategoriler
 
 Aşağıdaki kod parçası, Katman nesneleri eklemeye yardımcı olur.
 #### **Programlama Örnekleri**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -91,7 +91,7 @@ diagram.save("AddLayer_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -103,8 +103,8 @@ Python via Java için Aspose.Diagram, geliştiricilere mevcut Visio diagram katm
 
 Aşağıdaki kod parçası, Katmanların listesini almanıza yardımcı olur.
 #### **Programlama Örnekleri**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -127,4 +127,4 @@ for layer in page.getPageSheet().getLayers():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

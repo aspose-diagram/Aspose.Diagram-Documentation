@@ -29,8 +29,8 @@ Yukarıdaki adımların uygulanması aşağıdaki örneklerde gösterilmektedir.
 
 Aşağıdaki örnek sıfırdan yeni bir diagram oluşturur, Hello World yazar! ilk sayfada ve Visio dosyasını kaydeder.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -41,14 +41,14 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Kod Örneği: Mevcut Bir Dosyayı Açma**
 
 Aşağıdaki örnek, "Sample.vsdx" adlı mevcut bir Microsoft Visio şablon dosyasını açar, "Hello World!" girer. metni ilk sayfaya kaydeder ve diagram'i kaydeder.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadVisioDiagram.class);   
@@ -76,4 +76,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

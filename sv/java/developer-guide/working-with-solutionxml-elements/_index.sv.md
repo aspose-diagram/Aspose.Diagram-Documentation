@@ -9,8 +9,8 @@ url: /sv/java/working-with-solutionxml-elements/
 
  De[SolutionXML](https://reference.aspose.com/diagram/java/com.aspose.diagram/SolutionXML) klass representerar SolutionXML-elementet i Visio-ritningar. Add-metoden, exponerad av[SolutionXML](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/SolutionXML) klass, gör det möjligt att lägga till ett SolutionXML-element.
 ### **Lägg till SolutionXML Element Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSolutionXMLElement.class);  
@@ -30,14 +30,14 @@ diagram.getSolutionXMLs().add(solXML);
 diagram.save(dataDir + "AddSolutionXMLElement_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Läser XML-värden från SolutionXML-elementet**
 SolutionXML är välformaterad XML som ingår i ett SolutionXML-element som tillhandahåller ett standardiserat sätt att bevara lösningsdata. Användarna kan läsa XML-värden från SolutionXML-elementet med hjälp av[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
  SolutionXMLs-egenskapen, exponerad av[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) klass, stöder en samling Aspose.Diagram.SolutionXML-objekt. Den här egenskapen kan användas för att läsa XML-värdena från SolutionXML-elementet.
 ### **Läser SolutionXML Element Programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadSolutionXMLElement.class);   
@@ -54,4 +54,4 @@ for (SolutionXML solutionXML :(Iterable<SolutionXML>) diagram.getSolutionXMLs())
 }
 
 {{< /highlight >}}
-```
+

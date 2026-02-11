@@ -7,8 +7,8 @@ url: /sv/python-java/create-layout-and-auto-fit-shapes/
 ## **Skapar ett Diagram**
  Aspose.Diagram för Python via Java låter dig läsa och skapa Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation. Det första steget när du skapar nya dokument är att skapa en diagram. Sedan[lägg till former och kontakter](/diagram/sv/python-java/add-and-connect-visio-shapes/) för att bygga upp diagram. Använd standardkonstruktorn för klassen Diagram för att skapa en ny diagram.
 ### **Programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import os
 import asposediagram
@@ -26,7 +26,7 @@ diagram.save("CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Layoutformer i flödesschemastil**
  Med vissa typer av anslutna ritningar, såsom flödesscheman och nätverksdiagram, kan du använda**Layoutformer** funktion för att automatiskt placera former. Automatisk positionering är snabbare än att manuellt dra varje form till en ny plats.
 
@@ -52,8 +52,8 @@ Så här layoutar du former i flödesdiagramstil:
 1. Anropa klassens layoutmetod Diagram genom att skicka LayoutOptions.
 1. Ring Diagram-klassens Spara-metod för att skriva Visio-ritningen.
 ### **Exempel på programmering av flödesschema**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -98,7 +98,7 @@ diagram.save("sample_right_left.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Lägga ut former i kompakt trädstil**
 Den kompakta trädlayoutstilen försöker bygga en trädstruktur. Den använder samma indatafil som exemplet ovan och sparar till flera olika kompakta trädstilar.
 
@@ -116,8 +116,8 @@ Så här layoutar du former i kompakt trädstil:
 1. Anropa klassens layoutmetod Diagram genom att skicka LayoutOptions.
 1. Anropa Diagram-klassens Spara-metod för att skriva Visio-filen.
 #### **Kompakt trädstilsprogrammeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -162,7 +162,7 @@ diagram.save("sample_left_down.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Autopassa Visio Diagram**
 Aspose.Diagram API stöder automatisk anpassning av Visio-ritningen. Denna funktionsoperation hjälper till att föra yttre former innanför sidgränsen Visio.
 
@@ -177,8 +177,8 @@ Detta exempel fungerar enligt följande:
 ### **Auto-fit programmeringsexempel**
 Följande exempelkod visar hur du automatiskt anpassar former i Visio diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -201,7 +201,7 @@ diagram.save("AutoFitShapesInVisio_Out.vsdx", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Arbetar med VBA Project**
 ### **Ändra VBA-modulkod i Visio Diagram**
 Den här artikeln visar hur du ändrar en VBA-modulkod automatiskt med Aspose.Diagram för Python via Java.
@@ -210,8 +210,8 @@ Vi har lagt till klasserna VbaModule, VbaModuleCollection, VbaProject, VbaProjec
 ### **Modifiera VBA-modulkodprogrammeringsexempel**
 Kontrollera detta kodexempel:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -237,14 +237,14 @@ diagram.save("out.vssm", SaveFileFormat.VSSM)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Ta bort alla makron från Visio Diagram**
 Aspose.Diagram för Python via Java tillåter utvecklare att ta bort alla makron från Visio diagram.
 
 JavaProjectData-egenskapen, exponerad av klassen Diagram, låter dig ta bort alla makron från Visio-ritningen.
 ### **Ta bort alla makron programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -265,4 +265,4 @@ diagram.save("RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

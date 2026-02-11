@@ -20,8 +20,8 @@ Le code ci-dessous montre comment :
 #### **Créer un exemple de programmation d'organigramme de style CompactTree**
 Utilisez le code suivant pour créer un organigramme de style CompactTree en utilisant Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawCompactTreeChart.class);
@@ -81,7 +81,7 @@ diagram.getPages().get(pageNumber).layout(compactTreeOptions);
 diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Résultat**|
 |:- |
@@ -100,8 +100,8 @@ Le code ci-dessous montre comment :
 #### **Créer un exemple de programmation d'organigramme de style organigramme**
 Utilisez le code suivant pour créer un organigramme de style organigramme en utilisant Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawFlowChart.class);
@@ -161,7 +161,7 @@ diagram.getPages().get(pageNumber).layout(flowChartOptions);
 diagram.save(dataDir + "DrawFlowChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Résultat**|
 |:- |

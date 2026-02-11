@@ -11,8 +11,8 @@ Aspose.Diagram for .NET låter dig läsa och skapa Microsoft Visio diagram från
 ## **Skapa Visio Ritningsprogrammeringsexempel**
 Koden nedan visar för att skapa en ny Microsoft Visio ritning. Observera att den tomma ritningen innehåller en enda tom sida.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -24,7 +24,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

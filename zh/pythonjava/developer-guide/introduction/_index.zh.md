@@ -18,8 +18,8 @@ DocumentProperties 类公开的 TimeCreated、TimeEdited、TimePrinted 和 TimeS
 
 您还可以设置这些属性来更改文件中的信息。下面的代码示例显示了如何检索有关文件创建者以及文件创建、编辑、打印和保存时间的信息。
 #### **编程范例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -40,7 +40,7 @@ Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
 Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 
 {{< /highlight >}}
-```
+
 ## **编写 Visio 文档摘要信息**
 Microsoft Visio 允许您定义许多文档摘要信息属性，以帮助您和您的同事识别 diagram。摘要属性，例如标题、主题、作者和描述，使文件在搜索时更容易找到，并且在搜索时更容易识别浏览文件。
 ### **写作 Microsoft Visio 文档摘要信息**
@@ -63,8 +63,8 @@ DocumentProperties 类公开了一些属性来设置或获取 Microsoft Visio di
 1. 在Microsoft Visio打开输出VDX文件。
 1. 从文件菜单中选择信息。
 #### **编写 Visio 文档摘要信息编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -89,14 +89,14 @@ diagram.DocumentProps.Template = "Aspose Template";
 diagram.Save(dataDir + "SetVisioProperties_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **检测Visio文件格式**
 使用Aspose.Diagram for .NET API，开发者可以在打开Visio文件之前检测其格式，因为文件扩展名并不能保证文件内容是合适的。
 ### **检测格式编程示例**
 以下示例代码说明了如何检测文件格式（使用文件路径或流）并检查其扩展名。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -117,4 +117,4 @@ Console.WriteLine("The spreadsheet format is: " + info.FileFormatType);
 Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
 
 {{< /highlight >}}
-```
+

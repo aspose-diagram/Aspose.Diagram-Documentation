@@ -11,8 +11,8 @@ Page sınıfı tarafından sunulan addComment yöntemi, bir çizim sayfasına yo
 
  Microsoft Visio kullanıcıları, sayfanın sol üst köşesinde bir simge ile sunulan tüm sayfaya yorum ekler. Geliştiriciler şunları yapabilir:[Visio'de sayfa düzeyinde yorumlar ekleyin](). [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API ayrıca Visio'deki sayfa düzeyindeki yorumu değiştirmeyi destekler.
 #### **Yorum Programlama Örneği Ekle**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddPageLevelCommentInVisio.class);
@@ -26,14 +26,14 @@ diagram.getPages().getPage(0).addComment(7.205905511811023, 3.880708661417323, "
 diagram.save(dataDir + "AddPageLevelCommentInVisio_Out.vdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'de bir Sayfa Düzeyinde Yorum düzenleyin**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API, sayfanın sol üst köşesinde bir simge ile gösterilen Visio çizim sayfasındaki sayfa düzeyinde yorumu değiştirme desteğine sahiptir.
 ### **Yorumu Düzenle**
 Annotation sınıfı tarafından sunulan Comment özelliği, geliştiricilerin Visio çizim sayfasındaki yorumları düzenlemesine olanak tanır.
 #### **Yorum Programlama Örneği Düzenle**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditPageLevelCommentInVisio.class);
@@ -54,7 +54,7 @@ for (Annotation annotation : (Iterable<Annotation>) annotations)
 diagram.save(dataDir + "EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Çiziminde Şekil Düzeyinde Yorum Ekleme**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API, geliştiricilerin Visio çizimindeki şekle yorum eklemesine olanak tanır.
 ### **Yorum ekle**

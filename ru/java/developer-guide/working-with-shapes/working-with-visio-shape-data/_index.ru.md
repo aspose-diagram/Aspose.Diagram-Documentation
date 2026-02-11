@@ -23,8 +23,8 @@ Aspose.Diagram for Java позволяет вам управлять Microsoft V
 ### **Добавить пример программирования**
 Фрагмент кода ниже показывает, как выполнить каждый шаг.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -61,7 +61,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ System.out.println("Shape has been added.");
 ### **Получить пример программирования**
 Следующий фрагмент кода извлекает информацию о форме из Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -107,7 +107,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 ## **Копирование фигур из существующей Visio**
 Aspose.Diagram for Java API позволяет разработчикам копировать фигуры с исходной страницы Visio на новую страницу Visio diagram. Он также поддерживает копирование групповых фигур. В этой статье описывается, как скопировать все фигуры с исходной страницы diagram.
 
@@ -124,8 +124,8 @@ Aspose.Diagram for Java API позволяет разработчикам коп
 1. Установите его новый идентификатор и добавьте на новую страницу Visio.
 1. Сохраните новый Visio в локальном хранилище.
 ### **Копировать пример программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -156,7 +156,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -205,8 +205,8 @@ newShape.getXForm().getPinY().setValue(1);
 #### **Читать пример программирования**
 Фрагменты кода ниже считывают данные формы (настраиваемые свойства).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -229,12 +229,12 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ### **Чтение свойства формы по имени**
 Фрагмент кода ниже считывает свойство фигуры по имени (настраиваемое свойство).
 #### **Пример программирования чтения по имени**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -253,7 +253,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Используйте индексы соединения для соединения фигур**
 Aspose.Diagram for Java API уже позволяет разработчикам добавлять новые точки соединения на фигуру, и теперь разработчики могут соединять фигуры с помощью индексов соединения.
 ### **Используйте индексы соединения для соединения фигур**
@@ -363,8 +363,8 @@ Aspose.Diagram for Java позволяет разработчикам извле
 ### **Получить родительскую форму**
 Класс Shape предлагает свойство getParentShape для получения родительской формы.
 #### **Получить пример программирования родительской фигуры**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -379,4 +379,4 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+

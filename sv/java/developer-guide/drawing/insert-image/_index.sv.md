@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur man infogar en bild på en visio-
 ## **Infoga bild i Visio**
 Aspose.Diagram för JAVA API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -29,13 +29,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i SVG**
 Aspose.Diagram för JAVA API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som SVG-format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -53,13 +53,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i PNG**
 Aspose.Diagram för JAVA API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som PNG-format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -77,13 +77,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i PDF**
 Aspose.Diagram för JAVA API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som PDF-format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -101,13 +101,13 @@ page.addShape(pinX, pinY, width, hieght, fis);
 diagram.save(dataDir + "AddImageToPage_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **Infoga bild i HTML**
 Aspose.Diagram för JAVA API tillåter utvecklare att infoga en bildform på en sida. Kodexemplet nedan visar hur man infogar en bild i en Visio-ritning och sparar som HTML-format.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
@@ -126,4 +126,4 @@ HTMLSaveOptions options = new HTMLSaveOptions();
 diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
 
 {{< /highlight >}}
-```
+

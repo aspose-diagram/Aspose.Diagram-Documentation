@@ -26,8 +26,8 @@ Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um PinX- und PinY-Wert
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -55,7 +55,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **Einstellen von Höhe und Breite einer Form**
  Das[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Mit der Klasse können Sie die Größe der Form steuern, indem Sie die Höhe und Breite der Form mit den Methoden SetHeight und SetWidth angeben.
 
@@ -71,8 +71,8 @@ Der Vorgang zum Einstellen von Höhe und Breite ist:
 ### **Programmierungsbeispiel für Höhe und Breite einstellen**
 Das folgende Code-Snippet zeigt, wie Sie die Höhe und Breite der Form festlegen. Der Code sucht nach einem Shape-Namensrechteck mit der Shape-ID 1 und legt seine Höhe und Breite auf doppelt fest.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -90,4 +90,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

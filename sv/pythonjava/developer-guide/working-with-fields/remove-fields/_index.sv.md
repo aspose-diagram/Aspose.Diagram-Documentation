@@ -12,8 +12,8 @@ Fältobjektet representerar textfält i en textkörning. Fältegenskapen, expone
 
 ### **Programmeringsexempel**
 Följande kodbit tar bort ett fält i form.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

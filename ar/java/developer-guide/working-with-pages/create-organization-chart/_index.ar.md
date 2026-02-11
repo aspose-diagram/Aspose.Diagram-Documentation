@@ -20,8 +20,8 @@ description: يشرح هذا القسم كيفية إنشاء مخطط هيكل�
 #### **قم بإنشاء نموذج برمجة مخطط هيكلي على غرار CompactTree**
 استخدم التعليمات البرمجية التالية لإنشاء مخطط هيكلي على غرار CompactTree باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawCompactTreeChart.class);
@@ -81,7 +81,7 @@ diagram.getPages().get(pageNumber).layout(compactTreeOptions);
 diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**نتيجة**|
 |:- |
@@ -100,8 +100,8 @@ diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 #### **قم بإنشاء نموذج لبرمجة المخطط الهيكلي بنمط مخطط انسيابي**
 استخدم التعليمات البرمجية التالية لإنشاء مخطط هيكلي بنمط مخطط انسيابي باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawFlowChart.class);
@@ -161,7 +161,7 @@ diagram.getPages().get(pageNumber).layout(flowChartOptions);
 diagram.save(dataDir + "DrawFlowChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**نتيجة**|
 |:- |

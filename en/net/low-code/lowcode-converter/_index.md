@@ -17,8 +17,8 @@ The LowCode API is ideal for scenarios where quick implementation is more import
 
 If you want to convert a diagram to other formats, you can use the **DiagramConverter** class to perform the conversion without writing extensive boiler‑plate code. The following code demonstrates how to convert an VSDX file ([lowcode-converter.vsdx](lowcode-converter.vsdx)) to VSDX format using the LowCode API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -35,14 +35,14 @@ saveOptions.OutputFile = "output.vsdx";
 DiagramConverter.Process(loadOptions, saveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Convert a Diagram – DiagramConverter & LowCodeLoadOptions & LowCodeSaveOptions**
 
 If you want to convert a diagram to other formats, you can use the **DiagramConverter** class to perform the conversion without writing extensive boiler‑plate code. **LowCodeLoadOptions** and **LowCodeSaveOptions** let you fine‑tune the conversion behavior. The following code demonstrates how to convert an VSDX file ([lowcode-converter.vsdx](lowcode-converter.vsdx)) to VSDX format using **DiagramConverter**, **LowCodeLoadOptions**, and **LowCodeSaveOptions**.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -59,4 +59,4 @@ saveOptions.OutputFile = "output.vsdx";
 DiagramConverter.Process(loadOptions, saveOptions);
 
 {{< /highlight >}}
-```
+

@@ -14,8 +14,8 @@ Använd egenskapen Page.Background för att avgöra om en sida är en förgrunds
 ### **Hämta sidinformation Programmeringsexempel**
 Följande kodbit hämtar sidornas information från en diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -42,7 +42,7 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 }
 
 {{< /highlight >}}
-```
+
 ## **Hämta sidan Visio från en Diagram**
 Ibland behöver utvecklare få en Visio-ritning med siddetaljer. Aspose.Diagram har funktioner som hjälper dem att göra detta.
 
@@ -55,8 +55,8 @@ Detta exempel fungerar enligt följande:
 
 Följande exempel visar hur man får ett sidobjekt med id från Visio-ritning.
 #### **Hämta sidobjekt med ID-programmeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -70,7 +70,7 @@ int pageid = 2;
 Page page2 = diagram.Pages.GetPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Skaffa ett Visio sidobjekt efter namn**
 Detta exempel fungerar enligt följande:
 
@@ -79,8 +79,8 @@ Detta exempel fungerar enligt följande:
 #### **Hämta Sidobjekt efter namn Programmeringsexempel**
 Följande exempel visar hur man får ett sidobjekt efter namn från Visio-ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,7 +94,7 @@ string pageName = "Flow 2";
 Page page2 = diagram.Pages.GetPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Kopiera en Visio-sida till en annan Diagram**
 Aspose.Diagram for .NET API tillåter utvecklare att kopiera och lägga till dess innehåll från den ena Visio diagram till en annan. Det här hjälpämnet förklarar hur du utför denna uppgift.
 
@@ -113,8 +113,8 @@ Detta exempel fungerar enligt följande:
 ### **Kopiera ett Visio Sidprogrammeringsexempel**
 Kodexemplet nedan visar hur man kopierar ett Visio sidobjekt till en annan Visio ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -157,7 +157,7 @@ NewDigram.Pages.Remove(NewDigram.Pages[0]);
 NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kopiera Visio sida till en annan sidinstans**
 Kopieringsmetoden för klassen Page tar en sidinstans att klona.
 
@@ -183,8 +183,8 @@ Add-metoden, exponerad av Pages-samlingen, tillåter utvecklare att lägga till 
 ### **Infoga ett programmeringsexempel på tom sida**
 Följande kodbit infogar en tom sida i Visio-ritningen:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -223,7 +223,7 @@ diagram.Pages.Add(newPage);
 diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Flytta sidposition i Visio-ritningen**
 Aspose.Diagram for .NET API kan flytta sidpositionen i Visio-ritningen. MoveTo-metoden, exponerad av klassen Page, hjälper utvecklare att flytta sidpositionen.
 ### **Flytta Sidposition Programmeringsexempel**

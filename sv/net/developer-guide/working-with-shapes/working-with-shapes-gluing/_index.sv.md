@@ -18,8 +18,8 @@ Koden nedan visar hur man:
 #### **Få kopplingar limmade Programmeringsprov**
 Använd följande kod i din .NET-applikation för att hitta alla kontakter som är limmade på en form med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (long id in gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Limma Visio Former tillsammans med anslutningspunkt**
 Aspose.Diagram for .NET låter utvecklare limma ihop former genom anslutningspunkterna.
 ### **Limformer**
@@ -55,8 +55,8 @@ Koden nedan visar hur man:
 #### **Lim Visio Formprogrammeringsprov**
 Använd följande kod i din .NET-applikation för att limma former genom anslutningspunkterna:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -76,7 +76,7 @@ page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Cent
 diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Limma former inuti behållaren**
 Aspose.Diagram for .NET gör det möjligt för utvecklare att limma gruppformer inuti en behållare.
 ### **Limgruppsform**
@@ -92,8 +92,8 @@ Koden nedan visar hur man:
 #### **Limformer inuti programmeringsprov**
 Använd följande kod i din .NET-applikation för att limma gruppform inuti en behållare:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,4 +123,4 @@ page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.Save(dataDir + "GlueContainerShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

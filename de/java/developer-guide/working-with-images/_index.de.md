@@ -11,8 +11,8 @@ Das Seitenklassenobjekt repräsentiert den Zeichenbereich einer Vordergrundseite
 #### **Programmierbeispiel für Bilder extrahieren**
 Der folgende Codeabschnitt extrahiert alle Bilder von einer bestimmten Visio-Seite.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -32,7 +32,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Holen Sie sich Symbole in verschiedenen Visio-Formen**
 Aspose.Diagram for Java API ermöglicht es Entwicklern jetzt, Symbole verschiedener Visio Formen zu erhalten.
 ### **Abrufen des Shape-Symbols**
@@ -43,8 +43,8 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 1. Holen Sie sich das Master-Symbol.
 1. Symbol im lokalen Bereich speichern.
 #### **Holen Sie sich ein Icon-Programmierbeispiel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -62,7 +62,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **Ersetzen Sie eine Bildform von Visio Diagram**
 Aspose.Diagram for Java API ermöglicht Entwicklern den Zugriff und das Ersetzen verfügbarer Bildformen in Visio diagram.
 ### **Ersetzen einer Bildform**
@@ -73,8 +73,8 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 1. Filter anwenden, um Bildformen zu erhalten.
 1. Speichern Sie das Ergebnis Visio diagram im lokalen Bereich.
 #### **Ersetzen eines Bildform-Programmierbeispiels**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -100,7 +100,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bitmap-Bild als Visio-Form importieren**
 Aspose.Diagram for Java API ermöglicht es Entwicklern jetzt, ein Bitmap-Bild als Microsoft Visio Form zu importieren.
 ### **Insert a BMP Image in Visio**
@@ -111,8 +111,8 @@ Der Code in den folgenden Beispielen zeigt, wie Sie:
 1. Importieren Sie ein Bitmap-Bild als Visio-Form
 1. Speichern Sie die diagram.
 #### **Insert a BMP Image Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -132,4 +132,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

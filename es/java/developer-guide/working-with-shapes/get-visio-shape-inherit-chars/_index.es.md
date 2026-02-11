@@ -10,8 +10,8 @@ description: Esta sección explica cómo obtener el estilo de fuente de la forma
 #### **Ejemplo de programación de recuperación de datos de fuente heredados**
 El siguiente fragmento de código recupera los datos de fuente heredados de la forma. Por favor revise este código de muestra:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedChars.class) + "Shapes/";
@@ -45,7 +45,7 @@ for (int j = 0; j < chars.getCount(); j++)
 }
 
 {{< /highlight >}}
-```
+
 
 
 

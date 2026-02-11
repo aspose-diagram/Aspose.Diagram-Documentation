@@ -22,8 +22,8 @@ Il codice seguente mostra come:
 #### **Aggiungi punto di connessione alla forma Esempio di programmazione**
 Utilizzare il seguente codice nell'applicazione .NET per aggiungere la connessione a una forma utilizzando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -42,4 +42,4 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

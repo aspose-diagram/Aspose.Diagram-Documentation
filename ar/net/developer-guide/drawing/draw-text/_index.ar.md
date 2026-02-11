@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم نص في صفحة vis
 ## **ارسم النص في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل نص في صفحة. يوضح مثال الكود أدناه كيفية رسم نص في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -47,13 +47,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم النص في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم نص في الصفحة وحفظه بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم نص برسم Visio وحفظه بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم النص في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم نص في الصفحة وحفظه بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم نص برسم Visio وحفظه بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -137,13 +137,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم النص في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم نص في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم نص برسم Visio وحفظه بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -183,13 +183,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم النص في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم نص في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم نص برسم Visio وحفظه بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -227,4 +227,4 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

@@ -29,8 +29,8 @@ description: يوضح هذا القسم كيفية تعيين خيارات ال�
 |المناظر الطبيعيه|اتجاه أفقي|
 |لَوحَة|اتجاه عمودي|
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -45,14 +45,14 @@ Aspose.Diagram.Page page = diagram.Pages.GetPage(0);
 page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
 
 {{< /highlight >}}
-```
+
 
 ### **عامل التحجيم**
 
  من الممكن تصغير حجم الصفحة أو تكبيره عن طريق ضبط عامل التحجيم بامتداد[**سكيل إكس**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/scalex)منشأه.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -65,4 +65,4 @@ diagram.Pages[0].PageSheet.PrintProps.ScaleX.Value = 1;
 diagram.Pages[0].PageSheet.PrintProps.ScaleY.Value = 1;
 
 {{< /highlight >}}
-```
+

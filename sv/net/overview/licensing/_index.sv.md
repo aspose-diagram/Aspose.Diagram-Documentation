@@ -43,8 +43,8 @@ Följ dessa enkla regler:
 #### **Laddar en licens från fil**
 Det här kodavsnittet initierar en licens som lagras i en fil eller i en inbäddad resurs.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -53,12 +53,12 @@ License license = new License();
 license.SetLicense(dataDir + "Aspose.Diagram.lic");
 
 {{< /highlight >}}
-```
+
 #### **Ladda en licens från ett strömobjekt**
 Dessa kodavsnitt initierar licensen från stream.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // Set path of the license file, i.e. c:\temp\
 string dataDir = @"c:\temp\";
@@ -69,17 +69,17 @@ License license = new License();
 license.SetLicense(LicStream);
 
 {{< /highlight >}}
-```
+
 ## **Tillämpa mätlicens**
 Aspose.Diagram for .NET API tillåter utvecklare att tillämpa mätlicens. Det är en ny licensmekanism. Den nya licensmekanismen kommer att användas tillsammans med den befintliga licensmetoden. De kunder som vill bli fakturerade baserat på användningen av API-funktionerna kan använda den uppmätta licensen. För mer information, se[Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered)sektion.
 
 En ny klass[Uppmätt](https://reference.aspose.com/diagram/net/aspose.diagram/metered)har lagts till för att tillämpa mätt nyckel. Detta kodexempel visar hur man ställer in mätta offentliga och privata nycklar:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // Initialize a Metered license class object
 Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
 // apply public and private keys
 metered.SetMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

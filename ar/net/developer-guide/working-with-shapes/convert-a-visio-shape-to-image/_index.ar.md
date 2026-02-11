@@ -19,8 +19,8 @@ description: يشرح هذا القسم كيفية تحويل شكل visio إل�
 #### **عينة برمجة من شكل إلى صورة**
 استخدم الكود التالي في تطبيق .net لتحويل شكل visio إلى صورة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,4 +39,4 @@ Aspose.Diagram.Saving.ImageSaveOptions o = new Aspose.Diagram.Saving.ImageSaveOp
 shape.ToImage("out.png", o);
 
 {{< /highlight >}}
-```
+

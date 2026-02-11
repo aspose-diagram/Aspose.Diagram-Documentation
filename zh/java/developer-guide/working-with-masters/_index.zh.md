@@ -17,8 +17,8 @@ url: /zh/java/working-with-masters/
 ### **检索主信息编程示例**
 以下代码段从 diagram 中检索主人信息。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **从形状模板添加母版**
 模板是与特定 Microsoft Office Visio 模板相关联的形状集合。使用 Aspose.Diagram，可以将任何形状母版添加到模板中的绘图中。
 ### **添加大师**
@@ -46,8 +46,8 @@ Master 对象表示 diagram 中 Shape 对象的母版。Diagram 类公开的 Add
 - 模板文件流和主名称。
 - 从源 diagram 添加 master 到 diagram
 #### **添加主程序示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **从头开始创建大师**
 Aspose.Diagram API 允许在没有任何模板、绘图或模板的情况下从头开始创建母版。开发者可以自定义创建Master。 Diagram 类公开的 addMaster 方法允许添加主控。
 #### **创建主程序示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **从Visio文件中获取大师**
 有时，开发人员需要获得 Visio 图纸的主人的详细信息。 Aspose.Diagram API 支持此功能。
 
@@ -282,8 +282,8 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 #### **按 ID 编程示例的主对象**
 以下示例显示如何通过 ID 从 Visio 绘图中获取母版。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **按名称获取主对象**
 这个例子的工作原理如下：
 
@@ -309,8 +309,8 @@ System.out.println("Master Name : " + master.getUniqueID());
 #### **按名称编程示例的主对象**
 以下示例显示如何从 Visio 绘图中按名称获取主对象。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **检查 Visio 绘图中是否存在大师**
 Aspose.Diagram API 支持检查 Visio 绘图中是否存在母版。使用 MasterCollection 属性，开发人员可以通过名称或 ID 检查母版是否存在。
 
@@ -340,8 +340,8 @@ Aspose.Diagram API 支持检查 Visio 绘图中是否存在母版。使用 Maste
 #### **Master Presence by ID 编程示例**
 以下示例显示如何在 Visio 图形中按 ID 检查主控图是否存在。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **按名称检查主状态**
 这个例子的工作原理如下：
 
@@ -365,8 +365,8 @@ System.out.println("Master Presence : " + isPresent);
 #### **Master Presence by Name 编程示例**
 以下示例显示如何按名称检查 Visio 图形中的主控存在。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

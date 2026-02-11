@@ -18,8 +18,8 @@ Microsoft Visio يحفظ معلومات حول الإجراءات التي تم 
 
 يمكنك أيضًا تعيين هذه الخصائص لتغيير المعلومات الموجودة في الملف. توضح نماذج التعليمات البرمجية أدناه كيفية استرداد المعلومات حول ما تم إنشاء الملف وكذلك وقت إنشائه وتحريره وطباعته وحفظه.
 #### **عينة البرمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -40,7 +40,7 @@ Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
 Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 
 {{< /highlight >}}
-```
+
 ## **كتابة Visio معلومات ملخص المستند**
 يتيح لك Microsoft Visio تحديد عدد من خصائص معلومات ملخص المستند لمساعدتك وزملاؤك في تحديد diagram. خصائص الملخص ، على سبيل المثال ، العنوان والموضوع والمؤلف والوصف ، مما يسهل العثور على الملف عند البحث ويسهل التعرف عليه عند تصفح الملفات.
 ### **كتابة Microsoft Visio معلومات ملخص المستند**
@@ -63,8 +63,8 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 1. افتح ملف الإخراج VDX في Microsoft Visio.
 1. اختيار المعلومات من القائمة ملف.
 #### **كتابة Visio نموذج برمجة معلومات ملخص الوثيقة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -89,14 +89,14 @@ diagram.DocumentProps.Template = "Aspose Template";
 diagram.Save(dataDir + "SetVisioProperties_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **كشف تنسيق ملف Visio**
 باستخدام Aspose.Diagram for .NET API ، يمكن للمطورين اكتشاف تنسيق الملف Visio قبل فتحه لأن امتداد الملف لا يضمن أن محتوى الملف مناسب.
 ### **كشف نموذج برمجة التنسيق**
 يوضح نموذج التعليمات البرمجية التالي كيفية اكتشاف تنسيق ملف (باستخدام مسار الملف أو دفقه) والتحقق من امتداده.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -117,4 +117,4 @@ Console.WriteLine("The spreadsheet format is: " + info.FileFormatType);
 Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
 
 {{< /highlight >}}
-```
+

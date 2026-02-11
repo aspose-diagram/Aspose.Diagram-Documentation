@@ -18,8 +18,8 @@ The code below shows how to:
 ### **Shape to Pdf**
 Use the following code in your .net application to convert a visio shape to pdf.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ Shape shape = page.Shapes[0];
 shape.ToPdf("out.pdf");
 
 {{< /highlight >}}
-```
+
 

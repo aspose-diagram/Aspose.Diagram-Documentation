@@ -18,8 +18,8 @@ url: /ar/java/working-with-headers-and-footers/
 
 يساعد الجزء التالي من التعليمات البرمجية في إدارة خصائص الرؤوس والتذييلات.
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ManageHeadersandFooters.class);
@@ -55,4 +55,4 @@ diagram.getHeaderFooter().getHeaderFooterFont().setUnderline(BOOL.FALSE);
 diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

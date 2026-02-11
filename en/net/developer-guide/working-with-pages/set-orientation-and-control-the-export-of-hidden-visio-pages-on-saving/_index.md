@@ -20,8 +20,8 @@ This example work as follows:
 ### **Set Orientation Programming Sample**
 The code example below shows how to set the orientation of the Visio page.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -37,7 +37,7 @@ page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue
 diagram.Save(dataDir + "SetPageOrientation_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Control the Export of Hidden Visio Pages on Saving**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 ### **Hide a Page in the Visio Diagram and Set Export Option**
@@ -45,8 +45,8 @@ Aspose.Diagram for .NET API has the [Page](http://www.aspose.com/api/net/diagram
 #### **Set the Export Option for PDF**
 The code below shows how to set save options before saving a diagram to PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -67,12 +67,12 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToPDF_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for HTML**
 The code below shows how to set save options before saving a diagram to HTML format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -95,12 +95,12 @@ options.IsExportComments = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToHTML_out.html", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for Image**
 The code below shows how to set save options before saving a diagram to image format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -123,12 +123,12 @@ options.IsExportComments = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToImage_out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for SVG**
 The code below shows how to set save options before saving a diagram to SVG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -158,12 +158,12 @@ options.ExportElementAsRectTag = true;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToSVG_out.svg", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for XPS**
 The code below shows how to set save options before saving a diagram to XPS format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -184,4 +184,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToXPS_out.xps", options);
 
 {{< /highlight >}}
-```
+

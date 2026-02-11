@@ -15,8 +15,8 @@ Aspose.Diagram for Java consente di configurare oggetti forma con livelli in Mic
 
 Il seguente pezzo di codice aiuta ad aggiungere, rimuovere e spostare le proprietà degli oggetti forma.
 #### **Esempi di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Aggiungi un livello nel foglio di pagina Visio**
 Aspose.Diagram for Java consente agli sviluppatori di aggiungere nuovi livelli per organizzare categorie personalizzate di forme e quindi assegnare forme a tali livelli in modo programmatico.
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java consente agli sviluppatori di aggiungere nuovi livelli p
 
 Il seguente pezzo di codice aiuta ad aggiungere oggetti Layer.
 #### **Esempi di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java offre agli sviluppatori l'accesso ai livelli esistenti d
 
 Il seguente pezzo di codice aiuta a ottenere l'elenco dei livelli.
 #### **Esempi di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

@@ -12,8 +12,8 @@ Aspose.Diagram API, kullanıcıların SQL Server veri bağlantısını düzenlem
 #### **Programlama Örneği**
 Aşağıdaki kod parçası, belirli bir veri bağlantısını düzenler ve ayrıca Visio diagram'deki mevcut tüm kayıt kümelerini yeniler.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ExternalDataSources();
@@ -30,4 +30,4 @@ diagram.Refresh();
 diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

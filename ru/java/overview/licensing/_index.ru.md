@@ -83,12 +83,12 @@ Aspose.Diagram for Java API позволяет разработчикам при
 
 Новый класс[Измеренный](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) был добавлен для применения измеренного ключа. В этом примере кода показано, как установить измеренные открытые и закрытые ключи:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // Initialize a Metered license class object
 Metered metered = new Metered();
 // apply public and private keys
 metered.setMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

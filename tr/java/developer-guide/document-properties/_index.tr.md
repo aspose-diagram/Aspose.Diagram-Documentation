@@ -62,8 +62,8 @@ Lütfen Aspose.Diagram for Java'e bu bilgileri çıktı Belgelerinden değiştir
 - Yerleşik belge özelliklerine erişmek için şunu kullanın:[**diagram.DocumentProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/documentproperties).
 -  Özel belge özelliklerine erişmek için şunu kullanın:[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/CustomPropCollection).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -77,7 +77,7 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 ### **Özel Belge Özellikleri Ekleme veya Kaldırma**
 
@@ -87,8 +87,8 @@ Bu konunun başında daha önce açıkladığımız gibi, geliştiriciler yerle�
 
  Aspose.Diagram API'ler şu bilgileri açığa çıkardı:[**Ekle**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#add(com.aspose.diagram.CustomProp) ) yöntemi[**Özel Prop Koleksiyonu**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection)koleksiyona özel özellikler eklemek için sınıf.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -102,14 +102,14 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 
 ### **Özel Özellikleri Kaldırma**
 
  Aspose.Diagram'i kullanarak özel özellikleri kaldırmak için[**CustomPropCollection.Kaldır**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#remove(com.aspose.diagram.CustomProp)) yöntemi ve kaldırılacak belge özelliğinin adını iletin.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -123,4 +123,4 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+

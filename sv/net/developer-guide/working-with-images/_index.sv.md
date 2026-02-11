@@ -12,8 +12,8 @@ Sidklassobjektet representerar ritytan på en förgrundssida eller en bakgrundss
 #### **Extrahera bilder Programmeringsexempel**
 Följande kodbit extraherar alla bilder från en viss Visio-sida.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Få ikoner av olika Visio former**
 Aspose.Diagram for .NET API tillåter nu utvecklare att få ikoner av olika Visio former.
 ### **Få formikonen**
@@ -50,8 +50,8 @@ Koden i exemplen nedan visar hur man:
 1. Få master ikon.
 1. Spara ikonen till det lokala utrymmet.
 #### **Få ikoner programmering exempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -70,7 +70,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream(master.Icon))
 }
 
 {{< /highlight >}}
-```
+
 ## **Byt ut en bildform på Visio Diagram**
 Aspose.Diagram for .NET API låter utvecklare komma åt och ersätta tillgängliga bildformer i Visio diagram.
 ### **Byta ut en bildform**
@@ -81,8 +81,8 @@ Koden i exemplen nedan visar hur man:
 1. Använd filter för att få bildformer.
 1. Spara resulterande Visio diagram till det lokala utrymmet.
 #### **Byt ut ett bildformsprogrammeringsprov**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ foreach (Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "ReplaceShapePicture_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Importera bitmappsbild som en Visio-form**
 Aspose.Diagram for .NET API tillåter nu utvecklare att importera en bitmappsbild som en Microsoft Visio form.
 ### **Infoga en BMP-bild i Visio**
@@ -121,8 +121,8 @@ Koden i exemplen nedan visar hur man:
 1. Importera en bitmappsbild som en Visio-form
 1. Spara diagram.
 #### **Infoga ett BMP bildprogrammeringsexempel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -142,7 +142,7 @@ page0.AddShape(pinX, pinY, width, hieght, new FileStream(dataDir + "image.bmp", 
 diagram.Save(dataDir + "InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Konvertera specificerat område på Visio-sidan till en bild**
 Med Aspose.Diagram for .NET API kan utvecklare definiera ett område med XY-koordinater, bredd och höjd och sedan konvertera detta område till ett bildformat som stöds.
 ### **Konvertera Visio rityta till en bild**

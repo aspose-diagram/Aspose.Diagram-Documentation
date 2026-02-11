@@ -10,8 +10,8 @@ description: يشرح هذا القسم كيفية إضافة أو الحصول 
 ### **تكوين نموذج برمجة كائنات الشكل**
 يساعد الجزء التالي من التعليمات البرمجية على إضافة خصائص كائن الشكل وإزالتها ونقلها.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **أضف طبقة جديدة في Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) يسمح للمطورين بإضافة طبقات جديدة لتنظيم فئات مخصصة من الأشكال ، ثم تعيين الأشكال لتلك الطبقات برمجيًا. ال[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) يقدم class طريقة Add التي تسمح بإضافة ملف[طبقة](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) في الرسم Visio. يمكن للمطورين تعيين خصائص الطبقة عن طريق تهيئة كائن الفئة الخاص بها.
 ### **إضافة عينة برمجة طبقة**
 يساعد الجزء التالي من التعليمات البرمجية على إضافة كائنات الطبقة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استرجع كل الطبقات من Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) يتيح للمطورين الوصول إلى الطبقات الموجودة في Visio diagram. The[ورقة الصفحة](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) ممتلكات[صفحة](http://www.aspose.com/api/net/diagram/aspose.diagram/page) تسمح الفئة باسترداد قائمة الطبقات المتاحة من Visio diagram باستخدام[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) صف دراسي.
 ### **استرجاع عينة برمجة الطبقات**
 يساعد الجزء التالي من التعليمات البرمجية في الحصول على قائمة الطبقات.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

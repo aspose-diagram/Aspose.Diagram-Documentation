@@ -13,8 +13,8 @@ The code below shows how to:
 ## **Set shape's Jump style Programming Sample**
 Use the following code in your .NET application to set shape's jump style using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,4 +32,3 @@ shape.SetConnectorJumpValue(ConLineJumpCodeValue.Always,ConLineJumpStyleValue.Ar
 newDiagram.Save(dataDir + "out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

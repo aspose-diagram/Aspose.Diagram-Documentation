@@ -9,8 +9,8 @@ description: كيفية إضافة العلامة المائية إلى visio ب
 ## **إنشاء Diagram**
  يتيح لك Aspose.Diagram for .NET قراءة وإنشاء Microsoft Visio الرسوم التخطيطية من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)لإنشاء diagram. استخدم المُنشئ الافتراضي لـ[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) فئة لإنشاء diagram جديد.
 ### **عينة البرمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -26,7 +26,7 @@ dataDir = dataDir + "CreateDiagram_out.vsdx";
 diagram.Save(dataDir, SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 هذا المثال يعمل على النحو التالي:
 
@@ -36,8 +36,8 @@ diagram.Save(dataDir, SaveFileFormat.VSDX);
 ### **أضف عينة برمجة العلامة المائية**
 يوضح رمز المثال التالي كيفية إضافة علامة مائية في Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 static string text = "";
 public static void Run()
@@ -62,4 +62,4 @@ public static void Run()
 
 
 {{< /highlight >}}
-```
+

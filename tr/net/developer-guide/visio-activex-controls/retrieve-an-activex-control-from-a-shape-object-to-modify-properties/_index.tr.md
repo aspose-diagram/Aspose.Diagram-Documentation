@@ -13,8 +13,8 @@ Geliştiriciler, Aspose.Diagram API'i kullanarak, mevcut tüm özelliklerini aya
 ## **Bir ActiveX Kontrol Programlama Örneği Alın**
 [Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, geliştiricilerin bir Visio şekil nesnesinden bir ActiveX denetimi almasına izin veren ActiveXControl özelliğini sunar. Geliştiriciler, bir ActiveX denetimini uygun ActiveX denetim sınıfında yayınlayabilir ve ardından tüm kullanılabilir özelliklerini ayarlayabilir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -14,8 +14,8 @@ Använd egenskapen `Page.Background` för att avgöra om en sida är en förgrun
 ### **Hämta sidinformation Programmeringsexempel**
 Följande kodbit hämtar sidornas information från en diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -42,7 +42,7 @@ for page in diagram.getPages():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Hämta sidan Visio från en Diagram**
 Ibland behöver utvecklare få en Visio-ritning med siddetaljer. Aspose.Diagram för Python via Java har funktioner som hjälper dem att göra detta.
@@ -58,8 +58,8 @@ Detta exempel fungerar enligt följande:
 Följande exempel visar hur man får ett sidobjekt med id från Visio-ritning.
 
 #### **Hämta sidobjekt med ID-programmeringsexempel**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -79,7 +79,7 @@ page2 = diagram.getPages().getPage(page_id)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Skaffa ett Visio sidobjekt efter namn**
 Detta exempel fungerar enligt följande:
@@ -90,8 +90,8 @@ Detta exempel fungerar enligt följande:
 #### **Hämta Sidobjekt efter namn Programmeringsexempel**
 Följande exempel visar hur man får ett sidobjekt efter namn från Visio-ritning.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -111,7 +111,7 @@ page2 = diagram.getPages().getPage(pageName)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Kopiera en Visio-sida till en annan Diagram**
 Aspose.Diagram för Python via Java API tillåter utvecklare att kopiera och lägga till dess innehåll från den ena Visio diagram till en annan. Det här hjälpämnet förklarar hur du utför denna uppgift.
@@ -132,8 +132,8 @@ Detta exempel fungerar enligt följande:
 ### **Kopiera ett Visio Sidprogrammeringsexempel**
 Kodexemplet nedan visar hur man kopierar ett Visio sidobjekt till en annan Visio ritning.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -183,7 +183,7 @@ newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Kopiera Visio sida till en annan sidinstans**
 Metoden `copy` i klassen `Page` tar en sidinstans att klona.
@@ -209,8 +209,8 @@ Metoden `add`, exponerad av Pages-samlingen, tillåter utvecklare att lägga til
 ### **Infoga ett programmeringsexempel på tom sida**
 Följande kodbit infogar en tom sida i Visio-ritningen:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -250,7 +250,7 @@ diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ## **Flytta sidposition i Visio-ritningen**
 Aspose.Diagram för Python via Java API kan flytta sidpositionen i Visio-ritningen. Metoden `moveTo`, exponerad av klassen `Page`, hjälper utvecklare att flytta sidpositionen.

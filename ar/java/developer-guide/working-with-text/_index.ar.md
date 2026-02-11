@@ -9,8 +9,8 @@ url: /ar/java/working-with-text/
 ### **أدخل نموذجًا لبرمجة شكل النص**
 يضيف جزء الكود التالي شكل نص في Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(InsertTextShape.class) + "Text/";
@@ -25,7 +25,7 @@ diagram.getPages().getPage(0).addText(PinX, PinY, Width, Height, text);
 diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **تحديث Visio شكل النص**
  إلى جانب[إنشاء الرسوم البيانية](/diagram/ar/java/load-or-create-a-visio-drawing/)، Aspose.Diagram for Java يتيح لك العمل مع الأشكال بطرق مختلفة. تتناول هذه المقالة كيفية الوصول إلى النص في الأشكال وتحديثه.
 
@@ -48,8 +48,8 @@ diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 ### **تحديث نموذج برمجة نص الشكل**
 يقوم الجزء التالي من التعليمات البرمجية بتحديث نص الشكل. يتم تحديد الأشكال من خلال معرفاتهم. تبحث مقاطع التعليمات البرمجية أدناه عن شكل يسمى العملية ومع المعرف 1 وتغيير نصه.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UpdateShapeText.class); 
@@ -70,7 +70,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 diagram.save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتطبيق ورقة أنماط مدمجة أو مخصصة على شكل Visio**
 تخزن أوراق الأنماط Microsoft Visio معلومات التنسيق التي يمكن تطبيقها على الأشكال للحصول على مظهر وأسلوب عرض متسقين. Aspose.Diagram for Java يسمح لك بتطبيق أوراق الأنماط من داخل التطبيق.
 
@@ -102,8 +102,8 @@ diagram.save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
 1. تطبيق الأنماط.
 1. احفظ diagram.
 #### **تطبيق نموذج برمجة أنماط مخصصة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyCustomStyleSheets.class);
@@ -149,7 +149,7 @@ if (sourceShape != null && customStyleSheet != null)
 diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتطبيق نمط مختلف على كل قيمة نصية لشكل**
  إلى جانب[إنشاء الرسوم البيانية](/diagram/ar/java/load-or-create-a-visio-drawing/)، Aspose.Diagram for Java يتيح لك العمل مع الأشكال بطرق مختلفة. تساعد هذه المقالة في إضافة قيم نصية متعددة إلى شكل وتطبيق نمط مختلف على كل قيمة نصية.
 
@@ -169,8 +169,8 @@ diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 #### **إضافة نموذج برمجة نص وأنماط**
 تضيف قطعة الكود التالية نصًا للشكل وأنماطًا مختلفة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyFontOnText.class);   
@@ -232,7 +232,7 @@ shape.getChars().get(3).getStyle().setValue(StyleValue.BOLD | StyleValue.ITALIC 
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **البحث عن نص الشكل واستبداله**
  ال[رسالة قصيرة](https://reference.aspose.com/diagram/java/com.aspose.diagram/txt) يسمح لك Class بتعديل نص الشكل. طريقة الاستبدال ، المكشوفة بواسطة[رسالة قصيرة](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) فئة ، دعم تغيير نص الشكل.
 تبحث أمثلة التعليمات البرمجية في هذه المقالة عن نص الشكل على الصفحة واستبداله.
@@ -255,8 +255,8 @@ diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 ### **بحث واستبدال عينة برمجة نصية**
 توضح مقتطفات التعليمات البرمجية أدناه كيفية تعديل نص الشكل. تتكرر الشفرة عبر أشكال الصفحة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FindAndReplaceShapeText.class); 
@@ -311,7 +311,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استخراج نص عادي من Visio Diagram صفحة**
 Aspose.Diagram API يسمح للمطورين باستخراج نص عادي من صفحة Visio diagram. يمكنهم أيضًا تكرار الصفحات Visio diagram لتغطية النص Visio diagram بالكامل.
 
@@ -319,8 +319,8 @@ Aspose.Diagram API يسمح للمطورين باستخراج نص عادي من
 ### **استخراج عينة برمجة نص عادي**
 يتكرر جزء الكود التالي من خلال أشكال الصفحة Visio ويقوم بتصفية النص العادي بدون معلومات التنسيق.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 static String text = "";
 public static void main(String[] args) throws Exception
@@ -361,4 +361,4 @@ public static void main(String[] args) throws Exception
    }
 
 {{< /highlight >}}
-```
+

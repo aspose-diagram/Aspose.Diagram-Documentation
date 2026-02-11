@@ -20,8 +20,8 @@ Microsoft Office Visio'de kullanıcı herhangi bir şekli korumak için aşağı
 ### **Şekil Koruma Programlama Örneğinin Kaldırılması**
 Aspose.Diagram for .NET kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğinin kilidini açmak) için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -59,4 +59,4 @@ shape.Protection.LockWidth.Value = BOOL.False;
 diagram.Save(dataDir + "RemoveShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ description: How to create, insert fields using Java Diagram API .
 ## **Insert field**
 Aspose.Diagram for Java lets you create and insert [field](https://reference.aspose.com/diagram/java/com.aspose.diagram/field) to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 ### **Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -24,5 +24,5 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 

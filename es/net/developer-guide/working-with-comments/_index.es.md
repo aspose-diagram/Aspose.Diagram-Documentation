@@ -10,8 +10,8 @@ description: Esta página describe cómo agregar o editar comentarios con la bib
 ### **Agregar comentario**
  El método AddComment, expuesto por el[Página](http://www.aspose.com/api/net/diagram/aspose.diagram/page) clase, permite a los desarrolladores agregar comentarios a una página de dibujo. Toma las coordenadas X e Y junto con una cadena de comentarios.
 #### **Añadir comentario Ejemplo de programación**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioComments();
@@ -26,14 +26,14 @@ diagram.Pages[0].AddComment(7.205905511811023, 3.880708661417323, "test@");
 diagram.Save(dataDir + "AddComment_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Edite un comentario de nivel de página en el Visio Diagram**
  Microsoft Visio los usuarios agregan comentarios a toda la página que se presentan mediante un icono en la esquina superior izquierda de la página. Los desarrolladores pueden[añadir comentarios a nivel de página en el Visio](/pages/createpage.action?spaceKey=diagramnet&title=Add+a+Page-Level+Comment+in+the+Visio&linkCreation=true&fromPageId=18350768). [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API también admite modificar el comentario de nivel de página en Visio.
 ### **Editar comentario**
  La propiedad Comentario, expuesta por el[Anotación](http://www.aspose.com/api/net/diagram/aspose.diagram/annotation) clase, permite a los desarrolladores editar comentarios en la página de dibujo Visio.
 #### **Editar comentario Ejemplo de programación**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioComments();
@@ -55,7 +55,7 @@ foreach (Annotation annotation in annotations)
 diagram.Save(dataDir + "EditComment_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Agregue un comentario de nivel de forma en el dibujo Visio**
 [Aspose.Diagram for .NET](https://www.aspose.com/products/diagram/net)API permite a los desarrolladores agregar comentarios a la forma en un dibujo Visio.
 ### **Agregar comentario**

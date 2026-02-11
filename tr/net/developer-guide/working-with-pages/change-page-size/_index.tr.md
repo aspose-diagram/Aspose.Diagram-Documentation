@@ -14,8 +14,8 @@ Sayfa boyutunu değiştirmek için PageProps özelliğini kullanın.
 ### **Sayfa Boyutunu Ayarla Programlama Örneği**
 Aşağıdaki kod parçası, sayfa boyutunu diagram'den değiştirir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -33,4 +33,4 @@ page.PageSheet.PageProps.PageWidth.Value = 11;
 diagram.Save(dataDir + "SetPageSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ url: /it/java/working-with-solutionxml-elements/
 
  Il[SoluzioneXML](https://reference.aspose.com/diagram/java/com.aspose.diagram/SolutionXML) class rappresenta l'elemento SolutionXML nei disegni Visio. Il metodo Add, esposto da[SoluzioneXML](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/SolutionXML) class, consente di aggiungere un elemento SolutionXML.
 ### **Aggiungere un esempio di programmazione dell'elemento SolutionXML**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSolutionXMLElement.class);  
@@ -30,14 +30,14 @@ diagram.getSolutionXMLs().add(solXML);
 diagram.save(dataDir + "AddSolutionXMLElement_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Lettura di valori XML dall'elemento SolutionXML**
 SolutionXML è un codice XML ben formato contenuto all'interno di un elemento SolutionXML che fornisce un mezzo standardizzato per la persistenza dei dati della soluzione. Gli utenti possono leggere i valori XML dall'elemento SolutionXML utilizzando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
  La proprietà SolutionXMLs, esposta da[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/Diagram) class, supporta una raccolta di oggetti Aspose.Diagram.SolutionXML. Questa proprietà può essere utilizzata per leggere i valori XML dall'elemento SolutionXML.
 ### **Lettura dell'esempio di programmazione dell'elemento SolutionXML**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadSolutionXMLElement.class);   
@@ -54,4 +54,4 @@ for (SolutionXML solutionXML :(Iterable<SolutionXML>) diagram.getSolutionXMLs())
 }
 
 {{< /highlight >}}
-```
+

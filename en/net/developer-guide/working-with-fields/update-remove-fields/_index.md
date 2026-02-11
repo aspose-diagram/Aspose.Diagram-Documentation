@@ -12,8 +12,8 @@ Aspose.Diagram for .NET lets you update and remove [field](https://reference.asp
 The [Field](https://reference.aspose.com/diagram/net/aspose.diagram/field) object represents text field in a [text](https://reference.aspose.com/diagram/net/aspose.diagram/text) run. The field property, exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class supports a collection of Aspose.Diagram.Field objects.
 ### **Programming Sample**
 The following piece of code update field in shape.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -42,12 +42,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **Remove Field**
 The following piece of code remove field in shape.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -69,4 +69,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

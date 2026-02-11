@@ -18,8 +18,8 @@ The code below shows how to:
 ### **Shape to Svg**
 Use the following code in your .net application to convert a visio shape to svg.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -38,5 +38,5 @@ SVGSaveOptions svgOptions = new SVGSaveOptions();
 shape.ToSvg("out.svg",svgOptions);
 
 {{< /highlight >}}
-```
+
 

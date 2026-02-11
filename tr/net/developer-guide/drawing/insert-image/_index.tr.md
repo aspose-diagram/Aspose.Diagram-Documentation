@@ -10,8 +10,8 @@ description: Bu bölüm, visio numaralı sayfaya Aspose.Diagram ile nasıl resim
 ## **Visio'e Resim Ekle**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -27,13 +27,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **SVG'e Resim Ekle**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.svg", SaveFileFormat.SVG);
 
 {{< /highlight >}}
-```
+
 
 ## **PNG'e Resim Ekle**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 ## **PDF'e Resim Ekle**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 ## **HTML'e Resim Ekle**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfaya resim şekli eklemesine olanak tanır. Aşağıdaki kod örneği, bir Visio çizimine nasıl resim ekleneceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -115,4 +115,4 @@ using (FileStream fs = new FileStream("image.png", FileMode.Open))
 diagram.Save(dataDir + "AddImageToPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

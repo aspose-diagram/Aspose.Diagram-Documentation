@@ -8,8 +8,8 @@ Aspose.Diagram for Java API يسمح للمطورين بتنسيق صفحات م
 ## **تطبيق أوراق الأنماط على Visio صفحة**
 Aspose.Diagram for Java API يتيح لك تنسيق صفحة Visio باستخدام Stylesheets. يمكنك تعريف ورقة أنماط وإضافتها إلى مجموعة ورقة أنماط الوثيقة Visio. تتيح لك طريقة ApplyStyle لفئة الصفحة تطبيق ورقة الأنماط المحددة على الصفحة كما هو موضح في نموذج التعليمات البرمجية التالي.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
@@ -48,4 +48,4 @@ for (Shape shape: (Iterable<Shape>)vsdDiagram.getPages().get(0).getShapes())
 vsdDiagram.getPages().get(0).applyStyle(st.getID(), st.getID(), st.getID());
 
 {{< /highlight >}}
-```
+

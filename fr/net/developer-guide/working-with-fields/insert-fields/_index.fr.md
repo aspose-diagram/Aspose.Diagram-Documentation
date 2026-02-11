@@ -8,8 +8,8 @@ description: Comment créer, insérer des champs en utilisant C# Diagram API .
 ## **Insérer un champ**
  Aspose.Diagram for .NET vous permet de créer et d'insérer[champ](https://reference.aspose.com/diagram/net/aspose.diagram/field) aux schémas Microsoft Visio à partir de vos propres applications, sans Microsoft Office Automation.
 ### **Exemple de programmation**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_InsertField();
@@ -31,4 +31,4 @@ shape.Fields.Add(fld);
 diagram.Save(dataDir + "InsertField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

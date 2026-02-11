@@ -41,4 +41,15 @@ Below is an image of the output PDF file.
 ### **Export Microsoft Visio Drawing to PDF**
 The code samples show how to export Microsoft Visio Drawing to PDF using Python.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToPdf.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the pdf format
+diagram.save("Visio_out.pdf", SaveFileFormat.PDF)
+{{< /highlight >}}
+

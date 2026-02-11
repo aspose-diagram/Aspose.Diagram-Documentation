@@ -12,8 +12,8 @@ L'oggetto Field rappresenta il campo di testo in un'esecuzione di testo. La prop
 
 ### **Esempio di programmazione**
 Il seguente pezzo di codice aggiorna un campo in forma.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

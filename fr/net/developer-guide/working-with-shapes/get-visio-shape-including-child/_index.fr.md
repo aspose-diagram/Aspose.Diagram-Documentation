@@ -12,8 +12,8 @@ Chaque forme dans un diagram a un ID et un nom. L'ID est important lors de la pr
 #### **Récupérer l'exemple de programmation de forme Visio**
 L'extrait de code suivant récupère la forme, y compris l'enfant. Veuillez vérifier cet exemple de code :
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

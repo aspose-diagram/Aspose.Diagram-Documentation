@@ -17,8 +17,8 @@ El siguiente código muestra cómo:
 ### **Forma a PDF**
 Use el siguiente código en su aplicación .net para convertir una forma visio a pdf.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -36,5 +36,5 @@ Shape shape = page.Shapes[0];
 shape.ToPdf("out.pdf");
 
 {{< /highlight >}}
-```
+
 

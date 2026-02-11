@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية إضافة معلومات ر�
 ### **استرجاع نموذج برمجة معلومات الماجستير**
 يسترد جزء الكود التالي المعلومات الرئيسية من diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -31,7 +31,7 @@ foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)
 Console.ReadLine();
 
 {{< /highlight >}}
-```
+
 ## **أضف ماستر من استنسل الأشكال**
 الاستنسل هو مجموعة من الأشكال المرتبطة بقالب Microsoft Office Visio معين. باستخدام Aspose.Diagram ، يمكن إضافة أي شكل رئيسي إلى رسم من استنسل.
 ### **إضافة ماجستير**
@@ -43,8 +43,8 @@ Console.ReadLine();
 - دفق ملف الاستنسل والاسم الرئيسي.
 - أضف رئيسي إلى diagram من المصدر diagram
 #### **إضافة عينة البرمجة الرئيسية**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -81,12 +81,12 @@ diagram.AddShape(6.0, 6.0, masterName, 0);
 diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **إنشاء ماجستير من الصفر**
  Aspose.Diagram API يسمح بإنشاء ملف[يتقن](http://www.aspose.com/api/net/diagram/aspose.diagram/master) من الصفر دون أي استنسل أو رسم أو قالب. يمكن للمطورين تخصيص إنشاء Master. تسمح طريقة AddMaster ، التي تم الكشف عنها بواسطة فئة Diagram ، بإضافة عنصر رئيسي.
 ### **إنشاء عينة البرمجة الرئيسية**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public static void Run()
 {            
@@ -171,7 +171,7 @@ public static byte[] ReadImageFile(string imageLocation)
 }
 
 {{< /highlight >}}
-```
+
 ## **احصل على درجة الماجستير من ملف Visio**
 في بعض الأحيان ، يحتاج المطورون إلى الحصول على تفاصيل سيد رسم Visio. يدعم Aspose.Diagram API هذه الميزة.
 
@@ -184,8 +184,8 @@ public static byte[] ReadImageFile(string imageLocation)
 #### **كائن رئيسي عن طريق نموذج برمجة معرف**
 يوضح المثال التالي كيفية الحصول على سيد بواسطة المعرف من رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -203,7 +203,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ### **الحصول على كائن رئيسي بالاسم**
 هذا المثال يعمل على النحو التالي:
 
@@ -212,8 +212,8 @@ Console.WriteLine("Master Name : " + master.UniqueID);
 #### **كائن رئيسي حسب عينة برمجة الاسم**
 يوضح المثال التالي كيفية الحصول على كائن رئيسي بالاسم من رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -231,7 +231,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ## **تحقق من وجود ماجستير في رسم Visio**
 يدعم Aspose.Diagram API التحقق من وجود سيد في رسم Visio. باستخدام خاصية MasterCollection ، يمكن للمطورين التحقق لمعرفة ما إذا كان المعلم موجودًا بالاسم أو المعرف.
 
@@ -244,8 +244,8 @@ Console.WriteLine("Master Name : " + master.UniqueID);
 #### **حضور ماجستير عن طريق نموذج برمجة معرف**
 يوضح المثال التالي كيفية التحقق من وجود رئيسي بواسطة المعرف في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -259,7 +259,7 @@ bool isPresent = diagram.Masters.IsExist(2);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **التحقق من وجود رئيسي بالاسم**
 هذا المثال يعمل على النحو التالي:
 
@@ -268,8 +268,8 @@ Console.WriteLine("Master Presence : " + isPresent);
 #### **حضور ماجستير من خلال نموذج برمجة الاسم**
 يوضح المثال التالي كيفية التحقق من وجود رئيسي بالاسم من رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -285,4 +285,4 @@ bool isPresent = diagram.Masters.IsExist(masterName);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

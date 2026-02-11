@@ -23,8 +23,8 @@ In Microsoft Visio you protect documents this way:
 
 Use the code below in your application to perform the same tasks – lock and unlock different elements of your diagram – using Aspose.Diagram for Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -47,7 +47,7 @@ diagram.save("VisioDiagramProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Edit the Visio Shape Protection**
 Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects of shapes that can be locked through shape protection include width, height, x-position, y-position, rotation and more. Developers can achieve this using Aspose.Diagram for Python via Java.
@@ -66,8 +66,8 @@ In Visio, you need to perform following actions to protect any shape:
 
 Use the following code in your Java application to do the same thing (lock/unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -110,4 +110,4 @@ diagram.save("VisioShapeProtection_Out.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

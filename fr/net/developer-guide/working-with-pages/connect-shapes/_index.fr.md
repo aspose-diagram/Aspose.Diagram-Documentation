@@ -20,8 +20,8 @@ Le code ci-dessous montre comment :
 #### **Exemple de programmation Connect Shapes**
 Utilisez le code suivant dans votre application .NET pour connecter des formes à l'aide de Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -50,7 +50,7 @@ diagram.Pages[0].ConnectShapesViaConnector(rectangle1, ConnectionPointPlace.Righ
 diagram.Save(dataDir + "ConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Résultat**|
 |:- |

@@ -32,8 +32,8 @@ Di seguito è riportato il processo che le API Aspose.Diagram seguono dietro le 
 
 {{% /alert %}}
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -50,7 +50,7 @@ Aspose.Diagram.FontConfigs.SetFontFolder(Environment.GetFolderPath(Environment.S
 diagram.Save(dataDir + "Font.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 

@@ -17,8 +17,8 @@ description: يشرح هذا القسم كيفية تحويل شكل visio إل�
 ### **شكل إلى Html**
 استخدم الكود التالي في تطبيق .net لتحويل شكل visio إلى html.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ Aspose.Diagram.Saving.HTMLSaveOptions hs = new Aspose.Diagram.Saving.HTMLSaveOpt
 shape.ToHTML("out.htm", hs);
 
 {{< /highlight >}}
-```
+
 

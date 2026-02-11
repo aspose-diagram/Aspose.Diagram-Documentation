@@ -34,8 +34,8 @@ Son parametre, kodun iş yazdırılana kadar beklemesi mi yoksa yazdırma işi g
 #### **Programlama Örneği**
 Aşağıdaki kod örneği, via XPS yazdırmak için yardımcı program sınıfının nasıl çağrılacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -50,7 +50,7 @@ const string printerName = @"\\COMPANY\Brother MFC-885CW Printer";
 XpsPrintHelper.Print(diagram, printerName, "My Test Job", true);
 
 {{< /highlight >}}
-```
+
 
 
 XpsPrintHelper.Print yönteminin iki aşırı yüklemesi vardır. İlk aşırı yükleme, bir Aspose.Diagram.Diagram nesnesini alır ve onu XPS biçiminde bir MemoryStream'e kaydeder. Ardından, diğer XpsPrintHelper.Print aşırı yüklemesini başlatır.
@@ -59,8 +59,8 @@ Bu örneği Aspose.Diagram olmadan kullanmak istiyorsanız (örneğin, zaten bir
 #### **XPS Akış ve Yazdırma Programlama Örneği**
 Bu kod örneği, bir Diagram'i XPS akışına dönüştürür ve yazdırır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 /// <summary>
 /// Sends an Aspose.Diagram document to a printer using the XpsPrint API.
@@ -84,15 +84,15 @@ public static void Print(Diagram diagram, string printerName, string jobName, bo
 }
 
 {{< /highlight >}}
-```
+
 
 
 İkinci XpsPrintHelper.Print aşırı yüklemesi bir Stream nesnesini kabul eder. Akış, XPS biçiminde bir belge içermelidir. Bu yöntem bir XPS yazdırma işini başlatır, belgeyi XpsPrint API'e gönderir ve gerekirse sonucu bekler.
 #### **XpsPrint API Programlama Örneği**
 Bu kod örneği, XpsPrint API'i kullanarak bir XPS belgesini yazdırır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 /// <summary>
 /// Sends a stream that contains a document in the XPS format to a printer using the XpsPrint API.
@@ -137,7 +137,7 @@ public static void Print(Stream stream, string printerName, string jobName, bool
 }
 
 {{< /highlight >}}
-```
+
 
 
 StartJob, CopyJob, WaitForJob ve CheckJobStatus yöntemlerinin kodu ile IXpsPrintJob ve IXpsPrintJobStream arabirimlerinin tanımları oldukça düşük düzeydedir ve Platform Invoke ve COM Interop kullanır. Bu kod, kısa olması için makaleye dahil edilmemiştir, ancak örnek indirmede mevcuttur.
@@ -157,8 +157,8 @@ diagram'in varsayılan yazıcıya yazdırılması Aspose.Diagram for .NET'de old
 - Yazdırılacak bir diagram'i yüklemek için Diagram sınıfının bir örneğini oluşturun
 - Diagram nesnesi tarafından sunulan hiçbir parametre olmadan Yazdır yöntemini çağırın
 #### **Varsayılan Yazıcı Programlama Örneğine Yazdırma**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -170,15 +170,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print();
 
 {{< /highlight >}}
-```
+
 ### **Belirli bir yazıcıya yazdırma**
 diagram'in belirli bir yazıcıya yazdırılması, Diagram'in Yazdırma yönteminde parametre olarak yazıcının adını gerektirir. diagram'i istenen yazıcıya yazdırmak için aşağıdaki adımları gerçekleştirin:
 
 - Yazdırılacak bir diagram'i yüklemek için Diagram sınıfının bir örneğini oluşturun
 - Yazıcı adı ile Diagram sınıfının Print yöntemini Print yöntemine string parametresi olarak çağırın
 #### **Belirli Yazıcı Programlama Örneğine Yazdırma**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -190,15 +190,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **Yazıcı ve Doküman Adını Ayarlama**
 Aspose.Diagram API'ler, bir yazdırma işi için belirli yazıcı ve belge adının ayarlanmasına izin verir. diagram'i istenen yazıcıya yazdırmak için aşağıdaki adımları gerçekleştirin:
 
 - Yazdırılacak bir diagram'i yüklemek için Diagram sınıfının bir örneğini oluşturun
 - Diagram sınıfının Print yöntemini, yazıcı ve belge adı ile birlikte Print yöntemine string parametresi olarak çağırın
 #### **Yazıcı ve Doküman Adı Ayarı Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -210,4 +210,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.Print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

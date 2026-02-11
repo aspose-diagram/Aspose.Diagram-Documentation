@@ -19,8 +19,8 @@ El siguiente código muestra cómo:
 #### **Muestra de programación de forma a imagen**
 Use el siguiente código en su aplicación .net para convertir una forma visio en una imagen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,4 +39,4 @@ Aspose.Diagram.Saving.ImageSaveOptions o = new Aspose.Diagram.Saving.ImageSaveOp
 shape.ToImage("out.png", o);
 
 {{< /highlight >}}
-```
+

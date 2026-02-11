@@ -18,8 +18,8 @@ description: 本节介绍如何使用 Aspose.Diagram 在 visio 形状中设置�
 #### **将主题设置为形状编程示例**
 在您的 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET 设置连接器类型形状的外观。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

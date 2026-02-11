@@ -30,8 +30,8 @@ To export VSD diagram to Excel:
 1. Call the Diagram classs Save method and set the output format to Excel.
 
 ### **Exporting to Excel Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToCSV.class);
@@ -43,5 +43,5 @@ Diagram diagram = new Diagram(dataDir + "ExportToCSV.vsd");
 diagram.save(dataDir + "ExportToPDF_Out.csv", SaveFileFormat.CSV);
 
 {{< /highlight >}}
-```
+
 

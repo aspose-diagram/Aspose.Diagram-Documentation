@@ -19,8 +19,8 @@ Aspose.Diagram Las API permiten aplicar un tema preestablecido para obtener una 
 - Obtenga una instancia de la clase de página para establecer el tema
 - Asigne un valor preestablecido a la propiedad PresetTheme de la instancia de página
 #### **Aplicar un tema preestablecido a una muestra de programación de página**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -34,7 +34,7 @@ page.setPresetTheme(PresetThemeValue.BUBBLE);
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Resultado de aplicar un tema preestablecido a una página**|
 |:- |
@@ -51,8 +51,8 @@ Aspose.Diagram Las API permiten aplicar una variante de tema preestablecido para
 
 #### **Aplicar una variante de tema preestablecido a una muestra de programación de página**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -67,7 +67,7 @@ page.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Resultado de aplicar una variante de tema preestablecido a una página**|
 |:- |
@@ -83,8 +83,8 @@ Aspose.Diagram Las API permiten aplicar un tema preestablecido a una forma dentr
 
 #### **Aplicar un tema preestablecido a una muestra de programación de formas**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -97,7 +97,7 @@ shape.setPresetTheme(PresetThemeValue.BUBBLE);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Resultado de aplicar un tema preestablecido a una forma**|
 |:- |
@@ -114,8 +114,8 @@ Aspose.Diagram Las API permiten aplicar una variante de tema preestablecido a un
 
 #### **Aplicar una variante de tema preestablecido a una muestra de programación de forma**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -130,7 +130,7 @@ shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Resultado de aplicar una variante de tema preestablecido a una forma**|
 |:- |
@@ -148,8 +148,8 @@ Aspose.Diagram Las API permiten aplicar un estilo rápido de tema preestablecido
 
 #### **Aplicar una variante de tema preestablecido Quickstyle a una muestra de programación de forma**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -166,7 +166,7 @@ shape.setPresetThemeQuickStyle(PresetQuickStyleValue.VARIANT_STYLE_2);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Resultado de aplicar un estilo rápido de variante de tema preestablecido a una forma**|
 |:- |
@@ -184,8 +184,8 @@ Aspose.Diagram Las API permiten aplicar un estilo rápido de tema preestablecido
 
 #### **Aplicar un estilo de tema preestablecido a una forma mediante el ejemplo de programación del método setPresetThemeStyleMatrics**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -202,7 +202,7 @@ shape.setPresetThemeStyleMatrics(PresetStyleMatricsValue.STYLE_2, PresetColorMat
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Resultado de aplicar un estilo de tema preestablecido a una forma mediante el método setPresetThemeStyleMatrics** |
 |:----------------------------------------------------------- |

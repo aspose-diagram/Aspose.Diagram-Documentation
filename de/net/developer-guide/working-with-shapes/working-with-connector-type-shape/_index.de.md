@@ -20,8 +20,8 @@ Der folgende Code zeigt, wie man:
 #### **Programmierbeispiel für das Aussehen des Konnektors festlegen**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um das Aussehen der Verbindertypform mithilfe von Aspose.Diagram for .NET festzulegen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -40,7 +40,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Wählen Sie die Umleitungsoption der Verbindungsform aus**
  Die ConFixedCode-Eigenschaft, die von der bereitgestellt wird[Layout](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) Klasse kann verwendet werden, um die Umleitungsoption auszuwählen. Die Layout-Eigenschaft, verfügbar gemacht durch die[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Klasse, verwendet werden.
 
@@ -54,8 +54,8 @@ Der folgende Code zeigt, wie man:
 ### **Wählen Sie Programmierbeispiel für Umleitungsoption**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um die Umleitungsoption der Verbinderform mit Aspose.Diagram for .NET auszuwählen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -74,4 +74,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -13,8 +13,8 @@ The [Connect](http://www.aspose.com/api/net/diagram/aspose.diagram/connect) obje
 ### **Programming Sample**
 The following piece of code retrieves the information for the connectors in a diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -30,7 +30,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **Retrieving Font Information**
 Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from [pages](/diagram/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [stencils](https://docs.aspose.com/diagram/net/working-with-masters/), [connectors](/diagram/net/retrieving-connector-information/) and also fonts. This article shows how to find out which fonts are used in a diagram.
 
@@ -38,8 +38,8 @@ The [Font](http://www.aspose.com/api/net/diagram/aspose.diagram/font) object rep
 ### **Retrieving Font Programming Sample**
 The following piece of code retrieves font information from the Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -54,12 +54,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **Getting Default Font Directory**
 Aspose.Diagram for .NET API also allows getting default font directory path using GetDefaultFontDir() method of Diagram Class. The following piece of code retrieves default font directory from the Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -71,7 +71,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **Getting Unused Fonts**
 {{% alert color="primary" %}}
 
@@ -81,8 +81,8 @@ This method is supported by version 19.6 or greater.
 
 Aspose.Diagram for .NET API also allows getting unused fonts using GetUnusedStyles() method of Diagram Class. The following piece of code retrieves unused fonts from the Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -97,4 +97,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

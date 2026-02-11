@@ -24,8 +24,8 @@ Pour ajouter une nouvelle forme :
 ### **Ajouter un échantillon de programmation**
 L'extrait de code ci-dessous montre comment effectuer chaque étape.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
 Console.WriteLine("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ Pour récupérer les informations de la page Visio :
 ### **Récupérer l'exemple de programmation**
 Le morceau de code suivant récupère les informations de forme à partir d'un Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -107,7 +107,7 @@ foreach (Aspose.Diagram.Shape shape in vsdDiagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Copier des formes à partir d'un Visio existant**
 Aspose.Diagram for .NET API permet aux développeurs de copier des formes de la page source Visio vers la nouvelle page Visio diagram. Il prend également en charge la copie de formes de groupe. Cet article décrit comment copier toutes les formes à partir de la page source diagram.
 
@@ -124,8 +124,8 @@ Cet exemple fonctionne comme suit :
 1. Définissez son nouvel identifiant et ajoutez-le à la nouvelle page Visio.
 1. Enregistrez le nouveau Visio dans le stockage local.
 ### **Copier l'exemple de programmation**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -157,7 +157,7 @@ foreach (Aspose.Diagram.Shape shape in SrcPage.Shapes)
 newDiagram.Save(dataDir + "CopyShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -206,8 +206,8 @@ Pour identifier les propriétés personnalisées dans Microsoft Visio :
 #### **Lire l'exemple de programmation**
 Les extraits de code ci-dessous lisent les données de forme (propriétés personnalisées).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -230,12 +230,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Lire une propriété de forme par nom**
 L'extrait de code ci-dessous lit une propriété de forme par son nom (propriété personnalisée).
 #### **Exemple de programmation de lecture par nom**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -255,12 +255,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Lire les propriétés héritées de la forme**
 L'extrait de code ci-dessous lit InheritProps d'une forme.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -284,7 +284,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Ajouter et connecter des formes Visio**
  Aspose.Diagram for .NET vous permet d'ajouter des formes personnalisées et de les connecter dans[diagrammes que vous créez](https://products.aspose.com/diagram/net/).
 ### **Ajout et connexion de formes**
@@ -295,8 +295,8 @@ Le code dans les exemples ci-dessous montre comment :
 1. Connectez les formes d'étoile et d'hexagone au rectangle.
 1. Enregistrez le diagram.
 #### **Exemple de programmation d'ajout et de connexion de formes**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_TechnicalArticles();
@@ -386,7 +386,7 @@ diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bot
 diagram.Save(dataDir + "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Utiliser les index de connexion pour connecter des formes**
 Aspose.Diagram for .NET API permet déjà aux développeurs d'ajouter de nouveaux points de connexion sur la forme, et les développeurs peuvent désormais connecter des formes à l'aide d'index de connexion.
 ### **Utiliser les index de connexion pour connecter des formes**
@@ -496,8 +496,8 @@ Aspose.Diagram for .NET permet aux développeurs de récupérer la forme parent 
 ### **Obtenir la forme parent**
 La[Forme](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)La classe offre la propriété ParentShape pour récupérer la forme parent.
 #### **Obtenir l'exemple de programmation de la forme parent**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -510,4 +510,4 @@ Console.WriteLine("Shape ID: " + parentShape.ID);
 Console.WriteLine("Shape Name: " + parentShape.Name);
 Console.WriteLine("Shape Type: " + parentShape.Type);
 {{< /highlight >}}
-```
+

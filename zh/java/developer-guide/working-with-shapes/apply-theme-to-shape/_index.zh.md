@@ -18,8 +18,8 @@ description: 本节介绍如何使用 Aspose.Diagram 在 visio 形状中设置�
 #### **将主题设置为形状编程示例**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 设置连接器类型形状的外观。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -59,4 +59,4 @@ page3.setPresetThemeQuickStyle (PresetQuickStyleValue.VARIANT_STYLE_3);
 diagram.save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -11,8 +11,8 @@ Sayfa Sınıfı nesnesi, bir ön plan sayfasının veya bir arka plan sayfasın�
 #### **Görüntüleri Çıkarma Programlama Örneği**
 Aşağıdaki kod parçası, belirli bir Visio sayfasından tüm resimleri çıkarır.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -32,7 +32,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Çeşitli Visio Şekillerinin Simgelerini Alın**
 Aspose.Diagram for Java API artık geliştiricilerin çeşitli Visio şekillerine sahip simgeler almasına izin veriyor.
 ### **Şekil Simgesini Alma**
@@ -43,8 +43,8 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Ana simgeyi alın.
 1. Simgeyi yerel alana kaydedin.
 #### **Simge Programlama Örneği Alın**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -62,7 +62,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'in Resim Şeklini Değiştirme**
 Aspose.Diagram for Java API, geliştiricilerin Visio diagram'deki mevcut resim şekillerine erişmesine ve bunları değiştirmesine olanak tanır.
 ### **Resim Şeklini Değiştirme**
@@ -73,8 +73,8 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Resim şekilleri elde etmek için filtre uygulayın.
 1. Ortaya çıkan Visio diagram'i yerel alana kaydedin.
 #### **Bir Resim Şekli Programlama Örneğinin Değiştirilmesi**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -100,7 +100,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bitmap Görüntüsünü Visio Şekli Olarak İçe Aktar**
 Aspose.Diagram for Java API artık geliştiricilerin bir bitmap görüntüsünü Microsoft Visio şekli olarak içe aktarmasına izin veriyor.
 ### **Visio'e bir BMP Görüntüsü ekleyin**
@@ -111,8 +111,8 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Bir bitmap görüntüsünü Visio şekli olarak içe aktarın
 1. diagram'i kaydedin.
 #### **BMP Görüntü Programlama Örneği ekleyin**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -132,4 +132,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

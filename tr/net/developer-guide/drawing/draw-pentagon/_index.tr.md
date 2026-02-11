@@ -8,8 +8,8 @@ description: Bu bölüm visio sayfasında Aspose.Diagram ile beşgenin nasıl ç
 ## **Visio'de Pentagon çizin**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfada bir beşgen şekli çizmesine olanak tanır. Aşağıdaki kod örneği, bir Visio çiziminde bir beşgenin nasıl çizileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,13 +25,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPentagonInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **SVG'de Pentagon çizin**
 Aspose.Diagram for .NET API, geliştiricilerin sayfada bir beşgen çizmesine ve SVG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir beşgenin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawPentagonInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **PDF'de Pentagon çizin**
 Aspose.Diagram for .NET API, geliştiricilerin sayfada bir beşgen çizmesine ve PDF formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir beşgenin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPentagonInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **PNG'de Pentagon çizin**
 Aspose.Diagram for .NET API, geliştiricilerin sayfada bir beşgen çizmesine ve PNG formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir beşgenin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -95,13 +95,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawPentagonInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **HTML'de Pentagon çizin**
 Aspose.Diagram for .NET API, geliştiricilerin sayfada bir beşgen çizmesine ve HTML formatında kaydetmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde bir beşgenin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -117,4 +117,4 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPentagonInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

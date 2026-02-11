@@ -26,4 +26,15 @@ VSD diagram'i HTML'e aktarmak için aşağıdaki adımları gerçekleştirin:
 ### **Ortaya çıkan HTML'i yerel depoya kaydedin**
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 #### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToHTML.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the html format
+diagram.save("Visio_out.html", SaveFileFormat.HTML)
+{{< /highlight >}}
+

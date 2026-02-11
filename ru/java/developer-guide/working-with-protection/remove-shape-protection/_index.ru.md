@@ -20,8 +20,8 @@ description: В этом разделе объясняется, как снят�
 ### **Удаление примера программирования защиты формы**
 Используйте следующий код в своем приложении Java, чтобы сделать то же самое (разблокировать любой атрибут формы), используя Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

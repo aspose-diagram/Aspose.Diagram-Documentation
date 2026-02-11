@@ -20,8 +20,8 @@ Aspose.Diagram APIs allows to apply a preset theme to get a uniform look and fee
 - Get an instance of Page class to be set theme
 - Assign a Preset value to the PresetTheme property of the Page instance
 #### **Apply a Preset Theme to a Page Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -35,7 +35,7 @@ page.setPresetTheme(PresetThemeValue.BUBBLE);
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme to a Page**|
 | :- |
@@ -52,8 +52,8 @@ Aspose.Diagram APIs allows to apply a preset theme variant to get a uniform look
 
 #### **Apply a Preset Theme Variant to a Page Programming Sample**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -68,7 +68,7 @@ page.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Variant to a Page**|
 | :- |
@@ -84,8 +84,8 @@ Aspose.Diagram APIs allows to apply a preset theme to a shape within a page. Per
 
 #### **Apply a Preset Theme to a Shape Programming Sample**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -98,7 +98,7 @@ shape.setPresetTheme(PresetThemeValue.BUBBLE);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme to a Shape**|
 | :- |
@@ -115,8 +115,8 @@ Aspose.Diagram APIs allows to apply a preset theme variant to a shape within a p
 
 #### **Apply a Preset Theme Variant to a Shape Programming Sample**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -131,7 +131,7 @@ shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Variant to a Shape**|
 | :- |
@@ -149,8 +149,8 @@ Aspose.Diagram APIs allows to apply a preset theme quickstyle to a shape within 
 
 #### **Apply a Preset Theme Variant Quickstyle to a Shape Programming Sample**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -167,7 +167,7 @@ shape.setPresetThemeQuickStyle(PresetQuickStyleValue.VARIANT_STYLE_2);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Result of Apply a Preset Theme Variant Quickstyle to a Shape**|
 | :- |
@@ -185,8 +185,8 @@ Aspose.Diagram APIs allows to apply a preset theme quickstyle to a shape within 
 
 #### **Apply a Preset Theme Style to a Shape Using setPresetThemeStyleMatrics Method Programming Sample**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -203,7 +203,7 @@ shape.setPresetThemeStyleMatrics(PresetStyleMatricsValue.STYLE_2, PresetColorMat
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 | **Result of Apply a Preset Theme Style to a Shape Using setPresetThemeStyleMatrics Method** |
 | :----------------------------------------------------------- |

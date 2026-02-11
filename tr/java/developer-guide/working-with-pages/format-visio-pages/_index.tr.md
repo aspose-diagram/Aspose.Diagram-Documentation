@@ -8,8 +8,8 @@ Aspose.Diagram for Java API, geliştiricilerin bir Visio Diagram dosyasının sa
 ## **Stil Sayfalarını Visio Sayfasına Uygula**
 Aspose.Diagram for Java API, Stil Sayfalarını kullanarak bir Visio sayfasını biçimlendirmenizi sağlar. Bir stil sayfası tanımlayabilir ve bunu Visio belgesinin stil sayfası koleksiyonuna ekleyebilirsiniz. Page sınıfının ApplyStyle yöntemi, aşağıdaki kod örneğinde gösterildiği gibi, tanımlanan stil sayfasını sayfaya uygulamanıza izin verir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
@@ -48,4 +48,4 @@ for (Shape shape: (Iterable<Shape>)vsdDiagram.getPages().get(0).getShapes())
 vsdDiagram.getPages().get(0).applyStyle(st.getID(), st.getID(), st.getID());
 
 {{< /highlight >}}
-```
+

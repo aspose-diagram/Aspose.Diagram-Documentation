@@ -27,8 +27,8 @@ VSD diagram'i PDF'e dışa aktarmak için:
 1. Diagram sınıfı Save yöntemini çağırın ve çıktı formatını PDF olarak ayarlayın.
 
 ### **PDF Programlama Örneğine Aktarma**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -46,13 +46,13 @@ diagram.save("ExportToPDF_Out.pdf", SaveFileFormat.PDF)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Birden Çok Sayfayı Böl**
 Aspose.Diagram for Java, Microsoft Visio Diagram'i PDF'e dönüştürürken birden fazla sayfanın bölünmesine izin verir. Aşağıdaki kod parçacığı işlevselliği gösterir.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -73,4 +73,4 @@ diagram.save("SplitMultiPages.pdf", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

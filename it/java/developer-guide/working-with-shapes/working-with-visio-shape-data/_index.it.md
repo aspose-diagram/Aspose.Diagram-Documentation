@@ -23,8 +23,8 @@ Per aggiungere una nuova forma:
 ### **Aggiungi esempio di programmazione**
 Lo snippet di codice seguente mostra come eseguire ogni passaggio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddingNewShape.class);  
@@ -61,7 +61,7 @@ diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
 System.out.println("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ Per recuperare le informazioni sulla pagina Visio:
 ### **Recupera esempio di programmazione**
 Il seguente pezzo di codice recupera le informazioni sulla forma da un Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
@@ -107,7 +107,7 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPa
 }
 
 {{< /highlight >}}
-```
+
 ## **Copia forme da un Visio esistente**
 Aspose.Diagram for Java API consente agli sviluppatori di copiare le forme dalla pagina Visio di origine alla nuova pagina Visio diagram. Supporta anche la copia di forme di gruppo. Questo articolo descrive come copiare tutte le forme dalla pagina diagram di origine.
 
@@ -124,8 +124,8 @@ Questo esempio funziona come segue:
 1. Imposta il suo nuovo ID e aggiungilo alla nuova pagina Visio.
 1. Salva il nuovo Visio nella memoria locale.
 ### **Copia esempio di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyShape.class); 
@@ -156,7 +156,7 @@ for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
 newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -205,8 +205,8 @@ Per identificare le proprietà personalizzate in Microsoft Visio:
 #### **Leggi l'esempio di programmazione**
 I frammenti di codice seguenti leggono i dati della forma (proprietà personalizzate).
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
@@ -229,12 +229,12 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ### **Leggere una proprietà Shape per nome**
 Il frammento di codice seguente legge una proprietà di forma per nome (proprietà personalizzata).
 #### **Leggere per nome Esempio di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
@@ -253,7 +253,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Usa gli indici di connessione per connettere le forme**
 Aspose.Diagram for Java API consente già agli sviluppatori di aggiungere nuovi punti di connessione sulla forma e gli sviluppatori possono ora collegare le forme utilizzando gli indici di connessione.
 ### **Usa gli indici di connessione per connettere le forme**
@@ -363,8 +363,8 @@ Aspose.Diagram for Java consente agli sviluppatori di recuperare la forma padre 
 ### **Ottieni la forma genitore**
 La classe Shape offre la proprietà getParentShape per recuperare la forma genitore.
 #### **Ottieni l'esempio di programmazione della forma genitore**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -379,4 +379,4 @@ System.out.println("Shape ID: " + parentShape.getID());
 System.out.println("Shape Name: " + parentShape.getName());
 System.out.println("Shape Type: " + parentShape.getType());
 {{< /highlight >}}
-```
+

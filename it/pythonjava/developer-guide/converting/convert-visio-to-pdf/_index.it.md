@@ -27,8 +27,8 @@ To export VSD diagram to PDF:
 1. Call the Diagram classs Save method and set the output format to PDF.
 
 ### **Exporting to PDF Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -46,13 +46,13 @@ diagram.save("ExportToPDF_Out.pdf", SaveFileFormat.PDF)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Dividi più pagine**
 Aspose.Diagram for Java allows splitting multiple pages while converting the Microsoft Visio Diagram to PDF. The following code snippet shows the functionality.  
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -73,4 +73,4 @@ diagram.save("SplitMultiPages.pdf", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

@@ -26,8 +26,8 @@ Aspose.Diagram 完全支持 Microsoft Visio 的页面设置选项。开发人员
 - [**左页边距**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/pageleftmargin)
 - [**页右边距**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/pagerightmargin)
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Print();
@@ -41,4 +41,3 @@ diagram.Pages[0].PageSheet.PrintProps.PageRightMargin.Value = 0.01;
 diagram.Pages[0].PageSheet.PrintProps.PageTopMargin.Value = 0.01;
 diagram.Pages[0].PageSheet.PrintProps.PageBottomMargin.Value = 0.01;
 {{< /highlight >}}
-```

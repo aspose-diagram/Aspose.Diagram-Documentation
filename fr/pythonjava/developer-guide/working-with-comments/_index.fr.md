@@ -12,8 +12,8 @@ La méthode addComment, exposée par la classe Page, permet d'ajouter des commen
 
 Microsoft Visio users add comments to the entire page that are presented by an icon in the upper-left corner of the page. Developers can add page level comments in the Visio. Aspose.Diagram for Python via Java API additionally supports to alter the page level comment in the Visio.
 #### **Ajouter un exemple de programmation de commentaires au niveau de la page**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -34,14 +34,14 @@ diagram.save("AddPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Modifier un commentaire au niveau de la page dans le Visio Diagram**
 Aspose.Diagram for Python via Java API has support of altering the page-level comment on [le dessin Visio](DrawingComment.vsdx) page qui sont présentés par une icône dans le coin supérieur gauche de la page.
 ### **Modifier le commentaire**
 La propriété Comment, exposée par la classe Annotation, permet aux développeurs de modifier les commentaires dans la page de dessin Visio.
 #### **Éditer un exemple de programmation de commentaire**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -68,14 +68,14 @@ diagram.save("EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Ajouter un commentaire au niveau de la forme dans le dessin Visio**
 Aspose.Diagram for Python via Java API allows developers to add comments to the shape in [le dessin Visio](DrawingComment.vsdx).
 ### **Ajouter un commentaire**
 Une méthode addComment surchargée, exposée par la classe Page prend une instance de classe Shape et la chaîne de texte du commentaire.
 #### **Ajouter un exemple de programmation de commentaire au niveau de la forme**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -101,4 +101,4 @@ diagram.save("AddShapeLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

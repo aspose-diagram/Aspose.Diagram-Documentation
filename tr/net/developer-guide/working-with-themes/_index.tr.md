@@ -19,8 +19,8 @@ Aspose.Diagram API'ler, bir sayfada ve birden çok belgede şekillere tekdüze b
 - Temayı ayarlamak için bir Sayfa sınıfı örneği alın
 - Sayfa örneğinin PresetTheme özelliğine bir Preset değeri atayın
 #### **Bir Sayfa Programlama Örneğine Önceden Ayarlanmış Bir Tema Uygulama**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -34,7 +34,7 @@ page.PresetTheme = PresetThemeValue.Bubble;
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Bir Sayfaya Hazır Tema Uygulamanın Sonucu**|
 |:- |
@@ -51,8 +51,8 @@ Aspose.Diagram API'ler, bir sayfada ve birden çok belgede şekillere tekdüze b
 
 #### **Bir Sayfa Programlama Örneğine Önceden Ayarlanmış Bir Tema Varyantı Uygulayın**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -67,7 +67,7 @@ page.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Sayfaya Önceden Ayarlanmış Bir Tema Varyantı Uygulamanın Sonucu**|
 |:- |
@@ -83,8 +83,8 @@ Aspose.Diagram API'ler, bir sayfadaki bir şekle önceden ayarlanmış bir teman
 
 #### **Şekil Programlama Örneğine Hazır Ayar Teması Uygulama**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -97,7 +97,7 @@ shape.PresetTheme = PresetThemeValue.Bubble;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Şekle Hazır Ayar Teması Uygulamanın Sonucu**|
 |:- |
@@ -114,8 +114,8 @@ Aspose.Diagram API'ler, bir sayfa içindeki bir şekle önceden ayarlanmış bir
 
 #### **Bir Şekil Programlama Örneğine Önceden Ayarlanmış Bir Tema Varyantı Uygulayın**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -130,7 +130,7 @@ shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Şekle Hazır Ayar Tema Varyantı Uygulamanın Sonucu**|
 |:- |
@@ -148,8 +148,8 @@ Aspose.Diagram API'ler, bir sayfa içindeki bir şekle önceden ayarlanmış bir
 
 #### **Bir Şekil Programlama Örneğine Hazır Ayar Tema Varyantı Hızlı Stili Uygulama**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -166,7 +166,7 @@ shape.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle2;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Bir Şekle Hazır Ayar Tema Varyantı Hızlı Stili Uygulamanın Sonucu**|
 |:- |
@@ -184,8 +184,8 @@ Aspose.Diagram API'ler, bir sayfa içindeki bir şekle önceden ayarlanmış bir
 
 #### **SetPresetThemeStyleMatrics Yöntemi Programlama Örneği Kullanarak Bir Şekle Ön Ayarlı Tema Stili Uygulama**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -202,7 +202,7 @@ shape.SetPresetThemeStyleMatrics(PresetStyleMatricsValue.Style2, PresetColorMatr
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**SetPresetThemeStyleMatrics Yöntemini Kullanarak Bir Şekle Ön Ayarlı Tema Stili Uygulamanın Sonucu**|
 |:- |

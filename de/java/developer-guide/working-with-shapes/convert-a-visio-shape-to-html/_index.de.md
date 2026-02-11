@@ -17,8 +17,8 @@ Der folgende Code zeigt, wie man:
 ### **Form zu HTML**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um eine visio-Form in HTML zu konvertieren.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToHtml.class); 
@@ -35,6 +35,6 @@ Shape shape = page.getShapes().get(0);
 HTMLSaveOptions hs = new HTMLSaveOptions();
 shape.toHTML("out.htm", hs);
 {{< /highlight >}}
-```
+
 
 

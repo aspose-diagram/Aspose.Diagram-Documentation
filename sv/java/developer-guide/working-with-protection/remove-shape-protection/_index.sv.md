@@ -20,8 +20,8 @@ I Microsoft Office Visio kan användaren utföra följande åtgärder för att s
 ### **Ta bort formskyddsprogrammeringsprovet**
 Använd följande kod i din Java-applikation för att göra samma sak (låsa upp valfritt formattribut) med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

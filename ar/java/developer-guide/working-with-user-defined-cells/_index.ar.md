@@ -19,8 +19,8 @@ url: /ar/java/working-with-user-defined-cells/
 
 ![ما يجب القيام به: image_بديل_نص](working-with-user-defined-cells_2.png)
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **إنشاء خلية معرّفة من قبل المستخدم**
 يسمح Aspose.Diagram for Java API للمطورين بإنشاء خلية معرفة بواسطة المستخدم في ورقة الأشكال. يصف هذا المثال الموضوع كيفية إضافة العديد من صفوف اسم المستخدم حسب الحاجة ، وتعيين أسماء ذات معنى للصفوف ، وتعيين قيم الخلية.
 
@@ -45,8 +45,8 @@ for (User user :(Iterable<User>) shape.getUsers())
 
 استخدم الكود التالي في تطبيق Java الخاص بك لإنشاء خلية معرّفة من قبل المستخدم في ورقة الأشكال باستخدام Aspose.Diagram for Java.
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استرجع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال**
 Aspose.Diagram for Java API يسمح للمطورين باسترداد الخلايا المعرفة من قبل المستخدم من ورقة الأشكال. يصف هذا المثال الموضوع كيفية استرداد كافة أسماء المستخدمين لكافة الأشكال في الرسم.
 ### **استرداد الخلايا المعرفة من قبل المستخدم**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API يسمح للمطورين باسترداد الخل�
 #### **استرجع الخلايا من نماذج برمجة ورقة الأشكال**
 استخدم الكود التالي في تطبيق Java الخاص بك لاسترداد جميع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال باستخدام Aspose.Diagram for Java.
 #### **عينات البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

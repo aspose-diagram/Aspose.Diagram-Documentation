@@ -10,8 +10,8 @@ description: Esta sección explica cómo obtener el estilo de línea de la forma
 #### **Muestra de programación de recuperación de datos de línea heredados**
 El siguiente fragmento de código recupera los datos de línea heredados de la forma. Por favor revise este código de muestra:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -34,5 +34,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

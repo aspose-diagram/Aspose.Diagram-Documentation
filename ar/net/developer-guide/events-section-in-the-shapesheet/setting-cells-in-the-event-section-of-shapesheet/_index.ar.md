@@ -20,8 +20,8 @@ description: إدارة خصائص الأحداث لملفات visio.
 ## **تعيين خلايا الحدث**
 [حدث](https://reference.aspose.com/diagram/net/aspose.diagram/event) تسمح class للمطورين بتعيين خلايا الأحداث في ورقة الشكل. يوضح موضوع التعليمات هذا كيف يمكن للمطورين تعيين الصيغ في خلايا الحدث:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

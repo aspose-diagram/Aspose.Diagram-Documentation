@@ -26,8 +26,8 @@ Aspose.Diagram for .NET API kullanarak bir alt şeklin PinX ve PinY değerlerini
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -55,7 +55,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **Bir Şeklin Yüksekliğini ve Genişliğini Ayarlama**
  bu[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Class, SetHeight ve SetWidth yöntemlerini kullanarak şeklin yüksekliğini ve genişliğini belirleyerek şeklin boyutunu kontrol etmenizi sağlar.
 
@@ -71,8 +71,8 @@ Yükseklik ve Genişliği ayarlama işlemi şu şekildedir:
 ### **Ayar Yükseklik ve Genişlik Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin yüksekliğini ve genişliğini nasıl ayarlayacağınızı gösterir. Kod, şekil kimliği 1 olan bir şekil adı dikdörtgeni arar ve Yükseklik ve Genişliğini çift olarak ayarlar.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -90,4 +90,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

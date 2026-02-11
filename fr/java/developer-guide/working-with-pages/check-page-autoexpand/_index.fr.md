@@ -14,8 +14,8 @@ Utilisez la propriété PageProps pour vérifier l'expansion automatique de la p
 ### **Exemple de programmation d'expansion automatique de page de vérification**
 Le morceau de code suivant vérifie l'expansion automatique de la page à partir d'un diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckChangeAutoExpand.class);
@@ -34,4 +34,4 @@ page.getPageSheet().getPageProps().getDrawingResizeType().setValue(DrawingResize
 diagram.save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

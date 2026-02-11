@@ -10,8 +10,8 @@ description: Cette section explique comment obtenir le style de ligne de la form
 #### **Récupérer un exemple de programmation de données de ligne héritées**
 L'extrait de code suivant récupère les données de ligne héritées de la forme. Veuillez vérifier cet exemple de code :
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

@@ -12,8 +12,8 @@ Python via Java API için Aspose.Diagram, bir Visio çizim şekli şablonunu tem
 Yöntemi kullanma**ek usta** şablondan master eklemek için Diagram sınıfında.
 
 ## **Basit kod**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

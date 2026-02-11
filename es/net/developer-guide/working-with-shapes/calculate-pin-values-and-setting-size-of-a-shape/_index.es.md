@@ -26,8 +26,8 @@ Use el siguiente código en su aplicación .NET para calcular los valores PinX y
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -55,7 +55,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **Establecer la altura y el ancho de una forma**
  los[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Class le permite controlar el tamaño de la forma especificando la altura y el ancho de la forma mediante los métodos SetHeight y SetWidth.
 
@@ -71,8 +71,8 @@ El proceso para configurar Alto y Ancho es:
 ### **Ejemplo de programación de ajuste de altura y anchura**
 El fragmento de código a continuación muestra cómo establecer la altura y el ancho de la forma. El código busca un rectángulo de nombre de forma, con el ID de forma 1, y establece su Alto y Ancho como doble.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -90,4 +90,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

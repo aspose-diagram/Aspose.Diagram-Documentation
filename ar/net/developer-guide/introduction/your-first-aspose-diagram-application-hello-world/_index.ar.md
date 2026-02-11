@@ -29,8 +29,8 @@ description: توضح هذه الصفحة كيفية إنشاء التطبيق �
 
 المثال التالي ينشئ diagram جديد من الصفر ، يكتب Hello World! في الصفحة الأولى ويحفظ الملف Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -42,14 +42,14 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **نموذج التعليمات البرمجية: فتح ملف موجود**
 
 يفتح المثال التالي ملف قالب Microsoft Visio موجود باسم "Sample.vsdx" ، بإدخال "Hello World!" نص في الصفحة الأولى ويحفظ diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -76,4 +76,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

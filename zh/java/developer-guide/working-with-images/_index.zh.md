@@ -11,8 +11,8 @@ Page Class 对象表示前景页面或背景页面的绘图区域。 Diagram 类
 #### **提取图像编程示例**
 以下代码从特定的 Visio 页面中提取所有图像。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -32,7 +32,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **获取各种 Visio 形状的图标**
 Aspose.Diagram for Java API 现在允许开发者获取各种 Visio 形状的图标。
 ### **获取形状图标**
@@ -43,8 +43,8 @@ Aspose.Diagram for Java API 现在允许开发者获取各种 Visio 形状的图
 1. 获取主图标。
 1. 将图标保存到本地空间。
 #### **获取图标编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -62,7 +62,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **替换Visio Diagram的图片形状**
 Aspose.Diagram for Java API 允许开发人员访问和替换 Visio diagram 中可用的图片形状。
 ### **替换图片形状**
@@ -73,8 +73,8 @@ Aspose.Diagram for Java API 允许开发人员访问和替换 Visio diagram 中�
 1. 应用过滤器以获得图片形状。
 1. 将结果 Visio diagram 保存到本地空间。
 #### **替换图片形状编程示例**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -100,7 +100,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **将位图图像导入为 Visio 形状**
 Aspose.Diagram for Java API 现在允许开发人员将位图图像导入为 Microsoft Visio 形状。
 ### **Insert a BMP Image in Visio**
@@ -111,8 +111,8 @@ Aspose.Diagram for Java API 现在允许开发人员将位图图像导入为 Mic
 1. 将位图图像导入为 Visio 形状
 1. 保存 diagram。
 #### **Insert a BMP Image Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -132,4 +132,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

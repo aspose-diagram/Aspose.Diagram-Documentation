@@ -20,8 +20,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **CompactTree stili Organizasyon Şeması Programlama Örneği Oluşturma**
 Aspose.Diagram for Java kullanarak bir CompactTree tarzı Organizasyon Şeması oluşturmak için aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawCompactTreeChart.class);
@@ -81,7 +81,7 @@ diagram.getPages().get(pageNumber).layout(compactTreeOptions);
 diagram.save(dataDir + "DrawCompactTreeChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Sonuç**|
 |:- |
@@ -100,8 +100,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Akış Şeması stili Organizasyon Şeması Programlama Örneği oluşturun**
 Aspose.Diagram for Java kullanarak bir Akış Şeması stili Organizasyon Şeması oluşturmak için aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DrawFlowChart.class);
@@ -161,7 +161,7 @@ diagram.getPages().get(pageNumber).layout(flowChartOptions);
 diagram.save(dataDir + "DrawFlowChart_java.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Sonuç**|
 |:- |

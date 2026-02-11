@@ -8,8 +8,8 @@ description: يشرح هذا القسم كيفية رسم مربع في صفحة
 ## **ارسم مربعًا في Visio**
 Aspose.Diagram for .NET API يسمح للمطورين برسم شكل مربع في الصفحة. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -23,13 +23,13 @@ diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawSquareInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مربعًا في SVG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في الصفحة وحفظه بتنسيق SVG. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio وحفظه بتنسيق SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -45,13 +45,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawSquareInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مربعًا في PDF**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في الصفحة وحفظه بتنسيق PDF. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio وحفظه بتنسيق PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -65,13 +65,13 @@ diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawSquareInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مربعًا في PNG**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في الصفحة وحفظه بتنسيق PNG. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio وحفظه بتنسيق PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -87,13 +87,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawSquareInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **ارسم مربعًا في HTML**
 Aspose.Diagram for .NET API يسمح للمطورين برسم مربع في الصفحة وحفظه بتنسيق HTML. يوضح مثال الكود أدناه كيفية رسم مربع في رسم Visio وحفظه بتنسيق HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -107,4 +107,4 @@ diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawSquareInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

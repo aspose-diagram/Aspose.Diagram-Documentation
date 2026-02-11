@@ -31,8 +31,8 @@ Aspose.Diagram'in yazı tiplerini işlerken veya katıştırırken TrueType yaz�
 #### **Programlama Örneği**
 Aşağıdaki kod örneği, yazı tiplerini işlerken veya katıştırırken TrueType yazı tiplerini birden çok klasörde aramak için Aspose.Diagram'in nasıl ayarlanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
@@ -47,7 +47,7 @@ diagram.setFontDirs(fontDirs);
 diagram.save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **İşleme Sırasında Eksik Yazı Tipleri ve Yazı Tipi Değiştirme Bildirimi Alın**
 Aspose.Diagram API, çizimi PDF formatına uygun şekilde işlemek için doğru yazı tipine erişim gerektirir. Gerekli yazı tipi makinede yoksa, Aspose.Diagram API, varsayılan yazı tipini veya makinedeki mevcut en yakın yazı tipini kullanarak bu yazı tipinin herhangi bir örneğini oluşturur, çünkü bu değiştirme, işlenmiş çizimin görünümünü değiştirebilir, geliştiricilerin bir yazı tipi eksik olduğunda ve hangi yazı tipiyle değiştirileceği bildirilir.
 #### **Eksik Font Bildirimi ve Font Değiştirme Programlama Örneği**

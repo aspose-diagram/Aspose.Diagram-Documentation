@@ -16,8 +16,8 @@ Genom att använda Aspose.Diagram API kan utvecklare spara en Visio diagram i vi
 ### **Sparar Diagram Programmeringsexempel**
 Exemplet nedan sparar ett dokument till en fil.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioDiagram.class);
@@ -34,7 +34,7 @@ diagram.save(dataDir + "SaveVisioDiagram_Out.vsdx", SaveFileFormat.VSDX);
 		ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+
 ## **Ange Visio Spara alternativ**
  Det finns flera[Diagram.Save](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram#save\(java.lang.String,%20int\)metodöverbelastningar som accepterar ett SaveOptions-objekt. Detta bör vara ett objekt av en klass som härrör från klassen SaveOptions. Varje spara-format har en motsvarande klass som innehåller spara-alternativ för det spara-formatet, till exempel finns det PdfSaveOptions för SaveFileFormat.PDF spara-format.
 ### **Visio Diagram Spara alternativ**
@@ -48,8 +48,8 @@ Dessa exempel visar hur man:
 #### **Användning av Diagram Spara alternativ**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseDiagramSaveOptions.class);
@@ -75,15 +75,15 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "UseDiagramSaveOptions_Out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Användning av PDF Spara alternativ**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet PDF.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);    
@@ -126,15 +126,15 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UsePDFSaveOptions_Out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Användning av HTML Spara alternativ**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet HTML.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseHTMLSaveOptions.class);
@@ -176,15 +176,15 @@ ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
 diagram.save(dstStream, SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 #### **Användning av bildsparalternativ**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i ett bildformat.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseImageSaveOptions.class); 
@@ -253,12 +253,12 @@ options.setTiffCompression(TiffCompression.CCITT_3);
 diagram.save(dataDir + "UseImageSaveOptions_Out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Användning av SVG Spara alternativ**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett dokument i formatet SVG.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UseSVGSaveOptions.class);
@@ -282,4 +282,4 @@ options.setPageSize(pgSize);
 diagram.save(dataDir + "UseSVGSaveOptions_Out.svg", options);
 
 {{< /highlight >}}
-```
+

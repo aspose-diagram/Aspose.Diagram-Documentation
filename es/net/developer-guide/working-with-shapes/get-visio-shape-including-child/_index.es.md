@@ -12,8 +12,8 @@ Cada forma en un diagram tiene una identificación y un nombre. El ID es importa
 #### **Recuperar Visio Muestra de programación de forma**
 El siguiente fragmento de código recupera la forma, incluido el niño. Por favor revise este código de muestra:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

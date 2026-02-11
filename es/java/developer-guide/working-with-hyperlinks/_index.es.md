@@ -24,8 +24,8 @@ Para identificar propiedades en Microsoft Visio:
 
 Los fragmentos de código a continuación agregan los datos del hipervínculo de la forma.
 ### **Agregar muestra de programación de hipervínculo**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Obtener datos de hipervínculos de las formas Visio**
  Es posible obtener los datos del hipervínculo de una forma de forma similar a como[leyendo Visio datos de forma]().
 
@@ -79,8 +79,8 @@ Para identificar propiedades en Microsoft Visio:
 
 Los fragmentos de código a continuación leen los datos del hipervínculo de la forma.
 ### **Obtener muestra de programación de hipervínculos**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

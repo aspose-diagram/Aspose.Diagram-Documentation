@@ -15,8 +15,8 @@ description: Questa sezione spiega come tenere traccia dell'avanzamento della co
 
 ## **Codice di esempio**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -34,12 +34,12 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "Callback_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 Quello che segue è il codice per il*TestDiagramPageSavingCallback*classe personalizzata.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCallback
 {
@@ -61,7 +61,7 @@ public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCa
 }
 
 {{< /highlight >}}
-```
+
 
 ## **Uscita console**
 

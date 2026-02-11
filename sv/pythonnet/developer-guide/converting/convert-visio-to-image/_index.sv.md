@@ -14,8 +14,34 @@ Så här exporterar du ett diagram till en bild:
 - Skapa en instans av klassen Diagram.
 - Anropa Diagram-klassens Spara-metod och ställ in bildformatet du vill exportera till. Utdatafilen ser ut som originalfilen.
 ### **Exportera Microsoft Visio Ritning till bildfil**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToImage.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the png format
+diagram.save("Visio_out.png", SaveFileFormat.PNG)
+{{< /highlight >}}
+
 
 Det är också möjligt att spara en viss sida till bild istället för hela dokumentet:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportPageToImage.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+#// Save diagram as PNG
+options = saving.ImageSaveOptions(SaveFileFormat.PNG)
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the png format
+diagram.save("ExportPageToImage_out.png", options)
+{{< /highlight >}}

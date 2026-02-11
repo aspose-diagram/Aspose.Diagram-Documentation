@@ -9,8 +9,8 @@ description: How to create, insert fields using C# Diagram API .
 ## **Insert field**
 Aspose.Diagram for .NET lets you create and insert [field](https://reference.aspose.com/diagram/net/aspose.diagram/field) to Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. 
 ### **Programming Sample**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_InsertField();
@@ -32,4 +32,4 @@ shape.Fields.Add(fld);
 diagram.Save(dataDir + "InsertField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

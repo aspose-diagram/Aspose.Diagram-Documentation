@@ -27,4 +27,15 @@ In order to export VSD diagram to HTML, perform the following steps:
 ### **Save resultant HTML in the local storage**
 The resultant file can be saved by passing a complete path string, including the filename and extension, e.g. @"c:\temp\MyOutput.html".
 #### **Save Resultant HTML in Local Storage Programming Sample**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToHTML.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the html format
+diagram.save("Visio_out.html", SaveFileFormat.HTML)
+{{< /highlight >}}
+

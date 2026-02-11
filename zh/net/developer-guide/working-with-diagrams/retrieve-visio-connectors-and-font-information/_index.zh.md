@@ -12,8 +12,8 @@ Aspose.Diagram for .NET 提供检索信息的机制 - ID 和名称 - 关于[页�
 ### **编程范例**
 以下代码段检索 diagram 中连接器的信息。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -29,7 +29,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **检索字体信息**
 Aspose.Diagram 具有从中检索有关构成 diagram 的元素的信息的机制[页数](/diagram/zh/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [模版](https://docs.aspose.com/diagram/net/working-with-masters/), [连接器](/diagram/zh/net/retrieving-connector-information/)还有字体。本文介绍如何找出 diagram 中使用了哪些字体。
 
@@ -37,8 +37,8 @@ Aspose.Diagram 具有从中检索有关构成 diagram 的元素的信息的机�
 ### **检索字体编程示例**
 下面这段代码从 Visio diagram 中检索字体信息。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -53,12 +53,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **获取默认字体目录**
 Aspose.Diagram for .NET API 还允许使用 Diagram 类的 GetDefaultFontDir() 方法获取默认字体目录路径。以下代码从 Visio diagram 中检索默认字体目录。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -70,7 +70,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **获取未使用的字体**
 {{% alert color="primary" %}}
 
@@ -80,8 +80,8 @@ Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 Aspose.Diagram for .NET API 还允许使用 Diagram 类的 GetUnusedStyles() 方法获取未使用的字体。下面的一段代码从 Visio diagram 中检索未使用的字体。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -96,4 +96,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

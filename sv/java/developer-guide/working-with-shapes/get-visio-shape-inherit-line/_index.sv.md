@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur du får visio-formens linjestil �
 #### **Hämta ärvt linjedataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda linjedata. Kontrollera denna exempelkod:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

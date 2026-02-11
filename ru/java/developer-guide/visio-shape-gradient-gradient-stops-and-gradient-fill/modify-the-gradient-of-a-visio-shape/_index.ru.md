@@ -12,8 +12,8 @@ url: /ru/java/modify-the-gradient-of-a-visio-shape/
 ## **Изменение примера программирования градиентной заливки**
 [Форма](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape)класс предлагает свойство Fill, которое позволяет разработчикам извлекать[Градиентная заливка](https://reference.aspose.com/diagram/java/com.aspose.diagram/gradientfill)объект. Класс GradientFill содержит данные градиента фигуры Visio. Разработчики могут установить все его доступные свойства, а также получить точку градиента по индексу, чтобы установить свойства цвета и положения.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ModifyShapeGradientFill.class) + "ShapeGradientFill\\";
 
@@ -37,4 +37,4 @@ gradientfill.getGradientAngle().setValue(0.7853981633974501);
 // save the Visio drawing
 diagram.save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+

@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API permite a los desarrolladores formatear páginas de 
 ## **Aplicar hojas de estilo a la página Visio**
 Aspose.Diagram for .NET API le permite formatear una página Visio usando hojas de estilo. Puede definir una hoja de estilo y agregarla a la colección de hojas de estilo del documento Visio. El método ApplyStyle de la clase Page le permite aplicar la hoja de estilo definida a la página como se muestra en el siguiente ejemplo de código.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

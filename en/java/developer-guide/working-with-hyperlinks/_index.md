@@ -25,8 +25,8 @@ To identify properties in Microsoft Visio:
 
 The code snippets below adds shape's hyperlink data.
 ### **Add Hyperlink Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -54,7 +54,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Get Hyperlinks Data of the Visio Shapes**
 It is possible to get a shape's hyperlink data in a similar way that you [reading Visio shape data]().
 
@@ -80,8 +80,8 @@ To identify properties in Microsoft Visio:
 
 The code snippets below reads shape's hyperlink data.
 ### **Get Hyperlinks Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -100,4 +100,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

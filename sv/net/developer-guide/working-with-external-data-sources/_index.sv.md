@@ -12,8 +12,8 @@ Aspose.Diagram API tillåter användare att redigera SQL Server-dataanslutning o
 #### **Programmeringsexempel**
 Följande kod redigerar en viss dataanslutning och uppdaterar även alla tillgängliga postuppsättningar i Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ExternalDataSources();
@@ -30,4 +30,4 @@ diagram.Refresh();
 diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

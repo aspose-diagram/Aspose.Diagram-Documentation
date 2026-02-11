@@ -12,8 +12,8 @@ Field 对象表示文本运行中的文本字段。 Shape 类公开的字段属�
 
 ### **编程范例**
 下面的一段代码更新了一个字段的形状。
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

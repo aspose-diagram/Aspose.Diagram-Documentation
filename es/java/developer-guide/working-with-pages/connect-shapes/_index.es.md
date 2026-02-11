@@ -20,8 +20,8 @@ El siguiente código muestra cómo:
 #### **Ejemplo de programación de Connect Shapes**
 Use el siguiente código para conectar formas usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectShapes.class);
@@ -50,7 +50,7 @@ diagram.getPages().get(0).connectShapesViaConnector(rectangle1, ConnectionPointP
 diagram.save(dataDir + "ConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Resultado**|
 |:- |

@@ -13,8 +13,8 @@ description: تعديل خصائص عنصر تحكم activeX مع مكتبة Asp
 ## **استرجع عينة برمجة تحكم ActiveX**
 [شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) تقدم الفئة خاصية ActiveXControl التي تسمح للمطورين باسترداد عنصر تحكم ActiveX من كائن شكل Visio. يمكن للمطورين إرسال عنصر تحكم ActiveX في فئة عنصر تحكم ActiveX المناسبة ، ثم تعيين جميع خصائصه المتاحة.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

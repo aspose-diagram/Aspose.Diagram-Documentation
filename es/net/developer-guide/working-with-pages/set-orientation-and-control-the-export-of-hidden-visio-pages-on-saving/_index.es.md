@@ -19,8 +19,8 @@ Este ejemplo funciona de la siguiente manera:
 ### **Muestra de Programación de Orientación de Conjunto**
 El siguiente ejemplo de código muestra cómo configurar la orientación de la página Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -36,7 +36,7 @@ page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue
 diagram.Save(dataDir + "SetPageOrientation_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Controle la exportación de páginas ocultas Visio al guardar**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 ### **Oculte una página en Visio Diagram y establezca la opción de exportación**
@@ -44,8 +44,8 @@ diagram.Save(dataDir + "SetPageOrientation_out.vsdx", SaveFileFormat.VSDX);
 #### **Set the Export Option for PDF**
 The code below shows how to set save options before saving a diagram to PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -66,12 +66,12 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToPDF_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for HTML**
 The code below shows how to set save options before saving a diagram to HTML format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -94,12 +94,12 @@ options.IsExportComments = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToHTML_out.html", options);
 
 {{< /highlight >}}
-```
+
 #### **Establecer la opción de exportación para la imagen**
 El siguiente código muestra cómo configurar las opciones de guardado antes de guardar un diagram en formato de imagen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -122,12 +122,12 @@ options.IsExportComments = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToImage_out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for SVG**
 The code below shows how to set save options before saving a diagram to SVG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -157,12 +157,12 @@ options.ExportElementAsRectTag = true;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToSVG_out.svg", options);
 
 {{< /highlight >}}
-```
+
 #### **Set the Export Option for XPS**
 The code below shows how to set save options before saving a diagram to XPS format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -183,4 +183,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToXPS_out.xps", options);
 
 {{< /highlight >}}
-```
+

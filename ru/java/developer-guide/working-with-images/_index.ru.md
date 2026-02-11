@@ -11,8 +11,8 @@ url: /ru/java/working-with-images/
 #### **Пример программирования извлечения изображений**
 Следующий фрагмент кода извлекает все изображения с определенной страницы Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -32,7 +32,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Получить иконки различных форм Visio**
 Aspose.Diagram for Java API теперь позволяет разработчикам получать иконки различных Visio форм.
 ### **Получение значка формы**
@@ -43,8 +43,8 @@ Aspose.Diagram for Java API теперь позволяет разработчи
 1. Получить главный значок.
 1. Сохранить значок в локальном пространстве.
 #### **Получить пример программирования значков**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -62,7 +62,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **Замените форму изображения Visio Diagram**
 Aspose.Diagram for Java API позволяет разработчикам получать доступ и заменять доступные формы изображений в файле Visio diagram.
 ### **Замена формы изображения**
@@ -73,8 +73,8 @@ Aspose.Diagram for Java API позволяет разработчикам пол
 1. Примените фильтр, чтобы получить формы изображения.
 1. Сохраните результат Visio diagram в локальном пространстве.
 #### **Замена примера программирования формы изображения**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -100,7 +100,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Импортировать растровое изображение как форму Visio**
 Aspose.Diagram for Java API теперь позволяет разработчикам импортировать растровое изображение в виде формы.
 ### **Вставьте изображение BMP в Visio**
@@ -111,8 +111,8 @@ Aspose.Diagram for Java API теперь позволяет разработчи
 1. Импорт растрового изображения в виде фигуры Visio
 1. Сохраните номер diagram.
 #### **Вставьте образец программирования изображения BMP**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -132,4 +132,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

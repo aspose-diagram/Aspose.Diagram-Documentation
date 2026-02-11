@@ -12,8 +12,8 @@ description: Esta sección explica cómo obtener conectores visio e información
 ### **Ejemplo de programación**
 El siguiente fragmento de código recupera la información de los conectores en un diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -29,7 +29,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **Recuperación de información de fuentes**
  Aspose.Diagram dispone de mecanismos de recuperación de información sobre los elementos que componen un diagram, de[paginas](/diagram/es/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [plantillas](https://docs.aspose.com/diagram/net/working-with-masters/), [conectores](/diagram/es/net/retrieving-connector-information/) también fuentes. Este artículo muestra cómo averiguar qué fuentes se utilizan en un diagram.
 
@@ -37,8 +37,8 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 ### **Ejemplo de recuperación de programación de fuentes**
 El siguiente fragmento de código recupera información de fuente del Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -53,12 +53,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **Obtener el directorio de fuentes predeterminado**
 Aspose.Diagram for .NET API también permite obtener la ruta del directorio de fuentes predeterminada utilizando el método GetDefaultFontDir() de la clase Diagram. El siguiente fragmento de código recupera el directorio de fuentes predeterminado del Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -70,7 +70,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **Obtener fuentes no utilizadas**
 {{% alert color="primary" %}}
 
@@ -80,8 +80,8 @@ Este método es compatible con la versión 19.6 o superior.
 
 Aspose.Diagram for .NET API también permite obtener fuentes no utilizadas utilizando el método GetUnusedStyles() de la clase Diagram. El siguiente fragmento de código recupera las fuentes no utilizadas del Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -96,4 +96,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ url: /ar/java/retrieve-get-copy-and-insert-a-page/
 ### **استرداد نموذج برمجة معلومات الصفحة**
 يسترد جزء الكود التالي معلومات الصفحات من diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **احصل على Visio الصفحة من Diagram**
 في بعض الأحيان ، يحتاج المطورون إلى الحصول على تفاصيل صفحة رسم Visio. Aspose.Diagram له ميزات تساعدهم على القيام بذلك.
 
@@ -60,8 +60,8 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 
 يوضح المثال التالي كيفية الحصول على كائن صفحة بواسطة معرف من رسم Visio.
 #### **الحصول على كائن الصفحة عن طريق نموذج برمجة المعرف**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **الحصول على Visio صفحة كائن حسب الاسم**
 هذا المثال يعمل على النحو التالي:
 
@@ -83,8 +83,8 @@ Page page2 = diagram.getPages().getPage(pageid);
 #### **الحصول على كائن الصفحة حسب نموذج برمجة الاسم**
 يوضح المثال التالي كيفية الحصول على كائن صفحة بالاسم من رسم Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **نسخ صفحة Visio إلى Diagram آخر**
 Aspose.Diagram for Java API يسمح للمطورين بنسخ وإضافة محتوياته من Visio diagram إلى آخر. يشرح موضوع التعليمات هذا كيفية إنجاز هذه المهمة.
 
@@ -116,8 +116,8 @@ Aspose.Diagram for Java API يسمح للمطورين بنسخ وإضافة مح
 ### **نسخ نموذج لبرمجة الصفحة Visio**
 يوضح مثال الكود أدناه كيفية نسخ كائن صفحة Visio إلى رسم Visio آخر.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بنسخ Visio صفحة إلى نسخة صفحة أخرى**
 تأخذ طريقة النسخ الخاصة بفئة الصفحة نسخة صفحة ليتم نسخها.
 
@@ -189,8 +189,8 @@ newPage.copy(diagram.getPages().getPage("Page-1"));
 ### **أدخل نموذج برمجة صفحة فارغة**
 يدخل جزء الكود التالي صفحة فارغة في رسم Visio:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **انقل موضع الصفحة في الرسم Visio**
 Aspose.Diagram for Java API يمكنه تحريك موضع الصفحة في الرسم Visio. تساعد طريقة moveTo ، التي تعرضها فئة الصفحة ، المطورين على تحريك موضع الصفحة.
 ### **نقل نموذج برمجة موضع الصفحة**

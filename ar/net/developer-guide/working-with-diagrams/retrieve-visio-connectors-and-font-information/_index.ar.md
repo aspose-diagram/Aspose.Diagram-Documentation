@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية الحصول على visio م�
 ### **عينة البرمجة**
 يسترد جزء الكود التالي المعلومات الخاصة بالموصلات في diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -29,7 +29,7 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 }
 
 {{< /highlight >}}
-```
+
 ## **استرداد معلومات الخط**
  Aspose.Diagram لديه آليات لاسترجاع المعلومات حول العناصر التي تشكل diagram ، من[الصفحات](/diagram/ar/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [الإستنسل](https://docs.aspose.com/diagram/net/working-with-masters/), [موصلات](/diagram/ar/net/retrieving-connector-information/)وكذلك الخطوط. يوضح هذا المقال كيفية معرفة الخطوط المستخدمة في diagram.
 
@@ -37,8 +37,8 @@ foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
 ### **استرجاع نموذج برمجة الخط**
 يسترد جزء الكود التالي معلومات الخط من Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -53,12 +53,12 @@ foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
 }
 
 {{< /highlight >}}
-```
+
 ### **الحصول على دليل الخطوط الافتراضي**
 Aspose.Diagram for .NET API يسمح أيضًا بالحصول على مسار دليل الخط الافتراضي باستخدام طريقة GetDefaultFontDir () من Diagram Class. يسترد جزء الكود التالي دليل الخط الافتراضي من Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -70,7 +70,7 @@ Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 {{< /highlight >}}
-```
+
 ### **الحصول على خطوط غير مستخدمة**
 {{% alert color="primary" %}}
 
@@ -80,8 +80,8 @@ Console.WriteLine(vdxDiagram.GetDefaultFontDir());
 
 Aspose.Diagram for .NET API يسمح أيضًا بالحصول على الخطوط غير المستخدمة باستخدام طريقة GetUnusedStyles () من Diagram Class. يسترد جزء الكود التالي الخطوط غير المستخدمة من Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -96,4 +96,4 @@ StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
 Console.WriteLine(unused.Count);
 
 {{< /highlight >}}
-```
+

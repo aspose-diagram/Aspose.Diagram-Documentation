@@ -21,8 +21,8 @@ Microsoft Office Visio'de kullanıcı herhangi bir şekli korumak için aşağı
 ### **Şekil Koruma Programlama Örneğinin Kaldırılması**
 Python via Java için Aspose.Diagram'i kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğinin kilidini açmak) için uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -65,5 +65,5 @@ diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

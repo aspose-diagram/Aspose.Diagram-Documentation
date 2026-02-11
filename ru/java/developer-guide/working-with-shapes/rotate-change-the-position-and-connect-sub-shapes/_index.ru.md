@@ -9,8 +9,8 @@ url: /ru/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **Поворот образца программирования формы**
 Используйте следующий код в своем приложении Java, чтобы повернуть фигуру с помощью Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RotateVisioShape.class); 
@@ -28,7 +28,7 @@ shape.setAngle(190);
 diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Изменить положение фигуры**
 Класс Shape позволяет изменить положение фигуры. Соединительная линия автоматически настраивается, когда фигура перемещается в другое положение.
 
@@ -52,8 +52,8 @@ diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 ### **Пример программирования изменения позиции**
 Фрагмент кода ниже показывает, как переместить фигуру. Код извлекает страницу Visio по имени и форме по идентификатору 16 и перемещает ее позицию.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(MoveVisioShape.class);  
@@ -70,7 +70,7 @@ shape.move(1, 1);
 diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Соедините подформы групп**
 В этом разделе подробно описывается, как соединить два подфигуры двух разных форм групп на диаграммах Microsoft Visio с использованием Aspose.Diagram for Java.
 
@@ -87,8 +87,8 @@ diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 ### **Образец программирования Connect Sub-Shapes**
 Используйте следующий код в своем приложении Java, чтобы соединить подформы двух разных фигур группы, используя Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
@@ -114,7 +114,7 @@ page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToI
 diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Соедините фигуры с определенной фигурой**
 [Добавить и соединить Visio фигуры](/diagram/ru/java/add-and-connect-visio-shapes/) объясняет, как добавить фигуру и соединить ее с другими фигурами на диаграммах Microsoft Visio, используя Aspose.Diagram for Java. Также можно найти фигуры, которые связаны с определенной фигурой.
 
@@ -128,8 +128,8 @@ diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 ### **Получить пример программирования фигур**
 Используйте следующий код в своем приложении Java, чтобы найти все фигуры, связанные с определенной фигурой, используя Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
@@ -147,4 +147,4 @@ for (long id : connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

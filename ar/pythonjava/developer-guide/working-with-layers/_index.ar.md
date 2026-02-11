@@ -13,8 +13,8 @@ url: /ar/python-java/working-with-layers/
 
 يساعد الجزء التالي من التعليمات البرمجية على إضافة خصائص كائنات الشكل وإزالتها ونقلها.
 #### **عينات البرمجة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -47,7 +47,7 @@ diagram.save("ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **أضف طبقة في Visio PageSheet**
 Aspose.Diagram لـ Python via Java يسمح للمطورين بإضافة طبقات جديدة لتنظيم فئات مخصصة من الأشكال ، ثم تخصيص أشكال لتلك الطبقات برمجيًا.
 
@@ -55,8 +55,8 @@ Aspose.Diagram لـ Python via Java يسمح للمطورين بإضافة طب�
 
 يساعد الجزء التالي من التعليمات البرمجية على إضافة كائنات الطبقة.
 #### **عينات البرمجة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -91,7 +91,7 @@ diagram.save("AddLayer_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -103,8 +103,8 @@ Aspose.Diagram لـ Python via Java يمنح المطورين الوصول إل�
 
 يساعد الجزء التالي من التعليمات البرمجية في الحصول على قائمة الطبقات.
 #### **عينات البرمجة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -127,4 +127,4 @@ for layer in page.getPageSheet().getLayers():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

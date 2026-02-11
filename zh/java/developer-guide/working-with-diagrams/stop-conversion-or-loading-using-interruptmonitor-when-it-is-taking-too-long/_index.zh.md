@@ -29,8 +29,8 @@ Aspose.Diagram allows you to stop the conversion of Diagram to various formats l
 {{< /highlight >}}
 
 ## **示例代码**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 import com.aspose.diagram.Diagram;
 import com.aspose.diagram.InterruptMonitor;
 import com.aspose.diagram.SaveFileFormat;
@@ -123,4 +123,4 @@ public class StopConversionOrLoadingUsingInterruptMonitor
 	}
 }
 {{< /highlight >}}
-```
+

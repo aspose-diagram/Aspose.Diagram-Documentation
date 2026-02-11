@@ -21,8 +21,8 @@ Aspose.Diagram позволяет разработчикам устанавли�
 1. Установите тип вехи
 1. Сохраните чертеж Visio в любом поддерживаемом формате.
 #### **Установить образец программирования Milestone**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -49,7 +49,7 @@ milestoneHelper.Type = 6;
 diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Таблица значений формата даты:
@@ -101,8 +101,8 @@ Aspose.Diagram позволяет разработчикам настраива�
 1. Установите формат даты.
 1. Сохраните чертеж Visio в любом поддерживаемом формате.
 #### **Пример программирования установки периода времени и даты**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,7 +137,7 @@ timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Таблица значений формата даты:
@@ -192,8 +192,8 @@ Aspose.Diagram позволяет разработчикам настраива�
 #### **Обновление вех с помощью примера программирования TimeLineHelper**
 Используйте следующий код в своем приложении .NET, чтобы оживить вехи на временной шкале, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -223,7 +223,7 @@ timelineHelper.RefreshTimeLine();
 diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Обновление вех на временной шкале с помощью класса MilestoneHelper**
  Метод RefreshMilestone, предоставленный[Milestone Helper](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper)можно использовать для обновления вех на временной шкале.
 
@@ -240,8 +240,8 @@ diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 #### **Обновление вех с помощью примера программирования MilestoneHelper**
 Используйте следующий код в своем приложении .NET, чтобы обновить вехи на временной шкале с помощью Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -292,4 +292,4 @@ milestoneHelper.RefreshMilestone(timeline);
 diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

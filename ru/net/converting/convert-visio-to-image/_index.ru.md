@@ -14,8 +14,8 @@ description: В этом разделе показано, как Aspose.Diagram 
 - Создайте экземпляр класса Diagram.
 - Вызовите метод Save класса Diagram и установите формат изображения, в который вы хотите экспортировать. Выходной файл изображения выглядит как исходный файл.
 ### **Экспорт Microsoft Visio чертежа в файл изображения**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -27,12 +27,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 diagram.Save(dataDir + "ExportToImage_out.png", SaveFileFormat.PNG);
 
 {{< /highlight >}}
-```
+
 
 Также можно сохранить в изображение определенную страницу, а не весь документ:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -49,4 +49,3 @@ options.PageIndex = 0;
 diagram.Save(dataDir + "ExportPageToImage_out.png", options);
 
 {{< /highlight >}}
-```

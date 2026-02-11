@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API 允许开发人员格式化 Visio Diagram 文件的�
 ## **将样式表应用于 Visio 页面**
 Aspose.Diagram for .NET API 允许您使用样式表格式化 Visio 页面。您可以定义样式表并将其添加到 Visio 文档的样式表集合中。 Page 类的 ApplyStyle 方法允许您将定义的样式表应用到页面，如以下代码示例所示。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

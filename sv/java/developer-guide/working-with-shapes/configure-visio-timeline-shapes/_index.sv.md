@@ -22,8 +22,8 @@ Processen för uppdatering av milstolpsdatum, datumformat, flagga för automatis
 1. Ställ in milstolpetypen
 1. Spara Visio-ritningen i valfritt format som stöds.
 #### **Ställ in milstolpeprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabell över datumformatvärden:
@@ -104,8 +104,8 @@ Processen för att uppdatera tidsperiodens start-, slut- och datumformat är:
 1. Ställ in ett datumformat.
 1. Spara Visio-ritningen i valfritt format som stöds.
 #### **Ställ in tidsperiod och datumprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Tabell över datumformatvärden:
@@ -194,8 +194,8 @@ Koden nedan visar hur man:
 #### **Uppdatera milstolpar med TimeLineHelper-programmeringsexempel**
 Använd följande kod i din Java-applikation för att återuppliva milstolpar på tidslinjen med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Uppdatera Milestones på tidslinjen med MilestoneHelper-klassen**
  RefreshMilestone-metoden exponerad av[MilestoneHelper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)klass kan användas för att uppdatera milstolpar på tidslinjen.
 
@@ -241,8 +241,8 @@ Koden nedan visar hur man:
 #### **Uppdatera Milestones med hjälp av MilestoneHelper-programmeringsexempel**
 Använd följande kod i din Java-applikation för att uppdatera milstolpar på tidslinjen med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

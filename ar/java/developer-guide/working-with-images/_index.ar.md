@@ -11,8 +11,8 @@ url: /ar/java/working-with-images/
 #### **عينة برمجة استخراج الصور**
 يستخرج الجزء التالي من التعليمات البرمجية جميع الصور من صفحة Visio معينة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -32,7 +32,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **احصل على أيقونات بأشكال Visio مختلفة**
 Aspose.Diagram for Java API يسمح الآن للمطورين بالحصول على أيقونات بأشكال Visio مختلفة.
 ### **الحصول على أيقونة الشكل**
@@ -43,8 +43,8 @@ Aspose.Diagram for Java API يسمح الآن للمطورين بالحصول ع
 1. احصل على أيقونة رئيسية.
 1. حفظ الرمز في الفضاء المحلي.
 #### **احصل على نموذج لبرمجة الأيقونات**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -62,7 +62,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **استبدال شكل صورة Visio Diagram**
 Aspose.Diagram for Java API يسمح للمطورين بالوصول إلى أشكال الصور المتاحة واستبدالها في Visio diagram.
 ### **استبدال شكل صورة**
@@ -73,8 +73,8 @@ Aspose.Diagram for Java API يسمح للمطورين بالوصول إلى أش
 1. قم بتطبيق عامل التصفية للحصول على أشكال الصور.
 1. حفظ الناتج Visio diagram في المساحة المحلية.
 #### **استبدال نموذج لبرمجة شكل صورة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -100,7 +100,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استيراد صورة نقطية كشكل Visio**
 Aspose.Diagram for Java API يسمح الآن للمطورين باستيراد صورة نقطية كشكل Microsoft Visio.
 ### **أدخل BMP صورة في Visio**
@@ -111,8 +111,8 @@ Aspose.Diagram for Java API يسمح الآن للمطورين باستيراد 
 1. قم باستيراد صورة نقطية كشكل Visio
 1. احفظ diagram.
 #### **أدخل BMP عينة برمجة صورة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -132,4 +132,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

@@ -7,8 +7,8 @@ url: /tr/java/create-layout-and-auto-fit-shapes/
 ## **Diagram oluşturma**
  Aspose.Diagram for Java, Microsoft Office Otomasyon olmadan kendi uygulamalarınız içinden Microsoft Visio diyagramlarını okumanızı ve oluşturmanızı sağlar. Yeni belgeler oluştururken ilk adım, bir diagram oluşturmaktır. Ardından[şekiller ve bağlayıcılar ekleyin](/diagram/tr/java/add-and-connect-visio-shapes/)diagram'i oluşturmak için.[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) yeni bir diagram oluşturmak için sınıf.
 ### **Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateDiagram.class);
@@ -22,7 +22,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Akış Şeması Stilinde Yerleşim Şekilleri**
  Akış şemaları ve ağ şemaları gibi belirli bağlantılı çizimlerle,**Düzen Şekilleri** şekilleri otomatik olarak konumlandırma özelliği. Otomatik olarak konumlandırma, her şekli manuel olarak yeni bir konuma sürüklemekten daha hızlıdır.
 
@@ -48,8 +48,8 @@ Bu makaledeki kod parçacıkları, diagram kaynağını alır ve her birini ayr�
 1. LayoutOptions'ı geçirerek Diagram sınıfının Layout yöntemini çağırın.
 1. Visio çizimini yazmak için Diagram sınıfının Save yöntemini çağırın.
 ### **Akış Şeması Stili Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(LayOutShapesInFlowchartStyle.class);     
@@ -88,7 +88,7 @@ diagram.layout(flowChartOptions);
 diagram.save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **Şekilleri Kompakt Ağaç Stilinde Yerleştirme**
  Kompakt ağaç düzeni stili, bir ağaç yapısı oluşturmaya çalışır. ile aynı girdi dosyasını kullanır.[yukarıdaki örnek](/diagram/tr/java/create-2c-layout-and-auto-fit-shapes/)ve birkaç farklı kompakt ağaç stiline kaydeder.
 
@@ -106,8 +106,8 @@ diagram.save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
 1. LayoutOptions'ı geçirerek Diagram sınıfının Layout yöntemini çağırın.
 1. Visio dosyasını yazmak için Diagram sınıfının Save yöntemini çağırın.
 #### **Kompakt Ağaç Stili Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(LayOutShapesInCompactTreeStyle.class);
@@ -145,7 +145,7 @@ diagram.layout(compactTreeOptions);
 diagram.save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'i otomatik sığdır**
 Aspose.Diagram API, Visio çiziminin otomatik sığdırılmasını destekler. Bu özellik işlemi, dış şekilleri Visio sayfa sınırının içine getirmeye yardımcı olur.
 
@@ -160,8 +160,8 @@ Bu örnek şu şekilde çalışır:
 ### **Otomatik Sığdırma Programlama Örneği**
 Aşağıdaki örnek kod, Visio diagram'de şekillerin nasıl otomatik sığdırılacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AutoFitShapesInVisio.class);
@@ -177,7 +177,7 @@ options.setAutoFitPageToDrawingContent(true);
 diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
 
 {{< /highlight >}}
-```
+
 ## **VBA Project ile Çalışmak**
 ### **Visio Diagram'de VBA Modül Kodunu Değiştirin**
 Bu makale, Aspose.Diagram for Java kullanılarak bir VBA modülü kodunun otomatik olarak nasıl değiştirileceğini gösterir.
@@ -186,8 +186,8 @@ VbaModule, VbaModuleCollection, VbaProject, VbaProjectReference ve VbaProjectRef
 ### **VBA Modülü Kod Programlama Örneği Değiştirin**
 Lütfen bu kod örneğini kontrol edin:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // load an existing Visio diagram
 String dataDir = Utils.getDataDir(ModifyVBAModuleCode.class);
@@ -207,14 +207,14 @@ for (int i = 0; i < diagram.getVbaProject().getModules().getCount(); i++) {
 diagram.save(dataDir + "out.vssm", SaveFileFormat.VSSM);
 
 {{< /highlight >}}
-```
+
 ### **Visio Diagram'den Tüm Makroları Kaldır**
 Aspose.Diagram for Java, geliştiricilerin Visio diagram'deki tüm makroları kaldırmasına olanak tanır.
 
 Tarafından sunulan JavaProjectData özelliği[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) sınıfı, Visio çiziminden tüm makroları kaldırmanıza olanak tanır.
 ### **Tüm Makroları Kaldır Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RemoveMacrosFromVisio.class);  
@@ -228,4 +228,4 @@ diagram.setVbProjectData(null);
 diagram.save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -15,8 +15,8 @@ Aspose.Diagram for Java 提供检索信息的机制 - ID 和名称 - 关于[页�
 ### **编程范例**
 以下代码段检索 diagram 中连接器的信息。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
@@ -33,7 +33,7 @@ for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getCon
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 ## **检索字体信息**
 Aspose.Diagram 具有从中检索有关构成 diagram 的元素的信息的机制[页数](/diagram/zh/java/retrieve-get-copy-and-insert-a-page/), [模版](), [连接器](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)还有字体。本文介绍如何找出 diagram 中使用了哪些字体。
 
@@ -43,8 +43,8 @@ Aspose.Diagram 具有从中检索有关构成 diagram 的元素的信息的机�
 ### **检索字体编程示例**
 下面这段代码从 Visio diagram 中检索字体信息。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
@@ -61,14 +61,14 @@ for(Font font : (Iterable<Font>) diagram.getFonts())
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 
 ![待办事项：图片_替代_文本](retrieve-visio-connectors-and-font-information_2.png)
 ### **获取默认字体目录**
 Aspose.Diagram for Java API 还允许使用 Diagram 类的 getDefaultFontDir() 方法获取默认字体目录路径。以下代码从 Visio diagram 中检索默认字体目录。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
@@ -80,4 +80,4 @@ Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 System.out.println(diagram.getDefaultFontDir());
 
 {{< /highlight >}}
-```
+

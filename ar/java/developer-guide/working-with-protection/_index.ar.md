@@ -23,8 +23,8 @@ url: /ar/java/working-with-protection/
 
 استخدم الكود أدناه في تطبيق Java لأداء نفس المهام - قفل وفتح عناصر مختلفة من diagram - باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
@@ -39,7 +39,7 @@ diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
 diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ### **قم بتحرير حماية الشكل Visio**
  تسمح حماية الأشكال Visio للمستخدمين بقفل جوانب معينة من الأشكال. تشمل جوانب الأشكال التي يمكن تأمينها من خلال حماية الشكل العرض والارتفاع وموضع x وموضع y والدوران والمزيد. يمكن للمطورين تحقيق ذلك باستخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -59,8 +59,8 @@ diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
 
 استخدم الكود التالي في تطبيق Java الخاص بك للقيام بنفس الشيء (قفل / إلغاء قفل أي سمة شكل) باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -97,4 +97,4 @@ shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

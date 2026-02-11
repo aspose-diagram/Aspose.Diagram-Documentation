@@ -19,8 +19,8 @@ Der folgende Code zeigt, wie man:
 #### **Programmierbeispiel für das Aussehen des Konnektors festlegen**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um das Aussehen der Verbindertypform mithilfe von Aspose.Diagram for Java festzulegen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -38,7 +38,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Wählen Sie die Umleitungsoption der Verbindungsform aus**
  Die ConFixedCode-Eigenschaft, die von der bereitgestellt wird[Layout](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) Klasse kann verwendet werden, um die Umleitungsoption auszuwählen. Die Layout-Eigenschaft, verfügbar gemacht durch die[Form](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) Klasse, verwendet werden.
 
@@ -54,8 +54,8 @@ Der folgende Code zeigt, wie man:
 ### **Wählen Sie Programmierbeispiel für Umleitungsoption**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um die Umleitungsoption der Verbinderform mit Aspose.Diagram for Java auszuwählen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -73,4 +73,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

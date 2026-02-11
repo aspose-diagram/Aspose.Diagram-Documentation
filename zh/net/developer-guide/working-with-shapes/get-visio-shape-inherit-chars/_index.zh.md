@@ -10,8 +10,8 @@ description: 本节介绍如何获取 visio 形状的字体样式从其父样式
 #### **检索继承的字体数据编程示例**
 以下代码片段检索形状的继承字体数据。请检查此示例代码：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -38,5 +38,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

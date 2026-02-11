@@ -19,8 +19,8 @@ url: /fr/java/setting-cells-in-the-event-section-of-shapesheet/
 ## **Définition des cellules d'événement**
 [Événement](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) permet aux développeurs de définir des cellules d'événement dans la feuille ShapeSheet. Cette rubrique d'aide montre comment les développeurs peuvent définir des formules dans les cellules d'événement :
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -45,4 +45,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

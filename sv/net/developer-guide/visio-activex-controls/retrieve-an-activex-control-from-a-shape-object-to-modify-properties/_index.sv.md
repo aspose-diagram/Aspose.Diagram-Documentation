@@ -13,8 +13,8 @@ Med hjälp av Aspose.Diagram API kan utvecklare hämta en ActiveX-kontroll från
 ## **Hämta ett ActiveX-kontrollprogrammeringsexempel**
 [Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class erbjuder ActiveXControl-egenskap som tillåter utvecklare att hämta en ActiveX-kontroll från ett Visio-formobjekt. Utvecklare kan casta en ActiveX-kontroll i lämplig ActiveX-kontrollklass och sedan ställa in dess alla tillgängliga egenskaper.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

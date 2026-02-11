@@ -21,8 +21,8 @@ I Microsoft Office Visio kan användaren utföra följande åtgärder för att s
 ### **Ta bort formskyddsprogrammeringsprovet**
 Använd följande kod i din applikation för att göra samma sak (låsa upp valfritt formattribut) med Aspose.Diagram för Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -65,5 +65,5 @@ diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

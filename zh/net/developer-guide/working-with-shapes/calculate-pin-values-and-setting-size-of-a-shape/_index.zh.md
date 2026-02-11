@@ -26,8 +26,8 @@ description: 本节介绍如何使用 Aspose.Diagram 计算子形状的 PinX 和
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -55,7 +55,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **设置形状的高度和宽度**
 这[形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类允许您通过使用 SetHeight 和 SetWidth 方法指定形状的高度和宽度来控制形状大小。
 
@@ -71,8 +71,8 @@ double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 ### **设置高度和宽度编程示例**
 下面的代码片段显示了如何设置形状的高度和宽度。该代码查找形状名称为矩形且形状 ID 为 1 的矩形，并将其高度和宽度设置为双精度值。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -90,4 +90,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

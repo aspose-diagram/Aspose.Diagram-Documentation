@@ -15,8 +15,8 @@ Aspose.Diagram 允许用户检查 VBA 代码项目是否已签名。请使用 [*
 
 ## 示例代码
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -30,7 +30,7 @@ boolean isSigned = diagram.getVbaProject().isSigned();
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## 控制台输出
 

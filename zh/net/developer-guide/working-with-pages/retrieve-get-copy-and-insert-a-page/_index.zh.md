@@ -14,8 +14,8 @@ description: 本节介绍如何使用 Aspose.Diagram 插入页面、复制页面
 ### **检索页面信息编程示例**
 以下代码从 diagram 中检索页面信息。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -42,7 +42,7 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 }
 
 {{< /highlight >}}
-```
+
 ## **从 Diagram 获取 Visio 页面**
 有时，开发人员需要获取 Visio 图的页面详细信息。 Aspose.Diagram 具有帮助他们做到这一点的功能。
 
@@ -55,8 +55,8 @@ foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
 
 以下示例显示如何通过 id 从 Visio 绘图中获取页面对象。
 #### **通过 ID 获取页面对象编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -70,7 +70,7 @@ int pageid = 2;
 Page page2 = diagram.Pages.GetPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **按名称获取 Visio 页面对象**
 这个例子的工作原理如下：
 
@@ -79,8 +79,8 @@ Page page2 = diagram.Pages.GetPage(pageid);
 #### **按名称获取页面对象编程示例**
 以下示例显示如何从 Visio 绘图中按名称获取页面对象。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -94,7 +94,7 @@ string pageName = "Flow 2";
 Page page2 = diagram.Pages.GetPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **将 Visio 页面复制到另一个 Diagram**
 Aspose.Diagram for .NET API 允许开发人员将其内容从一个 Visio diagram 复制并添加到另一个。此帮助主题说明了如何完成此任务。
 
@@ -113,8 +113,8 @@ Aspose.Diagram for .NET API 允许开发人员将其内容从一个 Visio diagra
 ### **复制一个Visio页面编程样例**
 下面的代码示例显示了如何将 Visio 页面对象复制到另一个 Visio 绘图中。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -157,7 +157,7 @@ NewDigram.Pages.Remove(NewDigram.Pages[0]);
 NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **将 Visio Page 复制到另一个 Page 实例**
 Page 类的 Copy 方法采用要克隆的页面实例。
 
@@ -183,8 +183,8 @@ Pages 集合公开的 Add 方法允许开发人员在 Visio diagram 中添加一
 ### **插入空白页编程示例**
 下面的一段代码在 Visio 绘图中插入了一个空白页：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -223,7 +223,7 @@ diagram.Pages.Add(newPage);
 diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **在 Visio 绘图中移动页面位置**
 Aspose.Diagram for .NET API 可以在Visio绘图中移动页面位置。 Page 类公开的 MoveTo 方法可帮助开发人员移动页面位置。
 ### **移动页面位置编程示例**

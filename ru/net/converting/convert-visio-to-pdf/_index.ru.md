@@ -39,8 +39,8 @@ description: В этом разделе показано, как Aspose.Diagram 
 ### **Экспорт Microsoft Visio Чертеж в PDF**
 В примерах кода показано, как экспортировать чертеж Microsoft Visio в PDF с помощью C#.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -63,12 +63,12 @@ pdfStream.Close();
 System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
 
 {{< /highlight >}}
-```
+
 ### **Разделить несколько страниц**
 Aspose.Diagram for .NET позволяет разделить несколько страниц при преобразовании Microsoft Visio Diagram в PDF. В следующем фрагменте кода показана функциональность.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -82,12 +82,12 @@ options.SplitMultiPages = true;
 diagram.Save(dataDir + "SplitMultiPages.pdf", options);
 
 {{< /highlight >}}
-```
+
 ### **Использовать обратный вызов для сохранения страницы**
 Если у вас есть несколько страниц, Aspose.Diagram for .NET позволяет использовать обратный вызов сохранения страницы при преобразовании Microsoft Visio Diagram в PDF. Следующий фрагмент кода показывает функциональность.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -101,7 +101,7 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "PageSavingCallback.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **Класс TestDiagramPageSavingCallback**
 {{< highlight "java" >}}
 

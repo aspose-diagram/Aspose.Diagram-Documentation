@@ -17,8 +17,8 @@ El siguiente código muestra cómo:
 #### **Obtenga una muestra de programación pegada de conectores**
 Use el siguiente código en su aplicación Java para encontrar todos los conectores pegados a una forma usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -37,7 +37,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Pegue las formas Visio junto con el punto de conexión**
 Aspose.Diagram for Java permite a los desarrolladores unir formas a través de los puntos de conexión.
 ### **Formas de pegamento**
@@ -53,8 +53,8 @@ El siguiente código muestra cómo:
 #### **Pegamento Visio Muestra de programación de formas**
 Use el siguiente código en su aplicación Java para pegar formas a través de los puntos de conexión:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -73,7 +73,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Pegue las formas dentro del recipiente**
 Aspose.Diagram for Java permite a los desarrolladores pegar formas grupales dentro de un contenedor.
 ### **Forma de grupo de pegamento**
@@ -89,8 +89,8 @@ El siguiente código muestra cómo:
 #### **Muestra de programación de formas de pegamento en el interior**
 Use el siguiente código en su aplicación Java para pegar la forma del grupo dentro de un contenedor:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -119,4 +119,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

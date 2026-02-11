@@ -8,8 +8,8 @@ description: В этом разделе объясняется, как рисо�
 ## **Нарисовать полилинию на странице**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать полилинию на странице. Чтобы нарисовать полилинию, предложение API**Рисоватьполилинию()**метод[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)учебный класс. В приведенном ниже примере кода показано, как нарисовать полилинию на чертеже Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,12 +25,12 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPolylineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Нарисуйте Безье на странице**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать на странице форму Безье. Чтобы нарисовать фигуру Безье, API предлагает**DrawBezier()**метод[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **учебный класс. В приведенном ниже примере кода показано, как нарисовать кривую Безье на чертеже Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -44,12 +44,12 @@ diagram.Pages[0].DrawBezier(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawBezierInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Нарисовать сплайн на странице**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать форму сплайна на странице. Чтобы нарисовать фигуру Безье, API предлагает**DrawSpline()**метод[**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram)** **учебный класс. В приведенном ниже примере кода показано, как нарисовать кривую Безье на чертеже Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -66,4 +66,4 @@ diagram.Pages[0].DrawSpline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawSplineInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -27,8 +27,8 @@ Aspose.Diagram API 公开了 FontDirs 属性[Diagram](https://reference.aspose.c
 #### **编程范例**
 下面的代码示例演示了如何设置 Aspose.Diagram 以在呈现或嵌入字体时在多个文件夹中查找 TrueType 字体。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -43,7 +43,7 @@ diagram.FontDirs = fontDirs;
 diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **在呈现过程中接收丢失字体和字体替换的通知**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **缺少字体的通知和字体替换编程示例**

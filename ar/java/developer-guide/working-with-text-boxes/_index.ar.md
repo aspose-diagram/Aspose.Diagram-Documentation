@@ -11,8 +11,8 @@ url: /ar/java/working-with-text-boxes/
 ### **نموذج برمجة نص التنسيق**
 يحدد الجزء التالي من التعليمات البرمجية الاتجاه والمحاذاة والهوامش ولون الخلفية وشفافية لون الخلفية وموضع علامة الجدولة الافتراضي لزاوية الاتجاه وموضع نص الشكل في الأعلى.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FormatShapeTextBlockSection.class); 
@@ -47,7 +47,7 @@ shape.getTextBlock().getDefaultTabStop().setValue(2);
 diagram.save(dataDir + "FormatShapeTextBlockSection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتدوير وتعيين موضع نص الشكل**
 Aspose.Diagram API يسمح للمطورين بضبط موضع النص وأيضًا تدوير النص على الشكل Visio. لإنجاز هذه المهمة ، يوفر قسم تحويلات النص في ورقة الأشكال خصائص TxtPin و TxtLocPin و TxtWidth و TxtHeight. يمكن للمطورين التفاعل مع هذه الخصائص برمجيًا باستخدام Aspose.Diagram API.
 
@@ -60,8 +60,8 @@ Aspose.Diagram API يسمح للمطورين بضبط موضع النص وأيض
 ### **عيّن موضع نص الشكل في الأعلى**
 يحدد الجزء التالي من التعليمات البرمجية زاوية الاتجاه وموضع نص الشكل في الأعلى.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtTop.class);   
@@ -85,12 +85,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtTop_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **تعيين موضع نص الشكل في الأسفل**
 يحدد جزء الكود التالي زاوية الاتجاه وموضع نص الشكل في الأسفل.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtBottom.class);  
@@ -114,12 +114,12 @@ Shape shape = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid)
 diagram.save(dataDir + "SetShapeTextPositionAtBottom_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **تعيين موضع نص الشكل إلى اليسار**
 يحدد الجزء التالي من التعليمات البرمجية زاوية الاتجاه وموضع نص الشكل على اليسار.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtLeft.class);  
@@ -142,12 +142,12 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtLeft_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **اضبط موضع نص الشكل على اليمين**
 يحدد الجزء التالي من التعليمات البرمجية زاوية الاتجاه وموضع نص الشكل على اليمين.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetShapeTextPositionAtRight.class);  
@@ -171,4 +171,4 @@ shape.getTextXForm().getTxtAngle().setValue(angleRad);
 diagram.save(dataDir + "SetShapeTextPositionAtRight_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

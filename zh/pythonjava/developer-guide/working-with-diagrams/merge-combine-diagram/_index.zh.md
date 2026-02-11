@@ -12,8 +12,8 @@ Aspose.Diagram for Python via Java API has the Diagram class that represents a V
 使用方法**结合**在 Diagram 类中组合图表。
 
 ## **示例代码**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,4 +36,4 @@ diagram2.save("CombineDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

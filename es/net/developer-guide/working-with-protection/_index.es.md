@@ -18,8 +18,8 @@ Las propiedades ProtectBkgnds, ProtectMasters, ProtectShapes y ProtectStyles, ex
 #### **Edite la muestra de programación de protección Diagram**
 Use el código a continuación en una aplicación .NET para realizar las mismas tareas, como bloquear y desbloquear diferentes elementos del Visio diagram usando Aspose.Diagram for .NET API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -35,7 +35,7 @@ diagram.DocumentSettings.ProtectStyles = BOOL.True;
 diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Establecer protección de la forma Visio**
  La protección de formas Visio permite a los usuarios bloquear aspectos específicos de las formas. Los aspectos de las formas que se pueden bloquear a través de la protección de formas incluyen el ancho, la altura, la posición x, la posición y, la rotación y más. Los desarrolladores pueden lograr esto usando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Edite la protección de forma Visio**
@@ -51,8 +51,8 @@ En Microsoft Office Visio, el usuario puede realizar las siguientes acciones par
 ### **Edite el ejemplo de programación de protección de forma**
 Use el siguiente código en su aplicación .NET para hacer lo mismo (bloquear/desbloquear cualquier atributo de forma) usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -90,4 +90,4 @@ shape.Protection.LockWidth.Value = BOOL.True;
 diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

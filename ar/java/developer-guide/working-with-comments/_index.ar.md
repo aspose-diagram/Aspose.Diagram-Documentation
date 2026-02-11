@@ -11,8 +11,8 @@ Aspose.Diagram for Java API يسمح للمطورين بإضافة تعليق ف
 
  Microsoft Visio يقوم المستخدمون باضافة تعليقات للصفحة بأكملها والتي يتم تقديمها بواسطة شارة في الركن الأيسر العلوي من الصفحة. يمكن للمطورين[إضافة تعليقات على مستوى الصفحة في Visio](). [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) يدعم API بالإضافة إلى ذلك تغيير تعليق مستوى الصفحة في Visio.
 #### **إضافة تعليق عينة البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddPageLevelCommentInVisio.class);
@@ -26,14 +26,14 @@ diagram.getPages().getPage(0).addComment(7.205905511811023, 3.880708661417323, "
 diagram.save(dataDir + "AddPageLevelCommentInVisio_Out.vdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **قم بتحرير تعليق على مستوى الصفحة في Visio Diagram**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API يدعم تعديل التعليق على مستوى الصفحة في صفحة الرسم Visio والتي يتم تقديمها بواسطة أيقونة في الزاوية اليسرى العليا من الصفحة.
 ### **تعديل التعليق**
 تسمح الخاصية Comment ، المعروضة بواسطة فئة Annotation ، للمطورين بتحرير التعليقات في صفحة الرسم Visio.
 #### **تحرير نموذج برمجة التعليق**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(EditPageLevelCommentInVisio.class);
@@ -54,7 +54,7 @@ for (Annotation annotation : (Iterable<Annotation>) annotations)
 diagram.save(dataDir + "EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **أضف تعليقًا على مستوى الشكل في رسم Visio**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API يسمح للمطورين بإضافة تعليقات إلى الشكل في رسم Visio.
 ### **أضف تعليق**

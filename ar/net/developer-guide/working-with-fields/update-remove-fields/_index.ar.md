@@ -11,8 +11,8 @@ description: يشرح هذا القسم كيفية تحديث الحقول أو 
  ال[مجال](https://reference.aspose.com/diagram/net/aspose.diagram/field) يمثل الكائن حقل نص في ملف[نص](https://reference.aspose.com/diagram/net/aspose.diagram/text) يجري. خاصية الحقل ، المكشوفة بواسطة[شكل](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) فئة تدعم مجموعة من Aspose.Diagram.Field كائنات.
 ### **عينة البرمجة**
 الجزء التالي من حقل تحديث التعليمات البرمجية في الشكل.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **إزالة الحقل**
 الجزء التالي من التعليمات البرمجية يزيل الحقل في الشكل.
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

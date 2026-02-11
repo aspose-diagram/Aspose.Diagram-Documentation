@@ -15,8 +15,8 @@ Users collection exposed by [Shape](http://www.aspose.com/api/net/diagram/aspose
 #### **Retrieve Cells Programming Sample**
 The following piece of code allows developers to read the user defined cells fields.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -34,7 +34,7 @@ foreach (User user in shape.Users)
 }
 
 {{< /highlight >}}
-```
+
 
 
 This image shows the output after running the above code:
@@ -47,8 +47,8 @@ The Add method exposed by the Users Collection can be used to create a user-defi
 #### **Create Cell Programming Sample**
 Use the following code example in your .NET application to create user-defined cell in the shapesheet using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -71,7 +71,7 @@ shape.Users.Add(user);
 diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Retrieve User-defined Cells from Shapesheet**
 Aspose.Diagram for .NET API allows to retrieve user-defined cells from shapesheet. This example topic describes the way, developers can retrieve all User.name for all shapes in a drawing.
 ### **Retrieve User-defined Cells**
@@ -79,8 +79,8 @@ The NameU, Value.Val and Prompt.Value properties exposed by the User class can b
 #### **Retrieve Cells from Shapesheet Programming Samples**
 Use the following code in your .NET application to retrieve all user-defined cells from shapesheet using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -105,4 +105,4 @@ foreach (Aspose.Diagram.Page objPage in diagram.Pages)
 }  
 
 {{< /highlight >}}
-```
+

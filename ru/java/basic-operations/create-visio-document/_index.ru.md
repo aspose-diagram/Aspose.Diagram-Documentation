@@ -11,8 +11,8 @@ Aspose.Diagram for Java позволяет читать и создавать Mi
 ### **Создать Visio Пример программирования чертежей**
 В приведенном ниже коде показано создание нового чертежа Microsoft Visio. Обратите внимание, что пустой чертеж содержит одну пустую страницу.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -23,7 +23,7 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

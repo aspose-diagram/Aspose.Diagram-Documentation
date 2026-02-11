@@ -18,8 +18,8 @@ DocumentProperties sınıfı tarafından sunulan TimeCreated, TimeEdited, TimePr
 
 Dosyadaki bilgileri değiştirmek için bu özellikleri de ayarlayabilirsiniz. Aşağıdaki kod örnekleri, dosyanın ne tarafından oluşturulduğu, ne zaman oluşturulduğu, düzenlendiği, yazdırıldığı ve kaydedildiği hakkında bilgilerin nasıl alınacağını gösterir.
 #### **Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -40,7 +40,7 @@ Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
 Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 
 {{< /highlight >}}
-```
+
 ## **Yazma Visio Belge Özet Bilgileri**
 Microsoft Visio, sizin ve iş arkadaşlarınızın bir diagram'i tanımlamasına yardımcı olacak bir dizi belge özeti bilgisi özelliği tanımlamanıza olanak tanır. Başlık, konu, yazar ve açıklama gibi özet özellikler, dosyanın aranırken bulunmasını ve arandığında tanınmasını kolaylaştırır. dosya tarama
 ### **Yazma Microsoft Visio Doküman Özet Bilgi**
@@ -63,8 +63,8 @@ Mevcut bir VDX veya VSD dosyasının çizim özeti bilgilerini güncellemek içi
 1. VDX çıkış dosyasını Microsoft Visio'de açın.
 1. Dosya menüsünden Bilgi seçimi.
 #### **Yazma Visio Doküman Özet Bilgi Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -89,14 +89,14 @@ diagram.DocumentProps.Template = "Aspose Template";
 diagram.Save(dataDir + "SetVisioProperties_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Dosyasının Formatını Algıla**
 Geliştiriciler, Aspose.Diagram for .NET API'i kullanarak, dosya uzantısı dosya içeriğinin uygun olduğunu garanti etmediğinden, Visio dosyasının biçimini dosyayı açmadan önce algılayabilir.
 ### **Biçim Programlama Örneği Algıla**
 Aşağıdaki örnek kod, bir dosya biçiminin (dosya yolu veya akışı kullanılarak) nasıl algılanacağını ve uzantısının nasıl kontrol edileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -117,4 +117,4 @@ Console.WriteLine("The spreadsheet format is: " + info.FileFormatType);
 Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
 
 {{< /highlight >}}
-```
+

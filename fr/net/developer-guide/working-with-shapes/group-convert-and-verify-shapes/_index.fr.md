@@ -22,8 +22,8 @@ Le code ci-dessous montre comment :
 #### **Exemple de programmation de formes de groupe**
 Utilisez le code suivant dans votre application .NET pour regrouper les formes en utilisant Aspose.Diagram for .NET API.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -48,7 +48,7 @@ page.Shapes.Group(ss);
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Convertir une forme Visio en d'autres formats de fichier**
 Aspose.Diagram for .NET API permet aux développeurs de convertir une seule forme Visio en tout autre format de fichier pris en charge. Dans cet article, nous supprimons toutes les autres formes Visio de la page et personnalisons le paramètre de page en fonction de la taille de la forme source.
 ### **Conversion d'une forme particulière Visio**
@@ -64,8 +64,8 @@ Cet exemple de code fonctionne comme suit :
 1. Définissez la taille de la page.
 1. Enregistrez la page Visio dans n'importe quel format de fichier pris en charge.
 #### **Exemple de programmation de conversion de forme**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,7 +123,7 @@ opts.PageIndex = 1;
 srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -161,8 +161,8 @@ diagram.Pages[0].Shapes.GetShape(59).ToHTML(dataDir + "out.pdf", hs);
 #### **Exemple de programmation de vérification de formes connectées ou collées**
 Le morceau de code suivant vérifie si deux formes sont connectées ou collées.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -189,7 +189,7 @@ bool glued = ShapedOne.IsGlued(ShapedTwo);
 Console.WriteLine("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **Vérifiez si la forme Visio se trouve dans un groupe de formes**
 Aspose.Diagram for .NET API permet aux développeurs de vérifier que la forme Visio est dans un groupe de formes ou non.
 ### **Vérification de la forme dans le groupe de formes**
@@ -197,8 +197,8 @@ La[Forme](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)La classe o
 #### **Vérification de la forme dans l'exemple de programmation du groupe de formes**
 Le morceau de code suivant vérifie si la forme est dans une forme de groupe.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -207,4 +207,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(13).Shapes.GetShape(2);
 Console.WriteLine("Is it in a Group: " + shape.IsInGroup());
 {{< /highlight >}}
-```
+

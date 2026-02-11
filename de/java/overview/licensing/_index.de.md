@@ -83,12 +83,12 @@ Aspose.Diagram for Java API ermöglicht es Entwicklern, eine gemessene Lizenz an
 
 Eine neue Klasse[Gemessen](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) wurde hinzugefügt, um einen gemessenen Schlüssel anzuwenden. Dieses Codebeispiel zeigt, wie gemessene öffentliche und private Schlüssel festgelegt werden:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // Initialize a Metered license class object
 Metered metered = new Metered();
 // apply public and private keys
 metered.setMeteredKey("your-public-key", "your-private-key");
 {{< /highlight >}}
-```
+

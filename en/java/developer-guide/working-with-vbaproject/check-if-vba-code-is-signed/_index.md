@@ -16,8 +16,8 @@ The following code explains how to check if the VBA code is signed or not using 
 
 ## Sample Code
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -31,7 +31,7 @@ boolean isSigned = diagram.getVbaProject().isSigned();
 diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## Console Output
 

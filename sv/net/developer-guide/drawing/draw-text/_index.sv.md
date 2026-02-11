@@ -8,8 +8,8 @@ description: Det här avsnittet förklarar hur man ritar text på en visio-sida 
 ## **Rita text på Visio**
 Aspose.Diagram for .NET API tillåter utvecklare att rita en textform på en sida. Kodexemplet nedan visar hur man ritar en text i en Visio-ritning.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -47,13 +47,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Rita text på SVG**
 Aspose.Diagram for .NET API låter utvecklare rita en text på sidan och spara i formatet SVG. Kodexemplet nedan visar hur man ritar en text i en Visio-ritning och sparar som SVG-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -93,13 +93,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Rita text på PDF**
 Aspose.Diagram for .NET API låter utvecklare rita en text på sidan och spara i formatet PDF. Kodexemplet nedan visar hur man ritar en text i en Visio-ritning och sparar som PDF-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -137,13 +137,13 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **Rita text på PNG**
 Aspose.Diagram for .NET API låter utvecklare rita en text på sidan och spara i formatet PNG. Kodexemplet nedan visar hur man ritar en text i en Visio-ritning och sparar som PNG-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -183,13 +183,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "AddTextToShape_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Rita text på HTML**
 Aspose.Diagram for .NET API låter utvecklare rita en text på sidan och spara i formatet HTML. Kodexemplet nedan visar hur man ritar en text i en Visio-ritning och sparar som HTML-format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -227,4 +227,4 @@ shape.Text.Value.Add(new Txt("Hello world!"));
 diagram.Save(dataDir + "AddTextToShape_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

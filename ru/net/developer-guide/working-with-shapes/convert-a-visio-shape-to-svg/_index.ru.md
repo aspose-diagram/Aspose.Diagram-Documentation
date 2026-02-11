@@ -17,8 +17,8 @@ description: В этом разделе объясняется, как прео�
 ### **Форма в SVG**
 Используйте следующий код в своем приложении .net, чтобы преобразовать фигуру visio в svg.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ SVGSaveOptions svgOptions = new SVGSaveOptions();
 shape.ToSvg("out.svg",svgOptions);
 
 {{< /highlight >}}
-```
+
 

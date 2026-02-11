@@ -12,8 +12,8 @@ description: Cette section explique comment formater une forme de texte avec Asp
 ### **Exemple de programmation de format de texte**
 Le morceau de code suivant définit la direction, l'alignement, les marges, la couleur d'arrière-plan, la transparence de la couleur d'arrière-plan et la position de taquet de tabulation par défaut de l'angle d'orientation et la position du texte de la forme en haut.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -48,7 +48,7 @@ shape.TextBlock.DefaultTabStop.Value = 2;
 diagram.Save(dataDir + "FormatShapeTextBlockSection_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Faire pivoter et définir la position du texte de forme Visio**
  Aspose.Diagram API permet aux développeurs d'ajuster la position du texte et également de faire pivoter le texte sur la forme Visio. Pour accomplir cette tâche, la section des transformations de texte sur la feuille de formes fournit les propriétés TxtPin, TxtLocPin, TxtWidth et TxtHeight. Les développeurs peuvent interagir avec ces propriétés par programmation en utilisant[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Faire pivoter et définir la position du texte de la forme**
@@ -56,8 +56,8 @@ La section des transformations de texte contient les informations de position su
 #### **Définir la position du texte de la forme en haut**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme en haut.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -82,12 +82,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtTop_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Définir la position du texte de la forme en bas**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme en bas.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -112,12 +112,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtBottom_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Définir la position du texte de la forme à gauche**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme à gauche.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -141,12 +141,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtLeft_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Définir la position du texte de la forme à droite**
 Le morceau de code suivant définit l'angle d'orientation et la position du texte de la forme à droite.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -170,4 +170,4 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtRight_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

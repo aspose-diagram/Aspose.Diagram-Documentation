@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API tillåter utvecklare att formatera sidor i en Visio 
 ## **Applicera formatmallar på sidan Visio**
 Aspose.Diagram for .NET API låter dig formatera en Visio sida med formatmallar. Du kan definiera en stilmall och lägga till den i Visio-dokumentets stilmallssamling. ApplyStyle-metoden för klassen Page låter dig tillämpa den definierade stilmallen på sidan som visas i följande kodexempel.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

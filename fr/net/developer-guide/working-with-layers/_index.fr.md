@@ -10,8 +10,8 @@ description: Cette section explique comment ajouter ou obtenir des informations 
 ### **Configurer l'exemple de programmation d'objets de forme**
 Le morceau de code suivant permet d'ajouter, de supprimer et de déplacer des propriétés d'objet de forme.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ajouter un nouveau calque dans le Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) permet aux développeurs d'ajouter de nouveaux calques pour organiser des catégories personnalisées de formes, puis d'attribuer des formes à ces calques par programmation. La[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) la classe propose la méthode Add qui permet d'ajouter un nouveau[Couche](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) dans le dessin Visio. Les développeurs peuvent définir les propriétés de la couche en initialisant son objet de classe.
 ### **Ajouter un exemple de programmation de couche**
 Le morceau de code suivant permet d'ajouter des objets Layer.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Récupérer toutes les couches du Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) donne accès aux développeurs pour obtenir les couches existantes d'un Visio diagram. Le[Feuille de page](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) propriété de la[Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class permet de récupérer la liste des couches disponibles à partir d'un Visio diagram en utilisant[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) classer.
 ### **Récupérer un exemple de programmation de calques**
 Le morceau de code suivant aide à obtenir la liste des couches.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

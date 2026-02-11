@@ -21,8 +21,8 @@ The code below shows how to:
 #### **Set Connector Appearance Programming Sample**
 Use the following code in your .NET application to set appearance of the connector type shape using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -41,7 +41,7 @@ shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Select Reroute Option of the Connector Shape**
 The ConFixedCode property exposed by the [Layout](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) class can be used to select reroute option. The Layout property, exposed by the [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, will be used.
 
@@ -55,8 +55,8 @@ The code below shows how to:
 ### **Select Reroute Option Programming Sample**
 Use the following code in your .NET application to select the rerouting option of the connector shape using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -75,4 +75,4 @@ shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -18,8 +18,8 @@ Il codice seguente mostra come:
 #### **Ottieni un esempio di programmazione di connettori incollati**
 Usa il seguente codice nella tua applicazione .NET per trovare tutti i connettori incollati a una forma usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (long id in gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Colla Visio Forme insieme al punto di connessione**
 Aspose.Diagram for .NET consente agli sviluppatori di incollare forme insieme attraverso i punti di connessione.
 ### **Forme di colla**
@@ -55,8 +55,8 @@ Il codice seguente mostra come:
 #### **Colla Visio Esempio di programmazione delle forme**
 Usa il seguente codice nella tua applicazione .NET per incollare le forme attraverso i punti di connessione:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -76,7 +76,7 @@ page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Cent
 diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Forme di colla all'interno del contenitore**
 Aspose.Diagram for .NET consente agli sviluppatori di incollare forme di gruppo all'interno di un contenitore.
 ### **Forma del gruppo di colla**
@@ -92,8 +92,8 @@ Il codice seguente mostra come:
 #### **Forme di colla all'interno dell'esempio di programmazione**
 Usa il seguente codice nella tua applicazione .NET per incollare la forma del gruppo all'interno di un contenitore:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,4 +123,4 @@ page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.Save(dataDir + "GlueContainerShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

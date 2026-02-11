@@ -30,8 +30,8 @@ Yukarıdaki adımların uygulanması aşağıdaki örneklerde gösterilmektedir.
 
 Aşağıdaki örnek, " adlı mevcut bir Microsoft Visio şablon dosyasını açar.[Basic_Shapes.vss](Basic_Shapes.vss)", ilk sayfaya "Hello World!" yazısını girer ve diagram'i kaydeder.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -53,4 +53,4 @@ diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

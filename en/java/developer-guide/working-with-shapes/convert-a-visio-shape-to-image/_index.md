@@ -18,8 +18,8 @@ The code below shows how to:
 ### **Shape to Image**
 Use the following code in your java application to convert a visio shape to image.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToImage.class); 
@@ -36,6 +36,6 @@ Shape shape = page.getShapes().get(0);
 com.aspose.diagram.ImageSaveOptions option = new com.aspose.diagram.ImageSaveOptions(SaveFileFormat.PNG);
 shape.toImage("out.png",option);
 {{< /highlight >}}
-```
+
 
 

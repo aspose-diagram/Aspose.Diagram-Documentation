@@ -9,8 +9,8 @@ Aspose.Diagram for Python via Java API allows developers to format pages of a Vi
 ## **Wenden Sie Stylesheets auf die Seite Visio an**
 Aspose.Diagram for Python via Java API lets you format a Visio page using Stylesheets. You can define a stylesheet and add it to the Visio document's stylesheet collection. The `applyStyle` method of `Page` class lets you apply the defined stylesheet to the page as shown in the following code sample.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -57,4 +57,4 @@ vsdDiagram.save("ApplyStyleToVisioDiagramPage_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

@@ -20,8 +20,8 @@ description: 本节介绍如何使用 Aspose.Diagram 移除形状保护。
 ### **删除形状保护编程示例**
 在您的 Java 应用程序中使用以下代码使用 Aspose.Diagram for Java 执行相同的操作（解锁任何形状属性）。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

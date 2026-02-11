@@ -8,8 +8,8 @@ Aspose.Diagram for Java API permet aux développeurs de formater les pages d'un 
 ## **Appliquer des feuilles de style à la page Visio**
 Aspose.Diagram for Java API vous permet de formater une page Visio à l'aide de feuilles de style. Vous pouvez définir une feuille de style et l'ajouter à la collection de feuilles de style du document Visio. La méthode ApplyStyle de la classe Page vous permet d'appliquer la feuille de style définie à la page, comme illustré dans l'exemple de code suivant.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
@@ -48,4 +48,4 @@ for (Shape shape: (Iterable<Shape>)vsdDiagram.getPages().get(0).getShapes())
 vsdDiagram.getPages().get(0).applyStyle(st.getID(), st.getID(), st.getID());
 
 {{< /highlight >}}
-```
+

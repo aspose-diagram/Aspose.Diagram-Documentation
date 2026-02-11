@@ -18,8 +18,8 @@ Microsoft Visio сохраняет информацию о действиях, �
 
 Вы также можете установить эти свойства, чтобы изменить информацию в файле. В приведенных ниже примерах кода показано, как получить информацию о том, что создало файл, а также когда он был создан, отредактирован, распечатан и сохранен.
 #### **Образец программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -40,7 +40,7 @@ Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
 Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 
 {{< /highlight >}}
-```
+
 ## **Письмо Visio Сводная информация о документе**
 Microsoft Visio позволяет определить ряд свойств сводной информации документа, чтобы помочь вам и вашим коллегам идентифицировать diagram. просмотр файлов.
 ### **Письмо Microsoft Visio Сводная информация о документе**
@@ -63,8 +63,8 @@ Microsoft Visio позволяет определить ряд свойств с
 1. Откройте выходной файл VDX в Microsoft Visio.
 1. Выбор Информация из меню Файл.
 #### **Написание Visio Сводная информация о документе Образец программирования**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -89,14 +89,14 @@ diagram.DocumentProps.Template = "Aspose Template";
 diagram.Save(dataDir + "SetVisioProperties_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Определить формат файла Visio**
 Используя Aspose.Diagram for .NET API, разработчики могут определить формат файла Visio перед его открытием, поскольку расширение файла не гарантирует, что содержимое файла соответствует требованиям.
 ### **Образец программирования определения формата**
 В следующем примере кода показано, как определить формат файла (используя путь к файлу или поток) и проверить его расширение.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -117,4 +117,4 @@ Console.WriteLine("The spreadsheet format is: " + info.FileFormatType);
 Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
 
 {{< /highlight >}}
-```
+

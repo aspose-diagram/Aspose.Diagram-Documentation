@@ -11,8 +11,8 @@ Sidklassobjektet representerar ritytan på en förgrundssida eller en bakgrundss
 #### **Extrahera bilder Programmeringsexempel**
 Följande kodbit extraherar alla bilder från en viss Visio-sida.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -32,7 +32,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+
 ## **Få ikoner av olika Visio former**
 Aspose.Diagram for Java API tillåter nu utvecklare att få ikoner av olika Visio former.
 ### **Få formikonen**
@@ -43,8 +43,8 @@ Koden i exemplen nedan visar hur man:
 1. Få master ikon.
 1. Spara ikonen till det lokala utrymmet.
 #### **Få ikoner programmering exempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetShapeIcon.class);  
@@ -62,7 +62,7 @@ fos.write(bytes);
 fos.close();
 
 {{< /highlight >}}
-```
+
 ## **Byt ut en bildform på Visio Diagram**
 Aspose.Diagram for Java API låter utvecklare komma åt och ersätta tillgängliga bildformer i Visio diagram.
 ### **Byta ut en bildform**
@@ -73,8 +73,8 @@ Koden i exemplen nedan visar hur man:
 1. Använd filter för att få bildformer.
 1. Spara resulterande Visio diagram till det lokala utrymmet.
 #### **Byt ut ett bildformsprogrammeringsprov**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReplaceShapePicture.class); 
@@ -100,7 +100,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 diagram.save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Importera bitmappsbild som en Visio-form**
 Aspose.Diagram for Java API tillåter nu utvecklare att importera en bitmappsbild som en Microsoft Visio form.
 ### **Infoga en BMP-bild i Visio**
@@ -111,8 +111,8 @@ Koden i exemplen nedan visar hur man:
 1. Importera en bitmappsbild som en Visio-form
 1. Spara diagram.
 #### **Infoga ett BMP bildprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExtractAllImagesFromPage.class);
@@ -132,4 +132,4 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
 }
 
 {{< /highlight >}}
-```
+

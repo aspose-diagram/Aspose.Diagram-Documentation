@@ -10,8 +10,8 @@ description: In diesem Abschnitt wird erläutert, wie Sie den Schriftstil der vi
 #### **Programmierbeispiel für geerbte Schriftdaten abrufen**
 Der folgende Codeausschnitt ruft die geerbten Schriftartdaten der Form ab. Bitte überprüfen Sie diesen Beispielcode:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -38,5 +38,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

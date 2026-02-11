@@ -13,8 +13,8 @@ The code below shows how to:
 ## **Set shape's Paragraph Programming Sample**
 Use the following code in your .NET application to set shape's paragraph using Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -70,4 +70,3 @@ para.Bullet.Value = BulletValue.Style1;
 diagram.Save(dataDir + "SettingParagraphOfShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

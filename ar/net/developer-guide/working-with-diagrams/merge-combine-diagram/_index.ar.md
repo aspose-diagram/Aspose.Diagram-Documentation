@@ -12,8 +12,8 @@ description: يشرح هذا القسم كيفية دمج ملف visio
 باستخدام الطريقة[**يجمع**](https://reference.aspose.com/diagram/net/aspose.diagram/diagram/methods/combine) في[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) فئة لدمج الرسوم البيانية.
 
 ## **عينة من الرموز**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -29,4 +29,4 @@ diagram2.Combine(diagram);
 newDiagram.Save(dataDir + "out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

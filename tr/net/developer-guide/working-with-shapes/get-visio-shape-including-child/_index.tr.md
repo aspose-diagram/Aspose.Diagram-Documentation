@@ -12,8 +12,8 @@ diagram'deki her şeklin bir kimliği ve adı vardır. Kimlik, Visio ile program
 #### **Visio Şekil Programlama Örneği'ni alın**
 Aşağıdaki kod parçacığı, alt öğeyi içeren şekli alır. Lütfen bu örnek kodu kontrol edin:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

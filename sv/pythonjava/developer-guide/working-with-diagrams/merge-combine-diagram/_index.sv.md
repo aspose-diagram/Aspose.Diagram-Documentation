@@ -12,8 +12,8 @@ Aspose.Diagram för Python via Java API har klassen Diagram som representerar en
 Använder metoden**Kombinera** i Diagram klass för att kombinera diagram.
 
 ## **Exempelkod**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,4 +36,4 @@ diagram2.save("CombineDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

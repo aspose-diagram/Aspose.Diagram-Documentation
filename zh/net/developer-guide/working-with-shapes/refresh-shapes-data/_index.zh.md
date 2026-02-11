@@ -16,8 +16,8 @@ description: 本节介绍如何使用 Aspose.Diagram 刷新 visio 形状的形�
 ### **刷新 Shape 的数据**
 在您的 .NET 应用程序中使用以下代码来刷新使用 Aspose.Diagram for .NET 的形状。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ shape.RefreshData();
 diagram.Save(dataDir + "RefreshData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

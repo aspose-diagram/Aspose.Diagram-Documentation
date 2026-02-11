@@ -17,8 +17,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Bağlayıcıları Yapıştırılmış Programlama Örneği Alın**
 Aspose.Diagram for Java kullanarak bir şekle yapıştırılmış tüm konektörleri bulmak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
@@ -37,7 +37,7 @@ for (long id : gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Yapıştırıcı Visio Şekilleri Bağlantı Noktasıyla Birlikte**
 Aspose.Diagram for Java, geliştiricilerin bağlantı noktalarından şekilleri birbirine yapıştırmasına olanak tanır.
 ### **Tutkal Şekilleri**
@@ -53,8 +53,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Tutkal Visio Şekil Programlama Örneği**
 Bağlantı noktalarından şekilleri yapıştırmak için Java uygulamanızda aşağıdaki kodu kullanın:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueVisioShapes.class);
@@ -73,7 +73,7 @@ page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
 diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kabın İçindeki Tutkal Şekilleri**
 Aspose.Diagram for Java, geliştiricilerin grup şekillerini bir kapsayıcı içine yapıştırmalarına olanak tanır.
 ### **Tutkal Grubu Şekli**
@@ -89,8 +89,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Şekilleri Programlama Örneği İçinde Tutkalla**
 Grup şeklini bir kabın içine yapıştırmak için Java uygulamanızda aşağıdaki kodu kullanın:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GlueContainerShape.class);   
@@ -119,4 +119,4 @@ page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

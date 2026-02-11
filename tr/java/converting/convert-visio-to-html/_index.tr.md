@@ -33,8 +33,8 @@ Aşağıdaki görüntü HTML çıktı dosyasını göstermektedir.
 ### **Ortaya çıkan HTML'i yerel depoya kaydedin**
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 #### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToHTML.class);
@@ -46,15 +46,15 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Elde edilen HTML'i bir akış örneğine kaydedin**
 Elde edilen HTML'i yerel depoda saklamadan bir veritabanına veya havuza kaydetmek kullanım durumu içindir. Bu özellik aynı zamanda HTML'in diğer sonuç kaynaklarını, örneğin yazı tiplerini, CSS'yi (stil bilgilerini içeren) ve resimleri de içerir. Akış örneğine tek bir HTML dosyası kaydettiği için.
 #### **Sonuç HTML'i Akış Programlama Örneğine Kaydet**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
@@ -68,4 +68,4 @@ diagram.save(dstStream, SaveFileFormat.HTML);
 ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+

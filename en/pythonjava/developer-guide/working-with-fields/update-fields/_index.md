@@ -13,8 +13,8 @@ The Field object represents text field in a text run. The field property, expose
 
 ### **Programming Sample**
 The following piece of code update a field in shape.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -49,4 +49,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

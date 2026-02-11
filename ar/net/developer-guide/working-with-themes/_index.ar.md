@@ -19,8 +19,8 @@ description: يشرح هذا القسم كيفية تطبيق سمة معدة م
 - احصل على مثيل لفئة الصفحة لتعيين سمة
 - قم بتعيين قيمة Preset لخاصية PresetTheme لمثيل الصفحة
 #### **قم بتطبيق سمة محددة مسبقًا على نموذج لبرمجة الصفحة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -34,7 +34,7 @@ page.PresetTheme = PresetThemeValue.Bubble;
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**نتيجة تطبيق سمة محددة مسبقًا على صفحة**|
 |:- |
@@ -51,8 +51,8 @@ diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 #### **قم بتطبيق متغير نسق محدد مسبقًا على نموذج لبرمجة الصفحة**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -67,7 +67,7 @@ page.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**نتيجة تطبيق متغير نسق محدد مسبقًا على الصفحة**|
 |:- |
@@ -83,8 +83,8 @@ diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 #### **تطبيق سمة محددة مسبقًا على نموذج برمجة الشكل**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -97,7 +97,7 @@ shape.PresetTheme = PresetThemeValue.Bubble;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**نتيجة تطبيق سمة محددة مسبقًا على شكل**|
 |:- |
@@ -114,8 +114,8 @@ diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 #### **تطبيق متغير سمة مُعد مسبقًا على عينة برمجة الشكل**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -130,7 +130,7 @@ shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**نتيجة تطبيق متغير نسق محدد مسبقًا على شكل**|
 |:- |
@@ -148,8 +148,8 @@ Aspose.Diagram تسمح واجهات برمجة التطبيقات (API) بتط�
 
 #### **قم بتطبيق Quickstyle متغير سمة مُعد مسبقًا على عينة برمجة الشكل**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -166,7 +166,7 @@ shape.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle2;
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**نتيجة تطبيق Quickstyle متغير سمة مُعد مسبقًا على شكل**|
 |:- |
@@ -184,8 +184,8 @@ Aspose.Diagram تسمح واجهات برمجة التطبيقات (API) بتط�
 
 #### **تطبيق نمط سمة مُعد مسبقًا على شكل باستخدام عينة برمجة أسلوب SetPresetThemeStyleMatrics**
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioThemes();
@@ -202,7 +202,7 @@ shape.SetPresetThemeStyleMatrics(PresetStyleMatricsValue.Style2, PresetColorMatr
 // Save diagram
 diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**نتيجة تطبيق نمط سمة مُعد مسبقًا على شكل باستخدام طريقة SetPresetThemeStyleMatrics**|
 |:- |

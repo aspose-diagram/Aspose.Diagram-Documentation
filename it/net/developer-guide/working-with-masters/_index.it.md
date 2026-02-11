@@ -12,8 +12,8 @@ Uno shape master è un altro nome per uno stencil Visio. Con Aspose.Diagram è p
 ### **Recupero del campione di programmazione delle informazioni principali**
 Il seguente pezzo di codice recupera le informazioni master da un diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -31,7 +31,7 @@ foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)
 Console.ReadLine();
 
 {{< /highlight >}}
-```
+
 ## **Aggiungi Master dallo Stencil di forme**
 Uno stencil è una raccolta di forme associate a un particolare modello Microsoft Office Visio. Con Aspose.Diagram è possibile aggiungere qualsiasi modello di forma a un disegno da uno stencil.
 ### **Aggiungi Maestro**
@@ -43,8 +43,8 @@ Uno stencil è una raccolta di forme associate a un particolare modello Microsof
 - Flusso di file di stencil e nome principale.
 - Aggiungi master a diagram dalla fonte diagram
 #### **Aggiungi un esempio di programmazione principale**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -81,12 +81,12 @@ diagram.AddShape(6.0, 6.0, masterName, 0);
 diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Crea Master da zero**
  Aspose.Diagram API permette di creare un[Maestro](http://www.aspose.com/api/net/diagram/aspose.diagram/master) da zero senza alcuno stencil, disegno o modello. Gli sviluppatori possono personalizzare la creazione di Master. Il metodo AddMaster, esposto dalla classe Diagram, permette di aggiungere un master.
 ### **Crea un esempio di programmazione principale**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 public static void Run()
 {            
@@ -171,7 +171,7 @@ public static byte[] ReadImageFile(string imageLocation)
 }
 
 {{< /highlight >}}
-```
+
 ## **Ottieni un master dal file Visio**
 A volte, gli sviluppatori devono ottenere i dettagli del master di un disegno Visio. Il Aspose.Diagram API supporta questa funzione.
 
@@ -184,8 +184,8 @@ Questo esempio funziona come segue:
 #### **Oggetto principale per esempio di programmazione ID**
 L'esempio seguente mostra come ottenere un master per ID da un disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -203,7 +203,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ### **Ottenere un oggetto principale per nome**
 Questo esempio funziona come segue:
 
@@ -212,8 +212,8 @@ Questo esempio funziona come segue:
 #### **Esempio di programmazione oggetto master per nome**
 L'esempio seguente mostra come ottenere un oggetto principale per nome da un disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -231,7 +231,7 @@ Console.WriteLine("Master Name : " + master.Name);
 Console.WriteLine("Master Name : " + master.UniqueID);
 
 {{< /highlight >}}
-```
+
 ## **Verificare Presenza di un Maestro nel Disegno Visio**
 Il Aspose.Diagram API supporta il controllo della presenza di un master in un disegno Visio. Con la proprietà MasterCollection, gli sviluppatori possono verificare se un master è presente in base al nome o all'ID.
 
@@ -244,8 +244,8 @@ Questo esempio funziona come segue:
 #### **Presenza principale tramite esempio di programmazione ID**
 L'esempio seguente mostra come verificare la presenza di un master per ID in un disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -259,7 +259,7 @@ bool isPresent = diagram.Masters.IsExist(2);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Controllo di una presenza principale per nome**
 Questo esempio funziona come segue:
 
@@ -268,8 +268,8 @@ Questo esempio funziona come segue:
 #### **Esempio di programmazione della presenza principale per nome**
 L'esempio seguente mostra come controllare una presenza master per nome dal disegno Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Master();
@@ -285,4 +285,4 @@ bool isPresent = diagram.Masters.IsExist(masterName);
 Console.WriteLine("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

@@ -19,8 +19,8 @@ L'immagine seguente mostra l'output dopo l'esecuzione del codice:
 
 ![cose da fare:immagine_alt_testo](working-with-user-defined-cells_2.png)
 #### **Esempi di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Crea cella definita dall'utente**
 Il Aspose.Diagram for Java API consente agli sviluppatori di creare celle definite dall'utente nel foglio di forma. Questo argomento di esempio descrive come aggiungere tutte le righe del nome utente necessarie, assegnare nomi significativi alle righe e impostare i valori delle celle.
 
@@ -45,8 +45,8 @@ Il metodo add esposto dalla raccolta Users può essere utilizzato per creare una
 
 Utilizzare il seguente codice nell'applicazione Java per creare una cella definita dall'utente nel foglio di forma utilizzando Aspose.Diagram for Java.
 #### **Esempi di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Recupera celle definite dall'utente da Shapesheet**
 Aspose.Diagram for Java API consente agli sviluppatori di recuperare le celle definite dall'utente dal foglio di forma. Questo argomento di esempio descrive come recuperare tutti i nomi utente per tutte le forme in un disegno.
 ### **Recupera celle definite dall'utente**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API consente agli sviluppatori di recuperare le celle de
 #### **Recupera celle da esempi di programmazione di fogli di forma**
 Utilizzare il seguente codice nell'applicazione Java per recuperare tutte le celle definite dall'utente dal foglio di forma utilizzando Aspose.Diagram for Java.
 #### **Esempi di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

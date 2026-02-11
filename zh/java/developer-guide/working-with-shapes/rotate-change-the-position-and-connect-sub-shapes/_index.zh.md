@@ -9,8 +9,8 @@ Aspose.Diagram for Java 允许您将形状旋转到任意角度。公开的 SetA
 ### **旋转形状编程样本**
 在您的 Java 应用程序中使用以下代码来旋转使用 Aspose.Diagram for Java 的形状。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RotateVisioShape.class); 
@@ -28,7 +28,7 @@ shape.setAngle(190);
 diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **更改形状的位置**
 Shape 类允许您更改形状的位置。当形状移动到不同位置时，连接线会自动调整。
 
@@ -52,8 +52,8 @@ Shape 类公开的 Move 和 MoveTo 方法支持将形状的位置更改为组的
 ### **改变位置编程示例**
 下面的代码片段显示了如何移动形状。该代码通过 ID 16 的名称和形状检索 Visio 页面，并移动其位置。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(MoveVisioShape.class);  
@@ -70,7 +70,7 @@ shape.move(1, 1);
 diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **连接组的子形状**
 本主题详细说明如何使用 Aspose.Diagram for Java 连接 Microsoft Visio 图中两个不同组形状的两个子形状。
 
@@ -87,8 +87,8 @@ diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 ### **连接子形状编程示例**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 连接两个不同组形状的子形状。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
@@ -114,7 +114,7 @@ page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToI
 diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **获取连接到特定形状的形状**
 [添加和连接 Visio 形状](/diagram/zh/java/add-and-connect-visio-shapes/)使用 Aspose.Diagram for Java 说明如何添加形状并将其连接到 Microsoft Visio 图中的其他形状。也可以找到连接到特定形状的形状。
 
@@ -128,8 +128,8 @@ diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 ### **获取形状编程示例**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 查找连接到特定形状的所有形状。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
@@ -147,4 +147,4 @@ for (long id : connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

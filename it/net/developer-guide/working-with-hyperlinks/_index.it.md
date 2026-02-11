@@ -23,8 +23,8 @@ Per identificare le proprietà in Microsoft Office Visio:
 ### **Aggiungi esempio di programmazione di collegamenti ipertestuali**
 Il frammento di codice seguente aggiunge i dati del collegamento ipertestuale della forma.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -53,7 +53,7 @@ shape.Hyperlinks.Add(hyperlink);
 diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ottieni i dati dei collegamenti ipertestuali delle forme Visio**
 Gli sviluppatori possono recuperare tutti i collegamenti ipertestuali da una forma Visio allo stesso modo di loro[leggi i dati della forma Visio](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) utilizzando[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -75,8 +75,8 @@ Tutte le proprietà esistenti sono elencate nella finestra di dialogo.
 ### **Ottieni un esempio di programmazione dei collegamenti ipertestuali**
 Il frammento di codice seguente legge i dati del collegamento ipertestuale della forma.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -96,4 +96,4 @@ foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
 }       
 
 {{< /highlight >}}
-```
+

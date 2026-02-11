@@ -15,8 +15,8 @@ Aspose.Diagram for Java ermöglicht die Konfiguration von Formobjekten mit Ebene
 
 Der folgende Codeabschnitt hilft beim Hinzufügen, Entfernen und Verschieben von Formobjekteigenschaften.
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureShapeLayers.class);
@@ -50,7 +50,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Fügen Sie eine Ebene im PageSheet Visio hinzu**
 Aspose.Diagram for Java ermöglicht es Entwicklern, neue Ebenen hinzuzufügen, um benutzerdefinierte Kategorien von Formen zu organisieren, und diesen Ebenen dann programmgesteuert Formen zuzuweisen.
 
@@ -58,8 +58,8 @@ Aspose.Diagram for Java ermöglicht es Entwicklern, neue Ebenen hinzuzufügen, u
 
 Der folgende Codeabschnitt hilft beim Hinzufügen von Layer-Objekten.
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(AddLayer.class) + "Layers/";
@@ -88,7 +88,7 @@ shape.getLayerMem().getLayerMember().setValue(Integer.toString(layer.getIX()));
 diagram.save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 
@@ -100,8 +100,8 @@ Aspose.Diagram for Java gibt Entwicklern Zugriff auf die bestehenden Schichten v
 
 Der folgende Codeabschnitt hilft, eine Liste der Ebenen zu erhalten.
 #### **Programmierbeispiele**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveAllLayers.class);  
@@ -119,4 +119,4 @@ for (Layer layer : (Iterable<Layer>) page.getPageSheet().getLayers())
 }
 
 {{< /highlight >}}
-```
+

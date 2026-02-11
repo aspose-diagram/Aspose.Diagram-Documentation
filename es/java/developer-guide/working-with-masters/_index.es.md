@@ -17,8 +17,8 @@ Utilice la propiedad Page.Shapes para determinar qué forma ha heredado la forma
 ### **Muestra de programación de recuperación de información maestra**
 El siguiente fragmento de código recupera la información maestra de un diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **Agregar maestro desde la plantilla de formas**
 Una plantilla es una colección de formas asociadas con una plantilla Microsoft Office Visio particular. Con Aspose.Diagram, es posible agregar cualquier patrón de forma a un dibujo desde una plantilla.
 ### **Agregar maestro**
@@ -46,8 +46,8 @@ El objeto Master representa el maestro de un objeto Shape en un diagram. El mét
 - Flujo de archivo de plantilla y nombre maestro.
 - Agregar maestro a diagram desde la fuente diagram
 #### **Agregar muestra de programación maestra**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Crear maestro desde cero**
 Aspose.Diagram API permite crear un Master desde cero sin ningún stencil, dibujo o plantilla. Los desarrolladores pueden personalizar la creación de Master. El método addMaster, expuesto por la clase Diagram, permite agregar un maestro.
 #### **Crear muestra de programación maestra**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **Obtenga un Máster del Archivo Visio**
 A veces, los desarrolladores necesitan obtener los detalles del maestro de un dibujo Visio. El Aspose.Diagram API admite esta función.
 
@@ -282,8 +282,8 @@ Este ejemplo funciona de la siguiente manera:
 #### **Ejemplo de programación de objeto maestro por ID**
 El siguiente ejemplo muestra cómo obtener un maestro por ID de un dibujo Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **Obtener un objeto maestro por nombre**
 Este ejemplo funciona de la siguiente manera:
 
@@ -309,8 +309,8 @@ Este ejemplo funciona de la siguiente manera:
 #### **Ejemplo de programación de objeto maestro por nombre**
 El siguiente ejemplo muestra cómo obtener un objeto maestro por nombre de un dibujo Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **Compruebe la presencia de un maestro en el dibujo Visio**
 El Aspose.Diagram API admite la comprobación de la presencia de un maestro en un dibujo Visio. Con la propiedad MasterCollection, los desarrolladores pueden verificar si un maestro está presente por su nombre o ID.
 
@@ -340,8 +340,8 @@ Este ejemplo funciona de la siguiente manera:
 #### **Ejemplo de programación de Master Presence by ID**
 El siguiente ejemplo muestra cómo verificar la presencia de un maestro por ID en un dibujo Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Comprobación de la presencia de un maestro por nombre**
 Este ejemplo funciona de la siguiente manera:
 
@@ -365,8 +365,8 @@ Este ejemplo funciona de la siguiente manera:
 #### **Ejemplo de programación de presencia maestra por nombre**
 El siguiente ejemplo muestra cómo verificar la presencia de un maestro por nombre del dibujo Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

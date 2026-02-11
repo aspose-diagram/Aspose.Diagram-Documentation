@@ -13,8 +13,8 @@ Microsoft Office Visio admite la manipulación de objetos OLE en Visio diagram. 
 ## **Manipular el ejemplo de programación de objetos OLE incrustados**
 [ObjetoDatos](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata/properties/objectdata) propiedad de la[ForeignData](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata)class permite a los desarrolladores manipular con objetos OLE existentes en Visio diagram. Este tema de ayuda demuestra cómo los desarrolladores pueden recuperar un objeto OLE del documento de Word, editarlo usando[Aspose.Words for .NET API](https://products.aspose.com/words/net)y luego guárdelo como un objeto OLE en el Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_OLEObjects();
@@ -50,4 +50,4 @@ if (OLE_Shape.Type == Aspose.Diagram.TypeValue.Foreign)
 diagram.Save(dataDir + "ManipulateObjects_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

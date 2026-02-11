@@ -8,8 +8,8 @@ description: В этом разделе объясняется, как нари�
 ## **Нарисуйте Пентагон в Visio**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать пятиугольник на странице. В приведенном ниже примере кода показано, как нарисовать пятиугольник на чертеже Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -25,13 +25,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPentagonInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисуйте Пентагон в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать пятиугольник на странице и сохранять в формате SVG. В приведенном ниже примере кода показано, как нарисовать пятиугольник на чертеже Visio и сохранить его в формате SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -49,13 +49,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawPentagonInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисуйте Пентагон в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать пятиугольник на странице и сохранять в формате PDF. В приведенном ниже примере кода показано, как нарисовать пятиугольник на чертеже Visio и сохранить его в формате PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -71,13 +71,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPentagonInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисуйте Пентагон в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать пятиугольник на странице и сохранять в формате PNG. В приведенном ниже примере кода показано, как нарисовать пятиугольник на чертеже Visio и сохранить его в формате PNG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -95,13 +95,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawPentagonInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Нарисуйте Пентагон в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать пятиугольник на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать пятиугольник на чертеже Visio и сохранить его в формате HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -117,4 +117,4 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawPentagonInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

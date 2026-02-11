@@ -24,8 +24,8 @@ Microsoft Visio'deki özellikleri tanımlamak için:
 
 Aşağıdaki kod parçacıkları, şeklin köprü verilerini ekler.
 ### **Köprü Programlama Örneği Ekle**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
@@ -53,7 +53,7 @@ shape.getHyperlinks().add(hyperlink);
 diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şekillerinin Köprü Verilerini Alın**
  Bir şeklin köprü verilerini, sizin yaptığınıza benzer bir şekilde elde etmek mümkündür.[Visio şekil verisi okunuyor]().
 
@@ -79,8 +79,8 @@ Microsoft Visio'deki özellikleri tanımlamak için:
 
 Aşağıdaki kod parçacıkları, şeklin köprü verilerini okur.
 ### **Köprü Programlama Örneği Alın**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetHyperlinks.class);  
@@ -99,4 +99,4 @@ for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
 }
 
 {{< /highlight >}}
-```
+

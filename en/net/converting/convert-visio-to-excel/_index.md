@@ -29,8 +29,8 @@ To export VSD diagram to CSV:
 ### **Export Microsoft Visio Drawing to CSV**
 The code samples show how to export Microsoft Visio Drawing to CSV using C#.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -53,5 +53,5 @@ csvFileStream.Close();
 System.Console.WriteLine("Conversion from vsd to csv performed successfully.");
 
 {{< /highlight >}}
-```
+
 

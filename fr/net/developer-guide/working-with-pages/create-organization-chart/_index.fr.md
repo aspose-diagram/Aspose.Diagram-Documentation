@@ -20,8 +20,8 @@ Le code ci-dessous montre comment :
 #### **Créer un exemple de programmation d'organigramme de style CompactTree**
 Utilisez le code suivant pour créer un organigramme de style CompactTree à l'aide de Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_CompactTreeChart();
@@ -83,7 +83,7 @@ diagram.Pages[pageNumber].Layout(compactTreeOptions);
 diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Résultat**|
 |:- |
@@ -102,8 +102,8 @@ Le code ci-dessous montre comment :
 #### **Créer un exemple de programmation d'organigramme de style organigramme**
 Utilisez le code suivant pour créer un organigramme de style organigramme à l'aide de Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_FlowChart();
@@ -164,7 +164,7 @@ diagram.Pages[pageNumber].Layout(flowChartOptions);
 diagram.Save(dataDir + "FlowChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Résultat**|
 |:- |

@@ -24,8 +24,8 @@ Yeni bir şekil eklemek için:
 ### **Programlama Örneği Ekle**
 Aşağıdaki kod parçacığı, her bir adımın nasıl yapılacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
 Console.WriteLine("Shape has been added.");
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -89,8 +89,8 @@ Visio sayfa bilgisini almak için:
 ### **Programlama Örneği Al**
 Aşağıdaki kod parçası, şekil bilgisini bir Visio diagram'den alır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -107,7 +107,7 @@ foreach (Aspose.Diagram.Shape shape in vsdDiagram.Pages[0].Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Mevcut Bir Visio'den Şekilleri Kopyala**
 Aspose.Diagram for .NET API, geliştiricilerin Visio kaynak sayfasındaki şekilleri yeni Visio diagram sayfasına kopyalamasına olanak tanır. Grup şekillerinin kopyalanmasını da destekler. Bu makalede, kaynak diagram sayfasındaki tüm şekillerin nasıl kopyalanacağı açıklanmaktadır.
 
@@ -124,8 +124,8 @@ Bu örnek şu şekilde çalışır:
 1. Yeni kimliğini ayarlayın ve yeni Visio sayfasına ekleyin.
 1. Yeni Visio'i yerel depolamaya kaydedin.
 ### **Programlama Örneği Kopyala**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -157,7 +157,7 @@ foreach (Aspose.Diagram.Shape shape in SrcPage.Shapes)
 newDiagram.Save(dataDir + "CopyShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 
@@ -206,8 +206,8 @@ Microsoft Visio'de özel özellikleri tanımlamak için:
 #### **Programlama Örneği Oku**
 Aşağıdaki kod parçacıkları, şekil verilerini (özel özellikler) okur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -230,12 +230,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **Bir Şekil Özelliğini Ada Göre Okuma**
 Aşağıdaki kod parçacığı, bir şekil özelliğini ada göre okur (özel özellik).
 #### **Ada Göre Okuma Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -255,12 +255,12 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ### **InheritProps of Shape'i okuyun**
 Aşağıdaki kod parçacığı, bir şeklin InheritProps'unu okur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -284,7 +284,7 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 ## **Ekle ve Bağla Visio Şekiller**
  Aspose.Diagram for .NET, özelleştirilmiş şekiller eklemenizi ve bunları birbirine bağlamanızı sağlar.[oluşturduğunuz diyagramlar](https://products.aspose.com/diagram/net/).
 ### **Şekilleri Ekleme ve Birleştirme**
@@ -295,8 +295,8 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Yıldız ve altıgen şekillerini dikdörtgene bağlayın.
 1. diagram'i kaydedin.
 #### **Şekilleri Ekleme ve Birleştirme Programlama Örneği**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_TechnicalArticles();
@@ -386,7 +386,7 @@ diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bot
 diagram.Save(dataDir + "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Şekilleri bağlamak için Bağlantı dizinlerini kullanın**
 Aspose.Diagram for .NET API zaten geliştiricilerin şekle yeni bağlantı noktaları eklemesine izin veriyor ve geliştiriciler artık bağlantı dizinlerini kullanarak şekilleri birbirine bağlayabiliyor.
 ### **Şekilleri bağlamak için Bağlantı dizinlerini kullanın**
@@ -496,8 +496,8 @@ Aspose.Diagram for .NET, geliştiricilerin bir alt şeklin ana şeklini almasın
 ### **Ebeveyn Şeklini Alın**
 bu[Şekil](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)class, üst şekli almak için ParentShape özelliğini sunar.
 #### **Ebeveyn Şekli Programlama Örneği Alın**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -510,4 +510,4 @@ Console.WriteLine("Shape ID: " + parentShape.ID);
 Console.WriteLine("Shape Name: " + parentShape.Name);
 Console.WriteLine("Shape Type: " + parentShape.Type);
 {{< /highlight >}}
-```
+

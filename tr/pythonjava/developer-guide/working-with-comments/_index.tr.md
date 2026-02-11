@@ -12,8 +12,8 @@ Page sınıfı tarafından sunulan addComment yöntemi, bir çizim sayfasına yo
 
 Microsoft Visio kullanıcıları, sayfanın sol üst köşesinde bir simge ile sunulan tüm sayfaya yorum ekler. Geliştiriciler Visio'de sayfa düzeyinde yorumlar ekleyebilir. Python için Aspose.Diagram via Java API ayrıca Visio'de sayfa düzeyinde açıklamayı değiştirmeyi destekler.
 #### **Sayfa Düzeyinde Yorum Programlama Örneği Ekle**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -34,14 +34,14 @@ diagram.save("AddPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'de bir Sayfa Düzeyinde Yorum düzenleyin**
 Python için Aspose.Diagram via Java API, sayfa düzeyinde yorumu değiştirme desteğine sahiptir[Visio çizimi](DrawingComment.vsdx) sayfanın sol üst köşesinde bir simgeyle gösterilen sayfa.
 ### **Yorumu Düzenle**
 Annotation sınıfı tarafından sunulan Comment özelliği, geliştiricilerin Visio çizim sayfasındaki yorumları düzenlemesine olanak tanır.
 #### **Yorum Programlama Örneği Düzenle**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -68,14 +68,14 @@ diagram.save("EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Visio Çiziminde Şekil Düzeyinde Yorum Ekleme**
  Python via Java API için Aspose.Diagram geliştiricilerin şekle yorum eklemesine izin verir.[Visio çizimi](DrawingComment.vsdx).
 ### **Yorum ekle**
 Page sınıfı tarafından sunulan aşırı yüklenmiş bir addComment yöntemi, bir Shape sınıfı örneğini ve yorumun metin dizesini alır.
 #### **Şekil Düzeyinde Yorum Programlama Örneği Ekleme**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -101,4 +101,4 @@ diagram.save("AddShapeLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

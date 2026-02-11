@@ -12,8 +12,8 @@ description: Questa sezione spiega come impostare intestazioni e piè di pagina 
 #### **Esempio di programmazione**
 Il seguente pezzo di codice aiuta a gestire le proprietà di intestazioni e piè di pagina.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_HeadersAndFooters();
@@ -50,4 +50,4 @@ diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False;
 diagram.Save(dataDir + "ManageHeadersandFooters_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

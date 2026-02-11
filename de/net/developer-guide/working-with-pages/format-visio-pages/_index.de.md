@@ -9,8 +9,8 @@ Aspose.Diagram for .NET API ermöglicht es Entwicklern, Seiten einer Visio Diagr
 ## **Wenden Sie Stylesheets auf die Seite Visio an**
 Mit Aspose.Diagram for .NET API können Sie eine Visio-Seite mithilfe von Stylesheets formatieren. Sie können ein Stylesheet definieren und es der Stylesheet-Sammlung des Dokuments Visio hinzufügen. Mit der ApplyStyle-Methode der Page-Klasse können Sie das definierte Stylesheet auf die Seite anwenden, wie im folgenden Codebeispiel gezeigt.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -46,4 +46,4 @@ foreach (Shape shape in vsdDiagram.Pages[0].Shapes)
 vsdDiagram.Pages[0].ApplyStyle(st.ID, st.ID, st.ID);
 
 {{< /highlight >}}
-```
+

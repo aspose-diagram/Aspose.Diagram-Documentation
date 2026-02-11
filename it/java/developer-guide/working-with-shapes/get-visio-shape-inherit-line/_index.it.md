@@ -10,8 +10,8 @@ description: Questa sezione spiega come ottenere lo stile di linea della forma v
 #### **Recupera esempio di programmazione dei dati della riga ereditata**
 Il frammento di codice seguente recupera i dati della linea ereditati della forma. Si prega di controllare questo codice di esempio:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedLine.class) + "Shapes/";
@@ -36,5 +36,5 @@ System.out.println(line.getLineWeight().getValue());
 System.out.println(line.getRounding().getValue());
 
 {{< /highlight >}}
-```
+
 

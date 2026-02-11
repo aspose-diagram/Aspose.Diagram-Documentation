@@ -29,8 +29,8 @@ L'exemple de code suivant explique l'utilisation de[**Moniteur d'interruption**]
 {{< /highlight >}}
 
 ## **Exemple de code**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 import com.aspose.diagram.Diagram;
 import com.aspose.diagram.InterruptMonitor;
 import com.aspose.diagram.SaveFileFormat;
@@ -123,4 +123,4 @@ public class StopConversionOrLoadingUsingInterruptMonitor
 	}
 }
 {{< /highlight >}}
-```
+

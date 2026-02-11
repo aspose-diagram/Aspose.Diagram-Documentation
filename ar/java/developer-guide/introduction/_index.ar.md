@@ -26,8 +26,8 @@ Microsoft Visio يحفظ معلومات حول الإجراءات التي تم 
 
 ![ما يجب القيام به: image_بديل_نص](introduction_1.png)
 #### **عينة البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetLibraryVersion.class);
@@ -47,7 +47,7 @@ System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePr
 System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
 
 {{< /highlight >}}
-```
+
 ## **كتابة Microsoft Visio معلومات ملخص المستند**
 يتيح لك Microsoft Visio تحديد عدد من خصائص معلومات ملخص المستند لمساعدتك وزملاؤك في تحديد diagram. خصائص الملخص ، على سبيل المثال العنوان والموضوع والمؤلف والوصف ، تجعل العثور على الملف أسهل عند البحث ، ويسهل التعرف عليه عند التصفح الملفات.
 
@@ -74,8 +74,8 @@ System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSave
 
 ![ما يجب القيام به: image_بديل_نص](introduction_2.png)
 #### **عينة البرمجة**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioProperties.class);
@@ -99,14 +99,14 @@ diagram.getDocumentProps().setTemplate("Aspose Template");
 diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **كشف تنسيق ملف Visio**
  استخدام[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API ، يمكن للمطورين اكتشاف تنسيق الملف Visio قبل فتحه لأن امتداد الملف لا يضمن أن محتوى الملف مناسب.
 ### **كشف نموذج برمجة التنسيق**
 يوضح نموذج التعليمات البرمجية التالي كيفية اكتشاف تنسيق ملف (باستخدام مسار الملف أو دفقه) والتحقق من امتداده.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
@@ -118,14 +118,14 @@ String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
 		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 ## **كشف تنسيق ملف Visio من InputStream**
 باستخدام Aspose.Diagram for Java API ، يمكن للمطورين اكتشاف تنسيق ملف Visio عن طريق تمرير تدفق الإدخال. يمكن استخدام طريقة DiscoverFileFormat لفئة FileFormatUtil لتحقيق ذلك.
 ### **كشف التنسيق من نموذج برمجة InputStream**
 يوضح نموذج التعليمات البرمجية التالي كيفية اكتشاف تنسيق ملف باستخدام دفق الإدخال.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -139,4 +139,4 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+

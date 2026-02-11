@@ -20,8 +20,8 @@ description: يشرح هذا القسم كيفية إنشاء مخطط هيكل�
 #### **قم بإنشاء نموذج برمجة مخطط هيكلي على غرار CompactTree**
 استخدم التعليمات البرمجية التالية لإنشاء مخطط هيكلي على غرار CompactTree باستخدام Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_CompactTreeChart();
@@ -83,7 +83,7 @@ diagram.Pages[pageNumber].Layout(compactTreeOptions);
 diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**نتيجة**|
 |:- |
@@ -102,8 +102,8 @@ diagram.Save(dataDir + "CompactTreeChart_out.vsdx", SaveFileFormat.VSDX);
 #### **قم بإنشاء نموذج لبرمجة المخطط الهيكلي بنمط مخطط انسيابي**
 استخدم التعليمات البرمجية التالية لإنشاء مخطط هيكلي بأسلوب مخطط انسيابي باستخدام Aspose.Diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_FlowChart();
@@ -164,7 +164,7 @@ diagram.Pages[pageNumber].Layout(flowChartOptions);
 diagram.Save(dataDir + "FlowChart_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**نتيجة**|
 |:- |

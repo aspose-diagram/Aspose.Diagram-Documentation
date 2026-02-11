@@ -22,8 +22,8 @@ El proceso para actualizar los datos de XForm es:
 ### **Ejemplo de programación**
 El fragmento de código a continuación muestra cómo actualizar los datos XForm de una forma. El código busca un proceso de nombres de forma, con el ID de forma 1, y establece sus coordenadas X e Y en 5.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetXFormdata.class); 
@@ -43,7 +43,7 @@ for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
 diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Establecer Visio datos de línea de forma**
 Las formas se pueden formatear de varias maneras. Este artículo muestra cómo especificar los atributos de una línea.
 
@@ -62,8 +62,8 @@ Microsoft Visio permite a los usuarios dar formato a las líneas de varias forma
 #### **Ejemplo de programación de datos de línea**
 El siguiente fragmento de código actualiza los datos de línea de forma.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetLineData.class);
@@ -101,7 +101,7 @@ diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
 diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Establecer los datos de relleno de la forma Visio**
 Las formas se pueden formatear de varias maneras. Este tema describe cómo especificar el relleno de una forma.
 
@@ -119,8 +119,8 @@ La propiedad Fill, expuesta por la clase Shape, admite el objeto Aspose.Diagram.
 #### **Ejemplo de programación de datos de relleno**
 El siguiente fragmento de código actualiza los datos de relleno de una forma. El código busca una forma denominada rectángulo, con el Id. de forma 1, y establece los colores de fondo y de primer plano del relleno.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetFillData.class);
@@ -142,14 +142,14 @@ for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0
 diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Recuperar datos de relleno heredados de una forma Visio**
 Las formas Visio pueden heredar el estilo principal y la forma maestra. Los desarrolladores pueden obtener o configurar los datos de relleno heredados de una forma Visio. La propiedad InheritFill, expuesta por la clase Shape, contiene los valores de formato de relleno para la forma heredada por el estilo principal y la forma maestra.
 #### **Recuperar muestra de programación de datos de llenado heredados**
 El siguiente fragmento de código recupera los datos de relleno heredados de la forma. Por favor revise este código de muestra:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -177,4 +177,4 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+

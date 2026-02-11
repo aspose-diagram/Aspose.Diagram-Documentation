@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur man roterar en visio-form med Asp
 ### **Rotera ett formprogrammeringsprov**
 Använd följande kod i din .NET-applikation för att rotera en form med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ shape.SetAngle(190);
 diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Ändra positionen för en form**
  De[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Klass låter dig ändra positionen för en form. Anslutningslinjen justeras automatiskt när formen flyttas till en annan position. Metoderna Move och MoveTo, exponerade av[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) klass, stöd för att ändra positionen för en form som en del av en grupp eller inte. Kodexemplen i den här artikeln flyttar en form på sidan.
 
@@ -43,8 +43,8 @@ Processen för att flytta en form är:
 ### **Ändra positionsprogrammeringsexempel**
 Kodavsnittet nedan visar hur du flyttar formen. Koden hämtar en Visio-sida med namn och form med ID 16 och flyttar dess position.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -62,7 +62,7 @@ shape.Move(1, 1);
 diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Anslut underformer av grupperna**
  Det här ämnet utvecklar hur man kopplar samman två underformer av två olika gruppformer i Microsoft Visio diagram med Aspose.Diagram for .NET. ConnectShapesViaConnector-metoden exponerad av[Sida](http://www.aspose.com/api/net/diagram/aspose.diagram/page) klass kan användas för att koppla ihop formerna med deras ID. AddShape-metoden, exponerad av[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)klass, kan användas för att lägga till en form.
 
@@ -75,8 +75,8 @@ Koden nedan visar hur man:
 ### **Connect Sub-shapes programmeringsexempel**
 Använd följande kod i din .NET-applikation för att ansluta underformerna till två olika gruppformer med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -103,7 +103,7 @@ page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToI
 diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Få formerna kopplade till en viss form**
 [Lägg till och anslut Visio Former](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) förklarar hur man lägger till en form och kopplar den till andra former i Microsoft Visio diagram med Aspose.Diagram for .NET. Det är också möjligt att hitta former som är kopplade till en specifik form.
 
@@ -117,8 +117,8 @@ Koden nedan visar hur man:
 ### **Få formprogrammeringsexempel**
 Använd följande kod i din .NET-applikation för att hitta alla former som är kopplade till en specifik form med Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,4 +137,4 @@ foreach (long id in connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

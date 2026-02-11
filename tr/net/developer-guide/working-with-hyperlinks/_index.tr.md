@@ -23,8 +23,8 @@ Microsoft Office Visio'deki özellikleri tanımlamak için:
 ### **Köprü Programlama Örneği Ekle**
 Aşağıdaki kod parçacığı, şeklin köprü verilerini ekler.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -53,7 +53,7 @@ shape.Hyperlinks.Add(hyperlink);
 diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Şekillerinin Köprü Verilerini Alın**
 Geliştiriciler, bir Visio şeklinden tüm köprüleri aldıkları gibi alabilirler.[Visio şekil verisini oku](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) kullanarak[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -75,8 +75,8 @@ Varolan tüm özellikler iletişim kutusunda listelenir.
 ### **Köprü Programlama Örneği Alın**
 Aşağıdaki kod parçacığı, şeklin köprü verilerini okur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Hyperlinks();
@@ -96,4 +96,4 @@ foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
 }       
 
 {{< /highlight >}}
-```
+

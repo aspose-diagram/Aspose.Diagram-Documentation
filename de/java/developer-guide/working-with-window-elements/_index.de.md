@@ -13,8 +13,8 @@ url: /de/java/working-with-window-elements/
 
 ![todo: Bild_alt_Text](http://i.imgur.com/zduARGh.png)
 ### **Programmierbeispiel für Fensterelemente abrufen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveWindowElementsOfDiagram.class);    
@@ -31,14 +31,14 @@ for (Window window :(Iterable<Window>) diagram.getWindows())
 }
 
 {{< /highlight >}}
-```
+
 ## **Fensterelement zu Visio Diagram hinzufügen**
  Das Hauptfenster der Visio-Anwendung kann alle geöffneten Visio-Dateien enthalten, genauso wie moderne Webbrowser Webseiten mit mehreren Registerkarten in einem Fenster zulassen. Entwickler können jetzt ein neues Window-Objekt in einer Microsoft Visio-Instanz mit hinzufügen[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
 Das Window-Objekt repräsentiert ein offenes Fenster in einer Microsoft Visio-Instanz. Die Add-Methode, die von der WindowCollection-Klasse verfügbar gemacht wird, ermöglicht das Hinzufügen eines neuen Window-Objekts.
 ### **Programmierbeispiel für Fensterelemente hinzugefügt**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWindowElementInVisio.class); 
@@ -61,7 +61,7 @@ diagram.getWindows().add(window);
 diagram.save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Unterstützung für dynamische Gitter und Verbindungspunkte hinzufügen**
 Das dynamische Raster hilft Ihnen, neue Formen vertikal und horizontal relativ zu den Formen zu positionieren, die Sie bereits in der Zeichnung platziert haben. In Bezug auf die Verbindungspunkte, sobald sie als markiert markiert sind, hilft uns, die Verbindungspunkte zu sehen, wenn wir dabei sind, eine Verbindung zu ihnen herzustellen. Wir können beide Optionen mit erreichen[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 ### **Unterstützung dynamischer Gitter und Verbindungspunkte in den Visio-Zeichnungen**
@@ -71,8 +71,8 @@ Die Window-Klasse bietet die Eigenschaften DynamicGridEnabled und ShowConnection
 
 ![todo: Bild_alt_Text](http://i.imgur.com/bxsJIwF.png)
 #### **Support-Programmierbeispiel hinzufügen**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSupportOfVisualAids.class);
@@ -90,7 +90,7 @@ window.setShowConnectionPoints(BOOL.TRUE);
 diagram.save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Raster, Lineale, Hilfslinien und Seitenumbrüche von Visio Diagram ein- und ausblenden**
  Microsoft Office Visio hat ein Linealpaar, ein Raster und zwei Arten von Hilfslinien und eine Seitenumbruchflagge, um zu sehen, was auf jeder Seite gedruckt wird. Entwickler können diese Einstellungen mit anwenden[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/)Die Einstellungen gelten global für eine einzelne Seite.
 
@@ -100,8 +100,8 @@ Die Window-Klasse bietet die Eigenschaften ShowGrid, ShowGuides, ShowRulers und 
 
 ![todo: Bild_alt_Text](http://i.imgur.com/E0pvXbP.png)
 ### **Programmierbeispiel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DisplayGridsRulersGuidesAndPageBreaks.class);     
@@ -123,4 +123,4 @@ window.setShowPageBreaks(BOOL.TRUE);
 diagram.save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

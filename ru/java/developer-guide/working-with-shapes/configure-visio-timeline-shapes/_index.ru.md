@@ -22,8 +22,8 @@ Aspose.Diagram позволяет разработчикам устанавли�
 1. Установите тип вехи
 1. Сохраните чертеж Visio в любом поддерживаемом формате.
 #### **Установить образец программирования Milestone**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
@@ -49,7 +49,7 @@ milestoneHelper.setType(6);
 diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Таблица значений формата даты:
@@ -104,8 +104,8 @@ Aspose.Diagram позволяет разработчикам настраива�
 1. Установите формат даты.
 1. Сохраните чертеж Visio в любом поддерживаемом формате.
 #### **Пример программирования установки периода времени и даты**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
@@ -139,7 +139,7 @@ timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
 diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 Таблица значений формата даты:
@@ -194,8 +194,8 @@ Aspose.Diagram позволяет разработчикам настраива�
 #### **Обновление вех с помощью примера программирования TimeLineHelper**
 Используйте следующий код в своем приложении Java, чтобы оживить вехи на временной шкале, используя Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
@@ -224,7 +224,7 @@ timelineHelper.refreshTimeLine();
 diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Обновление вех на временной шкале с помощью класса MilestoneHelper**
  Метод RefreshMilestone, предоставленный[Milestone Helper](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)можно использовать для обновления вех на временной шкале.
 
@@ -241,8 +241,8 @@ diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
 #### **Обновление вех с помощью примера программирования MilestoneHelper**
 Используйте следующий код в своем приложении Java, чтобы обновить вехи на временной шкале с помощью Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
@@ -293,4 +293,4 @@ milestoneHelper.refreshMilestone(timeline);
 diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

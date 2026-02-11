@@ -17,8 +17,8 @@ El siguiente código muestra cómo:
 ### **Forma a imagen**
 Use el siguiente código en su aplicación Java para convertir una forma visio en una imagen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToImage.class); 
@@ -35,6 +35,6 @@ Shape shape = page.getShapes().get(0);
 com.aspose.diagram.ImageSaveOptions option = new com.aspose.diagram.ImageSaveOptions(SaveFileFormat.PNG);
 shape.toImage("out.png",option);
 {{< /highlight >}}
-```
+
 
 

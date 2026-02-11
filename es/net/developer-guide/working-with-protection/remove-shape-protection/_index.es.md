@@ -20,8 +20,8 @@ En Microsoft Office Visio, el usuario puede realizar las siguientes acciones par
 ### **Eliminar la muestra de programación de protección de forma**
 Use el siguiente código en su aplicación .NET para hacer lo mismo (desbloquear cualquier atributo de forma) usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Protection();
@@ -59,4 +59,4 @@ shape.Protection.LockWidth.Value = BOOL.False;
 diagram.Save(dataDir + "RemoveShapeProtection_out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+

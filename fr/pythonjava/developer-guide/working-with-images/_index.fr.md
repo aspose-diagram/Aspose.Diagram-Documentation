@@ -12,8 +12,8 @@ L'objet Page Class représente la zone de dessin d'une page de premier plan ou d
 #### **Exemple de programmation d'extraction d'images**
 Le morceau de code suivant extrait toutes les images d'une page Visio particulière.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -36,7 +36,7 @@ for shape in diagram.getPages().getPage(0).getShapes():
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Obtenez des icônes de diverses formes Visio**
 Aspose.Diagram for Python via Java API now allows developers to get icons of various [Visio formes](Timeline.vss). 
 ### **Obtenir l'icône de forme**
@@ -47,8 +47,8 @@ Le code dans les exemples ci-dessous montre comment :
 1. Obtenir l'icône principale.
 1. Enregistrer l'icône dans l'espace local.
 #### **Obtenir un exemple de programmation d'icônes**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -72,7 +72,7 @@ fos.close()
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Remplacer une forme d'image du Visio Diagram**
 Aspose.Diagram for Python via Java API allows developers to access and replace available picture shapes in [le Visio diagram](ExtractAllImagesFromPage.vsd).
 ### **Remplacement d'une forme d'image**
@@ -83,8 +83,8 @@ Le code dans les exemples ci-dessous montre comment :
 1. Appliquer le filtre pour obtenir des formes d'image.
 1. Enregistrez le résultat Visio diagram dans l'espace local.
 #### **Remplacer un exemple de programmation de forme d'image**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -113,7 +113,7 @@ diagram.save("ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Importer l'image en tant que forme Visio**
 Aspose.Diagram for Python via Java API now allows developers to import a image as a Microsoft Visio shape.
 ### **Insérer une image dans Visio**
@@ -124,8 +124,8 @@ Le code dans les exemples ci-dessous montre comment :
 1. Importer une image en tant que forme Visio
 1. Enregistrez le diagram.
 #### **Insérer un exemple de programmation d'image**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 
@@ -155,4 +155,4 @@ diagram.save("InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

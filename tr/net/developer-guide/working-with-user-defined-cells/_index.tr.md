@@ -14,8 +14,8 @@ description: Bu bölümde, visio şekillerinin Kullanıcı tanımlı hücrelerin
 #### **Hücreleri Programlama Örneği Al**
 Aşağıdaki kod parçası, geliştiricilerin kullanıcı tanımlı hücre alanlarını okumasına olanak tanır.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -33,7 +33,7 @@ foreach (User user in shape.Users)
 }
 
 {{< /highlight >}}
-```
+
 
 
 Bu görüntü, yukarıdaki kodu çalıştırdıktan sonraki çıktıyı gösterir:
@@ -46,8 +46,8 @@ Kullanıcılar Koleksiyonu tarafından sunulan Add yöntemi, şekil sayfasında 
 #### **Hücre Programlama Örneği Oluşturma**
 Aspose.Diagram for .NET kullanarak şekil sayfasında kullanıcı tanımlı hücre oluşturmak için .NET uygulamanızda aşağıdaki kod örneğini kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -70,7 +70,7 @@ shape.Users.Add(user);
 diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Şekil Sayfasından Kullanıcı Tanımlı Hücreleri Al**
 Aspose.Diagram for .NET API, şekil sayfasından kullanıcı tanımlı hücrelerin alınmasına izin verir. Bu örnek konu, geliştiricilerin bir çizimdeki tüm şekiller için tüm User.name'yi nasıl alabileceğini açıklamaktadır.
 ### **Kullanıcı Tanımlı Hücreleri Al**
@@ -78,8 +78,8 @@ User sınıfı tarafından sunulan NameU, Value.Val ve Prompt.Value özellikleri
 #### **Şekil Sayfası Programlama Örneklerinden Hücreleri Alma**
 Aspose.Diagram for .NET'i kullanarak tüm kullanıcı tanımlı hücreleri şekil sayfasından almak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -104,4 +104,4 @@ foreach (Aspose.Diagram.Page objPage in diagram.Pages)
 }  
 
 {{< /highlight >}}
-```
+

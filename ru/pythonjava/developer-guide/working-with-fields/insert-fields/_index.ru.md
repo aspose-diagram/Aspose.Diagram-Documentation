@@ -10,8 +10,8 @@ description: Как создавать, вставлять поля с помо�
 
 ### **Образец программирования**
 Следующий фрагмент кода вставляет поле в shape.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -39,5 +39,5 @@ diagram.save("InsertField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

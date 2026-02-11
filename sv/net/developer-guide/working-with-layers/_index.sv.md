@@ -10,8 +10,8 @@ description: Det här avsnittet förklarar hur du lägger till eller får lageri
 ### **Konfigurera formobjekts programmeringsexempel**
 Följande kodbit hjälper till att lägga till, ta bort och flytta formobjektegenskaper.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Lägg till ett nytt lager i Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) tillåter utvecklare att lägga till nya lager för att organisera anpassade kategorier av former och sedan tilldela former till dessa lager programmatiskt. De[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) klass erbjuder Lägg till metod som gör det möjligt att lägga till en ny[Lager](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) i Visio-ritningen. Utvecklare kan ställa in lageregenskaper genom att initiera dess klassobjekt.
 ### **Lägg till lagerprogrammeringsexempel**
 Följande kodbit hjälper till att lägga till Layer-objekt.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Hämta alla lager från Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) ger tillgång till utvecklare att få de befintliga lagren av en Visio diagram.[PageSheet](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) egendom av[Sida](http://www.aspose.com/api/net/diagram/aspose.diagram/page) klass gör det möjligt att hämta listan över tillgängliga lager från en Visio diagram med[LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) klass.
 ### **Hämta lagerprogrammeringsexempel**
 Följande kodbit hjälper dig att få listan över lager.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

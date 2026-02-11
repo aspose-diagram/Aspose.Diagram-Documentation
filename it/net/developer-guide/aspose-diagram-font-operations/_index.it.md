@@ -27,8 +27,8 @@ L'impostazione della cartella dei caratteri utilizzando uno dei metodi di cui so
 #### **Esempio di programmazione**
 L'esempio di codice seguente mostra come impostare Aspose.Diagram per cercare in più cartelle i caratteri TrueType durante il rendering o l'incorporamento dei caratteri.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -43,7 +43,7 @@ diagram.FontDirs = fontDirs;
 diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **Ricevi notifica di caratteri mancanti e sostituzione di caratteri durante il rendering**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Notifica di caratteri mancanti e esempio di programmazione per la sostituzione dei caratteri**

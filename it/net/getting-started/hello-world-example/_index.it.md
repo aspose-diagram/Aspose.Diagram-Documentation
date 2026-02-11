@@ -15,8 +15,8 @@ Dopo[installazione Aspose.Diagram for .NET](/diagram/it/net/installation/)nel pr
 
 The following code snippet is a Hello World program to exhibit the working of Aspose.Diagram for .NET API. 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -28,7 +28,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 

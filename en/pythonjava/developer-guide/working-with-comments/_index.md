@@ -13,8 +13,8 @@ The addComment method, exposed by the Page class, allows you to add comments to 
 
 Microsoft Visio users add comments to the entire page that are presented by an icon in the upper-left corner of the page. Developers can add page level comments in the Visio. Aspose.Diagram for Python via Java API additionally supports to alter the page level comment in the Visio.
 #### **Add Page-Level Comment Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -35,14 +35,14 @@ diagram.save("AddPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Edit a Page-Level Comment in the Visio Diagram**
 Aspose.Diagram for Python via Java API has support of altering the page-level comment on [the Visio drawing](DrawingComment.vsdx) page which are presented by an icon in the upper-left corner of the page. 
 ### **Edit Comment**
 The Comment property, exposed by the Annotation class, allows developers to edit comments in the Visio drawing page.
 #### **Edit Comment Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -69,14 +69,14 @@ diagram.save("EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Add a Shape-Level Comment in Visio Drawing**
 Aspose.Diagram for Python via Java API allows developers to add comments to the shape in [the Visio drawing](DrawingComment.vsdx).
 ### **Add Comment**
 An overloaded addComment method, exposed by the Page class takes a Shape class instance and text string of the comment.
 #### **Add Shape-Level Comment Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -102,4 +102,4 @@ diagram.save("AddShapeLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

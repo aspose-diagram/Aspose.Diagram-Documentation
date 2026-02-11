@@ -34,6 +34,17 @@ description: Python via .NET için kurulum Aspose.Diagram ve kurulum yönergeler
 
 -  adlı bir dosya oluşturun.**OluşturmaNewVisioFile.py** ve aşağıdaki örnek kodu kullanın:
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingNewVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram()
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 - Şimdi yukarıdaki kodu "CreatingNewVisioFile.py"ye kaydedin ve "python CreateNewVisioFile.py" @command istemini çalıştırın.

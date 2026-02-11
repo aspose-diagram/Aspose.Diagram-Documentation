@@ -13,8 +13,8 @@ Microsoft Office Visio يدعم معالجة كائنات OLE في Visio diagram
 ## **معالجة نموذج برمجة كائنات OLE المضمنة**
 [بيانات الكائن](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata/properties/objectdata) ممتلكات[ForeignData](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata)تسمح الفئة للمطورين بالتعامل مع كائنات OLE الموجودة في Visio diagram. يوضح موضوع التعليمات هذا كيف يمكن للمطورين استرداد كائن OLE من مستند Word ، وتحريره باستخدام[Aspose.Words for .NET API](https://products.aspose.com/words/net)، ثم قم بالحفظ مرة أخرى ككائن OLE في Visio diagram.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_OLEObjects();
@@ -50,4 +50,4 @@ if (OLE_Shape.Type == Aspose.Diagram.TypeValue.Foreign)
 diagram.Save(dataDir + "ManipulateObjects_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

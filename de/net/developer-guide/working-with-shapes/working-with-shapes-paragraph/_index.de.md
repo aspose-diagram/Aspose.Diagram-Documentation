@@ -12,8 +12,8 @@ Der folgende Code zeigt, wie man:
 ## **Beispiel für die Absatzprogrammierung von Form festlegen**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um den Absatz der Form mit Aspose.Diagram for .NET festzulegen.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -69,4 +69,3 @@ para.Bullet.Value = BulletValue.Style1;
 diagram.Save(dataDir + "SettingParagraphOfShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

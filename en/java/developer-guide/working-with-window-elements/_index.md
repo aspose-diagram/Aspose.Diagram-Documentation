@@ -14,8 +14,8 @@ The [WindowCollection](https://reference.aspose.com/diagram/java/com.aspose.diag
 
 ![todo:image_alt_text](http://i.imgur.com/zduARGh.png)
 ### **Retrieve Window Elements Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveWindowElementsOfDiagram.class);    
@@ -32,14 +32,14 @@ for (Window window :(Iterable<Window>) diagram.getWindows())
 }
 
 {{< /highlight >}}
-```
+
 ## **Add Window Element to the Visio Diagram**
 The main Visio application window can contain any open Visio files, the same as modern web browsers allow for multiple tabbed web pages in one window. Developers can now add a new Window object in a Microsoft Visio instance using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
 The Window object represents an open window in a Microsoft Visio instance. The Add method, exposed by the WindowCollection class, allows to add a new Window object.
 ### **Add Window Element Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWindowElementInVisio.class); 
@@ -62,7 +62,7 @@ diagram.getWindows().add(window);
 diagram.save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Add Support of Dynamic Grids and Connection Points**
 The dynamic grid helps you position new shapes vertically and horizontally relative to the shapes you've already placed in the drawing. Regarding the connection points, once marked as checked, will help us to see the connection points when we are in the process of connecting to them. We can achieve both options using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 ### **Support of Dynamic Grids and Connection Points in the Visio Drawings**
@@ -72,8 +72,8 @@ The Window class offers DynamicGridEnabled and ShowConnectionPoints properties. 
 
 ![todo:image_alt_text](http://i.imgur.com/bxsJIwF.png)
 #### **Add Support Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSupportOfVisualAids.class);
@@ -91,7 +91,7 @@ window.setShowConnectionPoints(BOOL.TRUE);
 diagram.save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Show and Hide Grids, Rulers, Guides and Page Breaks of the Visio Diagram**
 Microsoft Office Visio has a pair of rulers, a grid, and two types of guides and page breaks flag to see what will be printed on each page. Developers can apply these settings using [Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/). The settings apply globally to a single page.
 
@@ -101,8 +101,8 @@ The Window class offers ShowGrid, ShowGuides, ShowRulers and ShowPageBreaks prop
 
 ![todo:image_alt_text](http://i.imgur.com/E0pvXbP.png)
 ### **Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DisplayGridsRulersGuidesAndPageBreaks.class);     
@@ -124,4 +124,4 @@ window.setShowPageBreaks(BOOL.TRUE);
 diagram.save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

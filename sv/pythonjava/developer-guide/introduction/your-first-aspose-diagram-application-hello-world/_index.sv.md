@@ -30,8 +30,8 @@ Implementeringen av stegen ovan visas i exemplen nedan.
 
 Följande exempel öppnar en befintlig Microsoft Visio mallfil med namnet "[Basic_Shapes.vss](Basic_Shapes.vss)", matar in texten "Hello World!" på första sidan och sparar diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -53,4 +53,4 @@ diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

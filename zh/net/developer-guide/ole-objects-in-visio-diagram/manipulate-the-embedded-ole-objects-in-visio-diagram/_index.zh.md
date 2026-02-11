@@ -13,8 +13,8 @@ Microsoft Office Visio 支持操作 Visio diagram 中的 OLE 对象。如果 vis
 ## **操作嵌入式 OLE 对象编程示例**
 [对象数据](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata/properties/objectdata)的财产[外国数据](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata)类允许开发人员操作 Visio diagram 中的现有 OLE 对象。此帮助主题演示开发人员如何检索 Word 文档的 OLE 对象，使用[Aspose.Words for .NET API](https://products.aspose.com/words/net)然后在 Visio diagram 中存回一个 OLE 对象。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_OLEObjects();
@@ -50,4 +50,4 @@ if (OLE_Shape.Type == Aspose.Diagram.TypeValue.Foreign)
 diagram.Save(dataDir + "ManipulateObjects_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

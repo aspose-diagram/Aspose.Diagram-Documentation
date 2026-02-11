@@ -15,8 +15,8 @@ Aspose.Diagram permite al usuario verificar si el proyecto de código VBA está 
 
 ## Código de muestra
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -30,7 +30,7 @@ Console.WriteLine("Is VBA Code Project Signed: " + diagram.VbaProject.IsSigned);
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## Salida de consola
 

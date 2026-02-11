@@ -16,8 +16,8 @@ Die unterstützten lesbaren Dateiformate sind wie folgt:
 
 Konstruktoren der Klasse diagram bieten auch einen optionalen Parameter, der LoadFileFormat oder LoadOptions definiert. Es sind die Vorladeinformationen, die Entwickler an die Aspose.Diagram API weitergeben können. Wir empfehlen, die realistischen Informationen weiterzugeben, um eine ideale Leistung zu erzielen.
 ## **Lesen von Diagram Programmierbeispiel**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -44,4 +44,4 @@ LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
 Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
 
 {{< /highlight >}}
-```
+

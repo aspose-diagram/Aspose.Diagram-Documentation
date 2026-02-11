@@ -10,8 +10,8 @@ Las formas Visio pueden heredar el estilo principal y la forma maestra. Los desa
 #### **Recuperar muestra de programación de datos de llenado heredados**
 El siguiente fragmento de código recupera los datos de relleno heredados de la forma. Por favor revise este código de muestra:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
@@ -39,5 +39,5 @@ System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
 System.out.println(shape.getInheritFill().getShdwPattern().getValue());
 
 {{< /highlight >}}
-```
+
 

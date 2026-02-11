@@ -18,8 +18,8 @@ description: В этом разделе объясняется, как полу�
 #### **Пример программирования Get Connectors Glued**
 Используйте следующий код в своем приложении .NET, чтобы найти все соединители, приклеенные к фигуре, используя Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -39,7 +39,7 @@ foreach (long id in gluedShapeIds)
 }
 
 {{< /highlight >}}
-```
+
 ## **Склейте Visio формы вместе с точкой соединения**
 Aspose.Diagram for .NET позволяет разработчикам склеивать фигуры вместе через точки соединения.
 ### **Клеевые формы**
@@ -55,8 +55,8 @@ Aspose.Diagram for .NET позволяет разработчикам склеи
 #### **Glue Visio Образец программирования фигур**
 Используйте следующий код в своем приложении .NET, чтобы склеить фигуры через точки соединения:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -76,7 +76,7 @@ page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Cent
 diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Приклейте фигуры внутри контейнера**
 Aspose.Diagram for .NET позволяет разработчикам склеивать групповые фигуры внутри контейнера.
 ### **Форма группы клея**
@@ -92,8 +92,8 @@ Aspose.Diagram for .NET позволяет разработчикам склеи
 #### **Склеивание фигур внутри примера программирования**
 Используйте следующий код в своем приложении .NET, чтобы склеить фигуру группы внутри контейнера:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,4 +123,4 @@ page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndC
 diagram.Save(dataDir + "GlueContainerShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

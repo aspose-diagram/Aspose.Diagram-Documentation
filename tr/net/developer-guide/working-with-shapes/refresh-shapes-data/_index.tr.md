@@ -16,8 +16,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Shape'in verilerini yenile**
 Aspose.Diagram for .NET kullanarak bir şekli yenilemek için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ shape.RefreshData();
 diagram.Save(dataDir + "RefreshData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

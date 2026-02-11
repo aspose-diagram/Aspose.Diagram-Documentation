@@ -10,8 +10,8 @@ Aspose.Diagram for Java allows you to rotate a shape to any angle. The SetAngle 
 ### **Rotate a Shape Programming Sample**
 Use the following code in your Java application to rotate a shape using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RotateVisioShape.class); 
@@ -29,7 +29,7 @@ shape.setAngle(190);
 diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Change the Position of a Shape**
 The Shape Class allows you to change the position of a shape. The connector line automatically adjusts when the shape is moved to a different position.
 
@@ -53,8 +53,8 @@ The process for moving a shape is:
 ### **Change Position Programming Sample**
 The code snippet below shows how to move the shape. The code retrieves a Visio page by name and shape by ID 16, and moves its position.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(MoveVisioShape.class);  
@@ -71,7 +71,7 @@ shape.move(1, 1);
 diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Connect Sub-shapes of the Groups**
 This topic elaborates how to connect two sub-shapes of two different group shapes in Microsoft Visio diagrams using Aspose.Diagram for Java.
 
@@ -88,8 +88,8 @@ The code below shows how to:
 ### **Connect Sub-shapes Programming Sample**
 Use the following code in your Java application to connect the sub-shapes of two different group shapes using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
@@ -115,7 +115,7 @@ page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToI
 diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Get the Shapes Connected to a Particular Shape**
 [Add and Connect Visio Shapes](/diagram/java/add-and-connect-visio-shapes/) explains how to add a shape and connect it to other shapes in Microsoft Visio diagrams using Aspose.Diagram for Java. It is also possible to find shapes that are connected to a specific shape.
 
@@ -129,8 +129,8 @@ The code below shows how to:
 ### **Get Shapes Programming Sample**
 Use the following code in your Java application to find all the shapes connected to a specific shape using Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
@@ -148,4 +148,4 @@ for (long id : connectedShapeIds)
 }
 
 {{< /highlight >}}
-```
+

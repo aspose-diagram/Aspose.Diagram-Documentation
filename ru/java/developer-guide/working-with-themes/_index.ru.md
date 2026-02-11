@@ -19,8 +19,8 @@ Aspose.Diagram API-интерфейсы позволяют применять п
 - Получить экземпляр класса Page для установки темы
 - Назначьте значение Preset свойству PresetTheme экземпляра страницы.
 #### **Применение предустановленной темы к образцу программирования страницы**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -34,7 +34,7 @@ page.setPresetTheme(PresetThemeValue.BUBBLE);
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 |**Результат применения предустановленной темы к странице**|
 |:- |
@@ -51,8 +51,8 @@ Aspose.Diagram API-интерфейсы позволяют применять п
 
 #### **Применение предустановленного варианта темы к образцу программирования страницы**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -67,7 +67,7 @@ page.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Результат применения предустановленного варианта темы к странице**|
 |:- |
@@ -83,8 +83,8 @@ Aspose.Diagram API позволяет применять предустанов�
 
 #### **Применение предустановленной темы к образцу программирования формы**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -97,7 +97,7 @@ shape.setPresetTheme(PresetThemeValue.BUBBLE);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Результат применения предустановленной темы к фигуре**|
 |:- |
@@ -114,8 +114,8 @@ Aspose.Diagram API позволяет применить предустанов�
 
 #### **Применение предустановленного варианта темы к образцу программирования формы**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -130,7 +130,7 @@ shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Результат применения предустановленного варианта темы к фигуре**|
 |:- |
@@ -148,8 +148,8 @@ Aspose.Diagram API позволяет применять готовый быст
 
 #### **Применение предварительно заданного варианта темы Quickstyle к образцу программирования формы**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -166,7 +166,7 @@ shape.setPresetThemeQuickStyle(PresetQuickStyleValue.VARIANT_STYLE_2);
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Результат применения предварительно заданного варианта темы Quickstyle к фигуре**|
 |:- |
@@ -184,8 +184,8 @@ Aspose.Diagram API позволяет применять готовый быст
 
 #### **Применение предустановленного стиля темы к фигуре с помощью примера программирования метода setPresetThemeStyleMatrics**
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioThemes.class);
@@ -202,7 +202,7 @@ shape.setPresetThemeStyleMatrics(PresetStyleMatricsValue.STYLE_2, PresetColorMat
 // Save diagram
 diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
 {{< /highlight >}}
-```
+
 
 |**Результат применения предустановленного стиля темы к фигуре с использованием метода setPresetThemeStyleMatrics** |
 |:----------------------------------------------------------- |

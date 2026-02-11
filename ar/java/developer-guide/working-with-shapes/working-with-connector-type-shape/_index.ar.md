@@ -19,8 +19,8 @@ url: /ar/java/working-with-connector-type-shape/
 #### **تعيين نموذج برمجة مظهر الموصل**
 استخدم الكود التالي في تطبيق Java لتعيين مظهر شكل نوع الموصل باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -38,7 +38,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **حدد خيار إعادة التوجيه لشكل الموصل**
  الخاصية ConFixedCode التي يعرضها ملف[تَخطِيط](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) يمكن استخدام فئة لتحديد خيار إعادة التوجيه. خاصية Layout ، المكشوفة بواسطة ملف[شكل](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) فئة ، سيتم استخدامها.
 
@@ -54,8 +54,8 @@ diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 ### **حدد إعادة توجيه نموذج البرمجة الخيار**
 استخدم الكود التالي في تطبيق Java الخاص بك لتحديد خيار إعادة التوجيه لشكل الموصل باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -73,4 +73,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

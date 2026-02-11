@@ -20,8 +20,8 @@ The following image shows the output after running the code:
 
 ![todo:image_alt_text](working-with-user-defined-cells_2.png)
 #### **Programming Samples**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -38,7 +38,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Create User-defined Cell**
 The Aspose.Diagram for Java API allows developers to create user-defined cell in the shapesheet. This example topic describes how to add as many user name rows as are needed, assign meaningful names to the rows, and set cell values.
 
@@ -46,8 +46,8 @@ The add method exposed by the Users collection can be used to create user-define
 
 Use the following code in your Java application to create user-defined cell in the shapesheet using Aspose.Diagram for Java.
 #### **Programming Samples**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -69,7 +69,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Retrieve User-defined Cells from Shapesheet**
 Aspose.Diagram for Java API allows developers to retrieve user-defined cells from shapesheet. This example topic describes how to retrieve all user names for all shapes in a drawing.
 ### **Retrieve User-defined Cells**
@@ -77,8 +77,8 @@ The getNameU(), getValue().getVal() and getPrompt().getValue() methods exposed b
 #### **Retrieve Cells from Shapesheet Programming Samples**
 Use the following code in your Java application to retrieve all user-defined cells from shapesheet using Aspose.Diagram for Java.
 #### **Programming Samples**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -100,4 +100,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -22,8 +22,8 @@ Microsoft Visio'de belgeleri şu şekilde korursunuz:
 
 Python via Java için Aspose.Diagram'i kullanarak aynı görevleri gerçekleştirmek için uygulamanızda aşağıdaki kodu kullanın - diagram'inizin farklı öğelerini kilitleyin ve kilidini açın.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -46,7 +46,7 @@ diagram.save("VisioDiagramProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **Visio Şekil Korumasını düzenleyin**
 Visio şekillerinin korunması, kullanıcıların şekillerin belirli yönlerini kilitlemesine olanak tanır. Şekil koruması yoluyla kilitlenebilen şekillerin özellikleri arasında genişlik, yükseklik, x konumu, y konumu, döndürme ve daha fazlası bulunur. Geliştiriciler, Python via Java için Aspose.Diagram'i kullanarak bunu başarabilir.
@@ -65,8 +65,8 @@ Visio'de, herhangi bir şekli korumak için aşağıdaki işlemleri yapmanız ge
 
 Python via Java için Aspose.Diagram'i kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğini kilitlemek/kilidini açmak) için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -109,4 +109,4 @@ diagram.save("VisioShapeProtection_Out.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

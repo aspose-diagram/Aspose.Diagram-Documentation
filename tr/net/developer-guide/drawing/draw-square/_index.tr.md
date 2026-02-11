@@ -8,8 +8,8 @@ description: Bu bölümde visio sayfasında Aspose.Diagram ile nasıl kare çizi
 ## **Visio de Kare Çiz**
 Aspose.Diagram for .NET API, geliştiricilerin bir sayfada kare şekli çizmesine olanak tanır. Aşağıdaki kod örneği, Visio çiziminde nasıl kare çizileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -23,13 +23,13 @@ diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawSquareInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **SVG de Kare Çiz**
 Aspose.Diagram for .NET API geliştiricilerin sayfada bir kare çizip SVG formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir karenin nasıl çizileceğini ve SVG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -45,13 +45,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawSquareInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **PDF de Kare Çiz**
 Aspose.Diagram for .NET API geliştiricilerin sayfada bir kare çizip PDF formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir karenin nasıl çizileceğini ve PDF formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -65,13 +65,13 @@ diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawSquareInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **PNG de Kare Çiz**
 Aspose.Diagram for .NET API geliştiricilerin sayfada bir kare çizip PNG formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir karenin nasıl çizileceğini ve PNG formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -87,13 +87,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawSquareInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **HTML de Kare Çiz**
 Aspose.Diagram for .NET API geliştiricilerin sayfada bir kare çizip HTML formatında kaydetmesine olanak sağlar. Aşağıdaki kod örneği, Visio çiziminde bir karenin nasıl çizileceğini ve HTML formatında nasıl kaydedileceğini gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -107,4 +107,4 @@ diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
 diagram.Save(dataDir + "DrawSquareInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

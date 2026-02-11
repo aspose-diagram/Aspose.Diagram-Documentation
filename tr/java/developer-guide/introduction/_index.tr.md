@@ -26,8 +26,8 @@ Aşağıdaki kod örnekleri, dosyanın ne tarafından oluşturulduğu, ne zaman 
 
 ![yapılacaklar:resim_alternatif_Metin](introduction_1.png)
 #### **Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetLibraryVersion.class);
@@ -47,7 +47,7 @@ System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePr
 System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
 
 {{< /highlight >}}
-```
+
 ## **Yazma Microsoft Visio Doküman Özet Bilgi**
 Microsoft Visio, sizin ve iş arkadaşlarınızın bir diagram'i tanımlamasına yardımcı olacak bir dizi belge özeti bilgisi özelliği tanımlamanıza olanak tanır. Başlık, konu, yazar ve açıklama gibi özet özellikler, arama yaparken dosyayı bulmayı ve göz atarken tanımayı kolaylaştırır Dosyalar.
 
@@ -74,8 +74,8 @@ Mevcut bir VDX veya VSD dosyasının çizim özeti bilgilerini güncellemek içi
 
 ![yapılacaklar:resim_alternatif_Metin](introduction_2.png)
 #### **Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioProperties.class);
@@ -99,14 +99,14 @@ diagram.getDocumentProps().setTemplate("Aspose Template");
 diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Dosyasının Biçimini Algılama**
  kullanma[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API, geliştiriciler Visio dosyasının biçimini dosyayı açmadan önce algılayabilir çünkü dosya uzantısı dosya içeriğinin uygun olduğunu garanti etmez.
 ### **Biçim Programlama Örneği Algıla**
 Aşağıdaki örnek kod, bir dosya biçiminin (dosya yolu veya akışı kullanılarak) nasıl algılanacağını ve uzantısının nasıl kontrol edileceğini gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
@@ -118,14 +118,14 @@ String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
 		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 ## **Visio Dosyasının Biçimini Bir InputStream'den Algılama**
 Aspose.Diagram for Java API'i kullanan geliştiriciler, bir giriş akışı geçirerek Visio dosyasının biçimini algılayabilir. Bunu başarmak için FileFormatUtil sınıfının DetectFileFormat yöntemi kullanılabilir.
 ### **Bir InputStream Programlama Örneğinden Format Algılama**
 Aşağıdaki örnek kod, bir giriş akışı kullanılarak bir dosya biçiminin nasıl algılanacağını gösterir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -139,4 +139,4 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+

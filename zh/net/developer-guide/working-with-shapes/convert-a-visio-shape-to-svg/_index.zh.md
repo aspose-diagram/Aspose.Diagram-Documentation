@@ -17,8 +17,8 @@ description: 本节介绍如何使用 Aspose.Diagram 将 visio 形状转换为 s
 ### **形状为 Svg**
 在您的 .net 应用程序中使用以下代码将 visio 形状转换为 svg。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ SVGSaveOptions svgOptions = new SVGSaveOptions();
 shape.ToSvg("out.svg",svgOptions);
 
 {{< /highlight >}}
-```
+
 

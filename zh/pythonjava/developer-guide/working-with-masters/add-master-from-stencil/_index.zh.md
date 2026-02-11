@@ -12,8 +12,8 @@ Aspose.Diagram for Python via Java API has the Master class that represents a Vi
 使用方法**添加Master**在 Diagram 类中从模板添加母版。
 
 ## **示例代码**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

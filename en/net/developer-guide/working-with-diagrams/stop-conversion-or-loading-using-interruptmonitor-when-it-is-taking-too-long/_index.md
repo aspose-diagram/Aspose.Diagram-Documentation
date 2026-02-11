@@ -31,8 +31,8 @@ As you see **Huge.vsdx** is quite a huge VSDX file. However, the **WaitForWhileA
 {{< /highlight >}}
 
 ## **Sample Code**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 static string outputDir = RunExamples.Get_OutputDirectory();
 
 //Create InterruptMonitor object
@@ -85,4 +85,4 @@ public static void Run()
     Console.WriteLine("Interrupt successfully.");
 }
 {{< /highlight >}}
-```
+

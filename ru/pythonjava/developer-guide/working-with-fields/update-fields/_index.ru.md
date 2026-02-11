@@ -12,8 +12,8 @@ Aspose.Diagram для Python via Java позволяет обновлять по
 
 ### **Образец программирования**
 Следующий фрагмент кода обновляет поле в форме.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("UpdateField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

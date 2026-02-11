@@ -12,8 +12,8 @@ Aspose.Diagram для Python via Java API содержит мастер-клас
 Использование метода**аддмастер** в классе Diagram добавить мастера из трафарета.
 
 ## **Образец кода**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

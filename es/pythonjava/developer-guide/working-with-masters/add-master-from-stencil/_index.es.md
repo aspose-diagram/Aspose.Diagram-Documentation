@@ -12,8 +12,8 @@ Aspose.Diagram for Python via Java API has the Master class that represents a Vi
 Usando el método**añadirMaster** en la clase Diagram para agregar maestro desde la plantilla.
 
 ## **Código de muestra**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -48,4 +48,4 @@ diagram.save("AddMasterFromStencil_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

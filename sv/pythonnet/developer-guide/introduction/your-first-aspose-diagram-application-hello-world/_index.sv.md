@@ -32,10 +32,36 @@ Följande exempel skapar en ny diagram från början, skriver orden "Hello World
 
 ![todo:image_alt_text](your-first-aspose-diagram-application-hello-world_1.png)
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingNewVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram()
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+
 
 #### **Öppna en befintlig fil**
 
 Följande exempel öppnar en befintlig Microsoft Visio mallfil, skriver orden "Hello World!" på första sidan och sparar diagram som en ny fil.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-CreatingHelloWorldVisioFile.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+diagram = Diagram(os.path.join(sourceDir, "Basic Shapes.vss"))
+
+#// Add a new hello world rectangle shape
+shapeId = diagram.add_shape(4.25, 5.5, 2, 1, "Rectangle", 0)
+shape = diagram.pages[0].shapes.get_shape(shapeId)
+shape.text.value.add(Txt("Hello World"))
+
+#// Save diagram in the VSDX format
+diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
+{{< /highlight >}}
+

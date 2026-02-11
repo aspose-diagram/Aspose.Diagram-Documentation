@@ -12,8 +12,8 @@ diagram 中的每个形状都有一个 ID 和一个名称。使用 Visio 编程�
 #### **检索 Visio 形状编程示例**
 以下代码片段检索包含子项的形状。请检查此示例代码：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

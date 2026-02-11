@@ -26,8 +26,8 @@ Die folgenden Codebeispiele zeigen, wie Sie Informationen darüber abrufen, was 
 
 ![todo: Bild_alt_Text](introduction_1.png)
 #### **Programmierbeispiel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetLibraryVersion.class);
@@ -47,7 +47,7 @@ System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePr
 System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
 
 {{< /highlight >}}
-```
+
 ## **Schreiben Microsoft Visio Document Summary Info**
 Mit Microsoft Visio können Sie eine Reihe von zusammenfassenden Informationseigenschaften für Dokumente definieren, die Ihnen und Ihren Kollegen helfen, eine diagram zu identifizieren. Zusammenfassende Eigenschaften, z. B. Titel, Betreff, Autor und Beschreibung, erleichtern das Auffinden der Datei bei der Suche und die Erkennung beim Durchsuchen Dateien.
 
@@ -74,8 +74,8 @@ So aktualisieren Sie die Zeichnungszusammenfassungsinformationen einer vorhanden
 
 ![todo: Bild_alt_Text](introduction_2.png)
 #### **Programmierbeispiel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetVisioProperties.class);
@@ -99,14 +99,14 @@ diagram.getDocumentProps().setTemplate("Aspose Template");
 diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Erkennen Sie das Format einer Visio-Datei**
  Verwenden[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API können Entwickler das Format der Datei Visio vor dem Öffnen erkennen, da die Dateierweiterung nicht garantiert, dass der Dateiinhalt angemessen ist.
 ### **Programmierbeispiel für Erkennungsformat**
 Der folgende Beispielcode veranschaulicht, wie ein Dateiformat (unter Verwendung des Dateipfads oder Streams) erkannt und seine Erweiterung überprüft wird.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
@@ -118,14 +118,14 @@ String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
 		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+
 ## **Erkennen Sie das Format einer Visio-Datei aus einem InputStream**
 Mit Aspose.Diagram for Java API können Entwickler das Format einer Visio-Datei erkennen, indem sie einen Eingabestrom übergeben. Dazu kann die Methode detectFileFormat der Klasse FileFormatUtil verwendet werden.
 ### **Format aus einem InputStream-Programmierbeispiel erkennen**
 Der folgende Beispielcode veranschaulicht, wie ein Dateiformat mithilfe eines Eingabestreams erkannt wird.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
@@ -139,4 +139,4 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
 System.out.println("The spreadsheet format is: " + info.getFileFormatType());
 
 {{< /highlight >}}
-```
+

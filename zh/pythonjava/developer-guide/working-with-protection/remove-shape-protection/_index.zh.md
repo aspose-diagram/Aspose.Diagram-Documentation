@@ -21,8 +21,8 @@ Protecting Visio shapes allow users to lock specific aspects of shapes. Aspects 
 ### **删除形状保护编程示例**
 Use the following code in your application to do the same thing (unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -65,5 +65,5 @@ diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

@@ -13,8 +13,8 @@ description: Modifier les propriétés d'un contrôle ActiveX avec la bibliothè
 ## **Récupérer un exemple de programmation de contrôle ActiveX**
 [Forme](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) La classe offre la propriété ActiveXControl qui permet aux développeurs de récupérer un contrôle ActiveX à partir d'un objet de forme Visio. Les développeurs peuvent caster un contrôle ActiveX dans la classe de contrôle ActiveX appropriée, puis définir toutes ses propriétés disponibles.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
@@ -33,4 +33,4 @@ cbac.Caption = "Test Button";
 diagram.Save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

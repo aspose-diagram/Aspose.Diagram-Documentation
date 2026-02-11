@@ -13,8 +13,8 @@ description: На этой странице описывается, как из�
 ## **Изменение примера программирования градиентной заливки**
 [Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)класс предлагает свойство Fill, которое позволяет разработчикам извлекать[Градиентная заливка](http://www.aspose.com/api/net/diagram/aspose.diagram/gradientfill)объект. Класс GradientFill содержит данные градиента фигуры Visio. Разработчики могут установить все его доступные свойства, а также получить точку градиента по индексу, чтобы установить свойства цвета и положения.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeGradientFillData();
 // Load the Visio diagram
@@ -38,4 +38,4 @@ gradientfill.GradientAngle.Value = 0.7853981633974501;
 diagram.Save(dataDir + "ShapewithGradientFill_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

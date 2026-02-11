@@ -19,8 +19,8 @@ Aşağıdaki görüntü, kodu çalıştırdıktan sonraki çıktıyı gösterir:
 
 ![yapılacaklar:resim_alternatif_Metin](working-with-user-defined-cells_2.png)
 #### **Programlama Örnekleri**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Kullanıcı Tanımlı Hücre Oluştur**
 Aspose.Diagram for Java API, geliştiricilerin şekil sayfasında kullanıcı tanımlı hücre oluşturmasına olanak tanır. Bu örnek konu, gerektiği kadar çok kullanıcı adı satırının nasıl ekleneceğini, satırlara anlamlı adların nasıl atanacağını ve hücre değerlerinin nasıl ayarlanacağını açıklar.
 
@@ -45,8 +45,8 @@ Kullanıcılar koleksiyonu tarafından sunulan ekleme yöntemi, şekil sayfasın
 
 Aspose.Diagram for Java kullanarak şekil sayfasında kullanıcı tanımlı hücre oluşturmak için Java uygulamanızda aşağıdaki kodu kullanın.
 #### **Programlama Örnekleri**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Şekil Sayfasından Kullanıcı Tanımlı Hücreleri Al**
 Aspose.Diagram for Java API, geliştiricilerin şekil sayfasından kullanıcı tanımlı hücreleri almasına olanak tanır. Bu örnek konu, bir çizimdeki tüm şekiller için tüm kullanıcı adlarının nasıl alınacağını açıklar.
 ### **Kullanıcı Tanımlı Hücreleri Al**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API, geliştiricilerin şekil sayfasından kullanıcı t
 #### **Şekil Sayfası Programlama Örneklerinden Hücreleri Alma**
 Aspose.Diagram for Java'i kullanarak tüm kullanıcı tanımlı hücreleri şekil sayfasından almak için Java uygulamanızda aşağıdaki kodu kullanın.
 #### **Programlama Örnekleri**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

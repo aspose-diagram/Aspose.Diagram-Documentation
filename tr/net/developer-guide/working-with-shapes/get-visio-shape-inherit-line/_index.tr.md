@@ -10,8 +10,8 @@ description: Bu bölüm, visio şeklinin üst stilinden devralınan çizgi stili
 #### **Miras Alınan Satır Verilerini Al Programlama Örneği**
 Aşağıdaki kod parçacığı, şeklin devralınan çizgi verilerini alır. Lütfen bu örnek kodu kontrol edin:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -34,5 +34,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

@@ -8,8 +8,8 @@ Aspose.Diagram for Java API tillåter utvecklare att formatera sidor i en Visio 
 ## **Applicera formatmallar på sidan Visio**
 Aspose.Diagram for Java API låter dig formatera en Visio sida med formatmallar. Du kan definiera en stilmall och lägga till den i Visio-dokumentets stilmallssamling. ApplyStyle-metoden för klassen Page låter dig tillämpa den definierade stilmallen på sidan som visas i följande kodexempel.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(ReadDiagramFile.class) + "Diagrams/";
@@ -48,4 +48,4 @@ for (Shape shape: (Iterable<Shape>)vsdDiagram.getPages().get(0).getShapes())
 vsdDiagram.getPages().get(0).applyStyle(st.getID(), st.getID(), st.getID());
 
 {{< /highlight >}}
-```
+

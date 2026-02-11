@@ -22,8 +22,8 @@ Aspose.Diagram API 允许开发人员将形状分组在一起以一次移动它�
 #### **组形状编程示例**
 在 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET API 将形状组合在一起。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -48,7 +48,7 @@ page.Shapes.Group(ss);
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **将 Visio 形状转换为其他文件格式**
 Aspose.Diagram for .NET API 允许开发人员将单个 Visio 形状转换为任何其他支持的文件格式。在本文中，我们从页面中删除所有其他 Visio 形状，并根据源形状大小自定义页面设置。
 ### **转换特定的 Visio 形状**
@@ -64,8 +64,8 @@ Developers can convert a Visio shape to PDF, HTML, Image, SVG, and SWF by **指�
 1. 设置页面大小。
 1. 以任何支持的文件格式保存 Visio 页面。
 #### **转换形状编程示例**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -123,7 +123,7 @@ opts.PageIndex = 1;
 srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -161,8 +161,8 @@ Aspose.Diagram for .NET API 允许开发人员验证两个 Visio 形状是否粘
 #### **连接或粘合形状编程示例的验证**
 下面的一段代码验证两个形状是否连接或粘合。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -189,7 +189,7 @@ bool glued = ShapedOne.IsGlued(ShapedTwo);
 Console.WriteLine("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **验证 Visio 形状是否在一组形状中**
 Aspose.Diagram for .NET API 允许开发人员验证 Visio 形状是否在一组形状中。
 ### **形状组中形状的验证**
@@ -197,8 +197,8 @@ Aspose.Diagram for .NET API 允许开发人员验证 Visio 形状是否在一组
 #### **形状组编程样本中形状的验证**
 以下代码验证形状是否为组形状。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
 // Call a Diagram class constructor to load the VSD diagram
@@ -207,4 +207,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(13).Shapes.GetShape(2);
 Console.WriteLine("Is it in a Group: " + shape.IsInGroup());
 {{< /highlight >}}
-```
+

@@ -12,8 +12,8 @@ Field nesnesi, bir metin çalıştırmasındaki metin alanını temsil eder. Sha
 
 ### **Programlama Örneği**
 Aşağıdaki kod parçası, şekildeki bir alanı kaldırır.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

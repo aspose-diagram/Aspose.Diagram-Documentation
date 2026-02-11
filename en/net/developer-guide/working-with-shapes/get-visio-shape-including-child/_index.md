@@ -12,8 +12,8 @@ A [Shape](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) is an obje
 #### **Retrieve Visio Shape Programming Sample**
 The following code snippet retrieve the shape including child. Please check this sample code:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -32,5 +32,5 @@ if (shapeContainerChild == null)
 diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

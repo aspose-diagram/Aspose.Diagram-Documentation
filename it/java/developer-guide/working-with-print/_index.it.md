@@ -12,8 +12,8 @@ La stampa dello diagram sulla stampante specifica richiede il nome della stampan
 - Crea un'istanza della classe Diagram per caricare un diagram che deve essere stampato
 - Chiamare il metodo Print della classe Diagram con il nome della stampante come parametro di stringa al metodo Print
 #### **Esempio di programmazione della stampa su una stampante specifica**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(BySpecificPrinter.class); 
@@ -24,15 +24,15 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100");
 
 {{< /highlight >}}
-```
+
 ### **Impostazione della stampante e del nome del documento**
 Aspose.Diagram API consente di impostare la stampante specifica e il nome del documento per un lavoro di stampa. Effettuare le seguenti operazioni per stampare lo diagram sulla stampante desiderata:
 
 - Crea un'istanza della classe Diagram per caricare un diagram che deve essere stampato
 - Chiamare il metodo Print della classe Diagram con la stampante e il nome del documento come parametro di stringa al metodo Print
 #### **Impostazione della stampante e del nome del documento Esempio di programmazione**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetPrintJobAndPrinterName.class);   
@@ -43,4 +43,4 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.print("LaserJet1100", "Job name while printing with Aspose.Diagram");
 
 {{< /highlight >}}
-```
+

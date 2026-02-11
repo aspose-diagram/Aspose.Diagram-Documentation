@@ -19,8 +19,8 @@ url: /ru/java/retrieve-get-copy-and-insert-a-page/
 ### **Пример программирования получения информации о странице**
 Следующий фрагмент кода извлекает информацию о страницах из файла diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **Получите страницу Visio от Diagram**
 Иногда разработчикам необходимо получить сведения о странице чертежа Visio. Aspose.Diagram имеет функции, которые помогают им в этом.
 
@@ -60,8 +60,8 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 
 В следующем примере показано, как получить объект страницы по идентификатору из чертежа Visio.
 #### **Пример программирования получения объекта страницы по идентификатору**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Получение объекта страницы Visio по имени**
 Этот пример работает следующим образом:
 
@@ -83,8 +83,8 @@ Page page2 = diagram.getPages().getPage(pageid);
 #### **Пример программирования получения объекта страницы по имени**
 В следующем примере показано, как получить объект страницы по имени из чертежа Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Скопируйте страницу Visio в другую Diagram**
 Aspose.Diagram for Java API позволяет разработчикам копировать и добавлять свой контент из одного Visio diagram в другой. В этом разделе справки объясняется, как выполнить эту задачу.
 
@@ -116,8 +116,8 @@ Aspose.Diagram for Java API позволяет разработчикам коп
 ### **Скопируйте пример программирования страницы Visio**
 В приведенном ниже примере кода показано, как скопировать объект страницы Visio в другой чертеж Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Скопируйте Visio страницу в другой экземпляр страницы**
 Метод Copy класса Page берет экземпляр страницы для клонирования.
 
@@ -189,8 +189,8 @@ newPage.copy(diagram.getPages().getPage("Page-1"));
 ### **Вставьте образец программирования пустой страницы**
 Следующий фрагмент кода вставляет пустую страницу в чертеж Visio:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Переместить позицию страницы на чертеже Visio**
 Aspose.Diagram for Java API может перемещать позицию страницы на чертеже Visio. Метод moveTo, предоставляемый классом Page, помогает разработчикам перемещать позицию страницы.
 ### **Пример программирования перемещения страницы**

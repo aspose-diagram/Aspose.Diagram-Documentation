@@ -27,8 +27,8 @@ description: يوضح لك هذا الموضوع كيفية تحويل تنسي�
 1. قم باستدعاء Diagram classs Save method واضبط تنسيق الإخراج على PDF.
 
 ### **التصدير إلى عينة برمجة PDF**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -46,13 +46,13 @@ diagram.save("ExportToPDF_Out.pdf", SaveFileFormat.PDF)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 ### **تقسيم عدة صفحات**
 Aspose.Diagram for Java يسمح بتقسيم صفحات متعددة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الكود التالي الوظيفة.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -73,4 +73,4 @@ diagram.save("SplitMultiPages.pdf", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

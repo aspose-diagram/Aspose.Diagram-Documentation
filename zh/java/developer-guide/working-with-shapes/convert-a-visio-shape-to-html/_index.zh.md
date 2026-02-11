@@ -17,8 +17,8 @@ description: 本节介绍如何使用 Aspose.Diagram 将 visio 形状转换为 h
 ### **形状到 HTML**
 在您的 Java 应用程序中使用以下代码将 visio 形状转换为 html。
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToHtml.class); 
@@ -35,6 +35,6 @@ Shape shape = page.getShapes().get(0);
 HTMLSaveOptions hs = new HTMLSaveOptions();
 shape.toHTML("out.htm", hs);
 {{< /highlight >}}
-```
+
 
 

@@ -13,8 +13,8 @@ Microsoft Office Visio, Visio diagram içindeki OLE nesnelerinin değiştirilmes
 ## **Gömülü OLE Nesneleri Programlama Örneğinin İşlenmesi**
 [Nesne Verileri](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata/properties/objectdata) mülkiyeti[Yabancı Veri](http://www.aspose.com/api/net/diagram/aspose.diagram/foreigndata)sınıfı, geliştiricilerin Visio diagram'deki mevcut OLE nesnelerini işlemesine olanak tanır. Bu yardım konusu, geliştiricilerin Word belgesinin bir OLE nesnesini nasıl alıp düzenleyebileceklerini gösterir.[Aspose.Words for .NET API](https://products.aspose.com/words/net)ve ardından Visio diagram'de bir OLE nesnesi olarak geri kaydedin.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_OLEObjects();
@@ -50,4 +50,4 @@ if (OLE_Shape.Type == Aspose.Diagram.TypeValue.Foreign)
 diagram.Save(dataDir + "ManipulateObjects_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -12,8 +12,8 @@ Il codice seguente mostra come:
 ## **Impostare l'esempio di programmazione del paragrafo della forma**
 Usa il seguente codice nella tua applicazione .NET per impostare il paragrafo della forma usando Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -69,4 +69,3 @@ para.Bullet.Value = BulletValue.Style1;
 diagram.Save(dataDir + "SettingParagraphOfShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

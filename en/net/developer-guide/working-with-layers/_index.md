@@ -11,8 +11,8 @@ description: This section explains how to add or get layer information in a visi
 ### **Configure Shape Objects Programming Sample**
 The following piece of code helps to add, remove and move shape object properties.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -48,14 +48,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Add a new Layer in the Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) allows developers to add new layers to organize custom categories of shapes, and then assign shapes to those layers programmatically. The [LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) class offers Add method which allows to add a new [Layer](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) in the Visio drawing. Developers can set Layer properties by initializing its class object.
 ### **Add Layer Programming Sample**
 The following piece of code helps to add Layer objects.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -84,14 +84,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Retrieve All Layers from the Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) gives access to developers to get the existing layers of a Visio diagram. The [PageSheet](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) property of the [Page](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class allows to retrieve the list of available layers from a Visio diagram using [LayerCollection](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) class.
 ### **Retrieve Layers Programming Sample**
 The following piece of code helps to get the list of Layers.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -110,4 +110,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

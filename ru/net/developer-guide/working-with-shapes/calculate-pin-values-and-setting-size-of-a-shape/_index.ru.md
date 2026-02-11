@@ -26,8 +26,8 @@ description: В этом разделе объясняется, как расс�
 
 
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -55,7 +55,7 @@ double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
 double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 
 {{< /highlight >}}
-```
+
 ## **Установка высоты и ширины фигуры**
 [Форма](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) Класс позволяет управлять размером фигуры, указывая высоту и ширину фигуры с помощью методов SetHeight и SetWidth.
 
@@ -71,8 +71,8 @@ double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
 ### **Пример программирования установки высоты и ширины**
 Фрагмент кода ниже показывает, как установить высоту и ширину фигуры. Код ищет прямоугольник имени фигуры с идентификатором фигуры 1 и задает для его высоты и ширины значение double.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -90,4 +90,4 @@ shape.SetHeight(2 * shape.XForm.Height.Value);
 diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

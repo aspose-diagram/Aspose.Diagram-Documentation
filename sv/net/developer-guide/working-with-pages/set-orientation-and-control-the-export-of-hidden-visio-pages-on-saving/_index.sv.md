@@ -19,8 +19,8 @@ Detta exempel fungerar enligt följande:
 ### **Ställ in orienteringsprogrammeringsexempel**
 Kodexemplet nedan visar hur du ställer in orienteringen för sidan Visio.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -36,7 +36,7 @@ page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue
 diagram.Save(dataDir + "SetPageOrientation_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Kontrollera exporten av dolda Visio-sidor när du sparar**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API tillåter utvecklare att inkludera eller utesluta dolda Visio sidor när de sparar diagram till PDF, HTML, bild (PNG, JPEG, GIF), 3416, 34716 och 34716 och 34716 Även de kan dölja Visio sidor med Aspose.Diagram API eftersom dess alternativ redan är tillgängligt via cellen UIVisibility på sidan ShapeSheet.
 ### **Göm en sida i Visio Diagram och ange exportalternativ**
@@ -44,8 +44,8 @@ diagram.Save(dataDir + "SetPageOrientation_out.vsdx", SaveFileFormat.VSDX);
 #### **Ställ in exportalternativet för PDF**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till PDF.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -66,12 +66,12 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToPDF_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **Ställ in exportalternativet för HTML**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till HTML.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -94,12 +94,12 @@ options.IsExportComments = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToHTML_out.html", options);
 
 {{< /highlight >}}
-```
+
 #### **Ställ in exportalternativet för bild**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett diagram till bildformat.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -122,12 +122,12 @@ options.IsExportComments = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToImage_out.jpeg", options);
 
 {{< /highlight >}}
-```
+
 #### **Ställ in exportalternativet för SVG**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till SVG.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -157,12 +157,12 @@ options.ExportElementAsRectTag = true;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToSVG_out.svg", options);
 
 {{< /highlight >}}
-```
+
 #### **Ställ in exportalternativet för XPS**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till XPS.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -183,4 +183,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToXPS_out.xps", options);
 
 {{< /highlight >}}
-```
+

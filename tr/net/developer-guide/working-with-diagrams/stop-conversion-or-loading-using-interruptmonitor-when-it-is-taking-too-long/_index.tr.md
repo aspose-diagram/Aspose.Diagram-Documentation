@@ -30,8 +30,8 @@ Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://r
 {{< /highlight >}}
 
 ## **Basit kod**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 static string outputDir = RunExamples.Get_OutputDirectory();
 
 //Create InterruptMonitor object
@@ -84,4 +84,4 @@ public static void Run()
     Console.WriteLine("Interrupt successfully.");
 }
 {{< /highlight >}}
-```
+

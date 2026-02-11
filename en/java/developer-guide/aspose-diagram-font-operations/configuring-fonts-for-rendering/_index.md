@@ -33,8 +33,8 @@ Both **[FontConfigs.SetFontFolder](https://reference.aspose.com/diagram/java/com
 
 {{% /alert %}}
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
@@ -46,7 +46,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 diagram.save(dataDir + "SetFontsFolder_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}}
 

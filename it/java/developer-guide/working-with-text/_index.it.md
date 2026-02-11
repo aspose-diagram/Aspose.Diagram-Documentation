@@ -9,8 +9,8 @@ url: /it/java/working-with-text/
 ### **Inserisci un esempio di programmazione di forme di testo**
 Il seguente pezzo di codice aggiunge una forma di testo nel Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(InsertTextShape.class) + "Text/";
@@ -25,7 +25,7 @@ diagram.getPages().getPage(0).addText(PinX, PinY, Width, Height, text);
 diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Aggiorna Visio Forma testo**
  Così come[creazione di diagrammi](/diagram/it/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java consente di lavorare con le forme in modi diversi. Questo articolo illustra come accedere e aggiornare il testo nelle forme.
 
@@ -48,8 +48,8 @@ Il processo per aggiornare il testo di una forma è semplice:
 ### **Aggiornamento dell'esempio di programmazione del testo della forma**
 Il seguente pezzo di codice aggiorna il testo di una forma. Le forme sono identificate dai relativi ID. I segmenti di codice seguenti cercano una forma chiamata processo e con l'ID 1 e ne modificano il testo.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UpdateShapeText.class); 
@@ -70,7 +70,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 diagram.save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Applicare il foglio di stile integrato o personalizzato a una forma Visio**
 fogli di stile Microsoft Visio memorizzano le informazioni di formattazione che possono essere applicate alle forme per un aspetto coerente. Aspose.Diagram for Java consente di applicare fogli di stile dall'interno di un'applicazione.
 
@@ -102,8 +102,8 @@ Per applicare gli stili personalizzati a livello di codice:
 1. Applicare stili.
 1. Salva lo diagram.
 #### **Applicare l'esempio di programmazione di stili personalizzati**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyCustomStyleSheets.class);
@@ -149,7 +149,7 @@ if (sourceShape != null && customStyleSheet != null)
 diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Applica uno stile diverso a ciascun valore di testo di una forma**
  Così come[creazione di diagrammi](/diagram/it/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java consente di lavorare con le forme in modi diversi. Questo articolo aiuta ad aggiungere più valori di testo a una forma e ad applicare uno stile diverso a ogni valore di testo.
 
@@ -169,8 +169,8 @@ L'elemento Shape contiene un elemento chiamato Text, che contiene i caratteri de
 #### **Esempio di programmazione dell'aggiunta di testo e stili**
 Il seguente pezzo di codice aggiunge il testo di una forma e diversi stili.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyFontOnText.class);   
@@ -232,7 +232,7 @@ shape.getChars().get(3).getStyle().setValue(StyleValue.BOLD | StyleValue.ITALIC 
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Trova e sostituisci il testo di una forma**
  Il[Testo](https://reference.aspose.com/diagram/java/com.aspose.diagram/txt) La classe ti consente di modificare il testo della forma. Il metodo Replace, esposto da[Testo](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) class, supporta la modifica del testo di una forma.
 Gli esempi di codice in questo articolo trovano e sostituiscono il testo della forma nella pagina.
@@ -255,8 +255,8 @@ Il processo per modificare il testo della forma:
 ### **Esempio di programmazione di testo Trova e sostituisci**
 I frammenti di codice seguenti mostrano come modificare il testo della forma. Il codice scorre le forme di una pagina.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FindAndReplaceShapeText.class); 
@@ -311,7 +311,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Estrai testo normale dalla pagina Visio Diagram**
 Aspose.Diagram API consente agli sviluppatori di estrarre testo normale dalla pagina Visio diagram. Possono anche scorrere le pagine Visio diagram per coprire l'intero testo Visio diagram.
 
@@ -319,8 +319,8 @@ Aspose.Diagram API consente agli sviluppatori di estrarre testo normale dalla pa
 ### **Estrai un esempio di programmazione in testo normale**
 La parte di codice seguente scorre le forme della pagina Visio e filtra il testo normale senza informazioni di formattazione.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 static String text = "";
 public static void main(String[] args) throws Exception
@@ -361,4 +361,4 @@ public static void main(String[] args) throws Exception
    }
 
 {{< /highlight >}}
-```
+

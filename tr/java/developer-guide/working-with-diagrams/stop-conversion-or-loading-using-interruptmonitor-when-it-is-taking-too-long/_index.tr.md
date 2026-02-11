@@ -29,8 +29,8 @@ Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://r
 {{< /highlight >}}
 
 ## **Basit kod**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 import com.aspose.diagram.Diagram;
 import com.aspose.diagram.InterruptMonitor;
 import com.aspose.diagram.SaveFileFormat;
@@ -123,4 +123,4 @@ public class StopConversionOrLoadingUsingInterruptMonitor
 	}
 }
 {{< /highlight >}}
-```
+

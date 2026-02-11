@@ -17,8 +17,8 @@ description: В этом разделе объясняется, как прео�
 ### **Форма в SVG**
 Используйте следующий код в своем Java-приложении, чтобы преобразовать фигуру visio в svg.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ShapeToSvg.class); 
@@ -35,6 +35,6 @@ Shape shape = page.getShapes().get(0);
 SVGSaveOptions option = new SVGSaveOptions();
 shape.toSvg("out.svg",option);
 {{< /highlight >}}
-```
+
 
 

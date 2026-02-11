@@ -22,8 +22,8 @@ The code below shows how to:
 #### **Group Shapes Programming Sample**
 Use the following code in your Java application to group shapes together using Aspose.Diagram for Java API.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GroupShapes.class);
@@ -47,7 +47,7 @@ page.getShapes().group(ss);
 diagram.save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Convert a Visio Shape to Other File Formats**
 Aspose.Diagram for Java API allows developers to convert a single Visio shape to any other supported file format. In this article, we remove all other Visio shapes from the page and customize page setting according to the source Shape size. 
 ### **Converting a Particular Visio Shape**
@@ -63,8 +63,8 @@ This example code work as follows:
 1. Set the page size.
 1. Save the Visio page in any supported file format.
 #### **Convert Shape Programming Sample**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SaveVisioShapeInOtherFormats.class);   
@@ -122,7 +122,7 @@ opts.setPageIndex(1);
 srcVisio.save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
 
 {{< /highlight >}}
-```
+
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -166,8 +166,8 @@ The [Shape](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) 
 #### **Verification of Connected or Glued Shapes Programming Sample**
 The following piece of code verifies whether two shapes are connected or glued.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VerifyConnectedOrGluedShapes.class);  
@@ -193,7 +193,7 @@ boolean glued = ShapedOne.isGlued(ShapedTwo);
 System.out.println("Shapes are Glued: " + glued);
 
 {{< /highlight >}}
-```
+
 ## **Verify Whether the Visio Shape is in a Group of Shapes**
 Aspose.Diagram for Java API allows developers to verify that the Visio shape is in a group of shapes or not.
 ### **Verification of Shape in the Group of Shapes**
@@ -201,8 +201,8 @@ The Shape class offers IsInGroup properties to determine whether the Visio s
 #### **Verification of Shape in the Group of Shapes Programming Sample**
 The following piece of code verifies whether the shape is in a group shape.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
@@ -213,7 +213,7 @@ Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
 System.out.println("Is it in a Group: " + shape.isInGroup());
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

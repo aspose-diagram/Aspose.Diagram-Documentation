@@ -19,8 +19,8 @@ url: /ru/java/working-with-user-defined-cells/
 
 ![дело:изображение_альтернативный_текст](working-with-user-defined-cells_2.png)
 #### **Примеры программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Создать определяемую пользователем ячейку**
 Aspose.Diagram for Java API позволяет разработчикам создавать определяемые пользователем ячейки в форме. В этом примере раздела описывается, как добавить необходимое количество строк с именами пользователей, присвоить строкам осмысленные имена и задать значения ячеек.
 
@@ -45,8 +45,8 @@ Aspose.Diagram for Java API позволяет разработчикам соз
 
 Используйте следующий код в своем приложении Java, чтобы создать определяемую пользователем ячейку в таблице формы, используя Aspose.Diagram for Java.
 #### **Примеры программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Получить пользовательские ячейки из таблицы форм**
 Aspose.Diagram for Java API позволяет разработчикам извлекать пользовательские ячейки из таблицы форм. В этом примере раздела описывается, как получить все имена пользователей для всех фигур на чертеже.
 ### **Получить пользовательские ячейки**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API позволяет разработчикам изв
 #### **Извлечение ячеек из образцов программирования Shapesheet**
 Используйте следующий код в своем приложении Java, чтобы получить все пользовательские ячейки из таблицы формы, используя Aspose.Diagram for Java.
 #### **Примеры программирования**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

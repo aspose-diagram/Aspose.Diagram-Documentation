@@ -19,8 +19,8 @@ La siguiente imagen muestra el resultado después de ejecutar el código:
 
 ![todo:imagen_alternativa_texto](working-with-user-defined-cells_2.png)
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
@@ -37,7 +37,7 @@ for (User user :(Iterable<User>) shape.getUsers())
 }
 
 {{< /highlight >}}
-```
+
 ### **Crear celda definida por el usuario**
 El Aspose.Diagram for Java API permite a los desarrolladores crear celdas definidas por el usuario en la hoja de formas. Este tema de ejemplo describe cómo agregar tantas filas de nombre de usuario como sea necesario, asignar nombres significativos a las filas y establecer valores de celda.
 
@@ -45,8 +45,8 @@ El método add expuesto por la colección Users se puede usar para crear celdas 
 
 Use el siguiente código en su aplicación Java para crear una celda definida por el usuario en la hoja de formas usando Aspose.Diagram for Java.
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -68,7 +68,7 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Recuperar celdas definidas por el usuario de Shapesheet**
 Aspose.Diagram for Java API permite a los desarrolladores recuperar celdas definidas por el usuario de la hoja de forma. Este tema de ejemplo describe cómo recuperar todos los nombres de usuario para todas las formas en un dibujo.
 ### **Recuperar celdas definidas por el usuario**
@@ -76,8 +76,8 @@ Aspose.Diagram for Java API permite a los desarrolladores recuperar celdas defin
 #### **Recuperar celdas de muestras de programación de Shapesheet**
 Use el siguiente código en su aplicación Java para recuperar todas las celdas definidas por el usuario de la hoja de formas usando Aspose.Diagram for Java.
 #### **Ejemplos de programación**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
@@ -99,4 +99,4 @@ shape.getUsers().add(user);
 diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

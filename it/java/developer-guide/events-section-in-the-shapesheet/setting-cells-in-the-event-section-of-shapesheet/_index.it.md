@@ -19,8 +19,8 @@ Utilizzando Aspose.Diagram API, gli sviluppatori possono definire in che modo un
 ## **Impostazione delle celle degli eventi**
 [Evento](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) class consente agli sviluppatori di impostare le celle degli eventi in ShapeSheet. Questo argomento della guida mostra come gli sviluppatori possono impostare le formule nelle celle degli eventi:
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SettingEventCells.class);
@@ -45,4 +45,4 @@ shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAler
 diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

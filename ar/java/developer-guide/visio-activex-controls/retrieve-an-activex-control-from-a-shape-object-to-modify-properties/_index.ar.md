@@ -12,8 +12,8 @@ url: /ar/java/retrieve-an-activex-control-from-a-shape-object-to-modify-properti
 ## **استرجع عينة برمجة تحكم ActiveX**
 [شكل](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) تقدم class طريقة getActiveXControl التي تسمح للمطورين باسترداد عنصر تحكم ActiveX من كائن شكل Visio. يمكن للمطورين إرسال عنصر تحكم ActiveX في فئة عنصر تحكم ActiveX المناسبة ، ثم تعيين جميع خصائصه المتاحة.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveActiveXControl.class) + "VisioActiveXControls/";
@@ -35,4 +35,4 @@ cbac.setCaption("Test Button");
 diagram.save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

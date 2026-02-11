@@ -9,8 +9,8 @@ url: /sv/java/working-with-text/
 ### **Infoga ett programmeringsexempel för textform**
 Följande kodbit lägger till en textform i Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(InsertTextShape.class) + "Text/";
@@ -25,7 +25,7 @@ diagram.getPages().getPage(0).addText(PinX, PinY, Width, Height, text);
 diagram.save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Uppdatering Visio Formtext**
  Såväl som[skapa diagram](/diagram/sv/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java låter dig arbeta med former på olika sätt. Den här artikeln tittar på hur du kommer åt och uppdaterar text i former.
 
@@ -48,8 +48,8 @@ Processen för att uppdatera en forms text är enkel:
 ### **Uppdatera formtextprogrammeringsexempel**
 Följande kodbit uppdaterar en forms text. Former identifieras med deras ID. Kodsegmenten nedan letar efter en form som kallas process och med ID 1 och ändrar dess text.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UpdateShapeText.class); 
@@ -70,7 +70,7 @@ for (Shape shape :(Iterable<Shape>) page.getShapes())
 diagram.save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Applicera inbyggd eller anpassad formatmall på en Visio-form**
 Microsoft Visio stilmallar lagrar formateringsinformation som kan appliceras på former för ett konsekvent utseende och känsla. Aspose.Diagram for Java låter dig tillämpa stilmallar inifrån en applikation.
 
@@ -102,8 +102,8 @@ Så här tillämpar du anpassade stilar programmatiskt:
 1. Applicera stilar.
 1. Spara diagram.
 #### **Applicera anpassade stilar programmeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyCustomStyleSheets.class);
@@ -149,7 +149,7 @@ if (sourceShape != null && customStyleSheet != null)
 diagram.save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
 
 {{< /highlight >}}
-```
+
 ## **Tillämpa annan stil på varje textvärde i en form**
  Såväl som[skapa diagram](/diagram/sv/java/load-or-create-a-visio-drawing/), Aspose.Diagram for Java låter dig arbeta med former på olika sätt. Den här artikeln hjälper dig att lägga till flera textvärden till en form och använda olika stilar på varje textvärde.
 
@@ -169,8 +169,8 @@ Shape-elementet innehåller ett element som kallas Text, som innehåller tecknen
 #### **Lägga till text och stilar Programmeringsexempel**
 Följande kodbit lägger till en forms text och olika stilar.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApplyFontOnText.class);   
@@ -232,7 +232,7 @@ shape.getChars().get(3).getStyle().setValue(StyleValue.BOLD | StyleValue.ITALIC 
 diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Hitta och ersätt texten i en form**
  De[Text](https://reference.aspose.com/diagram/java/com.aspose.diagram/txt) Klass låter dig redigera formens text. Ersätt-metoden, exponerad av[Text](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/txt) klass, stöd för att ändra texten i en form.
 Kodexemplen i den här artikeln hittar och ersätter formens text på sidan.
@@ -255,8 +255,8 @@ Processen för att ändra formens text:
 ### **Hitta och ersätt textprogrammeringsexempel**
 Kodavsnitten nedan visar hur du ändrar formens text. Koden itererar genom formerna på en sida.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(FindAndReplaceShapeText.class); 
@@ -311,7 +311,7 @@ for (Shape shape : (Iterable<Shape>) diagram.getPages().getPage("Page-1").getSha
 diagram.save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Extrahera vanlig text från sidan Visio Diagram**
 Aspose.Diagram API tillåter utvecklare att extrahera vanlig text från sidan Visio diagram. De kan också iterera genom sidorna Visio diagram för att täcka hela texten Visio diagram.
 
@@ -319,8 +319,8 @@ Aspose.Diagram API tillåter utvecklare att extrahera vanlig text från sidan Vi
 ### **Extrahera programmeringsexempel för vanlig text**
 Följande kodbit itererar genom formerna på sidan Visio och filtrerar vanlig text utan att formatera information.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 static String text = "";
 public static void main(String[] args) throws Exception
@@ -361,4 +361,4 @@ public static void main(String[] args) throws Exception
    }
 
 {{< /highlight >}}
-```
+

@@ -10,8 +10,8 @@ description: Questa sezione spiega come aggiungere o ottenere informazioni sui l
 ### **Configurare l'esempio di programmazione degli oggetti Shape**
 Il seguente pezzo di codice aiuta ad aggiungere, rimuovere e spostare le proprietà dell'oggetto forma.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -47,14 +47,14 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Aggiungi un nuovo livello nel Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) consente agli sviluppatori di aggiungere nuovi livelli per organizzare categorie personalizzate di forme e quindi assegnare forme a tali livelli in modo programmatico. Il[Raccolta livelli](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) class offre il metodo Add che consente di aggiungere un nuovo[Strato](http://www.aspose.com/api/net/diagram/aspose.diagram/layer) nel disegno Visio. Gli sviluppatori possono impostare le proprietà del livello inizializzando il suo oggetto di classe.
 ### **Aggiungi un esempio di programmazione a livelli**
 Il seguente pezzo di codice aiuta ad aggiungere oggetti Layer.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -83,14 +83,14 @@ shape.LayerMem.LayerMember.Value = layer.IX.ToString();
 diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Recupera tutti i livelli dal Visio Diagram**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) dà accesso agli sviluppatori per ottenere i livelli esistenti di un Visio diagram. Il[PaginaFoglio](http://www.aspose.com/api/net/diagram/aspose.diagram/pagesheet) proprietà del[Pagina](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class consente di recuperare l'elenco dei livelli disponibili da un Visio diagram utilizzando[Raccolta livelli](http://www.aspose.com/api/net/diagram/aspose.diagram/layercollection) classe.
 ### **Recupera l'esempio di programmazione dei livelli**
 Il seguente pezzo di codice aiuta a ottenere l'elenco dei livelli.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -109,4 +109,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 
 {{< /highlight >}}
-```
+

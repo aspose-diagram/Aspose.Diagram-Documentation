@@ -32,8 +32,8 @@ In order to export VSD diagram to HTML, perform the following steps:
 生成的文件可以通过传递完整的路径字符串来保存，包括文件名和扩展名，例如@"c:\temp\MyOutput.html"。
 
 #### **Save Resultant HTML in Local Storage Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -51,15 +51,15 @@ diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **Save resultant HTML in a stream instance**
 It is for use case to save the resultant HTML in a database or repository without storing it in the local storage. This feature also embeds other resultant resources of the HTML, e.g. fonts, CSS (containing the style information) and images. Since it saves a single HTML file into the stream instance.
 #### **Save Resultant HTML in a Stream Programming Sample**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -80,4 +80,4 @@ diagram.save(dstStream, SaveFileFormat.HTML)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

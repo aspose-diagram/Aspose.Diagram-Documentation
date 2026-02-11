@@ -39,8 +39,8 @@ Aşağıda PDF çıktı dosyasının bir görüntüsü bulunmaktadır.
 ### **İhracat Microsoft Visio Çizimi PDF'e**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak PDF'e nasıl aktarılacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -63,12 +63,12 @@ pdfStream.Close();
 System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
 
 {{< /highlight >}}
-```
+
 ### **Birden Çok Sayfayı Böl**
 Aspose.Diagram for .NET, Microsoft Visio Diagram'i PDF'e dönüştürürken birden fazla sayfanın bölünmesine izin verir. Aşağıdaki kod parçacığı işlevselliği gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -82,12 +82,12 @@ options.SplitMultiPages = true;
 diagram.Save(dataDir + "SplitMultiPages.pdf", options);
 
 {{< /highlight >}}
-```
+
 ### **Sayfa Kaydetme Geri Aramasını Kullan**
 Birden fazla sayfanız olması durumunda, Aspose.Diagram for .NET, Microsoft Visio Diagram'i PDF'e dönüştürürken sayfa kaydetme geri aramasının kullanılmasına izin verir. Aşağıdaki kod parçacığı, işlevselliği gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -101,7 +101,7 @@ options.PageSavingCallback = new TestDiagramPageSavingCallback();
 diagram.Save(dataDir + "PageSavingCallback.pdf", options);
 
 {{< /highlight >}}
-```
+
 #### **TestDiagramPageSavingCallback Sınıfı**
 {{< highlight "java" >}}
 

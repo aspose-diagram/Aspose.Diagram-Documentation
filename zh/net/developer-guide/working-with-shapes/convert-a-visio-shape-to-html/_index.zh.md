@@ -17,8 +17,8 @@ description: 本节介绍如何使用 Aspose.Diagram 将 visio 形状转换为 h
 ### **形状到 HTML**
 在您的 .net 应用程序中使用以下代码将 visio 形状转换为 html。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,5 +37,5 @@ Aspose.Diagram.Saving.HTMLSaveOptions hs = new Aspose.Diagram.Saving.HTMLSaveOpt
 shape.ToHTML("out.htm", hs);
 
 {{< /highlight >}}
-```
+
 

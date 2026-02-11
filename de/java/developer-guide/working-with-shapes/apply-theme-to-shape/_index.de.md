@@ -18,8 +18,8 @@ Der folgende Code zeigt, wie man:
 #### **Stellen Sie das Thema auf eine Form ein Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um das Aussehen der Verbindertypform mithilfe von Aspose.Diagram for Java festzulegen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -59,4 +59,4 @@ page3.setPresetThemeQuickStyle (PresetQuickStyleValue.VARIANT_STYLE_3);
 diagram.save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -7,8 +7,8 @@ url: /ar/python-java/create-layout-and-auto-fit-shapes/
 ## **إنشاء Diagram**
  يسمح لك Aspose.Diagram لـ Python via Java بقراءة وإنشاء المخططات Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](/diagram/ar/python-java/add-and-connect-visio-shapes/) لبناء diagram. استخدم المُنشئ الافتراضي للفئة Diagram لتكوين diagram جديد.
 ### **عينة البرمجة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import os
 import asposediagram
@@ -26,7 +26,7 @@ diagram.save("CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **أشكال التخطيط في نمط المخطط الانسيابي**
  مع أنواع معينة من الرسومات المتصلة ، مثل المخططات الانسيابية والرسومات التخطيطية للشبكة ، يمكنك استخدام ملحق**أشكال التخطيط** ميزة لوضع الأشكال تلقائيًا. يعد تحديد المواقع تلقائيًا أسرع من سحب كل شكل يدويًا إلى موقع جديد.
 
@@ -52,8 +52,8 @@ jpype.shutdownJVM()
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. اتصل بـ Diagram class 'طريقة Save لكتابة رسم Visio.
 ### **عينة برمجة نمط المخطط الانسيابي**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -98,7 +98,7 @@ diagram.save("sample_right_left.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **تخطيط الأشكال في نمط الشجرة المضغوطة**
 يحاول نمط تخطيط الشجرة المضغوط بناء هيكل شجرة. يستخدم نفس ملف الإدخال كما في المثال أعلاه ويحفظ في العديد من أنماط الشجرة المدمجة المختلفة.
 
@@ -116,8 +116,8 @@ jpype.shutdownJVM()
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. قم باستدعاء الأسلوب Save للفئة Diagram لكتابة ملف Visio.
 #### **عينة برمجة نمط الشجرة المدمجة**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -162,7 +162,7 @@ diagram.save("sample_left_down.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **احتواء تلقائي Visio Diagram**
 Aspose.Diagram API يدعم التركيب التلقائي للرسم Visio. تساعد عملية الميزة هذه على إحضار الأشكال الخارجية داخل حدود الصفحة Visio.
 
@@ -177,8 +177,8 @@ Aspose.Diagram لـ Python via Java API له فئة Diagram التي تمثل ر
 ### **عينة البرمجة الملائمة التلقائية**
 يوضح رمز المثال التالي كيفية احتواء الأشكال تلقائيًا في Visio diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -201,7 +201,7 @@ diagram.save("AutoFitShapesInVisio_Out.vsdx", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **العمل مع مشروع VBA**
 ### **تعديل كود وحدة VBA في Visio Diagram**
 توضح هذه المقالة كيفية تعديل رمز الوحدة النمطية لـ VBA تلقائيًا باستخدام Aspose.Diagram لـ Python via Java.
@@ -210,8 +210,8 @@ jpype.shutdownJVM()
 ### **تعديل نموذج برمجة رمز الوحدة النمطية لـ VBA**
 الرجاء التحقق من مثال هذا الرمز:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -237,14 +237,14 @@ diagram.save("out.vssm", SaveFileFormat.VSSM)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **قم بإزالة كافة وحدات الماكرو من Visio Diagram**
 Aspose.Diagram لـ Python via Java يسمح للمطورين بإزالة كافة وحدات الماكرو من Visio diagram.
 
 تتيح لك خاصية JavaProjectData ، التي تم الكشف عنها بواسطة فئة Diagram ، إزالة كافة وحدات الماكرو من الرسم Visio.
 ### **قم بإزالة كافة نماذج برمجة وحدات الماكرو**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -265,4 +265,4 @@ diagram.save("RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

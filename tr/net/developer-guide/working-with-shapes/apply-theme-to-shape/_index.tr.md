@@ -18,8 +18,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Temayı bir şekle ayarla Programlama Örneği**
 Aspose.Diagram for .NET kullanarak konektör tipi şeklinin görünümünü ayarlamak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -60,4 +60,4 @@ page3.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle3;
 diagram.Save(dataDir + "ApplyThemeToNewShape_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

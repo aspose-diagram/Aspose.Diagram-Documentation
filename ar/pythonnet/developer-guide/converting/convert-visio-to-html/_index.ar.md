@@ -26,4 +26,15 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **احفظ الناتج HTML في التخزين المحلي**
 يمكن حفظ الملف الناتج عن طريق تمرير سلسلة مسار كاملة ، بما في ذلك اسم الملف والملحق ، على سبيل المثال @ "c: \ temp \ MyOutput.html".
 #### **احفظ الناتج HTML في نموذج برمجة التخزين المحلي**
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-ExportToHTML.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+#// Save diagram in the html format
+diagram.save("Visio_out.html", SaveFileFormat.HTML)
+{{< /highlight >}}
+

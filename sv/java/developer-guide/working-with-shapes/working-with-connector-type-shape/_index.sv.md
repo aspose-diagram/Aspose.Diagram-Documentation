@@ -19,8 +19,8 @@ Koden nedan visar hur man:
 #### **Ställ in kontaktens utseende Programmeringsexempel**
 Använd följande kod i din Java-applikation för att ställa in utseendet på kontakttypens form med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -38,7 +38,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Välj Omdirigeringsalternativ för Connector Shape**
  ConFixedCode-egenskapen exponerad av[Layout](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) klass kan användas för att välja omdirigeringsalternativ. Layout-egenskapen, exponerad av[Form](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) klass, kommer att användas.
 
@@ -54,8 +54,8 @@ Koden nedan visar hur man:
 ### **Välj Programmeringsexempel för omdirigeringsalternativ**
 Använd följande kod i din Java-applikation för att välja omdirigeringsalternativet för kontaktformen med Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -73,4 +73,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

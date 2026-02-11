@@ -21,8 +21,8 @@ Aspose.Diagram يسمح للمطورين بتعيين الخصائص الرئي�
 1. قم بتعيين نوع الحدث الرئيسي
 1. احفظ Visio الرسم بأي تنسيق مدعوم.
 #### **تعيين عينة البرمجة الرئيسية**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -49,7 +49,7 @@ milestoneHelper.Type = 6;
 diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 جدول قيم تنسيق التاريخ:
@@ -101,8 +101,8 @@ Aspose.Diagram يسمح للمطورين بتوصيف الجدول الزمني 
 1. قم بتعيين تنسيق التاريخ.
 1. احفظ Visio الرسم بأي تنسيق مدعوم.
 #### **تعيين الفترة الزمنية وعينة تاريخ البرمجة**
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -137,7 +137,7 @@ timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 
 جدول قيم تنسيق التاريخ:
@@ -192,8 +192,8 @@ Aspose.Diagram يسمح للمطورين بضبط المعالم على أشكا
 #### **تحديث المعالم باستخدام نموذج برمجة TimeLineHelper**
 استخدم الكود التالي في تطبيق .NET الخاص بك لإحياء المعالم على الخط الزمني باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -223,7 +223,7 @@ timelineHelper.RefreshTimeLine();
 diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **تحديث المعالم على الخط الزمني باستخدام فئة MilestoneHelper**
  طريقة RefreshMilestone التي كشف عنها[MilestoneHelper](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper)يمكن استخدام فئة لتحديث المعالم على الخط الزمني.
 
@@ -240,8 +240,8 @@ diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
 #### **تحديث المعالم باستخدام نموذج برمجة MilestoneHelper**
 استخدم الكود التالي في تطبيق .NET لتحديث المعالم على الخط الزمني باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -292,4 +292,4 @@ milestoneHelper.RefreshMilestone(timeline);
 diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

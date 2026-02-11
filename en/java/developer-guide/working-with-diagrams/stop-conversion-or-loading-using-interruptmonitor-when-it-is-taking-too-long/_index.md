@@ -30,8 +30,8 @@ As you see **Huge.vsdx** is quite a huge VSDX file. However, the **StopConversio
 {{< /highlight >}}
 
 ## **Sample Code**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 import com.aspose.diagram.Diagram;
 import com.aspose.diagram.InterruptMonitor;
 import com.aspose.diagram.SaveFileFormat;
@@ -124,4 +124,4 @@ public class StopConversionOrLoadingUsingInterruptMonitor
 	}
 }
 {{< /highlight >}}
-```
+

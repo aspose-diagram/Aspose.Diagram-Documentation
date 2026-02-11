@@ -61,8 +61,8 @@ Aspose.Diagram for .NET непосредственно записывает ин
 - Чтобы получить доступ к встроенным свойствам документа, используйте[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 -  Чтобы получить доступ к пользовательским свойствам документа, используйте[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -81,7 +81,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **Добавление или удаление пользовательских свойств документа**
 
@@ -91,8 +91,8 @@ Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Coun
 
  Aspose.Diagram API-интерфейсы раскрыли[**Добавлять**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) метод для[**CustomPropCollection**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)класс для добавления настраиваемых свойств в коллекцию.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **Удаление пользовательских свойств**
 

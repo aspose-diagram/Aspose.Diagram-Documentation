@@ -12,8 +12,8 @@ Aspose.Diagram API 允许开发人员控制文本方向、对齐方式、边距�
 ### **格式文本编程示例**
 以下代码段设置方向、对齐方式、边距、背景颜色、背景颜色透明度以及方向角的默认制表位位置和形状文本在顶部的位置。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -48,7 +48,7 @@ shape.TextBlock.DefaultTabStop.Value = 2;
 diagram.Save(dataDir + "FormatShapeTextBlockSection_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **旋转和设置 Visio 形状文本的位置**
 Aspose.Diagram API 允许开发人员调整文本位置并旋转 Visio 形状上的文本。为完成此任务，形状表上的文本转换部分提供了 TxtPin、TxtLocPin、TxtWidth 和 TxtHeight 属性。开发人员可以使用以下方式以编程方式与这些属性进行交互[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **旋转和设置形状文本的位置**
@@ -56,8 +56,8 @@ Aspose.Diagram API 允许开发人员调整文本位置并旋转 Visio 形状上
 #### **将形状的文本位置设置在顶部**
 以下代码段设置形状文本在顶部的方向角度和位置。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -82,12 +82,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtTop_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **将形状的文本位置设置在底部**
 以下代码段设置形状文本在底部的方向角度和位置。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -112,12 +112,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtBottom_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **将形状的文本位置设置在左侧**
 以下代码段设置形状文本在左侧的方向角度和位置。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -141,12 +141,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtLeft_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **将形状的文本位置设置在右侧**
 以下代码段设置形状文本在右侧的方向角度和位置。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -170,4 +170,4 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtRight_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

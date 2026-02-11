@@ -12,8 +12,8 @@ url: /ar/java/working-with-shapes-paragraph/
 #### **تعيين نموذج لبرمجة فقرة الشكل**
 استخدم الكود التالي في تطبيق Java لضبط فقرة الشكل باستخدام Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CreateNewVisio.class);
@@ -24,4 +24,3 @@ Diagram diagram = new Diagram();
 diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

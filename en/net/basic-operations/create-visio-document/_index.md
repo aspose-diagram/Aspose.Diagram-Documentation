@@ -13,8 +13,8 @@ Aspose.Diagram for .NET lets you read and create Microsoft Visio diagrams from w
 ## **Create Visio Drawing Programming Sample**
 The code below shows to create a new Microsoft Visio drawing. Please note that the blank drawing contains a single empty page.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
@@ -26,7 +26,7 @@ Diagram diagram = new Diagram();
 diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 {{% alert color="primary" %}} 
 

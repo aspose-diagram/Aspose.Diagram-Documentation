@@ -12,8 +12,8 @@ description: В этом разделе объясняется, как удал�
 
 ### **Образец программирования**
 Следующий фрагмент кода удаляет поле в форме.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

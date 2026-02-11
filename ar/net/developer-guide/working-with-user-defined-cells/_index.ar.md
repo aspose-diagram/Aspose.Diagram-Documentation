@@ -14,8 +14,8 @@ description: يشرح هذا القسم كيفية قراءة الخلايا ا�
 #### **استرجاع عينة برمجة الخلايا**
 يسمح الجزء التالي من التعليمات البرمجية للمطورين بقراءة حقول الخلايا التي يحددها المستخدم.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -33,7 +33,7 @@ foreach (User user in shape.Users)
 }
 
 {{< /highlight >}}
-```
+
 
 
 توضح هذه الصورة الإخراج بعد تشغيل الكود أعلاه:
@@ -46,8 +46,8 @@ foreach (User user in shape.Users)
 #### **عينة تكوين خلية البرمجة**
 استخدم مثال التعليمات البرمجية التالي في تطبيق .NET الخاص بك لإنشاء خلية معرّفة من قبل المستخدم في ورقة الأشكال باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -70,7 +70,7 @@ shape.Users.Add(user);
 diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **استرجع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال**
 Aspose.Diagram for .NET API يسمح باسترداد الخلايا المعرفة من قبل المستخدم من ورقة الأشكال. يصف هذا المثال الموضوع الطريقة ، يمكن للمطورين استرداد كل User.name لجميع الأشكال في الرسم.
 ### **استرداد الخلايا المعرفة من قبل المستخدم**
@@ -78,8 +78,8 @@ Aspose.Diagram for .NET API يسمح باسترداد الخلايا المعر�
 #### **استرجع الخلايا من نماذج برمجة ورقة الأشكال**
 استخدم الكود التالي في تطبيق .NET الخاص بك لاسترداد جميع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال باستخدام Aspose.Diagram for .NET.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UserDefinedCells();
@@ -104,4 +104,4 @@ foreach (Aspose.Diagram.Page objPage in diagram.Pages)
 }  
 
 {{< /highlight >}}
-```
+

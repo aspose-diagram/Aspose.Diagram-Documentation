@@ -37,21 +37,64 @@ Ces exemples montrent comment :
 #### **Utilisation des options de sauvegarde Diagram**
 Le code ci-dessous montre comment définir les options d'enregistrement avant d'enregistrer un document au format Visio.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseDiagramSaveOptions.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+
+options = saving.DiagramSaveOptions(SaveFileFormat.VSDX)
+
+#// Save diagram in the VSDX format
+diagram.save("CreateNewVisio_out.vsdx", options)
+{{< /highlight >}}
+
 
 
 
 #### **Utilisation des options de sauvegarde PDF**
 The code below shows how to set save options before saving a document to a PDF format.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UsePdfSaveOptions.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+options = saving.PdfSaveOptions()
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the pdf format
+diagram.save("CreateNewVisio_out.pdf", options)
+{{< /highlight >}}
+
 
 
 
 #### **Utilisation des options de sauvegarde HTML**
 The code below shows how to set save options before saving a document to HTML file format.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseHtmlSaveOptions.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+options = saving.HTMLSaveOptions()
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the html format
+diagram.save("Visio_out.html", options)
+{{< /highlight >}}
+
 
 
 
@@ -60,14 +103,46 @@ Le code ci-dessous montre comment définir les options d'enregistrement avant d'
 
 
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseImageSaveOptions.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+#// Save diagram as PNG
+options = saving.ImageSaveOptions(SaveFileFormat.PNG)
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the png format
+diagram.save("ExportPageToImage_out.png", options)
+{{< /highlight >}}
+
 
 
 Utilisation des options de sauvegarde SVG
 
 Le code ci-dessous montre comment définir les options d'enregistrement avant d'enregistrer un document au format SVG.
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-UseSvgSaveOptions.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+#// Save diagram as svg
+options = saving.SVGSaveOptions()
+    
+#// Save one page only, by page index
+options.page_index = 0
+
+#// Save diagram in the svg format
+diagram.save("ExportPageToSvg_out.svg", options)
+{{< /highlight >}}
+
 
 Sometimes, developers need to save or export Visio diagrams to different file formats programmatically (like VDX, PDF, JPEG and so on).
 
@@ -88,4 +163,20 @@ depuis aspose.diagram import *
 
 **Exemple:**
 
-{{< gist "aspose-diagram-gists" "ba6a69bbbb0ec99f2a0561b49bcd96e7" "Examples-PythonNet-SaveDiagramTo_VDX_PDF_JPEG_withAspose.py" >}}
+
+{{< highlight python >}}
+import aspose.diagram
+from aspose.diagram import *
+
+#// Initialize a Diagram class
+diagram = Diagram(os.path.join(sourceDir, "Drawing1.vsdx"))
+#// Save the diagram as VDX
+vsdDiagram.save(os.path.join(outputDir, "SaveDiagramToVDXwithAspose_out.vdx"), SaveFileFormat.VDX)
+
+#// Save as PDF
+vsdDiagram.save(os.path.join(outputDir, "SaveDiagramToPDFwithAspose_out.pdf"), SaveFileFormat.PDF)
+
+#// Save as JPEG
+vsdDiagram.save(os.path.join(outputDir, "SaveDiagramToJPGwithAspose_out.jpg"), SaveFileFormat.JPEG)
+{{< /highlight >}}
+

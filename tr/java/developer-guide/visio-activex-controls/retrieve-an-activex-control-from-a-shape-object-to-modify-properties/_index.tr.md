@@ -12,8 +12,8 @@ Geliştiriciler, Aspose.Diagram API'i kullanarak, mevcut tüm özelliklerini aya
 ## **Bir ActiveX Kontrol Programlama Örneği Alın**
 [Şekil](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) class, geliştiricilerin bir Visio şekil nesnesinden bir ActiveX denetimi almasına izin veren getActiveXControl yöntemini sunar. Geliştiriciler, bir ActiveX denetimini uygun ActiveX denetim sınıfında yayınlayabilir ve ardından tüm kullanılabilir özelliklerini ayarlayabilir.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveActiveXControl.class) + "VisioActiveXControls/";
@@ -35,4 +35,4 @@ cbac.setCaption("Test Button");
 diagram.save(dataDir + "RetrieveActiveXControl_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

@@ -17,8 +17,8 @@ Använd egenskapen Page.Shapes för att avgöra vilken form som har ärvts av ma
 ### **Hämtar Master Information Programmeringsexempel**
 Följande kodbit hämtar masterinformationen från en diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveMasterInfo.class);
@@ -34,7 +34,7 @@ for (Master master : (Iterable<Master>) diagram.getMasters())
 }
 
 {{< /highlight >}}
-```
+
 ## **Lägg till Master från Stencil of Shapes**
 En stencil är en samling former som är associerade med en viss mall Microsoft Office Visio. Med Aspose.Diagram är det möjligt att lägga till valfri formmaster till en ritning från en stencil.
 ### **Lägg till Master**
@@ -46,8 +46,8 @@ Master-objektet representerar ett Shape-objekts master i en diagram. AddMaster-m
 - Stencilfilström och huvudnamn.
 - Lägg till master till diagram från källan diagram
 #### **Lägg till masterprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddMasterFromStencil.class);    
@@ -76,12 +76,12 @@ diagram.addShape(6.0, 6.0, masterName, 0);
 diagram.addShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
 
 {{< /highlight >}}
-```
+
 ## **Skapa Master från grunden**
 Aspose.Diagram API gör det möjligt att skapa en Master från grunden utan någon stencil, ritning eller mall. Utvecklare kan anpassa skapandet av Master. Metoden addMaster, exponerad av klassen Diagram, tillåter att lägga till en master.
 #### **Skapa masterprogrammeringsexempel**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(CreateMasterfromScratch.class) + "Masters/";
@@ -166,10 +166,10 @@ public static Master createMaster(final int masterId, final String name, String 
 
 
 {{< /highlight >}}
-```
 
-```
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 private final static char map[] = { // 0 1 2 3 4 5 6 7
 		'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', // 0
@@ -269,7 +269,7 @@ private final int readFully(final InputStream in, final byte[] buffer) throws IO
 }
 
 {{< /highlight >}}
-```
+
 ## **Skaffa en Master från filen Visio**
 Ibland behöver utvecklare få detaljerna om en Visio ritnings master. Aspose.Diagram API stöder den här funktionen.
 
@@ -282,8 +282,8 @@ Detta exempel fungerar enligt följande:
 #### **Master Object by ID-programmeringsexempel**
 Följande exempel visar hur man får en master genom ID från en Visio-ritning.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyID.class);  
@@ -300,7 +300,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ### **Få ett huvudobjekt med namn**
 Detta exempel fungerar enligt följande:
 
@@ -309,8 +309,8 @@ Detta exempel fungerar enligt följande:
 #### **Master Object by Name Programmeringsexempel**
 Följande exempel visar hur man hämtar ett huvudobjekt med namn från en Visio-ritning.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetMasterbyName.class);      
@@ -327,7 +327,7 @@ System.out.println("Master Name : " + master.getName());
 System.out.println("Master Name : " + master.getUniqueID());
 
 {{< /highlight >}}
-```
+
 ## **Kontrollera närvaron av en master i Visio-ritningen**
 Aspose.Diagram API stöder kontroll av närvaron av en master i en Visio-ritning. Med MasterCollection-egenskapen kan utvecklare kontrollera om en master är närvarande med sitt namn eller ID.
 
@@ -340,8 +340,8 @@ Detta exempel fungerar enligt följande:
 #### **Mästarnärvaro genom ID-programmeringsexempel**
 Följande exempel visar hur man kontrollerar närvaron av en master genom ID i en Visio-ritning.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyID.class);    
@@ -356,7 +356,7 @@ boolean isPresent = diagram.getMasters().isExist(2);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+
 ### **Kontrollera en mästarnärvaro efter namn**
 Detta exempel fungerar enligt följande:
 
@@ -365,8 +365,8 @@ Detta exempel fungerar enligt följande:
 #### **Master Presence by Name Programmeringsexempel**
 Följande exempel visar hur man kontrollerar en masternärvaro med namn från Visio-ritningen.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CheckMasterPresencebyName.class);  
@@ -381,4 +381,4 @@ boolean isPresent = diagram.getMasters().isExist(masterName);
 System.out.println("Master Presence : " + isPresent);
 
 {{< /highlight >}}
-```
+

@@ -7,8 +7,8 @@ url: /es/python-java/create-layout-and-auto-fit-shapes/
 ## **Creando un Diagram**
 Aspose.Diagram for Python via Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [añadir formas y conectores](/diagram/es/python-java/add-and-connect-visio-shapes/) para construir el diagram. Use el constructor predeterminado de la clase Diagram para crear un nuevo diagram.
 ### **Ejemplo de programación**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import os
 import asposediagram
@@ -26,7 +26,7 @@ diagram.save("CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Formas de diseño en estilo de diagrama de flujo**
  Con ciertos tipos de dibujos conectados, como diagramas de flujo y diagramas de red, puede utilizar el**Formas de diseño** característica para posicionar formas automáticamente. El posicionamiento automático es más rápido que arrastrar manualmente cada forma a una nueva ubicación.
 
@@ -52,8 +52,8 @@ Para diseñar formas en estilo de diagrama de flujo:
 1. Llame al método Layout de la clase Diagram pasando LayoutOptions.
 1. Llame al método Guardar de la clase Diagram para escribir el dibujo Visio.
 ### **Ejemplo de programación de estilo de diagrama de flujo**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -98,7 +98,7 @@ diagram.save("sample_right_left.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Disposición de formas en el estilo de árbol compacto**
 El estilo de diseño de árbol compacto intenta construir una estructura de árbol. Utiliza el mismo archivo de entrada que el ejemplo anterior y se guarda en varios estilos de árbol compacto diferentes.
 
@@ -116,8 +116,8 @@ Para diseñar formas en el estilo de árbol compacto:
 1. Llame al método Layout de la clase Diagram pasando LayoutOptions.
 1. Llame al método Guardar de la clase Diagram para escribir el archivo Visio.
 #### **Ejemplo de programación de estilo de árbol compacto**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -162,7 +162,7 @@ diagram.save("sample_left_down.vdx", SaveFileFormat.VDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Ajuste automático el Visio Diagram**
 Aspose.Diagram API admite el ajuste automático del dibujo Visio. Esta función de operación ayuda a traer formas externas dentro del límite de la página Visio.
 
@@ -177,8 +177,8 @@ Este ejemplo funciona de la siguiente manera:
 ### **Ejemplo de programación de ajuste automático**
 El siguiente código de ejemplo muestra cómo ajustar formas automáticamente en Visio diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -201,7 +201,7 @@ diagram.save("AutoFitShapesInVisio_Out.vsdx", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ## **Trabajando con Proyecto VBA**
 ### **Modifique el código del módulo VBA en Visio Diagram**
 This article demonstrates how to modify a VBA module code automatically using Aspose.Diagram for Python via Java.
@@ -210,8 +210,8 @@ Hemos agregado las clases VbaModule, VbaModuleCollection, VbaProject, VbaProject
 ### **Modificar ejemplo de programación de código de módulo VBA**
 Por favor, compruebe este ejemplo de código:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -237,14 +237,14 @@ diagram.save("out.vssm", SaveFileFormat.VSSM)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 ### **Eliminar todas las macros del Visio Diagram**
 Aspose.Diagram for Python via Java allows developers to remove all macros from the Visio diagram.
 
 La propiedad JavaProjectData, expuesta por la clase Diagram, le permite eliminar todas las macros del dibujo Visio.
 ### **Eliminar todas las macros Ejemplo de programación**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -265,4 +265,4 @@ diagram.save("RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

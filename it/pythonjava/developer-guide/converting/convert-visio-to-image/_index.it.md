@@ -22,8 +22,8 @@ Per esportare un diagram in un'immagine:
 
 ![cose da fare:immagine_alt_testo](ExportToImage.png)
 ### **Esempio di programmazione dell'esportazione in un file immagine**
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,12 +41,12 @@ diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 
 È anche possibile salvare una pagina particolare come immagine, invece dell'intero documento:
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -70,4 +70,3 @@ diagram.save("ExportPageToImage_Out.png", options)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```

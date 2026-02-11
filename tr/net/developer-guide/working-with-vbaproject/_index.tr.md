@@ -27,8 +27,8 @@ End Sub
 
 İşte VSDM çıktı dosyasını VBA Modülü ve Makro Kodu ile oluşturmak için örnek kod.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -45,7 +45,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **VBA veya Makroyu Değiştirin**
 
@@ -88,8 +88,8 @@ End Sub
 
  indirebilirsiniz[kaynak Visio dosyası]() ve[çıktı Visio dosyası]() verilen linklerden
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // ExStart:ApplyThemeToNewShape
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -104,7 +104,7 @@ module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n 
 diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+
 
 ## **ileri konular**
 - [VBA Kodunun İmzalanıp İmzalanmadığını Kontrol Edin](/diagram/tr/net/check-if-vba-code-is-signed/)

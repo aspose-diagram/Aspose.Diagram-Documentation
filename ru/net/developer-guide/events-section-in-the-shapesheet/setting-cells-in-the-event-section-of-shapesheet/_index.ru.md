@@ -20,8 +20,8 @@ description: Управление свойствами событий файло
 ## **Настройка ячеек событий**
 [Мероприятие](https://reference.aspose.com/diagram/net/aspose.diagram/event) class позволяет разработчикам устанавливать ячейки событий в таблице свойств фигуры. В этом разделе справки показано, как разработчики могут устанавливать формулы в ячейках событий:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_EventSection();
@@ -47,4 +47,4 @@ shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
 diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
 
 {{< /highlight >}}
-```
+

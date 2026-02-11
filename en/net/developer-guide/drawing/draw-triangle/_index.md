@@ -9,8 +9,8 @@ description: This section explains how to draw triangle in a visio page with Asp
 ## **Draw Triangle in Visio**
 Aspose.Diagram for .NET API allows developers to draw a triangle shape in a page.The code example below shows how to draw a triangle in a Visio drawing.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -26,13 +26,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawTriangleInPage_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Triangle in SVG**
 Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as SVG format. The code example below shows how to draw a triangle in a Visio drawing and save as SVG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -50,13 +50,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawTriangleInPage_out.svg", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Triangle in PDF**
 Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as PDF format. The code example below shows how to draw a triangle in a Visio drawing and save as PDF format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -72,13 +72,13 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawTriangleInPage_out.pdf", new PdfSaveOptions());
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Triangle in PNG**
 Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as PNG format. The code example below shows how to draw a triangle in a Visio drawing and save as PNG format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -96,13 +96,13 @@ imageSaveOptions.PageIndex = 0;
 diagram.Save(dataDir + "DrawTriangleInPage_out.png", imageSaveOptions);
 
 {{< /highlight >}}
-```
+
 
 ## **Draw Triangle in HTML**
 Aspose.Diagram for .NET API allows developers to draw a triangle in the page and save as HTML format. The code example below shows how to draw a triangle in a Visio drawing and save as HTML format.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_VisioPages();
@@ -118,4 +118,4 @@ diagram.Pages[0].DrawPolyline(1, 1, 2, 2, ps);
 diagram.Save(dataDir + "DrawTriangleInPage_out.html", new HTMLSaveOptions());
 
 {{< /highlight >}}
-```
+

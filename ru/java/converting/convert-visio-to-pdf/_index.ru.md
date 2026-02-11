@@ -36,8 +36,8 @@ The image below shows the VSD diagram that the code snippets below export PDF. Y
 
 ![дело:изображение_альтернативный_текст](how-to-convert-a-visio-diagram_2.png)
 ### **Экспорт в PDF Образец программы**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToPDF.class);
@@ -49,12 +49,12 @@ Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
 diagram.save(dataDir + "ExportToPDF_Out.pdf", SaveFileFormat.PDF);
 
 {{< /highlight >}}
-```
+
 ### **Разделить несколько страниц**
 Aspose.Diagram for Java позволяет разделить несколько страниц при преобразовании Microsoft Visio Diagram в PDF. В следующем фрагменте кода показана функциональность.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);      
@@ -68,12 +68,12 @@ options.setSplitMultiPages(true);
 diagram.save(dataDir + "SplitMultiPages.pdf", options);
 
 {{< /highlight >}}
-```
+
 ### **Использовать обратный вызов для сохранения страницы**
 Если у вас есть несколько страниц, Aspose.Diagram for Java позволяет использовать обратный вызов сохранения страницы при преобразовании Microsoft Visio Diagram в PDF. Следующий фрагмент кода показывает функциональность.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DocumentConversionProgress.class);
@@ -90,11 +90,11 @@ options.setPageSavingCallback( new TestDiagramPageSavingCallback());
 diagram.save(dataDir + "Callback_out.pdf", options);
 
 {{< /highlight >}}
-```
+
 
 #### **Класс TestDiagramPageSavingCallback**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 import com.aspose.diagram.IPageSavingCallback;
 import com.aspose.diagram.PageEndSavingArgs;
@@ -121,4 +121,4 @@ public class TestDiagramPageSavingCallback implements IPageSavingCallback
 
 
 {{< /highlight >}}
-```
+

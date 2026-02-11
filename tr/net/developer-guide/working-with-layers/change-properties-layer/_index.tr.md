@@ -10,8 +10,8 @@ description: Bu bölümde, katman özelliklerinin Aspose.Diagram ile nasıl değ
 ### **Katman Özelliklerini Değiştirme Programlama Örneği**
 Aşağıdaki kod parçası, katmanın özelliklerini değiştirmeye yardımcı olur.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Layers();
@@ -31,4 +31,3 @@ foreach (Aspose.Diagram.Layer layer in Page.PageSheet.Layers)
 diagram.Save(dataDir + "ChangeLayerProperty_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```

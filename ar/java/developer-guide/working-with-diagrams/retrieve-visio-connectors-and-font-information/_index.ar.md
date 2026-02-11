@@ -15,8 +15,8 @@ url: /ar/java/retrieve-visio-connectors-and-font-information/
 ### **عينة البرمجة**
 يسترد جزء الكود التالي المعلومات الخاصة بالموصلات في diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
@@ -33,7 +33,7 @@ for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getCon
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 ## **استرداد معلومات الخط**
  Aspose.Diagram لديه آليات لاسترجاع المعلومات حول العناصر التي تشكل diagram ، من[الصفحات](/diagram/ar/java/retrieve-get-copy-and-insert-a-page/), [الإستنسل](), [موصلات](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)وكذلك الخطوط. يوضح هذا المقال كيفية معرفة الخطوط المستخدمة في diagram.
 
@@ -43,8 +43,8 @@ System.out.println("Process Completed Successfully");
 ### **استرجاع نموذج برمجة الخط**
 يسترد جزء الكود التالي معلومات الخط من Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
@@ -61,14 +61,14 @@ for(Font font : (Iterable<Font>) diagram.getFonts())
 System.out.println("Process Completed Successfully");
 
 {{< /highlight >}}
-```
+
 
 ![ما يجب القيام به: image_بديل_نص](retrieve-visio-connectors-and-font-information_2.png)
 ### **الحصول على دليل الخطوط الافتراضي**
 Aspose.Diagram for Java API يسمح أيضًا بالحصول على مسار دليل الخط الافتراضي باستخدام طريقة getDefaultFontDir () من Diagram Class. يسترد جزء الكود التالي دليل الخط الافتراضي من Visio diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
@@ -80,4 +80,4 @@ Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 System.out.println(diagram.getDefaultFontDir());
 
 {{< /highlight >}}
-```
+

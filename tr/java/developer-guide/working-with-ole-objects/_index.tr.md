@@ -12,8 +12,8 @@ Microsoft Office Visio, Visio diagram'deki OLE nesnelerinin değiştirilmesini d
 ### **Gömülü OLE Nesneleri Programlama Örneğinin İşlenmesi**
  ForeignData sınıfının ObjectData özelliği, geliştiricilerin Visio diagram'deki mevcut OLE nesnelerini işlemesine olanak tanır. Bu yardım konusu, geliştiricilerin Word belgesinin bir OLE nesnesini nasıl alıp, kullanarak düzenleyebileceğini gösterir.[Aspose.Words for Java API](https://products.aspose.com/words/java)ve ardından Visio diagram'de bir OLE nesnesi olarak geri kaydedin.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 String dataDir = Utils.getDataDir(ManipulateEmbeddedOLEObjects.class);
 System.out.println(dataDir);
@@ -46,4 +46,4 @@ if (OLE_Shape.getType() == TypeValue.FOREIGN) {
 diagram.save(dataDir + "modified.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

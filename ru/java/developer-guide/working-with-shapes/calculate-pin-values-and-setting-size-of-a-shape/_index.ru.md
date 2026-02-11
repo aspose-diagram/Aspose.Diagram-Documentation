@@ -19,8 +19,8 @@ url: /ru/java/calculate-pin-values-and-setting-size-of-a-shape/
 ### **Вычислите пример программирования PinX и PinY**
 Используйте следующий код в своем приложении Java для вычисления значений PinX и PinY подфигуры с помощью Aspose.Diagram for Java API.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CalculateCenterOfSubShapes.class);
@@ -50,7 +50,7 @@ double resultx = shape.getXForm().getPinX().getValue() - shape.getXForm().getLoc
 double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLocPinY().getValue() - piny;
 
 {{< /highlight >}}
-```
+
 ## **Установка высоты и ширины фигуры**
 [Форма](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) Класс позволяет управлять размером фигуры, указывая высоту и ширину фигуры с помощью методов SetHeight и SetWidth.
 
@@ -76,8 +76,8 @@ double resulty = shape.getXForm().getPinY().getValue() - shape.getXForm().getLoc
 ### **Пример программирования установки высоты и ширины**
 Фрагмент кода ниже показывает, как установить высоту и ширину фигуры. Код ищет прямоугольник имени фигуры с идентификатором фигуры 1 и задает для его высоты и ширины значение double.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ChangeShapeSize.class);
@@ -95,4 +95,4 @@ shape.setHeight(2 * shape.getXForm().getHeight().getValue());
 diagram.save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

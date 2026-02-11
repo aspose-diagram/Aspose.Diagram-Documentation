@@ -19,8 +19,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Bağlayıcı Görünümü Programlama Örneği Ayarla**
 Aspose.Diagram for Java kullanarak konektör tipi şeklinin görünümünü ayarlamak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
@@ -38,7 +38,7 @@ shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
 diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Bağlayıcı Şeklinin Yeniden Yönlendirme Seçeneğini Belirleyin**
  Tarafından sunulan ConFixedCode özelliği[Düzen](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) sınıf, yeniden yönlendirme seçeneğini seçmek için kullanılabilir. tarafından sunulan Layout özelliği[Şekil](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) sınıf kullanılacaktır.
 
@@ -54,8 +54,8 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 ### **Yeniden Yönlendirme Seçeneği Programlama Örneği Seçin**
 Aspose.Diagram for Java kullanarak bağlayıcı şeklinin yeniden yönlendirme seçeneğini belirlemek için Java uygulamanızda aşağıdaki kodu kullanın.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RerouteConnectors.class);   
@@ -73,4 +73,4 @@ shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
 diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

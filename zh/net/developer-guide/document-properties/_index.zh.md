@@ -61,8 +61,8 @@ Aspose.Diagram API 支持两种类型的文档属性，内置的和自定义的�
 - 要访问内置文档属性，请使用[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 - 要访问自定义文档属性，请使用[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -81,7 +81,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **添加或删除自定义文档属性**
 
@@ -91,8 +91,8 @@ Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Coun
 
 Aspose.Diagram API暴露了[**添加**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add)的方法[**自定义道具集合**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)类以便将自定义属性添加到集合中。
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -110,7 +110,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **删除自定义属性**
 

@@ -13,8 +13,8 @@ url: /tr/java/working-with-window-elements/
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/zduARGh.png)
 ### **Pencere Elemanları Programlama Örneği Al**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrieveWindowElementsOfDiagram.class);    
@@ -31,14 +31,14 @@ for (Window window :(Iterable<Window>) diagram.getWindows())
 }
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'e Pencere Elemanı Ekleyin**
  Ana Visio uygulama penceresi, herhangi bir açık Visio dosyasını içerebilir, tıpkı modern web tarayıcılarının bir pencerede birden çok sekmeli web sayfasına izin vermesi gibi. Geliştiriciler artık kullanarak bir Microsoft Visio örneğine yeni bir Window nesnesi ekleyebilir.[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 
 Window nesnesi, bir Microsoft Visio örneğindeki açık bir pencereyi temsil eder. WindowCollection sınıfı tarafından sunulan Add yöntemi, yeni bir Window nesnesi eklenmesine izin verir.
 ### **Pencere Elemanı Programlama Örneği Ekleme**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddWindowElementInVisio.class); 
@@ -61,7 +61,7 @@ diagram.getWindows().add(window);
 diagram.save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Dinamik Izgaralar ve Bağlantı Noktaları Desteği Ekleyin**
 Dinamik ızgara, çizime zaten yerleştirdiğiniz şekillere göre yeni şekilleri dikey ve yatay olarak konumlandırmanıza yardımcı olur. Bağlantı noktaları ile ilgili olarak, işaretli olarak işaretlendikten sonra, onlara bağlanırken bağlantı noktalarını görmemize yardımcı olacaktır. kullanarak her iki seçeneği de elde edebiliriz.[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/).
 ### **Visio Teknik Resimlerinde Dinamik Izgaralar ve Bağlantı Noktaları Desteği**
@@ -71,8 +71,8 @@ Window sınıfı, DynamicGridEnabled ve ShowConnectionPoints özellikleri sunar.
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/bxsJIwF.png)
 #### **Destek Programlama Örneği Ekle**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AddSupportOfVisualAids.class);
@@ -90,7 +90,7 @@ window.setShowConnectionPoints(BOOL.TRUE);
 diagram.save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Visio Diagram'in Izgaralarını, Cetvellerini, Kılavuzlarını ve Sayfa Sonlarını Gösterme ve Gizleme**
  Microsoft Office Visio'de bir çift cetvel, bir ızgara ve iki tür kılavuz ve her sayfada ne yazdırılacağını görmek için sayfa sonu bayrağı bulunur. Geliştiriciler bu ayarları kullanarak uygulayabilir[Aspose.Diagram for Java API](https://products.aspose.com/diagram/java/)Ayarlar genel olarak tek bir sayfaya uygulanır.
 
@@ -100,8 +100,8 @@ Window sınıfı, ShowGrid, ShowGuides, ShowRulers ve ShowPageBreaks özellikler
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/E0pvXbP.png)
 ### **Programlama Örneği**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(DisplayGridsRulersGuidesAndPageBreaks.class);     
@@ -123,4 +123,4 @@ window.setShowPageBreaks(BOOL.TRUE);
 diagram.save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

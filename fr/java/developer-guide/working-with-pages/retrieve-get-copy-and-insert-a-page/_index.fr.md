@@ -19,8 +19,8 @@ L'image ci-dessous montre la sortie des extraits de code de cet article.
 ### **Récupérer un exemple de programmation d'informations sur la page**
 Le morceau de code suivant récupère les informations de pages d'un diagram.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(RetrievePageInfo.class);
@@ -47,7 +47,7 @@ for (Page page : (Iterable<Page>) diagram.getPages())
 }
 
 {{< /highlight >}}
-```
+
 ## **Obtenez la page Visio d'un Diagram**
 Parfois, les développeurs doivent obtenir les détails de la page d'un dessin Visio. Aspose.Diagram a des fonctionnalités qui les aident à le faire.
 
@@ -60,8 +60,8 @@ Cet exemple fonctionne comme suit :
 
 L'exemple suivant montre comment obtenir un objet de page par ID à partir du dessin Visio.
 #### **Obtenir un objet de page par ID Exemple de programmation**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
@@ -74,7 +74,7 @@ int pageid = 2;
 Page page2 = diagram.getPages().getPage(pageid);
 
 {{< /highlight >}}
-```
+
 ### **Obtenir un objet de page Visio par nom**
 Cet exemple fonctionne comme suit :
 
@@ -83,8 +83,8 @@ Cet exemple fonctionne comme suit :
 #### **Obtenir un objet de page par nom Exemple de programmation**
 L'exemple suivant montre comment obtenir un objet de page par son nom à partir du dessin Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
@@ -97,7 +97,7 @@ String pageName = "Flow 2";
 Page page2 = diagram.getPages().getPage(pageName);
 
 {{< /highlight >}}
-```
+
 ## **Copier une page Visio dans une autre Diagram**
 Aspose.Diagram for Java API permet aux développeurs de copier et d'ajouter son contenu d'un Visio diagram à un autre. Cette rubrique d'aide explique comment accomplir cette tâche.
 
@@ -116,8 +116,8 @@ Cet exemple fonctionne comme suit :
 ### **Copier un exemple de programmation de page Visio**
 L'exemple de code ci-dessous montre comment copier un objet de page Visio dans un autre dessin Visio.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(CopyVisioPage.class);
@@ -163,7 +163,7 @@ newDiagram.getPages().remove(newDiagram.getPages().get(0));
 newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Copier la page Visio vers une autre instance de page**
 La méthode Copy de la classe Page prend une instance de page à cloner.
 
@@ -189,8 +189,8 @@ La méthode Add, exposée par la collection Pages, permet aux développeurs d'aj
 ### **Insérer un exemple de programmation de page vierge**
 Le morceau de code suivant insère une page vierge dans le dessin Visio :
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
@@ -225,7 +225,7 @@ diagram.getPages().add(newPage);
 diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Déplacer la position de la page dans le dessin Visio**
 Aspose.Diagram for Java API peut déplacer la position de la page dans le dessin Visio. La méthode moveTo, exposée par la classe Page, aide les développeurs à déplacer la position de la page.
 ### **Déplacer la position de la page Exemple de programmation**

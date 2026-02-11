@@ -11,8 +11,8 @@ Aspose.Diagram for .NET 让你更新和删除[场地](https://reference.aspose.c
 这[场地](https://reference.aspose.com/diagram/net/aspose.diagram/field)object 表示 a 中的文本字段[文本](https://reference.aspose.com/diagram/net/aspose.diagram/text)跑。字段属性，由[形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类支持 Aspose.Diagram.Field 对象的集合。
 ### **编程范例**
 下面这段代码更新字段的形状。
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_UpdateField();
@@ -41,12 +41,12 @@ fld.Value.Ufev.Unit = MeasureConst.Undefined;
 diagram.Save(dataDir + "UpdateField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 
 ### **删除字段**
 以下代码段删除形状中的字段。
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_RemoveField();
@@ -68,4 +68,4 @@ shape.Fields.Remove(fld);
 diagram.Save(dataDir + "RemoveField_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

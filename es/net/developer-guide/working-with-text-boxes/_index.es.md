@@ -12,8 +12,8 @@ description: Esta sección explica cómo dar formato a una forma de texto con As
 ### **Ejemplo de programación de formato de texto**
 El siguiente fragmento de código establece la dirección, la alineación, los márgenes, el color de fondo, la transparencia del color de fondo y la posición de tabulación predeterminada del ángulo de orientación y la posición del texto de la forma en la parte superior.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -48,7 +48,7 @@ shape.TextBlock.DefaultTabStop.Value = 2;
 diagram.Save(dataDir + "FormatShapeTextBlockSection_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Girar y establecer la posición del texto de forma Visio**
  Aspose.Diagram API permite a los desarrolladores ajustar la posición del texto y también girar el texto en la Forma Visio. Para realizar esta tarea, la sección de transformación de texto en la hoja de formas proporciona las propiedades TxtPin, TxtLocPin, TxtWidth y TxtHeight. Los desarrolladores pueden interactuar con estas propiedades mediante programación mediante[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Girar y establecer la posición del texto de forma**
@@ -56,8 +56,8 @@ La sección de transformación de texto contiene la información posicional sobr
 #### **Establecer la posición del texto de la forma en la parte superior**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma en la parte superior.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -82,12 +82,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtTop_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Establecer la posición del texto de la forma en la parte inferior**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma en la parte inferior.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -112,12 +112,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtBottom_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Establecer la posición del texto de la forma a la izquierda**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma a la izquierda.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -141,12 +141,12 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtLeft_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 #### **Establecer la posición del texto de la forma a la derecha**
 El siguiente fragmento de código establece el ángulo de orientación y la posición del texto de la forma a la derecha.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
@@ -170,4 +170,4 @@ shape.TextXForm.TxtAngle.Value = angleRad;
 diagram.Save(dataDir + "SetShapeTextPositionAtRight_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+

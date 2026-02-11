@@ -30,8 +30,8 @@ description: На этой странице описывается, как со�
 
 В следующем примере открывается существующий файл шаблона Microsoft Visio с именем "[Basic_Shapes.vss](Basic_Shapes.vss)", вводит текст "Hello World!" на первой странице и сохраняет diagram.
 
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -53,4 +53,4 @@ diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+

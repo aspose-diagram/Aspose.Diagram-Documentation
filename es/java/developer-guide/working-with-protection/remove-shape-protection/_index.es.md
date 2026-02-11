@@ -20,8 +20,8 @@ En Microsoft Office Visio, el usuario puede realizar las siguientes acciones par
 ### **Eliminar la muestra de programación de protección de forma**
 Use el siguiente código en su aplicación Java para hacer lo mismo (desbloquear cualquier atributo de forma) usando Aspose.Diagram for Java.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(VisioShapeProtection.class);
@@ -58,5 +58,5 @@ shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
 diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 

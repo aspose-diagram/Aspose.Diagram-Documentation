@@ -10,8 +10,8 @@ Visio 形状可以继承父样式和主形状。开发者可以获得Visio形状
 #### **检索继承的填充数据编程示例**
 以下代码片段检索形状的继承填充数据。请检查此示例代码：
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -31,5 +31,5 @@ foreach (Aspose.Diagram.Shape shape in page.Shapes)
 }
 
 {{< /highlight >}}
-```
+
 

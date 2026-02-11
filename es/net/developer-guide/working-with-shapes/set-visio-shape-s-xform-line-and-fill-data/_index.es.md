@@ -15,8 +15,8 @@ El proceso para actualizar los datos de XForm es:
 ### **Ejemplo de programación**
 El fragmento de código a continuación muestra cómo actualizar los datos XForm de una forma. El código busca un proceso de nombres de forma, con el ID de forma 1, y establece sus coordenadas X e Y en 5.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -37,7 +37,7 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Establecer Visio datos de línea de forma**
 Las formas se pueden formatear de varias maneras. Este artículo muestra cómo especificar los atributos de una línea.
 
@@ -56,8 +56,8 @@ Microsoft Visio permite a los usuarios dar formato a las líneas de varias forma
 #### **Ejemplo de programación de datos de línea**
 El siguiente fragmento de código actualiza los datos de línea de forma.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -93,7 +93,7 @@ shape.Line.EndArrowSize.Value = ArrowSizeValue.Large;
 diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ## **Establecer los datos de relleno de la forma Visio**
  Las formas se pueden formatear de varias maneras. Este tema describe cómo especificar el relleno de una forma. Microsoft Office Visio permite a los usuarios dar formato a los rellenos de varias formas. los[Llenar](http://www.aspose.com/api/net/diagram/aspose.diagram/fill) La clase de Aspose.Diagram for .NET API admite la configuración:
 
@@ -106,8 +106,8 @@ diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
 #### **Ejemplo de programación de datos de relleno**
 El siguiente fragmento de código actualiza los datos de relleno de una forma. El código busca una forma denominada rectángulo, con el Id. de forma 1, y establece los colores de fondo y de primer plano del relleno.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -128,14 +128,14 @@ foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
 diagram.Save(dataDir + "SetFillData_out.vsdx", SaveFileFormat.VSDX);
 
 {{< /highlight >}}
-```
+
 ### **Recuperar datos de relleno heredados de una forma Visio**
  Las formas Visio pueden heredar el estilo principal y la forma maestra. Los desarrolladores pueden obtener o configurar los datos de relleno heredados de una forma Visio. La propiedad InheritFill, expuesta por el[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) class, contiene los valores de formato de relleno para la forma heredada por el estilo principal y la forma maestra.
 #### **Recuperar muestra de programación de datos de llenado heredados**
 El siguiente fragmento de código recupera los datos de relleno heredados de la forma. Por favor revise este código de muestra:
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Diagrams();
@@ -163,4 +163,4 @@ Console.WriteLine(shape.InheritFill.ShdwForegndTrans.Value);
 Console.WriteLine(shape.InheritFill.ShdwPattern.Value);
 
 {{< /highlight >}}
-```
+

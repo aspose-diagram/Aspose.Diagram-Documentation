@@ -12,8 +12,8 @@ El objeto Field representa un campo de texto en una ejecución de texto. La prop
 
 ### **Ejemplo de programación**
 El siguiente fragmento de código elimina un campo en forma.
-```
-{{< highlight "python" >}}
+
+{{< highlight python >}}
 import jpype
 import asposediagram
 jpype.startJVM()
@@ -41,5 +41,5 @@ diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-```
+
 

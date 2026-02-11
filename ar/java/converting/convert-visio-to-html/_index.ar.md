@@ -33,8 +33,8 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **احفظ الناتج HTML في التخزين المحلي**
 يمكن حفظ الملف الناتج عن طريق تمرير سلسلة مسار كاملة ، بما في ذلك اسم الملف والملحق ، على سبيل المثال @ "c: \ temp \ MyOutput.html".
 #### **احفظ الناتج HTML في نموذج برمجة التخزين المحلي**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportToHTML.class);
@@ -46,15 +46,15 @@ Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
 diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
 
 {{< /highlight >}}
-```
+
 
 
 
 ### **احفظ HTML الناتج في نسخة دفق**
 يستخدم لحالة حفظ HTML الناتج في قاعدة بيانات أو مستودع دون تخزينه في التخزين المحلي. تتضمن هذه الميزة أيضًا الموارد الناتجة الأخرى لـ HTML ، مثل الخطوط و CSS (التي تحتوي على معلومات النمط) والصور. نظرًا لأنه يحفظ ملف HTML واحدًا في مثيل الدفق.
 #### **حفظ HTML الناتج في عينة برمجة دفق**
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
@@ -68,4 +68,4 @@ diagram.save(dstStream, SaveFileFormat.HTML);
 ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
 
 {{< /highlight >}}
-```
+

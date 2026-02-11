@@ -64,8 +64,8 @@ Use the [**Diagram**](https://reference.aspose.com/diagram/net/aspose.diagram/Di
 - To access built-in document properties, use [**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 - To access custom document properties, use [**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -84,7 +84,7 @@ Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
 Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
 
 {{< /highlight >}}
-```
+
 
 ### **Adding or Removing Custom Document Properties**
 
@@ -94,8 +94,8 @@ As we have described earlier at the beginning of this topic, developers can't ad
 
 Aspose.Diagram APIs have exposed the [**Add**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) method for the [**CustomPropCollection**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection) class in order to add custom properties to the collection.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Shapes();
@@ -113,7 +113,7 @@ customProp.CustomValue.ValueString = "Test";
 customProperties.Add(customProp);
 
 {{< /highlight >}}
-```
+
 
 ### **Removing Custom Properties**
 

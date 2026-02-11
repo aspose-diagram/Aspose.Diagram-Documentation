@@ -8,8 +8,8 @@ description: Bu bölüm, kullanılmayan veya gizli bilgilerin diagram ile Aspose
 ## **Gizli Bilgileri Kaldır**
  Aspose.Diagram for .NET API, geliştiricilerin bir diagram'den gizli bilgileri kaldırmasına olanak tanır. Gizli bilgileri kaldırmak için şunu kullanabilirsiniz:**Gizli Bilgi Öğesini Kaldır** özellikleri**Gizli Bilgileri Kaldır()**Diagram sınıfının yöntemi. Aşağıdaki kod örneği, diagram'den gizli bilgilerin nasıl kaldırılacağını gösterir.
 
-```
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_Intro();
@@ -25,4 +25,4 @@ options.ExportHiddenPage = false;
 diagram.Save(dataDir + "RemoveHiddenInfo_out.html", options);
 
 {{< /highlight >}}
-```
+

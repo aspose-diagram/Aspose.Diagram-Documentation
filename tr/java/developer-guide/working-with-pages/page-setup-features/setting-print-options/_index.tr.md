@@ -29,8 +29,8 @@ Sayfa yapısı seçenekleri Aspose.Diagram'de tam olarak desteklenir. Bu makale,
 |Manzara|Yatay yönlendirme|
 |Vesika|Dikey yönlendirme|
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -46,14 +46,14 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
 
 {{< /highlight >}}
-```
+
 
 ### **Ölçekleme faktörü**
 
  Ölçekleme faktörünü ayarlayarak bir sayfanın boyutunu küçültmek veya büyütmek mümkündür.[**ÖlçekX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)Emlak.
 
-```
-{{< highlight "java" >}}
+
+{{< highlight java >}}
 // For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(Test.class);
@@ -67,4 +67,4 @@ Page page = diagram.getPages().getPage(0);
 page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
 page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
 {{< /highlight >}}
-```
+
