@@ -11,9 +11,39 @@ description: Esta sección explica cómo actualizar o eliminar campos.
  los[Campo](https://reference.aspose.com/diagram/java/com.aspose.diagram/field) objeto representa un campo de texto en un[texto](https://reference.aspose.com/diagram/java/com.aspose.diagram/text) correr. La propiedad de campo, expuesta por la[Forma](https://reference.aspose.com/diagram/java/com.aspose.diagram/shape) La clase admite una colección de objetos Aspose.Diagram.Field.
 ### **Ejemplo de programación**
 El siguiente fragmento de código actualiza el campo en forma.
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **Eliminar campo**
 El siguiente fragmento de código elimina el campo en forma.
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 

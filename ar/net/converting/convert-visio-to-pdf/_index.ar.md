@@ -39,18 +39,96 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **تصدير Microsoft Visio رسم إلى PDF**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى PDF باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 ### **تقسيم عدة صفحات**
 Aspose.Diagram for .NET يسمح بتقسيم صفحات متعددة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الكود التالي الوظيفة.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set SplitMultiPages option
+options.SplitMultiPages = true;
+// save in PDF format
+diagram.Save(dataDir + "SplitMultiPages.pdf", options);
+
+{{< /highlight >}}
+```
 ### **استخدم استدعاء حفظ الصفحة**
 في حالة وجود صفحات متعددة ، يسمح Aspose.Diagram for .NET باستخدام رد اتصال حفظ الصفحة أثناء تحويل Microsoft Visio Diagram إلى PDF. يوضح مقتطف الشفرة التالي الوظيفة.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-PageSavingCallback.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set PageSavingCallback option
+options.PageSavingCallback = new TestDiagramPageSavingCallback();
+// save in PDF format
+diagram.Save(dataDir + "PageSavingCallback.pdf", options);
+
+{{< /highlight >}}
+```
 #### **فئة TestDiagramPageSavingCallback**
 {{< highlight "java" >}}
 
  اختبار الطبقة العامة
 
-{  عام باطل PageStartSaving (Aspose.Diagram.Saving.PageStartSavingArgs args)   {  Console.WriteLine ("بدء حفظ صفحة diagram {0} من الصفحات {1}" argndPage، 1s.IPages. }   PageEndSaving عام باطل (Aspose.Diagram.Saving.PageEndSavingArgs args)   {  Console.WriteLine ("End save diagram page {0} argount of Pages {1}"، +   // لا تُخرج الصفحات بعد فهرس الصفحة 8.  if (args.PageIndex> = 8)   {  args.HasMorePages = false ؛  }  _x000_D_000 _x000
+{
+ 
+ عام باطل PageStartSaving (Aspose.Diagram.Saving.PageStartSavingArgs args) 
+ 
+ {
+ 
+ Console.WriteLine ("بدء حفظ صفحة diagram {0} من الصفحات {1}" argndPage، 1s.IPages. 
+} 
+ 
+ PageEndSaving عام باطل (Aspose.Diagram.Saving.PageEndSavingArgs args) 
+ 
+ {
+ 
+ Console.WriteLine ("End save diagram page {0} argount of Pages {1}"، + 
+ 
+ // لا تُخرج الصفحات بعد فهرس الصفحة 8.
+ 
+ if (args.PageIndex> = 8) 
+ 
+ {
+ 
+ args.HasMorePages = false ؛ 
+ 
+} 
+ _x000_D_000 _x000

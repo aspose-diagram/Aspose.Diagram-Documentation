@@ -27,7 +27,23 @@ Configurar la carpeta de fuentes con cualquiera de los métodos anteriores no ga
 #### **Ejemplo de programación**
 El siguiente código de ejemplo muestra cómo configurar Aspose.Diagram para buscar fuentes TrueType en varias carpetas al renderizar o incrustar fuentes.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+// Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Setting the custom font directories
+diagram.FontDirs = fontDirs;
+
+// Saving Visio diagram in PDF format
+diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **Reciba notificaciones de fuentes faltantes y sustitución de fuentes durante el renderizado**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Ejemplo de programación de notificación de fuentes faltantes y sustitución de fuentes**

@@ -14,7 +14,35 @@ description: يشرح هذا القسم كيفية إدراج صفحة أو نس
 ### **استرداد نموذج برمجة معلومات الصفحة**
 يسترد جزء الكود التالي معلومات الصفحات من diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-RetrievePageInfo-RetrievePageInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrievePageInfo.vdx");
+
+foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
+{
+    // Checks if current page is a background page
+    if (page.Background == Aspose.Diagram.BOOL.True)
+    {
+        // Display information about the background page
+        Console.WriteLine("Background Page ID : " + page.ID);
+        Console.WriteLine("Background Page Name : " + page.Name);
+    }
+    else
+    {
+        // Display information about the foreground page
+        Console.WriteLine("\nPage ID : " + page.ID);
+        Console.WriteLine("Universal Name : " + page.NameU);
+        Console.WriteLine("ID of the Background Page : " + page.BackPage);
+    }
+}
+
+{{< /highlight >}}
+```
 ## **احصل على Visio الصفحة من Diagram**
 في بعض الأحيان ، يحتاج المطورون إلى الحصول على تفاصيل صفحة رسم Visio. Aspose.Diagram له ميزات تساعدهم على القيام بذلك.
 
@@ -27,7 +55,22 @@ description: يشرح هذا القسم كيفية إدراج صفحة أو نس
 
 يوضح المثال التالي كيفية الحصول على كائن صفحة بواسطة معرف من رسم Visio.
 #### **الحصول على كائن الصفحة عن طريق نموذج برمجة المعرف**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPagebyID-GetVisioPagebyID.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page id
+int pageid = 2;
+// Get page object by id
+Page page2 = diagram.Pages.GetPage(pageid);
+
+{{< /highlight >}}
+```
 ### **الحصول على Visio صفحة كائن حسب الاسم**
 هذا المثال يعمل على النحو التالي:
 
@@ -36,7 +79,22 @@ description: يشرح هذا القسم كيفية إدراج صفحة أو نس
 #### **الحصول على كائن الصفحة حسب نموذج برمجة الاسم**
 يوضح المثال التالي كيفية الحصول على كائن صفحة بالاسم من رسم Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPagebyName-GetVisioPagebyName.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page name
+string pageName = "Flow 2";
+// Get page object by name
+Page page2 = diagram.Pages.GetPage(pageName);
+
+{{< /highlight >}}
+```
 ## **نسخ صفحة Visio إلى Diagram آخر**
 Aspose.Diagram for .NET API يسمح للمطورين بنسخ وإضافة محتوياته من Visio diagram إلى آخر. يشرح موضوع التعليمات هذا كيفية إنجاز هذه المهمة.
 
@@ -55,7 +113,51 @@ Aspose.Diagram for .NET API يسمح للمطورين بنسخ وإضافة مح
 ### **نسخ نموذج لبرمجة الصفحة Visio**
 يوضح مثال الكود أدناه كيفية نسخ كائن صفحة Visio إلى رسم Visio آخر.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-CopyVisioPage-CopyVisioPage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Initialize the new visio diagram
+Diagram NewDigram = new Diagram();
+
+// Load source diagram
+Diagram dgm = new Diagram(dataDir + "Drawing1.vsdx");
+// Add all masters from the source Visio diagram
+foreach (Master master in dgm.Masters)
+    NewDigram.Masters.Add(master);
+
+// Get page object
+Aspose.Diagram.Page SrcPage = dgm.Pages.GetPage("Page-1");
+// Set name
+SrcPage.Name = "new page";
+
+// It calculates max page id
+int max = 0;
+if (NewDigram.Pages.Count != 0)
+    max = NewDigram.Pages[0].ID;
+
+for (int i = 1; i < NewDigram.Pages.Count; i++)
+{
+    if (max < NewDigram.Pages[i].ID)
+        max = NewDigram.Pages[i].ID;
+}
+            
+// Set max page ID 
+int MaxPageId = max;
+// Set page ID
+SrcPage.ID = MaxPageId + 1;
+
+// Add page from the source diagram
+NewDigram.Pages.Add(SrcPage);
+// Remove first empty page
+NewDigram.Pages.Remove(NewDigram.Pages[0]);
+// Save diagram
+NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **قم بنسخ Visio صفحة إلى نسخة صفحة أخرى**
 تأخذ طريقة النسخ الخاصة بفئة الصفحة نسخة صفحة ليتم نسخها.
 
@@ -81,7 +183,47 @@ newPage.Copy(diagram.Pages.GetPage("Page-1"));
 ### **أدخل نموذج برمجة صفحة فارغة**
 يدخل جزء الكود التالي صفحة فارغة في رسم Visio:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// It calculates max page id
+int max = 0;
+if (diagram.Pages.Count != 0)
+    max = diagram.Pages[0].ID;
+
+for (int i = 1; i < diagram.Pages.Count; i++)
+{
+    if (max < diagram.Pages[i].ID)
+        max = diagram.Pages[i].ID;
+}
+
+// Set max page ID
+int MaxPageId = max;
+
+// Initialize a new page object
+Page newPage = new Page();
+// Set name
+newPage.Name = "new page";
+// Set page ID
+newPage.ID = MaxPageId + 1;
+
+// Or try the Page constructor
+// Page newPage = new Page(MaxPageId + 1);
+
+// Add a new blank page
+diagram.Pages.Add(newPage);
+
+// Save diagram
+diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **انقل موضع الصفحة في الرسم Visio**
 Aspose.Diagram for .NET API يمكنه تحريك موضع الصفحة في الرسم Visio. تساعد طريقة MoveTo ، التي تعرضها فئة الصفحة ، المطورين على تحريك موضع الصفحة.
 ### **نقل نموذج برمجة موضع الصفحة**

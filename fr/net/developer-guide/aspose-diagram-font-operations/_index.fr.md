@@ -27,7 +27,23 @@ La définition du dossier de polices à l'aide de l'une des méthodes ci-dessus 
 #### **Exemple de programmation**
 L'exemple de code ci-dessous montre comment définir Aspose.Diagram pour rechercher dans plusieurs dossiers les polices TrueType lors du rendu ou de l'incorporation de polices.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+// Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Setting the custom font directories
+diagram.FontDirs = fontDirs;
+
+// Saving Visio diagram in PDF format
+diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **Recevoir une notification des polices manquantes et de la substitution de polices pendant le rendu**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Notification de polices manquantes et exemple de programmation de substitution de polices**

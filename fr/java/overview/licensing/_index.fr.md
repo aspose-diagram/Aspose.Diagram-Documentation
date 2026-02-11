@@ -83,4 +83,12 @@ Aspose.Diagram for Java API permet aux développeurs d'appliquer une licence lim
 
 Une nouvelle classe[Compteur](https://reference.aspose.com/diagram/java/com.aspose.diagram/Metered) a été ajouté pour appliquer la clé mesurée. Cet exemple de code montre comment définir des clés publiques et privées limitées :
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-License-PublicAndPrivateKeys-PublicAndPrivateKeys.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// Initialize a Metered license class object
+Metered metered = new Metered();
+// apply public and private keys
+metered.setMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
+```

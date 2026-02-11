@@ -32,11 +32,52 @@ description: يوضح لك هذا الموضوع كيفية تحويل Visio إ�
 يمكن حفظ الملف الناتج عن طريق تمرير سلسلة مسار كاملة ، بما في ذلك اسم الملف والملحق ، على سبيل المثال @ "c: \ temp \ MyOutput.html".
 
 #### **احفظ الناتج HTML في نموذج برمجة التخزين المحلي**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToHTML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToHTML.vsd")
+
+# Save as HTML
+diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 
 
 ### **احفظ HTML الناتج في نسخة دفق**
 يستخدم لحالة حفظ HTML الناتج في قاعدة بيانات أو مستودع دون تخزينه في التخزين المحلي. تتضمن هذه الميزة أيضًا الموارد الناتجة الأخرى لـ HTML ، مثل الخطوط و CSS (التي تحتوي على معلومات النمط) والصور. نظرًا لأنه يحفظ ملف HTML واحدًا في مثيل الدفق.
 #### **حفظ HTML الناتج في عينة برمجة دفق**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportHTMLinStream.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToHTML.vsd")
+# save resultant HTML directly to a stream
+dstStream = java.io.ByteArrayOutputStream()
+diagram.save(dstStream, SaveFileFormat.HTML)
+# In you want to read the result into a Diagram object again, you need to get the
+# data bytes and wrap into an input stream.
+# srcStream = java.io.ByteArrayInputStream(dstStream.toByteArray())
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

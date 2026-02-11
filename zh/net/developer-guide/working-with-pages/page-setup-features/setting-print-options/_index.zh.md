@@ -29,10 +29,40 @@ Aspose.Diagram 完全支持页面设置选项。本文介绍了如何使用 Aspo
 |景观|横向|
 |肖像|纵向|
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageOrientation-SetPageOrientation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Get page
+Aspose.Diagram.Page page = diagram.Pages.GetPage(0);
+
+//Set PrintPageOrientation
+page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
+
+{{< /highlight >}}
+```
 
 ### **比例因子**
 
 可以通过调整比例因子来缩小或放大页面的大小[**秤X**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/scalex)财产。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageOrientation-SetPageScale.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Set ScaleX and ScaleY
+diagram.Pages[0].PageSheet.PrintProps.ScaleX.Value = 1;
+diagram.Pages[0].PageSheet.PrintProps.ScaleY.Value = 1;
+
+{{< /highlight >}}
+```

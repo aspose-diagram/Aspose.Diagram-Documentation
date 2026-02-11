@@ -39,18 +39,103 @@ Below is an image of the output PDF file.
 ### **Export Microsoft Visio Drawing to PDF**
 The code samples show how to export Microsoft Visio Drawing to PDF using C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 ### **Mehrere Seiten aufteilen**
 Aspose.Diagram for .NET allows splitting multiple pages while converting the Microsoft Visio Diagram to PDF. The following code snippet shows the functionality.  
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set SplitMultiPages option
+options.SplitMultiPages = true;
+// save in PDF format
+diagram.Save(dataDir + "SplitMultiPages.pdf", options);
+
+{{< /highlight >}}
+```
 ### **Verwenden Sie den Seitenspeicher-Callback**
 In case you have multiple pages, Aspose.Diagram for .NET allows using page saving callback while converting the Microsoft Visio Diagram to PDF. The following code snippet shows the functionality.  
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-PageSavingCallback.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set PageSavingCallback option
+options.PageSavingCallback = new TestDiagramPageSavingCallback();
+// save in PDF format
+diagram.Save(dataDir + "PageSavingCallback.pdf", options);
+
+{{< /highlight >}}
+```
 #### **TestDiagramPageSavingCallback-Klasse**
 {{< highlight "java" >}}
 
  öffentliche Klasse TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCallback
 
-{  public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)  {  Console.WriteLine("Start save diagram page {0} of pages {1}", args.PageIndex + 1, args.Page0Count);  {   }  public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)  {  Console.WriteLine("Speicherung diagram Seite {0} von Seiten {1} beenden", args.PageIndex. + 1);   //don't output pages after page index 8.  if (args.PageIndex >= 8)  {  args.HasMorePages = false;  }  }  }
+{
+ 
+ public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)
+ 
+ {
+ 
+ Console.WriteLine("Start save diagram page {0} of pages {1}", args.PageIndex + 1, args.Page0Count);
+ 
+ {
+ 
+ 
+ }
+ 
+ public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)
+ 
+ {
+ 
+ Console.WriteLine("Speicherung diagram Seite {0} von Seiten {1} beenden", args.PageIndex. + 1); 
+ 
+ //don't output pages after page index 8.
+ 
+ if (args.PageIndex >= 8)
+ 
+ {
+ 
+ args.HasMorePages = false;
+ 
+ }
+ 
+ }
+ 
+ }

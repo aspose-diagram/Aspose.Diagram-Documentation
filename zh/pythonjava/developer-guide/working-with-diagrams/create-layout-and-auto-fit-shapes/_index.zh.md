@@ -7,7 +7,26 @@ url: /zh/python-java/create-layout-and-auto-fit-shapes/
 ## **创建一个 Diagram**
 Aspose.Diagram for Python via Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [添加形状和连接器](/diagram/zh/python-java/add-and-connect-visio-shapes/)构建 diagram。使用 Diagram 类的默认构造函数创建一个新的 diagram。
 ### **编程范例**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import os
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# initialize a new Diagram
+diagram = Diagram()
+# save in the VSDX format
+diagram.save("CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **流程图样式的布局形状**
 对于某些类型的连接图，例如流程图和网络图，您可以使用**布局形状**自动定位形状的功能。自动定位比手动将每个形状拖动到新位置更快。
 
@@ -33,7 +52,53 @@ Diagram 类公开的 Layout 方法布局形状和/或重新路由所有 diagram 
 1. 通过传递 LayoutOptions 调用 Diagram 类的 Layout 方法。
 1. 调用Diagram类的Save方法写入Visio图。
 ### **流程图式编程示例**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-LayOutShapesInFlowchartStyle.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load an existing Visio diagram
+fileName = "LayOutShapesInFlowchartStyle.vdx"
+diagram = Diagram(fileName)
+
+# set layout options
+flowChartOptions = LayoutOptions()
+flowChartOptions.setLayoutStyle(LayoutStyle.FLOW_CHART)
+flowChartOptions.setSpaceShapes(1)
+flowChartOptions.setEnlargePage(True)
+
+# set layout direction as BottomToTop and then save
+flowChartOptions.setDirection(LayoutDirection.BOTTOM_TO_TOP)
+diagram.layout(flowChartOptions)
+diagram.save("sample_btm_top.vdx", SaveFileFormat.VDX)
+
+# set layout direction as TopToBottom and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.TOP_TO_BOTTOM)
+diagram.layout(flowChartOptions)
+diagram.save("sample_top_btm.vdx", SaveFileFormat.VDX)
+
+# set layout direction as LeftToRight and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.LEFT_TO_RIGHT)
+diagram.layout(flowChartOptions)
+diagram.save("sample_left_right.vdx", SaveFileFormat.VDX)
+
+# set layout direction as RightToLeft and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.RIGHT_TO_LEFT)
+diagram.layout(flowChartOptions)
+diagram.save("sample_right_left.vdx", SaveFileFormat.VDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ### **以紧凑树样式布置形状**
 紧凑的树形布局风格试图构建一个树形结构。它使用与上面示例相同的输入文件，并保存为几种不同的紧凑树样式。
 
@@ -51,7 +116,53 @@ Diagram 类公开的 Layout 方法布局形状和/或重新路由所有 diagram 
 1. 通过传递 LayoutOptions 调用 Diagram 类的 Layout 方法。
 1. 调用Diagram类的Save方法写入Visio文件。
 #### **紧凑型树式编程示例**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-LayOutShapesInCompactTreeStyle.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+        
+fileName = "LayOutShapesInCompactTreeStyle.vdx"
+# load an existing Visio diagram
+diagram = Diagram(fileName)
+
+# set layout options 
+compactTreeOptions = LayoutOptions()
+compactTreeOptions.setLayoutStyle(LayoutStyle.COMPACT_TREE)
+compactTreeOptions.setEnlargePage(True)
+
+# set layout direction as DownThenRight and then save
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_RIGHT)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_down_right.vdx", SaveFileFormat.VDX)
+
+# set layout direction as DownThenLeft and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_LEFT)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_down_left.vdx", SaveFileFormat.VDX)
+
+# set layout direction as RightThenDown and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.RIGHT_THEN_DOWN)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_right_down.vdx", SaveFileFormat.VDX)
+
+# set layout direction as LeftThenDown and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.LEFT_THEN_DOWN)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_left_down.vdx", SaveFileFormat.VDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **自动适配 Visio Diagram**
 Aspose.Diagram API 支持自动适配Visio图。此功能操作有助于将外部形状带入 Visio 页面边界内。
 
@@ -66,7 +177,31 @@ Aspose.Diagram for Python via Java API has the Diagram class that represents a V
 ### **自动调整编程示例**
 下面的示例代码显示了如何自动调整 Visio diagram 中的形状。
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("BFlowcht.vsdx")
+
+# use saving options
+options = DiagramSaveOptions(SaveFileFormat.VSDX)
+# set Auto fit page property
+options.setAutoFitPageToDrawingContent(True)
+
+# save Visio diagram
+diagram.save("AutoFitShapesInVisio_Out.vsdx", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **使用 VBA 项目**
 ### **Visio Diagram 修改VBA模块代码**
 This article demonstrates how to modify a VBA module code automatically using Aspose.Diagram for Python via Java.
@@ -75,10 +210,59 @@ This article demonstrates how to modify a VBA module code automatically using As
 ### **修改VBA模块代码编程范例**
 请检查此代码示例：
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+diagram = Diagram("Macro.vsdm")
+# extract VBA project
+v = diagram.getVbaProject()
+# Iterate through the modules and modify VBA macro code
+for i in range(0, diagram.getVbaProject().getModules().getCount() - 1):
+	module = diagram.getVbaProject().getModules().get(i)
+	code = module.getCodes()
+	if code.contains("This is test message."):
+		code = code.replace("This is test message.", "This is Aspose.Diagram message.")
+	module.setCodes(code)
+
+# save the Visio diagram
+diagram.save("out.vssm", SaveFileFormat.VSSM)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ### **从 Visio Diagram 中删除所有宏**
 Aspose.Diagram for Python via Java allows developers to remove all macros from the Visio diagram.
 
 Diagram 类公开的 JavaProjectData 属性允许您从 Visio 绘图中删除所有宏。
 ### **删除所有宏编程示例**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-RemoveMacrosFromVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("Macro.vsdm")
+
+# remove all macros
+diagram.setVbProjectData(None)
+
+# Save diagram
+diagram.save("RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

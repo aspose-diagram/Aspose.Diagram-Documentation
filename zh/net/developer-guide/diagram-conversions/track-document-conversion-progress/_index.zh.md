@@ -15,11 +15,53 @@ description: 本节介绍如何使用 Aspose.Diagram 跟踪 visio 文件的转�
 
 ## **示例代码**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-DiagramConversions-DocumentConversionProgress-1.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance PDF save options class
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+          
+//set page saving call back
+options.PageSavingCallback = new TestDiagramPageSavingCallback();
+
+// save Visio drawing
+diagram.Save(dataDir + "Callback_out.pdf", options);
+
+{{< /highlight >}}
+```
 
 以下是代码*测试图页面保存回调*自定义类。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-DiagramConversions-DocumentConversionProgress-2.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCallback
+{
+    public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)
+    {
+        Console.WriteLine("Start saving diagram page index {0} of pages {1}", args.PageIndex, args.PageCount);
+    }
+
+    public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)
+    {
+        Console.WriteLine("End saving diagram page index {0} of pages {1}", args.PageIndex, args.PageCount);
+
+        //don't output pages after page index 8.
+        if (args.PageIndex >= 8)
+        {
+            args.HasMorePages = false;
+        }
+    }
+}
+
+{{< /highlight >}}
+```
 
 ## **控制台输出**
 

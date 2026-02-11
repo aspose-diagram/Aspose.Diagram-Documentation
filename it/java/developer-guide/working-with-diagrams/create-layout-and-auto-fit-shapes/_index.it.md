@@ -7,7 +7,22 @@ url: /it/java/create-layout-and-auto-fit-shapes/
 ## **Creazione di un numero Diagram**
  Aspose.Diagram for Java consente di leggere e creare Microsoft Visio diagrammi dall'interno delle proprie applicazioni, senza Microsoft Office Automazione. Il primo passaggio durante la creazione di nuovi documenti è creare un numero diagram. Quindi[aggiungere forme e connettori](/diagram/it/java/add-and-connect-visio-shapes/)per creare diagram. Utilizzare il costruttore predefinito di[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class per creare un nuovo diagram.
 ### **Esempio di programmazione**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateDiagram.class);
+// Create directory if it is not already present.
+File file = new File(dataDir);
+if (!file.exists())
+	file.mkdir();
+// initialize a new Diagram
+Diagram diagram = new Diagram();
+// save in the VSDX format
+diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Forme di layout in stile diagramma di flusso**
  Con alcuni tipi di disegni collegati, come diagrammi di flusso e diagrammi di rete, è possibile utilizzare il file**Forme di layout** funzione per posizionare automaticamente le forme. Il posizionamento automatico è più rapido rispetto al trascinamento manuale di ciascuna forma in una nuova posizione.
 
@@ -33,7 +48,47 @@ Per disporre le forme in stile diagramma di flusso:
 1. Chiamare il metodo Layout della classe Diagram passando LayoutOptions.
 1. Chiama il metodo Save della classe Diagram per scrivere il disegno Visio.
 ### **Esempio di programmazione in stile diagramma di flusso**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInFlowchartStyle-LayOutShapesInFlowchartStyle.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(LayOutShapesInFlowchartStyle.class);     
+
+// load an existing Visio diagram
+String fileName = "LayOutShapesInFlowchartStyle.vdx";
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// set layout options 
+LayoutOptions flowChartOptions = new LayoutOptions();
+flowChartOptions.setLayoutStyle(LayoutStyle.FLOW_CHART);
+flowChartOptions.setSpaceShapes(1f);
+flowChartOptions.setEnlargePage(true);
+
+// set layout direction as BottomToTop and then save
+flowChartOptions.setDirection(LayoutDirection.BOTTOM_TO_TOP);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_btm_top.vdx", SaveFileFormat.VDX);
+
+// set layout direction as TopToBottom and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.TOP_TO_BOTTOM);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_top_btm.vdx", SaveFileFormat.VDX);
+
+// set layout direction as LeftToRight and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.LEFT_TO_RIGHT);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_left_right.vdx", SaveFileFormat.VDX);
+
+// set layout direction as RightToLeft and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.RIGHT_TO_LEFT);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ### **Disposizione delle forme nello stile ad albero compatto**
  Lo stile di layout ad albero compatto cerca di costruire una struttura ad albero. Utilizza lo stesso file di input del file[esempio sopra](/diagram/it/java/create-2c-layout-and-auto-fit-shapes/) salva in diversi stili di alberi compatti diversi.
 
@@ -51,7 +106,46 @@ Per disporre le forme nello stile ad albero compatto:
 1. Chiamare il metodo Layout della classe Diagram passando LayoutOptions.
 1. Chiama il metodo Save della classe Diagram per scrivere il file Visio.
 #### **Esempio di programmazione in stile albero compatto**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInCompactTreeStyle-LayOutShapesInCompactTreeStyle.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(LayOutShapesInCompactTreeStyle.class);
+        
+String fileName = "LayOutShapesInCompactTreeStyle.vdx";
+// load an existing Visio diagram
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// set layout options 
+LayoutOptions compactTreeOptions = new LayoutOptions();
+compactTreeOptions.setLayoutStyle(LayoutStyle.COMPACT_TREE);
+compactTreeOptions.setEnlargePage(true);
+
+// set layout direction as DownThenRight and then save
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_RIGHT);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_down_right.vdx", SaveFileFormat.VDX);
+
+// set layout direction as DownThenLeft and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_LEFT);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_down_left.vdx", SaveFileFormat.VDX);
+
+// set layout direction as RightThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.RIGHT_THEN_DOWN);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_right_down.vdx", SaveFileFormat.VDX);
+
+// set layout direction as LeftThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.LEFT_THEN_DOWN);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **Adatta automaticamente il Visio Diagram**
 Aspose.Diagram API supporta l'autoadattamento del disegno Visio. Questa operazione di funzionalità aiuta a portare le forme esterne all'interno del limite di pagina Visio.
 
@@ -66,7 +160,24 @@ Questo esempio funziona come segue:
 ### **Esempio di programmazione dell'adattamento automatico**
 Il codice di esempio seguente mostra come adattare automaticamente le forme nel Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-AutoFitShapesInVisio-AutoFitShapesInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AutoFitShapesInVisio.class);
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "BFlowcht.vsdx");
+
+// use saving options
+DiagramSaveOptions options = new DiagramSaveOptions(SaveFileFormat.VSDX);
+// set Auto fit page property
+options.setAutoFitPageToDrawingContent(true);
+
+// save Visio diagram
+diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
+
+{{< /highlight >}}
+```
 ## **Lavorare con il progetto VBA**
 ### **Modifica il codice del modulo VBA in Visio Diagram**
 Questo articolo mostra come modificare automaticamente il codice di un modulo VBA utilizzando Aspose.Diagram for Java.
@@ -75,10 +186,46 @@ Abbiamo aggiunto le classi VbaModule, VbaModuleCollection, VbaProject, VbaProjec
 ### **Modifica l'esempio di programmazione del codice del modulo VBA**
 Si prega di controllare questo esempio di codice:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-ModifyVBAModuleCode-ModifyVBAModuleCode.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// load an existing Visio diagram
+String dataDir = Utils.getDataDir(ModifyVBAModuleCode.class);
+InputStream input = new FileInputStream(dataDir + "macro.vsdm");
+Diagram diagram = new Diagram(input);
+// extract VBA project
+VbaProject v = diagram.getVbaProject();
+// Iterate through the modules and modify VBA macro code
+for (int i = 0; i < diagram.getVbaProject().getModules().getCount(); i++) {
+	VbaModule module = diagram.getVbaProject().getModules().get(i);
+	String code = module.getCodes();
+	if (code.contains("This is test message."))
+		code = code.replace("This is test message.", "This is Aspose.Diagram message.");
+	module.setCodes(code);
+}
+// save the Visio diagram
+diagram.save(dataDir + "out.vssm", SaveFileFormat.VSSM);
+
+{{< /highlight >}}
+```
 ### **Rimuovi tutte le macro da Visio Diagram**
 Aspose.Diagram for Java consente agli sviluppatori di rimuovere tutte le macro da Visio diagram.
 
 La proprietà JavaProjectData, esposta da[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class, permette di rimuovere tutte le macro dal disegno Visio.
 ### **Esempio di programmazione Rimuovi tutte le macro**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RemoveMacrosFromVisio-RemoveMacrosFromVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RemoveMacrosFromVisio.class);  
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// remove all macros
+diagram.setVbProjectData(null);
+
+// Save diagram
+diagram.save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

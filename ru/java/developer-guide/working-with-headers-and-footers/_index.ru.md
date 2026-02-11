@@ -18,4 +18,41 @@ Aspose.Diagram for Java предоставляет механизм для ус�
 
 Следующий фрагмент кода помогает управлять свойствами верхних и нижних колонтитулов.
 #### **Примеры программирования**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-HeadersFooters-ManageHeadersandFooters-ManageHeadersandFooters.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ManageHeadersandFooters.class);
+// call the diagram constructor to a load Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// add page number at the right corner of header
+diagram.getHeaderFooter().setHeaderRight("&p");
+
+// set text at the center
+diagram.getHeaderFooter().setHeaderCenter("Center of the header");
+
+// set text at the left side
+diagram.getHeaderFooter().setHeaderLeft("Left of the header");
+
+// add text at the right corner of footer
+diagram.getHeaderFooter().setFooterRight("Right of the footer");
+
+// set text at the center
+diagram.getHeaderFooter().setFooterCenter("Center of the footer");
+
+// set text at the left side
+diagram.getHeaderFooter().setFooterLeft("Left of the footer");
+
+// set header & footer color
+diagram.getHeaderFooter().setHeaderFooterColor(Color.getRed());
+
+// set text font properties
+diagram.getHeaderFooter().getHeaderFooterFont().setItalic(BOOL.TRUE);
+diagram.getHeaderFooter().getHeaderFooterFont().setUnderline(BOOL.FALSE);
+
+// save Visio diagram
+diagram.save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

@@ -27,7 +27,25 @@ End Sub
 
 Ecco il codice di esempio per generare il file di output VSDM con il modulo VBA e il codice macro.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-AddModule.cs" >}}
+```
+{{< highlight "csharp" >}}
+// ExStart:ApplyThemeToNewShape
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+//Add module
+int index = diagram.VbaProject.Modules.Add(VbaModuleType.Procedural, "TestModule");
+//Get module 
+Aspose.Diagram.Vba.VbaModule module = diagram.VbaProject.Modules[index];
+//Set module
+module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n    MsgBox \"Welcome to Aspose!\"\r\n\r\nEnd Sub\r\n";
+
+diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## **Modifica VBA o Macro**
 
@@ -70,7 +88,23 @@ End Sub
 
  Puoi scaricare il[fonte Visio file]() e il[output Visio file]() dai link indicati.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-ModifyModule.cs" >}}
+```
+{{< highlight "csharp" >}}
+// ExStart:ApplyThemeToNewShape
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+//Get module 
+Aspose.Diagram.Vba.VbaModule module = diagram.VbaProject.Modules[2];
+//Set module
+module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n    MsgBox \"This is Aspose.Diagram message.\"\r\n\r\nEnd Sub\r\n";
+
+diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## **Argomenti avanzati**
 - [Controlla se il codice VBA è firmato](/diagram/it/net/check-if-vba-code-is-signed/)

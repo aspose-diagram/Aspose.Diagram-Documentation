@@ -15,7 +15,25 @@ url: /ar/java/retrieve-visio-connectors-and-font-information/
 ### **عينة البرمجة**
 يسترد جزء الكود التالي المعلومات الخاصة بالموصلات في diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
+        
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");        
+for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getConnects())
+{
+    // Display information about the Connectors
+    System.out.println("\nFrom Shape ID : " + connector.getFromSheet());
+    System.out.println("To Shape ID : " + connector.getToSheet());
+ }
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 ## **استرداد معلومات الخط**
  Aspose.Diagram لديه آليات لاسترجاع المعلومات حول العناصر التي تشكل diagram ، من[الصفحات](/diagram/ar/java/retrieve-get-copy-and-insert-a-page/), [الإستنسل](), [موصلات](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)وكذلك الخطوط. يوضح هذا المقال كيفية معرفة الخطوط المستخدمة في diagram.
 
@@ -25,10 +43,41 @@ url: /ar/java/retrieve-visio-connectors-and-font-information/
 ### **استرجاع نموذج برمجة الخط**
 يسترد جزء الكود التالي معلومات الخط من Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveFontInfo-RetrieveFontInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
+
+// call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrieveFontInfo.vsd");
+
+for(Font font : (Iterable<Font>) diagram.getFonts())
+{
+    // Display information about the fonts
+    System.out.println(font.getName());
+}
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 
 ![ما يجب القيام به: image_بديل_نص](retrieve-visio-connectors-and-font-information_2.png)
 ### **الحصول على دليل الخطوط الافتراضي**
 Aspose.Diagram for Java API يسمح أيضًا بالحصول على مسار دليل الخط الافتراضي باستخدام طريقة getDefaultFontDir () من Diagram Class. يسترد جزء الكود التالي دليل الخط الافتراضي من Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
+
+// Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+
+// Display font default directory
+System.out.println(diagram.getDefaultFontDir());
+
+{{< /highlight >}}
+```

@@ -33,7 +33,20 @@ Both **[FontConfigs.SetFontFolder](https://reference.aspose.com/diagram/java/com
 
 {{% /alert %}}
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Fonts-SetCustomFontFolder.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
+
+com.aspose.diagram.FontConfigs.setFontFolder("C:\\Fonts\\", false);
+//Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+//saving Visio diagram in PDF format
+diagram.save(dataDir + "SetFontsFolder_Out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 
 {{% alert color="primary" %}}
 

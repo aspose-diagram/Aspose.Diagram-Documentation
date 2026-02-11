@@ -19,7 +19,25 @@ Aşağıdaki görüntü, kodu çalıştırdıktan sonraki çıktıyı gösterir:
 
 ![yapılacaklar:resim_alternatif_Metin](working-with-user-defined-cells_2.png)
 #### **Programlama Örnekleri**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(1);
+// extract user defined cells of the shape
+for (User user :(Iterable<User>) shape.getUsers())
+{
+    System.out.println(user.getName() + ": " + user.getValue().getVal());
+}
+
+{{< /highlight >}}
+```
 ### **Kullanıcı Tanımlı Hücre Oluştur**
 Aspose.Diagram for Java API, geliştiricilerin şekil sayfasında kullanıcı tanımlı hücre oluşturmasına olanak tanır. Bu örnek konu, gerektiği kadar çok kullanıcı adı satırının nasıl ekleneceğini, satırlara anlamlı adların nasıl atanacağını ve hücre değerlerinin nasıl ayarlanacağını açıklar.
 
@@ -27,7 +45,30 @@ Kullanıcılar koleksiyonu tarafından sunulan ekleme yöntemi, şekil sayfasın
 
 Aspose.Diagram for Java kullanarak şekil sayfasında kullanıcı tanımlı hücre oluşturmak için Java uygulamanızda aşağıdaki kodu kullanın.
 #### **Programlama Örnekleri**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Şekil Sayfasından Kullanıcı Tanımlı Hücreleri Al**
 Aspose.Diagram for Java API, geliştiricilerin şekil sayfasından kullanıcı tanımlı hücreleri almasına olanak tanır. Bu örnek konu, bir çizimdeki tüm şekiller için tüm kullanıcı adlarının nasıl alınacağını açıklar.
 ### **Kullanıcı Tanımlı Hücreleri Al**
@@ -35,4 +76,27 @@ Aspose.Diagram for Java API, geliştiricilerin şekil sayfasından kullanıcı t
 #### **Şekil Sayfası Programlama Örneklerinden Hücreleri Alma**
 Aspose.Diagram for Java'i kullanarak tüm kullanıcı tanımlı hücreleri şekil sayfasından almak için Java uygulamanızda aşağıdaki kodu kullanın.
 #### **Programlama Örnekleri**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

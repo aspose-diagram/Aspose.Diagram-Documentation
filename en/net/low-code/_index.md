@@ -26,13 +26,48 @@ Aspose.Diagramm LowCode APIs provide a high‑level, declarative way to perform 
 
 The [PdfConverter] class converts a template file to a PDF file. The following code demonstrates how to convert a diagram to PDF using [PdfConverter].
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-LowCode-PdfConverter.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+            
+// Load a source Visio
+Aspose.Diagram.LowCode.LowCodeLoadOptions loadOptions = new Aspose.Diagram.LowCode.LowCodeLoadOptions();
+loadOptions.InputFile = dataDir + "Input.vsdx";
+// Create save options with output file
+Aspose.Diagram.LowCode.LowCodeSaveOptions saveOptions = new Aspose.Diagram.LowCode.LowCodeSaveOptions();
+
+saveOptions.OutputFile = "output.pdf";
+//Execute conversion
+Aspose.Diagram.LowCode.PdfConverter.Process(loadOptions, saveOptions);
+
+{{< /highlight >}}
+```
 
 ### **Convert diagram file formats  – DiagramConverter**
 
 The [DiagramConverter] class converts a given template file between diagram files and other formats. The following code demonstrates how to convert a diagram to other formats using [DiagramConverter].
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-LowCode-DiagramConverter.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+            
+// Load a source Visio
+Aspose.Diagram.LowCode.LowCodeLoadOptions loadOptions = new Aspose.Diagram.LowCode.LowCodeLoadOptions();
+loadOptions.InputFile = dataDir + "Input.vsdx";
+// Create save options with output file
+Aspose.Diagram.LowCode.LowCodeSaveOptions saveOptions = new Aspose.Diagram.LowCode.LowCodeSaveOptions();
+
+saveOptions.SaveFormat = SaveFileFormat.Vsdx;
+saveOptions.OutputFile = "output.vsdx";
+//Execute conversion
+DiagramConverter.Process(loadOptions, saveOptions);
+
+{{< /highlight >}}
+```
 
 ## **Why Use Aspose.Diagram Low Code**
 

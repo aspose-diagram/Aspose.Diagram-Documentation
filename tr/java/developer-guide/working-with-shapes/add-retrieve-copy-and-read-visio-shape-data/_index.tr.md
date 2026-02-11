@@ -24,7 +24,45 @@ Yeni bir şekil eklemek için:
 ### **Programlama Örneği Ekle**
 Aşağıdaki kod parçacığı, her bir adımın nasıl yapılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-AddingNewShape-AddingNewShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AddingNewShape.class);  
+//Load a diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-2");
+
+// Add master with stencil file path and master id
+String masterName = "Rectangle";
+// Add master with stencil file path and master name
+diagram.addMaster(dataDir + "Basic Shapes.vss", masterName);
+            
+// page indexing starts from 0
+int PageIndex = 1;
+double width = 2, height = 2, pinX = 4.25, pinY = 4.5;
+//Add a new rectangle shape
+long rectangleId = diagram.addShape(pinX, pinY, width, height, masterName, PageIndex);
+            
+// set shape properties 
+Shape rectangle = page.getShapes().getShape(rectangleId);
+rectangle.getXForm().getPinX().setValue(5);
+rectangle.getXForm().getPinY().setValue(5);
+rectangle.setType(TypeValue.SHAPE);
+rectangle.getText().getValue().add(new Txt("Aspose Diagram"));
+rectangle.setTextStyle(diagram.getStyleSheets().get(3));
+rectangle.getLine().getLineColor().setValue("#ff0000");
+rectangle.getLine().getLineWeight().setValue(0.03);
+rectangle.getLine().getRounding().setValue(0.1);
+rectangle.getFill().getFillBkgnd().setValue("#ff00ff");
+rectangle.getFill().getFillForegnd().setValue("#ebf8df");
+
+diagram.save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
+System.out.println("Shape has been added.");
+
+{{< /highlight >}}
+```
 
 {{% alert color="primary" %}}
 
@@ -51,7 +89,25 @@ Visio sayfa bilgisini almak için:
 ### **Programlama Örneği Al**
 Aşağıdaki kod parçası, şekil bilgisini bir Visio diagram'den alır.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveShapeInfo-RetrieveShapeInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveShapeInfo.class);
+
+//Load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrieveShapeInfo.vsd");
+
+for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().getPage(0).getShapes())
+{
+    //Display information about the shapes
+    System.out.println("\nShape ID : " + shape.getID());
+    System.out.println("Name : " + shape.getName());
+    System.out.println("Master Shape : " + shape.getMaster().getName());
+}
+
+{{< /highlight >}}
+```
 
 ## **Mevcut Bir Visio'den Şekilleri Kopyala**
 Aspose.Diagram for Java API, geliştiricilerin Visio kaynak sayfasındaki şekilleri yeni Visio diagram sayfasına kopyalamasına olanak tanır. Grup şekillerinin kopyalanmasını da destekler. Bu makalede, kaynak diagram sayfasındaki tüm şekillerin nasıl kopyalanacağı açıklanmaktadır.
@@ -69,7 +125,39 @@ Bu örnek şu şekilde çalışır:
 1. Yeni kimliğini ayarlayın ve yeni Visio sayfasına ekleyin.
 1. Yeni Visio'i yerel depolamaya kaydedin.
 ### **Programlama Örneği Kopyala**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-CopyShape-CopyShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CopyShape.class); 
+// load a source Visio
+Diagram srcVisio = new Diagram(dataDir + "Drawing1.vsdx");
+        
+// initialize a new Visio
+Diagram newDiagram = new Diagram();
+
+// add all masters from the source Visio diagram
+MasterCollection originalMasters = srcVisio.getMasters();
+for (Master master : (Iterable<Master>) originalMasters)
+    newDiagram.addMaster(srcVisio, master.getName());
+
+// get the page object from the original diagram
+Page SrcPage = srcVisio.getPages().getPage("Page-1");
+// copy themes from the source diagram
+newDiagram.copyTheme(srcVisio);
+// copy pagesheet of the source Visio page
+newDiagram.getPages().get(0).getPageSheet().copy(SrcPage.getPageSheet());
+
+// copy shapes from the source Visio page
+for (Shape shape :(Iterable<Shape>) SrcPage.getShapes())
+{
+    newDiagram.getPages().get(0).getShapes().add(shape);
+}
+// save the new Visio
+newDiagram.save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 
 {{% alert color="primary" %}}
@@ -100,12 +188,56 @@ Microsoft Visio'de özel özellikleri tanımlamak için:
 #### **Programlama Örneği Oku**
 Aşağıdaki kod parçacıkları, şekil verilerini (özel özellikler) okur.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ReadAllShapeProps-ReadAllShapeProps.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadAllShapeProps.class);  
+
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+
+for (Shape shape :(Iterable<Shape>) page.getShapes())
+{
+    if (shape.getName() == "Process1")
+    {
+        for (Prop property :(Iterable<Prop>) shape.getProps())
+        {
+            System.out.println(property.getLabel().getValue() + ": " + property.getValue().getVal());
+        }
+        break;
+    }
+}
+
+{{< /highlight >}}
+```
 
 ### **Bir Şekil Özelliğini Ada Göre Okuma**
 Aşağıdaki kod parçacığı, bir şekil özelliğini ada göre okur (özel özellik).
 #### **Ada Göre Okuma Programlama Örneği**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ReadShapePropByName-ReadShapePropByName.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadShapePropByName.class);   
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+
+for (Shape shape :(Iterable<Shape>) page.getShapes())
+{
+    if (shape.getName() == "Process1")
+    {
+        Prop property = shape.getProps().getProp("Name1");
+        System.out.println(property.getLabel().getValue() + ": " + property.getValue().getVal());
+    }
+}
+
+{{< /highlight >}}
+```
 
 ## **Şekilleri bağlamak için Bağlantı dizinlerini kullanın**
 Aspose.Diagram for Java API zaten geliştiricilerin şekle yeni bağlantı noktaları eklemesine izin veriyor ve geliştiriciler artık bağlantı dizinlerini kullanarak şekilleri birbirine bağlayabiliyor.
@@ -125,5 +257,21 @@ Aspose.Diagram for Java, geliştiricilerin bir alt şeklin ana şeklini almasın
 ### **Ebeveyn Şeklini Alın**
 bu[Şekil](http://www.aspose.com/api/java/diagram/com.aspose.diagram/shape)class, üst şekli almak için ParentShape özelliğini sunar.
 #### **Ebeveyn Şekli Programlama Örneği Alın**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveTheParentShape-RetrieveTheParentShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
+		
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a sub-shape by page name, group shape ID, and then sub-shape ID
+Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
+Shape parentShape = shape.getParentShape();
+System.out.println("Parent Shape's Properties:");
+System.out.println("Shape ID: " + parentShape.getID());
+System.out.println("Shape Name: " + parentShape.getName());
+System.out.println("Shape Type: " + parentShape.getType());
+{{< /highlight >}}
+```
 

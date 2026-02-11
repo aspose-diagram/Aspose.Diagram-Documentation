@@ -30,4 +30,27 @@ description: توضح هذه الصفحة كيفية إنشاء التطبيق �
 
 يفتح المثال التالي ملف قالب Microsoft Visio موجود باسم "[Basic_Shapes.vss](Basic_Shapes.vss)"، يدخل نص" Hello World! "في الصفحة الأولى ويحفظ diagram.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-CreatingHelloWorldVisioFile.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+diagram = Diagram("Basic_Shapes.vss")
+
+# Add a new hello world rectangle shape
+shapeId = diagram.addShape(4.25, 5.5, 2, 1, "Rectangle", 0)
+shape = diagram.getPages().getPage(0).getShapes().getShape(shapeId)
+shape.getText().getValue().add(Txt("Hello World"))
+
+# Save diagram in the VSDX format
+diagram.save("CreateHelloWorldVisio_out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

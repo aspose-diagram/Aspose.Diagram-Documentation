@@ -12,11 +12,35 @@ url: /ar/java/working-with-print/
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - قم باستدعاء أسلوب الطباعة للفئة Diagram باستخدام اسم الطابعة كمعامل سلسلة إلى أسلوب الطباعة
 #### **الطباعة على عينة برمجة طابعة معينة**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-BySpecificPrinter-BySpecificPrinter.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(BySpecificPrinter.class); 
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// call the print method to print whole Diagram using the printer name
+diagram.print("LaserJet1100");
+
+{{< /highlight >}}
+```
 ### **إعداد اسم الطابعة والمستند**
 تسمح واجهات برمجة التطبيقات Aspose.Diagram بتعيين اسم الطابعة والوثيقة المحددة لمهمة الطباعة. قم بتنفيذ الخطوات التالية لطباعة diagram على الطابعة المطلوبة:
 
 - قم بتكوين نسخة من فئة Diagram لتحميل diagram الذي سيتم طباعته
 - اتصل بأسلوب الطباعة للفئة Diagram باستخدام اسم الطابعة والوثيقة كمعامل سلسلة لأسلوب الطباعة
 #### **إعداد نموذج برمجة اسم الطابعة والمستند**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-SetPrintJobAndPrinterName-SetPrintJobAndPrinterName.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetPrintJobAndPrinterName.class);   
+// load a source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// call the print method to print whole Diagram using the printer name and set document name in the print job
+diagram.print("LaserJet1100", "Job name while printing with Aspose.Diagram");
+
+{{< /highlight >}}
+```

@@ -20,7 +20,22 @@ Aspose.Diagram APIs allows to apply a preset theme to get a uniform look and fee
 - Get an instance of Page class to be set theme
 - Assign a Preset value to the PresetTheme property of the Page instance
 #### **Apply a Preset Theme to a Page Programming Sample**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Theme-SetThemeForPage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioThemes();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Page class to be set theme
+Page page = diagram.Pages[0];
+//Assign a Preset value to the PresetTheme property of the Page instance
+page.PresetTheme = PresetThemeValue.Bubble;
+// Save diagram
+diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 |**Result of Apply a Preset Theme to a Page**|
 | :- |
@@ -37,7 +52,23 @@ Aspose.Diagram APIs allows to apply a preset theme variant to get a uniform look
 
 #### **Apply a Preset Theme Variant to a Page Programming Sample**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Theme-SetThemeVariantForPage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioThemes();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Page class to be set theme
+Page page = diagram.Pages[0];
+//Assign a Preset value to the PresetTheme property of the Page instance
+page.PresetTheme = PresetThemeValue.Bubble;
+//Assign a Preset value to the PresetThemeVariant property of the Page instance
+page.PresetThemeVariant = PresetThemeVariantValue.Variant3;
+// Save diagram
+diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Result of Apply a Preset Theme Variant to a Page**|
 | :- |
@@ -53,7 +84,21 @@ Aspose.Diagram APIs allows to apply a preset theme to a shape within a page. Per
 
 #### **Apply a Preset Theme to a Shape Programming Sample**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Theme-SetThemeForShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioThemes();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.Pages[0].Shapes[0];
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.PresetTheme = PresetThemeValue.Bubble;
+// Save diagram
+diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Result of Apply a Preset Theme to a Shape**|
 | :- |
@@ -70,7 +115,23 @@ Aspose.Diagram APIs allows to apply a preset theme variant to a shape within a p
 
 #### **Apply a Preset Theme Variant to a Shape Programming Sample**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Theme-SetThemeVariantForShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioThemes();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.Pages[0].Shapes[0];
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.PresetTheme = PresetThemeValue.Bubble;
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
+// Save diagram
+diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Result of Apply a Preset Theme Variant to a Shape**|
 | :- |
@@ -88,7 +149,25 @@ Aspose.Diagram APIs allows to apply a preset theme quickstyle to a shape within 
 
 #### **Apply a Preset Theme Variant Quickstyle to a Shape Programming Sample**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Theme-SetThemeQuickStyleForShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioThemes();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.Pages[0].Shapes[0];
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.PresetTheme = PresetThemeValue.Bubble;
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
+//Assign a Preset value to the PresetThemeQuickStyle property of the Shape instance
+shape.PresetThemeQuickStyle = PresetQuickStyleValue.VariantStyle2;
+// Save diagram
+diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Result of Apply a Preset Theme Variant Quickstyle to a Shape**|
 | :- |
@@ -106,7 +185,25 @@ Aspose.Diagram APIs allows to apply a preset theme quickstyle to a shape within 
 
 #### **Apply a Preset Theme Style to a Shape Using SetPresetThemeStyleMatrics Method Programming Sample**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Theme-SetThemeStyleMatricsForShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioThemes();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.Pages[0].Shapes[0];
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.PresetTheme = PresetThemeValue.Bubble;
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.PresetThemeVariant = PresetThemeVariantValue.Variant3;
+//Assign a theme style by setting style value and color value of the Shape instance
+shape.SetPresetThemeStyleMatrics(PresetStyleMatricsValue.Style2, PresetColorMatricsValue.Color7);
+// Save diagram
+diagram.Save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Result of Apply a Preset Theme Style to a Shape Using SetPresetThemeStyleMatrics Method**|
 | :- |

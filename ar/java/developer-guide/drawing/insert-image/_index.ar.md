@@ -10,24 +10,120 @@ description: يشرح هذا القسم كيفية إدراج صورة في صف
 ## **أدخل الصورة في Visio**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsVSDX.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 ## **أدخل الصورة في SVG**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق SVG.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsSVG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 
 ## **أدخل الصورة في PNG**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PNG.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPNG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.png", SaveFileFormat.PNG);
+
+{{< /highlight >}}
+```
 
 ## **أدخل الصورة في PDF**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق PDF.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPDF.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 
 ## **أدخل الصورة في HTML**
 Aspose.Diagram لـ JAVA API يسمح للمطورين بإدراج شكل صورة في الصفحة. يوضح مثال الكود أدناه كيفية إدراج صورة في رسم Visio وحفظها بتنسيق HTML.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsHTML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+// initialize PDF save options
+HTMLSaveOptions options = new HTMLSaveOptions();
+// Save the Visio diagram
+diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
+
+{{< /highlight >}}
+```

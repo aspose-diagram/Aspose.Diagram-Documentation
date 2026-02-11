@@ -14,7 +14,35 @@ Bir sayfanın ön plan mı yoksa arka plan sayfası mı olduğunu belirlemek iç
 ### **Sayfa Bilgilerini Al Programlama Örneği**
 Aşağıdaki kod parçası, sayfa bilgilerini bir diagram'den alır.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-RetrievePageInfo.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram
+diagram = Diagram("RetrievePageInfo.vdx")
+
+for page in diagram.getPages():
+    # Checks if current page is a background page
+    if page.getBackground() == BOOL.TRUE:
+        # Display information about the background page
+        print("Background Page ID : " + str(page.getID()))
+        print("Background Page Name : " + str(page.getName()))
+    else:
+        # Display information about the foreground page
+        print("\nPage ID : " + str(page.getID()))
+        print("Universal Name : " + str(page.getNameU()))
+        print("ID of the Background Page : " + str(page.getBackPage()))
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Bir Diagram'den Visio Sayfasını Alın**
 Bazen, geliştiricilerin Visio numaralı çizimin sayfa ayrıntılarını alması gerekir. Python için Aspose.Diagram via Java bunu yapmalarına yardımcı olan özelliklere sahiptir.
@@ -30,7 +58,28 @@ Bu örnek şu şekilde çalışır:
 Aşağıdaki örnek, Visio çiziminden kimliğe göre bir sayfa nesnesinin nasıl alınacağını gösterir.
 
 #### **Kimliğe Göre Sayfa Nesnesi Al Programlama Örneği**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyID.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VDX file
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# Set page id
+page_id = 2
+# Get page object by id
+page2 = diagram.getPages().getPage(page_id)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ### **Ada Göre Visio Sayfa Nesnesi Alma**
 Bu örnek şu şekilde çalışır:
@@ -41,7 +90,28 @@ Bu örnek şu şekilde çalışır:
 #### **Ada Göre Sayfa Nesnesi Al Programlama Örneği**
 Aşağıdaki örnek, Visio çiziminden ada göre bir sayfa nesnesinin nasıl alınacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyName.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSDX file
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# Set page name
+pageName = "Flow 2"
+# Get page object by name
+page2 = diagram.getPages().getPage(pageName)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Bir Visio Sayfasını Başka Bir Diagram'e Kopyalayın**
 Python via Java API için Aspose.Diagram, geliştiricilerin içeriğini bir Visio diagram'den diğerine kopyalamasına ve eklemesine olanak tanır. Bu yardım konusu, bu görevin nasıl gerçekleştirileceğini açıklar.
@@ -62,7 +132,58 @@ Bu örnek şu şekilde çalışır:
 ### **Visio Sayfa Programlama Örneği Kopyalama**
 Aşağıdaki kod örneği, bir Visio sayfa nesnesinin başka bir Visio çizimine nasıl kopyalanacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-CopyVisioPage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+originalDiagram = Diagram("Drawing1.vsdx")
+
+# initialize the new visio diagram
+newDiagram = Diagram()
+
+# add all masters from the source Visio diagram
+originalMasters = originalDiagram.getMasters()
+for master in originalMasters:
+    newDiagram.addMaster(originalDiagram, master.getName())
+
+# get the page object from the original diagram
+SrcPage = originalDiagram.getPages().getPage("Page-1")
+# set page name
+SrcPage.setName("new page")
+
+# it calculates max page id
+max_page_id = 0
+if newDiagram.getPages().getCount() != 0:
+    max_page_id = newDiagram.getPages().get(0).getID()
+
+for i in range(0, newDiagram.getPages().getCount() - 1):
+    if max_page_id < newDiagram.getPages().get(i).getID():
+        max_page_id = newDiagram.getPages().get(i).getID()
+
+MaxPageId = max_page_id
+# set page id
+SrcPage.setID(MaxPageId)
+# add reference of the original diagram page
+newDiagram.getPages().add(SrcPage)
+
+# remove first empty page
+newDiagram.getPages().remove(newDiagram.getPages().get(0))
+
+# save diagram in VDX format
+newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Visio Sayfasını başka bir Sayfa örneğine kopyalayın**
 `Page` sınıfının `copy` yöntemi, klonlamak için bir sayfa örneği alır.
@@ -88,7 +209,48 @@ Pages koleksiyonu tarafından sunulan `add` yöntemi, geliştiricilerin Visio di
 ### **Boş Sayfa Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, Visio Çizimine boş bir sayfa ekler:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-InsertBlankPageInVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("Drawing1.vsdx")
+        
+# it calculates max page id
+max_page_id = 0
+if diagram.getPages().getCount() != 0:
+    max_page_id = diagram.getPages().get(0).getID()
+
+for i in range(0, diagram.getPages().getCount() - 1):
+    if max_page_id < diagram.getPages().get(i).getID():
+        max_page_id = diagram.getPages().get(i).getID()
+        
+# Initialize a new page object
+newPage = Page()
+# Set name
+newPage.setName("new page")
+# Set page ID
+newPage.setID(max_page_id + 1)
+
+# Or try the Page constructor
+# Page newPage = Page(MaxPageId + 1)
+
+# Add a new blank page
+diagram.getPages().add(newPage)
+
+# Save diagram
+diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Visio çiziminde Sayfa konumunu taşı**
 Python için Aspose.Diagram via Java API Visio çiziminde sayfa konumunu taşıyabilir. `Page` sınıfı tarafından sunulan `moveTo` yöntemi, geliştiricilerin sayfa konumunu taşımasına yardımcı olur.

@@ -17,6 +17,24 @@ description: 本节介绍如何将 visio 形状转换为具有 Aspose.Diagram �
 ### **形状到图像**
 在您的 Java 应用程序中使用以下代码将 visio 形状转换为图像。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ShapeToImage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ShapeToImage.class); 
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "ShapeToImage.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().get(0);
+
+// Get a particular shape
+Shape shape = page.getShapes().get(0);
+
+// Shape to image
+com.aspose.diagram.ImageSaveOptions option = new com.aspose.diagram.ImageSaveOptions(SaveFileFormat.PNG);
+shape.toImage("out.png",option);
+{{< /highlight >}}
+```
 
 

@@ -12,7 +12,24 @@ description: Cette section explique comment obtenir les connecteurs visio et les
 ### **Exemple de programmation**
 Le morceau de code suivant récupère les informations pour les connecteurs dans un diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");
+
+foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
+{
+    // Display information about the Connectors
+    Console.WriteLine("\nFrom Shape ID : " + connector.FromSheet);
+    Console.WriteLine("To Shape ID : " + connector.ToSheet);
+}
+
+{{< /highlight >}}
+```
 ## **Récupération des informations sur la police**
  Aspose.Diagram a des mécanismes pour récupérer des informations sur les éléments qui composent un diagram, à partir de[pages](/diagram/fr/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [pochoirs](https://docs.aspose.com/diagram/net/working-with-masters/), [connecteurs](/diagram/fr/net/retrieving-connector-information/)et aussi les polices. Cet article montre comment savoir quelles polices sont utilisées dans un diagram.
 
@@ -20,11 +37,40 @@ Le morceau de code suivant récupère les informations pour les connecteurs dans
 ### **Récupération d'un exemple de programmation de polices**
 Le morceau de code suivant récupère les informations de police du Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveFontInfo-RetrieveFontInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+
+foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
+{
+    // Display information about the fonts
+    Console.WriteLine(font.Name);
+}
+
+{{< /highlight >}}
+```
 ### **Obtenir le répertoire de polices par défaut**
 Aspose.Diagram for .NET API permet également d'obtenir le chemin du répertoire de polices par défaut à l'aide de la méthode GetDefaultFontDir() de la classe Diagram. Le morceau de code suivant récupère le répertoire de polices par défaut à partir du Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+           
+// Display font default directory
+Console.WriteLine(vdxDiagram.GetDefaultFontDir());
+
+{{< /highlight >}}
+```
 ### **Obtenir des polices inutilisées**
 {{% alert color="primary" %}}
 
@@ -34,4 +80,20 @@ Cette méthode est prise en charge par la version 19.6 ou supérieure.
 
 Aspose.Diagram for .NET API permet également d'obtenir des polices inutilisées à l'aide de la méthode GetUnusedStyles() de la classe Diagram. Le morceau de code suivant récupère les polices inutilisées du Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-GetUnusedFonts-1.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "Sample_UnusedFonts.vsdx");
+
+// Get Unused Fonts 
+StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
+
+// Display unused fonts count 
+Console.WriteLine(unused.Count);
+
+{{< /highlight >}}
+```

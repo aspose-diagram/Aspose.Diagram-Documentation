@@ -24,7 +24,36 @@ url: /ar/java/working-with-hyperlinks/
 
 تضيف مقتطفات التعليمات البرمجية أدناه بيانات الارتباط التشعبي للشكل.
 ### **إضافة نموذج برمجة ارتباط تشعبي**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AddHyperlinkToShape.class);   
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by ID
+Shape shape = page.getShapes().getShape(2);
+
+//initialize Hyperlink object
+Hyperlink hyperlink = new Hyperlink();
+//set address value
+hyperlink.getAddress().setValue("http://www.google.com/");
+//set sub address value
+hyperlink.getSubAddress().setValue("Sub address here");
+//set description value
+hyperlink.getDescription().setValue("Description here");
+//set name
+hyperlink.setName("MyHyperLink");
+
+//add hyperlink to the shape
+shape.getHyperlinks().add(hyperlink);            
+//save diagram to local space
+diagram.save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **الحصول على بيانات الارتباطات التشعبية لأشكال Visio**
  من الممكن الحصول على بيانات الارتباط التشعبي للشكل بنفس الطريقة التي تحصل عليها[قراءة Visio بيانات الشكل]().
 
@@ -50,4 +79,24 @@ url: /ar/java/working-with-hyperlinks/
 
 تقرأ قصاصات التعليمات البرمجية أدناه بيانات الارتباط التشعبي للشكل.
 ### **احصل على نموذج لبرمجة الارتباطات التشعبية**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Hyperlinks-GetHyperlinks-GetHyperlinks.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetHyperlinks.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by ID
+Shape shape = page.getShapes().getShape(1);
+// iterate through the hyperlinks
+for (Hyperlink hyperlink :(Iterable<Hyperlink>) shape.getHyperlinks())
+{
+    System.out.println("Address: " + hyperlink.getAddress().getValue());
+    System.out.println("Sub Address: " + hyperlink.getSubAddress().getValue());
+    System.out.println("Description: " + hyperlink.getDescription().getValue());
+}
+
+{{< /highlight >}}
+```

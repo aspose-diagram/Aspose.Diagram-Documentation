@@ -31,7 +31,23 @@ Veranschaulicht, wie Aspose.Diagram so eingestellt wird, dass beim Rendern oder 
 #### **Programmierbeispiel**
 Das folgende Codebeispiel zeigt, wie Sie Aspose.Diagram so einstellen, dass es beim Rendern oder Einbetten von Schriftarten in mehreren Ordnern nach TrueType-Schriftarten sucht.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Fonts-SpecifyFontLocation-SpecifyFontLocation.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+//Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+//setting the custom font directories
+diagram.setFontDirs(fontDirs);
+
+//saving Visio diagram in PDF format
+diagram.save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **Erhalten Sie während des Renderns eine Benachrichtigung über fehlende Schriften und Schriftersetzungen**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **Programmierbeispiel für Benachrichtigung über fehlende Schriftarten und Schriftartersetzung**

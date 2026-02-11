@@ -19,7 +19,25 @@ url: /ar/java/working-with-user-defined-cells/
 
 ![ما يجب القيام به: image_بديل_نص](working-with-user-defined-cells_2.png)
 #### **عينات البرمجة**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(1);
+// extract user defined cells of the shape
+for (User user :(Iterable<User>) shape.getUsers())
+{
+    System.out.println(user.getName() + ": " + user.getValue().getVal());
+}
+
+{{< /highlight >}}
+```
 ### **إنشاء خلية معرّفة من قبل المستخدم**
 يسمح Aspose.Diagram for Java API للمطورين بإنشاء خلية معرفة بواسطة المستخدم في ورقة الأشكال. يصف هذا المثال الموضوع كيفية إضافة العديد من صفوف اسم المستخدم حسب الحاجة ، وتعيين أسماء ذات معنى للصفوف ، وتعيين قيم الخلية.
 
@@ -27,7 +45,30 @@ url: /ar/java/working-with-user-defined-cells/
 
 استخدم الكود التالي في تطبيق Java الخاص بك لإنشاء خلية معرّفة من قبل المستخدم في ورقة الأشكال باستخدام Aspose.Diagram for Java.
 #### **عينات البرمجة**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **استرجع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال**
 Aspose.Diagram for Java API يسمح للمطورين باسترداد الخلايا المعرفة من قبل المستخدم من ورقة الأشكال. يصف هذا المثال الموضوع كيفية استرداد كافة أسماء المستخدمين لكافة الأشكال في الرسم.
 ### **استرداد الخلايا المعرفة من قبل المستخدم**
@@ -35,4 +76,27 @@ Aspose.Diagram for Java API يسمح للمطورين باسترداد الخل�
 #### **استرجع الخلايا من نماذج برمجة ورقة الأشكال**
 استخدم الكود التالي في تطبيق Java الخاص بك لاسترداد جميع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال باستخدام Aspose.Diagram for Java.
 #### **عينات البرمجة**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

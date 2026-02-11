@@ -19,7 +19,25 @@ Das folgende Bild zeigt die Ausgabe nach dem Ausführen des Codes:
 
 ![todo: Bild_alt_Text](working-with-user-defined-cells_2.png)
 #### **Programmierbeispiele**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(1);
+// extract user defined cells of the shape
+for (User user :(Iterable<User>) shape.getUsers())
+{
+    System.out.println(user.getName() + ": " + user.getValue().getVal());
+}
+
+{{< /highlight >}}
+```
 ### **Benutzerdefinierte Zelle erstellen**
 Mit Aspose.Diagram for Java API können Entwickler benutzerdefinierte Zellen im Shapesheet erstellen. In diesem Beispielthema wird beschrieben, wie Sie so viele Benutzernamenzeilen wie nötig hinzufügen, den Zeilen aussagekräftige Namen zuweisen und Zellenwerte festlegen.
 
@@ -27,7 +45,30 @@ Die add-Methode, die von der Users-Sammlung verfügbar gemacht wird, kann verwen
 
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um eine benutzerdefinierte Zelle im Shapesheet mit Aspose.Diagram for Java zu erstellen.
 #### **Programmierbeispiele**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Benutzerdefinierte Zellen aus Shapesheet abrufen**
 Aspose.Diagram for Java API ermöglicht es Entwicklern, benutzerdefinierte Zellen aus dem Shapesheet abzurufen. In diesem Beispielthema wird beschrieben, wie alle Benutzernamen für alle Shapes in einer Zeichnung abgerufen werden.
 ### **Benutzerdefinierte Zellen abrufen**
@@ -35,4 +76,27 @@ Aspose.Diagram for Java API ermöglicht es Entwicklern, benutzerdefinierte Zelle
 #### **Abrufen von Zellen aus Shapesheet-Programmierbeispielen**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um alle benutzerdefinierten Zellen aus dem Shapesheet mit Aspose.Diagram for Java abzurufen.
 #### **Programmierbeispiele**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

@@ -23,7 +23,37 @@ Microsoft Office Visio'deki özellikleri tanımlamak için:
 ### **Köprü Programlama Örneği Ekle**
 Aşağıdaki kod parçacığı, şeklin köprü verilerini ekler.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Hyperlinks();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(2);
+
+// Initialize Hyperlink object
+Hyperlink hyperlink = new Hyperlink();
+// Set address value
+hyperlink.Address.Value = "http:// Www.google.com/";
+// Set sub address value
+hyperlink.SubAddress.Value = "Sub address here";
+// Set description value
+hyperlink.Description.Value = "Description here";
+// Set name
+hyperlink.Name = "MyHyperLink";
+
+// Add hyperlink to the shape
+shape.Hyperlinks.Add(hyperlink);            
+// Save diagram to local space
+diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Visio Şekillerinin Köprü Verilerini Alın**
 Geliştiriciler, bir Visio şeklinden tüm köprüleri aldıkları gibi alabilirler.[Visio şekil verisini oku](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) kullanarak[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -45,4 +75,25 @@ Varolan tüm özellikler iletişim kutusunda listelenir.
 ### **Köprü Programlama Örneği Alın**
 Aşağıdaki kod parçacığı, şeklin köprü verilerini okur.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-GetHyperlinks-GetHyperlinks.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Hyperlinks();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+// Iterate through the hyperlinks
+foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
+{
+    Console.WriteLine("Address: " + hyperlink.Address.Value);
+    Console.WriteLine("Sub Address: " + hyperlink.SubAddress.Value);
+    Console.WriteLine("Description: " + hyperlink.Description.Value);
+}       
+
+{{< /highlight >}}
+```

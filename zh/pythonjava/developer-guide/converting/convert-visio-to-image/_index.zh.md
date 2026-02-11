@@ -22,8 +22,52 @@ Use the Diagram class' constructor to read the diagram files and the Save method
 
 ![待办事项：图片_替代_文本](ExportToImage.png)
 ### **导出到图像文件编程示例**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToImage.vsd")
+
+# Save as PNG
+diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 也可以将特定页面保存为图像，而不是整个文档：
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportPageToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToImage.vsd")
+
+# Save diagram as PNG
+options = ImageSaveOptions(SaveFileFormat.PNG)
+
+# Save one page only, by page index
+options.setPageIndex(0)
+
+# Save resultant Image file
+diagram.save("ExportPageToImage_Out.png", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

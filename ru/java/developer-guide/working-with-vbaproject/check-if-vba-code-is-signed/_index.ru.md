@@ -15,7 +15,22 @@ Aspose.Diagram позволяет пользователю проверить, �
 
 ## Образец кода
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-Vba-CheckSigned.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(Test.class);
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+  
+//Check signed     
+boolean isSigned = diagram.getVbaProject().isSigned();
+
+diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## Консольный вывод
 

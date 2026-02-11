@@ -13,4 +13,17 @@ description: Auf dieser Seite wird beschrieben, wie Sie ein ActiveX-Steuerelemen
 ## **Fügen Sie ein Programmierbeispiel für ein ActiveX-Steuerelement ein**
 [Buchseite](http://www.aspose.com/api/net/diagram/aspose.diagram/page) Die Klasse bietet die AddActiveXControl-Methode und ermöglicht Entwicklern, jede Art von ActiveX-Steuerelement wie Befehlsschaltfläche, Kombinationsfeld, Kontrollkästchen, Listenfeld, Textfeld, Drehfeld, Optionsfeld, Beschriftung, Bild, Umschaltfläche und Bildlaufleiste einzufügen.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Visio-ActiveX-Controls-InsertActiveXControl-InsertActiveXControl.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
+// Instantiate Diagram Object
+Diagram diagram = new Diagram();
+// Insert an ActiveX control
+diagram.Pages[0].AddActiveXControl(ControlType.Image, 1, 1, 1, 1);
+// Save diagram
+diagram.Save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

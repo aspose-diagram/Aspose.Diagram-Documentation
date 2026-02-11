@@ -33,7 +33,25 @@ Both **[FontConfigs.SetFontFolder](https://reference.aspose.com/diagram/net/aspo
 
 {{% /alert %}}
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SetCustomFontFolders-SetCustomFontFolders.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+// Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Setting default font
+Aspose.Diagram.FontConfigs.DefaultFontName = "Arial";
+// Setting the custom font directories
+Aspose.Diagram.FontConfigs.SetFontFolder(Environment.GetFolderPath(Environment.SpecialFolder.Fonts), false);
+
+// Saving Visio diagram in PDF format
+diagram.Save(dataDir + "Font.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 
 {{% alert color="primary" %}}
 

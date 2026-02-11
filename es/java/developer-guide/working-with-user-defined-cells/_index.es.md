@@ -19,7 +19,25 @@ La siguiente imagen muestra el resultado después de ejecutar el código:
 
 ![todo:imagen_alternativa_texto](working-with-user-defined-cells_2.png)
 #### **Ejemplos de programación**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadUserdefinedCellsOfShape.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(1);
+// extract user defined cells of the shape
+for (User user :(Iterable<User>) shape.getUsers())
+{
+    System.out.println(user.getName() + ": " + user.getValue().getVal());
+}
+
+{{< /highlight >}}
+```
 ### **Crear celda definida por el usuario**
 El Aspose.Diagram for Java API permite a los desarrolladores crear celdas definidas por el usuario en la hoja de formas. Este tema de ejemplo describe cómo agregar tantas filas de nombre de usuario como sea necesario, asignar nombres significativos a las filas y establecer valores de celda.
 
@@ -27,7 +45,30 @@ El método add expuesto por la colección Users se puede usar para crear celdas 
 
 Use el siguiente código en su aplicación Java para crear una celda definida por el usuario en la hoja de formas usando Aspose.Diagram for Java.
 #### **Ejemplos de programación**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Recuperar celdas definidas por el usuario de Shapesheet**
 Aspose.Diagram for Java API permite a los desarrolladores recuperar celdas definidas por el usuario de la hoja de forma. Este tema de ejemplo describe cómo recuperar todos los nombres de usuario para todas las formas en un dibujo.
 ### **Recuperar celdas definidas por el usuario**
@@ -35,4 +76,27 @@ Aspose.Diagram for Java API permite a los desarrolladores recuperar celdas defin
 #### **Recuperar celdas de muestras de programación de Shapesheet**
 Use el siguiente código en su aplicación Java para recuperar todas las celdas definidas por el usuario de la hoja de formas usando Aspose.Diagram for Java.
 #### **Ejemplos de programación**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-UserDefinedCells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateUserDefinedCellInShapeSheet.class);  
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+// get shape by id
+Shape shape = page.getShapes().getShape(2);
+        
+// initialize user object
+User user = new User();
+user.setName("UserDefineCell");
+user.getValue().setVal("800");
+// add user-defined cell
+shape.getUsers().add(user);
+
+// save diagram
+diagram.save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

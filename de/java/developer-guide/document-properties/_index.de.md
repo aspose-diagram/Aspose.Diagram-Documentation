@@ -62,7 +62,22 @@ Bitte beachten Sie, dass Sie Aspose.Diagram for Java nicht anweisen können, die
 - Um auf integrierte Dokumenteigenschaften zuzugreifen, verwenden Sie[**diagram.DocumentProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/documentproperties).
 -  Um auf benutzerdefinierte Dokumenteigenschaften zuzugreifen, verwenden Sie[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/CustomPropCollection).
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **Hinzufügen oder Entfernen von benutzerdefinierten Dokumenteigenschaften**
 
@@ -72,10 +87,40 @@ Wie wir bereits zu Beginn dieses Themas beschrieben haben, können Entwickler ke
 
  Aspose.Diagram APIs haben die ausgesetzt[**Hinzufügen**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#add(com.aspose.diagram.CustomProp) ) Methode für die[**CustomPropCollection**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection)-Klasse, um der Sammlung benutzerdefinierte Eigenschaften hinzuzufügen.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **Benutzerdefinierte Eigenschaften entfernen**
 
  Um benutzerdefinierte Eigenschaften mit Aspose.Diagram zu entfernen, rufen Sie die an[**CustomPropCollection.Remove**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#remove(com.aspose.diagram.CustomProp))-Methode und übergeben Sie den Namen der zu entfernenden Dokumenteigenschaft.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```

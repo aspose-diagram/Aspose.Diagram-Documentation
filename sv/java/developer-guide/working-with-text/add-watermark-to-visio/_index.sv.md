@@ -9,7 +9,22 @@ description: Hur man lägger till vattenstämpel till visio med Java Diagram API
 ## **Skapar ett Diagram**
  Aspose.Diagram for Java låter dig läsa och skapa Microsoft Visio diagram från dina egna applikationer, utan Microsoft Office Automation. Det första steget när du skapar nya dokument är att skapa en diagram. Sedan[lägg till former och kontakter](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/)för att bygga upp diagram. Använd standardkonstruktorn för[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram) klass för att skapa en ny diagram.
 ### **Programmeringsexempel**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateDiagram.class);
+// Create directory if it is not already present.
+File file = new File(dataDir);
+if (!file.exists())
+	file.mkdir();
+// initialize a new Diagram
+Diagram diagram = new Diagram();
+// save in the VSDX format
+diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 Detta exempel fungerar enligt följande:
 
@@ -19,4 +34,27 @@ Detta exempel fungerar enligt följande:
 ### **Lägg till vattenstämpel Programmeringsexempel**
 Följande exempelkod visar hur man lägger till vattenstämpel i Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Text-AddWatermarkToVisio-AddWatermarkToVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
+        
+// load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+
+double pinx = page.getPageSheet().getPageProps().getPageWidth().getValue() / 2;
+double piny = page.getPageSheet().getPageProps().getPageHeight().getValue() / 2;
+double width = page.getPageSheet().getPageProps().getPageWidth().getValue();
+double height =page.getPageSheet().getPageProps().getPageHeight().getValue();
+    
+//Add watermark
+Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5a5a5",0.25);
+
+// save diagram
+diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

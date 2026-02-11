@@ -19,7 +19,30 @@ Detta exempel fungerar enligt följande:
 ### **Ställ in orienteringsprogrammeringsexempel**
 Kodexemplet nedan visar hur du ställer in orienteringen för sidan Visio.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-SetVisioPageOrientation.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# initialize the new visio diagram
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# get Visio page
+page = diagram.getPages().getPage("Flow 1")
+# page orientation
+page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE)
+# save Visio
+diagram.save("SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Kontrollera exporten av dolda Visio-sidor när du sparar**
 Aspose.Diagram for Python via Java API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Till och med de kan dölja Visio sidor med Aspose.Diagram för Python via Java API eftersom dess alternativ redan är tillgängligt via cellen UIVisibility i sidan ShapeSheet.
@@ -30,19 +53,137 @@ Aspose.Diagram för Python via Java API har klassen `Page` som representerar en 
 #### **Ställ in exportalternativet för PDF**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till PDF.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExporToHiddenVisioPagesToPdf.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+        
+# load an existing Visio
+diagram = Diagram("DrawingFlowCharts.vsdx")
+# get a particular page
+page = diagram.getPages().getPage("Flow 2")
+# set Visio page visibility
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE)
+
+# initialize PDF save options
+options = PdfSaveOptions()
+# set export option of hidden Visio pages
+options.setExportHiddenPage(False)
+
+# Save the Visio diagram
+diagram.save("ExportOfHiddenVisioPagesToPDF_Out.pdf", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 #### **Ställ in exportalternativet för HTML**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till HTML.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToHtml.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load an existing Visio
+diagram = Diagram("DrawingFlowCharts.vsdx")
+# get a particular page
+page = diagram.getPages().getPage("Flow 2")
+# set Visio page visibility
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE)
+
+# initialize PDF save options
+options = HTMLSaveOptions()
+# set export option of hidden Visio pages
+options.setExportHiddenPage(False)
+# set export option of comments
+options.setExportComments(False)
+# Save the Visio diagram
+diagram.save("ExportOfHiddenVisioPagesToHTML_Out.html", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 #### **Ställ in exportalternativet för bild**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar ett diagram till bildformat.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load an existing Visio
+diagram = Diagram("DrawingFlowCharts.vsdx")
+# get a particular page
+page = diagram.getPages().getPage("Flow 2")
+# set Visio page visibility
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE)
+# initialize PDF save options
+options = ImageSaveOptions(SaveFileFormat.JPEG)
+# set export option of hidden Visio pages
+options.setExportHiddenPage(False)
+# set export option of comments
+options.setExportComments(False)
+
+# Save the Visio diagram
+diagram.save("ExportOfHiddenVisioPagesToImage_Out.jpeg", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 #### **Ställ in exportalternativet för SVG**
 Koden nedan visar hur du ställer in sparalternativ innan du sparar formatet diagram till SVG.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-ExportOfHiddenVisioPagesToSVG.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load an existing Visio
+diagram = Diagram("DrawingFlowCharts.vsdx")
+# get a particular page
+page = diagram.getPages().getPage("Flow 2")
+# set Visio page visibility
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE)
+
+# initialize PDF save options
+options = SVGSaveOptions()
+# set export option of hidden Visio pages
+options.setExportHiddenPage(False)
+# Set SVG fit to view port
+options.setSVGFitToViewPort(True)
+# Set export element as Rectangle
+options.setExportElementAsRectTag(True)
+
+# save the Visio diagram
+diagram.save("ExportOfHiddenVisioPagesToSVG_Out.svg", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

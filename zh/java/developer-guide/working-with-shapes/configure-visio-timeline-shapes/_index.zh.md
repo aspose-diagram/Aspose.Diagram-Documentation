@@ -22,7 +22,34 @@ Aspose.Diagram 允许开发人员设置里程碑属性。本文介绍如何设�
 1. 设置里程碑类型
 1. 将 Visio 图形保存为任何支持的格式。
 #### **设置里程碑编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-SetMilestoneProps-SetMilestoneProps.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetMilestoneProps.class);  
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+int shapeid = 22;
+// Get timeline shape
+Shape milestone = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid);
+
+// Initialize MilestoneHelper object
+MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
+
+// Set milestone date
+milestoneHelper.setMilestoneDate(new DateTime(2014, 10, 21));
+// Set date format
+milestoneHelper.setDateFormat(21);
+// Set auto update flag
+milestoneHelper.setAutoUpdate(true);
+// Set milestone type
+milestoneHelper.setType(6);
+
+// Save to VDX format
+diagram.save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 
 日期格式值表：
@@ -77,7 +104,42 @@ Aspose.Diagram 允许开发人员以编程方式配置时间线。这解释了�
 1. 设置日期格式。
 1. 将 Visio 图形保存为任何支持的格式。
 #### **设置时间段和日期编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-ConfigureTimeLine-ConfigureTimeLine.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ConfigureTimeLine.class); 
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+int shapeid = 1;
+// Get timeline shape
+Shape timeline = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid);
+
+// Initialize TimeLineHlper object
+TimeLineHelper timelineHelper = new TimeLineHelper(timeline);
+
+// Set start time
+timelineHelper.setTimePeriodStart(new DateTime(2014, 12, 21));
+// Set end time
+timelineHelper.setTimePeriodFinish(new DateTime(2015, 2, 19));
+
+// Set date format
+//timelineHelper.setDateFormatForBE(21);
+// Set date format for intm of timeline shape   
+//timelineHelper.setDateFormatForIntm(21);
+
+// Or
+
+// Set date format string for start and finish of timeline shape
+timelineHelper.setDateFormatStringForBE("yyyy-MM-dd");
+// Set date format string for intm of timeline shape
+timelineHelper.setDateFormatStringForIntm("yyyy-MM-dd");
+
+// Save to VDX format
+diagram.save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 
 日期格式值表：
@@ -132,7 +194,37 @@ Aspose.Diagram 允许开发人员根据时间段变化调整时间轴形状（�
 #### **使用 TimeLineHelper 编程示例刷新里程碑**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 恢复时间轴上的里程碑。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-RefreshTimeLine-RefreshTimeLine.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RefreshTimeLine.class);   
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+
+int shapeid = 1;
+// Get timeline shape
+Shape timeline = diagram.getPages().getPage("Page-1").getShapes().getShape(shapeid);
+
+// Initialize TimeLineHlper object
+TimeLineHelper timelineHelper = new TimeLineHelper(timeline);
+
+// Set start time
+timelineHelper.setTimePeriodStart(new DateTime(2014, 12, 21));
+// Set end time
+timelineHelper.setTimePeriodFinish(new DateTime(2015, 2, 19));
+
+// Set date format
+timelineHelper.setDateFormatForBE(21);
+
+//revive milestones on the timeline
+timelineHelper.refreshTimeLine();
+
+// Save to VDX format
+diagram.save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ### **使用 MilestoneHelper 类刷新时间轴上的里程碑**
 公开的 RefreshMilestone 方法[里程碑助手](https://reference.aspose.com/diagram/java/com.aspose.diagram/milestonehelper)类可用于刷新时间轴上的里程碑。
 
@@ -149,4 +241,56 @@ Aspose.Diagram 允许开发人员根据时间段变化调整时间轴形状（�
 #### **使用 MilestoneHelper 编程示例刷新里程碑**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 刷新时间轴上的里程碑。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-TimeLine-RefreshMilestoneWithMilestoneHelper-RefreshMilestoneWithMilestoneHelper.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RefreshMilestoneWithMilestoneHelper.class);
+        
+String pageName = "Page-1";
+
+////////////// Modify time line /////////// 
+DateTime startDate = new DateTime(2015, 8, 1);
+DateTime endDate = new DateTime(2016, 6, 1);
+DateTime fisYear = startDate;
+
+//Load a diagram 
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+
+//Get page
+Page page = diagram.getPages().getPage(pageName);
+
+long timelineId = 1;
+Shape timeline = diagram.getPages().getPage(pageName).getShapes().getShape(timelineId);
+double xpos = timeline.getXForm().getPinX().getValue();
+double ypos = timeline.getXForm().getPinY().getValue();
+
+// Add milestone 
+String milestoneMasterName = "2 triangle milestone";
+
+//Add Master
+diagram.addMaster(dataDir + "Timeline.vss", milestoneMasterName);
+
+//Add Shape in Visio diagram using AddShape method
+long milestoneShapeId = diagram.addShape(xpos, ypos, milestoneMasterName, 0);
+
+//Get the shape based on ID
+Shape milestone = page.getShapes().getShape(milestoneShapeId);
+
+//Instantiate MilestoneHelper object
+MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
+
+//Set Milestone Date
+milestoneHelper.setMilestoneDate(new DateTime(2015, 8, 1));
+
+//Set IsAutoUpdate to true
+milestoneHelper.setAutoUpdate(true);
+
+//RefreshMilesone of timeline shape
+milestoneHelper.refreshMilestone(timeline);
+
+//Save Visio file
+diagram.save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

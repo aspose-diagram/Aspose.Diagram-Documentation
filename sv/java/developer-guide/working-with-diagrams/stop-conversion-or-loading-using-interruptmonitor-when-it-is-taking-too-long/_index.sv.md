@@ -29,4 +29,98 @@ Följande exempelkod förklarar användningen av[**InterruptMonitor**](https://r
 {{< /highlight >}}
 
 ## **Exempelkod**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-StopConversionOrLoadingUsingInterruptMonitor.java" >}}
+```
+{{< highlight "java" >}}
+import com.aspose.diagram.Diagram;
+import com.aspose.diagram.InterruptMonitor;
+import com.aspose.diagram.SaveFileFormat;
+
+public class StopConversionOrLoadingUsingInterruptMonitor
+{
+	
+	//Create InterruptMonitor object
+    InterruptMonitor im = new InterruptMonitor();
+
+    public class ThreadStart extends Thread
+	{	
+		private int ThreadFunc;
+		
+		public ThreadStart(int threadFunc)
+		{
+			this.ThreadFunc = threadFunc;
+		}
+        
+        //This function will create diagram and convert it to Pdf format
+        void CreateDiagramAndConvertItToPdfFormat() throws Exception
+        {
+            //Create a diagram object
+            Diagram diagram = new Diagram("huge.vsdx");
+
+            //Assign it InterruptMonitor object
+            diagram.setInterruptMonitor(im);
+
+            try
+            {
+                //Save the workbook to Pdf format
+                diagram.save( "output_InterruptMonitor.pdf",SaveFileFormat.PDF);
+                
+                //Show successful message
+                System.out.println("Diagram to PDF - Successful Conversion");
+            }
+            catch (Exception ex)
+            {
+                System.out.println("Diagram process Interrupted - Message: " + ex.getMessage());
+            }
+        }
+        
+        //This function will interrupt the conversion process after 10s
+        void WaitForWhileAndThenInterrupt() throws Exception
+        {
+            Thread.sleep(1000 * 10);
+            im.interrupt();
+        }
+        
+        public void run() 
+        {
+        	try
+        	{
+        		if(this.ThreadFunc == 1)
+        		{
+        			CreateDiagramAndConvertItToPdfFormat();
+        		}
+            	
+            	if(this.ThreadFunc == 2)
+            	{
+            		WaitForWhileAndThenInterrupt();
+            	}
+        		
+        	}
+        	catch(Exception ex)
+        	{
+        		System.out.println("Process Interrupted - Message: " + ex.getMessage());
+        	}
+        	
+        }
+	}//ThreadStart
+
+    public void TestRun() throws Exception
+	{
+		ThreadStart t1 = new ThreadStart(1);
+		ThreadStart t2 = new ThreadStart(2);
+		
+		t1.start();
+		t2.start();
+		
+		t1.join();
+		t2.join();
+	}
+	    public static void main(String[] args) throws Exception {
+
+		new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
+		
+		// Print the message
+		System.out.println("StopConversionOrLoadingUsingInterruptMonitor executed successfully.");
+	}
+}
+{{< /highlight >}}
+```

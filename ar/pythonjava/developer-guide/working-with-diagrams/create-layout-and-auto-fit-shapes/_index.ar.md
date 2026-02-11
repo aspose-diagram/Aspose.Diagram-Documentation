@@ -7,7 +7,26 @@ url: /ar/python-java/create-layout-and-auto-fit-shapes/
 ## **إنشاء Diagram**
  يسمح لك Aspose.Diagram لـ Python via Java بقراءة وإنشاء المخططات Microsoft Visio من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](/diagram/ar/python-java/add-and-connect-visio-shapes/) لبناء diagram. استخدم المُنشئ الافتراضي للفئة Diagram لتكوين diagram جديد.
 ### **عينة البرمجة**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import os
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# initialize a new Diagram
+diagram = Diagram()
+# save in the VSDX format
+diagram.save("CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **أشكال التخطيط في نمط المخطط الانسيابي**
  مع أنواع معينة من الرسومات المتصلة ، مثل المخططات الانسيابية والرسومات التخطيطية للشبكة ، يمكنك استخدام ملحق**أشكال التخطيط** ميزة لوضع الأشكال تلقائيًا. يعد تحديد المواقع تلقائيًا أسرع من سحب كل شكل يدويًا إلى موقع جديد.
 
@@ -33,7 +52,53 @@ url: /ar/python-java/create-layout-and-auto-fit-shapes/
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. اتصل بـ Diagram class 'طريقة Save لكتابة رسم Visio.
 ### **عينة برمجة نمط المخطط الانسيابي**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-LayOutShapesInFlowchartStyle.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load an existing Visio diagram
+fileName = "LayOutShapesInFlowchartStyle.vdx"
+diagram = Diagram(fileName)
+
+# set layout options
+flowChartOptions = LayoutOptions()
+flowChartOptions.setLayoutStyle(LayoutStyle.FLOW_CHART)
+flowChartOptions.setSpaceShapes(1)
+flowChartOptions.setEnlargePage(True)
+
+# set layout direction as BottomToTop and then save
+flowChartOptions.setDirection(LayoutDirection.BOTTOM_TO_TOP)
+diagram.layout(flowChartOptions)
+diagram.save("sample_btm_top.vdx", SaveFileFormat.VDX)
+
+# set layout direction as TopToBottom and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.TOP_TO_BOTTOM)
+diagram.layout(flowChartOptions)
+diagram.save("sample_top_btm.vdx", SaveFileFormat.VDX)
+
+# set layout direction as LeftToRight and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.LEFT_TO_RIGHT)
+diagram.layout(flowChartOptions)
+diagram.save("sample_left_right.vdx", SaveFileFormat.VDX)
+
+# set layout direction as RightToLeft and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.RIGHT_TO_LEFT)
+diagram.layout(flowChartOptions)
+diagram.save("sample_right_left.vdx", SaveFileFormat.VDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ### **تخطيط الأشكال في نمط الشجرة المضغوطة**
 يحاول نمط تخطيط الشجرة المضغوط بناء هيكل شجرة. يستخدم نفس ملف الإدخال كما في المثال أعلاه ويحفظ في العديد من أنماط الشجرة المدمجة المختلفة.
 
@@ -51,7 +116,53 @@ url: /ar/python-java/create-layout-and-auto-fit-shapes/
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. قم باستدعاء الأسلوب Save للفئة Diagram لكتابة ملف Visio.
 #### **عينة برمجة نمط الشجرة المدمجة**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-LayOutShapesInCompactTreeStyle.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+        
+fileName = "LayOutShapesInCompactTreeStyle.vdx"
+# load an existing Visio diagram
+diagram = Diagram(fileName)
+
+# set layout options 
+compactTreeOptions = LayoutOptions()
+compactTreeOptions.setLayoutStyle(LayoutStyle.COMPACT_TREE)
+compactTreeOptions.setEnlargePage(True)
+
+# set layout direction as DownThenRight and then save
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_RIGHT)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_down_right.vdx", SaveFileFormat.VDX)
+
+# set layout direction as DownThenLeft and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_LEFT)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_down_left.vdx", SaveFileFormat.VDX)
+
+# set layout direction as RightThenDown and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.RIGHT_THEN_DOWN)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_right_down.vdx", SaveFileFormat.VDX)
+
+# set layout direction as LeftThenDown and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.LEFT_THEN_DOWN)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_left_down.vdx", SaveFileFormat.VDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **احتواء تلقائي Visio Diagram**
 Aspose.Diagram API يدعم التركيب التلقائي للرسم Visio. تساعد عملية الميزة هذه على إحضار الأشكال الخارجية داخل حدود الصفحة Visio.
 
@@ -66,7 +177,31 @@ Aspose.Diagram لـ Python via Java API له فئة Diagram التي تمثل ر
 ### **عينة البرمجة الملائمة التلقائية**
 يوضح رمز المثال التالي كيفية احتواء الأشكال تلقائيًا في Visio diagram.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("BFlowcht.vsdx")
+
+# use saving options
+options = DiagramSaveOptions(SaveFileFormat.VSDX)
+# set Auto fit page property
+options.setAutoFitPageToDrawingContent(True)
+
+# save Visio diagram
+diagram.save("AutoFitShapesInVisio_Out.vsdx", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **العمل مع مشروع VBA**
 ### **تعديل كود وحدة VBA في Visio Diagram**
 توضح هذه المقالة كيفية تعديل رمز الوحدة النمطية لـ VBA تلقائيًا باستخدام Aspose.Diagram لـ Python via Java.
@@ -75,10 +210,59 @@ Aspose.Diagram لـ Python via Java API له فئة Diagram التي تمثل ر
 ### **تعديل نموذج برمجة رمز الوحدة النمطية لـ VBA**
 الرجاء التحقق من مثال هذا الرمز:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+diagram = Diagram("Macro.vsdm")
+# extract VBA project
+v = diagram.getVbaProject()
+# Iterate through the modules and modify VBA macro code
+for i in range(0, diagram.getVbaProject().getModules().getCount() - 1):
+	module = diagram.getVbaProject().getModules().get(i)
+	code = module.getCodes()
+	if code.contains("This is test message."):
+		code = code.replace("This is test message.", "This is Aspose.Diagram message.")
+	module.setCodes(code)
+
+# save the Visio diagram
+diagram.save("out.vssm", SaveFileFormat.VSSM)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ### **قم بإزالة كافة وحدات الماكرو من Visio Diagram**
 Aspose.Diagram لـ Python via Java يسمح للمطورين بإزالة كافة وحدات الماكرو من Visio diagram.
 
 تتيح لك خاصية JavaProjectData ، التي تم الكشف عنها بواسطة فئة Diagram ، إزالة كافة وحدات الماكرو من الرسم Visio.
 ### **قم بإزالة كافة نماذج برمجة وحدات الماكرو**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-RemoveMacrosFromVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("Macro.vsdm")
+
+# remove all macros
+diagram.setVbProjectData(None)
+
+# Save diagram
+diagram.save("RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

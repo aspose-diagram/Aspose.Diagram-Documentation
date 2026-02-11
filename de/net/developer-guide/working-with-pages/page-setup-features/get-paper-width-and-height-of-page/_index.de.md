@@ -15,4 +15,21 @@ Manchmal müssen Sie die Breite und Höhe des Papierformats kennen, da es in der
 
 ### **Beispielcode**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPageWidthHeight-GetVisioPageWidthHeight.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Initialize the new visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get Visio page
+Aspose.Diagram.Page page = diagram.Pages.GetPage("Flow 1");
+
+// Get page's width and height
+double pagewidth = page.PageSheet.PageProps.PageWidth.Value;
+double pageheight = page.PageSheet.PageProps.PageHeight.Value;
+
+{{< /highlight >}}
+```

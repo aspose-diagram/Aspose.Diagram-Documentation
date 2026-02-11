@@ -14,4 +14,23 @@ Utilice la propiedad PageProps para cambiar el tamaño de la página.
 ### **Ejemplo de programación de configuración del tamaño de página**
 El siguiente fragmento de código cambia el tamaño de página de diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-ChangeVisioPageSize-ChangeVisioPageSize.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Initialize the new visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get Visio page
+Aspose.Diagram.Page page = diagram.Pages.GetPage("Flow 1");
+// Set Page Size
+page.PageSheet.PageProps.PageHeight.Value = 8;
+page.PageSheet.PageProps.PageWidth.Value = 11;
+
+// Save Visio
+diagram.Save(dataDir + "SetPageSize_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

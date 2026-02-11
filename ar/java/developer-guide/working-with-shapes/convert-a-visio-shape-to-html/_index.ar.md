@@ -17,6 +17,24 @@ description: يشرح هذا القسم كيفية تحويل شكل visio إل�
 ### **شكل إلى Html**
 استخدم الكود التالي في تطبيق java لتحويل شكل visio إلى html.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ShapeToHtml.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ShapeToHtml.class); 
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "ShapeToHtml.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().get(0);
+
+// Get a particular shape
+Shape shape = page.getShapes().get(0);
+
+// Shape to HTML
+HTMLSaveOptions hs = new HTMLSaveOptions();
+shape.toHTML("out.htm", hs);
+{{< /highlight >}}
+```
 
 

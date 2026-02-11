@@ -9,4 +9,26 @@ description: Bu bölüm, dosya boyutunu diagram'den Aspose.Diagram ile Python vi
  Python via Java API için Aspose.Diagram, geliştiricilerin dosya boyutunu azaltmak için bir diagram'den gizli bilgileri kaldırmasına olanak tanır.
  Sayfa nesnesi, bir ön plan sayfasının veya bir arka plan sayfasının çizim alanını temsil eder. Dosya boyutunu küçültmek için RemoveHiddenInfoItem özelliklerini**Gizli Bilgileri Kaldır()** Diagram sınıfının yöntemi. Aşağıdaki kod örneği, gizli bilgilerin diagram'den nasıl kaldırılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ReduceFileSize.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Load a Visio diagram
+diagram = Diagram("Drawing1.vsdx")
+
+# Remove hidden information from diagram
+diagram.removeHiddenInformation(RemoveHiddenInfoItem.SHAPES | RemoveHiddenInfoItem.MASTERS)
+
+# save in the VSDX format
+diagram.save("ReduceFileSize_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

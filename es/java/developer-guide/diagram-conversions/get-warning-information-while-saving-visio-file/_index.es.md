@@ -14,7 +14,37 @@ url: /es/java/get-warning-information-while-saving-visio-file/
 
 ## **Código de muestra**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-DiagramConversions-GetWarningInformation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+// call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "sampleFontSubstitution.vsdx");
+
+// create an instance SVG save options class
+Aspose.Diagram.Saving.SVGSaveOptions so = new Aspose.Diagram.Saving.SVGSaveOptions();
+
+so.WarningCallback = new TestDiagramWarningCallback();
+// save Visio drawing
+diagram.Save(dataDir + "WarningCallback_out.svg", options);
+
+
+public class TestDiagramWarningCallback : Aspose.Diagram.IWarningCallback
+{
+    public void Warning(Aspose.Diagram.WarningInfo info)
+    {
+        if (info.WarningType == Aspose.Diagram.WarningType.FontSubstitution)
+        {
+            Console.WriteLine("Diagram WARNING INFO: " + info.Description);
+        }
+
+    }
+}
+
+{{< /highlight >}}
+```
 
 ## **Salida de consola**
 

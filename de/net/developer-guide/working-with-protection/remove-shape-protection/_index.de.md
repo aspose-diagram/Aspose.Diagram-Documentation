@@ -20,4 +20,43 @@ In Microsoft Office Visio kann der Benutzer die folgenden Aktionen ausführen, u
 ### **Entfernen Sie das Shape Protection-Programmierbeispiel**
 Verwenden Sie den folgenden Code in Ihrer .NET-Anwendung, um mit Aspose.Diagram for .NET dasselbe zu tun (entsperren Sie ein beliebiges Formattribut).
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-RemoveShapeProtection-RemoveShapeProtection.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Protection();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+// Get page by name
+Page page = diagram.Pages.GetPage("Flow 1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+
+// Set protections
+shape.Protection.LockAspect.Value = BOOL.False;
+shape.Protection.LockBegin.Value = BOOL.False;
+shape.Protection.LockCalcWH.Value = BOOL.False;
+shape.Protection.LockCrop.Value = BOOL.False;
+shape.Protection.LockCustProp.Value = BOOL.False;
+shape.Protection.LockDelete.Value = BOOL.False;
+shape.Protection.LockEnd.Value = BOOL.False;
+shape.Protection.LockFormat.Value = BOOL.False;
+shape.Protection.LockFromGroupFormat.Value = BOOL.False;
+shape.Protection.LockGroup.Value = BOOL.False;
+shape.Protection.LockHeight.Value = BOOL.False;
+shape.Protection.LockMoveX.Value = BOOL.False;
+shape.Protection.LockMoveY.Value = BOOL.False;
+shape.Protection.LockRotate.Value = BOOL.False;
+shape.Protection.LockSelect.Value = BOOL.False;
+shape.Protection.LockTextEdit.Value = BOOL.False;
+shape.Protection.LockThemeColors.Value = BOOL.False;
+shape.Protection.LockThemeEffects.Value = BOOL.False;
+shape.Protection.LockVtxEdit.Value = BOOL.False;
+shape.Protection.LockWidth.Value = BOOL.False;
+            
+// Save diagram
+diagram.Save(dataDir + "RemoveShapeProtection_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

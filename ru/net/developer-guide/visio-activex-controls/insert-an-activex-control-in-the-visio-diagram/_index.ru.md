@@ -13,4 +13,17 @@ description: На этой странице описывается, как вс�
 ## **Вставьте пример программирования элемента управления ActiveX**
 [Страница](http://www.aspose.com/api/net/diagram/aspose.diagram/page) Класс предлагает метод AddActiveXControl и позволяет разработчикам вставлять любой тип элемента управления ActiveX, такой как командная кнопка, поле со списком, флажок, список, текстовое поле, кнопка прокрутки, переключатель, метка, изображение, кнопка-переключатель и полоса прокрутки.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Visio-ActiveX-Controls-InsertActiveXControl-InsertActiveXControl.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioActiveXControls();
+// Instantiate Diagram Object
+Diagram diagram = new Diagram();
+// Insert an ActiveX control
+diagram.Pages[0].AddActiveXControl(ControlType.Image, 1, 1, 1, 1);
+// Save diagram
+diagram.Save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

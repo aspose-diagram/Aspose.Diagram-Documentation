@@ -19,4 +19,30 @@ Med hjälp av Aspose.Diagram API kan utvecklare definiera hur en form svarar på
 ## **Ställa in händelseceller**
 [Händelse](https://reference.aspose.com/diagram/java/com.aspose.diagram/event) klass tillåter utvecklare att ställa in händelseceller i ShapeSheet. Det här hjälpämnet visar hur utvecklare kan ställa in formler i händelsecellerna:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-eventsection-SettingEventCells-SettingEventCells.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SettingEventCells.class);
+// load diagram
+Diagram diagram = new Diagram(dataDir + "TestTemplate.vsdm");
+// get page
+Page page = diagram.getPages().get(0);
+// get shape id
+long shapeId = page.addShape(3.0, 3.0, 0.36, 0.36, "Square");
+// get shape
+Shape shape = page.getShapes().getShape(shapeId);
+
+// set event cells in the ShapeSheet
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+
+// save diagram
+diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```

@@ -27,7 +27,25 @@ End Sub
 
 İşte VSDM çıktı dosyasını VBA Modülü ve Makro Kodu ile oluşturmak için örnek kod.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-AddModule.cs" >}}
+```
+{{< highlight "csharp" >}}
+// ExStart:ApplyThemeToNewShape
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+//Add module
+int index = diagram.VbaProject.Modules.Add(VbaModuleType.Procedural, "TestModule");
+//Get module 
+Aspose.Diagram.Vba.VbaModule module = diagram.VbaProject.Modules[index];
+//Set module
+module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n    MsgBox \"Welcome to Aspose!\"\r\n\r\nEnd Sub\r\n";
+
+diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## **VBA veya Makroyu Değiştirin**
 
@@ -70,7 +88,23 @@ End Sub
 
  indirebilirsiniz[kaynak Visio dosyası]() ve[çıktı Visio dosyası]() verilen linklerden
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-ModifyModule.cs" >}}
+```
+{{< highlight "csharp" >}}
+// ExStart:ApplyThemeToNewShape
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+//Get module 
+Aspose.Diagram.Vba.VbaModule module = diagram.VbaProject.Modules[2];
+//Set module
+module.Codes = "Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n    MsgBox \"This is Aspose.Diagram message.\"\r\n\r\nEnd Sub\r\n";
+
+diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## **ileri konular**
 - [VBA Kodunun İmzalanıp İmzalanmadığını Kontrol Edin](/diagram/tr/net/check-if-vba-code-is-signed/)

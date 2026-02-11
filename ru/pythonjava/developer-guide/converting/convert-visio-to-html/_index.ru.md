@@ -32,11 +32,52 @@ description: This topic show you how to convert Visio to html formats using Aspo
 Полученный файл можно сохранить, передав полную строку пути, включая имя файла и расширение, например, @"c:\temp\MyOutput.html".
 
 #### **Сохраните результат HTML в примере программирования локального хранилища**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToHTML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToHTML.vsd")
+
+# Save as HTML
+diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 
 
 ### **Сохраните результат HTML в экземпляре потока.**
 Это вариант использования для сохранения результирующего HTML в базе данных или репозитории без сохранения его в локальном хранилище. Эта функция также включает другие результирующие ресурсы HTML, например шрифты, CSS (содержащие информацию о стиле) и изображения. Поскольку он сохраняет один файл HTML в экземпляре потока.
 #### **Сохраните результат HTML в образце потокового программирования**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportHTMLinStream.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToHTML.vsd")
+# save resultant HTML directly to a stream
+dstStream = java.io.ByteArrayOutputStream()
+diagram.save(dstStream, SaveFileFormat.HTML)
+# In you want to read the result into a Diagram object again, you need to get the
+# data bytes and wrap into an input stream.
+# srcStream = java.io.ByteArrayInputStream(dstStream.toByteArray())
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

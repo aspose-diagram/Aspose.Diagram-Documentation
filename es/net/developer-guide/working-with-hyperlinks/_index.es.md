@@ -23,7 +23,37 @@ Para identificar propiedades en Microsoft Office Visio:
 ### **Agregar muestra de programación de hipervínculo**
 El fragmento de código a continuación agrega los datos del hipervínculo de la forma.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Hyperlinks();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(2);
+
+// Initialize Hyperlink object
+Hyperlink hyperlink = new Hyperlink();
+// Set address value
+hyperlink.Address.Value = "http:// Www.google.com/";
+// Set sub address value
+hyperlink.SubAddress.Value = "Sub address here";
+// Set description value
+hyperlink.Description.Value = "Description here";
+// Set name
+hyperlink.Name = "MyHyperLink";
+
+// Add hyperlink to the shape
+shape.Hyperlinks.Add(hyperlink);            
+// Save diagram to local space
+diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Obtener datos de hipervínculos de las formas Visio**
 Los desarrolladores pueden recuperar todos los hipervínculos de una forma Visio de la misma manera que[leer Visio datos de forma](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/) usando[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -45,4 +75,25 @@ Todas las propiedades existentes se enumeran en el cuadro de diálogo.
 ### **Obtener muestra de programación de hipervínculos**
 El fragmento de código siguiente lee los datos del hipervínculo de la forma.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-GetHyperlinks-GetHyperlinks.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Hyperlinks();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+// Iterate through the hyperlinks
+foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
+{
+    Console.WriteLine("Address: " + hyperlink.Address.Value);
+    Console.WriteLine("Sub Address: " + hyperlink.SubAddress.Value);
+    Console.WriteLine("Description: " + hyperlink.Description.Value);
+}       
+
+{{< /highlight >}}
+```

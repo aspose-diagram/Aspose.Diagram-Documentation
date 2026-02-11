@@ -62,7 +62,22 @@ Tenga en cuenta que no puede indicar al Aspose.Diagram for Java que cambie o eli
 - Para acceder a las propiedades del documento incorporado, utilice[**diagram.DocumentProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/documentproperties).
 -  Para acceder a las propiedades del documento personalizado, use[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/CustomPropCollection).
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **Adición o eliminación de propiedades de documentos personalizados**
 
@@ -72,10 +87,40 @@ Como describimos anteriormente al comienzo de este tema, los desarrolladores no 
 
  Aspose.Diagram Las API han expuesto el[**Agregar**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#add(com.aspose.diagram.CustomProp) ) método para el[**CustomPropCollection**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection)class para agregar propiedades personalizadas a la colección.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **Eliminación de propiedades personalizadas**
 
  Para eliminar propiedades personalizadas usando Aspose.Diagram, llame al[**CustomPropCollection.Remove**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#remove(com.aspose.diagram.CustomProp)) y pase el nombre de la propiedad del documento que se eliminará.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```

@@ -19,7 +19,22 @@ Aspose.Diagram API 允许应用预设主题以获得页面内和跨多个文档�
 - 获取要设置主题的Page类实例
 - 将 Preset 值分配给 Page 实例的 PresetTheme 属性
 #### **将预设主题应用于页面编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeForPage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Page class to be set theme
+Page page = diagram.getPages().get(0);
+//Assign a Preset value to the PresetTheme property of the Page instance
+page.setPresetTheme(PresetThemeValue.BUBBLE);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 |**将预设主题应用到页面的结果**|
 |:- |
@@ -36,7 +51,23 @@ Aspose.Diagram API 允许应用预设主题变体以获得页面内和跨多个�
 
 #### **将预设主题变体应用于页面编程示例**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeVariantForPage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Page class to be set theme
+Page page = diagram.getPages().get(0);
+//Assign a Preset value to the PresetTheme property of the Page instance
+page.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Page instance
+page.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**将预设主题变体应用于页面的结果**|
 |:- |
@@ -52,7 +83,21 @@ Aspose.Diagram API 允许将预设主题应用于页面内的形状。为此，�
 
 #### **将预设主题应用于形状编程示例**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**将预设主题应用于形状的结果**|
 |:- |
@@ -69,7 +114,23 @@ Aspose.Diagram API 允许将预设主题变体应用于页面内的形状。为�
 
 #### **将预设主题变体应用于形状编程示例**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeVariantForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**将预设主题变体应用于形状的结果**|
 |:- |
@@ -87,7 +148,25 @@ Aspose.Diagram API 允许将预设主题快速样式应用于页面内的形状�
 
 #### **将预设主题变体 Quickstyle 应用于形状编程示例**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeQuickStyleForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+//Assign a Preset value to the PresetThemeQuickStyle property of the Shape instance
+shape.setPresetThemeQuickStyle(PresetQuickStyleValue.VARIANT_STYLE_2);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**将预设主题变体快速样式应用于形状的结果**|
 |:- |
@@ -105,7 +184,25 @@ Aspose.Diagram API 允许将预设主题快速样式应用于页面内的形状�
 
 #### **使用 setPresetThemeStyleMatrics 方法编程示例将预设主题样式应用于形状**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeStyleMatricsForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+//Assign a theme style by setting style value and color value of the Shape instance
+shape.setPresetThemeStyleMatrics(PresetStyleMatricsValue.STYLE_2, PresetColorMatricsValue.COLOR_7);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**使用 setPresetThemeStyleMatrics 方法将预设主题样式应用于形状的结果** |
 |:----------------------------------------------------------- |

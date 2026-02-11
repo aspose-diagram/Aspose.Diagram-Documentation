@@ -21,6 +21,26 @@ Les options de configuration de page sont entièrement prises en charge dans Asp
 
 ### **FitToSheetAcross**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetFitToSheetAcross.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+PrintProps printProps = diagram.Pages[0].PageSheet.PrintProps;
+
+printProps.OnPage.Value = BOOL.True;
+
+//Set Fit to sheet(s) across
+printProps.PagesX.Value = 1;
+
+//Set By sheet(s) down
+printProps.PagesY.Value = 1;
+
+{{< /highlight >}}
+```
 
 

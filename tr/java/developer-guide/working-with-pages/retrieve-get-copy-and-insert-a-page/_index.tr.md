@@ -19,7 +19,35 @@ Aşağıdaki resim, bu makaledeki kod parçacıklarının çıktısını göster
 ### **Sayfa Bilgilerini Al Programlama Örneği**
 Aşağıdaki kod parçası, sayfa bilgilerini bir diagram'den alır.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-RetrievePageInfo-RetrievePageInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrievePageInfo.class);
+
+//Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrievePageInfo.vdx");
+
+for (Page page : (Iterable<Page>) diagram.getPages())
+{
+    //Checks if current page is a background page
+    if (page.getBackground() == com.aspose.diagram.BOOL.TRUE)
+    {
+        //Display information about the background page
+        System.out.println("Background Page ID : " + page.getID());
+        System.out.println("Background Page Name : " + page.getName());
+    }
+    else
+    {
+        //Display information about the foreground page
+        System.out.println("\nPage ID : " + page.getID());
+        System.out.println("Universal Name : " + page.getNameU());
+        System.out.println("ID of the Background Page : " + page.getBackPage());
+    }
+}
+
+{{< /highlight >}}
+```
 ## **Bir Diagram'den Visio Sayfasını Alın**
 Bazen, geliştiricilerin Visio numaralı çizimin sayfa ayrıntılarını alması gerekir. Aspose.Diagram, bunu yapmalarına yardımcı olan özelliklere sahiptir.
 
@@ -32,7 +60,21 @@ Bu örnek şu şekilde çalışır:
 
 Aşağıdaki örnek, Visio çiziminden kimliğe göre bir sayfa nesnesinin nasıl alınacağını gösterir.
 #### **Kimliğe Göre Sayfa Nesnesi Al Programlama Örneği**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyID-GetVisioPagebyID.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page id
+int pageid = 2;
+// Get page object by id
+Page page2 = diagram.getPages().getPage(pageid);
+
+{{< /highlight >}}
+```
 ### **Ada Göre Visio Sayfa Nesnesi Alma**
 Bu örnek şu şekilde çalışır:
 
@@ -41,7 +83,21 @@ Bu örnek şu şekilde çalışır:
 #### **Ada Göre Sayfa Nesnesi Al Programlama Örneği**
 Aşağıdaki örnek, Visio çiziminden ada göre bir sayfa nesnesinin nasıl alınacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyName-GetVisioPagebyName.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page name
+String pageName = "Flow 2";
+// Get page object by name
+Page page2 = diagram.getPages().getPage(pageName);
+
+{{< /highlight >}}
+```
 ## **Bir Visio Sayfasını Başka Bir Diagram'e Kopyalayın**
 Aspose.Diagram for Java API, geliştiricilerin içeriğini bir Visio diagram'den diğerine kopyalamasına ve eklemesine olanak tanır. Bu yardım konusu, bu görevin nasıl gerçekleştirileceğini açıklar.
 
@@ -60,7 +116,54 @@ Bu örnek şu şekilde çalışır:
 ### **Visio Sayfa Programlama Örneği Kopyalama**
 Aşağıdaki kod örneği, bir Visio sayfa nesnesinin başka bir Visio çizimine nasıl kopyalanacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-CopyVisioPage-CopyVisioPage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CopyVisioPage.class);
+        
+// Call the diagram constructor to load diagram from a VSD file
+Diagram originalDiagram = new Diagram(dataDir + "Drawing1.vsd");
+
+// initialize the new visio diagram
+Diagram newDiagram = new Diagram();
+
+// add all masters from the source Visio diagram
+MasterCollection originalMasters = originalDiagram.getMasters();
+for (Master master : (Iterable<Master>) originalMasters) {
+   newDiagram.addMaster(originalDiagram, master.getName());
+}
+
+// get the page object from the original diagram
+Page SrcPage = originalDiagram.getPages().getPage("Page-1");
+// set page name
+SrcPage.setName("new page");
+        
+// it calculates max page id
+int max = 0;
+if (newDiagram.getPages().getCount() != 0)
+    max = newDiagram.getPages().get(0).getID();
+
+for (int i = 1; i < newDiagram.getPages().getCount(); i++)
+{
+    if (max < newDiagram.getPages().get(i).getID())
+        max = newDiagram.getPages().get(i).getID();
+}
+       
+int MaxPageId = max;
+// set page id
+SrcPage.setID(MaxPageId);
+// add reference of the original diagram page
+newDiagram.getPages().add(SrcPage);
+
+// remove first empty page
+newDiagram.getPages().remove(newDiagram.getPages().get(0));
+
+// save diagram in VDX format
+newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Visio Sayfasını başka bir Sayfa örneğine kopyalayın**
 Page sınıfının Copy yöntemi, klonlamak için bir sayfa örneği alır.
 
@@ -86,7 +189,43 @@ Sayfa koleksiyonu tarafından sunulan Add yöntemi, geliştiricilerin Visio diag
 ### **Boş Sayfa Programlama Örneği Ekleme**
 Aşağıdaki kod parçası, Visio Çizimine boş bir sayfa ekler:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
+// load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+        
+// it calculates max page id
+int max = 0;
+if (diagram.getPages().getCount() != 0)
+    max = diagram.getPages().get(0).getID();
+
+for (int i = 1; i < diagram.getPages().getCount(); i++)
+{
+    if (max < diagram.getPages().get(i).getID())
+        max = diagram.getPages().get(i).getID();
+}
+        
+// Initialize a new page object
+Page newPage = new Page();
+// Set name
+newPage.setName("new page");
+// Set page ID
+newPage.setID(max + 1);
+
+// Or try the Page constructor
+// Page newPage = new Page(MaxPageId + 1);
+
+// Add a new blank page
+diagram.getPages().add(newPage);
+
+// Save diagram
+diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Visio çiziminde Sayfa konumunu taşı**
 Aspose.Diagram for Java API Visio çiziminde sayfa konumunu kaydırabilir. Page sınıfı tarafından sunulan moveTo yöntemi, geliştiricilerin sayfa konumunu taşımasına yardımcı olur.
 ### **Sayfa konumunu taşı Programlama Örneği**

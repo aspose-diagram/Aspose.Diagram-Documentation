@@ -19,7 +19,22 @@ Aspose.Diagram API:er gör det möjligt att tillämpa ett förinställt tema fö
 - Skaffa en instans av Sidklass som ska ställas in
 - Tilldela ett förinställt värde till egenskapen PresetTheme för Page-instansen
 #### **Tillämpa ett förinställt tema på ett sidprogrammeringsexempel**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeForPage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Page class to be set theme
+Page page = diagram.getPages().get(0);
+//Assign a Preset value to the PresetTheme property of the Page instance
+page.setPresetTheme(PresetThemeValue.BUBBLE);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 |**Resultat av att tillämpa ett förinställt tema på en sida**|
 |:- |
@@ -36,7 +51,23 @@ Aspose.Diagram API: er gör det möjligt att tillämpa en förinställd temavari
 
 #### **Tillämpa en förinställd temavariant på ett sidprogrammeringsexempel**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeVariantForPage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Page class to be set theme
+Page page = diagram.getPages().get(0);
+//Assign a Preset value to the PresetTheme property of the Page instance
+page.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Page instance
+page.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Resultat av att tillämpa en förinställd temavariant på en sida**|
 |:- |
@@ -52,7 +83,21 @@ Aspose.Diagram API:er gör det möjligt att tillämpa ett förinställt tema på
 
 #### **Tillämpa ett förinställt tema på ett formprogrammeringsexempel**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Resultatet av att tillämpa ett förinställt tema på en form**|
 |:- |
@@ -69,7 +114,23 @@ Aspose.Diagram API:er gör det möjligt att tillämpa en förinställd temavaria
 
 #### **Tillämpa en förinställd temavariant på ett formprogrammeringsexempel**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeVariantForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Resultat av att tillämpa en förinställd temavariant på en form**|
 |:- |
@@ -87,7 +148,25 @@ Aspose.Diagram API:er gör det möjligt att tillämpa ett förinställt tema qui
 
 #### **Tillämpa en förinställd temavariant Quickstyle på ett formprogrammeringsexempel**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeQuickStyleForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+//Assign a Preset value to the PresetThemeQuickStyle property of the Shape instance
+shape.setPresetThemeQuickStyle(PresetQuickStyleValue.VARIANT_STYLE_2);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Resultat av att tillämpa en förinställd temavariant Quickstyle på en form**|
 |:- |
@@ -105,7 +184,25 @@ Aspose.Diagram API:er gör det möjligt att tillämpa ett förinställt tema qui
 
 #### **Tillämpa en förinställd temastil på en form med hjälp av setPresetThemeStyleMatrics Metod Programmeringsexempel**
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Working-with-Theme-SetThemeStyleMatricsForShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioThemes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Themes1.vsdx");
+//Get an instance of Shape class to be set theme
+Shape shape = doc.getPages().get(0).getShapes().get(0);
+//Assign a Preset value to the PresetTheme property of the Shape instance
+shape.setPresetTheme(PresetThemeValue.BUBBLE);
+//Assign a Preset value to the PresetThemeVariant property of the Shape instance
+shape.setPresetThemeVariant(PresetThemeVariantValue.VARIANT_3);
+//Assign a theme style by setting style value and color value of the Shape instance
+shape.setPresetThemeStyleMatrics(PresetStyleMatricsValue.STYLE_2, PresetColorMatricsValue.COLOR_7);
+// Save diagram
+diagram.save(dataDir + "SetTheme_out.vsdx", SaveFileFormat.VSDX);
+{{< /highlight >}}
+```
 
 |**Resultat av att tillämpa en förinställd temastil på en form med metoden setPresetThemeStyleMatrics** |
 |:----------------------------------------------------------- |

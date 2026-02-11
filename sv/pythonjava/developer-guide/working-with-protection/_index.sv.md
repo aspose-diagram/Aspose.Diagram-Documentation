@@ -22,7 +22,31 @@ I Microsoft Visio skyddar du dokument på detta sätt:
 
 Använd koden nedan i din ansökan för att utföra samma uppgifter – låsa och låsa upp olika delar av din diagram – med Aspose.Diagram för Python via Java.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-VisioDiagramProtection.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Load diagram
+diagram = Diagram("ProtectAndUnprotect.vsd")
+
+diagram.getDocumentSettings().setProtectBkgnds(BOOL.TRUE)
+diagram.getDocumentSettings().setProtectMasters(BOOL.TRUE)
+diagram.getDocumentSettings().setProtectShapes(BOOL.TRUE)
+diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE)
+
+# save diagram
+diagram.save("VisioDiagramProtection_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ### **Redigera Visio Shape Protection**
 Genom att skydda Visio-former kan användare låsa specifika aspekter av former. Aspekter av former som kan låsas genom formskydd inkluderar bredd, höjd, x-position, y-position, rotation med mera. Utvecklare kan uppnå detta med Aspose.Diagram för Python via Java.
@@ -41,4 +65,48 @@ Visio måste du utföra följande åtgärder för att skydda alla former:
 
 Använd följande kod i din Java-applikation för att göra samma sak (låsa/låsa upp valfritt formattribut) med Aspose.Diagram för Python via Java.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-VisioShapeProtection.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Load diagram
+diagram = Diagram("ProtectAndUnprotect.vsd")
+# get page by name
+page = diagram.getPages().getPage("Flow 1")
+# get shape by ID
+shape = page.getShapes().getShape(1)
+
+# set protections
+shape.getProtection().getLockAspect().setValue(BOOL.TRUE)
+shape.getProtection().getLockBegin().setValue(BOOL.TRUE)
+shape.getProtection().getLockCalcWH().setValue(BOOL.TRUE)
+shape.getProtection().getLockCrop().setValue(BOOL.TRUE)
+shape.getProtection().getLockCustProp().setValue(BOOL.TRUE)
+shape.getProtection().getLockDelete().setValue(BOOL.TRUE)
+shape.getProtection().getLockEnd().setValue(BOOL.TRUE)
+shape.getProtection().getLockFormat().setValue(BOOL.TRUE)
+shape.getProtection().getLockFromGroupFormat().setValue(BOOL.TRUE)
+shape.getProtection().getLockGroup().setValue(BOOL.TRUE)
+shape.getProtection().getLockHeight().setValue(BOOL.TRUE)
+shape.getProtection().getLockMoveX().setValue(BOOL.TRUE)
+shape.getProtection().getLockMoveY().setValue(BOOL.TRUE)
+shape.getProtection().getLockRotate().setValue(BOOL.TRUE)
+shape.getProtection().getLockSelect().setValue(BOOL.TRUE)
+shape.getProtection().getLockTextEdit().setValue(BOOL.TRUE)
+shape.getProtection().getLockThemeColors().setValue(BOOL.TRUE)
+shape.getProtection().getLockThemeEffects().setValue(BOOL.TRUE)
+shape.getProtection().getLockVtxEdit().setValue(BOOL.TRUE)
+shape.getProtection().getLockWidth().setValue(BOOL.TRUE)
+        
+# save diagram
+diagram.save("VisioShapeProtection_Out.vdx", SaveFileFormat.VDX)
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

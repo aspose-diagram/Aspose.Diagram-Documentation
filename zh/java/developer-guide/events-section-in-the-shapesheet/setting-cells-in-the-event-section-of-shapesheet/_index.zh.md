@@ -19,4 +19,30 @@ url: /zh/java/setting-cells-in-the-event-section-of-shapesheet/
 ## **设置事件单元格**
 [事件](https://reference.aspose.com/diagram/java/com.aspose.diagram/event)类允许开发人员在 ShapeSheet 中设置事件单元格。此帮助主题演示了开发人员如何在事件单元格中设置公式：
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-eventsection-SettingEventCells-SettingEventCells.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SettingEventCells.class);
+// load diagram
+Diagram diagram = new Diagram(dataDir + "TestTemplate.vsdm");
+// get page
+Page page = diagram.getPages().get(0);
+// get shape id
+long shapeId = page.addShape(3.0, 3.0, 0.36, 0.36, "Square");
+// get shape
+Shape shape = page.getShapes().getShape(shapeId);
+
+// set event cells in the ShapeSheet
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+shape.getEvent().getEventXFMod().getUfe().setF("CALLTHIS(\"ThisDocument.ShowAlert\")");
+
+// save diagram
+diagram.save(dataDir + "Output_NET.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```

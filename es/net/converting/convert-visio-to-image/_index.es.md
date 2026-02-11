@@ -14,8 +14,39 @@ Para exportar un diagram a una imagen:
 - Cree una instancia de la clase Diagram.
 - Llame al método Guardar de la clase Diagram y configure el formato de imagen al que desea exportar. El archivo de imagen de salida se parece al archivo original.
 ### **Exportar Microsoft Visio Dibujo a archivo de imagen**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToImage-ExportToImage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
+
+// Save Image file
+diagram.Save(dataDir + "ExportToImage_out.png", SaveFileFormat.PNG);
+
+{{< /highlight >}}
+```
 
 También es posible guardar una página en particular en la imagen, en lugar de todo el documento:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportPageToImage-ExportPageToImage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ExportPageToImage.vsd");
+
+// Save diagram as PNG
+ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.PNG);
+
+// Save one page only, by page index
+options.PageIndex = 0;
+
+// Save resultant Image file
+diagram.Save(dataDir + "ExportPageToImage_out.png", options);
+
+{{< /highlight >}}
+```

@@ -9,7 +9,22 @@ description: 如何使用 Java Diagram API 为 visio 添加水印。
 ## **创建一个 Diagram**
  Aspose.Diagram for Java 允许您从自己的应用程序中读取和创建 Microsoft Visio 图表，无需 Microsoft Office 自动化。创建新文档的第一步是创建一个 diagram。然后[添加形状和连接器](https://docs.aspose.com/diagram/java/add-retrieve-copy-and-read-visio-shape-data/)构建 diagram。使用默认构造函数[Diagram](http://www.aspose.com/api/java/diagram/com.aspose.diagram/diagram)类创建一个新的 diagram。
 ### **编程范例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateDiagram.class);
+// Create directory if it is not already present.
+File file = new File(dataDir);
+if (!file.exists())
+	file.mkdir();
+// initialize a new Diagram
+Diagram diagram = new Diagram();
+// save in the VSDX format
+diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 这个例子的工作原理如下：
 
@@ -19,4 +34,27 @@ description: 如何使用 Java Diagram API 为 visio 添加水印。
 ### **添加水印编程示例**
 下面的示例代码展示了如何在 Visio diagram 中添加水印。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Text-AddWatermarkToVisio-AddWatermarkToVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AddWatermarkToVisio.class);   
+        
+// load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-1");
+
+double pinx = page.getPageSheet().getPageProps().getPageWidth().getValue() / 2;
+double piny = page.getPageSheet().getPageProps().getPageHeight().getValue() / 2;
+double width = page.getPageSheet().getPageProps().getPageWidth().getValue();
+double height =page.getPageSheet().getPageProps().getPageHeight().getValue();
+    
+//Add watermark
+Shape shape = page.addText(pinx, piny, width, height, "Test text","Calibri","#a5a5a5",0.25);
+
+// save diagram
+diagram.save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

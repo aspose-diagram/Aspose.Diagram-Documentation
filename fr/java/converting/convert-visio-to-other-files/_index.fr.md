@@ -58,7 +58,31 @@ L'image ci-dessous montre le fichier de sortie VTX.
 
 ![tâche : image_autre_texte](http://i.imgur.com/E6pUvGD.jpg)
 ### **Exportation vers un exemple de programmation XML**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXML.class);
+
+/* 1. Exporting VSDX to VDX */
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXML.vsd");
+
+//Save input VSD as VDX
+diagram.save(dataDir + "ExportToXML_Out.vdx", SaveFileFormat.VDX);
+
+/* 2. Exporting from VSD to VSX */
+// Call the diagram constructor to load diagram from a VSD file
+        
+//Save input VSD as VSX
+diagram.save(dataDir + "ExportToXML_Out.vsx", SaveFileFormat.VSX);
+        
+/* 3. Export VSD to VTX */
+//Save input VSD as VTX
+diagram.save(dataDir + "ExportToXML_Out.vtx", SaveFileFormat.VTX);
+
+{{< /highlight >}}
+```
 ## **Exporting to XPS**
 This article explains how to export a Microsoft Visio diagram to XPS using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  Utilisez le[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' pour lire les fichiers diagram et la méthode Save pour exporter le diagram vers n'importe quel format d'image pris en charge.
@@ -80,7 +104,20 @@ L'image ci-dessous montre le fichier de sortie XPS.
 
 ![tâche : image_autre_texte](http://i.imgur.com/1ESRxSy.png)
 ### **Exporting to XPS Programming Sample**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXPS.class);
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir+ "ExportToXPS.vsd");
+
+// Save as XPS
+diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
+
+{{< /highlight >}}
+```
 ## **Exporting a Diagram to SVG**
 This article explains how to export a Microsoft Visio diagram to SVG (Scalable Vector Graphics) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -93,7 +130,20 @@ To export VSD diagram to SVG, perform the following steps:
 ### **Exporting Diagram to SVG Programming Sample**
 The code samples show how to export a diagram to SVG using Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToSVG.class);
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+
+// Save as SVG
+diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 ## **Exporting a Diagram to XAML**
 This article explains how to export a Microsoft Visio diagram to XAML (Extensible Application Markup Language) using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -106,7 +156,20 @@ Pour exporter un VSD diagram vers XAML :
 ### **Exporting to XAML Programming Sample**
 The code sample show how to export a diagram to XAML using Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXAML.class); 
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+
+// save as XAML
+diagram.save(dataDir + "ExportToXAML_Out.xaml", SaveFileFormat.XAML);
+
+{{< /highlight >}}
+```
 
 ## **Convertir le dessin Visio avec des formes sélectives**
 À l'aide de Aspose.Diagram API, les développeurs peuvent sélectionner un groupe de formes pour convertir un dessin Visio dans tout autre format pris en charge. La classe RenderingSaveOptions propose un membre Shapes pour maintenir le groupe de formes. Chaque classe d'options de sauvegarde est la forme étendue de la classe RenderingSaveOptions.
@@ -119,4 +182,23 @@ Pour exporter un dessin Visio avec des formes sélectives :
 ### **Convertir Visio Dessin avec exemple de programmation de formes sélectives**
 L'exemple de code montre comment exporter un dessin avec des formes Visio sélectives.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ConvertVisioWithSelectiveShapes.Java" >}}
+```
+{{< highlight "java" >}}
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ConvertVisioWithSelectiveShapes.class) + "LoadSaveConvert\\";
+		
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance SVG save options class
+SVGSaveOptions options = new SVGSaveOptions();
+ShapeCollection shapes = options.getShapes();
+
+// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.getPages().get(0).getShapes().getShape(1));
+shapes.add(diagram.getPages().get(0).getShapes().getShape(2));
+
+// save Visio drawing
+diagram.save(dataDir + "SelectiveShapes_out.svg", options);
+{{< /highlight >}}
+```

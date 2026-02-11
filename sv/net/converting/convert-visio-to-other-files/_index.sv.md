@@ -10,7 +10,31 @@ description: Det här ämnet visar hur du Aspose.Diagram tillåter att konverter
 ### **Exportera Microsoft Visio Ritning till PDF**
 Kodexemplen visar hur man exporterar Microsoft Visio Ritning till PDF med C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 
  Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till XML med[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
@@ -55,7 +79,31 @@ Så här exporterar du ett VSD diagram till VTX:
 ### **Exportera Microsoft Visio Ritning till XML**
 Kodexemplen visar hur man exporterar Microsoft Visio Ritning till XML med C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXML-ExportToXML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+            
+/* 1. Exporting VSDX to VDX */
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXML.vsd");
+
+// Save input VSD as VDX
+diagram.Save(dataDir + "ExportToXML_out.vdx", SaveFileFormat.VDX);
+
+/* 2. Exporting from VSD to VSX */
+// Call the diagram constructor to load diagram from a VSD file
+            
+// Save input VSD as VSX
+diagram.Save(dataDir + "ExportToXML_out.vsx", SaveFileFormat.VSX);
+            
+/* 3. Export VSD to VTX */
+// Save input VSD as VTX
+diagram.Save(dataDir + "ExportToXML_out.vtx", SaveFileFormat.VTX);
+
+{{< /highlight >}}
+```
 
 ## **Exportera till XPS**
  Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till XPS med[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
@@ -75,7 +123,20 @@ Så här exporterar du VSD diagram till XPS:
 ### **Exportera Microsoft Visio Ritning till XPS**
 Kodexemplen visar hur man exporterar Microsoft Visio Ritning till XPS med C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXPS-ExportToXPS.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Open a VSD file
+Diagram diagram = new Diagram(dataDir + "LayOutShapesInCompactTreeStyle.vdx");
+
+// Save diagram to an XPS format
+diagram.Save(dataDir + "ExportToXPS_out.xps", SaveFileFormat.XPS);
+
+{{< /highlight >}}
+```
 
 ## **Exportera ett Diagram till SVG**
  Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till SVG (Scalable Vector Graphics) med[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
@@ -89,7 +150,20 @@ För att exportera VSD diagram till SVG, utför följande steg:
 ### **Exportera Microsoft Visio Ritning till SVG**
 Kodexemplen visar hur man exporterar en diagram till SVG med C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSVG-ExportToSVG.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+
+// Save SVG Output file
+diagram.Save(dataDir + "Output.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 ## **Exportera till SWF**
  Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till SWF med[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
@@ -106,11 +180,44 @@ För att exportera VSD diagram till SWF::
 - Skapa en instans av klassen Diagram.
 - Ring Diagram-klassens Spara-metod och ange SWF-format för att exportera din diagram till SWF.
 ### **Inbyggd Viewer-programmeringsexempel**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSWF-ExportToSWF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
+// Save diagram
+diagram.Save(dataDir + "Output_out.swf", SaveFileFormat.SWF);
+
+{{< /highlight >}}
+```
 ### **Utan Viewer-programmeringsexempel**
 SWF-filen som skapas av dessa kodavsnitt inkluderar en SWF-visare. Uteslut visningsprogrammet SWF från filen med följande kod.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-ExportToSWFWithoutViewer-ExportToSWFWithoutViewer.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Instantiate Diagram Object and open VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
+
+// Instantiate the Save Options
+SWFSaveOptions options = new SWFSaveOptions();
+
+// Set Save format as SWF
+options.SaveFormat = SaveFileFormat.SWF;
+
+// Exclude the embedded viewer
+options.ViewerIncluded = false;
+
+// Save the resultant SWF file
+diagram.Save(dataDir + "ExportToSWFWithoutViewer_out.swf", SaveFileFormat.SWF);
+
+{{< /highlight >}}
+```
 ## **Exportera ett Diagram till XAML**
 Den här artikeln förklarar hur du exporterar en Microsoft Visio diagram till XAML (Extensible Application Markup Language) med[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
 
@@ -123,7 +230,18 @@ Så här exporterar du ett VSD diagram till XAML:
 ### **Exportera Microsoft Visio Ritning till XAML**
 Kodexemplet visar hur man exporterar en diagram till XAML med C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXAML-ExportToXAML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+// Save diagram
+diagram.Save(dataDir + "ExportToXAML_out.xaml", SaveFileFormat.XAML);
+
+{{< /highlight >}}
+```
 ## **Konvertera Visio Rita med selektiva former**
 Med hjälp av Aspose.Diagram API kan utvecklare välja en grupp former för att konvertera en Visio-ritning till vilket annat format som helst. RenderingSaveOptions-klassen erbjuder en Shapes-medlem för att underhålla gruppen av former. Varje sparalternativklass är den utökade formen av RenderingSaveOptions-klassen.
 
@@ -135,4 +253,23 @@ Så här exporterar du en Visio-ritning med selektiva former:
 ### **Konvertera Visio Ritning med selektiva former Programmeringsexempel**
 Kodexemplet visar hur man exporterar en ritning med selektiva Visio-former.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ConvertVisioWithSelectiveShapes.cs" >}}
+```
+{{< highlight "csharp" >}}
+// the path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance SVG save options class
+SVGSaveOptions options = new SVGSaveOptions();
+ShapeCollection shapes = options.Shapes;
+
+// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.Add(diagram.Pages[0].Shapes.GetShape(1));
+shapes.Add(diagram.Pages[0].Shapes.GetShape(2));
+
+// save Visio drawing
+diagram.Save(dataDir + "SelectiveShapes_out.svg", options);
+{{< /highlight >}}
+```

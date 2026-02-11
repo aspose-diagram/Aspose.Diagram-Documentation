@@ -14,7 +14,26 @@ description: يشرح هذا القسم كيفية قراءة الخلايا ا�
 #### **استرجاع عينة برمجة الخلايا**
 يسمح الجزء التالي من التعليمات البرمجية للمطورين بقراءة حقول الخلايا التي يحددها المستخدم.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(1);
+// Extract user defined cells of the shape
+foreach (User user in shape.Users)
+{
+    Console.WriteLine(user.Name + ": " + user.Value.Val);
+}
+
+{{< /highlight >}}
+```
 
 
 توضح هذه الصورة الإخراج بعد تشغيل الكود أعلاه:
@@ -27,7 +46,31 @@ description: يشرح هذا القسم كيفية قراءة الخلايا ا�
 #### **عينة تكوين خلية البرمجة**
 استخدم مثال التعليمات البرمجية التالي في تطبيق .NET الخاص بك لإنشاء خلية معرّفة من قبل المستخدم في ورقة الأشكال باستخدام Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(2);
+            
+// Initialize user object
+User user = new User();
+user.Name = "UserDefineCell";
+user.Value.Val = "800";
+// Add user-defined cell
+shape.Users.Add(user);
+
+// Save diagram
+diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **استرجع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال**
 Aspose.Diagram for .NET API يسمح باسترداد الخلايا المعرفة من قبل المستخدم من ورقة الأشكال. يصف هذا المثال الموضوع الطريقة ، يمكن للمطورين استرداد كل User.name لجميع الأشكال في الرسم.
 ### **استرداد الخلايا المعرفة من قبل المستخدم**
@@ -35,4 +78,30 @@ Aspose.Diagram for .NET API يسمح باسترداد الخلايا المعر�
 #### **استرجع الخلايا من نماذج برمجة ورقة الأشكال**
 استخدم الكود التالي في تطبيق .NET الخاص بك لاسترداد جميع الخلايا المعرفة من قبل المستخدم من ورقة الأشكال باستخدام Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-RetrieveUserDefinedCells-RetrieveUserDefinedCells.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+int count = 0;
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Iterate through pages
+foreach (Aspose.Diagram.Page objPage in diagram.Pages)
+{
+    // Iterate through shapes
+    foreach (Aspose.Diagram.Shape objShape in objPage.Shapes)
+    {
+        Console.WriteLine(objShape.NameU);
+        // Iterate through user-defined cells
+        foreach (Aspose.Diagram.User objUserField in objShape.Users)
+        {
+            count++;
+            Console.WriteLine(count + " - Name: " + objUserField.NameU + " Value: " + objUserField.Value.Val + " Prompt: " + objUserField.Prompt.Value);
+        }
+    }
+}  
+
+{{< /highlight >}}
+```

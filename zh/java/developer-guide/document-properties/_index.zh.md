@@ -62,7 +62,22 @@ Aspose.Diagram API 支持两种类型的文档属性，内置的和自定义的�
 - 要访问内置文档属性，请使用[**diagram.DocumentProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/documentproperties).
 - 要访问自定义文档属性，请使用[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/java/com.aspose.diagram/CustomPropCollection).
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **添加或删除自定义文档属性**
 
@@ -72,10 +87,40 @@ Aspose.Diagram API 支持两种类型的文档属性，内置的和自定义的�
 
 Aspose.Diagram API暴露了[**添加**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#add(com.aspose.diagram.CustomProp) 的方法[**自定义道具集合**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection)类以便将自定义属性添加到集合中。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 
 ### **删除自定义属性**
 
 要使用 Aspose.Diagram 删除自定义属性，请调用[**CustomPropCollection.Remove**](https://reference.aspose.com/diagram/java/com.aspose.diagram/custompropcollection#remove(com.aspose.diagram.CustomProp)) 方法并传递要删除的文档属性的名称。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```

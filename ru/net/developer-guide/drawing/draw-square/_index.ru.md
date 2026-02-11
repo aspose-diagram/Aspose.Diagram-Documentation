@@ -8,24 +8,103 @@ description: В этом разделе объясняется, как нари�
 ## **Нарисуйте квадрат в Visio**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать квадрат на странице. В приведенном ниже примере кода показано, как нарисовать квадрат на чертеже Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsVSDX.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            
+//Draw square in page
+diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
+
+// Save diagram
+diagram.Save(dataDir + "DrawSquareInPage_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 ## **Нарисуйте квадрат в SVG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать квадрат на странице и сохранять в формате SVG. В приведенном ниже примере кода показано, как нарисовать квадрат на чертеже Visio и сохранить его в формате SVG.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsSVG.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            
+//Draw square in page
+diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
+
+// Save diagram as SVG images
+SVGSaveOptions imageSaveOptions = new SVGSaveOptions();
+imageSaveOptions.PageIndex = 0;
+diagram.Save(dataDir + "DrawSquareInPage_out.svg", imageSaveOptions);
+
+{{< /highlight >}}
+```
 
 ## **Нарисуйте квадрат в PDF**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать квадрат на странице и сохранять в формате PDF. В приведенном ниже примере кода показано, как нарисовать квадрат на чертеже Visio и сохранить его в формате PDF.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            
+//Draw square in page
+diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
+
+// Save diagram
+diagram.Save(dataDir + "DrawSquareInPage_out.pdf", new PdfSaveOptions());
+
+{{< /highlight >}}
+```
 
 ## **Нарисуйте квадрат в PNG**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать квадрат на странице и сохранять в формате PNG. В приведенном ниже примере кода показано, как нарисовать квадрат на чертеже Visio и сохранить его в формате PNG.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsPNG.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            
+//Draw square in page
+diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
+
+// Save diagram as PNG image
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFileFormat.PNG);
+imageSaveOptions.PageIndex = 0;
+diagram.Save(dataDir + "DrawSquareInPage_out.png", imageSaveOptions);
+
+{{< /highlight >}}
+```
 
 ## **Нарисуйте квадрат в HTML**
 Aspose.Diagram for .NET API позволяет разработчикам рисовать квадрат на странице и сохранять в формате HTML. В приведенном ниже примере кода показано, как нарисовать квадрат на чертеже Visio и сохранить его в формате HTML.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-DrawSquareInPage-AsHTML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            
+//Draw square in page
+diagram.Pages[0].DrawRectangle(1, 1, 2, 2);
+
+// Save diagram
+diagram.Save(dataDir + "DrawSquareInPage_out.html", new HTMLSaveOptions());
+
+{{< /highlight >}}
+```

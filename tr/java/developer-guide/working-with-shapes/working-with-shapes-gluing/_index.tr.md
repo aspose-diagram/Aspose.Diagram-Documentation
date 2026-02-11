@@ -17,7 +17,27 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Bağlayıcıları Yapıştırılmış Programlama Örneği Alın**
 Aspose.Diagram for Java kullanarak bir şekle yapıştırılmış tüm konektörleri bulmak için Java uygulamanızda aşağıdaki kodu kullanın.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GetGluedConnectors-GetGluedConnectors.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
+// call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "RetrieveShapeInfo.vsd");
+// get shape by an ID
+Shape shape = diagram.getPages().get(0).getShapes().getShape(90);
+// get all glued 1D shapes
+long[] gluedShapeIds = shape.gluedShapes(GluedShapesFlags.GLUED_SHAPES_ALL_1_D, null, null);
+
+// display shape ID and name
+for (long id : gluedShapeIds)
+{
+    shape = diagram.getPages().get(0).getShapes().getShape(id);
+    System.out.println("ID: " + shape.getID() + "\t\t Name: " + shape.getName());
+}
+
+{{< /highlight >}}
+```
 ## **Yapıştırıcı Visio Şekilleri Bağlantı Noktasıyla Birlikte**
 Aspose.Diagram for Java, geliştiricilerin bağlantı noktalarından şekilleri birbirine yapıştırmasına olanak tanır.
 ### **Tutkal Şekilleri**
@@ -33,7 +53,27 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Tutkal Visio Şekil Programlama Örneği**
 Bağlantı noktalarından şekilleri yapıştırmak için Java uygulamanızda aşağıdaki kodu kullanın:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueVisioShapes-GlueVisioShapes.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GlueVisioShapes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+// set shape id
+long shape1_ID = 7;
+long shape2_ID = 494;
+// Glue shapes
+page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
+
+// Save diagram
+diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Kabın İçindeki Tutkal Şekilleri**
 Aspose.Diagram for Java, geliştiricilerin grup şekillerini bir kapsayıcı içine yapıştırmalarına olanak tanır.
 ### **Tutkal Grubu Şekli**
@@ -49,4 +89,34 @@ Aşağıdaki kod nasıl yapılacağını gösterir:
 #### **Şekilleri Programlama Örneği İçinde Tutkalla**
 Grup şeklini bir kabın içine yapıştırmak için Java uygulamanızda aşağıdaki kodu kullanın:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueContainerShape-GlueContainerShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GlueContainerShape.class);   
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+
+// The ID of shape which is glue from Aspose.Diagram.Shape.
+long shapeFromId = 779;
+// The location on the first connection index where to glue
+int shapeToBeginConnectionIndex = 72;
+// The location on the end connection index where to glue
+int shapeToEndConnectionIndex = 73;
+// The ID of shape where to glue to Aspose.Diagram.Shape.
+long shapeToId = 743;
+
+// Glue shapes in container
+page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndConnectionIndex, shapeToId);
+
+// Glue shapes in container using connection name
+// page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
+
+// Save diagram
+diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

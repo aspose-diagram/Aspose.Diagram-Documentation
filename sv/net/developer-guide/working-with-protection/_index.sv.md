@@ -18,7 +18,24 @@ Egenskaperna ProtectBkgnds, ProtectMasters, ProtectShapes och ProtectStyles, exp
 #### **Redigera Diagram skyddsprogrammeringsexempel**
 Använd koden nedan i en .NET-applikation för att utföra samma uppgifter som att låsa och låsa upp olika delar av Visio diagram med Aspose.Diagram for .NET API.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-VisioDiagramProtection-VisioDiagramProtection.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Protection();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+
+diagram.DocumentSettings.ProtectBkgnds = BOOL.True;
+diagram.DocumentSettings.ProtectMasters = BOOL.True;
+diagram.DocumentSettings.ProtectShapes = BOOL.True;
+diagram.DocumentSettings.ProtectStyles = BOOL.True;
+// Save diagram
+diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **Ställ in skydd av formen Visio**
  Genom att skydda Visio-former kan användare låsa specifika aspekter av former. Aspekter av former som kan låsas genom formskydd inkluderar bredd, höjd, x-position, y-position, rotation med mera. Utvecklare kan uppnå detta med hjälp av[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **Redigera Visio Shape Protection**
@@ -34,4 +51,43 @@ I Microsoft Office Visio kan användaren utföra följande åtgärder för att s
 ### **Redigera formskyddsprogrammeringsexemplet**
 Använd följande kod i din .NET-applikation för att göra samma sak (låsa/låsa upp valfritt formattribut) med Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-VisioShapeProtection-VisioShapeProtection.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Protection();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+// Get page by name
+Page page = diagram.Pages.GetPage("Flow 1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+
+// Set protections
+shape.Protection.LockAspect.Value = BOOL.True;
+shape.Protection.LockBegin.Value = BOOL.True;
+shape.Protection.LockCalcWH.Value = BOOL.True;
+shape.Protection.LockCrop.Value = BOOL.True;
+shape.Protection.LockCustProp.Value = BOOL.True;
+shape.Protection.LockDelete.Value = BOOL.True;
+shape.Protection.LockEnd.Value = BOOL.True;
+shape.Protection.LockFormat.Value = BOOL.True;
+shape.Protection.LockFromGroupFormat.Value = BOOL.True;
+shape.Protection.LockGroup.Value = BOOL.True;
+shape.Protection.LockHeight.Value = BOOL.True;
+shape.Protection.LockMoveX.Value = BOOL.True;
+shape.Protection.LockMoveY.Value = BOOL.True;
+shape.Protection.LockRotate.Value = BOOL.True;
+shape.Protection.LockSelect.Value = BOOL.True;
+shape.Protection.LockTextEdit.Value = BOOL.True;
+shape.Protection.LockThemeColors.Value = BOOL.True;
+shape.Protection.LockThemeEffects.Value = BOOL.True;
+shape.Protection.LockVtxEdit.Value = BOOL.True;
+shape.Protection.LockWidth.Value = BOOL.True;
+            
+// Save diagram
+diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

@@ -12,5 +12,25 @@ Cada forma en un diagram tiene una identificación y un nombre. El ID es importa
 #### **Recuperar Visio Muestra de programación de forma**
 El siguiente fragmento de código recupera la forma, incluido el niño. Por favor revise este código de muestra:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-GetShapeIncludingChild-GetShapeIncludingChild.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "NetworkConnection.vsdx");
+
+Page page = diagram.Pages[0];
+
+Shape shapeContainerChild = page.Shapes.GetShapeIncludingChild("RectangleChild");
+
+if (shapeContainerChild == null)
+    throw new Exception();
+    
+// Save visio diagram
+diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 

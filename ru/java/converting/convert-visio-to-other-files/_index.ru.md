@@ -58,7 +58,31 @@ TVX представляет собой XML-представление файл�
 
 ![дело:изображение_альтернативный_текст](http://i.imgur.com/E6pUvGD.jpg)
 ### **Пример программирования экспорта в XML**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXML.class);
+
+/* 1. Exporting VSDX to VDX */
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXML.vsd");
+
+//Save input VSD as VDX
+diagram.save(dataDir + "ExportToXML_Out.vdx", SaveFileFormat.VDX);
+
+/* 2. Exporting from VSD to VSX */
+// Call the diagram constructor to load diagram from a VSD file
+        
+//Save input VSD as VSX
+diagram.save(dataDir + "ExportToXML_Out.vsx", SaveFileFormat.VSX);
+        
+/* 3. Export VSD to VTX */
+//Save input VSD as VTX
+diagram.save(dataDir + "ExportToXML_Out.vtx", SaveFileFormat.VTX);
+
+{{< /highlight >}}
+```
 ## **Экспорт на XPS**
  В этой статье объясняется, как экспортировать Microsoft Visio diagram в XPS с помощью[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  Использовать[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class' для чтения файлов diagram и метод Save для экспорта diagram в любой поддерживаемый формат изображения.
@@ -80,7 +104,20 @@ TVX представляет собой XML-представление файл�
 
 ![дело:изображение_альтернативный_текст](http://i.imgur.com/1ESRxSy.png)
 ### **Экспорт в XPS Образец программы**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXPS.class);
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir+ "ExportToXPS.vsd");
+
+// Save as XPS
+diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
+
+{{< /highlight >}}
+```
 ## **Экспорт Diagram в SVG**
  В этой статье объясняется, как экспортировать Microsoft Visio diagram в SVG (масштабируемая векторная графика) с помощью[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -93,7 +130,20 @@ TVX представляет собой XML-представление файл�
 ### **Экспорт Diagram в SVG Образец программы**
 Примеры кода показывают, как экспортировать diagram в SVG с помощью Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToSVG.class);
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+
+// Save as SVG
+diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 ## **Экспорт Diagram в XAML**
 В этой статье объясняется, как экспортировать Microsoft Visio diagram в XAML (расширяемый язык разметки приложений) с помощью[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -106,7 +156,20 @@ TVX представляет собой XML-представление файл�
 ### **Экспорт в XAML Образец программы**
 В примере кода показано, как экспортировать diagram в XAML с помощью Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXAML.class); 
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+
+// save as XAML
+diagram.save(dataDir + "ExportToXAML_Out.xaml", SaveFileFormat.XAML);
+
+{{< /highlight >}}
+```
 
 ## **Преобразовать Visio Рисунок с выбранными фигурами**
 Используя Aspose.Diagram API, разработчики могут выбрать группу фигур для преобразования рисунка Visio в любой другой поддерживаемый формат. Класс RenderingSaveOptions предлагает член Shapes для поддержки группы фигур. Каждый класс параметров сохранения является расширенной формой класса RenderingSaveOptions.
@@ -119,4 +182,23 @@ TVX представляет собой XML-представление файл�
 ### **Преобразовать Visio Рисунок с образцом программирования выборочных фигур**
 В примере кода показано, как экспортировать рисунок с выбранными фигурами Visio.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ConvertVisioWithSelectiveShapes.Java" >}}
+```
+{{< highlight "java" >}}
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ConvertVisioWithSelectiveShapes.class) + "LoadSaveConvert\\";
+		
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance SVG save options class
+SVGSaveOptions options = new SVGSaveOptions();
+ShapeCollection shapes = options.getShapes();
+
+// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.getPages().get(0).getShapes().getShape(1));
+shapes.add(diagram.getPages().get(0).getShapes().getShape(2));
+
+// save Visio drawing
+diagram.save(dataDir + "SelectiveShapes_out.svg", options);
+{{< /highlight >}}
+```

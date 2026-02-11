@@ -8,7 +8,24 @@ description: Use C# Diagram API para crear, actualizar y diseñar formas automá
 ## **Creando un Diagram**
  Aspose.Diagram for .NET le permite leer y crear diagramas Microsoft Visio desde sus propias aplicaciones, sin Microsoft Office automatización. El primer paso al crear nuevos documentos es crear un diagram. Luego[añadir formas y conectores](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)para construir el diagram. Use el constructor predeterminado de[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clase para crear un nuevo diagram.
 ### **Ejemplo de programación**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-CreateDiagram-CreateDiagram.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+// Initialize a new Visio
+Diagram diagram = new Diagram();
+dataDir = dataDir + "CreateDiagram_out.vsdx";
+// Save in the VSDX format
+diagram.Save(dataDir, SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Formas de diseño en estilo de diagrama de flujo**
  Con ciertos tipos de dibujos conectados, como diagramas de flujo y diagramas de red, puede utilizar el**Formas de diseño** característica para posicionar formas automáticamente. El posicionamiento automático es más rápido que arrastrar manualmente cada forma a una nueva ubicación.
 
@@ -34,7 +51,47 @@ Para diseñar formas en estilo de diagrama de flujo:
 1. Llame al método Layout de la clase Diagram pasando LayoutOptions.
 1. Llame al método Guardar de la clase Diagram para escribir el dibujo Visio.
 ### **Ejemplo de programación de estilo de diagrama de flujo**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-LayOutShapesInFlowchartStyle-LayOutShapesInFlowchartStyle.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Load an existing Visio diagram
+string fileName = "LayOutShapesInFlowchartStyle.vdx";
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// Set layout options 
+LayoutOptions flowChartOptions = new LayoutOptions();
+flowChartOptions.LayoutStyle = LayoutStyle.FlowChart;
+flowChartOptions.SpaceShapes = 1f;
+flowChartOptions.EnlargePage = true;
+
+// Set layout direction as BottomToTop and then save
+flowChartOptions.Direction = LayoutDirection.BottomToTop;
+diagram.Layout(flowChartOptions);
+diagram.Save(dataDir + "sample_btm_top_out.vdx", SaveFileFormat.VDX);
+
+// Set layout direction as TopToBottom and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.Direction = LayoutDirection.TopToBottom;
+diagram.Layout(flowChartOptions);
+diagram.Save(dataDir + "sample_top_btm_out.vdx", SaveFileFormat.VDX);
+
+// Set layout direction as LeftToRight and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.Direction = LayoutDirection.LeftToRight;
+diagram.Layout(flowChartOptions);
+diagram.Save(dataDir + "sample_left_right_out.vdx", SaveFileFormat.VDX);
+
+// Set layout direction as RightToLeft and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.Direction = LayoutDirection.RightToLeft;
+diagram.Layout(flowChartOptions);
+diagram.Save(dataDir + "sample_right_left_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ### **Disposición de formas en el estilo de árbol compacto**
  El estilo de diseño de árbol compacto intenta construir una estructura de árbol. Utiliza el mismo archivo de entrada que el[ejemplo anterior](https://docs.aspose.com/diagram/net/create-update-layout-and-auto-fit-shapes/) guarda en varios estilos diferentes de árboles compactos.
 
@@ -52,7 +109,46 @@ Para diseñar formas en el estilo de árbol compacto:
 1. Llame al método Layout de la clase Diagram pasando LayoutOptions.
 1. Llame al método Guardar de la clase Diagram para escribir el archivo Visio.
 #### **Ejemplo de programación de estilo de árbol compacto**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-LayOutShapesInCompactTreeStyle-LayOutShapesInCompactTreeStyle.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+string fileName = "LayOutShapesInCompactTreeStyle.vdx";
+// Load an existing Visio diagram
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// Set layout options 
+LayoutOptions compactTreeOptions = new LayoutOptions();
+compactTreeOptions.LayoutStyle = LayoutStyle.CompactTree;
+compactTreeOptions.EnlargePage = true;
+
+// Set layout direction as DownThenRight and then save
+compactTreeOptions.Direction = LayoutDirection.DownThenRight;
+diagram.Layout(compactTreeOptions);
+diagram.Save(dataDir + "sample_down_right.vdx", SaveFileFormat.VDX);
+
+// Set layout direction as DownThenLeft and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.Direction = LayoutDirection.DownThenLeft;
+diagram.Layout(compactTreeOptions);
+diagram.Save(dataDir + "sample_down_left.vdx", SaveFileFormat.VDX);
+
+// Set layout direction as RightThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.Direction = LayoutDirection.RightThenDown;
+diagram.Layout(compactTreeOptions);
+diagram.Save(dataDir + "sample_right_down.vdx", SaveFileFormat.VDX);
+
+// Set layout direction as LeftThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.Direction = LayoutDirection.LeftThenDown;
+diagram.Layout(compactTreeOptions);
+diagram.Save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **Ajuste automático el Visio Diagram**
  Aspose.Diagram API admite el ajuste automático del dibujo Visio. Esta función de operación ayuda a traer formas externas dentro del límite de la página Visio. Aspose.Diagram for .NET API tiene el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clase que representa un dibujo Visio. los[DiagramaGuardarOpciones](https://reference.aspose.com/diagram/net/aspose.diagram.saving/diagramsaveoptions) La clase expone la propiedad AutoFitPageToDrawingContent para ajustar automáticamente el dibujo Visio.
 
@@ -65,18 +161,74 @@ Este ejemplo funciona de la siguiente manera:
 ### **Ejemplo de programación de ajuste automático**
 El siguiente código de ejemplo muestra cómo ajustar formas automáticamente en Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AutoFitShapesInVisio-AutoFitShapesInVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "BFlowcht.vsdx");
+
+// Use saving options
+DiagramSaveOptions options = new DiagramSaveOptions(SaveFileFormat.VSDX);
+// Set Auto fit page property
+options.AutoFitPageToDrawingContent = true;
+
+// Save Visio diagram
+diagram.Save(dataDir + "AutoFitShapesInVisio_out.vsdx", options);
+
+{{< /highlight >}}
+```
 ## **Trabajando con Proyecto VBA**
 ### **Modifique el código del módulo VBA en Visio Diagram**
  Este artículo muestra cómo modificar un código de módulo de VBA automáticamente usando Aspose.Diagram for .NET. Hemos agregado[Módulo Vba](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaModule), [VbaModuleCollection](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaModuleCollection), [Proyecto Vba](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaProject), [VbaProjectReferenceVbaProjectReference](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaProjectReference) y[VbaProjectReferenceCollectionVbaProjectReferenceCollection](http://www.aspose.com/api/net/diagram/aspose.diagram.vba/VbaProjectReferenceCollection) clases Estas clases ayudan a controlar el proyecto VBA. Los desarrolladores pueden extraer y modificar el código del módulo VBA.
 ### **Modificar ejemplo de programación de código de módulo VBA**
 Por favor, compruebe este ejemplo de código:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-ModifyVBAModule-ModifyVBAModule.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Load an existing Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdm", LoadFileFormat.VSDM);
+// Extract VBA project
+Aspose.Diagram.Vba.VbaProject v = diagram.VbaProject;
+// Iterate through the modules and modify VBA module code
+foreach (VbaModule module in diagram.VbaProject.Modules)
+{
+    string code = module.Codes;
+    if (code.Contains("This is test message."))
+        code = code.Replace("This is test message.", "This is Aspose.Diagram message.");
+    module.Codes = code;
+}
+// Save the Visio diagram
+diagram.Save(dataDir + "ModifyVBAModule_out.vssm", SaveFileFormat.VSSM);
+
+{{< /highlight >}}
+```
 ### **Eliminar todas las macros del Visio Diagram**
  Aspose.Diagram for .NET permite a los desarrolladores eliminar todas las macros del Visio diagram. La propiedad VbProjectData, expuesta por el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class, le permite eliminar todas las macros del dibujo Visio.
 ### **Eliminar todas las macros Ejemplo de programación**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RemoveMacrosFromVisio-RemoveMacrosFromVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Remove all macros
+diagram.VbProjectData = null;
+
+// Save diagram
+diagram.Save(dataDir + "RemoveMacrosFromVisio_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Creación de un nuevo Diagram con VSTO**
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/)permite a los desarrolladores crear y trabajar con Microsoft Office Visio diagramas e incorporar características en sus aplicaciones de software. Hay otras formas de trabajar con archivos Visio, más comúnmente, Microsoft Automatización. Desafortunadamente, eso tiene algunas limitaciones. Aspose.Diagram es potente y rápido y funciona de forma independiente sin Microsoft Office instalación.
 
@@ -98,7 +250,60 @@ Importaciones Visio = Microsoft.Office.Interop.Visio
 
 **Ejemplo:**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Knowledge-Base-CreatingDiagramWithVSTO-CreatingDiagramWithVSTO.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_KnowledgeBase();
+
+Visio.Application vdxApp = null;
+Visio.Document vdxDoc = null;
+try
+{
+    // Create Visio Application Object
+    vdxApp = new Visio.Application();
+
+    // Make Visio Application Invisible
+    vdxApp.Visible = false;
+
+    // Create a new diagram
+    vdxDoc = vdxApp.Documents.Add("");
+
+    // Load Visio Stencil
+    Visio.Documents visioDocs = vdxApp.Documents;
+    Visio.Document visioStencil = visioDocs.OpenEx("Basic Shapes.vss",
+        (short)Microsoft.Office.Interop.Visio.VisOpenSaveArgs.visOpenHidden);
+
+    // Set active page
+    Visio.Page visioPage = vdxApp.ActivePage;
+
+    // Add a new rectangle shape
+    Visio.Master visioRectMaster = visioStencil.Masters.get_ItemU(@"Rectangle");
+    Visio.Shape visioRectShape = visioPage.Drop(visioRectMaster, 4.25, 5.5);
+    visioRectShape.Text = @"Rectangle text.";
+
+    // Add a new star shape
+    Visio.Master visioStarMaster = visioStencil.Masters.get_ItemU(@"Star 7");
+    Visio.Shape visioStarShape = visioPage.Drop(visioStarMaster, 2.0, 5.5);
+    visioStarShape.Text = @"Star text.";
+
+    // Add a new hexagon shape
+    Visio.Master visioHexagonMaster = visioStencil.Masters.get_ItemU(@"Hexagon");
+    Visio.Shape visioHexagonShape = visioPage.Drop(visioHexagonMaster, 7.0, 5.5);
+    visioHexagonShape.Text = @"Hexagon text.";
+
+
+    // Save diagram as VDX
+    vdxDoc.SaveAs(dataDir + "CreatingDiagramWithVSTO_out.vdx");
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http:// Www.aspose.com/purchase/default.aspx.");
+}
+            
+
+{{< /highlight >}}
+```
 ## **Creando un Nuevo Diagram con Aspose.Diagram for .NET**
 Usando Aspose.Diagram API, los desarrolladores no necesitan Microsoft Office Visio instalación en la máquina, y pueden trabajar independientemente de Microsoft Office Automatización.
 
@@ -117,7 +322,35 @@ Importaciones Aspose.Diagram
 
 Ejemplo:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Knowledge-Base-CreatingDiagramWithAspose-CreatingDiagramWithAspose.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_KnowledgeBase();
+
+// Create a new diagram
+Diagram diagram = new Diagram(dataDir + "Basic Shapes.vss");
+
+// Add a new rectangle shape
+long shapeId = diagram.AddShape(4.25, 5.5, 2, 1, @"Rectangle", 0);
+Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
+shape.Text.Value.Add(new Txt(@"Rectangle text."));
+
+// Add a new star shape
+shapeId = diagram.AddShape(2.0, 5.5, 2, 2, @"Star 7", 0);
+shape = diagram.Pages[0].Shapes.GetShape(shapeId);
+shape.Text.Value.Add(new Txt(@"Star text."));
+
+// Add a new hexagon shape
+shapeId = diagram.AddShape(7.0, 5.5, 2, 2, @"Hexagon", 0);
+shape = diagram.Pages[0].Shapes.GetShape(shapeId);
+shape.Text.Value.Add(new Txt(@"Hexagon text."));
+
+// Save the new diagram
+diagram.Save(dataDir + "CreatingDiagramWithAspose_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **Actualizar propiedades de forma**
  Al trabajar con diagramas Microsoft Visio, los usuarios pueden actualizar los atributos de forma, incluidos el texto, el estilo, la posición, la altura y el ancho. Como desarrollador de software que trabaja con archivos Visio, se le pedirá que haga esto mediante programación. La buena noticia es que es posible, ya sea usando los mecanismos de programación con archivos Visio que proporciona Microsoft, VSTO, o usando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 
@@ -141,7 +374,53 @@ Importaciones Visio = Microsoft.Office.Interop.Visio
 
 **Ejemplo:**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Knowledge-Base-UpdateShapePropsWithVSTO-UpdateShapePropsWithVSTO.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_KnowledgeBase();
+
+Visio.Application vsdApp = null;
+Visio.Document vsdDoc = null;
+try
+{
+    // Create Visio Application Object
+    vsdApp = new Visio.Application();
+
+    // Make Visio Application Invisible
+    vsdApp.Visible = false;
+
+    // Create a document object and load a diagram
+    vsdDoc = vsdApp.Documents.Open(dataDir + "Drawing1.vsd");
+
+    // Create page object to get required page
+    Visio.Page page = vsdApp.ActivePage;
+
+    // Create shape object to get required shape
+    Visio.Shape shape = page.Shapes["Process1"];
+
+    // Set shape text and text style
+    shape.Text = "Hello World";
+    shape.TextStyle = "CustomStyle1";
+
+    // Set shape's position
+    shape.get_Cells("PinX").ResultIU = 5;
+    shape.get_Cells("PinY").ResultIU = 5;
+
+    // Set shape's height and width
+    shape.get_Cells("Height").ResultIU = 2;
+    shape.get_Cells("Width").ResultIU = 3;
+
+    // Save file as VDX
+    vsdDoc.SaveAs(dataDir + "Drawing1.vdx");
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http:// Www.aspose.com/purchase/default.aspx.");
+}           
+
+{{< /highlight >}}
+```
 ### **Actualización de propiedades de forma con Aspose.Diagram for .NET**
 Usando Aspose.Diagram API, los desarrolladores no necesitan Microsoft Office Visio en la máquina, y pueden trabajar independientemente de Microsoft Office Automatización.
 
@@ -161,4 +440,51 @@ Importaciones Aspose.Diagram
 
 **Ejemplo:**
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Knowledge-Base-UpdateShapePropsWithAspose-UpdateShapePropsWithAspose.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+try
+{
+    // The path to the documents directory.
+    string dataDir = RunExamples.GetDataDir_KnowledgeBase();
+
+    // Save the uploaded file as PDF
+    Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+
+    // Find a particular shape and update its properties
+    foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
+    {
+        if (shape.Name.ToLower() == "process1")
+        {
+            shape.Text.Value.Clear();
+            shape.Text.Value.Add(new Txt("Hello World"));
+
+            // Find custom style sheet and set as shape's text style
+            foreach (StyleSheet styleSheet in diagram.StyleSheets)
+            {
+                if (styleSheet.Name == "CustomStyle1")
+                {
+                    shape.TextStyle = styleSheet;
+                }
+            }
+
+            // Set horizontal and vertical position of the shape
+            shape.XForm.PinX.Value = 5;
+            shape.XForm.PinY.Value = 5;
+
+            // Set height and width of the shape
+            shape.XForm.Height.Value = 2;
+            shape.XForm.Width.Value = 3;
+        }
+    }
+
+    // Save shape as VDX
+    diagram.Save(dataDir + "UpdateShapePropsWithAspose_out.vdx", SaveFileFormat.VDX);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
+
+{{< /highlight >}}
+```

@@ -14,7 +14,35 @@ Utilisez la propriété Page.Background pour déterminer si une page est une pag
 ### **Récupérer un exemple de programmation d'informations sur la page**
 Le morceau de code suivant récupère les informations de pages d'un diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-RetrievePageInfo-RetrievePageInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrievePageInfo.vdx");
+
+foreach (Aspose.Diagram.Page page in vdxDiagram.Pages)
+{
+    // Checks if current page is a background page
+    if (page.Background == Aspose.Diagram.BOOL.True)
+    {
+        // Display information about the background page
+        Console.WriteLine("Background Page ID : " + page.ID);
+        Console.WriteLine("Background Page Name : " + page.Name);
+    }
+    else
+    {
+        // Display information about the foreground page
+        Console.WriteLine("\nPage ID : " + page.ID);
+        Console.WriteLine("Universal Name : " + page.NameU);
+        Console.WriteLine("ID of the Background Page : " + page.BackPage);
+    }
+}
+
+{{< /highlight >}}
+```
 ## **Obtenez la page Visio d'un Diagram**
 Parfois, les développeurs doivent obtenir les détails de la page d'un dessin Visio. Aspose.Diagram a des fonctionnalités qui les aident à le faire.
 
@@ -27,7 +55,22 @@ Cet exemple fonctionne comme suit :
 
 L'exemple suivant montre comment obtenir un objet de page par ID à partir du dessin Visio.
 #### **Obtenir un objet de page par ID Exemple de programmation**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPagebyID-GetVisioPagebyID.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page id
+int pageid = 2;
+// Get page object by id
+Page page2 = diagram.Pages.GetPage(pageid);
+
+{{< /highlight >}}
+```
 ### **Obtenir un objet de page Visio par nom**
 Cet exemple fonctionne comme suit :
 
@@ -36,7 +79,22 @@ Cet exemple fonctionne comme suit :
 #### **Obtenir un objet de page par nom Exemple de programmation**
 L'exemple suivant montre comment obtenir un objet de page par son nom à partir du dessin Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-GetVisioPagebyName-GetVisioPagebyName.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page name
+string pageName = "Flow 2";
+// Get page object by name
+Page page2 = diagram.Pages.GetPage(pageName);
+
+{{< /highlight >}}
+```
 ## **Copier une page Visio dans une autre Diagram**
 Aspose.Diagram for .NET API permet aux développeurs de copier et d'ajouter son contenu d'un Visio diagram à un autre. Cette rubrique d'aide explique comment accomplir cette tâche.
 
@@ -55,7 +113,51 @@ Cet exemple fonctionne comme suit :
 ### **Copier un exemple de programmation de page Visio**
 L'exemple de code ci-dessous montre comment copier un objet de page Visio dans un autre dessin Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-CopyVisioPage-CopyVisioPage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Initialize the new visio diagram
+Diagram NewDigram = new Diagram();
+
+// Load source diagram
+Diagram dgm = new Diagram(dataDir + "Drawing1.vsdx");
+// Add all masters from the source Visio diagram
+foreach (Master master in dgm.Masters)
+    NewDigram.Masters.Add(master);
+
+// Get page object
+Aspose.Diagram.Page SrcPage = dgm.Pages.GetPage("Page-1");
+// Set name
+SrcPage.Name = "new page";
+
+// It calculates max page id
+int max = 0;
+if (NewDigram.Pages.Count != 0)
+    max = NewDigram.Pages[0].ID;
+
+for (int i = 1; i < NewDigram.Pages.Count; i++)
+{
+    if (max < NewDigram.Pages[i].ID)
+        max = NewDigram.Pages[i].ID;
+}
+            
+// Set max page ID 
+int MaxPageId = max;
+// Set page ID
+SrcPage.ID = MaxPageId + 1;
+
+// Add page from the source diagram
+NewDigram.Pages.Add(SrcPage);
+// Remove first empty page
+NewDigram.Pages.Remove(NewDigram.Pages[0]);
+// Save diagram
+NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Copier la page Visio vers une autre instance de page**
 La méthode Copy de la classe Page prend une instance de page à cloner.
 
@@ -81,7 +183,47 @@ La méthode Add, exposée par la collection Pages, permet aux développeurs d'aj
 ### **Insérer un exemple de programmation de page vierge**
 Le morceau de code suivant insère une page vierge dans le dessin Visio :
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_VisioPages();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// It calculates max page id
+int max = 0;
+if (diagram.Pages.Count != 0)
+    max = diagram.Pages[0].ID;
+
+for (int i = 1; i < diagram.Pages.Count; i++)
+{
+    if (max < diagram.Pages[i].ID)
+        max = diagram.Pages[i].ID;
+}
+
+// Set max page ID
+int MaxPageId = max;
+
+// Initialize a new page object
+Page newPage = new Page();
+// Set name
+newPage.Name = "new page";
+// Set page ID
+newPage.ID = MaxPageId + 1;
+
+// Or try the Page constructor
+// Page newPage = new Page(MaxPageId + 1);
+
+// Add a new blank page
+diagram.Pages.Add(newPage);
+
+// Save diagram
+diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Déplacer la position de la page dans le dessin Visio**
 Aspose.Diagram for .NET API peut déplacer la position de la page dans le dessin Visio. La méthode MoveTo, exposée par la classe Page, aide les développeurs à déplacer la position de la page.
 ### **Déplacer la position de la page Exemple de programmation**

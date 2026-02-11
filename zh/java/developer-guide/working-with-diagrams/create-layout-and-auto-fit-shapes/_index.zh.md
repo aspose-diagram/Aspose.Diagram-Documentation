@@ -7,7 +7,22 @@ url: /zh/java/create-layout-and-auto-fit-shapes/
 ## **创建一个 Diagram**
  Aspose.Diagram for Java 允许您从自己的应用程序中读取和创建 Microsoft Visio 图表，无需 Microsoft Office 自动化。创建新文档的第一步是创建一个 diagram。然后[添加形状和连接器](/diagram/zh/java/add-and-connect-visio-shapes/)构建 diagram。使用默认构造函数[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram)类创建一个新的 diagram。
 ### **编程范例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateDiagram.class);
+// Create directory if it is not already present.
+File file = new File(dataDir);
+if (!file.exists())
+	file.mkdir();
+// initialize a new Diagram
+Diagram diagram = new Diagram();
+// save in the VSDX format
+diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **流程图样式的布局形状**
 对于某些类型的连接图，例如流程图和网络图，您可以使用**布局形状**自动定位形状的功能。自动定位比手动将每个形状拖动到新位置更快。
 
@@ -33,7 +48,47 @@ url: /zh/java/create-layout-and-auto-fit-shapes/
 1. 通过传递 LayoutOptions 调用 Diagram 类的 Layout 方法。
 1. 调用Diagram类的Save方法写入Visio图。
 ### **流程图式编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInFlowchartStyle-LayOutShapesInFlowchartStyle.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(LayOutShapesInFlowchartStyle.class);     
+
+// load an existing Visio diagram
+String fileName = "LayOutShapesInFlowchartStyle.vdx";
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// set layout options 
+LayoutOptions flowChartOptions = new LayoutOptions();
+flowChartOptions.setLayoutStyle(LayoutStyle.FLOW_CHART);
+flowChartOptions.setSpaceShapes(1f);
+flowChartOptions.setEnlargePage(true);
+
+// set layout direction as BottomToTop and then save
+flowChartOptions.setDirection(LayoutDirection.BOTTOM_TO_TOP);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_btm_top.vdx", SaveFileFormat.VDX);
+
+// set layout direction as TopToBottom and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.TOP_TO_BOTTOM);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_top_btm.vdx", SaveFileFormat.VDX);
+
+// set layout direction as LeftToRight and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.LEFT_TO_RIGHT);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_left_right.vdx", SaveFileFormat.VDX);
+
+// set layout direction as RightToLeft and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.RIGHT_TO_LEFT);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ### **以紧凑树样式布置形状**
 紧凑的树形布局风格试图构建一个树形结构。它使用与[上面的例子](/diagram/zh/java/create-2c-layout-and-auto-fit-shapes/)并保存为几种不同的紧凑树样式。
 
@@ -51,7 +106,46 @@ url: /zh/java/create-layout-and-auto-fit-shapes/
 1. 通过传递 LayoutOptions 调用 Diagram 类的 Layout 方法。
 1. 调用Diagram类的Save方法写入Visio文件。
 #### **紧凑型树式编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInCompactTreeStyle-LayOutShapesInCompactTreeStyle.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(LayOutShapesInCompactTreeStyle.class);
+        
+String fileName = "LayOutShapesInCompactTreeStyle.vdx";
+// load an existing Visio diagram
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// set layout options 
+LayoutOptions compactTreeOptions = new LayoutOptions();
+compactTreeOptions.setLayoutStyle(LayoutStyle.COMPACT_TREE);
+compactTreeOptions.setEnlargePage(true);
+
+// set layout direction as DownThenRight and then save
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_RIGHT);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_down_right.vdx", SaveFileFormat.VDX);
+
+// set layout direction as DownThenLeft and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_LEFT);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_down_left.vdx", SaveFileFormat.VDX);
+
+// set layout direction as RightThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.RIGHT_THEN_DOWN);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_right_down.vdx", SaveFileFormat.VDX);
+
+// set layout direction as LeftThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.LEFT_THEN_DOWN);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **自动适配 Visio Diagram**
 Aspose.Diagram API 支持自动适配Visio图。此功能操作有助于将外部形状带入 Visio 页面边界内。
 
@@ -66,7 +160,24 @@ Aspose.Diagram for Java API 具有代表 Visio 绘图的 Diagram 类。 DiagramS
 ### **自动调整编程示例**
 下面的示例代码显示了如何自动调整 Visio diagram 中的形状。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-AutoFitShapesInVisio-AutoFitShapesInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AutoFitShapesInVisio.class);
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "BFlowcht.vsdx");
+
+// use saving options
+DiagramSaveOptions options = new DiagramSaveOptions(SaveFileFormat.VSDX);
+// set Auto fit page property
+options.setAutoFitPageToDrawingContent(true);
+
+// save Visio diagram
+diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
+
+{{< /highlight >}}
+```
 ## **使用 VBA 项目**
 ### **Visio Diagram 修改VBA模块代码**
 本文演示如何使用Aspose.Diagram for Java自动修改VBA模块代码。
@@ -75,10 +186,46 @@ Aspose.Diagram for Java API 具有代表 Visio 绘图的 Diagram 类。 DiagramS
 ### **修改VBA模块代码编程范例**
 请检查此代码示例：
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-ModifyVBAModuleCode-ModifyVBAModuleCode.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// load an existing Visio diagram
+String dataDir = Utils.getDataDir(ModifyVBAModuleCode.class);
+InputStream input = new FileInputStream(dataDir + "macro.vsdm");
+Diagram diagram = new Diagram(input);
+// extract VBA project
+VbaProject v = diagram.getVbaProject();
+// Iterate through the modules and modify VBA macro code
+for (int i = 0; i < diagram.getVbaProject().getModules().getCount(); i++) {
+	VbaModule module = diagram.getVbaProject().getModules().get(i);
+	String code = module.getCodes();
+	if (code.contains("This is test message."))
+		code = code.replace("This is test message.", "This is Aspose.Diagram message.");
+	module.setCodes(code);
+}
+// save the Visio diagram
+diagram.save(dataDir + "out.vssm", SaveFileFormat.VSSM);
+
+{{< /highlight >}}
+```
 ### **从 Visio Diagram 中删除所有宏**
 Aspose.Diagram for Java 允许开发人员从 Visio diagram 中删除所有宏。
 
 JavaProjectData 属性，由[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram)类，允许您从 Visio 绘图中删除所有宏。
 ### **删除所有宏编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RemoveMacrosFromVisio-RemoveMacrosFromVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RemoveMacrosFromVisio.class);  
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// remove all macros
+diagram.setVbProjectData(null);
+
+// Save diagram
+diagram.save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

@@ -33,11 +33,39 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **احفظ الناتج HTML في التخزين المحلي**
 يمكن حفظ الملف الناتج عن طريق تمرير سلسلة مسار كاملة ، بما في ذلك اسم الملف والملحق ، على سبيل المثال @ "c: \ temp \ MyOutput.html".
 #### **احفظ الناتج HTML في نموذج برمجة التخزين المحلي**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToHTML-ExportToHTML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToHTML.class);
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
+
+// Save as HTML
+diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
+
+{{< /highlight >}}
+```
 
 
 
 ### **احفظ HTML الناتج في نسخة دفق**
 يستخدم لحالة حفظ HTML الناتج في قاعدة بيانات أو مستودع دون تخزينه في التخزين المحلي. تتضمن هذه الميزة أيضًا الموارد الناتجة الأخرى لـ HTML ، مثل الخطوط و CSS (التي تحتوي على معلومات النمط) والصور. نظرًا لأنه يحفظ ملف HTML واحدًا في مثيل الدفق.
 #### **حفظ HTML الناتج في عينة برمجة دفق**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportHTMLinStream-ExportHTMLinStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
+// load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
+// save resultant HTML directly to a stream
+ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
+diagram.save(dstStream, SaveFileFormat.HTML);
+// In you want to read the result into a Diagram object again, in Java you need to get the
+// data bytes and wrap into an input stream.
+ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
+
+{{< /highlight >}}
+```

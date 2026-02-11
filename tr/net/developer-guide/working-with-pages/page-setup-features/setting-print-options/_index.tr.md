@@ -29,10 +29,40 @@ Sayfa yapısı seçenekleri Aspose.Diagram'de tam olarak desteklenir. Bu makale,
 |Manzara|Yatay yönlendirme|
 |Vesika|Dikey yönlendirme|
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageOrientation-SetPageOrientation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Get page
+Aspose.Diagram.Page page = diagram.Pages.GetPage(0);
+
+//Set PrintPageOrientation
+page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
+
+{{< /highlight >}}
+```
 
 ### **Ölçekleme faktörü**
 
  Ölçekleme faktörünü ayarlayarak bir sayfanın boyutunu küçültmek veya büyütmek mümkündür.[**ÖlçekX**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/scalex)Emlak.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageOrientation-SetPageScale.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Set ScaleX and ScaleY
+diagram.Pages[0].PageSheet.PrintProps.ScaleX.Value = 1;
+diagram.Pages[0].PageSheet.PrintProps.ScaleY.Value = 1;
+
+{{< /highlight >}}
+```

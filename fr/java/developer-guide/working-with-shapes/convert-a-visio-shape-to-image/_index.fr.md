@@ -17,6 +17,24 @@ Le code ci-dessous montre comment :
 ### **Forme à l'image**
 Utilisez le code suivant dans votre application Java pour convertir une forme visio en image.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ShapeToImage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ShapeToImage.class); 
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "ShapeToImage.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().get(0);
+
+// Get a particular shape
+Shape shape = page.getShapes().get(0);
+
+// Shape to image
+com.aspose.diagram.ImageSaveOptions option = new com.aspose.diagram.ImageSaveOptions(SaveFileFormat.PNG);
+shape.toImage("out.png",option);
+{{< /highlight >}}
+```
 
 

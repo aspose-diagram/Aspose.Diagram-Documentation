@@ -15,7 +15,25 @@ url: /de/java/retrieve-visio-connectors-and-font-information/
 ### **Programmierbeispiel**
 Der folgende Codeabschnitt ruft die Informationen für die Connectors in einem diagram ab.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
+        
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");        
+for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getConnects())
+{
+    // Display information about the Connectors
+    System.out.println("\nFrom Shape ID : " + connector.getFromSheet());
+    System.out.println("To Shape ID : " + connector.getToSheet());
+ }
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 ## **Abrufen von Schriftinformationen**
  Aspose.Diagram verfügt über Mechanismen zum Abrufen von Informationen über die Elemente, aus denen diagram besteht[Seiten](/diagram/de/java/retrieve-get-copy-and-insert-a-page/), [Schablonen](), [Anschlüsse](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)und auch Schriftarten. Dieser Artikel zeigt, wie Sie herausfinden, welche Schriftarten in einer diagram verwendet werden.
 
@@ -25,10 +43,41 @@ Ein Font-Objekt ordnet einen Namen (z. B. „Arial“) der Schriftart-ID (z. B. 
 ### **Abrufen des Font-Programmierbeispiels**
 Der folgende Codeabschnitt ruft Schriftartinformationen von Visio diagram ab.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveFontInfo-RetrieveFontInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
+
+// call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrieveFontInfo.vsd");
+
+for(Font font : (Iterable<Font>) diagram.getFonts())
+{
+    // Display information about the fonts
+    System.out.println(font.getName());
+}
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 
 ![todo: Bild_alt_Text](retrieve-visio-connectors-and-font-information_2.png)
 ### **Abrufen des Standardschriftverzeichnisses**
 Aspose.Diagram for Java API ermöglicht auch das Abrufen des Standardverzeichnispfads für Schriftarten mithilfe der Methode getDefaultFontDir() der Klasse Diagram. Der folgende Codeabschnitt ruft das Standardverzeichnis für Schriftarten aus dem Verzeichnis Visio diagram ab.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
+
+// Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+
+// Display font default directory
+System.out.println(diagram.getDefaultFontDir());
+
+{{< /highlight >}}
+```

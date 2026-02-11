@@ -12,7 +12,24 @@ description: Det här avsnittet förklarar hur du får visio-kontakter och tecke
 ### **Programmeringsexempel**
 Följande kodbit hämtar informationen för kontakterna i en diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");
+
+foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
+{
+    // Display information about the Connectors
+    Console.WriteLine("\nFrom Shape ID : " + connector.FromSheet);
+    Console.WriteLine("To Shape ID : " + connector.ToSheet);
+}
+
+{{< /highlight >}}
+```
 ## **Hämtar teckensnittsinformation**
  Aspose.Diagram har mekanismer för att hämta information om de element som utgör en diagram, från[sidor](/diagram/sv/net/retrieve-2c-get-2c-copy-and-insert-a-page/), [stenciler](https://docs.aspose.com/diagram/net/working-with-masters/), [kontakter](/diagram/sv/net/retrieving-connector-information/)och även typsnitt. Den här artikeln visar hur du tar reda på vilka teckensnitt som används i en diagram.
 
@@ -20,11 +37,40 @@ Följande kodbit hämtar informationen för kontakterna i en diagram.
 ### **Hämtar teckensnittsprogrammeringsexempel**
 Följande kodbit hämtar teckensnittsinformation från Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveFontInfo-RetrieveFontInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+
+foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
+{
+    // Display information about the fonts
+    Console.WriteLine(font.Name);
+}
+
+{{< /highlight >}}
+```
 ### **Hämta standardfontkatalog**
 Aspose.Diagram for .NET API gör det också möjligt att hämta standardsökväg för teckensnittskatalog med metoden GetDefaultFontDir() i klassen Diagram. Följande kodbit hämtar standardteckensnittskatalogen från Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+           
+// Display font default directory
+Console.WriteLine(vdxDiagram.GetDefaultFontDir());
+
+{{< /highlight >}}
+```
 ### **Få oanvända teckensnitt**
 {{% alert color="primary" %}}
 
@@ -34,4 +80,20 @@ Denna metod stöds av version 19.6 eller senare.
 
 Aspose.Diagram for .NET API tillåter också att få oanvända teckensnitt med metoden GetUnusedStyles() i klassen Diagram. Följande kodbit hämtar oanvända teckensnitt från Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-GetUnusedFonts-1.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram vdxDiagram = new Diagram(dataDir + "Sample_UnusedFonts.vsdx");
+
+// Get Unused Fonts 
+StyleSheetCollection unused = vdxDiagram.GetUnusedStyles();
+
+// Display unused fonts count 
+Console.WriteLine(unused.Count);
+
+{{< /highlight >}}
+```

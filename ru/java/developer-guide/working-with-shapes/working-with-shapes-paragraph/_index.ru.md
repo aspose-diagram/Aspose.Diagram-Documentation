@@ -12,4 +12,16 @@ url: /ru/java/working-with-shapes-paragraph/
 #### **Образец программирования абзаца для фигуры**
 Используйте следующий код в своем приложении Java, чтобы установить абзац формы, используя Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-CreateNewVisio-CreateNewVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateNewVisio.class);
+// initialize a Diagram class
+Diagram diagram = new Diagram();
+
+// save diagram in the VSDX format
+diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

@@ -14,7 +14,26 @@ description: Esta sección explica cómo leer las celdas definidas por el usuari
 #### **Recuperar muestra de programación de celdas**
 El siguiente fragmento de código permite a los desarrolladores leer los campos de las celdas definidas por el usuario.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(1);
+// Extract user defined cells of the shape
+foreach (User user in shape.Users)
+{
+    Console.WriteLine(user.Name + ": " + user.Value.Val);
+}
+
+{{< /highlight >}}
+```
 
 
 Esta imagen muestra el resultado después de ejecutar el código anterior:
@@ -27,7 +46,31 @@ El método Agregar expuesto por la Colección de usuarios se puede usar para cre
 #### **Crear muestra de programación celular**
 Use el siguiente ejemplo de código en su aplicación .NET para crear una celda definida por el usuario en la hoja de formas usando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(2);
+            
+// Initialize user object
+User user = new User();
+user.Name = "UserDefineCell";
+user.Value.Val = "800";
+// Add user-defined cell
+shape.Users.Add(user);
+
+// Save diagram
+diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Recuperar celdas definidas por el usuario de Shapesheet**
 Aspose.Diagram for .NET API permite recuperar celdas definidas por el usuario de la hoja de forma. Este tema de ejemplo describe la forma en que los desarrolladores pueden recuperar todos los User.name para todas las formas en un dibujo.
 ### **Recuperar celdas definidas por el usuario**
@@ -35,4 +78,30 @@ Las propiedades NameU, Value.Val y Prompt.Value expuestas por la clase User se p
 #### **Recuperar celdas de muestras de programación de Shapesheet**
 Use el siguiente código en su aplicación .NET para recuperar todas las celdas definidas por el usuario de la hoja de formas usando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-RetrieveUserDefinedCells-RetrieveUserDefinedCells.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+int count = 0;
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Iterate through pages
+foreach (Aspose.Diagram.Page objPage in diagram.Pages)
+{
+    // Iterate through shapes
+    foreach (Aspose.Diagram.Shape objShape in objPage.Shapes)
+    {
+        Console.WriteLine(objShape.NameU);
+        // Iterate through user-defined cells
+        foreach (Aspose.Diagram.User objUserField in objShape.Users)
+        {
+            count++;
+            Console.WriteLine(count + " - Name: " + objUserField.NameU + " Value: " + objUserField.Value.Val + " Prompt: " + objUserField.Prompt.Value);
+        }
+    }
+}  
+
+{{< /highlight >}}
+```

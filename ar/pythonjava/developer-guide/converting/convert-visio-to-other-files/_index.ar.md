@@ -46,7 +46,37 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 توضح الصورة أدناه ملف الإخراج VTX.
 
 ### **التصدير إلى نموذج برمجة XML**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToXML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# 1. Exporting VSDX to VDX
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToXML.vsd")
+
+# Save input VSD as VDX
+diagram.save("ExportToXML_Out.vdx", SaveFileFormat.VDX)
+
+# 2. Exporting from VSD to VSX
+# Call the diagram constructor to load diagram from a VSD file
+        
+# Save input VSD as VSX
+diagram.save("ExportToXML_Out.vsx", SaveFileFormat.VSX)
+        
+# 3. Export VSD to VTX
+# Save input VSD as VTX
+diagram.save("ExportToXML_Out.vtx", SaveFileFormat.VTX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **تصدير الى XPS**
 توضح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام Aspose.Diagram لـ Python via Java.
@@ -62,7 +92,26 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 توضح الصورة أدناه ملف الإخراج XPS.
 
 ### **التصدير إلى عينة برمجة XPS**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToXPS.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToXPS.vsd")
+
+# Save as XPS
+diagram.save("ExportToXPS_Out.xps", SaveFileFormat.XPS)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **تصدير Diagram إلى SVG**
 تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام Aspose.Diagram لـ Python via Java.
@@ -77,7 +126,26 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير عينة برمجية من Diagram إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام Java.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToSVG.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToSVG.vsd")
+
+# Save as SVG
+diagram.save("ExportToSVG_Out.svg", SaveFileFormat.SVG)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **تصدير Diagram إلى XAML**
 تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XAML (لغة ترميز التطبيق الموسعة) باستخدام Aspose.Diagram لـ Python via Java.
@@ -92,7 +160,26 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **التصدير إلى عينة برمجة XAML**
 يوضح نموذج الكود كيفية تصدير diagram إلى XAML باستخدام Java.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToXAML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToXAML.vsd")
+
+# save as XAML
+diagram.save("ExportToXAML_Out.xaml", SaveFileFormat.XAML)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **تحويل Visio الرسم بأشكال انتقائية**
 باستخدام Aspose.Diagram API ، يمكن للمطورين تحديد مجموعة من الأشكال لتحويل رسم Visio إلى أي تنسيق مدعوم آخر. تقدم فئة RenderingSaveOptions عضو الأشكال للحفاظ على مجموعة الأشكال. كل فئة خيار حفظ هي الشكل الممتد لفئة RenderingSaveOptions.
@@ -106,4 +193,31 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تحويل Visio الرسم باستخدام عينة برمجة لأشكال انتقائية**
 يوضح نموذج التعليمات البرمجية كيفية تصدير رسم بأشكال انتقائية Visio.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ConvertVisioWithSelectiveShapes.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("DrawingSimple.vsdx")
+
+# create an instance SVG save options class
+options = SVGSaveOptions()
+shapes = options.getShapes()
+
+# get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.getPages().get(0).getShapes().getShape(1))
+shapes.add(diagram.getPages().get(0).getShapes().getShape(2))
+
+# save Visio drawing
+diagram.save("SelectiveShapes_out.svg", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

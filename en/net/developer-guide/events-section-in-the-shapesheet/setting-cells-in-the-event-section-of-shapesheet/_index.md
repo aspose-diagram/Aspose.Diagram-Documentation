@@ -21,4 +21,31 @@ Using Aspose.Diagram API, developers can define how a shape responds to specific
 ## **Setting Event Cells**
 [Event](https://reference.aspose.com/diagram/net/aspose.diagram/event) class allows developers to set event cells in the ShapeSheet. This help topic demonstrates how developers can set formulas in the event cells:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Event-Section-SettingCellsInEventSection-SettingCellsInEventSection.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_EventSection();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "TestTemplate.vsdm");
+// Get page
+Aspose.Diagram.Page page = diagram.Pages.GetPage(0);
+// Get shape id
+long shapeId = page.AddShape(3.0, 3.0, 0.36, 0.36, "Square");
+// Get shape
+Aspose.Diagram.Shape shape = page.Shapes.GetShape(shapeId);
+
+// Set event cells in the ShapeSheet
+shape.Event.EventXFMod.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
+shape.Event.EventDblClick.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
+shape.Event.EventDrop.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
+shape.Event.EventMultiDrop.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
+shape.Event.TheText.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
+shape.Event.TheData.Ufe.F = "CALLTHIS(\"ThisDocument.ShowAlert\")";
+
+// Save diagram
+diagram.Save(dataDir + "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```

@@ -15,7 +15,35 @@ Use the `Page.Background` property to determine whether a page is a foreground o
 ### **Retrieve Page Information Programming Sample**
 The following piece of code retrieves the pages information from a diagram.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-RetrievePageInfo.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram
+diagram = Diagram("RetrievePageInfo.vdx")
+
+for page in diagram.getPages():
+    # Checks if current page is a background page
+    if page.getBackground() == BOOL.TRUE:
+        # Display information about the background page
+        print("Background Page ID : " + str(page.getID()))
+        print("Background Page Name : " + str(page.getName()))
+    else:
+        # Display information about the foreground page
+        print("\nPage ID : " + str(page.getID()))
+        print("Universal Name : " + str(page.getNameU()))
+        print("ID of the Background Page : " + str(page.getBackPage()))
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Get the Visio Page from a Diagram**
 Sometimes, developers need to get a Visio drawing's page details. Aspose.Diagram for Python via Java has features that helps them do this.
@@ -31,7 +59,28 @@ This example work as follows:
 The following example shows how to get a page object by id from Visio drawing.
 
 #### **Get Page Object by ID Programming Sample**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyID.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VDX file
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# Set page id
+page_id = 2
+# Get page object by id
+page2 = diagram.getPages().getPage(page_id)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ### **Getting a Visio Page Object by Name**
 This example work as follows:
@@ -42,7 +91,28 @@ This example work as follows:
 #### **Get Page Object by Name Programming Sample**
 The following example shows how to get a page object by name from Visio drawing.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyName.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSDX file
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# Set page name
+pageName = "Flow 2"
+# Get page object by name
+page2 = diagram.getPages().getPage(pageName)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Copy a Visio Page into Another Diagram**
 Aspose.Diagram for Python via Java API allows developers to copy and add its content from the one Visio diagram to another. This help topic explains how to accomplish this task.
@@ -63,7 +133,58 @@ This example work as follows:
 ### **Copy a Visio Page Programming Sample**
 The code example below shows how to copy a Visio page object into another Visio drawing.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-CopyVisioPage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+originalDiagram = Diagram("Drawing1.vsdx")
+
+# initialize the new visio diagram
+newDiagram = Diagram()
+
+# add all masters from the source Visio diagram
+originalMasters = originalDiagram.getMasters()
+for master in originalMasters:
+    newDiagram.addMaster(originalDiagram, master.getName())
+
+# get the page object from the original diagram
+SrcPage = originalDiagram.getPages().getPage("Page-1")
+# set page name
+SrcPage.setName("new page")
+
+# it calculates max page id
+max_page_id = 0
+if newDiagram.getPages().getCount() != 0:
+    max_page_id = newDiagram.getPages().get(0).getID()
+
+for i in range(0, newDiagram.getPages().getCount() - 1):
+    if max_page_id < newDiagram.getPages().get(i).getID():
+        max_page_id = newDiagram.getPages().get(i).getID()
+
+MaxPageId = max_page_id
+# set page id
+SrcPage.setID(MaxPageId)
+# add reference of the original diagram page
+newDiagram.getPages().add(SrcPage)
+
+# remove first empty page
+newDiagram.getPages().remove(newDiagram.getPages().get(0))
+
+# save diagram in VDX format
+newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Copy Visio Page to another Page instance**
 The `copy` method of the `Page` class takes a page instance to clone.
@@ -89,7 +210,48 @@ The `add` method, exposed by the Pages collection, allows developers to add a ne
 ### **Insert a Blank Page Programming Sample**
 The following piece of code inserts a blank page in the Visio Drawing:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-InsertBlankPageInVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("Drawing1.vsdx")
+        
+# it calculates max page id
+max_page_id = 0
+if diagram.getPages().getCount() != 0:
+    max_page_id = diagram.getPages().get(0).getID()
+
+for i in range(0, diagram.getPages().getCount() - 1):
+    if max_page_id < diagram.getPages().get(i).getID():
+        max_page_id = diagram.getPages().get(i).getID()
+        
+# Initialize a new page object
+newPage = Page()
+# Set name
+newPage.setName("new page")
+# Set page ID
+newPage.setID(max_page_id + 1)
+
+# Or try the Page constructor
+# Page newPage = Page(MaxPageId + 1)
+
+# Add a new blank page
+diagram.getPages().add(newPage)
+
+# Save diagram
+diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Move Page position in the Visio drawing**
 Aspose.Diagram for Python via Java API can move page position in the Visio drawing. The `moveTo` method, exposed by the `Page` class, helps developers to move the page position.

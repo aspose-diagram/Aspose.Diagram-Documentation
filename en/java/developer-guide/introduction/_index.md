@@ -27,7 +27,28 @@ The code samples below show how to retrieve information about what created the f
 
 ![todo:image_alt_text](introduction_1.png)
 #### **Programming Sample**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-GetLibraryVersion-GetLibraryVersion.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetLibraryVersion.class);
+// build path of an existing diagram
+String path = dataDir + "Drawing1.vsdx";
+
+//Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(path);
+
+//Display Visio version and document modification time at different stages
+System.out.println("Visio Instance Version : " + diagram.getVersion());
+System.out.println("Full Build Number Created : " + diagram.getDocumentProps().getBuildNumberCreated());
+System.out.println("Full Build Number Edited : " + diagram.getDocumentProps().getBuildNumberEdited());
+System.out.println("Date Created : " + diagram.getDocumentProps().getTimeCreated());
+System.out.println("Date Last Edited : " + diagram.getDocumentProps().getTimeEdited());
+System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePrinted());
+System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
+
+{{< /highlight >}}
+```
 ## **Writing Microsoft Visio Document Summary Info**
 Microsoft Visio lets you define a number of document summary information properties to help you and your colleagues identify a diagram. Summary properties, for example title, subject, author and description, makes the file easier to find when searching, and easier to recognize when browsing files.
 
@@ -54,16 +75,69 @@ Check the summary information:
 
 ![todo:image_alt_text](introduction_2.png)
 #### **Programming Sample**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-SetVisioProperties-SetVisioProperties.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetVisioProperties.class);
+// build path of an existing diagram
+String path = dataDir + "Drawing1.vsdx";
+
+//Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(path);
+
+//Set some summary information about the diagram
+diagram.getDocumentProps().setCreator("Ijaz");
+diagram.getDocumentProps().setCompany("Aspose");
+diagram.getDocumentProps().setCategory("Drawing 2D");
+diagram.getDocumentProps().setManager("Sergey Polshkov");
+diagram.getDocumentProps().setTitle("Aspose Title");
+diagram.getDocumentProps().setTimeCreated(DateTime.getNow());
+diagram.getDocumentProps().setSubject("Visio Diagram");
+diagram.getDocumentProps().setTemplate("Aspose Template");
+
+//Write the updated file to the disk in VSDX file format
+diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Detect the Format of a Visio File**
 Using [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API, developers can detect the format of Visio file before opening it because the file extension does not guarantee that the file content is appropriate.
 ### **Detect Format Programming Sample**
 The following sample code illustrates how to detect a file format (using the file path or stream) and check its extension.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectVisioFileFormat-DetectVisioFileFormat.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
+
+		// detect file format using the direct file path
+		FileFormatInfo info = FileFormatUtil.detectFileFormat(dataDir + "Drawing1.vsdx");
+
+		// get the detected file format
+		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 ## **Detect the Format of a Visio File from an InputStream**
 Using Aspose.Diagram for Java API, developers can detect the format of a Visio file by passing an input stream. The detectFileFormat method of FileFormatUtil class can be used to achieve this.
 ### **Detect Format from an InputStream Programming Sample**
 The following sample code illustrates how to detect a file format using an input stream.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```

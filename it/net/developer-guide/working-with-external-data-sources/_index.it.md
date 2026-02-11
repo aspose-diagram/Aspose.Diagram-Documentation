@@ -12,4 +12,22 @@ Aspose.Diagram API consente agli utenti di modificare la connessione dati di SQL
 #### **Esempio di programmazione**
 La parte di codice seguente modifica una particolare connessione dati e aggiorna anche tutti i set di record disponibili in Visio diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-External-Data-Sources-EditDataConAndRefreshRecords-EditDataConAndRefreshRecords.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ExternalDataSources();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+// Set connecting string
+diagram.DataConnections[0].ConnectionString = "Data Source=MyServer;Initial Catalog=MyDB;Integrated Security=True";
+// Set command
+diagram.DataConnections[0].Command = "SELECT * from Project with(nolock)";
+// Refresh all record sets
+diagram.Refresh();
+// Save Visio diagram
+diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

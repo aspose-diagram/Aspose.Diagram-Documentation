@@ -30,4 +30,58 @@ Aspose.Diagram allows you to stop the conversion of Diagram to various formats l
 {{< /highlight >}}
 
 ## **示例代码**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Interrupt-Interrupt-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}
+```
+{{< highlight "csharp" >}}
+static string outputDir = RunExamples.Get_OutputDirectory();
+
+//Create InterruptMonitor object
+InterruptMonitor im = new InterruptMonitor();
+
+//This function will load diagram
+void loadDiagram()
+{
+    try
+	  {
+	
+	      Aspose.Diagram.LoadOptions o = new Aspose.Diagram.LoadOptions(LoadFileFormat.VSDX);
+	      o.InterruptMonitor = im;
+	      Diagram diagram = new Diagram("Huge.vsdx", o);
+
+	  }
+	  catch(Exception e)
+	  {
+	      Console.WriteLine("Diagram Process Interrupted - Message: " + e.Message);
+	  }
+
+}
+
+//This function will interrupt the conversion process after 1s
+void WaitForWhileAndThenInterrupt()
+{
+    Thread.Sleep(1000 * 1);
+    im.Interrupt();
+}
+
+public void TestRun()
+{
+    ThreadStart ts1 = new ThreadStart(this.loadDiagram);
+    Thread t1 = new Thread(ts1);
+    t1.Start();
+
+    ThreadStart ts2 = new ThreadStart(this.WaitForWhileAndThenInterrupt);
+    Thread t2 = new Thread(ts2);
+    t2.Start();
+
+    t1.Join();
+    t2.Join();
+}
+
+
+public static void Run()
+{
+    new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
+
+    Console.WriteLine("Interrupt successfully.");
+}
+{{< /highlight >}}
+```

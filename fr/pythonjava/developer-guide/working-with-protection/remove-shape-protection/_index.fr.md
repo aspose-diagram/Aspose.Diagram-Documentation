@@ -21,5 +21,49 @@ Dans Microsoft Office Visio, l'utilisateur peut effectuer les actions suivantes 
 ### **Supprimer l'exemple de programmation de protection de forme**
 Use the following code in your application to do the same thing (unlock any shape attribute) using Aspose.Diagram for Python via Java.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Protection-RemoveShapeProtection.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Load diagram
+diagram = Diagram("ProtectAndUnprotect.vsd")
+# get page by name
+page = diagram.getPages().getPage("Flow 1")
+# get shape by ID
+shape = page.getShapes().getShape(1)
+
+# set protections
+shape.getProtection().getLockAspect().setValue(BOOL.FALSE)
+shape.getProtection().getLockBegin().setValue(BOOL.FALSE)
+shape.getProtection().getLockCalcWH().setValue(BOOL.FALSE)
+shape.getProtection().getLockCrop().setValue(BOOL.FALSE)
+shape.getProtection().getLockCustProp().setValue(BOOL.FALSE)
+shape.getProtection().getLockDelete().setValue(BOOL.FALSE)
+shape.getProtection().getLockEnd().setValue(BOOL.FALSE)
+shape.getProtection().getLockFormat().setValue(BOOL.FALSE)
+shape.getProtection().getLockFromGroupFormat().setValue(BOOL.FALSE)
+shape.getProtection().getLockGroup().setValue(BOOL.FALSE)
+shape.getProtection().getLockHeight().setValue(BOOL.FALSE)
+shape.getProtection().getLockMoveX().setValue(BOOL.FALSE)
+shape.getProtection().getLockMoveY().setValue(BOOL.FALSE)
+shape.getProtection().getLockRotate().setValue(BOOL.FALSE)
+shape.getProtection().getLockSelect().setValue(BOOL.FALSE)
+shape.getProtection().getLockTextEdit().setValue(BOOL.FALSE)
+shape.getProtection().getLockThemeColors().setValue(BOOL.FALSE)
+shape.getProtection().getLockThemeEffects().setValue(BOOL.FALSE)
+shape.getProtection().getLockVtxEdit().setValue(BOOL.FALSE)
+shape.getProtection().getLockWidth().setValue(BOOL.FALSE)
+        
+# save diagram
+diagram.save("VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX)
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 

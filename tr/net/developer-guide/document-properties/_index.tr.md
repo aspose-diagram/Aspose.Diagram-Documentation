@@ -61,7 +61,27 @@ Lütfen Aspose.Diagram for .NET'e bu bilgileri çıktı Belgelerinden değiştir
 - Yerleşik belge özelliklerine erişmek için şunu kullanın:[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 -  Özel belge özelliklerine erişmek için şunu kullanın:[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AccessingDocumentProperties.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//// Display Visio version and document modification time at different stages 
+Console.WriteLine("Visio Instance Version : " + diagram.Version);
+Console.WriteLine("Full Build Number Created : " + diagram.DocumentProps.BuildNumberCreated);
+Console.WriteLine("Full Build Number Edited : " + diagram.DocumentProps.BuildNumberEdited);
+Console.WriteLine("Date Created : " + diagram.DocumentProps.TimeCreated);
+Console.WriteLine("Date Last Edited : " + diagram.DocumentProps.TimeEdited);
+Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
+Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
+Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
+
+{{< /highlight >}}
+```
 
 ### **Özel Belge Özellikleri Ekleme veya Kaldırma**
 
@@ -71,7 +91,26 @@ Bu konunun başında daha önce açıkladığımız gibi, geliştiriciler yerle�
 
  Aspose.Diagram API'ler şu bilgileri açığa çıkardı:[**Ekle**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add) için yöntem[**Özel Prop Koleksiyonu**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)koleksiyona özel özellikler eklemek için sınıf.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AddingCustomProperties.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//// Get CustomProperties of diagram
+Aspose.Diagram.CustomPropCollection customProperties = diagram.DocumentProps.CustomProps;
+//Set property of CustomProp
+Aspose.Diagram.CustomProp customProp = new Aspose.Diagram.CustomProp();
+customProp.PropType = Aspose.Diagram.PropType.String;
+customProp.CustomValue.ValueString = "Test";
+//Add CustomProp to Collection
+customProperties.Add(customProp);
+
+{{< /highlight >}}
+```
 
 ### **Özel Özellikleri Kaldırma**
 

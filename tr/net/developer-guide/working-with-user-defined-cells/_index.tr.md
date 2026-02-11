@@ -14,7 +14,26 @@ description: Bu bölümde, visio şekillerinin Kullanıcı tanımlı hücrelerin
 #### **Hücreleri Programlama Örneği Al**
 Aşağıdaki kod parçası, geliştiricilerin kullanıcı tanımlı hücre alanlarını okumasına olanak tanır.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-ReadUserdefinedCellsOfShape-ReadUserdefinedCellsOfShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(1);
+// Extract user defined cells of the shape
+foreach (User user in shape.Users)
+{
+    Console.WriteLine(user.Name + ": " + user.Value.Val);
+}
+
+{{< /highlight >}}
+```
 
 
 Bu görüntü, yukarıdaki kodu çalıştırdıktan sonraki çıktıyı gösterir:
@@ -27,7 +46,31 @@ Kullanıcılar Koleksiyonu tarafından sunulan Add yöntemi, şekil sayfasında 
 #### **Hücre Programlama Örneği Oluşturma**
 Aspose.Diagram for .NET kullanarak şekil sayfasında kullanıcı tanımlı hücre oluşturmak için .NET uygulamanızda aşağıdaki kod örneğini kullanın.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-CreateUserDefinedCellInShapeSheet-CreateUserDefinedCellInShapeSheet.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(2);
+            
+// Initialize user object
+User user = new User();
+user.Name = "UserDefineCell";
+user.Value.Val = "800";
+// Add user-defined cell
+shape.Users.Add(user);
+
+// Save diagram
+diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Şekil Sayfasından Kullanıcı Tanımlı Hücreleri Al**
 Aspose.Diagram for .NET API, şekil sayfasından kullanıcı tanımlı hücrelerin alınmasına izin verir. Bu örnek konu, geliştiricilerin bir çizimdeki tüm şekiller için tüm User.name'yi nasıl alabileceğini açıklamaktadır.
 ### **Kullanıcı Tanımlı Hücreleri Al**
@@ -35,4 +78,30 @@ User sınıfı tarafından sunulan NameU, Value.Val ve Prompt.Value özellikleri
 #### **Şekil Sayfası Programlama Örneklerinden Hücreleri Alma**
 Aspose.Diagram for .NET'i kullanarak tüm kullanıcı tanımlı hücreleri şekil sayfasından almak için .NET uygulamanızda aşağıdaki kodu kullanın.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-User-defined-Cells-RetrieveUserDefinedCells-RetrieveUserDefinedCells.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_UserDefinedCells();
+int count = 0;
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Iterate through pages
+foreach (Aspose.Diagram.Page objPage in diagram.Pages)
+{
+    // Iterate through shapes
+    foreach (Aspose.Diagram.Shape objShape in objPage.Shapes)
+    {
+        Console.WriteLine(objShape.NameU);
+        // Iterate through user-defined cells
+        foreach (Aspose.Diagram.User objUserField in objShape.Users)
+        {
+            count++;
+            Console.WriteLine(count + " - Name: " + objUserField.NameU + " Value: " + objUserField.Value.Val + " Prompt: " + objUserField.Prompt.Value);
+        }
+    }
+}  
+
+{{< /highlight >}}
+```

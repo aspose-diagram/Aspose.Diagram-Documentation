@@ -19,7 +19,26 @@ url: /zh/java/working-with-connector-type-shape/
 #### **设置连接器外观编程样例**
 在您的 Java 应用程序中使用以下代码，使用 Aspose.Diagram for Java 设置连接器类型形状的外观。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetConnectorAppearance-SetConnectorAppearance.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//get a particular page
+Page page = diagram.getPages().getPage("Page-3");
+//get a dynamic connector type shape by id
+Shape shape = page.getShapes().getShape(18);
+// set dynamic connector appearance
+shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
+
+//saving Visio diagram
+diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **选择连接器形状的重新布线选项**
 ConFixedCode 属性由[布局](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout)类可用于选择重新路由选项。 Layout 属性，由[形状](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape)类，会用到。
 
@@ -35,4 +54,23 @@ ConFixedCode 属性由[布局](https://reference.aspose.com/diagram/java/com.asp
 ### **选择重新路由选项编程示例**
 在您的 Java 应用程序中使用以下代码选择使用 Aspose.Diagram for Java 的连接器形状的重新布线选项。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RerouteConnectors-RerouteConnectors.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RerouteConnectors.class);   
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+
+// get a particular connector shape
+Shape shape = page.getShapes().getShape(18);
+// set reroute option
+shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
+
+// save Visio diagram
+diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

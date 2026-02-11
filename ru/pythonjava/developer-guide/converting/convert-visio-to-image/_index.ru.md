@@ -22,8 +22,52 @@ description: This topic show you how to convert Visio to various images formats 
 
 ![дело:изображение_альтернативный_текст](ExportToImage.png)
 ### **Пример программирования экспорта в файл изображения**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToImage.vsd")
+
+# Save as PNG
+diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 Также можно сохранить в изображение определенную страницу, а не весь документ:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportPageToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToImage.vsd")
+
+# Save diagram as PNG
+options = ImageSaveOptions(SaveFileFormat.PNG)
+
+# Save one page only, by page index
+options.setPageIndex(0)
+
+# Save resultant Image file
+diagram.save("ExportPageToImage_Out.png", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

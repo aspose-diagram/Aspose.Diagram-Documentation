@@ -15,7 +15,25 @@ url: /fr/java/retrieve-visio-connectors-and-font-information/
 ### **Exemple de programmation**
 Le morceau de code suivant récupère les informations pour les connecteurs dans un diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
+        
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");        
+for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getConnects())
+{
+    // Display information about the Connectors
+    System.out.println("\nFrom Shape ID : " + connector.getFromSheet());
+    System.out.println("To Shape ID : " + connector.getToSheet());
+ }
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 ## **Récupération des informations sur la police**
  Aspose.Diagram a des mécanismes pour récupérer des informations sur les éléments qui composent un diagram, à partir de[pages](/diagram/fr/java/retrieve-get-copy-and-insert-a-page/), [pochoirs](), [connecteurs](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)et aussi les polices. Cet article montre comment savoir quelles polices sont utilisées dans un diagram.
 
@@ -25,10 +43,41 @@ Un objet Font mappe un nom (par exemple, « Arial ») à l'ID de police (par exe
 ### **Récupération d'un exemple de programmation de polices**
 Le morceau de code suivant récupère les informations de police du Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveFontInfo-RetrieveFontInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
+
+// call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrieveFontInfo.vsd");
+
+for(Font font : (Iterable<Font>) diagram.getFonts())
+{
+    // Display information about the fonts
+    System.out.println(font.getName());
+}
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 
 ![tâche : image_autre_texte](retrieve-visio-connectors-and-font-information_2.png)
 ### **Obtenir le répertoire de polices par défaut**
 Aspose.Diagram for Java API permet également d'obtenir le chemin du répertoire de polices par défaut à l'aide de la méthode getDefaultFontDir() de la classe Diagram. Le morceau de code suivant récupère le répertoire de polices par défaut à partir du Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
+
+// Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+
+// Display font default directory
+System.out.println(diagram.getDefaultFontDir());
+
+{{< /highlight >}}
+```

@@ -12,7 +12,34 @@ description: В этом разделе объясняется, как вста�
 #### **Пример программирования извлечения изображений**
 Следующий фрагмент кода извлекает все изображения с определенной страницы Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
+
+// Enter page index i.e. 0 for first one
+foreach (Shape shape in diagram.Pages[0].Shapes)
+{
+    // Filter shapes by type Foreign
+    if (shape.Type == Aspose.Diagram.TypeValue.Foreign)
+    {
+        using (System.IO.MemoryStream stream = new System.IO.MemoryStream(shape.ForeignData.Value))
+        {
+            // Load memory stream into bitmap object
+            System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
+
+            // Save bmp here
+            bitmap.Save(dataDir + "ExtractAllImages" + shape.ID + "_out.bmp");
+        }
+    }
+}
+
+{{< /highlight >}}
+```
 ## **Получить иконки различных форм Visio**
 Aspose.Diagram for .NET API теперь позволяет разработчикам получать иконки различных Visio форм.
 ### **Получение значка формы**
@@ -23,7 +50,27 @@ Aspose.Diagram for .NET API теперь позволяет разработчи
 1. Получить главный значок.
 1. Сохранить значок в локальном пространстве.
 #### **Получить пример программирования значков**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-GetShapeIcon-GetShapeIcon.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load stencil file to a diagram object
+Diagram stencil = new Diagram(dataDir + "Timeline.vss");
+// Get master
+Master master = stencil.Masters.GetMaster(1);
+
+using (System.IO.MemoryStream stream = new System.IO.MemoryStream(master.Icon))
+{
+    // Load memory stream into bitmap object
+    System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
+    // Save as png format
+    bitmap.Save(dataDir + "MasterIcon_out.png", System.Drawing.Imaging.ImageFormat.Png);
+}
+
+{{< /highlight >}}
+```
 ## **Замените форму изображения Visio Diagram**
 Aspose.Diagram for .NET API позволяет разработчикам получать доступ и заменять доступные формы изображений в файле Visio diagram.
 ### **Замена формы изображения**
@@ -34,7 +81,36 @@ Aspose.Diagram for .NET API позволяет разработчикам пол
 1. Примените фильтр, чтобы получить формы изображения.
 1. Сохраните результат Visio diagram в локальном пространстве.
 #### **Замена примера программирования формы изображения**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ReplaceShapePicture-ReplaceShapePicture.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
+// Convert image into bytes array
+byte[] imageBytes = File.ReadAllBytes(dataDir + "Picture.png");
+
+// Enter page index i.e. 0 for first one
+foreach (Shape shape in diagram.Pages[0].Shapes)
+{
+    // Filter shapes by type Foreign
+    if (shape.Type == Aspose.Diagram.TypeValue.Foreign)
+    {
+        using (System.IO.MemoryStream stream = new System.IO.MemoryStream(shape.ForeignData.Value))
+        {
+            // Replace picture shape
+            shape.ForeignData.Value = imageBytes;
+        }
+    }
+}
+
+// Save diagram
+diagram.Save(dataDir + "ReplaceShapePicture_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Импортировать растровое изображение как форму Visio**
 Aspose.Diagram for .NET API теперь позволяет разработчикам импортировать растровое изображение в виде формы.
 ### **Вставьте изображение BMP в Visio**
@@ -45,7 +121,28 @@ Aspose.Diagram for .NET API теперь позволяет разработчи
 1. Импорт растрового изображения в виде фигуры Visio
 1. Сохраните номер diagram.
 #### **Вставьте образец программирования изображения BMP**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Create a new diagram
+Diagram diagram = new Diagram();
+
+// Get page object by index
+Page page0 = diagram.Pages[0];
+// Set pinX, pinY, width and height
+double pinX = 2, pinY = 2, width = 4, hieght = 3;
+
+// Import Bitmap image as Visio shape
+page0.AddShape(pinX, pinY, width, hieght, new FileStream(dataDir + "image.bmp", FileMode.OpenOrCreate));
+
+// Save Visio diagram
+diagram.Save(dataDir + "InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Преобразование указанной области страницы Visio в изображение**
 С помощью Aspose.Diagram for .NET API разработчики могут определить область с координатами XY, шириной и высотой, а затем преобразовать эту область в поддерживаемый формат изображения.
 ### **Преобразование области рисования Visio в изображение**

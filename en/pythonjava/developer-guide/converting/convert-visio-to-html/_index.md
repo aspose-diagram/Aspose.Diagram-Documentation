@@ -33,11 +33,52 @@ The image below shows the output HTML file.
 The resultant file can be saved by passing a complete path string, including the filename and extension, e.g. @"c:\temp\MyOutput.html".
 
 #### **Save Resultant HTML in Local Storage Programming Sample**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToHTML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToHTML.vsd")
+
+# Save as HTML
+diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 
 
 ### **Save resultant HTML in a stream instance**
 It is for use case to save the resultant HTML in a database or repository without storing it in the local storage. This feature also embeds other resultant resources of the HTML, e.g. fonts, CSS (containing the style information) and images. Since it saves a single HTML file into the stream instance.
 #### **Save Resultant HTML in a Stream Programming Sample**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportHTMLinStream.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToHTML.vsd")
+# save resultant HTML directly to a stream
+dstStream = java.io.ByteArrayOutputStream()
+diagram.save(dstStream, SaveFileFormat.HTML)
+# In you want to read the result into a Diagram object again, you need to get the
+# data bytes and wrap into an input stream.
+# srcStream = java.io.ByteArrayInputStream(dstStream.toByteArray())
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

@@ -22,4 +22,24 @@ description: 本节介绍如何将连接点添加到具有 Aspose.Diagram 的 vi
 #### **将连接点添加到形状编程示例**
 在您的 .NET 应用程序中使用以下代码将连接添加到使用 Aspose.Diagram for .NET 的形状。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetConnectorAppearance-SetConnectorAppearance.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+
+// Get a particular page
+Page page = diagram.Pages.GetPage("Page-3");
+// Get a dynamic connector type shape by id
+Shape shape = page.Shapes.GetShape(18);
+// Set dynamic connector appearance
+shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
+
+// Saving Visio diagram
+diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

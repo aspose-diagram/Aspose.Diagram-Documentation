@@ -10,5 +10,29 @@ description: Questa sezione spiega come ottenere lo stile di linea della forma v
 #### **Recupera esempio di programmazione dei dati della riga ereditata**
 Il frammento di codice seguente recupera i dati della linea ereditati della forma. Si prega di controllare questo codice di esempio:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-GetInheritLine-GetInheritLine.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-3");
+
+foreach (Aspose.Diagram.Shape shape in page.Shapes)
+{
+	Line line = shape.InheritLine;
+	Console.WriteLine(line.LinePattern.Value);
+	Console.WriteLine(line.LineColor.Value);
+	Console.WriteLine(line.BeginArrow.Value);
+	Console.WriteLine(line.BeginArrowSize.Value);
+	Console.WriteLine(line.EndArrow.Value);
+	Console.WriteLine(line.EndArrowSize.Value);
+	Console.WriteLine(line.LineWeight.Value);
+}
+
+{{< /highlight >}}
+```
 

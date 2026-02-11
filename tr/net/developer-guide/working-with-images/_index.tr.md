@@ -12,7 +12,34 @@ Sayfa Sınıfı nesnesi, bir ön plan sayfasının veya bir arka plan sayfasın�
 #### **Görüntüleri Çıkarma Programlama Örneği**
 Aşağıdaki kod parçası, belirli bir Visio sayfasından tüm resimleri çıkarır.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ExtractAllImagesFromPage-ExtractAllImagesFromPage.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
+
+// Enter page index i.e. 0 for first one
+foreach (Shape shape in diagram.Pages[0].Shapes)
+{
+    // Filter shapes by type Foreign
+    if (shape.Type == Aspose.Diagram.TypeValue.Foreign)
+    {
+        using (System.IO.MemoryStream stream = new System.IO.MemoryStream(shape.ForeignData.Value))
+        {
+            // Load memory stream into bitmap object
+            System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
+
+            // Save bmp here
+            bitmap.Save(dataDir + "ExtractAllImages" + shape.ID + "_out.bmp");
+        }
+    }
+}
+
+{{< /highlight >}}
+```
 ## **Çeşitli Visio Şekillerinin Simgelerini Alın**
 Aspose.Diagram for .NET API artık geliştiricilerin çeşitli Visio şekillerine sahip simgeler almasına izin veriyor.
 ### **Şekil Simgesini Alma**
@@ -23,7 +50,27 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Ana simgeyi alın.
 1. Simgeyi yerel alana kaydedin.
 #### **Simge Programlama Örneği Alın**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-GetShapeIcon-GetShapeIcon.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load stencil file to a diagram object
+Diagram stencil = new Diagram(dataDir + "Timeline.vss");
+// Get master
+Master master = stencil.Masters.GetMaster(1);
+
+using (System.IO.MemoryStream stream = new System.IO.MemoryStream(master.Icon))
+{
+    // Load memory stream into bitmap object
+    System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
+    // Save as png format
+    bitmap.Save(dataDir + "MasterIcon_out.png", System.Drawing.Imaging.ImageFormat.Png);
+}
+
+{{< /highlight >}}
+```
 ## **Visio Diagram'in Resim Şeklini Değiştirme**
 Aspose.Diagram for .NET API, geliştiricilerin Visio diagram'deki mevcut resim şekillerine erişmesine ve bunları değiştirmesine olanak tanır.
 ### **Resim Şeklini Değiştirme**
@@ -34,7 +81,36 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Resim şekilleri elde etmek için filtre uygulayın.
 1. Ortaya çıkan Visio diagram'i yerel alana kaydedin.
 #### **Bir Resim Şekli Programlama Örneğinin Değiştirilmesi**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-ReplaceShapePicture-ReplaceShapePicture.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
+// Convert image into bytes array
+byte[] imageBytes = File.ReadAllBytes(dataDir + "Picture.png");
+
+// Enter page index i.e. 0 for first one
+foreach (Shape shape in diagram.Pages[0].Shapes)
+{
+    // Filter shapes by type Foreign
+    if (shape.Type == Aspose.Diagram.TypeValue.Foreign)
+    {
+        using (System.IO.MemoryStream stream = new System.IO.MemoryStream(shape.ForeignData.Value))
+        {
+            // Replace picture shape
+            shape.ForeignData.Value = imageBytes;
+        }
+    }
+}
+
+// Save diagram
+diagram.Save(dataDir + "ReplaceShapePicture_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Bitmap Görüntüsünü Visio Şekli Olarak İçe Aktar**
 Aspose.Diagram for .NET API artık geliştiricilerin bir bitmap görüntüsünü Microsoft Visio şekli olarak içe aktarmasına izin veriyor.
 ### **Visio'e bir BMP Görüntüsü ekleyin**
@@ -45,7 +121,28 @@ Aşağıdaki örneklerdeki kod, nasıl yapılacağını gösterir:
 1. Bir bitmap görüntüsünü Visio şekli olarak içe aktarın
 1. diagram'i kaydedin.
 #### **BMP Görüntü Programlama Örneği ekleyin**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-Working-with-Icons-and-Pictures-InsertImageInVisio-InsertImageInVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Create a new diagram
+Diagram diagram = new Diagram();
+
+// Get page object by index
+Page page0 = diagram.Pages[0];
+// Set pinX, pinY, width and height
+double pinX = 2, pinY = 2, width = 4, hieght = 3;
+
+// Import Bitmap image as Visio shape
+page0.AddShape(pinX, pinY, width, hieght, new FileStream(dataDir + "image.bmp", FileMode.OpenOrCreate));
+
+// Save Visio diagram
+diagram.Save(dataDir + "InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Visio Sayfanın Belirtilen Alanını Görüntüye Dönüştür**
 Aspose.Diagram for .NET API ile geliştiriciler, XY koordinatları, genişlik ve yükseklik ile bir alan tanımlayabilir ve ardından bu alanı desteklenen bir görüntü formatına dönüştürebilir.
 ### **Visio çizim alanını bir Resme dönüştürün**

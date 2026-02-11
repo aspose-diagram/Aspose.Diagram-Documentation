@@ -23,7 +23,23 @@ I Microsoft Visio skyddar du dokument på detta sätt:
 
 Använd koden nedan i en Java-applikation för att utföra samma uppgifter – låsa och låsa upp olika delar av din diagram – med Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioDiagramProtection-VisioDiagramProtection.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
+//Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+
+diagram.getDocumentSettings().setProtectBkgnds(BOOL.TRUE);
+diagram.getDocumentSettings().setProtectMasters(BOOL.TRUE);
+diagram.getDocumentSettings().setProtectShapes(BOOL.TRUE);
+diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
+// save diagram
+diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ### **Redigera Visio Shape Protection**
  Genom att skydda Visio-former kan användare låsa specifika aspekter av former. Aspekter av former som kan låsas genom formskydd inkluderar bredd, höjd, x-position, y-position, rotation med mera. Utvecklare kan uppnå detta med hjälp av[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -43,4 +59,42 @@ Visio måste du utföra följande åtgärder för att skydda alla former:
 
 Använd följande kod i din Java-applikation för att göra samma sak (låsa/låsa upp valfritt formattribut) med Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioShapeProtection-VisioShapeProtection.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioShapeProtection.class);
+//Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+// get page by name
+Page page = diagram.getPages().getPage("Flow 1");
+// get shape by ID
+Shape shape = page.getShapes().getShape(1);
+
+// set protections
+shape.getProtection().getLockAspect().setValue(BOOL.TRUE);
+shape.getProtection().getLockBegin().setValue(BOOL.TRUE);
+shape.getProtection().getLockCalcWH().setValue(BOOL.TRUE);
+shape.getProtection().getLockCrop().setValue(BOOL.TRUE);
+shape.getProtection().getLockCustProp().setValue(BOOL.TRUE);
+shape.getProtection().getLockDelete().setValue(BOOL.TRUE);
+shape.getProtection().getLockEnd().setValue(BOOL.TRUE);
+shape.getProtection().getLockFormat().setValue(BOOL.TRUE);
+shape.getProtection().getLockFromGroupFormat().setValue(BOOL.TRUE);
+shape.getProtection().getLockGroup().setValue(BOOL.TRUE);
+shape.getProtection().getLockHeight().setValue(BOOL.TRUE);
+shape.getProtection().getLockMoveX().setValue(BOOL.TRUE);
+shape.getProtection().getLockMoveY().setValue(BOOL.TRUE);
+shape.getProtection().getLockRotate().setValue(BOOL.TRUE);
+shape.getProtection().getLockSelect().setValue(BOOL.TRUE);
+shape.getProtection().getLockTextEdit().setValue(BOOL.TRUE);
+shape.getProtection().getLockThemeColors().setValue(BOOL.TRUE);
+shape.getProtection().getLockThemeEffects().setValue(BOOL.TRUE);
+shape.getProtection().getLockVtxEdit().setValue(BOOL.TRUE);
+shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
+        
+// save diagram
+diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

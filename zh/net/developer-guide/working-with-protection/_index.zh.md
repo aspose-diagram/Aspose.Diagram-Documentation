@@ -18,7 +18,24 @@ ProtectBkgnds、ProtectMasters、ProtectShapes 和 ProtectStyles 属性，由[�
 #### **编辑 Diagram 保护编程示例**
 在 .NET 应用程序中使用以下代码执行相同的任务，例如使用 Aspose.Diagram for .NET API 锁定和解锁 Visio diagram 的不同元素。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-VisioDiagramProtection-VisioDiagramProtection.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Protection();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+
+diagram.DocumentSettings.ProtectBkgnds = BOOL.True;
+diagram.DocumentSettings.ProtectMasters = BOOL.True;
+diagram.DocumentSettings.ProtectShapes = BOOL.True;
+diagram.DocumentSettings.ProtectStyles = BOOL.True;
+// Save diagram
+diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **设置Visio形状的保护**
 保护 Visio 形状允许用户锁定形状的特定方面。可以通过形状保护锁定的形状方面包括宽度、高度、x 位置、y 位置、旋转等。开发人员可以使用[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 ### **编辑Visio形状保护**
@@ -34,4 +51,43 @@ ProtectBkgnds、ProtectMasters、ProtectShapes 和 ProtectStyles 属性，由[�
 ### **编辑形状保护编程示例**
 在您的 .NET 应用程序中使用以下代码来使用 Aspose.Diagram for .NET 执行相同的操作（锁定/解锁任何形状属性）。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Protection-VisioShapeProtection-VisioShapeProtection.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Protection();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+// Get page by name
+Page page = diagram.Pages.GetPage("Flow 1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+
+// Set protections
+shape.Protection.LockAspect.Value = BOOL.True;
+shape.Protection.LockBegin.Value = BOOL.True;
+shape.Protection.LockCalcWH.Value = BOOL.True;
+shape.Protection.LockCrop.Value = BOOL.True;
+shape.Protection.LockCustProp.Value = BOOL.True;
+shape.Protection.LockDelete.Value = BOOL.True;
+shape.Protection.LockEnd.Value = BOOL.True;
+shape.Protection.LockFormat.Value = BOOL.True;
+shape.Protection.LockFromGroupFormat.Value = BOOL.True;
+shape.Protection.LockGroup.Value = BOOL.True;
+shape.Protection.LockHeight.Value = BOOL.True;
+shape.Protection.LockMoveX.Value = BOOL.True;
+shape.Protection.LockMoveY.Value = BOOL.True;
+shape.Protection.LockRotate.Value = BOOL.True;
+shape.Protection.LockSelect.Value = BOOL.True;
+shape.Protection.LockTextEdit.Value = BOOL.True;
+shape.Protection.LockThemeColors.Value = BOOL.True;
+shape.Protection.LockThemeEffects.Value = BOOL.True;
+shape.Protection.LockVtxEdit.Value = BOOL.True;
+shape.Protection.LockWidth.Value = BOOL.True;
+            
+// Save diagram
+diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

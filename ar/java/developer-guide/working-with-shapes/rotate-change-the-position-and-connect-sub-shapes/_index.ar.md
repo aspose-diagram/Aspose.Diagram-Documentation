@@ -9,7 +9,26 @@ url: /ar/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **قم بتدوير عينة برمجة الشكل**
 استخدم الكود التالي في تطبيق Java لتدوير شكل باستخدام Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RotateVisioShape-RotateVisioShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RotateVisioShape.class); 
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+// get shape by id
+Shape shape = page.getShapes().getShape(16);
+
+// Add a shape and set the angle
+shape.setAngle(190);
+
+// Save diagram
+diagram.save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **تغيير موضع الشكل**
 تسمح لك فئة الشكل بتغيير موضع الشكل. يتم ضبط خط الموصل تلقائيًا عند نقل الشكل إلى موضع مختلف.
 
@@ -33,7 +52,25 @@ url: /ar/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **نموذج برمجة تغيير الموضع**
 يوضح مقتطف الشفرة أدناه كيفية تحريك الشكل. يسترجع الكود صفحة Visio بالاسم والشكل بواسطة المعرف 16 ، وينقل موضعه.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-MoveVisioShape-MoveVisioShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(MoveVisioShape.class);  
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+// get shape by id
+Shape shape = page.getShapes().getShape(16);
+// move shape from its position, it adds values in coordinates
+shape.move(1, 1);
+
+// save diagram
+diagram.save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **ربط الأشكال الفرعية للمجموعات**
 يوضح هذا الموضوع كيفية توصيل شكلين فرعيين من شكلين مختلفين للمجموعة في مخطط Microsoft Visio باستخدام Aspose.Diagram for Java.
 
@@ -50,7 +87,34 @@ url: /ar/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **عينة برمجة توصيل الأشكال الفرعية**
 استخدم الكود التالي في تطبيق Java الخاص بك لتوصيل الأشكال الفرعية لاثنين من أشكال المجموعة المختلفة باستخدام Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ConnectVisioSubShapes-ConnectVisioSubShapes.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ConnectVisioSubShapes.class);   
+// set sub shape ids
+long shapeFromId = 2;
+long shapeToId = 4;
+
+// load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// access a particular page
+Page page = diagram.getPages().getPage("Page-3");
+       
+// initialize connector shape
+Shape shape = new Shape();
+shape.getLine().getEndArrow().setValue(4);
+shape.getLine().getLineWeight().setValue(0.01388);
+
+// add shape
+long connecter1Id = diagram.addShape(shape, "Dynamic connector", page.getID());
+// connect sub-shapes
+page.connectShapesViaConnector(shapeFromId, ConnectionPointPlace.RIGHT, shapeToId, ConnectionPointPlace.LEFT, connecter1Id);
+// save Visio drawing
+diagram.save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **اجعل الأشكال متصلة بشكل معين**
 [إضافة وتوصيل Visio الأشكال](/diagram/ar/java/add-and-connect-visio-shapes/) يشرح كيفية إضافة شكل وربطه بأشكال أخرى في الرسوم التخطيطية Microsoft Visio باستخدام Aspose.Diagram for Java. من الممكن أيضًا العثور على أشكال متصلة بشكل معين.
 
@@ -64,4 +128,23 @@ url: /ar/java/rotate-change-the-position-and-connect-sub-shapes/
 ### **احصل على عينة برمجة الأشكال**
 استخدم الكود التالي في تطبيق Java الخاص بك للعثور على جميع الأشكال المتصلة بشكل معين باستخدام Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-GetAllConnectedShapes-GetAllConnectedShapes.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetAllConnectedShapes.class);
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get shape by id
+Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(16);
+// get connected shapes
+long[] connectedShapeIds = shape.connectedShapes(ConnectedShapesFlags.CONNECTED_SHAPES_ALL_NODES, null);
+
+for (long id : connectedShapeIds)
+{
+    shape = diagram.getPages().getPage("Page-3").getShapes().getShape(id);
+    System.out.println("ID: " + shape.getID() + "\t\t Name: " + shape.getName());
+}
+
+{{< /highlight >}}
+```

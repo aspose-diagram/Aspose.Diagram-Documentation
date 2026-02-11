@@ -10,7 +10,31 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **تصدير Microsoft Visio رسم إلى PDF**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى PDF باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 
  تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XML باستخدام[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
@@ -55,7 +79,31 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio الرسم إلى XML**
 توضح نماذج التعليمات البرمجية كيفية تصدير Microsoft Visio الرسم إلى XML باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXML-ExportToXML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+            
+/* 1. Exporting VSDX to VDX */
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXML.vsd");
+
+// Save input VSD as VDX
+diagram.Save(dataDir + "ExportToXML_out.vdx", SaveFileFormat.VDX);
+
+/* 2. Exporting from VSD to VSX */
+// Call the diagram constructor to load diagram from a VSD file
+            
+// Save input VSD as VSX
+diagram.Save(dataDir + "ExportToXML_out.vsx", SaveFileFormat.VSX);
+            
+/* 3. Export VSD to VTX */
+// Save input VSD as VTX
+diagram.Save(dataDir + "ExportToXML_out.vtx", SaveFileFormat.VTX);
+
+{{< /highlight >}}
+```
 
 ## **تصدير إلى XPS**
  يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى XPS باستخدام[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
@@ -75,7 +123,20 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio رسم إلى XPS**
 توضح عينات الكود كيفية تصدير Microsoft Visio الرسم إلى XPS باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXPS-ExportToXPS.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Open a VSD file
+Diagram diagram = new Diagram(dataDir + "LayOutShapesInCompactTreeStyle.vdx");
+
+// Save diagram to an XPS format
+diagram.Save(dataDir + "ExportToXPS_out.xps", SaveFileFormat.XPS);
+
+{{< /highlight >}}
+```
 
 ## **قم بتصدير Diagram إلى SVG**
  تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى SVG (Scalable Vector Graphics) باستخدام[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
@@ -89,7 +150,20 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio رسم إلى SVG**
 توضح عينات الكود كيفية تصدير diagram إلى SVG باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSVG-ExportToSVG.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+
+// Save SVG Output file
+diagram.Save(dataDir + "Output.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 ## **تصدير إلى SWF**
  يشرح هذا المقال كيفية تصدير Microsoft Visio diagram إلى SWF باستخدام[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
@@ -106,11 +180,44 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 - قم بتكوين نسخة من الفئة Diagram.
 - اتصل بـ Diagram class 'Save method وقم بتوفير تنسيق SWF لتصدير diagram إلى SWF.
 ### **نموذج برمجة العارض المضمن**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSWF-ExportToSWF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
+// Save diagram
+diagram.Save(dataDir + "Output_out.swf", SaveFileFormat.SWF);
+
+{{< /highlight >}}
+```
 ### **بدون نموذج برمجة العارض**
 يتضمن الملف SWF الذي تم إنشاؤه بواسطة قصاصات التعليمات البرمجية هذه عارض SWF. استبعاد عارض SWF من الملف باستخدام التعليمات البرمجية التالية.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-ExportToSWFWithoutViewer-ExportToSWFWithoutViewer.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Instantiate Diagram Object and open VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
+
+// Instantiate the Save Options
+SWFSaveOptions options = new SWFSaveOptions();
+
+// Set Save format as SWF
+options.SaveFormat = SaveFileFormat.SWF;
+
+// Exclude the embedded viewer
+options.ViewerIncluded = false;
+
+// Save the resultant SWF file
+diagram.Save(dataDir + "ExportToSWFWithoutViewer_out.swf", SaveFileFormat.SWF);
+
+{{< /highlight >}}
+```
 ## **قم بتصدير Diagram إلى XAML**
 تشرح هذه المقالة كيفية تصدير Microsoft Visio diagram إلى XAML (لغة ترميز التطبيق الموسعة) باستخدام[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
 
@@ -123,7 +230,18 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تصدير Microsoft Visio رسم إلى XAML**
 يوضح نموذج الكود كيفية تصدير diagram إلى XAML باستخدام C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXAML-ExportToXAML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+// Save diagram
+diagram.Save(dataDir + "ExportToXAML_out.xaml", SaveFileFormat.XAML);
+
+{{< /highlight >}}
+```
 ## **تحويل Visio الرسم بأشكال انتقائية**
 باستخدام Aspose.Diagram API ، يمكن للمطورين تحديد مجموعة من الأشكال لتحويل رسم Visio إلى أي تنسيق مدعوم آخر. تقدم فئة RenderingSaveOptions عضو الأشكال للحفاظ على مجموعة الأشكال. كل فئة خيار حفظ هي الشكل الممتد لفئة RenderingSaveOptions.
 
@@ -135,4 +253,23 @@ TVX هو تمثيل XML لملف قالب ويخزن إعدادات المستن
 ### **تحويل Visio الرسم باستخدام عينة برمجة لأشكال انتقائية**
 يوضح نموذج التعليمات البرمجية كيفية تصدير رسم بأشكال انتقائية Visio.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ConvertVisioWithSelectiveShapes.cs" >}}
+```
+{{< highlight "csharp" >}}
+// the path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance SVG save options class
+SVGSaveOptions options = new SVGSaveOptions();
+ShapeCollection shapes = options.Shapes;
+
+// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.Add(diagram.Pages[0].Shapes.GetShape(1));
+shapes.Add(diagram.Pages[0].Shapes.GetShape(2));
+
+// save Visio drawing
+diagram.Save(dataDir + "SelectiveShapes_out.svg", options);
+{{< /highlight >}}
+```

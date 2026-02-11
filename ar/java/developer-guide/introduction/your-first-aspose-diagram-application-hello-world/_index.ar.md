@@ -29,10 +29,51 @@ description: توضح هذه الصفحة كيفية إنشاء التطبيق �
 
 المثال التالي ينشئ diagram جديد من الصفر ، يكتب Hello World! في الصفحة الأولى ويحفظ الملف Visio.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-CreateNewVisio-CreateNewVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateNewVisio.class);
+// initialize a Diagram class
+Diagram diagram = new Diagram();
+
+// save diagram in the VSDX format
+diagram.save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 ### **نموذج التعليمات البرمجية: فتح ملف موجود**
 
 يفتح المثال التالي ملف قالب Microsoft Visio موجود باسم "Sample.vsdx" ، بإدخال "Hello World!" نص في الصفحة الأولى ويحفظ diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ReadVisioDiagram-ReadVisioDiagram.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ReadVisioDiagram.class);   
+// Open the stream. Read only access is enough for Aspose.Diagram to load a diagram.
+InputStream stream = new FileInputStream(dataDir + "Drawing1.vsdx");
+
+//Call the diagram constructor to load diagram from a VSDX stream
+Diagram vsdDiagram = new Diagram(stream);
+stream.close();
+
+//Call the diagram constructor to load diagram from a VDX file
+Diagram vdxDiagram = new Diagram(dataDir + "Drawing1.vdx");
+
+/*
+ * Call diagram constructor to load diagram from a VSS file
+ * providing load file format
+*/
+Diagram vssDiagram = new Diagram(dataDir + "Basic.vss", LoadFileFormat.VSS);
+
+/*
+ * Call diagram constructor to load diagram from a VSX file
+ * providing load options
+*/
+LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
+Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
+
+{{< /highlight >}}
+```

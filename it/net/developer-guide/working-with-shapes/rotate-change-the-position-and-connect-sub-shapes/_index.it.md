@@ -10,7 +10,27 @@ description: Questa sezione spiega come ruotare una forma visio con Aspose.Diagr
 ### **Ruotare un esempio di programmazione delle forme**
 Utilizzare il seguente codice nell'applicazione .NET per ruotare una forma utilizzando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-RotateVisioShape-RotateVisioShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-3");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(16);
+
+// Add a shape and set the angle
+shape.SetAngle(190);
+
+// Save diagram
+diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Modificare la posizione di una forma**
  Il[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) La classe consente di modificare la posizione di una forma. La linea del connettore si regola automaticamente quando la forma viene spostata in una posizione diversa. I metodi Move e MoveTo, esposti da[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) classe, supporto per cambiare la posizione di una forma come parte di un gruppo o meno. Gli esempi di codice in questo articolo spostano una forma nella pagina.
 
@@ -23,7 +43,26 @@ Il processo per spostare una forma è:
 ### **Esempio di programmazione della modifica della posizione**
 Il frammento di codice seguente mostra come spostare la forma. Il codice recupera una pagina Visio per nome e forma per ID 16 e ne sposta la posizione.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-MoveVisioShape-MoveVisioShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-3");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(16);
+// Move shape from its position, it adds values in coordinates
+shape.Move(1, 1);
+
+// Save diagram
+diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Collega le forme secondarie dei gruppi**
  Questo argomento elabora come connettere due forme secondarie di due diverse forme di gruppo nei diagrammi Microsoft Visio utilizzando Aspose.Diagram for .NET. Il metodo ConnectShapesViaConnector esposto dal[Pagina](http://www.aspose.com/api/net/diagram/aspose.diagram/page) class può essere utilizzata per connettere le forme tramite i loro ID. Il metodo AddShape, esposto da[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram)class, può essere utilizzato per aggiungere una forma.
 
@@ -36,7 +75,35 @@ Il codice seguente mostra come:
 ### **Esempio di programmazione Connect Sub-shapes**
 Utilizzare il seguente codice nell'applicazione .NET per collegare le forme secondarie di due diverse forme di gruppo utilizzando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConnectVisioSubShapes-ConnectVisioSubShapes.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Set sub shape ids
+long shapeFromId = 2;
+long shapeToId = 4;
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Access a particular page
+Page page = diagram.Pages.GetPage("Page-3");
+           
+// Initialize connector shape
+Shape shape = new Shape();
+shape.Line.EndArrow.Value = 4;
+shape.Line.LineWeight.Value = 0.01388;
+
+// Add shape
+long connecter1Id = diagram.AddShape(shape, "Dynamic connector", page.ID);
+// Connect sub-shapes
+page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToId, ConnectionPointPlace.Left, connecter1Id);
+// Save Visio drawing
+diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Ottieni le forme collegate a una forma particolare**
 [Aggiungi e collega Visio Forme](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/) spiega come aggiungere una forma e collegarla ad altre forme nei diagrammi Microsoft Visio utilizzando Aspose.Diagram for .NET. È anche possibile trovare forme collegate a una forma specifica.
 
@@ -50,4 +117,24 @@ Il codice seguente mostra come:
 ### **Ottieni un esempio di programmazione di forme**
 Usa il seguente codice nella tua applicazione .NET per trovare tutte le forme collegate a una forma specifica usando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-GetAllConnectedShapes-GetAllConnectedShapes.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get shape by id
+Shape shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(16);
+// Get connected shapes
+long[] connectedShapeIds = shape.ConnectedShapes(ConnectedShapesFlags.ConnectedShapesAllNodes, null);
+
+foreach (long id in connectedShapeIds)
+{
+    shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(id);
+    Console.WriteLine("ID: " + shape.ID + "\t\t Name: " + shape.Name);
+}
+
+{{< /highlight >}}
+```

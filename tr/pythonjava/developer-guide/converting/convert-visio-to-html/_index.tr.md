@@ -32,11 +32,52 @@ Aşağıdaki görüntü HTML çıktı dosyasını göstermektedir.
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 
 #### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToHTML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToHTML.vsd")
+
+# Save as HTML
+diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 
 
 ### **Elde edilen HTML'i bir akış örneğine kaydedin**
 Elde edilen HTML'i yerel depoda saklamadan bir veritabanına veya havuza kaydetmek kullanım durumu içindir. Bu özellik aynı zamanda HTML'in diğer sonuç kaynaklarını, örneğin yazı tiplerini, CSS'yi (stil bilgilerini içeren) ve resimleri de içerir. Akış örneğine tek bir HTML dosyası kaydettiği için.
 #### **Sonuç HTML'i Akış Programlama Örneğine Kaydet**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportHTMLinStream.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToHTML.vsd")
+# save resultant HTML directly to a stream
+dstStream = java.io.ByteArrayOutputStream()
+diagram.save(dstStream, SaveFileFormat.HTML)
+# In you want to read the result into a Diagram object again, you need to get the
+# data bytes and wrap into an input stream.
+# srcStream = java.io.ByteArrayInputStream(dstStream.toByteArray())
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

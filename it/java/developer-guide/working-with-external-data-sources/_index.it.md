@@ -11,4 +11,19 @@ Aspose.Diagram API consente agli utenti di modificare la connessione dati di SQL
 ### **Esempio di programmazione**
 La parte di codice seguente modifica una particolare connessione dati e aggiorna anche tutti i set di record disponibili in Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-ExternalDataSources-EditDataConAndRefreshRecords-EditDataConAndRefreshRecords.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(EditDataConAndRefreshRecords.class);
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+// set connecting string
+diagram.getDataConnections().get(0).setConnectionString("Data Source=MyServer;Initial Catalog=MyDB;Integrated Security=True");
+// set command
+diagram.getDataConnections().get(0).setCommand("SELECT * from Project with(nolock)");
+// save Visio diagram
+diagram.save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

@@ -17,7 +17,27 @@ url: /zh/java/working-with-shapes-gluing/
 #### **获取连接器粘合编程示例**
 在您的 Java 应用程序中使用以下代码来查找使用 Aspose.Diagram for Java 粘附到形状上的所有连接器。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GetGluedConnectors-GetGluedConnectors.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetGluedConnectors.class);   
+// call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "RetrieveShapeInfo.vsd");
+// get shape by an ID
+Shape shape = diagram.getPages().get(0).getShapes().getShape(90);
+// get all glued 1D shapes
+long[] gluedShapeIds = shape.gluedShapes(GluedShapesFlags.GLUED_SHAPES_ALL_1_D, null, null);
+
+// display shape ID and name
+for (long id : gluedShapeIds)
+{
+    shape = diagram.getPages().get(0).getShapes().getShape(id);
+    System.out.println("ID: " + shape.getID() + "\t\t Name: " + shape.getName());
+}
+
+{{< /highlight >}}
+```
 ## **将 Visio 形状与连接点粘合在一起**
 Aspose.Diagram for Java 允许开发人员通过连接点将形状粘合在一起。
 ### **胶水形状**
@@ -33,7 +53,27 @@ Aspose.Diagram for Java 允许开发人员通过连接点将形状粘合在一�
 #### **胶水 Visio 形状编程示例**
 在您的 Java 应用程序中使用以下代码通过连接点粘合形状：
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueVisioShapes-GlueVisioShapes.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GlueVisioShapes.class);
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+// set shape id
+long shape1_ID = 7;
+long shape2_ID = 494;
+// Glue shapes
+page.glueShapes(shape1_ID, ConnectionPointPlace.CENTER, shape2_ID);
+
+// Save diagram
+diagram.save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **在容器内粘贴形状**
 Aspose.Diagram for Java 使开发人员能够将组形状粘附在容器内。
 ### **胶团形状**
@@ -49,4 +89,34 @@ Aspose.Diagram for Java 使开发人员能够将组形状粘附在容器内。
 #### **编程示例中的胶水形状**
 在 Java 应用程序中使用以下代码将组形状粘附在容器内：
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-Glue-GlueContainerShape-GlueContainerShape.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GlueContainerShape.class);   
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+
+// The ID of shape which is glue from Aspose.Diagram.Shape.
+long shapeFromId = 779;
+// The location on the first connection index where to glue
+int shapeToBeginConnectionIndex = 72;
+// The location on the end connection index where to glue
+int shapeToEndConnectionIndex = 73;
+// The ID of shape where to glue to Aspose.Diagram.Shape.
+long shapeToId = 743;
+
+// Glue shapes in container
+page.glueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndConnectionIndex, shapeToId);
+
+// Glue shapes in container using connection name
+// page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
+
+// Save diagram
+diagram.save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

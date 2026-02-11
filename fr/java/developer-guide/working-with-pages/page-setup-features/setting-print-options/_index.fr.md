@@ -29,10 +29,42 @@ Les options de configuration de page sont entièrement prises en charge dans Asp
 |Paysage|Orientation paysage|
 |Portrait|Orientation portrait|
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-SetPageOrientation-SetPageOrientation.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(Test.class);
+
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Get page
+Page page = diagram.getPages().getPage(0);
+
+//Set PrintPageOrientation
+page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
+
+{{< /highlight >}}
+```
 
 ### **Facteur d'échelle**
 
  Il est possible de réduire ou d'agrandir la taille d'une page en ajustant le facteur d'échelle avec la[**ÉchelleX**](https://reference.aspose.com/diagram/java/com.aspose.diagram/printprops#ScaleX)propriété.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-SetPageOrientation-SetPageScale.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(Test.class);
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Get page
+Page page = diagram.getPages().getPage(0);
+//Set ScaleX and ScaleY
+page.getPageSheet().getPrintProps().getScaleX().setValue( 1);
+page.getPageSheet().getPrintProps().getScaleY().setValue ( 1);
+{{< /highlight >}}
+```

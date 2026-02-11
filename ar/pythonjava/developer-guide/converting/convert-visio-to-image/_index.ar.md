@@ -22,8 +22,52 @@ description: يوضح هذا الموضوع كيفية تحويل Visio إلى �
 
 ![ما يجب القيام به: image_بديل_نص](ExportToImage.png)
 ### **التصدير إلى نموذج برمجة ملفات الصور**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToImage.vsd")
+
+# Save as PNG
+diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 من الممكن أيضًا حفظ صفحة معينة على الصورة ، بدلاً من حفظ المستند بأكمله:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportPageToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToImage.vsd")
+
+# Save diagram as PNG
+options = ImageSaveOptions(SaveFileFormat.PNG)
+
+# Save one page only, by page index
+options.setPageIndex(0)
+
+# Save resultant Image file
+diagram.save("ExportPageToImage_Out.png", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

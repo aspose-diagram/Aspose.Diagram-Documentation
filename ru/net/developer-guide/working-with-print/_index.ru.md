@@ -34,7 +34,23 @@ description: В этом разделе объясняется, как расп�
 #### **Образец программирования**
 В следующем примере кода показано, как вызвать служебный класс для печати via XPS.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-PrintDiagramVisXPSPrinterAPI-PrintDiagramVisXPSPrinterAPI.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            
+// Specify the name of the printer you want to print to.
+const string printerName = @"\\COMPANY\Brother MFC-885CW Printer";
+
+// Print the document.
+XpsPrintHelper.Print(diagram, printerName, "My Test Job", true);
+
+{{< /highlight >}}
+```
 
 
 Существует две перегрузки метода XpsPrintHelper.Print. Первая перегрузка принимает объект Aspose.Diagram.Diagram и сохраняет его в MemoryStream в формате XPS. Затем он вызывает другую перегрузку XpsPrintHelper.Print.
@@ -43,14 +59,85 @@ description: В этом разделе объясняется, как расп�
 #### **XPS Пример программирования потоковой передачи и печати**
 Этот пример кода преобразует Diagram в поток XPS и печатает.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-XpsPrintHelper-XpsPrint_PrintDocument.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+/// <summary>
+/// Sends an Aspose.Diagram document to a printer using the XpsPrint API.
+/// </summary>
+/// <param name="diagram"></param>
+/// <param name="printerName"></param>
+/// <param name="jobName">Job name. Can be null.</param>
+/// <param name="isWait">True to wait for the job to complete. False to return immediately after submitting the job.</param>
+/// <exception cref="Exception">Thrown if any error occurs.</exception>
+public static void Print(Diagram diagram, string printerName, string jobName, bool isWait)
+{
+    if (diagram == null)
+        throw new ArgumentNullException("document");
+
+    // Use Aspose.Diagram to convert the document to XPS and store in a memory stream.
+    MemoryStream stream = new MemoryStream();
+    diagram.Save(stream, SaveFileFormat.XPS);
+    stream.Position = 0;
+
+    Print(stream, printerName, jobName, isWait);
+}
+
+{{< /highlight >}}
+```
 
 
 Вторая перегрузка XpsPrintHelper.Print принимает объект Stream. Поток должен содержать документ в формате XPS. Этот метод запускает задание печати XPS, отправляет документ на XpsPrint API, а затем при необходимости ожидает результата.
 #### **XpsPrint API Образец программирования**
 В этом примере кода документ XPS печатается с использованием XpsPrint API.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-XpsPrintHelper-XpsPrint_PrintStream.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+/// <summary>
+/// Sends a stream that contains a document in the XPS format to a printer using the XpsPrint API.
+/// Has no dependency on Aspose.Diagram, can be used in any project.
+/// </summary>
+/// <param name="stream"></param>
+/// <param name="printerName"></param>
+/// <param name="jobName">Job name. Can be null.</param>
+/// <param name="isWait">True to wait for the job to complete. False to return immediately after submitting the job.</param>
+/// <exception cref="Exception">Thrown if any error occurs.</exception>
+public static void Print(Stream stream, string printerName, string jobName, bool isWait)
+{
+    if (stream == null)
+        throw new ArgumentNullException("stream");
+    if (printerName == null)
+        throw new ArgumentNullException("printerName");
+
+    // Create an event that we will wait on until the job is complete.
+    IntPtr completionEvent = CreateEvent(IntPtr.Zero, true, false, null);
+    if (completionEvent == IntPtr.Zero)
+        throw new Win32Exception();
+
+    try
+    {
+        IXpsPrintJob job;
+        IXpsPrintJobStream jobStream;
+        StartJob(printerName, jobName, completionEvent, out job, out jobStream);
+
+        CopyJob(stream, job, jobStream);
+
+        if (isWait)
+        {
+            WaitForJob(completionEvent);
+            CheckJobStatus(job);
+        }
+    }
+    finally
+    {
+        if (completionEvent != IntPtr.Zero)
+            CloseHandle(completionEvent);
+    }
+}
+
+{{< /highlight >}}
+```
 
 
 Код для методов StartJob, CopyJob, WaitForJob и CheckJobStatus, а также определения интерфейсов IXpsPrintJob и IXpsPrintJobStream довольно низкоуровневый и использует Platform Invoke и COM Interop. Этот код не включен в статью для краткости, но доступен в загружаемом образце.
@@ -70,18 +157,57 @@ XpsPrint API также предоставляет дополнительные 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print без параметров, предоставляемых объектом Diagram.
 #### **Пример программирования печати на принтере по умолчанию**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-ByDefaultPrinter-ByDefaultPrinter.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Call the print method to print whole Diagram using the default printer
+diagram.Print();
+
+{{< /highlight >}}
+```
 ### **Печать на указанный принтер**
 Для печати diagram на конкретном принтере требуется имя принтера в качестве параметра метода печати Diagram. Выполните следующие шаги, чтобы напечатать diagram на нужном принтере:
 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print класса Diagram с именем принтера в качестве строкового параметра для метода Print.
 #### **Пример программирования печати на конкретном принтере**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-BySpecificPrinter-BySpecificPrinter.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Call the print method to print whole Diagram using the printer name
+diagram.Print("LaserJet1100");
+
+{{< /highlight >}}
+```
 ### **Установка имени принтера и документа**
 Aspose.Diagram API позволяет задать конкретный принтер и имя документа для задания на печать. Выполните следующие шаги, чтобы распечатать diagram на нужном принтере:
 
 - Создайте экземпляр класса Diagram для загрузки diagram, который должен быть напечатан.
 - Вызовите метод Print класса Diagram с принтером и именем документа в качестве строкового параметра для метода Print.
 #### **Пример программирования установки имени принтера и документа**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPrintJobAndPrinterName-SetPrintJobAndPrinterName.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Call the print method to print whole Diagram using the printer name and set document name in the print job
+diagram.Print("LaserJet1100", "Job name while printing with Aspose.Diagram");
+
+{{< /highlight >}}
+```

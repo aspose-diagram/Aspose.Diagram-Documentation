@@ -20,7 +20,27 @@ description: 本节介绍如何使用 Aspose.Diagram 设置连接器外观。
 #### **设置连接器外观编程样例**
 在您的 .NET 应用程序中使用以下代码，使用 Aspose.Diagram for .NET 设置连接器类型形状的外观。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetConnectorAppearance-SetConnectorAppearance.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+
+// Get a particular page
+Page page = diagram.Pages.GetPage("Page-3");
+// Get a dynamic connector type shape by id
+Shape shape = page.Shapes.GetShape(18);
+// Set dynamic connector appearance
+shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
+
+// Saving Visio diagram
+diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **选择连接器形状的重新布线选项**
 ConFixedCode 属性由[布局](http://www.aspose.com/api/net/diagram/aspose.diagram/layout)类可用于选择重新路由选项。 Layout 属性，由[形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类，会用到。
 
@@ -34,4 +54,24 @@ ConFixedCode 属性由[布局](http://www.aspose.com/api/net/diagram/aspose.diag
 ### **选择重新路由选项编程示例**
 在您的 .NET 应用程序中使用以下代码选择使用 Aspose.Diagram for .NET 的连接器形状的重新布线选项。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-RerouteConnectors-RerouteConnectors.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-3");
+
+// Get a particular connector shape
+Shape shape = page.Shapes.GetShape(18);
+// Set reroute option
+shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
+
+// Save Visio diagram
+diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

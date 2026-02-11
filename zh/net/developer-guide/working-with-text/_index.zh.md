@@ -10,7 +10,22 @@ description: 本节介绍如何使用 Aspose.Diagram 插入文本形状或更新
 ### **插入文本形状编程示例**
 下面这段代码在 Visio diagram 中添加了一个文本形状。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-InsertTextShape-InsertTextShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ShapeText();
+
+// Create a new diagram
+Diagram diagram = new Diagram();
+// Set parameters and add text to a Visio page
+double PinX = 1, PinY = 1, Width = 1, Height = 1;                  
+diagram.Pages[0].AddText(PinX, PinY, Width, Height, "Test text");
+// Save diagram 
+diagram.Save(dataDir + "InsertTextShape_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **更新 Visio 形状文本**
 也[创建图表](/diagram/zh/net/load-or-create-a-visio-drawing/) Aspose.Diagram for .NET 让您以不同的方式处理形状。本文着眼于如何访问和更新形状中的文本。 Text 属性，由[形状](http://www.aspose.com/api/net/diagram/aspose.diagram/shape)类，支持 Aspose.Diagram.Text 对象。该属性可用于检索或更新形状的文本。更新形状文本的过程很简单：
 
@@ -21,7 +36,30 @@ description: 本节介绍如何使用 Aspose.Diagram 插入文本形状或更新
 ### **更新形状文本编程示例**
 以下代码段更新形状的文本。形状由它们的 ID 标识。下面的代码段查找名为 process 且 ID 为 1 的形状并更改其文本。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-UpdateShapeText-UpdateShapeText.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ShapeText();
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir + "UpdateShapeText.vsd");
+// Get page by name
+Page page = diagram.Pages.GetPage("Flow 1");
+// Find a particular shape and update its text
+foreach (Aspose.Diagram.Shape shape in page.Shapes)
+{
+    if (shape.NameU.ToLower() == "process" && shape.ID == 1)
+    {
+        shape.Text.Value.Clear();
+        shape.Text.Value.Add(new Txt("New Text"));
+    }
+}
+// Save diagram
+diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **将内置或自定义样式表应用于 Visio 形状**
 Microsoft Visio 样式表存储格式信息，这些信息可应用于形状以获得一致的外观和感觉。 Aspose.Diagram for .NET 允许您从应用程序内部应用样式表。
 
@@ -43,7 +81,55 @@ Microsoft Visio 样式表存储格式信息，这些信息可应用于形状以�
 1. 应用样式。
 1. 保存 diagram。
 #### **应用自定义样式编程示例**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-ApplyCustomStyleSheets-ApplyCustomStyleSheets.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ShapeText();
+
+// Load diagram
+Diagram vsdDiagram = new Diagram(dataDir + "ApplyCustomStyleSheets.vsd");
+// Get page by name
+Page page = vsdDiagram.Pages.GetPage("Flow 1");
+
+Shape sourceShape = null;
+// Find the shape to apply the style
+foreach (Aspose.Diagram.Shape shape in page.Shapes)
+{
+    if (shape.Name == "Process")
+    {
+        sourceShape = shape;
+        break;
+    }
+}
+
+StyleSheet customStyleSheet = null;
+
+// Find the required style sheet
+foreach (StyleSheet styleSheet in vsdDiagram.StyleSheets)
+{
+    if (styleSheet.Name == "Basic")
+    {
+        customStyleSheet = styleSheet;
+        break;
+    }
+}
+
+if (sourceShape != null && customStyleSheet != null)
+{
+    // Apply text style
+    sourceShape.TextStyle = customStyleSheet;
+    // Apply fill style
+    sourceShape.FillStyle = customStyleSheet;
+    // Apply line style
+    sourceShape.LineStyle = customStyleSheet;
+}
+
+// Save changed diagram as VDX
+vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **对形状的每个文本值应用不同的样式**
 也[创建图表](/diagram/zh/net/load-or-create-a-visio-drawing/)Aspose.Diagram for .NET 让您以不同的方式处理形状。本文有助于将多个文本值添加到一个形状，并对每个文本值应用不同的样式。
 
@@ -65,7 +151,70 @@ Shape 元素包含一个名为 Text 的元素，其中包含文本字符和标�
 #### **添加文本和样式编程示例**
 下面的一段代码添加了一个形状的文本和不同的样式。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-ApplyFontOnText-ApplyFontOnText.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ShapeText();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+// Clear shape text values and chars
+shape.Text.Value.Clear();
+shape.Chars.Clear();
+
+// Mark character run and add text
+shape.Text.Value.Add(new Cp(0));
+shape.Text.Value.Add(new Txt("TextStyle_Regular\n"));
+shape.Text.Value.Add(new Cp(1));
+shape.Text.Value.Add(new Txt("TextStyle_Bold_Italic\n"));
+shape.Text.Value.Add(new Cp(2));
+shape.Text.Value.Add(new Txt("TextStyle_Underline_Italic\n"));
+shape.Text.Value.Add(new Cp(3));
+shape.Text.Value.Add(new Txt("TextStyle_Bold_Italic_Underline"));
+
+// Add formatting characters
+shape.Chars.Add(new Aspose.Diagram.Char());
+shape.Chars.Add(new Aspose.Diagram.Char());
+shape.Chars.Add(new Aspose.Diagram.Char());
+shape.Chars.Add(new Aspose.Diagram.Char());
+
+// Set properties e.g. color, font, size and style etc.
+shape.Chars[0].IX = 0;
+shape.Chars[0].Color.Value = "#FF0000";
+shape.Chars[0].Font.Value = 4;
+shape.Chars[0].Size.Value = 0.22;
+shape.Chars[0].Style.Value = StyleValue.Undefined;
+
+// Set properties e.g. color, font, size and style etc.
+shape.Chars[1].IX = 1;
+shape.Chars[1].Color.Value = "#FF00FF";
+shape.Chars[1].Font.Value = 4;
+shape.Chars[1].Size.Value = 0.22;
+shape.Chars[1].Style.Value = StyleValue.Bold | StyleValue.Italic;
+
+// Set properties e.g. color, font, size and style etc.
+shape.Chars[2].IX = 2;
+shape.Chars[2].Color.Value = "#00FF00";
+shape.Chars[2].Font.Value = 4;
+shape.Chars[2].Size.Value = 0.22;
+shape.Chars[2].Style.Value = StyleValue.Underline | StyleValue.Italic;
+
+// Set properties e.g. color, font, size and style etc.
+shape.Chars[3].IX = 3;
+shape.Chars[3].Color.Value = "#3333FF";
+shape.Chars[3].Font.Value = 4;
+shape.Chars[3].Size.Value = 0.22;
+shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Underline;
+// Save diagram
+diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **查找和替换形状的文本**
 这[文本](http://www.aspose.com/api/net/diagram/aspose.diagram/txt)类允许您编辑形状的文本。 Replace 方法，由[文本](http://www.aspose.com/api/net/diagram/aspose.diagram/txt)类，支持更改形状的文本。
 本文中的代码示例查找并替换页面上形状的文本。
@@ -87,7 +236,48 @@ Shape 元素包含一个名为 Text 的元素，其中包含文本字符和标�
 ### **查找和替换文本编程示例**
 下面的代码片段显示了如何修改形状的文本。代码遍历页面的形状。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-FindAndReplaceShapeText-FindAndReplaceShapeText.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ShapeText();
+
+// Prepare a collection old and new text
+Dictionary<string, string> replacements = new Dictionary<string, string>();
+replacements.Add("[[CompanyName]]", "Research Society of XYZ");
+replacements.Add("[[EmployeeName]]", "James Bond");
+replacements.Add("[[SubjectTitle]]", "The affect of the internet on social behavior in the industrialize world");
+replacements.Add("[[TimePeriod]]", DateTime.Now.AddYears(-1).ToString("dd/MMMM/yyyy") + " -- " + DateTime.Now.ToString("dd/MMMM/yyyy"));
+replacements.Add("[[SubmissionDate]]", DateTime.Now.AddDays(-7).ToString("dd/MMMM/yyyy"));
+replacements.Add("[[AmountReq]]", "$100,000");
+replacements.Add("[[DateApproved]]", DateTime.Now.AddDays(1).ToString("dd/MMMM/yyyy"));
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "FindReplaceText.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+
+// Iterate through the shapes of a page
+foreach (Shape shape in page.Shapes)
+{
+    foreach (KeyValuePair<string, string> kvp in replacements)
+    {
+        foreach (FormatTxt txt in shape.Text.Value)
+        {
+            Txt tx = txt as Txt;
+            if (tx != null && tx.Text.Contains(kvp.Key))
+            {
+                // Find and replace text of a shape
+                tx.Text = tx.Text.Replace(kvp.Key, kvp.Value);
+            }
+        }
+    }
+}
+// Save the diagram
+diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **从 Visio Diagram 页面中提取纯文本**
 Aspose.Diagram API 允许开发人员从 Visio diagram 页面中提取纯文本。他们还可以遍历 Visio diagram 页以覆盖整个 Visio diagram 文本。
 
@@ -95,4 +285,46 @@ Aspose.Diagram API 允许开发人员从 Visio diagram 页面中提取纯文本�
 ### **提取纯文本编程示例**
 以下代码段遍历 Visio Page 的形状并过滤没有格式信息的纯文本。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-GetPlainTextOfVisio-GetPlainTextOfVisio.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+static string text = "";
+public static void Run()
+{
+    // The path to the documents directory.
+    string dataDir = RunExamples.GetDataDir_ShapeText();
+    // Load diagram
+    Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+    // Get Visio diagram page
+    Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
+
+    // Iterate through the shapes
+    foreach (Aspose.Diagram.Shape shape in page.Shapes)
+    {
+        // Extract plain text from the shape
+        GetShapeText(shape);
+    }
+    // Display extracted text
+    Console.WriteLine(text);
+}
+private static void GetShapeText(Aspose.Diagram.Shape shape)
+{
+    // Filter shape text
+    if (shape.Text.Value.Text != "")
+        text += Regex.Replace(shape.Text.Value.Text, "\\<.*?>", "");
+
+    // For image shapes
+    if (shape.Type == TypeValue.Foreign)
+        text += (shape.Name);
+
+    // For group shapes
+    if (shape.Type == TypeValue.Group)
+        foreach (Aspose.Diagram.Shape subshape in shape.Shapes)
+        {
+            GetShapeText(subshape);
+        }
+}
+
+{{< /highlight >}}
+```

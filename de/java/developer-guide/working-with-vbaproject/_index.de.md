@@ -27,7 +27,25 @@ End Sub
 
 Hier ist der Beispielcode zum Generieren der Ausgabedatei VSDM mit VBA-Modul und Makrocode.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-Vba-AddModule.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(Test.class);
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+//Add module
+int index = diagram.getVbaProject().getModules().add(VbaModuleType.PROCEDURAL, "TestModule");
+//Get module 
+com.aspose.diagram.VbaModule module = diagram.getVbaProject().getModules().get(index);
+//Set module
+module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n    MsgBox \"Welcome to Aspose!\"\r\n\r\nEnd Sub\r\n");
+
+diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## **Ändern Sie VBA oder Makro**
 
@@ -70,7 +88,23 @@ End Sub
 
  Sie können die herunterladen[Quelldatei Visio]() und die[Ausgabedatei Visio]() aus den angegebenen Links.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-Vba-ModifyModule.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(Test.class);
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+//Get module 
+com.aspose.diagram.VbaModule module = diagram.getVbaProject().getModules().get(2);
+//Set module
+module.setCodes("Attribute VB_Name = \"module2\"\r\n Sub Button1_Click()\r\n\r\n    MsgBox \"This is Aspose.Diagram message.\"\r\n\r\nEnd Sub\r\n");
+
+diagram.save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## **Themen vorantreiben**
 - [Überprüfen Sie, ob der VBA-Code signiert ist](/diagram/de/java/check-if-vba-code-is-signed/)

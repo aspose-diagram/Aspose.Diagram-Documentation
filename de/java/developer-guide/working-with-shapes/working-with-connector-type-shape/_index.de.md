@@ -19,7 +19,26 @@ Der folgende Code zeigt, wie man:
 #### **Programmierbeispiel für das Aussehen des Konnektors festlegen**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um das Aussehen der Verbindertypform mithilfe von Aspose.Diagram for Java festzulegen.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetConnectorAppearance-SetConnectorAppearance.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetConnectorAppearance.class);  
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//get a particular page
+Page page = diagram.getPages().getPage("Page-3");
+//get a dynamic connector type shape by id
+Shape shape = page.getShapes().getShape(18);
+// set dynamic connector appearance
+shape.setConnectorsType(ConnectorsTypeValue.STRAIGHT_LINES);
+
+//saving Visio diagram
+diagram.save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Wählen Sie die Umleitungsoption der Verbindungsform aus**
  Die ConFixedCode-Eigenschaft, die von der bereitgestellt wird[Layout](https://reference.aspose.com/diagram/java/com.aspose.diagram/layout) Klasse kann verwendet werden, um die Umleitungsoption auszuwählen. Die Layout-Eigenschaft, verfügbar gemacht durch die[Form](http://www.aspose.com/api/java/diagram/com.aspose.diagram/classes/shape) Klasse, verwendet werden.
 
@@ -35,4 +54,23 @@ Der folgende Code zeigt, wie man:
 ### **Wählen Sie Programmierbeispiel für Umleitungsoption**
 Verwenden Sie den folgenden Code in Ihrer Java-Anwendung, um die Umleitungsoption der Verbinderform mit Aspose.Diagram for Java auszuwählen.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RerouteConnectors-RerouteConnectors.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RerouteConnectors.class);   
+// call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+
+// get a particular connector shape
+Shape shape = page.getShapes().getShape(18);
+// set reroute option
+shape.getLayout().getConFixedCode().setValue(ConFixedCodeValue.NEVER_REROUTE);
+
+// save Visio diagram
+diagram.save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

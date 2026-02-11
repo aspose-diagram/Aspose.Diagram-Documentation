@@ -26,7 +26,18 @@ description: يوضح لك هذا الموضوع كيفية السماح Aspose.
 ### **احفظ الناتج HTML في التخزين المحلي**
 يمكن حفظ الملف الناتج عن طريق تمرير سلسلة مسار كاملة ، بما في ذلك اسم الملف والملحق ، على سبيل المثال @ "c: \ temp \ MyOutput.html".
 #### **احفظ الناتج HTML في نموذج برمجة التخزين المحلي**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToHTML-ExportToHTML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
+// Save diagram
+diagram.Save(dataDir + "outputVSDtoHTML.html", SaveFileFormat.HTML);
+
+{{< /highlight >}}
+```
 
 
 

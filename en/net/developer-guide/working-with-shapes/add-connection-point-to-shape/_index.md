@@ -23,4 +23,24 @@ The code below shows how to:
 #### **Add connection point to shape Programming Sample**
 Use the following code in your .NET application to add connection to a shape using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetConnectorAppearance-SetConnectorAppearance.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+
+// Get a particular page
+Page page = diagram.Pages.GetPage("Page-3");
+// Get a dynamic connector type shape by id
+Shape shape = page.Shapes.GetShape(18);
+// Set dynamic connector appearance
+shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
+
+// Saving Visio diagram
+diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

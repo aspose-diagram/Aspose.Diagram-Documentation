@@ -12,5 +12,34 @@ Field 对象表示文本运行中的文本字段。 Shape 类公开的字段属�
 
 ### **编程范例**
 下面的一段代码删除了形状中的一个字段。
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Fields-RemoveField.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("InsertField_out.vsdx")
+
+# Get page by name
+page = diagram.getPages().getPage("Page-1")
+
+# Get Visio Shape
+shape = page.getShapes().get(0)
+
+fld = shape.getFields().get(0)
+# Remove field of shape
+shape.getFields().remove(fld)
+
+# Save diagram
+diagram.save("RemoveField_out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 

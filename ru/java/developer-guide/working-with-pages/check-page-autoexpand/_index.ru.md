@@ -14,4 +14,24 @@ description: В этом разделе объясняется, как пров�
 ### **Пример программирования автоматического расширения страницы проверки**
 Следующий фрагмент кода автоматически расширяет страницу проверки из файла diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-CheckChangeAutoExpand-CheckChangeAutoExpand.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CheckChangeAutoExpand.class);
+      
+// Initialize the new visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get Visio page
+Page page = diagram.getPages().getPage("Page-2");
+// Get Page autoexpand
+boolean isAutoExpand = page.getPageSheet().getPageProps().getDrawingResizeType().getValue() == DrawingResizeTypeValue.AUTOMATICALLY ? true : false;
+//Set Page autoexpand
+page.getPageSheet().getPageProps().getDrawingResizeType().setValue(DrawingResizeTypeValue.NOT_AUTOMATICALLY);
+
+// Save Visio
+diagram.save(dataDir + "SetAutoExpand_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

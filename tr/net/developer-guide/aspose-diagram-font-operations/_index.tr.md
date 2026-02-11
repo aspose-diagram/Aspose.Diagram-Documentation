@@ -27,7 +27,23 @@ Yazı tipleri klasörünün yukarıdaki yöntemlerden herhangi biri kullanılara
 #### **Programlama Örneği**
 Aşağıdaki kod örneği, yazı tiplerini işlerken veya katıştırırken TrueType yazı tiplerini birden çok klasörde aramak için Aspose.Diagram'in nasıl ayarlanacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+// Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Setting the custom font directories
+diagram.FontDirs = fontDirs;
+
+// Saving Visio diagram in PDF format
+diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **İşleme Sırasında Eksik Yazı Tipleri ve Yazı Tipi Değiştirme Bildirimi Alın**
 Aspose.Diagram API, çizimi PDF formatına uygun şekilde işlemek için doğru yazı tipine erişim gerektirir. Gerekli yazı tipi makinede yoksa, Aspose.Diagram API, varsayılan yazı tipini veya makinedeki mevcut en yakın yazı tipini kullanarak bu yazı tipinin herhangi bir örneğini oluşturur, çünkü bu değiştirme, işlenmiş çizimin görünümünü değiştirebilir, geliştiricilerin bir yazı tipi eksik olduğunda ve hangi yazı tipiyle değiştirileceği bildirilir.
 #### **Eksik Font Bildirimi ve Font Değiştirme Programlama Örneği**

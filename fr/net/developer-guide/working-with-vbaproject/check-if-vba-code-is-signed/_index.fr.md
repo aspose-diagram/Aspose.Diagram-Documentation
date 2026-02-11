@@ -15,7 +15,22 @@ Aspose.Diagram permet à l'utilisateur de vérifier si le projet de code VBA est
 
 ## Exemple de code
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-Vba-CheckSigned.cs" >}}
+```
+{{< highlight "csharp" >}}
+
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a diagram
+Diagram diagram = new Diagram(dataDir + "1.vsdm");
+
+// Signature is valid
+Console.WriteLine("Is VBA Code Project Signed: " + diagram.VbaProject.IsSigned);
+
+diagram.Save(dataDir + "1out.vsdm", SaveFileFormat.VSDM);
+
+{{< /highlight >}}
+```
 
 ## Sortie console
 

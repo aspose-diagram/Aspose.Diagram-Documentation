@@ -22,8 +22,52 @@ Pour exporter un diagram vers une image :
 
 ![tâche : image_autre_texte](ExportToImage.png)
 ### **Exemple de programmation d'exportation vers un fichier image**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToImage.vsd")
+
+# Save as PNG
+diagram.save("ExportToImage_Out.png", SaveFileFormat.PNG)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 Il est également possible d'enregistrer une page particulière dans l'image, au lieu du document entier :
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportPageToImage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToImage.vsd")
+
+# Save diagram as PNG
+options = ImageSaveOptions(SaveFileFormat.PNG)
+
+# Save one page only, by page index
+options.setPageIndex(0)
+
+# Save resultant Image file
+diagram.save("ExportPageToImage_Out.png", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

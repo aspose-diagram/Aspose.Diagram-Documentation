@@ -22,7 +22,28 @@ url: /ar/java/set-visio-shape-s-xform-line-and-fill-data/
 ### **عينة البرمجة**
 يوضح مقتطف الشفرة أدناه كيفية تحديث بيانات XForm للشكل. يبحث الكود عن عملية أسماء الأشكال ، بمعرف الشكل 1 ، ويضبط إحداثياته X و Y على 5.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetXFormdata-SetXFormdata.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetXFormdata.class); 
+// call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
+
+//Find a particular shape and update its XForm
+for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
+{
+    if (shape.getNameU().toLowerCase() == "process" && shape.getID() == 1)
+    {
+        shape.getXForm().getPinX().setValue(5);
+        shape.getXForm().getPinY().setValue(5);
+    }
+}
+// save diagram
+diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **قم بتعيين Visio بيانات خط الشكل**
 يمكن تنسيق الأشكال بعدة طرق. توضح هذه المقالة كيفية تحديد سمات السطر.
 
@@ -41,7 +62,46 @@ Microsoft Visio يتيح للمستخدمين تنسيق السطور بعدة �
 #### **عينة برمجة بيانات الخط**
 يقوم الجزء التالي من التعليمات البرمجية بتحديث بيانات خط الشكل.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetLineData-SetLineData.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetLineData.class);
+
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "SetLineData.vsd");
+// get the page by its name
+Page page1 = diagram.getPages().getPage("Page-1");
+// get shape by its ID
+Shape shape = page1.getShapes().getShape(1);
+// set line dash type by index
+shape.getLine().getLinePattern().setValue(4);
+// set line weight, defualt in PT
+shape.getLine().getLineWeight().setValue(2);
+// set color of the shape's line
+shape.getLine().getLineColor().getUfe().setF("RGB(95,108,53)");
+// set line rounding, default in inch
+shape.getLine().getRounding().setValue(0.3125);
+// set line caps
+shape.getLine().getLineCap().setValue(BOOL.TRUE);
+// set line color transparency in percent
+shape.getLine().getLineColorTrans().setValue(50);
+
+/* add arrows to the connector or curve shapes */
+// select arrow type by index
+shape.getLine().getBeginArrow().setValue(4);
+shape.getLine().getEndArrow().setValue(4);
+// set arrow size 
+shape.getLine().getBeginArrowSize().setValue(ArrowSizeValue.LARGE);
+shape.getLine().getBeginArrowSize().setValue(ArrowSizeValue.LARGE);
+
+// save the Visio
+diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
+// save diagram
+diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **قم بتعيين Visio بيانات تعبئة الشكل**
 يمكن تنسيق الأشكال بعدة طرق. يصف هذا الموضوع كيفية تحديد تعبئة الشكل.
 
@@ -59,10 +119,62 @@ Microsoft Visio يتيح للمستخدمين تنسيق السطور بعدة �
 #### **تعبئة نموذج لبرمجة البيانات**
 يقوم مقتطف التعليمات البرمجية التالي بتحديث بيانات تعبئة الشكل. تبحث الشفرة عن شكل يسمى مستطيل ، بمعرف الشكل 1 ، وتعيين خلفية التعبئة وألوان المقدمة.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetFillData-SetFillData.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetFillData.class);
+
+
+//Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir+ "Drawing1.vsd");
+
+//Find a particular shape and update its XForm
+for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0).getShapes())
+{
+    if (shape.getNameU().toLowerCase() == "rectangle" && shape.getID() == 1)
+    {
+        shape.getFill().getFillBkgnd().setValue(diagram.getPages().getPage(0).getShapes().getShape(0).getFill().getFillBkgnd().getValue());
+        shape.getFill().getFillForegnd().setValue("#ebf8df");
+    }
+}
+// save diagram
+diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ### **استرجع بيانات التعبئة الموروثة لشكل Visio**
 يمكن أن ترث أشكال Visio النمط الأصل والشكل الرئيسي. يمكن للمطورين الحصول على بيانات التعبئة الموروثة لشكل Visio أو تعيينها. تحتوي الخاصية InheritFill ، المكشوفة بواسطة فئة الشكل ، على قيم تنسيق التعبئة للشكل الذي يرثه النمط الأصل والشكل الرئيسي.
 #### **استرجاع نموذج برمجة بيانات التعبئة الموروثة**
 يسترد مقتطف التعليمات البرمجية التالي بيانات التعبئة الموروثة للشكل. يرجى التحقق من نموذج الكود هذا:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveInheritedFillData-RetrieveInheritedFillData.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
+
+// Call the diagram constructor to load a VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get page by ID
+Page page = diagram.getPages().getPage("Page-1");
+// Get shape by ID
+Shape shape = page.getShapes().getShape(1);
+// Get the fill formatting values
+System.out.println(shape.getInheritFill().getFillBkgnd().getValue());
+System.out.println(shape.getInheritFill().getFillForegnd().getValue());
+System.out.println(shape.getInheritFill().getFillPattern().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwObliqueAngle().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwOffsetX().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwOffsetY().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwScaleFactor().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwType().getValue());
+System.out.println(shape.getInheritFill().getShdwBkgnd().getValue());
+System.out.println(shape.getInheritFill().getShdwBkgndTrans().getValue());
+System.out.println(shape.getInheritFill().getShdwForegnd().getValue());
+System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
+System.out.println(shape.getInheritFill().getShdwPattern().getValue());
+
+{{< /highlight >}}
+```

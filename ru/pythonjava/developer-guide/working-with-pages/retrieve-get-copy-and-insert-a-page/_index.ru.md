@@ -14,7 +14,35 @@ url: /ru/python-java/retrieve-get-copy-and-insert-a-page/
 ### **Пример программирования получения информации о странице**
 Следующий фрагмент кода извлекает информацию о страницах из файла diagram.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-RetrievePageInfo.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram
+diagram = Diagram("RetrievePageInfo.vdx")
+
+for page in diagram.getPages():
+    # Checks if current page is a background page
+    if page.getBackground() == BOOL.TRUE:
+        # Display information about the background page
+        print("Background Page ID : " + str(page.getID()))
+        print("Background Page Name : " + str(page.getName()))
+    else:
+        # Display information about the foreground page
+        print("\nPage ID : " + str(page.getID()))
+        print("Universal Name : " + str(page.getNameU()))
+        print("ID of the Background Page : " + str(page.getBackPage()))
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Получите страницу Visio от Diagram**
 Иногда разработчикам необходимо получить сведения о странице чертежа Visio. Aspose.Diagram для Python via Java имеет функции, которые помогают им в этом.
@@ -30,7 +58,28 @@ Aspose.Diagram для Python via Java предлагает класс `Diagram`,
 В следующем примере показано, как получить объект страницы по идентификатору из чертежа Visio.
 
 #### **Пример программирования получения объекта страницы по идентификатору**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyID.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VDX file
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# Set page id
+page_id = 2
+# Get page object by id
+page2 = diagram.getPages().getPage(page_id)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ### **Получение объекта страницы Visio по имени**
 Этот пример работает следующим образом:
@@ -41,7 +90,28 @@ Aspose.Diagram для Python via Java предлагает класс `Diagram`,
 #### **Пример программирования получения объекта страницы по имени**
 В следующем примере показано, как получить объект страницы по имени из чертежа Visio.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-GetVisioPagebyName.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSDX file
+diagram = Diagram("DrawingFlowCharts.vsdx")
+
+# Set page name
+pageName = "Flow 2"
+# Get page object by name
+page2 = diagram.getPages().getPage(pageName)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Скопируйте страницу Visio в другую Diagram**
 Aspose.Diagram для Python via Java API позволяет разработчикам копировать и добавлять содержимое из одного Visio diagram в другое. В этом разделе справки объясняется, как выполнить эту задачу.
@@ -62,7 +132,58 @@ Aspose.Diagram для Python via Java API имеет класс `Diagram`, ко�
 ### **Скопируйте пример программирования страницы Visio**
 В приведенном ниже примере кода показано, как скопировать объект страницы Visio в другой чертеж Visio.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-CopyVisioPage.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+originalDiagram = Diagram("Drawing1.vsdx")
+
+# initialize the new visio diagram
+newDiagram = Diagram()
+
+# add all masters from the source Visio diagram
+originalMasters = originalDiagram.getMasters()
+for master in originalMasters:
+    newDiagram.addMaster(originalDiagram, master.getName())
+
+# get the page object from the original diagram
+SrcPage = originalDiagram.getPages().getPage("Page-1")
+# set page name
+SrcPage.setName("new page")
+
+# it calculates max page id
+max_page_id = 0
+if newDiagram.getPages().getCount() != 0:
+    max_page_id = newDiagram.getPages().get(0).getID()
+
+for i in range(0, newDiagram.getPages().getCount() - 1):
+    if max_page_id < newDiagram.getPages().get(i).getID():
+        max_page_id = newDiagram.getPages().get(i).getID()
+
+MaxPageId = max_page_id
+# set page id
+SrcPage.setID(MaxPageId)
+# add reference of the original diagram page
+newDiagram.getPages().add(SrcPage)
+
+# remove first empty page
+newDiagram.getPages().remove(newDiagram.getPages().get(0))
+
+# save diagram in VDX format
+newDiagram.save("CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Скопируйте Visio страницу в другой экземпляр страницы**
 Метод `copy` класса `Page` берет экземпляр страницы для клонирования.
@@ -88,7 +209,48 @@ Aspose.Diagram для Python via Java можно вставить новую п�
 ### **Вставьте образец программирования пустой страницы**
 Следующий фрагмент кода вставляет пустую страницу в чертеж Visio:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Pages-InsertBlankPageInVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("Drawing1.vsdx")
+        
+# it calculates max page id
+max_page_id = 0
+if diagram.getPages().getCount() != 0:
+    max_page_id = diagram.getPages().get(0).getID()
+
+for i in range(0, diagram.getPages().getCount() - 1):
+    if max_page_id < diagram.getPages().get(i).getID():
+        max_page_id = diagram.getPages().get(i).getID()
+        
+# Initialize a new page object
+newPage = Page()
+# Set name
+newPage.setName("new page")
+# Set page ID
+newPage.setID(max_page_id + 1)
+
+# Or try the Page constructor
+# Page newPage = Page(MaxPageId + 1)
+
+# Add a new blank page
+diagram.getPages().add(newPage)
+
+# Save diagram
+diagram.save("InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ## **Переместить позицию страницы на чертеже Visio**
 Aspose.Diagram для Python via Java API может перемещать позицию страницы на чертеже Visio. Метод `moveTo`, предоставляемый классом `Page`, помогает разработчикам перемещать позицию страницы.

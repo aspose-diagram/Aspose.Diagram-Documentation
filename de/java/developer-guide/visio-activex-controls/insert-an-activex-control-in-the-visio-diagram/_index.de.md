@@ -12,4 +12,17 @@ url: /de/java/insert-an-activex-control-in-the-visio-diagram/
 ## **Fügen Sie ein Programmierbeispiel für ein ActiveX-Steuerelement ein**
 [Buchseite](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) Die Klasse bietet die addActiveXControl-Methode und ermöglicht Entwicklern, jede Art von ActiveX-Steuerelement wie Befehlsschaltfläche, Kombinationsfeld, Kontrollkästchen, Listenfeld, Textfeld, Drehfeld, Optionsfeld, Beschriftung, Bild, Umschaltfläche und Bildlaufleiste einzufügen.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-VisioActiveXControls-InsertanActiveControl-InsertanActiveControl.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(InsertanActiveControl.class) + "VisioActiveXControls/";
+// Instantiate Diagram Object
+Diagram diagram = new Diagram();
+// Insert an ActiveX control
+diagram.getPages().get(0).addActiveXControl(ControlType.IMAGE, 1, 1, 1, 1);
+// Save diagram
+diagram.save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

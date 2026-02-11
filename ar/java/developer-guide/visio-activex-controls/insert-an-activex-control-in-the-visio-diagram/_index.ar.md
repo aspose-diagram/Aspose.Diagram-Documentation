@@ -12,4 +12,17 @@ url: /ar/java/insert-an-activex-control-in-the-visio-diagram/
 ## **أدخل نموذج برمجة عنصر تحكم ActiveX**
 [صفحة](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) تقدم class طريقة addActiveXControl وتسمح للمطورين بإدراج أي نوع من عناصر تحكم ActiveX مثل زر الأمر ومربع التحرير والسرد ومربع الاختيار ومربع القائمة ومربع النص وزر الدوران وزر الاختيار والتسمية والصورة وزر التبديل وشريط التمرير.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-VisioActiveXControls-InsertanActiveControl-InsertanActiveControl.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(InsertanActiveControl.class) + "VisioActiveXControls/";
+// Instantiate Diagram Object
+Diagram diagram = new Diagram();
+// Insert an ActiveX control
+diagram.getPages().get(0).addActiveXControl(ControlType.IMAGE, 1, 1, 1, 1);
+// Save diagram
+diagram.save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

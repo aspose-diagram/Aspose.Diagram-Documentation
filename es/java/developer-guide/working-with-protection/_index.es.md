@@ -23,7 +23,23 @@ En el Microsoft Visio proteges los documentos de esta manera:
 
 Use el código a continuación en una aplicación Java para realizar las mismas tareas: bloquear y desbloquear diferentes elementos de su diagram, usando Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioDiagramProtection-VisioDiagramProtection.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioDiagramProtection.class);
+//Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+
+diagram.getDocumentSettings().setProtectBkgnds(BOOL.TRUE);
+diagram.getDocumentSettings().setProtectMasters(BOOL.TRUE);
+diagram.getDocumentSettings().setProtectShapes(BOOL.TRUE);
+diagram.getDocumentSettings().setProtectStyles(BOOL.TRUE);
+// save diagram
+diagram.save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ### **Edite la protección de forma Visio**
  La protección de formas Visio permite a los usuarios bloquear aspectos específicos de las formas. Los aspectos de las formas que se pueden bloquear a través de la protección de formas incluyen el ancho, la altura, la posición x, la posición y, la rotación y más. Los desarrolladores pueden lograr esto usando[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/).
 
@@ -43,4 +59,42 @@ En Visio, debe realizar las siguientes acciones para proteger cualquier forma:
 
 Use el siguiente código en su aplicación Java para hacer lo mismo (bloquear/desbloquear cualquier atributo de forma) usando Aspose.Diagram for Java.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-VisioShapeProtection-VisioShapeProtection.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioShapeProtection.class);
+//Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+// get page by name
+Page page = diagram.getPages().getPage("Flow 1");
+// get shape by ID
+Shape shape = page.getShapes().getShape(1);
+
+// set protections
+shape.getProtection().getLockAspect().setValue(BOOL.TRUE);
+shape.getProtection().getLockBegin().setValue(BOOL.TRUE);
+shape.getProtection().getLockCalcWH().setValue(BOOL.TRUE);
+shape.getProtection().getLockCrop().setValue(BOOL.TRUE);
+shape.getProtection().getLockCustProp().setValue(BOOL.TRUE);
+shape.getProtection().getLockDelete().setValue(BOOL.TRUE);
+shape.getProtection().getLockEnd().setValue(BOOL.TRUE);
+shape.getProtection().getLockFormat().setValue(BOOL.TRUE);
+shape.getProtection().getLockFromGroupFormat().setValue(BOOL.TRUE);
+shape.getProtection().getLockGroup().setValue(BOOL.TRUE);
+shape.getProtection().getLockHeight().setValue(BOOL.TRUE);
+shape.getProtection().getLockMoveX().setValue(BOOL.TRUE);
+shape.getProtection().getLockMoveY().setValue(BOOL.TRUE);
+shape.getProtection().getLockRotate().setValue(BOOL.TRUE);
+shape.getProtection().getLockSelect().setValue(BOOL.TRUE);
+shape.getProtection().getLockTextEdit().setValue(BOOL.TRUE);
+shape.getProtection().getLockThemeColors().setValue(BOOL.TRUE);
+shape.getProtection().getLockThemeEffects().setValue(BOOL.TRUE);
+shape.getProtection().getLockVtxEdit().setValue(BOOL.TRUE);
+shape.getProtection().getLockWidth().setValue(BOOL.TRUE);
+        
+// save diagram
+diagram.save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

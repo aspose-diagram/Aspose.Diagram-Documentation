@@ -17,10 +17,55 @@ This article explains how to implement IStreamProvider interface for setting the
 
 This is the main code showing the usage of HTMLSaveOptions.StreamProvider property
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToHTMLWithStreamprovider.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+string outputDir = dataDir + @"output\";
+// Create digaram
+Diagram diagram = new Diagram(dataDir + "sample.vsdx");
+
+Aspose.Diagram.Saving.HTMLSaveOptions options = new HTMLSaveOptions();
+options.StreamProvider = new ExportStreamProvider(outputDir);
+
+// Save into .html using HTMLSaveOptions 
+diagram.Save(dataDir + "output_out.html", options);
+
+{{< /highlight >}}
+```
 
 Here is the code for ExportStreamProvider class which implements IStreamProvider interface used inside the above code.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportStreamProvider.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+public class ExportStreamProvider : IStreamProvider
+{
+    private string outputDir;
+
+    public ExportStreamProvider(string dir)
+    {
+        outputDir = dir;
+    }
+
+    public void InitStream(StreamProviderOptions options)
+    {
+        string path = outputDir + Path.GetFileName(options.DefaultPath);
+        options.CustomPath = path;
+        Directory.CreateDirectory(Path.GetDirectoryName(path));
+        options.Stream = File.Create(path);
+    }
+
+    public void CloseStream(StreamProviderOptions options)
+    {
+        if (options != null && options.Stream != null)
+        {
+            options.Stream.Close();
+        }
+    }
+}
+{{< /highlight >}}
+```
 
 

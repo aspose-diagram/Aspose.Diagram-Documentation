@@ -10,24 +10,120 @@ description: Questa sezione spiega come inserire un'immagine in una pagina visio
 ## **Inserisci l'immagine in Visio**
 Aspose.Diagram per JAVA API consente agli sviluppatori di inserire una forma di immagine in una pagina. L'esempio di codice seguente mostra come inserire un'immagine in un disegno Visio.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsVSDX.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 ## **Inserisci l'immagine in SVG**
 Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as SVG format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsSVG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 
 ## **Inserisci l'immagine in PNG**
 Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PNG format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPNG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.png", SaveFileFormat.PNG);
+
+{{< /highlight >}}
+```
 
 ## **Inserisci l'immagine in PDF**
 Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as PDF format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsPDF.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+
+// Save the Visio diagram
+diagram.save(dataDir + "AddImageToPage_Out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 
 ## **Inserisci l'immagine in HTML**
 Aspose.Diagram for JAVA API allows developers to insert a image shape in a page. The code example below shows how to insert a image in a Visio drawing and save as HTML format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-AddImageToPage-AsHTML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(AddImageToPage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Page-1");
+double pinX = 3, pinY = 3, width = 4, hieght = 4;
+File file = new File("image.png"); 
+FileInputStream fis = new FileInputStream(file); 
+page.addShape(pinX, pinY, width, hieght, fis);
+// initialize PDF save options
+HTMLSaveOptions options = new HTMLSaveOptions();
+// Save the Visio diagram
+diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
+
+{{< /highlight >}}
+```

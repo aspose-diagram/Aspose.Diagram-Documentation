@@ -43,14 +43,43 @@ Aspose.Diagram评估版（未指定许可）提供完整的产品功能，但在
 #### **从文件加载许可证**
 此代码片段初始化存储在文件或嵌入式资源中的许可证。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-ApplyLicenseByPath-ApplyLicenseByPath.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// Set path of the license file, i.e. c:\temp\
+string dataDir = @"c:\temp\";
+
+License license = new License();
+license.SetLicense(dataDir + "Aspose.Diagram.lic");
+
+{{< /highlight >}}
+```
 #### **从流对象加载许可证**
 这些代码片段从流中初始化许可证。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-ApplyLicenseUsingFileStream-ApplyLicenseUsingFileStream.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// Set path of the license file, i.e. c:\temp\
+string dataDir = @"c:\temp\";
+// Load an existing Visio file in the stream
+FileStream LicStream = new FileStream(dataDir + "Aspose.Diagram.lic", FileMode.Open);
+
+License license = new License();
+license.SetLicense(LicStream);
+
+{{< /highlight >}}
+```
 ## **应用计量许可证**
 Aspose.Diagram for .NET API 允许开发人员应用计量许可证。这是一种新的许可机制。新的许可机制将与现有的许可方法一起使用。那些希望根据 API 功能的使用情况进行计费的客户可以使用计量许可。详情请参阅[计量许可常见问题解答](https://purchase.aspose.com/faqs/licensing/metered)部分。
 
 一个新班级[计量的](https://reference.aspose.com/diagram/net/aspose.diagram/metered)已添加以应用计量密钥。此代码示例演示如何设置计量公钥和私钥：
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-PublicAndPrivateKeys-PublicAndPrivateKeys.cs" >}}
+```
+{{< highlight "csharp" >}}
+// Initialize a Metered license class object
+Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
+// apply public and private keys
+metered.SetMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
+```

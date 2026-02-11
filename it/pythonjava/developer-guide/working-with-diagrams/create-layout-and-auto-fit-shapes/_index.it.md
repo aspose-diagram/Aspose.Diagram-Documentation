@@ -7,7 +7,26 @@ url: /it/python-java/create-layout-and-auto-fit-shapes/
 ## **Creazione di un numero Diagram**
 Aspose.Diagram for Python via Java lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then [aggiungere forme e connettori](/diagram/it/python-java/add-and-connect-visio-shapes/) per creare diagram. Utilizzare il costruttore predefinito della classe Diagram per creare un nuovo diagram.
 ### **Esempio di programmazione**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-CreateDiagram.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import os
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# initialize a new Diagram
+diagram = Diagram()
+# save in the VSDX format
+diagram.save("CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **Forme di layout in stile diagramma di flusso**
  Con alcuni tipi di disegni collegati, come diagrammi di flusso e diagrammi di rete, è possibile utilizzare il file**Forme di layout** funzione per posizionare automaticamente le forme. Il posizionamento automatico è più rapido rispetto al trascinamento manuale di ciascuna forma in una nuova posizione.
 
@@ -33,7 +52,53 @@ Per disporre le forme in stile diagramma di flusso:
 1. Chiamare il metodo Layout della classe Diagram passando LayoutOptions.
 1. Chiama il metodo Save della classe Diagram per scrivere il disegno Visio.
 ### **Esempio di programmazione in stile diagramma di flusso**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-LayOutShapesInFlowchartStyle.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load an existing Visio diagram
+fileName = "LayOutShapesInFlowchartStyle.vdx"
+diagram = Diagram(fileName)
+
+# set layout options
+flowChartOptions = LayoutOptions()
+flowChartOptions.setLayoutStyle(LayoutStyle.FLOW_CHART)
+flowChartOptions.setSpaceShapes(1)
+flowChartOptions.setEnlargePage(True)
+
+# set layout direction as BottomToTop and then save
+flowChartOptions.setDirection(LayoutDirection.BOTTOM_TO_TOP)
+diagram.layout(flowChartOptions)
+diagram.save("sample_btm_top.vdx", SaveFileFormat.VDX)
+
+# set layout direction as TopToBottom and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.TOP_TO_BOTTOM)
+diagram.layout(flowChartOptions)
+diagram.save("sample_top_btm.vdx", SaveFileFormat.VDX)
+
+# set layout direction as LeftToRight and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.LEFT_TO_RIGHT)
+diagram.layout(flowChartOptions)
+diagram.save("sample_left_right.vdx", SaveFileFormat.VDX)
+
+# set layout direction as RightToLeft and then save
+diagram = Diagram(fileName)
+flowChartOptions.setDirection(LayoutDirection.RIGHT_TO_LEFT)
+diagram.layout(flowChartOptions)
+diagram.save("sample_right_left.vdx", SaveFileFormat.VDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ### **Disposizione delle forme nello stile ad albero compatto**
 Lo stile di layout ad albero compatto cerca di costruire una struttura ad albero. Utilizza lo stesso file di input dell'esempio sopra e salva in diversi stili di albero compatti diversi.
 
@@ -51,7 +116,53 @@ Per disporre le forme nello stile ad albero compatto:
 1. Chiamare il metodo Layout della classe Diagram passando LayoutOptions.
 1. Chiama il metodo Save della classe Diagram per scrivere il file Visio.
 #### **Esempio di programmazione in stile albero compatto**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-LayOutShapesInCompactTreeStyle.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+        
+fileName = "LayOutShapesInCompactTreeStyle.vdx"
+# load an existing Visio diagram
+diagram = Diagram(fileName)
+
+# set layout options 
+compactTreeOptions = LayoutOptions()
+compactTreeOptions.setLayoutStyle(LayoutStyle.COMPACT_TREE)
+compactTreeOptions.setEnlargePage(True)
+
+# set layout direction as DownThenRight and then save
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_RIGHT)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_down_right.vdx", SaveFileFormat.VDX)
+
+# set layout direction as DownThenLeft and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_LEFT)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_down_left.vdx", SaveFileFormat.VDX)
+
+# set layout direction as RightThenDown and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.RIGHT_THEN_DOWN)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_right_down.vdx", SaveFileFormat.VDX)
+
+# set layout direction as LeftThenDown and then save
+diagram = Diagram(fileName)
+compactTreeOptions.setDirection(LayoutDirection.LEFT_THEN_DOWN)
+diagram.layout(compactTreeOptions)
+diagram.save("sample_left_down.vdx", SaveFileFormat.VDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **Adatta automaticamente il Visio Diagram**
 Aspose.Diagram API supporta l'autoadattamento del disegno Visio. Questa operazione di funzionalità aiuta a portare le forme esterne all'interno del limite di pagina Visio.
 
@@ -66,7 +177,31 @@ Questo esempio funziona come segue:
 ### **Esempio di programmazione dell'adattamento automatico**
 Il codice di esempio seguente mostra come adattare automaticamente le forme nel Visio diagram.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-AutoFitShapesInVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("BFlowcht.vsdx")
+
+# use saving options
+options = DiagramSaveOptions(SaveFileFormat.VSDX)
+# set Auto fit page property
+options.setAutoFitPageToDrawingContent(True)
+
+# save Visio diagram
+diagram.save("AutoFitShapesInVisio_Out.vsdx", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ## **Lavorare con il progetto VBA**
 ### **Modifica il codice del modulo VBA in Visio Diagram**
 This article demonstrates how to modify a VBA module code automatically using Aspose.Diagram for Python via Java.
@@ -75,10 +210,59 @@ Abbiamo aggiunto le classi VbaModule, VbaModuleCollection, VbaProject, VbaProjec
 ### **Modifica l'esempio di programmazione del codice del modulo VBA**
 Si prega di controllare questo esempio di codice:
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-ModifyVBAModuleCode.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+diagram = Diagram("Macro.vsdm")
+# extract VBA project
+v = diagram.getVbaProject()
+# Iterate through the modules and modify VBA macro code
+for i in range(0, diagram.getVbaProject().getModules().getCount() - 1):
+	module = diagram.getVbaProject().getModules().get(i)
+	code = module.getCodes()
+	if code.contains("This is test message."):
+		code = code.replace("This is test message.", "This is Aspose.Diagram message.")
+	module.setCodes(code)
+
+# save the Visio diagram
+diagram.save("out.vssm", SaveFileFormat.VSSM)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 ### **Rimuovi tutte le macro da Visio Diagram**
 Aspose.Diagram for Python via Java allows developers to remove all macros from the Visio diagram.
 
 La proprietà JavaProjectData, esposta dalla classe Diagram, consente di rimuovere tutte le macro dal disegno Visio.
 ### **Esempio di programmazione Rimuovi tutte le macro**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-Diagrams-RemoveMacrosFromVisio.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load a Visio diagram
+diagram = Diagram("Macro.vsdm")
+
+# remove all macros
+diagram.setVbProjectData(None)
+
+# Save diagram
+diagram.save("RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

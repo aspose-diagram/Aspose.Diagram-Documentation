@@ -10,10 +10,51 @@ description: Esta sección explica cómo agregar solutionXml u obtener valores x
 
  los[SoluciónXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) La clase representa el elemento SolutionXML en los dibujos Visio. El método Add, expuesto por el[SoluciónXML](http://www.aspose.com/api/net/diagram/aspose.diagram/solutionXML) clase, permite agregar un elemento SolutionXML.
 ### **Agregar muestra de programación de elemento SolutionXML**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-SolutionXML-Elements-AddSolutionXMLElement-AddSolutionXMLElement.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_SolutionXML();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Initialize SolutionXML object
+SolutionXML solXML = new SolutionXML();
+// Set name
+solXML.Name = "Solution XML";
+// Set xml value
+solXML.XmlValue = "XML Value";
+// Add SolutionXML element
+diagram.SolutionXMLs.Add(solXML);
+
+// Save Visio diagram
+diagram.Save(dataDir + "AddSolutionXMLElement_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Lectura de valores XML del elemento SolutionXML**
 SolutionXML es un XML bien formado contenido dentro de un elemento SolutionXML que proporciona un medio estandarizado para conservar los datos de la solución. Los usuarios pueden leer valores XML del elemento SolutionXML usando[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/).
 
  La propiedad SolutionXMLs, expuesta por el[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) clase, admite una colección de objetos Aspose.Diagram.SolutionXML. Esta propiedad se puede utilizar para leer los valores XML del elemento SolutionXML.
 ### **Ejemplo de programación de elementos de Reading SolutionXML**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-SolutionXML-Elements-ReadSolutionXMLElement-ReadSolutionXMLElement.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_SolutionXML();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Iterate through SolutionXML elements
+foreach (SolutionXML solutionXML in diagram.SolutionXMLs)
+{
+    // Get name property
+    Console.WriteLine(solutionXML.Name);
+    // Get xml value
+    Console.WriteLine(solutionXML.XmlValue);
+}
+
+{{< /highlight >}}
+```

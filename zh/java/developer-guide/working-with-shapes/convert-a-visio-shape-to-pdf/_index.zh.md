@@ -17,6 +17,23 @@ description: 本节介绍如何使用 Aspose.Diagram 将 visio 形状转换为 p
 ### **形状转 Pdf**
 在您的 Java 应用程序中使用以下代码将 visio 形状转换为 pdf。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-ShapeToPdf.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ShapeToPdf.class); 
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "ShapeToPdf.vsdx");
+
+// Get a particular page
+Page page = diagram.getPages().get(0);
+
+// Get a particular shape
+Shape shape = page.getShapes().get(0);
+
+// Shape to Pdf
+shape.toPdf("out.pdf");
+{{< /highlight >}}
+```
 
 

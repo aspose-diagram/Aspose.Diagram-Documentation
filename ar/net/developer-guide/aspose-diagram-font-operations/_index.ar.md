@@ -27,7 +27,23 @@ description: توضح هذه الصفحة كيفية التعامل مع الخ�
 #### **عينة البرمجة**
 يوضح مثال الكود أدناه كيفية تعيين Aspose.Diagram للبحث في مجلدات متعددة عن خطوط TrueType عند عرض الخطوط أو دمجها.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+// Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Setting the custom font directories
+diagram.FontDirs = fontDirs;
+
+// Saving Visio diagram in PDF format
+diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **تلقي إعلام بالخطوط المفقودة واستبدال الخط أثناء التقديم**
 يتطلب Aspose.Diagram API الوصول إلى الخط الدقيق من أجل تقديم الرسم بشكل صحيح إلى تنسيق PDF. إذا لم يكن الخط المطلوب متاحًا على الجهاز ، فإن Aspose.Diagram API يعرض أي مثيل لهذا الخط باستخدام الخط الافتراضي أو أقرب خط متاح على الجهاز ، نظرًا لأن هذا الاستبدال يمكن أن يغير مظهر الرسم المعروض ، فقد يحتاج المطورون إلى ذلك يتم إعلامك عند فقد الخط وبأي خط سيتم استبداله.
 #### **إعلام بالخطوط المفقودة وعينة برمجة استبدال الخطوط**

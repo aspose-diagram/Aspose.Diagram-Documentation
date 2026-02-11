@@ -30,10 +30,40 @@ Print Page orientation can be set to portrait or landscape using the [**PrintPro
 |Landscape|Landscape orientation|
 |Portrait|Portrait orientation|
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageOrientation-SetPageOrientation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Get page
+Aspose.Diagram.Page page = diagram.Pages.GetPage(0);
+
+//Set PrintPageOrientation
+page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
+
+{{< /highlight >}}
+```
 
 ### **Scaling Factor**
 
 It is possible to reduce or enlarge a page's size by adjusting the scaling factor with the [**ScaleX**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/scalex) property.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageOrientation-SetPageScale.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Set ScaleX and ScaleY
+diagram.Pages[0].PageSheet.PrintProps.ScaleX.Value = 1;
+diagram.Pages[0].PageSheet.PrintProps.ScaleY.Value = 1;
+
+{{< /highlight >}}
+```

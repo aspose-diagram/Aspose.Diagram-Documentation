@@ -21,7 +21,32 @@ El siguiente código muestra cómo:
 #### **Ejemplo de programación de formas grupales**
 Use el siguiente código en su aplicación Java para agrupar formas usando Aspose.Diagram for Java API.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-GroupShapes-GroupShapes.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GroupShapes.class);
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get page by name
+Page page = diagram.getPages().getPage("Page-3");
+
+// Initialize an array of shapes
+Shape[] ss = new Shape[3];
+
+// extract and assign shapes to the array
+ss[0] = page.getShapes().getShape(15);
+ss[1] = page.getShapes().getShape(16);
+ss[2] = page.getShapes().getShape(17);
+
+// mark array shapes as group
+page.getShapes().group(ss);
+
+// save visio diagram
+diagram.save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Convierta una forma Visio a otros formatos de archivo**
 Aspose.Diagram for Java API permite a los desarrolladores convertir una sola forma Visio a cualquier otro formato de archivo compatible. En este artículo, eliminamos todas las demás formas Visio de la página y personalizamos la configuración de la página según el tamaño de la forma de origen.
 ### **Convertir una forma particular Visio**
@@ -37,7 +62,66 @@ Este código de ejemplo funciona de la siguiente manera:
 1. Establezca el tamaño de la página.
 1. Guarde la página Visio en cualquier formato de archivo compatible.
 #### **Ejemplo de programación de conversión de formas**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SaveVisioShapeInOtherFormats-SaveVisioShapeInOtherFormats.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SaveVisioShapeInOtherFormats.class);   
+        
+double shapeWidth = 0;
+double shapeHeight = 0;
+
+// call a Diagram class constructor to load the VSDX diagram
+Diagram srcVisio = new Diagram(dataDir + "Drawing1.vsdx");
+// get Visio page
+Page srcPage = srcVisio.getPages().get(1);
+// remove background page
+srcPage.setBackPage(null);
+
+// get hash table of shapes, it holds id and name
+Hashtable<Long, String> remShapes = new Hashtable<Long, String>();
+for (Shape shape : (Iterable<Shape>)srcPage.getShapes())
+    // for the normal shape
+    remShapes.put(shape.getID(), shape.getName());
+        
+
+// iterate through the hash table
+Enumeration<Long> enumKey = remShapes.keys();
+while(enumKey.hasMoreElements())
+{
+    Long key = enumKey.nextElement();
+    String val = remShapes.get(key);
+    Shape shape = srcPage.getShapes().getShape(key);
+    // check of the shape name
+    if(val.equals("GroupShape1"))
+    {
+        // move shape to the origin corner
+        shapeWidth = shape.getXForm().getWidth().getValue();
+        shapeHeight = shape.getXForm().getHeight().getValue();
+        shape.moveTo(shapeWidth*0.5, shapeHeight*0.5);
+        // trim page size
+        srcPage.getPageSheet().getPageProps().getPageWidth().setValue(shapeWidth);
+        srcPage.getPageSheet().getPageProps().getPageHeight().setValue(shapeHeight);
+    }
+    else
+    {
+        // remove shape from the Visio page and hash table
+        srcPage.getShapes().remove(shape);
+        remShapes.remove(key);
+    }
+}
+
+// specify saving options
+PdfSaveOptions opts = new PdfSaveOptions();
+// set page count to save
+opts.setPageCount(1);
+// set starting index of the page
+opts.setPageIndex(1);
+// save it
+srcVisio.save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
+
+{{< /highlight >}}
+```
 ### **Convert Visio Shape to PDF**
 The ToPdf method of the Shape class allows to convert a shape into the PDF format.
 
@@ -81,7 +165,34 @@ diagram.getPages().get(0).getShapes().getShape(59).toHTML(dataDir + "out.pdf", h
 #### **Muestra de Programación de Verificación de Formas Conectadas o Pegadas**
 El siguiente fragmento de código verifica si dos formas están conectadas o pegadas.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-VerifyConnectedOrGluedShapes-VerifyConnectedOrGluedShapes.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VerifyConnectedOrGluedShapes.class);  
+// call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// set two shape ids
+long ShapeIdOne = 15;
+long ShapeIdTwo = 16;
+
+// get Visio page by name
+Page page = diagram.getPages().getPage("Page-3");
+
+// get Visio shapes by ids
+Shape ShapedOne = page.getShapes().getShape(ShapeIdOne);
+Shape ShapedTwo = page.getShapes().getShape(ShapeIdTwo);
+
+// determine whether shapes are connected
+boolean connected = ShapedOne.isConnected(ShapedTwo);
+System.out.println("Shapes are connected: " + connected);
+
+// determine whether shapes are glued
+boolean glued = ShapedOne.isGlued(ShapedTwo);
+System.out.println("Shapes are Glued: " + glued);
+
+{{< /highlight >}}
+```
 ## **Verifique si la forma Visio está en un grupo de formas**
 Aspose.Diagram for Java API permite a los desarrolladores verificar si la forma Visio está en un grupo de formas o no.
 ### **Verificación de Forma en el Grupo de Formas**
@@ -89,7 +200,19 @@ La clase Shape ofrece propiedades IsInGroup para determinar si la forma Visio es
 #### **Verificación de la forma en el ejemplo de programación del grupo de formas**
 El siguiente fragmento de código verifica si la forma está en una forma de grupo.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-VerifyShapeIsInGroup-VerifyShapeIsInGroup.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveTheParentShape.class) + "Shapes\\";
+				
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a sub-shape by page name, group shape ID, and then sub-shape ID
+Shape shape = diagram.getPages().getPage("Page-3").getShapes().getShape(13).getShapes().getShape(2);
+System.out.println("Is it in a Group: " + shape.isInGroup());
+{{< /highlight >}}
+```
 
 {{% alert color="primary" %}} 
 

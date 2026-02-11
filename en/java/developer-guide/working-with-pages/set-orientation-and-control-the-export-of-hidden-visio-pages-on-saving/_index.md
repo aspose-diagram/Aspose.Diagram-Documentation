@@ -19,7 +19,23 @@ This example work as follows:
 ### **Set Orientation Programming Sample**
 The code example below shows how to set the orientation of the Visio page.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-SetVisioPageOrientation-SetVisioPageOrientation.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetVisioPageOrientation.class);  
+// initialize the new visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// get Visio page
+Page page = diagram.getPages().getPage("Flow 1");
+// page orientation
+page.getPageSheet().getPrintProps().getPrintPageOrientation().setValue(PrintPageOrientationValue.LANDSCAPE);
+// save Visio
+diagram.save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Control the Export of Hidden Visio Pages on Saving**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API allows developers to include or exclude hidden Visio pages on saving diagram to PDF, HTML, Image (PNG, JPEG, GIF), SVG, and XPS files. Even they may hide Visio pages using Aspose.Diagram API because its option is already available through the cell UIVisibility in the page ShapeSheet.
 ### **Hide a Page in the Visio Diagram and Set Export Option**
@@ -27,16 +43,110 @@ Aspose.Diagram for Java API has the [Page](https://reference.aspose.com/diagram/
 #### **Set the Export Option for PDF**
 The code below shows how to set save options before saving a diagram to PDF format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExporToHiddenVisioPagesToPdf-ExporToHiddenVisioPagesToPdf.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExporToHiddenVisioPagesToPdf.class);  
+        
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Flow 2");
+// set Visio page visiblity
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE);
+
+// initialize PDF save options
+PdfSaveOptions options = new PdfSaveOptions();
+// set export option of hidden Visio pages
+options.setExportHiddenPage(false);
+
+//Save the Visio diagram
+diagram.save(dataDir + "ExportOfHiddenVisioPagesToPDF_Out.pdf", options);
+
+{{< /highlight >}}
+```
 #### **Set the Export Option for HTML**
 The code below shows how to set save options before saving a diagram to HTML format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExportOfHiddenVisioPagesToHtml-ExportOfHiddenVisioPagesToHtml.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToHtml.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Flow 2");
+// set Visio page visiblity
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE);
+
+// initialize PDF save options
+HTMLSaveOptions options = new HTMLSaveOptions();
+// set export option of hidden Visio pages
+options.setExportHiddenPage(false);
+// set export option of comments
+options.setExportComments(false);
+// Save the Visio diagram
+diagram.save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
+
+{{< /highlight >}}
+```
 #### **Set the Export Option for Image**
 The code below shows how to set save options before saving a diagram to image format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExportOfHiddenVisioPagesToImage-ExportOfHiddenVisioPagesToImage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToImage.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Flow 2");
+// set Visio page visiblity
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE);
+// initialize PDF save options
+ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.JPEG);
+// set export option of hidden Visio pages
+options.setExportHiddenPage(false);
+// set export option of comments
+options.setExportComments(false);
+
+// Save the Visio diagram
+diagram.save(dataDir + "ExportOfHiddenVisioPagesToImage_Out.jpeg", options);
+
+{{< /highlight >}}
+```
 #### **Set the Export Option for SVG**
 The code below shows how to set save options before saving a diagram to SVG format.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-ExportOfHiddenVisioPagesToSVG-ExportOfHiddenVisioPagesToSVG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ExportOfHiddenVisioPagesToSVG.class) + "Pages/";
+
+// load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// get a particular page
+Page page = diagram.getPages().getPage("Flow 2");
+// set Visio page visiblity
+page.getPageSheet().getPageProps().getUIVisibility().setValue(BOOL.TRUE);
+
+// initialize PDF save options
+SVGSaveOptions options = new SVGSaveOptions();
+// set export option of hidden Visio pages
+options.setExportHiddenPage(false);
+// Set SVG fit to view port
+options.setSVGFitToViewPort(true);
+// Set export element as Rectangle
+options.setExportElementAsRectTag(true);
+
+// save the Visio diagram
+diagram.save(dataDir + "ExportOfHiddenVisioPagesToSVG_Out.svg", options);
+
+{{< /highlight >}}
+```

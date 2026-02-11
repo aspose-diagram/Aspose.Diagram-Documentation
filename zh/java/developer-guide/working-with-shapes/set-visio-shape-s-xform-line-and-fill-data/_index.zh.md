@@ -22,7 +22,28 @@ XForm 元素是 Microsoft Visio XML 模式的一部分。 XForm 指定形状位�
 ### **编程范例**
 下面的代码片段显示了如何更新形状的 XForm 数据。代码查找形状名称进程，形状 ID 为 1，并将其 X 和 Y 坐标设置为 5。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetXFormdata-SetXFormdata.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetXFormdata.class); 
+// call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
+
+//Find a particular shape and update its XForm
+for(Shape shape :(Iterable<Shape>) diagram.getPages().get(0).getShapes())
+{
+    if (shape.getNameU().toLowerCase() == "process" && shape.getID() == 1)
+    {
+        shape.getXForm().getPinX().setValue(5);
+        shape.getXForm().getPinY().setValue(5);
+    }
+}
+// save diagram
+diagram.save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **设置 Visio 形状的线数据**
 可以通过多种方式格式化形状。本文介绍如何指定线条的属性。
 
@@ -41,7 +62,46 @@ Microsoft Visio 允许用户以各种方式格式化行。 Aspose.Diagram for Ja
 #### **线路数据编程示例**
 下面的一段代码更新形状的线数据。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetLineData-SetLineData.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetLineData.class);
+
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "SetLineData.vsd");
+// get the page by its name
+Page page1 = diagram.getPages().getPage("Page-1");
+// get shape by its ID
+Shape shape = page1.getShapes().getShape(1);
+// set line dash type by index
+shape.getLine().getLinePattern().setValue(4);
+// set line weight, defualt in PT
+shape.getLine().getLineWeight().setValue(2);
+// set color of the shape's line
+shape.getLine().getLineColor().getUfe().setF("RGB(95,108,53)");
+// set line rounding, default in inch
+shape.getLine().getRounding().setValue(0.3125);
+// set line caps
+shape.getLine().getLineCap().setValue(BOOL.TRUE);
+// set line color transparency in percent
+shape.getLine().getLineColorTrans().setValue(50);
+
+/* add arrows to the connector or curve shapes */
+// select arrow type by index
+shape.getLine().getBeginArrow().setValue(4);
+shape.getLine().getEndArrow().setValue(4);
+// set arrow size 
+shape.getLine().getBeginArrowSize().setValue(ArrowSizeValue.LARGE);
+shape.getLine().getBeginArrowSize().setValue(ArrowSizeValue.LARGE);
+
+// save the Visio
+diagram.save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
+// save diagram
+diagram.save(dataDir+ "output.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **设置 Visio 形状的填充数据**
 可以通过多种方式格式化形状。本主题介绍如何指定形状的填充。
 
@@ -59,10 +119,62 @@ Shape 类公开的 Fill 属性支持 Aspose.Diagram.Fill 对象。 Fill 属性�
 #### **填充数据编程示例**
 以下代码片段更新形状的填充数据。该代码查找名为 rectangle 且形状 ID 为 1 的形状，并设置填充背景和前景色。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-SetFillData-SetFillData.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetFillData.class);
+
+
+//Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir+ "Drawing1.vsd");
+
+//Find a particular shape and update its XForm
+for (com.aspose.diagram.Shape shape : (Iterable<Shape>) diagram.getPages().get(0).getShapes())
+{
+    if (shape.getNameU().toLowerCase() == "rectangle" && shape.getID() == 1)
+    {
+        shape.getFill().getFillBkgnd().setValue(diagram.getPages().getPage(0).getShapes().getShape(0).getFill().getFillBkgnd().getValue());
+        shape.getFill().getFillForegnd().setValue("#ebf8df");
+    }
+}
+// save diagram
+diagram.save(dataDir+ "SetFillData_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ### **检索 Visio 形状的继承填充数据**
 Visio 形状可以继承父样式和主形状。开发者可以获取或设置一个Visio形状的继承填充数据。 Shape 类公开的 InheritFill 属性包含由父样式和主控形状继承的形状的填充格式值。
 #### **检索继承的填充数据编程示例**
 以下代码片段检索形状的继承填充数据。请检查此示例代码：
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Shapes-RetrieveInheritedFillData-RetrieveInheritedFillData.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveInheritedFillData.class) + "Shapes/";
+
+// Call the diagram constructor to load a VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get page by ID
+Page page = diagram.getPages().getPage("Page-1");
+// Get shape by ID
+Shape shape = page.getShapes().getShape(1);
+// Get the fill formatting values
+System.out.println(shape.getInheritFill().getFillBkgnd().getValue());
+System.out.println(shape.getInheritFill().getFillForegnd().getValue());
+System.out.println(shape.getInheritFill().getFillPattern().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwObliqueAngle().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwOffsetX().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwOffsetY().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwScaleFactor().getValue());
+System.out.println(shape.getInheritFill().getShapeShdwType().getValue());
+System.out.println(shape.getInheritFill().getShdwBkgnd().getValue());
+System.out.println(shape.getInheritFill().getShdwBkgndTrans().getValue());
+System.out.println(shape.getInheritFill().getShdwForegnd().getValue());
+System.out.println(shape.getInheritFill().getShdwForegndTrans().getValue());
+System.out.println(shape.getInheritFill().getShdwPattern().getValue());
+
+{{< /highlight >}}
+```

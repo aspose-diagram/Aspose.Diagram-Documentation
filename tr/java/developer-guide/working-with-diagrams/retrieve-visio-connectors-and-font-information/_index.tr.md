@@ -15,7 +15,25 @@ url: /tr/java/retrieve-visio-connectors-and-font-information/
 ### **Programlama Örneği**
 Aşağıdaki kod parçası, bir diagram'deki konektörler için bilgileri alır.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveConnectorInfo-RetrieveConnectorInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveConnectorInfo.class);
+        
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");        
+for(Connect connector : (Iterable<Connect>) diagram.getPages().getPage(0).getConnects())
+{
+    // Display information about the Connectors
+    System.out.println("\nFrom Shape ID : " + connector.getFromSheet());
+    System.out.println("To Shape ID : " + connector.getToSheet());
+ }
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 ## **Yazı Tipi Bilgilerini Alma**
  Aspose.Diagram, diagram'i oluşturan öğeler hakkında bilgi almak için mekanizmalara sahiptir.[sayfalar](/diagram/tr/java/retrieve-get-copy-and-insert-a-page/), [şablonlar](), [konektörler](https://reference.aspose.com/diagram/java/com.aspose.diagram/ConnectCollection)ve ayrıca yazı tipleri. Bu makale, bir diagram'de hangi yazı tiplerinin kullanıldığını nasıl bulacağınızı gösterir.
 
@@ -25,10 +43,41 @@ Bir Yazı Tipi nesnesi, bir adı (örneğin, "Arial"), Microsoft Visio'in bu yaz
 ### **Yazı Tipi Programlama Örneği Alınıyor**
 Aşağıdaki kod parçası, Visio diagram'den yazı tipi bilgilerini alır.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RetrieveFontInfo-RetrieveFontInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrieveFontInfo.class);
+
+// call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrieveFontInfo.vsd");
+
+for(Font font : (Iterable<Font>) diagram.getFonts())
+{
+    // Display information about the fonts
+    System.out.println(font.getName());
+}
+
+System.out.println("Process Completed Successfully");
+
+{{< /highlight >}}
+```
 
 ![yapılacaklar:resim_alternatif_Metin](retrieve-visio-connectors-and-font-information_2.png)
 ### **Varsayılan Yazı Tipi Dizinini Alma**
 Aspose.Diagram for Java API, Diagram Sınıfının getDefaultFontDir() yöntemini kullanarak varsayılan yazı tipi dizini yolunun alınmasına da izin verir. Aşağıdaki kod parçası, Visio diagram'den varsayılan yazı tipi dizinini alır.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-GetDefaultFontDirectory-GetDefaultFontDirectory.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(RetrieveFontInfo.class) + "Diagrams/";
+
+// Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
+
+// Display font default directory
+System.out.println(diagram.getDefaultFontDir());
+
+{{< /highlight >}}
+```

@@ -58,7 +58,31 @@ Aşağıdaki görüntü VTX çıktı dosyasını göstermektedir.
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/E6pUvGD.jpg)
 ### **XML Programlama Örneğine Aktarma**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXML-ExportToXML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXML.class);
+
+/* 1. Exporting VSDX to VDX */
+//Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXML.vsd");
+
+//Save input VSD as VDX
+diagram.save(dataDir + "ExportToXML_Out.vdx", SaveFileFormat.VDX);
+
+/* 2. Exporting from VSD to VSX */
+// Call the diagram constructor to load diagram from a VSD file
+        
+//Save input VSD as VSX
+diagram.save(dataDir + "ExportToXML_Out.vsx", SaveFileFormat.VSX);
+        
+/* 3. Export VSD to VTX */
+//Save input VSD as VTX
+diagram.save(dataDir + "ExportToXML_Out.vtx", SaveFileFormat.VTX);
+
+{{< /highlight >}}
+```
 ## **XPS'e aktarılıyor**
  Bu makalede, bir Microsoft Visio diagram'in XPS kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
  Kullan[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) diagram dosyalarını okumak için 'class' yapıcısı ve diagram'i desteklenen herhangi bir görüntü formatına dışa aktarmak için Save yöntemi.
@@ -80,7 +104,20 @@ Aşağıdaki görüntü XPS çıktı dosyasını göstermektedir.
 
 ![yapılacaklar:resim_alternatif_Metin](http://i.imgur.com/1ESRxSy.png)
 ### **XPS Programlama Örneğine Aktarma**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXPS-ExportToXPS.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXPS.class);
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir+ "ExportToXPS.vsd");
+
+// Save as XPS
+diagram.save(dataDir + "ExportToXPS_Out.xps", SaveFileFormat.XPS);
+
+{{< /highlight >}}
+```
 ## **Diagram'i SVG'e dışa aktarma**
  Bu makalede, bir Microsoft Visio diagram'in SVG'e (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -93,7 +130,20 @@ VSD diagram'i SVG'e aktarmak için aşağıdaki adımları gerçekleştirin:
 ### **Diagram'i SVG'e Aktarma Programlama Örneği**
 Kod örnekleri, Java kullanarak bir diagram'in SVG'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToSVG-ExportToSVG.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToSVG.class);
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+
+// Save as SVG
+diagram.save(dataDir+ "ExportToSVG_Out.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 ## **Diagram'i XAML'e dışa aktarma**
 Bu makalede, bir Microsoft Visio diagram'in XAML'e (Genişletilebilir Uygulama İşaretleme Dili) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API.
 
@@ -106,7 +156,20 @@ Bir VSD diagram'i XAML'e aktarmak için:
 ### **XAML Programlama Örneğine Aktarma**
 Kod örneği, Java kullanarak bir diagram'in XAML'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToXAML-ExportToXAML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToXAML.class); 
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+
+// save as XAML
+diagram.save(dataDir + "ExportToXAML_Out.xaml", SaveFileFormat.XAML);
+
+{{< /highlight >}}
+```
 
 ## **Dönüştür Visio Seçici Şekillerle Çizim**
 Aspose.Diagram API'i kullanan geliştiriciler, bir Visio çizimini desteklenen herhangi bir formata dönüştürmek için bir grup şekil seçebilirler. RenderingSaveOptions sınıfı, şekil grubunu korumak için bir Shapes üyesi sunar. Her kaydetme seçeneği sınıfı, RenderingSaveOptions sınıfının genişletilmiş biçimidir.
@@ -119,4 +182,23 @@ Bir Visio çizimini seçici şekillerle dışa aktarmak için:
 ### **Dönüştür Visio Seçici Şekillerle Çizim Programlama Örneği**
 Kod örneği, bir çizimin seçici Visio şekillerle nasıl dışa aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ConvertVisioWithSelectiveShapes.Java" >}}
+```
+{{< highlight "java" >}}
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ConvertVisioWithSelectiveShapes.class) + "LoadSaveConvert\\";
+		
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance SVG save options class
+SVGSaveOptions options = new SVGSaveOptions();
+ShapeCollection shapes = options.getShapes();
+
+// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.add(diagram.getPages().get(0).getShapes().getShape(1));
+shapes.add(diagram.getPages().get(0).getShapes().getShape(2));
+
+// save Visio drawing
+diagram.save(dataDir + "SelectiveShapes_out.svg", options);
+{{< /highlight >}}
+```

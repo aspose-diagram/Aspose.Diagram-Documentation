@@ -10,5 +10,33 @@ description: Cette section explique comment obtenir le style de police de la for
 #### **Récupérer un exemple de programmation de données de police héritées**
 L'extrait de code suivant récupère les données de police héritées de la forme. Veuillez vérifier cet exemple de code :
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-GetInheritChars-GetInheritChars.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-3");
+
+foreach (Aspose.Diagram.Shape shape in page.Shapes)
+{
+	Aspose.Diagram.Char ch = shape.InheritChars.GetChar(0);
+	Console.WriteLine(ch.Style.Value);
+	Console.WriteLine(ch.Color.Value); 
+	Console.WriteLine(ch.FontName.Value); 
+	Console.WriteLine(ch.Size.Value);
+	Console.WriteLine(ch.Case.Value);
+	Console.WriteLine(ch.IsUnderline);
+	Console.WriteLine(ch.IsItalic);
+	Console.WriteLine(ch.IsStrikethrough);
+	Console.WriteLine(ch.IsDoubleStrikethrough);
+	Console.WriteLine(ch.IsSubscript);
+	Console.WriteLine(ch.IsSuperscript); 
+}
+
+{{< /highlight >}}
+```
 

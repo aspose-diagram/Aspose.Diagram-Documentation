@@ -26,7 +26,28 @@ getTimeCreated()、getTimeEdited()、getTimePrinted() 和 getTimeSaved() 方法�
 
 ![待办事项：图片_替代_文本](introduction_1.png)
 #### **编程范例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-GetLibraryVersion-GetLibraryVersion.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetLibraryVersion.class);
+// build path of an existing diagram
+String path = dataDir + "Drawing1.vsdx";
+
+//Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(path);
+
+//Display Visio version and document modification time at different stages
+System.out.println("Visio Instance Version : " + diagram.getVersion());
+System.out.println("Full Build Number Created : " + diagram.getDocumentProps().getBuildNumberCreated());
+System.out.println("Full Build Number Edited : " + diagram.getDocumentProps().getBuildNumberEdited());
+System.out.println("Date Created : " + diagram.getDocumentProps().getTimeCreated());
+System.out.println("Date Last Edited : " + diagram.getDocumentProps().getTimeEdited());
+System.out.println("Date Last Printed : " + diagram.getDocumentProps().getTimePrinted());
+System.out.println("Date Last Saved : " + diagram.getDocumentProps().getTimeSaved());
+
+{{< /highlight >}}
+```
 ## **写作 Microsoft Visio 文档摘要信息**
 Microsoft Visio 允许您定义许多文档摘要信息属性，以帮助您和您的同事识别 diagram。摘要属性，例如标题、主题、作者和描述，使文件在搜索时更容易找到，在浏览时更容易识别文件。
 
@@ -53,16 +74,69 @@ Microsoft Visio 允许您定义许多文档摘要信息属性，以帮助您和�
 
 ![待办事项：图片_替代_文本](introduction_2.png)
 #### **编程范例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-SetVisioProperties-SetVisioProperties.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetVisioProperties.class);
+// build path of an existing diagram
+String path = dataDir + "Drawing1.vsdx";
+
+//Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(path);
+
+//Set some summary information about the diagram
+diagram.getDocumentProps().setCreator("Ijaz");
+diagram.getDocumentProps().setCompany("Aspose");
+diagram.getDocumentProps().setCategory("Drawing 2D");
+diagram.getDocumentProps().setManager("Sergey Polshkov");
+diagram.getDocumentProps().setTitle("Aspose Title");
+diagram.getDocumentProps().setTimeCreated(DateTime.getNow());
+diagram.getDocumentProps().setSubject("Visio Diagram");
+diagram.getDocumentProps().setTemplate("Aspose Template");
+
+//Write the updated file to the disk in VSDX file format
+diagram.save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **检测 Visio 文件的格式**
 使用[Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API，开发者可以在打开Visio文件前检测其格式，因为文件扩展名并不能保证文件内容是合适的。
 ### **检测格式编程示例**
 以下示例代码说明了如何检测文件格式（使用文件路径或流）并检查其扩展名。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectVisioFileFormat-DetectVisioFileFormat.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectVisioFileFormat.class);
+
+		// detect file format using the direct file path
+		FileFormatInfo info = FileFormatUtil.detectFileFormat(dataDir + "Drawing1.vsdx");
+
+		// get the detected file format
+		System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```
 ## **从 InputStream 检测 Visio 文件的格式**
 使用 Aspose.Diagram for Java API，开发人员可以通过传递输入流来检测 Visio 文件的格式。 FileFormatUtil 类的 detectFileFormat 方法可用于实现此目的。
 ### **从 InputStream 编程示例中检测格式**
 以下示例代码说明了如何使用输入流检测文件格式。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Introduction-DetectFormatfromInputStream-DetectFormatfromInputStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DetectFormatfromInputStream.class);
+
+// Open the stream. Read only access to load a Visio diagram.
+String stream = new String(dataDir + "Drawing1.vsdx");
+// detect file format using an input stream
+FileFormatInfo info = FileFormatUtil.detectFileFormat(stream);
+
+// get the detected file format
+System.out.println("The spreadsheet format is: " + info.getFileFormatType());
+
+{{< /highlight >}}
+```

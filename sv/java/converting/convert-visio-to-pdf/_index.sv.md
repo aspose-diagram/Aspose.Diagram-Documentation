@@ -36,15 +36,89 @@ Nedan finns en bild av utdatafilen PDF.
 
 ![todo:image_alt_text](how-to-convert-a-visio-diagram_2.png)
 ### **Exporterar till PDF Programmeringsexempel**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToPDF-ExportToPDF.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToPDF.class);
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+// Save as PDF file format
+diagram.save(dataDir + "ExportToPDF_Out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **Dela flera sidor**
 Aspose.Diagram for Java tillåter uppdelning av flera sidor samtidigt som Microsoft Visio Diagram Diagram Diagram konverteras till PDF. Följande kodavsnitt visar funktionen.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(UsePDFSaveOptions.class);      
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Options when saving a diagram into the PDF format
+PdfSaveOptions options = new PdfSaveOptions();
+// set SplitMultiPages option
+options.setSplitMultiPages(true);
+// save in PDF format
+diagram.save(dataDir + "SplitMultiPages.pdf", options);
+
+{{< /highlight >}}
+```
 ### **Använd Page Save Callback**
 Om du har flera sidor tillåter Aspose.Diagram for Java att använda sidsparande återuppringning samtidigt som du konverterar Microsoft Visio Diagram till PDF. Följande kodavsnitt visar funktionaliteten.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-DiagramConversions-DocumentConversionProgress-1.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(DocumentConversionProgress.class);
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance PDF save options class
+PdfSaveOptions options = new PdfSaveOptions();
+          
+//set page saving call back
+options.setPageSavingCallback( new TestDiagramPageSavingCallback());
+
+// save Visio drawing
+diagram.save(dataDir + "Callback_out.pdf", options);
+
+{{< /highlight >}}
+```
 
 #### **TestDiagramPageSavingCallback Class**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-DiagramConversions-DocumentConversionProgress-2.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+import com.aspose.diagram.IPageSavingCallback;
+import com.aspose.diagram.PageEndSavingArgs;
+import com.aspose.diagram.PageStartSavingArgs;
+
+public class TestDiagramPageSavingCallback implements IPageSavingCallback
+{
+    public void pageStartSaving(PageStartSavingArgs args)
+    {
+    	System.out.println("Start saving page index " + args.getPageIndex() + " of pages " + args.getPageCount());
+    }
+
+    public void pageEndSaving(PageEndSavingArgs args)
+    {
+    	System.out.println("End saving page index " + args.getPageIndex() + " of pages " + args.getPageCount());
+
+        //don't output pages after page index 8.
+        if (args.getPageIndex() >= 8)
+        {
+            args.setHasMorePages(false);
+        }
+    }
+}
+
+
+{{< /highlight >}}
+```

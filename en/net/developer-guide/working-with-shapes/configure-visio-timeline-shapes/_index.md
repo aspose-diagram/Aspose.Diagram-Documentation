@@ -22,7 +22,35 @@ The process for updating the milestone date, date format, auto update flag and m
 1. Set the milestone type
 1. Save the Visio drawing to any supported format.
 #### **Set Milestone Programming Sample**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-SetMilestoneProps-SetMilestoneProps.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+int shapeid = 22;
+// Get timeline shape
+Shape milestone = diagram.Pages.GetPage("Page-1").Shapes.GetShape(shapeid);
+
+// Initialize MilestoneHelper object
+Aspose.Diagram.MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
+
+// Set milestone date
+milestoneHelper.MilestoneDate = new DateTime(2014, 10, 21);
+// Set date format
+milestoneHelper.DateFormat = 21;
+// Set auto update flag
+milestoneHelper.IsAutoUpdate = true;
+// Set milestone type
+milestoneHelper.Type = 6;
+
+// Save to VDX format
+diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 
 Table of date format values:
@@ -74,7 +102,43 @@ The process for updating time period start, end and date format is:
 1. Set a date format.
 1. Save the Visio drawing to any supported format.
 #### **Set Time Period and Date Programming Sample**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-ConfigureTimeLine-ConfigureTimeLine.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+int shapeid = 1;
+// Get timeline shape
+Shape timeline = diagram.Pages.GetPage("Page-1").Shapes.GetShape(shapeid);
+
+// Initialize TimeLineHlper object
+Aspose.Diagram.TimeLineHelper timelineHelper = new TimeLineHelper(timeline);
+
+// Set start time
+timelineHelper.TimePeriodStart = new DateTime(2014, 12, 21);
+// Set end time
+timelineHelper.TimePeriodFinish = new DateTime(2015, 2, 19);
+
+// Set date format
+// TimelineHelper.DateFormatForBE = 21;
+// Set date format for intm of timeline shape   
+// TimelineHelper.DateFormatForIntm = 21;
+
+// Or
+
+// Set date format string for start and finish of timeline shape
+timelineHelper.DateFormatStringForBE = "yyyy-MM-dd";
+// Set date format string for intm of timeline shape
+timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
+
+// Save to VDX format
+diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 
 Table of date format values:
@@ -129,7 +193,38 @@ The code below shows how to:
 #### **Refresh Milestones using TimeLineHelper Programming Sample**
 Use the following code in your .NET application to revive milestones on the timeline using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-RefreshTimeLine-RefreshTimeLine.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+
+int shapeid = 1;
+// Get timeline shape
+Shape timeline = diagram.Pages.GetPage("Page-1").Shapes.GetShape(shapeid);
+
+// Initialize TimeLineHlper object
+TimeLineHelper timelineHelper = new TimeLineHelper(timeline);
+
+// Set start time
+timelineHelper.TimePeriodStart = new DateTime(2014, 12, 21);
+// Set end time
+timelineHelper.TimePeriodFinish = new DateTime(2015, 2, 19);
+
+// Set date format
+timelineHelper.DateFormatForBE = 21;
+
+// Revive milestones on the timeline
+timelineHelper.RefreshTimeLine();
+
+// Save to VDX format
+diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ### **Refresh Milestones on the Timeline using MilestoneHelper class**
 The RefreshMilestone method exposed by the [MilestoneHelper](http://www.aspose.com/api/net/diagram/aspose.diagram/milestonehelper) class can be used to refresh milestones on the timeline.
 
@@ -146,4 +241,56 @@ The code below shows how to:
 #### **Refresh Milestones using MilestoneHelper Programming Sample**
 Use the following code in your .NET application to refresh milestones on the timeline using Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ConfigureTimeLineShapes-RefreshMilestoneWithMilestoneHelper-RefreshMilestoneWithMilestoneHelper.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+string pageName = "Page-1";
+
+////////////// Modify time line /////////// 
+DateTime startDate = new DateTime(2015, 8, 1);
+DateTime endDate = new DateTime(2016, 6, 1);
+DateTime fisYear = startDate;
+
+// Load a diagram 
+Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
+
+// Get page
+Aspose.Diagram.Page page = diagram.Pages.GetPage(pageName);
+
+long timelineId = 1;
+Shape timeline = diagram.Pages.GetPage(pageName).Shapes.GetShape(timelineId);
+double xpos = timeline.XForm.PinX.Value;
+double ypos = timeline.XForm.PinY.Value;
+
+// Add milestone 
+string milestoneMasterName = "2 triangle milestone";
+
+// Add Master
+diagram.AddMaster(dataDir + "Timeline.vss", milestoneMasterName);
+
+// Add Shape in Visio diagram using AddShape method
+long milestoneShapeId = diagram.AddShape(xpos, ypos, milestoneMasterName, 0);
+
+// Get the shape based on ID
+Shape milestone = page.Shapes.GetShape(milestoneShapeId);
+
+// Instantiate MilestoneHelper object
+MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
+
+// Set Milestone Date
+milestoneHelper.MilestoneDate = new DateTime(2015, 8, 1);
+
+// Set IsAutoUpdate to true
+milestoneHelper.IsAutoUpdate = true;
+
+// RefreshMilesone of timeline shape
+milestoneHelper.RefreshMilestone(timeline);
+
+// Save Visio file
+diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

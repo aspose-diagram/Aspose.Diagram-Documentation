@@ -23,7 +23,37 @@ Microsoft Office Visio 支持给任意形状添加超链接。超链接可以链
 ### **添加超链接编程示例**
 下面的代码片段添加了形状的超链接数据。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-AddHyperlinkToShape-AddHyperlinkToShape.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Hyperlinks();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(2);
+
+// Initialize Hyperlink object
+Hyperlink hyperlink = new Hyperlink();
+// Set address value
+hyperlink.Address.Value = "http:// Www.google.com/";
+// Set sub address value
+hyperlink.SubAddress.Value = "Sub address here";
+// Set description value
+hyperlink.Description.Value = "Description here";
+// Set name
+hyperlink.Name = "MyHyperLink";
+
+// Add hyperlink to the shape
+shape.Hyperlinks.Add(hyperlink);            
+// Save diagram to local space
+diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **获取 Visio 形状的超链接数据**
 开发人员可以使用与他们相同的方式从 Visio 形状中检索所有超链接[读取 Visio 形状数据](https://docs.aspose.com/diagram/net/load-or-create-a-visio-drawing/)使用[Aspose.Diagram for .NET API](https://products.aspose.com/diagram/net/).
 
@@ -45,4 +75,25 @@ Microsoft Office Visio 支持给任意形状添加超链接。超链接可以链
 ### **获取超链接编程示例**
 下面的代码片段读取形状的超链接数据。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Hyperlinks-GetHyperlinks-GetHyperlinks.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Hyperlinks();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+// Iterate through the hyperlinks
+foreach (Aspose.Diagram.Hyperlink hyperlink in shape.Hyperlinks)
+{
+    Console.WriteLine("Address: " + hyperlink.Address.Value);
+    Console.WriteLine("Sub Address: " + hyperlink.SubAddress.Value);
+    Console.WriteLine("Description: " + hyperlink.Description.Value);
+}       
+
+{{< /highlight >}}
+```

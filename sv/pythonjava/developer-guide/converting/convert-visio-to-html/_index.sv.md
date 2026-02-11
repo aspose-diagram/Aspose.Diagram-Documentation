@@ -32,11 +32,52 @@ Bilden nedan visar utdatafilen HTML.
 Den resulterande filen kan sparas genom att skicka en komplett sökvägssträng, inklusive filnamn och filtillägg, t.ex. @"c:\temp\MyOutput.html".
 
 #### **Spara resultatet HTML i lokalt lagringsprogrammeringsexempel**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToHTML.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToHTML.vsd")
+
+# Save as HTML
+diagram.save("ExportToHTML_Out.html", SaveFileFormat.HTML)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 
 
 ### **Spara resulterande HTML i en stream-instans**
 Det är för användning att spara den resulterande HTML i en databas eller arkiv utan att lagra den i den lokala lagringen. Denna funktion bäddar även in andra resulterande resurser från HTML, t.ex. typsnitt, CSS (som innehåller stilinformationen) och bilder. Eftersom det sparar en enda HTML-fil i stream-instansen.
 #### **Spara resultatet HTML i ett strömprogrammeringsexempel**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportHTMLinStream.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# load diagram
+diagram = Diagram("ExportToHTML.vsd")
+# save resultant HTML directly to a stream
+dstStream = java.io.ByteArrayOutputStream()
+diagram.save(dstStream, SaveFileFormat.HTML)
+# In you want to read the result into a Diagram object again, you need to get the
+# data bytes and wrap into an input stream.
+# srcStream = java.io.ByteArrayInputStream(dstStream.toByteArray())
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

@@ -26,4 +26,19 @@ Aspose.Diagram полностью поддерживает параметры н
 - [**PageLeftMargin**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/pageleftmargin)
 - [**PageRightMargin**](https://reference.aspose.com/diagram/net/aspose.diagram/printprops/properties/pagerightmargin)
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Print-SetPageMargin-SetPageMargin.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Print();
+
+// Load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//Set Page Margin
+diagram.Pages[0].PageSheet.PrintProps.PageLeftMargin.Value = 0.01;
+diagram.Pages[0].PageSheet.PrintProps.PageRightMargin.Value = 0.01;
+diagram.Pages[0].PageSheet.PrintProps.PageTopMargin.Value = 0.01;
+diagram.Pages[0].PageSheet.PrintProps.PageBottomMargin.Value = 0.01;
+{{< /highlight >}}
+```

@@ -19,7 +19,29 @@ The TimeCreated, TimeEdited, TimePrinted and TimeSaved properties exposed by the
 
 You can also set these properties to change the information in the file. The code samples below show how to retrieve information about what created the file as well as when it was created, edited, printed and saved.
 #### **Programming Sample**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Introduction-GetLibraryVersion-GetLibraryVersion.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+// Build path of an existing diagram
+string visioDrawing = dataDir + "Drawing1.vsdx";
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(visioDrawing);
+
+// Display Visio version and document modification time at different stages
+Console.WriteLine("Visio Instance Version : " + diagram.Version);
+Console.WriteLine("Full Build Number Created : " + diagram.DocumentProps.BuildNumberCreated);
+Console.WriteLine("Full Build Number Edited : " + diagram.DocumentProps.BuildNumberEdited);
+Console.WriteLine("Date Created : " + diagram.DocumentProps.TimeCreated);
+Console.WriteLine("Date Last Edited : " + diagram.DocumentProps.TimeEdited);
+Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
+Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
+
+{{< /highlight >}}
+```
 ## **Writing Visio Document Summary Information**
 Microsoft Visio lets you define a number of document summary information properties to help you and your colleagues identify a diagram. Summary properties, for example, title, subject, author and description, makes the file easier to find when searching, and easier to recognize when browsing files.
 ### **Writing Microsoft Visio Document Summary Info**
@@ -42,10 +64,58 @@ Check the summary information:
 1. Open the output VDX file in Microsoft Visio.
 1. Selecting Info from the File menu.
 #### **Writing Visio Document Summary Information Programming Sample**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Introduction-SetVisioProperties-SetVisioProperties.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+// Build path of an existing diagram
+string visioDrawing = dataDir + "Drawing1.vsdx";
+
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(visioDrawing);
+
+// Set some summary information about the diagram
+diagram.DocumentProps.Creator = "Ijaz";
+diagram.DocumentProps.Company = "Aspose";
+diagram.DocumentProps.Category = "Drawing 2D";
+diagram.DocumentProps.Manager = "Sergey Polshkov";
+diagram.DocumentProps.Title = "Aspose Title";
+diagram.DocumentProps.TimeCreated = DateTime.Now;
+diagram.DocumentProps.Subject = "Visio Diagram";
+diagram.DocumentProps.Template = "Aspose Template";
+
+// Write the updated file to the disk in VSDX file format
+diagram.Save(dataDir + "SetVisioProperties_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Detect the Format of Visio File**
 Using Aspose.Diagram for .NET API, developers can detect the format of the Visio file before opening it because the file extension does not guarantee that the file content is appropriate.
 ### **Detect Format Programming Sample**
 The following sample code illustrates how to detect a file format (using the file path or stream) and check its extension.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Introduction-DetectVisioFileFormat-DetectVisioFileFormat.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+// Load an existing Visio file in the stream
+FileStream st = new FileStream(dataDir + "Drawing1.vsdx", FileMode.Open);
+
+// Detect file format using the direct file path
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(dataDir + "Drawing1.vsdx");
+
+// Detect file format using the direct file path
+FileFormatInfo infoFromStream = FileFormatUtil.DetectFileFormat(st);
+
+// Get the detected file format
+Console.WriteLine("The spreadsheet format is: " + info.FileFormatType);
+            
+// Get the detected file format from the file stream
+Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
+
+{{< /highlight >}}
+```

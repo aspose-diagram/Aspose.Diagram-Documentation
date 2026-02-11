@@ -13,11 +13,35 @@ Printing of the diagram to the specific printer requires the name of the printer
 - Create an instance of Diagram class to load a diagram that is to be printed
 - Call the Print method of the Diagram class with printer name as string parameter to the Print method
 #### **Printing to Specific Printer Programming Sample**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-BySpecificPrinter-BySpecificPrinter.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(BySpecificPrinter.class); 
+// load source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// call the print method to print whole Diagram using the printer name
+diagram.print("LaserJet1100");
+
+{{< /highlight >}}
+```
 ### **Setting Printer and Document Name**
 Aspose.Diagram APIs allows to set the specific printer and document name for a print job. Perform the following steps in order to print the diagram to the desired printer:
 
 - Create an instance of Diagram class to load a diagram that is to be printed
 - Call the Print method of the Diagram class with printer and document name as string parameter to the Print method
 #### **Setting Printer and Document Name Programming Sample**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Print-SetPrintJobAndPrinterName-SetPrintJobAndPrinterName.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SetPrintJobAndPrinterName.class);   
+// load a source Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// call the print method to print whole Diagram using the printer name and set document name in the print job
+diagram.print("LaserJet1100", "Job name while printing with Aspose.Diagram");
+
+{{< /highlight >}}
+```

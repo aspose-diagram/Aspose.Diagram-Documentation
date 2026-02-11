@@ -7,7 +7,22 @@ url: /ar/java/create-layout-and-auto-fit-shapes/
 ## **إنشاء Diagram**
  يتيح لك Aspose.Diagram for Java قراءة وإنشاء Microsoft Visio الرسوم التخطيطية من داخل التطبيقات الخاصة بك ، بدون أتمتة Microsoft Office. الخطوة الأولى عند تكوين وثائق جديدة هي تكوين diagram. ثم[إضافة الأشكال والموصلات](/diagram/ar/java/add-and-connect-visio-shapes/)لإنشاء diagram. استخدم المُنشئ الافتراضي لـ[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) فئة لإنشاء diagram جديد.
 ### **عينة البرمجة**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-CreateDiagram-CreateDiagram.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CreateDiagram.class);
+// Create directory if it is not already present.
+File file = new File(dataDir);
+if (!file.exists())
+	file.mkdir();
+// initialize a new Diagram
+Diagram diagram = new Diagram();
+// save in the VSDX format
+diagram.save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **أشكال التخطيط في نمط المخطط الانسيابي**
  مع أنواع معينة من الرسومات المتصلة ، مثل المخططات الانسيابية والرسومات التخطيطية للشبكة ، يمكنك استخدام ملحق**أشكال التخطيط** ميزة لوضع الأشكال تلقائيًا. يعد تحديد المواقع تلقائيًا أسرع من سحب كل شكل يدويًا إلى موقع جديد.
 
@@ -33,7 +48,47 @@ url: /ar/java/create-layout-and-auto-fit-shapes/
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. اتصل بـ Diagram class 'طريقة Save لكتابة رسم Visio.
 ### **عينة برمجة نمط المخطط الانسيابي**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInFlowchartStyle-LayOutShapesInFlowchartStyle.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(LayOutShapesInFlowchartStyle.class);     
+
+// load an existing Visio diagram
+String fileName = "LayOutShapesInFlowchartStyle.vdx";
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// set layout options 
+LayoutOptions flowChartOptions = new LayoutOptions();
+flowChartOptions.setLayoutStyle(LayoutStyle.FLOW_CHART);
+flowChartOptions.setSpaceShapes(1f);
+flowChartOptions.setEnlargePage(true);
+
+// set layout direction as BottomToTop and then save
+flowChartOptions.setDirection(LayoutDirection.BOTTOM_TO_TOP);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_btm_top.vdx", SaveFileFormat.VDX);
+
+// set layout direction as TopToBottom and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.TOP_TO_BOTTOM);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_top_btm.vdx", SaveFileFormat.VDX);
+
+// set layout direction as LeftToRight and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.LEFT_TO_RIGHT);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_left_right.vdx", SaveFileFormat.VDX);
+
+// set layout direction as RightToLeft and then save
+diagram = new Diagram(dataDir + fileName);
+flowChartOptions.setDirection(LayoutDirection.RIGHT_TO_LEFT);
+diagram.layout(flowChartOptions);
+diagram.save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ### **تخطيط الأشكال في نمط الشجرة المضغوطة**
  يحاول نمط تخطيط الشجرة المضغوط بناء هيكل شجرة. يستخدم نفس ملف الإدخال مثل ملف[المثال أعلاه](/diagram/ar/java/create-2c-layout-and-auto-fit-shapes/)ويحفظ في العديد من أنماط الأشجار المدمجة المختلفة.
 
@@ -51,7 +106,46 @@ url: /ar/java/create-layout-and-auto-fit-shapes/
 1. قم باستدعاء أسلوب تخطيط الفئة Diagram عن طريق تمرير LayoutOptions.
 1. قم باستدعاء الأسلوب Save للفئة Diagram لكتابة ملف Visio.
 #### **عينة برمجة نمط الشجرة المدمجة**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-LayOutShapesInCompactTreeStyle-LayOutShapesInCompactTreeStyle.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(LayOutShapesInCompactTreeStyle.class);
+        
+String fileName = "LayOutShapesInCompactTreeStyle.vdx";
+// load an existing Visio diagram
+Diagram diagram = new Diagram(dataDir + fileName);
+
+// set layout options 
+LayoutOptions compactTreeOptions = new LayoutOptions();
+compactTreeOptions.setLayoutStyle(LayoutStyle.COMPACT_TREE);
+compactTreeOptions.setEnlargePage(true);
+
+// set layout direction as DownThenRight and then save
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_RIGHT);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_down_right.vdx", SaveFileFormat.VDX);
+
+// set layout direction as DownThenLeft and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.DOWN_THEN_LEFT);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_down_left.vdx", SaveFileFormat.VDX);
+
+// set layout direction as RightThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.RIGHT_THEN_DOWN);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_right_down.vdx", SaveFileFormat.VDX);
+
+// set layout direction as LeftThenDown and then save
+diagram = new Diagram(dataDir + fileName);
+compactTreeOptions.setDirection(LayoutDirection.LEFT_THEN_DOWN);
+diagram.layout(compactTreeOptions);
+diagram.save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```
 ## **احتواء تلقائي Visio Diagram**
 Aspose.Diagram API يدعم التركيب التلقائي للرسم Visio. تساعد عملية الميزة هذه على إحضار الأشكال الخارجية داخل حدود الصفحة Visio.
 
@@ -66,7 +160,24 @@ Aspose.Diagram for Java API له الفئة Diagram التي تمثل رسم Vis
 ### **عينة البرمجة الملائمة التلقائية**
 يوضح رمز المثال التالي كيفية احتواء الأشكال تلقائيًا في Visio diagram.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-AutoFitShapesInVisio-AutoFitShapesInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AutoFitShapesInVisio.class);
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "BFlowcht.vsdx");
+
+// use saving options
+DiagramSaveOptions options = new DiagramSaveOptions(SaveFileFormat.VSDX);
+// set Auto fit page property
+options.setAutoFitPageToDrawingContent(true);
+
+// save Visio diagram
+diagram.save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
+
+{{< /highlight >}}
+```
 ## **العمل مع مشروع VBA**
 ### **تعديل كود وحدة VBA في Visio Diagram**
 توضح هذه المقالة كيفية تعديل رمز الوحدة النمطية لـ VBA تلقائيًا باستخدام Aspose.Diagram for Java.
@@ -75,10 +186,46 @@ Aspose.Diagram for Java API له الفئة Diagram التي تمثل رسم Vis
 ### **تعديل نموذج برمجة رمز الوحدة النمطية لـ VBA**
 الرجاء التحقق من مثال هذا الرمز:
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-ModifyVBAModuleCode-ModifyVBAModuleCode.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// load an existing Visio diagram
+String dataDir = Utils.getDataDir(ModifyVBAModuleCode.class);
+InputStream input = new FileInputStream(dataDir + "macro.vsdm");
+Diagram diagram = new Diagram(input);
+// extract VBA project
+VbaProject v = diagram.getVbaProject();
+// Iterate through the modules and modify VBA macro code
+for (int i = 0; i < diagram.getVbaProject().getModules().getCount(); i++) {
+	VbaModule module = diagram.getVbaProject().getModules().get(i);
+	String code = module.getCodes();
+	if (code.contains("This is test message."))
+		code = code.replace("This is test message.", "This is Aspose.Diagram message.");
+	module.setCodes(code);
+}
+// save the Visio diagram
+diagram.save(dataDir + "out.vssm", SaveFileFormat.VSSM);
+
+{{< /highlight >}}
+```
 ### **قم بإزالة كافة وحدات الماكرو من Visio Diagram**
 Aspose.Diagram for Java يسمح للمطورين بإزالة كافة وحدات الماكرو من Visio diagram.
 
 خاصية JavaProjectData ، المكشوفة بواسطة ملف[Diagram](https://reference.aspose.com/diagram/java/com.aspose.diagram/diagram) class ، تسمح لك بإزالة كافة وحدات الماكرو من الرسم Visio.
 ### **قم بإزالة كافة نماذج برمجة وحدات الماكرو**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Diagrams-RemoveMacrosFromVisio-RemoveMacrosFromVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RemoveMacrosFromVisio.class);  
+// load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// remove all macros
+diagram.setVbProjectData(null);
+
+// Save diagram
+diagram.save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

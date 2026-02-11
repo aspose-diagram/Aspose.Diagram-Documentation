@@ -39,18 +39,101 @@ description: В этом разделе показано, как Aspose.Diagram 
 ### **Экспорт Microsoft Visio Чертеж в PDF**
 В примерах кода показано, как экспортировать чертеж Microsoft Visio в PDF с помощью C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 ### **Разделить несколько страниц**
 Aspose.Diagram for .NET позволяет разделить несколько страниц при преобразовании Microsoft Visio Diagram в PDF. В следующем фрагменте кода показана функциональность.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set SplitMultiPages option
+options.SplitMultiPages = true;
+// save in PDF format
+diagram.Save(dataDir + "SplitMultiPages.pdf", options);
+
+{{< /highlight >}}
+```
 ### **Использовать обратный вызов для сохранения страницы**
 Если у вас есть несколько страниц, Aspose.Diagram for .NET позволяет использовать обратный вызов сохранения страницы при преобразовании Microsoft Visio Diagram в PDF. Следующий фрагмент кода показывает функциональность.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-PageSavingCallback.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set PageSavingCallback option
+options.PageSavingCallback = new TestDiagramPageSavingCallback();
+// save in PDF format
+diagram.Save(dataDir + "PageSavingCallback.pdf", options);
+
+{{< /highlight >}}
+```
 #### **Класс TestDiagramPageSavingCallback**
 {{< highlight "java" >}}
 
  открытый класс TestDiagramPageSavingCallback: Aspose.Diagram.Saving.IPageSavingCallback
 
-{  public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)  {  Console.WriteLine("Начать сохранение diagram страницы {0} из страниц {1}", args.PageIndex_x.0Page);  }  public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)  {  Console.WriteLine("Завершить сохранение diagram страницы {0} из страниц {1}", args.1,Countarddex.PageIndex.   // не выводит страницы после индекса страницы 8.  if (args.pageindex> = 8)   {  args.hasmorepages = false;        0.
+{
+ 
+ public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)
+ 
+ {
+ 
+ Console.WriteLine("Начать сохранение diagram страницы {0} из страниц {1}", args.PageIndex_x.0Page); 
+ }
+ 
+ public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)
+ 
+ {
+ 
+ Console.WriteLine("Завершить сохранение diagram страницы {0} из страниц {1}", args.1,Countarddex.PageIndex. 
+ 
+ // не выводит страницы после индекса страницы 8.
+ 
+ if (args.pageindex> = 8) 
+ 
+ {
+ 
+ args.hasmorepages = false; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.

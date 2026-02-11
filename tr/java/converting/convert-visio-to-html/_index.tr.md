@@ -33,11 +33,39 @@ Aşağıdaki görüntü HTML çıktı dosyasını göstermektedir.
 ### **Ortaya çıkan HTML'i yerel depoya kaydedin**
 Ortaya çıkan dosya, dosya adı ve uzantısı dahil olmak üzere tam bir yol dizesi iletilerek kaydedilebilir, örneğin @"c:\temp\MyOutput.html".
 #### **Sonuç HTML'i Yerel Depolama Programlama Örneğine Kaydet**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToHTML-ExportToHTML.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToHTML.class);
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
+
+// Save as HTML
+diagram.save(dataDir + "ExportToHTML_Out.html", SaveFileFormat.HTML);
+
+{{< /highlight >}}
+```
 
 
 
 ### **Elde edilen HTML'i bir akış örneğine kaydedin**
 Elde edilen HTML'i yerel depoda saklamadan bir veritabanına veya havuza kaydetmek kullanım durumu içindir. Bu özellik aynı zamanda HTML'in diğer sonuç kaynaklarını, örneğin yazı tiplerini, CSS'yi (stil bilgilerini içeren) ve resimleri de içerir. Akış örneğine tek bir HTML dosyası kaydettiği için.
 #### **Sonuç HTML'i Akış Programlama Örneğine Kaydet**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportHTMLinStream-ExportHTMLinStream.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportHTMLinStream.class);
+// load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
+// save resultant HTML directly to a stream
+ByteArrayOutputStream dstStream = new ByteArrayOutputStream();
+diagram.save(dstStream, SaveFileFormat.HTML);
+// In you want to read the result into a Diagram object again, in Java you need to get the
+// data bytes and wrap into an input stream.
+ByteArrayInputStream srcStream = new ByteArrayInputStream(dstStream.toByteArray());
+
+{{< /highlight >}}
+```

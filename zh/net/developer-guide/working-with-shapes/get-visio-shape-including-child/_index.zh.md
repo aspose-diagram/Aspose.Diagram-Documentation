@@ -12,5 +12,25 @@ diagram 中的每个形状都有一个 ID 和一个名称。使用 Visio 编程�
 #### **检索 Visio 形状编程示例**
 以下代码片段检索包含子项的形状。请检查此示例代码：
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-GetShapeIncludingChild-GetShapeIncludingChild.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "NetworkConnection.vsdx");
+
+Page page = diagram.Pages[0];
+
+Shape shapeContainerChild = page.Shapes.GetShapeIncludingChild("RectangleChild");
+
+if (shapeContainerChild == null)
+    throw new Exception();
+    
+// Save visio diagram
+diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 

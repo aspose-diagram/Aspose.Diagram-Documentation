@@ -27,9 +27,50 @@ VSD diagram'i PDF'e dışa aktarmak için:
 1. Diagram sınıfı Save yöntemini çağırın ve çıktı formatını PDF olarak ayarlayın.
 
 ### **PDF Programlama Örneğine Aktarma**
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-ExportToPDF.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSD file
+diagram = Diagram("ExportToPDF.vsd")
+
+# Save as PDF file format
+diagram.save("ExportToPDF_Out.pdf", SaveFileFormat.PDF)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```
 
 ### **Birden Çok Sayfayı Böl**
 Aspose.Diagram for Java, Microsoft Visio Diagram'i PDF'e dönüştürürken birden fazla sayfanın bölünmesine izin verir. Aşağıdaki kod parçacığı işlevselliği gösterir.
 
-{{< gist "aspose-diagram-gists" "af605f5a3113e8afc05e4bae8990fb41" "Examples-PythonJava-LoadSaveConvert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.py" >}}
+```
+{{< highlight "python" >}}
+import jpype
+import asposediagram
+jpype.startJVM()
+from asposediagram.api import *
+
+lic = License()
+lic.setLicense("Aspose.Total.Product.Family.lic")
+
+# Call the diagram constructor to load diagram from a VSDX file
+diagram = Diagram("Network Diagram_start.vsdx")
+# Options when saving a diagram into the PDF format
+options = PdfSaveOptions()
+# set SplitMultiPages option
+options.setSplitMultiPages(True)
+# save in PDF format
+diagram.save("SplitMultiPages.pdf", options)
+
+jpype.shutdownJVM()
+
+{{< /highlight >}}
+```

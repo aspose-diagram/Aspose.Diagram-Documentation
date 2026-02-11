@@ -43,14 +43,43 @@ Siga estas sencillas reglas:
 #### **Cargar una licencia desde un archivo**
 Este fragmento de código inicializa una licencia almacenada en un archivo o en un recurso incrustado.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-ApplyLicenseByPath-ApplyLicenseByPath.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// Set path of the license file, i.e. c:\temp\
+string dataDir = @"c:\temp\";
+
+License license = new License();
+license.SetLicense(dataDir + "Aspose.Diagram.lic");
+
+{{< /highlight >}}
+```
 #### **Cargar una licencia desde un objeto de flujo**
 Estos fragmentos de código inicializan la licencia de la transmisión.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-ApplyLicenseUsingFileStream-ApplyLicenseUsingFileStream.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// Set path of the license file, i.e. c:\temp\
+string dataDir = @"c:\temp\";
+// Load an existing Visio file in the stream
+FileStream LicStream = new FileStream(dataDir + "Aspose.Diagram.lic", FileMode.Open);
+
+License license = new License();
+license.SetLicense(LicStream);
+
+{{< /highlight >}}
+```
 ## **Aplicar licencia medida**
 Aspose.Diagram for .NET API permite a los desarrolladores aplicar una licencia medida. Es un nuevo mecanismo de licencia. El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que deseen que se les facture en función del uso de las funciones API pueden utilizar la licencia medida. Para obtener más detalles, consulte[Preguntas frecuentes sobre licencias medidas](https://purchase.aspose.com/faqs/licensing/metered)sección.
 
 una nueva clase[medido](https://reference.aspose.com/diagram/net/aspose.diagram/metered)se ha agregado para aplicar la clave medida. Este ejemplo de código demuestra cómo establecer claves públicas y privadas medidas:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-ApplyLicense-PublicAndPrivateKeys-PublicAndPrivateKeys.cs" >}}
+```
+{{< highlight "csharp" >}}
+// Initialize a Metered license class object
+Aspose.Diagram.Metered metered = new Aspose.Diagram.Metered();
+// apply public and private keys
+metered.SetMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
+```

@@ -26,7 +26,36 @@ Utilizzare il seguente codice nell'applicazione .NET per calcolare i valori PinX
 
 
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-CalculateCenterOfSubShapes-CalculateCenterOfSubShapes.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get a group shape by ID and page index is 0
+Shape shape = diagram.Pages[0].Shapes.GetShape(795);
+// Get a sub-shape of the group shape by id
+Shape subShape = shape.Shapes.GetShape(794);
+
+Matrix m = new Matrix();
+// Apply the translation vector
+m.Translate(-(float)subShape.XForm.LocPinX.Value, -(float)subShape.XForm.LocPinY.Value);
+// Set the elements of that matrix to a rotation
+m.Rotate((float)subShape.XForm.Angle.Value);
+// Apply the translation vector
+m.Translate((float)subShape.XForm.PinX.Value, (float)subShape.XForm.PinY.Value);
+
+// Get pinx and piny
+double pinx = m.OffsetX;
+double piny = m.OffsetY;
+// Calculate the sub-shape pinx and piny
+double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
+double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
+
+{{< /highlight >}}
+```
 ## **Impostazione dell'altezza e della larghezza di una forma**
  Il[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) La classe consente di controllare le dimensioni della forma specificando l'altezza e la larghezza della forma utilizzando i metodi SetHeight e SetWidth.
 
@@ -42,4 +71,23 @@ Il processo per impostare l'altezza e la larghezza è:
 ### **Impostazione dell'altezza e della larghezza Esempio di programmazione**
 Il frammento di codice seguente mostra come impostare l'altezza e la larghezza della forma. Il codice cerca un rettangolo con il nome della forma, con l'ID forma 1, e ne imposta l'altezza e la larghezza su double.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ChangeShapeSize-ChangeShapeSize.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by id
+Shape shape = page.Shapes.GetShape(796);
+// Alter the size of Shape
+shape.SetWidth(2 * shape.XForm.Width.Value);
+shape.SetHeight(2 * shape.XForm.Height.Value);
+// Save diagram
+diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

@@ -19,7 +19,35 @@ url: /zh/java/retrieve-get-copy-and-insert-a-page/
 ### **检索页面信息编程示例**
 以下代码从 diagram 中检索页面信息。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-RetrievePageInfo-RetrievePageInfo.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(RetrievePageInfo.class);
+
+//Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir+ "RetrievePageInfo.vdx");
+
+for (Page page : (Iterable<Page>) diagram.getPages())
+{
+    //Checks if current page is a background page
+    if (page.getBackground() == com.aspose.diagram.BOOL.TRUE)
+    {
+        //Display information about the background page
+        System.out.println("Background Page ID : " + page.getID());
+        System.out.println("Background Page Name : " + page.getName());
+    }
+    else
+    {
+        //Display information about the foreground page
+        System.out.println("\nPage ID : " + page.getID());
+        System.out.println("Universal Name : " + page.getNameU());
+        System.out.println("ID of the Background Page : " + page.getBackPage());
+    }
+}
+
+{{< /highlight >}}
+```
 ## **从 Diagram 获取 Visio 页面**
 有时，开发人员需要获取 Visio 图的页面详细信息。 Aspose.Diagram 具有帮助他们做到这一点的功能。
 
@@ -32,7 +60,21 @@ url: /zh/java/retrieve-get-copy-and-insert-a-page/
 
 以下示例显示如何通过 id 从 Visio 绘图中获取页面对象。
 #### **通过 ID 获取页面对象编程示例**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyID-GetVisioPagebyID.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetVisioPagebyID.class); 
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page id
+int pageid = 2;
+// Get page object by id
+Page page2 = diagram.getPages().getPage(pageid);
+
+{{< /highlight >}}
+```
 ### **按名称获取 Visio 页面对象**
 这个例子的工作原理如下：
 
@@ -41,7 +83,21 @@ url: /zh/java/retrieve-get-copy-and-insert-a-page/
 #### **按名称获取页面对象编程示例**
 以下示例显示如何从 Visio 绘图中按名称获取页面对象。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-GetVisioPagebyName-GetVisioPagebyName.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(GetVisioPagebyName.class);     
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Set page name
+String pageName = "Flow 2";
+// Get page object by name
+Page page2 = diagram.getPages().getPage(pageName);
+
+{{< /highlight >}}
+```
 ## **将 Visio 页面复制到另一个 Diagram**
 Aspose.Diagram for Java API 允许开发人员将其内容从一个 Visio diagram 复制并添加到另一个。此帮助主题说明了如何完成此任务。
 
@@ -60,7 +116,54 @@ Aspose.Diagram for Java API 允许开发人员将其内容从一个 Visio diagra
 ### **复制一个Visio页面编程样例**
 下面的代码示例显示了如何将 Visio 页面对象复制到另一个 Visio 绘图中。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-CopyVisioPage-CopyVisioPage.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(CopyVisioPage.class);
+        
+// Call the diagram constructor to load diagram from a VSD file
+Diagram originalDiagram = new Diagram(dataDir + "Drawing1.vsd");
+
+// initialize the new visio diagram
+Diagram newDiagram = new Diagram();
+
+// add all masters from the source Visio diagram
+MasterCollection originalMasters = originalDiagram.getMasters();
+for (Master master : (Iterable<Master>) originalMasters) {
+   newDiagram.addMaster(originalDiagram, master.getName());
+}
+
+// get the page object from the original diagram
+Page SrcPage = originalDiagram.getPages().getPage("Page-1");
+// set page name
+SrcPage.setName("new page");
+        
+// it calculates max page id
+int max = 0;
+if (newDiagram.getPages().getCount() != 0)
+    max = newDiagram.getPages().get(0).getID();
+
+for (int i = 1; i < newDiagram.getPages().getCount(); i++)
+{
+    if (max < newDiagram.getPages().get(i).getID())
+        max = newDiagram.getPages().get(i).getID();
+}
+       
+int MaxPageId = max;
+// set page id
+SrcPage.setID(MaxPageId);
+// add reference of the original diagram page
+newDiagram.getPages().add(SrcPage);
+
+// remove first empty page
+newDiagram.getPages().remove(newDiagram.getPages().get(0));
+
+// save diagram in VDX format
+newDiagram.save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **将 Visio Page 复制到另一个 Page 实例**
 Page 类的 Copy 方法采用要克隆的页面实例。
 
@@ -86,7 +189,43 @@ Pages 集合公开的 Add 方法允许开发人员在 Visio diagram 中添加一
 ### **插入空白页编程示例**
 下面的一段代码在 Visio 绘图中插入了一个空白页：
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Pages-InsertBlankPageInVisio-InsertBlankPageInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(InsertBlankPageInVisio.class);   
+// load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+        
+// it calculates max page id
+int max = 0;
+if (diagram.getPages().getCount() != 0)
+    max = diagram.getPages().get(0).getID();
+
+for (int i = 1; i < diagram.getPages().getCount(); i++)
+{
+    if (max < diagram.getPages().get(i).getID())
+        max = diagram.getPages().get(i).getID();
+}
+        
+// Initialize a new page object
+Page newPage = new Page();
+// Set name
+newPage.setName("new page");
+// Set page ID
+newPage.setID(max + 1);
+
+// Or try the Page constructor
+// Page newPage = new Page(MaxPageId + 1);
+
+// Add a new blank page
+diagram.getPages().add(newPage);
+
+// Save diagram
+diagram.save(dataDir + "InsertBlankPageInVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **在 Visio 绘图中移动页面位置**
 Aspose.Diagram for Java API 可以在Visio绘图中移动页面位置。 Page 类公开的 moveTo 方法可以帮助开发人员移动页面位置。
 ### **移动页面位置编程示例**

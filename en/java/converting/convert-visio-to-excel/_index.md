@@ -30,5 +30,18 @@ To export VSD diagram to Excel:
 1. Call the Diagram classs Save method and set the output format to Excel.
 
 ### **Exporting to Excel Programming Sample**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-LoadSaveConvert-ExportToCSV-ExportToCSV.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(ExportToCSV.class);
+
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToCSV.vsd");
+
+// Save as CSV file format
+diagram.save(dataDir + "ExportToPDF_Out.csv", SaveFileFormat.CSV);
+
+{{< /highlight >}}
+```
 

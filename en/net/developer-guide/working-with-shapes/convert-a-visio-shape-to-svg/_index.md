@@ -18,5 +18,25 @@ The code below shows how to:
 ### **Shape to Svg**
 Use the following code in your .net application to convert a visio shape to svg.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-ShapeToSvg.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "ShapeToSvg.vsdx");
+
+// Get a particular page
+Page page = diagram.Pages[0];
+
+// Get a particular shape
+Shape shape = page.Shapes[0];
+
+SVGSaveOptions svgOptions = new SVGSaveOptions();
+// Shape to Svg
+shape.ToSvg("out.svg",svgOptions);
+
+{{< /highlight >}}
+```
 

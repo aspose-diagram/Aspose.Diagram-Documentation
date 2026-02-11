@@ -11,13 +11,50 @@ Il metodo addComment, esposto dalla classe Page, consente di aggiungere commenti
 
  Microsoft Visio gli utenti aggiungono commenti all'intera pagina che sono presentati da un'icona nell'angolo in alto a sinistra della pagina. Gli sviluppatori possono[aggiungere commenti a livello di pagina nel Visio](). [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/) API supporta inoltre la modifica del commento a livello di pagina nel Visio.
 #### **Aggiungi commento Esempio di programmazione**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Comments-AddPageLevelCommentInVisio-AddPageLevelCommentInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(AddPageLevelCommentInVisio.class);
+// Call the diagram constructor to load diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Add comment
+diagram.getPages().getPage(0).addComment(7.205905511811023, 3.880708661417323, "test@");
+
+// Save diagram
+diagram.save(dataDir + "AddPageLevelCommentInVisio_Out.vdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Modificare un commento a livello di pagina nel Visio Diagram**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API supporta la modifica del commento a livello di pagina nella pagina di disegno Visio che viene presentata da un'icona nell'angolo in alto a sinistra della pagina.
 ### **Modifica commento**
 La proprietà Comment, esposta dalla classe Annotation, consente agli sviluppatori di modificare i commenti nella pagina di disegno Visio.
 #### **Modifica esempio di programmazione dei commenti**
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Comments-EditPageLevelCommentInVisio-EditPageLevelCommentInVisio.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(EditPageLevelCommentInVisio.class);
+// load Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// get collection of the annotations
+AnnotationCollection annotations = diagram.getPages().getPage("Page-1").getPageSheet().getAnnotations();
+
+// iterate through the annotations
+for (Annotation annotation : (Iterable<Annotation>) annotations) 
+{
+    String comment = annotation.getComment().getValue();
+    comment += "Updation mark";
+    annotation.getComment().setValue(comment);
+}
+// save Visio
+diagram.save(dataDir + "EditPageLevelCommentInVisio_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Aggiungere un commento a livello di forma nel disegno Visio**
 [Aspose.Diagram for Java](https://products.aspose.com/diagram/java/)API consente agli sviluppatori di aggiungere commenti alla forma in un disegno Visio.
 ### **Aggiungi un commento**

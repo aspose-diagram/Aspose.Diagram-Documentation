@@ -12,4 +12,17 @@ url: /tr/java/insert-an-activex-control-in-the-visio-diagram/
 ## **Bir ActiveX Kontrol Programlama Örneği Ekleme**
 [Sayfa](https://reference.aspose.com/diagram/java/com.aspose.diagram/page) class, addActiveXControl yöntemini sunar ve geliştiricilerin komut düğmesi, birleşik giriş kutusu, onay kutusu, liste kutusu, metin kutusu, döndürme düğmesi, radyo düğmesi, etiket, resim, geçiş düğmesi ve kaydırma çubuğu gibi her türlü ActiveX denetimini eklemesine izin verir.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-VisioActiveXControls-InsertanActiveControl-InsertanActiveControl.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(InsertanActiveControl.class) + "VisioActiveXControls/";
+// Instantiate Diagram Object
+Diagram diagram = new Diagram();
+// Insert an ActiveX control
+diagram.getPages().get(0).addActiveXControl(ControlType.IMAGE, 1, 1, 1, 1);
+// Save diagram
+diagram.save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

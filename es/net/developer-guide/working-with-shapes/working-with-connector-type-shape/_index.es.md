@@ -20,7 +20,27 @@ El siguiente código muestra cómo:
 #### **Ejemplo de programación de la apariencia del conector establecido**
 Use el siguiente código en su aplicación .NET para establecer la apariencia de la forma del tipo de conector usando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetConnectorAppearance-SetConnectorAppearance.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
+
+// Get a particular page
+Page page = diagram.Pages.GetPage("Page-3");
+// Get a dynamic connector type shape by id
+Shape shape = page.Shapes.GetShape(18);
+// Set dynamic connector appearance
+shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
+
+// Saving Visio diagram
+diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Seleccione la opción de redirección de la forma del conector**
  La propiedad ConFixedCode expuesta por el[Diseño](http://www.aspose.com/api/net/diagram/aspose.diagram/layout) La clase se puede utilizar para seleccionar la opción de redirección. La propiedad Layout, expuesta por el[Forma](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) clase, se utilizará.
 
@@ -34,4 +54,24 @@ El siguiente código muestra cómo:
 ### **Seleccionar ejemplo de programación de opción de redirección**
 Use el siguiente código en su aplicación .NET para seleccionar la opción de cambio de ruta de la forma del conector usando Aspose.Diagram for .NET.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-RerouteConnectors-RerouteConnectors.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Get page by name
+Page page = diagram.Pages.GetPage("Page-3");
+
+// Get a particular connector shape
+Shape shape = page.Shapes.GetShape(18);
+// Set reroute option
+shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
+
+// Save Visio diagram
+diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```

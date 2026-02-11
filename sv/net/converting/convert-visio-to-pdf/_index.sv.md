@@ -39,18 +39,95 @@ Nedan finns en bild av utdatafilen PDF.
 ### **Exportera Microsoft Visio Ritning till PDF**
 Kodexemplen visar hur man exporterar Microsoft Visio Ritning till PDF med C#.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 ### **Dela flera sidor**
 Aspose.Diagram for .NET tillåter uppdelning av flera sidor samtidigt som Microsoft Visio Diagram Diagram Diagram konverteras till PDF. Följande kodavsnitt visar funktionen.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-SplitMultiPages.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set SplitMultiPages option
+options.SplitMultiPages = true;
+// save in PDF format
+diagram.Save(dataDir + "SplitMultiPages.pdf", options);
+
+{{< /highlight >}}
+```
 ### **Använd Page Save Callback**
 Om du har flera sidor tillåter Aspose.Diagram for .NET att använda sidsparande återuppringning samtidigt som du konverterar Microsoft Visio Diagram till PDF. Följande kodavsnitt visar funktionaliteten.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-VisioSaveOptions-UsePDFSaveOptions-PageSavingCallback.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Call the diagram constructor to load diagram from a VSDX file
+Diagram diagram = new Diagram(dataDir + "Network Diagram_start.vsdx");
+// Initialize PdfSaveOptions
+Aspose.Diagram.Saving.PdfSaveOptions options = new Aspose.Diagram.Saving.PdfSaveOptions();
+// set PageSavingCallback option
+options.PageSavingCallback = new TestDiagramPageSavingCallback();
+// save in PDF format
+diagram.Save(dataDir + "PageSavingCallback.pdf", options);
+
+{{< /highlight >}}
+```
 #### **TestDiagramPageSavingCallback Class**
 {{< highlight "java" >}}
 
  public class TestDiagramPageSavingCallback : Aspose.Diagram.Saving.IPageSavingCallback
 
-{  public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)  {  Console.WriteLine("Börja spara {1} sida 0,0,0,0,1,0,1,0,1,0,0,0  }  public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)  {  Console.Skriv sida av {0}s. 1 sida,P 1 s, 1 s, 1 s, 1 s, 1 s, 1 s.   // matar inte ut sidor efter sida index 8.  if (args.pageIndex> = 8)   {  args.hasmorePages = falsk;  
+{
+ 
+ public void PageStartSaving(Aspose.Diagram.Saving.PageStartSavingArgs args)
+ 
+ {
+ 
+ Console.WriteLine("Börja spara {1} sida 0,0,0,0,1,0,1,0,1,0,0,0 
+ }
+ 
+ public void PageEndSaving(Aspose.Diagram.Saving.PageEndSavingArgs args)
+ 
+ {
+ 
+ Console.Skriv sida av {0}s. 1 sida,P 1 s, 1 s, 1 s, 1 s, 1 s, 1 s. 
+ 
+ // matar inte ut sidor efter sida index 8.
+ 
+ if (args.pageIndex> = 8) 
+ 
+ {
+ 
+ args.hasmorePages = falsk; 
+ 
+

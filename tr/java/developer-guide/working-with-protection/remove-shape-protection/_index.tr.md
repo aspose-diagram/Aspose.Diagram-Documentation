@@ -20,5 +20,43 @@ Microsoft Office Visio'de kullanıcı herhangi bir şekli korumak için aşağı
 ### **Şekil Koruma Programlama Örneğinin Kaldırılması**
 Aspose.Diagram for Java kullanarak aynı şeyi yapmak (herhangi bir şekil özniteliğinin kilidini açmak) için Java uygulamanızda aşağıdaki kodu kullanın.
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Protection-RemoveShapeProtection-RemoveShapeProtection.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(VisioShapeProtection.class);
+//Load diagram
+Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
+// get page by name
+Page page = diagram.getPages().getPage("Flow 1");
+// get shape by ID
+Shape shape = page.getShapes().getShape(1);
+
+// set protections
+shape.getProtection().getLockAspect().setValue(BOOL.FALSE);
+shape.getProtection().getLockBegin().setValue(BOOL.FALSE);
+shape.getProtection().getLockCalcWH().setValue(BOOL.FALSE);
+shape.getProtection().getLockCrop().setValue(BOOL.FALSE);
+shape.getProtection().getLockCustProp().setValue(BOOL.FALSE);
+shape.getProtection().getLockDelete().setValue(BOOL.FALSE);
+shape.getProtection().getLockEnd().setValue(BOOL.FALSE);
+shape.getProtection().getLockFormat().setValue(BOOL.FALSE);
+shape.getProtection().getLockFromGroupFormat().setValue(BOOL.FALSE);
+shape.getProtection().getLockGroup().setValue(BOOL.FALSE);
+shape.getProtection().getLockHeight().setValue(BOOL.FALSE);
+shape.getProtection().getLockMoveX().setValue(BOOL.FALSE);
+shape.getProtection().getLockMoveY().setValue(BOOL.FALSE);
+shape.getProtection().getLockRotate().setValue(BOOL.FALSE);
+shape.getProtection().getLockSelect().setValue(BOOL.FALSE);
+shape.getProtection().getLockTextEdit().setValue(BOOL.FALSE);
+shape.getProtection().getLockThemeColors().setValue(BOOL.FALSE);
+shape.getProtection().getLockThemeEffects().setValue(BOOL.FALSE);
+shape.getProtection().getLockVtxEdit().setValue(BOOL.FALSE);
+shape.getProtection().getLockWidth().setValue(BOOL.FALSE);
+        
+// save diagram
+diagram.save(dataDir + "VisioShapeProtection_Out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 

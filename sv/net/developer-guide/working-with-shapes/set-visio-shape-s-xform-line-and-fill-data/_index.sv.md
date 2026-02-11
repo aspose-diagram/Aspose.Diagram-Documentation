@@ -15,7 +15,29 @@ Processen för att uppdatera XForm-data är:
 ### **Programmeringsexempel**
 Kodavsnittet nedan visar hur du uppdaterar en forms XForm-data. Koden letar efter en process för formnamn, med form-ID 1, och ställer in dess X- och Y-koordinater till 5.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetXFormdata-SetXFormdata.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
+
+// Find a particular shape and update its XForm
+foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
+{
+    if (shape.NameU.ToLower() == "process" && shape.ID == 1)
+    {
+        shape.XForm.PinX.Value = 5;
+        shape.XForm.PinY.Value = 5;
+    }
+}
+// Save diagram
+diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Ställ in Visio Shape's Line Data**
 Former kan formateras på flera sätt. Den här artikeln visar hur du anger en linjes attribut.
 
@@ -34,7 +56,44 @@ Microsoft Visio låter användare formatera linjer på olika sätt. Aspose.Diagr
 #### **Linjedataprogrammeringsexempel**
 Följande kodbit uppdaterar formens linjedata.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetLineData-SetLineData.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "SetLineData.vsd");
+// Get the page by its name
+Aspose.Diagram.Page page1 = diagram.Pages.GetPage("Page-1");
+// Get shape by its ID
+Aspose.Diagram.Shape shape = page1.Shapes.GetShape(1);
+// Set line dash type by index
+shape.Line.LinePattern.Value = 4;
+// Set line weight, defualt in inch
+shape.Line.LineWeight.Value = 2;
+// Set color of the shape's line
+shape.Line.LineColor.Ufe.F = "RGB(95,108,53)";
+// Set line rounding, default in inch
+shape.Line.Rounding.Value = 0.3125;
+// Set line caps
+shape.Line.LineCap.Value = BOOL.True;
+// Set line color transparency in percent
+shape.Line.LineColorTrans.Value = 50;
+
+/* add arrows to the connector or curve shapes */
+// Select arrow type by index
+shape.Line.BeginArrow.Value = 4;
+shape.Line.EndArrow.Value = 4;
+// Set arrow size 
+shape.Line.BeginArrowSize.Value = ArrowSizeValue.Large;
+shape.Line.EndArrowSize.Value = ArrowSizeValue.Large;
+
+// Save the Visio
+diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ## **Ställ in Visio Shape's Fill Data**
  Former kan formateras på flera sätt. Det här avsnittet beskriver hur du anger en forms fyllning. Microsoft Office Visio låter användare formatera fyllningar på olika sätt. De[Fylla](http://www.aspose.com/api/net/diagram/aspose.diagram/fill) klass av Aspose.Diagram for .NET API stöder inställning:
 
@@ -47,10 +106,61 @@ Följande kodbit uppdaterar formens linjedata.
 #### **Fyll i dataprogrammeringsexempel**
 Följande kodavsnitt uppdaterar en forms fyllningsdata. Koden letar efter en form som heter rektangel, med form-ID 1, och ställer in fyllningsbakgrunds- och förgrundsfärgerna.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Shapes-SetFillData-SetFillData.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Call a Diagram class constructor to load the VSD diagram
+Diagram diagram = new Diagram(dataDir + "SetFillData.vsd");
+
+// Find a particular shape and update its XForm
+foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
+{
+    if (shape.NameU.ToLower() == "rectangle" && shape.ID == 1)
+    {
+        shape.Fill.FillBkgnd.Value = diagram.Pages[1].Shapes[0].Fill.FillBkgnd.Value;
+        shape.Fill.FillForegnd.Value = "#ebf8df";
+    }
+}
+// Save diagram
+diagram.Save(dataDir + "SetFillData_out.vsdx", SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 ### **Hämta ärvd fyllningsdata för en Visio-form**
  Visio-formerna kan ärva den överordnade stilen och huvudformen. Utvecklare kan hämta eller ställa in ärvd fyllningsdata för en Visio-form. Egenskapen InheritFill, exponerad av[Form](http://www.aspose.com/api/net/diagram/aspose.diagram/shape) klass, innehåller fyllningsformateringsvärdena för formen som ärvs av den överordnade stilen och huvudformen.
 #### **Hämta ärvt fyllningsdataprogrammeringsexempel**
 Följande kodavsnitt hämtar formens ärvda fyllningsdata. Kontrollera denna exempelkod:
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-RetrieveInheritedFillData-RetrieveInheritedFillData.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Call the diagram constructor to load a VSDX diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// Get page by ID
+Page page = diagram.Pages.GetPage("Page-1");
+// Get shape by ID
+Shape shape = page.Shapes.GetShape(1);
+// Get the fill formatting values
+Console.WriteLine(shape.InheritFill.FillBkgnd.Value);
+Console.WriteLine(shape.InheritFill.FillForegnd.Value);
+Console.WriteLine(shape.InheritFill.FillPattern.Value);
+Console.WriteLine(shape.InheritFill.ShapeShdwObliqueAngle.Value);
+Console.WriteLine(shape.InheritFill.ShapeShdwOffsetX.Value);
+Console.WriteLine(shape.InheritFill.ShapeShdwOffsetY.Value);
+Console.WriteLine(shape.InheritFill.ShapeShdwScaleFactor.Value);
+Console.WriteLine(shape.InheritFill.ShapeShdwType.Value);
+Console.WriteLine(shape.InheritFill.ShdwBkgnd.Value);
+Console.WriteLine(shape.InheritFill.ShdwBkgndTrans.Value);
+Console.WriteLine(shape.InheritFill.ShdwForegnd.Value);
+Console.WriteLine(shape.InheritFill.ShdwForegndTrans.Value);
+Console.WriteLine(shape.InheritFill.ShdwPattern.Value);
+
+{{< /highlight >}}
+```

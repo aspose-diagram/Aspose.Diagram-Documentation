@@ -10,7 +10,31 @@ description: Bu konu, Aspose.Diagram'in Visio'i SVG,XPS,XML,XAML biçimlerine d�
 ### **İhracat Microsoft Visio Çizimi PDF'e**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak PDF'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToPDF-ExportToPDF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
+
+MemoryStream pdfStream = new MemoryStream();
+// Save diagram
+diagram.Save(pdfStream, SaveFileFormat.PDF);
+
+// Create a PDF file
+FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
+pdfStream.WriteTo(pdfFileStream);
+pdfFileStream.Close();
+
+pdfStream.Close();
+
+// Display Status.
+System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+
+{{< /highlight >}}
+```
 
  Bu makalede, bir Microsoft Visio diagram kullanarak XML'e nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
@@ -55,7 +79,31 @@ Bir VSD diagram'i VTX'e aktarmak için:
 ### **Microsoft Visio Çizimi XML'e Aktar**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XML'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXML-ExportToXML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+            
+/* 1. Exporting VSDX to VDX */
+// Call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToXML.vsd");
+
+// Save input VSD as VDX
+diagram.Save(dataDir + "ExportToXML_out.vdx", SaveFileFormat.VDX);
+
+/* 2. Exporting from VSD to VSX */
+// Call the diagram constructor to load diagram from a VSD file
+            
+// Save input VSD as VSX
+diagram.Save(dataDir + "ExportToXML_out.vsx", SaveFileFormat.VSX);
+            
+/* 3. Export VSD to VTX */
+// Save input VSD as VTX
+diagram.Save(dataDir + "ExportToXML_out.vtx", SaveFileFormat.VTX);
+
+{{< /highlight >}}
+```
 
 ## **XPS'e aktar**
  Bu makalede, bir Microsoft Visio diagram'in XPS kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
@@ -75,7 +123,20 @@ VSD diagram'i XPS'e dışa aktarmak için:
 ### **İhracat Microsoft Visio Çizimi XPS'e**
 Kod örnekleri, Microsoft Visio Çiziminin C# kullanılarak XPS'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXPS-ExportToXPS.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Open a VSD file
+Diagram diagram = new Diagram(dataDir + "LayOutShapesInCompactTreeStyle.vdx");
+
+// Save diagram to an XPS format
+diagram.Save(dataDir + "ExportToXPS_out.xps", SaveFileFormat.XPS);
+
+{{< /highlight >}}
+```
 
 ## **Diagram'i SVG'e dışa aktarın**
  Bu makalede, bir Microsoft Visio diagram'in SVG'e (Ölçeklenebilir Vektör Grafikleri) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
@@ -89,7 +150,20 @@ VSD diagram'i SVG'e aktarmak için aşağıdaki adımları gerçekleştirin:
 ### **İhracat Microsoft Visio Çizimi SVG'e**
 Kod örnekleri, C# kullanarak bir diagram'in SVG'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSVG-ExportToSVG.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// Call the diagram constructor to load a VSD diagram
+Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
+
+// Save SVG Output file
+diagram.Save(dataDir + "Output.svg", SaveFileFormat.SVG);
+
+{{< /highlight >}}
+```
 ## **SWF'e aktar**
  Bu makalede, bir Microsoft Visio diagram'in SWF kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx) API.
 
@@ -106,11 +180,44 @@ VSD diagram'i SWF'e dışa aktarmak için::
 - Diagram sınıfının bir örneğini oluşturun.
 - Diagram sınıfının Save yöntemini çağırın ve diagram'inizi SWF'e dışa aktarmak için SWF biçimini sağlayın.
 ### **Katıştırılmış Görüntüleyici Programlama Örneği**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToSWF-ExportToSWF.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
+// Save diagram
+diagram.Save(dataDir + "Output_out.swf", SaveFileFormat.SWF);
+
+{{< /highlight >}}
+```
 ### **Görüntüleyici Programlama Örneği Olmadan**
 Bu kod parçacıkları tarafından oluşturulan SWF dosyası, bir SWF görüntüleyici içerir. Aşağıdaki kodu kullanarak SWF görüntüleyiciyi dosyadan hariç tutun.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-ExportToSWFWithoutViewer-ExportToSWFWithoutViewer.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Instantiate Diagram Object and open VSD file
+Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
+
+// Instantiate the Save Options
+SWFSaveOptions options = new SWFSaveOptions();
+
+// Set Save format as SWF
+options.SaveFormat = SaveFileFormat.SWF;
+
+// Exclude the embedded viewer
+options.ViewerIncluded = false;
+
+// Save the resultant SWF file
+diagram.Save(dataDir + "ExportToSWFWithoutViewer_out.swf", SaveFileFormat.SWF);
+
+{{< /highlight >}}
+```
 ## **Diagram'i XAML'e dışa aktarın**
 Bu makalede, bir Microsoft Visio diagram'in XAML'e (Genişletilebilir Uygulama İşaretleme Dili) kullanılarak nasıl dışa aktarılacağı açıklanmaktadır.[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
 
@@ -123,7 +230,18 @@ Bir VSD diagram'i XAML'e aktarmak için:
 ### **İhracat Microsoft Visio Çizimi XAML'e**
 Kod örneği, C# kullanarak bir diagram'in XAML'e nasıl aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ExportToXAML-ExportToXAML.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+// Save diagram
+diagram.Save(dataDir + "ExportToXAML_out.xaml", SaveFileFormat.XAML);
+
+{{< /highlight >}}
+```
 ## **Dönüştür Visio Seçici Şekillerle Çizim**
 Aspose.Diagram API'i kullanan geliştiriciler, bir Visio çizimini desteklenen herhangi bir formata dönüştürmek için bir grup şekil seçebilirler. RenderingSaveOptions sınıfı, şekil grubunu korumak için bir Shapes üyesi sunar. Her kaydetme seçeneği sınıfı, RenderingSaveOptions sınıfının genişletilmiş biçimidir.
 
@@ -135,4 +253,23 @@ Bir Visio çizimini seçici şekillerle dışa aktarmak için:
 ### **Dönüştür Visio Seçici Şekillerle Çizim Programlama Örneği**
 Kod örneği, bir çizimin seçici Visio şekillerle nasıl dışa aktarılacağını gösterir.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Load-Save-Convert-ConvertVisioWithSelectiveShapes.cs" >}}
+```
+{{< highlight "csharp" >}}
+// the path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+
+// call the diagram constructor to load diagram from a VSD file
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+// create an instance SVG save options class
+SVGSaveOptions options = new SVGSaveOptions();
+ShapeCollection shapes = options.Shapes;
+
+// get shapes by page index and shape ID, and then add in the shape collection object
+shapes.Add(diagram.Pages[0].Shapes.GetShape(1));
+shapes.Add(diagram.Pages[0].Shapes.GetShape(2));
+
+// save Visio drawing
+diagram.Save(dataDir + "SelectiveShapes_out.svg", options);
+{{< /highlight >}}
+```

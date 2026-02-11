@@ -9,4 +9,21 @@ description: This section explains how to remove unusing or hidden info from a d
 ## **Remove Hidden Info**
 Aspose.Diagram for .NET API allows developers to remove hidden info from a diagram. In order to remove hidden info, you can use **RemoveHiddenInfoItem** properties in  **RemoveHiddenInformation()** method of Diagram class. The code example below shows how to draw remove hidden info from diagram.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Pages-RemoveHiddenInfo-RemoveHiddenInfo.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+// Load an existing Visio
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Remove hidden information from diagram
+diagram.RemoveHiddenInformation((int)(RemoveHiddenInfoItem.Shapes | RemoveHiddenInfoItem.Masters));
+// Initialize HTML save options
+HTMLSaveOptions options = new HTMLSaveOptions();
+// Set export option of hidden Visio pages
+options.ExportHiddenPage = false;
+// Save the Visio diagram
+diagram.Save(dataDir + "RemoveHiddenInfo_out.html", options);
+
+{{< /highlight >}}
+```

@@ -61,7 +61,27 @@ Aspose.Diagram API 支持两种类型的文档属性，内置的和自定义的�
 - 要访问内置文档属性，请使用[**diagram.DocumentProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties).
 - 要访问自定义文档属性，请使用[**diagram.DocumentProps.CustomProps**](https://reference.aspose.com/diagram/net/aspose.diagram/documentproperties/properties/customprops).
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AccessingDocumentProperties.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//// Display Visio version and document modification time at different stages 
+Console.WriteLine("Visio Instance Version : " + diagram.Version);
+Console.WriteLine("Full Build Number Created : " + diagram.DocumentProps.BuildNumberCreated);
+Console.WriteLine("Full Build Number Edited : " + diagram.DocumentProps.BuildNumberEdited);
+Console.WriteLine("Date Created : " + diagram.DocumentProps.TimeCreated);
+Console.WriteLine("Date Last Edited : " + diagram.DocumentProps.TimeEdited);
+Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
+Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
+Console.WriteLine("CustomProps Length " + diagram.DocumentProps.CustomProps.Count);
+
+{{< /highlight >}}
+```
 
 ### **添加或删除自定义文档属性**
 
@@ -71,7 +91,26 @@ Aspose.Diagram API 支持两种类型的文档属性，内置的和自定义的�
 
 Aspose.Diagram API暴露了[**添加**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection/methods/add)的方法[**自定义道具集合**](https://reference.aspose.com/diagram/net/aspose.diagram/custompropcollection)类以便将自定义属性添加到集合中。
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-AddingCustomProperties.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Shapes();
+
+// Load a Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+
+//// Get CustomProperties of diagram
+Aspose.Diagram.CustomPropCollection customProperties = diagram.DocumentProps.CustomProps;
+//Set property of CustomProp
+Aspose.Diagram.CustomProp customProp = new Aspose.Diagram.CustomProp();
+customProp.PropType = Aspose.Diagram.PropType.String;
+customProp.CustomValue.ValueString = "Test";
+//Add CustomProp to Collection
+customProperties.Add(customProp);
+
+{{< /highlight >}}
+```
 
 ### **删除自定义属性**
 

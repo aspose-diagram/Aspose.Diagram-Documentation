@@ -9,7 +9,24 @@ description: So drehen Sie den Text der Form in visio mit .NET Diagram API.
 ## **Erstellen einer Diagram**
  Mit Aspose.Diagram for .NET können Sie Microsoft Visio Diagramme aus Ihren eigenen Anwendungen lesen und erstellen, ohne Microsoft Office Automatisierung. Der erste Schritt beim Erstellen neuer Dokumente ist das Erstellen einer diagram. Dann[Fügen Sie Formen und Verbinder hinzu](https://docs.aspose.com/diagram/net/add-retrieve-copy-and-read-visio-shape-data/)um die diagram aufzubauen. Verwenden Sie den Standardkonstruktor von[Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) Klasse, um eine neue diagram zu erstellen.
 ### **Programmierbeispiel**
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-Diagrams-CreateDiagram-CreateDiagram.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Diagrams();
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+// Initialize a new Visio
+Diagram diagram = new Diagram();
+dataDir = dataDir + "CreateDiagram_out.vsdx";
+// Save in the VSDX format
+diagram.Save(dataDir, SaveFileFormat.VSDX);
+
+{{< /highlight >}}
+```
 
 Dieses Beispiel funktioniert wie folgt:
 
@@ -21,4 +38,31 @@ Dieses Beispiel funktioniert wie folgt:
 ### **Text drehen Programmierbeispiel**
 Der folgende Beispielcode zeigt, wie Text in Visio diagram gedreht wird.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-Working-with-Text-RotateText-RotateText.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_ShapeText();
+
+// Call the diagram constructor to load diagram from a VDX file
+Diagram diagram = new Diagram(dataDir + "UpdateShapeText.vsd");
+// Get page by name
+Page page = diagram.Pages.GetPage("Flow 1");
+// Find a particular shape and update its text
+foreach (Aspose.Diagram.Shape shape in page.Shapes)
+{
+    if (shape.NameU.ToLower() == "process" && shape.ID == 1)
+    {
+        shape.Text.Value.Clear();
+        shape.Text.Value.Add(new Txt("New Text"));
+        // Set orientation angle
+        double angleDeg = 90;
+        double angleRad = (Math.PI / 180) * angleDeg;
+        shape.TextXForm.TxtAngle.Value = angleRad;
+    }
+}
+// Save diagram
+diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
+
+{{< /highlight >}}
+```

@@ -31,7 +31,23 @@ Aspose.Diagram API 已公开 setFontDirs 方法[Diagram](https://reference.aspos
 #### **编程范例**
 下面的代码示例演示了如何设置 Aspose.Diagram 以在呈现或嵌入字体时在多个文件夹中查找 TrueType 字体。
 
-{{< gist "aspose-diagram-gists" "a970e3b0531843f718d7f46abf12d56a" "Examples-src-main-java-com-aspose-diagram-examples-Fonts-SpecifyFontLocation-SpecifyFontLocation.java" >}}
+```
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getDataDir(SpecifyFontLocation.class);    
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+//Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+//setting the custom font directories
+diagram.setFontDirs(fontDirs);
+
+//saving Visio diagram in PDF format
+diagram.save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **在呈现过程中接收丢失字体和字体替换的通知**
 Aspose.Diagram API requires access to the accurate font in order to properly render the drawing to PDF format. If the required font is not available on the machine, then Aspose.Diagram API renders any instance of that font using the default font or the closest available font on the machine, since this substitution can change the look of the rendered drawing, developers may need to be notified when a font is missing and with what font it will be replaced.
 #### **缺少字体的通知和字体替换编程示例**

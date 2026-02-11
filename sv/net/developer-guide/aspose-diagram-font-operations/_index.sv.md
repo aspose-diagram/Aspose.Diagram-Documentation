@@ -27,7 +27,23 @@ Att ställa in teckensnittsmappen med någon av ovanstående metoder säkerstäl
 #### **Programmeringsexempel**
 Kodexemplet nedan visar hur du ställer in Aspose.Diagram att leta efter TrueType-teckensnitt i flera mappar när du renderar eller bäddar in teckensnitt.
 
-{{< gist "aspose-diagram-gists" "efd56218048f8b0ab925efd494227fdd" "Examples-CSharp-OS-Fonts-Location-SpecifyFontLocation-SpecifyFontLocation.cs" >}}
+```
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_Intro();
+
+String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
+// Load the Visio diagram
+Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+// Setting the custom font directories
+diagram.FontDirs = fontDirs;
+
+// Saving Visio diagram in PDF format
+diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
+
+{{< /highlight >}}
+```
 ### **Ta emot meddelande om saknade teckensnitt och teckensnittsersättning under rendering**
 Aspose.Diagram API kräver åtkomst till det korrekta teckensnittet för att ritningen ska kunna återges korrekt i formatet PDF. Om det önskade teckensnittet inte är tillgängligt på maskinen, renderar Aspose.Diagram API någon instans av det teckensnittet med standardteckensnittet eller det närmaste tillgängliga teckensnittet på maskinen, eftersom denna ersättning kan ändra utseendet på den renderade ritningen, kan utvecklare behöva meddelas när ett typsnitt saknas och med vilket typsnitt det kommer att ersättas med.
 #### **Meddelande om saknade teckensnitt och teckensnittsersättningsprogrammeringsexempel**
