@@ -28,6 +28,10 @@ FileStream st = new FileStream(dataDir + "Drawing1.vsdx", FileMode.Open);
 Diagram vsdDiagram = new Diagram(st);
 st.Close();
 
+// Call the diagram constructor to load a MMD file
+Diagram vdxDiagram = new Diagram(dataDir + "Drawing1.mmd");
+
+
 // Call the diagram constructor to load a VDX diagram
 Diagram vdxDiagram = new Diagram(dataDir + "Drawing1.vdx");
 
