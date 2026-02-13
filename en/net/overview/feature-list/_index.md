@@ -13,10 +13,8 @@ description: This page describes the feature list of Aspose.Diagram library.
 - Create diagrams from scratch.
 
 **Read**:
-
-- Read Microsoft Visio 2003/2007/2010 VSS format.
 - Read Microsoft Visio 2003/2007/2010 VDW format.
-- Read Microsoft Visio 2003/2007/2010 VST format.
+- Read Mermaid flowchat and Mermaid sequence format.
 
 **Read and write**:
 
@@ -30,6 +28,8 @@ description: This page describes the feature list of Aspose.Diagram library.
 - Read or write Microsoft Visio 2003/2007/2010 VDX format.
 - Read or write Microsoft Visio 2003/2007/2010 VSX format.
 - Read or write Microsoft Visio 2003/2007/2010 VTX format.
+- Read or write Microsoft Visio 2003/2007/2010 VSS format.
+- Read or write Microsoft Visio 2003/2007/2010 VST format.
 
 **Export**:
 

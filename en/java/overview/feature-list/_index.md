@@ -15,6 +15,7 @@ description: Visio Diagram Java API feature list include create, read, write, ex
 **Read**:
 
 - Read Microsoft Visio 2003/2007/2010 VDW format.
+- Read Mermaid flowchat and Mermaid sequence format.
 
 **Read and write**:
 

@@ -11,7 +11,7 @@ This page describes the most interesting new Aspose.Diagram features introduced 
 
 Starting from 22.6, the Dependency in the pom.xml of the maven project needs to delete the classifier section
 
-## Aspose.Diagram for Java 24.9
+## Aspose.Diagram for Java 26.2
 
-* Support saving vsd
+* Support loading mmd
 
