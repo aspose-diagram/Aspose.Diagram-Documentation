@@ -13,6 +13,9 @@ lastmod: "2022-01-25"
 
 This page describes the most interesting new Aspose.Diagram features introduced in recent releases.
 
+## Aspose.Diagram for .NET 26.3
+* Support adding bookmarks to pdf
+
 ## Aspose.Diagram for .NET 26.2
 * Support net10
 * Support loading Mermaid
