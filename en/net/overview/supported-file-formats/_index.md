@@ -21,16 +21,16 @@ The following table indicates the file formats that Aspose.Diagram for .NET can 
 |[VSDM](https://docs.fileformat.com/visio/vsdm/)|Visio Macro-Enabled Drawing file type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSSM](https://docs.fileformat.com/visio/vssm/) |Stores collection of shapes|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VSTM](https://docs.fileformat.com/visio/vstm/) |VSTM that contains both Drawing template and macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}| | |
-|[VSS](https://docs.fileformat.com/visio/vss/)|The Visio Stencil File Type|{{< emoticons/tick >}}| | |
-|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}| | |
+|[VDW](https://docs.fileformat.com/visio/vdw/)|Visio Web Drawing File Type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VSS](https://docs.fileformat.com/visio/vss/)|The Visio Stencil File Type|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MMD]|Mermaid flowchat and Mermaid sequence diagram|{{< emoticons/tick >}}| | |
-|[DRAWIO]|Drawio format|{{< emoticons/tick >}}| | |
+|[DRAWIO]|Drawio format| |{{< emoticons/tick >}}| |
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)| |{{< emoticons/tick >}}| |
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format| |{{< emoticons/tick >}}| |
 |[XAML](https://docs.fileformat.com/web/xaml/)|XAML format| |{{< emoticons/tick >}}| |
 |[SWF](https://docs.fileformat.com/page-description-language/swf/)|Adobe Flash File| |{{< emoticons/tick >}}| |
-|[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Scalable Vector Graphics (An XML-based vector image format)| |{{< emoticons/tick >}}| |{{< emoticons/tick >}}| |
+|[SVG](https://docs.fileformat.com/specification/page-description-language/svg/)|Scalable Vector Graphics (An XML-based vector image format)|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[EMF](https://docs.fileformat.com/image/emf/)|Enhanced MetaFile| |{{< emoticons/tick >}}| |
 |[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG Format| |{{< emoticons/tick >}}| |
 |[PNG](https://docs.fileformat.com/image/png/)|PNG Format| |{{< emoticons/tick >}}| |
