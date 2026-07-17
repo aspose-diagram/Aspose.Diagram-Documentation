@@ -243,6 +243,30 @@ diagram.Save(dataDir + "ExportToXAML_out.xaml", SaveFileFormat.XAML);
 
 {{< /highlight >}}
 
+## **Export a Diagram to DRAWIO**
+This article explains how to export a Microsoft Visio diagram to DrawIO using [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net/) API.
+
+Use the [Diagram](http://www.aspose.com/api/net/diagram/aspose.diagram/diagram) class' constructor to read the diagram files and the Save method to export the diagram to any supported image format.
+
+To export a VSD diagram to DRAWIO:
+
+1. Create an instance of the Diagram class.
+1. Call the class' Save method and set DRAWIO as the export format.
+### **Export Microsoft Visio Drawing to DRAWIO**
+The code sample show how to export a diagram to DRAWIO using C#.
+
+
+{{< highlight csharp >}}
+// For complete examples and data files, please go to https://github.com/aspose-diagram/Aspose.Diagram-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+// Load diagram
+Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
+// Save diagram
+diagram.Save(dataDir + "ExportToXAML_out.drawio", SaveFileFormat.Drawio);
+
+{{< /highlight >}}
+
 ## **Convert Visio Drawing with Selective Shapes**
 Using Aspose.Diagram API, developers can select a group of shapes to convert a Visio drawing into any other supported format. RenderingSaveOptions class offers a Shapes member to maintain the group of shapes. Each save option class is the extended form of RenderingSaveOptions class.
 
