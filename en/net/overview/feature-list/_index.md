@@ -39,6 +39,7 @@ description: This page describes the feature list of Aspose.Diagram library.
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XML Paper Specification (XPS).
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to Macromedia Flash File Format (SWF).
 - Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to XAML.
+- Export diagrams (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX and VSX) to DRAWIO.
 
 **Print**:
 
