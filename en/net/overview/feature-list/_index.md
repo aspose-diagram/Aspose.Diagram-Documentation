@@ -30,6 +30,8 @@ description: This page describes the feature list of Aspose.Diagram library.
 - Read or write Microsoft Visio 2003/2007/2010 VTX format.
 - Read or write Microsoft Visio 2003/2007/2010 VSS format.
 - Read or write Microsoft Visio 2003/2007/2010 VST format.
+- Read or write HTML.
+- Read or write SVG format.
 
 **Export**:
 
