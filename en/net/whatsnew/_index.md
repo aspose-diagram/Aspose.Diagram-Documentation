@@ -13,8 +13,8 @@ lastmod: "2022-01-25"
 
 This page describes the most interesting new Aspose.Diagram features introduced in recent releases.
 
-## Aspose.Diagram for .NET 26.7
-* Support saving DrawIO
+## Aspose.Diagram for .NET 26.11
+* Support saving Dxf
 
 
 

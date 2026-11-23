@@ -26,6 +26,7 @@ The following table indicates the file formats that Aspose.Diagram for .NET can 
 |[VST](https://docs.fileformat.com/visio/vst/)|VST Template File|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MMD]|Mermaid flowchat and Mermaid sequence diagram|{{< emoticons/tick >}}| | |
 |[DRAWIO]|Drawio format| |{{< emoticons/tick >}}| |
+|[DXF](https://www.aspose.info/cad/dxf/)|Dxf format| |{{< emoticons/tick >}}| |
 |[PDF](https://docs.fileformat.com/pdf/)|PDF (Portable Document Format)| |{{< emoticons/tick >}}| |
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XPS format| |{{< emoticons/tick >}}| |
 |[XAML](https://docs.fileformat.com/web/xaml/)|XAML format| |{{< emoticons/tick >}}| |
